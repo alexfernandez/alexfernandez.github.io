@@ -3,7 +3,7 @@
 
 date=$(date -Iseconds -u)
 
-pandoc from-ground-to-cloud.md from-ground-to-cloud.html
+pandoc from-ground-to-cloud.md -o from-ground-to-cloud.html
 
 git add -A
 git commit -am "Make on $date"
