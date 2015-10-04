@@ -15,5 +15,5 @@ A collection of articles published over the years.
 
 ## And Now for Something Not Quite Alike
 
-Please browse my [other projects].
+Please browse my [other projects](https://github.com/alexfernandez/).
 
