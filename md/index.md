@@ -11,11 +11,10 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 A collection of articles published over the years.
 
-* [From Ground to Cloud in Two Hours](from-ground-to-cloud.html).
+* 2012-03-30: [Developer Discipline](developer-discipline.html).
+* 2012-06-04: [From Ground to Cloud in Two Hours](from-ground-to-cloud.html).
 
 ## Artículos en español
-
-
 
 ## And Now for Something Not Quite Alike
 
