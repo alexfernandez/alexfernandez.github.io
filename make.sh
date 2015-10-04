@@ -3,8 +3,8 @@
 
 date=$(date -Iseconds -u)
 
-pandoc -w html5 -s index.md -o index.html
-pandoc -w html5 -s from-ground-to-cloud.md -o from-ground-to-cloud.html
+pandoc -w html5 -s md/index.md -o index.html
+pandoc -w html5 -s md/from-ground-to-cloud.md -o from-ground-to-cloud.html
 
 git add -A
 git commit -am "Make on $date"
