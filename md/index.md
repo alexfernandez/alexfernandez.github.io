@@ -11,13 +11,14 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 A collection of articles published over the years.
 
-* 2012-03-30: [Developer Discipline](developer-discipline.html).
-* 2012-06-04: [From Ground to Cloud in Two Hours](from-ground-to-cloud.html).
+* 2012-03-30: [Developer Discipline](2012/developer-discipline.html).
+* 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
 
 ## Artículos en español
 
-* 2013-11-12: [Node.js: ¿rápido como el rayo?](nodejs-rapido-como-el-rayo.html)
-* 2013-11-24: [Optimizando sockets con node.js](optimizando-sockets.html)
+* 2013-08-27: [Pruebas de carga](2013/pruebas-de-carga.html)
+* 2013-11-12: [Node.js: ¿rápido como el rayo?](2013/nodejs-rapido-como-el-rayo.html)
+* 2013-11-24: [Optimizando sockets con node.js](2013/optimizando-sockets.html)
 
 ## And Now for Something Not Quite Alike
 
