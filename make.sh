@@ -3,6 +3,7 @@
 
 date=$(date -Iseconds -u)
 
+pandoc index.md -o index.html
 pandoc from-ground-to-cloud.md -o from-ground-to-cloud.html
 
 git add -A
