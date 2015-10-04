@@ -1,6 +1,6 @@
 # From Ground to Cloud in Two Hours
 
-![Photo credit: Alex Fernández](from-ground-to-cloud.jpg)
+![Scale the Wall](from-ground-to-cloud.jpg Photo credit: Alex Fernández)
 
 It was one of those Friday afternoons which promised to draw away sweetly and slowly. Then I received a call from one of our good friends at [mamamandame.com](http://mamamandame.com/): they were being featured on [elmundo.es](http://www.elmundo.es/elmundo/2012/06/01/madrid/1338504494.html) and their website was not handling the load well. So, could it be moved to the cloud in a few hours? Ah, how I missed those unexpected adrenalin rushes on Friday afternoons.
 
