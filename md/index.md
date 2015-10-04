@@ -16,6 +16,7 @@ A collection of articles published over the years.
 
 ## Artículos en español
 
+* 2013-11-12: [Node.js: ¿rápido como el rayo?](nodejs-rapido-como-el-rayo.html)
 * 2013-11-24: [Optimizando sockets con node.js](optimizando-sockets.html)
 
 ## And Now for Something Not Quite Alike
