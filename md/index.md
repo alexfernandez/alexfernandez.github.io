@@ -16,6 +16,8 @@ A collection of articles published over the years.
 
 ## Artículos en español
 
+* 2013-11-24: [Optimizando sockets con node.js](optimizando-sockets-con-nodejs.html)
+
 ## And Now for Something Not Quite Alike
 
 Please browse my [other projects](https://github.com/alexfernandez/).
