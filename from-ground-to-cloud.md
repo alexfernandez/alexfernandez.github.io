@@ -80,5 +80,5 @@ Linux (and Amazon Linux in particular) is an excellent sysadmin environment, wit
 
 But the key point is: the cloud (and Amazon’s cloud in particular) lets us solve our problems in due time, as we see fit. The almost instantaneous capacity of reaction to outside events is invaluable for a small business. We have not leveraged the power to automate yet, but all in due course. And be sure to pay us a visit at [mamamandame.com](http://mamamandame.com/)! especially if you are a Spanish expatriate pining for some jamón ibérico. Just don’t look surprised if you come in from a high-traffic site and find the site down; we may yet have to go for a [Cluster compute instance](http://aws.amazon.com/ec2/#instance).
 
-Posted originally on [Tumblr](http://tech.moveinblue.com/post/24425607645/from-ground-to-cloud-in-two-hours) on 2012-06-04.
+Posted originally at [Tumblr](http://tech.moveinblue.com/post/24425607645/from-ground-to-cloud-in-two-hours) on 2012-06-04.
 
