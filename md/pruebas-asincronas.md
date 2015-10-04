@@ -1,6 +1,6 @@
 % Pruebas asíncronas en node.js
 
-!(pics/pruebas-asincronas.jpg "Laboratorio de pruebas")
+![](pics/pruebas-asincronas.jpg "Laboratorio de pruebas")
 
 node.js está muy orientado al desarrollo de software asíncrono: en lugar de ejecutar código y mantenernos ocupados mientras llega la respuesta, se suele liberar el hilo de ejecución para que corran otras tareas mientras esperamos.
 
