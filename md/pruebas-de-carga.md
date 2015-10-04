@@ -1,295 +1,320 @@
 % Pruebas de carga
 
-![Imagen: [MGR!](http://commons.wikimedia.org/wiki/File:Tormenta_sobre_Madrid_%28Salamanca%29_01.jpg)](pics/nodejs-rapido-como-el-rayo.jpg "Tormenta sobre Madrid (Salamanca) 01")
+![Imagen: [Queenslander](http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg)](pics/pruebas-de-carga.jpg "Weighing cotton bales at the Brisbane ginnery")
 
-Muchos de vosotros habréis llegado a node.js atraídos por su supuesta “velocidad”. ¿Es realmente tan rápido sirviendo páginas web como lo pintan? En esta entrada vamos a investigar un poco sobre este mito, tomando como banco de pruebas un clon experimental de memcached hecho en node: [nodecached](https://npmjs.org/package/nodecached). Por el camino haremos unas cuantas [pruebas de carga](pruebas-de-carga.html) y veremos algunos trucos de optimización.
+En esta ocasión nos vamos a alejar por un rato de node.js, y vamos a ver cómo hacer pruebas de carga a nuestro servidor web.
 
-## Comparaciones odiosas
+## Herramientas
 
-Se oye a menudo por ahí que node.js es muy rápido. ¿Qué quiere decir eso exactamente? Sabemos que node es un servidor que corre código JavaScript; aunque su motor V8 (adaptado de Chrome) sea muy rápido, sigue siendo un lenguaje interpretado, lo que claramente es una desventaja frente a código nativo — e incluso frente a código gestionado como Java o .NET. ¿Hasta dónde llega esa desventaja?
+Para empezar vamos a mirar un par de herramientas muy sencillas y libres (o si lo prefieres open source) que podemos usar completamente gratis.
 
-### Eligiendo el campo de batalla
+### Apache ab
 
-La mejor forma de encontrar los límites del rendimiento es hacer una comparativa con un servidor rápido.
-
-En esta ocasión vamos a dejarnos de servidores web: en su lugar, jugaremos con un servidor que tiene un protocolo sencillo y fácil de replicar. Y no se trata del típico chat.
-
-Podíamos hacer como todo el mundo y comparar node.js [contra .NET](http://stackoverflow.com/questions/9290160/node-js-vs-net-performance). Al fin y al cabo ya lo ha hecho [mucha](http://www.salmanq.com/blog/net-and-node-js-performance-comparison/2013/03/) [gente](http://guillaume86.calepin.co/dotnet-vs-nodejs-performance.html), ¿qué daño puede haber en un artículo más? Y ya puestos, ¿por qué no contra [Java](http://stackoverflow.com/questions/16253557/in-http-mode-does-node-js-have-substantial-performance-advantage-over-java)?, o para ser más precisos contra Tomcat o algún otro servidor J2EE. Este campo está también [muy trillado](http://java.dzone.com/articles/performance-comparison-between). Y no hablemos del [pobre](http://zgadzaj.com/benchmarking-nodejs-basic-performance-tests-against-apache-php) [PHP](http://www.appdynamics.com/blog/2013/10/17/an-example-of-how-node-js-is-faster-than-php/)…
-
-No, estos servidores de uso mayoritariamente corporativo están altamente optimizados para lo que hacen, pero siguen teniendo limitaciones básicas: máquinas virtuales que corren código gestionado. Además, los servidores web añaden peso al procesamiento; en el mejor de los casos estaríamos probando su eficiencia interna. Vamos a intentar llegar un poco más abajo en el stack, quedándonos al nivel de socket. Elegimos como contendiente a [memcached](http://memcached.org/): un servidor escrito en C y optimizado hasta la muerte por usuarios interesados (embarcados, entre otras cosas, en pugnas de velocidad con Redis). El manejo de datos interno es además muy sencillo: una simple caché LRU en memoria. ¿Qué mejor rival para verificar la supuesta velocidad de node.js?
-
-Para tener más base de comparación usamos también [Couchbase Server](http://www.couchbase.com/couchbase-server/overview): una base de datos NoSQL que tiene el mismo protocolo que memcached pero una implementación diferente en Erlang y C.
-
-### Clonando memcached
-
-Hacer un clon de memcached es relativamente fácil: el [protocolo básico](https://github.com/memcached/memcached/blob/master/doc/protocol.txt) es muy sencillo. La operación `set key ... value` recibe una clave y un valor y los guarda. Opcionalmente podemos especificar un tiempo de vida del objeto y unos flags. Con `get key` pasamos la clave y obtenemos el valor. Por último, `delete key` borra la clave y el valor asociado.
-
-Vaya por delante que no estamos innovando mucho: buscando por “memcached server node.js” encontramos un tipo que ha hecho un [clon de memcached](https://groups.google.com/forum/#!topic/nodejs/gqZZmMf3W5M) en 100 líneas ([200 incluyendo la caché LRU](https://gist.github.com/fxsjy/3291755)).
-Pero es un ejercicio interesante: el caso de uso está bastante cerca de un servidor corporativo que no sea web. Curiosamente, hay muchas librerías en npm [relacionadas con memcached](https://npmjs.org/search?q=memcached), muchos clientes y utilidades, pero no he encontrado ningún servidor.
-
-El resultado es [nodecached](https://npmjs.org/package/nodecached), una implementación muy básica que hasta el momento ni siquiera libera memoria cuando debería. Implementamos sólo versiones simplificadas de los comandos básicos: `get`, `set` y `delete`. El plan es completar los comandos, cosa que no debería ser difícil ya que el [parser](https://github.com/alexfernandez/nodecached/blob/master/lib/parser.js) es configurable.
-
-Por ahora lo que tenemos nos servirá para nuestros aviesos propósitos: podemos jugar con el código y probar diferentes parámetros de optimización.
-
-### Librería cliente
-
-Una vez implementado el servidor tenemos que escribir también un [cliente](https://github.com/alexfernandez/nodecached/blob/master/lib/client.js), y una [librería de pruebas de carga](https://github.com/alexfernandez/nodecached/blob/master/lib/loadtest.js) similar a [la que ya vimos en su momento](pruebas-de-carga.html).
-
-La librería funciona de la siguiente manera: lanza un número de peticiones GET con una clave aleatoria, que por lo tanto no van a devolver nada. Y ya está: ni escritura previa, ni precalentamiento, ni nada. Se considera que la petición ha tenido éxito si no da error (aunque no devuelva nada).
-
-Podemos elegir el nivel de concurrencia con la opción `-c` y el número de peticiones con `-n`, como con [Apache ab](http://httpd.apache.org/docs/2.2/programs/ab.html). Luego sólo tenemos que pasar el puerto, por ejemplo:
+La más conocida es [ab](http://httpd.apache.org/docs/2.2/programs/ab.html), por _Apache Benchmark_. Un ejemplo sencillo de uso:
 
 ```
-$ node bin/loadtest.js -c 10 -n 100000 11211
+$ ab -c 10 -n 1000 http://127.0.0.1:8080/
 ```
 
-lanzará cien mil peticiones con concurrencia 10 contra un servidor en el puerto por defecto de memcached, 11211. Si queremos probar contra el Couchbase instalado localmente sólo tenemos que cambiar el puerto al 11212:
+Los parámetros más importantes son:
+
+* -c _concurrencia_: número de peticiones concurrentes. Se lanzan tantos hilos como indique este parámetro, así que nunca tendremos más peticiones en vuelo que este número.
+* -n _peticiones_: número total de peticiones a lanzar.
+* -t _segundos_: tiempo de pruebas, tras el que ab dejará de recibir peticiones.
+
+Después de los parámetros se añade la URL a probar. Hay otras opciones para enviar peticiones POST, añadir contenido en un formulario, y demás; pero para empezar vamos a suponer que nuestra aplicación tiene una [interfaz Rest](http://es.wikipedia.org/wiki/Representational_State_Transfer) y que por tanto se pueden hacer peticiones GET enviando toda la información necesaria en la URL.
+
+_Los consejos del abuelo cebolleta_: si tu aplicación no es Rest, haz que lo sea. Será mil veces más sencilla de probar, porque sólo necesitarás un navegador para depurarla. ¡Haz tu vida más sencilla!
+
+Vamos a probar nuestro nuevo juguete contra un servidor que nos hemos montado con [express](http://expressjs.com/). La salida de ab será algo así (dejando sólo las líneas más importantes):
 
 ```
-$ node bin/loadtest.js -c 10 -n 10000 11212
-```
+$ ab -n 10000 http://127.0.0.1:8080/
 
-La salida, también inspirada en Apache ab, nos muestra los resultados de esta forma:
-
-```
-Concurrency Level:      10
-Time taken for tests:   0.399 seconds
-Complete requests:      10000
-Failed requests:        0
-Requests per second:    25063 [#/sec] (mean)
-Time per request:       0.0399 [ms] (mean)
-Time per request:       0.00399 [ms] (mean, across all concurrent requests)
-```
-
-En este caso todas las pruebas (10000) han finalizado correctamente. En lo sucesivo mostraremos sólo las partes relevantes de la salida, normalmente las peticiones por segundo y poco más.
-
-## Las pruebas
-
-Llega el momento de arrancar nuestro invento.
-
-### La máquina
-
-El ordenador elegido para las pruebas tiene un procesador i3-2120T @2.60GHz con sólo dos cores, elegido por su bajo consumo y no por su rendimiento estelar — no en vano es un procesador de portátil. Corre Debian testing con la versión de node 0.8.23, un tanto anticuada; más adelante probaremos también la 0.10.20 para comprobar si hay diferencias.
-
-### El servidor
-
-Como aconsejaron al [clonador de las 100 líneas](https://groups.google.com/forum/#!topic/nodejs/gqZZmMf3W5M), arrancamos el servidor con la opción `--nouse_idle_notification` para domesticar un poco la máquina virtual y que no recoja la basura cuando le parezca. Elegimos el puerto 11311 para nuestro servidor:
-
-```
-$ node --nouse_idle_notification bin/nodecached.js -p 11311
-```
-
-Y ¡ya estamos andando!
-
-### El cliente
-
-Vamos a correr nuestro cliente básico contra los tres servidores en puertos diferentes:
-
-* 11211: memcached 1.4.13.
-* 11212: CouchBase community 1.8.1.
-* 11311: node.js 0.8.23.
-
-La primera prueba irá con concurrencia uno: un solo cliente lanzando peticiones en serie. Los resultados son los siguientes, primero para nuestro servidor nodecached:
-
-```
-$ node bin/loadtest.js -n 10000 11311
 Concurrency Level:      1
-Time taken for tests:   0.877 seconds
+Time taken for tests:   4.895 seconds
 Complete requests:      10000
-Requests per second:    11403 [#/sec] (mean)
-Time per request:       0.0877 [ms] (mean)
+Requests per second:    2042.84 [#/sec] (mean)
+Time per request:       0.490 [ms] (mean)
+
+Percentage of the requests served within a certain time (ms)
+  50%      0
+  66%      0
+  75%      0
+  80%      0
+  90%      1
+  95%      1
+  98%      1
+  99%      1
+ 100%     11 (longest request)
 ```
 
-A continuación para memcached:
+Los números más interesantes son las peticiones por segundo (abreviado req/s, por _requests per second_) y el tiempo por petición: estamos pasando de las 2000 req/s, y cada petición dura medio milisegundo, de media. Ahora vamos a añadir concurrencia con el parámetro `-c`: en lugar de ir todas las peticiones en secuencia, una tras otra, lanzaremos varias a la vez. ¿Para qué sirve tener múltiples peticiones a la vez? Para ver si nuestro servidor responde bien, claro: en la vida real un usuario no se espera a que termine el anterior para lanzar su petición. Además los resultados suelen ser incluso mejores:
 
 ```
-$ node bin/loadtest.js -n 10000 11211
-Concurrency Level:      1
-Time taken for tests:   0.898 seconds
+$ ab -c 10 -n 10000 http://127.0.0.1:8080/
+
+Concurrency Level:      10
+Time taken for tests:   3.334 seconds
 Complete requests:      10000
-Failed requests:        0
-Requests per second:    11136 [#/sec] (mean)
-Time per request:       0.0898 [ms] (mean)
+Requests per second:    2999.08 [#/sec] (mean)
+Time per request:       3.334 [ms] (mean)
+Time per request:       0.333 [ms] (mean, across all concurrent requests)
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      4
+  90%      4
+  95%      5
+  98%      7
+  99%     10
+ 100%     27 (longest request)
 ```
 
-Y por último para Couchbase:
+¡Ahora llegamos casi a 3000 req/s! Nuestro servidor está aprovechando mejor el tiempo porque, cuando una petición está ocupada con algo, responde a la siguiente. ¿Significa esto que estamos listos para servir 2999 req/s? En absoluto; significa que, para esta petición en concreto, en local y con un número limitado de peticiones, nuestro servidor responde a estas peticiones por segundo. Esta medición es sólo un punto de partida que tenemos que refinar usando peticiones más complejas y condiciones más realistas.
+
+Podéis ver más detalles sobre cómo usar ab en el [excelente tutorial de Jonathan Wiesel](http://codehero.co/como-hacer-pruebas-de-carga-servidores-web/). También se muestra cómo usar Siege, otra herramienta similar.
+
+### loadtest.js
+
+Al principio del artículo os he contado que íbamos a dejar node.js tranquilo. Pues lo siento pero os he soltado una mentirijilla. ¿En serio pensábais que íbamos a pasarnos una entrada entera sin hablar de nuestro servidor favorito?
+
+El buen ingeniero, como el artesano de antaño, siempre elige sus herramientas cuidadosamente; y si no existen se las inventa. La siguiente librería es obra del autor de este artículo; [loadtest](https://npmjs.org/package/loadtest) ([repo GitHub](https://github.com/alexfernandez/loadtest)). Aparte de usar los parámetros más importantes compatibles con ab, como `-n` o `-c`, tiene una opción muy interesante que nos permite enviar un número fijo de peticiones por segundo a nuestro servidor.
+
+Para instalarla sólo tenemos que usar [npm](https://npmjs.org/), el gestor de paquetes de node, como root:
 
 ```
-$ node bin/loadtest.js -n 10000 11212
-Concurrency Level:      1
-Time taken for tests:   0.871 seconds
-Complete requests:      10000
-Failed requests:        0
-Requests per second:    11481 [#/sec] (mean)
-Time per request:       0.0871 [ms] (mean)a
+# npm install -g loadtest
 ```
 
-Más de 11000 peticiones por segundo, que vamos a abreviar a 11 kreq/s. ¡Qué bien!, ¿no?
-
-Es curioso: los tres servidores tienen una respuesta muy parecida, cuando son tres programas completamente diferentes en lenguajes distintos. ¿No será una limitación fundamental de nuestro cliente? Primero vamos a intentar aumentar el nivel de concurrencia a 10:
+En Ubuntu o Mac OS X se usa `sudo`:
 
 ```
-$ node bin/loadtest.js -n 10000 -c 10 --delay 11311
-Concurrency Level:      10
-Time taken for tests:   0.608 seconds
-Complete requests:      10000
-Failed requests:        0
-Requests per second:    16447 [#/sec] (mean)
+$ sudo npm install -g loadtest
 ```
 
-A partir de este punto nos quedaremos sólo con las peticiones por segundo, tomaremos tres medidas y mostraremos la media. Los resultados son:
+¡Y listo! Ya tenemos instalado un comando `loadtest` que nos va a ayudar a probar nuestra aplicación web. Un ejemplo sencillo, similar a los que ya hemos visto. Vamos a lanzar 10000 peticiones, con 10 peticiones concurrentes, a un servidor local en el puerto 8080. Las opciones básicas son iguales que las de `ab`; la salida es similar pero más escueta, y los resultados se parecen bastante:
 
 ```
-nodecached: 16.1 kreq/s,
-memcached: 16 kreq/s,
-Couchbase: 16.3 kreq/s.
+$ loadtest -c 10 -n 10000 http://127.0.0.1:8080/
+
+Completed requests:  10000
+Total time:          4.472977 s
+Requests per second: 2236
+Mean latency:        4.44 ms
+
+Percentage of the requests served within a certain time
+  50%      4 ms
+  90%      6 ms
+  95%      7 ms
+  99%      12 ms
+ 100%      19 ms (longest request)
 ```
 
-¡Otra vez resultados muy parecidos! Probando con distintas concurrencias no conseguimos mejores tiempos. Lo que necesitamos es contrastar el rendimiento con otro cliente diferente.
+Ahora en lugar de 3000 estamos alrededor de las 2200 req/s. ¿Por qué nos quedamos bastante por debajo que antes? Hay que decir que loadtest tiene un cierto overhead al estar escrito para node.js y no en C súper-optimizado, por lo que es normal ver cifras ligeramente peores. Dicho esto, la herramienta está optimizada y el overhead no debería nunca superar un milisegundo. Aunque en nuestro servidor trivial se note mucho, en un servidor más realista (o lanzando las pruebas desde otra máquina) debería dejar de afectar a los resultados.
 
-### MC Benchmark
+Ahora empieza la diversión. ¿Por qué usar loadtest si tiene los mismos parámetros y peor rendimiento? Por las opciones avanzadas, claro.
 
-Esta librería con nombre de rapero geek está escrita en C, y hay que compilarla a partir del [código fuente](https://github.com/antirez/mc-benchmark). El autor, Salvatore Sanfilippo, es un desarrollador de Redis que portó la librería de redis-benchmark para obtener comparaciones fiables.
+* --rps _tasa_: número de peticiones por segundo a lanzar. ¿No es igual que la concurrencia? En absoluto; `--rps` lanza (siempre que pueda) la tasa pedida de peticiones, aunque las anteriores no hayan terminado. Esto nos permite controlar la carga de peticiones que enviamos cada segundo al servidor.
+* --noagent: no usar el agente integrado de node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, lo que puede afectar a las pruebas; este parámetro elimina ese límite. Viene activado de fábrica.
+* --keepalive: usa el agente [agentkeepalive](https://github.com/TBEDP/agentkeepalive), que añade `Connection: Keep-alive` y está muy mejorado sobre el que viene en node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, con lo que las pruebas pueden verse afectadas.
 
-La lanzamos con concurrencia 50 (el valor por defecto) y cien mil peticiones:
+_Nota de precaución_: el agente por defecto de node.js apesta de mala manera: tiene un pool de sólo 10 conexiones, lo que nos puede limitar si necesitamos enviar más peticiones a la vez. Pero desactivarlo con `--default` implica no usar agente y perder el keep-alive: se abre una conexión cada vez al servidor que estamos probando, lo que puede perjudicar el rendimiento. Es recomendable usar siempre `--keepalive`.
 
-```
-$ ./mc-benchmark -n 100000 -p 11311
-```
-
-Los resultados son completamente diferentes:
+Vamos a probar ahora nuestro servidor con agentkeepalive:
 
 ```
-====== SET ======
-  100000 requests completed in 4.07 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
+$ loadtest --keepalive -c 10 -n 10000 http://127.0.0.1:8080/
 
-[...]
-24557.96 requests per second
+Completed requests:  10000
+Total time:          3.04171 s
+Requests per second: 3288
+Mean latency:        3.01 ms
 
-====== GET ======
-  100000 requests completed in 3.48 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
-
-[...]
-28727.38 requests per second
+Percentage of the requests served within a certain time
+  50%      2 ms
+  90%      4 ms
+  95%      5 ms
+  99%      9 ms
+ 100%      22 ms (longest request)
 ```
 
-(He eliminado la información de percentiles por brevedad.) Los resultados son mucho mejores que antes. ¿Cómo se compara ahora con los otros servidores?
+¡Mejor resultado incluso que con `ab`! Al no tener que abrir una conexión nueva para cada petición, ahorramos recursos tanto en el cliente de pruebas como en el servidor.
 
-* nodecached: 25 kreq/s para set y casi 29 kreq/s para get.
-* memcached: 62 kreq/s para set y ¡*76 kreq/s*! para get. Difícil de batir.
-* Couchbase: “sólo” 29 kreq/s para set y otros 29 kreq/s para get, parecido a nuestro nodecached.
-
-A partir de este punto nuestra labor es doble: mejorar el cliente para que dé resultados más fiables, y optimizar el servidor para que se acerque al memcached nativo, que es la parte interesante.
-
-### Mejorando el cliente
-
-¿Por qué molestarse en optimizar nuestro cliente, teniendo otro en C que parece mucho más fiable… o al menos más rápido? Fácil: nuestra preocupación es mejorar el rendimiento de node.js, y eso incluye tanto el cliente como el servidor. El cliente es, de hecho, la fruta madura que más fácil vamos a poder recoger.
-
-La respuesta a nuestros problemas de rendimiento la encontramos en el admirable [blog de caustik](http://blog.caustik.com/2012/04/08/scaling-node-js-to-100k-concurrent-connections/) que ya hemos usado alguna que otra vez: sólo tenemos que deshabilitar el [algoritmo de Nagle](http://en.wikipedia.org/wiki/Nagle%27s_algorithm) que cachea los datos en local antes de enviarlos. Con esta sencilla mejora en el cliente, nuestro nodecached llega a rozar las 30 kreq/s, y memcached otro tanto. Sólo Couchbase se queda rezagada con 14~17 kreq/s.
-
-Por este frente hemos alcanzado un muro: el cliente no pasa de las 30 kreq/s, lo que nos impide medir la respuesta de los servidores que responden más rápido.
-
-### Mejorando el servidor
-
-Ahora vamos a aplicar la misma mejora al servidor: llamar a [`socket.setNoDelay()`](http://nodejs.org/api/net.html#net_socket_setnodelay_nodelay) para desactivar el algoritmo de Nagle. Medimos primero la respuesta con nuestro cliente nodecached: como nos esperábamos, no pasamos de 30 kreq/s. Pero con mc-benchmark la cosa se pone más interesante: ¡ahora pasamos de los 31 kreq/s! Es una mejora interesante.
-
-Llegados a este punto, tenemos que pararnos a pensar, mal que nos pese hacer funcionar los engranajes oxidados de nuestras cabecitas. ¿En qué se nos va el tiempo en el servidor? ¿Podemos mejorar la respuesta de nodecached como sea? Es posible que el procesamiento interno de los comandos memcached sea realmente costoso; en comentarios al [clon de 100 líneas](https://gist.github.com/fxsjy/3244607) hay varias sugerencias de no traducir Buffer a String. Así que montamos una nueva opción de nodecached `--error` que elimina completamente el procesamiento interno: siempre devuelve ERROR a cualquier consulta. ¿Qué tal responderá a las pruebas?
-
-El cliente nodecached responde, como era de esperar, alrededor de 30 kreq/s. Es en mc-benchmark donde se nota realmente la mejora:
+De nuevo, ¿significa eso que nuestro servidor está preparado para responder a 3000 req/s? Vamos a verificarlo enchufándole un número fijo de peticiones por segundo con la opción `--rps`, a ver qué pasa. Empezaremos con 2000:
 
 ```
-$ ./mc-benchmark -n 100000 -p 11311
-====== SET ======
-  100000 requests completed in 1.94 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
+$ loadtest --keepalive --rps 2000 -n 10000 http://127.0.0.1:8080/
 
-51546.39 requests per second
+Completed requests:  10000
+Total time:          5.545158 s
+Requests per second: 1803
+Mean latency:        137.73 ms
 
-====== GET ======
-  100000 requests completed in 2.00 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
-
-50050.05 requests per second
+Percentage of the requests served within a certain time
+  50%      146 ms
+  90%      214 ms
+  95%      221 ms
+  99%      232 ms
+ 100%      238 ms (longest request)
 ```
 
-¡Más de 50 kreq/s! En varias pruebas reales los resultados oscilan entre 46 y 53 kreq/s. Es un resultado fabuloso, a un 70% de la eficiencia de C, aunque realmente no estamos haciendo nada.
+¡Sorpresa! Nuestro servidor se viene abajo, ahora no llega ni a las 2000 req/s pedidas. ¿Cómo puede ser que dé peor respuesta (y una latencia de más de 100 milisegundos) con menos peticiones? Para explicar este misterio tenemos que ver cómo funcionan estas pruebas. Con `ab` (y con loadtest hasta ahora) enviamos unas cuantas peticiones al servidor; el servidor las procesa como puede, con los retrasos que tenga en cada momento, y cuando las responde enviamos más. El parámetro -c se asegura de que nunca haya más de 10 peticiones en vuelo. Siempre podemos subir la concurrencia, pero tampoco será muy realista acumular decenas de peticiones en vuelo.
 
-Por poner los resultados en perspectiva, 50 kreq/s quiere decir que estamos usando alrededor de 20 µs (20 microsegundos, o sea 20 millonésimas de segundo) por consulta. Por su parte, el memcached original usa unos 14 µs.
+Con loadtest podemos usar una tasa fija de req/s, que le llegarán al servidor tanto si ha respondido las anteriores como si no. Puede ser que otro proceso esté usando la CPU en ese momento, o que tenga que acceder a disco para recuperar un recurso. Resultado: en cuanto se le empiezan a acumular peticiones, la respuesta decae. Esta prueba es mucho más realista que las anteriores, y evidencia más cómo el servidor puede sufrir incluso ante pausas de unos pocos milisegundos. En la vida real las peticiones tienden a agolparse todavía más, en lugar de llegar siempre de forma uniforme, así que la respuesta será incluso peor.
 
-En lo que respecta al servidor hemos alcanzado el límite de nuevo: ahora ya prácticamente sólo nos queda el código de entrada/salida de node.js, que está fuera del alcance de nuestras manazas. Pero sin llegar al extremo de perder toda la funcionalidad, volvamos al servidor completo que nos daba unos 30 kreq/s. ¿Podemos mejorar el tiempo de proceso interno usando `Buffer`s en lugar de convertir a `String`? Es una opción interesante, pero es cuestionable si la posible mejora merece la pena: sabemos que no vamos a pasar de 50 kreq/s en ningún caso. La mayor parte del tiempo en una consulta memcached se va en la red, así que optimizar 10 µs no es una prioridad ahora mismo.
-
-### Otras pruebas
-
-La diversión no termina aquí: podemos hacer más pruebas a ver si mejoramos el cliente. Por ejemplo, podemos usar el [cliente memcached](https://github.com/3rd-Eden/node-memcached) más popular a ver si mejora la cosa. Añadimos una opción `--memcached` a loadtest para probarlo. Los resultados son decepcionantes.
+Ahora vamos a probar a enviarle más peticiones al servidor con las mismas req/s, para comprobar si la respuesta es constante. Si vemos que empieza a venirse abajo, o que la respuesta es muy errática, sabremos que nuestro servidor no aguanta la carga. loadtest muestra una traza cada cinco segundos que nos va indicando cómo va el proceso, así que vamos a lanzarle 100K peticiones en total.
 
 ```
-$ node bin/loadtest.js -c 10 -n 100000 --memcached 11311
-Concurrency Level:      10
-Time taken for tests:   7.897 seconds
-Complete requests:      100000
-Failed requests:        0
-Requests per second:    12663 [#/sec] (mean)
+$ loadtest --keepalive --rps 2000 -n 100000 http://127.0.0.1:8080/
+
+Requests: 8949 (9%), requests per second: 1790, mean latency: 64.12 ms
+Requests: 18728 (19%), requests per second: 1956, mean latency: 47.21 ms
+Requests: 27418 (27%), requests per second: 1738, mean latency: 579.05 ms
+Requests: 36508 (37%), requests per second: 1818, mean latency: 1112.56 ms
+Requests: 45402 (45%), requests per second: 1778, mean latency: 1670.62 ms
+Requests: 55122 (55%), requests per second: 1944, mean latency: 1986.79 ms
+Requests: 65180 (65%), requests per second: 2011, mean latency: 1954.7 ms
+Requests: 75231 (75%), requests per second: 2011, mean latency: 1954.87 ms
+Requests: 84895 (85%), requests per second: 1933, mean latency: 2016.92 ms
+Requests: 93252 (93%), requests per second: 1671, mean latency: 2464.68 ms
+
+Completed requests:  100000
+Total time:          53.96305 s
+Requests per second: 1853
+Mean latency:        1512.71 ms
 ```
 
-Menos de 13 kreq/s, o sea menos de la mitad que nuestro cliente optimizado. Una prueba con node v0.10.x tampoco da los resultados esperados:
+Aunque la CPU no llegue al 100%, vemos cómo se van acumulando peticiones y la respuesta se degrada. Bajando el flujo a 1500 req/s los resultados son estables.
 
 ```
-$ ~/install/node-v0.10.20/out/Release/node bin/loadtest.js -c 10 -n 100000 11311
-Concurrency Level:      10
-Time taken for tests:   4.569 seconds
-Complete requests:      100000
-Failed requests:        0
-Requests per second:    21887 [#/sec] (mean)
+$ loadtest --keepalive --rps 1500 -n 100000 http://127.0.0.1:8080/
+
+Requests: 6060 (6%), requests per second: 1212, mean latency: 6.6 ms
+Requests: 13545 (14%), requests per second: 1497, mean latency: 8.41 ms
+Requests: 21059 (21%), requests per second: 1503, mean latency: 5.83 ms
+Requests: 28564 (29%), requests per second: 1501, mean latency: 2.69 ms
+Requests: 36060 (36%), requests per second: 1499, mean latency: 3.32 ms
+Requests: 43564 (44%), requests per second: 1501, mean latency: 2.66 ms
+Requests: 51062 (51%), requests per second: 1500, mean latency: 2.27 ms
+Requests: 58565 (59%), requests per second: 1501, mean latency: 1.7 ms
+Requests: 66059 (66%), requests per second: 1499, mean latency: 2.97 ms
+Requests: 73563 (74%), requests per second: 1501, mean latency: 1.71 ms
+Requests: 80991 (81%), requests per second: 1486, mean latency: 13.12 ms
+Requests: 88565 (89%), requests per second: 1515, mean latency: 13.02 ms
+Requests: 96059 (96%), requests per second: 1499, mean latency: 9.44 ms
+
+Completed requests:  100000
+Total time:          67.630739 s
+Requests per second: 1479
+Mean latency:        5.63 ms
 ```
 
-No llega ni a los resultados de node v0.8.x.
+Ahora sí: hay una cierta oscilación alrededor del 66% de las peticiones, pero el sistema tiende a recuperarse y no es inestable como antes.
 
-Ahora llega la parte más bizarra de toda esta historia. Otra posible optimización del cliente que nos hemos dejado por el camino es aplicar la técnica de ignorar los mensajes que nos llegan, como hemos hecho en el servidor. En el cliente es mucho más fácil: lanzamos un `get` y no tenemos que esperar a la respuesta porque ya sabemos que el elemento buscado no existe. Así que añadimos una opción `--noreply` a loadtest.js que hace justamente eso. ¿Cómo queda el rendimiento con la nueva opción?
+## Diseño de pruebas de carga
 
-```
-$ node bin/loadtest.js -c 10 -n 100000 --noreply 11311
-Concurrency Level:      10
-Time taken for tests:   6.009 seconds
-Complete requests:      100000
-Failed requests:        0
-Requests per second:    16642 [#/sec] (mean)
-```
+Ya sabemos cómo lanzar nuestra herramienta favorita. Ahora, ¡paremos el carro un poco! Vamos a ver para qué sirven estas pruebas de carga, y cómo diseñar unas pruebas que cumplan nuestras expectativas.
 
-Sorpresa, sorpresa: ¡mucho peor que antes! No llegamos ni a los 20 kreq/s. ¿Por qué? Aquí tengo que confesar humildemente que no tengo ni idea. He probado un montón de cosas, sin éxito: ignorar las respuestas del servidor empeora sensiblemente el rendimiento.
+### Preguntas, preguntas
 
-Por favor, si tienes una idea de qué está pasando, ponla en los comentarios.
+El objetivo de las pruebas de carga es responder a preguntas vitales para cualquier negocio:
 
-## Revisando el mito
+* ¿Soportarán los servidores la carga esperada?
+* ¿Cuántos servidores necesitaremos?
+* ¿Cuál será el coste por usuario?
 
-El rendimiento bruto de node.js para cálculos intensivos es [notoriamente malo](http://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile). Para cálculos puros y duros los lenguajes compilados lo tienen mucho más fácil, ya que el código generado está optimizado directamente para su ejecución. Incluso dentro de lenguajes interpretados, los que tienen tipado fuerte, o incluso sólo con tipado débil, tienen una ventaja intrínseca: el intérprete (o modernamente la máquina virtual) sabe qué espacio reservar para cada variable y no tiene que jugar con la memoria.
+Pero, por importantes que puedan parecer para quien las hace, estas preguntas son sólo el principio del camino; necesitamos algo más concreto para empezar a movernos.
 
-Entonces, ¿es más rápida la entrada/salida que en otros lenguajes? En el caso de C o C++ está claro que un programa bien escrito, aprovechando la meticulosa gestión de cada byte, será probablemente más rápido. A no ser que uses los sucios trucos de [Felix Geisendörfer](https://www.youtube.com/watch?v=Kdwwvps4J9A), cosa que siempre hay que considerar. Pero nadie recomienda servir recursos estáticos con node.js. ¿Entonces?
+Las pruebas bien diseñadas se basan siempre en preguntas *precisas y objetivas*: que se responden con datos y no con opiniones, y que no admiten ambigüedad (por ejemplo, se pueden responder con “sí” o “no”). También tienen que ser *realistas*: basadas en nuestra situación y no en algún objetivo inalcanzable. La primera parte de nuestro trabajo es reformular las preguntas de negocio a su equivalente ingenieril. Por ejemplo:
 
-### Carga y velocidad
+* _¿Dará buen rendimiento nuestro servidor?_ Esta pregunta es algo difusa: es difícil saber qué es “bueno” sin precisar más. Tenemos que pulirla algo más.
+* _¿Responderá el servidor a las peticiones en menos de 100 ms?_ Hemos avanzado bastante: esta pregunta es bastante más precisa y no tiene ambigüedades. Pero representa un objetivo inalcanzable, porque siempre puede haber alguna petición que se escape del margen pedido (por buena que sea la media), y por tanto la respuesta será casi siempre “no”. Tenemos que afinar todavía más.
+* ¿Responderá el servidor al 99% de las peticiones en menos de 100 ms? Ahora sí: podemos responder claramente con datos, y es alcanzable.
 
-Lo que probablemente quieren decir los bien-intencionados evangelistas que cantan las virtudes de node.js es que aguanta mucha carga. Esto es bastante diferente: en lugar de fijarnos en la velocidad, lo que nos importa es el volumen de peticiones que vamos a soportar.
+### Objetivos
 
-Lo maravilloso de node.js es realmente su respuesta tan lineal: el doble de peticiones por segundo resulta en el doble de carga. Esta predecibilidad es más valiosa muchas veces que un rendimiento increíble de media pero desbocado en ocasiones.
+Aunque hemos avanzado algo, ni siquiera hemos terminado con la primera pregunta de negocio, que (recordemos) era:
+
+> ¿Soportarán los servidores la carga esperada?
+
+Todavía nos queda traducir “carga esperada” a cifras concretas. Por ejemplo, supongamos que esperamos llegar a 100.000 usuarios únicos en el primer año: ¿cuántas peticiones veremos en nuestros servidores? ¿Cuántas páginas servidas, y cuántas peticiones a nuestra API son eso?
+
+El camino tradicional es el siguiente: partiendo de una cifra imaginaria de usuarios, podemos estimar cuántos usuarios activos esperar por día, cuántas peticiones por minuto hace un usuario activo, y ya sólo necesitamos saber las peticiones por minuto que aguanta nuestro servidor para calcular cuántos usuarios únicos podemos tener contentos con un único servidor. Pero tiene un pequeño problema: cada estimación que hagamos añade *incertidumbre* a nuestros resultados. Una ecuación con tantos parámetros inciertos como la que estamos montando terminará dando pura fantasía…
+
+Así que lo ideal es recoger primero datos reales sobre el terreno que soporten nuestros cálculos. Por ejemplo, si sabemos que la carga con 10.000 usuarios únicos al mes es de 150 peticiones/minuto, es fácil estimar que con 100.000 tendremos 1500 peticiones/minuto.
+
+Sólo nos falta saber cuántas peticiones por minuto aguanta nuestro servidor, que es donde entran nuestras herramientas favoritas.
+
+### Limitaciones
+
+Por definición, las pruebas de carga son una simulación. Hay que ser consciente siempre del valor que tienen: nos permiten encontrar puntos flacos en nuestro sistema, y estimar el rendimiento real. Pero la realidad es muy tozuda, y por más que queramos reproducirla en nuestro laboratorio, el mundo exterior nos va a dar sorpresas.
+
+Es importante recalcar este punto cuando presentemos nuestros resultados al cliente o a la gente de negocio: a no ser que dediquemos tiempo infinito a replicar el tráfico real con todas sus peculiaridades, nuestras respuestas siempre serán parciales y sujetas a error. Aunque pongamos todo nuestro esfuerzo puede que ni conozcamos todas estas peculiaridades en el momento de realizar las pruebas de carga, por lo que siempre nos podemos equivocar en nuestros objetivos.
+
+_Más consejos del abuelo cebolleta_: no afines demasiado calculando la carga que soporta cada máquina, date siempre margen para incluir las posibles incertidumbres. Pero: no uses ese margen para cubrir ineficiencias del sistema, lo necesitarás.
+
+### Bancos de pruebas (_benchmarks_)
+
+Para estimar el rendimiento de un servidor podemos usar los bancos de pruebas de los fabricantes: para cualquier producto que queramos usar es fácil encontrar informes de cuántas peticiones por segundo puede responder, tiempos de respuesta y demás. Estos _benchmarks_ son muy populares sobre todo para bases de datos, aunque en los últimos tiempos muchos fabricantes han prohibido su publicación. Pero sigue habiendo mucha información para software libre. Así pues, ¿por qué complicarse la vida haciendo pruebas propias?
+
+Lo malo es que los _benchmarks_ son como el [oráculo de Delfos](http://es.wikipedia.org/wiki/Or%C3%A1culo_de_Delfos): le podemos preguntar lo que queramos, que nos responderá lo que le dé la gana. El fabricante siempre intentará que su producto salga bien parado en las pruebas, y además probablemente sepa optimizarlo mejor que nosotros. Por poner un ejemplo: no responde igual un servidor Apache cuando sirve una imagen estática de 5 KB que cuando sirve una página PHP de 200 KB. Además, la respuesta puede cambiar muchísimo según la configuración que usemos.
+
+Por eso se realizan pruebas de carga simulando tráfico real: lanzando peticiones típicas al servidor y midiendo la respuesta en condiciones similares a las reales. Todo centrado en nuestro caso concreto y lo más realista posible. No es muy útil simular peticiones de 100 bytes si el grueso de nuestro tráfico son páginas de 100 KB — aunque, como veremos, estas pruebas tienen su sitio para detectar problemas.
+
+## Escalabilidad
+
+Hemos diseñado las pruebas y las hemos lanzado. ¿Qué hacemos ahora con los resultados? Afinar y mejorar, claro.
+
+En esta siguiente etapa vamos a intentar dar respuesta a la segunda pregunta de negocio que vimos arriba:
+
+> ¿Cuántos servidores necesitaremos?
+
+Y de forma indirecta a la tercera, porque podremos calcular el coste por usuario.
+
+Si un servidor nos da 100 req/s, para conseguir llegar a 2000 req/s vamos a necesitar 20 servidores, ¿verdad? ¡En tus sueños!
+
+### Un camino espinoso
+
+El camino hacia la escalabilidad pasa siempre por mantener la (*atención, palabro*) linealidad.
+
+Suena rimbombante, pero lo que queremos decir se expresa de forma muy sencilla: doblando el número de servidores soportaremos el doble de carga, expresada en peticiones por segundo. Y lo mismo duplicando el número de núcleos, la frecuencia de la CPU, etcétera. También necesitaremos el doble de memoria y de recursos en general.
+
+Lo que nos permiten las pruebas de carga es, precisamente, detectar pérdidas de linealidad. Supongamos que con un solo proceso aguantamos 15 req/s. ¿Qué podemos esperar si activamos el [modo cluster](modo-cluster.html) con dos procesadores? Pues 30 req/s, claro… Si vemos menos, es que hemos encontrado un cuello de botella. Puede ser que se nos haya agotado algún otro recurso (memoria, conexiones, o lo que sea) o que otro elemento esté saturado (base de datos, interfaz de red…).
+
+También nos permitirán encontrar problemas de rendimiento cuando la respuesta no sea constante en el tiempo y tenga altibajos, o cuando el sistema empiece a dar errores al saturarse. Lo ideal es que el sistema deje de responder a las peticiones que no pueda atender, pero siga sirviendo correctamente un número razonable.
+
+Los fallos deben también ser (atención, semi-palabro) recuperables: el sistema debe recuperarse por sí solo, sin necesidad de tener que reiniciar servicios ni servidores. Cualquier error que deje tumbados nuestros servidores es un problema catastrófico que tenemos que resolver — o nos quitará el sueño por las noches. Muchas veces literalmente, en forma de llamada airada de responsables de servicio o (incluso peor) de usuarios.
+
+### Reduccionismo
+
+Supongamos que tenemos un problema de rendimiento que afecta a nuestros servidores, pero no sabemos dónde. Lo que tenemos que hacer para encontrarlo es ir quitando elementos que puedan afectar al rendimiento. ¿Sospechamos que la base de datos puede estar muy saturada? Usaremos una base de datos limpia para pruebas. ¿Todavía sospechamos que se satura? La sustituiremos por una respuesta simulada, o haremos pruebas de carga de la base de datos sola. ¿La memoria es un problema? Usaremos objetos vacíos que no ocupen memoria.
+
+Así iremos quitando trozos de nuestro sistema, corriendo las pruebas de nuevo, hasta que el problema desaparezca. En ese momento habremos encontrado la causa.
+
+## Cuándo probar
+
+¿Cuándo debemos lanzar pruebas de carga, y con qué frecuencia?
+
+### Pruebas reactivas o proactivas
+
+Lo habitual es usar las pruebas de carga para diagnosticar un problema en el sistema. Usando nuestro método reduccionista, podemos encontrar fácilmente la causa de un problema.
+
+Para nota, podemos ejecutar pruebas de carga antes de ver los problemas. Un buen momento es, por ejemplo, cuando esperemos un pico de carga, un lanzamiento, etcétera. También es recomendable usar las pruebas de carga para dimensionamiento del sistema: saber, por ejemplo, cuántos servidores necesitaremos. Siempre con las precauciones que hemos visto arriba sobre la precisión de los resultados, dejando margen para posibles incertidumbres.
+
+### Pruebas integradas
+
+Un truco que vale la pena aplicar: podemos lanzar una versión reducida de nuestras pruebas de carga de forma rutinaria, junto con el resto de pruebas de sistema. Así podremos detectar regresiones antes de ponerlas en producción.
+
+Por ejemplo, podemos lanzar 1000 peticiones seguidas, verificar que no dan errores y que la latencia media está por debajo de 100 ms. Si alguna de estas condiciones falla abortamos el despliegue.
+
+loadtest tiene una API que nos permite lanzarlo desde nuestro programa node.js y recoger los resultados en una callback. Es trivial integrarlo en nuestro sistema de despliegue automático — cosa sobre la que hablaremos otro día.
 
 ## Conclusión
 
-En este viaje conjunto hemos pasado de un servidor sin optimizar a otro que se acerca a la eficiencia de C, perdiendo toda la funcionalidad por el camino. Las lecciones que podemos destacar son:
-
-* La experiencia de primera mano no tiene sustituto: desconfía de las verdades populares que se encuentran por ahí.
-* Optimiza para tu caso concreto. Por más benchmarks que leas en internet, no hay nada mejor que probar contra tus circunstancias.
-* Déjalo a tiempo. Es fácil alcanzar el punto de retornos decrecientes sin darse cuenta y seguir en una carrera sin sentido.
-
-Espero haberte animado a probar alguna cosa nueva. Si tienes dudas, sugerencias o críticas acerbas, deja tu comentario debajo.
+Eso es todo por hoy. Si no conocías las pruebas de carga, espero haberte ayudado a añadir una flecha a tu carcaj. En cualquier caso, usa esta técnica cuando sea necesario, aprende a conocer tus herramientas, y sobre todo ¡disfruta!
 
 `---8<---8<---8<---8<---8<---`
 

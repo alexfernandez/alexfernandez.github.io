@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Pruebas asíncronas en node.js</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Pruebas asíncronas en node.js</h1>
+</header>
+<p>!(pics/pruebas-asincronas.jpg &quot;Laboratorio de pruebas&quot;)</p>
+<p>node.js está muy orientado al desarrollo de software asíncrono: en lugar de ejecutar código y mantenernos ocupados mientras llega la respuesta, se suele liberar el hilo de ejecución para que corran otras tareas mientras esperamos.</p>
+<p>Las pruebas asíncronas suelen ser bastante complejas: primero hay que hacer una llamada, esperar, y luego comprobar que el resultado devuelto es el esperado. En este post (mi primero en este blog) explicaré cómo usar una nueva librería de pruebas (llamada, en un alarde de imaginación, testing) pensada especialmente para facilitar pruebas asíncronas.</p>
+<h2 id="instalación">Instalación</h2>
+<p>Para instalar la librería sólo tenemos que hacer en el directorio raíz:</p>
+<pre><code>$ npm install testing</code></pre>
+<p>O añadir testing a las dependencias en nuestro <code>package.json</code>. A continuación podemos empezar a jugar con la librería.</p>
+<h2 id="pruebas-elementales">Pruebas elementales</h2>
+<p>Las pruebas más sencillas son las que no necesitan esperar a ningún evento. El esquema es siempre el mismo: corremos nuestro código con unos parámetros preparados, comprobamos los resultados y declaramos el éxito o el fracaso de la prueba. Vamos a ver el típico ejemplo de la función que suma:</p>
+<pre><code>function sum(first, second)
+{
+  return first + second;
+}</code></pre>
+<p>La probamos pasándole parámetros conocidos (por ejemplo 1 y 1), y verificando que da el resultado esperado (que en este caso dejamos como ejercicio para el lector; bueno, es 2). Podemos hacernos una función de andar por casa para hacer la prueba:</p>
+<pre><code>function testSum()
+{
+  if (sum(1, 1) != 2)
+  {
+    console.error(&#39;Invalid result&#39;);
+    return;
+  }
+  console.log(&#39;Valid result&#39;);
+}</code></pre>
+<p>Para una prueba sencilla no necesitamos más. Ahora añadimos otra prueba para la función <code>substract()</code>, que sorprendentemente resta dos números:</p>
+<pre><code>function testSubstract()
+{
+  if (substract(2, 1) != 1)
+  {
+    console.error(&#39;Invalid result&#39;);
+    return;
+  }
+  console.log(&#39;Valid result&#39;);
+}</code></pre>
+<p>Y hacemos una función que llame a todas las pruebas para correrlas juntas:</p>
+<pre><code>function test()
+{
+  testAdd();
+  testSubstract();
+}</code></pre>
+<p>Cuando tenemos varias pruebas, la salida empieza a volverse engorrosa: para saber si todas las pruebas funcionan, tenemos que parsear un montón de texto y buscar posibles errores. Es entonces cuando empezamos a ver asteriscos en la salida, múltiples filas de signos igual (<code>======</code>), etcétera.</p>
+<h2 id="pruebas-síncronas">Pruebas síncronas</h2>
+<p>¿Cómo se haría esto mismo con testing?</p>
+<p>Para empezar tenemos las funciones <code>testing.success()</code> y <code>testing.failure()</code> que simplifican el mostrar mensajes de error, con colores y todo. La primera prueba quedaría así:</p>
+<pre><code>function testSum()
+{
+  if (sum(1, 1) != 2)
+  {
+    testing.failure(&#39;Invalid result&#39;);
+    return;
+  }
+  testing.success(&#39;Valid result&#39;);
+}</code></pre>
+<p>Hum, no hemos ganado demasiado. Vamos a usar algo un pelín más potente: las aserciones. Para empezar la más sencilla: <code>testing.assert()</code>, que nos permite evaluar una condición. Si es falsa se mostrará una condición de error:</p>
+<pre><code>function testSum()
+{
+  testing.assert(sum(1, 1) == 2, &#39;Invalid result&#39;);
+  testing.success(&#39;Valid result&#39;);
+}</code></pre>
+<p>Esto es mejor: si la condición es falsa, se muestra el mensaje que va en el segundo parámetro en rojo. Pero todavía tenemos otra opción más potente: <code>testing.assertEquals()</code>, que comprueba que el valor obtenido sea igual al deseado. No es mucho más breve pero queda más claro:</p>
+<pre><code>function testSum()
+{
+  testing.assertEquals(sum(1, 1), 2, &#39;Invalid result&#39;);
+  testing.success(&#39;Valid result&#39;);
+}</code></pre>
+<p>Ahora queremos correr todas las pruebas juntas. Es muy sencillo: usamos la función <code>testing.run()</code> que nos permite añadir múltiples funciones y probarlas todas en secuencia:</p>
+<pre><code>function test()
+{
+  testing.run({
+    add: testAdd,
+    substract: testSubstract,
+  });
+}</code></pre>
+<p>El primer parámetro es un objeto que contiene por cada atributo una función de prueba; por ahora no necesitamos más.</p>
+<h2 id="pruebas-asíncronas">Pruebas asíncronas</h2>
+<p>Supongamos que nuestra prueba es algo más compleja: queremos leer el fichero <code>pepito.txt</code> y comprobar que contiene el valor esperado, <code>&quot;pepito&quot;</code>. Sería algo así:</p>
+<pre><code>function testFile()
+{
+  fs.readFile(&#39;pepito.txt&#39;, function(error, result)
+  {
+    if (result != &#39;pepito&#39;)
+    {
+      console.error(&#39;Invalid file contents&#39;);
+      return;
+    }
+    console.log(&#39;Valid file contents&#39;);
+  });
+}</code></pre>
+<p>¿Cómo nos ayuda testing? La librería está pensada específicamente para esto, así que en este caso es cuando más vamos a poder ganar usándola. Ya hemos visto cómo usar aserciones; ahora vamos a usar la magia de las callbacks, añadiéndole una a la función <code>testFile()</code>. Esta callback se la pasaremos a su vez a las funciones de testing, siempre como último parámetro:</p>
+<pre><code>function testFile(callback)
+{
+  fs.readFile(&#39;pepito.txt&#39;, function(error, result)
+  {
+    testing.assertEquals(result, &#39;pepito&#39;, &#39;Invalid file contents&#39;, callback);
+    testing.success(&#39;Valid file contents&#39;, callback);
+  });
+}</code></pre>
+<p>Ahora llamamos a la función <code>testFile()</code> con una callback que recibirá, como es habitual en node.js, error y resultado:</p>
+<pre><code>testFile(function(error, result)
+{
+  if (error)
+  {
+    console.error(&#39;Error: %s&#39;, error);
+  }
+  else
+  {
+    console.log(&#39;Success: %s&#39;, result);
+  }
+});</code></pre>
+<p>Si tenemos varias pruebas, pasaremos la callback a <code>testing.run()</code>:</p>
+<pre><code>function test(callback)
+{
+  testing.run({
+    file: testFile,
+    web: testWeb,
+  }, callback);
+}</code></pre>
+<p>Y la invocaremos con nuestra callback a medida:</p>
+<pre><code>test(function(error, result)
+{
+  if (error)
+  {
+    console.error(&#39;Error: %s&#39;, error);
+  }
+  else
+  {
+    console.log(&#39;Success: %s&#39;, result);
+  }
+});</code></pre>
+<p>La librería se encargará de correr las funciones una tras otra, hasta que se encuentre un error o hasta que se terminen. En el primer caso llamará a la callback con un parámetro de error; en el segundo, con un resultado.</p>
+<p>Sencillo, ¿verdad?</p>
+<h2 id="tiempos-fuera">Tiempos fuera</h2>
+<p>A veces las funciones asíncronas no llegan a llamar a la callback, de forma que el código se interrumpe. Resultado: una prueba que nunca termina. Nos interesa tratar esta condición y asegurarnos de que no se dé nunca en producción, ya que lleva al temible efecto de páginas que nunca responden.</p>
+<p>Por defecto, testing espera un segundo para cada prueba; si tras ese tiempo no se ha llamado a la callback, considera que ha habido un error y concluye las pruebas.</p>
+<p>Cuando usamos <code>testing.run()</code> podemos especificar un timeout en milisegundos como segundo parámetro:</p>
+<pre><code>function test(callback)
+{
+  testing.run({
+    add: testAdd,
+    substract: testSubstract,
+  }, 10000, callback);
+}</code></pre>
+<p>De esta forma, la librería se esperará 10 segundos antes de dar las pruebas por finalizadas. Esto puede ser útil si tenemos muchos accesos externos o tareas que llevan bastante tiempo.</p>
+<h2 id="corriendo-las-pruebas">Corriendo las pruebas</h2>
+<p>Aún hay algo más: testing nos proporciona una callback a propósito para mostrar errores y resultados, <code>testing.show()</code>, así que sólo tenemos que pasársela a nuestras funciones de <code>test()</code>:</p>
+<pre><code>// run tests
+test(testing.show);</code></pre>
+<p>Esta línea iría al final de nuestro fichero mientras probamos.</p>
+<p>Un ejemplo muy sencillo lo podemos ver si corremos npm test testing, lo que correrá todas las pruebas del propio paquete testing:</p>
+<pre><code>$ npm test testing
+ 
+$ testing@0.0.2 test /home/chenno/projects/loadtest/node_modules/testing
+$ node index.js
+ 
+[Thu Jul 11 2013 22:43:49 GMT+0200 (CEST)] NOTICE success
+[Thu Jul 11 2013 22:43:49 GMT+0200 (CEST)] ERROR test; do not consider
+[Thu Jul 11 2013 22:43:49 GMT+0200 (CEST)] NOTICE All tests successful: { successFailure: undefined,
+  assert: undefined }</code></pre>
+<p>Mucha gente ejecuta las pruebas una vez y luego se olvida de ellas, con el resultado de que su código termina envejeciendo según se va modificando. Es molesto tener que añadir (o descomentar) la línea <code>test(testing.show)</code>; cada vez que hacemos un cambio.</p>
+<p>Para evitarlo, podemos correr nuestras pruebas sólo si el fichero se invoca directamente. El siguiente código puede ser útil:</p>
+<pre><code>// run tests if invoked directly
+if (__filename == process.argv[1])
+{
+    test(testing.show);
+}</code></pre>
+<p>Ahora sólo tienes que correr el fichero directamente:</p>
+<pre><code>$ node myfile.js</code></pre>
+<p>para ejecutar todas las pruebas que haya en el fichero cada vez.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Ya no tienes excusa para no tener un juego de pruebas completo y actualizado en node.js. Te aseguro que el esfuerzo de crearlas y mantenerlas se pagará al menos 10 veces durante el tiempo de tu proyecto.</p>
+<p><code>---8&lt;---8&lt;---8&lt;---8&lt;---8&lt;---</code></p>
+<p>Original publicado en <a href="http://www.godtic.com/blog/2013/07/11/pruebas-asincronas-en-node-js/">GodTIC</a> el 2013-07-11.</p>
+<p>De vuelta al <a href="index.html">índice</a>.</p>
+</body>
+</html>

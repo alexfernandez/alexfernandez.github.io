@@ -16,6 +16,8 @@ A collection of articles published over the years.
 
 ## Artículos en español
 
+* 2013-07-11: [Pruebas asíncronas en node.js](2013/pruebas-asincronas.html)
+* 2013-07-27: [Modo cluster para node.js](2013/modo-cluster.html)
 * 2013-08-27: [Pruebas de carga](2013/pruebas-de-carga.html)
 * 2013-11-12: [Node.js: ¿rápido como el rayo?](2013/nodejs-rapido-como-el-rayo.html)
 * 2013-11-24: [Optimizando sockets con node.js](2013/optimizando-sockets.html)

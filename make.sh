@@ -9,6 +9,8 @@ pandoc -w html5 -s md/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
 pandoc -w html5 -s md/developer-discipline.md -o 2012/developer-discipline.html
 
 # Español
+pandoc -w html5 -s md/pruebas-asincronas.md -o 2013/pruebas-asincronas.html
+pandoc -w html5 -s md/modo-cluster.md -o 2013/modo-cluster.html
 pandoc -w html5 -s md/pruebas-de-carga.md -o 2013/pruebas-de-carga.html
 pandoc -w html5 -s md/nodejs-rapido-como-el-rayo.md -o 2013/nodejs-rapido-como-el-rayo.html
 pandoc -w html5 -s md/optimizando-sockets.md -o 2013/optimizando-sockets.html
