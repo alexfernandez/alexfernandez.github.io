@@ -5,8 +5,9 @@ date=$(date -Iseconds -u)
 
 # English
 pandoc -w html5 -s md/index.md -o index.html
-pandoc -w html5 -s md/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
 pandoc -w html5 -s md/developer-discipline.md -o 2012/developer-discipline.html
+pandoc -w html5 -s md/continuous-deployment.md -o 2012/continuous-deployment.html
+pandoc -w html5 -s md/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
 
 # Español
 pandoc -w html5 -s md/pruebas-asincronas.md -o 2013/pruebas-asincronas.html
