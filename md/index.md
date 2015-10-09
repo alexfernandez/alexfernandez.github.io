@@ -13,6 +13,7 @@ A collection of articles published over the years.
 
 * 2012-03-30: [Developer Discipline](2012/developer-discipline.html).
 * 2012-04-10: [Continuous Deployment](2012/continuous-deployment.html).
+* 2012-04-12: [Automating the Automation](2012/automating-the-automation.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
 
 ## Artículos en español
