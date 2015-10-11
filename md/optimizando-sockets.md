@@ -489,5 +489,5 @@ Es hora de sacar conclusiones de nuestro trabajo de optimización.
 
 Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/24/optimizando-sockets-con-node-js/) el 2013-11-24.
 
-De vuelta al [índice](index.html).
+De vuelta al [índice](../index.html).
 

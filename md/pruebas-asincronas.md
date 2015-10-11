@@ -272,5 +272,5 @@ Ya no tienes excusa para no tener un juego de pruebas completo y actualizado en 
 
 Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/11/pruebas-asincronas-en-node-js/) el 2013-07-11.
 
-De vuelta al [índice](index.html).
+De vuelta al [índice](../index.html).
 

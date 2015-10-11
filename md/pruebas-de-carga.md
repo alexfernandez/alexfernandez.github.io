@@ -320,5 +320,5 @@ Eso es todo por hoy. Si no conocías las pruebas de carga, espero haberte ayudad
 
 Original publicado en [GodTIC](http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/) el 2013-08-27.
 
-De vuelta al [índice](index.html).
+De vuelta al [índice](../index.html).
 

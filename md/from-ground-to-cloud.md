@@ -84,5 +84,5 @@ But the key point is: the cloud (and Amazon’s cloud in particular) lets us sol
 
 Posted originally at [Tumblr](http://tech.moveinblue.com/post/24425607645/from-ground-to-cloud-in-two-hours) on 2012-06-04.
 
-Back to [index](index.html).
+Back to [index](../index.html).
 

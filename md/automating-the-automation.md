@@ -60,5 +60,5 @@ There are more things that can be automated, including monitoring for deployment
 
 Posted originally at [Tumblr](http://tech.moveinblue.com/post/20991980613/automating-the-automation) on 2012-04-12.
 
-Back to [index](index.html).
+Back to [index](../index.html).
 

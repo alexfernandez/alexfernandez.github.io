@@ -97,5 +97,5 @@ When a code review is not enough, just take a couple of members of the team and 
 
 Publicado el 2015-10-08.
 
-De vuelta al [índice](index.html).
+De vuelta al [índice](../index.html).
 

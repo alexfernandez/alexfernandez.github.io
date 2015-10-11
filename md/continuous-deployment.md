@@ -80,5 +80,5 @@ But when it works, it works very well! We developers stop worrying obsessively a
 
 Posted originally at [Tumblr](http://tech.moveinblue.com/post/20861955803/continuous-deployment) on 2012-04-10.
 
-Back to [index](index.html).
+Back to [index](../index.html).
 

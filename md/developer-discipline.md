@@ -48,5 +48,5 @@ Give it a try. Start with one discipline, and add it to your daily work. Then pi
 
 Posted originally at [Tumblr](http://tech.moveinblue.com/post/20182111059/developer-discipline) on 2012-03-30.
 
-Back to [index](index.html).
+Back to [index](../index.html).
 

@@ -189,5 +189,5 @@ El modo cluster es una herramienta esencial para poner node.js en producción. N
 
 Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/27/modo-cluster-para-node-js/) el 2013-07-27.
 
-De vuelta al [índice](index.html).
+De vuelta al [índice](../index.html).
 
