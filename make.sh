@@ -1,7 +1,7 @@
 #!/bin/bash
 # Alex 2015-10-04: generate all files, add, commit and push
 
-date=$(date -Iseconds -u)
+date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # English
 pandoc -w html5 -s md/index.md -o index.html
