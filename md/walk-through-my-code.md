@@ -1,6 +1,6 @@
 % Walk Through my Code
 
-![Picture credit: [j_cadmus](https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg)](pics/modo-cluster.jpg "Wroclaw University Library digitizing rare archival texts")
+![Picture credit: [j_cadmus](https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg)](pics/walk-through-my-code.jpg "Wroclaw University Library digitizing rare archival texts")
 
 So you are a good, studious dev who uses GitHub to create pull requests, review and merge your changes.
 As part of a distributed team you don not often get to discuss your code with others;
