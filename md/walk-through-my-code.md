@@ -1,4 +1,6 @@
-% Walk Through my Code
+% Walk Through My Code
+
+# Or: How to Do a Proper Code Walkthrough
 
 ![Picture credit: [j_cadmus](https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg)](pics/walk-through-my-code.jpg "Wroclaw University Library digitizing rare archival texts")
 
