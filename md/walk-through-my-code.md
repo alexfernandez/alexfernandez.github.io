@@ -20,6 +20,11 @@ This recent Twitter joke sums it up beautifully:
 ![[Typical several-thousand-line patch](https://twitter.com/Obdurodon/status/651740765522161664).](pics/typical-patch.jpg "Three people look at us from a mountain of trash")
 
 What can you do about it? Why, this particular pull request is ripe for a walkthrough!
+This article will give you an overview which tries to be comprehensive
+(at the expense of being too obvious most of the time)
+from an experienced practitioner,
+but probably fails in many respects.
+[Help me improve it!](mailto:alexfernandeznpm@gmail.com)
 
 ## The Perfect Walkthrough
 
@@ -211,6 +216,7 @@ just take a couple of members of the team and explain your code going through th
 `---8<---8<---8<---8<---8<---`
 
 Published on 2015-10-17.
+[Comments, improvements?](https://twitter.com/pinchito/status/655149101504425984)
 
 Back to the [index](../index.html).
 
