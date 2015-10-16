@@ -17,7 +17,7 @@ This recent Twitter joke sums it up beautifully:
 
 ![[Typical several-thousand-line patch](https://twitter.com/Obdurodon/status/651740765522161664).](pics/typical-patch.jpg "Three people look at us from a mountain of trash")
 
-What can you do about it? Why, the pull request is ripe for a walkthrough!
+What can you do about it? Why, this particular pull request is ripe for a walkthrough!
 
 ## The Perfect Walkthrough
 
