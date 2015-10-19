@@ -162,7 +162,7 @@ instead of introducing new code to the team,
 you introduce a new team to the existing code.
 
 When Sergio and myself joined MediaSmart,
-the original dev and CTO spent the first few days with us new recruits,
+Guillermo (the original dev and CTO) spent the first few days with us new recruits,
 explaining how the code worked for the best part of eight hours a day.
 After a week we had fleshed out how most things worked.
 In the process we found lots of weird things that we would later correct,
