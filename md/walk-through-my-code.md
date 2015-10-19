@@ -170,9 +170,8 @@ essentially laying out our work there for the next six months.
 Sometimes he would even find bugs in the code,
 which by that point was almost completely cryptic to us.
 
-At that point (early 2013) we did not have good conferencing tools;
-those that we had worked poorly with our domestic DSL lines,
-since we were doing everything remotely.
+At that point (early 2013) I did not have Skype installed on my Debian laptop,
+and Hangouts did not work properly with our domestic DSL lines.
 Therefore we used most of the time a land line phone:
 Guillermo would call out each file name, and then a series of line numbers,
 followed by an explanation for each section of the code.
@@ -180,7 +179,7 @@ It was primitive, but effective:
 after a few hours we got the hang of it,
 and after a week we were ready to take on the world!
 
-After a couple of years we hired Yarilo and Fran and did the same to them;
+A couple of years later we hired Yarilo and Fran and did the same to them;
 this time we had better tools (Skype and Hangouts),
 but still we spent their first week explaining everything
 while they took notes.
