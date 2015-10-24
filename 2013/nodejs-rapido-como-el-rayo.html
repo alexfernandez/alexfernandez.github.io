@@ -50,7 +50,7 @@ Time per request:       0.00399 [ms] (mean, across all concurrent requests)</cod
 <h2 id="las-pruebas">Las pruebas</h2>
 <p>Llega el momento de arrancar nuestro invento.</p>
 <h3 id="la-máquina">La máquina</h3>
-<p>El ordenador elegido para las pruebas tiene un procesador i3-2120T @2.60GHz con sólo dos cores, elegido por su bajo consumo y no por su rendimiento estelar — no en vano es un procesador de portátil. Corre Debian testing con la versión de node 0.8.23, un tanto anticuada; más adelante probaremos también la 0.10.20 para comprobar si hay diferencias.</p>
+<p>El ordenador elegido para las pruebas tiene un procesador i3-2120T <span class="citation" data-cites="2.60GHz">@2.60GHz</span> con sólo dos cores, elegido por su bajo consumo y no por su rendimiento estelar — no en vano es un procesador de portátil. Corre Debian testing con la versión de node 0.8.23, un tanto anticuada; más adelante probaremos también la 0.10.20 para comprobar si hay diferencias.</p>
 <h3 id="el-servidor">El servidor</h3>
 <p>Como aconsejaron al <a href="https://groups.google.com/forum/#!topic/nodejs/gqZZmMf3W5M">clonador de las 100 líneas</a>, arrancamos el servidor con la opción <code>--nouse_idle_notification</code> para domesticar un poco la máquina virtual y que no recoja la basura cuando le parezca. Elegimos el puerto 11311 para nuestro servidor:</p>
 <pre><code>$ node --nouse_idle_notification bin/nodecached.js -p 11311</code></pre>
