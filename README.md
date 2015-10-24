@@ -1,4 +1,8 @@
-alexfernandez.github.io
-=======================
+# alexfernandez.github.io
 
-Personal GitHub pages
+Personal GitHub pages.
+
+## License
+
+Distributed under the MIT license, please see file LICENSE.
+
