@@ -1,4 +1,7 @@
-% From Ground to Cloud in Two Hours
+---
+title: From Ground to Cloud in Two Hours
+footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/24425607645/from-ground-to-cloud-in-two-hours) on 2012-06-04.
+---
 
 ![Photo credit: Alex Fernández](pics/from-ground-to-cloud.jpg "Scale the Wall")
 
@@ -79,10 +82,4 @@ Unfamiliar operating system, database, frameworks, web application. How did so m
 Linux (and Amazon Linux in particular) is an excellent sysadmin environment, with great tools and easy to set up and configure. No time lost on graphical installers, and we did not have to `./configure && make && make install` at any point because most things were a `yum install` away.
 
 But the key point is: the cloud (and Amazon’s cloud in particular) lets us solve our problems in due time, as we see fit. The almost instantaneous capacity of reaction to outside events is invaluable for a small business. We have not leveraged the power to automate yet, but all in due course. And be sure to pay us a visit at [mamamandame.com](http://mamamandame.com/)! especially if you are a Spanish expatriate pining for some _jamón ibérico_. Just don’t look surprised if you come in from a high-traffic site and find the site down; we may yet have to go for a [Cluster compute instance](http://aws.amazon.com/ec2/#instance).
-
-`---8<---8<---8<---8<---8<---`
-
-Posted originally at [Tumblr](http://tech.moveinblue.com/post/24425607645/from-ground-to-cloud-in-two-hours) on 2012-06-04.
-
-Back to [index](../index.html).
 

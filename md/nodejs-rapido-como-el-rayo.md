@@ -1,4 +1,7 @@
-% node.js: ¿rápido como el rayo?
+---
+title: node.js: ¿rápido como el rayo?
+footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/) el 2013-11-12.
+---
 
 ![Imagen: [MGR!](http://commons.wikimedia.org/wiki/File:Tormenta_sobre_Madrid_%28Salamanca%29_01.jpg)](pics/nodejs-rapido-como-el-rayo.jpg "Tormenta sobre Madrid (Salamanca) 01")
 
@@ -290,10 +293,4 @@ En este viaje conjunto hemos pasado de un servidor sin optimizar a otro que se a
 * Déjalo a tiempo. Es fácil alcanzar el punto de retornos decrecientes sin darse cuenta y seguir en una carrera sin sentido.
 
 Espero haberte animado a probar alguna cosa nueva. Si tienes dudas, sugerencias o críticas acerbas, deja tu comentario debajo.
-
-`---8<---8<---8<---8<---8<---`
-
-Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/) el 2013-11-12.
-
-De vuelta al [índice](../index.html).
 

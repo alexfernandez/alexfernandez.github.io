@@ -1,4 +1,8 @@
-% Walk Through My Code
+---
+title: Walk Through My Code
+footer: Published on 2015-10-17, last modified on 2015-10-25.
+  [Comments, improvements?](https://twitter.com/pinchito/status/655149101504425984)
+---
 
 # Or: How to Do a Proper Code Walkthrough
 
@@ -213,11 +217,4 @@ both for authors and reviewers.
 
 When a code review is not enough,
 just take a couple of members of the team and explain your code going through the changes.
-
-`---8<---8<---8<---8<---8<---`
-
-Published on 2015-10-17, last modified on 2015-10-25.
-[Comments, improvements?](https://twitter.com/pinchito/status/655149101504425984)
-
-Back to the [index](../index.html).
 

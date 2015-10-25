@@ -1,4 +1,7 @@
-% Developer Discipline
+---
+title: Developer Discipline
+footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/20182111059/developer-discipline) on 2012-03-30.
+---
 
 ![Photo credit: [Christoffer A Rasmussen](http://sv.wikipedia.org/wiki/Fil:Fugle,_%C3%B8rns%C3%B8_073.jpg)](pics/developer-discipline.jpg "Billede af "sort sol" ved Ørnsø i Silkeborg")
 
@@ -43,10 +46,4 @@ If you manage to follow these disciplines at all times, then the result will be 
 It is inevitable that at some point the team will relax one or more of these disciplines. No problem; we have all been there. Just note down the [technical debt](http://www.codinghorror.com/blog/2009/02/paying-down-your-technical-debt.html) and move on. You will probably feel the deficit and get back into the groove on your own; otherwise it means that the discipline was not useful in your particular case, and you will need to question it. Next time try to use it again and see if it really helps.
 
 Give it a try. Start with one discipline, and add it to your daily work. Then pick another, and so on. In no time you will see how they integrate seamlessly with good development processes, and even with mediocre environments these disciplines will make them tolerable.
-
-`---8<---8<---8<---8<---8<---`
-
-Posted originally at [Tumblr](http://tech.moveinblue.com/post/20182111059/developer-discipline) on 2012-03-30.
-
-Back to [index](../index.html).
 

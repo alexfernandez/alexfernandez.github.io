@@ -1,4 +1,7 @@
-% Modo cluster para node.js
+---
+title: Modo cluster para node.js
+footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/27/modo-cluster-para-node-js/) el 2013-07-27.
+---
 
 ![Imagen: [OmegaCen/Astro-WISE/Kapteyn Institute](https://commons.wikimedia.org/wiki/File:VST_image_of_the_Hercules_galaxy_cluster.jpg)](pics/modo-cluster.jpg "VST image of the Hercules galaxy cluster")
 
@@ -184,10 +187,4 @@ Para uso práctico, podemos ver que la complejidad empieza a aumentar más allá
 ## Conclusión
 
 El modo cluster es una herramienta esencial para poner node.js en producción. No te dejes atemorizar por el API experimental o por la aparente complejidad del problema; node.js hace que tener múltiples procesos sea casi tan fácil como tener uno solo.
-
-`---8<---8<---8<---8<---8<---`
-
-Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/27/modo-cluster-para-node-js/) el 2013-07-27.
-
-De vuelta al [índice](../index.html).
 

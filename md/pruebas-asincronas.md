@@ -1,4 +1,7 @@
-% Pruebas asíncronas en node.js
+---
+title: Pruebas asíncronas en node.js
+footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/11/pruebas-asincronas-en-node-js/) el 2013-07-11.
+---
 
 ![](pics/pruebas-asincronas.jpg "Laboratorio de pruebas")
 
@@ -267,10 +270,4 @@ para ejecutar todas las pruebas que haya en el fichero cada vez.
 ## Conclusión
 
 Ya no tienes excusa para no tener un juego de pruebas completo y actualizado en node.js. Te aseguro que el esfuerzo de crearlas y mantenerlas se pagará al menos 10 veces durante el tiempo de tu proyecto.
-
-`---8<---8<---8<---8<---8<---`
-
-Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/11/pruebas-asincronas-en-node-js/) el 2013-07-11.
-
-De vuelta al [índice](../index.html).
 

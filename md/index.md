@@ -1,4 +1,7 @@
-% Alex Fernández Made a Web Page
+---
+title: Alex Fernández Made a Web Page
+footer: Enjoy!
+---
 
 You have found the secret lair of Alex Fernández. Congrats!
 

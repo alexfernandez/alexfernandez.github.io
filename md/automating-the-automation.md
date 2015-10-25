@@ -1,4 +1,8 @@
-% Automating the Automation
+---
+title: Automating the Automation
+footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/20991980613/automating-the-automation) on 2012-04-12.
+---
+
 
 ![Photo credit: [annemarie.michel@mpsa.com.](https://fr.wikipedia.org/wiki/Fichier:Engrenages_-_85.488_-.jpg)](pics/automating-the-automation.jpg "Engrenages - 85.488")
 
@@ -55,10 +59,4 @@ Now, do not expect to have a perfect automated deployment process all the time. 
 ## What Else?
 
 There are more things that can be automated, including monitoring for deployment errors and rolling back releases to known good ones. But you get the idea: if it is manual it should be automated, and if it is already automated it can always be improved. Just find your pain points (where you spend most of your time) and try to remove them. It is easy: they are usually the tasks that you most hate.
-
-`---8<---8<---8<---8<---8<---`
-
-Posted originally at [Tumblr](http://tech.moveinblue.com/post/20991980613/automating-the-automation) on 2012-04-12.
-
-Back to [index](../index.html).
 

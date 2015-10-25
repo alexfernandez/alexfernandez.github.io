@@ -1,4 +1,7 @@
-% Optimizando sockets con node.js
+---
+title: Optimizando sockets con node.js
+footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/24/optimizando-sockets-con-node-js/) el 2013-11-24.
+---
 
 ![Crédito: Alex Fernández](pics/optimizando-sockets-portada.jpg "Gráfica de rendimiento")
 
@@ -484,10 +487,4 @@ Es hora de sacar conclusiones de nuestro trabajo de optimización.
 * Otro resultado del trabajo de optimización es que nos permite saber en qué estamos gastando el tiempo, cuál es nuestro "presupuesto" de tiempo a gastar, y qué partes están bajo nuestro control y cuáles no.
 * *La mayor parte del tiempo de proceso está fuera de nuestro alcance*: de los 30 µs por operación, unos 20 (13 + 7) están dedicados a montar la petición y escribir la respuesta. Nuestro trabajo de optimización está limitado a las restantes partes; y una aplicación trivial de la [ley de Amdahl](http://es.wikipedia.org/wiki/Ley_de_Amdahl) nos dice que nunca podremos llegar a rivalizar con memcached, al menos en rendimiento.
 * Finalmente, *los resultados de estos benchmarks son bastante ruidosos*: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con `top` o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable...
-
-`---8<---8<---8<---8<---8<---`
-
-Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/24/optimizando-sockets-con-node-js/) el 2013-11-24.
-
-De vuelta al [índice](../index.html).
 

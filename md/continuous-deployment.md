@@ -1,4 +1,7 @@
-% Continuous Deployment
+---
+title: Continuous Deployment
+footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/20861955803/continuous-deployment) on 2012-04-10.
+---
 
 ![Photo credit: [United States Air Force, MSgt. Rickie D. Bickle](https://es.wikipedia.org/wiki/Archivo:Seabees_compactor_roller.jpg)](pics/continuous-deployment.jpg "Seabees compactor roller")
 
@@ -78,7 +81,6 @@ But when it works, it works very well! We developers stop worrying obsessively a
 
 `---8<---8<---8<---8<---8<---`
 
-Posted originally at [Tumblr](http://tech.moveinblue.com/post/20861955803/continuous-deployment) on 2012-04-10.
 
 Back to [index](../index.html).
 

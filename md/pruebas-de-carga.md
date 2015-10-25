@@ -1,4 +1,7 @@
-% Pruebas de carga
+---
+title: Pruebas de carga
+footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/) el 2013-08-27.
+---
 
 ![Imagen: [Queenslander](http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg)](pics/pruebas-de-carga.jpg "Weighing cotton bales at the Brisbane ginnery")
 
@@ -315,10 +318,4 @@ loadtest tiene una API que nos permite lanzarlo desde nuestro programa node.js y
 ## Conclusión
 
 Eso es todo por hoy. Si no conocías las pruebas de carga, espero haberte ayudado a añadir una flecha a tu carcaj. En cualquier caso, usa esta técnica cuando sea necesario, aprende a conocer tus herramientas, y sobre todo ¡disfruta!
-
-`---8<---8<---8<---8<---8<---`
-
-Original publicado en [GodTIC](http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/) el 2013-08-27.
-
-De vuelta al [índice](../index.html).
 
