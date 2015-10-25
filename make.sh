@@ -7,6 +7,8 @@ date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 pandoc --template read-only.html -s md/index.md -o index.html
 sed -i -e 's/"\.\.\//"/g' index.html
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
+pandoc --template read-only.html -s md/iterative-evolution.md -o 2012/iterative-evolution.html
+pandoc --template read-only.html -s md/sources-of-irreversibility.md -o 2012/sources-of-irreversibility.html
 pandoc --template read-only.html -s md/performance-review.md -o 2012/performance-review.html
 pandoc --template read-only.html -s md/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
 pandoc --template read-only.html -s md/closing-the-gap.md -o 2012/closing-the-gap.html

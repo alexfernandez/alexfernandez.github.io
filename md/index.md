@@ -18,6 +18,8 @@ A collection of articles published over the years.
 
 Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
+* 2012-06-11: [Iterative Evolution](2012/iterative-evolution.html).
+* 2012-06-11: [Sources of Irreversibility](2012/sources-of-irreversibility.html).
 * 2012-06-09: [How to Fake the Performance Review](2012/performance-review.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
 * 2012-05-29: [Closing the Gap with Business](2012/closing-the-gap.html).
