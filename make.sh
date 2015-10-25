@@ -5,6 +5,7 @@ date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # English
 pandoc --template read-only.html -s md/index.md -o index.html
+sed -i -e 's/"\.\.\//"/g' index.html
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
 pandoc --template read-only.html -s md/automating-the-automation.md -o 2012/automating-the-automation.html
 pandoc --template read-only.html -s md/continuous-deployment.md -o 2012/continuous-deployment.html
