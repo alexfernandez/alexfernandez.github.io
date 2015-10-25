@@ -16,6 +16,9 @@ A collection of articles published over the years.
 
 * 2015-10-17: [Walk Through My Code](2015/walk-through-my-code.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
+* 2012-05-09: [Reversible Engineering Part 1: Software Development](2012/reversible-engineering-part-1.html).
+* 2012-05-11: [Reversible Engineering Part 2: DevOps](2012/reversible-engineering-part-2.html).
+* 2012-05-20: [Reversible Engineering Part 3: Management](2012/reversible-engineering-part-3.html).
 * 2012-04-18: [Locked to the Cloud](2012/locked-to-the-cloud.html).
 * 2012-04-12: [Automating the Automation](2012/automating-the-automation.html).
 * 2012-04-10: [Continuous Deployment](2012/continuous-deployment.html).
