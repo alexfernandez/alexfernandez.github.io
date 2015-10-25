@@ -37,3 +37,8 @@ A collection of articles published over the years.
 Please browse my [other projects](https://github.com/alexfernandez/).
 Including [MilliEarth](http://milliearth.org/), the barest skeleton for a space shooter.
 
+## Credits
+
+Original design is [Read Only](http://html5up.net/read-only), by [HTML5 UP](http://html5up.net).
+Heavily mutilated by myself.
+
