@@ -16,7 +16,7 @@ A collection of articles published over the years.
 
 * 2015-10-17: [Walk Through My Code](2015/walk-through-my-code.html).
 
-Articles for MoveinBlue Tech:
+Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
 * 2012-06-09: [How to Fake the Performance Review](2012/performance-review.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
@@ -31,6 +31,8 @@ Articles for MoveinBlue Tech:
 * 2012-03-30: [Developer Discipline](2012/developer-discipline.html).
 
 ## Artículos en español
+
+Artículos para [GodTIC](http://www.godtic.com/blog/):
 
 * 2013-11-24: [Optimizando sockets con node.js](2013/optimizando-sockets.html)
 * 2013-11-12: [Node.js: ¿rápido como el rayo?](2013/nodejs-rapido-como-el-rayo.html)
