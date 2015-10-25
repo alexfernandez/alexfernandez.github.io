@@ -3,7 +3,6 @@ title: Locked to the Cloud
 footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/21318014173/locked-to-the-cloud) on 2012-04-18.
 ---
 
-
 ![Photo credit: [||read||.](https://www.flickr.com/photos/llreadll/4087257723/)](pics/locked-to-the-cloud.jpg "Lock")
 
 We have wanted to implement full text search on our site for a while. The recent announcement by Amazon of their new [CloudSearch](http://aws.amazon.com/cloudsearch/) made me wonder, should I jump on this excellent offering? It appears that it might be [a little expensive](https://forums.aws.amazon.com/thread.jspa?threadID=91882&tstart=0), but what is the cost of rolling out our own search engine?
