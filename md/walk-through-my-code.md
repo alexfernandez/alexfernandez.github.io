@@ -4,7 +4,7 @@ footer: Published on 2015-10-17, last modified on 2015-10-25.
   [Comments, improvements?](https://twitter.com/pinchito/status/655149101504425984)
 ---
 
-# Or: How to Do a Proper Code Walkthrough
+## Or: How to Do a Proper Code Walkthrough
 
 ![Picture credit: [j_cadmus](https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg)](pics/walk-through-my-code.jpg "Wroclaw University Library digitizing rare archival texts")
 
