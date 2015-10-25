@@ -20,7 +20,7 @@ This recent Twitter joke sums it up beautifully:
 ![[Typical several-thousand-line patch](https://twitter.com/Obdurodon/status/651740765522161664).](pics/typical-patch.jpg "Three people look at us from a mountain of trash")
 
 What can you do about it? Why, this particular pull request is ripe for a walkthrough!
-And the best part is the author will probably learn more from it than the reviewers.
+And the best part is that the author will probably learn more from it than the reviewers.
 
 This article will give you an overview which tries to be comprehensive
 (at the expense of being too obvious most of the time)
