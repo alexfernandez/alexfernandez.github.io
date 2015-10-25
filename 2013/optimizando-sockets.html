@@ -382,9 +382,16 @@ Requests: 100000, mean time: 14.10403694 µs</code></pre>
 <li><em>La mayor parte del tiempo de proceso está fuera de nuestro alcance</em>: de los 30 µs por operación, unos 20 (13 + 7) están dedicados a montar la petición y escribir la respuesta. Nuestro trabajo de optimización está limitado a las restantes partes; y una aplicación trivial de la <a href="http://es.wikipedia.org/wiki/Ley_de_Amdahl">ley de Amdahl</a> nos dice que nunca podremos llegar a rivalizar con memcached, al menos en rendimiento.</li>
 <li>Finalmente, <em>los resultados de estos benchmarks son bastante ruidosos</em>: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con <code>top</code> o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable...</li>
 </ul>
-<p><code>---8&lt;---8&lt;---8&lt;---8&lt;---8&lt;---</code></p>
-<p>Original publicado en <a href="http://www.godtic.com/blog/2013/11/24/optimizando-sockets-con-node-js/">GodTIC</a> el 2013-11-24.</p>
-<p>De vuelta al <a href="../index.html">índice</a>.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Original publicado en <a href="http://www.godtic.com/blog/2013/11/24/optimizando-sockets-con-node-js/">GodTIC</a> el 2013-11-24.
+									</p>
+									<p>
+									Back to the <a href="../index.html">index</a>.
+									</p>
 								</div>
 							</section>
 
