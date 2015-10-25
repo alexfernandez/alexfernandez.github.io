@@ -3,7 +3,7 @@ title: Ode to Telecommuting
 footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/23699613812/ode-to-telecommuting) on 2012-05-24.
 ---
 
-![Photo credit: [Gustav`s.](https://www.flickr.com/photos/gustavm/1558051592/)](pics/locked-to-the-cloud.jpg "La Cafetera")
+![Photo credit: [Gustav´s.](https://www.flickr.com/photos/gustavm/1558051592/)](pics/ode-to-telecommuting.jpg "La Cafetera")
 
 At MoveinBlue we love telecommuting. And it is not just that we don’t like offices: we have an office, and [we invite you to a coffee](https://moveinblue.com/things-to-do/madrid/we-get-you-a-coffee) if you want to come visit us. But coffee brewed at home is much better than office coffee.
 

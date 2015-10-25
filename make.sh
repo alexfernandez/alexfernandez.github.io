@@ -8,6 +8,7 @@ pandoc --template read-only.html -s md/index.md -o index.html
 sed -i -e 's/"\.\.\//"/g' index.html
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
 pandoc --template read-only.html -s md/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
+pandoc --template read-only.html -s md/closing-the-gap.md -o 2012/closing-the-gap.html
 pandoc --template read-only.html -s md/ode-to-telecommuting.md -o 2012/ode-to-telecommuting.html
 pandoc --template read-only.html -s md/reversible-engineering-part-3.md -o 2012/reversible-engineering-part-3.html
 pandoc --template read-only.html -s md/reversible-engineering-part-2.md -o 2012/reversible-engineering-part-2.html

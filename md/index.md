@@ -16,6 +16,7 @@ A collection of articles published over the years.
 
 * 2015-10-17: [Walk Through My Code](2015/walk-through-my-code.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
+* 2012-05-29: [Closing the Gap with Business](2012/closing-the-gap.html).
 * 2012-05-24: [Ode to Telecommuting](2012/ode-to-telecommuting.html).
 * 2012-05-20: [Reversible Engineering Part 3: Management](2012/reversible-engineering-part-3.html).
 * 2012-05-11: [Reversible Engineering Part 2: DevOps](2012/reversible-engineering-part-2.html).
