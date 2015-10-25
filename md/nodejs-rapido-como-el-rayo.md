@@ -1,5 +1,5 @@
 ---
-title: node.js: ¿rápido como el rayo?
+title: 'node.js: ¿rápido como el rayo?'
 footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/) el 2013-11-12.
 ---
 
