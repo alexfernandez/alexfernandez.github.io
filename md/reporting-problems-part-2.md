@@ -7,13 +7,13 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/3826000284
 
 In the [first part](reporting-problems-part-1.html) of this series we saw an introduction to user problems. In this second and last part we will give a few guidelines for creating a tool to manage a large number of problems.
 
-The Perfect Tool
+## The Perfect Tool
 
 A reporting tool should report user problems, whatever they are. It should not assume that everything is a “bug unless proved otherwise”. It shouldn’t either put the burden on the reporter that there is a problem: it is too easy to ask the user for confirmation by providing infinite details. Instead, such a tool should be completely agnostic and just let users state their problems.
 
 Some problems may be caused by a missing feature in the software. It is a good practice to let users request new features using the reporting tool, since they are supposed to solve user problems, after all. It is important to be able to mark those problems as “missing features” so the user knows what to expect.
 
-Process Issues
+## Process Issues
 
 By far, the most important event in the life of a report is the triaging: the report manager has to decide if the report should be taken care of now or later, and assign someone to work on it when the right moment comes. A blocking problem (something which prevents people from doing their job properly) would be given the maximum priority, while cosmetic issues will probably be relegated to valleys of inactivity.
 
@@ -23,7 +23,7 @@ By the way, people involved in the report should be able to add comments to it: 
 
 [Reversibility](reversible-engineering-part-3.html) is, as always, very important. Any open report can be closed and viceversa.
 
-The Missing Fields
+## The Missing Fields
 
 Bug trackers have usually lots of fields. [The bugzilla demo](https://landfill.bugzilla.org/bugzilla-tip/) has seven fields in its basic interface, and at least 20 fields in the advanced mode (more can be added). Problems in bug management can always be solved by more fields, or so the team imagines.
 
@@ -31,7 +31,7 @@ In the real world reports get usually bloated very quick; the administrative bur
 
 There should be three distinct areas in each report: one for the reporter, another for the triager and a third for the assigned developer. All of them should be visible if someone is interested (and has the necessary clearance in matters of security), but they can be collapsed by default to simplify the user experience.
 
-Priority, Severity and Urgency
+## Priority, Severity and Urgency
 
 The report manager has to decide when a problem will be dealt with, and to do it he or she needs to set a priority. The user should never have the last word, as all users will mark everything as “priority -1000” if needed, even if it is in fact a trivial issue.
 
@@ -39,7 +39,7 @@ It is very easy to get lost in a lot of different concepts that quantify how man
 
 Prioritization should be done using a different tool, which is just a queue of work given to someone. There is no need to use high, medium or low priorities; just state which problem is the first to be tackled and those that go next. The ideal queue will get a developer busy for a few days before they come back for more; if they get stuck in one problem they can start with the second, and so on.
 
-Traceability
+## Traceability
 
 Usually we will keep our code in a repository. While we cannot keep our reports also in the same repo, there are elaborate systems that keep track of which code changes solve which issues, and viceversa.
 
@@ -49,7 +49,7 @@ Wouldn’t it be great to keep reports in the same place as the code, then? This
 
 All this work may not even be convenient. In my (admittedly limited) experience it is enough to state succintly which report is solved by which commit, so it can be searched later.
 
-More on Problem Reporting
+## More on Problem Reporting
 
 Reporting tools are commonly bloated, inefficient and brittle. Keep it simple to get the best results.
 
