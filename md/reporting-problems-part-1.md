@@ -1,5 +1,5 @@
 ---
-title: Reporting Software Problems, Part 1: Process
+title: 'Reporting Software Problems, Part 1: Process'
 footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/30032508379/reporting-software-problems-part-1-process) on 2012-08-23.
 ---
 

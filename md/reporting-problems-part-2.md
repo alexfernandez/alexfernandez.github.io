@@ -1,5 +1,5 @@
 ---
-title: Reporting Software Problems, Part 2: Tooling
+title: 'Reporting Software Problems, Part 2: Tooling'
 footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/38260002843/reporting-problems-part-2-tooling) on 2012-12-18.
 ---
 
