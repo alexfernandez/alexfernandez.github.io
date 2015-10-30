@@ -19,6 +19,9 @@ pandoc --template read-only.html -s md/reversible-engineering-part-1.md -o 2012/
 pandoc --template read-only.html -s md/locked-to-the-cloud.md -o 2012/locked-to-the-cloud.html
 pandoc --template read-only.html -s md/continuous-deployment.md -o 2012/continuous-deployment.html
 pandoc --template read-only.html -s md/developer-discipline.md -o 2012/developer-discipline.html
+pandoc --template read-only.html -s md/reporting-problems-part-1.md -o 2012/reporting-problems-part-1.html
+pandoc --template read-only.html -s md/reporting-problems-part-2.md -o 2012/reporting-problems-part-2.html
+pandoc --template read-only.html -s md/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
 
 # Español
 pandoc --template read-only.html -s md/optimizando-sockets.md -o 2013/optimizando-sockets.html

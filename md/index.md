@@ -18,7 +18,10 @@ A collection of articles published over the years.
 
 Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
-* 2012-06-11: [Iterative Evolution](2012/iterative-evolution.html).
+* 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
+* 2012-12-18: [Reporting Problems, Part 2: Tooling](2012/reporting-problems-part-2.html).
+* 2012-08-23: [Reporting Problems, Part 1: Process](2012/reporting-problems-part-1.html).
+* 2012-07-25: [Iterative Evolution](2012/iterative-evolution.html).
 * 2012-06-11: [Sources of Irreversibility](2012/sources-of-irreversibility.html).
 * 2012-06-09: [How to Fake the Performance Review](2012/performance-review.html).
 * 2012-06-04: [From Ground to Cloud in Two Hours](2012/from-ground-to-cloud.html).
@@ -44,8 +47,10 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 
 ## And Now for Something Not Quite Alike
 
-Please browse my [other projects](https://github.com/alexfernandez/).
-Including [MilliEarth](http://milliearth.org/), the barest skeleton for a space shooter.
+Please browse my [other projects](https://github.com/alexfernandez/),
+including [MilliEarth](http://milliearth.org/): the barest skeleton for a space shooter.
+
+You can also see [my presentations](http://slides.com/alexfernandez/) for a quick fix.
 
 ## Credits
 
