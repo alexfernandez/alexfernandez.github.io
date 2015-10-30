@@ -7,7 +7,7 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/3826000284
 
 In the [first part](reporting-problems-part-1.html) of this series we saw an introduction to user problems. In this second and last part we will give a few guidelines for creating a tool to manage a large number of problems.
 
-# The Perfect Tool
+## The Perfect Tool
 
 A reporting tool should report user problems, whatever they are. It should not assume that everything is a “bug unless proved otherwise”. It shouldn’t either put the burden on the reporter that there is a problem: it is too easy to ask the user for confirmation by providing infinite details. Instead, such a tool should be completely agnostic and just let users state their problems.
 

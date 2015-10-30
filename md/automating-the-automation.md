@@ -3,7 +3,6 @@ title: Automating the Automation
 footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/20991980613/automating-the-automation) on 2012-04-12.
 ---
 
-
 ![Photo credit: [annemarie.michel@mpsa.com.](https://fr.wikipedia.org/wiki/Fichier:Engrenages_-_85.488_-.jpg)](pics/automating-the-automation.jpg "Engrenages - 85.488")
 
 Automatic mechanisms have changed our lives for good, but they bring their own set of problems. In this era of turning automation upon itself endlessly, we have to identify these drawbacks and alleviate them if at all possible. This post is dedicated to exploring how we automate our processes in MoveinBlue.
