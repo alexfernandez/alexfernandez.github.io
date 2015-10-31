@@ -10,7 +10,7 @@ I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pin
 I help organize two great communities: [MadridJS](http://www.meetup.com/es/madridjs/) and [Node.js Madrid](http://www.meetup.com/es/Node-js-Madrid/),
 where we gather once a month and have some fun talking about nerdy stuff.
 
-## Random Ramblings
+## Software Engineering
 
 A collection of articles published over the years.
 
@@ -18,7 +18,6 @@ A collection of articles published over the years.
 
 Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
-* 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
 * 2012-12-18: [Reporting Problems, Part 2: Tooling](2012/reporting-problems-part-2.html).
 * 2012-08-23: [Reporting Problems, Part 1: Process](2012/reporting-problems-part-1.html).
 * 2012-07-25: [Iterative Evolution](2012/iterative-evolution.html).
@@ -34,6 +33,12 @@ Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 * 2012-04-12: [Automating the Automation](2012/automating-the-automation.html).
 * 2012-04-10: [Continuous Deployment](2012/continuous-deployment.html).
 * 2012-03-30: [Developer Discipline](2012/developer-discipline.html).
+
+## Random Ramblings
+
+Articles about stuff not related to software engineering.
+
+* 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
 
 ## Artículos en español
 

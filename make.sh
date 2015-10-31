@@ -22,6 +22,7 @@ pandoc --template read-only.html -s md/reporting-problems-part-1.md -o 2012/repo
 pandoc --template read-only.html -s md/reporting-problems-part-2.md -o 2012/reporting-problems-part-2.html
 pandoc --template read-only.html -s md/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
+pandoc --template read-only.html -s md/the-intelligent-designer.md -o 2015/the-intelligent-designer.html
 
 # Español
 pandoc --template read-only.html -s md/optimizando-sockets.md -o 2013/optimizando-sockets.html
