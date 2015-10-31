@@ -1,6 +1,6 @@
 ---
-title: The Human Body as a Well-Engineered System
-footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/52422110339/the-human-body-as-a-well-engineered-system) on 2013-06-07.
+title: The Intelligent Designer
+subtitle: Or how to take Intelligent Design as a hypothesis to view the world.
 ---
 
 ![Photo credit: [Fernando Vicente](http://www.fernandovicente.es/pinturas/anatomias).](pics/human-body-engineered-system.jpg "Anatomías")
