@@ -3,7 +3,7 @@ title: The Intelligent Designer
 subtitle: Or how to understand Intelligent Design as a hypothesis to view the world.
 ---
 
-![Photo credit: [Fernando Vicente](http://www.fernandovicente.es/pinturas/anatomias).](pics/human-body-engineered-system.jpg "Anatomías")
+![Photo credit: [Fernando Vicente](http://www.fernandovicente.es/pinturas/anatomias).](pics/the-intelligent-designer.jpg "Anatomías")
 
 Let us take a look at the human body from the point of view of Systems Engineering. What can we learn about a structure that has evolved during millions of years in unbelievably harsh conditions?
 
