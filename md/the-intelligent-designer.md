@@ -1,6 +1,6 @@
 ---
 title: The Intelligent Designer
-subtitle: Or how to take Intelligent Design as a hypothesis to view the world.
+subtitle: Or how to understand Intelligent Design as a hypothesis to view the world.
 ---
 
 ![Photo credit: [Fernando Vicente](http://www.fernandovicente.es/pinturas/anatomias).](pics/human-body-engineered-system.jpg "Anatomías")
