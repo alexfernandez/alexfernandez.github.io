@@ -11,18 +11,21 @@ but by a specific design
 Note: my own views should not be important for the purposes of this article.
 Yet for the curious, you will find them in part III.
 
-# Part I: Intelligence and Designs
+# Part I: The Theory
 
-Let us first see what those two words mean.
+In this first part we will look into the theory of intelligent design.
 
-## Designs
+## Words
+
+Let us first see what those two words mean separately and then together.
 
 The word _design_ comes from Latin _designo_, with the meaning of "mark".
 Its meaning is "purpose", "finality".
 
-## Intelligence
+Meanwhile, _intelligence_ comes from also from Latin, in this case from _intelligere_: "understand".
 
-The word _intelligence_ comes from also from Latin, in this case from _intelligere_: "understand".
+Together both words make for an interesting combination:
+"intelligent design" thus mixes understanding and finality.
 
 ## Intelligent Design
 
@@ -35,6 +38,15 @@ But, how intelligent is this design?
 
 There is an obvious problem with supposing that the design of humankind was intelligent:
 we are full of 
+
+If we look at the human body,
+[the human body](../2013/human-body-engineered-system.html),
+at first sight there are multiple design flaws that can prove fatal.
+
+But it is too easy to criticise someone else's designs without knowing all the details.
+The appendix was supposed for a long time to be a useless leftover from earlier times,
+but has recently been shown to protect against infections
+by [housing "good bacteria"](http://www.nbcnews.com/id/21153898/).
 
 ### Systems Design
 
