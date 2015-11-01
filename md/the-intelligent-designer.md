@@ -1,129 +1,79 @@
 ---
 title: The Intelligent Designer
-subtitle: Or how to understand Intelligent Design as a hypothesis to view the world.
+subtitle: Or how to understand intelligent design as a hypothesis to view the world.
 ---
 
 ![Photo credit: [Fernando Vicente](http://www.fernandovicente.es/pinturas/anatomias).](pics/the-intelligent-designer.jpg "Anatomías")
 
-Let us take a look at the human body from the point of view of Systems Engineering. What can we learn about a structure that has evolved during millions of years in unbelievably harsh conditions?
+Proponents of intelligent design think that the world did not arise by a random process,
+but by a specific design
 
-## Subsystems
+Note: my own views should not be important for the purposes of this article.
+Yet for the curious, you will find them in part III.
 
-The classical systems in our bodies are just a few: circulatory, respiratory, digestive, excretory, nervous, musculoskeletal and reproductive systems. Together they provide the basic functions that keep us alive and allow us to thrive. There are some additional systems that provide important functions: endocrine, immune, integumentary (skin and hair), urinary… They are not as important to our present goals, and at a certain point they start to overlap a lot. So let us stick to the first seven which are more representative.
+# Part I: Intelligence and Designs
 
-And yet the definition of theses systems is not clear-cut. The [relevant](http://en.wikipedia.org/wiki/Biological_system) [wikipedia](http://en.wikipedia.org/wiki/Human_physiology#Systems) [articles](http://en.wikipedia.org/wiki/Organ_%28anatomy%29#Organ_systems) are a bit inconsistent: does the circulatory system include the lymphatic? Does the muscular system include the skeleton, or is it the musculoskeletal system?
+Let us first see what those two words mean.
 
-And as long as we are asking questions, are we talking about systems or subsystems? Let us briefly clarify the terms. For our purposes a _subsystem_ is just a system that is embedded within another, larger structure (which can be called the _supersystem_ should we ever want to do that; _system_ is just fine). Inside any subsystem there can be any number of sub-subsystems: for instance the lymphatic system is a part (a subsystem) of the circulatory system. There is nothing special in the top level, but we call it an _organism_ since we are not interested in how it interacts with its environment.
+## Designs
 
-When we look just at subsystem organization, the body of any person is essentially the same to that of any other, and very similar to any other mammal organism. In fact all of the above systems can be readily recognized in most vertebrates. Even most invertebrates share a lot of the general structure: substitute “skeleton” by “exoskeleton” and we are basically ready to go. So there must be something to this subsystem division that works across all animals.
+The word _design_ comes from Latin _designo_, with the meaning of "mark".
+Its meaning is "purpose", "finality".
 
-## Interfaces
+## Intelligence
 
-How do those subsystems interact with each other? The usual term in computer science is interface, and we will stick to it for simplicity.
+The word _intelligence_ comes from also from Latin, in this case from _intelligere_: "understand".
 
-Let us see a few of these interactions in an organism. Even if we stick to the seven main systems we would have 21 interfaces (sum of 6 + 5 + … + 1), so let us concentrate on the most interesting cases: the interactions between circulatory and other systems. Blood serves as the main communications bus in our organism, and thus it interacts with everything else.
+## Intelligent Design
 
-First we have to acknowledge the primary function of the circulatory system which is to feed and nurture all organs. A very complex exchange of chemical substances is happening all the time: nutrients go in, waste products go out. There are many billions of vessels of varying sizes that penetrate almost all tissues in the body; their combined length in an adult is [about the circumference of the globe (25,000 miles)](http://www.as.miami.edu/chemistry/2086/chapter_21/new-chap21_class_part1.htm).
+This theory is usually proposed as an alternative to evolution,
+to explain how species evolved with the ultimate finality of creating humankind.
 
-But once we check every subsystem there is so much more going on.
+But, how intelligent is this design?
 
-### Circulatory ↔ Respiratory
+### Design Flaws
 
-The specific interface between the respiratory and circulatory systems is easy to identify: the basic exchange happens in the lungs. It is a bidirectional interface: the blood emits carbon dioxide and takes oxygen from the outside air. And it has a very wide perimeter since it spans the whole lung surface. Other animals can even breathe through the skin; not us mammals (except for an Australian [marsupial mouse](http://curiosity.discovery.com/question/skin-breath) apparently).
+There is an obvious problem with supposing that the design of humankind was intelligent:
+we are full of 
 
-But many other things happen during that exchange. Water can be lost unless particular care is taken, which is another function of the mammal nose — in reptiles and birds air always has to pass through the mouth. (Random [wikipedia fact](http://en.wikipedia.org/wiki/Respiratory_system#Horses): horses cannot breathe through their mouths.)  And by the way, the acid-base balance of our bodies also depends on the release of carbonic gas.
+### Systems Design
 
-There are also secondary functions for the air flow. It is sometimes used to provide refrigeration: witness how dogs breathe heavily in the sun. Air, as it is sucked in, carries with it small particles which are detected in the nose, so respiration is also the basis of the sense of smell. In many animals air flow is used to emit sounds and communicate, a trick that we humans have perfected to the point that we can represent abstract concepts using hot carbonized air. That is a lot of functions crammed around an interface, and this one was apparently simple!
+There are two different ways to go about when designing a system:
+top down and bottom up.
 
-### Circulatory ↔ Digestive
+We already evaluated [the human body](../2013/human-body-engineered-system.html)
+in a previous article.
+After looking at how it is divided in subsystems,
+there was no evidence of classic design in any of those.
 
-Now this is a very interesting interface. Blood starts absorbing vital components from ingested food as soon as it reaches the stomach, and continues to do so until the dried up remnants leave the large intestine. In contrast to most of the inside body, the digestive tube is “dirty”: it is supposed to contain many friendly bacteria (and some that are not so friendly). This situation poses a lot of problems: those bacteria must be contained within the walls of the digestive tract, because once they cross the blood barrier they can cause big problems.
+# Part II: The Designer
 
-In recent times it has been discovered that much of our immune system resides in the intestine. Not only does the body have to defend against aggressive pathogens using [a delicate balance](http://www.huffingtonpost.com/dr-mark-hyman/is-your-digestive-system_b_313247.html) of friendly bacteria. Also, the intestine serves as a [learning playground](http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_immune.html) for white cells, which use what they learn in their stay in Peyer’s patches for their good fight in the skin.
+The unspoken truth about intelligent design is that there must be an agent behind this design.
+And who could it be?
 
-Perhaps you will now look at some of the disgusting habits of babies in a different light: when they eat dirt and lick anything else they find, basically they are just training their immune systems to recognize external pathogens so their T cells can later distinguish between friend and foe.
+## Designer God
 
-And since we are talking about disgusting habits…
+Once we posit that God itself had an ulterior design for all living species,
+which was to create Humanity, what is the advantage to classic theology
+where God created Man in his likeness?
+Cannot God do as it pleases?
+The idea seems to be that, instead of just creating things magically,
+God devised a process that would ultimately yield an intelligent species.
 
-### Circulatory ↔ Excretory
+This "designer God" seems much more intelligent than the usual mythological being
+that just creates what it sees fit. Also, the idea is cleverer,
+and more palatable to a modern thinker.
 
-The definition of the excretory system is a bit hectic, since traditionally it includes organs in other systems. As responsible engineers we will remove lungs and intestines from our system to avoid duplication, and keep the remaining bits: skin glands, urinary subsystem, assorted internal organs.
+# Part III: Evaluation
 
-This interface is mostly unidirectional, since the excretory system has a very specific function: to release waste. But not all of the exchanges happen in the same direction: the liver releases its by-products into the blood stream, while blood releases waste to other excretory glands.
+This section contains a critical evaluation of the hypothesis of intelligent design.
 
-This particular interface is quite complex: it involves most of the organs and glands in the excretory system, since blood is used to carry waste products from and to all of them. It is also used to perform many other functions.
+## About the Designer
 
-The liver does not just release waste products into the blood but can also neutralize any harmful substances such as alcohol: they are extracted, decomposed and released back. Blood flow through the skin does not only release sweat; it provides refrigeration and even allows us to blush. And blood carries with it special cells called platelets that can close any eventual wounds.
+A top-down designer seems to be out of the question,
+since its creations do not exhibit any .
 
-Many glands can also release hormones that regulate our organisms, a function traditionally reserved to the brain; let us take a look now into our nervous system.
+## About the Designs
 
-### Circulatory ↔ Nervous
-
-At first sight this is not a very interesting interface: veins and nerves travel separately, and while they feed each other at points they do not interact much. But after thinking about it for a while you may wonder: how can the brain coordinate so perfectly with our heart and arteries to increase blood flow when you are running, or even preventively in an emergency situation? How can our feelings make us blush?
-
-As it happens there is a lot going on. The body maintains homeostatic control using a complex mix of chemicals that make our heart go faster and our veins to expand. The brain plays a big role in this control structure.
-
-A crucial function in this interface is precisely blood flow into the brain, which can be a major energy drain for big-brained creatures such as ourselves. Smart control is therefore essential for energy conservation, and it can make all the difference between life and death in the long run. But failure to provide adequate levels of oxygen to the brain may result in dizziness and even fainting. Pressure regulation becomes a vital element for big brain creatures and particularly mammals, and too much blood pressure can cause serious malfunctions.
-
-But of course there is much more. Blood is used to carry substances into the brain which can make the whole organism change its behavior: from alertness to plain aggression, many inner workings of our brains can be tuned by hormones. So in a way this interface is in control of our very thoughts! Scary, huh? OK, not really, but still.
-
-### Circulatory ↔ Musculoskeletal
-
-Now, this looks like a simple interface: blood provides nourishment for muscles and bones. What else is there to it? By now you will be expecting a little bit more, and there is.
-
-For one thing, muscles do help the circulatory system. Arms and legs are too far away for the heart to get there, so many vessels rely on body movements to deliver (and return) blood.
-
-Lymph is another fluid in the circulatory system; for it there is no pumping heart — [unless you are a frog](http://en.wikipedia.org/wiki/Lymph_hearts), and in that case I am not sure you should be reading this. Circulation in the lymphatic subsystem relies entirely on muscular movements: as anyone that has stood for many hours can attest, fluids accumulate in the feet unless you move your legs.
-
-As it happens, the immune system relies on lymph to carry white cells. These cells are produced in bone marrow and then enter the blood stream to do their job, so their production is part of the interface to the muscular system. There is more: the spleen, living inside our chest bones and the thymus alongside it help regulate our immune system.
-
-### Circulatory ↔ Reproductive
-
-Finally, there is an interface which is not as complex as the others but that has some tricks up its sleeve. As usual the primary function of the circulatory system is to feed all organs, and in the case of reproductive organs there is also a certain swelling that happens during sexual excitation.
-
-The twist lies in how sexual organs produce two very important hormones: estrogen and testosterone. They regulate many aspects of human (and vertebrate) behavior: growth, health and behavior. And of course sexual development. In a way gonads create their own environment to grow and make themselves useful, using the circulatory system as the carrier.
-
-## Lessons
-
-What can we learn about the design of our bodies?
-
-### Keep It Complex, Stupid
-
-Any intelligent person, confronted with the task of designing such a complex system as our bodies, would have to rely heavily on *simplification* and *reduction* to make a good job. Not so in living organisms: there is such a wealth of interactions that they defy our understanding at every point.
-
-In fact the whole division into “systems” is falling out of favor lately, since it is not clear that it is even the right approach to understand how our bodies work. There are many functions to provide, and many organs to consider; the division into systems during our shallow excursion has probably felt arbitrary and conventional at times.
-
-Why is such an important principle as simplicity routinely ignored in the design of our own bodies? Why is complexity embraced as a rule? There is a straight answer: human-made systems are designed to be understood, reviewed and sometimes even built by others. In contrast, comprehension by other limited intelligences is not a concern in the design of living organisms.
-
-### Cohesion versus Economy
-
-A well-known principle tells us to have *well-defined* interfaces. Architects usually want to keep their interfaces cohesive: whatever functions are provided should be related in nature.
-
-There is however nothing well-defined in bodily interfaces: several unrelated functions are constantly being piled upon the same interface. We have seen huge interfaces that encompass (and basically define) entire systems. Why is this?
-
-Again, there is a straightforward answer: reuse. Once there is an interface between two systems, it is more economical to reuse it than to create a new interface — and much better than to create a new organ or system. *Economy of resources* is apparently more important than cohesion for living creatures.
-
-### The Dangers of Coupling
-
-A basic pillar of system architecture is to *avoid coupling* unrelated systems and functions. Again, this is not a concern in living organisms: unrelated systems group together to provide their functions through the complex interfaces that we have just gleaned.
-
-There is an important reason to avoid coupling: to guard against failure. Simple, cohesive interfaces should help defend against complex failure modes. Within a tightly coupled system a problem in any part will propagate to every corner. Humongous interfaces will leak in every possible way. How can organisms survive such catastrophic designs?
-
-The answer is that living systems achieve resilience in subtle ways. Each subsystem and even each interface is guarded against failure by safety mechanisms, and locality plays a big part in many of them. *Systems reinforce each other through the interfaces*, which is not how we usually define systems; instead interfaces are evident points of failure for us.
-
-### Reuse like Crazy
-
-About the only fashionable rule that our bodies obey is to *reuse stuff* all the time. Organs are expanded and even repurposed to provide new functions. This reuse improves economy and efficiency at all levels: a few interfaces can readily provide an ever-expanding number of functions. There is no need to reinvent the wheel when it can be augmented, and the incredible plasticity of living tissues ensures an endless stream of possibilities.
-
-There is a deeper level of reuse. Different species share the same basic systems, which work very similarly in many living creatures: from flies to blue whales. (The particulars of course vary wildly.)
-
-## The Designer Itself
-
-I will leave you with a final though: is there a Designer from which to learn at all? In other words: are our bodies the product of Intelligent Design? There is no way to answer this question without entering religious grounds which are beyond the scope of this post. But we can try to analyze this perspective rationally and see what we learn.
-
-The body of even the simplest animals has defied our understanding for many millennia now, from the writings of ancient philosophers to our advanced and hyper-technified methods of today. We are discovering new mechanisms and interactions all the time, and the stream of discoveries does not appear to have an end in sight.
-
-The metaphor of the Intelligent Designer breaks apart at a few points. First, in the design of living organisms there is not a desire to understand (_intelligere_) or to make others understand. Second, there are no cohesive design principles that are followed throughout living bodies. About the only one that we have been able to identify is reuse, and that is just another word for economy. It is well known that natural principles always follow the optimization of some variable or other: momentum, flight time, energy. Living organisms are no exception.
-
-If there is an Intelligent Designer, It is indeed supernaturally intelligent, and its bag of tricks is apparently endless. Let us hope we never find an explanation for everything lest It gets jealous.
+It is not 
 
