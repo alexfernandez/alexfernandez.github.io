@@ -283,9 +283,17 @@ Instagram
 
 # Vamos terminando
 
-## Seguir el flujo
-
 ## Migración de cualquier tipo
+
+![All strategies](pics/all.png)
+
+Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.
+
+## Sigue fluyendo
+
+Entre tanta migración, no hay que perder de vista el objetivo final:
+tener una arquitectura flexible,
+que puede adaptarse a las nuevas circunstancias rápidamente.
 
 ## El equilibrio inestable
 
