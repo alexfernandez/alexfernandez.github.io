@@ -164,7 +164,7 @@ en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.
 
 ### Parar y arrancar
 
-![Stop and migrate](pics/stop-migrate.jpg)
+![Stop and migrate](pics/stop-migrate.png)
 
 Ésta es la migración de toda la vida:
 
