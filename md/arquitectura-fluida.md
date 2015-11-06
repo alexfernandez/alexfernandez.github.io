@@ -233,11 +233,17 @@ Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
 
 ### Versión de sólo lectura
 
+![Read-only version](pics/read-only-version.png)
+
 ### Sincronización
+
+![Synchronization](pics/sync.png)
 
 MediaSmart daystats
 
 ### Copia doble
+
+![Double copy](pics/double-copy.png)
 
 MediaSmart perfiles
 
@@ -245,23 +251,35 @@ MediaSmart perfiles
 
 ### Decorador
 
-### Consulta doble
+### Consulta dual
 
-### Escritura doble
+![Dual lookup](pics/dual-lookup.png)
 
-### Paso temporizado (timed rollover)
+### Escritura dual
+
+![Dual write](pics/dual-write.png)
+
+### Paso temporizado
+
+![Timed rollover](pics/timed-rollover.png)
 
 MediaSmart stats aggregates
 
 ### Conversión _in situ_
 
+![In-place conversion](pics/in-place.png)
+
 ## Catálogo de estrategias en broker
 
 ### Acceso mediante proxy
 
+![Proxied access](pics/proxied-access.png)
+
 Instagram
 
-### Escritura encolada
+### Escritura en cola
+
+![Queued write](pics/queued-write.png)
 
 # Vamos terminando
 

@@ -134,21 +134,48 @@ db.current.get(key, function(error, result) {
 <p>El día 5 de marzo nos reportaron problemas en producción, por lo que tuvimos que deshacer la migración. Por fortuna habíamos mantenido las instancias antiguas, así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez. Por ironías de la vida, el problema no se resolvió con esta migración inversa, por lo que dedujimos que tenía otra causa. Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración), el problema real se hizo evidente de inmediato y no tenía nada que ver, sino que venía causado por un despliegue anterior.</p>
 <p>El día 11 de marzo probamos de nuevo con la misma técnica, y de nuevo tras varias horas de <em>downtime</em> la migración estaba hecha. Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda región, cosa que hicimos el día 13 de marzo (viernes). Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.</p>
 <h3 id="versión-de-sólo-lectura">Versión de sólo lectura</h3>
+<div class="figure">
+<img src="pics/read-only-version.png" alt="Read-only version" /><p class="caption">Read-only version</p>
+</div>
 <h3 id="sincronización">Sincronización</h3>
+<div class="figure">
+<img src="pics/sync.png" alt="Synchronization" /><p class="caption">Synchronization</p>
+</div>
 <p>MediaSmart daystats</p>
 <h3 id="copia-doble">Copia doble</h3>
+<div class="figure">
+<img src="pics/double-copy.png" alt="Double copy" /><p class="caption">Double copy</p>
+</div>
 <p>MediaSmart perfiles</p>
 <h2 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h2>
 <h3 id="decorador">Decorador</h3>
-<h3 id="consulta-doble">Consulta doble</h3>
-<h3 id="escritura-doble">Escritura doble</h3>
-<h3 id="paso-temporizado-timed-rollover">Paso temporizado (timed rollover)</h3>
+<h3 id="consulta-dual">Consulta dual</h3>
+<div class="figure">
+<img src="pics/dual-lookup.png" alt="Dual lookup" /><p class="caption">Dual lookup</p>
+</div>
+<h3 id="escritura-dual">Escritura dual</h3>
+<div class="figure">
+<img src="pics/dual-write.png" alt="Dual write" /><p class="caption">Dual write</p>
+</div>
+<h3 id="paso-temporizado">Paso temporizado</h3>
+<div class="figure">
+<img src="pics/timed-rollover.png" alt="Timed rollover" /><p class="caption">Timed rollover</p>
+</div>
 <p>MediaSmart stats aggregates</p>
 <h3 id="conversión-in-situ">Conversión <em>in situ</em></h3>
+<div class="figure">
+<img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
+</div>
 <h2 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h2>
 <h3 id="acceso-mediante-proxy">Acceso mediante proxy</h3>
+<div class="figure">
+<img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
+</div>
 <p>Instagram</p>
-<h3 id="escritura-encolada">Escritura encolada</h3>
+<h3 id="escritura-en-cola">Escritura en cola</h3>
+<div class="figure">
+<img src="pics/queued-write.png" alt="Queued write" /><p class="caption">Queued write</p>
+</div>
 <h1 id="vamos-terminando">Vamos terminando</h1>
 <h2 id="seguir-el-flujo">Seguir el flujo</h2>
 <h2 id="migración-de-cualquier-tipo">Migración de cualquier tipo</h2>
