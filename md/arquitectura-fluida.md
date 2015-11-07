@@ -29,6 +29,8 @@ y se comporta mejor en ciertas circunstancias.
 
 Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
 "arquitectura" en software.
+En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel,
+y organizar las relaciones entre ellos.
 
 ## Requisitos cambiantes
 
