@@ -1,5 +1,5 @@
 ---
-title: I Made a Web Page
+title: Alex Made a Web Page
 subtitle: 'You have found the secret lair of Alex Fernández. Congrats!'
 footer: Enjoy!
 ---
