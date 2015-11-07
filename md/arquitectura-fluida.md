@@ -29,12 +29,14 @@ y se comporta mejor en ciertas circunstancias.
 
 Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
 "arquitectura" en software.
+
 En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel,
 y organizar las relaciones entre ellos.
-
-## Requisitos cambiantes
-
-Un sistema de software tiene que poder evolucionar durante su vida útil.
+Curiosamente, la organización en componentes suele derivar en la organización física de las máquinas
+y la elección de lenguaje y programas auxiliares,
+como por ejemplo qué base de datos usar.
+De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años,
+o la moda de usar gestores de colas
 
 ### Modas en arquitectura
 
@@ -43,13 +45,22 @@ En los años 80, la moda en las empresas era tener una
 (del tamaño de un armario pequeño) y múltiples terminales conectados.
 
 En los 90 se popularizaron las arquitecturas cliente-servidor.
+Poco después llegaría 
 
 A principios del siglo XXI llegaron las arquitecturas de tres capas:
 capa web, backend y base de datos.
+En elementos más blanditos, también se inventó el ridículo [_Enterprise Service Bus_](https://en.wikipedia.org/wiki/Enterprise_service_bus#History),
+que empezó a infectar los diagramas corporativos allá por 2002.
+Por suerte, rápidamente se sustityó 
 
 En los años 10 las bases de datos NoSQL han adquirido protagonismo.
+Junto con los gestores de colas.
 
-## Requisitos operacionales
+## Requisitos cambiantes
+
+Un sistema de software tiene que poder evolucionar durante su vida útil.
+
+### Requisitos operacionales
 
 Las circunstancias en las que nuestro sistema tiene que trabajar cambian,
 para bien o para mal.

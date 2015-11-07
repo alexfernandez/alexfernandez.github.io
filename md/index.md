@@ -1,9 +1,8 @@
 ---
 title: Alex Fernández Made a Web Page
+subtitle: 'You have found the secret lair of Alex Fernández. Congrats!'
 footer: Enjoy!
 ---
-
-You have found the secret lair of Alex Fernández. Congrats!
 
 I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito).
 

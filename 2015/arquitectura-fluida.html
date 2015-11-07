@@ -64,15 +64,16 @@
 <p>En muchas empresas hay departamentos de arquitectura dedicados a decidir cómo se va a organizar cada proyecto de software. Deciden el diseño a alto nivel, en cuántas capas se dividirá, qué base de datos usar y otros detalles importantes.</p>
 <p>¿Por qué cambiar la base de datos en cada proyecto? ¿Por qué no usamos siempre la misma? Para construir edificios no existe un material perfecto: a veces es mejor la piedra, otras el ladrillo y otras incluso el acero. Tampoco hay una forma perfecta para todos los edificios: cuadrados, rectángulos, cilindros y semiesferas se comportan de forma distinta bajo la carga. Lo mismo ocurre con los componentes de software: cada uno tiene unas restricciones operacionales diferentes, y se comporta mejor en ciertas circunstancias.</p>
 <h3 id="qué-es-la-arquitectura">Qué es la arquitectura</h3>
-<p>Puede que nos ayude a centrar la discusión si definimos qué es este negocio de &quot;arquitectura&quot; en software. En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel, y organizar las relaciones entre ellos.</p>
-<h2 id="requisitos-cambiantes">Requisitos cambiantes</h2>
-<p>Un sistema de software tiene que poder evolucionar durante su vida útil.</p>
+<p>Puede que nos ayude a centrar la discusión si definimos qué es este negocio de &quot;arquitectura&quot; en software.</p>
+<p>En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel, y organizar las relaciones entre ellos. Curiosamente, la organización en componentes suele derivar en la organización física de las máquinas y la elección de lenguaje y programas auxiliares, como por ejemplo qué base de datos usar. De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años, o la moda de usar gestores de colas</p>
 <h3 id="modas-en-arquitectura">Modas en arquitectura</h3>
 <p>En los años 80, la moda en las empresas era tener una <a href="http://www.computerhistory.org/revolution/minicomputers/11/366/1946">minicomputadora</a> (del tamaño de un armario pequeño) y múltiples terminales conectados.</p>
-<p>En los 90 se popularizaron las arquitecturas cliente-servidor.</p>
-<p>A principios del siglo XXI llegaron las arquitecturas de tres capas: capa web, backend y base de datos.</p>
-<p>En los años 10 las bases de datos NoSQL han adquirido protagonismo.</p>
-<h2 id="requisitos-operacionales">Requisitos operacionales</h2>
+<p>En los 90 se popularizaron las arquitecturas cliente-servidor. Poco después llegaría</p>
+<p>A principios del siglo XXI llegaron las arquitecturas de tres capas: capa web, backend y base de datos. En elementos más blanditos, también se inventó el ridículo <a href="https://en.wikipedia.org/wiki/Enterprise_service_bus#History"><em>Enterprise Service Bus</em></a>, que empezó a infectar los diagramas corporativos allá por 2002. Por suerte, rápidamente se sustityó</p>
+<p>En los años 10 las bases de datos NoSQL han adquirido protagonismo. Junto con los gestores de colas.</p>
+<h2 id="requisitos-cambiantes">Requisitos cambiantes</h2>
+<p>Un sistema de software tiene que poder evolucionar durante su vida útil.</p>
+<h3 id="requisitos-operacionales">Requisitos operacionales</h3>
 <p>Las circunstancias en las que nuestro sistema tiene que trabajar cambian, para bien o para mal. Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en una mes: en 2013 <a href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a> crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más vertiginoso que suponía multiplicar su facturación por 20 en un año.</p>
 <h3 id="caso-práctico-mediasmart-mobile">Caso práctico: MediaSmart Mobile</h3>
 <h3 id="planificación-de-capacidad">Planificación de capacidad</h3>
