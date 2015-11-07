@@ -137,45 +137,67 @@ db.current.get(key, function(error, result) {
 <div class="figure">
 <img src="pics/read-only-version.png" alt="Read-only version" /><p class="caption">Read-only version</p>
 </div>
+<p>Ahora veremos una estrategia ligeramente más sofisticada. Los pasos son:</p>
+<ul>
+<li>pasar a un modo de sólo lectura,</li>
+<li>hacer una copia en caliente (mientras el sistema está andando),</li>
+<li>cambiar a la nueva base de datos,</li>
+<li>y volver al modo de lectura/escritura.</li>
+</ul>
+<p>Mientras el sistema está en sólo lectura, se puede acceder a los datos pero no modificarlos. De esta forma nos aseguramos de que se pueda hacer la copia en caliente: como los datos no cambian, o tenemos que preocuparnos de que se la copia esté desfasada al terminar.</p>
+<p>Esto es bastante mejor que una parada completa, pero sigue sin ser realmente reversible. Además, dejar el sistema en sólo lectura no es siempre admisible para ciertos sistemas que tienen que estar recogiendo datos nuevos constantemente.</p>
+<p>Otro problema es que una copia en caliente puede tardar bastante más que en frío, debido a los accesos constantes.</p>
+<p>La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario.</p>
+<h4 id="caso-práctico-1">Caso práctico</h4>
 <h3 id="sincronización">Sincronización</h3>
 <div class="figure">
 <img src="pics/sync.png" alt="Synchronization" /><p class="caption">Synchronization</p>
 </div>
+<h4 id="caso-práctico-2">Caso práctico</h4>
 <p>MediaSmart daystats</p>
 <h3 id="copia-doble">Copia doble</h3>
 <div class="figure">
 <img src="pics/double-copy.png" alt="Double copy" /><p class="caption">Double copy</p>
 </div>
+<h4 id="caso-práctico-3">Caso práctico</h4>
 <p>MediaSmart perfiles</p>
 <h2 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h2>
 <h3 id="decorador">Decorador</h3>
+<h4 id="caso-práctico-4">Caso práctico</h4>
 <h3 id="consulta-dual">Consulta dual</h3>
 <div class="figure">
 <img src="pics/dual-lookup.png" alt="Dual lookup" /><p class="caption">Dual lookup</p>
 </div>
+<h4 id="caso-práctico-5">Caso práctico</h4>
 <h3 id="escritura-dual">Escritura dual</h3>
 <div class="figure">
 <img src="pics/dual-write.png" alt="Dual write" /><p class="caption">Dual write</p>
 </div>
+<h4 id="caso-práctico-6">Caso práctico</h4>
 <h3 id="paso-temporizado">Paso temporizado</h3>
 <div class="figure">
 <img src="pics/timed-rollover.png" alt="Timed rollover" /><p class="caption">Timed rollover</p>
 </div>
+<h4 id="caso-práctico-7">Caso práctico</h4>
 <p>MediaSmart stats aggregates</p>
 <h3 id="conversión-in-situ">Conversión <em>in situ</em></h3>
 <div class="figure">
 <img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
 </div>
+<p>En esta conversión, no hay</p>
+<h4 id="caso-práctico-8">Caso práctico</h4>
 <h2 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h2>
 <h3 id="acceso-mediante-proxy">Acceso mediante proxy</h3>
 <div class="figure">
 <img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
 </div>
+<h4 id="caso-práctico-9">Caso práctico</h4>
 <p>Instagram</p>
 <h3 id="escritura-en-cola">Escritura en cola</h3>
 <div class="figure">
 <img src="pics/queued-write.png" alt="Queued write" /><p class="caption">Queued write</p>
 </div>
+<h4 id="caso-práctico-10">Caso práctico</h4>
 <h1 id="vamos-terminando">Vamos terminando</h1>
 <h2 id="migración-de-cualquier-tipo">Migración de cualquier tipo</h2>
 <div class="figure">

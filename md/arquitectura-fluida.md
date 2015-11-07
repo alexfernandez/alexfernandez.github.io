@@ -235,9 +235,36 @@ Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
 
 ![Read-only version](pics/read-only-version.png)
 
+Ahora veremos una estrategia ligeramente más sofisticada.
+Los pasos son:
+
+* pasar a un modo de sólo lectura,
+* hacer una copia en caliente (mientras el sistema está andando),
+* cambiar a la nueva base de datos,
+* y volver al modo de lectura/escritura.
+
+Mientras el sistema está en sólo lectura,
+se puede acceder a los datos pero no modificarlos.
+De esta forma nos aseguramos de que se pueda hacer la copia en caliente:
+como los datos no cambian,
+o tenemos que preocuparnos de que se la copia esté desfasada al terminar.
+
+Esto es bastante mejor que una parada completa, pero sigue sin ser realmente reversible.
+Además, dejar el sistema en sólo lectura no es siempre admisible para ciertos sistemas
+que tienen que estar recogiendo datos nuevos constantemente.
+
+Otro problema es que una copia en caliente puede tardar bastante más que en frío,
+debido a los accesos constantes.
+
+La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario.
+
+#### Caso práctico
+
 ### Sincronización
 
 ![Synchronization](pics/sync.png)
+
+#### Caso práctico
 
 MediaSmart daystats
 
@@ -245,23 +272,33 @@ MediaSmart daystats
 
 ![Double copy](pics/double-copy.png)
 
+#### Caso práctico
+
 MediaSmart perfiles
 
 ## Catálogo de estrategias en cliente
 
 ### Decorador
 
+#### Caso práctico
+
 ### Consulta dual
 
 ![Dual lookup](pics/dual-lookup.png)
+
+#### Caso práctico
 
 ### Escritura dual
 
 ![Dual write](pics/dual-write.png)
 
+#### Caso práctico
+
 ### Paso temporizado
 
 ![Timed rollover](pics/timed-rollover.png)
+
+#### Caso práctico
 
 MediaSmart stats aggregates
 
@@ -269,17 +306,25 @@ MediaSmart stats aggregates
 
 ![In-place conversion](pics/in-place.png)
 
+En esta conversión, no hay 
+
+#### Caso práctico
+
 ## Catálogo de estrategias en broker
 
 ### Acceso mediante proxy
 
 ![Proxied access](pics/proxied-access.png)
 
+#### Caso práctico
+
 Instagram
 
 ### Escritura en cola
 
 ![Queued write](pics/queued-write.png)
+
+#### Caso práctico
 
 # Vamos terminando
 
