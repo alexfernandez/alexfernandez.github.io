@@ -58,7 +58,7 @@
 										<p>O de cómo migrar sin penas<p>
 									</header>
 										<div class="figure">
-<img src="pics/la-persistencia-de-la-memoria.jpg" title="La persistencia de la memoria" alt="Picture credit: Salvador Dalí" /><p class="caption">Picture credit: <a href="http://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931">Salvador Dalí</a></p>
+<img src="pics/la-persistencia-de-la-memoria.jpg" title="La persistencia de la memoria" alt="Imagen: Salvador Dalí" /><p class="caption">Imagen: <a href="http://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931">Salvador Dalí</a></p>
 </div>
 <h1 id="tras-la-arquitectura-perfecta">Tras la arquitectura perfecta</h1>
 <p>En muchas empresas hay departamentos de arquitectura dedicados a decidir cómo se va a organizar cada proyecto de software. Deciden el diseño a alto nivel, en cuántas capas se dividirá, qué base de datos usar y otros detalles importantes.</p>
@@ -182,9 +182,14 @@ db.current.get(key, function(error, result) {
 <img src="pics/all.png" alt="All strategies" /><p class="caption">All strategies</p>
 </div>
 <p>Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.</p>
+<h2 id="el-equilibrio-inestable">El equilibrio inestable</h2>
+<p>Un sistema que fluye se mantiene en equilibrio, pero no es necesariamente un equilibrio estable.</p>
+<p>Veamos un ejemplo sacado de una ingeniería completamente diferente: la aerodinámica. Los <a href="http://aviation.stackexchange.com/a/8061/12166">aviones supersónicos</a> tienen que funcionar en dos regímenes completamente diferentes: primero tienen que volar en modo subsónico, y una vez que alcanzan la velocidad del sonido pasan al modo supersónico. Esto causa un problema: el centro de gravedad está por detrás del punto neutro, lo que hace que el vuelo sea inestable. La única forma de mantenerlos en el aire sin que se desintegren es corregir la trayectoria con un ordenador de a bordo, sin el cual el vuelo sería completamente imposible.</p>
+<p>(Los aviones acrobáticos también son inherentemente inestables, lo que los hace más manejables, pero al volar a menos velocidad es posible que un piloto lo controle.)</p>
+<p>En nuestro caso, un sistema que fluye demasiado despacio se vuelve también difícil de manejar, lo que podemos contrarrestar aumentando la velocidad del cambio. Pero en este caso el sistema se vuelve inestable, y hay que controlarlo para que los fallos que van surgiendo no se acumulen.</p>
+<p>La velocidad de crucero óptima es la que nos permite realizar cambios al sistema de la forma más rápida, sin comprometer la integridad del sistema.</p>
 <h2 id="sigue-fluyendo">Sigue fluyendo</h2>
 <p>Entre tanta migración, no hay que perder de vista el objetivo final: tener una arquitectura flexible, que puede adaptarse a las nuevas circunstancias rápidamente.</p>
-<h2 id="el-equilibrio-inestable">El equilibrio inestable</h2>
 								</div>
 							</section>
 							<section id="last">

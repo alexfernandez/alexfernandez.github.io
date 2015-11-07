@@ -4,7 +4,7 @@ subtitle: O de cómo migrar sin penas
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Picture credit: [Salvador Dalí](http://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931)](pics/la-persistencia-de-la-memoria.jpg "La persistencia de la memoria")
+![Imagen: [Salvador Dalí](http://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931)](pics/la-persistencia-de-la-memoria.jpg "La persistencia de la memoria")
 
 # Tras la arquitectura perfecta
 
@@ -289,11 +289,39 @@ Instagram
 
 Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.
 
+## El equilibrio inestable
+
+Un sistema que fluye se mantiene en equilibrio,
+pero no es necesariamente un equilibrio estable.
+
+Veamos un ejemplo sacado de una ingeniería completamente diferente:
+la aerodinámica.
+Los [aviones supersónicos](http://aviation.stackexchange.com/a/8061/12166)
+tienen que funcionar en dos regímenes completamente diferentes:
+primero tienen que volar en modo subsónico,
+y una vez que alcanzan la velocidad del sonido pasan al modo supersónico.
+Esto causa un problema: el centro de gravedad está por detrás del punto neutro,
+lo que hace que el vuelo sea inestable.
+La única forma de mantenerlos en el aire sin que se desintegren
+es corregir la trayectoria con un ordenador de a bordo, sin el cual
+el vuelo sería completamente imposible.
+
+(Los aviones acrobáticos también son inherentemente inestables,
+lo que los hace más manejables,
+pero al volar a menos velocidad es posible que un piloto lo controle.)
+
+En nuestro caso, un sistema que fluye demasiado despacio se vuelve también difícil de manejar,
+lo que podemos contrarrestar aumentando la velocidad del cambio.
+Pero en este caso el sistema se vuelve inestable,
+y hay que controlarlo para que los fallos que van surgiendo
+no se acumulen.
+
+La velocidad de crucero óptima es la que nos permite realizar cambios al sistema
+de la forma más rápida, sin comprometer la integridad del sistema.
+
 ## Sigue fluyendo
 
 Entre tanta migración, no hay que perder de vista el objetivo final:
 tener una arquitectura flexible,
 que puede adaptarse a las nuevas circunstancias rápidamente.
-
-## El equilibrio inestable
 
