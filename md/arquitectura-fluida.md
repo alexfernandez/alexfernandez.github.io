@@ -178,7 +178,7 @@ Por último, pero no menos importante, tenemos los costes de operación del sist
 
 #### Caso práctico: MediaSmart Mobile
 
-![Tráfico diario en MediaSmart Mobile](pics/mediasmart-traffic.jpg)
+![Tráfico diario en MediaSmart Mobile](pics/mediasmart-daily-traffic.jpg)
 
 En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario.
 Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de
