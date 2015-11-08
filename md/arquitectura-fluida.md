@@ -32,33 +32,77 @@ Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
 
 En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel,
 y organizar las relaciones entre ellos.
-Curiosamente, la organización en componentes suele derivar en la organización física de las máquinas
+La organización en componentes suele derivar en la organización física de las máquinas
 y la elección de lenguaje y programas auxiliares,
 como por ejemplo qué base de datos usar.
 De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años,
-o la moda de usar gestores de colas
+o la moda más reciente de usar gestores de colas en sistemas escalables.
+
+Curiosamente, nadie se fija en el diseño a alto nivel del propio software, por ejemplo:
+la división en módulos de npm o en librerías,
+cómo se dividen los servicios de una API en el código
+o qué hacer con el código compartido entre diferentes programas.
+Tampoco en asuntos más de DevOps como la forma de desplegar el código
+o la creación de entornos de integración.
+Así que nos limitaremos a considerar la organización en máquinas y qué software usar.
 
 ### Modas en arquitectura
 
-En los años 80, la moda en las empresas era tener una
+En los años 80, la moda empresarial era tener una
 [minicomputadora](http://www.computerhistory.org/revolution/minicomputers/11/366/1946)
 (del tamaño de un armario pequeño) y múltiples terminales conectados.
 
 En los 90 se popularizaron las arquitecturas cliente-servidor.
-Poco después llegaría 
+Se separaban así los programas servidor que generaban respuestas
+y las bases de datos que recogían la información.
+Poco después llegarían protocolos de comunicación entre servidores como CORBA
+y un poco más tarde [XML](https://en.wikipedia.org/wiki/XML#History).
 
 A principios del siglo XXI llegaron las arquitecturas de tres capas:
 capa web, backend y base de datos.
+Era un refinamiento del paradigma cliente-servidor donde el servidor
+se dividía en un backend y un 
 En elementos más blanditos, también se inventó el ridículo [_Enterprise Service Bus_](https://en.wikipedia.org/wiki/Enterprise_service_bus#History),
 que empezó a infectar los diagramas corporativos allá por 2002.
-Por suerte, rápidamente se sustityó 
 
 En los años 10 las bases de datos NoSQL han adquirido protagonismo.
-Junto con los gestores de colas.
+Los servidores sin estado son de uso común,
+al igual que los gestores de colas.
+
+En general, un sistema de software suele poder fecharse con bastante precisión
+sólo con ver la arquitectura que implementa.
+No deja de ser curioso que sea un asunto de modas,
+cuando hay tantos especialistas en las empresas grandes.
 
 ## Requisitos cambiantes
 
 Un sistema de software tiene que poder evolucionar durante su vida útil.
+Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.
+
+### Requisitos funcionales
+
+Empecemos con una anécdota, en este caso con trasfondo militar.
+El avión bombardero
+[B-52 _stratofortress_](http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx)
+empezó a operar en 1952,
+las últimas unidades se construyeron en 1963,
+y actualmente sigue en servicio tras más de seis décadas de actualizaciones.
+Durante este tiempo se han actualizado para que usen motores turbofan,
+combustible alternativo, puedan lanzar armas nucleares
+y misiles inteligentes guiados,
+se han reparado
+[múltiples problemas estructurales](https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress#Design),
+mejorado la aviónica, y mejorado para proporcionar visión noctura a los pilotos.
+Se estima que podrá seguir en servicio activo al menos hasta 2040.
+En resumen: un bombardero diseñado durante la guerra de Corea
+y fabricado mientras JFK era presidente,
+seguirá en uso hasta dentro de 25 años.
+
+Como ingenieros, nuestra mayor aspiración es seguramente que lo que construyamos dure en el tiempo.
+Para eso es necesario que pueda actualizarse y mejorarse con el tiempo,
+añadiendo nuevas funcionalidades según se necesiten.
+Tenemos la gran ventaja de que nuestros sistemas se pueden actualizar mientras están funcionando,
+gracias a la magia del software: basta con sacar una copia y trabajar sobre ella.
 
 ### Requisitos operacionales
 
@@ -67,9 +111,9 @@ para bien o para mal.
 Un producto exitoso a menudo dobla el número de usuarios en un año,
 o incluso en una mes: en 2013 [Uber](http://techcrunch.com/2013/12/18/uber-lyft/)
 crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más
-vertiginoso que suponía multiplicar su facturación por 20 en un año.
+vertiginoso que suponía multiplicar su facturación por 20 al año.
 
-### Caso práctico: MediaSmart Mobile
+#### Caso práctico: MediaSmart Mobile
 
 ### Planificación de capacidad
 
@@ -84,9 +128,9 @@ En inglés: _capacity planning_.
 ## La arquitectura fluida
 
 ¿Cuál es la solución?
-Nuestra humilde sugerencia es
-mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad.
-Al oir esto, un arquitecto de los de verdad, de los que juntan piedras,
+Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida,
+sin tomar decisiones que comprometan su integridad.
+Al oir esto un arquitecto de los de verdad, de los que juntan piedras,
 seguramente tendría problemas para contener la risa.
 ¿Cómo se pueden cambiar las vigas maestras de un edificio?
 
@@ -94,8 +138,8 @@ Los ingenieros de software tenemos una gran ventaja:
 no trabajamos con el mundo real, sino con software,
 que es infinitamente moldeable.
 
-Si encontramos restricciones en esta moldeabilidad,
-es porque alguien no ha hecho bien su trabajo.
+Si encontramos restricciones en esta maleabilidad
+suele ser porque alguien no ha hecho bien su trabajo.
 
 ### Reversibilidad y termodinámica
 
@@ -127,6 +171,11 @@ En 2012 exploré en
 (en inglés) una idea similar a la que he desarrollado aquí:
 la ingeniería reversible,
 o cómo trabajar siempre cerca del equilibrio.
+
+En resumen, podemos considerar reversible un sistema que puede invertirse
+sin efectos colaterales.
+Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra,
+entonces el sistema no es reversible.
 
 # Estrategias de migración
 
@@ -244,6 +293,19 @@ Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda r
 cosa que hicimos el día 13 de marzo (viernes).
 Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
 
+La moraleja es algo poco intuitivo:
+el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente
+sobre los fallos del sistema,
+ya que nos fijaremos más en los posibles efectos colaterales
+que en el problema que tenemos delante.
+Por eso es importante tener una estrategia de migración inversa
+que devuelva el sistema a su estado inicial.
+
+Y, una vez que tenemos la estrategia inversa,
+también es importante (y de nuevo contraintuitivo)
+que lo mejor es no realizar la migración inversa,
+sino buscar las causas profundas de los problemas.
+
 ### Versión de sólo lectura
 
 ![Read-only version](pics/read-only-version.png)
@@ -262,20 +324,49 @@ De esta forma nos aseguramos de que se pueda hacer la copia en caliente:
 como los datos no cambian,
 o tenemos que preocuparnos de que se la copia esté desfasada al terminar.
 
-Esto es bastante mejor que una parada completa, pero sigue sin ser realmente reversible.
-Además, dejar el sistema en sólo lectura no es siempre admisible para ciertos sistemas
-que tienen que estar recogiendo datos nuevos constantemente.
+Esto suele ser bastante mejor que una parada completa.
+Pero no siempre es admisible:
+ciertos sistemas tienen que estar recogiendo datos nuevos constantemente,
+así que dejarlos en sólo lectura no es posible.
 
 Otro problema es que una copia en caliente puede tardar bastante más que en frío,
 debido a los accesos constantes.
 
-La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario.
+La migración inversa es fácil:
+volver a sólo lectura, copiar y migrar en sentido contrario.
+Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible,
+ya que requiere trabajo extra revertirlas.
 
 #### Caso práctico
 
 ### Sincronización
 
 ![Synchronization](pics/sync.png)
+
+Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva.
+Los pasos para hacer la sincronización son:
+
+* hacer una copia en caliente de la antigua a la nueva,
+* sincronizar todas las escrituras de la antigua a la nueva,
+* y finalmente cambiar los accesos a la nueva.
+
+La sincronización se hace en este caso mediante un mecanismo de servidor,
+que recoge todas las escrituras y pasarlas a otro sistema.
+No siempre es posible hacerlo:
+a veces la carga en el sistema antiguo es demasiado grande,
+o puede que no haya forma de fechar los cambios para extraer sólo los últimos,
+lo que haría la sincronización total demasiado costosa.
+
+En el lado positivo, los usuarios no notarán ningún _downtime_ al acceder al sistema.
+
+Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos
+a la base de datos antigua,
+mientras no desconectemos el mecanismo de sincronización.
+Si ya no estamos sincronizando los cambios,
+la migración inversa requiere sincronizar los datos en el sentido contrario.
+La sincronización bidireccional a menudo es demasiado costosa como para ser práctica.
+Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros
+de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
 
 #### Caso práctico
 

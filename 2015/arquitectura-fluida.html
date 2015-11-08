@@ -65,32 +65,38 @@
 <p>¿Por qué cambiar la base de datos en cada proyecto? ¿Por qué no usamos siempre la misma? Para construir edificios no existe un material perfecto: a veces es mejor la piedra, otras el ladrillo y otras incluso el acero. Tampoco hay una forma perfecta para todos los edificios: cuadrados, rectángulos, cilindros y semiesferas se comportan de forma distinta bajo la carga. Lo mismo ocurre con los componentes de software: cada uno tiene unas restricciones operacionales diferentes, y se comporta mejor en ciertas circunstancias.</p>
 <h3 id="qué-es-la-arquitectura">Qué es la arquitectura</h3>
 <p>Puede que nos ayude a centrar la discusión si definimos qué es este negocio de &quot;arquitectura&quot; en software.</p>
-<p>En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel, y organizar las relaciones entre ellos. Curiosamente, la organización en componentes suele derivar en la organización física de las máquinas y la elección de lenguaje y programas auxiliares, como por ejemplo qué base de datos usar. De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años, o la moda de usar gestores de colas</p>
+<p>En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel, y organizar las relaciones entre ellos. La organización en componentes suele derivar en la organización física de las máquinas y la elección de lenguaje y programas auxiliares, como por ejemplo qué base de datos usar. De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años, o la moda más reciente de usar gestores de colas en sistemas escalables.</p>
+<p>Curiosamente, nadie se fija en el diseño a alto nivel del propio software, por ejemplo: la división en módulos de npm o en librerías, cómo se dividen los servicios de una API en el código o qué hacer con el código compartido entre diferentes programas. Tampoco en asuntos más de DevOps como la forma de desplegar el código o la creación de entornos de integración. Así que nos limitaremos a considerar la organización en máquinas y qué software usar.</p>
 <h3 id="modas-en-arquitectura">Modas en arquitectura</h3>
-<p>En los años 80, la moda en las empresas era tener una <a href="http://www.computerhistory.org/revolution/minicomputers/11/366/1946">minicomputadora</a> (del tamaño de un armario pequeño) y múltiples terminales conectados.</p>
-<p>En los 90 se popularizaron las arquitecturas cliente-servidor. Poco después llegaría</p>
-<p>A principios del siglo XXI llegaron las arquitecturas de tres capas: capa web, backend y base de datos. En elementos más blanditos, también se inventó el ridículo <a href="https://en.wikipedia.org/wiki/Enterprise_service_bus#History"><em>Enterprise Service Bus</em></a>, que empezó a infectar los diagramas corporativos allá por 2002. Por suerte, rápidamente se sustityó</p>
-<p>En los años 10 las bases de datos NoSQL han adquirido protagonismo. Junto con los gestores de colas.</p>
+<p>En los años 80, la moda empresarial era tener una <a href="http://www.computerhistory.org/revolution/minicomputers/11/366/1946">minicomputadora</a> (del tamaño de un armario pequeño) y múltiples terminales conectados.</p>
+<p>En los 90 se popularizaron las arquitecturas cliente-servidor. Se separaban así los programas servidor que generaban respuestas y las bases de datos que recogían la información. Poco después llegarían protocolos de comunicación entre servidores como CORBA y un poco más tarde <a href="https://en.wikipedia.org/wiki/XML#History">XML</a>.</p>
+<p>A principios del siglo XXI llegaron las arquitecturas de tres capas: capa web, backend y base de datos. Era un refinamiento del paradigma cliente-servidor donde el servidor se dividía en un backend y un En elementos más blanditos, también se inventó el ridículo <a href="https://en.wikipedia.org/wiki/Enterprise_service_bus#History"><em>Enterprise Service Bus</em></a>, que empezó a infectar los diagramas corporativos allá por 2002.</p>
+<p>En los años 10 las bases de datos NoSQL han adquirido protagonismo. Los servidores sin estado son de uso común, al igual que los gestores de colas.</p>
+<p>En general, un sistema de software suele poder fecharse con bastante precisión sólo con ver la arquitectura que implementa. No deja de ser curioso que sea un asunto de modas, cuando hay tantos especialistas en las empresas grandes.</p>
 <h2 id="requisitos-cambiantes">Requisitos cambiantes</h2>
-<p>Un sistema de software tiene que poder evolucionar durante su vida útil.</p>
+<p>Un sistema de software tiene que poder evolucionar durante su vida útil. Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.</p>
+<h3 id="requisitos-funcionales">Requisitos funcionales</h3>
+<p>Empecemos con una anécdota, en este caso con trasfondo militar. El avión bombardero <a href="http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx">B-52 <em>stratofortress</em></a> empezó a operar en 1952, las últimas unidades se construyeron en 1963, y actualmente sigue en servicio tras más de seis décadas de actualizaciones. Durante este tiempo se han actualizado para que usen motores turbofan, combustible alternativo, puedan lanzar armas nucleares y misiles inteligentes guiados, se han reparado <a href="https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress#Design">múltiples problemas estructurales</a>, mejorado la aviónica, y mejorado para proporcionar visión noctura a los pilotos. Se estima que podrá seguir en servicio activo al menos hasta 2040. En resumen: un bombardero diseñado durante la guerra de Corea y fabricado mientras JFK era presidente, seguirá en uso hasta dentro de 25 años.</p>
+<p>Como ingenieros, nuestra mayor aspiración es seguramente que lo que construyamos dure en el tiempo. Para eso es necesario que pueda actualizarse y mejorarse con el tiempo, añadiendo nuevas funcionalidades según se necesiten. Tenemos la gran ventaja de que nuestros sistemas se pueden actualizar mientras están funcionando, gracias a la magia del software: basta con sacar una copia y trabajar sobre ella.</p>
 <h3 id="requisitos-operacionales">Requisitos operacionales</h3>
-<p>Las circunstancias en las que nuestro sistema tiene que trabajar cambian, para bien o para mal. Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en una mes: en 2013 <a href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a> crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más vertiginoso que suponía multiplicar su facturación por 20 en un año.</p>
-<h3 id="caso-práctico-mediasmart-mobile">Caso práctico: MediaSmart Mobile</h3>
+<p>Las circunstancias en las que nuestro sistema tiene que trabajar cambian, para bien o para mal. Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en una mes: en 2013 <a href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a> crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más vertiginoso que suponía multiplicar su facturación por 20 al año.</p>
+<h4 id="caso-práctico-mediasmart-mobile">Caso práctico: MediaSmart Mobile</h4>
 <h3 id="planificación-de-capacidad">Planificación de capacidad</h3>
 <p>En inglés: <em>capacity planning</em>.</p>
 <h3 id="costes-bajos">Costes bajos</h3>
 <h3 id="velocidad-de-migración">Velocidad de migración</h3>
 <h3 id="migraciones-de-base-de-datos">Migraciones de base de datos</h3>
 <h2 id="la-arquitectura-fluida">La arquitectura fluida</h2>
-<p>¿Cuál es la solución? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Al oir esto, un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio?</p>
+<p>¿Cuál es la solución? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Al oir esto un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio?</p>
 <p>Los ingenieros de software tenemos una gran ventaja: no trabajamos con el mundo real, sino con software, que es infinitamente moldeable.</p>
-<p>Si encontramos restricciones en esta moldeabilidad, es porque alguien no ha hecho bien su trabajo.</p>
+<p>Si encontramos restricciones en esta maleabilidad suele ser porque alguien no ha hecho bien su trabajo.</p>
 <h3 id="reversibilidad-y-termodinámica">Reversibilidad y termodinámica</h3>
 <p>En este punto vamos a tomar un desvío que nos llevará de viaje a la intemporal tierra de la termodinámica.</p>
 <p>Seguro que has oído hablar de &quot;entropía&quot;: es un término muy popular entre los divulgadores científicos, que a menudo lo corrompen asignándole significados corrientes como &quot;desorden&quot;, &quot;irregularidad&quot; y similares. Es probable que no te sorprenda que la entropía tiene una definición muy precisa, o más bien varias definiciones equivalentes.</p>
 <p>No es sencillo calcular la entropía de un sistema, y menos todavía medir los flujos de entropía que ocurren mientras evoluciona.</p>
 <p>Por suerte, podemos tomar un atajo: un sistema reversible es, por definición, el que consigue que la entropía se mantenga en el mínimo posible. No por casualidad también es el más eficiente. Y además es muy fácil saber cuándo un sistema es reversible: cuando está en todo momento en equilibrio.</p>
 <p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1.html">estos</a> <a href="../2012/reversible-engineering-part-2.html">tres</a> <a href="../2012/reversible-engineering-part-3.html">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio.</p>
+<p>En resumen, podemos considerar reversible un sistema que puede invertirse sin efectos colaterales. Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra, entonces el sistema no es reversible.</p>
 <h1 id="estrategias-de-migración">Estrategias de migración</h1>
 <p>Llegamos ahora a la parte principal del artículo: el catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
 <p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
@@ -134,6 +140,8 @@ db.current.get(key, function(error, result) {
 <p>El 3 de marzo de 2015 realizamos la migración: primero creamos una réplica de todos los servidores en la VPC. A continuación paramos los servidores originales, y copiamos los datos a la VPC. Luego arrancamos los nuevos sevidores, y apuntamos el servidor DNS hacia ellos. Tras algunas horas de <em>downtime</em> estábamos arriba otra vez.</p>
 <p>El día 5 de marzo nos reportaron problemas en producción, por lo que tuvimos que deshacer la migración. Por fortuna habíamos mantenido las instancias antiguas, así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez. Por ironías de la vida, el problema no se resolvió con esta migración inversa, por lo que dedujimos que tenía otra causa. Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración), el problema real se hizo evidente de inmediato y no tenía nada que ver, sino que venía causado por un despliegue anterior.</p>
 <p>El día 11 de marzo probamos de nuevo con la misma técnica, y de nuevo tras varias horas de <em>downtime</em> la migración estaba hecha. Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda región, cosa que hicimos el día 13 de marzo (viernes). Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.</p>
+<p>La moraleja es algo poco intuitivo: el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente sobre los fallos del sistema, ya que nos fijaremos más en los posibles efectos colaterales que en el problema que tenemos delante. Por eso es importante tener una estrategia de migración inversa que devuelva el sistema a su estado inicial.</p>
+<p>Y, una vez que tenemos la estrategia inversa, también es importante (y de nuevo contraintuitivo) que lo mejor es no realizar la migración inversa, sino buscar las causas profundas de los problemas.</p>
 <h3 id="versión-de-sólo-lectura">Versión de sólo lectura</h3>
 <div class="figure">
 <img src="pics/read-only-version.png" alt="Read-only version" /><p class="caption">Read-only version</p>
@@ -146,14 +154,23 @@ db.current.get(key, function(error, result) {
 <li>y volver al modo de lectura/escritura.</li>
 </ul>
 <p>Mientras el sistema está en sólo lectura, se puede acceder a los datos pero no modificarlos. De esta forma nos aseguramos de que se pueda hacer la copia en caliente: como los datos no cambian, o tenemos que preocuparnos de que se la copia esté desfasada al terminar.</p>
-<p>Esto es bastante mejor que una parada completa, pero sigue sin ser realmente reversible. Además, dejar el sistema en sólo lectura no es siempre admisible para ciertos sistemas que tienen que estar recogiendo datos nuevos constantemente.</p>
+<p>Esto suele ser bastante mejor que una parada completa. Pero no siempre es admisible: ciertos sistemas tienen que estar recogiendo datos nuevos constantemente, así que dejarlos en sólo lectura no es posible.</p>
 <p>Otro problema es que una copia en caliente puede tardar bastante más que en frío, debido a los accesos constantes.</p>
-<p>La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario.</p>
+<p>La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario. Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible, ya que requiere trabajo extra revertirlas.</p>
 <h4 id="caso-práctico-1">Caso práctico</h4>
 <h3 id="sincronización">Sincronización</h3>
 <div class="figure">
 <img src="pics/sync.png" alt="Synchronization" /><p class="caption">Synchronization</p>
 </div>
+<p>Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva. Los pasos para hacer la sincronización son:</p>
+<ul>
+<li>hacer una copia en caliente de la antigua a la nueva,</li>
+<li>sincronizar todas las escrituras de la antigua a la nueva,</li>
+<li>y finalmente cambiar los accesos a la nueva.</li>
+</ul>
+<p>La sincronización se hace en este caso mediante un mecanismo de servidor, que recoge todas las escrituras y pasarlas a otro sistema. No siempre es posible hacerlo: a veces la carga en el sistema antiguo es demasiado grande, o puede que no haya forma de fechar los cambios para extraer sólo los últimos, lo que haría la sincronización total demasiado costosa.</p>
+<p>En el lado positivo, los usuarios no notarán ningún <em>downtime</em> al acceder al sistema.</p>
+<p>Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos a la base de datos antigua, mientras no desconectemos el mecanismo de sincronización. Si ya no estamos sincronizando los cambios, la migración inversa requiere sincronizar los datos en el sentido contrario. La sincronización bidireccional a menudo es demasiado costosa como para ser práctica. Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros de que la migración ha sido exitosa y no vamos a querer revertirla nunca.</p>
 <h4 id="caso-práctico-2">Caso práctico</h4>
 <p>MediaSmart daystats</p>
 <h3 id="copia-doble">Copia doble</h3>
