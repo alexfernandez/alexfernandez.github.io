@@ -41,6 +41,8 @@ Articles about stuff not related to software engineering.
 
 ## Artículos en español
 
+* 2015-11-08: [Entrevista DevUse](2015/entrevista-devuse.html)
+
 Artículos para [GodTIC](http://www.godtic.com/blog/):
 
 * 2013-11-24: [Optimizando sockets con node.js](2013/optimizando-sockets.html)

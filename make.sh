@@ -24,6 +24,7 @@ pandoc --template read-only.html -s md/human-body-engineered-system.md -o 2013/h
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
 pandoc --template read-only.html -s md/the-intelligent-designer.md -o 2015/the-intelligent-designer.html
 pandoc --template read-only.html -s md/arquitectura-fluida.md -o 2015/arquitectura-fluida.html
+pandoc --template read-only.html -s md/entrevista-devuse.md -o 2015/entrevista-devuse.html
 
 # Español
 pandoc --template read-only.html -s md/optimizando-sockets.md -o 2013/optimizando-sockets.html
