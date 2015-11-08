@@ -284,17 +284,39 @@ En 2012 exploré en
 (en inglés) una idea similar a la que he desarrollado aquí:
 la ingeniería reversible,
 o cómo trabajar siempre cerca del equilibrio.
+Las ideas clave son: no malgastar energía,
+ir lo más despacio que sea posible,
+y evitar turbulencias.
 
 En resumen, podemos considerar reversible un sistema que puede invertirse
-sin efectos colaterales.
-Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra,
+sin consumir energía extra.
+Al mismo tiempo, si revertir el funcionamiento del sistema requiere energía extra,
 entonces el sistema no es reversible.
 
 ### Migraciones
 
 Para realizar un cambio de una arquitectura a otra,
-normalmente tenemos que realizar una migración,
-sea de código o de datos.
+normalmente tenemos que realizar un cambio,
+sea de máquinas, de programas, de código o de datos.
+Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias,
+entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro.
+Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.
+
+#### Migraciones de máquinas
+
+Normalmente cambiar de máquinas no se considera un asunto de arquitectura.
+Pero si miramos más allá del hierro,
+a menudo nos encontramos con un sistema operativo más moderno (o incluso distinto),
+o nuevas capacidades que requieren de cambios en el código
+(como los servidores multicore que nos invadieron hace un par de décadas).
+
+#### Migraciones de programas
+
+#### Migraciones de código
+
+Cuando el código está bajo nuestro control.
+
+#### Migraciones de datos
 
 # Estrategias de migración
 

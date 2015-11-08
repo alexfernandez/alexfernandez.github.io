@@ -128,10 +128,16 @@
 <p>Seguro que has oído hablar de &quot;entropía&quot;: es un término muy popular entre los divulgadores científicos, que a menudo lo corrompen asignándole significados corrientes como &quot;desorden&quot;, &quot;irregularidad&quot; y similares. Es probable que no te sorprenda que la entropía tiene una definición muy precisa, o más bien varias definiciones equivalentes.</p>
 <p>No es sencillo calcular la entropía de un sistema, y menos todavía medir los flujos de entropía que ocurren mientras evoluciona.</p>
 <p>Por suerte, podemos tomar un atajo: un sistema reversible es, por definición, el que consigue que la entropía se mantenga en el mínimo posible. No por casualidad también es el más eficiente. Y además es muy fácil saber cuándo un sistema es reversible: cuando está en todo momento en equilibrio.</p>
-<p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1.html">estos</a> <a href="../2012/reversible-engineering-part-2.html">tres</a> <a href="../2012/reversible-engineering-part-3.html">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio.</p>
-<p>En resumen, podemos considerar reversible un sistema que puede invertirse sin efectos colaterales. Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra, entonces el sistema no es reversible.</p>
+<p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1.html">estos</a> <a href="../2012/reversible-engineering-part-2.html">tres</a> <a href="../2012/reversible-engineering-part-3.html">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio. Las ideas clave son: no malgastar energía, ir lo más despacio que sea posible, y evitar turbulencias.</p>
+<p>En resumen, podemos considerar reversible un sistema que puede invertirse sin consumir energía extra. Al mismo tiempo, si revertir el funcionamiento del sistema requiere energía extra, entonces el sistema no es reversible.</p>
 <h3 id="migraciones">Migraciones</h3>
-<p>Para realizar un cambio de una arquitectura a otra, normalmente tenemos que realizar una migración, sea de código o de datos.</p>
+<p>Para realizar un cambio de una arquitectura a otra, normalmente tenemos que realizar un cambio, sea de máquinas, de programas, de código o de datos. Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias, entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro. Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.</p>
+<h4 id="migraciones-de-máquinas">Migraciones de máquinas</h4>
+<p>Normalmente cambiar de máquinas no se considera un asunto de arquitectura. Pero si miramos más allá del hierro, a menudo nos encontramos con un sistema operativo más moderno (o incluso distinto), o nuevas capacidades que requieren de cambios en el código (como los servidores multicore que nos invadieron hace un par de décadas).</p>
+<h4 id="migraciones-de-programas">Migraciones de programas</h4>
+<h4 id="migraciones-de-código">Migraciones de código</h4>
+<p>Cuando el código está bajo nuestro control.</p>
+<h4 id="migraciones-de-datos">Migraciones de datos</h4>
 <h1 id="estrategias-de-migración">Estrategias de migración</h1>
 <p>Llegamos ahora a la parte principal del artículo: el catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
 <p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
