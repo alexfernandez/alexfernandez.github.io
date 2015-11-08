@@ -4,7 +4,7 @@ subtitle: ¿Cómo trabaja Alejandro Fernández?
 footer: Publicado originalmente en [DevUse](http://www.devuse.es/alejandro-fernandez/) el 2015-10-26.
 ---
 
-![Foto: Francisco Llave](pics/pinchito.jpg "Alejandro Fernández")
+![Foto: Esther Martínez](pics/pinchito.jpg "Alejandro Fernández")
 
 ## ¿Quién eres y qué haces?
 
