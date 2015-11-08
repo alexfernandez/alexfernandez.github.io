@@ -8,7 +8,7 @@ footer: Publicado originalmente en [DevUse](http://www.devuse.es/alejandro-ferna
 
 ## ¿Quién eres y qué haces?
 
-Soy [Alejandro Fernández (@pinchito)](https://twitter.com/pinchito), desarrollador de software. Estudié Físicas hace ya un montón de tiempo; he trabajado en consultoras, bancos y startups. Desde hace dos años y medio trabajo como desarrollador senior en [MediaSmart Mobile](http://mediasmart.es/es/inicio/), donde ayudo a soportar picos de hasta doscientas mil peticiones por segundo. Además trabajo ocasionalmente como freelance haciendo consultoría de seguridad y escalabilidad.
+Soy [Alejandro Fernández, @pinchito](https://twitter.com/pinchito), desarrollador de software. Estudié Físicas hace ya un montón de tiempo; he trabajado en consultoras, bancos y startups. Desde hace dos años y medio trabajo como desarrollador senior en [MediaSmart Mobile](http://mediasmart.es/es/inicio/), donde ayudo a soportar picos de hasta doscientas mil peticiones por segundo. Además trabajo ocasionalmente como freelance haciendo consultoría de seguridad y escalabilidad.
 
 Organizo los Meetups de [MadridJS](http://www.meetup.com/es/madridjs/) y [Node.js Madrid](http://www.meetup.com/es/Node-js-Madrid/), dos de los más grandes de la capital, en los que nos reunimos para hablar de temas geeks una vez al mes, con la excusa de JavaScript y Node.js.
 
