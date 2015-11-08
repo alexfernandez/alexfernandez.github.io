@@ -104,22 +104,84 @@ añadiendo nuevas funcionalidades según se necesiten.
 Tenemos la gran ventaja de que nuestros sistemas se pueden actualizar mientras están funcionando,
 gracias a la magia del software: basta con sacar una copia y trabajar sobre ella.
 
+Así que nos resulta relativamente fácil que nuestro software haga cosas nuevas.
+¿O no?
+Sólo tenemos que extenderlo más allá de su propósito general.
+Excepto cuando no se puede.
+Todos conocemos algún proyecto que ha pasado su fecha de expiración.
+Nadie quiere tocar el código porque se ha convertido en una masa
+siniestra de _spaghetti_,
+los cambios son inmanejables y cada vez que tocas en un sitio
+se rompe algo en otro aparentemente no relacionado.
+
+Nuestra misión es mantener el software flexible,
+para que podamos seguir añadiendo funcionalidades.
+Eso lleva algún esfuerzo extra, sin duda,
+pero la recompensa es grande cuando el proyecto es realmente exitoso.
+
 ### Requisitos operacionales
 
 Las circunstancias en las que nuestro sistema tiene que trabajar cambian,
 para bien o para mal.
+Así que, sin añadir funcionalidades nuevas,
+necesitamos ampliar el rango operativo del sistema.
+
+#### Planificación de capacidad
+
+Un caso importante es la planificación de la capacidad necesaria
+(lo que se conoce como _capacity planning_).
 Un producto exitoso a menudo dobla el número de usuarios en un año,
 o incluso en una mes: en 2013 [Uber](http://techcrunch.com/2013/12/18/uber-lyft/)
 crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más
 vertiginoso que suponía multiplicar su facturación por 20 al año.
 
+¿Es posible que el mismo sistema sea capaz de crecer para soportar todo el tráfico que le echemos?
+Si usamos la planificación de capacidad,
+seguramente intentaremos predecir el tráfico que vamos a tener durante todo el año
+en base a los datos del año anterior,
+para ir presupuestando el número de servidores que vamos a necesitar.
+También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra.
+Esto, que era práctica estándar hace unos años, ahora sería un suicidio:
+fácilmente la tasa de crecimiento puede ser exponencial,
+de forma que se doble cada poco tiempo.
+
+¿Cómo predecir el tráfico que tendremos, no ya al final de un año,
+sino sólo dentro de un mes?
+Respuesta: no podemos.
+Sólo podemos intentar ir un paso por delante del tráfico,
+y no adelantar demasiado los acontecimientos.
+
 #### Caso práctico: MediaSmart Mobile
 
-### Planificación de capacidad
+![Peticiones por segundo en MediaSmart Mobile](pics/mediasmart-krps.jpg)
 
-En inglés: _capacity planning_.
+Esta gráfica muestra los picos de peticiones por segundo que hemos recibido
+en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue
+creciendo linealmente, pasando de 2 a 12 krps
+(miles de peticiones por segundo).
+A principios de 2014 pasó algo curioso: el ritmo se aceleró,
+y pasamos de 15 a 100 krps durante ese año.
+Pero en 2015 el ritmo está decelerando de nuevo:
+apenas pasaremos de 210 krps antes de final de año.
 
-### Costes bajos
+Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año,
+habríamos calculado alrededor de 25 krps
+(definitivamente por debajo de 30 krps);
+a final de año teníamos 100 krps.
+Por otra parte, si hubiéramos seguido la curva exponencial para 2015,
+a final de año habríamos andado por 600 krps;
+la cifra real anda cerca de las 200 krps.
+
+#### Costes bajos
+
+Por último, pero no menos importante, tenemos los costes de operación del sistema.
+
+#### Caso práctico: MediaSmart Mobile
+
+![Tráfico diario en MediaSmart Mobile](pics/mediasmart-traffic.jpg)
+
+En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario.
+Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de
 
 ### Velocidad de migración
 
