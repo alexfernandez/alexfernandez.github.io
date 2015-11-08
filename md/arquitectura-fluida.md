@@ -295,28 +295,43 @@ entonces el sistema no es reversible.
 
 ### Migraciones
 
-Para realizar un cambio de una arquitectura a otra,
+Para realizar un cambio de una arquitectura a otra
 normalmente tenemos que realizar un cambio,
 sea de máquinas, de programas, de código o de datos.
 Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias,
 entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro.
 Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.
+Vamos a ver cada tipo de migración por encima.
 
-#### Migraciones de máquinas
-
-Normalmente cambiar de máquinas no se considera un asunto de arquitectura.
+*Máquinas*: Normalmente cambiar de máquinas no se considera un asunto de arquitectura.
 Pero si miramos más allá del hierro,
 a menudo nos encontramos con un sistema operativo más moderno (o incluso distinto),
-o nuevas capacidades que requieren de cambios en el código
-(como los servidores multicore que nos invadieron hace un par de décadas).
+que puede requerir nuevos programas.
+También puede ser que las máquinas tengan nuevas capacidades que requieren de cambios en el código,
+como los servidores multicore que nos invadieron hace un par de décadas.
+Además, cuando las máquinas migradas albergan grandes cantidades de información
+suele haber una migración de datos asociada.
 
-#### Migraciones de programas
+*Programas*: Los cambios en un programa que no desarrollamos directamente
+pueden ir desde un cambio de versión a un cambio completo del programa que usaremos.
+En el primer caso puede ser que tengamos pequeños cambios de código:
+por ejemplo, cada actualización de la base de datos Oracle puede requerir pequeños ajustes en las sentencias SQL usadas.
+Cuando se cambia de programa puede que tengamos que cambiar el driver,
+o incluso (si es una base de datos) migrar los datos.
+Por tanto los cambios de programa a menudo llevan aparejados cambios de código y/o datos.
 
-#### Migraciones de código
+*Código*: Cuando el código está bajo nuestro control,
+cada despliegue se convierte de hecho en una migración:
+de la versión en producción a una nueva.
+A veces también tienen aparejadas migraciones de datos,
+por ejemplo cuando hay un cambio de esquema en la base de datos.
 
-Cuando el código está bajo nuestro control.
-
-#### Migraciones de datos
+*Datos*: Las migraciones de datos son el ejemplo más claro de cambio que debe manejarse con delicadeza.
+En este caso hay que mover o redistribuir información,
+que suele ser lo más delicado en una migración.
+Como vemos, las migraciones de datos son además el final de la cadena:
+cada tipo de migración arriba puede llevar aparejada una migración de datos,
+pero no viceversa.
 
 # Estrategias de migración
 
