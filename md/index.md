@@ -41,7 +41,7 @@ Articles about stuff not related to software engineering.
 
 ## Artículos en español
 
-* 2015-11-08: [Entrevista DevUse](2015/entrevista-devuse.html)
+* 2015-11-08: [Entrevista en DevUse](2015/entrevista-devuse.html)
 
 Artículos para [GodTIC](http://www.godtic.com/blog/):
 
