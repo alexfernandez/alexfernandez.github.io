@@ -244,6 +244,15 @@ que es infinitamente moldeable.
 
 Si encontramos restricciones en esta maleabilidad
 suele ser porque alguien no ha hecho bien su trabajo.
+Subiendo de nivel paulatinamente, encontramos cosas como:
+
+* código duplicado, donde hay que modificar varios trozos de código para cambiar cualquier cosa,
+dificultando los cambios;
+* dependencias cruzadas, que hacen que un cambio en una parte tenga efectos colaterales en partes no relacionadas;
+* drivers imbricados en múltiples secciones del código,
+que dificultan migrar bases de datos u otros componentes similares.
+
+Vamos a centrarnos en las restricciones que nos dificultan una migración.
 
 ### Reversibilidad y termodinámica
 
@@ -280,6 +289,12 @@ En resumen, podemos considerar reversible un sistema que puede invertirse
 sin efectos colaterales.
 Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra,
 entonces el sistema no es reversible.
+
+### Migraciones
+
+Para realizar un cambio de una arquitectura a otra,
+normalmente tenemos que realizar una migración,
+sea de código o de datos.
 
 # Estrategias de migración
 

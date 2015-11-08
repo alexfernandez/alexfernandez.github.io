@@ -116,7 +116,13 @@
 <h2 id="la-arquitectura-fluida">La arquitectura fluida</h2>
 <p>¿Cuál es la solución? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Al oir esto un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio?</p>
 <p>Los ingenieros de software tenemos una gran ventaja: no trabajamos con el mundo real, sino con software, que es infinitamente moldeable.</p>
-<p>Si encontramos restricciones en esta maleabilidad suele ser porque alguien no ha hecho bien su trabajo.</p>
+<p>Si encontramos restricciones en esta maleabilidad suele ser porque alguien no ha hecho bien su trabajo. Subiendo de nivel paulatinamente, encontramos cosas como:</p>
+<ul>
+<li>código duplicado, donde hay que modificar varios trozos de código para cambiar cualquier cosa, dificultando los cambios;</li>
+<li>dependencias cruzadas, que hacen que un cambio en una parte tenga efectos colaterales en partes no relacionadas;</li>
+<li>drivers imbricados en múltiples secciones del código, que dificultan migrar bases de datos u otros componentes similares.</li>
+</ul>
+<p>Vamos a centrarnos en las restricciones que nos dificultan una migración.</p>
 <h3 id="reversibilidad-y-termodinámica">Reversibilidad y termodinámica</h3>
 <p>En este punto vamos a tomar un desvío que nos llevará de viaje a la intemporal tierra de la termodinámica.</p>
 <p>Seguro que has oído hablar de &quot;entropía&quot;: es un término muy popular entre los divulgadores científicos, que a menudo lo corrompen asignándole significados corrientes como &quot;desorden&quot;, &quot;irregularidad&quot; y similares. Es probable que no te sorprenda que la entropía tiene una definición muy precisa, o más bien varias definiciones equivalentes.</p>
@@ -124,6 +130,8 @@
 <p>Por suerte, podemos tomar un atajo: un sistema reversible es, por definición, el que consigue que la entropía se mantenga en el mínimo posible. No por casualidad también es el más eficiente. Y además es muy fácil saber cuándo un sistema es reversible: cuando está en todo momento en equilibrio.</p>
 <p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1.html">estos</a> <a href="../2012/reversible-engineering-part-2.html">tres</a> <a href="../2012/reversible-engineering-part-3.html">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio.</p>
 <p>En resumen, podemos considerar reversible un sistema que puede invertirse sin efectos colaterales. Al mismo tiempo, si revertir el funcionamiento del sistema requiere esfuerzo extra, entonces el sistema no es reversible.</p>
+<h3 id="migraciones">Migraciones</h3>
+<p>Para realizar un cambio de una arquitectura a otra, normalmente tenemos que realizar una migración, sea de código o de datos.</p>
 <h1 id="estrategias-de-migración">Estrategias de migración</h1>
 <p>Llegamos ahora a la parte principal del artículo: el catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
 <p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
