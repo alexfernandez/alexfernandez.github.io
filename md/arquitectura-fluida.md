@@ -180,12 +180,54 @@ Por último, pero no menos importante, tenemos los costes de operación del sist
 
 ![Tráfico diario en MediaSmart Mobile](pics/mediasmart-daily-traffic.png)
 
-En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario.
-Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de
+En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario:
+en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto,
+frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde).
+Nota: Amazon AWS mide las peticiones *por minuto*, en lugar de las peticiones *por segundo*
+de las que hablábamos arriba.
+6M por minuto equivale a 100 krps.
+
+Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de la capacidad,
+y como en Amazon se paga por hora de servidor,
+los costes eran astronómicos.
+Es esencial poder usar un número variable de servidores,
+y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.
 
 ### Velocidad de migración
 
+La velocidad a la que somos capaces de migrar de una arquitectura a otra
+es crítica.
+Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones;
+demasiado rápido, y nuestro sistema estará caído todo el tiempo.
+
 ### Migraciones de base de datos
+
+Las migraciones de una base de datos a otra son muy importantes al escalar un sistema.
+
+Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones,
+y que la descartan en otras. Entre ellas:
+
+* Rango operativo: ¿cuántas peticiones por segundo admite?
+* Elementos funcionales: ¿qué tipos de datos permite guardar?
+¿Qué tipo de consultas se pueden hacer?
+* Tiempo de respuesta: ¿cuántos milisegundos tarda en servir cada petición?
+* Condiciones de operación: ¿cuántos servidores (y de qué tipo) necesita como mínimo?
+¿Hasta cuántos escala?
+
+Durante mucho tiempo se trabajó bajo el paradigma de "la base de datos perfecta",
+intentando que un mismo programa escalara de cero (dispositivos limitados como móviles)
+a infinito (un cluster con tantos servidores como queramos).
+Con la llegada de las bases de datos NoSQL pudimos asistir a una explosión evolutiva
+de tipos de bases de datos diferentes:
+en memoria o en cluster; clave-valor o con estructuras complejas;
+que admiten SQL y que no; etcétera.
+Cada tipo es adecuado para unas condiciones operativas diferentes,
+y tienen costes asociados muy distintos.
+
+Además, los cambios de base de datos son ejemplos perfectos
+del tipo de migraciones que estamos estudiando.
+Así que en la sección de estrategias vamos a abusar de ellos
+para ilustrar cada técnica de migración.
 
 ## La arquitectura fluida
 
