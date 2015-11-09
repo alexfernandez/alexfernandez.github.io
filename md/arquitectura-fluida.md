@@ -4,7 +4,7 @@ subtitle: O de cómo migrar sin penas
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Imagen: [Salvador Dalí](http://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931)](pics/la-persistencia-de-la-memoria.jpg "La persistencia de la memoria")
+![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida.jpg "Deep Blue Dolphin Love")
 
 # Tras la arquitectura perfecta
 
