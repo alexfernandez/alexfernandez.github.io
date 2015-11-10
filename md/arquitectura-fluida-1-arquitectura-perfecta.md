@@ -1,6 +1,6 @@
 ---
 title: Tras la arquitectura perfecta
-subtitle: La arquitectura fluida, parte 1
+subtitle: 'La arquitectura fluida, parte 1'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 

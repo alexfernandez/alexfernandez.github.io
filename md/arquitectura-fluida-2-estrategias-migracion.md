@@ -1,6 +1,6 @@
 ---
 title: Estrategias de migración
-subtitle: La arquitectura fluida: parte 2
+subtitle: 'La arquitectura fluida, parte 2'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
