@@ -8,20 +8,19 @@ footer: Publicado originalmente en TodoJS el 2015-.
 
 # Tras la arquitectura perfecta
 
-En muchas empresas hay departamentos de arquitectura dedicados a decidir
+En muchas empresas hay departamentos de arquitectura cuya misión es decidir
 cómo se va a organizar cada proyecto de software.
-Deciden el diseño a alto nivel,
-en cuántas capas se dividirá,
+Deciden el diseño a alto nivel, en cuántas capas se dividirá,
 qué base de datos usar y otros detalles importantes.
 
 ¿Por qué cambiar la base de datos en cada proyecto?
-¿Por qué no usamos siempre la misma?
+¿Por qué no se usa siempre la misma?
 Para construir edificios no existe un material perfecto:
 a veces es mejor la piedra, otras el ladrillo y otras incluso el acero.
 Tampoco hay una forma perfecta para todos los edificios:
 cuadrados, rectángulos, cilindros y semiesferas se comportan
 de forma distinta bajo la carga.
-Lo mismo ocurre con los componentes de software:
+Lo mismo ocurre con los programas de software:
 cada uno tiene unas restricciones operacionales diferentes,
 y se comporta mejor en ciertas circunstancias.
 
@@ -30,49 +29,61 @@ y se comporta mejor en ciertas circunstancias.
 Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
 "arquitectura" en software.
 
-En esencia se trata de dividir el sistema en bloques (o componentes) de alto nivel,
-y organizar las relaciones entre ellos.
+En esencia se trata de dividir el sistema en bloques de alto nivel,
+y ordenar las relaciones entre ellos.
 La organización en componentes suele derivar en la organización física de las máquinas
 y la elección de lenguaje y programas auxiliares,
 como por ejemplo qué base de datos usar.
 De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años,
 o la moda más reciente de usar gestores de colas en sistemas escalables.
 
-Curiosamente, nadie se fija en el diseño a alto nivel del propio software, por ejemplo:
-la división en módulos de npm o en librerías,
+Curiosamente, es más raro que en la arquitectura se incluya el diseño a alto nivel del propio software,
+por ejemplo: la división en módulos de npm o en librerías,
 cómo se dividen los servicios de una API en el código
 o qué hacer con el código compartido entre diferentes programas.
-Tampoco en asuntos más de DevOps como la forma de desplegar el código
-o la creación de entornos de integración.
-Así que nos limitaremos a considerar la organización en máquinas y qué software usar.
+Tampoco se suelen discutir asuntos más de DevOps como la forma de desplegar el código
+o la creación de entornos de integración,
+ya que suelen caer del lado del departamento de producción.
+Así que por ahora nos limitaremos a considerar la organización en máquinas y qué software usar.
 
 ### Modas en arquitectura
 
-En los años 80, la moda empresarial era tener una
+En los años 80 la moda empresarial era tener una
 [minicomputadora](http://www.computerhistory.org/revolution/minicomputers/11/366/1946)
 (del tamaño de un armario pequeño) y múltiples terminales conectados.
+La llegada de los ordenadores "personales" fue una revolución,
+ya que hasta entonces era impensable darle un ordenador en exclusiva a un trabajador.
 
 En los 90 se popularizaron las arquitecturas cliente-servidor.
-Se separaban así los programas servidor que generaban respuestas
-y las bases de datos que recogían la información.
+Se separaban así los programas que residían en un servidor y que generaban respuestas,
+de los clientes que utilizaban estas respuestas.
 Poco después llegarían protocolos de comunicación entre servidores como CORBA
 y un poco más tarde [XML](https://en.wikipedia.org/wiki/XML#History).
 
-A principios del siglo XXI llegaron las arquitecturas de tres capas:
-capa web, backend y base de datos.
-Era un refinamiento del paradigma cliente-servidor donde el servidor
-se dividía en un backend y un 
-En elementos más blanditos, también se inventó el ridículo [_Enterprise Service Bus_](https://en.wikipedia.org/wiki/Enterprise_service_bus#History),
-que empezó a infectar los diagramas corporativos allá por 2002.
+A principios del siglo XXI llegaron las
+[arquitecturas de tres capas](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture):
+capa de presentación, capa de lógica y base de datos.
+Era un refinamiento del paradigma cliente-servidor donde se separaba el repositorio de datos,
+la lógica de negocio y la presentación de la información.
+También se inventó el ridículo
+[_Enterprise Service Bus_](https://en.wikipedia.org/wiki/Enterprise_service_bus#History),
+que empezó a infectar los diagramas corporativos allá por 2002,
+y el [modelado de procesos de negocio](https://en.wikipedia.org/wiki/Business_process_modeling)
+que por suerte parece que ha caído en desuso.
 
 En los años 10 las bases de datos NoSQL han adquirido protagonismo.
 Los servidores sin estado son de uso común,
 al igual que los gestores de colas.
+Son mejoras de este tipo las que han permitido la creación de servicios escalables
+más allá de lo que se creía posible en décadas pasadas.
 
 En general, un sistema de software suele poder fecharse con bastante precisión
 sólo con ver la arquitectura que implementa.
-No deja de ser curioso que sea un asunto de modas,
-cuando hay tantos especialistas en las empresas grandes.
+No deja de ser curioso que se deje al arbitrio de modas
+un asunto tan serio como la arquitectura de sistemas,
+sobre todo en empresas grandes.
+Lo cierto es que cuantos más elementos seamos capaces de utilizar,
+más flechas tendremos en nuestro carcaj para cuando las necesitemos.
 
 ## Requisitos cambiantes
 
@@ -87,16 +98,15 @@ El avión bombardero
 empezó a operar en 1952,
 las últimas unidades se construyeron en 1963,
 y actualmente sigue en servicio tras más de seis décadas de actualizaciones.
-Durante este tiempo se han actualizado para que usen motores turbofan,
-combustible alternativo, puedan lanzar armas nucleares
-y misiles inteligentes guiados,
+Durante este tiempo se han actualizado para usar motores turbofan y combustible alternativo,
+lanzar armas nucleares y misiles inteligentes guiados,
 se han reparado
 [múltiples problemas estructurales](https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress#Design),
-mejorado la aviónica, y mejorado para proporcionar visión noctura a los pilotos.
+mejorado la aviónica, y habilitada la visión noctura para los pilotos.
 Se estima que podrá seguir en servicio activo al menos hasta 2040.
-En resumen: un bombardero diseñado durante la guerra de Corea
-y fabricado mientras JFK era presidente,
-seguirá en uso hasta dentro de 25 años.
+En resumen: es un bombardero diseñado durante la guerra de Corea
+y fabricado mientras JFK era presidente, que
+seguirá en uso durante al menos otros 25 años.
 
 Como ingenieros, nuestra mayor aspiración es seguramente que lo que construyamos dure en el tiempo.
 Para eso es necesario que pueda actualizarse y mejorarse con el tiempo,
