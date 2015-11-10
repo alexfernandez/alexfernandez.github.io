@@ -95,9 +95,8 @@ Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.
 Empecemos con una anécdota, en este caso con trasfondo militar.
 El avión bombardero
 [B-52 _stratofortress_](http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx)
-empezó a operar en 1952,
-las últimas unidades se construyeron en 1963,
-y actualmente sigue en servicio tras más de seis décadas de actualizaciones.
+empezó a operar en 1952 y las últimas unidades se construyeron en 1963;
+actualmente sigue en servicio tras más de seis décadas de actualizaciones.
 Durante este tiempo se han actualizado para usar motores turbofan y combustible alternativo,
 lanzar armas nucleares y misiles inteligentes guiados,
 se han reparado
@@ -109,23 +108,22 @@ y fabricado mientras JFK era presidente, que
 seguirá en uso durante al menos otros 25 años.
 
 Como ingenieros, nuestra mayor aspiración es seguramente que lo que construyamos dure en el tiempo.
-Para eso es necesario que pueda actualizarse y mejorarse con el tiempo,
+Para eso es necesario que pueda actualizarse y mejorarse,
 añadiendo nuevas funcionalidades según se necesiten.
-Tenemos la gran ventaja de que nuestros sistemas se pueden actualizar mientras están funcionando,
-gracias a la magia del software: basta con sacar una copia y trabajar sobre ella.
-
+Gracias a la magia del software no tenemos que sacar nuestros sistemas del servicio para actualizarlos;
+basta con hacer una copia del código y reemplazar el de producción cuando están listas las mejoras.
 Así que nos resulta relativamente fácil que nuestro software haga cosas nuevas.
 ¿O no?
-Sólo tenemos que extenderlo más allá de su propósito general.
+Sólo tenemos que extenderlo para que haga cosas más allá de su propósito original.
 Excepto cuando no se puede.
+
 Todos conocemos algún proyecto que ha pasado su fecha de expiración.
 Nadie quiere tocar el código porque se ha convertido en una masa
-siniestra de _spaghetti_,
-los cambios son inmanejables y cada vez que tocas en un sitio
+siniestra de _spaghetti_.
+Las modificaciones son inmanejables y cada vez que se hace un cambio en un sitio,
 se rompe algo en otro aparentemente no relacionado.
 
-Nuestra misión es mantener el software flexible,
-para que podamos seguir añadiendo funcionalidades.
+Nuestra misión es mantener el software flexible para que podamos seguir añadiendo funcionalidades.
 Eso lleva algún esfuerzo extra, sin duda,
 pero la recompensa es grande cuando el proyecto es realmente exitoso.
 
@@ -133,27 +131,26 @@ pero la recompensa es grande cuando el proyecto es realmente exitoso.
 
 Las circunstancias en las que nuestro sistema tiene que trabajar cambian,
 para bien o para mal.
-Así que, sin añadir funcionalidades nuevas,
-necesitamos ampliar el rango operativo del sistema.
+A menudo necesitamos ampliar el rango operativo del sistema sin añadir funcionalidades nuevas.
 
 #### Planificación de capacidad
 
-Un caso importante es la planificación de la capacidad necesaria
-(lo que se conoce como _capacity planning_).
-Un producto exitoso a menudo dobla el número de usuarios en un año,
-o incluso en una mes: en 2013 [Uber](http://techcrunch.com/2013/12/18/uber-lyft/)
+Un caso importante es la planificación de la capacidad necesaria para dar servicio,
+lo que se conoce en inglés como _capacity planning_.
+Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en meses:
+en 2013 [Uber](http://techcrunch.com/2013/12/18/uber-lyft/)
 crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más
 vertiginoso que suponía multiplicar su facturación por 20 al año.
 
 ¿Es posible que el mismo sistema sea capaz de crecer para soportar todo el tráfico que le echemos?
-Si usamos la planificación de capacidad,
-seguramente intentaremos predecir el tráfico que vamos a tener durante todo el año
+Si usamos la planificación de capacidad tradicional
+seguramente intentemos predecir el tráfico que vamos a tener durante todo el año
 en base a los datos del año anterior,
 para ir presupuestando el número de servidores que vamos a necesitar.
 También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra.
 Esto, que era práctica estándar hace unos años, ahora sería un suicidio:
-fácilmente la tasa de crecimiento puede ser exponencial,
-de forma que se doble cada poco tiempo.
+la tasa de crecimiento puede ser exponencial y doblarse cada poco tiempo,
+aunque también puede mantenerse estacionaria de repente.
 
 ¿Cómo predecir el tráfico que tendremos, no ya al final de un año,
 sino sólo dentro de un mes?
@@ -161,26 +158,25 @@ Respuesta: no podemos.
 Sólo podemos intentar ir un paso por delante del tráfico,
 y no adelantar demasiado los acontecimientos.
 
-#### Caso práctico: MediaSmart Mobile
+> #### Caso práctico: MediaSmart Mobile
 
-![Peticiones por segundo en MediaSmart Mobile](pics/mediasmart-krps.jpg)
+> ![Peticiones por segundo en MediaSmart Mobile](pics/mediasmart-krps.jpg)
 
-Esta gráfica muestra los picos de peticiones por segundo que hemos recibido
-en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue
-creciendo linealmente, pasando de 2 a 12 krps
-(miles de peticiones por segundo).
-A principios de 2014 pasó algo curioso: el ritmo se aceleró,
-y pasamos de 15 a 100 krps durante ese año.
-Pero en 2015 el ritmo está decelerando de nuevo:
-apenas pasaremos de 210 krps antes de final de año.
+> Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013.
+> Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps
+> (miles de peticiones por segundo).
+> A principios de 2014 pasó algo curioso: el ritmo se aceleró,
+> y pasamos de 15 a 100 krps durante ese año.
+> Pero en 2015 el ritmo está decelerando de nuevo:
+> apenas pasaremos de 210 krps antes de final de año.
 
-Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año,
-habríamos calculado alrededor de 25 krps
-(definitivamente por debajo de 30 krps);
-a final de año teníamos 100 krps.
-Por otra parte, si hubiéramos seguido la curva exponencial para 2015,
-a final de año habríamos andado por 600 krps;
-la cifra real anda cerca de las 200 krps.
+> Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año,
+> habríamos calculado alrededor de 25 krps
+> (definitivamente por debajo de 30 krps);
+> a final de año teníamos 100 krps.
+> Por otra parte, si hubiéramos seguido la curva exponencial para 2015,
+> a final de año habríamos andado por 600 krps;
+> la cifra real anda cerca de las 200 krps.
 
 #### Costes bajos
 
