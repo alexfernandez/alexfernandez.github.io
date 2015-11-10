@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="../index.html"><img src="../pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="../index.html">Alex Fernández</a></h1>
+					<p>
+					I am a developer (little) known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					</p>
+				</header>
+				<!--
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">A Few Accomplishments</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+				-->
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1></h1>
+										<p><p>
+									</header>
+										<div class="figure">
+<img src="pics/arquitectura-fluida.jpg" title="Deep Blue Dolphin Love" alt="Imagen: © Patrik Jones" /><p class="caption">Imagen: <a href="https://creativecommons.org/licenses/by/2.0/">©</a> <a href="https://www.flickr.com/photos/laprimadonna/4881676285">Patrik Jones</a></p>
+</div>
+<p>En la <a href="arquitectura-fluida-1-arquitectura-perfecta.html">parte anterior</a> vimos cómo la arquitectura perfecta no existe; nuestra única esperanza es poder migrar rápidamente de una a otra para responder a los cambios a los que nos enfrentamos.</p>
+<p>Llegamos ahora a al catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
+<p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
+<p>Aunque la mayoría de los ejemplos son de migraciones de bases de datos, las estrategias pueden usarse igualmente para cualquier migración, sea de código, de datos o de infraestructura. Las bases de datos son un ejemplo prototípico de arquitectura cliente/servidor, así que nos dan un marco de referencia bastante sólido sobre el que analizar cada estrategia.</p>
+<p>La lista no es exhaustiva: seguramente el lector pueda imaginar algunas estrategias adicionales y perfectamente útiles. Puedes compartirlas al final del artículo.</p>
+<p>Ilustraremos las estrategias relevantes con ejemplos de código de Node.js, muy apropiado para migraciones reversibles.</p>
+<h2 id="quieres-decir-patrones">¿Quieres decir “patrones”?</h2>
+<p>Tras el gran éxito del libro de Gamma <em>et al</em>, <em>Design Patterns</em>, la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas. Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente. En nuestro caso, ante una migración podemos usar varias de las técnicas que vamos a describir, a nuestra elección.</p>
+<p>Los elementos de juicio que usaremos para decidirnos por una o por otra son precisamente lo fluida que queramos que sea la migración, no la funcionalidad que queremos conseguir (que es siempre la misma). De ahí que prefiramos en nuestro caso el término “estrategia”, además de no estar viciado por el uso previo.</p>
+<h2 id="catálogo-de-estrategias-de-servidor">Catálogo de estrategias de servidor</h2>
+<p>En esta primera categoría tenemos estrategias que se implementan puramente en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.</p>
+<h3 id="parar-y-arrancar">Parar y arrancar</h3>
+<div class="figure">
+<img src="pics/stop-migrate.png" alt="Stop and migrate" /><p class="caption">Stop and migrate</p>
+</div>
+<p>Ésta es la migración de toda la vida:</p>
+<ul>
+<li>se para el sistema,</li>
+<li>se copia la base de datos antigua a la nueva (copia en frío),</li>
+<li>se reconfiguran los clientes para que apunten a la nueva,</li>
+<li>y se vuelve a arrancar el sistema.</li>
+</ul>
+<p>Esta estrategia requiere dejar de dar servicio, con lo que no es apropiada para situaciones de alta disponibilidad. Claramente no es realmente reversible, y además es un poco chapucera.</p>
+<h4 id="código-de-ejemplo">Código de ejemplo</h4>
+<p>El código de servidor es muy sencillo. Primero tenemos un fichero <code>settings.js</code> que almacena la configuración:</p>
+<pre><code>module.exports = {
+    redisAddress: &#39;redis.mydomain.com&#39;,
+};</code></pre>
+<p>El fichero intermedio <code>db.js</code> define las bases de datos que usaremos, en este caso <code>current</code>:</p>
+<pre><code>var settings = require(&#39;./settings.js&#39;);
+module.exports = {
+    current: new RedisAdapter(settings.redisAddress),
+};</code></pre>
+<p>Finalmente, en cada sitio donde usemos la base de datos accederemos a<code>db.current</code>:</p>
+<pre><code>var db = require(&#39;./db.js&#39;);
+db.current.get(key, function(error, result) {
+    ...
+});</code></pre>
+<h4 id="caso-práctico">Caso práctico</h4>
+<p>El primer caso práctico que vamos a ver no es precisamente una migración de base de datos. En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS), de una conexión no segura a la VPC (<em>Virtual Private Cloud</em>).</p>
+<p>El 3 de marzo de 2015 realizamos la migración: primero creamos una réplica de todos los servidores en la VPC. A continuación paramos los servidores originales, y copiamos los datos a la VPC. Luego arrancamos los nuevos sevidores, y apuntamos el servidor DNS hacia ellos. Tras algunas horas de <em>downtime</em> estábamos arriba otra vez.</p>
+<p>El día 5 de marzo nos reportaron problemas en producción, por lo que tuvimos que deshacer la migración. Por fortuna habíamos mantenido las instancias antiguas, así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez. Por ironías de la vida, el problema no se resolvió con esta migración inversa, por lo que dedujimos que tenía otra causa. Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración), el problema real se hizo evidente de inmediato y no tenía nada que ver, sino que venía causado por un despliegue anterior.</p>
+<p>El día 11 de marzo probamos de nuevo con la misma técnica, y de nuevo tras varias horas de <em>downtime</em> la migración estaba hecha. Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda región, cosa que hicimos el día 13 de marzo (viernes). Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.</p>
+<p>La moraleja es algo poco intuitivo: el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente sobre los fallos del sistema, ya que nos fijaremos más en los posibles efectos colaterales que en el problema que tenemos delante. Por eso es importante tener una estrategia de migración inversa que devuelva el sistema a su estado inicial.</p>
+<p>Y, una vez que tenemos la estrategia inversa, también es importante (y de nuevo contraintuitivo) que lo mejor es no realizar la migración inversa, sino buscar las causas profundas de los problemas.</p>
+<h3 id="versión-de-sólo-lectura">Versión de sólo lectura</h3>
+<div class="figure">
+<img src="pics/read-only-version.png" alt="Read-only version" /><p class="caption">Read-only version</p>
+</div>
+<p>Ahora veremos una estrategia ligeramente más sofisticada. Los pasos son:</p>
+<ul>
+<li>pasar a un modo de sólo lectura,</li>
+<li>hacer una copia en caliente (mientras el sistema está andando),</li>
+<li>cambiar a la nueva base de datos,</li>
+<li>y volver al modo de lectura/escritura.</li>
+</ul>
+<p>Mientras el sistema está en sólo lectura, se puede acceder a los datos pero no modificarlos. De esta forma nos aseguramos de que se pueda hacer la copia en caliente: como los datos no cambian, o tenemos que preocuparnos de que se la copia esté desfasada al terminar.</p>
+<p>Esto suele ser bastante mejor que una parada completa. Pero no siempre es admisible: ciertos sistemas tienen que estar recogiendo datos nuevos constantemente, así que dejarlos en sólo lectura no es posible.</p>
+<p>Otro problema es que una copia en caliente puede tardar bastante más que en frío, debido a los accesos constantes.</p>
+<p>La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario. Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible, ya que requiere trabajo extra revertirlas.</p>
+<h4 id="caso-práctico-1">Caso práctico</h4>
+<h3 id="sincronización">Sincronización</h3>
+<div class="figure">
+<img src="pics/sync.png" alt="Synchronization" /><p class="caption">Synchronization</p>
+</div>
+<p>Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva. Los pasos para hacer la sincronización son:</p>
+<ul>
+<li>hacer una copia en caliente de la antigua a la nueva,</li>
+<li>sincronizar todas las escrituras de la antigua a la nueva,</li>
+<li>y finalmente cambiar los accesos a la nueva.</li>
+</ul>
+<p>La sincronización se hace en este caso mediante un mecanismo de servidor, que recoge todas las escrituras y pasarlas a otro sistema. No siempre es posible hacerlo: a veces la carga en el sistema antiguo es demasiado grande, o puede que no haya forma de fechar los cambios para extraer sólo los últimos, lo que haría la sincronización total demasiado costosa.</p>
+<p>En el lado positivo, los usuarios no notarán ningún <em>downtime</em> al acceder al sistema.</p>
+<p>Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos a la base de datos antigua, mientras no desconectemos el mecanismo de sincronización. Si ya no estamos sincronizando los cambios, la migración inversa requiere sincronizar los datos en el sentido contrario. La sincronización bidireccional a menudo es demasiado costosa como para ser práctica. Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros de que la migración ha sido exitosa y no vamos a querer revertirla nunca.</p>
+<h4 id="caso-práctico-2">Caso práctico</h4>
+<p>MediaSmart daystats</p>
+<h3 id="copia-doble">Copia doble</h3>
+<div class="figure">
+<img src="pics/double-copy.png" alt="Double copy" /><p class="caption">Double copy</p>
+</div>
+<h4 id="caso-práctico-3">Caso práctico</h4>
+<p>MediaSmart perfiles</p>
+<h2 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h2>
+<h3 id="decorador">Decorador</h3>
+<h4 id="caso-práctico-4">Caso práctico</h4>
+<h3 id="consulta-dual">Consulta dual</h3>
+<div class="figure">
+<img src="pics/dual-lookup.png" alt="Dual lookup" /><p class="caption">Dual lookup</p>
+</div>
+<h4 id="caso-práctico-5">Caso práctico</h4>
+<h3 id="escritura-dual">Escritura dual</h3>
+<div class="figure">
+<img src="pics/dual-write.png" alt="Dual write" /><p class="caption">Dual write</p>
+</div>
+<h4 id="caso-práctico-6">Caso práctico</h4>
+<h3 id="paso-temporizado">Paso temporizado</h3>
+<div class="figure">
+<img src="pics/timed-rollover.png" alt="Timed rollover" /><p class="caption">Timed rollover</p>
+</div>
+<h4 id="caso-práctico-7">Caso práctico</h4>
+<p>MediaSmart stats aggregates</p>
+<h3 id="conversión-in-situ">Conversión <em>in situ</em></h3>
+<div class="figure">
+<img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
+</div>
+<p>En esta conversión, no hay</p>
+<h4 id="caso-práctico-8">Caso práctico</h4>
+<h2 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h2>
+<h3 id="acceso-mediante-proxy">Acceso mediante proxy</h3>
+<div class="figure">
+<img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
+</div>
+<h4 id="caso-práctico-9">Caso práctico</h4>
+<p>Instagram</p>
+<h3 id="escritura-en-cola">Escritura en cola</h3>
+<div class="figure">
+<img src="pics/queued-write.png" alt="Queued write" /><p class="caption">Queued write</p>
+</div>
+<h4 id="caso-práctico-10">Caso práctico</h4>
+<h1 id="vamos-terminando">Vamos terminando</h1>
+<h2 id="migración-de-cualquier-tipo">Migración de cualquier tipo</h2>
+<div class="figure">
+<img src="pics/all.png" alt="All strategies" /><p class="caption">All strategies</p>
+</div>
+<p>Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.</p>
+<h2 id="el-equilibrio-inestable">El equilibrio inestable</h2>
+<p>Un sistema que fluye se mantiene en equilibrio, pero no es necesariamente un equilibrio estable.</p>
+<p>Veamos un ejemplo sacado de una ingeniería completamente diferente: la aerodinámica. Los <a href="http://aviation.stackexchange.com/a/8061/12166">aviones supersónicos</a> tienen que funcionar en dos regímenes completamente diferentes: primero tienen que volar en modo subsónico, y una vez que alcanzan la velocidad del sonido pasan al modo supersónico. Esto causa un problema: el centro de gravedad está por detrás del punto neutro, lo que hace que el vuelo sea inestable. La única forma de mantenerlos en el aire sin que se desintegren es corregir la trayectoria con un ordenador de a bordo, sin el cual el vuelo sería completamente imposible.</p>
+<p>(Los aviones acrobáticos también son inherentemente inestables, lo que los hace más manejables, pero al volar a menos velocidad es posible que un piloto lo controle.)</p>
+<p>En nuestro caso, un sistema que fluye demasiado despacio se vuelve también difícil de manejar, lo que podemos contrarrestar aumentando la velocidad del cambio. Pero en este caso el sistema se vuelve inestable, y hay que controlarlo para que los fallos que van surgiendo no se acumulen.</p>
+<p>La velocidad de crucero óptima es la que nos permite realizar cambios al sistema de la forma más rápida, sin comprometer la integridad del sistema.</p>
+<h2 id="sigue-fluyendo">Sigue fluyendo</h2>
+<p>Entre tanta migración, no hay que perder de vista el objetivo final: tener una arquitectura flexible, que puede adaptarse a las nuevas circunstancias rápidamente.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									
+									</p>
+									<p>
+									Back to the <a href="../index.html">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Alex Fernández. Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
