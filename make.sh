@@ -23,8 +23,9 @@ pandoc --template read-only.html -s md/reporting-problems-part-2.md -o 2012/repo
 pandoc --template read-only.html -s md/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
 pandoc --template read-only.html -s md/walk-through-my-code.md -o 2015/walk-through-my-code.html
 pandoc --template read-only.html -s md/the-intelligent-designer.md -o 2015/the-intelligent-designer.html
-pandoc --template read-only.html -s md/arquitectura-fluida.md -o 2015/arquitectura-fluida.html
 pandoc --template read-only.html -s md/entrevista-devuse.md -o 2015/entrevista-devuse.html
+pandoc --template read-only.html -s md/arquitectura-fluida-1-arquitectura-perfecta.md -o 2015/arquitectura-fluida-1-arquitectura-perfecta.html
+pandoc --template read-only.html -s md/arquitectura-fluida-3-estrategias-migracion.md -o 2015/arquitectura-fluida-3-estrategias-migracion.html
 
 # Español
 pandoc --template read-only.html -s md/optimizando-sockets.md -o 2013/optimizando-sockets.html
