@@ -27,7 +27,7 @@ y se comporta mejor en ciertas circunstancias.
 ### Qué es la arquitectura
 
 Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
-"arquitectura" en software.
+“arquitectura” en software.
 
 En esencia se trata de dividir el sistema en bloques de alto nivel,
 y ordenar las relaciones entre ellos.
@@ -51,7 +51,7 @@ Así que por ahora nos limitaremos a considerar la organización en máquinas y 
 En los años 80 la moda empresarial era tener una
 [minicomputadora](http://www.computerhistory.org/revolution/minicomputers/11/366/1946)
 (del tamaño de un armario pequeño) y múltiples terminales conectados.
-La llegada de los ordenadores "personales" fue una revolución,
+La llegada de los ordenadores “personales” fue una revolución,
 ya que hasta entonces era impensable darle un ordenador en exclusiva a un trabajador.
 
 En los 90 se popularizaron las arquitecturas cliente-servidor.
@@ -224,7 +224,7 @@ y que la descartan en otras. Entre ellas:
 * Condiciones de operación: ¿cuántos servidores (y de qué tipo) necesita como mínimo?
 ¿Hasta cuántos escala?
 
-Durante mucho tiempo se trabajó bajo el paradigma de "la base de datos perfecta",
+Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”,
 intentando que un mismo programa escalara de cero (dispositivos limitados como móviles)
 a infinito (un cluster con tantos servidores como queramos).
 Con la llegada de las bases de datos NoSQL pudimos asistir a una explosión evolutiva
@@ -269,10 +269,10 @@ Vamos a centrarnos en las restricciones que nos dificultan una migración.
 En este punto vamos a tomar un desvío que nos llevará de viaje
 a la intemporal tierra de la termodinámica.
 
-Seguro que has oído hablar de "entropía":
+Seguro que has oído hablar de “entropía”:
 es un término muy popular entre los divulgadores científicos,
 que a menudo lo corrompen asignándole significados corrientes
-como "desorden", "irregularidad" y similares.
+como “desorden”, “irregularidad” y similares.
 Es probable que no te sorprenda que la entropía tiene una definición muy precisa,
 o más bien varias definiciones equivalentes.
 
@@ -371,10 +371,10 @@ Puedes compartirlas al final del artículo.
 Ilustraremos las estrategias relevantes con ejemplos de código de Node.js,
 muy apropiado para migraciones reversibles.
 
-## ¿Quieres decir "patrones"?
+## ¿Quieres decir “patrones”?
 
 Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
-la palabra "patrón" se usa (y se abusa) a menudo en el diseño de sistemas.
+la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
 Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente.
 En nuestro caso, ante una migración podemos usar varias de las técnicas que vamos a describir,
 a nuestra elección.
@@ -382,7 +382,7 @@ a nuestra elección.
 Los elementos de juicio que usaremos para decidirnos por una o por otra
 son precisamente lo fluida que queramos que sea la migración,
 no la funcionalidad que queremos conseguir (que es siempre la misma).
-De ahí que prefiramos en nuestro caso el término "estrategia",
+De ahí que prefiramos en nuestro caso el término “estrategia”,
 además de no estar viciado por el uso previo.
 
 ## Catálogo de estrategias de servidor
