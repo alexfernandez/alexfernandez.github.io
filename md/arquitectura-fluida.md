@@ -159,9 +159,9 @@ Sólo podemos intentar ir un paso por delante del tráfico,
 y no adelantar demasiado los acontecimientos.
 
 > #### Caso práctico: MediaSmart Mobile
-
+> 
 > ![Peticiones por segundo en MediaSmart Mobile](pics/mediasmart-krps.jpg)
-
+> 
 > Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013.
 > Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps
 > (miles de peticiones por segundo).
@@ -169,7 +169,7 @@ y no adelantar demasiado los acontecimientos.
 > y pasamos de 15 a 100 krps durante ese año.
 > Pero en 2015 el ritmo está decelerando de nuevo:
 > apenas pasaremos de 210 krps antes de final de año.
-
+> 
 > Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año,
 > habríamos calculado alrededor de 25 krps
 > (definitivamente por debajo de 30 krps);
