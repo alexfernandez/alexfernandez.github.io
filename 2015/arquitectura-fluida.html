@@ -84,40 +84,45 @@
 <p>Las circunstancias en las que nuestro sistema tiene que trabajar cambian, para bien o para mal. A menudo necesitamos ampliar el rango operativo del sistema sin añadir funcionalidades nuevas.</p>
 <h4 id="planificación-de-capacidad">Planificación de capacidad</h4>
 <p>Un caso importante es la planificación de la capacidad necesaria para dar servicio, lo que se conoce en inglés como <em>capacity planning</em>. Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en meses: en 2013 <a href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a> crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más vertiginoso que suponía multiplicar su facturación por 20 al año.</p>
-<p>¿Es posible que el mismo sistema sea capaz de crecer para soportar todo el tráfico que le echemos? Si usamos la planificación de capacidad tradicional seguramente intentemos predecir el tráfico que vamos a tener durante todo el año en base a los datos del año anterior, para ir presupuestando el número de servidores que vamos a necesitar. También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra. Esto, que era práctica estándar hace unos años, ahora sería un suicidio: la tasa de crecimiento puede ser exponencial y doblarse cada poco tiempo, aunque también puede mantenerse estacionaria de repente.</p>
-<p>¿Cómo predecir el tráfico que tendremos, no ya al final de un año, sino sólo dentro de un mes? Respuesta: no podemos. Sólo podemos intentar ir un paso por delante del tráfico, y no adelantar demasiado los acontecimientos.</p>
+<p>¿Es posible que el mismo sistema sea capaz de crecer para soportar todo el tráfico que le echemos? Si usamos la planificación de capacidad tradicional seguramente intentemos predecir el tráfico que vamos a tener durante todo el año en base a los datos del año anterior, para ir presupuestando el número de servidores que vamos a necesitar. También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra. Esto, que era práctica estándar hace unos años, ahora sería un suicidio: la tasa de crecimiento puede ser exponencial y doblarse cada poco tiempo, aunque también puede mantenerse estacionaria de repente durante meses.</p>
+<p>¿Cómo predecir el tráfico que tendremos, no ya al final de un año, sino sólo dentro de un mes? Respuesta: no podemos. Sólo podemos intentar ir un paso por delante del tráfico, responder rápido a los cambios y no adelantar demasiado los acontecimientos.</p>
 <blockquote>
 <h4>Caso práctico: MediaSmart Mobile</h4>
 <div class="figure">
 <img src="pics/mediasmart-krps.jpg" alt="Peticiones por segundo en MediaSmart Mobile" /><p class="caption">Peticiones por segundo en MediaSmart Mobile</p>
 </div>
-<p>Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps (miles de peticiones por segundo). A principios de 2014 pasó algo curioso: el ritmo se aceleró, y pasamos de 15 a 100 krps durante ese año. Pero en 2015 el ritmo está decelerando de nuevo: apenas pasaremos de 210 krps antes de final de año.</p>
-<p>Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año, habríamos calculado alrededor de 25 krps (definitivamente por debajo de 30 krps); a final de año teníamos 100 krps. Por otra parte, si hubiéramos seguido la curva exponencial para 2015, a final de año habríamos andado por 600 krps; la cifra real anda cerca de las 200 krps.</p>
+<p>Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps (miles de peticiones por segundo). A principios de 2014 pasó algo curioso: el ritmo se aceleró, y pasamos de 15 a 100 krps a finales de año. Pero en 2015 el ritmo está decelerando de nuevo: apenas pasaremos de 210 krps antes de final de año.</p>
+<p>Si a principios 2014 hubiéramos pintado una línea recta para predecir el tráfico del año, habríamos calculado alrededor de 25 krps (definitivamente por debajo de 30 krps); a final de año teníamos 100 krps. Por otra parte, si hubiéramos seguido la curva exponencial para 2015, a final de año habríamos andado por 600 krps; la cifra real anda cerca de las 200 krps.</p>
 </blockquote>
 <h4 id="costes-bajos">Costes bajos</h4>
-<p>Por último, pero no menos importante, tenemos los costes de operación del sistema.</p>
-<h4 id="caso-práctico-mediasmart-mobile-1">Caso práctico: MediaSmart Mobile</h4>
+<p>Por último, pero no menos importante, tenemos los costes de operación del sistema. Alquilar servidores en la nube no sale barato; si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.</p>
+<blockquote>
+<h4>Caso práctico: MediaSmart Mobile</h4>
 <div class="figure">
 <img src="pics/mediasmart-daily-traffic.png" alt="Tráfico diario en MediaSmart Mobile" /><p class="caption">Tráfico diario en MediaSmart Mobile</p>
 </div>
-<p>En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario: en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto, frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde). Nota: Amazon AWS mide las peticiones <em>por minuto</em>, en lugar de las peticiones <em>por segundo</em> de las que hablábamos arriba. 6M por minuto equivale a 100 krps.</p>
-<p>Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de la capacidad, y como en Amazon se paga por hora de servidor, los costes eran astronómicos. Es esencial poder usar un número variable de servidores, y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.</p>
-<h3 id="velocidad-de-migración">Velocidad de migración</h3>
-<p>La velocidad a la que somos capaces de migrar de una arquitectura a otra es crítica. Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones; demasiado rápido, y nuestro sistema estará caído todo el tiempo.</p>
+<p>En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario: en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto, frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde). <em>Nota</em>: Amazon AWS mide las peticiones <em>por minuto</em>, en lugar de las peticiones <em>por segundo</em> que hemos visto arriba. 6M por minuto equivale a 100 krps.</p>
+<p>Mantener arrancados los servidores todo el día suponía desperdiciar gran parte de la capacidad, y como en Amazon se paga por hora de servidor los costes eran astronómicos. Es esencial poder usar un número variable de servidores, y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.</p>
+</blockquote>
+<h4 id="velocidad-de-migración">Velocidad de migración</h4>
+<p>La velocidad a la que somos capaces de migrar de una arquitectura a otra es crítica. Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones o de mantener los costes controlados; demasiado rápido, y nuestro sistema estará caído todo el tiempo.</p>
+<p>Si tu proveedor de servidores en la nube sube los precios un 300% de un día para otro, cosa que <a href="http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html">ha ocurrido en el pasado</a>, ¿cuánto tiempo tarda tu equipo en migrar a un nuevo proveedor?</p>
+<p>Y si mañana decides montar un CPD propio y albergar tus propios servicios, ¿cuánto tardarás en ejecutarlo?</p>
 <h3 id="migraciones-de-base-de-datos">Migraciones de base de datos</h3>
 <p>Las migraciones de una base de datos a otra son muy importantes al escalar un sistema.</p>
 <p>Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones, y que la descartan en otras. Entre ellas:</p>
 <ul>
 <li>Rango operativo: ¿cuántas peticiones por segundo admite?</li>
 <li>Elementos funcionales: ¿qué tipos de datos permite guardar? ¿Qué tipo de consultas se pueden hacer?</li>
-<li>Tiempo de respuesta: ¿cuántos milisegundos tarda en servir cada petición?</li>
-<li>Condiciones de operación: ¿cuántos servidores (y de qué tipo) necesita como mínimo? ¿Hasta cuántos escala?</li>
+<li>Tiempo de respuesta: ¿cuántos milisegundos se tarda en servir cada petición?</li>
+<li>Condiciones de operación: ¿cuántos servidores (y de qué tipo) se necesitan como mínimo? ¿Hasta cuántos escala?</li>
 </ul>
-<p>Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”, intentando que un mismo programa escalara de cero (dispositivos limitados como móviles) a infinito (un cluster con tantos servidores como queramos). Con la llegada de las bases de datos NoSQL pudimos asistir a una explosión evolutiva de tipos de bases de datos diferentes: en memoria o en cluster; clave-valor o con estructuras complejas; que admiten SQL y que no; etcétera. Cada tipo es adecuado para unas condiciones operativas diferentes, y tienen costes asociados muy distintos.</p>
-<p>Además, los cambios de base de datos son ejemplos perfectos del tipo de migraciones que estamos estudiando. Así que en la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.</p>
+<p>Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”: un mismo programa que escalara de casi cero (dispositivos muy limitados en recursos, como móviles) a infinito (un cluster con tantos nodos como queramos). Con la llegada de las bases de datos NoSQL asistimos a una explosión evolutiva de bases de datos muy diferentes: en memoria o en cluster; clave-valor o con estructuras complejas; que admiten SQL y que no; etcétera. Cada tipo es adecuado para unas condiciones operativas diferentes, y tienen costes asociados muy distintos.</p>
+<p>Además, los cambios de base de datos son ejemplos perfectos del tipo de migraciones que estamos estudiando. En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.</p>
 <h2 id="la-arquitectura-fluida">La arquitectura fluida</h2>
-<p>¿Cuál es la solución? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Al oir esto un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio?</p>
-<p>Los ingenieros de software tenemos una gran ventaja: no trabajamos con el mundo real, sino con software, que es infinitamente moldeable.</p>
+<p>¿Cuál es la solución para acomodar tanto cambio? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Tenemos que ser capaces de pasar de un estado a otro, intentando dar servicio todo el tiempo.</p>
+<p>Al oir esto un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio mientras los habitantes están viviendo dentro?</p>
+<p>Los ingenieros de software tenemos una gran ventaja frente a otras ingenierías más tradicionales: no trabajamos con el mundo real, rígido y frágil, sino con software, que es infinitamente moldeable.</p>
 <p>Si encontramos restricciones en esta maleabilidad suele ser porque alguien no ha hecho bien su trabajo. Subiendo de nivel paulatinamente, encontramos cosas como:</p>
 <ul>
 <li>código duplicado, donde hay que modificar varios trozos de código para cambiar cualquier cosa, dificultando los cambios;</li>

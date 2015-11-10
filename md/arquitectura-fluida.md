@@ -150,12 +150,13 @@ para ir presupuestando el número de servidores que vamos a necesitar.
 También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra.
 Esto, que era práctica estándar hace unos años, ahora sería un suicidio:
 la tasa de crecimiento puede ser exponencial y doblarse cada poco tiempo,
-aunque también puede mantenerse estacionaria de repente.
+aunque también puede mantenerse estacionaria de repente durante meses.
 
 ¿Cómo predecir el tráfico que tendremos, no ya al final de un año,
 sino sólo dentro de un mes?
 Respuesta: no podemos.
 Sólo podemos intentar ir un paso por delante del tráfico,
+responder rápido a los cambios
 y no adelantar demasiado los acontecimientos.
 
 > #### Caso práctico: MediaSmart Mobile
@@ -166,11 +167,11 @@ y no adelantar demasiado los acontecimientos.
 > Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps
 > (miles de peticiones por segundo).
 > A principios de 2014 pasó algo curioso: el ritmo se aceleró,
-> y pasamos de 15 a 100 krps durante ese año.
+> y pasamos de 15 a 100 krps a finales de año.
 > Pero en 2015 el ritmo está decelerando de nuevo:
 > apenas pasaremos de 210 krps antes de final de año.
 > 
-> Si a principios 2014 hubiéramos pintado una línea recta y hubiéramos intentado predecir el tráfico del año,
+> Si a principios 2014 hubiéramos pintado una línea recta para predecir el tráfico del año,
 > habríamos calculado alrededor de 25 krps
 > (definitivamente por debajo de 30 krps);
 > a final de año teníamos 100 krps.
@@ -181,30 +182,39 @@ y no adelantar demasiado los acontecimientos.
 #### Costes bajos
 
 Por último, pero no menos importante, tenemos los costes de operación del sistema.
+Alquilar servidores en la nube no sale barato;
+si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.
 
-#### Caso práctico: MediaSmart Mobile
+> #### Caso práctico: MediaSmart Mobile
+> 
+> ![Tráfico diario en MediaSmart Mobile](pics/mediasmart-daily-traffic.png)
+> 
+> En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario:
+> en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto,
+> frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde).
+> *Nota*: Amazon AWS mide las peticiones *por minuto*,
+> en lugar de las peticiones *por segundo* que hemos visto arriba.
+> 6M por minuto equivale a 100 krps.
+> 
+> Mantener arrancados los servidores todo el día suponía desperdiciar gran parte de la capacidad,
+> y como en Amazon se paga por hora de servidor los costes eran astronómicos.
+> Es esencial poder usar un número variable de servidores,
+> y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.
 
-![Tráfico diario en MediaSmart Mobile](pics/mediasmart-daily-traffic.png)
-
-En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario:
-en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto,
-frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde).
-Nota: Amazon AWS mide las peticiones *por minuto*, en lugar de las peticiones *por segundo*
-de las que hablábamos arriba.
-6M por minuto equivale a 100 krps.
-
-Mantener arrancados los mismos servidores todo el día suponía desperdiciar gran parte de la capacidad,
-y como en Amazon se paga por hora de servidor,
-los costes eran astronómicos.
-Es esencial poder usar un número variable de servidores,
-y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.
-
-### Velocidad de migración
+#### Velocidad de migración
 
 La velocidad a la que somos capaces de migrar de una arquitectura a otra
 es crítica.
-Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones;
+Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones
+o de mantener los costes controlados;
 demasiado rápido, y nuestro sistema estará caído todo el tiempo.
+
+Si tu proveedor de servidores en la nube sube los precios un 300% de un día para otro,
+cosa que [ha ocurrido en el pasado](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html),
+¿cuánto tiempo tarda tu equipo en migrar a un nuevo proveedor?
+
+Y si mañana decides montar un CPD propio y albergar tus propios servicios,
+¿cuánto tardarás en ejecutarlo?
 
 ### Migraciones de base de datos
 
@@ -216,37 +226,40 @@ y que la descartan en otras. Entre ellas:
 * Rango operativo: ¿cuántas peticiones por segundo admite?
 * Elementos funcionales: ¿qué tipos de datos permite guardar?
 ¿Qué tipo de consultas se pueden hacer?
-* Tiempo de respuesta: ¿cuántos milisegundos tarda en servir cada petición?
-* Condiciones de operación: ¿cuántos servidores (y de qué tipo) necesita como mínimo?
+* Tiempo de respuesta: ¿cuántos milisegundos se tarda en servir cada petición?
+* Condiciones de operación: ¿cuántos servidores (y de qué tipo) se necesitan como mínimo?
 ¿Hasta cuántos escala?
 
-Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”,
-intentando que un mismo programa escalara de cero (dispositivos limitados como móviles)
-a infinito (un cluster con tantos servidores como queramos).
-Con la llegada de las bases de datos NoSQL pudimos asistir a una explosión evolutiva
-de tipos de bases de datos diferentes:
+Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”:
+un mismo programa que escalara de casi cero (dispositivos muy limitados en recursos, como móviles)
+a infinito (un cluster con tantos nodos como queramos).
+Con la llegada de las bases de datos NoSQL asistimos a una explosión evolutiva
+de bases de datos muy diferentes:
 en memoria o en cluster; clave-valor o con estructuras complejas;
 que admiten SQL y que no; etcétera.
 Cada tipo es adecuado para unas condiciones operativas diferentes,
 y tienen costes asociados muy distintos.
 
-Además, los cambios de base de datos son ejemplos perfectos
-del tipo de migraciones que estamos estudiando.
-Así que en la sección de estrategias vamos a abusar de ellos
-para ilustrar cada técnica de migración.
+Además, los cambios de base de datos son ejemplos perfectos del tipo de migraciones que estamos estudiando.
+En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.
 
 ## La arquitectura fluida
 
-¿Cuál es la solución?
+¿Cuál es la solución para acomodar tanto cambio?
 Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida,
 sin tomar decisiones que comprometan su integridad.
+Tenemos que ser capaces de pasar de un estado a otro,
+intentando dar servicio todo el tiempo.
+
 Al oir esto un arquitecto de los de verdad, de los que juntan piedras,
 seguramente tendría problemas para contener la risa.
-¿Cómo se pueden cambiar las vigas maestras de un edificio?
+¿Cómo se pueden cambiar las vigas maestras de un edificio
+mientras los habitantes están viviendo dentro?
 
-Los ingenieros de software tenemos una gran ventaja:
-no trabajamos con el mundo real, sino con software,
-que es infinitamente moldeable.
+Los ingenieros de software tenemos una gran ventaja
+frente a otras ingenierías más tradicionales:
+no trabajamos con el mundo real, rígido y frágil,
+sino con software, que es infinitamente moldeable.
 
 Si encontramos restricciones en esta maleabilidad
 suele ser porque alguien no ha hecho bien su trabajo.
