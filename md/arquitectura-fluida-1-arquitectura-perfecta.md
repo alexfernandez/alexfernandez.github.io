@@ -83,7 +83,40 @@ sobre todo en empresas grandes.
 Lo cierto es que cuantos más elementos seamos capaces de utilizar,
 más flechas tendremos en nuestro carcaj para cuando las necesitemos.
 
+## Perfección en arquitectura
+
+Los diseños clásicos de los templos y teatros griegos siguen siendo admirados
+casi 2500 años después de su construcción.
+Así que, ¿por qué no seguimos construyendo como ellos?
+Los materiales cambian, las técnicas avanzan,
+y las necesidades de los ocupantes también.
+
+En la arquitectura de sistemas de software también se mejora constantemente.
+Si dominamos nuevas técnicas seremos más versátiles como profesionales.
+Pero no es ése el motivo real por el que la arquitectura perfecta no existe.
+
+Cada proyecto tiene su ámbito de operación,
+y su personal asignado.
+Construir una página personal que va a recibir unas pocas visitas al día usando Erlang,
+un lenguaje diseñado para sistemas telefónicos de alta concurrencia,
+es tan ridículo como querer hacer un clon de Twitter en Visual Basic.
+De ahí que tengamos que conocer los requisitos funcionales y operativos de un sistema
+antes de poder empezar a hablar de arquitectura.
+
 # Requisitos cambiantes
+
+En las inmortales palabras citadas por Steve McConnell en [Code Complete](http://www.stevemcconnell.com/cc.htm):
+
+> Los requisitos son como el agua: es más fácil construir sobre ellos cuando están congelados.
+
+Por desgracia, la vida es dura y los requisitos cambian.
+Llega un momento de la vida en la que todo ingeniero de software comprende
+que hay valor en permitir que los requisitos cambien:
+pretender comprender a la perfección un sistema antes de empezar a construirlo
+no sólo es una quimera; además es una pérdida de tiempo.
+Es raro el negocio donde se conocen a la perfección los requisitos de los clientes
+antes de empezar a darles servicio,
+y más raro aún dar con la tecla correcta a la primera iteración.
 
 Un sistema de software tiene que poder evolucionar durante su vida útil.
 Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.
@@ -94,7 +127,7 @@ Empecemos con una anécdota, en este caso con trasfondo militar.
 El avión bombardero
 [B-52 _stratofortress_](http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx)
 empezó a operar en 1952 y las últimas unidades se construyeron en 1963;
-actualmente sigue en servicio tras más de seis décadas de actualizaciones.
+actualmente 76 aparatos siguen en servicio tras más de seis décadas de actualizaciones.
 Durante este tiempo se han actualizado para usar motores turbofan y combustible alternativo,
 lanzar armas nucleares y misiles inteligentes guiados,
 se han reparado
@@ -307,18 +340,18 @@ entonces el sistema no es reversible.
 
 ## Migraciones
 
-Para realizar un cambio de una arquitectura a otra
-normalmente tenemos que realizar un cambio,
+Para pasar de una arquitectura a otra normalmente tenemos que realizar un cambio,
 sea de máquinas, de programas, de código o de datos.
-Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.
-Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias,
-entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro.
+Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida:
+si nuestro sistema pasa de un estado a otro suavemente y sin turbulencias,
+es decir que las migraciones son también fuidas,
+entonces podremos considerar que tenemos una arquitectura maleable.
 
 ### Migración sin _downtime_
 
-Para que la migración sea fluida es un requisito indispensable que sea suave, es decir:
+Para que cada migración sea fluida es un requisito indispensable
 que no haya un paso brusco entre un estado y el siguiente.
-Queremos migrar de un estado a otro sin dejar de dar servicio en ningún momento.
+Es decir, que no dejemos en ningún momentode dar servicio.
 La técnica básica para conseguirlo es la capa de compatibilidad:
 un elemento intermedio que ponemos entre el código viejo y el nuevo
 y que facilita la transición.
@@ -340,7 +373,7 @@ También tenemos que tener claro cómo revertir la migración:
 poder volver a la situación inicial con el mínimo esfuerzo.
 Idealmente, para revertir todos los cambios sólo tenemos que darle a un botón,
 cambiar una opción de configuración, modificar un único parámetro, en definitiva:
-revertir un bit.
+invertir un bit.
 
     var MIGRATION = false;
 
@@ -413,9 +446,9 @@ y luego cambiar el acceso;
 todo ello por supuesto sin _downtime_.
 
 Los cambios de base de datos son ejemplos muy completos del tipo de migraciones que estamos estudiando.
-En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.
+Más adelante vamos a abusar de ellos para ilustrar cada técnica de migración.
 
-## Estrategias de migración
+# Fin (por ahora)
 
 En la [siguiente parte](arquitectura-fluida-2-estrategias-migracion.html)
 veremos varias estrategias que se pueden usar
