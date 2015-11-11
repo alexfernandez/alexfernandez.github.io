@@ -4,7 +4,7 @@ subtitle: 'La arquitectura fluida, parte 2'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida.jpg "Deep Blue Dolphin Love")
+![Imagen: [John Soane, 1814](https://en.wikipedia.org/wiki/File:Il_ponte_di_Cesare_sul_Reno.jpg)](pics/arquitectura-fluida-2.jpg "Il ponte di Cesare sul Reno")
 
 En la [parte anterior](arquitectura-fluida-1-arquitectura-perfecta.html)
 vimos cómo la arquitectura perfecta no existe;
@@ -40,7 +40,8 @@ muy apropiado para migraciones reversibles.
 
 Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
 la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
-Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente.
+Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente.a
+
 En nuestro caso, ante una migración podemos usar varias de las técnicas que vamos a describir,
 a nuestra elección.
 
@@ -50,12 +51,12 @@ no la funcionalidad que queremos conseguir (que es siempre la misma).
 De ahí que prefiramos en nuestro caso el término “estrategia”,
 además de no estar viciado por el uso previo.
 
-## Catálogo de estrategias de servidor
+# Catálogo de estrategias de servidor
 
 En esta primera categoría tenemos estrategias que se implementan puramente
 en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.
 
-### Parar y arrancar
+## Parar y arrancar
 
 ![Stop and migrate](pics/stop-migrate.png)
 
@@ -70,7 +71,7 @@ Esta estrategia requiere dejar de dar servicio,
 con lo que no es apropiada para situaciones de alta disponibilidad.
 Claramente no es realmente reversible, y además es un poco chapucera.
 
-#### Código de ejemplo
+### Código de ejemplo
 
 El código de servidor es muy sencillo.
 Primero tenemos un fichero `settings.js` que almacena la configuración:
@@ -94,50 +95,50 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
         ...
     });
 
-#### Caso práctico
+> #### Caso práctico
+> 
+> El primer caso práctico que vamos a ver no es precisamente una migración de base de datos.
+> En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS),
+> de una conexión no segura a la VPC (_Virtual Private Cloud_).
+> 
+> El 3 de marzo de 2015 realizamos la migración:
+> primero creamos una réplica de todos los servidores en la VPC.
+> A continuación paramos los servidores originales,
+> y copiamos los datos a la VPC.
+> Luego arrancamos los nuevos sevidores,
+> y apuntamos el servidor DNS hacia ellos.
+> Tras algunas horas de _downtime_ estábamos arriba otra vez.
+> 
+> El día 5 de marzo nos reportaron problemas en producción,
+> por lo que tuvimos que deshacer la migración.
+> Por fortuna habíamos mantenido las instancias antiguas,
+> así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez.
+> Por ironías de la vida, el problema no se resolvió con esta migración inversa,
+> por lo que dedujimos que tenía otra causa.
+> Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración),
+> el problema real se hizo evidente de inmediato y no tenía nada que ver,
+> sino que venía causado por un despliegue anterior.
+> 
+> El día 11 de marzo probamos de nuevo con la misma técnica,
+> y de nuevo tras varias horas de _downtime_ la migración estaba hecha.
+> Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda región,
+> cosa que hicimos el día 13 de marzo (viernes).
+> Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
+> 
+> La moraleja es algo poco intuitivo:
+> el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente
+> sobre los fallos del sistema,
+> ya que nos fijaremos más en los posibles efectos colaterales
+> que en el problema que tenemos delante.
+> Por eso es importante tener una estrategia de migración inversa
+> que devuelva el sistema a su estado inicial.
+> 
+> Y, una vez que tenemos la estrategia inversa,
+> también es importante (y de nuevo contraintuitivo)
+> que lo mejor es no realizar la migración inversa,
+> sino buscar las causas profundas de los problemas.
 
-El primer caso práctico que vamos a ver no es precisamente una migración de base de datos.
-En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS),
-de una conexión no segura a la VPC (_Virtual Private Cloud_).
-
-El 3 de marzo de 2015 realizamos la migración:
-primero creamos una réplica de todos los servidores en la VPC.
-A continuación paramos los servidores originales,
-y copiamos los datos a la VPC.
-Luego arrancamos los nuevos sevidores,
-y apuntamos el servidor DNS hacia ellos.
-Tras algunas horas de _downtime_ estábamos arriba otra vez.
-
-El día 5 de marzo nos reportaron problemas en producción,
-por lo que tuvimos que deshacer la migración.
-Por fortuna habíamos mantenido las instancias antiguas,
-así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez.
-Por ironías de la vida, el problema no se resolvió con esta migración inversa,
-por lo que dedujimos que tenía otra causa.
-Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración),
-el problema real se hizo evidente de inmediato y no tenía nada que ver,
-sino que venía causado por un despliegue anterior.
-
-El día 11 de marzo probamos de nuevo con la misma técnica,
-y de nuevo tras varias horas de _downtime_ la migración estaba hecha.
-Como operamos en dos regiones de AWS, todavía teníamos que migrar la segunda región,
-cosa que hicimos el día 13 de marzo (viernes).
-Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
-
-La moraleja es algo poco intuitivo:
-el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente
-sobre los fallos del sistema,
-ya que nos fijaremos más en los posibles efectos colaterales
-que en el problema que tenemos delante.
-Por eso es importante tener una estrategia de migración inversa
-que devuelva el sistema a su estado inicial.
-
-Y, una vez que tenemos la estrategia inversa,
-también es importante (y de nuevo contraintuitivo)
-que lo mejor es no realizar la migración inversa,
-sino buscar las causas profundas de los problemas.
-
-### Versión de sólo lectura
+## Versión de sólo lectura
 
 ![Read-only version](pics/read-only-version.png)
 
@@ -168,9 +169,9 @@ volver a sólo lectura, copiar y migrar en sentido contrario.
 Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible,
 ya que requiere trabajo extra revertirlas.
 
-#### Caso práctico
+> #### Caso práctico
 
-### Sincronización
+## Sincronización
 
 ![Synchronization](pics/sync.png)
 
@@ -199,71 +200,69 @@ La sincronización bidireccional a menudo es demasiado costosa como para ser pr�
 Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros
 de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
 
-#### Caso práctico
+> #### Caso práctico
 
 MediaSmart daystats
 
-### Copia doble
+## Copia doble
 
 ![Double copy](pics/double-copy.png)
 
-#### Caso práctico
+> #### Caso práctico
 
 MediaSmart perfiles
 
-## Catálogo de estrategias en cliente
+# Catálogo de estrategias en cliente
 
-### Decorador
+## Decorador
 
-#### Caso práctico
+> #### Caso práctico
 
-### Consulta dual
+## Consulta dual
 
 ![Dual lookup](pics/dual-lookup.png)
 
-#### Caso práctico
+> #### Caso práctico
 
-### Escritura dual
+## Escritura dual
 
 ![Dual write](pics/dual-write.png)
 
-#### Caso práctico
+> #### Caso práctico
 
-### Paso temporizado
+## Paso temporizado
 
 ![Timed rollover](pics/timed-rollover.png)
 
-#### Caso práctico
+> #### Caso práctico
+> 
+> MediaSmart stats aggregates
 
-MediaSmart stats aggregates
-
-### Conversión _in situ_
+## Conversión _in situ_
 
 ![In-place conversion](pics/in-place.png)
 
 En esta conversión, no hay 
 
-#### Caso práctico
+> #### Caso práctico
 
-## Catálogo de estrategias en broker
+# Catálogo de estrategias en broker
 
-### Acceso mediante proxy
+## Acceso mediante proxy
 
 ![Proxied access](pics/proxied-access.png)
 
-#### Caso práctico
+> #### Caso práctico
+> 
+> Instagram
 
-Instagram
-
-### Escritura en cola
+## Escritura en cola
 
 ![Queued write](pics/queued-write.png)
 
-#### Caso práctico
+> #### Caso práctico
 
-# Vamos terminando
-
-## Migración de cualquier tipo
+# Migración de cualquier tipo
 
 ![All strategies](pics/all.png)
 

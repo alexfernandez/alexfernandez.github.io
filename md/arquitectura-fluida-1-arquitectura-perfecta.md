@@ -4,7 +4,7 @@ subtitle: 'La arquitectura fluida, parte 1'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida.jpg "Deep Blue Dolphin Love")
+![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida-1.jpg "Deep Blue Dolphin Love")
 
 En muchas empresas hay departamentos de arquitectura cuya misión es decidir
 cómo se va a organizar cada proyecto de software.
