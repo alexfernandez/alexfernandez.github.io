@@ -179,6 +179,28 @@ y no adelantar demasiado los acontecimientos.
 > a final de año habríamos andado por 600 krps;
 > la cifra real anda cerca de las 200 krps.
 
+#### Bases de datos
+
+Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones,
+y que la descartan en otras. Entre ellas:
+
+* Rango operativo: ¿cuántas peticiones por segundo admite?
+* Elementos funcionales: ¿qué tipos de datos permite guardar?
+¿Qué tipo de consultas se pueden hacer?
+* Tiempo de respuesta: ¿cuántos milisegundos se tarda en servir cada petición?
+* Condiciones de operación: ¿cuántos servidores (y de qué tipo) se necesitan como mínimo?
+¿Hasta cuántos escala?
+
+Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”:
+un mismo programa que escalara de casi cero (dispositivos muy limitados en recursos, como móviles)
+a infinito (un cluster con tantos nodos como queramos).
+Con la llegada de las bases de datos NoSQL asistimos a una explosión evolutiva
+de bases de datos muy diferentes:
+en memoria o en cluster; clave-valor o con estructuras complejas;
+que admiten SQL y que no; etcétera.
+Cada tipo es adecuado para unas condiciones operativas diferentes,
+y tienen costes asociados muy distintos.
+
 #### Costes bajos
 
 Por último, pero no menos importante, tenemos los costes de operación del sistema.
@@ -201,10 +223,9 @@ si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.
 > Es esencial poder usar un número variable de servidores,
 > y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.
 
-#### Velocidad de migración
+#### Velocidad del cambio
 
-La velocidad a la que somos capaces de migrar de una arquitectura a otra
-es crítica.
+La velocidad a la que somos capaces de realizar cambios en nuestros sistemas es crítica.
 Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones
 o de mantener los costes controlados;
 demasiado rápido, y nuestro sistema estará caído todo el tiempo.
@@ -213,35 +234,9 @@ Si tu proveedor de servidores en la nube sube los precios un 300% de un día par
 cosa que [ha ocurrido en el pasado](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html),
 ¿cuánto tiempo tarda tu equipo en migrar a un nuevo proveedor?
 
-Y si mañana decides montar un CPD propio y albergar tus propios servicios,
-¿cuánto tardarás en ejecutarlo?
-
-### Migraciones de base de datos
-
-Las migraciones de una base de datos a otra son muy importantes al escalar un sistema.
-
-Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones,
-y que la descartan en otras. Entre ellas:
-
-* Rango operativo: ¿cuántas peticiones por segundo admite?
-* Elementos funcionales: ¿qué tipos de datos permite guardar?
-¿Qué tipo de consultas se pueden hacer?
-* Tiempo de respuesta: ¿cuántos milisegundos se tarda en servir cada petición?
-* Condiciones de operación: ¿cuántos servidores (y de qué tipo) se necesitan como mínimo?
-¿Hasta cuántos escala?
-
-Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”:
-un mismo programa que escalara de casi cero (dispositivos muy limitados en recursos, como móviles)
-a infinito (un cluster con tantos nodos como queramos).
-Con la llegada de las bases de datos NoSQL asistimos a una explosión evolutiva
-de bases de datos muy diferentes:
-en memoria o en cluster; clave-valor o con estructuras complejas;
-que admiten SQL y que no; etcétera.
-Cada tipo es adecuado para unas condiciones operativas diferentes,
-y tienen costes asociados muy distintos.
-
-Además, los cambios de base de datos son ejemplos perfectos del tipo de migraciones que estamos estudiando.
-En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.
+Y si mañana decides montar un CPD propio y albergar tus propios servidores,
+¿cuánto tardarás en replicarlos?
+¿Cómo realizarás el cambio en el momento clave para empezar a dar servicio?
 
 ## La arquitectura fluida
 
@@ -317,10 +312,58 @@ entonces el sistema no es reversible.
 Para realizar un cambio de una arquitectura a otra
 normalmente tenemos que realizar un cambio,
 sea de máquinas, de programas, de código o de datos.
+Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.
 Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias,
 entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro.
-Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida.
-Vamos a ver cada tipo de migración por encima.
+
+#### Migración sin _downtime_
+
+Para que la migración sea fluida es un requisito indispensable que sea suave, es decir:
+que no haya un paso brusco entre un estado y el siguiente.
+Queremos migrar de un estado a otro sin dejar de dar servicio en ningún momento.
+La técnica básica para conseguirlo es la capa de compatibilidad:
+un elemento intermedio que ponemos entre el código viejo y el nuevo
+y que facilita la transición.
+
+Supongamos que vamos a migrar un servicio de una máquina a otra.
+La capa de compatibilidad en este caso será una máquina intermedia (un proxy)
+que dirigirá el tráfico a una u otra según un parámetro de configuración.
+Primero redirigiremos los accesos a esta máquina, que los desviará al antiguo servidor.
+A continuación, cuando estemos preparados redirigiremos el tráfico del proxy
+a la nueva máquina.
+
+La capa de compatibilidad puede ser también un elemento de software,
+por ejemplo un _driver_ capaz de hablar con la base de datos antigua y con la nueva,
+según un parámetro de configuración.
+
+#### Reversibilidad
+
+También tenemos que tener claro cómo revertir la migración:
+poder volver a la situación inicial con el mínimo esfuerzo.
+Idealmente, para revertir todos los cambios sólo tenemos que darle a un botón,
+cambiar una opción de configuración, modificar un único parámetro, en definitiva:
+revertir un bit.
+
+    var MIGRATION = false;
+
+¿Crees que es posible revertir los cambios de forma tan sencilla?
+Hay muchos ejemplos de sistemas que son así de fáciles de revertir:
+el botón de “deshacer” en un programa de edición de textos,
+o los cambios en un repositorio git usando el comando `git revert`.
+Nuestro reto es hacer que un sistema complejo compuesto de varias piezas
+vuelva a su estado inicial con la misma facilidad.
+
+Por otra parte, queremos (dentro de lo posible) no tener que usar este botón de deshacer,
+a no ser que la migración sea un fracaso absoluto.
+Normalmente ante pequeños problemas es más rentable arreglarlos y seguir adelante
+que volver atrás.
+Pero tener ese mecanismo de seguridad es tan importante
+como para un trapecista tener una red debajo,
+aunque por supuesto no planee usarla cuando sale a la pista.
+
+#### Tipos de migración
+
+Vamos a ver los tipos principales de migración por encima.
 
 *Máquinas*: Normalmente cambiar de máquinas no se considera un asunto de arquitectura.
 Pero si miramos más allá del hierro,
@@ -348,9 +391,30 @@ por ejemplo cuando hay un cambio de esquema en la base de datos.
 *Datos*: Las migraciones de datos son el ejemplo más claro de cambio que debe manejarse con delicadeza.
 En este caso hay que mover o redistribuir información,
 que suele ser lo más delicado en una migración.
-Como vemos, las migraciones de datos son además el final de la cadena:
+
+#### Migraciones de base de datos
+
+Como hemos visto, las migraciones de datos son el final de la cadena:
 cada tipo de migración arriba puede llevar aparejada una migración de datos,
 pero no viceversa.
+Ahora vamos a estudiarlas más en detalle.
+
+Hay un par de peculiaridades en los cambios de bases de datos que las hace interesantes.
+En primer lugar, es bastante sencillo construir una capa de compatibilidad
+que traduzca las operaciones entre dos bases de datos,
+incluso aunque tengan modelos internos muy diferentes.
+Por ejemplo, para hacer que una base de datos tradicional como PostgreSQL
+se comporte como un almacenamiento clave-valor
+sólo tenemos que crear una tabla única con un campo clave
+y otro campo valor de tipo texto.
+
+Otra peculiaridad es que en estas migraciones es importante migrar por separado el acceso y los datos.
+Normalmente queremos migrar primero los datos,
+y luego cambiar el acceso;
+todo ello por supuesto sin _downtime_.
+
+Los cambios de base de datos son ejemplos muy completos del tipo de migraciones que estamos estudiando.
+En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.
 
 ### Estrategias de migración
 
