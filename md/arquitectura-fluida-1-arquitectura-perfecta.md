@@ -6,8 +6,6 @@ footer: Publicado originalmente en TodoJS el 2015-.
 
 ![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida.jpg "Deep Blue Dolphin Love")
 
-# Tras la arquitectura perfecta
-
 En muchas empresas hay departamentos de arquitectura cuya misión es decidir
 cómo se va a organizar cada proyecto de software.
 Deciden el diseño a alto nivel, en cuántas capas se dividirá,
@@ -24,7 +22,7 @@ Lo mismo ocurre con los programas de software:
 cada uno tiene unas restricciones operacionales diferentes,
 y se comporta mejor en ciertas circunstancias.
 
-## Qué es la arquitectura
+# Qué es la arquitectura
 
 Puede que nos ayude a centrar la discusión si definimos qué es este negocio de
 “arquitectura” en software.
@@ -46,7 +44,7 @@ o la creación de entornos de integración,
 ya que suelen caer del lado del departamento de producción.
 Así que por ahora nos limitaremos a considerar la organización en máquinas y qué software usar.
 
-### Modas en arquitectura
+## Modas en arquitectura
 
 En los años 80 la moda empresarial era tener una
 [minicomputadora](http://www.computerhistory.org/revolution/minicomputers/11/366/1946)
@@ -85,12 +83,12 @@ sobre todo en empresas grandes.
 Lo cierto es que cuantos más elementos seamos capaces de utilizar,
 más flechas tendremos en nuestro carcaj para cuando las necesitemos.
 
-## Requisitos cambiantes
+# Requisitos cambiantes
 
 Un sistema de software tiene que poder evolucionar durante su vida útil.
 Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.
 
-### Requisitos funcionales
+## Requisitos funcionales
 
 Empecemos con una anécdota, en este caso con trasfondo militar.
 El avión bombardero
@@ -127,13 +125,13 @@ Nuestra misión es mantener el software flexible para que podamos seguir añadie
 Eso lleva algún esfuerzo extra, sin duda,
 pero la recompensa es grande cuando el proyecto es realmente exitoso.
 
-### Requisitos operacionales
+## Requisitos operacionales
 
 Las circunstancias en las que nuestro sistema tiene que trabajar cambian,
 para bien o para mal.
 A menudo necesitamos ampliar el rango operativo del sistema sin añadir funcionalidades nuevas.
 
-#### Planificación de capacidad
+### Planificación de capacidad
 
 Un caso importante es la planificación de la capacidad necesaria para dar servicio,
 lo que se conoce en inglés como _capacity planning_.
@@ -179,7 +177,7 @@ y no adelantar demasiado los acontecimientos.
 > a final de año habríamos andado por 600 krps;
 > la cifra real anda cerca de las 200 krps.
 
-#### Bases de datos
+### Bases de datos
 
 Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones,
 y que la descartan en otras. Entre ellas:
@@ -201,7 +199,7 @@ que admiten SQL y que no; etcétera.
 Cada tipo es adecuado para unas condiciones operativas diferentes,
 y tienen costes asociados muy distintos.
 
-#### Costes bajos
+### Costes bajos
 
 Por último, pero no menos importante, tenemos los costes de operación del sistema.
 Alquilar servidores en la nube no sale barato;
@@ -223,7 +221,7 @@ si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.
 > Es esencial poder usar un número variable de servidores,
 > y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.
 
-#### Velocidad del cambio
+### Velocidad del cambio
 
 La velocidad a la que somos capaces de realizar cambios en nuestros sistemas es crítica.
 Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones
@@ -238,7 +236,7 @@ Y si mañana decides montar un CPD propio y albergar tus propios servidores,
 ¿cuánto tardarás en replicarlos?
 ¿Cómo realizarás el cambio en el momento clave para empezar a dar servicio?
 
-## La arquitectura fluida
+# La arquitectura fluida
 
 ¿Cuál es la solución para acomodar tanto cambio?
 Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida,
@@ -268,7 +266,7 @@ que dificultan migrar bases de datos u otros componentes similares.
 
 Vamos a centrarnos en las restricciones que nos dificultan una migración.
 
-### Reversibilidad y termodinámica
+## Reversibilidad y termodinámica
 
 En este punto vamos a tomar un desvío que nos llevará de viaje
 a la intemporal tierra de la termodinámica.
@@ -307,7 +305,7 @@ sin consumir energía extra.
 Al mismo tiempo, si revertir el funcionamiento del sistema requiere energía extra,
 entonces el sistema no es reversible.
 
-### Migraciones
+## Migraciones
 
 Para realizar un cambio de una arquitectura a otra
 normalmente tenemos que realizar un cambio,
@@ -316,7 +314,7 @@ Las migraciones son claramente cruciales para nuestro objetivo de tener una arqu
 Si las migraciones son fluidas, es decir que pasan de un estado a otro suavemente y sin turbulencias,
 entonces podremos considerar que tenemos una arquitectura que fluye entre un estado y otro.
 
-#### Migración sin _downtime_
+### Migración sin _downtime_
 
 Para que la migración sea fluida es un requisito indispensable que sea suave, es decir:
 que no haya un paso brusco entre un estado y el siguiente.
@@ -336,7 +334,7 @@ La capa de compatibilidad puede ser también un elemento de software,
 por ejemplo un _driver_ capaz de hablar con la base de datos antigua y con la nueva,
 según un parámetro de configuración.
 
-#### Reversibilidad
+### Reversibilidad
 
 También tenemos que tener claro cómo revertir la migración:
 poder volver a la situación inicial con el mínimo esfuerzo.
@@ -361,7 +359,7 @@ Pero tener ese mecanismo de seguridad es tan importante
 como para un trapecista tener una red debajo,
 aunque por supuesto no planee usarla cuando sale a la pista.
 
-#### Tipos de migración
+### Tipos de migración
 
 Vamos a ver los tipos principales de migración por encima.
 
@@ -392,12 +390,13 @@ por ejemplo cuando hay un cambio de esquema en la base de datos.
 En este caso hay que mover o redistribuir información,
 que suele ser lo más delicado en una migración.
 
-#### Migraciones de base de datos
+### Migraciones de base de datos
 
 Como hemos visto, las migraciones de datos son el final de la cadena:
-cada tipo de migración arriba puede llevar aparejada una migración de datos,
+cada tipo de migración de arriba puede llevar aparejada una migración de datos,
 pero no viceversa.
-Ahora vamos a estudiarlas más en detalle.
+Además son delicadas porque podemos perder en un momento información muy valiosa.
+Vamos a estudiarlas un poco más en detalle.
 
 Hay un par de peculiaridades en los cambios de bases de datos que las hace interesantes.
 En primer lugar, es bastante sencillo construir una capa de compatibilidad
@@ -416,7 +415,7 @@ todo ello por supuesto sin _downtime_.
 Los cambios de base de datos son ejemplos muy completos del tipo de migraciones que estamos estudiando.
 En la sección de estrategias vamos a abusar de ellos para ilustrar cada técnica de migración.
 
-### Estrategias de migración
+## Estrategias de migración
 
 En la [siguiente parte](arquitectura-fluida-2-estrategias-migracion.html)
 veremos varias estrategias que se pueden usar
