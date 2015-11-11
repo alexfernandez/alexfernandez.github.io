@@ -4,7 +4,7 @@ subtitle: 'La arquitectura fluida, parte 2'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Imagen: [John Soane, 1814](https://en.wikipedia.org/wiki/File:Il_ponte_di_Cesare_sul_Reno.jpg)](pics/arquitectura-fluida-2.jpg "Il ponte di Cesare sul Reno")
+![Imagen: [DGlodowska](https://pixabay.com/es/ajedrez-tablero-de-ajedrez-juego-424549/)](pics/arquitectura-fluida-2.jpg "Tablero de ajedrez")
 
 En la [parte anterior](arquitectura-fluida-1-arquitectura-perfecta.html)
 vimos cómo la arquitectura perfecta no existe;
