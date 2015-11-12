@@ -4,7 +4,7 @@ subtitle: 'La arquitectura fluida, parte 2'
 footer: Publicado originalmente en TodoJS el 2015-.
 ---
 
-![Imagen: [DGlodowska](https://pixabay.com/es/ajedrez-tablero-de-ajedrez-juego-424549/)](pics/arquitectura-fluida-2.jpg "Tablero de ajedrez")
+![Imagen: [John Soane](http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html)](pics/arquitectura-fluida-2.jpg "El puente del César sobre el Rhin")
 
 En la [parte anterior](arquitectura-fluida-1-arquitectura-perfecta.html)
 vimos cómo la arquitectura perfecta no existe;
