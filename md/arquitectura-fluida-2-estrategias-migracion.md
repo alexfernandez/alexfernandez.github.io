@@ -40,16 +40,15 @@ muy apropiado para migraciones reversibles.
 
 Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
 la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
-Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente.a
+Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.
 
-En nuestro caso, ante una migración podemos usar varias de las técnicas que vamos a describir,
+No es así en nuestro caso.
+Ante una migración podemos usar varias de las técnicas que vamos a describir,
 a nuestra elección.
-
-Los elementos de juicio que usaremos para decidirnos por una o por otra
-son precisamente lo fluida que queramos que sea la migración,
+Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración,
 no la funcionalidad que queremos conseguir (que es siempre la misma).
-De ahí que prefiramos en nuestro caso el término “estrategia”,
-además de no estar viciado por el uso previo.
+De ahí que prefiramos el término “estrategia”,
+que además no está tan viciado por el uso previo.
 
 # Catálogo de estrategias de servidor
 
@@ -66,6 +65,10 @@ en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.
 * se copia la base de datos antigua a la nueva (copia en frío),
 * se reconfiguran los clientes para que apunten a la nueva,
 * y se vuelve a arrancar el sistema.
+
+Simple, ¿no?
+
+### No reversible
 
 Esta estrategia requiere dejar de dar servicio,
 con lo que no es apropiada para situaciones de alta disponibilidad.
@@ -95,7 +98,7 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
         ...
     });
 
-> #### Caso práctico
+> #### Caso práctico: MediaSmart Mobile
 > 
 > El primer caso práctico que vamos a ver no es precisamente una migración de base de datos.
 > En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS),
@@ -150,7 +153,7 @@ Los pasos son:
 * cambiar a la nueva base de datos,
 * y volver al modo de lectura/escritura.
 
-Mientras el sistema está en sólo lectura,
+Mientras el sistema está en sólo lectura
 se puede acceder a los datos pero no modificarlos.
 De esta forma nos aseguramos de que se pueda hacer la copia en caliente:
 como los datos no cambian,
@@ -164,12 +167,19 @@ así que dejarlos en sólo lectura no es posible.
 Otro problema es que una copia en caliente puede tardar bastante más que en frío,
 debido a los accesos constantes.
 
+### No reversible
+
 La migración inversa es fácil:
 volver a sólo lectura, copiar y migrar en sentido contrario.
 Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible,
 ya que requiere trabajo extra revertirlas.
 
-> #### Caso práctico
+> #### Caso práctico: WordPress
+> 
+> Esta técnica es muy básica:
+> se aplica por ejemplo a las
+> [migraciones de WordPress](http://www.wpbeginner.com/plugins/how-to-put-your-wordpress-site-in-read-only-state-for-site-migrations-and-maintenance/),
+> para no tener que preocuparse de cambios mientras se migra.
 
 ## Sincronización
 
@@ -189,6 +199,8 @@ a veces la carga en el sistema antiguo es demasiado grande,
 o puede que no haya forma de fechar los cambios para extraer sólo los últimos,
 lo que haría la sincronización total demasiado costosa.
 
+### Reversible: sí
+
 En el lado positivo, los usuarios no notarán ningún _downtime_ al acceder al sistema.
 
 Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos
@@ -197,20 +209,86 @@ mientras no desconectemos el mecanismo de sincronización.
 Si ya no estamos sincronizando los cambios,
 la migración inversa requiere sincronizar los datos en el sentido contrario.
 La sincronización bidireccional a menudo es demasiado costosa como para ser práctica.
-Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros
+Así que hay que tener cuidado de seguir sincronizando hasta que estemos seguros
 de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
 
-> #### Caso práctico
-
-MediaSmart daystats
+> #### Caso práctico: MediaSmart Mobile
+> 
+> En MediaSmart Mobile almacenamos datos de estadísticas del día,
+> conocidos internamente como _daystats_,
+> para su consulta posterior por usuarios y clientes.
+> Guardarlos todos en Redis nos estaba causando costes ingentes,
+> así que decidimos migrarlos a Redshift para su consulta offline.
+> 
+> Esta base de datos para _data warehousing_ tiene muchas cosas buenas,
+> pero no permite carga en tiempo real.
+> El proceso de carga en Redshift suele ejecutarse cada día o cada hora;
+> en nuestro caso decidimos exportar días completos,
+> por lo que los últimos datos tienen que consultarse siempre en Redis.
+> El desarrollo no fue trivial:
+> según las fechas pedidas hay que acceder a Redis para los datos de los últimos días,
+> acceder a Redshift (que tiene un modelo de datos completamente distinto basado en SQL) para el resto,
+> acumular ambos juegos de valores y presentarlos al usuario.
+> 
+> La parte positiva es que la migración fue completamente suave.
+> En este caso, la sincronización se mantiene siempre
+> (disfrazada de carga de datos),
+> por lo que para dejar de usar la nueva base de datos en Redshift
+> sólo tenemos que cambiar un parámetro de configuración.
+> Así que cuando se reportaron bugs fue trivial comparar volver a la versión anterior
+> mientras se investigaba por qué no funcionaban bien los acumulados.
 
 ## Copia doble
 
 ![Double copy](pics/double-copy.png)
 
-> #### Caso práctico
+En este caso queremos 
 
-MediaSmart perfiles
+Los pasos a seguir son los siguientes:
+
+* realizar una copia en caliente mientras se accede al sistema antiguo,
+* empezar a leer y escribir en el sistema nuevo,
+* y realizar una segunda copia en caliente de estos datos.
+
+Es importante señalar que con esta estrategia estamos durante un tiempo accediendo
+a una versión antigua de los datos:
+cuando empezamos a usar el sistema nuevo todavía no se han copiado todos los datos
+que han llegado mientras se hacía la primera copia.
+
+Además, la segunda copia requiere de algoritmos algo más sofisticados que la primera:
+si un mismo registro ha sido modificado durante la primera copia en el sistema antiguo,
+y luego durante la segunda copia en el sistema nuevo,
+hay que saber mezclar los datos.
+Para hacerlo con garantías tenemos que trabajar siempre con modificaciones atómicas,
+lo que puede resultar bastante incómodo y llevar a conflictos.
+En esencia es como una mezcla (_merge_) de código de dos ramas:
+¿cómo resolvemos los conflictos sin intervención humana?
+
+Otra opción es ignorar una de las dos actualizaciones y quedarse,
+digamos, con la última edición de los datos.
+O directamente sobrescribir con la versión que estamos copiando.
+
+Esta estrategia no es siempre factible:
+no siempre tenemos el lujo de poder prescindir de los últimos datos,
+aunque sea durante un tiempo;
+ni de poder ignorar las actualizaciones que lleguen en un momento poco oportuno.
+Lógicamente no es buena estrategia para datos financieros, por ejemplo.
+
+### Reversible: realmente no
+
+En principio este tipo de migración no tiene _downtime_ asociado,
+lo que podría hacernos pensar que es reversible.
+Pero la migración inversa requiere de esfuerzo extra:
+es necesario hacer una copia en sentido inverso para recuperar los últimos cambios.
+O eso, o perder todos los datos que han llegado al sistema nuevo.
+
+En general, la ausencia de _downtime_ es condición necesaria,
+pero no suficiente, para la reversibilidad.
+El único criterio realmente fiable es estudiar la migración inversa.
+
+> #### Caso práctico: MediaSmart Mobile
+> 
+> En nuestra empresa perfiles
 
 # Catálogo de estrategias en cliente
 
@@ -242,9 +320,15 @@ MediaSmart perfiles
 
 ![In-place conversion](pics/in-place.png)
 
-En esta conversión, no hay 
+En esta conversión, no hay sistema antiguo y nuevo:
+sólo hay un sistema.
+Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.
 
 > #### Caso práctico
+
+Cualquier despliegue de código en caliente
+es una conversión _in situ_,
+sobre todo si lleva aparejado un cambio de esquemas en la base de datos.
 
 # Catálogo de estrategias en broker
 

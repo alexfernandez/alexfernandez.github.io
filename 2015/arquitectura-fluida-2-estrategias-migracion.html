@@ -67,9 +67,8 @@
 <p>La lista no es exhaustiva: seguramente el lector pueda imaginar algunas estrategias adicionales y perfectamente útiles. Puedes compartirlas al final del artículo.</p>
 <p>Ilustraremos las estrategias relevantes con ejemplos de código de Node.js, muy apropiado para migraciones reversibles.</p>
 <h2 id="quieres-decir-patrones">¿Quieres decir “patrones”?</h2>
-<p>Tras el gran éxito del libro de Gamma <em>et al</em>, <em>Design Patterns</em>, la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas. Los patrones vienen a ser piezas que se deben usar cada una en su situación correspondiente.a</p>
-<p>En nuestro caso, ante una migración podemos usar varias de las técnicas que vamos a describir, a nuestra elección.</p>
-<p>Los elementos de juicio que usaremos para decidirnos por una o por otra son precisamente lo fluida que queramos que sea la migración, no la funcionalidad que queremos conseguir (que es siempre la misma). De ahí que prefiramos en nuestro caso el término “estrategia”, además de no estar viciado por el uso previo.</p>
+<p>Tras el gran éxito del libro de Gamma <em>et al</em>, <em>Design Patterns</em>, la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas. Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.</p>
+<p>No es así en nuestro caso. Ante una migración podemos usar varias de las técnicas que vamos a describir, a nuestra elección. Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración, no la funcionalidad que queremos conseguir (que es siempre la misma). De ahí que prefiramos el término “estrategia”, que además no está tan viciado por el uso previo.</p>
 <h1 id="catálogo-de-estrategias-de-servidor">Catálogo de estrategias de servidor</h1>
 <p>En esta primera categoría tenemos estrategias que se implementan puramente en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.</p>
 <h2 id="parar-y-arrancar">Parar y arrancar</h2>
@@ -83,6 +82,8 @@
 <li>se reconfiguran los clientes para que apunten a la nueva,</li>
 <li>y se vuelve a arrancar el sistema.</li>
 </ul>
+<p>Simple, ¿no?</p>
+<h3 id="no-reversible">No reversible</h3>
 <p>Esta estrategia requiere dejar de dar servicio, con lo que no es apropiada para situaciones de alta disponibilidad. Claramente no es realmente reversible, y además es un poco chapucera.</p>
 <h3 id="código-de-ejemplo">Código de ejemplo</h3>
 <p>El código de servidor es muy sencillo. Primero tenemos un fichero <code>settings.js</code> que almacena la configuración:</p>
@@ -100,7 +101,7 @@ db.current.get(key, function(error, result) {
     ...
 });</code></pre>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: MediaSmart Mobile</h4>
 <p>El primer caso práctico que vamos a ver no es precisamente una migración de base de datos. En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS), de una conexión no segura a la VPC (<em>Virtual Private Cloud</em>).</p>
 <p>El 3 de marzo de 2015 realizamos la migración: primero creamos una réplica de todos los servidores en la VPC. A continuación paramos los servidores originales, y copiamos los datos a la VPC. Luego arrancamos los nuevos sevidores, y apuntamos el servidor DNS hacia ellos. Tras algunas horas de <em>downtime</em> estábamos arriba otra vez.</p>
 <p>El día 5 de marzo nos reportaron problemas en producción, por lo que tuvimos que deshacer la migración. Por fortuna habíamos mantenido las instancias antiguas, así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez. Por ironías de la vida, el problema no se resolvió con esta migración inversa, por lo que dedujimos que tenía otra causa. Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración), el problema real se hizo evidente de inmediato y no tenía nada que ver, sino que venía causado por un despliegue anterior.</p>
@@ -119,12 +120,14 @@ db.current.get(key, function(error, result) {
 <li>cambiar a la nueva base de datos,</li>
 <li>y volver al modo de lectura/escritura.</li>
 </ul>
-<p>Mientras el sistema está en sólo lectura, se puede acceder a los datos pero no modificarlos. De esta forma nos aseguramos de que se pueda hacer la copia en caliente: como los datos no cambian, o tenemos que preocuparnos de que se la copia esté desfasada al terminar.</p>
+<p>Mientras el sistema está en sólo lectura se puede acceder a los datos pero no modificarlos. De esta forma nos aseguramos de que se pueda hacer la copia en caliente: como los datos no cambian, o tenemos que preocuparnos de que se la copia esté desfasada al terminar.</p>
 <p>Esto suele ser bastante mejor que una parada completa. Pero no siempre es admisible: ciertos sistemas tienen que estar recogiendo datos nuevos constantemente, así que dejarlos en sólo lectura no es posible.</p>
 <p>Otro problema es que una copia en caliente puede tardar bastante más que en frío, debido a los accesos constantes.</p>
+<h3 id="no-reversible-1">No reversible</h3>
 <p>La migración inversa es fácil: volver a sólo lectura, copiar y migrar en sentido contrario. Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible, ya que requiere trabajo extra revertirlas.</p>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: WordPress</h4>
+<p>Esta técnica es muy básica: se aplica por ejemplo a las <a href="http://www.wpbeginner.com/plugins/how-to-put-your-wordpress-site-in-read-only-state-for-site-migrations-and-maintenance/">migraciones de WordPress</a>, para no tener que preocuparse de cambios mientras se migra.</p>
 </blockquote>
 <h2 id="sincronización">Sincronización</h2>
 <div class="figure">
@@ -137,20 +140,37 @@ db.current.get(key, function(error, result) {
 <li>y finalmente cambiar los accesos a la nueva.</li>
 </ul>
 <p>La sincronización se hace en este caso mediante un mecanismo de servidor, que recoge todas las escrituras y pasarlas a otro sistema. No siempre es posible hacerlo: a veces la carga en el sistema antiguo es demasiado grande, o puede que no haya forma de fechar los cambios para extraer sólo los últimos, lo que haría la sincronización total demasiado costosa.</p>
+<h3 id="reversible-sí">Reversible: sí</h3>
 <p>En el lado positivo, los usuarios no notarán ningún <em>downtime</em> al acceder al sistema.</p>
-<p>Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos a la base de datos antigua, mientras no desconectemos el mecanismo de sincronización. Si ya no estamos sincronizando los cambios, la migración inversa requiere sincronizar los datos en el sentido contrario. La sincronización bidireccional a menudo es demasiado costosa como para ser práctica. Por tanto, hay que tener cuidado de seguir sincronizando hasta que estemos seguros de que la migración ha sido exitosa y no vamos a querer revertirla nunca.</p>
+<p>Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos a la base de datos antigua, mientras no desconectemos el mecanismo de sincronización. Si ya no estamos sincronizando los cambios, la migración inversa requiere sincronizar los datos en el sentido contrario. La sincronización bidireccional a menudo es demasiado costosa como para ser práctica. Así que hay que tener cuidado de seguir sincronizando hasta que estemos seguros de que la migración ha sido exitosa y no vamos a querer revertirla nunca.</p>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: MediaSmart Mobile</h4>
+<p>En MediaSmart Mobile almacenamos datos de estadísticas del día, conocidos internamente como <em>daystats</em>, para su consulta posterior por usuarios y clientes. Guardarlos todos en Redis nos estaba causando costes ingentes, así que decidimos migrarlos a Redshift para su consulta offline.</p>
+<p>Esta base de datos para <em>data warehousing</em> tiene muchas cosas buenas, pero no permite carga en tiempo real. El proceso de carga en Redshift suele ejecutarse cada día o cada hora; en nuestro caso decidimos exportar días completos, por lo que los últimos datos tienen que consultarse siempre en Redis. El desarrollo no fue trivial: según las fechas pedidas hay que acceder a Redis para los datos de los últimos días, acceder a Redshift (que tiene un modelo de datos completamente distinto basado en SQL) para el resto, acumular ambos juegos de valores y presentarlos al usuario.</p>
+<p>La parte positiva es que la migración fue completamente suave. En este caso, la sincronización se mantiene siempre (disfrazada de carga de datos), por lo que para dejar de usar la nueva base de datos en Redshift sólo tenemos que cambiar un parámetro de configuración. Así que cuando se reportaron bugs fue trivial comparar volver a la versión anterior mientras se investigaba por qué no funcionaban bien los acumulados.</p>
 </blockquote>
-<p>MediaSmart daystats</p>
 <h2 id="copia-doble">Copia doble</h2>
 <div class="figure">
 <img src="pics/double-copy.png" alt="Double copy" /><p class="caption">Double copy</p>
 </div>
+<p>En este caso queremos</p>
+<p>Los pasos a seguir son los siguientes:</p>
+<ul>
+<li>realizar una copia en caliente mientras se accede al sistema antiguo,</li>
+<li>empezar a leer y escribir en el sistema nuevo,</li>
+<li>y realizar una segunda copia en caliente de estos datos.</li>
+</ul>
+<p>Es importante señalar que con esta estrategia estamos durante un tiempo accediendo a una versión antigua de los datos: cuando empezamos a usar el sistema nuevo todavía no se han copiado todos los datos que han llegado mientras se hacía la primera copia.</p>
+<p>Además, la segunda copia requiere de algoritmos algo más sofisticados que la primera: si un mismo registro ha sido modificado durante la primera copia en el sistema antiguo, y luego durante la segunda copia en el sistema nuevo, hay que saber mezclar los datos. Para hacerlo con garantías tenemos que trabajar siempre con modificaciones atómicas, lo que puede resultar bastante incómodo y llevar a conflictos. En esencia es como una mezcla (<em>merge</em>) de código de dos ramas: ¿cómo resolvemos los conflictos sin intervención humana?</p>
+<p>Otra opción es ignorar una de las dos actualizaciones y quedarse, digamos, con la última edición de los datos. O directamente sobrescribir con la versión que estamos copiando.</p>
+<p>Esta estrategia no es siempre factible: no siempre tenemos el lujo de poder prescindir de los últimos datos, aunque sea durante un tiempo; ni de poder ignorar las actualizaciones que lleguen en un momento poco oportuno. Lógicamente no es buena estrategia para datos financieros, por ejemplo.</p>
+<h3 id="reversible-realmente-no">Reversible: realmente no</h3>
+<p>En principio este tipo de migración no tiene <em>downtime</em> asociado, lo que podría hacernos pensar que es reversible. Pero la migración inversa requiere de esfuerzo extra: es necesario hacer una copia en sentido inverso para recuperar los últimos cambios. O eso, o perder todos los datos que han llegado al sistema nuevo.</p>
+<p>En general, la ausencia de <em>downtime</em> es condición necesaria, pero no suficiente, para la reversibilidad. El único criterio realmente fiable es estudiar la migración inversa.</p>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: MediaSmart Mobile</h4>
+<p>En nuestra empresa perfiles</p>
 </blockquote>
-<p>MediaSmart perfiles</p>
 <h1 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h1>
 <h2 id="decorador">Decorador</h2>
 <blockquote>
@@ -182,10 +202,11 @@ db.current.get(key, function(error, result) {
 <div class="figure">
 <img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
 </div>
-<p>En esta conversión, no hay</p>
+<p>En esta conversión, no hay sistema antiguo y nuevo: sólo hay un sistema. Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.</p>
 <blockquote>
 <h4>Caso práctico</h4>
 </blockquote>
+<p>Cualquier despliegue de código en caliente es una conversión <em>in situ</em>, sobre todo si lleva aparejado un cambio de esquemas en la base de datos.</p>
 <h1 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h1>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
 <div class="figure">
