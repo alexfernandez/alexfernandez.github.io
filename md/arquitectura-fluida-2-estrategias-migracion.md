@@ -294,8 +294,7 @@ El único criterio realmente fiable es estudiar la migración inversa.
 > con información sobre qué categorías de contenido han visitado.
 > Los perfiles nos ayudan a centrar el targeting y conseguir mejores respuestas.
 > 
-> Tenemos actualmente más de mil millones de perfiles,
-> Toda esta información estaba guardada en Redis,
+> Cuando teníamos unos 500 millones de perfiles toda la información estaba guardada en Redis,
 > que necesita tener todos los datos en memoria.
 > Así que en cierto momento decidimos moverlo todo a DynamoDB,
 > que también responde muy rápido y tiene capacidad ilimitada.
@@ -319,6 +318,7 @@ El único criterio realmente fiable es estudiar la migración inversa.
 > La vuelta atrás trivial habría conllevado usar la base de datos antigua,
 > lo que podría haber supuesto perder información de días o semanas;
 > por suerte no tuvimos que usarla.
+> A día de hoy tenemos más de mil millones de perfiles, y creciendo.
 
 # Catálogo de estrategias en cliente
 
