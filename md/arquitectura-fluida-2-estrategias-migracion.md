@@ -15,6 +15,8 @@ Llegamos ahora a al catálogo de estrategias.
 Vamos a describir varias técnicas que se pueden usar para realizar una migración,
 de las más bruscas a las que son completamente reversibles.
 
+## Probadas en combate
+
 Todas las estrategias que vamos a describir están probadas en combate.
 Intentaremos ilustrar cada estrategia con un caso práctico,
 aunque curiosamente no es fácil encontrar publicaciones sobre migraciones.
@@ -288,9 +290,40 @@ El único criterio realmente fiable es estudiar la migración inversa.
 
 > #### Caso práctico: MediaSmart Mobile
 > 
-> En nuestra empresa perfiles
+> En nuestra empresa guardamos perfiles anonimizados de usuarios,
+> con información sobre qué categorías de contenido han visitado.
+> Los perfiles nos ayudan a centrar el targeting y conseguir mejores respuestas.
+> 
+> Tenemos actualmente más de mil millones de perfiles,
+> Toda esta información estaba guardada en Redis,
+> que necesita tener todos los datos en memoria.
+> Así que en cierto momento decidimos moverlo todo a DynamoDB,
+> que también responde muy rápido y tiene capacidad ilimitada.
+> Cuando llegó el momento de la migración nos dimos cuenta
+> de que copiar los perfiles llevaba más de un día.
+> Pero contábamos con la ventaja de que en realidad no pasa nada si se pierden unos cuantos perfiles…
+> o unos cuantos millones.
+> Tampoco pasa nada si un perfil no se actualiza.
+> 
+> Así que nos decidimos por una copia doble.
+> Primero copiamos los perfiles a DynamoDB,
+> y empezamos a usar esta nueva base de datos desde un solo servidor de prueba.
+> Cuando estábamos contentos con el resultado cambiamos el resto de servidores.
+> En este punto volvimos a hacer una copia de los perfiles
+> para recoger los cambios que habían entrado durante las pruebas.
+> Cuando había dos versiones del mismo perfil,
+> podíamos elegir si quedarnos con la de Redis o la de DynamoDB;
+> realmente sólo perderíamos una pequeña cantidad de información.
+> 
+> La migración fue realmente suave.
+> La vuelta atrás trivial habría conllevado usar la base de datos antigua,
+> lo que podría haber supuesto perder información de días o semanas;
+> por suerte no tuvimos que usarla.
 
 # Catálogo de estrategias en cliente
+
+Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada;
+basta con modificar el cliente que accede a los datos.
 
 ## Decorador
 

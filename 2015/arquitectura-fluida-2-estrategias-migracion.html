@@ -62,6 +62,7 @@
 </div>
 <p>En la <a href="arquitectura-fluida-1-arquitectura-perfecta.html">parte anterior</a> vimos cómo la arquitectura perfecta no existe; nuestra única esperanza es poder migrar rápidamente de una a otra para responder a los cambios a los que nos enfrentamos.</p>
 <p>Llegamos ahora a al catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
+<h2 id="probadas-en-combate">Probadas en combate</h2>
 <p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
 <p>Aunque la mayoría de los ejemplos son de migraciones de bases de datos, las estrategias pueden usarse igualmente para cualquier migración, sea de código, de datos o de infraestructura. Las bases de datos son un ejemplo prototípico de arquitectura cliente/servidor, así que nos dan un marco de referencia bastante sólido sobre el que analizar cada estrategia.</p>
 <p>La lista no es exhaustiva: seguramente el lector pueda imaginar algunas estrategias adicionales y perfectamente útiles. Puedes compartirlas al final del artículo.</p>
@@ -169,9 +170,13 @@ db.current.get(key, function(error, result) {
 <p>En general, la ausencia de <em>downtime</em> es condición necesaria, pero no suficiente, para la reversibilidad. El único criterio realmente fiable es estudiar la migración inversa.</p>
 <blockquote>
 <h4>Caso práctico: MediaSmart Mobile</h4>
-<p>En nuestra empresa perfiles</p>
+<p>En nuestra empresa guardamos perfiles anonimizados de usuarios, con información sobre qué categorías de contenido han visitado. Los perfiles nos ayudan a centrar el targeting y conseguir mejores respuestas.</p>
+<p>Tenemos actualmente más de mil millones de perfiles, Toda esta información estaba guardada en Redis, que necesita tener todos los datos en memoria. Así que en cierto momento decidimos moverlo todo a DynamoDB, que también responde muy rápido y tiene capacidad ilimitada. Cuando llegó el momento de la migración nos dimos cuenta de que copiar los perfiles llevaba más de un día. Pero contábamos con la ventaja de que en realidad no pasa nada si se pierden unos cuantos perfiles… o unos cuantos millones. Tampoco pasa nada si un perfil no se actualiza.</p>
+<p>Así que nos decidimos por una copia doble. Primero copiamos los perfiles a DynamoDB, y empezamos a usar esta nueva base de datos desde un solo servidor de prueba. Cuando estábamos contentos con el resultado cambiamos el resto de servidores. En este punto volvimos a hacer una copia de los perfiles para recoger los cambios que habían entrado durante las pruebas. Cuando había dos versiones del mismo perfil, podíamos elegir si quedarnos con la de Redis o la de DynamoDB; realmente sólo perderíamos una pequeña cantidad de información.</p>
+<p>La migración fue realmente suave. La vuelta atrás trivial habría conllevado usar la base de datos antigua, lo que podría haber supuesto perder información de días o semanas; por suerte no tuvimos que usarla.</p>
 </blockquote>
 <h1 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h1>
+<p>Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada; basta con modificar el cliente que accede a los datos.</p>
 <h2 id="decorador">Decorador</h2>
 <blockquote>
 <h4>Caso práctico</h4>
