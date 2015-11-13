@@ -178,10 +178,17 @@ db.current.get(key, function(error, result) {
 <h1 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h1>
 <p>Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada; basta con modificar el cliente que accede a los datos.</p>
 <h2 id="decorador">Decorador</h2>
+<h3 id="código-de-ejemplo-1">Código de ejemplo</h3>
 <blockquote>
 <h4>Caso práctico</h4>
 </blockquote>
 <h2 id="consulta-dual">Consulta dual</h2>
+<p>Esta técnica es muy sencilla: empezamos a escribir en la nueva base de datos, y a la hora de leer leemos de ambas: primero miramos en la nueva, y si no está, tiramos de la antigua.</p>
+<p>Los condicionantes de esta estrategia pueden hacer que no sean válidos en muchas situaciones:</p>
+<ul>
+<li>el tiempo de lectura se duplica.</li>
+<li>si hay dos versiones de un mismo registro, se leerá sólo la nueva.</li>
+</ul>
 <div class="figure">
 <img src="pics/dual-lookup.png" alt="Dual lookup" /><p class="caption">Dual lookup</p>
 </div>

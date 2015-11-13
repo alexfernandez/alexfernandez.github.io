@@ -327,9 +327,23 @@ basta con modificar el cliente que accede a los datos.
 
 ## Decorador
 
+### Código de ejemplo
+
 > #### Caso práctico
 
 ## Consulta dual
+
+Esta técnica es muy sencilla:
+empezamos a escribir en la nueva base de datos,
+y a la hora de leer leemos de ambas:
+primero miramos en la nueva, y si no está,
+tiramos de la antigua.
+
+Los condicionantes de esta estrategia pueden hacer que no sean válidos
+en muchas situaciones:
+
+* el tiempo de lectura se duplica.
+* si hay dos versiones de un mismo registro, se leerá sólo la nueva.
 
 ![Dual lookup](pics/dual-lookup.png)
 
