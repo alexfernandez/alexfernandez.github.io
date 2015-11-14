@@ -443,13 +443,17 @@ y a la hora de leer leemos de ambas:
 primero miramos en la nueva, y si no está,
 tiramos de la antigua.
 
-Los condicionantes de esta estrategia pueden hacer que no sean válidos
-en muchas situaciones:
+La migración de datos en el servidor se puede hacer con una sencilla copia en caliente.
 
-* el tiempo de lectura se duplica.
-* si hay dos versiones de un mismo registro, se leerá sólo la nueva.
+El mayor problema es que el tiempo de lectura se duplica.
 
-### Reversible: sí
+### Reversible: casi
+
+Esta estrategia es reversible por su propio diseño.
+Pero puede haber un problema de pérdida de datos si no tenemos cuidado con la migración inversa:
+si volvemos a la base de datos antigua sin más,
+perderemos todas las actualizaciones desde la migración.
+Una copia inversa en caliente puede aliviar en parte este problema.
 
 ### Código de ejemplo
 
@@ -464,9 +468,9 @@ y el cliente:
 
 ```
 function get(key, callback) {
-    db.v1.get(key, function(error, result) {
+    db.v2.get(key, function(error, result) {
         if (error || result) callback(error, result);
-        db.v2.get(key, callback);
+        db.v1.get(key, callback);
     });
 }
 ```
@@ -533,9 +537,17 @@ sobre todo si lleva aparejado un cambio de esquemas en la base de datos.
 
 # Catálogo de estrategias en broker
 
+A continuación vamos a ver algunas estrategias
+que dependen de una máquina intermedia
+entre el cliente y el servidor.
+Vamos a llamarlo “broker”.
+
 ## Acceso mediante proxy
 
 ![Proxied access](pics/proxied-access.png)
+
+El broker es en este caso un proxy:
+envía las consultas a un servidor.
 
 > #### Caso práctico
 > 
