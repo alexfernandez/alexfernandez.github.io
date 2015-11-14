@@ -70,7 +70,7 @@ en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.
 
 Simple, ¿no?
 
-### No reversible
+### Reversible: no
 
 Esta estrategia requiere dejar de dar servicio,
 con lo que no es apropiada para situaciones de alta disponibilidad.
@@ -169,12 +169,21 @@ así que dejarlos en sólo lectura no es posible.
 Otro problema es que una copia en caliente puede tardar bastante más que en frío,
 debido a los accesos constantes.
 
-### No reversible
+### Reversible: no
 
-La migración inversa es fácil:
-volver a sólo lectura, copiar y migrar en sentido contrario.
-Al mismo tiempo, podemos ver que una migración de este tipo no es realmente reversible,
-ya que requiere trabajo extra revertirlas.
+La migración inversa es fácil, en teoría:
+pasar de nuevo a sólo lectura,
+copiar los datos en sentido contrario
+y volver a usar la base de datos original.
+Sin embargo, la copia inversa requiere trabajo extra,
+incluso si la nueva base de datos es idéntica a la antigua:
+habrá que invertir el script de copia adaptando las direcciones de las máquinas.
+Y no hablemos ya si hay que hacer cualquier tipo de conversión de formato.
+
+Siempre podemos preparar la copia inversa como parte de la preparación para la migración;
+de esta forma estamos preparados para la migración inversa.
+Pero seguimos teniendo _downtime_, aunque sea sólo para las escrituras.
+De ahí que una migración de este tipo no sea realmente reversible.
 
 > #### Caso práctico: WordPress
 > 
@@ -192,7 +201,8 @@ Los pasos para hacer la sincronización son:
 
 * hacer una copia en caliente de la antigua a la nueva,
 * sincronizar todas las escrituras de la antigua a la nueva,
-* y finalmente cambiar los accesos a la nueva.
+* pasar a leer de la nueva (pero seguir escribiendo en la antigua),
+* y finalmente pasar a escribir también a la nueva.
 
 La sincronización se hace en este caso mediante un mecanismo de servidor,
 que recoge todas las escrituras y pasarlas a otro sistema.
@@ -207,9 +217,11 @@ En el lado positivo, los usuarios no notarán ningún _downtime_ al acceder al s
 
 Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos
 a la base de datos antigua,
-mientras no desconectemos el mecanismo de sincronización.
-Si ya no estamos sincronizando los cambios,
-la migración inversa requiere sincronizar los datos en el sentido contrario.
+mientras sigamos escribiendo en ella y no desconectemos el mecanismo de sincronización.
+
+Pero si ya no estamos sincronizando los cambios o hemos pasado a escribir en la nueva,
+la cosa cambia:
+la migración inversa requiere entonces sincronizar los datos en el sentido contrario.
 La sincronización bidireccional a menudo es demasiado costosa como para ser práctica.
 Así que hay que tener cuidado de seguir sincronizando hasta que estemos seguros
 de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
@@ -325,13 +337,105 @@ El único criterio realmente fiable es estudiar la migración inversa.
 Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada;
 basta con modificar el cliente que accede a los datos.
 
-## Decorador
+## Adaptador
+
+Éste es el caso más típico en el cliente,
+y el que nos habilita el resto de estrategias.
 
 ### Código de ejemplo
 
-> #### Caso práctico
+El driver de Memcached es muy sencillo,
+tiene dos funciones básicas:
+
+Para hacer un adaptador para Redis,
+simulamos la interfaz de Memcached:
+
+```
+var redis = require('redis');
+
+exports.RedisAdapter = function(port, host) {
+    // self-reference
+    var self = this;
+        
+    // attributes
+    var client = redis.createClient(port, host);
+
+    self.get = function(key, callback) {
+		client.get(key, function(error, result) {
+            if (error) return callback('Could not get ' + key + ':' + error);
+            return callback(null, JSON.parse(result));
+    });
+
+    self.set = function(key, value, callback) {
+        return client.set(key, JSON.stringify(value), callback);
+    });
+};
+```
+
+Para crear el driver sólo tenemos que fijarnos en si se trata de una dirección que empiece por `redis:`
+o de una dirección tradicional:
+
+```
+var MemcachedAdapter = require('./memcached.js').MemcachedAdapter;
+var RedisAdapter = require('./redis.js').RedisAdapter;
+var settings = require('./settings.js');
+
+var db = {
+    main: getAdapter(settings.MAIN_DB_ADDRESS),
+};
+
+function getAdapter(address) {
+    if (address.indexOf('redis:') === 0) {
+		var redisAddress = address.substringFrom(':');
+		var host = redisAddress.substringUpTo(':');
+		var port = redisAddress.substringFrom(':');
+        return new RedisAdapter(host, port);
+    } else {
+        return new MemcachedAdapter(address);
+    }
+}
+```
+
+Y luego al usar el driver no tenemos que preocuparnos de si estamos hablando con Redis o con Memcached:
+
+```
+db.main.get('hi', function(error, result) {
+	if (error) return console.error('Got error: %s', error);
+	console.log('Got result %j', result);
+};
+```
+
+> #### Caso práctico: MediaSmart Mobile
+> 
+> En MediaSmart empezamos usando Couchbase,
+> una base de datos clave-valor enriquecida con una historia curiosa.
+
+> La base de datos Memcached original se
+> [creó en 2003](https://en.wikipedia.org/wiki/Memcached#History)
+> por Brad Fitzpatrick para LiveJournal.
+> Era básicamente una capa de cacheo:
+> una base de datos clave-valor que guarda todo en memoria.
+> Membase se creó como una base de datos con una interfaz 100% compatible,
+> pero capaz de guardar los datos en disco.
+> Más tarde CouchDB y Membase se unieron para crear Couchbase,
+> pero mantuvieron la interfaz de Membase, compatible a su vez con Memcached.
+> 
+> Durante un tiempo Couchbase aguantó bien,
+> aunque requería demasiado mantenimiento y el rendimiento se fue degradando.
+> Cuando los tiempos de respuesta empezaron a ser alarmantes,
+> nos planteamos pasar a Redis:
+> otra base de datos clave-valor con persistencia a disco.
+> El problema es que el driver era algo diferente:
+> para empezar necesitaba recibir siempre texto
+> en lugar de admitir objetos y convertirlos a JSON él mismo.
+> 
+> Tras crear el adaptador,
+> era cosa sencilla elegir si usábamos Memcached o Redis
+> para cada instancia de base de datos.
 
 ## Consulta dual
+
+![Dual lookup](pics/dual-lookup.png)
 
 Esta técnica es muy sencilla:
 empezamos a escribir en la nueva base de datos,
@@ -345,7 +449,27 @@ en muchas situaciones:
 * el tiempo de lectura se duplica.
 * si hay dos versiones de un mismo registro, se leerá sólo la nueva.
 
-![Dual lookup](pics/dual-lookup.png)
+### Reversible: sí
+
+### Código de ejemplo
+
+```
+exports.db = {
+    v1: new RedisAdapter(settings.oldRedis),
+    v2: new RedisAdapter(settings.newRedis),
+};
+```
+
+y el cliente:
+
+```
+function get(key, callback) {
+    db.v1.get(key, function(error, result) {
+        if (error || result) callback(error, result);
+        db.v2.get(key, callback);
+    });
+}
+```
 
 > #### Caso práctico
 
@@ -353,15 +477,45 @@ en muchas situaciones:
 
 ![Dual write](pics/dual-write.png)
 
+Esta técnica es similar a la anterior,
+pero en lugar de hacer leer de dos sitios, escribimos a dos sitios.
+
 > #### Caso práctico
 
 ## Paso temporizado
 
 ![Timed rollover](pics/timed-rollover.png)
 
+A costa de añadir unos pocos microsegundos (µs) a cada query.
+
+### Código de ejemplo
+
+Un objeto se usa para recubrir dos alternativas,
+y se selecciona la adecuada según la fecha actual.
+
+```
+var Memcached = require('memcached');
+
+exports.CleverAdapter = function(name, address) {
+    // self-reference
+    var self = this;
+    
+    // attributes
+    var oldAdapter = new Memcached(address + ':11211');
+    var newAdapter = new RedisAdapter(address);
+        
+    self.get = function(key, callback) {
+        if (new Date().toISOString() < '2015-11-14') {
+            return oldAdapter.get(key, callback);
+        }
+        return newAdapter.get(key, callback);
+    }
+};
+```
+
 > #### Caso práctico
 > 
-> MediaSmart stats aggregates
+> En MediaSmart daystats aggregates
 
 ## Conversión _in situ_
 
