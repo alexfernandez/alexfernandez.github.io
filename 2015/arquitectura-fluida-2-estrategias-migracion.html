@@ -85,7 +85,9 @@
 </ul>
 <p>Simple, ¿no?</p>
 <h3 id="reversible-no">Reversible: no</h3>
-<p>Esta estrategia requiere dejar de dar servicio, con lo que no es apropiada para situaciones de alta disponibilidad. Claramente no es realmente reversible, y además es un poco chapucera.</p>
+<p>Esta estrategia requiere dejar de dar servicio, con lo que no es apropiada para situaciones de alta disponibilidad.</p>
+<p>La vuelta atrás consiste en volver a parar el sistema, copiar la copia a la inversa, reconfigurar y arrancar.</p>
+<p>Claramente no es realmente reversible, y además es un poco chapucera. ¿Os imagináis la fiabilidad que le da a un usuario encontrarse una web caída?</p>
 <h3 id="código-de-ejemplo">Código de ejemplo</h3>
 <p>El código de servidor es muy sencillo. Primero tenemos un fichero <code>settings.js</code> que almacena la configuración:</p>
 <pre><code>module.exports = {
@@ -140,7 +142,7 @@ db.current.get(key, function(error, result) {
 <li>hacer una copia en caliente de la antigua a la nueva,</li>
 <li>sincronizar todas las escrituras de la antigua a la nueva,</li>
 <li>pasar a leer de la nueva (pero seguir escribiendo en la antigua),</li>
-<li>y finalmente pasar a escribir también a la nueva.</li>
+<li>y finalmente pasar a escribir a la nueva.</li>
 </ul>
 <p>La sincronización se hace en este caso mediante un mecanismo de servidor, que recoge todas las escrituras y pasarlas a otro sistema. No siempre es posible hacerlo: a veces la carga en el sistema antiguo es demasiado grande, o puede que no haya forma de fechar los cambios para extraer sólo los últimos, lo que haría la sincronización total demasiado costosa.</p>
 <h3 id="reversible-sí">Reversible: sí</h3>
@@ -181,7 +183,9 @@ db.current.get(key, function(error, result) {
 <h1 id="catálogo-de-estrategias-en-cliente">Catálogo de estrategias en cliente</h1>
 <p>Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada; basta con modificar el cliente que accede a los datos.</p>
 <h2 id="adaptador">Adaptador</h2>
-<p>Éste es el caso más típico en el cliente, y el que nos habilita el resto de estrategias.</p>
+<p>Esta estrategia de cliente es la que nos permite cambiar rápidamente de una base de datos a otra, cuando son diferentes. Podemos “disfrazar” una base de datos para que aparente ser otra usando el patrón clásico de adaptador, y luego configurar a qué base de datos accedemos.</p>
+<h3 id="reversible-sí-1">Reversible: sí</h3>
+<p>Los cambios en el cliente son instantáneos: sólo tenemos que cambiar un fichero de configuración. Por supuesto, la migración sólo será realmente reversible si la parte de servidor también lo es.</p>
 <h3 id="código-de-ejemplo-1">Código de ejemplo</h3>
 <p>El driver de Memcached es muy sencillo, tiene dos funciones básicas:</p>
 <p>Para hacer un adaptador para Redis, simulamos la interfaz de Memcached:</p>
@@ -244,8 +248,9 @@ function getAdapter(address) {
 <p>Esta técnica es muy sencilla: empezamos a escribir en la nueva base de datos, y a la hora de leer leemos de ambas: primero miramos en la nueva, y si no está, tiramos de la antigua.</p>
 <p>La migración de datos en el servidor se puede hacer con una sencilla copia en caliente.</p>
 <p>El mayor problema es que el tiempo de lectura se duplica.</p>
-<h3 id="reversible-casi">Reversible: casi</h3>
-<p>Esta estrategia es reversible por su propio diseño. Pero puede haber un problema de pérdida de datos si no tenemos cuidado con la migración inversa: si volvemos a la base de datos antigua sin más, perderemos todas las actualizaciones desde la migración. Una copia inversa en caliente puede aliviar en parte este problema.</p>
+<p>También puede ser un problema si las claves se pueden borrar. En este caso es recomendable usar otra estrategia, aunque también se puede usar un valor <code>null</code> que indique que la clave está vacía.</p>
+<h3 id="reversible-sí-2">Reversible: sí</h3>
+<p>Esta estrategia es reversible por su propio diseño. De nuevo, la migración completa será sólo reversible si la parte de servidor también lo es.</p>
 <h3 id="código-de-ejemplo-2">Código de ejemplo</h3>
 <pre><code>exports.db = {
     v1: new RedisAdapter(settings.oldRedis),
@@ -266,8 +271,13 @@ function getAdapter(address) {
 <img src="pics/dual-write.png" alt="Dual write" /><p class="caption">Dual write</p>
 </div>
 <p>Esta técnica es similar a la anterior, pero en lugar de hacer leer de dos sitios, escribimos a dos sitios.</p>
+<p>La escritura dual sirve para mantener dos servidores sincronizados después de haber pasado de usar uno al otro.</p>
+<p>En este caso la latencia añadida puede no ser un problema, siempre que las escrituras se realicen de forma asíncrona tras terminar de procesar las peticiones. En el caso de que requiramos confirmación de escritura en ambas bases de datos la latencia aumentará.</p>
+<h3 id="reversible-sí-3">Reversible: sí</h3>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: ING</h4>
+<p>Por requerimientos del Banco de España, un banco debe almacenar sus datos al menos en dos centros de datos separadas por una distancia suficiente. En el banco ING se mantienen dos centros de datos en dos ciudades distintas: uno primario y otro secundario, ambos con la capacidad suficiente como para dar servicio a todos los clientes. En caso de catástrofe se pasa a usar el secundario.</p>
+<p>Hace unos años se pasó de tener una réplica en caliente a una réplica online: todas las escrituras debían confirmarse en ambos centros antes de darse por finalizadas. De esta forma se tiene la garantía de que los datos son iguales en ambos centros, y se puede pasar de uno a otro a voluntad.</p>
 </blockquote>
 <h2 id="paso-temporizado">Paso temporizado</h2>
 <div class="figure">
@@ -302,10 +312,17 @@ exports.CleverAdapter = function(name, address) {
 <img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
 </div>
 <p>En esta conversión, no hay sistema antiguo y nuevo: sólo hay un sistema. Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.</p>
+<p>La lectura de cualquier valor consta de los siguientes pasos:</p>
+<ul>
+<li>Leer el valor.</li>
+<li>Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo.</li>
+<li>Devolver el valor leído (y posiblemente convertido).</li>
+</ul>
+<h3 id="reversible">Reversible: ?</h3>
 <blockquote>
-<h4>Caso práctico</h4>
+<h4>Caso práctico: MediaSmart Mobile</h4>
 </blockquote>
-<p>Cualquier despliegue de código en caliente es una conversión <em>in situ</em>, sobre todo si lleva aparejado un cambio de esquemas en la base de datos.</p>
+<p>Volvemos a ver los perfiles de MediaSmart Mobile. Conversión de formato comprimiendo keywords.</p>
 <h1 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h1>
 <p>A continuación vamos a ver algunas estrategias que dependen de una máquina intermedia entre el cliente y el servidor. Vamos a llamarlo “broker”.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
@@ -313,6 +330,7 @@ exports.CleverAdapter = function(name, address) {
 <img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
 </div>
 <p>El broker es en este caso un proxy: envía las consultas a un servidor.</p>
+<h3 id="reversible-sí-4">Reversible: sí</h3>
 <blockquote>
 <h4>Caso práctico</h4>
 <p>Instagram</p>

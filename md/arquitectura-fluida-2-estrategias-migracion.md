@@ -74,7 +74,12 @@ Simple, ¿no?
 
 Esta estrategia requiere dejar de dar servicio,
 con lo que no es apropiada para situaciones de alta disponibilidad.
+
+La vuelta atrás consiste en volver a parar el sistema,
+copiar la copia a la inversa, reconfigurar y arrancar.
+
 Claramente no es realmente reversible, y además es un poco chapucera.
+¿Os imagináis la fiabilidad que le da a un usuario encontrarse una web caída?
 
 ### Código de ejemplo
 
@@ -202,7 +207,7 @@ Los pasos para hacer la sincronización son:
 * hacer una copia en caliente de la antigua a la nueva,
 * sincronizar todas las escrituras de la antigua a la nueva,
 * pasar a leer de la nueva (pero seguir escribiendo en la antigua),
-* y finalmente pasar a escribir también a la nueva.
+* y finalmente pasar a escribir a la nueva.
 
 La sincronización se hace en este caso mediante un mecanismo de servidor,
 que recoge todas las escrituras y pasarlas a otro sistema.
@@ -339,8 +344,18 @@ basta con modificar el cliente que accede a los datos.
 
 ## Adaptador
 
-Éste es el caso más típico en el cliente,
-y el que nos habilita el resto de estrategias.
+Esta estrategia de cliente es la que nos permite cambiar rápidamente de una base de datos a otra,
+cuando son diferentes.
+Podemos “disfrazar” una base de datos para que aparente ser otra
+usando el patrón clásico de adaptador,
+y luego configurar a qué base de datos accedemos.
+
+### Reversible: sí
+
+Los cambios en el cliente son instantáneos:
+sólo tenemos que cambiar un fichero de configuración.
+Por supuesto, la migración sólo será realmente reversible
+si la parte de servidor también lo es.
 
 ### Código de ejemplo
 
@@ -447,13 +462,15 @@ La migración de datos en el servidor se puede hacer con una sencilla copia en c
 
 El mayor problema es que el tiempo de lectura se duplica.
 
-### Reversible: casi
+También puede ser un problema si las claves se pueden borrar.
+En este caso es recomendable usar otra estrategia,
+aunque también se puede usar un valor `null` que indique que la clave está vacía.
+
+### Reversible: sí
 
 Esta estrategia es reversible por su propio diseño.
-Pero puede haber un problema de pérdida de datos si no tenemos cuidado con la migración inversa:
-si volvemos a la base de datos antigua sin más,
-perderemos todas las actualizaciones desde la migración.
-Una copia inversa en caliente puede aliviar en parte este problema.
+De nuevo, la migración completa será sólo reversible
+si la parte de servidor también lo es.
 
 ### Código de ejemplo
 
@@ -484,7 +501,31 @@ function get(key, callback) {
 Esta técnica es similar a la anterior,
 pero en lugar de hacer leer de dos sitios, escribimos a dos sitios.
 
-> #### Caso práctico
+La escritura dual sirve para mantener dos servidores sincronizados
+después de haber pasado de usar uno al otro.
+
+En este caso la latencia añadida puede no ser un problema,
+siempre que las escrituras se realicen de forma asíncrona tras terminar de procesar las peticiones.
+En el caso de que requiramos confirmación de escritura en ambas bases de datos la latencia aumentará.
+
+### Reversible: sí
+
+> #### Caso práctico: ING
+> 
+> Por requerimientos del Banco de España,
+> un banco debe almacenar sus datos al menos en dos centros de datos
+> separadas por una distancia suficiente.
+> En el banco ING se mantienen dos centros de datos en dos ciudades distintas:
+> uno primario y otro secundario,
+> ambos con la capacidad suficiente como para dar servicio a todos los clientes.
+> En caso de catástrofe se pasa a usar el secundario.
+> 
+> Hace unos años se pasó de tener una réplica en caliente
+> a una réplica online:
+> todas las escrituras debían confirmarse en ambos centros
+> antes de darse por finalizadas.
+> De esta forma se tiene la garantía de que los datos son iguales en ambos centros,
+> y se puede pasar de uno a otro a voluntad.
 
 ## Paso temporizado
 
@@ -529,11 +570,18 @@ En esta conversión, no hay sistema antiguo y nuevo:
 sólo hay un sistema.
 Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.
 
-> #### Caso práctico
+La lectura de cualquier valor consta de los siguientes pasos:
 
-Cualquier despliegue de código en caliente
-es una conversión _in situ_,
-sobre todo si lleva aparejado un cambio de esquemas en la base de datos.
+* Leer el valor.
+* Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo.
+* Devolver el valor leído (y posiblemente convertido).
+
+### Reversible: ?
+
+> #### Caso práctico: MediaSmart Mobile
+
+Volvemos a ver los perfiles de MediaSmart Mobile.
+Conversión de formato comprimiendo keywords.
 
 # Catálogo de estrategias en broker
 
@@ -548,6 +596,8 @@ Vamos a llamarlo “broker”.
 
 El broker es en este caso un proxy:
 envía las consultas a un servidor.
+
+### Reversible: sí
 
 > #### Caso práctico
 > 
