@@ -645,9 +645,12 @@ Vamos a llamarlo “broker”.
 ![Proxied access](pics/proxied-access.png)
 
 El broker es en este caso un proxy:
-envía las consultas a un servidor.
+envía las consultas a un servidor o a otro
+según un valor de configuración.
 
 ### Reversible: sí
+
+Para revertir la migración sólo tenemos que apuntar 
 
 > #### Caso práctico
 > 
