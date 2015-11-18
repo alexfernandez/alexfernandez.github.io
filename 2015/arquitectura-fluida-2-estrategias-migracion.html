@@ -344,7 +344,7 @@ exports.CleverAdapter = function(name, address) {
 <blockquote>
 <h4>Caso práctico: MediaSmart Mobile</h4>
 </blockquote>
-<p>Volvemos a encontrarnos con los perfiles de MediaSmart Mobile. En cierto momento encontramos que teníamos ya más de 100 millones de perfiles, y que ocupaban demasiado espacio. (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.) Así que decidimos comprimir los perfiles más habituales para reducir el espacio. Conversión de formato comprimiendo keywords.</p>
+<p>Volvemos a encontrarnos con los perfiles de MediaSmart Mobile. En cierto momento encontramos que teníamos ya más de 100 millones de perfiles, y que ocupaban demasiado espacio. (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.) Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado. Conversión de formato comprimiendo keywords.</p>
 <h1 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h1>
 <p>A continuación vamos a ver algunas estrategias que dependen de una máquina intermedia entre el cliente y el servidor. Vamos a llamarlo “broker”.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>

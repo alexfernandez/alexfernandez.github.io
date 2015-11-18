@@ -630,7 +630,7 @@ Volvemos a encontrarnos con los perfiles de MediaSmart Mobile.
 En cierto momento encontramos que teníamos ya más de 100 millones de perfiles,
 y que ocupaban demasiado espacio.
 (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.)
-Así que decidimos comprimir los perfiles más habituales para reducir el espacio.
+Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado.
 Conversión de formato comprimiendo keywords.
 
 # Catálogo de estrategias en broker
