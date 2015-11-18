@@ -15,6 +15,20 @@ Llegamos ahora a al catálogo de estrategias.
 Vamos a describir varias técnicas que se pueden usar para realizar una migración,
 de las más bruscas a las que son completamente reversibles.
 
+## ¿Quieres decir “patrones”?
+
+Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
+la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
+Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.
+
+No es así en nuestro caso.
+Ante una migración podemos usar varias de las técnicas que vamos a describir,
+a nuestra elección.
+Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración,
+no la funcionalidad que queremos conseguir (que es siempre la misma).
+De ahí que prefiramos el término “estrategia”,
+que además no está tan viciado por el uso previo.
+
 ## Probadas en combate
 
 Todas las estrategias que vamos a describir están probadas en combate.
@@ -36,21 +50,9 @@ y perfectamente útiles.
 Puedes compartirlas al final del artículo.
 
 Ilustraremos las estrategias relevantes con ejemplos de código de Node.js,
-muy apropiado para migraciones reversibles.
-
-## ¿Quieres decir “patrones”?
-
-Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
-la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
-Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.
-
-No es así en nuestro caso.
-Ante una migración podemos usar varias de las técnicas que vamos a describir,
-a nuestra elección.
-Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración,
-no la funcionalidad que queremos conseguir (que es siempre la misma).
-De ahí que prefiramos el término “estrategia”,
-que además no está tan viciado por el uso previo.
+la plataforma que usamos en MediaSmart Mobile.
+Es fácil de transcibir a Java, PHP o a cualquier otro lenguaje
+porque el código es todo muy sencillo.
 
 # Catálogo de estrategias de servidor
 
@@ -576,11 +578,59 @@ La lectura de cualquier valor consta de los siguientes pasos:
 * Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo.
 * Devolver el valor leído (y posiblemente convertido).
 
-### Reversible: ?
+La migración de formato se va haciendo poco a poco,
+según se van leyendo valores.
+En un momento dado podemos hacer un repaso a todos los registros,
+leyéndolos y convirtiéndolos en su sitio.
+
+Esta migración es adecuada para cambios internos en la estructura de cada registro,
+no para modificaciones de estructura en bases de datos SQL.
+
+### Reversible: no
+
+Este caso es curioso.
+En principio una migración más lenta suele ser más fácil de revertir
+que una que se haga de golpe.
+Pero en este caso no podemos volver al estado original sin esfuerzo:
+tenemos que hacer la migración inversa, sea en el cliente o el servidor.
+Ahora bien, una vez hecha esta inversión el cliente seguirá funcionando sin problemas,
+porque es necesario que entienda los registros en ambos formatos:
+el antiguo y el nuevo.
+
+Una migración inversa usando la misma estrategia suele buena opción.
+
+### Código de ejemplo
+
+El cliente lee el registro, en el que la fecha puede estar en formato numérico o como cadena en formato ISO.
+Lo queremos siempre como cadena, así que si es un número lo convertimos a cadena y lo volvemos a guardar.
+En cualquier caso se lo pasamos a la callback.
+
+```
+function getValue(key, callback)
+{
+    db.get(key, function(error, value)
+	{
+		if (error) return callback(error);
+		if (typeof value.timestamp == 'number')
+		{
+			value.timestamp = new Date(value.timestamp).toISOString();
+			db.set(key, value, function(error)
+			{
+				if (error) return callback(error);
+			});
+		}
+		return callback(null, value);
+	});
+}
+```
 
 > #### Caso práctico: MediaSmart Mobile
 
-Volvemos a ver los perfiles de MediaSmart Mobile.
+Volvemos a encontrarnos con los perfiles de MediaSmart Mobile.
+En cierto momento encontramos que teníamos ya más de 100 millones de perfiles,
+y que ocupaban demasiado espacio.
+(Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.)
+Así que decidimos comprimir los perfiles más habituales para reducir el espacio.
 Conversión de formato comprimiendo keywords.
 
 # Catálogo de estrategias en broker

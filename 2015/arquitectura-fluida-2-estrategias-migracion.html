@@ -62,14 +62,14 @@
 </div>
 <p>En la <a href="arquitectura-fluida-1-arquitectura-perfecta.html">parte anterior</a> vimos cómo la arquitectura perfecta no existe; nuestra única esperanza es poder migrar rápidamente de una a otra para responder a los cambios a los que nos enfrentamos.</p>
 <p>Llegamos ahora a al catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
+<h2 id="quieres-decir-patrones">¿Quieres decir “patrones”?</h2>
+<p>Tras el gran éxito del libro de Gamma <em>et al</em>, <em>Design Patterns</em>, la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas. Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.</p>
+<p>No es así en nuestro caso. Ante una migración podemos usar varias de las técnicas que vamos a describir, a nuestra elección. Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración, no la funcionalidad que queremos conseguir (que es siempre la misma). De ahí que prefiramos el término “estrategia”, que además no está tan viciado por el uso previo.</p>
 <h2 id="probadas-en-combate">Probadas en combate</h2>
 <p>Todas las estrategias que vamos a describir están probadas en combate. Intentaremos ilustrar cada estrategia con un caso práctico, aunque curiosamente no es fácil encontrar publicaciones sobre migraciones. Por ello para la mayoría de ellas tendremos que recurrir a ejemplos internos de MediaSmart Mobile.</p>
 <p>Aunque la mayoría de los ejemplos son de migraciones de bases de datos, las estrategias pueden usarse igualmente para cualquier migración, sea de código, de datos o de infraestructura. Las bases de datos son un ejemplo prototípico de arquitectura cliente/servidor, así que nos dan un marco de referencia bastante sólido sobre el que analizar cada estrategia.</p>
 <p>La lista no es exhaustiva: seguramente el lector pueda imaginar algunas estrategias adicionales y perfectamente útiles. Puedes compartirlas al final del artículo.</p>
-<p>Ilustraremos las estrategias relevantes con ejemplos de código de Node.js, muy apropiado para migraciones reversibles.</p>
-<h2 id="quieres-decir-patrones">¿Quieres decir “patrones”?</h2>
-<p>Tras el gran éxito del libro de Gamma <em>et al</em>, <em>Design Patterns</em>, la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas. Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.</p>
-<p>No es así en nuestro caso. Ante una migración podemos usar varias de las técnicas que vamos a describir, a nuestra elección. Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración, no la funcionalidad que queremos conseguir (que es siempre la misma). De ahí que prefiramos el término “estrategia”, que además no está tan viciado por el uso previo.</p>
+<p>Ilustraremos las estrategias relevantes con ejemplos de código de Node.js, la plataforma que usamos en MediaSmart Mobile. Es fácil de transcibir a Java, PHP o a cualquier otro lenguaje porque el código es todo muy sencillo.</p>
 <h1 id="catálogo-de-estrategias-de-servidor">Catálogo de estrategias de servidor</h1>
 <p>En esta primera categoría tenemos estrategias que se implementan puramente en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.</p>
 <h2 id="parar-y-arrancar">Parar y arrancar</h2>
@@ -318,11 +318,33 @@ exports.CleverAdapter = function(name, address) {
 <li>Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo.</li>
 <li>Devolver el valor leído (y posiblemente convertido).</li>
 </ul>
-<h3 id="reversible">Reversible: ?</h3>
+<p>La migración de formato se va haciendo poco a poco, según se van leyendo valores. En un momento dado podemos hacer un repaso a todos los registros, leyéndolos y convirtiéndolos en su sitio.</p>
+<p>Esta migración es adecuada para cambios internos en la estructura de cada registro, no para modificaciones de estructura en bases de datos SQL.</p>
+<h3 id="reversible-no-2">Reversible: no</h3>
+<p>Este caso es curioso. En principio una migración más lenta suele ser más fácil de revertir que una que se haga de golpe. Pero en este caso no podemos volver al estado original sin esfuerzo: tenemos que hacer la migración inversa, sea en el cliente o el servidor. Ahora bien, una vez hecha esta inversión el cliente seguirá funcionando sin problemas, porque es necesario que entienda los registros en ambos formatos: el antiguo y el nuevo.</p>
+<p>Una migración inversa usando la misma estrategia suele buena opción.</p>
+<h3 id="código-de-ejemplo-4">Código de ejemplo</h3>
+<p>El cliente lee el registro, en el que la fecha puede estar en formato numérico o como cadena en formato ISO. Lo queremos siempre como cadena, así que si es un número lo convertimos a cadena y lo volvemos a guardar. En cualquier caso se lo pasamos a la callback.</p>
+<pre><code>function getValue(key, callback)
+{
+    db.get(key, function(error, value)
+    {
+        if (error) return callback(error);
+        if (typeof value.timestamp == &#39;number&#39;)
+        {
+            value.timestamp = new Date(value.timestamp).toISOString();
+            db.set(key, value, function(error)
+            {
+                if (error) return callback(error);
+            });
+        }
+        return callback(null, value);
+    });
+}</code></pre>
 <blockquote>
 <h4>Caso práctico: MediaSmart Mobile</h4>
 </blockquote>
-<p>Volvemos a ver los perfiles de MediaSmart Mobile. Conversión de formato comprimiendo keywords.</p>
+<p>Volvemos a encontrarnos con los perfiles de MediaSmart Mobile. En cierto momento encontramos que teníamos ya más de 100 millones de perfiles, y que ocupaban demasiado espacio. (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.) Así que decidimos comprimir los perfiles más habituales para reducir el espacio. Conversión de formato comprimiendo keywords.</p>
 <h1 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h1>
 <p>A continuación vamos a ver algunas estrategias que dependen de una máquina intermedia entre el cliente y el servidor. Vamos a llamarlo “broker”.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
