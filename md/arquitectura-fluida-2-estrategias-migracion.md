@@ -616,7 +616,7 @@ function getValue(key, callback)
 			value.timestamp = new Date(value.timestamp).toISOString();
 			db.set(key, value, function(error)
 			{
-				if (error) return callback(error);
+				if (error) log.error('Could not store value: %s', error);
 			});
 		}
 		return callback(null, value);
@@ -637,8 +637,8 @@ Conversión de formato comprimiendo keywords.
 
 A continuación vamos a ver algunas estrategias
 que dependen de una máquina intermedia
-entre el cliente y el servidor.
-Vamos a llamarlo “broker”.
+entre el cliente y el servidor,
+a la que vamos a llamar “broker”.
 
 ## Acceso mediante proxy
 
@@ -648,13 +648,24 @@ El broker es en este caso un proxy:
 envía las consultas a un servidor o a otro
 según un valor de configuración.
 
+El problema más evidente es que añadimos tiempo a la consulta,
+y un nuevo punto de fallo.
+
 ### Reversible: sí
 
-Para revertir la migración sólo tenemos que apuntar 
+Para revertir el cliente sólo tenemos que apuntar el proxy
+a un nuevo destino.
 
-> #### Caso práctico
-> 
-> Instagram
+### Código de ejemplo
+
+El proxy tiene a la vez un servidor y un cliente.
+
+```
+http.createServer(options, function(connection)
+{
+	connection.on(
+});
+```
 
 ## Escritura en cola
 
@@ -667,6 +678,36 @@ Para revertir la migración sólo tenemos que apuntar
 ![All strategies](pics/all.png)
 
 Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.
+
+> ### Caso práctico: Instagram
+> 
+> Tras la compra de Instagram,
+> Facebook tenía lógicamente interés en que se usaran sus centros de datos.
+> Instagram se embarcó en una migración de dimensiones épicas,
+> y tuvo a bien documentarla  en su
+> [blog de ingeniería](http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb).
+> Se trataba de migrar miles de instancias,
+> y como buenos ingenieros se plantearon hacerla *sin pérdida de servicio*.
+>
+> El proceso llevó un año completo, de 2013-04 a 2014-04.
+> El primer paso fue migrar a AWS VPC, la red privada virtual de Amazon.
+> Este paso era necesario para evitar colisiones de direcciones IP
+> ya que Facebook usa el mismo espacio privado que AWS.
+> 
+> Así que decidieron crear Neti:
+> un servicio de manipulación de tablas de IPs dinámicas
+> que permitía compatibilizar los accesos a máquinas,
+> sin importar si residen en VPC o en la red clásica.
+> Ésta herramienta permitía configurar cada servidor para funcionar 
+> La migración a VPC llevó tres semanas.
+> 
+> A partir de ahí,
+> la migración de VPC a Facebook llevó otras dos semanas adicionales.
+> Las herramientas de gestión de Instagram
+> (provisionamiento de servidores)
+> se ampliaron para funcionar tanto en AWS como en el entorno de Facebook.
+> 
+> Todo esto para un esfuerzo planteado como migración mínima.
 
 ## El equilibrio inestable
 

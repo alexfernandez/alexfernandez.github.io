@@ -335,7 +335,7 @@ exports.CleverAdapter = function(name, address) {
             value.timestamp = new Date(value.timestamp).toISOString();
             db.set(key, value, function(error)
             {
-                if (error) return callback(error);
+                if (error) log.error(&#39;Could not store value: %s&#39;, error);
             });
         }
         return callback(null, value);
@@ -346,18 +346,21 @@ exports.CleverAdapter = function(name, address) {
 </blockquote>
 <p>Volvemos a encontrarnos con los perfiles de MediaSmart Mobile. En cierto momento encontramos que teníamos ya más de 100 millones de perfiles, y que ocupaban demasiado espacio. (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.) Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado. Conversión de formato comprimiendo keywords.</p>
 <h1 id="catálogo-de-estrategias-en-broker">Catálogo de estrategias en broker</h1>
-<p>A continuación vamos a ver algunas estrategias que dependen de una máquina intermedia entre el cliente y el servidor. Vamos a llamarlo “broker”.</p>
+<p>A continuación vamos a ver algunas estrategias que dependen de una máquina intermedia entre el cliente y el servidor, a la que vamos a llamar “broker”.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
 <div class="figure">
 <img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
 </div>
 <p>El broker es en este caso un proxy: envía las consultas a un servidor o a otro según un valor de configuración.</p>
+<p>El problema más evidente es que añadimos tiempo a la consulta, y un nuevo punto de fallo.</p>
 <h3 id="reversible-sí-4">Reversible: sí</h3>
-<p>Para revertir la migración sólo tenemos que apuntar</p>
-<blockquote>
-<h4>Caso práctico</h4>
-<p>Instagram</p>
-</blockquote>
+<p>Para revertir el cliente sólo tenemos que apuntar el proxy a un nuevo destino.</p>
+<h3 id="código-de-ejemplo-5">Código de ejemplo</h3>
+<p>El proxy tiene a la vez un servidor y un cliente.</p>
+<pre><code>http.createServer(options, function(connection)
+{
+    connection.on(
+});</code></pre>
 <h2 id="escritura-en-cola">Escritura en cola</h2>
 <div class="figure">
 <img src="pics/queued-write.png" alt="Queued write" /><p class="caption">Queued write</p>
@@ -370,6 +373,14 @@ exports.CleverAdapter = function(name, address) {
 <img src="pics/all.png" alt="All strategies" /><p class="caption">All strategies</p>
 </div>
 <p>Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.</p>
+<blockquote>
+<h3>Caso práctico: Instagram</h3>
+<p>Tras la compra de Instagram, Facebook tenía lógicamente interés en que se usaran sus centros de datos. Instagram se embarcó en una migración de dimensiones épicas, y tuvo a bien documentarla en su <a href="http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb">blog de ingeniería</a>. Se trataba de migrar miles de instancias, y como buenos ingenieros se plantearon hacerla <em>sin pérdida de servicio</em>.</p>
+<p>El proceso llevó un año completo, de 2013-04 a 2014-04. El primer paso fue migrar a AWS VPC, la red privada virtual de Amazon. Este paso era necesario para evitar colisiones de direcciones IP ya que Facebook usa el mismo espacio privado que AWS.</p>
+<p>Así que decidieron crear Neti: un servicio de manipulación de tablas de IPs dinámicas que permitía compatibilizar los accesos a máquinas, sin importar si residen en VPC o en la red clásica. Ésta herramienta permitía configurar cada servidor para funcionar La migración a VPC llevó tres semanas.</p>
+<p>A partir de ahí, la migración de VPC a Facebook llevó otras dos semanas adicionales. Las herramientas de gestión de Instagram (provisionamiento de servidores) se ampliaron para funcionar tanto en AWS como en el entorno de Facebook.</p>
+<p>Todo esto para un esfuerzo planteado como migración mínima.</p>
+</blockquote>
 <h2 id="el-equilibrio-inestable">El equilibrio inestable</h2>
 <p>Un sistema que fluye se mantiene en equilibrio, pero no es necesariamente un equilibrio estable.</p>
 <p>Veamos un ejemplo sacado de una ingeniería completamente diferente: la aerodinámica. Los <a href="http://aviation.stackexchange.com/a/8061/12166">aviones supersónicos</a> tienen que funcionar en dos regímenes completamente diferentes: primero tienen que volar en modo subsónico, y una vez que alcanzan la velocidad del sonido pasan al modo supersónico. Esto causa un problema: el centro de gravedad está por detrás del punto neutro, lo que hace que el vuelo sea inestable. La única forma de mantenerlos en el aire sin que se desintegren es corregir la trayectoria con un ordenador de a bordo, sin el cual el vuelo sería completamente imposible.</p>
