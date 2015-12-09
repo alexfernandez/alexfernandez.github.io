@@ -18,16 +18,15 @@ de las más bruscas a las que son completamente reversibles.
 ## ¿Quieres decir “patrones”?
 
 Tras el gran éxito del libro de Gamma _et al_, _Design Patterns_,
-la palabra “patrón” se usa (y se abusa) a menudo en el diseño de sistemas.
+la palabra “patrón” se usa a menudo (y se abusa de ella aún más a menudo) el diseño de sistemas.
 Los patrones vienen a ser piezas que tienen su rango de aplicación muy concreto según la situación.
 
 No es así en nuestro caso.
-Ante una migración podemos usar varias de las técnicas que vamos a describir,
-a nuestra elección.
-Nos podemos decidir por una o por otra según lo fluida que queramos que sea la migración,
+Ante una migración podemos usar varias de las técnicas que vamos a describir.
+Podemos elegir una u otra según lo fluida que queramos que sea la migración,
 no la funcionalidad que queremos conseguir (que es siempre la misma).
 De ahí que prefiramos el término “estrategia”,
-que además no está tan viciado por el uso previo.
+que además no está tan viciado por el uso.
 
 ## Probadas en combate
 
@@ -107,7 +106,9 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
         ...
     });
 
-> #### Caso práctico: MediaSmart Mobile
+Para cambiar el acceso, sólo tenemos que parar, migrar, cambiar `settings.js` y arrancar de nuevo.
+
+> #### Caso práctico: VPC en MediaSmart Mobile
 > 
 > El primer caso práctico que vamos a ver no es precisamente una migración de base de datos.
 > En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS),
@@ -128,7 +129,8 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
 > Por ironías de la vida, el problema no se resolvió con esta migración inversa,
 > por lo que dedujimos que tenía otra causa.
 > Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración),
-> el problema real se hizo evidente de inmediato y no tenía nada que ver,
+> el problema real se hizo evidente de inmediato:
+> un fallo que no tenía nada que ver,
 > sino que venía causado por un despliegue anterior.
 > 
 > El día 11 de marzo probamos de nuevo con la misma técnica,
@@ -138,12 +140,9 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
 > Porque total, viernes 13: ¿qué podía salir mal? Y no somos supersticiosos.
 > 
 > La moraleja es algo poco intuitivo:
-> el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente
-> sobre los fallos del sistema,
-> ya que nos fijaremos más en los posibles efectos colaterales
-> que en el problema que tenemos delante.
-> Por eso es importante tener una estrategia de migración inversa
-> que devuelva el sistema a su estado inicial.
+> el mayor problema de hacer una migración es muchas veces que nos impide pensar claramente sobre los fallos del sistema,
+> ya que nos fijaremos más en los posibles efectos colaterales que en otro problema no relacionado que tenemos delante.
+> Es otro motivo para tener una estrategia de migración inversa que devuelva el sistema a su estado inicial.
 > 
 > Y, una vez que tenemos la estrategia inversa,
 > también es importante (y de nuevo contraintuitivo)
@@ -157,23 +156,22 @@ Finalmente, en cada sitio donde usemos la base de datos accederemos a`db.current
 Ahora veremos una estrategia ligeramente más sofisticada.
 Los pasos son:
 
-* pasar a un modo de sólo lectura,
+* pasar a modo de sólo lectura,
 * hacer una copia en caliente (mientras el sistema está andando),
 * cambiar a la nueva base de datos,
 * y volver al modo de lectura/escritura.
 
-Mientras el sistema está en sólo lectura
-se puede acceder a los datos pero no modificarlos.
+Mientras el sistema está en sólo lectura se puede acceder a los datos pero no modificarlos.
 De esta forma nos aseguramos de que se pueda hacer la copia en caliente:
 como los datos no cambian,
-o tenemos que preocuparnos de que se la copia esté desfasada al terminar.
+no tenemos que preocuparnos de que la copia esté desfasada al terminar.
 
 Esto suele ser bastante mejor que una parada completa.
-Pero no siempre es admisible:
+Pero no siempre es posible:
 ciertos sistemas tienen que estar recogiendo datos nuevos constantemente,
-así que dejarlos en sólo lectura no es posible.
+así que dejarlos en sólo lectura es como tirarlos abajo.
 
-Otro problema es que una copia en caliente puede tardar bastante más que en frío,
+Otro factor a tener en cuenta es que una copia en caliente puede tardar bastante más que en frío,
 debido a los accesos constantes.
 
 ### Reversible: no
@@ -192,7 +190,7 @@ de esta forma estamos preparados para la migración inversa.
 Pero seguimos teniendo _downtime_, aunque sea sólo para las escrituras.
 De ahí que una migración de este tipo no sea realmente reversible.
 
-> #### Caso práctico: WordPress
+> #### Caso práctico: Migraciones WordPress
 > 
 > Esta técnica es muy básica:
 > se aplica por ejemplo a las
@@ -204,7 +202,8 @@ De ahí que una migración de este tipo no sea realmente reversible.
 ![Synchronization](pics/sync.png)
 
 Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva.
-Los pasos para hacer la sincronización son:
+Queremos que ambas queden sincronizadas, de forma que podamos usar una u otra.
+Los pasos para hacer esta sincronización son:
 
 * hacer una copia en caliente de la antigua a la nueva,
 * sincronizar todas las escrituras de la antigua a la nueva,
@@ -233,7 +232,7 @@ La sincronización bidireccional a menudo es demasiado costosa como para ser pr�
 Así que hay que tener cuidado de seguir sincronizando hasta que estemos seguros
 de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
 
-> #### Caso práctico: MediaSmart Mobile
+> #### Caso práctico: Estadísticas diarias en MediaSmart Mobile
 > 
 > En MediaSmart Mobile almacenamos datos de estadísticas del día,
 > conocidos internamente como _daystats_,
@@ -256,20 +255,20 @@ de que la migración ha sido exitosa y no vamos a querer revertirla nunca.
 > (disfrazada de carga de datos),
 > por lo que para dejar de usar la nueva base de datos en Redshift
 > sólo tenemos que cambiar un parámetro de configuración.
-> Así que cuando se reportaron bugs fue trivial comparar volver a la versión anterior
-> mientras se investigaba por qué no funcionaban bien los acumulados.
+> Así que cuando se reportaron bugs fue trivial comparar ambos,
+> y volver a la versión anterior mientras se investigaba por qué no funcionaban bien datos migrados.
 
 ## Copia doble
 
 ![Double copy](pics/double-copy.png)
 
-En este caso queremos 
-
+En este caso queremos copiar los datos en dos tandas,
+una antes de cambiar el acceso y otra después.
 Los pasos a seguir son los siguientes:
 
 * realizar una copia en caliente mientras se accede al sistema antiguo,
 * empezar a leer y escribir en el sistema nuevo,
-* y realizar una segunda copia en caliente de estos datos.
+* y realizar una segunda copia en caliente del sistema viejo al nuevo.
 
 Es importante señalar que con esta estrategia estamos durante un tiempo accediendo
 a una versión antigua de los datos:
@@ -307,7 +306,7 @@ En general, la ausencia de _downtime_ es condición necesaria,
 pero no suficiente, para la reversibilidad.
 El único criterio realmente fiable es estudiar la migración inversa.
 
-> #### Caso práctico: MediaSmart Mobile
+> #### Caso práctico: Perfiles en MediaSmart Mobile
 > 
 > En nuestra empresa guardamos perfiles anonimizados de usuarios,
 > con información sobre qué categorías de contenido han visitado.
@@ -321,10 +320,12 @@ El único criterio realmente fiable es estudiar la migración inversa.
 > de que copiar los perfiles llevaba más de un día.
 > Pero contábamos con la ventaja de que en realidad no pasa nada si se pierden unos cuantos perfiles…
 > o unos cuantos millones.
-> Tampoco pasa nada si un perfil no se actualiza.
+> Tampoco pasa nada si un perfil no se actualiza con los últimos cambios,
+> sigue siendo valioso.
 > 
 > Así que nos decidimos por una copia doble.
 > Primero copiamos los perfiles a DynamoDB,
+> tarea que nos llevó dos días,
 > y empezamos a usar esta nueva base de datos desde un solo servidor de prueba.
 > Cuando estábamos contentos con el resultado cambiamos el resto de servidores.
 > En este punto volvimos a hacer una copia de los perfiles
@@ -341,8 +342,12 @@ El único criterio realmente fiable es estudiar la migración inversa.
 
 # Catálogo de estrategias en cliente
 
-Ahora vamos a ver algunas estrategias que no requieren cambiar el servidor para nada;
-basta con modificar el cliente que accede a los datos.
+Como ya hemos visto, en una migración conviene separar acceso y datos.
+Ahora vamos a ver algunas estrategias que modifican el acceso a los datos,
+modificando el cliente en lugar del servidor.
+
+Hemos elegido estrategias en cliente que sean reversibles,
+aunque es necesario que la estrategia del servidor sea también reversible.
 
 ## Adaptador
 
@@ -351,13 +356,6 @@ cuando son diferentes.
 Podemos “disfrazar” una base de datos para que aparente ser otra
 usando el patrón clásico de adaptador,
 y luego configurar a qué base de datos accedemos.
-
-### Reversible: sí
-
-Los cambios en el cliente son instantáneos:
-sólo tenemos que cambiar un fichero de configuración.
-Por supuesto, la migración sólo será realmente reversible
-si la parte de servidor también lo es.
 
 ### Código de ejemplo
 
@@ -422,7 +420,7 @@ db.main.get('hi', function(error, result) {
 };
 ```
 
-> #### Caso práctico: MediaSmart Mobile
+> #### Caso práctico: Memcached en MediaSmart Mobile
 > 
 > En MediaSmart empezamos usando Couchbase,
 > una base de datos clave-valor enriquecida con una historia curiosa.
@@ -435,7 +433,7 @@ db.main.get('hi', function(error, result) {
 > Membase se creó como una base de datos con una interfaz 100% compatible,
 > pero capaz de guardar los datos en disco.
 > Más tarde CouchDB y Membase se unieron para crear Couchbase,
-> pero mantuvieron la interfaz de Membase, compatible a su vez con Memcached.
+> manteniendo la interfaz de Membase, compatible a su vez con Memcached.
 > 
 > Durante un tiempo Couchbase aguantó bien,
 > aunque requería demasiado mantenimiento y el rendimiento se fue degradando.
@@ -462,19 +460,18 @@ tiramos de la antigua.
 
 La migración de datos en el servidor se puede hacer con una sencilla copia en caliente.
 
-El mayor problema es que el tiempo de lectura se duplica.
+El problema más obvio es que el tiempo de lectura se duplica,
+cosa que no siempre es aceptable.
 
-También puede ser un problema si las claves se pueden borrar.
+También puede ser un problema si las claves se pueden borrar:
+con esta estrategia estaremos dando por bueno un valor de la base de datos antigua
+que ya no existe en la nueva.
 En este caso es recomendable usar otra estrategia,
 aunque también se puede usar un valor `null` que indique que la clave está vacía.
 
-### Reversible: sí
-
-Esta estrategia es reversible por su propio diseño.
-De nuevo, la migración completa será sólo reversible
-si la parte de servidor también lo es.
-
 ### Código de ejemplo
+
+La clase de acceso es tan sencilla como esto:
 
 ```
 exports.db = {
@@ -483,7 +480,7 @@ exports.db = {
 };
 ```
 
-y el cliente:
+y el cliente sólo tiene que hacer:
 
 ```
 function get(key, callback) {
@@ -494,14 +491,12 @@ function get(key, callback) {
 }
 ```
 
-> #### Caso práctico
-
 ## Escritura dual
 
 ![Dual write](pics/dual-write.png)
 
 Esta técnica es similar a la anterior,
-pero en lugar de hacer leer de dos sitios, escribimos a dos sitios.
+pero en lugar de leer de dos sitios, escribimos a dos sitios.
 
 La escritura dual sirve para mantener dos servidores sincronizados
 después de haber pasado de usar uno al otro.
@@ -510,13 +505,11 @@ En este caso la latencia añadida puede no ser un problema,
 siempre que las escrituras se realicen de forma asíncrona tras terminar de procesar las peticiones.
 En el caso de que requiramos confirmación de escritura en ambas bases de datos la latencia aumentará.
 
-### Reversible: sí
-
-> #### Caso práctico: ING
+> #### Caso práctico: Backup en ING
 > 
 > Por requerimientos del Banco de España,
 > un banco debe almacenar sus datos al menos en dos centros de datos
-> separadas por una distancia suficiente.
+> separadas por suficiente distancia.
 > En el banco ING se mantienen dos centros de datos en dos ciudades distintas:
 > uno primario y otro secundario,
 > ambos con la capacidad suficiente como para dar servicio a todos los clientes.
@@ -533,7 +526,11 @@ En el caso de que requiramos confirmación de escritura en ambas bases de datos 
 
 ![Timed rollover](pics/timed-rollover.png)
 
-A costa de añadir unos pocos microsegundos (µs) a cada query.
+En este caso el cliente usará un servidor u otro dependiendo de los datos a acceder,
+con una fecha de corte configurable.
+
+El resultado es un cambio suave de servidores,
+a costa de añadir como mucho unos pocos microsegundos (µs) a cada query.
 
 ### Código de ejemplo
 
@@ -560,50 +557,56 @@ exports.CleverAdapter = function(name, address) {
 };
 ```
 
-> #### Caso práctico
+> #### Caso práctico: Agregados en MediaSmart Mobile
 > 
-> En MediaSmart daystats aggregates
+> De nuevo usaremos las estadísticas diarias (_daystats_) que se pueden consultar en el pasado.
+
+> En cierto momento las consultas empezaron a ir demasiado lentas,
+> así que añadimos agregados que se actualizan automáticamente
+> y que nos evitan leer muchas claves a la vez para conseguir un solo resultado.
+> A partir de cierto momento empezamos a guardar estos agregados.
+> Pero nos queríamos ahorrar hacer un proceso batch que se recorriera todos los días anteriores
+> y calculara los agregados, así que simplemente pusimos como fecha de corte
+> el día posterior a activar los agregados:
+> si la consulta era posterior a este día se usarían los agregados,
+> y si no, haríamos la consulta habitual.
+> 
+> Sencillo y elegante, y que nos ahorró un montón de trabajo.
 
 ## Conversión _in situ_
 
 ![In-place conversion](pics/in-place.png)
 
-En esta conversión, no hay sistema antiguo y nuevo:
-sólo hay un sistema.
-Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.
+Queremos cambiar el formato de los valores de un cierto tipo.
+En lugar de recorrer todos los valores existentes y modificarlos,
+podemos empezar a escribir los valores nuevos con este nuevo formato,
+e ir modificando los antiguos según se leen.
 
 La lectura de cualquier valor consta de los siguientes pasos:
 
 * Leer el valor.
-* Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo.
-* Devolver el valor leído (y posiblemente convertido).
+* Si tiene el formato nuevo, devolverlo tal cual.
+* Si tiene el formato antiguo, convertirlo al nuevo formato y guardarlo de nuevo.
+* Devolver el valor resultante de la conversión.
 
-La migración de formato se va haciendo poco a poco,
-según se van leyendo valores.
-En un momento dado podemos hacer un repaso a todos los registros,
+La migración de formato se va haciendo poco a poco según se van leyendo valores.
+En un momento dado podemos hacer un repaso a todos los registros restantes,
 leyéndolos y convirtiéndolos en su sitio.
+En cualquier caso nos hemos evitado hacer la migración de formatos de un golpe.
+
+En esta conversión no hay sistema antiguo y nuevo:
+sólo hay un sistema.
+Es un caso “degenerado” de las migraciones que hemos visto hasta ahora.
+También es especial porque no hay parte de servidor: toda la migración se hace en el cliente.
 
 Esta migración es adecuada para cambios internos en la estructura de cada registro,
-no para modificaciones de estructura en bases de datos SQL.
-
-### Reversible: no
-
-Este caso es curioso.
-En principio una migración más lenta suele ser más fácil de revertir
-que una que se haga de golpe.
-Pero en este caso no podemos volver al estado original sin esfuerzo:
-tenemos que hacer la migración inversa, sea en el cliente o el servidor.
-Ahora bien, una vez hecha esta inversión el cliente seguirá funcionando sin problemas,
-porque es necesario que entienda los registros en ambos formatos:
-el antiguo y el nuevo.
-
-Una migración inversa usando la misma estrategia suele buena opción.
+no para modificaciones de estructura en bases de datos SQL que sí tienen que hacerse de un golpe.
 
 ### Código de ejemplo
 
-El cliente lee el registro, en el que la fecha puede estar en formato numérico o como cadena en formato ISO.
+El cliente lee un registro en el que la fecha puede estar en formato numérico o como cadena en formato ISO.
 Lo queremos siempre como cadena, así que si es un número lo convertimos a cadena y lo volvemos a guardar.
-En cualquier caso se lo pasamos a la callback.
+En cualquier caso se lo pasamos a la callback con el formato de cadena esperado.
 
 ```
 function getValue(key, callback)
@@ -624,46 +627,73 @@ function getValue(key, callback)
 }
 ```
 
-> #### Caso práctico: MediaSmart Mobile
-
-Volvemos a encontrarnos con los perfiles de MediaSmart Mobile.
-En cierto momento encontramos que teníamos ya más de 100 millones de perfiles,
-y que ocupaban demasiado espacio.
-(Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.)
-Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado.
-Conversión de formato comprimiendo keywords.
+> #### Caso práctico: Compresión de perfiles en MediaSmart Mobile
+> 
+> Volvemos a encontrarnos con los perfiles de MediaSmart Mobile.
+> En cierto momento encontramos que teníamos ya más de 100 millones de perfiles,
+> y que ocupaban demasiado espacio.
+> (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.)
+> Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado.
+> 
+> Cada perfil consta de una serie de valores que tienden a repetirse,
+> como el rango de edades o las categorías visitadas previamente.
+> Para comprimir los perfiles decidimos tomar los valores más comunes
+> y codificarlos con un formato especial que nos permitiera reconocer que se trataba de un valor codificado.
+> El perfil resultante ocupaba bastante menos que el original,
+> pero una vez más queríamos evitar una migración a gran escala.
+> 
+> Así que decidimos hacer una conversión _in situ_:
+> al leer los perfiles teníamos que descomprimirlos en cualquier caso,
+> así que aprovechamos la circunstancia para ir guardándolos comprimidos
+> según se iban leyendo y modificando.
+> En el proceso nos ahorramos varios cientos de GB de datos.
 
 # Catálogo de estrategias en broker
 
-A continuación vamos a ver algunas estrategias
-que dependen de una máquina intermedia
+A continuación vamos a ver un par de estrategias que dependen de una máquina intermedia
 entre el cliente y el servidor,
 a la que vamos a llamar “broker”.
+
+De nuevo estas estrategias suelen requerir una migración en el servidor paralela,
+así que tampoco investigaremos si son reversibles o no.
+Dado que son similares a las estrategias en cliente tampoco veremos casos prácticos;
+sólo las mencionamos de pasada.
 
 ## Acceso mediante proxy
 
 ![Proxied access](pics/proxied-access.png)
 
-El broker es en este caso un proxy:
-envía las consultas a un servidor o a otro
-según un valor de configuración.
+El broker es en este caso un proxy,
+que envía las consultas a un servidor o a otro según un valor de configuración.
+El cliente no tiene que preocuparse de enviar las consultas al servidor correcto;
+el broker se ocupa de todo.
 
 El problema más evidente es que añadimos tiempo a la consulta,
-y un nuevo punto de fallo.
-
-### Reversible: sí
-
-Para revertir el cliente sólo tenemos que apuntar el proxy
-a un nuevo destino.
+y además un nuevo punto de fallo.
 
 ### Código de ejemplo
 
 El proxy tiene a la vez un servidor y un cliente.
 
 ```
-http.createServer(options, function(connection)
-{
-	connection.on(
+const http = require('http');
+const request = require('basic-request');
+
+http.createServer((request, response) => {
+    const url = 'http://newserver.com' + req.path;
+    request.get(url, function(error, body)
+    {
+        if (error)
+        {
+            response.writeHead(500);
+            response.end('Could not reach 
+            return;
+        }
+        response.writeHead(200, { 'Content-Type': 'text/plain' });
+        response.end(body);
+    });
+}).listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
 
@@ -671,15 +701,30 @@ http.createServer(options, function(connection)
 
 ![Queued write](pics/queued-write.png)
 
-> #### Caso práctico
+En este caso no escribimos directamente en destino,
+sino que almacenamos las escrituras y las hacemos todas de golpe.
 
-# Migración de cualquier tipo
+Es muy común en los servidores de base de datos
+(por ejemplo [Couchbase](http://docs.couchbase.com/admin/admin/Monitoring/monitor-diskqueue.html))
+agrupar las escrituras para ahorrar procesamiento.
+En nuestro caso podemos enviar las escrituras al servidor que convenga para nuestra migración.
+
+## Migración de cualquier tipo
 
 ![All strategies](pics/all.png)
 
 Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos.
+En lugar de copiar datos es posible que tengamos que copiar configuraciones, código o ficheros planos.
+En cualquier caso tendremos que ocuparnos de dos cosas:
+migrar los accesos, y mover la información necesaria.
+Cada parte puede resolverse de forma separada,
+lo que nos da dos grados de libertad que nos pueden ayudar en nuestro trabajo.
 
-> ### Caso práctico: Instagram
+En cualquier migración querremos evitar tener _downtime_,
+no sólo por no molestar a nuestros clientes:
+por orgullo, y porque dejar de dar servicio es mala ingeniería.
+
+> ### Caso práctico: Migración de Instagram a Facebook
 > 
 > Tras la compra de Instagram,
 > Facebook tenía lógicamente interés en que se usaran sus centros de datos.
@@ -709,39 +754,97 @@ Todas las estrategias que hemos visto son útiles no sólo para migraciones de b
 > 
 > Todo esto para un esfuerzo planteado como migración mínima.
 
-## El equilibrio inestable
+# Sigue fluyendo
+
+Hay otros aspectos de las migraciones que considerar antes de despedirnos.
+
+## Minimizando los errores
+
+El aspecto que más miedo da de cualquier migración es probablemente tener un error grave:
+en estas circunstancias es fácil dejar de dar servicio o incluso perder gran cantidad de datos.
+
+### El equilibrio inestable
 
 Un sistema que fluye se mantiene en equilibrio,
 pero no es necesariamente un equilibrio estable.
 
-Veamos un ejemplo sacado de una ingeniería completamente diferente:
-la aerodinámica.
-Los [aviones supersónicos](http://aviation.stackexchange.com/a/8061/12166)
-tienen que funcionar en dos regímenes completamente diferentes:
-primero tienen que volar en modo subsónico,
-y una vez que alcanzan la velocidad del sonido pasan al modo supersónico.
-Esto causa un problema: el centro de gravedad está por detrás del punto neutro,
-lo que hace que el vuelo sea inestable.
-La única forma de mantenerlos en el aire sin que se desintegren
-es corregir la trayectoria con un ordenador de a bordo, sin el cual
-el vuelo sería completamente imposible.
+> ### Caso práctico: Punto neutro
+> 
+> Veamos un ejemplo sacado de una ingeniería completamente diferente a la nuestra:
+> la aerodinámica.
+> Los [aviones supersónicos](http://aviation.stackexchange.com/a/8061/12166)
+> tienen que funcionar en dos regímenes completamente diferentes:
+> primero tienen que volar en modo subsónico,
+> y una vez que alcanzan la velocidad del sonido pasan al modo supersónico.
+> Esto causa un problema: el centro de gravedad está por detrás del punto neutro,
+> lo que hace que el vuelo sea inestable.
+> La única forma de mantenerlos en el aire sin que se desintegren
+> es corregir la trayectoria con un ordenador de a bordo, sin el cual
+> el vuelo sería completamente imposible.
+> 
+> (Los aviones acrobáticos también son inherentemente inestables,
+> lo que los hace más manejables,
+> pero al volar a menos velocidad es posible que un piloto los controle.)
 
-(Los aviones acrobáticos también son inherentemente inestables,
-lo que los hace más manejables,
-pero al volar a menos velocidad es posible que un piloto lo controle.)
+### Velocidad de crucero
 
-En nuestro caso, un sistema que fluye demasiado despacio se vuelve también difícil de manejar,
+Un sistema que fluye demasiado despacio se vuelve también difícil de manejar,
 lo que podemos contrarrestar aumentando la velocidad del cambio.
 Pero en este caso el sistema se vuelve inestable,
-y hay que controlarlo para que los fallos que van surgiendo
-no se acumulen.
+y hay que controlarlo para que los fallos que van surgiendo no se acumulen.
 
 La velocidad de crucero óptima es la que nos permite realizar cambios al sistema
 de la forma más rápida, sin comprometer la integridad del sistema.
 
-## Sigue fluyendo
+### Seguridad por defecto
+
+La mejor forma de intentar evitar errores es tener _secure defaults_:
+que la forma de operación por defecto sea segura.
+
+La monitorización activa es la primera línea de defensa:
+un sistema que envíe notificaciones a los administradores.
+Pero no podemos quedarnos ahí.
+El ejemplo más típico es el
+[dispositivo de hombre muerto](https://es.wikipedia.org/wiki/Hombre_muerto):
+un mecanismo que detiene el tren si el maquinista no lo pisa cada cierto tiempo.
+
+Otro ejemplo clásico es el
+[canario](http://cincodays.com/2014/02/19/conociendo-la-historia-animales-en-la-historia-los-canarios-en-las-minas-de-carbon/)
+que se introducía en la mina de carbón para que avisara de cualquier fuga de gases venenosos.
+En nuestro caso, lo ideal es conectar el canario con el dispositivo de hombre muerto
+para que nuestro sistema vuelva a la operación segura por sí solo ante cualquier problema.
+
+> #### Caso práctico: Parada de bidding en MediaSmart
+> 
+> En MediaSmart hemos tenido unos cuantos problemas serios con el sistema de bidding automático
+> que nos han causado pérdidas monetarias.
+> En una startup española el dinero no suele sobrar,
+> así que siempre que nos hemos encontrado con problemas serios
+> hemos buscado formas de operación seguras.
+
+> Actualmente, aparte de múltiples notificaciones de condiciones anómalas,
+> hemos optado por parar el bidding preventivamente antes que perder dinero.
+> Varios de nuestros “canarios” son capaces de parar el bidding de forma autónoma para que el sistema no siga pujando,
+> ante cualquier síntoma de alarma.
+> La vuelta a la normalidad se hace también de forma automática,
+> salvo en casos extremos que requieran de revisión manual.
+
+### Vivir con errores
+
+Cuando estamos haciendo tareas delicadas es inevitable que, más tarde o más temprano, cometamos un error.
+Todas nuestras medidas de seguridad sólo nos ayudan a evitar problemas pasados,
+pero es difícil precaverse de todos los problemas futuros.
+La única forma de no meter la pata es no hacer nada, nunca.
+Si decidimos seguir este camino nos quedaremos con una arquitectura rígida y difícil de cambiar.
+
+Por suerte, la forma más segura de operar es además la que más nos conviene:
+una migración reversible, donde sea tan fácil ir hacia atrás como hacia adelante.
+El precio a pagar es que, de vez en cuando,
+cometeremos errores.
+Hay que aceptarlo y seguir hacia adelante.
 
 Entre tanta migración, no hay que perder de vista el objetivo final:
-tener una arquitectura flexible,
-que puede adaptarse a las nuevas circunstancias rápidamente.
+tener una arquitectura flexible y que pueda adaptarse a las nuevas circunstancias rápidamente.
+En el entorno moderno una arquitectura que no es capaz de amoldarse a las nuevas circunstancias
+está obsoleta desde antes de probar su valía en producción.
 
