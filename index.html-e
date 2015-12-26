@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Alex Made a Web Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="../index.html"><img src="../pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="../index.html">Alex Fernández</a></h1>
+					<p>
+					I am a developer (little) known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					</p>
+				</header>
+				<!--
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">A Few Accomplishments</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+				-->
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>Alex Made a Web Page</h1>
+										<p>You have found the secret lair of Alex Fernández. Congrats!<p>
+									</header>
+										<p>I am a developer (little) known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.</p>
+<p>I help organize two great communities: <a href="http://www.meetup.com/es/madridjs/">MadridJS</a> and <a href="http://www.meetup.com/es/Node-js-Madrid/">Node.js Madrid</a>, where we gather once a month and have some fun talking about nerdy stuff.</p>
+<h2 id="software-engineering">Software Engineering</h2>
+<p>A collection of articles published over the years.</p>
+<ul>
+<li>2015-10-17: <a href="2015/walk-through-my-code.html">Walk Through My Code</a>.</li>
+</ul>
+<p>Articles for <a href="http://tech.moveinblue.com/">MoveinBlue Tech</a>:</p>
+<ul>
+<li>2012-12-18: <a href="2012/reporting-problems-part-2.html">Reporting Problems, Part 2: Tooling</a>.</li>
+<li>2012-08-23: <a href="2012/reporting-problems-part-1.html">Reporting Problems, Part 1: Process</a>.</li>
+<li>2012-07-25: <a href="2012/iterative-evolution.html">Iterative Evolution</a>.</li>
+<li>2012-06-11: <a href="2012/sources-of-irreversibility.html">Sources of Irreversibility</a>.</li>
+<li>2012-06-09: <a href="2012/performance-review.html">How to Fake the Performance Review</a>.</li>
+<li>2012-06-04: <a href="2012/from-ground-to-cloud.html">From Ground to Cloud in Two Hours</a>.</li>
+<li>2012-05-29: <a href="2012/closing-the-gap.html">Closing the Gap with Business</a>.</li>
+<li>2012-05-24: <a href="2012/ode-to-telecommuting.html">Ode to Telecommuting</a>.</li>
+<li>2012-05-20: <a href="2012/reversible-engineering-part-3.html">Reversible Engineering Part 3: Management</a>.</li>
+<li>2012-05-11: <a href="2012/reversible-engineering-part-2.html">Reversible Engineering Part 2: DevOps</a>.</li>
+<li>2012-05-09: <a href="2012/reversible-engineering-part-1.html">Reversible Engineering Part 1: Software Development</a>.</li>
+<li>2012-04-18: <a href="2012/locked-to-the-cloud.html">Locked to the Cloud</a>.</li>
+<li>2012-04-12: <a href="2012/automating-the-automation.html">Automating the Automation</a>.</li>
+<li>2012-04-10: <a href="2012/continuous-deployment.html">Continuous Deployment</a>.</li>
+<li>2012-03-30: <a href="2012/developer-discipline.html">Developer Discipline</a>.</li>
+</ul>
+<h2 id="random-ramblings">Random Ramblings</h2>
+<p>Articles about stuff not related to software engineering.</p>
+<ul>
+<li>2013-06-07: <a href="2013/human-body-engineered-system.html">The Human Body as a Well-Engineered System</a>.</li>
+</ul>
+<h2 id="artículos-en-español">Artículos en español</h2>
+<ul>
+<li>2015-11-08: <a href="2015/entrevista-devuse.html">Entrevista en DevUse</a></li>
+</ul>
+<p>Artículos para <a href="http://www.godtic.com/blog/">GodTIC</a>:</p>
+<ul>
+<li>2013-11-24: <a href="2013/optimizando-sockets.html">Optimizando sockets con node.js</a></li>
+<li>2013-11-12: <a href="2013/nodejs-rapido-como-el-rayo.html">Node.js: ¿rápido como el rayo?</a></li>
+<li>2013-08-27: <a href="2013/pruebas-de-carga.html">Pruebas de carga</a></li>
+<li>2013-07-27: <a href="2013/modo-cluster.html">Modo cluster para node.js</a></li>
+<li>2013-07-11: <a href="2013/pruebas-asincronas.html">Pruebas asíncronas en node.js</a></li>
+</ul>
+<h2 id="and-now-for-something-not-quite-alike">And Now for Something Not Quite Alike</h2>
+<p>Please browse my <a href="https://github.com/alexfernandez/">other projects</a>. You can also see <a href="http://slides.com/alexfernandez/">my presentations</a> for a quick fix.</p>
+<h2 id="credits">Credits</h2>
+<p>Original design is <a href="http://html5up.net/read-only">Read Only</a>, by <a href="http://html5up.net">HTML5 UP</a>. Heavily mutilated by myself.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Enjoy!
+									</p>
+									<p>
+									Back to the <a href="../index.html">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Alex Fernández. Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
