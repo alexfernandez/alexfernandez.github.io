@@ -53,10 +53,7 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 
 ## And Now for Something Not Quite Alike
 
-Please browse my [other projects](https://github.com/alexfernandez/),
-including [MilliEarth](http://milliearth.org/): the barest skeleton for a space shooter.
-
-You can also see [my presentations](http://slides.com/alexfernandez/) for a quick fix.
+Please browse my [other projects](https://github.com/alexfernandez/). You can also see [my presentations](http://slides.com/alexfernandez/) for a quick fix.
 
 ## Credits
 
