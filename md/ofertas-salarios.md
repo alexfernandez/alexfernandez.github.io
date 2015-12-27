@@ -106,13 +106,7 @@ antes de decidirnos a enviar el CV.
 Una persona con inquietudes que esté empezando puede conseguir
 unas cuantas buenas ofertas con poco esfuerzo.
 
-Por eso es más importante que nunca publicar el salario,
-para atraer a lo que ahora se llama "talento"
-(o sea, a buenos técnicos)
-y no hacerle perder el tiempo a un profesional cualificado que ya esté trabajando
-en un proceso que al final no le ofrezca incentivo suficiente para cambiar.
-
-Eso hace que muchos profesionales estén un poco "subiditos"
+Eso hace que algunos profesionales estén un poco "subiditos"
 y a veces incluso se pasen de la raya
 criticando ofertas que en realidad no están nada mal.
 Una empresa inteligente *aprovechará las críticas
@@ -122,6 +116,12 @@ Incluso las críticas injustificadas nos pueden ayudar:
 es posible que en la oferta inicial no quedara claro qué se busca,
 y los buenos desarrolladores no suelen estar aburridos en casa
 esperando para leer al detalle todas las ofertas que les llegan.
+
+Por eso es más importante que nunca publicar el salario,
+para atraer a lo que ahora se llama "talento"
+(o sea, a buenos técnicos)
+y no hacerle perder el tiempo a un profesional cualificado que ya esté trabajando
+en un proceso que al final no le ofrezca incentivo suficiente para cambiar.
 
 Lo realmente triste es,
 en mi modesta opinión,
