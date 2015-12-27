@@ -108,7 +108,7 @@ unas cuantas buenas ofertas con poco esfuerzo.
 
 Por eso es más importante que nunca publicar el salario,
 para atraer a lo que ahora se llama "talento"
-(usando un anglicismo)
+(o sea, a buenos técnicos)
 y no hacerle perder el tiempo a un profesional cualificado que ya esté trabajando
 en un proceso que al final no le ofrezca incentivo suficiente para cambiar.
 
