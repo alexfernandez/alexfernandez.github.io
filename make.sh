@@ -33,6 +33,7 @@ pandoc --template read-only.html -s md/pruebas-de-carga.md -o 2013/pruebas-de-ca
 pandoc --template read-only.html -s md/nodejs-rapido-como-el-rayo.md -o 2013/nodejs-rapido-como-el-rayo.html
 pandoc --template read-only.html -s md/modo-cluster.md -o 2013/modo-cluster.html
 pandoc --template read-only.html -s md/pruebas-asincronas.md -o 2013/pruebas-asincronas.html
+pandoc --template read-only.html -s md/ofertas-salarios.md -o 2015/ofertas-salarios.html
 
 git add -A
 git commit -am "Make on $date"
