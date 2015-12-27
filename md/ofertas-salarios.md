@@ -104,7 +104,7 @@ Y además sabemos que en el extranjero los salarios son bastante mejores,
 así que podemos permitirnos el lujo de examinar con lupa las ofertas
 antes de decidirnos a enviar el CV.
 Una persona con inquietudes que esté empezando puede conseguir
-diez buenas ofertas con poco esfuerzo.
+unas cuantas buenas ofertas con poco esfuerzo.
 
 Por eso es más importante que nunca publicar el salario,
 para atraer a lo que ahora se llama "talento"
