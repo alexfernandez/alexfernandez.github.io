@@ -2,7 +2,7 @@
 title: Ofertas de trabajo y salarios
 subtitle: 'Respuesta a la Bonilista 2015-12-27'
 footer: Publicado el 2015-12-27
-  [¿Comentarios, preguntas, mejoras?](https://twitter.com/pinchito/status/655149101504425984)
+  [¿Comentarios, preguntas, mejoras?](https://twitter.com/pinchito/status/681218539055878146)
 ---
 
 ![Imagen: [Programadores de ENIAC](https://en.wikipedia.org/wiki/File:Eniac.jpg)](pics/eniac.jpg "ENIAC (Electronic Numerical Integrator And Computer) in Philadelphia, Pennsylvania")
