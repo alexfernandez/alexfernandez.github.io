@@ -109,8 +109,8 @@ unas cuantas buenas ofertas con poco esfuerzo.
 Eso hace que algunos profesionales estén un poco "subiditos"
 y a veces incluso se pasen de la raya
 criticando ofertas que en realidad no están nada mal.
-Una empresa inteligente *aprovechará las críticas
-para mejorar su oferta* y aclarar las condiciones,
+Una empresa inteligente **aprovechará las críticas
+para mejorar su oferta** y aclarar las condiciones,
 posiblemente mejorándolas.
 Incluso las críticas injustificadas nos pueden ayudar:
 es posible que en la oferta inicial no quedara claro qué se busca,
