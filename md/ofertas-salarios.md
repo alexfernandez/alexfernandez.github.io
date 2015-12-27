@@ -1,5 +1,5 @@
 ---
-title: Insultos y salarios
+title: Ofertas de trabajo y salarios
 subtitle: 'Respuesta a la Bonilista 2015-12-27'
 footer: Publicado el 2015-12-27
   [¿Comentarios, preguntas, mejoras?](https://twitter.com/pinchito/status/655149101504425984)
