@@ -62,13 +62,13 @@ o alejadísimo del centro.
 
 Los organizadores no solemos meternos en este tipo de discusiones,
 mientras la discusión sea civilizada y no llegue la sangre al río.
-El motivo es que *no nos pagan por ser policías*.
+El motivo es que **no nos pagan por ser policías**.
 De hecho no nos pagan por nada,
 así que intentamos dedicar nuestros esfuerzos exclusivamente
 a tareas que enriquezcan nuestra comunidad,
 como buscar actividades interesantes y organizarlas.
 Sólo intervenimos cuando la discusión se va de madre,
-o cuando algún policía autoproclamado declara que su criterio es el único válido.
+o cuando algún "policía autoproclamado" declara que su criterio es el único válido.
 Por fortuna ambas situaciones son extremadamente raras.
 
 En este punto es obligatorio enlazar a nuestro
@@ -138,9 +138,9 @@ Yo he encontrado mi trabajo actual en
 [MediaSmart Mobile](http://mediasmart.es/)
 gracias a la lista de MadridJS,
 y cuando en mi empresa hemos buscado nuevos candidatos
-no hemos dudado en enviar la oferta también a la lista.
+no hemos dudado en enviar también la oferta a la lista.
 A pesar de que la oferta no especificaba el salario,
-el resultado ha sido increíble:
+el resultado ha sido excelente:
 pocos candidatos pero muy cualificados.
 Todo lo contrario de sitios como Infojobs
 donde lo normal es ver 300 apuntados a una oferta de analista subcontratado
