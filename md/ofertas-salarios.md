@@ -126,7 +126,7 @@ en un proceso que al final no le ofrezca incentivo suficiente para cambiar.
 Lo realmente triste es,
 en mi modesta opinión,
 la situación de los profesionales de muchos otros sectores,
-que no pueden criticar una oferta regular o directamente abusiva
+que no pueden criticar una oferta regular (o directamente abusiva)
 porque la escasez les fuerza a aceptar lo que haya.
 
 ## El resultado
