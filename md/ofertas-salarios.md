@@ -16,9 +16,7 @@ publicada en [MadridJS](http://www.meetup.com/es/madridjs/),
 comunidad que ayudo a coordinar.
 
 Ésta es mi respuesta personal,
-y también incluyo el criterio oficial como organizador de MadridJS:
-no siempre es fácil separar ambos papeles,
-y me gustaría aclarar los criterios que usamos para moderar las listas.
+aunque aprovecho para aclarar también el criterio oficial que usamos en MadridJS para moderar las listas.
 
 ## Ofertas de trabajo con salario
 
