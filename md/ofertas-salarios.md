@@ -85,7 +85,7 @@ cuando lo habitual es que la empresa sea la que tiene todas las cartas
 y la que puede hacerlo pasar regular al posible candidato.
 Hay gente a la que le choca mucho esta situación:
 ¿una empresa se atreve a contratar a alguien,
-creando trabajo y posiblemente ayudando a alguien,
+creando trabajo y reduciendo el paro,
 y a pesar de eso se le critica?
 
 El viejo dicho periodístico es que lo cotidiano
