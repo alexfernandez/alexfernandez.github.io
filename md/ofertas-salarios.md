@@ -38,7 +38,7 @@ Pero hay un reverso tenebroso.
 En muchas ofertas de trabajo los miembros de la lista no se cortan un pelo,
 y comentan todos los aspectos de la oferta;
 desde la presencia o ausencia de salario hasta los requisitos más nimios.
-Puede llamar la atención la falta total de servilismo de los comentaristas:
+Puede llamar la atención el atrevimiento de algunos de los comentaristas:
 no suelen cortarse ni un pelo por señalar que los sueldos son malos
 (a veces ni siquiera alcanzan el salario mínimo interprofesional),
 o que los requisitos son imposibles de cumplir.
