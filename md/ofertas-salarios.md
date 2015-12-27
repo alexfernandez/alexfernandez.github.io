@@ -94,6 +94,8 @@ no es noticia,
 mientras que lo extraordinario
 (un hombre mordiendo a un perro)
 llama la atención y ayuda a difundir la noticia.
+Y no digamos para conseguir la elusiva viralidad,
+en una época en la que los memes de una semana ya huelen a viejo.
 
 Hay ahora mismo pocos sectores profesionales en España
 donde un profesional cualificado pueda encontrar trabajo rápidamente
