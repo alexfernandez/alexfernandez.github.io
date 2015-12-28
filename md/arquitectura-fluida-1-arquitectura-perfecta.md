@@ -1,7 +1,7 @@
 ---
 title: Tras la arquitectura perfecta
 subtitle: 'La arquitectura fluida, parte 1'
-footer: Publicado originalmente en TodoJS el 2015-11-09.
+footer: Publicado originalmente en [TodoJS](http://www.todojs.com/tras-la-arquitectura-perfecta-la-arquitectura-fluida/) el 2015-11-09.
 ---
 
 ![Imagen: [©](https://creativecommons.org/licenses/by/2.0/) [Patrik Jones](https://www.flickr.com/photos/laprimadonna/4881676285)](pics/arquitectura-fluida-1.jpg "Deep Blue Dolphin Love")

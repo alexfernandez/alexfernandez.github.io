@@ -1,7 +1,7 @@
 ---
 title: Estrategias de migración
 subtitle: 'La arquitectura fluida, parte 2'
-footer: Publicado originalmente en TodoJS el 2015-.
+footer: Publicado originalmente en [TodoJS](http://www.todojs.com/tras-la-arquitectura-perfecta-la-arquitectura-fluida-parte-2/) el 2015-12-28.
 ---
 
 ![Imagen: [John Soane](http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html)](pics/arquitectura-fluida-2.jpg "El puente del César sobre el Rhin")
