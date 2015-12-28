@@ -41,7 +41,9 @@ Articles about stuff not related to software engineering.
 
 ## Artículos en español
 
+* 2015-12-28: [La arquitectura fluida 2: estrategias de migración](2015/arquitectura-fluida-2-estrategias-migracion.html)
 * 2015-12-27: [Ofertas de trabajo y salarios](2015/ofertas-salarios.html)
+* 2015-11-09: [La arquitectura fluida 1: tras la arquitectura perfecta](2015/arquitectura-fluida-1-arquitectura-perfecta.html)
 * 2015-11-08: [Entrevista en DevUse](2015/entrevista-devuse.html)
 
 Artículos para [GodTIC](http://www.godtic.com/blog/):
