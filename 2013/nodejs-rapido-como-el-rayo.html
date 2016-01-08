@@ -59,8 +59,7 @@
 										<p><p>
 									</header>
 										<div class="figure">
-<img src="pics/nodejs-rapido-como-el-rayo.jpg" title="Tormenta sobre Madrid (Salamanca) 01" alt="Imagen: MGR!" />
-<p class="caption">Imagen: <a href="http://commons.wikimedia.org/wiki/File:Tormenta_sobre_Madrid_%28Salamanca%29_01.jpg">MGR!</a></p>
+<img src="pics/nodejs-rapido-como-el-rayo.jpg" title="Tormenta sobre Madrid (Salamanca) 01" alt="Imagen: MGR!" /><p class="caption">Imagen: <a href="http://commons.wikimedia.org/wiki/File:Tormenta_sobre_Madrid_%28Salamanca%29_01.jpg">MGR!</a></p>
 </div>
 <p>Muchos de vosotros habréis llegado a node.js atraídos por su supuesta “velocidad”. ¿Es realmente tan rápido sirviendo páginas web como lo pintan? En esta entrada vamos a investigar un poco sobre este mito, tomando como banco de pruebas un clon experimental de memcached hecho en node: <a href="https://npmjs.org/package/nodecached">nodecached</a>. Por el camino haremos unas cuantas <a href="pruebas-de-carga.html">pruebas de carga</a> y veremos algunos trucos de optimización.</p>
 <h2 id="comparaciones-odiosas">Comparaciones odiosas</h2>
@@ -95,7 +94,7 @@ Time per request:       0.00399 [ms] (mean, across all concurrent requests)</cod
 <h2 id="las-pruebas">Las pruebas</h2>
 <p>Llega el momento de arrancar nuestro invento.</p>
 <h3 id="la-máquina">La máquina</h3>
-<p>El ordenador elegido para las pruebas tiene un procesador i3-2120T <span class="citation">@2.60GHz</span> con sólo dos cores, elegido por su bajo consumo y no por su rendimiento estelar — no en vano es un procesador de portátil. Corre Debian testing con la versión de node 0.8.23, un tanto anticuada; más adelante probaremos también la 0.10.20 para comprobar si hay diferencias.</p>
+<p>El ordenador elegido para las pruebas tiene un procesador i3-2120T @2.60GHz con sólo dos cores, elegido por su bajo consumo y no por su rendimiento estelar — no en vano es un procesador de portátil. Corre Debian testing con la versión de node 0.8.23, un tanto anticuada; más adelante probaremos también la 0.10.20 para comprobar si hay diferencias.</p>
 <h3 id="el-servidor">El servidor</h3>
 <p>Como aconsejaron al <a href="https://groups.google.com/forum/#!topic/nodejs/gqZZmMf3W5M">clonador de las 100 líneas</a>, arrancamos el servidor con la opción <code>--nouse_idle_notification</code> para domesticar un poco la máquina virtual y que no recoja la basura cuando le parezca. Elegimos el puerto 11311 para nuestro servidor:</p>
 <pre><code>$ node --nouse_idle_notification bin/nodecached.js -p 11311</code></pre>
