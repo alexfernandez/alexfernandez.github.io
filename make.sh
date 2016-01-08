@@ -22,9 +22,7 @@ pandoc --template read-only.html -s 2012/reporting-problems-part-1.md -o 2012/re
 pandoc --template read-only.html -s 2012/reporting-problems-part-2.md -o 2012/reporting-problems-part-2.html
 pandoc --template read-only.html -s 2013/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
 pandoc --template read-only.html -s 2015/walk-through-my-code.md -o 2015/walk-through-my-code.html
-pandoc --template read-only.html -s 2015/entrevista-devuse.md -o 2015/entrevista-devuse.html
-pandoc --template read-only.html -s 2015/arquitectura-fluida-1-arquitectura-perfecta.md -o 2015/arquitectura-fluida-1-arquitectura-perfecta.html
-pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migracion.md -o 2015/arquitectura-fluida-2-estrategias-migracion.html
+pandoc --template read-only.html -s 2016/against-craftsmanship.md -o 2016/against-craftsmanship.html
 
 # Español
 pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html
@@ -33,6 +31,9 @@ pandoc --template read-only.html -s 2013/nodejs-rapido-como-el-rayo.md -o 2013/n
 pandoc --template read-only.html -s 2013/modo-cluster.md -o 2013/modo-cluster.html
 pandoc --template read-only.html -s 2013/pruebas-asincronas.md -o 2013/pruebas-asincronas.html
 pandoc --template read-only.html -s 2015/ofertas-salarios.md -o 2015/ofertas-salarios.html
+pandoc --template read-only.html -s 2015/entrevista-devuse.md -o 2015/entrevista-devuse.html
+pandoc --template read-only.html -s 2015/arquitectura-fluida-1-arquitectura-perfecta.md -o 2015/arquitectura-fluida-1-arquitectura-perfecta.html
+pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migracion.md -o 2015/arquitectura-fluida-2-estrategias-migracion.html
 
 git add -A
 git commit -am "Make on $date"
