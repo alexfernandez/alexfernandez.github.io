@@ -1,7 +1,7 @@
 ---
 title: The Case Against Software Craftsmanship
 subtitle: 'or Why Mistrust Engineers that Present Themselves as Craftsmen'
-footer: Published on 2016-01-04.
+footer: Published on 2016-01-08.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
