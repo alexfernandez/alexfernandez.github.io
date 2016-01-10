@@ -172,7 +172,11 @@ paradoxically, this would create an artificial pressure on reservations
 so they filled up quickly,
 and the conversion rate would _fall_ to about 30%.
 
+Threatening to kill adorable baby animals if people failed to show up
+did not work for us either.
 The next logical step was to stop limiting attendance altogether.
+This has worked really well for us:
+no more empty chairs while people complain that they could not make a reservation.
 
 ### Dying From Success
 
@@ -190,7 +194,8 @@ The alternatives are, again, to control and limit attendance;
 and we do not want to do that.
 Limiting reservations on Meetup.com or any similar platform
 is no good unless someone checks that everybody has signed up.
-So we prefer to 
+So we prefer to let everyone sign up,
+and then deal with attendance on the spot.
 
 The worst that can happen is that you, the organizer,
 have to turn people back because the venue is full;
