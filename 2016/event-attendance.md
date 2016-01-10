@@ -1,5 +1,5 @@
 ---
-title: Increasing Meetup Assistance
+title: Increasing Event Attendance
 subtitle: 'Several Measures and Why They Are Useless'
 footer: Published on 2016-01-10.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
