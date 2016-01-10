@@ -41,7 +41,7 @@ Por eso no soy partidario de cortar la asistencia en ningún caso, y si hay que 
 
 ### The Funnel
 
-![Attendance Funnel](pics/funnel.jpg "Funnel for attendance, a lot sign up, a few attend")
+![Attendance Funnel](pics/funnel.png "Funnel for attendance, a lot sign up, a few attend")
 
 
 ### Dying From Success
