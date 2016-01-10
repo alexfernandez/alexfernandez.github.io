@@ -125,11 +125,26 @@ Do you think it would be successful?
 That is the kind of strategy that a stuffy department-store manager
 might come up with,
 but to anyone with half a clue looks really poorly thought.
+Prevent people from using the shopping cart,
+which doesn't cost you anything?
 
-You _really_ don't want to do anything that decreases the broad ends of the funnel:
-not reduce the number of people that sign up,
-and definitely _not_ decrease the community by expelling inconstant members!
+You _really_ do not want to do anything that decreases the broad ends of the funnel.
+In our case, it is not a good idea to limit the number of people that sign up,
+and you have better think twice before _reducing the community_ by expelling inconstant members!
 Instead, you want to study why your conversion rate is so low.
+
+### Conversion Rates
+
+The obvious way is to charge for events:
+once people have paid for something
+they are sure to attend.
+But unless you are TED Talks,
+good luck bringing people to your events.
+The only way to increase conversion rate would seem to be
+to make events more interesting,
+meetups more engaging,
+and talks more inspiring.
+Then again, I bet you are already doing all that already!
 
 With this new point of view, a conversion rate of 30 to 50% is not bad.
 Many online shops would sell their souls for a 20%.
