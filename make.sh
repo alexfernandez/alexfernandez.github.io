@@ -23,7 +23,7 @@ pandoc --template read-only.html -s 2012/reporting-problems-part-2.md -o 2012/re
 pandoc --template read-only.html -s 2013/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
 pandoc --template read-only.html -s 2015/walk-through-my-code.md -o 2015/walk-through-my-code.html
 pandoc --template read-only.html -s 2016/against-craftsmanship.md -o 2016/against-craftsmanship.html
-pandoc --template read-only.html -s 2016/meetup-assistance.md -o 2016/meetup-assistance.html
+pandoc --template read-only.html -s 2016/event-attendance.md -o 2016/event-attendance.html
 
 # Español
 pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html
