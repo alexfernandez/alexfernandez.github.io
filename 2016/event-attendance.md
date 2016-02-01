@@ -231,7 +231,15 @@ has 142 people signed up for 25 places,
 again in Campus Madrid but this time in the
 [classroom](https://www.campus.co/madrid/es/about#classroom).
 
-I will write an update when we are done.
-But we would be very lucky to have to turn people back!
-Even if we have to pay them a beer after the event.
+*Update*: everything went perfectly with both events.
+For the round table about 190 people showed up,
+out of the 204 places.
+As to the functional programming workshop,
+we had 25 places and 20 people showed up,
+with 396 more following the event on streaming video.
+
+Even if next time we have to turn people back,
+we will be very lucky to count with so many people
+willing to come to our events.
+So see you at our next Meetup!
 
