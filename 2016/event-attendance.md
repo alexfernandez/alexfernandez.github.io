@@ -231,7 +231,7 @@ has 142 people signed up for 25 places,
 again in Campus Madrid but this time in the
 [classroom](https://www.campus.co/madrid/es/about#classroom).
 
-*Update*: everything went perfectly with both events.
+**Update**: everything went perfectly with both events.
 For the round table about 190 people showed up,
 out of the 204 places.
 As to the functional programming workshop,
