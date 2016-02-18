@@ -105,7 +105,31 @@ err = callSecond()</code></pre>
 <p>Observe that the error message says &quot;no new variables&quot;: it is OK to reuse <code>err</code> as long as there is a new variable there.</p>
 <pre><code>first, err := callFirst()
 second, err := callSecond()</code></pre>
-<p>This works! Don't ask me why it doesn't work with only <code>err</code>, just the compiler being helpful I guess.</p>
+<p>This works! So one new variable and one old variable is fine; but only one old variable is not. Even ignoring the return value is <em>not</em> OK:</p>
+<pre><code>_, err := callFirst()
+_, err := callSecond()</code></pre>
+<p>This fails, don't ask me why; just the compiler being helpful I guess. The end result is that you spend time changing <code>=</code> to <code>:=</code> and viceversa, for no good reason. I'm too old for this crap.</p>
+<h3 id="implicit-conversions">Implicit Conversions</h3>
+<p>Did you know that in Go you cannot simply divide <code>6 / 4</code> and expect the answer to be <code>1.5</code>? It does not <a href="https://groups.google.com/forum/#!topic/golang-nuts/LXL4L0jzWXU">perform implicit conversions</a> as you might expect from a language designed this century. So you first have to do an explicit conversion, leading to such fun errors as:</p>
+<blockquote>
+<p>cannot use n / d (type int) as type float32 in return argument</p>
+</blockquote>
+<h3 id="mandatory-brace-style">Mandatory Brace Style</h3>
+<p>Some people like the correct style for braces: nice and symmetrical. I'm talking of course of the &quot;brace on the next line&quot; school of thought:</p>
+<pre><code>if something
+{
+    something else
+}</code></pre>
+<p>Other people like the more compact notation with &quot;brace on the same line&quot;:</p>
+<pre><code>if something {
+    something else
+}</code></pre>
+<p>It is of course wrong, and in fact many of the proponents then add an empty line.</p>
+<p>Here Go takes sides, and chooses the worst possible solution: mandating one true style. From the <a href="https://golang.org/doc/faq#semicolons">FAQ</a>:</p>
+<blockquote>
+<p>the advantages of a single, programmatically mandated format for all Go programs greatly outweigh any perceived disadvantages of the particular style.</p>
+</blockquote>
+<p>That is not cool, people. You may shut up Googlers from having the sempiternal brace debate, but you cannot <a href="https://groups.google.com/forum/#!topic/golang-nuts/rzLzp_Z74ik%5B1-25%5D">shut</a> <a href="https://www.reddit.com/r/golang/comments/2jpzpd/brace_yourself_a_small_script_for_converting/">us</a> <a href="http://zerospace.org/goallman.php">people</a> <a href="http://comments.gmane.org/gmane.comp.lang.go.general/19965">up</a>!</p>
 <h3 id="just-making-shit-up">Just Making Shit Up</h3>
 <p>Sometimes you get the impression that, as the creators of Go went along, they realized that it lacked some very basic capability and added it as a <a href="https://golang.org/pkg/builtin/">&quot;built-in function&quot;</a>. There are 15 of these abominations.</p>
 <p>A good example is <a href="https://blog.golang.org/go-maps-in-action">maps</a>. So you declare an array of campaigns:</p>
@@ -188,7 +212,10 @@ return nil</code></pre>
 <h2 id="a-might-have-been">A Might Have Been</h2>
 <p>So, what drove Google to create a new language?</p>
 <h3 id="the-bleeding-name">The Bleeding Name</h3>
-<p>People, if you ever create a language,</p>
+<p>People, if you ever create a language, use a distinctive word that can be googled. &quot;Golang&quot; would have been fine; &quot;Go&quot; is <a href="http://www.wordfrequency.info/free.asp?s=y">the 35th most common word in English</a>. Not cool.</p>
+<h3 id="what-could-have-been">What Could Have Been</h3>
+<p>All these annoyances are not only a pain in the ass, but make Go a huge missed opportunity.</p>
+<p>It is a pity because I liked the idea very much: a compiled language that is very performant and which solves concurrency with elegance. A noble successor to C indeed. But if there is something that C is not, is opinionated: it adapts to your style and is flexible enough to accomodate everyone. Alas, that is something that the creators of Go deemed <a href="https://golang.org/doc/faq#semicolons">unworthy of their time</a>.</p>
 								</div>
 							</section>
 							<section id="last">

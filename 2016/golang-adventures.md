@@ -105,8 +105,65 @@ it is OK to reuse `err` as long as there is a new variable there.
     second, err := callSecond()
 
 This works!
-Don't ask me why it doesn't work with only `err`,
+So one new variable and one old variable is fine;
+but only one old variable is not.
+Even ignoring the return value is _not_ OK:
+
+    _, err := callFirst()
+    _, err := callSecond()
+
+This fails, don't ask me why;
 just the compiler being helpful I guess.
+The end result is that you spend time changing `=` to `:=` and viceversa,
+for no good reason.
+I'm too old for this crap.
+
+### Implicit Conversions
+
+Did you know that in Go you cannot simply divide
+`6 / 4` and expect the answer to be `1.5`?
+It does not [perform implicit conversions](https://groups.google.com/forum/#!topic/golang-nuts/LXL4L0jzWXU)
+as you might expect from a language designed this century.
+So you first have to do an explicit conversion,
+leading to such fun errors as:
+
+> cannot use n / d (type int) as type float32 in return argument
+
+### Mandatory Brace Style
+
+Some people like the correct style for braces: nice and symmetrical.
+I'm talking of course of the "brace on the next line" school of thought:
+
+```
+if something
+{
+    something else
+}
+```
+
+Other people like the more compact notation with "brace on the same line":
+
+```
+if something {
+    something else
+}
+```
+
+It is of course wrong, and in fact many of the proponents then add an empty line.
+
+Here Go takes sides, and chooses the worst possible solution:
+mandating one true style.
+From the [FAQ](https://golang.org/doc/faq#semicolons):
+
+> the advantages of a single, programmatically mandated format for all Go programs greatly outweigh any perceived disadvantages of the particular style.
+
+That is not cool, people.
+You may shut up Googlers from having the sempiternal brace debate,
+but you cannot
+[shut](https://groups.google.com/forum/#!topic/golang-nuts/rzLzp_Z74ik%5B1-25%5D)
+[us](https://www.reddit.com/r/golang/comments/2jpzpd/brace_yourself_a_small_script_for_converting/)
+[people](http://zerospace.org/goallman.php)
+[up](http://comments.gmane.org/gmane.comp.lang.go.general/19965)!
 
 ### Just Making Shit Up
 
@@ -278,4 +335,24 @@ So, what drove Google to create a new language?
 ### The Bleeding Name
 
 People, if you ever create a language,
+use a distinctive word that can be googled.
+"Golang" would have been fine; "Go" is
+[the 35th most common word in English](http://www.wordfrequency.info/free.asp?s=y).
+Not cool.
+
+### What Could Have Been
+
+All these annoyances are not only a pain in the ass,
+but make Go a huge missed opportunity.
+
+It is a pity because I liked the idea very much:
+a compiled language that is very performant
+and which solves concurrency with elegance.
+A noble successor to C indeed.
+But if there is something that C is not,
+is opinionated:
+it adapts to your style and is flexible enough
+to accomodate everyone.
+Alas, that is something that the creators of Go
+deemed [unworthy of their time](https://golang.org/doc/faq#semicolons).
 
