@@ -63,6 +63,51 @@ So now be ready to write this bit quite often:
 Of course, with non-optional braces.
 At least the `if (error) return callback(error)` was an invariant.
 
+### Variable Declarations
+
+This one looks inoffensive enough
+but can be most annoying.
+To declare and define (give value) a variable
+you use the `:=` operator:
+
+    a := 5
+
+While to just give a value to an existing variable
+you use the `=` operator:
+
+    var a string;
+    a = 5
+
+So, what happens is that if your code uses the same variable several times
+(for instance the ubiquitous `err`) you will find this joy:
+
+    err := callFirst()
+    err := callSecond()
+
+results in
+
+    main.go:10: no new variables on left side of :=
+
+Therefore you have to change the second invocation to:
+
+    err := callFirst()
+    err = callSecond()
+
+Ending one of the joys of programming, the ease of copy-paste.
+Or defining the variable ahead of time with this clumsy wart:
+
+    var err error
+
+Observe that the error message says "no new variables":
+it is OK to reuse `err` as long as there is a new variable there.
+
+    first, err := callFirst()
+    second, err := callSecond()
+
+This works!
+Don't ask me why it doesn't work with only `err`,
+just the compiler being helpful I guess.
+
 ### Just Making Shit Up
 
 Sometimes you get the impression that,
@@ -173,6 +218,12 @@ Alas, Debian packs Go 1.3, and the latest Ubuntu with long term support
 (14.04) is even worse: Go 1.2.
 
 So at this point backwards compatibility is not one of the selling points for Go.
+
+### Radix
+
+This recommended [package](https://github.com/mediocregopher/radix.v2)
+is broken into several subpackages.
+I don't know where to start here.
 
 ### Godis
 

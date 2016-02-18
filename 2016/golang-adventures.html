@@ -86,6 +86,26 @@
     return empty, nil
 }</code></pre>
 <p>Of course, with non-optional braces. At least the <code>if (error) return callback(error)</code> was an invariant.</p>
+<h3 id="variable-declarations">Variable Declarations</h3>
+<p>This one looks inoffensive enough but can be most annoying. To declare and define (give value) a variable you use the <code>:=</code> operator:</p>
+<pre><code>a := 5</code></pre>
+<p>While to just give a value to an existing variable you use the <code>=</code> operator:</p>
+<pre><code>var a string;
+a = 5</code></pre>
+<p>So, what happens is that if your code uses the same variable several times (for instance the ubiquitous <code>err</code>) you will find this joy:</p>
+<pre><code>err := callFirst()
+err := callSecond()</code></pre>
+<p>results in</p>
+<pre><code>main.go:10: no new variables on left side of :=</code></pre>
+<p>Therefore you have to change the second invocation to:</p>
+<pre><code>err := callFirst()
+err = callSecond()</code></pre>
+<p>Ending one of the joys of programming, the ease of copy-paste. Or defining the variable ahead of time with this clumsy wart:</p>
+<pre><code>var err error</code></pre>
+<p>Observe that the error message says &quot;no new variables&quot;: it is OK to reuse <code>err</code> as long as there is a new variable there.</p>
+<pre><code>first, err := callFirst()
+second, err := callSecond()</code></pre>
+<p>This works! Don't ask me why it doesn't work with only <code>err</code>, just the compiler being helpful I guess.</p>
 <h3 id="just-making-shit-up">Just Making Shit Up</h3>
 <p>Sometimes you get the impression that, as the creators of Go went along, they realized that it lacked some very basic capability and added it as a <a href="https://golang.org/pkg/builtin/">&quot;built-in function&quot;</a>. There are 15 of these abominations.</p>
 <p>A good example is <a href="https://blog.golang.org/go-maps-in-action">maps</a>. So you declare an array of campaigns:</p>
@@ -129,6 +149,8 @@
 </blockquote>
 <p>Alas, Debian packs Go 1.3, and the latest Ubuntu with long term support (14.04) is even worse: Go 1.2.</p>
 <p>So at this point backwards compatibility is not one of the selling points for Go.</p>
+<h3 id="radix">Radix</h3>
+<p>This recommended <a href="https://github.com/mediocregopher/radix.v2">package</a> is broken into several subpackages. I don't know where to start here.</p>
 <h3 id="godis">Godis</h3>
 <p>This driver works reasonably well, but it hasn't been updated since 2012. An ominous note on <a href="https://github.com/simonz05/godis">the front page</a> states:</p>
 <blockquote>
