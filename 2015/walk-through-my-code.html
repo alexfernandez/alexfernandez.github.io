@@ -59,21 +59,19 @@
 										<p>Or: How to Do a Proper Code Walkthrough<p>
 									</header>
 										<div class="figure">
-<img src="pics/walk-through-my-code.jpg" title="Wroclaw University Library digitizing rare archival texts" alt="Picture credit: j_cadmus" />
-<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg">j_cadmus</a></p>
+<img src="pics/walk-through-my-code.jpg" title="Wroclaw University Library digitizing rare archival texts" alt="Picture credit: j_cadmus" /><p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Wroclaw_University_Library_digitizing_rare_archival_texts.jpg">j_cadmus</a></p>
 </div>
 <p>So you are a good, studious dev who uses GitHub to create pull requests, review and merge your changes. As part of a distributed team you don not often get to discuss your code with others; that is why you need the approval (+1) of at least two other devs to put anything into production, and no disapprovals (-1) from anyone in the team. It works great!</p>
 <p>But then one of the devs comes with a pull request that has 1000+ lines. Or perhaps one that is made of a ton of small changes. Or maybe it refactors one of the grittiest parts of the code, where only the brave dare enter (and only after drinking copious amounts of caffeinated beverages). In any case, nobody understands the darned thing except for the (obviously intoxicated) author.</p>
 <p>This recent Twitter joke sums it up beautifully:</p>
 <div class="figure">
-<img src="pics/typical-patch.jpg" title="Three people look at us from a mountain of trash" alt="Typical several-thousand-line patch." />
-<p class="caption"><a href="https://twitter.com/Obdurodon/status/651740765522161664">Typical several-thousand-line patch</a>.</p>
+<img src="pics/typical-patch.jpg" title="Three people look at us from a mountain of trash" alt="Typical several-thousand-line patch." /><p class="caption"><a href="https://twitter.com/Obdurodon/status/651740765522161664">Typical several-thousand-line patch</a>.</p>
 </div>
 <p>What can you do about it? Why, this particular pull request is ripe for a walkthrough! And the best part is that the author will probably learn in the process at least as much as the reviewers.</p>
 <p>This article will give you an overview which tries to be comprehensive (at the expense of being too obvious most of the time) from an experienced practitioner, but probably fails in many respects. <script type="text/javascript">
 <!--
 h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#72;&#x65;&#108;&#112;&#32;&#x6d;&#x65;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#32;&#x69;&#116;&#x21;'+'<\/'+'a'+'>');
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'Help me improve it!'+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#72;&#x65;&#108;&#112;&#32;&#x6d;&#x65;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#32;&#x69;&#116;&#x21;&#32;&#40;&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;&#x29;</noscript></p>
 <h2 id="the-perfect-walkthrough">The Perfect Walkthrough</h2>
