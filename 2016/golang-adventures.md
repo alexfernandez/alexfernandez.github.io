@@ -129,6 +129,30 @@ leading to such fun errors as:
 
 > cannot use n / d (type int) as type float32 in return argument
 
+But as it happens, Go isn't even able to compare an integer with a float:
+
+```
+    var myFloat = float64(5)
+    var myInt = 5
+    if myFloat > myInt {
+        return true
+    }   
+...
+
+invalid operation: myFloat > myInt (mismatched types float64 and int)
+```
+
+I think this is a bit too much.
+This is why you will occasionally see unholy messes like this:
+
+```
+    var myFloat = float64(5)
+    var myInt = 5
+    if myFloat > float64(myInt) {
+        return true
+    }   
+```
+
 ### Mandatory Brace Style
 
 Some people like the correct style for braces: nice and symmetrical.

@@ -114,6 +114,21 @@ _, err := callSecond()</code></pre>
 <blockquote>
 <p>cannot use n / d (type int) as type float32 in return argument</p>
 </blockquote>
+<p>But as it happens, Go isn't even able to compare an integer with a float:</p>
+<pre><code>    var myFloat = float64(5)
+    var myInt = 5
+    if myFloat &gt; myInt {
+        return true
+    }   
+...
+
+invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code></pre>
+<p>I think this is a bit too much. This is why you will occasionally see unholy messes like this:</p>
+<pre><code>    var myFloat = float64(5)
+    var myInt = 5
+    if myFloat &gt; float64(myInt) {
+        return true
+    }   </code></pre>
 <h3 id="mandatory-brace-style">Mandatory Brace Style</h3>
 <p>Some people like the correct style for braces: nice and symmetrical. I'm talking of course of the &quot;brace on the next line&quot; school of thought:</p>
 <pre><code>if something
