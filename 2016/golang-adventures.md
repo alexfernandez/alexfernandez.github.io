@@ -14,6 +14,10 @@ It is not the first occasion that we meet,
 but now I am serious about it.
 And I have to vent my frustrations with the language.
 
+I don't want to sound bitter needlessly,
+although to be honest I don't care much as long as it's for comedic effect.
+So sit down and relax while I pound on your new favorite language.
+
 ## The Language
 
 ### Adding Elements to an Array
