@@ -281,6 +281,25 @@ or `convoluted_test.go`, all is fine.
 
 ## The Help
 
+You are programming in Go, so you are probably going to need some help.
+How do you go about it?
+
+### The Name
+
+First, let me get this off my chest:
+why on Earth would someone create a language with a name
+that cannot be searched?
+Especially someone working for Google,
+which by the way runs the world's biggest _search engine_!
+
+Usually it is fine to search for "golang...",
+but once in a while you forget and are greeted
+by innumerable pages helping you play Go (the Eastern board game),
+or any other weird stuff
+(did you know there's a game called "Go Repo", now I do).
+
+### Documentation
+
 With JavaScript finding help is very easy:
 the semi-official docs are in 
 
@@ -420,6 +439,73 @@ You have to register in five different places
 and then fax them your birth certificate or something,
 so that they ensure that you ar really who you say you are
 (and more devoted than the Pope).
+
+### Installing from Source
+
+So the version of Go in your distribution is a bit out of date
+(meaning that nothing works any more, or is unavoidably slow).
+Just grab the sources and
+[compile your own](https://golang.org/doc/install/source), then.
+You just need to have a modern version of Go installed, and...
+Wait, what?
+
+Sorry, the Go toolchain is written in Go,
+and therefore requires Go to be compiled.
+So you need to download the Go binaries,
+and _only then_ can you compile from source.
+
+Remember when I said that Debian packs Go 1.3
+(and Ubuntu LTS Go 1.2)?
+The latest version of Go is 1.6 and was released a couple of days ago,
+so it's still quite shiny.
+But it requires
+Go 1.4 to compile,
+so there is one extra step
+of downloading an intermediate version,
+building, installing _and then_ going for 1.6.
+Isn't life great?
+
+In the end I just installed the binary version
+and moved on with my (now a bit more miserable) life.
+
+### Performance
+
+In the end all is fine, since you get such great performance.
+Except when you use Go 1.3 where HTTP requests to the server
+are not concurrent (for some reason).
+Or when you upgrade to Go 1.6 and your program has exploded in flames
+after spouting this most modest of messages:
+
+    fatal error: concurrent map read and map write
+
+Then you have to visit
+[an arcane blog post](https://blog.golang.org/go-maps-in-action)
+for a mysterious incantation
+which turns your code into a minion of Cthulhu
+that uses [mutexes](https://golang.org/pkg/sync/#RWMutex):
+
+```
+var counter = struct{
+    sync.RWMutex
+    m map[string]int
+}{m: make(map[string]int)}
+```
+
+Well, that's the price you pay for concurrency.
+And thankfully it performs just as well,
+which makes you think:
+why didn't the high priests of the language implement it by default?
+The FAQ [helpfully explains](https://golang.org/doc/faq#atomic_maps)
+(and allow me to glose):
+
+> Therefore requiring that all map operations grab a mutex would slow down most programs and add safety to few.
+
+You mean it would slow down _trivial_ programs and add safety to _those that matter_?
+
+> This was not an easy decision, however, since it means uncontrolled map access can crash the program.
+
+It's nice to know that you have lost sleep over this matter,
+but hey, my programs are still crashing...
 
 ## A Might Have Been
 
