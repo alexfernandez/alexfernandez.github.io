@@ -142,13 +142,22 @@ But as it happens, Go isn't even able to compare an integer with a float:
 invalid operation: myFloat > myInt (mismatched types float64 and int)
 ```
 
-I think this is a bit too much.
+This is clearly going too far with one's beliefs
+against automatic conversions.
 This is why you will occasionally see unholy messes like this:
 
 ```
     var myFloat = float64(5)
     var myInt = 5
     if myFloat > float64(myInt) {
+        return true
+    }   
+```
+
+But this same line with constants works, just to annoy you personally:
+
+```
+    if 1 > 2.0 {
         return true
     }   
 ```
@@ -226,7 +235,10 @@ In the end `parseInt()`, `parseFloat()` and the URI things
 are the only functions in use,
 and they are quite low-level really.
 
-## The Toolchain
+## Tooling
+
+This area is of course ladden with misery and despair,
+with a few bright spots.
 
 ### Anal Retentive Compiler.
 
@@ -235,6 +247,37 @@ Just one nitpick:
 why forbid unused imports and variables, but allow unused functions?
 Aren't unused functions equally (or even more) dangerous?
 This question has been bothering me for some time.
+
+### Testing
+
+There is a very nice feature of the toolchain:
+[integrated testing](https://golang.org/pkg/testing/).
+You can write a few tests as functions that start with `Test...`
+and run them all using `go test`. Nice!
+
+Of course, it doesn't come without its share of weirdness.
+For starters, you may not mix testing code and regular code.
+I know it's frowned upon in many circles,
+but it is often quite handy:
+change your code, then scroll down and change the tests.
+At least I would like to have the option.
+
+Then, files that contains tests _need_ to be called `..._test.go`.
+This seems like a sensible addition,
+until you try to autocomplete from the console to access your regular file
+`campaigns.go` instead of your testing file
+`campaigns_test.go`:
+
+```
+$ campaigns[tab]
+campaigns.go campaigns_test.go
+```
+
+One extra key per file! Outrageous.
+As long as you avoid the urge to name your testing file
+just as your regular file,
+and name your tests `integration_test.go`
+or `convoluted_test.go`, all is fine.
 
 ## The Help
 
@@ -351,6 +394,32 @@ This is like a kaleidoscope of weird issues.
 
 Since Go doesn't have generics, you will have to repeat this crappy code
 every time you want to read a different hash.
+
+## Assorted Issues
+
+### Open Source
+
+The good thing about Go is that it is open source.
+Everyone can look at the source code,
+even send a pull request...
+
+What is that in the
+[README.md](https://github.com/golang/go),
+you say?
+
+> Note that we do not accept pull requests and that we use the issue tracker for bug reports and proposals only. Please ask questions on https://forum.golangbridge.org or https://groups.google.com/forum/#!forum/golang-nuts.
+
+Oopsie.
+
+Yes, there is a
+[most convoluted process](https://golang.org/doc/contribute.html)
+to contribute your code.
+Say you find a simple bug in the code,
+easy to fix but which is hindering your work.
+You have to register in five different places
+and then fax them your birth certificate or something,
+so that they ensure that you ar really who you say you are
+(and more devoted than the Pope).
 
 ## A Might Have Been
 

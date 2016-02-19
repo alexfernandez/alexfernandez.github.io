@@ -123,10 +123,14 @@ _, err := callSecond()</code></pre>
 ...
 
 invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code></pre>
-<p>I think this is a bit too much. This is why you will occasionally see unholy messes like this:</p>
+<p>This is clearly going too far with one's beliefs against automatic conversions. This is why you will occasionally see unholy messes like this:</p>
 <pre><code>    var myFloat = float64(5)
     var myInt = 5
     if myFloat &gt; float64(myInt) {
+        return true
+    }   </code></pre>
+<p>But this same line with constants works, just to annoy you personally:</p>
+<pre><code>    if 1 &gt; 2.0 {
         return true
     }   </code></pre>
 <h3 id="mandatory-brace-style">Mandatory Brace Style</h3>
@@ -159,9 +163,17 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <p>Therefore declaring that bootstrapping and debugging is not guaranteed for these frolicking gophers.</p>
 <p>Granted, there are also built-in functions in JavaScript, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">about 12</a>. Of these, <code>escape()</code> and <code>unescape()</code> are holdouts from a different era; <code>eval()</code> is widely discredited.</p>
 <p>In the end <code>parseInt()</code>, <code>parseFloat()</code> and the URI things are the only functions in use, and they are quite low-level really.</p>
-<h2 id="the-toolchain">The Toolchain</h2>
+<h2 id="tooling">Tooling</h2>
+<p>This area is of course ladden with misery and despair, with a few bright spots.</p>
 <h3 id="anal-retentive-compiler.">Anal Retentive Compiler.</h3>
 <p>Nothing that has not been <a href="http://www.evanmiller.org/four-days-of-go.html">said better before</a>. Just one nitpick: why forbid unused imports and variables, but allow unused functions? Aren't unused functions equally (or even more) dangerous? This question has been bothering me for some time.</p>
+<h3 id="testing">Testing</h3>
+<p>There is a very nice feature of the toolchain: <a href="https://golang.org/pkg/testing/">integrated testing</a>. You can write a few tests as functions that start with <code>Test...</code> and run them all using <code>go test</code>. Nice!</p>
+<p>Of course, it doesn't come without its share of weirdness. For starters, you may not mix testing code and regular code. I know it's frowned upon in many circles, but it is often quite handy: change your code, then scroll down and change the tests. At least I would like to have the option.</p>
+<p>Then, files that contains tests <em>need</em> to be called <code>..._test.go</code>. This seems like a sensible addition, until you try to autocomplete from the console to access your regular file <code>campaigns.go</code> instead of your testing file <code>campaigns_test.go</code>:</p>
+<pre><code>$ campaigns[tab]
+campaigns.go campaigns_test.go</code></pre>
+<p>One extra key per file! Outrageous. As long as you avoid the urge to name your testing file just as your regular file, and name your tests <code>integration_test.go</code> or <code>convoluted_test.go</code>, all is fine.</p>
 <h2 id="the-help">The Help</h2>
 <p>With JavaScript finding help is very easy: the semi-official docs are in</p>
 <p>Now Go had it <em>much</em> easier: there is an official creator, sponsor and source for everything Go. Why then is everything spread in a lot of places?</p>
@@ -224,6 +236,15 @@ log.Printf(&quot;Read %v campaigns&quot;, len(campaigns))
 return nil</code></pre>
 <p>This is like a kaleidoscope of weird issues.</p>
 <p>Since Go doesn't have generics, you will have to repeat this crappy code every time you want to read a different hash.</p>
+<h2 id="assorted-issues">Assorted Issues</h2>
+<h3 id="open-source">Open Source</h3>
+<p>The good thing about Go is that it is open source. Everyone can look at the source code, even send a pull request...</p>
+<p>What is that in the <a href="https://github.com/golang/go">README.md</a>, you say?</p>
+<blockquote>
+<p>Note that we do not accept pull requests and that we use the issue tracker for bug reports and proposals only. Please ask questions on https://forum.golangbridge.org or https://groups.google.com/forum/#!forum/golang-nuts.</p>
+</blockquote>
+<p>Oopsie.</p>
+<p>Yes, there is a <a href="https://golang.org/doc/contribute.html">most convoluted process</a> to contribute your code. Say you find a simple bug in the code, easy to fix but which is hindering your work. You have to register in five different places and then fax them your birth certificate or something, so that they ensure that you ar really who you say you are (and more devoted than the Pope).</p>
 <h2 id="a-might-have-been">A Might Have Been</h2>
 <p>So, what drove Google to create a new language?</p>
 <h3 id="the-bleeding-name">The Bleeding Name</h3>
