@@ -64,6 +64,7 @@
 <p>This week I had the opportunity to play with Go (or &quot;Golang&quot; as has come to be known) for a work-related project. It is not the first occasion that we meet, but now I am serious about it. And I have to vent my frustrations with the language.</p>
 <p>I don't want to sound bitter needlessly, although to be honest I don't care much as long as it's for comedic effect. So sit down and relax while I pound on your new favorite language.</p>
 <h2 id="the-language">The Language</h2>
+<p>Oh what fun it is to criticise a computing language.</p>
 <h3 id="adding-elements-to-an-array">Adding Elements to an Array</h3>
 <p><a href="https://blog.golang.org/slices">arrays are different from slices</a>.</p>
 <h3 id="error-management">Error Management</h3>
@@ -164,29 +165,6 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <p>Therefore declaring that bootstrapping and debugging is not guaranteed for these frolicking gophers.</p>
 <p>Granted, there are also built-in functions in JavaScript, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">about 12</a>. Of these, <code>escape()</code> and <code>unescape()</code> are holdouts from a different era; <code>eval()</code> is widely discredited.</p>
 <p>In the end <code>parseInt()</code>, <code>parseFloat()</code> and the URI things are the only functions in use, and they are quite low-level really.</p>
-<h2 id="tooling">Tooling</h2>
-<p>This area is of course ladden with misery and despair, with a few bright spots.</p>
-<h3 id="anal-retentive-compiler.">Anal Retentive Compiler.</h3>
-<p>Nothing that has not been <a href="http://www.evanmiller.org/four-days-of-go.html">said better before</a>. Just one nitpick: why forbid unused imports and variables, but allow unused functions? Aren't unused functions equally (or even more) dangerous? This question has been bothering me for some time.</p>
-<h3 id="testing">Testing</h3>
-<p>There is a very nice feature of the toolchain: <a href="https://golang.org/pkg/testing/">integrated testing</a>. You can write a few tests as functions that start with <code>Test...</code> and run them all using <code>go test</code>. Nice!</p>
-<p>Of course, it doesn't come without its share of weirdness. For starters, you may not mix testing code and regular code. I know it's frowned upon in many circles, but it is often quite handy: change your code, then scroll down and change the tests. At least I would like to have the option.</p>
-<p>Then, files that contains tests <em>need</em> to be called <code>..._test.go</code>. This seems like a sensible addition, until you try to autocomplete from the console to access your regular file <code>campaigns.go</code> instead of your testing file <code>campaigns_test.go</code>:</p>
-<pre><code>$ campaigns[tab]
-campaigns.go campaigns_test.go</code></pre>
-<p>One extra key per file! Outrageous. As long as you avoid the urge to name your testing file just as your regular file, and name your tests <code>integration_test.go</code> or <code>convoluted_test.go</code>, all is fine.</p>
-<h2 id="the-help">The Help</h2>
-<p>You are programming in Go, so you are probably going to need some help. How do you go about it?</p>
-<h3 id="the-name">The Name</h3>
-<p>First, let me get this off my chest: why on Earth would someone create a language with a name that cannot be searched? Especially someone working for Google, which by the way runs the world's biggest <em>search engine</em>!</p>
-<p>Usually it is fine to search for &quot;golang...&quot;, but once in a while you forget and are greeted by innumerable pages helping you play Go (the Eastern board game), or any other weird stuff (did you know there's a game called &quot;Go Repo&quot;, now I do).</p>
-<h3 id="documentation">Documentation</h3>
-<p>With JavaScript finding help is very easy: the semi-official docs are in</p>
-<p>Now Go had it <em>much</em> easier: there is an official creator, sponsor and source for everything Go. Why then is everything spread in a lot of places?</p>
-<ul>
-<li><p>Some questions are answered on StackOverflow, yes, but others are only found in arcane Google Groups, and even others are on Reddit, for crying out loud.</p></li>
-<li><p>The official documentation is too terse and lacks examples. For those, you have to go to <a href="https://blog.golang.org/">The Go Blog</a>, or just start browsing random blogs.</p></li>
-</ul>
 <h2 id="the-redis-driver">The Redis Driver</h2>
 <p>So you want to do some easy task, say: access a local Redis database. Let's find a simple driver. Redis is one of the <a href="http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50">most popular NoSQL databases</a>, and Golang has <a href="http://www.modulecounts.com/">more than 100k packages</a>, rivalling Maven or rubygems. So it shouldn't be hard, right?</p>
 <div class="figure">
@@ -206,6 +184,7 @@ campaigns.go campaigns_test.go</code></pre>
 </blockquote>
 <p>Alas, Debian packs Go 1.3, and the latest Ubuntu with long term support (14.04) is even worse: Go 1.2.</p>
 <p>So at this point backwards compatibility is not one of the selling points for Go.</p>
+<p>In the end I had to use Go 1.6 to get acceptable performance, so this issue was solved.</p>
 <h3 id="radix">Radix</h3>
 <p>This recommended <a href="https://github.com/mediocregopher/radix.v2">package</a> is broken into several subpackages. I don't know where to start here.</p>
 <h3 id="godis">Godis</h3>
@@ -242,6 +221,29 @@ log.Printf(&quot;Read %v campaigns&quot;, len(campaigns))
 return nil</code></pre>
 <p>This is like a kaleidoscope of weird issues.</p>
 <p>Since Go doesn't have generics, you will have to repeat this crappy code every time you want to read a different hash.</p>
+<h2 id="tooling">Tooling</h2>
+<p>This area is of course ladden with misery and despair, with a few bright spots.</p>
+<h3 id="anal-retentive-compiler.">Anal Retentive Compiler.</h3>
+<p>Nothing that has not been <a href="http://www.evanmiller.org/four-days-of-go.html">said better before</a>. Just one nitpick: why forbid unused imports and variables, but allow unused functions? Aren't unused functions equally (or even more) dangerous? This question has been bothering me for some time.</p>
+<h3 id="testing">Testing</h3>
+<p>There is a very nice feature of the toolchain: <a href="https://golang.org/pkg/testing/">integrated testing</a>. You can write a few tests as functions that start with <code>Test...</code> and run them all using <code>go test</code>. Nice!</p>
+<p>Of course, it doesn't come without its share of weirdness. For starters, you may not mix testing code and regular code. I know it's frowned upon in many circles, but it is often quite handy: change your code, then scroll down and change the tests. At least I would like to have the option.</p>
+<p>Then, files that contains tests <em>need</em> to be called <code>..._test.go</code>. This seems like a sensible addition, until you try to autocomplete from the console to access your regular file <code>campaigns.go</code> instead of your testing file <code>campaigns_test.go</code>:</p>
+<pre><code>$ campaigns[tab]
+campaigns.go campaigns_test.go</code></pre>
+<p>One extra key per file! Outrageous. As long as you avoid the urge to name your testing file just as your regular file, and name your tests <code>integration_test.go</code> or <code>convoluted_test.go</code>, all is fine.</p>
+<h2 id="the-help">The Help</h2>
+<p>You are programming in Go, so you are probably going to need some help. How do you go about it?</p>
+<h3 id="the-name">The Name</h3>
+<p>First, let me get this off my chest: why on Earth would someone create a language with a name that cannot be searched? Especially someone working for Google, which by the way runs the world's biggest <em>search engine</em>!</p>
+<p>Usually it is fine to search for &quot;golang...&quot;, but once in a while you forget and are greeted by innumerable pages helping you play Go (the Eastern board game), or any other weird stuff (did you know there's a game called &quot;Go Repo&quot;, now I do).</p>
+<h3 id="documentation">Documentation</h3>
+<p>With JavaScript finding help is very easy: the semi-official docs are in</p>
+<p>Now Go had it <em>much</em> easier: there is an official creator, sponsor and source for everything Go. Why then is everything spread in a lot of places?</p>
+<ul>
+<li><p>Some questions are answered on StackOverflow, yes, but others are only found in arcane Google Groups, and even others are on Reddit, for crying out loud.</p></li>
+<li><p>The official documentation is too terse and lacks examples. For those, you have to go to <a href="https://blog.golang.org/">The Go Blog</a>, or just start browsing random blogs.</p></li>
+</ul>
 <h2 id="assorted-issues">Assorted Issues</h2>
 <h3 id="open-source">Open Source</h3>
 <p>The good thing about Go is that it is open source. Everyone can look at the source code, even send a pull request...</p>
@@ -257,7 +259,7 @@ return nil</code></pre>
 <p>Remember when I said that Debian packs Go 1.3 (and Ubuntu LTS Go 1.2)? The latest version of Go is 1.6 and was released a couple of days ago, so it's still quite shiny. But it requires Go 1.4 to compile, so there is one extra step of downloading an intermediate version, building, installing <em>and then</em> going for 1.6. Isn't life great?</p>
 <p>In the end I just installed the binary version and moved on with my (now a bit more miserable) life.</p>
 <h3 id="performance">Performance</h3>
-<p>In the end all is fine, since you get such great performance. Except when you use Go 1.3 where HTTP requests to the server are not concurrent (for some reason). Or when you upgrade to Go 1.6 and your program has exploded in flames after spouting this most modest of messages:</p>
+<p>We can put up with all little annoyances, since after all you get such great performance. Except when you use Go 1.3 where HTTP requests to the server are slow and not concurrent (for some reason). Or when you upgrade to Go 1.6 and get a 10x speed improvement, but then your program explodes in flames after spouting this most modest of messages:</p>
 <pre><code>fatal error: concurrent map read and map write</code></pre>
 <p>Then you have to visit <a href="https://blog.golang.org/go-maps-in-action">an arcane blog post</a> for a mysterious incantation which turns your code into a minion of Cthulhu that uses <a href="https://golang.org/pkg/sync/#RWMutex">mutexes</a>:</p>
 <pre><code>var counter = struct{

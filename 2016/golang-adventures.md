@@ -20,6 +20,8 @@ So sit down and relax while I pound on your new favorite language.
 
 ## The Language
 
+Oh what fun it is to criticise a computing language.
+
 ### Adding Elements to an Array
 
 [arrays are different from slices](https://blog.golang.org/slices).
@@ -239,6 +241,107 @@ In the end `parseInt()`, `parseFloat()` and the URI things
 are the only functions in use,
 and they are quite low-level really.
 
+## The Redis Driver
+
+So you want to do some easy task, say:
+access a local Redis database.
+Let's find a simple driver.
+Redis is one of the
+[most popular NoSQL databases](http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50),
+and Golang has [more than 100k packages](http://www.modulecounts.com/),
+rivalling Maven or rubygems.
+So it shouldn't be hard, right?
+
+![[Module Counts](http://www.modulecounts.com/)](pics/modulecounts.png "Module Counts for many popular package repositories")
+
+Right???
+
+### Redigo
+
+This is one of [the recommended clients for Redis](http://redis.io/clients#go).
+The [documentation](https://godoc.org/github.com/garyburd/redigo/redis)
+is cryptic to the extreme.
+
+### Go-redis
+
+Complete, and well documented. Nice, huh?
+So you want to install onto your Debian testing machine,
+and this happens:
+
+```
+$ go get gopkg.in/redis.v3
+# gopkg.in/redis.v3
+../../.gocode/src/gopkg.in/redis.v3/pool.go:144: undefined: atomic.Value
+```
+
+What is this evil?
+Googling `go-redis "undefined: atomic.Value"` will not yield an answer,
+but Google helpfully removes the quotes and returns this
+[related page](https://github.com/ethereum/go-ethereum/issues/1584)
+for a different project:
+
+> You need Go 1.4 or a later version to build go-ethereum.
+
+Alas, Debian packs Go 1.3, and the latest Ubuntu with long term support
+(14.04) is even worse: Go 1.2.
+
+So at this point backwards compatibility is not one of the selling points for Go.
+
+In the end I had to use Go 1.6 to get acceptable performance,
+so this issue was solved.
+
+### Radix
+
+This recommended [package](https://github.com/mediocregopher/radix.v2)
+is broken into several subpackages.
+I don't know where to start here.
+
+### Godis
+
+This driver works reasonably well,
+but it hasn't been updated since 2012.
+An ominous note on [the front page](https://github.com/simonz05/godis)
+states:
+
+> 13 Aug 2012
+> Currently very busy with work, and I don't have the time to fix some of the pending issues at hand.
+
+And nothing else, looks like the recovered diary from a long lost expedition.
+
+So now let's read a hash of organizations from Redis:
+
+    elem, err := driver.Hgetall(key)
+    if err != nil {
+        return err
+    }
+    log.Printf("orgs ", len(elem.Elems))
+    if len(elem.Elems) == 0 {
+        return errors.New("Organizations not found")
+    }
+    for index, subelem := range elem.Elems {
+        log.Printf("read ", subelem.Elem.String())
+        if index % 2 == 0 {
+            continue
+        }
+        organization := Organization{}
+        err = json.Unmarshal(subelem.Elem.Bytes(), &organization)
+        if err != nil {
+            return err
+        }
+        err = readCampaigns(organization.Id)
+        if err != nil {
+            return err
+        }
+    }
+    log.Printf("Read %v campaigns", len(campaigns))
+    return nil
+
+
+This is like a kaleidoscope of weird issues.
+
+Since Go doesn't have generics, you will have to repeat this crappy code
+every time you want to read a different hash.
+
 ## Tooling
 
 This area is of course ladden with misery and despair,
@@ -320,104 +423,6 @@ and even others are on Reddit, for crying out loud.
 For those, you have to go to [The Go Blog](https://blog.golang.org/),
 or just start browsing random blogs.
 
-## The Redis Driver
-
-So you want to do some easy task, say:
-access a local Redis database.
-Let's find a simple driver.
-Redis is one of the
-[most popular NoSQL databases](http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50),
-and Golang has [more than 100k packages](http://www.modulecounts.com/),
-rivalling Maven or rubygems.
-So it shouldn't be hard, right?
-
-![[Module Counts](http://www.modulecounts.com/)](pics/modulecounts.png "Module Counts for many popular package repositories")
-
-Right???
-
-### Redigo
-
-This is one of [the recommended clients for Redis](http://redis.io/clients#go).
-The [documentation](https://godoc.org/github.com/garyburd/redigo/redis)
-is cryptic to the extreme.
-
-### Go-redis
-
-Complete, and well documented. Nice, huh?
-So you want to install onto your Debian testing machine,
-and this happens:
-
-```
-$ go get gopkg.in/redis.v3
-# gopkg.in/redis.v3
-../../.gocode/src/gopkg.in/redis.v3/pool.go:144: undefined: atomic.Value
-```
-
-What is this evil?
-Googling `go-redis "undefined: atomic.Value"` will not yield an answer,
-but Google helpfully removes the quotes and returns this
-[related page](https://github.com/ethereum/go-ethereum/issues/1584)
-for a different project:
-
-> You need Go 1.4 or a later version to build go-ethereum.
-
-Alas, Debian packs Go 1.3, and the latest Ubuntu with long term support
-(14.04) is even worse: Go 1.2.
-
-So at this point backwards compatibility is not one of the selling points for Go.
-
-### Radix
-
-This recommended [package](https://github.com/mediocregopher/radix.v2)
-is broken into several subpackages.
-I don't know where to start here.
-
-### Godis
-
-This driver works reasonably well,
-but it hasn't been updated since 2012.
-An ominous note on [the front page](https://github.com/simonz05/godis)
-states:
-
-> 13 Aug 2012
-> Currently very busy with work, and I don't have the time to fix some of the pending issues at hand.
-
-And nothing else, looks like the recovered diary from a long lost expedition.
-
-So now let's read a hash of organizations from Redis:
-
-    elem, err := driver.Hgetall(key)
-    if err != nil {
-        return err
-    }
-    log.Printf("orgs ", len(elem.Elems))
-    if len(elem.Elems) == 0 {
-        return errors.New("Organizations not found")
-    }
-    for index, subelem := range elem.Elems {
-        log.Printf("read ", subelem.Elem.String())
-        if index % 2 == 0 {
-            continue
-        }
-        organization := Organization{}
-        err = json.Unmarshal(subelem.Elem.Bytes(), &organization)
-        if err != nil {
-            return err
-        }
-        err = readCampaigns(organization.Id)
-        if err != nil {
-            return err
-        }
-    }
-    log.Printf("Read %v campaigns", len(campaigns))
-    return nil
-
-
-This is like a kaleidoscope of weird issues.
-
-Since Go doesn't have generics, you will have to repeat this crappy code
-every time you want to read a different hash.
-
 ## Assorted Issues
 
 ### Open Source
@@ -474,10 +479,12 @@ and moved on with my (now a bit more miserable) life.
 
 ### Performance
 
-In the end all is fine, since you get such great performance.
+We can put up with all little annoyances,
+since after all you get such great performance.
 Except when you use Go 1.3 where HTTP requests to the server
-are not concurrent (for some reason).
-Or when you upgrade to Go 1.6 and your program has exploded in flames
+are slow and not concurrent (for some reason).
+Or when you upgrade to Go 1.6 and get a 10x speed improvement,
+but then your program explodes in flames
 after spouting this most modest of messages:
 
     fatal error: concurrent map read and map write
