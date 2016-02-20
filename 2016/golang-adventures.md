@@ -5,7 +5,7 @@ footer: Published on 2016-02-18.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Picture credit: [Department of Navy, USA](https://commons.wikimedia.org/wiki/File:Photograph_with_caption_%22View_of_Attendance_at_a_Movie_in_Permanent_Recreation_Building,%22_U.S._Naval_Ammunition..._-_NARA_-_283490.jpg)](pics/attendance.jpg "View of Attendance at a Movie in Permanent Recreation Building")
+![Picture credit: [Ian Silvernail, Institute for Applied Ecology](https://commons.wikimedia.org/wiki/File:Camas_pocket_gopher_(2)_crop.jpg)](pics/gopher.jpg "Camas pocket gopher")
 
 This week I had the opportunity to play with Go
 (or "Golang" as has come to be known)
@@ -259,8 +259,24 @@ Right???
 ### Redigo
 
 This is one of [the recommended clients for Redis](http://redis.io/clients#go).
-The [documentation](https://godoc.org/github.com/garyburd/redigo/redis)
-is cryptic to the extreme.
+In [documentation](https://godoc.org/github.com/garyburd/redigo/redis)
+it claims:
+
+> The Conn interface is the primary interface for working with Redis.
+> Applications create connections by calling the Dial, DialWithTimeout or NewConn functions.
+> In the future, functions will be added for creating sharded and other types of connections.
+
+To what I say: WAT.
+No introduction, no "hello world", no nothing, just this?
+You can do better, Redigo.
+
+Also, it does not present a nice API.
+You end up writing something that looks like this gem,
+from the docs:
+
+    n, err := conn.Do("APPEND", "key", "value")
+
+I won't be using it soon.
 
 ### Go-redis
 
@@ -292,9 +308,18 @@ so this issue was solved.
 
 ### Radix
 
-This recommended [package](https://github.com/mediocregopher/radix.v2)
-is broken into several subpackages.
-I don't know where to start here.
+Then I was lucky enough to find
+[Radix](https://github.com/mediocregopher/radix.v2).
+It is also a "minimalistic" (i.e. dumb) package that doesn't even attempt to construct
+the Redis command for you,
+so you end up writing things like this gem from the
+[docs](https://godoc.org/github.com/mediocregopher/radix.v2/redis):
+
+    err = client.Cmd("SET", "foo", "bar", "EX", 3600).Err
+
+Apparently Salvatore Sanfilippo liks this kind of hardcore stuff,
+since Radix is also a [recommended client](http://redis.io/clients#go).
+I don't like this stuff.
 
 ### Godis
 
@@ -338,6 +363,9 @@ So now let's read a hash of organizations from Redis:
 
 
 This is like a kaleidoscope of weird issues.
+Godis returns everything in `Hgetall()`:
+keys and values mixed in an array,
+just as the raw output of Redis.
 
 Since Go doesn't have generics, you will have to repeat this crappy code
 every time you want to read a different hash.
@@ -424,6 +452,9 @@ For those, you have to go to [The Go Blog](https://blog.golang.org/),
 or just start browsing random blogs.
 
 ## Assorted Issues
+
+Now come a few more random complaints that
+I'm too lazy to fit neatly into categories.
 
 ### Open Source
 
