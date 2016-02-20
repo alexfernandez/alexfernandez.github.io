@@ -16,7 +16,7 @@ And I have to vent my frustrations with the language.
 
 I don't want to sound bitter needlessly,
 although to be honest I don't care much as long as it's for comedic effect.
-So sit down and relax while I pound on your new favorite language.
+So sit down and relax while I pound on our new favorite language.
 
 ## The Language
 
@@ -427,6 +427,12 @@ that cannot be searched?
 Especially someone working for Google,
 which by the way runs the world's biggest _search engine_!
 
+People, if you ever create a language,
+use a distinctive word that can be googled.
+"Golang" would have been fine; "Go" is
+[the 35th most common word in English](http://www.wordfrequency.info/free.asp?s=y).
+Not cool.
+
 Usually it is fine to search for "golang...",
 but once in a while you forget and are greeted
 by innumerable pages helping you play Go (the Eastern board game),
@@ -551,20 +557,23 @@ but hey, my programs are still crashing...
 
 ## A Might Have Been
 
-So, what drove Google to create a new language?
+All these annoyances are not only a pain in the ass,
+but make Go a huge missed opportunity.
 
-### The Bleeding Name
-
-People, if you ever create a language,
-use a distinctive word that can be googled.
-"Golang" would have been fine; "Go" is
-[the 35th most common word in English](http://www.wordfrequency.info/free.asp?s=y).
-Not cool.
+Full disclosure: I am, or have been at some point,
+proficient in a few languages:
+Basic, Pascal, C (but not C++), Java,
+Perl, Python, JavaScript.
+I have tried to learn quite a few more,
+like Erlang or Lua,
+but have not written any significant amount of code with those.
 
 ### What Could Have Been
 
-All these annoyances are not only a pain in the ass,
-but make Go a huge missed opportunity.
+So, what drove Google to create a new language?
+The need for a successor for C, and to an extent C++, arguably.
+It is not probably a replacement for Python or Ruby,
+even if it is annoyingly sold as both.
 
 It is a pity because I liked the idea very much:
 a compiled language that is very performant
@@ -576,4 +585,24 @@ it adapts to your style and is flexible enough
 to accomodate everyone.
 Alas, that is something that the creators of Go
 deemed [unworthy of their time](https://golang.org/doc/faq#semicolons).
+
+With a bit more effort Go might have been
+a decent language in a few more areas:
+functional programming, generics, and so on.
+But again, the creators of Go did not think generics was
+[worth their time](https://golang.org/doc/faq#generics),
+and we may assume the same about functional.
+So we will have to keep on looking.
+
+### The Right Frame of Mind
+
+The only way to enjoy developing in Go is to let go of your preconceptions.
+No, Go is not a replacement for all your daily needs.
+It is not even a great language.
+It is however a good low-level language
+with several concurrency primitives
+which is performant and robust.
+If used wisely, it can probably be a good addition
+to your repertory of languages.
+It will _not_ be your one-stop shop for development.
 
