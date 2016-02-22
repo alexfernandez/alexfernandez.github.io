@@ -1,6 +1,6 @@
 ---
 title: Adventures in the Land of Go
-subtitle: 'Or the Ungoogleable Language from Google'
+subtitle: 'That Ungoogleable Language from Google'
 footer: Published on 2016-02-22.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
