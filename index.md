@@ -13,6 +13,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 A collection of articles published over the years.
 
+* 2016-02-22: [Adventures in the Land of Go](2016/golang-adventures.html).
 * 2016-01-10: [Increasing Event Attendance](2016/event-attendance.html).
 * 2016-01-08: [The Case Against Software Craftsmanship](2016/against-craftsmanship.html).
 * 2015-10-17: [Walk Through My Code](2015/walk-through-my-code.html).
