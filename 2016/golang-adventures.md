@@ -1,7 +1,7 @@
 ---
 title: Adventures in the Land of Go
 subtitle: 'Or the Ungoogleable Language from Google'
-footer: Published on 2016-02-18.
+footer: Published on 2016-02-22.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -12,23 +12,49 @@ This week I had the opportunity to play with Go
 for a work-related project.
 It is not the first occasion that we meet,
 but now I am serious about it.
-And I have to vent my frustrations with the language.
+And after the first few days I have to vent my frustrations with the language.
 
 I don't want to sound bitter needlessly,
 although to be honest I don't care much as long as it's for comedic effect.
-So sit down and relax while I pound on our new favorite language.
+So sit down and relax while I pound on the web's new favorite language.
 
 ## The Language
 
 Oh what fun it is to criticise a computing language.
+Let's start there.
 
 ### Adding Elements to an Array
 
-[arrays are different from slices](https://blog.golang.org/slices).
+Say you have an array and you want to add an element.
+You start with this innocent Google search:
+[golang array append](https://www.google.es/search?q=golang+array+append).
+
+The first link, as it happens, is a
+[long, long wormhole](https://blog.golang.org/slices)
+that carefully explains how arrays and slices are different,
+that what you thought until now were arrays were instead slices,
+and that arrays contain a fixed number of elements.
+Armed with that knowledge,
+you will promptly ignore all of that crap
+and just use slices throughout lest your head explode in denial.
+
+So, why bother with arrays at all, you say?
+Probably it's a clever low-level mechanism
+that is even more cleverly hidden by slices.
+It remains to be seen if with a little bit more cleverness
+they could have been hidden from sight completely.
+
+Just one lesson remains through all that noise:
+arrays in Go are _not_ resizeable,
+so you will have to write:
+
+    array = append(array, newElement)
+
+to your eternal annoyance.
 
 ### Error Management
 
-Sick of the `if (error) return callback(error)` bullshit?
+Sick of the `if (error) return callback(error)` bullshit in Node.js?
 Brace yourself.
 
 Functions can return several arguments:
@@ -40,21 +66,26 @@ func getObject(value Object) (Object, error) {
 ```
 
 Cool, you can return `nil` instead of the second argument.
-So you probably can return `nil` also as the first argument if there is an error?
+So you probably can return `nil` also as the first argument if there is an error.
 **Bzzzt!** Wrong.
-*Obviously* you cannot [return `nil` as a struct],
+*Obviously* you cannot
+[return `nil` as a struct](https://www.reddit.com/r/golang/comments/2xmnvs/returning_nil_for_a_struct/),
 for reasons that are very well explained in that link
-(but I will not probably understand if I live five consecutive lives).
+(and that I will probably fail to understand if I live five consecutive lives).
 
-So when you find an error you have to return an empty object,
-which must be initialized first:
+So when you find an error you have to return an `empty` object,
+which has to be initialized first:
 
 ```
 func getObject(value Object) (Object, error) {
-    newObject, err := accessSomeDB(value.Key)
     empty := Object{}
+    conn := connectToDatabase()
     if err != nil {
-        return empty, nil
+        return empty, err
+    }
+    newObject, err := accessDatabase(conn, value.Key)
+    if err != nil {
+        return newObject, err
     }
     return value, nil
 }
@@ -67,12 +98,14 @@ So now be ready to write this bit quite often:
     }
 
 Of course, with non-optional braces.
-At least the `if (error) return callback(error)` was an invariant.
+At least the bit `if (error) return callback(error)` was an invariant;
+now you have to write three lines tailored to your particular return values.
+Ugh.
 
 ### Variable Declarations
 
 This one looks inoffensive enough
-but can be most annoying.
+but it can be most annoying.
 To declare and define (give value) a variable
 you use the `:=` operator:
 
@@ -84,7 +117,7 @@ you use the `=` operator:
     var a string;
     a = 5
 
-So, what happens is that if your code uses the same variable several times
+Now what happens is that if your code uses the same variable several times
 (for instance the ubiquitous `err`) you will find this joy:
 
     err := callFirst()
@@ -100,7 +133,7 @@ Therefore you have to change the second invocation to:
     err = callSecond()
 
 Ending one of the joys of programming, the ease of copy-paste.
-Or defining the variable ahead of time with this clumsy wart:
+Or you can define the variable ahead of time with this clumsy wart:
 
     var err error
 
@@ -112,7 +145,7 @@ it is OK to reuse `err` as long as there is a new variable there.
 
 This works!
 So one new variable and one old variable is fine;
-but only one old variable is not.
+but only old variables is not.
 Even ignoring the return value is _not_ OK:
 
     _, err := callFirst()
@@ -122,7 +155,9 @@ This fails, don't ask me why;
 just the compiler being helpful I guess.
 The end result is that you spend time changing `=` to `:=` and viceversa,
 for no good reason.
-I'm too old for this crap.
+
+Every time I have to waste time doing absurd changes I think:
+"I'm too old for this crap".
 
 ### Implicit Conversions
 
@@ -188,7 +223,18 @@ if something {
 }
 ```
 
-It is of course wrong, and in fact many of the proponents then add an empty line.
+It is of course wrong, and in fact many of the proponents then add an empty line
+to make the code less compact.
+
+```
+if something {
+
+    something else
+}
+```
+
+It is not important, but as you probably have noticed
+it is unimportant things that often raise the worst passions.
 
 Here Go takes sides, and chooses the worst possible solution:
 mandating one true style.
@@ -208,7 +254,7 @@ but you cannot
 
 Sometimes you get the impression that,
 as the creators of Go went along,
-they realized that it lacked some very basic capability
+they realized they had forgotten some very basic capability
 and added it as a ["built-in function"](https://golang.org/pkg/builtin/).
 There are 15 of these abominations.
 
@@ -235,7 +281,7 @@ Therefore declaring that bootstrapping and debugging is not guaranteed for these
 Granted, there are also built-in functions in JavaScript,
 [about 12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects).
 Of these, `escape()` and `unescape()` are holdouts from a different era;
-`eval()` is widely discredited.
+`eval()` is widely discredited, and so on.
 
 In the end `parseInt()`, `parseFloat()` and the URI things
 are the only functions in use,
@@ -250,16 +296,18 @@ Redis is one of the
 [most popular NoSQL databases](http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50),
 and Golang has [more than 100k packages](http://www.modulecounts.com/),
 rivalling Maven or rubygems.
-So it shouldn't be hard, right?
 
 ![[Module Counts](http://www.modulecounts.com/)](pics/modulecounts.png "Module Counts for many popular package repositories")
+
+So it shouldn't be hard to find a nice and robust package
+to access Redis from Go, right?
 
 Right???
 
 ### Redigo
 
 This is one of [the recommended clients for Redis](http://redis.io/clients#go).
-In [documentation](https://godoc.org/github.com/garyburd/redigo/redis)
+In [the documentation](https://godoc.org/github.com/garyburd/redigo/redis)
 it claims:
 
 > The Conn interface is the primary interface for working with Redis.
@@ -280,7 +328,8 @@ I won't be using it soon.
 
 ### Go-redis
 
-Complete, and well documented. Nice, huh?
+Apparently [this package](https://github.com/go-redis/redis)
+is complete and well documented. Nice, huh?
 So you want to install onto your Debian testing machine,
 and this happens:
 
@@ -305,6 +354,7 @@ So at this point backwards compatibility is not one of the selling points for Go
 
 In the end I had to use Go 1.6 to get acceptable performance,
 so this issue was solved.
+But I was already using a different package and stuck with it.
 
 ### Radix
 
@@ -319,7 +369,7 @@ so you end up writing things like this gem from the
 
 Apparently Salvatore Sanfilippo liks this kind of hardcore stuff,
 since Radix is also a [recommended client](http://redis.io/clients#go).
-I don't like this stuff.
+I don't like this stuff, so moving on.
 
 ### Godis
 
@@ -331,7 +381,8 @@ states:
 > 13 Aug 2012
 > Currently very busy with work, and I don't have the time to fix some of the pending issues at hand.
 
-And nothing else, looks like the recovered diary from a long lost expedition.
+And nothing else;
+frankly it looks like the recovered diary from a long lost expedition.
 
 So now let's read a hash of organizations from Redis:
 
@@ -366,9 +417,14 @@ This is like a kaleidoscope of weird issues.
 Godis returns everything in `Hgetall()`:
 keys and values mixed in an array,
 just as the raw output of Redis.
+So you have to skip every other element to get at the values.
 
 Since Go doesn't have generics, you will have to repeat this crappy code
 every time you want to read a different hash.
+
+I don't really know why I'm sticking to this package, to be honest,
+but it works and it's fast, so please leave me alone.
+I'll cry when I need to change to something else.
 
 ## Tooling
 
@@ -377,11 +433,22 @@ with a few bright spots.
 
 ### Anal Retentive Compiler.
 
-Nothing that has not been [said better before](http://www.evanmiller.org/four-days-of-go.html).
+The behavior of the compiler with unused variables and imports
+is unmeasurably annoying:
+not a warning but an error that prevents code to be run.
+This means that,
+when you are experimenting with some new feature,
+you have to craft utterly perfect code before running it
+just for the compiler to be happy.
+
+This is nothing that has not been
+[said better before](http://www.evanmiller.org/four-days-of-go.html),
+so I'll leave it here.
 Just one nitpick:
 why forbid unused imports and variables, but allow unused functions?
 Aren't unused functions equally (or even more) dangerous?
-This question has been bothering me for some time.
+This question has been bothering me for some time,
+so if you have an answer please let me know.
 
 ### Testing
 
@@ -392,7 +459,7 @@ and run them all using `go test`. Nice!
 
 Of course, it doesn't come without its share of weirdness.
 For starters, you may not mix testing code and regular code.
-I know it's frowned upon in many circles,
+I know this filthy habit of mine is frowned upon in many circles,
 but it is often quite handy:
 change your code, then scroll down and change the tests.
 At least I would like to have the option.
@@ -425,7 +492,8 @@ First, let me get this off my chest:
 why on Earth would someone create a language with a name
 that cannot be searched?
 Especially someone working for Google,
-which by the way runs the world's biggest _search engine_!
+which (in case you have not noticed)
+runs the world's biggest _search engine_!
 
 People, if you ever create a language,
 use a distinctive word that can be googled.
@@ -436,13 +504,16 @@ Not cool.
 Usually it is fine to search for "golang...",
 but once in a while you forget and are greeted
 by innumerable pages helping you play Go (the Eastern board game),
-or any other weird stuff
+or some other weird stuff
 (did you know there's a game called "Go Repo", now I do).
 
 ### Documentation
 
 With JavaScript finding help is very easy:
-the semi-official docs are in 
+the semi-official docs are in the
+[MDN](https://developer.mozilla.org/),
+and help is usually found on the well known
+[Stack Overflow](http://stackoverflow.com/).
 
 Now Go had it *much* easier:
 there is an official creator, sponsor and source
@@ -455,11 +526,12 @@ and even others are on Reddit, for crying out loud.
 
 * The official documentation is too terse and lacks examples.
 For those, you have to go to [The Go Blog](https://blog.golang.org/),
-or just start browsing random blogs.
+or just start browsing random blogs
+which are usually the best option.
 
 ## Assorted Issues
 
-Now come a few more random complaints that
+I have a few more random complaints that
 I'm too lazy to fit neatly into categories.
 
 ### Open Source
@@ -483,8 +555,8 @@ Say you find a simple bug in the code,
 easy to fix but which is hindering your work.
 You have to register in five different places
 and then fax them your birth certificate or something,
-so that they ensure that you ar really who you say you are
-(and more devoted than the Pope).
+so that they can ensure that you are really who you say you are
+(and also that you are more devoted to your task than the Pope of Rome to go through all the hoops).
 
 ### Installing from Source
 
@@ -504,10 +576,8 @@ Remember when I said that Debian packs Go 1.3
 (and Ubuntu LTS Go 1.2)?
 The latest version of Go is 1.6 and was released a couple of days ago,
 so it's still quite shiny.
-But it requires
-Go 1.4 to compile,
-so there is one extra step
-of downloading an intermediate version,
+But it requires Go 1.4 to compile,
+so there is one extra step of downloading an intermediate version,
 building, installing _and then_ going for 1.6.
 Isn't life great?
 
@@ -563,16 +633,18 @@ but make Go a huge missed opportunity.
 Full disclosure: I am, or have been at some point,
 proficient in a few languages:
 Basic, Pascal, C (but not C++), Java,
-Perl, Python, JavaScript.
+PHP, Perl, Python, JavaScript.
 I have tried to learn quite a few more,
 like Erlang or Lua,
 but have not written any significant amount of code with those.
 
 ### What Could Have Been
 
-So, what drove Google to create a new language?
-The need for a successor for C, and to an extent C++, arguably.
-It is not probably a replacement for Python or Ruby,
+Let's ask ourselves, what drove Google to create a new language?
+The need for a successor for C, and to an extent for C++;
+perhaps even for Java, which runs on a virtual machine
+and is notoriously memory hungry.
+It was not probably meant as a replacement for Python or Ruby,
 even if it is annoyingly sold as both.
 
 It is a pity because I liked the idea very much:
@@ -591,18 +663,32 @@ a decent language in a few more areas:
 functional programming, generics, and so on.
 But again, the creators of Go did not think generics was
 [worth their time](https://golang.org/doc/faq#generics),
-and we may assume the same about functional.
-So we will have to keep on looking.
+and we may assume the same about functional programming.
+So we will have to keep on looking for a good language for the web,
+or wait until JavaScript engulfs all features of all other languages
+and is finally usable for all purposes.
 
 ### The Right Frame of Mind
+
+The [five stages of grief](https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model)
+start with denial, then anger.
+This article was a meager attempt of bargaining (third stage),
+knowing full well that after a hopefully short depression
+I'll accept and embrace Go for what it is worth.
 
 The only way to enjoy developing in Go is to let go of your preconceptions.
 No, Go is not a replacement for all your daily needs.
 It is not even a great language.
 It is however a good low-level language
-with several concurrency primitives
-which is performant and robust.
+which is performant and robust,
+with several concurrency primitives.
 If used wisely, it can probably be a good addition
 to your repertory of languages.
 It will _not_ be your one-stop shop for development.
+
+So go out there and write yourself some Go!
+At least for the most performance hungry parts of your application;
+and write the rest in a more productive language.
+That's my impression after a few days;
+I'll update this article if I change my mind.
 
