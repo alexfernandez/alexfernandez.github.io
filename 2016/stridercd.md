@@ -226,7 +226,20 @@ and then offered a
 to improve the error message,
 which was accepted also immediately.
 
+### A Poltergeist
+
+The weirdest issue of them all was when we could not access
+the server.
+Fernando Sanz solved it by using Node Inspector on the Strider process,
+which left us all flabbergasted.
+In the end it was just an environment variable that was shadowing another.
+
 ## Conclusion
+
+StriderCD has all of the advantages of modern continuous deployment tools,
+but without the baggage that some of them carry.
+It also has a few sharp corners,
+so be careful!
 
 This project would not have been possible without Diego Lafuente,
 Juan Carlos Delgado or Fernando Sanz;
