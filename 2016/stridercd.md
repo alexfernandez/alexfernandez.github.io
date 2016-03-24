@@ -34,6 +34,8 @@ As always, the first and most important part of a software project for me
 is to set up continuous deployment,
 which ensures that the developers can just do their thing,
 while the tools worry about testing and integration.
+(Of course you have to set up testing and integration yourself at least once;
+but then you let the tools repeat as needed.)
 
 In general, when we are writing code we want to see the result of our work
 as soon as possible.
