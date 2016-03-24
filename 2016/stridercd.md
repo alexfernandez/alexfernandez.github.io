@@ -5,10 +5,10 @@ footer: Published on 2016-02-01.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Picture credit: [Department of Navy, USA](https://commons.wikimedia.org/wiki/File:Photograph_with_caption_%22View_of_Attendance_at_a_Movie_in_Permanent_Recreation_Building,%22_U.S._Naval_Ammunition..._-_NARA_-_283490.jpg)](pics/attendance.jpg "View of Attendance at a Movie in Permanent Recreation Building")
+![Picture credit: [Jorge Royan](https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg)](pics/deployment.jpg "Vintage Franz Zajizek Astronomical Clock machinery")
 
 As you may know I work full time for MediaSmart Mobile,
-but I also work as a freelancer for other people.
+but I also work as a freelancer for other organizations.
 Usually as a scalability consultant,
 although I also work in other areas
 such as continuous deployment.
