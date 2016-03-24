@@ -56,9 +56,14 @@ Many people are more comfortable deploying to an integration environment,
 doing a manual revision and then deploying to production.
 This was the case in TaxiTime.
 
+The tool has to notify the team how the tests and the deployment went.
+On a breakage, it must allow re-running the tests.
+As a plus, it should run the tests not only on the main branch,
+but also on any proposed pull requests.
+
 ### Choosing our Tools
 
-What choices did we have to set it up?
+What choices did we have?
 
 I am the author of a humble
 [deployment package](https://www.npmjs.com/package/deployment),
@@ -128,28 +133,27 @@ to control multiple projects.
 
 ![Strider Dashboard](https://github.com/Strider-CD/strider/raw/master/docs/screenshots/dashboard.jpg)
 
-### GitHub Integration
+For every project a number of
+[plugins](https://github.com/Strider-CD/strider/wiki/List-of-Plugins)
+may be enabled,
+which carry different tasks:
+deployment for different languages,
+sending email,
+running a local or remote deployment
+are a few of them.
 
-In our case we are using GitHub private repositories.
-StriderCD uses [webhooks](https://developer.github.com/webhooks/)
-to be notified when there are changes on the repository.
-This [GitHub integration](https://github.com/Strider-CD/strider-github)
-is thus a vital point.
-There are also guides for integration with
-[other git services](https://github.com/Strider-CD/strider#additional-configurations).
+![[Strider Plugins](https://futurestud.io/blog/strider-how-to-create-your-own-plugin)](https://futurestud.io/blog/content/images/2015/06/strider-plugin-1.png)
 
-The idea is, like in Travis-CI,
-to authenticate using OAuth2 so that Strider
-can set up the webhooks for you.
-But in this case you have to do the integration yourself,
-and it is not trivial.
-See, the idea is that once you authenticate with GitHub,
-you have to be redirected to your local Strider server,
-and this is where things get hairy.
-With a third party server they have already done the integration for you.
-Here you need to create the app in GitHub,
-and if you are creating a private server
-you do not want to make it public and appear in the directory.
+The part of the deployment is not really solved by Strider,
+especially for a sophisticated distributed deployment.
+It just allows configuring a local task (using the Custom Scripts plugin),
+or a remote deployment (with the SSH plugin).
+If you want to deploy on a dynamic set of machines
+you have first to create a script to select the relevant servers and contact them,
+and then invoke that script from Strider.
+Since you probably have such a script somewhere,
+even if you are doing manual deployments,
+it is a nice lightweight approach.
 
 ## StriderCD in Practice
 
@@ -157,6 +161,17 @@ The immediate goal is to set up an integration environment,
 where code is deployed every time that a change is made on the repository.
 
 ### Install Strider
+
+The [installation](https://github.com/Strider-CD/strider#running-on-infrastructure)
+was a breeze:
+basically download StriderCD from the [repo](https://github.com/Strider-CD/strider)
+and use `npm`:
+
+    npm install
+
+To run in a local server it is best to configure a native task,
+be it Upstart or systemd.
+And now the fun begins!
 
 ### Use a Cute Server Name
 
@@ -167,7 +182,7 @@ But you want a server everyone can access,
 like with Travis.
 
 First you have to expose your Strider server using a DNS name,
-e.g. strider.myproject.com.
+e.g. stridercd.taxitime.com.
 You can also use an IP address and the default port 3000,
 but that is ugly;
 with little effort you can use
@@ -181,7 +196,7 @@ it is very easy:
 ```
 server {
     listen 80;
-    server_name strider.myproject.com;
+    server_name stridercd.taxitime.com;
     location / {
         proxy_pass http://127.0.0.1:3000;
     }
@@ -190,12 +205,28 @@ server {
 
 From that point on,
 you can access your Strider server as
-[http://strider.myproject.com/](http://strider.myproject.com/).
+[http://stridercd.taxitime.com/](http://stridercd.taxitime.com/).
 
-### GitHub Developer Application
+### GitHub Integration
 
-Now you have to make GitHub know that there is an OAuth2 application there.
-So you go to your settings:
+In our case we are using GitHub private repositories.
+StriderCD uses [webhooks](https://developer.github.com/webhooks/)
+to be notified when there are changes on the repository.
+This [GitHub integration](https://github.com/Strider-CD/strider-github)
+is thus a vital point,
+and it was the first issue that I met.
+
+The idea is, like in Travis-CI,
+to authenticate using OAuth2 so that Strider
+can set up the webhooks for you.
+With a third party server they have already done the integration for you.
+But for a private application you have to do the integration yourself,
+and it is not trivial.
+The idea is that once you authenticate with GitHub,
+you have to be redirected to your local Strider server.
+So you need to create the app in GitHub.
+
+This is done in the settings page:
 
 ![Settings](pics/settings.png "Your GitHub settings")
 
@@ -215,29 +246,29 @@ that can be found below your "Personal settings":
 
 ![Organization settings](pics/org-settings.png "Organization settings below Personal settings")
 
-Enter a custom name (say, strider-myproject)
+Enter a custom name (say, stridercd-taxitime)
 and the URL
-(in this case [http://strider.myproject.com/](http://strider.myproject.com/))
+(in this case [http://stridercd.taxitime.com/](http://stridercd.taxitime.com/))
 you will get an application ID and an application secret,
 which are then used to
 [configure StriderCD](https://github.com/Strider-CD/strider-github#required-configuration).
 Also be sure to tell Strider what its URL is with the `SEVER_NAME`.
-The environment variables should be something like this:
+The environment variables should look something like this:
 
 ```
-export SERVER_NAME="http://strider.myproject.com"
+export SERVER_NAME="http://stridercd.taxitime.com"
 export PLUGIN_GITHUB_APP_ID="abcdabcdabcd"
 export PLUGIN_GITHUB_APP_SECRET="defgdefgdefgdefgdefgdefgdefgdefgdefgdefg"
 export PLUGIN_GITHUB_API_DOMAIN="https://github.com"
 export PLUGIN_GITHUB_API_ENDPOINT="https://github.com/api"
 ```
 
-Then you need to start S
-
 Finally, pay attention to the
 [list of known issues](https://github.com/Strider-CD/strider-github#known-issues-with-githubcom).
 
 ## Weird Stuff
+
+But the road was not all smooth.
 
 ### Variables
 
@@ -252,6 +283,8 @@ and how it was supposed to work.
 
 Of course you need to be an admin of the projects you want to deploy,
 because otherwise Strider cannot add webhooks to it.
+But when you are not admin you were greeted by an odd message.
+
 I opened a
 [GitHub issue](https://github.com/Strider-CD/strider-github/issues/60)
 which was answered almost immediately,
@@ -267,6 +300,21 @@ the server.
 Fernando Sanz solved it by using Node Inspector on the Strider process,
 which left us all flabbergasted.
 In the end it was just an environment variable that was shadowing another.
+
+## MediaSmart
+
+The experience was in general quite good,
+given that continuous deployment is an advanced technique
+that requires a lot of integrations between spinning wheels.
+And what is even more important,
+the customer (in this case Diego and his company)
+were happy with it.
+
+So we are replicating it in MediaSmart,
+with a bigger, more complex set of projects.
+This task is being done by our new recruit Alfredo López Moltó.
+So far we have set up a few projects,
+and are on the way to full Strider integration within the next few weeks.
 
 ## Conclusion
 
