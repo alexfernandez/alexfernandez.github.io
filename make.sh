@@ -26,6 +26,7 @@ pandoc --template read-only.html -s 2016/against-craftsmanship.md -o 2016/agains
 pandoc --template read-only.html -s 2016/event-attendance.md -o 2016/event-attendance.html
 pandoc --template read-only.html -s 2016/golang-adventures.md -o 2016/golang-adventures.html
 pandoc --template read-only.html -s 2016/stridercd.md -o 2016/stridercd.html
+pandoc --template read-only.html -s 2016/nginx-balancer.md -o 2016/nginx-balancer.html
 
 # Español
 pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html

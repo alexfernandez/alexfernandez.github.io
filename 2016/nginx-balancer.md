@@ -1,14 +1,15 @@
 ---
 title: Creating a Balancer With Nginx and an Erlang Filter
-subtitle: 'AWS ELBs: We Are After You'
+subtitle: 'Or How We Replaced an expensive ELB from Amazon AWS To Process Thousands of Requests per Second'
 footer: Published on 2016-03-18.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Picture credit: [Department of Navy, USA](https://commons.wikimedia.org/wiki/File:Photograph_with_caption_%22View_of_Attendance_at_a_Movie_in_Permanent_Recreation_Building,%22_U.S._Naval_Ammunition..._-_NARA_-_283490.jpg)](pics/attendance.jpg "View of Attendance at a Movie in Permanent Recreation Building")
+![Picture credit: [George E. Curtis](https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg)](pics/balancer.jpg "Maria Spelterini at Suspension Bridge")
 
 ## ELBs Are Too Expensive
 
 Amazon Balancers (or Elastic Load Balancers, in their terminology)
 are awesome things:
+they are able to process 
 
