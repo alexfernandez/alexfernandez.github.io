@@ -32,12 +32,39 @@ an ambitious global taxicab aggregator from
 
 As always, the first and most important part of a software project for me
 is to set up continuous deployment,
-which ensures that the developers can just do their thing
-and see the results in almost real time.
-I am the author of the humble npm package
-[deployment](https://www.npmjs.com/package/deployment),
-which is used in MediaSmart Mobile with certain success.
-But alas, it lacks a GUI and has therefore to be setup from the command line,
+which ensures that the developers can just do their thing,
+while the tools worry about testing and integration.
+
+In general, when we are writing code we want to see the result of our work
+as soon as possible.
+There are a few strategies to achieve this goal:
+we may deploy to an integration environment where we test everything,
+or (only for the brave) deploy straight to production.
+In our case there is a team of developers writing code in GitHub,
+and creating pull requests against a development branch.
+When a pull request is accepted it must be integrated into the branch,
+then tested locally and finally deployed to the integration environment.
+Deployment to production only happens when there is a new release ready.
+
+In general I am a fan of deploying straight to production,
+since it gives the team an agility that is both exhilarating
+and rewarding.
+But I admit that it carries a burden that not all organizations
+are prepared to accept.
+In particular, breakages of a web interface must be dealt with urgency.
+Many people are more comfortable deploying to an integration environment,
+doing a manual revision and then deploying to production.
+This was the case in TaxiTime.
+
+### Choosing our Tools
+
+What choices did we have to set it up?
+
+I am the author of a humble
+[deployment package](https://www.npmjs.com/package/deployment),
+which we use in MediaSmart Mobile with certain success.
+But alas, it lacks a GUI:
+every new project therefore needs to be setup from the command line,
 which can be cumbersome.
 
 I had a serious case of GUI envy.
@@ -49,28 +76,35 @@ and installing a
 package locally was not in the plans.
 Plus, I am bothered beyond measure by terminology;
 Travis has "Continuous Integration" in the title,
-which I consider to be
+which is little more than
 [an intermediate step](http://alexfernandez.github.io/2012/continuous-deployment.html)
 on the way to CD.
+
+And now for the elephant in the room.
 I have long followed [Jenkins](https://jenkins-ci.org/)
 from a distance,
 but it is a
-[Java](https://github.com/jenkinsci/jenkins) monster.
-And again there is the CI in the title.
+[Java](https://github.com/jenkinsci/jenkins) mastodon,
+probably more suited to heavier workflows.
+And again there is that CI in the title.
 
 ### Meet StriderCD
 
 Some time before, Juan Carlos Delgado (CTO of llollo.com)
-mentioned to me in a private conversation that he was using
+told me in a private conversation that he was using
 [StriderCD](http://stridercd.com).
 I liked two things about it very much.
 First, that it had "Continuous Deployment" in the title.
-Second, and this won my heart, it is written in Node.js.
+Second, it is written in Node.js.
+It is thus that it won my heart even before I saw it in practice.
+I am glad to say that it has not disappointed in practice.
 
 Diego was kind enough to let me play with this new toy for his project,
 and of course I (being a responsible freelancer)
-would only bill for these hours if StriderCD fit the need.
+would only bill the project for these hours if we found that StriderCD was a good fit.
 So I started installing and configuring it.
+
+## StriderCD Overview
 
 I am not going to write a guide on how to install and use Strider;
 there are
@@ -81,22 +115,22 @@ starting with
 I will just give a very broad overview of how Strider works,
 and then tell you about our experience.
 
-## StriderCD Overview
-
-Our first question should be:
-what concrete problem is Strider supposed to solve for us?
-
 ### Continuous Deployment, the Strider Way
 
-In general, when we are writing code we want to see the result of our work
-as soon as possible.
-In our case there is a team of developers writing code in GitHub,
-and creating pull requests against a development branch.
-When a pull request is accepted it must be integrated into the branch,
-then tested and finally deployed.
+Strider integrates closely with many code repositories:
+[GitHub, Bitbucket and Gitlab](https://github.com/Strider-CD/strider#additional-configurations).
+Every time there is a change in a watched repo,
+it can be configured to run a test suite,
+and if everything goes well carry out a deployment.
+
+There is a very nice dashboard, shown below,
+to control multiple projects.
+
+![Strider Dashboard](https://github.com/Strider-CD/strider/raw/master/docs/screenshots/dashboard.jpg)
 
 ### GitHub Integration
 
+In our case we are using GitHub private repositories.
 StriderCD uses [webhooks](https://developer.github.com/webhooks/)
 to be notified when there are changes on the repository.
 This [GitHub integration](https://github.com/Strider-CD/strider-github)
