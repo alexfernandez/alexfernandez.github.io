@@ -83,12 +83,12 @@ while traffic _out of_ EC2 costs a small amount.
 But this is not the case for ELBs.
 The OpenRTB protocol is optimized to minimize traffic when you do not bid:
 an HTTP response of 204 No Content is usually enough,
-which means sending a few bytes.
-But requests are largish (a request size of 1 KB can be typical),
+which means sending just a few bytes.
+But requests are largish (a request size of 1.5 KB can be normal),
 and combined with 18 billion requests per day it results in
-over 18 TB per day, or more than half a petabyte per month.
-At $0.018 per GB the total cost is $10K.
-Going from free to $10K just in ELB-related traffic costs is not nice.
+over 27 TB per day, or more than 0.8 petabytes per month.
+At $0.018 per GB the total cost is about $15K.
+Going from free to $15K just in ELB-related traffic costs is not nice.
 
 The solution was obvious:
 remove the first ELB handling the majority of the traffic,
@@ -98,10 +98,10 @@ This time for real!
 
 ### Previous Experiences
 
-This was not the first time that we had tried removing the ELBs;
-in fact I had wanted to do it for very long.
+This was not the first time that we had tried removing the first ELB;
+in fact I had wanted to do it for a very long time.
 See, ELBs are awesome in what they do,
-but in fact you are a bit blind about what they are actually doing.
+but you are a bit blind about what they are actually doing.
 For starters, it is not easy to get access logs;
 you can request that they be sent to S3,
 but it is cumbersome and you have little control about the log format.
@@ -112,36 +112,44 @@ However, there is not enough granularity:
 there is only 2XX, 3XX, 4XX and 5XX.
 In our business a 200 OK is very different from a 204 No Content:
 the first means we are bidding, the second that we pass on that bid offer.
-Same for 400 Bad Request, 401 Unauthorized or 404 Not Found.
 Therefore we did not know how many bids we were making
 unless we looked it up in the exchanges themselves,
 or did a lot of fudging around.
+Same for 400 Bad Request, 401 Unauthorized or 404 Not Found:
+they have very different semantics,
+and are the symptoms of disparate problems.
 
 ![2XX Requests to Frontends](pics/2xx-requests.png "2XX requests to frontends as reported by Cloudwatch.")
 
 There are other minor annoyances with Cloudwatch:
 for instance, you cannot mix latency and number of requests in the same graph.
-Default behavior is to show the sum of metrics which is not helpful with number of requests.
-And so on.
+The reason is that you cannot show the sum of one metric mixed with the average of another.
+Default behavior is to show the average of each metric,
+which is not helpful with number of requests since they need to be summed.
 But the worst part was the sensation of losing control of your own systems.
 
 Together with our CTO Guillermo Fernández
 we had done a few experiments to remove the main ELB,
 with mixed success.
-The trick is to redirect the DNS registry to point at a set of servers;
-the DNS server will reorder them randomly so that every customer sees a different server first.
+How can you balance traffic without an ELB?
+
+The trick is to have an entry in the DNS registry that points to a set of different IP addresses
+corresponding to your servers.
+The DNS registry will reorder them randomly so that every client sees an arbitrary server first.
+Since each client is supposed to contact the first IP address in the list,
+the load is distributed between your servers. 
 This is known as [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS)
 and is very easy to do with Route53 (or indeed any DNS provider):
 just enter a list of IP addresses as an A record.
 Combined with a short TTL (time to live) of a minute,
 exchanges should start sending traffic to the filters quite fast.
 
-Those parts was easy.
+That part was easy.
 The hard part was getting the filter servers to handle the load directly.
 Apparently the ELB was doing some kind of "smoothing" the connections,
 and dealing with some misbehaving exchanges that opened and closed connections very fast.
 Our Erlang filters would handle the load for a few seconds,
-then start losing traffic and finally collapsing altogether.
+then start losing traffic and finally collapse altogether.
 
 To smooth the traffic we set up an HAProxy in each filter server.
 It is an amazing product that works very well for some large Internet services
