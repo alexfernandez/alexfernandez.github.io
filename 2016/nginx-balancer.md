@@ -199,7 +199,7 @@ Nginx would listen on port 80 and redirect to Erlang listening on a different po
 One issue with our experiments is that ELBs
 need to be "preheated" when receiving a lot of traffic.
 Otherwise it stutters and rejects most of the requests,
-and this can go on indefinitely.
+and this can go on indefinitely under heavy load.
 If you have many krps you need to ask AWS to "preheat" the ELB.
 Our fear was that the ELB would "cool down" if we diverted all requests
 for a long time.
@@ -207,12 +207,12 @@ Our AWS technical contacts assured us that our ELBs would not "cool down"
 at least for five minutes,
 so this is the time frame that we had for our experiments.
 
-So the experiments went as follows:
+Each individual experiment went as follows:
 change the DNS,
-wait for some seconds until exchanges started sending traffic,
-see if it broke,
-revert.
-Then research in the logs where it broke and why.
+wait for some seconds until exchanges start sending traffic,
+see if it breaks,
+revert the DNS to point to the ELB.
+Then research in the logs to find out where it broke and why.
 
 We had to fine-tune a few parameters in Nginx
 because we were running out of file descriptors so fast:
