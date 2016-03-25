@@ -125,8 +125,8 @@
 <p>The first part can be done with a bit of <a href="https://www.nginx.com/resources/wiki/modules/lua/">Lua</a> magic. To use Lua with Nginx you can install the <a href="https://openresty.org/en/">OpenResty</a> full package; since we are using Ubuntu I preferred to use the package <code>nginx-extras</code>, which is a version of Nginx with all plugins compiled in. I used this <a href="https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/">three-year-old post</a> by Matthieu Tourne (then at CloudFlare) as a guide, modifying it heavily. For every HTTP status code Nginx now reports the number of requests it has received and the sum of the time it took to answer all those requests.</p>
 <p>In Nginx a bit of Lua code needs to be added to log everything using Lua, and then a few more lines to compose a page that shows the aggregated results as a JSON document. It is a good idea to add a random nonce to the logging URL to obfuscate it slightly, although there is probably no harm in exposing it. In our case this results page is <code>log_2l8J2yjy1ofgZQOj</code>. You can create your own nonce on Unix with this simple command:</p>
 <pre><code>$ head -c 12 /dev/urandom | base64</code></pre>
-<p>This simple technique can be used for moderately private pages, but do not use it if you need to really secure stuff.</p>
-<p>The relevant excerpts of the <code>site.conf</code> file are:</p>
+<p>This simple technique can be used for moderately private pages, but do not use it if you need to keep stuff secret.</p>
+<p>The relevant excerpts of the Nginx config file <code>site.conf</code> are:</p>
 <pre><code>upstream filter {
         server 127.0.0.1:8787 max_fails=3 fail_timeout=1s;
         keepalive 1024;

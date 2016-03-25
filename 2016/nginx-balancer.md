@@ -329,9 +329,9 @@ You can create your own nonce on Unix with this simple command:
     $ head -c 12 /dev/urandom | base64
 
 This simple technique can be used for moderately private pages,
-but do not use it if you need to really secure stuff.
+but do not use it if you need to keep stuff secret.
 
-The relevant excerpts of the `site.conf` file are:
+The relevant excerpts of the Nginx config file `site.conf` are:
 
 ```
 upstream filter {
