@@ -328,12 +328,19 @@ This particular server has served up to now more than 73 billion requests,
 most of them 204 as expected.
 Given that the server has been up for 38 days,
 it has served almost two billion requests per day.
-Just the 204 requests have collectively taken 400 million seconds,
-or 12.7 years.
-Note that most of that time has been spent by other servers;
-the filter server consumes almost no time itself processing each request,
-or it would not be able to serve so many requests.
-That is the magic of event-oriented processing!
+Just the 204 requests have collectively taken 400 million seconds to process,
+or 12.7 years;
+it results in a little over 5 ms per request.
+
+Note that these timings are for _latency_, not for total processing time.
+The filter server consumes almost no CPU time itself on each request,
+or Nginx would not be able to serve so many requests.
+The same happens with the Erlang filter or the eventual frontend servers.
+That is the magic of event-driven processing!
+(Note: while both Nginx and Node.js are event-driven by default,
+in Erlang it is just an option;
+the prevailing paradigm for concurrent programming is
+[message passing](http://erlang.org/doc/getting_started/conc_prog.html).)
 
 With logging in place,
 the load on our filters goes about 30% to Nginx and 70% to the filter.
@@ -408,4 +415,6 @@ they are easy to set up and great to operate.
 
 But Nginx is equally amazing,
 very configurable and cheap to operate.
+If you are willing to replicate some components,
+the result may be even more impressive than the original ELB.
 

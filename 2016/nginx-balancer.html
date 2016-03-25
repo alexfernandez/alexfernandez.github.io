@@ -140,7 +140,8 @@
   &quot;504-count&quot;: 96454,
   &quot;504-sum&quot;: 5815348.7010462
 }</code></pre>
-<p>This particular server has served up to now more than 73 billion requests, most of them 204 as expected. Given that the server has been up for 38 days, it has served almost two billion requests per day. Just the 204 requests have collectively taken 400 million seconds, or 12.7 years. Note that most of that time has been spent by other servers; the filter server consumes almost no time itself processing each request, or it would not be able to serve so many requests. That is the magic of event-oriented processing!</p>
+<p>This particular server has served up to now more than 73 billion requests, most of them 204 as expected. Given that the server has been up for 38 days, it has served almost two billion requests per day. Just the 204 requests have collectively taken 400 million seconds to process, or 12.7 years; it results in a little over 5 ms per request.</p>
+<p>Note that these timings are for <em>latency</em>, not for total processing time. The filter server consumes almost no CPU time itself on each request, or Nginx would not be able to serve so many requests. The same happens with the Erlang filter or the eventual frontend servers. That is the magic of event-driven processing! (Note: while both Nginx and Node.js are event-driven by default, in Erlang it is just an option; the prevailing paradigm for concurrent programming is <a href="http://erlang.org/doc/getting_started/conc_prog.html">message passing</a>.)</p>
 <p>With logging in place, the load on our filters goes about 30% to Nginx and 70% to the filter. This means that we are using about 43% more filter servers, which is not a bad tradeoff: it represents much less than $2k, for a functionality that used to cost more than $10k.</p>
 <h3 id="monitoring">Monitoring</h3>
 <p>Then we had to aggregate data across all servers. No problem: just take the list of IPs from the DNS registry using the Route53 API, then invoke each one and get the number of requests per status code, and aggregate them. With a little Node.js code it was done in a breeze.</p>
@@ -160,7 +161,7 @@
 <p>This cost reduction has allowed us to open more traffic in the US and grow our business, which is what a healthy company usually does.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>ELBs are amazing. If you are handling a moderate-to-high amount of traffic, say below 100 krps, they are easy to set up and great to operate.</p>
-<p>But Nginx is equally amazing, very configurable and cheap to operate.</p>
+<p>But Nginx is equally amazing, very configurable and cheap to operate. If you are willing to replicate some components, the result may be even more impressive than the original ELB.</p>
 								</div>
 							</section>
 							<section id="last">
