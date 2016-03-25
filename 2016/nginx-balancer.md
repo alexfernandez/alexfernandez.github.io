@@ -78,8 +78,8 @@ $0.01 per GB received.
 Why is this small charge of less than two cents per GB relevant?
 
 See, Amazon advertises that traffic _into_ EC2 is free,
-which is important when you are receiving a lot of requests per second.
-While traffic _out of_ EC2 costs a small amount.
+which is important when you are receiving a lot of requests per second;
+while traffic _out of_ EC2 costs a small amount.
 But this is not the case for ELBs.
 The OpenRTB protocol is optimized to minimize traffic when you do not bid:
 an HTTP response of 204 No Content is usually enough,
