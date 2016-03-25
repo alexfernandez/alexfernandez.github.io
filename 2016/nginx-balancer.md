@@ -297,11 +297,70 @@ Since we are using Ubuntu I preferred to use the package `nginx-extras`,
 which is a version of Nginx with all plugins compiled in.
 I used this
 [three-year-old post](https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/)
-by CloudFlare as a guide,
+by Matthieu Tourne (then at CloudFlare) as a guide,
 modifying it heavily.
 For every HTTP status code Nginx now reports the number of requests it has received
 and the sum of the time it took to answer all those requests.
-The result is something like this:
+
+In Nginx a bit of Lua code needs to be added to log everything using Lua,
+and then a page that returns the aggregated results.
+It is a good idea to add a random nonce to the logging URL
+to obfuscate it slightly,
+although there is probably no harm in exposing it.
+In our case this results page is `log_2l8J2yjy1ofgZQOj`.
+You can create your own nonce on Unix with this simple command:
+
+    $ head -c 12 /dev/urandom | base64
+
+The relevant excerpts of the `site.conf` file are:
+
+```
+upstream filter {
+        server 127.0.0.1:8000 max_fails=3 fail_timeout=1s;
+        keepalive 1024;
+}
+server {
+    listen 80 default_server;
+
+    access_log off;
+
+    default_type text/plain;
+    lua_use_default_type on;
+
+    location / {
+        proxy_pass http://filter;
+        log_by_lua '
+            local logging = require("logging")
+            local request_time = ngx.now() - ngx.req.start_time()
+            local status = ngx.status
+            logging.add_plot(ngx.shared.log_dict, status, request_time)
+            ';
+    }
+    location /log_2l8J2yjy1ofgZQOj {
+        error_log /var/log/nginx/lua.log warn;
+        content_by_lua '
+            local logging = require("logging")
+            ngx.say("{")
+            local all = logging.get_all(ngx.shared.log_dict)
+            for key, value in pairs(all) do
+                ngx.say("  \\"", key, "\\": ", value, ",")
+            end
+            ngx.say("  \\"end\\": 0")
+            ngx.say("}")
+            ';
+    }
+}
+```
+
+[//]: # (This just to pair quotes")
+
+And the logging library used here is an adaptation of
+[Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua),
+[accessible here](logging.lua).
+
+[//]: # (This just to pair quotes')
+
+The result of accessing the server at `http://[ip]/log_2l8J2yjy1ofgZQOj` is something like this:
 
 ```
 {
