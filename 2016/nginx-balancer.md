@@ -231,6 +231,9 @@ But still our Erlang servers were dying after a few minutes.
 The final touch was enabling the old connection pool in Erlang;
 after that point everything was running smoothly.
 Success!
+That last time we did not revert the change in the DNS.
+We now had our own balancer capable of handling 300 krps.
+But there were a few details that needed some polishing.
 
 ### Orchestration
 
