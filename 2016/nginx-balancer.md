@@ -22,7 +22,7 @@ we have had peaks of over 300 krps
 (300 thousand requests per second),
 and all have gone through an ELB.
 Without a hitch.
-Continuously (at night traffic never goes below 100 krps).
+Continuously (at night, traffic never goes below 100 krps).
 But they were increasing our costs too much:
 it got to the point where 25% of our total Amazon bill
 went to pay the ELBs.
@@ -35,6 +35,7 @@ is very peculiar:
 we receive an insane amount of traffic from several ad exchanges,
 and use about 1% of it to make bids for the marketing campaigns of our clients,
 using the [OpenRTB protocol](http://www.iab.com/guidelines/real-time-bidding-rtb-project/).
+The remaining 99% is discarded.
 We _need_ this amount of unused traffic because our customers tend to have peculiar campaigns:
 campaigns marketed at a smallish number of user IDs,
 geolocalized to several areas of a country,
