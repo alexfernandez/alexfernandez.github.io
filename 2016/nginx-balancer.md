@@ -165,7 +165,7 @@ to no avail.
 Guillermo (who now is an Erlang wizard) even implemented a connection pool,
 in case the servers were running out of connections.
 Nothing worked.
-Also, tests were a bit disruptive since we had to run them on production,
+Also, tests were a bit disruptive since we had to run them directly on production,
 so at the time we just waited to have a bigger motivation.
 That moment had now come.
 
@@ -325,7 +325,7 @@ The relevant excerpts of the `site.conf` file are:
 
 ```
 upstream filter {
-        server 127.0.0.1:8000 max_fails=3 fail_timeout=1s;
+        server 127.0.0.1:8787 max_fails=3 fail_timeout=1s;
         keepalive 1024;
 }
 server {
