@@ -331,27 +331,35 @@ You can create your own nonce on Unix with this simple command:
 This simple technique can be used for moderately private pages,
 but do not use it if you need to keep stuff secret.
 
-The relevant excerpts of the Nginx config file `site.conf` are:
+The relevant excerpts of the Nginx config file `site.conf` are shown here
+commented:
 
 ```
+# declare the filter server
 upstream filter {
         server 127.0.0.1:8787 max_fails=3 fail_timeout=1s;
         keepalive 1024;
 }
 server {
+    # listen on port 80
     listen 80 default_server;
 
+    # do not use the regular log
     access_log off;
 
+    # send json as text, also in Lua
     default_type text/plain;
     lua_use_default_type on;
 
     location / {
+        # send traffic to the filter server
         proxy_pass http://filter;
+        # log using Lua
         log_by_lua '
             local logging = require("logging")
             local request_time = ngx.now() - ngx.req.start_time()
             local status = ngx.status
+            # log status code and time taken by the request
             logging.add_plot(ngx.shared.log_dict, status, request_time)
             ';
     }
@@ -360,6 +368,7 @@ server {
         content_by_lua '
             local logging = require("logging")
             ngx.say("{")
+            # get all status codes: count and sum of request times
             local all = logging.get_all(ngx.shared.log_dict)
             for key, value in pairs(all) do
                 ngx.say("  \\"", key, "\\": ", value, ",")
@@ -375,7 +384,8 @@ server {
 
 And the logging library used here is an adaptation of
 [Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua),
-[accessible here](logging.lua).
+which you can
+[find here](logging.lua).
 
 [//b]: # (This just to pair quotes')
 
@@ -403,12 +413,14 @@ The result of accessing the server at `http://[ip]/log_2l8J2yjy1ofgZQOj` is some
 ```
 
 This particular server has served up to now more than 73 billion requests,
-most of them 204 as expected.
+most of them resulting in 204 No Content as expected
+(shown here as `204-count`).
 Given that the server has been up for 38 days,
 it has served almost two billion requests per day.
-Just the 204 requests have collectively taken 400 million seconds to process,
+Just the 204 requests have collectively taken 400 million seconds to process
+(shown as `204-sum`),
 or 12.7 years;
-it results in a little over 5 ms per request.
+the average is a little over 5 ms per request.
 
 Note that these timings are for _latency_, not for total processing time.
 The filter server consumes almost no CPU time itself on each request,
@@ -416,15 +428,15 @@ or Nginx would not be able to serve so many requests.
 The same happens with the Erlang filter or the eventual frontend servers.
 That is the magic of event-driven processing!
 (Note: while both Nginx and Node.js are event-driven by default,
-in Erlang it is just an option;
-the prevailing paradigm for concurrent programming is
-[message passing](http://erlang.org/doc/getting_started/conc_prog.html).)
+in Erlang the prevailing paradigm for concurrent programming is
+[message passing](http://erlang.org/doc/getting_started/conc_prog.html),
+which is completely different.)
 
 With logging in place,
 the load on our filters goes about 30% to Nginx and 70% to the filter.
-This means that we are using about 43% more filter servers,
-which is not a bad tradeoff: it represents much less than $2k,
-for a functionality that used to cost more than $10k.
+This means that we are using about 43% more filter servers than with the ELB.
+It is not a bad tradeoff: it represents much less than $2k,
+for a functionality that used to cost about $15k.
 
 ### Monitoring
 
@@ -433,38 +445,47 @@ No problem:
 just take the list of IPs from the DNS registry using the Route53 API,
 then invoke each one and get the number of requests per status code,
 and aggregate them.
-With a little Node.js code it was done in a breeze.
+With a little Node.js code it was done in a breeze;
+it is the kind of problem that we give to our candidates
+during the hiring process.
 
 The next challenge was storing the data somewhere to graph it.
 There was really no reason to ditch Cloudwatch:
 it is a very reasonable time-series database
-with nice graphing capabilities.
+with nice graphing capabilities,
+and as long as you do not access it too often it is not expensive.
 We could just aggregate the stats from all servers every minute
 and write them to Cloudwatch,
-just adding a line of Node.js code to the existing logging code.
+just adding a couple of lines of Node.js code to the existing aggregation code.
 
 One advantage of aggregating number of requests and latency every minute
 is that now we can show both on a graph at the same time.
 Combined with the new Cloudwatch dashboards we now get this nice page.
 
-![Traffic Dashboard](pics/traffic-dashboard.png "Our new shiny traffic dashboard in Cloudwatch.")
+![Traffic Dashboard](pics/traffic-dashboard.png "This is the kind of dashboard that you show in a big screen in the office.")
 
 Apart from global monitoring,
 all servers have to be individually monitored.
 In this case we had to check if they were still alive
 and otherwise remove them from balancing.
-The best way is to publish a NOP (_No OPeration_) URL
+A good way is to publish a NOP (_No OPeration_) URL
 that can be called from the outside and returns a 200 OK if the server is 100% operative.
-
 If the server does not answer in time,
 it is removed from the DNS registry.
-This can be nicely integrated with the global monitoring code
-and use the removal from the orchestrator.
+In our case we are already accessing all servers every minute,
+so we just need to invoke the DNS registry removal code from the orchestrator
+and terminate the instance
+if a server does not answer in time.
 
 ### Other Modifications
 
 We have also had to move our HTTPS certificates to Nginx,
-which deals with encryption beautifully.
+which by the way deals with encryption beautifully.
+
+We used to have a very nice report emailed to us every morning
+that detailed the number of requests that we were receiving.
+It took the data from the Cloudwatch ELB info,
+and we still have not got around to modifying it to read from the new data.
 
 ### Cost Reduction
 
@@ -488,11 +509,11 @@ which is what a healthy company usually does.
 
 ELBs are amazing.
 If you are handling a moderate-to-high amount of traffic,
-say below 100 krps,
 they are easy to set up and great to operate.
 
 But Nginx is equally amazing,
 very configurable and cheap to operate.
+After a point the cost difference matters.
 If you are willing to replicate some components,
 the result may be even more impressive than the original ELB.
 
