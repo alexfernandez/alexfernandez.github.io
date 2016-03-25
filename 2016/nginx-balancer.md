@@ -7,13 +7,13 @@ footer: Published on 2016-03-18.
 
 ![Picture credit: [George E. Curtis](https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg)](pics/balancer.jpg "Maria Spelterini at Suspension Bridge")
 
-## ELBs Are Too Expensive
+## ELBs Can Be Too Expensive
 
 Amazon Balancers (or Elastic Load Balancers, in their terminology)
 are awesome things:
 they are able to process many thousands of requests per second
 without issues for weeks on end.
-If you have used Amazon with some kind of high availability setup,
+If you have used Amazon AWS with some kind of high availability setup,
 you have probably used an ELB.
 
 At
