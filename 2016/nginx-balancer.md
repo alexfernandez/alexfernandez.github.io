@@ -361,13 +361,13 @@ server {
 }
 ```
 
-[//]: # (This just to pair quotes")
+[//a]: # (This just to pair quotes")
 
 And the logging library used here is an adaptation of
 [Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua),
 [accessible here](logging.lua).
 
-[//]: # (This just to pair quotes')
+[//b]: # (This just to pair quotes')
 
 The result of accessing the server at `http://[ip]/log_2l8J2yjy1ofgZQOj` is something like this:
 
