@@ -231,8 +231,8 @@ But still our Erlang servers were dying after a few minutes.
 The final touch was enabling the old connection pool in Erlang;
 after that point everything was running smoothly.
 Success!
-That last time we did not revert the change in the DNS.
-We now had our own balancer capable of handling 300 krps.
+We now had our own balancer capable of handling 300 krps and more,
+at a fraction of the cost.
 But there were a few details that needed some polishing.
 
 ### Orchestration
@@ -241,7 +241,8 @@ Amazon offers Auto Scaling Groups to create or destroy servers as needed.
 With a custom DNS-based load balancer you will need to orchestrate your servers yourself.
 Fortunately we have been using a custom orchestrator for a few years.
 The reason is that the default Auto Scaling algorithm sucks.
-It decides whether to create or destroy instances based solely on their _current_ load:
+
+Auto Scaling decides whether to create or destroy instances based solely on their _current_ load:
 if the average load is above the high watermark (e.g. 90%) then a new instance is created,
 and if it is below the low watermark (e.g. 80%) then an existing instance is destroyed.
 Nice, right?
