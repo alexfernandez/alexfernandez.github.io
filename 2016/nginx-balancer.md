@@ -131,8 +131,8 @@ But the worst part was the sensation of losing control of your own systems.
 Together with our CTO Guillermo Fernández
 we had done a few experiments to remove the main ELB,
 with mixed success.
-How can you balance traffic without an ELB?
-
+The immediate question is:
+how do you balance traffic without an ELB?
 The trick is to have an entry in the DNS registry that points to a set of different IP addresses
 corresponding to your servers.
 The DNS registry will reorder them randomly so that every client sees an arbitrary server first.
