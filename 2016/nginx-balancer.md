@@ -53,7 +53,7 @@ This resulted in a dual architecture with two ELBs:
 one to receive traffic from exchanges and deliver it to the Erlang filters,
 and another to receive the filtered traffic and send it to the frontends.
 
-![MediaSmart Architecture](pics/elb-architecture.jpg "MediaSmart Architecture and Processes")
+![MediaSmart Architecture](pics/elb-architecture.png "MediaSmart Architecture and Processes")
 
 ### ELB Costs Out of Control
 
