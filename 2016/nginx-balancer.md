@@ -286,7 +286,7 @@ which is above the low watermark,
 and decides against destroying one.
 
 For the new Round-robin DNS balancer,
-We just had to adjust our orchestrator to read the instances from the DNS,
+we just had to adjust our orchestrator to read the instances from the DNS,
 add the IPs of any new instances to the DNS registry,
 and remove the IPs of terminated instances.
 
@@ -308,8 +308,8 @@ So there were in fact three challenges:
 The first part can be done with a bit of [Lua](https://www.nginx.com/resources/wiki/modules/lua/)
 magic.
 To use Lua with Nginx you can install the
-[OpenResty](https://openresty.org/en/) full package.
-Since we are using Ubuntu I preferred to use the package `nginx-extras`,
+[OpenResty](https://openresty.org/en/) full package;
+since we are using Ubuntu I preferred to use the package `nginx-extras`,
 which is a version of Nginx with all plugins compiled in.
 I used this
 [three-year-old post](https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/)
@@ -319,7 +319,7 @@ For every HTTP status code Nginx now reports the number of requests it has recei
 and the sum of the time it took to answer all those requests.
 
 In Nginx a bit of Lua code needs to be added to log everything using Lua,
-and then a page that returns the aggregated results.
+and then a few more lines to compose a page that shows the aggregated results as a JSON document.
 It is a good idea to add a random nonce to the logging URL
 to obfuscate it slightly,
 although there is probably no harm in exposing it.
@@ -327,6 +327,9 @@ In our case this results page is `log_2l8J2yjy1ofgZQOj`.
 You can create your own nonce on Unix with this simple command:
 
     $ head -c 12 /dev/urandom | base64
+
+This simple technique can be used for moderately private pages,
+but do not use it if you need to really secure stuff.
 
 The relevant excerpts of the `site.conf` file are:
 
