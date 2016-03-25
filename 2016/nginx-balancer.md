@@ -40,8 +40,8 @@ We _need_ this amount of unused traffic because our customers tend to have pecul
 campaigns marketed at a smallish number of user IDs,
 geolocalized to several areas of a country,
 or trying to get clicks and downloads from targeted users.
-We use moderately sophisticated algorithms to sift through this traffic
-and find where campaigns work best.
+We use quite sophisticated algorithms to sift through this traffic
+and find where our campaigns work best.
 
 About a year ago we were using 40 frontend servers
 (large c3.2xlarge machines with 8 processors),
