@@ -249,8 +249,11 @@ Nice, right?
 The problem is that, when removing instances,
 we do not want to use their _current_ load,
 but the _projected load_ that they would have with one less instance to hold the traffic.
-Otherwise the remaining instances may go above the load instantly,
-so we would need to create a new one, and so on.
+Otherwise the remaining instances may go above the high watermark instantly,
+so we would need to create a new one,
+which would again set the load below the low watermark,
+and so on.
+This kind of ping-pong is very bad for the servers and for the bottom line.
 
 Example: we have two servers at 50% load.
 Removing one would leave us with a 100% load for just one server,
