@@ -56,7 +56,7 @@
 								<div class="container">
 									<header class="major">
 										<h1>Creating a Balancer With Nginx</h1>
-										<p>Or How We Replaced an expensive ELB from Amazon AWS To Process Thousands of Requests per Second<p>
+										<p>Or How We Replaced an expensive ELB from Amazon AWS To Process Many Thousands of Requests per Second<p>
 									</header>
 										<div class="figure">
 <img src="pics/balancer.jpg" title="Maria Spelterini at Suspension Bridge" alt="Picture credit: George E. Curtis" />
@@ -113,13 +113,14 @@
 <p>Our custom orchestrator reads the instances present in an ELB, checks their load and decides if it has to create a new server or destroy one. In the first case an instance is created and then added to the ELB; in the second the last instance is destroyed, which automatically removes it from the ELB. The high watermark is checked against the <em>median</em> server load, which by the way works better than the average load. The low watermark is checked against the median server load <em>with one less server</em>. This allows us to use a low watermark of 80%.</p>
 <p>Example: now we have three servers at 65% load. The orchestrator shares a load of 3*65%=195% between two servers, computes that each would have to handle a 97.5% load which is above the low watermark, and decides against destroying one.</p>
 <p>For the new Round-robin DNS balancer, We just had to adjust our orchestrator to read the instances from the DNS, add the IPs of any new instances to the DNS registry, and remove the IPs of terminated instances.</p>
-<h3 id="lua-logging">Lua Logging</h3>
+<h3 id="nice-graphs">Nice Graphs</h3>
 <p>Along the path we had lost those nice Cloudwatch graphs. Even if we had the statistics for each server, and we could show them on a nice graph, we now had a variable number of servers. But we did not even have statistics for each server. So there were in fact three challenges:</p>
 <ul>
 <li>get statistics for each server,</li>
 <li>aggregate them across all servers,</li>
 <li>and show them on a nice graph.</li>
 </ul>
+<h3 id="lua-logging">Lua Logging</h3>
 <p>The first part can be done with a bit of <a href="https://www.nginx.com/resources/wiki/modules/lua/">Lua</a> magic. To use Lua with Nginx you can install the <a href="https://openresty.org/en/">OpenResty</a> full package. Since we are using Ubuntu I preferred to use the package <code>nginx-extras</code>, which is a version of Nginx with all plugins compiled in. I used this <a href="https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/">three-year-old post</a> by CloudFlare as a guide, modifying it heavily. For every HTTP status code Nginx now reports the number of requests it has received and the sum of the time it took to answer all those requests. The result is something like this:</p>
 <pre><code>{
   &quot;200-count&quot;: 546862089,
@@ -140,20 +141,23 @@
   &quot;504-sum&quot;: 5815348.7010462
 }</code></pre>
 <p>This particular server has served up to now more than 73 billion requests, most of them 204 as expected. Given that the server has been up for 38 days, it has served almost two billion requests per day. Just the 204 requests have collectively taken 400 million seconds, or 12.7 years. Note that most of that time has been spent by other servers; the filter server consumes almost no time itself processing each request, or it would not be able to serve so many requests. That is the magic of event-oriented processing!</p>
-<p>Then we had to aggregate data across all servers. No problem: just take the list of IPs from the DNS registry using the Route53 API, then invoke each one and get the number of requests per status code, and aggregate them.</p>
-<p>The next challenge was storing the data somewhere to graph it. There was really no reason to ditch Cloudwatch: it is a very reasonable time-series database with nice graphing capabilities. We could just aggregate the stats from all servers every minute and write them to Cloudwatch.</p>
+<p>With logging in place, the load on our filters goes about 30% to Nginx and 70% to the filter. This means that we are using about 43% more filter servers, which is not a bad tradeoff: it represents much less than $2k, for a functionality that used to cost more than $10k.</p>
+<h3 id="monitoring">Monitoring</h3>
+<p>Then we had to aggregate data across all servers. No problem: just take the list of IPs from the DNS registry using the Route53 API, then invoke each one and get the number of requests per status code, and aggregate them. With a little Node.js code it was done in a breeze.</p>
+<p>The next challenge was storing the data somewhere to graph it. There was really no reason to ditch Cloudwatch: it is a very reasonable time-series database with nice graphing capabilities. We could just aggregate the stats from all servers every minute and write them to Cloudwatch, just adding a line of Node.js code to the existing logging code.</p>
 <p>One advantage of aggregating number of requests and latency every minute is that now we can show both on a graph at the same time. Combined with the new Cloudwatch dashboards we now get this nice page.</p>
 <div class="figure">
 <img src="pics/traffic-dashboard.png" title="Our new shiny traffic dashboard in Cloudwatch." alt="Traffic Dashboard" />
 <p class="caption">Traffic Dashboard</p>
 </div>
-<p>With logging in place, the load on our filters goes about 30% to Nginx and 70% to the filter. This means that we are using about 43% more filter servers, which is not a bad tradeoff: it represents much less than $2k, for a functionality that used to cost more than $10k.</p>
-<h3 id="monitoring">Monitoring</h3>
-<p>Our servers had to be monitored.</p>
+<p>Apart from global monitoring, all servers have to be individually monitored. In this case we had to check if they were still alive and otherwise remove them from balancing. The best way is to publish a NOP (<em>No OPeration</em>) URL that can be called from the outside and returns a 200 OK if the server is 100% operative.</p>
+<p>If the server does not answer in time, it is removed from the DNS registry. This can be nicely integrated with the global monitoring code and use the removal from the orchestrator.</p>
 <h3 id="other-modifications">Other Modifications</h3>
-<p>We have also had to move our HTTPS certificates to</p>
+<p>We have also had to move our HTTPS certificates to Nginx, which deals with encryption beautifully.</p>
 <h3 id="cost-reduction">Cost Reduction</h3>
-<p>With all these modifications we reduced our costs about 25%, so Amazon has lost a chunk of cash, which has allowed us to open more traffic in the US and do more business. Our technical contacts at Amazon have followed through.</p>
+<p>With all these modifications we reduced our costs about 20%. So Amazon has lost a chunk of cash; you might think that our account manager would be sad. But in reality he has helped us a lot in the process, and our technical contacts at Amazon have followed through.</p>
+<p>You see, when costs are out of control you usually start shopping around if some other provider can sell you the same stuff cheaper. It is not as if Amazon AWS is the only game in town. A happy customer is much less likely to look at the alternatives.</p>
+<p>This cost reduction has allowed us to open more traffic in the US and grow our business, which is what a healthy company usually does.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>ELBs are amazing. If you are handling a moderate-to-high amount of traffic, say below 100 krps, they are easy to set up and great to operate.</p>
 <p>But Nginx is equally amazing, very configurable and cheap to operate.</p>

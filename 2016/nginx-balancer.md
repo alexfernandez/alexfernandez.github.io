@@ -1,6 +1,6 @@
 ---
 title: Creating a Balancer With Nginx
-subtitle: 'Or How We Replaced an expensive ELB from Amazon AWS To Process Thousands of Requests per Second'
+subtitle: 'Or How We Replaced an expensive ELB from Amazon AWS To Process Many Thousands of Requests per Second'
 footer: Published on 2016-03-18.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -274,7 +274,7 @@ We just had to adjust our orchestrator to read the instances from the DNS,
 add the IPs of any new instances to the DNS registry,
 and remove the IPs of terminated instances.
 
-### Lua Logging
+### Nice Graphs
 
 Along the path we had lost those nice Cloudwatch graphs.
 Even if we had the statistics for each server,
@@ -286,6 +286,8 @@ So there were in fact three challenges:
 * get statistics for each server,
 * aggregate them across all servers,
 * and show them on a nice graph.
+
+### Lua Logging
 
 The first part can be done with a bit of [Lua](https://www.nginx.com/resources/wiki/modules/lua/)
 magic.
@@ -333,25 +335,6 @@ the filter server consumes almost no time itself processing each request,
 or it would not be able to serve so many requests.
 That is the magic of event-oriented processing!
 
-Then we had to aggregate data across all servers.
-No problem:
-just take the list of IPs from the DNS registry using the Route53 API,
-then invoke each one and get the number of requests per status code,
-and aggregate them.
-
-The next challenge was storing the data somewhere to graph it.
-There was really no reason to ditch Cloudwatch:
-it is a very reasonable time-series database
-with nice graphing capabilities.
-We could just aggregate the stats from all servers every minute
-and write them to Cloudwatch.
-
-One advantage of aggregating number of requests and latency every minute
-is that now we can show both on a graph at the same time.
-Combined with the new Cloudwatch dashboards we now get this nice page.
-
-![Traffic Dashboard](pics/traffic-dashboard.png "Our new shiny traffic dashboard in Cloudwatch.")
-
 With logging in place,
 the load on our filters goes about 30% to Nginx and 70% to the filter.
 This means that we are using about 43% more filter servers,
@@ -360,19 +343,61 @@ for a functionality that used to cost more than $10k.
 
 ### Monitoring
 
-Our servers had to be monitored.
+Then we had to aggregate data across all servers.
+No problem:
+just take the list of IPs from the DNS registry using the Route53 API,
+then invoke each one and get the number of requests per status code,
+and aggregate them.
+With a little Node.js code it was done in a breeze.
+
+The next challenge was storing the data somewhere to graph it.
+There was really no reason to ditch Cloudwatch:
+it is a very reasonable time-series database
+with nice graphing capabilities.
+We could just aggregate the stats from all servers every minute
+and write them to Cloudwatch,
+just adding a line of Node.js code to the existing logging code.
+
+One advantage of aggregating number of requests and latency every minute
+is that now we can show both on a graph at the same time.
+Combined with the new Cloudwatch dashboards we now get this nice page.
+
+![Traffic Dashboard](pics/traffic-dashboard.png "Our new shiny traffic dashboard in Cloudwatch.")
+
+Apart from global monitoring,
+all servers have to be individually monitored.
+In this case we had to check if they were still alive
+and otherwise remove them from balancing.
+The best way is to publish a NOP (_No OPeration_) URL
+that can be called from the outside and returns a 200 OK if the server is 100% operative.
+
+If the server does not answer in time,
+it is removed from the DNS registry.
+This can be nicely integrated with the global monitoring code
+and use the removal from the orchestrator.
 
 ### Other Modifications
 
-We have also had to move our HTTPS certificates to 
+We have also had to move our HTTPS certificates to Nginx,
+which deals with encryption beautifully.
 
 ### Cost Reduction
 
-With all these modifications we reduced our costs about 25%,
-so Amazon has lost a chunk of cash,
-which has allowed us to open more traffic in the US
-and do more business.
-Our technical contacts at Amazon have followed through.
+With all these modifications we reduced our costs about 20%.
+So Amazon has lost a chunk of cash;
+you might think that our account manager would be sad.
+But in reality he has helped us a lot in the process,
+and our technical contacts at Amazon have followed through.
+
+You see, when costs are out of control
+you usually start shopping around if some other provider
+can sell you the same stuff cheaper.
+It is not as if Amazon AWS is the only game in town.
+A happy customer is much less likely to look at the alternatives.
+
+This cost reduction has allowed us to open more traffic in the US
+and grow our business,
+which is what a healthy company usually does.
 
 ## Conclusion
 
@@ -383,5 +408,4 @@ they are easy to set up and great to operate.
 
 But Nginx is equally amazing,
 very configurable and cheap to operate.
-
 
