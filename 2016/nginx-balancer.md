@@ -162,11 +162,18 @@ before collapsing in a miserable pile.
 We increased the number of open files/sockets,
 enabled TIME_WAIT connection reuse and a few other tricks,
 to no avail.
+To this day, Guillermo thinks that the problem is due to some Linux configuration knob for TCP that eludes us.
+It is really an odd scenario:
+exchanges open an indeterminate number of connections,
+which can be idle for many seconds.
+To improve the situation,
 Guillermo (who now is an Erlang wizard) even implemented a connection pool,
-in case the servers were running out of connections.
+in case the servers were running out of some unknown low level resource.
 Nothing worked.
-Also, tests were a bit disruptive since we had to run them directly on production,
-so at the time we just waited to have a bigger motivation.
+
+Whatever the cause, we were getting nowhere.
+Also, tests were a bit disruptive since we had to run them directly on production.
+At the time we just waited to have a bigger motivation.
 That moment had now come.
 
 ## Nginx to the Rescue
