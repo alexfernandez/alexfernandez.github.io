@@ -301,7 +301,7 @@ This allows us to use a low watermark of 80%.
 
 Example: now we have three servers at 65% load.
 The orchestrator tries to share a load of 3*65%=195% between two servers,
-predicts that each would have to handle a 97.5% load
+predicts that each would need to handle a 97.5% load
 which is above the low watermark,
 and decides against destroying one.
 
