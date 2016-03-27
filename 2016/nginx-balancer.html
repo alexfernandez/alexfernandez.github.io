@@ -70,7 +70,7 @@
 <p>About a year ago we were using 40 frontend servers (large c3.2xlarge machines with 8 processors), and the cost was killing us. So we came up with a clever solution: write an Erlang filter which decides which requests are more likely to be used by the frontends, and filters out the rest.</p>
 <p>This resulted in a dual architecture with two ELBs: one to receive traffic from exchanges and deliver it to the Erlang filters, and another to receive the filtered traffic and send it to the frontends.</p>
 <div class="figure">
-<img src="pics/elb-architecture.png" title="MediaSmart Architecture and Processes" alt="MediaSmart Architecture" />
+<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart Architecture" />
 <p class="caption">MediaSmart Architecture</p>
 </div>
 <h3 id="elb-costs-out-of-control">ELB Costs Out of Control</h3>
