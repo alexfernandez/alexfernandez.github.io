@@ -194,7 +194,7 @@ Nginx needs little presentation.
 According to the
 [Netcraft web server survey](http://news.netcraft.com/archives/2016/03/18/march-2016-web-server-survey.html)
 it is the second most popular web server for active sites,
-and it may eventually overtake Apache on the top million busiest sites.
+and it may eventually overtake Apache in the top million busiest sites.
 
 What many people ignore is that it is also a top-notch
 [reverse proxy](https://help.ubuntu.com/community/Nginx/ReverseProxy):
@@ -205,14 +205,14 @@ and the configuration is even simpler.
 
 ### Experimenting Live
 
-We set up our filter servers with Nginx and our custom Erlang code.
-We could reuse our existing filters with a small change:
+We furnished our filter servers with a snazzy Nginx along our custom Erlang code.
+We could reuse our existing Erlang code with just a small change:
 instead of Erlang listening on port 80 directly,
 Nginx would listen on port 80 and redirect to Erlang listening on a different port.
 
 One issue with our experiments is that ELBs
 need to be "preheated" when receiving a lot of traffic.
-Otherwise it stutters and rejects most of the requests,
+Otherwise an unsuspecting ELB can stutter and reject most of the requests,
 and this can go on indefinitely under heavy load.
 If you have many krps you need to ask AWS to "preheat" the ELB.
 Our fear was that the ELB would "cool down" if we diverted all requests
