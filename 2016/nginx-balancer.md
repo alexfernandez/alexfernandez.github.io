@@ -342,8 +342,8 @@ modifying it heavily.
 For every HTTP status code Nginx now reports the number of requests it has received
 and the sum of the time it took to answer all those requests.
 
-In Nginx a bit of Lua code needs to be added to log everything using Lua,
-and then a few more lines to compose a page that shows the aggregated results as a JSON document.
+In Nginx a bit of Lua code needs to be added to log everything programmatically.
+With a few more lines we can compose a page that shows the aggregated results as a JSON document.
 It is a good idea to add a random nonce to the logging URL
 to obfuscate it slightly,
 although there is probably no harm in exposing it.
@@ -406,6 +406,9 @@ server {
 
 [//a]: # (This just to pair quotes")
 
+For attentive readers,
+that last `"end": 0` is just added to have a valid JSON without having to remove the trailing comma.
+
 And the logging library used here is an adaptation of
 [Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua),
 which you can
@@ -432,7 +435,8 @@ The result of accessing the server at `http://[ip]/log_2l8J2yjy1ofgZQOj` is some
   "502-count": 32735207,
   "502-sum": 4441155.2488055,
   "504-count": 96454,
-  "504-sum": 5815348.7010462
+  "504-sum": 5815348.7010462,
+  "end": 0
 }
 ```
 

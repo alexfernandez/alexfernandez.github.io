@@ -129,7 +129,7 @@
 </ul>
 <h3 id="lua-logging">Lua Logging</h3>
 <p>The first part can be done with a bit of <a href="https://www.nginx.com/resources/wiki/modules/lua/">Lua</a> magic. To use Lua with Nginx you can install the <a href="https://openresty.org/en/">OpenResty</a> full package; since we are using Ubuntu I chose instead to use the package <code>nginx-extras</code>, which is a version of Nginx with all plugins compiled in. I used this <a href="https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/">three-year-old post</a> by Matthieu Tourne (then at CloudFlare) as a guide, modifying it heavily. For every HTTP status code Nginx now reports the number of requests it has received and the sum of the time it took to answer all those requests.</p>
-<p>In Nginx a bit of Lua code needs to be added to log everything using Lua, and then a few more lines to compose a page that shows the aggregated results as a JSON document. It is a good idea to add a random nonce to the logging URL to obfuscate it slightly, although there is probably no harm in exposing it. In our case this results page is <code>log_2l8J2yjy1ofgZQOj</code>. You can create your own nonce on Unix with this simple command:</p>
+<p>In Nginx a bit of Lua code needs to be added to log everything programmatically. With a few more lines we can compose a page that shows the aggregated results as a JSON document. It is a good idea to add a random nonce to the logging URL to obfuscate it slightly, although there is probably no harm in exposing it. In our case this results page is <code>log_2l8J2yjy1ofgZQOj</code>. You can create your own nonce on Unix with this simple command:</p>
 <pre><code>$ head -c 12 /dev/urandom | base64</code></pre>
 <p>This simple technique can be used for moderately private pages, but do not use it if you need to keep stuff secret.</p>
 <p>The relevant excerpts of the Nginx config file <code>site.conf</code> are shown here commented:</p>
@@ -176,6 +176,7 @@ server {
             &#39;;
     }
 }</code></pre>
+<p>For attentive readers, that last <code>&quot;end&quot;: 0</code> is just added to have a valid JSON without having to remove the trailing comma.</p>
 <p>And the logging library used here is an adaptation of <a href="https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua">Matthieu Tourne's</a>, which you can <a href="logging.lua">find here</a>.</p>
 <p>The result of accessing the server at <code>http://[ip]/log_2l8J2yjy1ofgZQOj</code> is something like this:</p>
 <pre><code>{
@@ -194,7 +195,8 @@ server {
   &quot;502-count&quot;: 32735207,
   &quot;502-sum&quot;: 4441155.2488055,
   &quot;504-count&quot;: 96454,
-  &quot;504-sum&quot;: 5815348.7010462
+  &quot;504-sum&quot;: 5815348.7010462,
+  &quot;end&quot;: 0
 }</code></pre>
 <p>This particular server has served up to now more than 73 billion requests, most of them resulting in 204 No Content as expected (shown here as <code>204-count</code>). Given that the server has been up for 38 days, it has served almost two billion requests per day. Just the 204 requests have collectively taken 400 million seconds to process (shown as <code>204-sum</code>), or 12.7 years; the average is a little over 5 ms per request.</p>
 <p>Note that these timings are for <em>latency</em>, not for total processing time. The filter server consumes almost no CPU time itself on each request, or Nginx would not be able to serve so many requests. The same happens with the Erlang filter or the eventual frontend servers. That is the magic of event-driven processing! (Note: while both Nginx and Node.js are event-driven by default, in Erlang the prevailing paradigm for concurrent programming is <a href="http://erlang.org/doc/getting_started/conc_prog.html">message passing</a>, which is completely different.)</p>
