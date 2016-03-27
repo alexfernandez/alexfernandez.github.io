@@ -93,7 +93,7 @@ over 27 TB per day of _incoming_ traffic,
 or more than 0.8 petabytes per month.
 At $0.018 per GB the total cost is about $15K,
 which can be a substantial portion of our AWS costs.
-Going from free to $15K just in ELB-related traffic costs is not nice.
+Going from free to $15K just in ELB-related traffic costs does not look good.
 
 The solution was obvious:
 remove the first ELB handling the majority of the traffic,
