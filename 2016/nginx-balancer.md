@@ -91,9 +91,9 @@ But requests are largish (a request size of 1.5 KB is typical),
 and combined with about 18 billion requests _per day_ it results in
 over 27 TB per day of _incoming_ traffic,
 or more than 0.8 petabytes per month.
-At $0.018 per GB the total cost is about $15K,
+At $0.018 per GB the total cost is about $15k,
 which can be a substantial portion of our AWS costs.
-Going from free to $15K just in ELB-related traffic costs does not look good.
+Going from free to $15k just in ELB-related traffic costs does not look good.
 
 The solution was obvious:
 remove the first ELB handling the majority of the traffic,
@@ -466,7 +466,7 @@ which is completely different but also very efficient.
 With logging in place,
 the load on our filters goes about 30% to Nginx and 70% to the filter.
 This means that we are using about 43% more filter servers than with the ELB.
-It is not a bad tradeoff: it represents much less than $2k,
+It is not a bad tradeoff: it represents much less than $2k.
 for a functionality that used to cost about $15k.
 
 ### Monitoring
