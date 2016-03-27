@@ -297,7 +297,6 @@ Otherwise the median server load is computed *with one less server than currentl
 If this projected load is below the low watermark
 the last instance is destroyed,
 which automatically removes it from the ELB.
-This allows us to use a low watermark of 80%.
 
 Example: now we have three servers at 65% load.
 The orchestrator tries to share a load of 3*65%=195% between two servers,
@@ -305,8 +304,11 @@ predicts that each would need to handle a 97.5% load
 which is above the low watermark,
 and decides against destroying one.
 
-For the new Round-robin DNS balancer,
-we just had to adjust our orchestrator to read the instances from the DNS,
+This simple algorithm allows us to use a low watermark of 80%.
+
+Since we already have a custom orchestrator,
+adjusting it to work with the new Round-robin DNS balancer was easy:
+we just had to read the instances from the DNS instead of from the ELB,
 add the IPs of any new instances to the DNS registry,
 and remove the IPs of terminated instances.
 
