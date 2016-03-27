@@ -131,7 +131,7 @@ for instance, you cannot mix latency and number of requests in the same graph.
 The reason is that you cannot show the sum of one metric mixed with the average of another.
 Default behavior is to show the average of each metric,
 which is not helpful with number of requests since they need to be summed.
-But the worst part was the sensation of losing control of your own systems.
+But these are minor annoyances compared to the sensation of losing control of your own systems.
 
 Together with our CTO Guillermo Fernández
 we had done a few experiments to remove the main ELB,
