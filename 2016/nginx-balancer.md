@@ -20,7 +20,7 @@ At
 [MediaSmart Mobile](http://mediasmart.es/)
 we have had peaks of over 300 krps
 (300 thousand requests per second),
-and all have gone through an ELB.
+and all those requests used to go through an ELB.
 Without a hitch.
 Continuously (at night, traffic never goes below 100 krps).
 But they were increasing our costs too much:
