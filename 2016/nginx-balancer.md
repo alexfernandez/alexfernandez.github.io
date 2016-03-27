@@ -92,7 +92,7 @@ and combined with about 18 billion requests _per day_ it results in
 over 27 TB per day of _incoming_ traffic,
 or more than 0.8 petabytes per month.
 At $0.018 per GB the total cost is about $15K,
-a substantial portion of our AWS costs.
+which can be a substantial portion of our AWS costs.
 Going from free to $15K just in ELB-related traffic costs is not nice.
 
 The solution was obvious:
