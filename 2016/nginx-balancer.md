@@ -161,7 +161,7 @@ then start losing traffic and finally collapse altogether.
 To smooth the traffic we set up an HAProxy in each filter server.
 It is an amazing product that works very well for some large Internet services
 such as Stack Overflow.
-It would then redirect the traffic to the Erlang server.
+It would receive the traffic, then redirect it to the Erlang server.
 This scheme was an improvement, although not completely successful:
 the filter servers worked for a minute or two
 before collapsing in a miserable pile.
