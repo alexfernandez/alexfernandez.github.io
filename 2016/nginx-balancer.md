@@ -289,13 +289,14 @@ The result is a lot of wasted CPU time.
 
 Our custom orchestrator reads the instances present in an ELB,
 checks their load and decides if it has to create a new server or destroy one.
-In the first case an instance is created and then added to the ELB;
-in the second the last instance is destroyed,
-which automatically removes it from the ELB.
-The high watermark is checked against the _median_ server load,
+First the _median_ server load is computed,
 which by the way works better than the average load.
-The low watermark is checked against the median server load
-*with one less server*.
+If this median load is above the high watermark,
+an instance is created and then added to the ELB.
+Otherwise the median server load is computed *with one less server than currently present*.
+If this projected load is below the low watermark
+the last instance is destroyed,
+which automatically removes it from the ELB.
 This allows us to use a low watermark of 80%.
 
 Example: now we have three servers at 65% load.
