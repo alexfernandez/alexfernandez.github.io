@@ -304,7 +304,9 @@ predicts that each would need to handle a 97.5% load
 which is above the low watermark,
 and decides against destroying one.
 
-This simple algorithm allows us to use a low watermark of 80%.
+This simple algorithm allows us to use a low watermark of 80%
+and a high watermark of 90%,
+making sure we make good use of our servers.
 
 Since we already have a custom orchestrator,
 adjusting it to work with the new Round-robin DNS balancer was easy:
