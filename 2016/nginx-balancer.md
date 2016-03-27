@@ -74,26 +74,28 @@ Let us see what that really means.
 The first charge is
 [assigned to the ELB](https://aws.amazon.com/elasticloadbalancing/pricing/)
 itself: currently it is $0.008 per GB of data processed in US East.
-The second is [hidden inside Data Transfer](https://aws.amazon.com/ec2/pricing/#Data_Transfer):
+The second can be found [inside Data Transfer](https://aws.amazon.com/ec2/pricing/#Data_Transfer):
 $0.01 per GB received.
 Why is this small charge of less than two cents per GB relevant?
 
-See, Amazon advertises that traffic _into_ EC2 is free,
-which is important when you are receiving a lot of requests per second;
-while traffic _out of_ EC2 costs a small amount.
-But this is not the case for ELBs.
+See, while traffic _out of_ EC2 costs a small amount,
+Amazon advertises that traffic _into_ EC2 is free.
+It is usually true,
+but not when you are using an ELB:
+in that case you are charged one cent per GB transferred into EC2.
+This small detail becomes crucial when you are receiving a lot of requests per second.
 The OpenRTB protocol is optimized to minimize traffic when you do not bid:
 an HTTP response of 204 No Content is usually enough,
 which means sending just a few bytes.
 But requests are largish (a request size of 1.5 KB can be normal),
-and combined with 18 billion requests per day it results in
+and combined with about 18 billion requests _per day_ it results in
 over 27 TB per day, or more than 0.8 petabytes per month.
 At $0.018 per GB the total cost is about $15K.
 Going from free to $15K just in ELB-related traffic costs is not nice.
 
 The solution was obvious:
 remove the first ELB handling the majority of the traffic,
-and connect the exchanges directly with our filters.
+and connect the exchanges directly with our traffic filters.
 So we got approval from our boss to go for it.
 This time for real!
 
