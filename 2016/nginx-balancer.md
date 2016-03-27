@@ -134,13 +134,13 @@ which is not helpful with number of requests since they need to be summed.
 Graph data cannot be exported directly, and so on.
 But these are minor annoyances compared to the sensation of losing control of your own systems.
 
-Together with our CTO Guillermo Fernández
-we had done a few experiments to remove the main ELB,
+MediaSmart CTO Guillermo Fernández and myself
+had done a few experiments to remove the main ELB,
 with mixed success.
 The immediate question is:
 how do you balance traffic without an ELB?
-The trick is to have an entry in the DNS registry that points to a set of different IP addresses
-corresponding to your servers.
+The trick is to have an entry in the DNS registry that points to a set of IP addresses
+that correspond to your servers.
 The DNS registry will reorder them randomly so that every client sees an arbitrary server first.
 Since each client is supposed to contact the first IP address in the list,
 the load is distributed between your servers. 
