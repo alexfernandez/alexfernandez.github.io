@@ -153,7 +153,7 @@ exchanges should start sending traffic to the filters quite fast.
 That part was easy.
 The hard part was getting the filter servers to handle the load directly,
 without an intermediate ELB.
-Apparently the ELB was doing some kind of "smoothing" the connections,
+Apparently the ELB was doing some kind of "smoothing" with the connections,
 and dealing with some misbehaving exchanges that opened and closed connections very fast.
 Our Erlang filters would handle the load for a few seconds,
 then start losing traffic and finally collapse altogether.
