@@ -214,7 +214,8 @@ One issue with our experiments is that ELBs
 need to be "preheated" when receiving a lot of traffic.
 Otherwise an unsuspecting ELB can stutter and reject most of the requests,
 and this can go on indefinitely under heavy load.
-If you have many krps you need to ask AWS to "preheat" the ELB.
+If you have many krps you need to ask AWS to
+["pre-warm" the ELB](http://aws.amazon.com/articles/1636185810492479#pre-warming).
 Our fear was that the ELB would "cool down" if we diverted all requests
 for a long time.
 Our AWS technical contacts assured us that our ELBs would not "cool down"
