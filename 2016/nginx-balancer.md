@@ -167,7 +167,7 @@ It is really an odd scenario:
 exchanges open an indeterminate number of connections,
 which can be idle for many seconds.
 To improve the situation,
-Guillermo (who now is an Erlang wizard) even implemented a connection pool,
+Guillermo (who by now is an Erlang wizard) even implemented a connection pool,
 in case the servers were running out of some unknown low level resource.
 Nothing worked.
 
