@@ -333,7 +333,7 @@ The first part can be done with a bit of [Lua](https://www.nginx.com/resources/w
 magic.
 To use Lua with Nginx you can install the
 [OpenResty](https://openresty.org/en/) full package;
-since we are using Ubuntu I preferred to use the package `nginx-extras`,
+since we are using Ubuntu I chose instead to use the package `nginx-extras`,
 which is a version of Nginx with all plugins compiled in.
 I used this
 [three-year-old post](https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/)
