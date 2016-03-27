@@ -87,7 +87,7 @@ This small detail becomes crucial when you are receiving a lot of requests per s
 The OpenRTB protocol is optimized to minimize traffic when you do not bid:
 an HTTP response of 204 No Content is usually enough,
 which means sending just a few bytes.
-But requests are largish (a request size of 1.5 KB can be normal),
+But requests are largish (a request size of 1.5 KB is typical),
 and combined with about 18 billion requests _per day_ it results in
 over 27 TB per day, or more than 0.8 petabytes per month.
 At $0.018 per GB the total cost is about $15K.
