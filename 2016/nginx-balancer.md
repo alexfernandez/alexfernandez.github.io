@@ -315,7 +315,6 @@ and we could show them on a nice graph,
 we now had a variable number of servers.
 But we did not even have statistics for each server.
 So there were in fact three challenges:
-
 * get statistics for each server,
 * aggregate them across all servers,
 * and show them on a nice graph.

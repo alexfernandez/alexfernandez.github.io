@@ -113,12 +113,7 @@
 <p>Example: now we have three servers at 65% load. The orchestrator tries to share a load of 3*65%=195% between two servers, predicts that each would have to handle a 97.5% load which is above the low watermark, and decides against destroying one.</p>
 <p>For the new Round-robin DNS balancer, we just had to adjust our orchestrator to read the instances from the DNS, add the IPs of any new instances to the DNS registry, and remove the IPs of terminated instances.</p>
 <h3 id="nice-graphs">Nice Graphs</h3>
-<p>Along the path we had lost those nice Cloudwatch graphs. Even if we had the statistics for each server, and we could show them on a nice graph, we now had a variable number of servers. But we did not even have statistics for each server. So there were in fact three challenges:</p>
-<ul>
-<li>get statistics for each server,</li>
-<li>aggregate them across all servers,</li>
-<li>and show them on a nice graph.</li>
-</ul>
+<p>Along the path we had lost those nice Cloudwatch graphs. Even if we had the statistics for each server, and we could show them on a nice graph, we now had a variable number of servers. But we did not even have statistics for each server. So there were in fact three challenges: * get statistics for each server, * aggregate them across all servers, * and show them on a nice graph.</p>
 <h3 id="lua-logging">Lua Logging</h3>
 <p>The first part can be done with a bit of <a href="https://www.nginx.com/resources/wiki/modules/lua/">Lua</a> magic. To use Lua with Nginx you can install the <a href="https://openresty.org/en/">OpenResty</a> full package; since we are using Ubuntu I preferred to use the package <code>nginx-extras</code>, which is a version of Nginx with all plugins compiled in. I used this <a href="https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/">three-year-old post</a> by Matthieu Tourne (then at CloudFlare) as a guide, modifying it heavily. For every HTTP status code Nginx now reports the number of requests it has received and the sum of the time it took to answer all those requests.</p>
 <p>In Nginx a bit of Lua code needs to be added to log everything using Lua, and then a few more lines to compose a page that shows the aggregated results as a JSON document. It is a good idea to add a random nonce to the logging URL to obfuscate it slightly, although there is probably no harm in exposing it. In our case this results page is <code>log_2l8J2yjy1ofgZQOj</code>. You can create your own nonce on Unix with this simple command:</p>
