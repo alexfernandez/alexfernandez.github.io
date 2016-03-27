@@ -59,8 +59,7 @@
 										<p>Or How We Replaced an Expensive ELB from Amazon AWS To Process Many Thousands of Requests per Second<p>
 									</header>
 										<div class="figure">
-<img src="pics/balancer.jpg" title="Maria Spelterini at Suspension Bridge" alt="Picture credit: George E. Curtis" />
-<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg">George E. Curtis</a></p>
+<img src="pics/balancer.jpg" title="Maria Spelterini at Suspension Bridge" alt="Picture credit: George E. Curtis" /><p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg">George E. Curtis</a></p>
 </div>
 <h2 id="elbs-can-be-too-expensive">ELBs Can Be Too Expensive</h2>
 <p>Amazon Balancers (or Elastic Load Balancers, in their terminology) are awesome things: they are able to process many thousands of requests per second without issues for weeks on end. If you have used Amazon AWS with some kind of high availability setup, you have probably used an ELB.</p>
@@ -70,8 +69,7 @@
 <p>About a year ago we were using 40 frontend servers (large c3.2xlarge machines with 8 processors), and the cost was killing us. So we came up with a clever solution: write an Erlang filter which decides which requests are more likely to be used by the frontends, and filters out the rest.</p>
 <p>This resulted in a dual architecture with two ELBs: one to receive traffic from exchanges and deliver it to the Erlang filters, and another to receive the filtered traffic and send it to the frontends.</p>
 <div class="figure">
-<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart Architecture" />
-<p class="caption">MediaSmart Architecture</p>
+<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart Architecture" /><p class="caption">MediaSmart Architecture</p>
 </div>
 <h3 id="elb-costs-out-of-control">ELB Costs Out of Control</h3>
 <p>This was working great for a long time, until our costs started to skyrocket. The good folks at Amazon helped us analyze our monthly bill, with a surprising result: we were being charged twice for our ELBs!</p>
@@ -81,14 +79,13 @@
 </blockquote>
 <p>Let us see what that really means.</p>
 <p>The first charge is <a href="https://aws.amazon.com/elasticloadbalancing/pricing/">assigned to the ELB</a> itself: currently it is $0.008 per GB of data processed in US East. The second can be found <a href="https://aws.amazon.com/ec2/pricing/#Data_Transfer">inside Data Transfer</a>: $0.01 per GB received. Why is this small charge of less than two cents per GB relevant?</p>
-<p>See, while traffic <em>out of</em> EC2 costs a small amount, Amazon advertises that traffic <em>into</em> EC2 is free. It is usually true, but not when you are using an ELB: in that case you are charged one cent per GB transferred into EC2. This small detail becomes crucial when you are receiving a lot of requests per second. The OpenRTB protocol is optimized to minimize traffic when you do not bid: an HTTP response of 204 No Content is usually enough, which means sending just a few bytes. But requests are largish (a request size of 1.5 KB is typical), and combined with about 18 billion requests <em>per day</em> it results in over 27 TB per day, or more than 0.8 petabytes per month. At $0.018 per GB the total cost is about $15K. Going from free to $15K just in ELB-related traffic costs is not nice.</p>
+<p>See, while traffic <em>out of</em> EC2 costs a small amount, Amazon advertises that traffic <em>into</em> EC2 is free. It is usually true, but not when you are using an ELB: in that case you are charged one cent per GB transferred into EC2. This small detail becomes crucial when you are receiving a lot of requests per second. The OpenRTB protocol is optimized to minimize <em>outgoing</em> traffic when you do not bid: an HTTP response of 204 No Content is usually enough, which means sending just a few bytes. But requests are largish (a request size of 1.5 KB is typical), and combined with about 18 billion requests <em>per day</em> it results in over 27 TB per day of <em>incoming</em> traffic, or more than 0.8 petabytes per month. At $0.018 per GB the total cost is about $15K, a substantial portion of our AWS costs. Going from free to $15K just in ELB-related traffic costs is not nice.</p>
 <p>The solution was obvious: remove the first ELB handling the majority of the traffic, and connect the exchanges directly with our traffic filters. So we got approval from our boss to go for it. This time for real!</p>
 <h3 id="previous-experiences"> Previous Experiences</h3>
 <p>This was not the first time that we had tried removing the first ELB; in fact I had wanted to do it for a very long time. You know, ELBs are awesome in what they do, but you are a bit blind about what they are actually doing. For starters, it is not easy to get access logs; you can request that they be sent to S3, but it is cumbersome and you have little control about the log format.</p>
 <p>A nice feature of ELBs is that you get a lot of shiny graphs for traffic, latency, etcetera in Cloudwatch. They are distributed by <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">HTTP status code</a>. However, there is not enough granularity: there is only 2XX, 3XX, 4XX and 5XX. In our business a 200 OK is very different from a 204 No Content: the first means we are bidding, the second that we pass on that bid offer. Therefore we did not know how many bids we were making unless we looked it up in the exchanges themselves, or did a lot of fudging around. Same for 400 Bad Request, 401 Unauthorized or 404 Not Found: they have very different semantics, and are the symptoms of disparate problems.</p>
 <div class="figure">
-<img src="pics/2xx-requests.png" title="2XX requests to frontends as reported by Cloudwatch." alt="2XX Requests to Frontends" />
-<p class="caption">2XX Requests to Frontends</p>
+<img src="pics/2xx-requests.png" title="2XX requests to frontends as reported by Cloudwatch." alt="2XX Requests to Frontends" /><p class="caption">2XX Requests to Frontends</p>
 </div>
 <p>There are other minor annoyances with Cloudwatch: for instance, you cannot mix latency and number of requests in the same graph. The reason is that you cannot show the sum of one metric mixed with the average of another. Default behavior is to show the average of each metric, which is not helpful with number of requests since they need to be summed. But the worst part was the sensation of losing control of your own systems.</p>
 <p>Together with our CTO Guillermo Fernández we had done a few experiments to remove the main ELB, with mixed success. The immediate question is: how do you balance traffic without an ELB? The trick is to have an entry in the DNS registry that points to a set of different IP addresses corresponding to your servers. The DNS registry will reorder them randomly so that every client sees an arbitrary server first. Since each client is supposed to contact the first IP address in the list, the load is distributed between your servers. This is known as <a href="https://en.wikipedia.org/wiki/Round-robin_DNS">Round-robin DNS</a> and is very easy to do with Route53 (or indeed any DNS provider): just enter a list of IP addresses as an A record. Combined with a short TTL (time to live) of a minute, exchanges should start sending traffic to the filters quite fast.</p>
@@ -199,8 +196,7 @@ server {
 <p>The next challenge was storing the data somewhere to graph it. There was really no reason to ditch Cloudwatch: it is a very reasonable time-series database with nice graphing capabilities, and as long as you do not access it too often it is not expensive. We could just aggregate the stats from all servers every minute and write them to Cloudwatch, just adding a couple of lines of Node.js code to the existing aggregation code.</p>
 <p>One advantage of aggregating number of requests and latency every minute is that now we can show both on a graph at the same time. Combined with the new Cloudwatch dashboards we now get this nice page.</p>
 <div class="figure">
-<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic Dashboard" />
-<p class="caption">Traffic Dashboard</p>
+<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic Dashboard" /><p class="caption">Traffic Dashboard</p>
 </div>
 <p>Apart from global monitoring, all servers have to be individually monitored. In this case we had to check if they were still alive and otherwise remove them from balancing. A good way is to publish a NOP (<em>No OPeration</em>) URL that can be called from the outside and returns a 200 OK if the server is 100% operative. If the server does not answer in time, it is removed from the DNS registry. In our case we are already accessing all servers every minute, so we just need to invoke the DNS registry removal code from the orchestrator and terminate the instance if a server does not answer in time.</p>
 <h3 id="other-modifications">Other Modifications</h3>
@@ -221,7 +217,7 @@ server {
 									Published on 2016-03-18. <script type="text/javascript">
 <!--
 h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;&#x73;&#44;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#x6d;&#x65;&#110;&#116;&#x73;&#x3f;'+'<\/'+'a'+'>');
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'Comments, improvements?'+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;&#x73;&#44;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#x6d;&#x65;&#110;&#116;&#x73;&#x3f;&#32;&#40;&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;&#x29;</noscript>
 									</p>

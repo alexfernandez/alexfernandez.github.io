@@ -84,13 +84,15 @@ It is usually true,
 but not when you are using an ELB:
 in that case you are charged one cent per GB transferred into EC2.
 This small detail becomes crucial when you are receiving a lot of requests per second.
-The OpenRTB protocol is optimized to minimize traffic when you do not bid:
+The OpenRTB protocol is optimized to minimize _outgoing_ traffic when you do not bid:
 an HTTP response of 204 No Content is usually enough,
 which means sending just a few bytes.
 But requests are largish (a request size of 1.5 KB is typical),
 and combined with about 18 billion requests _per day_ it results in
-over 27 TB per day, or more than 0.8 petabytes per month.
-At $0.018 per GB the total cost is about $15K.
+over 27 TB per day of _incoming_ traffic,
+or more than 0.8 petabytes per month.
+At $0.018 per GB the total cost is about $15K,
+a substantial portion of our AWS costs.
 Going from free to $15K just in ELB-related traffic costs is not nice.
 
 The solution was obvious:
