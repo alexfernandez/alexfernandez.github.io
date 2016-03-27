@@ -103,7 +103,7 @@ This time for real!
 
 This was not the first time that we had tried removing the first ELB;
 in fact I had wanted to do it for a very long time.
-See, ELBs are awesome in what they do,
+You know, ELBs are awesome in what they do,
 but you are a bit blind about what they are actually doing.
 For starters, it is not easy to get access logs;
 you can request that they be sent to S3,
