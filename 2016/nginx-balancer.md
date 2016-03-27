@@ -221,6 +221,8 @@ for a long time.
 Our AWS technical contacts assured us that our ELBs would not "cool down"
 at least for five minutes,
 so this is the time frame that we had for our experiments.
+After that time it would be hard to revert the setup.
+Not much, but it would have to do.
 
 Each individual experiment went as follows:
 change the DNS,
