@@ -412,9 +412,11 @@ For attentive readers,
 that last `"end": 0` is just added to have a valid JSON without having to remove the trailing comma.
 
 And the logging library used here is an adaptation of
-[Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua),
-which you can
-[find here](logging.lua).
+[Matthieu Tourne's](https://github.com/mtourne/nginx_log_by_lua/blob/master/logging.lua);
+it is improved by keeping track of the count of requests and the total time taken to serve them,
+for all HTTP status codes received.
+You can find our modified library
+[here](logging.lua).
 
 [//b]: # (This just to pair quotes')
 
