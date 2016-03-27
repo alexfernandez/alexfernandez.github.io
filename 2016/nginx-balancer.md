@@ -271,13 +271,14 @@ Otherwise the remaining instances may go above the high watermark instantly,
 so we would need to create a new one,
 which would again set the load below the low watermark,
 and so on.
-This kind of ping-pong is very bad for the servers and for the bottom line.
+This kind of ping-pong is very bad for service stability
+(and, when you pay servers by the hour, for the bottom line).
 
-Example: we have two servers at 50% load.
-Removing one would leave us with a 100% load for just one server,
-which means that a new server is soon created.
-After a while the two servers go back to 50% load,
-and so on.
+Example: we have two servers at 60% load.
+Removing one would leave us with a 120% load for just one server,
+which means that it will reject requests until a new server is created.
+With two servers, after a while the load goes back to 60%,
+and the cycle is restarted.
 
 This is assuming that servers are perfectly linear,
 which is often not the case, so the situation can be a bit better.
