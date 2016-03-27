@@ -40,6 +40,7 @@ We _need_ this amount of unused traffic because our customers tend to have pecul
 campaigns marketed at a smallish number of user IDs,
 geolocalized to several areas of a country,
 or trying to get clicks and downloads from targeted users.
+Our customers value having that much traffic available.
 We use increasingly sophisticated algorithms to sift through this traffic
 and find where our campaigns work best.
 
