@@ -225,7 +225,6 @@ After that time it would be hard to revert the setup.
 Not much, but it would have to do.
 
 Each individual experiment went as follows:
-
 * change the DNS,
 * wait for some seconds until exchanges start sending traffic,
 * see if it breaks,
