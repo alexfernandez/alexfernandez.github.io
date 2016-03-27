@@ -457,12 +457,11 @@ the average is a little over 5 ms per request.
 Note that these timings are for _latency_, not for total processing time.
 The filter server consumes almost no CPU time itself on each request,
 or Nginx would not be able to serve so many requests.
-The same happens with the Erlang filter or the eventual frontend servers.
-That is the magic of event-driven processing!
-(Note: while both Nginx and Node.js are event-driven by default,
-in Erlang the prevailing paradigm for concurrent programming is
+The same happens with the eventual frontend servers:
+that is the magic of event-driven processing!
+The Erlang filter however uses a different paradigm for concurrent programming:
 [message passing](http://erlang.org/doc/getting_started/conc_prog.html),
-which is completely different.)
+which is completely different but also very efficient.
 
 With logging in place,
 the load on our filters goes about 30% to Nginx and 70% to the filter.
