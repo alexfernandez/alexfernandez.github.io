@@ -211,7 +211,7 @@ instead of Erlang listening on port 80 directly,
 Nginx would listen on port 80 and redirect to Erlang listening on a different port.
 
 One issue with our experiments is that ELBs
-need to be "preheated" when receiving a lot of traffic.
+need to be "pre-warmed" when receiving a lot of traffic.
 Otherwise an unsuspecting ELB can stutter and reject most of the requests,
 and this can go on indefinitely under heavy load.
 If you have many krps you need to ask AWS to
