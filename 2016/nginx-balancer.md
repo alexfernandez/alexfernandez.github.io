@@ -352,6 +352,7 @@ You can create your own nonce on Unix with this simple command:
 
     $ head -c 12 /dev/urandom | base64
 
+And repeat until the result has only alphanumerical characters.
 This simple technique can be used for moderately private pages,
 but do not use it if you need to keep stuff secret.
 
