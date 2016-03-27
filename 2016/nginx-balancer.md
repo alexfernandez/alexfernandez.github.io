@@ -234,7 +234,7 @@ Each individual experiment went as follows:
 
 We had to fine-tune a few parameters in Nginx
 because we were running out of file descriptors so fast:
-set
+we set
 [`worker_rlimit_nofile`](http://nginx.org/en/docs/ngx_core_module.html#worker_rlimit_nofile)
 to about 10k, and
 [`worker_connections`](http://nginx.org/en/docs/ngx_core_module.html#worker_connections)
