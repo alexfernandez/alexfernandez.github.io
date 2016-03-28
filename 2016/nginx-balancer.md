@@ -489,6 +489,11 @@ We could just aggregate the stats from all servers every minute
 and write them to Cloudwatch,
 just adding a couple of lines of Node.js code to the existing aggregation code.
 
+We are careful to send all metrics at once, to minimize costs.
+The [cost](https://aws.amazon.com/cloudwatch/pricing/)
+of making one call to PutMetric per minute is about $0.43 per month.
+Very reasonable!
+
 One advantage of aggregating number of requests and latency every minute
 is that now we can show both on a graph at the same time.
 Combined with the new Cloudwatch dashboards we now get this nice page.
