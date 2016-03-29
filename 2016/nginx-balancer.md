@@ -257,8 +257,8 @@ But there were a few details that needed some polishing.
 
 Amazon offers Auto Scaling Groups to create or destroy servers as needed.
 With a custom DNS-based load balancer you will need to orchestrate your servers yourself.
-Fortunately we have been using a custom orchestrator for a few years.
-The reason is that the default Auto Scaling algorithm sucks.
+Fortunately we have been using a custom orchestrator for a few years now.
+The reason is that the default Auto Scaling algorithm is not good for our needs.
 
 Auto Scaling decides whether to create or destroy instances based solely on their _current_ load:
 if the average load is above the high watermark (e.g. 90%) then a new instance is created,
