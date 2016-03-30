@@ -318,6 +318,8 @@ This task is being done by our new recruit Alfredo López Moltó.
 So far we have set up a few projects,
 and are on the way to full Strider integration within the next few weeks.
 
+https://github.com/Strider-CD/strider-node/issues/30
+
 ## Conclusion
 
 StriderCD has all of the advantages of modern continuous deployment tools,
