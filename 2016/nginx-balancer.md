@@ -1,6 +1,6 @@
 ---
 title: Creating a Balancer With Nginx
-subtitle: 'Or How Amazon AWS Helped Us Replace an Expensive ELB from Amazon AWS And Still Process Many Thousands of Requests per Second'
+subtitle: 'Or How Amazon AWS Helped Us Replace an Expensive ELB And Still Process Many Thousands of Requests per Second'
 footer: Published on 2016-03-18.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
