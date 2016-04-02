@@ -1,7 +1,7 @@
 ---
 title: Continuous Deployment With StriderCD
 subtitle: 'A Promising Product With Some Rough Edges'
-footer: Published on 2016-02-01.
+footer: Published on 2016-04-02.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -36,30 +36,32 @@ which ensures that the developers can just do their thing,
 while the tools worry about testing and integration.
 (Of course you have to set up testing and integration yourself at least once;
 but then you let the tools repeat as needed.)
+So that is where we started.
 
-In general, when we are writing code we want to see the result of our work
-as soon as possible.
+When we are writing code we want to see the result of our work as soon as possible.
 There are a few strategies to achieve this goal:
-we may deploy to an integration environment where we test everything,
-or (only for the brave) deploy straight to production.
-In our case there is a team of developers writing code in GitHub,
-and creating pull requests against a development branch.
-When a pull request is accepted it must be integrated into the branch,
-then tested locally and finally deployed to the integration environment.
-Deployment to production only happens when there is a new release ready.
+we may deploy to an integration environment where we test and verify everything,
+and then when everything is ready deploy to production.
+Or we can choose to deploy straight to production.
 
 In general I am a fan of deploying straight to production,
 since it gives the team an agility that is both exhilarating
 and rewarding.
-But I admit that it carries a burden that not all organizations
-are prepared to accept.
-In particular, breakages of a web interface must be dealt with urgency.
+But it is reserved for the bravest of developers.
+I admit that it carries a burden that not all organizations are prepared to accept.
+In particular, breakages of a web interface can be quite ugly.
+
 Many people are more comfortable deploying to an integration environment,
 doing a manual revision and then deploying to production.
-This was the case in TaxiTime.
+This was the case in TaxiTime,
+so we chose the more conservative approach:
+there is a team of developers writing code in GitHub and creating pull requests against a development branch.
+When a pull request is accepted it must be integrated into the development branch,
+then tested locally and finally deployed to the integration environment.
+Deployment to production only happens when there is a new release ready.
 
 The tool has to notify the team how the tests and the deployment went.
-On a breakage, it must allow re-running the tests.
+In case of a failure, it must allow re-running the tests.
 As a plus, it should run the tests not only on the main branch,
 but also on any proposed pull requests.
 
@@ -74,18 +76,19 @@ But alas, it lacks a GUI:
 every new project therefore needs to be setup from the command line,
 which can be cumbersome.
 
-I had a serious case of GUI envy.
-But the options were not attractive.
+I had a serious case of GUI envy,
+but the options were not all that attractive.
 Travis-CI for private companies is
 [expensive](https://travis-ci.com/plans),
 and installing a
 [Ruby](https://github.com/travis-ci/travis-ci)
 package locally was not in the plans.
-Plus, I am bothered beyond measure by terminology;
-Travis has "Continuous Integration" in the title,
-which is little more than
+Plus, I am bothered beyond measure by its name:
+Travis has "Continuous Integration" in the title (the "-CI" part),
+which is just
 [an intermediate step](http://alexfernandez.github.io/2012/continuous-deployment.html)
-on the way to CD.
+to get to CD.
+I wanted to go all the way!
 
 And now for the elephant in the room.
 I have long followed [Jenkins](https://jenkins-ci.org/)
@@ -93,22 +96,24 @@ from a distance,
 but it is a
 [Java](https://github.com/jenkinsci/jenkins) mastodon,
 probably more suited to heavier workflows.
-And again there is that CI in the title.
+And again there is that CI in the domain URL.
 
 ### Meet StriderCD
 
-Some time before, Juan Carlos Delgado (CTO of llollo.com)
+A few months ago [Juan Carlos Delgado](https://twitter.com/CarlosCondor),
+CTO at [llollo.com](http://llollo.com/),
 told me in a private conversation that he was using
 [StriderCD](http://stridercd.com).
 I liked two things about it very much.
-First, that it had "Continuous Deployment" in the title.
+First, that it had "Continuous Deployment" in the title,
+as if the creators had a clue.
 Second, it is written in Node.js.
-It is thus that it won my heart even before I saw it in practice.
-I am glad to say that it has not disappointed in practice.
+It is thus that it won my heart even before I saw it in action.
+I am glad to say that it has not disappointed.
 
 Diego was kind enough to let me play with this new toy for his project,
 and of course I (being a responsible freelancer)
-would only bill the project for these hours if we found that StriderCD was a good fit.
+would only bill the project for any time spent if we found that StriderCD was a good fit.
 So I started installing and configuring it.
 
 ## StriderCD Overview
@@ -122,7 +127,7 @@ starting with
 I will just give a very broad overview of how Strider works,
 and then tell you about our experience.
 
-### Continuous Deployment, the Strider Way
+### Repos and Projects
 
 Strider integrates closely with many code repositories:
 [GitHub, Bitbucket and Gitlab](https://github.com/Strider-CD/strider#additional-configurations).
@@ -135,27 +140,38 @@ to control multiple projects.
 
 ![Strider Dashboard](https://github.com/Strider-CD/strider/raw/master/docs/screenshots/dashboard.jpg)
 
+### Plugins
+
 For every project a number of
 [plugins](https://github.com/Strider-CD/strider/wiki/List-of-Plugins)
 may be enabled,
 which carry different tasks:
-deployment for different languages,
+deployment for a few different platforms (Node.js, Ruby, Python or custom),
 sending email,
 running a local or remote deployment
 are a few of them.
+Plugins can be enabled or disabled for master,
+for all branches or for a custom branch.
 
 ![[Strider Plugins](https://futurestud.io/blog/strider-how-to-create-your-own-plugin)](https://futurestud.io/blog/content/images/2015/06/strider-plugin-1.png)
 
-The part of the deployment is not really solved by Strider,
+Strider can also be integrated with Slack using the relevant plugin,
+which can be important for many teams.
+
+### Continuous Deployment, the Strider Way
+
+The part of the deployment itself is where Strider goes for simplicity.
+Every deployment is 
 especially for a sophisticated distributed deployment.
 It just allows configuring a local task (using the Custom Scripts plugin),
 or a remote deployment (with the SSH plugin).
+
 If you want to deploy on a dynamic set of machines
 you have first to create a script to select the relevant servers and contact them,
 and then invoke that script from Strider.
-Since you probably have such a script somewhere,
-even if you are doing manual deployments,
-it is a nice lightweight approach.
+It is a nice lightweight approach:
+you probably have such a script somewhere already,
+at least for manual deployments.
 
 ## StriderCD in Practice
 
@@ -171,8 +187,12 @@ and use `npm`:
 
     npm install
 
+You need to add the admin user manually after that.
+You also need a local MongoDB, and little else.
+
 To run in a local server it is best to configure a native task,
 be it Upstart or systemd.
+
 And now the fun begins!
 
 ### Use a Cute Server Name
@@ -254,7 +274,7 @@ and the URL
 you will get an application ID and an application secret,
 which are then used to
 [configure StriderCD](https://github.com/Strider-CD/strider-github#required-configuration).
-Also be sure to tell Strider what its URL is with the `SEVER_NAME`.
+Also be sure to tell Strider what its URL is with the `SERVER_NAME`.
 The environment variables should look something like this:
 
 ```
@@ -274,12 +294,22 @@ But the road was not all smooth.
 
 ### Variables
 
-I first opened
-[a pull request](https://github.com/Strider-CD/strider-github/pull/59)
-to use the server name.
-This was not used, just a misunderstanding on my part.
-But the truth is that I had to go look at the source code to understand how it worked,
-and how it was supposed to work.
+As we have seen, Strider uses a few environment variables to run.
+If you enter the variable `SERVER_NAME` wrong,
+or if you
+[miss the two `PLUGIN_GITHUB_APP...` variables](https://github.com/Strider-CD/strider-github/issues/55#issuecomment-171649444),
+the error is not immediately evident.
+
+I found this issue;
+I thought that the server name was not being read correctly,
+and created this very misguided
+[pull request](https://github.com/Strider-CD/strider-github/pull/59)
+to let `strider-github` use the "correct" server name.
+Luckily the very nice [Ilya Radchenko](https://github.com/knownasilya)
+cleared the misunderstanding on my part.
+
+But the truth is that I had to go look at the source code to understand how env variables were read,
+and even then the code was a bit convoluted.
 
 ### Being Admin
 
@@ -292,18 +322,36 @@ I opened a
 which was answered almost immediately,
 and then offered a
 [pull request](https://github.com/Strider-CD/strider-github/pull/61)
-to improve the error message,
-which was accepted also immediately.
+to improve upon the error message,
+which was also accepted immediately.
+
+Non-admin users cannot see any projects by default.
+Users must be added manually to projects,
+one by one, to be able to view or run them.
+This is a cumbersome process which could be made quite easier with groups.
+Right now the obvious solution is to make everyone an admin,
+which is less feasible for a large company.
 
 ### A Poltergeist
 
-The weirdest issue of them all was when we could not access
-the server.
-Fernando Sanz solved it by using Node Inspector on the Strider process,
-which left us all flabbergasted.
-In the end it was just an environment variable that was shadowing another.
+The weirdest issue that we had in TaxiTime was when we could not access the server after a restart.
+Luckily my friend [Fernando Sanz](https://twitter.com/fsanzv)
+is a senior member of the team and founder of [Smart Node](http://smartnode.es/),
+a development shop specialized in mobile apps and Node.js.
+He was able to solve our poltergeist by debugging directly the Strider process.
 
-## MediaSmart
+Fernando gave a talk at
+[Node.js Madrid](http://www.meetup.com/es-ES/Node-js-Madrid/events/185885742/)
+a year ago about debugging Node.js with Node Inspector,
+so he knows his tools.
+After we had all but given up on solving this strange problem,
+he fired up his trusty Node Inspector and started debugging the Strider process,
+and after a while he found out that an environment variable was shadowing another one
+used by StriderCD.
+Needless to say, he left us all flabbergasted.
+One more point for having a Node.js application.
+
+### After All Is Said and Done
 
 The experience was in general quite good,
 given that continuous deployment is an advanced technique
@@ -312,22 +360,38 @@ And what is even more important,
 the customer (in this case Diego and his company)
 were happy with it.
 
-So we are replicating it in MediaSmart,
-with a bigger, more complex set of projects.
-This task is being done by our new recruit Alfredo López Moltó.
-So far we have set up a few projects,
-and are on the way to full Strider integration within the next few weeks.
+## MediaSmart
 
-https://github.com/Strider-CD/strider-node/issues/30
+After the good experience,
+we are replicating it in MediaSmart with a bigger, more complex set of projects.
+This task was done by our new colleague Alfredo López Moltó.
+After a few weeks we are deploying everything using Strider,
+which is a big accomplishment for someone new to our architecture.
+
+Alfredo is also getting involved in the project, by raising an
+[issue](https://github.com/Strider-CD/strider-node/issues/30),
+and he is even writing a pull request to solve it:
+upgrade `npm`to v3.x.x.
+StriderCD and in particular
+[strider-node](https://github.com/Strider-CD/strider-node/) developers
+have so far been very amiable and encouraging.
+
+We are missing some things from our old deployment infrastructure.
+With our old system we had the ability to send a list of commits in deployment mails,
+and even the complete diff of changes.
+That is not possible with StriderCD (yet?).
+But we are willing to contribute our time and effort to improve the existing email plugin,
+and therefore to make it more useful to everyone.
 
 ## Conclusion
 
-StriderCD has all of the advantages of modern continuous deployment tools,
+StriderCD has most of the advantages of modern continuous deployment tools,
 but without the baggage that some of them carry.
 It also has a few sharp corners,
 so be careful!
 
-This project would not have been possible without Diego Lafuente,
-Juan Carlos Delgado or Fernando Sanz;
+Diego Lafuente, Fernando Sanz, Juan Carlos Delgado and Alfredo López Moltó
+have reviewed this article and helped me improve it.
+This project would not have been possible without them;
 my gratitude goes to them all.
 
