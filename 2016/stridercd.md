@@ -1,19 +1,16 @@
 ---
-title: Continuous Deployment With StriderCD
+title: Deploying Continuously with StriderCD
 subtitle: 'A Promising Product With Some Rough Edges'
-footer: Published on 2016-04-02.
+footer: Published on 2016-04-03.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![Picture credit: [Jorge Royan](https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg)](pics/deployment.jpg "Vintage Franz Zajizek Astronomical Clock machinery")
 
-As you may know I work full time for MediaSmart Mobile,
-but I also work as a freelancer for other organizations.
-Usually as a scalability consultant,
-although I also work in other areas
-such as continuous deployment.
-This gives me the opportunity to know other interesting projects,
-and quite often to use cool new products.
+This is the story of how I met
+[StriderCD](http://stridercd.com),
+how I used for a cool project
+and how it has grown to be the deployment tool at my regular job.
 
 If you are new to continuous deployment
 you may want to get
@@ -22,21 +19,31 @@ before you read this article.
 
 ## The Project
 
+As you may know I work full time for ([MediaSmart Mobile](http://mediasmart.es/),
+but I also do stuff as a freelancer for other organizations.
+Usually as a scalability consultant,
+although I also work in other areas such as continuous deployment.
+This gives me the opportunity to know other interesting projects,
+and quite often to use cool new products.
+
 My friend [Diego Lafuente](https://twitter.com/tufosa)
 asked me to help him in
 [TaxiTime](http://taxitime.com),
 an ambitious global taxicab aggregator from
 [HotelBeds](http://www.hotelbeds.com/home).
+The job included scalability and continuous deployment,
+my two favorite areas of software development,
+so I couldn't say "no".
+(Perhaps I even said "yes" a little bit too emphatically.)
 
 ### Continuous Deployment
 
-As always, the first and most important part of a software project for me
-is to set up continuous deployment,
-which ensures that the developers can just do their thing,
+As usual I started by setting up continuous deployment,
+the first and perhaps the most important part of any software project for me.
+It ensures that the developers can focus on writing code,
 while the tools worry about testing and integration.
-(Of course you have to set up testing and integration yourself at least once;
-but then you let the tools repeat as needed.)
-So that is where we started.
+(Of course you have to test and integrate yourself at least one;
+but then the tools will repeat the boring tasks as often as needed.)
 
 When we are writing code we want to see the result of our work as soon as possible.
 There are a few strategies to achieve this goal:
@@ -294,19 +301,20 @@ But the road was not all smooth.
 
 ### Variables
 
-As we have seen, Strider uses a few environment variables to run.
+As you have seen, Strider uses a few environment variables to run.
 If you enter the variable `SERVER_NAME` wrong,
 or if you
 [miss the two `PLUGIN_GITHUB_APP...` variables](https://github.com/Strider-CD/strider-github/issues/55#issuecomment-171649444),
 the error is not immediately evident.
 
-I found this issue;
-I thought that the server name was not being read correctly,
+I suffered this particular issue myself;
+then I thought that the server name was not being read correctly,
 and created this very misguided
 [pull request](https://github.com/Strider-CD/strider-github/pull/59)
 to let `strider-github` use the "correct" server name.
 Luckily the very nice [Ilya Radchenko](https://github.com/knownasilya)
 cleared the misunderstanding on my part.
+Fixing the `SERVER_NAME` was enough to get it working.
 
 But the truth is that I had to go look at the source code to understand how env variables were read,
 and even then the code was a bit convoluted.
@@ -354,11 +362,14 @@ One more point for having a Node.js application.
 ### After All Is Said and Done
 
 The experience was in general quite good,
-given that continuous deployment is an advanced technique
+given that continuous deployment is a complex technique
 that requires a lot of integrations between spinning wheels.
+We were able to solve all issues,
+even the weird ones.
+
 And what is even more important,
 the customer (in this case Diego and his company)
-were happy with it.
+are happy with it.
 
 ## MediaSmart
 
@@ -389,9 +400,13 @@ StriderCD has most of the advantages of modern continuous deployment tools,
 but without the baggage that some of them carry.
 It also has a few sharp corners,
 so be careful!
+Be ready for some early adopter pains,
+for a tool which has a bright future ahead.
 
-Diego Lafuente, Fernando Sanz, Juan Carlos Delgado and Alfredo López Moltó
-have reviewed this article and helped me improve it.
-This project would not have been possible without them;
-my gratitude goes to them all.
+[Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)),
+[Fernando Sanz](https://twitter.com/fsanzv)  ([Smart Node](http://smartnode.es/)),
+[Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
+and Alfredo López Moltó ([MediaSmart Mobile](http://mediasmart.es/)
+have reviewed this article and helped me improve it a lot.
+My gratitude goes to them all.
 

@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Continuous Deployment With StriderCD</title>
+		<title>Deploying Continuously with StriderCD</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="../css/main.css" />
@@ -68,18 +68,19 @@
 							<section id="one">
 								<div class="container">
 									<header class="major">
-										<h1>Continuous Deployment With StriderCD</h1>
+										<h1>Deploying Continuously with StriderCD</h1>
 										<p>A Promising Product With Some Rough Edges<p>
 									</header>
 										<div class="figure">
 <img src="pics/deployment.jpg" title="Vintage Franz Zajizek Astronomical Clock machinery" alt="Picture credit: Jorge Royan" /><p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg">Jorge Royan</a></p>
 </div>
-<p>As you may know I work full time for MediaSmart Mobile, but I also work as a freelancer for other organizations. Usually as a scalability consultant, although I also work in other areas such as continuous deployment. This gives me the opportunity to know other interesting projects, and quite often to use cool new products.</p>
+<p>This is the story of how I met <a href="http://stridercd.com">StriderCD</a>, how I used for a cool project and how it has grown to be the deployment tool at my regular job.</p>
 <p>If you are new to continuous deployment you may want to get <a href="http://alexfernandez.github.io/2012/continuous-deployment.html">some background</a> before you read this article.</p>
 <h2 id="the-project">The Project</h2>
-<p>My friend <a href="https://twitter.com/tufosa">Diego Lafuente</a> asked me to help him in <a href="http://taxitime.com">TaxiTime</a>, an ambitious global taxicab aggregator from <a href="http://www.hotelbeds.com/home">HotelBeds</a>.</p>
+<p>As you may know I work full time for (<a href="http://mediasmart.es/">MediaSmart Mobile</a>, but I also do stuff as a freelancer for other organizations. Usually as a scalability consultant, although I also work in other areas such as continuous deployment. This gives me the opportunity to know other interesting projects, and quite often to use cool new products.</p>
+<p>My friend <a href="https://twitter.com/tufosa">Diego Lafuente</a> asked me to help him in <a href="http://taxitime.com">TaxiTime</a>, an ambitious global taxicab aggregator from <a href="http://www.hotelbeds.com/home">HotelBeds</a>. The job included scalability and continuous deployment, my two favorite areas of software development, so I couldn't say &quot;no&quot;. (Perhaps I even said &quot;yes&quot; a little bit too emphatically.)</p>
 <h3 id="continuous-deployment">Continuous Deployment</h3>
-<p>As always, the first and most important part of a software project for me is to set up continuous deployment, which ensures that the developers can just do their thing, while the tools worry about testing and integration. (Of course you have to set up testing and integration yourself at least once; but then you let the tools repeat as needed.) So that is where we started.</p>
+<p>As usual I started by setting up continuous deployment, the first and perhaps the most important part of any software project for me. It ensures that the developers can focus on writing code, while the tools worry about testing and integration. (Of course you have to test and integrate yourself at least one; but then the tools will repeat the boring tasks as often as needed.)</p>
 <p>When we are writing code we want to see the result of our work as soon as possible. There are a few strategies to achieve this goal: we may deploy to an integration environment where we test and verify everything, and then when everything is ready deploy to production. Or we can choose to deploy straight to production.</p>
 <p>In general I am a fan of deploying straight to production, since it gives the team an agility that is both exhilarating and rewarding. But it is reserved for the bravest of developers. I admit that it carries a burden that not all organizations are prepared to accept. In particular, breakages of a web interface can be quite ugly.</p>
 <p>Many people are more comfortable deploying to an integration environment, doing a manual revision and then deploying to production. This was the case in TaxiTime, so we chose the more conservative approach: there is a team of developers writing code in GitHub and creating pull requests against a development branch. When a pull request is accepted it must be integrated into the development branch, then tested locally and finally deployed to the integration environment. Deployment to production only happens when there is a new release ready.</p>
@@ -157,8 +158,8 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 <h2 id="weird-stuff">Weird Stuff</h2>
 <p>But the road was not all smooth.</p>
 <h3 id="variables">Variables</h3>
-<p>As we have seen, Strider uses a few environment variables to run. If you enter the variable <code>SERVER_NAME</code> wrong, or if you <a href="https://github.com/Strider-CD/strider-github/issues/55#issuecomment-171649444">miss the two <code>PLUGIN_GITHUB_APP...</code> variables</a>, the error is not immediately evident.</p>
-<p>I found this issue; I thought that the server name was not being read correctly, and created this very misguided <a href="https://github.com/Strider-CD/strider-github/pull/59">pull request</a> to let <code>strider-github</code> use the &quot;correct&quot; server name. Luckily the very nice <a href="https://github.com/knownasilya">Ilya Radchenko</a> cleared the misunderstanding on my part.</p>
+<p>As you have seen, Strider uses a few environment variables to run. If you enter the variable <code>SERVER_NAME</code> wrong, or if you <a href="https://github.com/Strider-CD/strider-github/issues/55#issuecomment-171649444">miss the two <code>PLUGIN_GITHUB_APP...</code> variables</a>, the error is not immediately evident.</p>
+<p>I suffered this particular issue myself; then I thought that the server name was not being read correctly, and created this very misguided <a href="https://github.com/Strider-CD/strider-github/pull/59">pull request</a> to let <code>strider-github</code> use the &quot;correct&quot; server name. Luckily the very nice <a href="https://github.com/knownasilya">Ilya Radchenko</a> cleared the misunderstanding on my part. Fixing the <code>SERVER_NAME</code> was enough to get it working.</p>
 <p>But the truth is that I had to go look at the source code to understand how env variables were read, and even then the code was a bit convoluted.</p>
 <h3 id="being-admin">Being Admin</h3>
 <p>Of course you need to be an admin of the projects you want to deploy, because otherwise Strider cannot add webhooks to it. But when you are not admin you were greeted by an odd message.</p>
@@ -168,20 +169,21 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 <p>The weirdest issue that we had in TaxiTime was when we could not access the server after a restart. Luckily my friend <a href="https://twitter.com/fsanzv">Fernando Sanz</a> is a senior member of the team and founder of <a href="http://smartnode.es/">Smart Node</a>, a development shop specialized in mobile apps and Node.js. He was able to solve our poltergeist by debugging directly the Strider process.</p>
 <p>Fernando gave a talk at <a href="http://www.meetup.com/es-ES/Node-js-Madrid/events/185885742/">Node.js Madrid</a> a year ago about debugging Node.js with Node Inspector, so he knows his tools. After we had all but given up on solving this strange problem, he fired up his trusty Node Inspector and started debugging the Strider process, and after a while he found out that an environment variable was shadowing another one used by StriderCD. Needless to say, he left us all flabbergasted. One more point for having a Node.js application.</p>
 <h3 id="after-all-is-said-and-done">After All Is Said and Done</h3>
-<p>The experience was in general quite good, given that continuous deployment is an advanced technique that requires a lot of integrations between spinning wheels. And what is even more important, the customer (in this case Diego and his company) were happy with it.</p>
+<p>The experience was in general quite good, given that continuous deployment is a complex technique that requires a lot of integrations between spinning wheels. We were able to solve all issues, even the weird ones.</p>
+<p>And what is even more important, the customer (in this case Diego and his company) are happy with it.</p>
 <h2 id="mediasmart">MediaSmart</h2>
 <p>After the good experience, we are replicating it in MediaSmart with a bigger, more complex set of projects. This task was done by our new colleague Alfredo López Moltó. After a few weeks we are deploying everything using Strider, which is a big accomplishment for someone new to our architecture.</p>
 <p>Alfredo is also getting involved in the project, by raising an <a href="https://github.com/Strider-CD/strider-node/issues/30">issue</a>, and he is even writing a pull request to solve it: upgrade <code>npm</code>to v3.x.x. StriderCD and in particular <a href="https://github.com/Strider-CD/strider-node/">strider-node</a> developers have so far been very amiable and encouraging.</p>
 <p>We are missing some things from our old deployment infrastructure. With our old system we had the ability to send a list of commits in deployment mails, and even the complete diff of changes. That is not possible with StriderCD (yet?). But we are willing to contribute our time and effort to improve the existing email plugin, and therefore to make it more useful to everyone.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>StriderCD has most of the advantages of modern continuous deployment tools, but without the baggage that some of them carry. It also has a few sharp corners, so be careful!</p>
-<p>Diego Lafuente, Fernando Sanz, Juan Carlos Delgado and Alfredo López Moltó have reviewed this article and helped me improve it. This project would not have been possible without them; my gratitude goes to them all.</p>
+<p>StriderCD has most of the advantages of modern continuous deployment tools, but without the baggage that some of them carry. It also has a few sharp corners, so be careful! Be ready for some early adopter pains, for a tool which has a bright future ahead.</p>
+<p><a href="https://twitter.com/tufosa">Diego Lafuente</a> (<a href="http://www.hotelbeds.com/home">HotelBeds</a>), <a href="https://twitter.com/fsanzv">Fernando Sanz</a> (<a href="http://smartnode.es/">Smart Node</a>), <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), and Alfredo López Moltó (<a href="http://mediasmart.es/">MediaSmart Mobile</a> have reviewed this article and helped me improve it a lot. My gratitude goes to them all.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2016-04-02. <script type="text/javascript">
+									Published on 2016-04-03. <script type="text/javascript">
 <!--
 h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'Comments, improvements?'+'<\/'+'a'+'>');
