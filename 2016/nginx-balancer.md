@@ -540,6 +540,8 @@ A happy customer is much less likely to look at the alternatives.
 This cost reduction has allowed us to open more traffic in the US
 and grow our business,
 which is what a healthy company usually does.
+So our boss is happy,
+and we are happy.
 
 ## Conclusion
 
@@ -552,4 +554,16 @@ very configurable and cheap to operate.
 After a point the cost difference matters.
 If you are willing to replicate some components,
 the result may be even more impressive than the original ELB.
+
+### Acknowledgements
+
+[Carlos Sanchiz](https://twitter.com/xcarlosx26) ([Amazon](https://www.amazon.com/),
+[Claudio Piras](https://www.linkedin.com/in/claudiopiras) ([Amazon](https://www.amazon.com/)
+have helped us pour through our costs and locate possible improvements.
+
+Guillermo Fernández ([MediaSmart Mobile](http://mediasmart.es/),
+[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
+have reviewed this article and offered valuable suggestions that have helped me improve it.
+
+My gratitude goes to them all.
 
