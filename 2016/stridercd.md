@@ -1,7 +1,7 @@
 ---
 title: Continuously Deploying with StriderCD
 subtitle: 'A Promising Product With Some Rough Edges'
-footer: Published on 2016-04-03.
+footer: Published on 2016-04-03, last edited on 2016-04-04.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -16,6 +16,7 @@ If you are new to continuous deployment
 you may want to get
 [some background](http://alexfernandez.github.io/2012/continuous-deployment.html)
 before you read this article.
+We will only cover the basics here.
 
 ## The Project
 
@@ -67,7 +68,7 @@ When a pull request is accepted it must be integrated into the development branc
 then tested locally and finally deployed to the integration environment.
 Deployment to production only happens when there is a new release ready.
 
-The tool has to notify the team how the tests and the deployment went.
+The tool has to notify the team how testing and deployment went.
 In case of a failure, it must allow re-running the tests.
 As a plus, it should run the tests not only on the main branch,
 but also on any proposed pull requests.
@@ -78,7 +79,7 @@ What choices did we have?
 
 I am the author of a humble
 [deployment package](https://www.npmjs.com/package/deployment),
-which we use in MediaSmart Mobile with certain success.
+which we have used in MediaSmart Mobile with certain success.
 But alas, it lacks a GUI:
 every new project therefore needs to be setup from the command line,
 which can be cumbersome.
@@ -91,11 +92,7 @@ and installing a
 [Ruby](https://github.com/travis-ci/travis-ci)
 package locally was not in the plans.
 Plus, I am bothered beyond measure by its name:
-Travis has "Continuous Integration" in the title (the "-CI" part),
-which is just
-[an intermediate step](http://alexfernandez.github.io/2012/continuous-deployment.html)
-to get to CD.
-I wanted to go all the way!
+Travis has "Continuous Integration" in the title (the "-CI" part).
 
 And now for the elephant in the room.
 I have long followed [Jenkins](https://jenkins-ci.org/)
@@ -103,7 +100,29 @@ from a distance,
 but it is a
 [Java](https://github.com/jenkinsci/jenkins) mastodon,
 probably more suited to heavier workflows.
+Just the list of [plugins](https://wiki.jenkins-ci.org/display/JENKINS/Plugins)
+is daunting.
 And again there is that CI in the domain URL.
+
+### Integration vs Deployment
+
+What's the problem with continuous integration?
+The idea of integrating code often can be traced back at least to Microsoft's
+[Daily Build and Smoke Test](http://www.stevemcconnell.com/ieeesoftware/bp04.htm),
+where code was integrated and tested every day.
+Later the practice was refined and adopted by
+[Extreme Programming proponents](http://www.extremeprogramming.org/rules/integrateoften.html),
+so code could be integrated and tested multiple times a day.
+
+But why stop there?
+In the 2010s some brave teams around the world started deploying code right after integrating;
+see the excellent ["Web Operations" by Allspaw and Robbins](http://www.amazon.com/Web-Operations-Keeping-Data-Time/dp/1449377440).
+Only then can you talk about "continuous deployment".
+
+Saying "continuous integration" is probably just a sign of the age of those projects,
+but to me it signals a dangerous focus on the wrong part of the process.
+Unless you are willing to take the crucial step of deploying after integrating,
+you are missing out on the biggest benefits of the technique.
 
 ### Meet StriderCD
 
@@ -123,7 +142,7 @@ and of course I (being a responsible freelancer)
 would only bill the project for any time spent if we found that StriderCD was a good fit.
 So I started installing and configuring it.
 
-## StriderCD Overview
+## Continuous Deployment, the Strider Way
 
 I am not going to write a guide on how to install and use Strider;
 there are
@@ -165,24 +184,51 @@ for all branches or for a custom branch.
 Strider can also be integrated with Slack using the relevant plugin,
 which can be important for many teams.
 
-### Continuous Deployment, the Strider Way
+### Testing
 
-The part of the deployment itself is where Strider goes for simplicity.
-Every deployment is 
-especially for a sophisticated distributed deployment.
-It just allows configuring a local task (using the Custom Scripts plugin),
-or a remote deployment (with the SSH plugin).
+Tests are usually the first part of a deployment process:
+verify that everything is still working.
+
+Strider will just run a preconfigured command
+(for Node.js it can be `npm test`, `make test` or none),
+or a custom command.
+Just as with other Unix console commands,
+if the command returns 0 tests pass;
+otherwise tests fail.
+Don't be fooled by this simplicity;
+it allows for infinite configurability just using standard commands.
+
+### The Deployment Itself
+
+Deployment processes are as varied as production environments:
+the set of machines to deploy can range from a single server
+to several regions that span the globe.
+For a sophisticated distributed deployment,
+you may have to read a list of machines connected to a load balancer,
+contact each one and convince them to apply the latest changes:
+download, perhaps recompile, then restart the service.
+All this without causing disruption in the global service.
+
+For the task of deployment Strider goes again for simplicity:
+it just allows to configure a local task (using the Custom Scripts plugin),
+a remote task (with the SSH plugin) or both.
+There is no coordination or orchestration here.
+But it can be enough for most workflows.
 
 If you want to deploy on a dynamic set of machines
 you have first to create a script to select the relevant servers and contact them,
 and then invoke that script from Strider.
 It is a nice lightweight approach:
 you probably have such a script somewhere already,
-at least for manual deployments.
+if only for manual deployments.
+So you can reuse your usual deployment routine here.
 
 ## StriderCD in Practice
 
-The immediate goal is to set up an integration environment,
+After this brief theoretical introduction,
+it's time to start working.
+How did we approach the continuous deployment process?
+The immediate goal was to set up an integration environment,
 where code is deployed every time that a change is made on the repository.
 
 ### Install Strider
@@ -413,15 +459,28 @@ and therefore to make it more useful to everyone.
 
 StriderCD has most of the advantages of modern continuous deployment tools,
 but without the baggage that some of them carry.
-It also has a few sharp corners,
-so be careful!
-Be ready for some early adopter pains,
-for a tool which has a bright future ahead.
+Configuration is easy,
+tests run fast,
+and all in all it works as expected.
 
-[Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)),
-[Fernando Sanz](https://twitter.com/fsanzv)  ([Smart Node](http://smartnode.es/)),
+If you have already a large inversion in Jenkins or some other tool,
+or if you have complex needs in your deployment process,
+it may not be worth your time to switch.
+Strider also has a few sharp corners,
+so be ready for some early adopter pains.
+
+For new projects with simple needs it is an excellent choice.
+This little tool no doubt has a bright future ahead.
+
+### Acknowledgements
+
+[Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)) and
+[Fernando Sanz](https://twitter.com/fsanzv)  ([Smart Node](http://smartnode.es/))
+have made the original project possible.
+
 [Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
-and [Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
-have reviewed this article and helped me improve it a lot.
+[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
+have reviewed this article and helped me improve it.
+
 My gratitude goes to them all.
 
