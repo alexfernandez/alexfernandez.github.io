@@ -295,9 +295,19 @@ export PLUGIN_GITHUB_API_ENDPOINT="https://github.com/api"
 Finally, pay attention to the
 [list of known issues](https://github.com/Strider-CD/strider-github#known-issues-with-githubcom).
 
+### Configuration
+
+Each repo needs to be configured individually.
+For the develop branch we had to deploy to integration,
+which means 
+For master we wanted to deploy to production.
+Since TaxiTime is in an early stage we have just a handful of servers,
+so we just needed 
+
 ## Weird Stuff
 
-But the road was not all smooth.
+It was not all smooth sailing;
+there were some rough edges in the process.
 
 ### Variables
 
@@ -406,7 +416,7 @@ for a tool which has a bright future ahead.
 [Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)),
 [Fernando Sanz](https://twitter.com/fsanzv)  ([Smart Node](http://smartnode.es/)),
 [Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
-and Alfredo López Moltó ([MediaSmart Mobile](http://mediasmart.es/)
+and [Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
 have reviewed this article and helped me improve it a lot.
 My gratitude goes to them all.
 

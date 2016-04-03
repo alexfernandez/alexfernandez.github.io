@@ -155,8 +155,10 @@ export PLUGIN_GITHUB_APP_SECRET=&quot;defgdefgdefgdefgdefgdefgdefgdefgdefgdefg&q
 export PLUGIN_GITHUB_API_DOMAIN=&quot;https://github.com&quot;
 export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre>
 <p>Finally, pay attention to the <a href="https://github.com/Strider-CD/strider-github#known-issues-with-githubcom">list of known issues</a>.</p>
+<h3 id="configuration">Configuration</h3>
+<p>Each repo needs to be configured individually. For the develop branch we had to deploy to integration, which means For master we wanted to deploy to production. Since TaxiTime is in an early stage we have just a handful of servers, so we just needed</p>
 <h2 id="weird-stuff">Weird Stuff</h2>
-<p>But the road was not all smooth.</p>
+<p>It was not all smooth sailing; there were some rough edges in the process.</p>
 <h3 id="variables">Variables</h3>
 <p>As you have seen, Strider uses a few environment variables to run. If you enter the variable <code>SERVER_NAME</code> wrong, or if you <a href="https://github.com/Strider-CD/strider-github/issues/55#issuecomment-171649444">miss the two <code>PLUGIN_GITHUB_APP...</code> variables</a>, the error is not immediately evident.</p>
 <p>I suffered this particular issue myself; then I thought that the server name was not being read correctly, and created this very misguided <a href="https://github.com/Strider-CD/strider-github/pull/59">pull request</a> to let <code>strider-github</code> use the &quot;correct&quot; server name. Luckily the very nice <a href="https://github.com/knownasilya">Ilya Radchenko</a> cleared the misunderstanding on my part. Fixing the <code>SERVER_NAME</code> was enough to get it working.</p>
@@ -177,7 +179,7 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 <p>We are missing some things from our old deployment infrastructure. With our old system we had the ability to send a list of commits in deployment mails, and even the complete diff of changes. That is not possible with StriderCD (yet?). But we are willing to contribute our time and effort to improve the existing email plugin, and therefore to make it more useful to everyone.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>StriderCD has most of the advantages of modern continuous deployment tools, but without the baggage that some of them carry. It also has a few sharp corners, so be careful! Be ready for some early adopter pains, for a tool which has a bright future ahead.</p>
-<p><a href="https://twitter.com/tufosa">Diego Lafuente</a> (<a href="http://www.hotelbeds.com/home">HotelBeds</a>), <a href="https://twitter.com/fsanzv">Fernando Sanz</a> (<a href="http://smartnode.es/">Smart Node</a>), <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), and Alfredo López Moltó (<a href="http://mediasmart.es/">MediaSmart Mobile</a> have reviewed this article and helped me improve it a lot. My gratitude goes to them all.</p>
+<p><a href="https://twitter.com/tufosa">Diego Lafuente</a> (<a href="http://www.hotelbeds.com/home">HotelBeds</a>), <a href="https://twitter.com/fsanzv">Fernando Sanz</a> (<a href="http://smartnode.es/">Smart Node</a>), <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), and <a href="http://xgalen.github.io/">Alfredo López Moltó</a> (<a href="http://mediasmart.es/">MediaSmart Mobile</a> have reviewed this article and helped me improve it a lot. My gratitude goes to them all.</p>
 								</div>
 							</section>
 							<section id="last">
