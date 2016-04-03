@@ -43,7 +43,7 @@ the first and perhaps the most important part of any software project for me.
 It ensures that developers can focus on writing code,
 while tools worry about testing and integration.
 (Of course you have to test and integrate yourself at least once;
-but then these boring tasks will be repeated as often as needed.)
+but then these boring tasks will be automatically repeated as often as needed.)
 
 When we are writing code we want to see the result of our work as soon as possible.
 There are a few strategies to achieve this goal:
