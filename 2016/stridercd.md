@@ -16,7 +16,7 @@ If you are new to continuous deployment
 you may want to get
 [some background](http://alexfernandez.github.io/2012/continuous-deployment.html)
 before you read this article.
-We will only cover the basics here.
+We will still cover the basics here.
 
 ## The Project
 
