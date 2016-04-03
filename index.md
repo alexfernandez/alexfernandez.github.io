@@ -13,7 +13,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 A collection of articles published over the years.
 
-* 2016-04-03: [Deploying Continuously with StriderCD](2016/stridercd.html).
+* 2016-04-03: [Continuously Deploying with StriderCD](2016/stridercd.html).
 * 2016-02-22: [Adventures in the Land of Go](2016/golang-adventures.html).
 * 2016-01-10: [Increasing Event Attendance](2016/event-attendance.html).
 * 2016-01-08: [The Case Against Software Craftsmanship](2016/against-craftsmanship.html).

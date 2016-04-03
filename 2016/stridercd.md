@@ -1,5 +1,5 @@
 ---
-title: Deploying Continuously with StriderCD
+title: Continuously Deploying with StriderCD
 subtitle: 'A Promising Product With Some Rough Edges'
 footer: Published on 2016-04-03.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
