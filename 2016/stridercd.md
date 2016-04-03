@@ -474,8 +474,9 @@ This little tool no doubt has a bright future ahead.
 
 ### Acknowledgements
 
-[Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)) and
+[Diego Lafuente](https://twitter.com/tufosa) ([HotelBeds](http://www.hotelbeds.com/home)),
 [Fernando Sanz](https://twitter.com/fsanzv)  ([Smart Node](http://smartnode.es/))
+[Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
 have made the original project possible.
 
 [Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
