@@ -19,7 +19,7 @@ before you read this article.
 
 ## The Project
 
-As you may know I work full time for ([MediaSmart Mobile](http://mediasmart.es/),
+As you may know I work full time for [MediaSmart Mobile](http://mediasmart.es/),
 but I also do stuff as a freelancer for other organizations.
 Usually as a scalability consultant,
 although I also work in other areas such as continuous deployment.
@@ -40,10 +40,10 @@ so I couldn't say "no".
 
 As usual I started by setting up continuous deployment,
 the first and perhaps the most important part of any software project for me.
-It ensures that the developers can focus on writing code,
-while the tools worry about testing and integration.
-(Of course you have to test and integrate yourself at least one;
-but then the tools will repeat the boring tasks as often as needed.)
+It ensures that developers can focus on writing code,
+while tools worry about testing and integration.
+(Of course you have to test and integrate yourself at least once;
+but then these boring tasks will be repeated as often as needed.)
 
 When we are writing code we want to see the result of our work as soon as possible.
 There are a few strategies to achieve this goal:
