@@ -156,7 +156,9 @@ export PLUGIN_GITHUB_API_DOMAIN=&quot;https://github.com&quot;
 export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre>
 <p>Finally, pay attention to the <a href="https://github.com/Strider-CD/strider-github#known-issues-with-githubcom">list of known issues</a>.</p>
 <h3 id="configuration">Configuration</h3>
-<p>Each repo needs to be configured individually. For the develop branch we had to deploy to integration, which means For master we wanted to deploy to production. Since TaxiTime is in an early stage we have just a handful of servers, so we just needed</p>
+<p>Each repo needs to be configured individually. For the develop branch we had to deploy to integration, which means a local task.</p>
+<p>For master we wanted to deploy to production. Since TaxiTime is in an early stage we have just a couple of servers, so we just needed a remote task that SSH's into two servers, update the repo and restart the service.</p>
+<p>All that was left was configuring email notifications and a couple of other details. The process was really simple, even if we had to repeat it several times.</p>
 <h2 id="weird-stuff">Weird Stuff</h2>
 <p>It was not all smooth sailing; there were some rough edges in the process.</p>
 <h3 id="variables">Variables</h3>
@@ -164,7 +166,7 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 <p>I suffered this particular issue myself; then I thought that the server name was not being read correctly, and created this very misguided <a href="https://github.com/Strider-CD/strider-github/pull/59">pull request</a> to let <code>strider-github</code> use the &quot;correct&quot; server name. Luckily the very nice <a href="https://github.com/knownasilya">Ilya Radchenko</a> cleared the misunderstanding on my part. Fixing the <code>SERVER_NAME</code> was enough to get it working.</p>
 <p>But the truth is that I had to go look at the source code to understand how env variables were read, and even then the code was a bit convoluted.</p>
 <h3 id="being-admin">Being Admin</h3>
-<p>Of course you need to be an admin of the projects you want to deploy, because otherwise Strider cannot add webhooks to it. But when you are not admin you were greeted by an odd message.</p>
+<p>You need to be an admin of the projects you want to deploy, because otherwise Strider cannot add webhooks to it. But when you are not admin you were greeted by an odd message.</p>
 <p>I opened a <a href="https://github.com/Strider-CD/strider-github/issues/60">GitHub issue</a> which was answered almost immediately, and then offered a <a href="https://github.com/Strider-CD/strider-github/pull/61">pull request</a> to improve upon the error message, which was also accepted immediately.</p>
 <p>Non-admin users cannot see any projects by default. Users must be added manually to projects, one by one, to be able to view or run them. This is a cumbersome process which could be made quite easier with groups. Right now the obvious solution is to make everyone an admin, which is less feasible for a large company.</p>
 <h3 id="a-poltergeist">A Poltergeist</h3>

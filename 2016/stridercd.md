@@ -299,10 +299,15 @@ Finally, pay attention to the
 
 Each repo needs to be configured individually.
 For the develop branch we had to deploy to integration,
-which means 
+which means a local task.
+
 For master we wanted to deploy to production.
-Since TaxiTime is in an early stage we have just a handful of servers,
-so we just needed 
+Since TaxiTime is in an early stage we have just a couple of servers,
+so we just needed a remote task that SSH's into two servers,
+update the repo and restart the service.
+
+All that was left was configuring email notifications and a couple of other details.
+The process was really simple, even if we had to repeat it several times.
 
 ## Weird Stuff
 
@@ -331,7 +336,7 @@ and even then the code was a bit convoluted.
 
 ### Being Admin
 
-Of course you need to be an admin of the projects you want to deploy,
+You need to be an admin of the projects you want to deploy,
 because otherwise Strider cannot add webhooks to it.
 But when you are not admin you were greeted by an odd message.
 
