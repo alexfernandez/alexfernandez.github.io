@@ -564,7 +564,8 @@ the result may be even more impressive than the original ELB.
 have helped us pour through our costs and locate possible improvements.
 
 Guillermo Fernández ([MediaSmart Mobile](http://mediasmart.es/),
-[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
+[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/),
+[Matthieu Tourne](https://twitter.com/mtourne)
 have reviewed this article and offered valuable suggestions that have helped me improve it.
 
 My gratitude goes to them all.
