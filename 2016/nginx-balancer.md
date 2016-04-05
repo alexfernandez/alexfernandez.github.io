@@ -332,10 +332,12 @@ So there were in fact three challenges:
 The first part can be done with a bit of [Lua](https://www.nginx.com/resources/wiki/modules/lua/)
 magic.
 To use Lua with Nginx you can install the
-[OpenResty](https://openresty.org/en/) full package;
+[OpenResty](https://openresty.org/en/) full package,
+which is path recommended by most people;
 since we are using Ubuntu I chose instead to use the package `nginx-extras`,
 which is a version of Nginx with all plugins compiled in.
-I used this
+
+I then used this
 [three-year-old post](https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/)
 by Matthieu Tourne (then at CloudFlare) as a guide,
 modifying it heavily.
