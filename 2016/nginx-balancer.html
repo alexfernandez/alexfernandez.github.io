@@ -82,7 +82,7 @@
 <p>About a year ago we were using 40 frontend servers (large c3.2xlarge machines with 8 processors), and the cost was killing us. So we came up with a clever solution: write an Erlang filter which decides which requests are more likely to be used by the frontends, and filters out the rest.</p>
 <p>This resulted in a dual architecture with two ELBs: one to receive traffic from exchanges and deliver it to the Erlang filters, and another to receive the filtered traffic and send it to the frontends.</p>
 <div class="figure">
-<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart Architecture" /><p class="caption">MediaSmart Architecture</p>
+<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart systems architecture overview." /><p class="caption">MediaSmart systems architecture overview.</p>
 </div>
 <h3 id="elb-costs-out-of-control">ELB Costs Out of Control</h3>
 <p>This was working great for a long time, until our costs started to skyrocket. The good folks at Amazon helped us analyze our monthly bill, with a surprising result: we were being charged twice for our ELBs!</p>
@@ -218,10 +218,10 @@ server {
 <h3 id="monitoring">Monitoring</h3>
 <p>Then we had to aggregate data across all servers. No problem: just take the list of IPs from the DNS registry using the Route53 API, then invoke each one and get the number of requests per status code, and aggregate them. With a little Node.js code it was done in a breeze; it is the kind of problem that we give to our candidates during the hiring process.</p>
 <p>The next challenge was storing the data somewhere to graph it. There was really no reason to ditch Cloudwatch: it is a very reasonable time-series database with nice graphing capabilities, and as long as you do not access it too often it is not expensive. We could just aggregate the stats from all servers every minute and write them to Cloudwatch, just adding a couple of lines of Node.js code to the existing aggregation code.</p>
-<p>We are careful to send all metrics at once, to minimize costs. The <a href="https://aws.amazon.com/cloudwatch/pricing/">cost</a> of making one call to PutMetric per minute is about $0.43 per month. Very reasonable!</p>
+<p>We are careful to send all metrics at once, to minimize costs. The <a href="https://aws.amazon.com/cloudwatch/pricing/">cost</a> of making one call to PutMetric per minute is about $0.43 per month. Very reasonable.</p>
 <p>One advantage of aggregating number of requests and latency every minute is that now we can show both on a graph at the same time. Combined with the new Cloudwatch dashboards we now get this nice page.</p>
 <div class="figure">
-<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic Dashboard" /><p class="caption">Traffic Dashboard</p>
+<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows traffic and HTTP responses." /><p class="caption">Traffic dashboard shows traffic and HTTP responses.</p>
 </div>
 <p>Apart from global monitoring, all servers have to be individually monitored. In this case we had to check if they were still alive and otherwise remove them from balancing. A good way is to publish a NOP (<em>No OPeration</em>) URL that can be called from the outside and returns a 200 OK if the server is 100% operative. If the server does not answer in time, it is removed from the DNS registry. In our case we are already accessing all servers every minute, so we just need to invoke the DNS registry removal code from the orchestrator and terminate the instance if a server does not answer in time.</p>
 <h3 id="other-modifications">Other Modifications</h3>

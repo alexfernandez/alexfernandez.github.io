@@ -55,7 +55,7 @@ This resulted in a dual architecture with two ELBs:
 one to receive traffic from exchanges and deliver it to the Erlang filters,
 and another to receive the filtered traffic and send it to the frontends.
 
-![MediaSmart Architecture](pics/elb-architecture.png "Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends.")
+![MediaSmart systems architecture overview.](pics/elb-architecture.png "Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends.")
 
 ### ELB Costs Out of Control
 
@@ -494,13 +494,13 @@ just adding a couple of lines of Node.js code to the existing aggregation code.
 We are careful to send all metrics at once, to minimize costs.
 The [cost](https://aws.amazon.com/cloudwatch/pricing/)
 of making one call to PutMetric per minute is about $0.43 per month.
-Very reasonable!
+Very reasonable.
 
 One advantage of aggregating number of requests and latency every minute
 is that now we can show both on a graph at the same time.
 Combined with the new Cloudwatch dashboards we now get this nice page.
 
-![Traffic Dashboard](pics/traffic-dashboard.png "This is the kind of dashboard that you show in a big screen in the office.")
+![Traffic dashboard shows traffic and HTTP responses.](pics/traffic-dashboard.png "This is the kind of dashboard that you show in a big screen in the office.")
 
 Apart from global monitoring,
 all servers have to be individually monitored.
