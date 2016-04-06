@@ -124,7 +124,7 @@ Same for 400 Bad Request, 401 Unauthorized or 404 Not Found:
 they have very different semantics,
 and are the symptoms of disparate problems.
 
-![2XX Requests to Frontends](pics/2xx-requests.png "Cloudwatch shows a nice graphic with combined 2XX requests to frontends.")
+![2XX Requests to Frontends. Note the micro-interruption at 7:30 when we reboot the service.](pics/2xx-requests.png "Cloudwatch shows a nice graphic with combined 2XX requests to frontends.")
 
 There are other minor annoyances with Cloudwatch:
 for instance, you cannot mix latency and number of requests in the same graph.
