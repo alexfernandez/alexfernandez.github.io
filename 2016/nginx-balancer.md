@@ -559,8 +559,8 @@ the result may be even more impressive than the original ELB.
 
 ### Acknowledgements
 
-[Carlos Sanchiz](https://twitter.com/xcarlosx26) ([Amazon](https://www.amazon.com/),
-[Claudio Piras](https://www.linkedin.com/in/claudiopiras) ([Amazon](https://www.amazon.com/)
+[Carlos Sanchiz](https://twitter.com/xcarlosx26) ([Amazon](https://www.amazon.com/)),
+[Claudio Piras](https://www.linkedin.com/in/claudiopiras) ([Amazon](https://www.amazon.com/))
 have helped us pour through our costs and locate possible improvements.
 
 Guillermo Fernández ([MediaSmart Mobile](http://mediasmart.es/)),
