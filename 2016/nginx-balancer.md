@@ -539,8 +539,7 @@ can sell you the same stuff cheaper.
 It is not as if Amazon AWS is the only game in town.
 A happy customer is much less likely to look at the alternatives.
 
-This cost reduction has allowed us to open more traffic in the US
-and grow our business,
+This cost reduction has allowed us to open more traffic in the US and grow our business,
 which is what a healthy company usually does.
 So our boss is happy,
 and we are happy.
