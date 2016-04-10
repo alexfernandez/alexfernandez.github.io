@@ -1,5 +1,5 @@
 ---
-title: Creating a Heavy-Duty Balancer With Nginx
+title: Creating a Heavy-Duty Balancer With Nginx and Lua
 subtitle: 'Or How Amazon Helped Us Replace an Expensive ELB And Still Process Many Thousands of Requests per Second'
 footer: Published on 2016-04-10.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
