@@ -11,8 +11,9 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 ## Software Engineering
 
-A collection of articles published over the years.
+Latest articles.
 
+* 2016-04-10: [Creating a Balancer With Nginx](2016/nginx-balancer.html).
 * 2016-04-03: [Continuously Deploying with StriderCD](2016/stridercd.html).
 * 2016-02-22: [Adventures in the Land of Go](2016/golang-adventures.html).
 * 2016-01-10: [Increasing Event Attendance](2016/event-attendance.html).
