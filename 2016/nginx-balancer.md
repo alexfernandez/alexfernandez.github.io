@@ -426,34 +426,34 @@ The result of accessing the server at `http://[ip]/log_2l8J2yjy1ofgZQOj` is some
 
 ```
 {
-  "200-count": 546862089,
-  "200-sum": 24516089.094544,
-  "204-count": 73303303847,
-  "204-sum": 400708215.84511,
-  "400-count": 4281,
-  "400-sum": 1585.2189953327,
-  "408-count": 10223,
-  "408-sum": 613933.97300029,
-  "499-count": 299392002,
-  "499-sum": 80143503.20016,
+  "200-count": 798846388,
+  "200-sum": 35589095.191413,
+  "204-count": 104633411097,
+  "204-sum": 570651966.49768,
+  "400-count": 10821,
+  "400-sum": 2471.0660040379,
+  "408-count": 14363,
+  "408-sum": 862349.73800206,
+  "499-count": 323868637,
+  "499-sum": 83989644.311747,
   "500-count": 16746,
   "500-sum": 183.11798548698,
-  "502-count": 32735207,
-  "502-sum": 4441155.2488055,
-  "504-count": 96454,
-  "504-sum": 5815348.7010462,
+  "502-count": 36341442,
+  "502-sum": 4577069.404109,
+  "504-count": 102240,
+  "504-sum": 6162582.6290374,
   "end": 0
 }
 ```
 
-This particular server has served up to now more than 73 billion requests,
+This particular server has served up to now about 104 billion requests,
 most of them resulting in 204 No Content as expected
 (shown here as `204-count`).
-Given that the server has been up for 38 days,
+Given that the server has been up for 55 days,
 it has served almost two billion requests per day.
-Just the 204 requests have collectively taken 400 million seconds to process
+Just the 204 requests have collectively taken 570 million seconds to process
 (shown as `204-sum`),
-or 12.7 years;
+or 18.1 years;
 the average is a little over 5 ms per request.
 
 Note that these timings are for _latency_, not for total processing time.
