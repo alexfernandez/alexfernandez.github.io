@@ -72,7 +72,8 @@
 										<p>A Promising Product With Some Rough Edges<p>
 									</header>
 										<div class="figure">
-<img src="pics/deployment.jpg" title="Vintage Franz Zajizek Astronomical Clock machinery" alt="Picture credit: Jorge Royan" /><p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg">Jorge Royan</a></p>
+<img src="pics/deployment.jpg" title="Vintage Franz Zajizek Astronomical Clock machinery" alt="Picture credit: Jorge Royan" />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg">Jorge Royan</a></p>
 </div>
 <p>This is the story of how I met <a href="http://stridercd.com">StriderCD</a>, how I used for a cool project and how it has grown to be the deployment tool at my regular job.</p>
 <p>If you are new to continuous deployment you may want to get <a href="http://alexfernandez.github.io/2012/continuous-deployment.html">some background</a> before you read this article. We will still cover the basics here.</p>
@@ -103,12 +104,14 @@
 <p>Strider integrates closely with many code repositories: <a href="https://github.com/Strider-CD/strider#additional-configurations">GitHub, Bitbucket and Gitlab</a>. Every time there is a change in a watched repo, it can be configured to run a test suite, and if everything goes well carry out a deployment.</p>
 <p>There is a very nice dashboard, shown below, to control multiple projects.</p>
 <div class="figure">
-<img src="https://github.com/Strider-CD/strider/raw/master/docs/screenshots/dashboard.jpg" alt="Strider Dashboard" /><p class="caption">Strider Dashboard</p>
+<img src="https://github.com/Strider-CD/strider/raw/master/docs/screenshots/dashboard.jpg" alt="Strider Dashboard" />
+<p class="caption">Strider Dashboard</p>
 </div>
 <h3 id="plugins">Plugins</h3>
 <p>For every project a number of <a href="https://github.com/Strider-CD/strider/wiki/List-of-Plugins">plugins</a> may be enabled, which carry different tasks: deployment for a few different platforms (Node.js, Ruby, Python or custom), sending email, running a local or remote deployment are a few of them. Plugins can be enabled or disabled for master, for all branches or for a custom branch.</p>
 <div class="figure">
-<img src="https://futurestud.io/blog/content/images/2015/06/strider-plugin-1.png" alt="Strider Plugins" /><p class="caption"><a href="https://futurestud.io/blog/strider-how-to-create-your-own-plugin">Strider Plugins</a></p>
+<img src="https://futurestud.io/blog/content/images/2015/06/strider-plugin-1.png" alt="Strider Plugins" />
+<p class="caption"><a href="https://futurestud.io/blog/strider-how-to-create-your-own-plugin">Strider Plugins</a></p>
 </div>
 <p>Strider can also be integrated with Slack using the relevant plugin, which can be important for many teams.</p>
 <h3 id="testing">Testing</h3>
@@ -136,27 +139,31 @@
         proxy_pass http://127.0.0.1:3000;
     }
 }</code></pre>
-<p>From that point on, you can access your Strider server as <a href="http://stridercd.taxitime.com/">http://stridercd.taxitime.com/</a>.</p>
+<p>From that point on, you can access your Strider server as <a href="http://stridercd.taxitime.com/" class="uri">http://stridercd.taxitime.com/</a>.</p>
 <h3 id="github-integration">GitHub Integration</h3>
 <p>In our case we are using GitHub private repositories. StriderCD uses <a href="https://developer.github.com/webhooks/">webhooks</a> to be notified when there are changes on the repository. This <a href="https://github.com/Strider-CD/strider-github">GitHub integration</a> is thus a vital point, and it was the first issue that I met.</p>
 <p>The idea is, like in Travis-CI, to authenticate using OAuth2 so that Strider can set up the webhooks for you. With a third party server they have already done the integration for you. But for a private application you have to do the integration yourself, and it is not trivial. The idea is that once you authenticate with GitHub, you have to be redirected to your local Strider server. So you need to create the app in GitHub.</p>
 <p>This is done in the settings page:</p>
 <div class="figure">
-<img src="pics/settings.png" title="Your GitHub settings" alt="Settings" /><p class="caption">Settings</p>
+<img src="pics/settings.png" title="Your GitHub settings" alt="Settings" />
+<p class="caption">Settings</p>
 </div>
 <p>And click on &quot;OAuth Applications&quot;, then go to the tab &quot;Developer applications&quot;:</p>
 <div class="figure">
-<img src="pics/dev-applications.png" title="Your developer applications" alt="OAuth developer Applications" /><p class="caption">OAuth developer Applications</p>
+<img src="pics/dev-applications.png" title="Your developer applications" alt="OAuth developer Applications" />
+<p class="caption">OAuth developer Applications</p>
 </div>
 <p>When you click on &quot;Register application&quot; you should see a screen similar to this:</p>
 <div class="figure">
-<img src="pics/register-application.png" title="Register a new developer applications" alt="Register application" /><p class="caption">Register application</p>
+<img src="pics/register-application.png" title="Register a new developer applications" alt="Register application" />
+<p class="caption">Register application</p>
 </div>
 <p>When you use your personal settings, Strider will only be visible to you. If you want everyone in an organization to be able to authorize Strider then you will need to use the &quot;Organization settings&quot; that can be found below your &quot;Personal settings&quot;:</p>
 <div class="figure">
-<img src="pics/org-settings.png" title="Organization settings below Personal settings" alt="Organization settings" /><p class="caption">Organization settings</p>
+<img src="pics/org-settings.png" title="Organization settings below Personal settings" alt="Organization settings" />
+<p class="caption">Organization settings</p>
 </div>
-<p>Enter a custom name (say, stridercd-taxitime) and the URL (in this case <a href="http://stridercd.taxitime.com/">http://stridercd.taxitime.com/</a>) you will get an application ID and an application secret, which are then used to <a href="https://github.com/Strider-CD/strider-github#required-configuration">configure StriderCD</a>. Also be sure to tell Strider what its URL is with the <code>SERVER_NAME</code>. The environment variables should look something like this:</p>
+<p>Enter a custom name (say, stridercd-taxitime) and the URL (in this case <a href="http://stridercd.taxitime.com/" class="uri">http://stridercd.taxitime.com/</a>) you will get an application ID and an application secret, which are then used to <a href="https://github.com/Strider-CD/strider-github#required-configuration">configure StriderCD</a>. Also be sure to tell Strider what its URL is with the <code>SERVER_NAME</code>. The environment variables should look something like this:</p>
 <pre><code>export SERVER_NAME=&quot;http://stridercd.taxitime.com&quot;
 export PLUGIN_GITHUB_APP_ID=&quot;abcdabcdabcd&quot;
 export PLUGIN_GITHUB_APP_SECRET=&quot;defgdefgdefgdefgdefgdefgdefgdefgdefgdefg&quot;
@@ -193,7 +200,12 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 <p>For new projects with simple needs it is an excellent choice. This little tool no doubt has a bright future ahead.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <p><a href="https://twitter.com/tufosa">Diego Lafuente</a> (<a href="http://www.hotelbeds.com/home">HotelBeds</a>), <a href="https://twitter.com/fsanzv">Fernando Sanz</a> (<a href="http://smartnode.es/">Smart Node</a>) <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), have made the original project possible.</p>
-<p><a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), <a href="http://xgalen.github.io/">Alfredo López Moltó</a> (<a href="http://mediasmart.es/">MediaSmart Mobile</a> have reviewed this article and helped me improve it.</p>
+<p><a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>), <a href="http://xgalen.github.io/">Alfredo López Moltó</a> (<a href="http://mediasmart.es/">MediaSmart Mobile</a>, <script type="text/javascript">
+<!--
+h='&#108;&#x6f;&#x6f;&#112;&#x6d;&#x6f;&#100;&#x65;&#46;&#100;&#x65;';a='&#64;';n='&#106;&#x6f;&#118;&#x69;&#x63;&#x61;&#46;&#x61;&#108;&#x65;&#x6b;&#x73;&#x69;&#x63;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#74;&#x6f;&#118;&#x69;&#x63;&#x61;&#32;&#x41;&#108;&#x65;&#x6b;&#x73;&#x69;&#x63;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#74;&#x6f;&#118;&#x69;&#x63;&#x61;&#32;&#x41;&#108;&#x65;&#x6b;&#x73;&#x69;&#x63;&#32;&#40;&#106;&#x6f;&#118;&#x69;&#x63;&#x61;&#46;&#x61;&#108;&#x65;&#x6b;&#x73;&#x69;&#x63;&#32;&#x61;&#116;&#32;&#108;&#x6f;&#x6f;&#112;&#x6d;&#x6f;&#100;&#x65;&#32;&#100;&#x6f;&#116;&#32;&#100;&#x65;&#x29;</noscript> have reviewed this article and helped me improve it.</p>
 <p>My gratitude goes to them all.</p>
 								</div>
 							</section>
@@ -203,7 +215,7 @@ export PLUGIN_GITHUB_API_ENDPOINT=&quot;https://github.com/api&quot;</code></pre
 									Published on 2016-04-03, last edited on 2016-04-04. <script type="text/javascript">
 <!--
 h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'Comments, improvements?'+'<\/'+'a'+'>');
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;&#x73;&#44;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#x6d;&#x65;&#110;&#116;&#x73;&#x3f;'+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#x43;&#x6f;&#x6d;&#x6d;&#x65;&#110;&#116;&#x73;&#44;&#32;&#x69;&#x6d;&#112;&#114;&#x6f;&#118;&#x65;&#x6d;&#x65;&#110;&#116;&#x73;&#x3f;&#32;&#40;&#x61;&#108;&#x65;&#120;&#102;&#x65;&#114;&#110;&#x61;&#110;&#100;&#x65;&#122;&#110;&#112;&#x6d;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;&#x29;</noscript>
 									</p>

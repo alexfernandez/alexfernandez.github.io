@@ -480,7 +480,8 @@ This little tool no doubt has a bright future ahead.
 have made the original project possible.
 
 [Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/)),
-[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/)
+[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/),
+[Jovica Aleksic](mailto:jovica.aleksic@loopmode.de)
 have reviewed this article and helped me improve it.
 
 My gratitude goes to them all.
