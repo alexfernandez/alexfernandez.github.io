@@ -52,9 +52,12 @@ and built a custom system for my own startup.
 The technology was very successful but the company flopped.
 Since then my first priority after starting work on a new project
 has been to set up continuous deployment.
+Some of them were as simple as a PHP script that invoked `rsync`,
+others have involved doing distributed deployments to a variable number of servers.
+All of them have strived for simplicity and efficiency.
 
-At MediaSmart I convinced Guillermo Fernández,
-our CTO, to implement continuous deployment after about 6 months,
+At MediaSmart I convinced our CTO Guillermo Fernández
+to implement continuous deployment after about 6 months in the company,
 and we have lived happily ever since.
 Well, almost.
 We have been using my own npm package,
@@ -95,7 +98,7 @@ But mostly it has been a success.
 ### ELB Balancer
 
 A month ago I published an
-[article about this](http://alexfernandez.github.io/2016/nginx-balancer.html).
+[article about this migration](http://alexfernandez.github.io/2016/nginx-balancer.html).
 
 ### Monitoring
 
@@ -196,11 +199,8 @@ What would you think if these companies outsourced those efforts?
 
 ### Reinventing the Wheel
 
-You are probably now thinking that this way of reasoning
+You are probably thinking that this way of reasoning
 leads straight to constant reinvention of basic tools.
-Well, there is a reason why people that start programming
-write their very own implementation of "Hello, world":
-to learn how things work.
 
 Wheels come in many shapes and colors.
 Tesla gives the option of upgrading the model S with
@@ -214,10 +214,36 @@ So reinventing the wheel is not a valid rational argument,
 although it may reach the pit of your stomach
 since it is a highly emotional subject.
 
+### Learning the Easy Way
+
+There is a reason why people that start programming
+write their very own implementation of "Hello, world":
+to learn how things work.
+
+I have too often seen purported "DevOps engineers"
+which are just recycled sysadmins:
+they know how to install Jenkins or set up a Maven repository,
+they can hack up a few Bash scripts or even venture with some Python,
+but mostly they are unable to develop good code.
+So I ask myself: where do they think that the "Dev" in "DevOps" comes from?
+
+If our infrastructure is itself going to be coded,
+and live in repositories,
+then we need a little bit more dedication.
+That is what I understand as "DevOps".
+And as it happens,
+the best way to learn to do this
+is to create the tools from scratch.
+Perhaps you do not need to recreate everything for every project,
+but at least you should have done 
+
 ## A Most Welcome Third Way
 
 Are we stuck in an endless loop of emotional arguments,
 with no rational way out?
+Maybe we can find a compromise between building a custom solution
+and deploying a third party product,
+and maybe we can even make it work.
 
 ### Customizable Solutions
 
