@@ -7,17 +7,21 @@ footer: Published on 2016-05-12.
 
 ![The first electric submarine, built by Isaac Peral [(Image source)](https://delamarylosbarcos.wordpress.com/tag/isaac-peral/)](pics/build-or-not.jpg "Isaac Peral's first submarine")
 
-## A Story Not for Managers
+## The Story for Managers
 
-Before we start, let's clear the air:
+Before we start, let us clear the air.
+
 I am not going to present a boring list of bullet points
 to help you decide if you want to build a custom solution
 for your particular situation or not.
 Why?
-Very simple: because I don't know your particular situation.
+Very simple: because I do not know your particular situation,
+or even what factors are important in your case.
 
-Just run a Total Cost of Ownership comparison.
-And then throw it away.
+Just run a detailed Total Cost of Ownership comparison.
+And then throw it away,
+because you will probably have left out some of the most important factors
+in the equation.
 
 ## Some Case Studies
 
@@ -88,17 +92,17 @@ with pros and cons.
 Joel Spolsky, cofounder of Trello and Stack Overflow,
 [summarizes it thus](http://www.joelonsoftware.com/articles/fog0000000007.html):
 
-> If it's a core business function -- do it yourself, no matter what.
+> If it is a core business function -- do it yourself, no matter what.
 
 I worked for 6 years in the banking sector.
 Most banks in Spain insist on trying to outsource their IT competencies,
 since they are not technology companies.
-But aren't they?
+But are they not?
 I contend that, in this day and age,
 banks are just purveyors of information:
 handling physical money is anecdotal and incidental to their business.
 Bank accounts and most financial products are just bits that move around.
-So, shouldn't banks embrace information technology?
+So, why should not banks embrace information technology?
 
 As [FinTech](https://en.wikipedia.org/wiki/Financial_technology)
 becomes both a hot sector and a buzzword,
@@ -107,14 +111,15 @@ or they risk going the way of record stores and Symbian phones.
 
 ### Reinventing the Wheel
 
-But doesn't this way of thinking lead to constant reinvention of basic tools?
+You are probably now thinking that this way of reasoning
+leads straight to constant reinvention of basic tools.
 Well, there is a reason why people that start programming
 write their very own implementation of "Hello, world":
 to learn how things work.
 
 Wheels come in many shapes and colors.
 Tesla gives you the option to upgrade the model S with
-[four 21" Arachnid Wheels](http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package)
+[four 21"" Arachnid Wheels](http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package)
 priced at $7,600;
 for that money you can buy a small car.
 I cannot imagine that when their engineers set to build an outstanding set of wheels,
