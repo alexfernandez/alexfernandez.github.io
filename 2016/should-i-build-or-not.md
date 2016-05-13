@@ -5,7 +5,7 @@ footer: Published on 2016-05-12.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![The first electric submarine, built by Isaac Peral [(Spanish source)](https://delamarylosbarcos.wordpress.com/tag/isaac-peral/)](pics/build-or-not.jpg "Isaac Peral's first submarine")
+![The first electric submarine, built by Isaac Peral [(Image source)](https://delamarylosbarcos.wordpress.com/tag/isaac-peral/)](pics/build-or-not.jpg "Isaac Peral's first submarine")
 
 ## A Story Not for Managers
 
