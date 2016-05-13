@@ -119,7 +119,7 @@ to learn how things work.
 
 Wheels come in many shapes and colors.
 Tesla gives you the option to upgrade the model S with
-[four 21"" Arachnid Wheels](http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package)
+[four 21'' Arachnid Wheels](http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package)
 priced at $7,600;
 for that money you can buy a small car.
 I cannot imagine that when their engineers set to build an outstanding set of wheels,
