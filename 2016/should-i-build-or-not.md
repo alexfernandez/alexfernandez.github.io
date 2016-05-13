@@ -1,6 +1,6 @@
 ---
 title: Should I Build or Should I Not
-subtitle: 'Or Tales About Building Your Own DevOps Infrastructure, Versus Using Off-the-shelf Products'
+subtitle: 'Or Building Your Own DevOps Infrastructure, Versus Using Off-the-shelf Products'
 footer: Published on 2016-05-12.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -15,6 +15,9 @@ to help you decide if you want to build a custom solution
 for your particular situation or not.
 Why?
 Very simple: because I don't know your particular situation.
+
+Just run a Total Cost of Ownership comparison.
+And then throw it away.
 
 ## Some Case Studies
 
