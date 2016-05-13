@@ -1,6 +1,6 @@
 ---
 title: Should I Build or Should I Not
-subtitle: 'Or Building Your Own DevOps Infrastructure, Versus Using Off-the-shelf Products'
+subtitle: 'Or Questioning the Merits of a Custom DevOps Infrastructure'
 footer: Published on 2016-05-12.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
