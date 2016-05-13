@@ -25,16 +25,94 @@ in the equation.
 
 ## Some Case Studies
 
+I will now present a few examples that have happened
+in our daily practice at MediaSmart Mobile,
+the mobile adtech company I work at.
+
 ### Continuous Deployment
 
+Continuous deployment is perhaps the most important practice in DevOps:
+there are even voices saying that
+[Agile is Dead, Long Live Continuous Delivery](http://gradle.org/blog/agile-is-dead/).
+
+Do not be fooled by the promises of
+[continuous delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
+though;
+it is just an imperfect form of continuous deployment,
+where software just reaches some sort of integration environment,
+and thus is nothing but continuous integration in more elegant clothing.
+Always request continuous deployment at your favorite shops,
+since the full advantages are not realized until all changes
+_do_ reach production right after merging them.
+
+During the last few years I have helped build a few continuous deployment systems.
+I drew my first inspiration from Allspaw and Robbins in their excellent
+[Web Operations](http://shop.oreilly.com/product/0636920000136.do),
+and built a custom system for my own startup.
+The technology was very successful but the company flopped.
+Since then my first priority after starting work on a new project
+has been to set up continuous deployment.
+
+At MediaSmart I convinced Guillermo Fernández,
+our CTO, to implement continuous deployment after about 6 months,
+and we have lived happily ever since.
+Well, almost.
+We have been using my own npm package,
+[deployment](https://www.npmjs.com/package/deployment),
+which has a simple command that creates a server and listens to requests;
+when the correct URL is invoked, it deploys code to the server.
+Then we did distributed deployments with a custom Node.js file,
+that reads the list of servers from an Amazon ELB,
+and then invokes the deployment server on each of the instances.
+
+It had all of the rough edges of a custom tool:
+it was command-line only,
+had to be set up (with webhooks to GitHub) manually each time,
+had to be started up using Upstart tasks for Ubuntu.
+After three years I got tired of setting up deployment servers,
+and the whole infrastructure was becoming unwieldy.
+So we started looking for alternatives.
+
+Luckily I had tried StriderCD for a freelancing gig
+I had done the previous month:
+it is a very nice Node.js solution which has a graphical interface,
+similar to Travis-CI. It automatically sets up webhooks,
+and even allows testing all PRs.
+Best of all,
+it has "continuous deployment" right in the title,
+which automatically won my heart.
+
+With the help of Alfredo López,
+our latest recruit,
+in a few weeks we had migrated almost all of our infrastructure to StriderCD,
+and it was a [most interesting project](http://alexfernandez.github.io/2016/stridercd.html).
+At this point we are still refining our continuous deployment,
+and are missing a few things,
+like the ability to send a diff of the deployed changes by email
+after each deployment.
+But mostly it has been a success.
+
 ### ELB Balancer
+
+A month ago I published an
+[article about this](http://alexfernandez.github.io/2016/nginx-balancer.html).
+
+### Monitoring
+
+### Partners
+
+Our company, MediaSmart Mobile, has been in talks with many other companies
+to create partnerships.
 
 ## Emotional Arguments
 
 I am a firm believer in rational thought:
 thinking things over objectively is our best tool at our disposition.
+The problem is that rational thought does not come naturally to people;
+our minds need to be trained very thoroughly if we are to remove subjectivity
+from our reasonings.
 
-But there is only so much that can be explained rationally.
+There is only so much that can be explained rationally.
 Many of our best impulses are led more by intuition
 than by an explicit mental process,
 and are only rationalized after the fact.
@@ -46,7 +124,7 @@ and hopefully to offset them.
 ### The Joy of Building Things
 
 In his excellent book
-[The Existential Pleasures of Engineering](http://www.amazon.com/Existential-Pleasures-Engineering-Thomas-Dunne/dp/0312141041),
+[The Existential Pleasures of Engineering](https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&redir_esc=y),
 Florman argues that people build things just because they love to.
 He goes back to the wonderful Iliad searching for proofs:
 
@@ -107,7 +185,14 @@ So, why should not banks embrace information technology?
 As [FinTech](https://en.wikipedia.org/wiki/Financial_technology)
 becomes both a hot sector and a buzzword,
 it is becoming apparent that traditional banks can and should do more with technology,
-or they risk going the way of record stores and Symbian phones.
+or they risk going the way of CD stores and Symbian phones.
+Time to market is starting to be critical even for mastodontic banks.
+
+So, what is a core business function?
+Is providing Internet connectivity
+[a core function for Facebook](https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg)?
+Are [self-driving cars core for Google](https://www.google.com/selfdrivingcar/)?
+What would you think if these companies outsourced those efforts?
 
 ### Reinventing the Wheel
 
@@ -118,7 +203,7 @@ write their very own implementation of "Hello, world":
 to learn how things work.
 
 Wheels come in many shapes and colors.
-Tesla gives you the option to upgrade the model S with
+Tesla gives the option of upgrading the model S with
 [four 21'' Arachnid Wheels](http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package)
 priced at $7,600;
 for that money you can buy a small car.
@@ -138,7 +223,10 @@ with no rational way out?
 
 There is a middle ground between building a new product and just installing a third party tool.
 
-SAP offers .
+SAP offers a complete solution for enterprise software,
+which is highly customizable --
+and in fact usually requires lots of adaptations
+before it is at all usable.
 
 ### Free Software
 
@@ -153,5 +241,7 @@ so I will just offer it here as a practical synonym.
 
 ### References
 
-* [S C Florman: "The Existential Pleasures of Engineering" 2nd Edition](http://www.amazon.com/Existential-Pleasures-Engineering-Thomas-Dunne/dp/0312141041).
+* John Allspaw, Jesse Robbins: 
+[Web Operations](http://shop.oreilly.com/product/0636920000136.do), 2010.
+* [S C Florman: "The Existential Pleasures of Engineering" 2nd Edition](https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&redir_esc=y), 1996.
 

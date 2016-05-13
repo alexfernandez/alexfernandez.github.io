@@ -80,14 +80,26 @@
 <p>I am not going to present a boring list of bullet points to help you decide if you want to build a custom solution for your particular situation or not. Why? Very simple: because I do not know your particular situation, or even what factors are important in your case.</p>
 <p>Just run a detailed Total Cost of Ownership comparison. And then throw it away, because you will probably have left out some of the most important factors in the equation.</p>
 <h2 id="some-case-studies">Some Case Studies</h2>
+<p>I will now present a few examples that have happened in our daily practice at MediaSmart Mobile, the mobile adtech company I work at.</p>
 <h3 id="continuous-deployment">Continuous Deployment</h3>
+<p>Continuous deployment is perhaps the most important practice in DevOps: there are even voices saying that <a href="http://gradle.org/blog/agile-is-dead/">Agile is Dead, Long Live Continuous Delivery</a>.</p>
+<p>Do not be fooled by the promises of <a href="http://martinfowler.com/bliki/ContinuousDelivery.html">continuous delivery</a> though; it is just an imperfect form of continuous deployment, where software just reaches some sort of integration environment, and thus is nothing but continuous integration in more elegant clothing. Always request continuous deployment at your favorite shops, since the full advantages are not realized until all changes <em>do</em> reach production right after merging them.</p>
+<p>During the last few years I have helped build a few continuous deployment systems. I drew my first inspiration from Allspaw and Robbins in their excellent <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a>, and built a custom system for my own startup. The technology was very successful but the company flopped. Since then my first priority after starting work on a new project has been to set up continuous deployment.</p>
+<p>At MediaSmart I convinced Guillermo Fernández, our CTO, to implement continuous deployment after about 6 months, and we have lived happily ever since. Well, almost. We have been using my own npm package, <a href="https://www.npmjs.com/package/deployment">deployment</a>, which has a simple command that creates a server and listens to requests; when the correct URL is invoked, it deploys code to the server. Then we did distributed deployments with a custom Node.js file, that reads the list of servers from an Amazon ELB, and then invokes the deployment server on each of the instances.</p>
+<p>It had all of the rough edges of a custom tool: it was command-line only, had to be set up (with webhooks to GitHub) manually each time, had to be started up using Upstart tasks for Ubuntu. After three years I got tired of setting up deployment servers, and the whole infrastructure was becoming unwieldy. So we started looking for alternatives.</p>
+<p>Luckily I had tried StriderCD for a freelancing gig I had done the previous month: it is a very nice Node.js solution which has a graphical interface, similar to Travis-CI. It automatically sets up webhooks, and even allows testing all PRs. Best of all, it has &quot;continuous deployment&quot; right in the title, which automatically won my heart.</p>
+<p>With the help of Alfredo López, our latest recruit, in a few weeks we had migrated almost all of our infrastructure to StriderCD, and it was a <a href="http://alexfernandez.github.io/2016/stridercd.html">most interesting project</a>. At this point we are still refining our continuous deployment, and are missing a few things, like the ability to send a diff of the deployed changes by email after each deployment. But mostly it has been a success.</p>
 <h3 id="elb-balancer">ELB Balancer</h3>
+<p>A month ago I published an <a href="http://alexfernandez.github.io/2016/nginx-balancer.html">article about this</a>.</p>
+<h3 id="monitoring">Monitoring</h3>
+<h3 id="partners">Partners</h3>
+<p>Our company, MediaSmart Mobile, has been in talks with many other companies to create partnerships.</p>
 <h2 id="emotional-arguments">Emotional Arguments</h2>
-<p>I am a firm believer in rational thought: thinking things over objectively is our best tool at our disposition.</p>
-<p>But there is only so much that can be explained rationally. Many of our best impulses are led more by intuition than by an explicit mental process, and are only rationalized after the fact.</p>
+<p>I am a firm believer in rational thought: thinking things over objectively is our best tool at our disposition. The problem is that rational thought does not come naturally to people; our minds need to be trained very thoroughly if we are to remove subjectivity from our reasonings.</p>
+<p>There is only so much that can be explained rationally. Many of our best impulses are led more by intuition than by an explicit mental process, and are only rationalized after the fact.</p>
 <p>A discussion of emotional arguments should allow us to recognize our unconscious biases, and hopefully to offset them.</p>
 <h3 id="the-joy-of-building-things">The Joy of Building Things</h3>
-<p>In his excellent book <a href="http://www.amazon.com/Existential-Pleasures-Engineering-Thomas-Dunne/dp/0312141041">The Existential Pleasures of Engineering</a>, Florman argues that people build things just because they love to. He goes back to the wonderful Iliad searching for proofs:</p>
+<p>In his excellent book <a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">The Existential Pleasures of Engineering</a>, Florman argues that people build things just because they love to. He goes back to the wonderful Iliad searching for proofs:</p>
 <blockquote>
 <p>Homer insists on telling us how each object is made. [...] In more than 130 lines of poetry the fabrication and decoration of the fabulous shield is described. At other points in the story we are told in detail about the manufacture of Pandora's bow, Hera's chariot, Odysseus' bed, and Achylles' shelter.</p>
 </blockquote>
@@ -101,23 +113,25 @@
 <p>If it is a core business function -- do it yourself, no matter what.</p>
 </blockquote>
 <p>I worked for 6 years in the banking sector. Most banks in Spain insist on trying to outsource their IT competencies, since they are not technology companies. But are they not? I contend that, in this day and age, banks are just purveyors of information: handling physical money is anecdotal and incidental to their business. Bank accounts and most financial products are just bits that move around. So, why should not banks embrace information technology?</p>
-<p>As <a href="https://en.wikipedia.org/wiki/Financial_technology">FinTech</a> becomes both a hot sector and a buzzword, it is becoming apparent that traditional banks can and should do more with technology, or they risk going the way of record stores and Symbian phones.</p>
+<p>As <a href="https://en.wikipedia.org/wiki/Financial_technology">FinTech</a> becomes both a hot sector and a buzzword, it is becoming apparent that traditional banks can and should do more with technology, or they risk going the way of CD stores and Symbian phones. Time to market is starting to be critical even for mastodontic banks.</p>
+<p>So, what is a core business function? Is providing Internet connectivity <a href="https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg">a core function for Facebook</a>? Are <a href="https://www.google.com/selfdrivingcar/">self-driving cars core for Google</a>? What would you think if these companies outsourced those efforts?</p>
 <h3 id="reinventing-the-wheel">Reinventing the Wheel</h3>
 <p>You are probably now thinking that this way of reasoning leads straight to constant reinvention of basic tools. Well, there is a reason why people that start programming write their very own implementation of &quot;Hello, world&quot;: to learn how things work.</p>
-<p>Wheels come in many shapes and colors. Tesla gives you the option to upgrade the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21'' Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to &quot;reinvent the wheel&quot;.</p>
+<p>Wheels come in many shapes and colors. Tesla gives the option of upgrading the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21'' Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to &quot;reinvent the wheel&quot;.</p>
 <p>So reinventing the wheel is not a valid rational argument, although it may reach the pit of your stomach since it is a highly emotional subject.</p>
 <h2 id="a-most-welcome-third-way">A Most Welcome Third Way</h2>
 <p>Are we stuck in an endless loop of emotional arguments, with no rational way out?</p>
 <h3 id="customizable-solutions">Customizable Solutions</h3>
 <p>There is a middle ground between building a new product and just installing a third party tool.</p>
-<p>SAP offers .</p>
+<p>SAP offers a complete solution for enterprise software, which is highly customizable -- and in fact usually requires lots of adaptations before it is at all usable.</p>
 <h3 id="free-software">Free Software</h3>
 <p>Due to a long membership to the FSFE, and out of respect for the great Richard Stallman, I resist using the term &quot;open source&quot;, so I will just offer it here as a practical synonym.</p>
 <h2 id="conclusion">Conclusion</h2>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <h3 id="references">References</h3>
 <ul>
-<li><a href="http://www.amazon.com/Existential-Pleasures-Engineering-Thomas-Dunne/dp/0312141041">S C Florman: &quot;The Existential Pleasures of Engineering&quot; 2nd Edition</a>.</li>
+<li>John Allspaw, Jesse Robbins: <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a>, 2010.</li>
+<li><a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">S C Florman: &quot;The Existential Pleasures of Engineering&quot; 2nd Edition</a>, 1996.</li>
 </ul>
 								</div>
 							</section>
