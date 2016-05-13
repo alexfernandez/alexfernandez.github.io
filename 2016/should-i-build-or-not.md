@@ -85,8 +85,7 @@ Best of all,
 it has "continuous deployment" right in the title,
 which automatically won my heart.
 
-With the help of Alfredo López,
-our latest recruit,
+Lead by our latest recruit Alfredo López,
 in a few weeks we had migrated almost all of our infrastructure to StriderCD,
 and it was a [most interesting project](http://alexfernandez.github.io/2016/stridercd.html).
 At this point we are still refining our continuous deployment,
@@ -224,7 +223,7 @@ I have too often seen purported "DevOps engineers"
 which are just recycled sysadmins:
 they know how to install Jenkins or set up a Maven repository,
 they can hack up a few Bash scripts or even venture with some Python,
-but mostly they are unable to develop good code.
+but mostly they are unable to develop good, solid code.
 So I ask myself: where do they think that the "Dev" in "DevOps" comes from?
 
 If our infrastructure is itself going to be coded,
@@ -235,7 +234,9 @@ And as it happens,
 the best way to learn to do this
 is to create the tools from scratch.
 Perhaps you do not need to recreate everything for every project,
-but at least you should have done 
+but at least you should have done it once.
+Otherwise, how can you know that a PHP script invoking `rsync`
+can be as effective as a sophisticated Jenkins pipeline?
 
 ## A Most Welcome Third Way
 
