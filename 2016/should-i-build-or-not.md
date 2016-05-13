@@ -1,6 +1,6 @@
 ---
 title: Should I Build or Should I Not
-subtitle: 'Or Pondering the Merits of a Custom DevOps Infrastructure'
+subtitle: 'Or Pondering the Merits of Custom DevOps Tools'
 footer: Published on 2016-05-12.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
