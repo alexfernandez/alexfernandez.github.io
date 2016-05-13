@@ -106,13 +106,31 @@ A month ago I published an
 Our company, MediaSmart Mobile, has been in talks with many other companies
 to create partnerships.
 
-## Emotional Arguments
+## Rational Arguments
 
 I am a firm believer in rational thought:
 thinking things over objectively is our best tool at our disposition.
 The problem is that rational thought does not come naturally to people;
 our minds need to be trained very thoroughly if we are to remove subjectivity
 from our reasonings.
+
+In this section we will see some arguments that are often used in this discussion,
+and that are supposed to be objective and rational.
+We will then deconstruct them to see that they are not as rational as they were supposed to be.
+
+### Robustness of Commercial Solutions
+
+Bosses tend to trust commercial products all too much.
+After all, their thinking goes, if a prestigious company is offering a product
+it must be good indeed.
+But alas, shoddy products are the hallmark of our industry.
+
+### Maintainability
+
+Maintaining a third-party product must surely be easier
+than a bunch of custom code hacked together by your predecessor.
+
+## Emotional Arguments
 
 There is only so much that can be explained rationally.
 Many of our best impulses are led more by intuition
@@ -225,6 +243,8 @@ they know how to install Jenkins or set up a Maven repository,
 they can hack up a few Bash scripts or even venture with some Python,
 but mostly they are unable to develop good, solid code.
 So I ask myself: where do they think that the "Dev" in "DevOps" comes from?
+For me, DevOps is about making your sysadmin infrastructure a first-class citizen,
+and treating it as one of your products.
 
 If our infrastructure is itself going to be coded,
 and live in repositories,
