@@ -78,7 +78,7 @@
 <h2 id="the-story-for-managers">The Story for Managers</h2>
 <p>Before we start, let us clear the air.</p>
 <p>I am not going to present a boring list of bullet points to help you decide if you want to build a custom solution for your particular situation or not. Why? Very simple: because I do not know your particular situation, or even what factors are important in your case.</p>
-<p>Just run a detailed Total Cost of Ownership comparison. And then throw it away, because you will probably have left out some of the most important factors in the equation.</p>
+<p>Just run a detailed Total Cost of Ownership comparison. And then throw it away, because you will probably have left out some of the most important factors in the equation. In this article I will go over some of these so you can go back to ignoring them if you want.</p>
 <h2 id="some-case-studies">Some Case Studies</h2>
 <p>I will now present a few examples that have happened in our daily practice at MediaSmart Mobile, the mobile adtech company I work at.</p>
 <h3 id="continuous-deployment">Continuous Deployment</h3>
@@ -101,6 +101,10 @@
 <p>Bosses tend to trust commercial products all too much. After all, their thinking goes, if a prestigious company is offering a product it must be good indeed. But alas, shoddy products are the hallmark of our industry.</p>
 <h3 id="maintainability">Maintainability</h3>
 <p>Maintaining a third-party product must surely be easier than a bunch of custom code hacked together by your predecessor.</p>
+<p>Except for that time when your vendor stops supporting your product and forces you to upgrade, just because they want to make more money off you.</p>
+<h3 id="technical-debt">Technical Debt</h3>
+<p>Once you start a software project, you start accruing <a href="http://martinfowler.com/bliki/TechnicalDebt.html">technical debt</a>. It is almost inevitable. Infrastructure projects are usually the worst, so by the time that your DevOps infrastructure is functional it is an iceberg of debt waiting to fall on you.</p>
+<p>Here we are gleefully ignoring the technical debt that actually exists in third party projects, just because we cannot see it. If your dev team is worse than the vendor this argument may carry some weight, so the moral should not be &quot;do not build anything&quot;; rather, &quot;get a good dev team&quot;.</p>
 <h2 id="emotional-arguments">Emotional Arguments</h2>
 <p>There is only so much that can be explained rationally. Many of our best impulses are led more by intuition than by an explicit mental process, and are only rationalized after the fact.</p>
 <p>A discussion of emotional arguments should allow us to recognize our unconscious biases, and hopefully to offset them.</p>
@@ -125,6 +129,7 @@
 <p>You are probably thinking that this way of reasoning leads straight to constant reinvention of basic tools.</p>
 <p>Wheels come in many shapes and colors. Tesla gives the option of upgrading the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21'' Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to &quot;reinvent the wheel&quot;.</p>
 <p>So reinventing the wheel is not a valid rational argument, although it may reach the pit of your stomach since it is a highly emotional subject.</p>
+<p>Another popular formulation is: &quot;does the world really need another testing tool?&quot;.</p>
 <h3 id="learning-the-easy-way">Learning the Easy Way</h3>
 <p>There is a reason why people that start programming write their very own implementation of &quot;Hello, world&quot;: to learn how things work.</p>
 <p>I have too often seen purported &quot;DevOps engineers&quot; which are just recycled sysadmins: they know how to install Jenkins or set up a Maven repository, they can hack up a few Bash scripts or even venture with some Python, but mostly they are unable to develop good, solid code. So I ask myself: where do they think that the &quot;Dev&quot; in &quot;DevOps&quot; comes from? For me, DevOps is about making your sysadmin infrastructure a first-class citizen, and treating it as one of your products.</p>
@@ -134,14 +139,19 @@
 <h3 id="customizable-solutions">Customizable Solutions</h3>
 <p>There is a middle ground between building a new product and just installing a third party tool.</p>
 <p>SAP offers a complete solution for enterprise software, which is highly customizable -- and in fact usually requires lots of adaptations before it is at all usable.</p>
-<h3 id="free-software">Free Software</h3>
-<p>Due to a long membership to the FSFE, and out of respect for the great Richard Stallman, I resist using the term &quot;open source&quot;, so I will just offer it here as a practical synonym.</p>
+<h3 id="open-source-software">Open Source Software</h3>
+<p>Usually you can only extend commercial software in ways specified by the vendor. But with open source software you have access to the source code; you can extend it to do what you need.</p>
+<p>Due to a long membership to the FSFE, and out of respect for the great Richard Stallman, I have long resisted using the term <a href="https://opensource.org/">&quot;open source&quot;</a>. But <a href="http://www.gnu.org/philosophy/free-sw.en.html">&quot;free software&quot;</a> is still not accepted industry wide, and the English language still has this unfortunate conflation of &quot;gratis&quot; and &quot;libre&quot;. Furthermore, &quot;open source&quot; is more often associated with a community of developers improving the software.</p>
+<p>Anyway, the idea is that once you modify the software you can send back your contributions. It even adds a certain kind of karma to your reputation, so everyone benefits.</p>
+<p>Remember our shiny new continuous deployment system built with StriderCD? We are planning on extending it for including a diff of the changes it has deployed in the notification email, and to send the contribution upstream so that everyone can use this new feature.</p>
 <h2 id="conclusion">Conclusion</h2>
+<p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <h3 id="references">References</h3>
 <ul>
-<li>John Allspaw, Jesse Robbins: <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a>, 2010.</li>
-<li><a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">S C Florman: &quot;The Existential Pleasures of Engineering&quot; 2nd Edition</a>, 1996.</li>
+<li><p>Cyril Field: <a href="https://archive.org/stream/storyofsubmarine00fielrich#page/144/mode/2up/search/peral">The story of the submarine from the earliest ages to the present day</a>, 1908. A very interesting book about the history of submarines, although it thrashes Peral needlessly (and quite unfairly too).</p></li>
+<li><p>John Allspaw, Jesse Robbins: <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a>, 2010. An excellent introduction to some of the topics of what is now called DevOps.</p></li>
+<li><p><a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">S C Florman: &quot;The Existential Pleasures of Engineering&quot; 2nd Edition</a>, 1996.</p></li>
 </ul>
 								</div>
 							</section>

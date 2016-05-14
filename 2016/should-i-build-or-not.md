@@ -22,6 +22,8 @@ Just run a detailed Total Cost of Ownership comparison.
 And then throw it away,
 because you will probably have left out some of the most important factors
 in the equation.
+In this article I will go over some of these
+so you can go back to ignoring them if you want.
 
 ## Some Case Studies
 
@@ -130,6 +132,26 @@ But alas, shoddy products are the hallmark of our industry.
 Maintaining a third-party product must surely be easier
 than a bunch of custom code hacked together by your predecessor.
 
+Except for that time when your vendor stops supporting your product
+and forces you to upgrade,
+just because they want to make more money off you.
+
+### Technical Debt
+
+Once you start a software project, you start accruing
+[technical debt](http://martinfowler.com/bliki/TechnicalDebt.html).
+It is almost inevitable.
+Infrastructure projects are usually the worst,
+so by the time that your DevOps infrastructure is functional
+it is an iceberg of debt waiting to fall on you.
+
+Here we are gleefully ignoring the technical debt that actually exists
+in third party projects,
+just because we cannot see it.
+If your dev team is worse than the vendor this argument may carry some weight,
+so the moral should not be "do not build anything";
+rather, "get a good dev team".
+
 ## Emotional Arguments
 
 There is only so much that can be explained rationally.
@@ -231,6 +253,9 @@ So reinventing the wheel is not a valid rational argument,
 although it may reach the pit of your stomach
 since it is a highly emotional subject.
 
+Another popular formulation is:
+"does the world really need another testing tool?".
+
 ### Learning the Easy Way
 
 There is a reason why people that start programming
@@ -275,20 +300,51 @@ which is highly customizable --
 and in fact usually requires lots of adaptations
 before it is at all usable.
 
-### Free Software
+### Open Source Software
+
+Usually you can only extend commercial software in ways specified by the vendor.
+But with open source software you have access to the source code;
+you can extend it to do what you need.
 
 Due to a long membership to the FSFE,
 and out of respect for the great Richard Stallman,
-I resist using the term "open source",
-so I will just offer it here as a practical synonym.
+I have long resisted using the term
+["open source"](https://opensource.org/).
+But ["free software"](http://www.gnu.org/philosophy/free-sw.en.html)
+is still not accepted industry wide,
+and the English language still has this unfortunate conflation of "gratis" and "libre".
+Furthermore, "open source" is more often associated with a community of developers
+improving the software.
+
+Anyway, the idea is that once you modify the software
+you can send back your contributions.
+It even adds a certain kind of karma to your reputation,
+so everyone benefits.
+
+Remember our shiny new continuous deployment system built with StriderCD?
+We are planning on extending it for including a diff of the changes it has deployed
+in the notification email,
+and to send the contribution upstream so that everyone can use this new feature.
 
 ## Conclusion
+
+There is not a universal path that leads to all destinations.
+There is not even an optimal means of transportation for any distance.
 
 ### Acknowledgements
 
 ### References
 
+* Cyril Field:
+[The story of the submarine from the earliest ages to the present
+day](https://archive.org/stream/storyofsubmarine00fielrich#page/144/mode/2up/search/peral), 1908.
+A very interesting book about the history of submarines,
+although it thrashes Peral needlessly (and quite unfairly too).
+
 * John Allspaw, Jesse Robbins: 
 [Web Operations](http://shop.oreilly.com/product/0636920000136.do), 2010.
+An excellent introduction to some of the topics of what is now called DevOps.
+
 * [S C Florman: "The Existential Pleasures of Engineering" 2nd Edition](https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&redir_esc=y), 1996.
+
 
