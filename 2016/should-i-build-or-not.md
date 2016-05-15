@@ -321,10 +321,22 @@ you can send back your contributions.
 It even adds a certain kind of karma to your reputation,
 so everyone benefits.
 
+I have received a number of contributions for my DevOps packages,
+particularly for [`loadtest`](https://www.npmjs.com/package/loadtest)
+which has already got [40 pull requests](https://github.com/alexfernandez/loadtest/pulls?q=is%3Apr+is%3Aclosed).
+
 Remember our shiny new continuous deployment system built with StriderCD?
 We are planning on extending it for including a diff of the changes it has deployed
 in the notification email,
 and to send the contribution upstream so that everyone can use this new feature.
+
+### Joining the Pieces
+
+Another very interesting use of customizable software
+is when several packages are combined to make a larger entity.
+This is particularly true for open source software,
+and most useful with DevOps,
+which regularly requires the collaboration of many moving parts.
 
 ## Conclusion
 
