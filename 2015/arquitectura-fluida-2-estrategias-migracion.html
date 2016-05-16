@@ -72,8 +72,7 @@
 										<p>La arquitectura fluida, parte 2<p>
 									</header>
 										<div class="figure">
-<img src="pics/arquitectura-fluida-2.jpg" title="El puente del César sobre el Rhin" alt="Imagen: John Soane" />
-<p class="caption">Imagen: <a href="http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html">John Soane</a></p>
+<img src="pics/arquitectura-fluida-2.jpg" title="El puente del César sobre el Rhin" alt="Imagen: John Soane" /><p class="caption">Imagen: <a href="http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html">John Soane</a></p>
 </div>
 <p>En la <a href="arquitectura-fluida-1-arquitectura-perfecta.html">parte anterior</a> vimos cómo la arquitectura perfecta no existe; nuestra única esperanza es poder migrar rápidamente de una a otra para responder a los cambios a los que nos enfrentamos.</p>
 <p>Llegamos ahora a al catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
@@ -89,8 +88,7 @@
 <p>En esta primera categoría tenemos estrategias que se implementan puramente en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.</p>
 <h2 id="parar-y-arrancar">Parar y arrancar</h2>
 <div class="figure">
-<img src="pics/stop-migrate.png" alt="Stop and migrate" />
-<p class="caption">Stop and migrate</p>
+<img src="pics/stop-migrate.png" alt="Stop and migrate" /><p class="caption">Stop and migrate</p>
 </div>
 <p>Ésta es la migración de toda la vida:</p>
 <ul>
@@ -121,7 +119,7 @@ db.current.get(key, function(error, result) {
 });</code></pre>
 <p>Para cambiar el acceso, sólo tenemos que parar, migrar, cambiar <code>settings.js</code> y arrancar de nuevo.</p>
 <blockquote>
-<h4 id="caso-práctico-vpc-en-mediasmart-mobile">Caso práctico: VPC en MediaSmart Mobile</h4>
+<h4>Caso práctico: VPC en MediaSmart Mobile</h4>
 <p>El primer caso práctico que vamos a ver no es precisamente una migración de base de datos. En MediaSmart Mobile necesitábamos migrar nuestra infraestructura en la nube de Amazon (AWS), de una conexión no segura a la VPC (<em>Virtual Private Cloud</em>).</p>
 <p>El 3 de marzo de 2015 realizamos la migración: primero creamos una réplica de todos los servidores en la VPC. A continuación paramos los servidores originales, y copiamos los datos a la VPC. Luego arrancamos los nuevos sevidores, y apuntamos el servidor DNS hacia ellos. Tras algunas horas de <em>downtime</em> estábamos arriba otra vez.</p>
 <p>El día 5 de marzo nos reportaron problemas en producción, por lo que tuvimos que deshacer la migración. Por fortuna habíamos mantenido las instancias antiguas, así que fue cuestión de parar, volver a copiar los datos y arrancar otra vez. Por ironías de la vida, el problema no se resolvió con esta migración inversa, por lo que dedujimos que tenía otra causa. Curiosamente, una vez que nos quitamos de enmedio la causa más obvia (la migración), el problema real se hizo evidente de inmediato: un fallo que no tenía nada que ver, sino que venía causado por un despliegue anterior.</p>
@@ -131,8 +129,7 @@ db.current.get(key, function(error, result) {
 </blockquote>
 <h2 id="versión-de-sólo-lectura">Versión de sólo lectura</h2>
 <div class="figure">
-<img src="pics/read-only-version.png" alt="Read-only version" />
-<p class="caption">Read-only version</p>
+<img src="pics/read-only-version.png" alt="Read-only version" /><p class="caption">Read-only version</p>
 </div>
 <p>Ahora veremos una estrategia ligeramente más sofisticada. Los pasos son:</p>
 <ul>
@@ -148,13 +145,12 @@ db.current.get(key, function(error, result) {
 <p>La migración inversa es fácil, en teoría: pasar de nuevo a sólo lectura, copiar los datos en sentido contrario y volver a usar la base de datos original. Sin embargo, la copia inversa requiere trabajo extra, incluso si la nueva base de datos es idéntica a la antigua: habrá que invertir el script de copia adaptando las direcciones de las máquinas. Y no hablemos ya si hay que hacer cualquier tipo de conversión de formato.</p>
 <p>Siempre podemos preparar la copia inversa como parte de la preparación para la migración; de esta forma estamos preparados para la migración inversa. Pero seguimos teniendo <em>downtime</em>, aunque sea sólo para las escrituras. De ahí que una migración de este tipo no sea realmente reversible.</p>
 <blockquote>
-<h4 id="caso-práctico-migraciones-wordpress">Caso práctico: Migraciones WordPress</h4>
+<h4>Caso práctico: Migraciones WordPress</h4>
 <p>Esta técnica es muy básica: se aplica por ejemplo a las <a href="http://www.wpbeginner.com/plugins/how-to-put-your-wordpress-site-in-read-only-state-for-site-migrations-and-maintenance/">migraciones de WordPress</a>, para no tener que preocuparse de cambios mientras se migra.</p>
 </blockquote>
 <h2 id="sincronización">Sincronización</h2>
 <div class="figure">
-<img src="pics/sync.png" alt="Synchronization" />
-<p class="caption">Synchronization</p>
+<img src="pics/sync.png" alt="Synchronization" /><p class="caption">Synchronization</p>
 </div>
 <p>Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva. Queremos que ambas queden sincronizadas, de forma que podamos usar una u otra. Los pasos para hacer esta sincronización son:</p>
 <ul>
@@ -169,15 +165,14 @@ db.current.get(key, function(error, result) {
 <p>Además, la estrategia inversa es trivial: sólo hay que volver a cambiar los accesos a la base de datos antigua, mientras sigamos escribiendo en ella y no desconectemos el mecanismo de sincronización.</p>
 <p>Pero si ya no estamos sincronizando los cambios o hemos pasado a escribir en la nueva, la cosa cambia: la migración inversa requiere entonces sincronizar los datos en el sentido contrario. La sincronización bidireccional a menudo es demasiado costosa como para ser práctica. Así que hay que tener cuidado de seguir sincronizando hasta que estemos seguros de que la migración ha sido exitosa y no vamos a querer revertirla nunca.</p>
 <blockquote>
-<h4 id="caso-práctico-estadísticas-diarias-en-mediasmart-mobile">Caso práctico: Estadísticas diarias en MediaSmart Mobile</h4>
+<h4>Caso práctico: Estadísticas diarias en MediaSmart Mobile</h4>
 <p>En MediaSmart Mobile almacenamos datos de estadísticas del día, conocidos internamente como <em>daystats</em>, para su consulta posterior por usuarios y clientes. Guardarlos todos en Redis nos estaba causando costes ingentes, así que decidimos migrarlos a Redshift para su consulta offline.</p>
 <p>Esta base de datos para <em>data warehousing</em> tiene muchas cosas buenas, pero no permite carga en tiempo real. El proceso de carga en Redshift suele ejecutarse cada día o cada hora; en nuestro caso decidimos exportar días completos, por lo que los últimos datos tienen que consultarse siempre en Redis. El desarrollo no fue trivial: según las fechas pedidas hay que acceder a Redis para los datos de los últimos días, acceder a Redshift (que tiene un modelo de datos completamente distinto basado en SQL) para el resto, acumular ambos juegos de valores y presentarlos al usuario.</p>
 <p>La parte positiva es que la migración fue completamente suave. En este caso, la sincronización se mantiene siempre (disfrazada de carga de datos), por lo que para dejar de usar la nueva base de datos en Redshift sólo tenemos que cambiar un parámetro de configuración. Así que cuando se reportaron bugs fue trivial comparar ambos, y volver a la versión anterior mientras se investigaba por qué no funcionaban bien datos migrados.</p>
 </blockquote>
 <h2 id="copia-doble">Copia doble</h2>
 <div class="figure">
-<img src="pics/double-copy.png" alt="Double copy" />
-<p class="caption">Double copy</p>
+<img src="pics/double-copy.png" alt="Double copy" /><p class="caption">Double copy</p>
 </div>
 <p>En este caso queremos copiar los datos en dos tandas, una antes de cambiar el acceso y otra después. Los pasos a seguir son los siguientes:</p>
 <ul>
@@ -193,7 +188,7 @@ db.current.get(key, function(error, result) {
 <p>En principio este tipo de migración no tiene <em>downtime</em> asociado, lo que podría hacernos pensar que es reversible. Pero la migración inversa requiere de esfuerzo extra: es necesario hacer una copia en sentido inverso para recuperar los últimos cambios. O eso, o perder todos los datos que han llegado al sistema nuevo.</p>
 <p>En general, la ausencia de <em>downtime</em> es condición necesaria, pero no suficiente, para la reversibilidad. El único criterio realmente fiable es estudiar la migración inversa.</p>
 <blockquote>
-<h4 id="caso-práctico-perfiles-en-mediasmart-mobile">Caso práctico: Perfiles en MediaSmart Mobile</h4>
+<h4>Caso práctico: Perfiles en MediaSmart Mobile</h4>
 <p>En nuestra empresa guardamos perfiles anonimizados de usuarios, con información sobre qué categorías de contenido han visitado. Los perfiles nos ayudan a centrar el targeting y conseguir mejores respuestas.</p>
 <p>Cuando teníamos unos 500 millones de perfiles toda la información estaba guardada en Redis, que necesita tener todos los datos en memoria. Así que en cierto momento decidimos moverlo todo a DynamoDB, que también responde muy rápido y tiene capacidad ilimitada. Cuando llegó el momento de la migración nos dimos cuenta de que copiar los perfiles llevaba más de un día. Pero contábamos con la ventaja de que en realidad no pasa nada si se pierden unos cuantos perfiles… o unos cuantos millones. Tampoco pasa nada si un perfil no se actualiza con los últimos cambios, sigue siendo valioso.</p>
 <p>Así que nos decidimos por una copia doble. Primero copiamos los perfiles a DynamoDB, tarea que nos llevó dos días, y empezamos a usar esta nueva base de datos desde un solo servidor de prueba. Cuando estábamos contentos con el resultado cambiamos el resto de servidores. En este punto volvimos a hacer una copia de los perfiles para recoger los cambios que habían entrado durante las pruebas. Cuando había dos versiones del mismo perfil, podíamos elegir si quedarnos con la de Redis o la de DynamoDB; realmente sólo perderíamos una pequeña cantidad de información.</p>
@@ -251,7 +246,7 @@ function getAdapter(address) {
     console.log(&#39;Got result %j&#39;, result);
 };</code></pre>
 <blockquote>
-<h4 id="caso-práctico-memcached-en-mediasmart-mobile">Caso práctico: Memcached en MediaSmart Mobile</h4>
+<h4>Caso práctico: Memcached en MediaSmart Mobile</h4>
 <p>En MediaSmart empezamos usando Couchbase, una base de datos clave-valor enriquecida con una historia curiosa.</p>
 </blockquote>
 <blockquote>
@@ -261,8 +256,7 @@ function getAdapter(address) {
 </blockquote>
 <h2 id="consulta-dual">Consulta dual</h2>
 <div class="figure">
-<img src="pics/dual-lookup.png" alt="Dual lookup" />
-<p class="caption">Dual lookup</p>
+<img src="pics/dual-lookup.png" alt="Dual lookup" /><p class="caption">Dual lookup</p>
 </div>
 <p>Esta técnica es muy sencilla: empezamos a escribir en la nueva base de datos, y a la hora de leer leemos de ambas: primero miramos en la nueva, y si no está, tiramos de la antigua.</p>
 <p>La migración de datos en el servidor se puede hacer con una sencilla copia en caliente.</p>
@@ -283,21 +277,19 @@ function getAdapter(address) {
 }</code></pre>
 <h2 id="escritura-dual">Escritura dual</h2>
 <div class="figure">
-<img src="pics/dual-write.png" alt="Dual write" />
-<p class="caption">Dual write</p>
+<img src="pics/dual-write.png" alt="Dual write" /><p class="caption">Dual write</p>
 </div>
 <p>Esta técnica es similar a la anterior, pero en lugar de leer de dos sitios, escribimos a dos sitios.</p>
 <p>La escritura dual sirve para mantener dos servidores sincronizados después de haber pasado de usar uno al otro.</p>
 <p>En este caso la latencia añadida puede no ser un problema, siempre que las escrituras se realicen de forma asíncrona tras terminar de procesar las peticiones. En el caso de que requiramos confirmación de escritura en ambas bases de datos la latencia aumentará.</p>
 <blockquote>
-<h4 id="caso-práctico-backup-en-ing">Caso práctico: Backup en ING</h4>
+<h4>Caso práctico: Backup en ING</h4>
 <p>Por requerimientos del Banco de España, un banco debe almacenar sus datos al menos en dos centros de datos separadas por suficiente distancia. En el banco ING se mantienen dos centros de datos en dos ciudades distintas: uno primario y otro secundario, ambos con la capacidad suficiente como para dar servicio a todos los clientes. En caso de catástrofe se pasa a usar el secundario.</p>
 <p>Hace unos años se pasó de tener una réplica en caliente a una réplica online: todas las escrituras debían confirmarse en ambos centros antes de darse por finalizadas. De esta forma se tiene la garantía de que los datos son iguales en ambos centros, y se puede pasar de uno a otro a voluntad.</p>
 </blockquote>
 <h2 id="paso-temporizado">Paso temporizado</h2>
 <div class="figure">
-<img src="pics/timed-rollover.png" alt="Timed rollover" />
-<p class="caption">Timed rollover</p>
+<img src="pics/timed-rollover.png" alt="Timed rollover" /><p class="caption">Timed rollover</p>
 </div>
 <p>En este caso el cliente usará un servidor u otro dependiendo de los datos a acceder, con una fecha de corte configurable.</p>
 <p>El resultado es un cambio suave de servidores, a costa de añadir como mucho unos pocos microsegundos (µs) a cada query.</p>
@@ -321,7 +313,7 @@ exports.CleverAdapter = function(name, address) {
     }
 };</code></pre>
 <blockquote>
-<h4 id="caso-práctico-agregados-en-mediasmart-mobile">Caso práctico: Agregados en MediaSmart Mobile</h4>
+<h4>Caso práctico: Agregados en MediaSmart Mobile</h4>
 <p>De nuevo usaremos las estadísticas diarias (<em>daystats</em>) que se pueden consultar en el pasado.</p>
 </blockquote>
 <blockquote>
@@ -330,8 +322,7 @@ exports.CleverAdapter = function(name, address) {
 </blockquote>
 <h2 id="conversión-in-situ">Conversión <em>in situ</em></h2>
 <div class="figure">
-<img src="pics/in-place.png" alt="In-place conversion" />
-<p class="caption">In-place conversion</p>
+<img src="pics/in-place.png" alt="In-place conversion" /><p class="caption">In-place conversion</p>
 </div>
 <p>Queremos cambiar el formato de los valores de un cierto tipo. En lugar de recorrer todos los valores existentes y modificarlos, podemos empezar a escribir los valores nuevos con este nuevo formato, e ir modificando los antiguos según se leen.</p>
 <p>La lectura de cualquier valor consta de los siguientes pasos:</p>
@@ -363,7 +354,7 @@ exports.CleverAdapter = function(name, address) {
     });
 }</code></pre>
 <blockquote>
-<h4 id="caso-práctico-compresión-de-perfiles-en-mediasmart-mobile">Caso práctico: Compresión de perfiles en MediaSmart Mobile</h4>
+<h4>Caso práctico: Compresión de perfiles en MediaSmart Mobile</h4>
 <p>Volvemos a encontrarnos con los perfiles de MediaSmart Mobile. En cierto momento encontramos que teníamos ya más de 100 millones de perfiles, y que ocupaban demasiado espacio. (Era antes de la migración a DynamoDB, y en Redis se almacena todo en memoria.) Así que decidimos comprimir los perfiles más habituales para reducir el espacio usado.</p>
 <p>Cada perfil consta de una serie de valores que tienden a repetirse, como el rango de edades o las categorías visitadas previamente. Para comprimir los perfiles decidimos tomar los valores más comunes y codificarlos con un formato especial que nos permitiera reconocer que se trataba de un valor codificado. El perfil resultante ocupaba bastante menos que el original, pero una vez más queríamos evitar una migración a gran escala.</p>
 <p>Así que decidimos hacer una conversión <em>in situ</em>: al leer los perfiles teníamos que descomprimirlos en cualquier caso, así que aprovechamos la circunstancia para ir guardándolos comprimidos según se iban leyendo y modificando. En el proceso nos ahorramos varios cientos de GB de datos.</p>
@@ -373,8 +364,7 @@ exports.CleverAdapter = function(name, address) {
 <p>De nuevo estas estrategias suelen requerir una migración en el servidor paralela, así que tampoco investigaremos si son reversibles o no. Dado que son similares a las estrategias en cliente tampoco veremos casos prácticos; sólo las mencionamos de pasada.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
 <div class="figure">
-<img src="pics/proxied-access.png" alt="Proxied access" />
-<p class="caption">Proxied access</p>
+<img src="pics/proxied-access.png" alt="Proxied access" /><p class="caption">Proxied access</p>
 </div>
 <p>El broker es en este caso un proxy, que envía las consultas a un servidor o a otro según un valor de configuración. El cliente no tiene que preocuparse de enviar las consultas al servidor correcto; el broker se ocupa de todo.</p>
 <p>El problema más evidente es que añadimos tiempo a la consulta, y además un nuevo punto de fallo.</p>
@@ -401,20 +391,18 @@ http.createServer((request, response) =&gt; {
 });</code></pre>
 <h2 id="escritura-en-cola">Escritura en cola</h2>
 <div class="figure">
-<img src="pics/queued-write.png" alt="Queued write" />
-<p class="caption">Queued write</p>
+<img src="pics/queued-write.png" alt="Queued write" /><p class="caption">Queued write</p>
 </div>
 <p>En este caso no escribimos directamente en destino, sino que almacenamos las escrituras y las hacemos todas de golpe.</p>
 <p>Es muy común en los servidores de base de datos (por ejemplo <a href="http://docs.couchbase.com/admin/admin/Monitoring/monitor-diskqueue.html">Couchbase</a>) agrupar las escrituras para ahorrar procesamiento. En nuestro caso podemos enviar las escrituras al servidor que convenga para nuestra migración.</p>
 <h2 id="migración-de-cualquier-tipo">Migración de cualquier tipo</h2>
 <div class="figure">
-<img src="pics/all.png" alt="All strategies" />
-<p class="caption">All strategies</p>
+<img src="pics/all.png" alt="All strategies" /><p class="caption">All strategies</p>
 </div>
 <p>Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos. En lugar de copiar datos es posible que tengamos que copiar configuraciones, código o ficheros planos. En cualquier caso tendremos que ocuparnos de dos cosas: migrar los accesos, y mover la información necesaria. Cada parte puede resolverse de forma separada, lo que nos da dos grados de libertad que nos pueden ayudar en nuestro trabajo.</p>
 <p>En cualquier migración querremos evitar tener <em>downtime</em>, no sólo por no molestar a nuestros clientes: por orgullo, y porque dejar de dar servicio es mala ingeniería.</p>
 <blockquote>
-<h3 id="caso-práctico-migración-de-instagram-a-facebook">Caso práctico: Migración de Instagram a Facebook</h3>
+<h3>Caso práctico: Migración de Instagram a Facebook</h3>
 <p>Tras la compra de Instagram, Facebook tenía lógicamente interés en que se usaran sus centros de datos. Instagram se embarcó en una migración de dimensiones épicas, y tuvo a bien documentarla en su <a href="http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb">blog de ingeniería</a>. Se trataba de migrar miles de instancias, y como buenos ingenieros se plantearon hacerla <em>sin pérdida de servicio</em>.</p>
 <p>El proceso llevó un año completo, de 2013-04 a 2014-04. El primer paso fue migrar a AWS VPC, la red privada virtual de Amazon. Este paso era necesario para evitar colisiones de direcciones IP ya que Facebook usa el mismo espacio privado que AWS.</p>
 <p>Así que decidieron crear Neti: un servicio de manipulación de tablas de IPs dinámicas que permitía compatibilizar los accesos a máquinas, sin importar si residen en VPC o en la red clásica. Ésta herramienta permitía configurar cada servidor para funcionar La migración a VPC llevó tres semanas.</p>
@@ -428,7 +416,7 @@ http.createServer((request, response) =&gt; {
 <h3 id="el-equilibrio-inestable">El equilibrio inestable</h3>
 <p>Un sistema que fluye se mantiene en equilibrio, pero no es necesariamente un equilibrio estable.</p>
 <blockquote>
-<h3 id="caso-práctico-punto-neutro">Caso práctico: Punto neutro</h3>
+<h3>Caso práctico: Punto neutro</h3>
 <p>Veamos un ejemplo sacado de una ingeniería completamente diferente a la nuestra: la aerodinámica. Los <a href="http://aviation.stackexchange.com/a/8061/12166">aviones supersónicos</a> tienen que funcionar en dos regímenes completamente diferentes: primero tienen que volar en modo subsónico, y una vez que alcanzan la velocidad del sonido pasan al modo supersónico. Esto causa un problema: el centro de gravedad está por detrás del punto neutro, lo que hace que el vuelo sea inestable. La única forma de mantenerlos en el aire sin que se desintegren es corregir la trayectoria con un ordenador de a bordo, sin el cual el vuelo sería completamente imposible.</p>
 <p>(Los aviones acrobáticos también son inherentemente inestables, lo que los hace más manejables, pero al volar a menos velocidad es posible que un piloto los controle.)</p>
 </blockquote>
@@ -440,7 +428,7 @@ http.createServer((request, response) =&gt; {
 <p>La monitorización activa es la primera línea de defensa: un sistema que envíe notificaciones a los administradores. Pero no podemos quedarnos ahí. El ejemplo más típico es el <a href="https://es.wikipedia.org/wiki/Hombre_muerto">dispositivo de hombre muerto</a>: un mecanismo que detiene el tren si el maquinista no lo pisa cada cierto tiempo.</p>
 <p>Otro ejemplo clásico es el <a href="http://cincodays.com/2014/02/19/conociendo-la-historia-animales-en-la-historia-los-canarios-en-las-minas-de-carbon/">canario</a> que se introducía en la mina de carbón para que avisara de cualquier fuga de gases venenosos. En nuestro caso, lo ideal es conectar el canario con el dispositivo de hombre muerto para que nuestro sistema vuelva a la operación segura por sí solo ante cualquier problema.</p>
 <blockquote>
-<h4 id="caso-práctico-parada-de-bidding-en-mediasmart">Caso práctico: Parada de bidding en MediaSmart</h4>
+<h4>Caso práctico: Parada de bidding en MediaSmart</h4>
 <p>En MediaSmart hemos tenido unos cuantos problemas serios con el sistema de bidding automático que nos han causado pérdidas monetarias. En una startup española el dinero no suele sobrar, así que siempre que nos hemos encontrado con problemas serios hemos buscado formas de operación seguras.</p>
 </blockquote>
 <blockquote>

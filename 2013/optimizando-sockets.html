@@ -72,8 +72,7 @@
 										<p><p>
 									</header>
 										<div class="figure">
-<img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="Crédito: Alex Fernández" />
-<p class="caption">Crédito: Alex Fernández</p>
+<img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="Crédito: Alex Fernández" /><p class="caption">Crédito: Alex Fernández</p>
 </div>
 <p>Este post es una especie de segunda parte de <a href="nodejs-rapido-como-el-rayo.html">Node.js: ¿rápido como el rayo?</a>. En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.</p>
 <h2 id="punto-de-partida">Punto de partida</h2>
@@ -141,8 +140,7 @@
 <p>Por algún motivo los resultados son ahora escandalosamente mejores que los que obtuvimos en <a href="http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/">la última ocasión</a>, lo cual nos debe llevar a una desconfianza sana hacia los resultados que podamos obtener ahora, por buenos o malos que sean. En cualquier caso, los tiempos son ahora mucho mejores: 1/105k ~ 9.5 µs, o sea menos de 10 microsegundos. Y un pelín más para get, unos 12 µs.</p>
 <p>La situación es la de la siguiente gráfica: tenemos un montón de “espacio de mejora” por delante.</p>
 <div class="figure">
-<img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" />
-<p class="caption">Rendimiento inicial</p>
+<img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" /><p class="caption">Rendimiento inicial</p>
 </div>
 <p>Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.</p>
 <p>!(pics/optimizando-sockets-cpu-nodejs.png &quot;CPUs con node.js&quot;)</p>
@@ -383,8 +381,7 @@ Requests: 100000, mean time: 14.10403694 µs</code></pre>
 37243.95 requests per second</code></pre>
 <p>Hemos reducido el tiempo del get a 1s/37k ~ 27 µs, y el set a 35.4 µs. La siguiente figura muestra el desglose de tiempos en la nueva distribución.</p>
 <div class="figure">
-<img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="Rendimiento final" />
-<p class="caption">Rendimiento final</p>
+<img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="Rendimiento final" /><p class="caption">Rendimiento final</p>
 </div>
 <p>Las áreas claras del gráfico son las que están directamente bajo nuestro control; se ve claramente que son minoría. Vamos a centrarnos en la petición get, por ejemplo. Del total de 27 µs, 2 µs son para conversión a string y división en líneas; otros 6 µs para el procesamiento interno, y 12 µs para escribir la respuesta. Pero estos tiempos desglosados suman 20 µs; ¿dónde están los 7 µs restantes? Podemos suponer que es el tiempo interno que gasta node.js en recibir una petición y montar las estructuras de datos necesarias para responder a ella.</p>
 <p>Si hacemos las cuentas para el set, vemos que este tiempo &quot;fantasma&quot; son 8 µs: 35-2-12-13. Tiene sentido que sea un poco mayor porque recibimos más datos en el set.</p>

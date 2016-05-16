@@ -7,16 +7,22 @@ footer: Published on 2016-05-12.
 
 ![The first electric submarine, built by Isaac Peral [(Image source)](https://delamarylosbarcos.wordpress.com/tag/isaac-peral/)](pics/build-or-not.jpg "Isaac Peral's first submarine")
 
-## The Story for Managers
+## A Story for Builders
 
 Before we start, let us clear the air.
+This is a story for builders,
+not for decisions makers.
+Therefore it may only be of interest to people in organizations
+where there is not a large divide between the two,
+or where the divide can at least be breached somehow.
+If that is not your case,
+I am not sure I can help you.
 
-I am not going to present a boring list of bullet points
-to help you decide if you want to build a custom solution
-for your particular situation or not.
-Why?
-Very simple: because I do not know your particular situation,
-or even what factors are important in your case.
+For decision makers,
+I should probably show you some cold and rational bullet points
+to help you decide if you want to build a custom solution or not.
+The problem here is that things are not as cold and rational
+as you would probably like.
 
 Just run a detailed Total Cost of Ownership comparison.
 And then throw it away,
@@ -24,6 +30,11 @@ because you will probably have left out some of the most important factors
 in the equation.
 In this article I will go over some of these
 so you can go back to ignoring them if you want.
+
+Instead, I will start with a few case studies of my own,
+then try to debunk what many people take as "rational" arguments,
+and finally offer some emotional points
+which are really the best that I can offer you.
 
 ## Some Case Studies
 
