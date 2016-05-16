@@ -103,10 +103,15 @@ A month ago I published an
 
 ### Monitoring
 
+We have several monitoring tools in place.
+
 ### Partners
 
 Our company, MediaSmart Mobile, has been in talks with many other companies
 to create partnerships.
+Some of them do not like it too much
+when they learn that so much of our infrastructure is custom-made,
+instead of marvelling at our inventive.
 
 ## Rational Arguments
 
@@ -255,12 +260,17 @@ since it is a highly emotional subject.
 
 Another popular formulation is:
 "does the world really need another testing tool?".
+The correct answer is of course:
+I do not know what the world needs,
+but if I ever need a new testing tool I will surely build it.
 
 ### Learning the Easy Way
 
 There is a reason why people that start programming
 write their very own implementation of "Hello, world":
 to learn how things work.
+My favorite didactic tool is by far
+"learn by building".
 
 I have too often seen purported "DevOps engineers"
 which are just recycled sysadmins:
@@ -337,6 +347,26 @@ is when several packages are combined to make a larger entity.
 This is particularly true for open source software,
 and most useful with DevOps,
 which regularly requires the collaboration of many moving parts.
+
+Consider what continuous deployment requires:
+
+* code repositories,
+* a test environment + test suite,
+* possibly some load tests as well,
+* notification tools,
+* and finally a deployment mechanism.
+
+We mostly take all these pieces for granted, until they fail.
+A monolithic environment can provide for all of them,
+but you would be very lucky if all bits are ideally suited for your environment.
+Alternatively, each of these can be provided by different packages,
+which integrate together with some glue to provide the final platform.
+
+In essence, sysadmins have long known how to make lots of pieces work together,
+particularly in Unix environments:
+having well-defined universal interfaces.
+
+### Rise of the APIs
 
 ## Conclusion
 

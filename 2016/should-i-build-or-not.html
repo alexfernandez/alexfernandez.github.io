@@ -92,8 +92,9 @@
 <h3 id="elb-balancer">ELB Balancer</h3>
 <p>A month ago I published an <a href="http://alexfernandez.github.io/2016/nginx-balancer.html">article about this migration</a>.</p>
 <h3 id="monitoring">Monitoring</h3>
+<p>We have several monitoring tools in place.</p>
 <h3 id="partners">Partners</h3>
-<p>Our company, MediaSmart Mobile, has been in talks with many other companies to create partnerships.</p>
+<p>Our company, MediaSmart Mobile, has been in talks with many other companies to create partnerships. Some of them do not like it too much when they learn that so much of our infrastructure is custom-made, instead of marvelling at our inventive.</p>
 <h2 id="rational-arguments">Rational Arguments</h2>
 <p>I am a firm believer in rational thought: thinking things over objectively is our best tool at our disposition. The problem is that rational thought does not come naturally to people; our minds need to be trained very thoroughly if we are to remove subjectivity from our reasonings.</p>
 <p>In this section we will see some arguments that are often used in this discussion, and that are supposed to be objective and rational. We will then deconstruct them to see that they are not as rational as they were supposed to be.</p>
@@ -129,9 +130,9 @@
 <p>You are probably thinking that this way of reasoning leads straight to constant reinvention of basic tools.</p>
 <p>Wheels come in many shapes and colors. Tesla gives the option of upgrading the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21'' Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to &quot;reinvent the wheel&quot;.</p>
 <p>So reinventing the wheel is not a valid rational argument, although it may reach the pit of your stomach since it is a highly emotional subject.</p>
-<p>Another popular formulation is: &quot;does the world really need another testing tool?&quot;.</p>
+<p>Another popular formulation is: &quot;does the world really need another testing tool?&quot;. The correct answer is of course: I do not know what the world needs, but if I ever need a new testing tool I will surely build it.</p>
 <h3 id="learning-the-easy-way">Learning the Easy Way</h3>
-<p>There is a reason why people that start programming write their very own implementation of &quot;Hello, world&quot;: to learn how things work.</p>
+<p>There is a reason why people that start programming write their very own implementation of &quot;Hello, world&quot;: to learn how things work. My favorite didactic tool is by far &quot;learn by building&quot;.</p>
 <p>I have too often seen purported &quot;DevOps engineers&quot; which are just recycled sysadmins: they know how to install Jenkins or set up a Maven repository, they can hack up a few Bash scripts or even venture with some Python, but mostly they are unable to develop good, solid code. So I ask myself: where do they think that the &quot;Dev&quot; in &quot;DevOps&quot; comes from? For me, DevOps is about making your sysadmin infrastructure a first-class citizen, and treating it as one of your products.</p>
 <p>If our infrastructure is itself going to be coded, and live in repositories, then we need a little bit more dedication. That is what I understand as &quot;DevOps&quot;. And as it happens, the best way to learn to do this is to create the tools from scratch. Perhaps you do not need to recreate everything for every project, but at least you should have done it once. Otherwise, how can you know that a PHP script invoking <code>rsync</code> can be as effective as a sophisticated Jenkins pipeline?</p>
 <h2 id="a-most-welcome-third-way">A Most Welcome Third Way</h2>
@@ -147,6 +148,17 @@
 <p>Remember our shiny new continuous deployment system built with StriderCD? We are planning on extending it for including a diff of the changes it has deployed in the notification email, and to send the contribution upstream so that everyone can use this new feature.</p>
 <h3 id="joining-the-pieces">Joining the Pieces</h3>
 <p>Another very interesting use of customizable software is when several packages are combined to make a larger entity. This is particularly true for open source software, and most useful with DevOps, which regularly requires the collaboration of many moving parts.</p>
+<p>Consider what continuous deployment requires:</p>
+<ul>
+<li>code repositories,</li>
+<li>a test environment + test suite,</li>
+<li>possibly some load tests as well,</li>
+<li>notification tools,</li>
+<li>and finally a deployment mechanism.</li>
+</ul>
+<p>We mostly take all these pieces for granted, until they fail. A monolithic environment can provide for all of them, but you would be very lucky if all bits are ideally suited for your environment. Alternatively, each of these can be provided by different packages, which integrate together with some glue to provide the final platform.</p>
+<p>In essence, sysadmins have long known how to make lots of pieces work together, particularly in Unix environments: having well-defined universal interfaces.</p>
+<h3 id="rise-of-the-apis">Rise of the APIs</h3>
 <h2 id="conclusion">Conclusion</h2>
 <p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
