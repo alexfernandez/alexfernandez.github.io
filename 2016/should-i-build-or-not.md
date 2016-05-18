@@ -304,6 +304,11 @@ but at least you should have done it once.
 Otherwise, how can you know that a PHP script invoking `rsync`
 can be as effective as a sophisticated Jenkins pipeline?
 
+### In Other Areas
+
+Brave voices are now raising against
+[using JavaScript frameworks](https://slack-files.com/T03JT4FC2-F151AAF7A-13fe6f98da).
+
 ## A Most Welcome Third Way
 
 Are we stuck in an endless loop of emotional arguments,
