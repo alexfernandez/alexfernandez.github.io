@@ -33,8 +33,11 @@ so you can go back to ignoring them if you want.
 
 Instead, I will start with a few case studies of my own,
 then try to debunk what many people take as "rational" arguments,
-and finally offer some emotional points
+and offer some emotional points
 which are really the best that I can offer you.
+After that we will see a third way which should hopefully act as a synthesis
+of previous arguments,
+and finally offer some conclusions.
 
 ## Some Case Studies
 
@@ -58,6 +61,9 @@ Always request continuous deployment at your favorite shops,
 since the full advantages are not realized until all changes
 _do_ reach production right after merging them.
 
+Why deploy everything?
+The benefits for the team are multiplied.
+
 During the last few years I have helped build a few continuous deployment systems.
 I drew my first inspiration from Allspaw and Robbins in their excellent
 [Web Operations](http://shop.oreilly.com/product/0636920000136.do),
@@ -73,11 +79,21 @@ At MediaSmart I convinced our CTO Guillermo Fernández
 to implement continuous deployment after about 6 months in the company,
 and we have lived happily ever since.
 Well, almost.
-We have been using my own npm package,
+At that time we had to deploy our code to all four servers (!):
+`ssh` into them, `git pull` and restart with supervisor.
+
+The first iteration was a very simple script that distributed a command
+to all running instances on our AWS infrastructure.
+This script had to be launched manually.
+An improved version of this script is still in use,
+and has saved us a ton of work administering services.
+
+The we migrated it to Node.js, and integrated it with GitHub webhooks.
+We have been using my own npm package for a few years:
 [deployment](https://www.npmjs.com/package/deployment),
 which has a simple command that creates a server and listens to requests;
 when the correct URL is invoked, it deploys code to the server.
-Then we did distributed deployments with a custom Node.js file,
+Then we did distributed deployments with a custom Node.js script,
 that reads the list of servers from an Amazon ELB,
 and then invokes the deployment server on each of the instances.
 
@@ -116,13 +132,17 @@ A month ago I published an
 
 We have several monitoring tools in place.
 
-### Partners
+### Business Partners
 
 Our company, MediaSmart Mobile, has been in talks with many other companies
 to create partnerships.
 Some of them do not like it too much
 when they learn that so much of our infrastructure is custom-made,
 instead of marvelling at our inventive.
+
+Well-known products give security to people.
+It happens when buying brands at the supermarket,
+and also when choosing business partners.
 
 ## Rational Arguments
 
@@ -270,7 +290,7 @@ although it may reach the pit of your stomach
 since it is a highly emotional subject.
 
 Another popular formulation is:
-"does the world really need another testing tool?".
+"does the world really need another testing library?".
 The correct answer is of course:
 I do not know what the world needs,
 but if I ever need a new testing tool I will surely build it.
