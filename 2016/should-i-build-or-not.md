@@ -270,6 +270,7 @@ So, what is a core business function?
 Is providing Internet connectivity
 [a core function for Facebook](https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg)?
 Are [self-driving cars core for Google](https://www.google.com/selfdrivingcar/)?
+Is Apple a [watch company](http://www.apple.com/watch/)?
 What would you think if these companies outsourced those efforts?
 
 ### Reinventing the Wheel
@@ -323,8 +324,6 @@ Perhaps you do not need to recreate everything for every project,
 but at least you should have done it once.
 Otherwise, how can you know that a PHP script invoking `rsync`
 can be as effective as a sophisticated Jenkins pipeline?
-
-### In Other Areas
 
 Brave voices are now raising against
 [using JavaScript frameworks](https://slack-files.com/T03JT4FC2-F151AAF7A-13fe6f98da).
@@ -387,7 +386,7 @@ which regularly requires the collaboration of many moving parts.
 Consider what continuous deployment requires:
 
 * code repositories,
-* a test environment + test suite,
+* a testing library + test suite,
 * possibly some load tests as well,
 * notification tools,
 * and finally a deployment mechanism.
@@ -401,8 +400,6 @@ which integrate together with some glue to provide the final platform.
 In essence, sysadmins have long known how to make lots of pieces work together,
 particularly in Unix environments:
 having well-defined universal interfaces.
-
-### Rise of the APIs
 
 ## Conclusion
 
