@@ -2,7 +2,7 @@
 title: Continuously Deploying with StriderCD
 subtitle: 'A Promising Product With Some Rough Edges'
 footer: Published on 2016-04-03, last edited on 2016-04-04.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![Picture credit: [Jorge Royan](https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0537.jpg)](pics/deployment.jpg "Vintage Franz Zajizek Astronomical Clock machinery")

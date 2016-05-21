@@ -2,7 +2,7 @@
 title: The Information Exhaust
 subtitle: 'Reversible Engineering: the Database'
 footer: Published on 2015-11-07, last modified on 2015-11-07.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![Picture credit: [jn Penny Journal](https://commons.wikimedia.org/wiki/File:Hibernia_locomotive.png)](pics/information-exhaust.jpg "Hibernia locomotive")

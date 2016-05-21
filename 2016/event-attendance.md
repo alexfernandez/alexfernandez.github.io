@@ -2,7 +2,7 @@
 title: Increasing Event Attendance
 subtitle: 'Several Measures and Why They Are Useless'
 footer: Published on 2016-01-10.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![Picture credit: [Department of Navy, USA](https://commons.wikimedia.org/wiki/File:Photograph_with_caption_%22View_of_Attendance_at_a_Movie_in_Permanent_Recreation_Building,%22_U.S._Naval_Ammunition..._-_NARA_-_283490.jpg)](pics/attendance.jpg "View of Attendance at a Movie in Permanent Recreation Building")

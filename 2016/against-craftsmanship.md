@@ -2,7 +2,7 @@
 title: The Case Against Software Craftsmanship
 subtitle: 'or Why Mistrust Engineers that Present Themselves as Craftsmen'
 footer: Published on 2016-01-08.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![Picture credit: [Lewis Hine](https://commons.wikimedia.org/wiki/File:%22Shop_of_the_Woodcrafters_and_Carvers,_Gatlinburg,_Tennessee._Besides_making_fine_furniture,_these_two_craftsmen_turn..._-_NARA_-_532771.jpg)](pics/craftsmen.jpg "Shop of the Woodcrafters and Carvers, Gatlinburg, Tennessee. Besides making fine furniture, these two craftsmen turn out interesting souvenirs, etc.")

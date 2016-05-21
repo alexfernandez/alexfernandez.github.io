@@ -2,7 +2,7 @@
 title: Adventures in the Land of Go
 subtitle: 'That Ungoogleable Language from Google'
 footer: Published on 2016-02-22.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![Picture credit: [Ian Silvernail, Institute for Applied Ecology](https://commons.wikimedia.org/wiki/File:Camas_pocket_gopher_(2)_crop.jpg)](pics/gopher.jpg "Camas pocket gopher")

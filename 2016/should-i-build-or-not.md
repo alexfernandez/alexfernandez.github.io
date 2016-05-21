@@ -2,7 +2,7 @@
 title: Should I Build or Should I Not
 subtitle: 'Or Pondering the Merits of Custom DevOps Tools'
 footer: Published on 2016-05-12.
-  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![The first electric submarine, built by Isaac Peral [(Image source)](https://delamarylosbarcos.wordpress.com/tag/isaac-peral/)](pics/build-or-not.jpg "Isaac Peral's first submarine")
