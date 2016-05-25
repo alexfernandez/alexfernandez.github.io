@@ -51,7 +51,7 @@ Continuous deployment is perhaps the most important practice in DevOps:
 there are even voices saying that
 [Agile is Dead, Long Live Continuous Delivery](http://gradle.org/blog/agile-is-dead/).
 
-#### Continuous X
+#### Continuous What?
 
 Do not be fooled by the promises of
 [continuous delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
@@ -74,7 +74,9 @@ Sometimes you really need to delay the release of a feature.
 Branches are the most obvious answer:
 develop your changes separately,
 and only merge when ready.
-But sometimes many people need to work on the new feature.
+But sometimes many people need to work on the new feature,
+or the feature may take long to develop,
+and branches may be inconvenient.
 There are several techniques that help get all the benefits of continuous deployment,
 without the drawbacks:
 
@@ -140,7 +142,9 @@ CTO at [llollo.com](http://llollo.com/),
 had told me about a new alternative written in Node.js
 in a private conversation.
 
-Excited, I tried StriderCD for a freelancing gig I did the following month:
+Excited, I tried StriderCD for a
+[freelancing gig](http://alexfernandez.github.io/2016/stridercd.html)
+I did the following month:
 it is a very nice Node.js solution which has a graphical interface,
 similar to Travis-CI.
 It automatically sets up webhooks,
@@ -151,7 +155,7 @@ which automatically won my heart.
 
 Lead by our latest recruit Alfredo López,
 in a few weeks we had migrated almost all of our infrastructure to StriderCD,
-and it was a [most interesting project](http://alexfernandez.github.io/2016/stridercd.html).
+and it was a most interesting project.
 At this point we are still refining our continuous deployment,
 and are missing a few things,
 like the ability to send a diff of the deployed changes by email
@@ -160,11 +164,76 @@ But mostly it has been a success.
 
 ### ELB Balancer
 
+Now let us see the reverse situation:
+going from a standard product to a custom solution.
 A month ago I published an
-[article about this migration](http://alexfernandez.github.io/2016/nginx-balancer.html).
+[article about this migration](http://alexfernandez.github.io/2016/nginx-balancer.html)
+which contains far more detail than this summary.
+
+#### ELBs Are Expensive
+
+At MediaSmart we routinely process 300 krps (thousand requests per second),
+with an average of over 200 krps.
+We receive over 16 billion requests
+and serve up to 30 million impressions each day.
+With these volumes costs can easily add up.
+
+Amazon AWS Elastic Load Balancers have allowed us to grow quickly,
+but they were representing too much of a burden:
+they were eating up 20% of our monthly AWS bill.
+So we convinced Noelia, our CEO, to switch to a custom solution.
+
+#### Nginx to the Rescue
+
+We evaluated several open source products,
+starting with HAProxy which I had successfully used in several projects.
+We selected Nginx as our reverse proxy
+since it is easier to configure and use.
+
+Server cost has gone up, of course:
+after all, Nginx has to run somewhere.
+But by reusing our filter servers this cost is almost negligible.
+
+Just installing Nginx was not the whole story.
+What about the balancer stuff,
+sharing requests between a bunch of server?
+We switched to a DNS balancer:
+when the registry contains a number of servers,
+it automatically reorders it randomly for every request,
+so that every client will connect to a different server.
+
+So we had to adjust our whole infrastructure
+to add and remove servers using the DNS registry.
+Luckily we were already using our own orchestrator,
+which allows us to make better use of our servers
+than the AWS Autoscaling Groups;
+one less thing to do.
+
+#### Lua Logging
+
+At this point we were still missing out on an important piece:
+logging and reporting.
+ELBs come with shiny graphs, and we did not want to lose those;
+if anything, we wanted to improve them.
+
+So we hacked together a custom logging solution in Lua,
+the language that Nginx supports.
+It is super-fast and has caused zero problems in the months
+that it has been deployed.
+And unlike ELB reporting we can see different HTTP codes separately,
+which has allowed us to improve our response to problems.
+
+![Traffic dashboard shows HTTP responses separated by code.](pics/daily-traffic.png "This is the kind of dashboard that you show in a big screen in the office.")
+
+To this day I have a server which has processed about 40 billion requests
+without skipping a beat.
+And more importantly, we have reduced our AWS costs
+from about 10% to 8% of our revenue.
 
 ### Monitoring
 
+Now let us see a mixed example,
+with standard and custom solutions.
 We have several monitoring tools in place.
 
 ### Business Partners
@@ -462,16 +531,34 @@ In essence, sysadmins have long known how to make lots of pieces work together,
 particularly in Unix environments:
 having well-defined universal interfaces.
 
-## Conclusion
+## Conclusions
 
 There is not a universal path that leads to all destinations.
 There is not even an optimal means of transportation for any distance.
+And there is not a single answer to this complex problem:
+build or not.
+Paraphrasing [@msanjuan](https://twitter.com/pinchito/status/735506866558623745):
 
-Focusing solely on costs is not likely to be 
+> The answer to every interesting yes/no question is: "it depends".
+
+That said, there are many questions to consider that may help,
+among them:
+
+* Are you building a state-of-the-art project?
+* Which options is more cost-effective?
+* Which option is more likely to succeed?
+* Which option is more fun?
+
+Focusing solely on costs is not likely to be optimal.
 A tech company where nobody has fun is not likely to succeed in the long run:
-good engineers will probably move to greener pastures.
+good engineers will burn faster,
+and probably move to greener pastures.
 But a company without profits will not last either.
-We should strive to reach a balance between having fun
+We should strive to reach a balance between having fun and making money.
+Ideally we should search for a path that takes both into account;
+the best path allows you to have fun and make money.
+Hard as it seems,
+that is why we are paid.
 
 ### Acknowledgements
 
@@ -480,15 +567,19 @@ This article and the
 have benefited enormously from a
 [presentation at Node.js Madrid](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
 (in Spanish).
-Special thanks to Fernando Sanz, Pablo Almunia, Javi Vélez and Alfredo Pérez
-for the stimulating discussions.
+Special thanks to
+[Fernando Sanz](https://twitter.com/fsanzv),
+[Pablo Almunia](https://twitter.com/pabloalmunia),
+[Javi Vélez](https://twitter.com/javiervelezreye)
+and
+[Alfredo Pérez](https://github.com/xgalen)
+for the stimulating discussions during and after the presentation.
 
 [Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/))
 first told me about StriderCD.
 [Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/))
-did most of the work with the
-[migration to StriderCD](http://alexfernandez.github.io/2016/stridercd.html),
-and also reviewed this article.
+has extensively reviewed this article.
+Any errors and omissions are of course my own.
 
 ### References
 
