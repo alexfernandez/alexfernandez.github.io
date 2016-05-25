@@ -72,7 +72,8 @@
 										<p>Or How Amazon Helped Us Replace an Expensive ELB And Still Process Many Thousands of Requests per Second<p>
 									</header>
 										<div class="figure">
-<img src="pics/balancer.jpg" title="Maria Spelterini at Suspension Bridge" alt="Picture credit: George E. Curtis" /><p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg">George E. Curtis</a></p>
+<img src="pics/balancer.jpg" title="Maria Spelterini at Suspension Bridge" alt="Picture credit: George E. Curtis" />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Maria_Spelterini_at_Suspension_Bridge.jpg">George E. Curtis</a></p>
 </div>
 <h2 id="elbs-can-be-too-expensive">ELBs Can Be Too Expensive</h2>
 <p>Amazon Balancers (or Elastic Load Balancers, in their terminology) are awesome things: they are able to process many thousands of requests per second without issues for weeks on end. If you have used Amazon AWS with some kind of high availability setup, you have probably used an ELB.</p>
@@ -82,7 +83,8 @@
 <p>About a year ago we were using 40 frontend servers (large c3.2xlarge machines with 8 processors), and the cost was killing us. So we came up with a clever solution: write an Erlang filter which decides which requests are more likely to be used by the frontends, and filters out the rest.</p>
 <p>This resulted in a dual architecture with two ELBs: one to receive traffic from exchanges and deliver it to the Erlang filters, and another to receive the filtered traffic and send it to the frontends.</p>
 <div class="figure">
-<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart systems architecture overview." /><p class="caption">MediaSmart systems architecture overview.</p>
+<img src="pics/elb-architecture.png" title="Traffic goes to an ELB, then to a number of filters and then to another ELB, and from there to a set of frontends." alt="MediaSmart systems architecture overview." />
+<p class="caption">MediaSmart systems architecture overview.</p>
 </div>
 <h3 id="elb-costs-out-of-control">ELB Costs Out of Control</h3>
 <p>This was working great for a long time, until our costs started to skyrocket. The good folks at Amazon helped us analyze our monthly bill, with a surprising result: we were being charged twice for our ELBs!</p>
@@ -98,7 +100,8 @@
 <p>This was not the first time that we had tried removing the first ELB; in fact I had wanted to do it for a very long time. You know, ELBs are awesome in what they do, but you are a bit blind about what they are actually doing. For starters, it is not easy to get access logs; you can request that they be sent to S3, but it is cumbersome and you have little control about the log format.</p>
 <p>A nice feature of ELBs is that you get a lot of shiny graphs for traffic, latency, etcetera in Cloudwatch. They are distributed by <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">HTTP status code</a>. However, there is not enough granularity: there is only 2XX, 3XX, 4XX and 5XX. In our business a 200 OK is very different from a 204 No Content: the first means we are bidding, the second that we pass on that bid offer. Therefore we did not know how many bids we were making unless we looked it up in the exchanges themselves, or did a lot of fudging around. Same for 400 Bad Request, 401 Unauthorized or 404 Not Found: they have very different semantics, and are the symptoms of disparate problems.</p>
 <div class="figure">
-<img src="pics/2xx-requests.png" title="Cloudwatch shows a nice graphic with combined 2XX requests to frontends." alt="2XX Requests to Frontends. Note the micro-interruption at 7:30 when we reboot the service." /><p class="caption">2XX Requests to Frontends. Note the micro-interruption at 7:30 when we reboot the service.</p>
+<img src="pics/2xx-requests.png" title="Cloudwatch shows a nice graphic with combined 2XX requests to frontends." alt="2XX Requests to Frontends. Note the micro-interruption at 7:30 when we reboot the service." />
+<p class="caption">2XX Requests to Frontends. Note the micro-interruption at 7:30 when we reboot the service.</p>
 </div>
 <p>There are other minor annoyances with Cloudwatch: for instance, you cannot mix latency and number of requests in the same graph. The reason is that you cannot show the sum of one metric mixed with the average of another. Default behavior is to show the average of each metric, which is not helpful with number of requests since they need to be summed. Graph data cannot be exported directly, and so on. But these are minor annoyances compared to the sensation of losing control of your own systems.</p>
 <p>MediaSmart CTO Guillermo Fernández and myself had done a few experiments to remove the main ELB, with mixed success. The immediate question is: how do you balance traffic without an ELB? The trick is to have an entry in the DNS registry that points to a set of IP addresses that correspond to your servers. The DNS registry will reorder them randomly so that every client sees an arbitrary server first. Since each client is supposed to contact the first IP address in the list, the load is distributed between your servers. This is known as <a href="https://en.wikipedia.org/wiki/Round-robin_DNS">Round-robin DNS</a> and is very easy to do with Route53 (or indeed any DNS provider): just enter a list of IP addresses as an A record. Combined with a short TTL (time to live) of a minute, exchanges should start sending traffic to the filters quite fast.</p>
@@ -221,7 +224,8 @@ server {
 <p>We are careful to send all metrics at once, to minimize costs. The <a href="https://aws.amazon.com/cloudwatch/pricing/">cost</a> of making one call to PutMetric per minute is about $0.43 per month. Very reasonable.</p>
 <p>One advantage of aggregating number of requests and latency every minute is that now we can show both on a graph at the same time. Combined with the new Cloudwatch dashboards we now get this nice page.</p>
 <div class="figure">
-<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows traffic and HTTP responses." /><p class="caption">Traffic dashboard shows traffic and HTTP responses.</p>
+<img src="pics/traffic-dashboard.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows traffic and HTTP responses." />
+<p class="caption">Traffic dashboard shows traffic and HTTP responses.</p>
 </div>
 <p>Apart from global monitoring, all servers have to be individually monitored. In this case we had to check if they were still alive and otherwise remove them from balancing. A good way is to publish a NOP (<em>No OPeration</em>) URL that can be called from the outside and returns a 200 OK if the server is 100% operative. If the server does not answer in time, it is removed from the DNS registry. In our case we are already accessing all servers every minute, so we just need to invoke the DNS registry removal code from the orchestrator and terminate the instance if a server does not answer in time.</p>
 <h3 id="other-modifications">Other Modifications</h3>

@@ -51,6 +51,8 @@ Continuous deployment is perhaps the most important practice in DevOps:
 there are even voices saying that
 [Agile is Dead, Long Live Continuous Delivery](http://gradle.org/blog/agile-is-dead/).
 
+#### Continuous X
+
 Do not be fooled by the promises of
 [continuous delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
 though;
@@ -62,7 +64,33 @@ since the full advantages are not realized until all changes
 _do_ reach production right after merging them.
 
 Why deploy everything?
-The benefits for the team are multiplied.
+The benefits for the team are multiplied:
+
+* Fixes are instantaneous.
+* The discipline to release is written in fire.
+* Deploying in small increments, any brokennes can be quickly attributed and fixed.
+
+Sometimes you really need to delay the release of a feature.
+Branches are the most obvious answer:
+develop your changes separately,
+and only merge when ready.
+But sometimes many people need to work on the new feature.
+There are several techniques that help get all the benefits of continuous deployment,
+without the drawbacks:
+
+* [Feature flags](http://code.flickr.net/2009/12/02/flipping-out/):
+deploy the new feature disabled,
+enable with a switch (a setting or a config value).
+
+* [Dark launches](https://codeascraft.com/2011/02/04/how-does-etsy-manage-development-and-operations/):
+deploy the new feature but do not tell anyone.
+Can use a feature flag,
+a secret URL or be visible only for certain users.
+
+* [Canary deployments](http://techblog.netflix.com/2013/08/deploying-netflix-api.html):
+enable the changes only for a subset of users, handpicked or random.
+
+#### Custom Infrastructure
 
 During the last few years I have helped build a few continuous deployment systems.
 I drew my first inspiration from Allspaw and Robbins in their excellent
@@ -105,10 +133,17 @@ After three years I got tired of setting up deployment servers,
 and the whole infrastructure was becoming unwieldy.
 So we started looking for alternatives.
 
-Luckily I had tried StriderCD for a freelancing gig
-I had done the previous month:
+#### StriderCD
+
+Luckily [Juan Carlos Delgado](https://twitter.com/CarlosCondor),
+CTO at [llollo.com](http://llollo.com/),
+had told me about a new alternative written in Node.js
+in a private conversation.
+
+Excited, I tried StriderCD for a freelancing gig I did the following month:
 it is a very nice Node.js solution which has a graphical interface,
-similar to Travis-CI. It automatically sets up webhooks,
+similar to Travis-CI.
+It automatically sets up webhooks,
 and even allows testing all PRs.
 Best of all,
 it has "continuous deployment" right in the title,
@@ -198,6 +233,9 @@ and are only rationalized after the fact.
 A discussion of emotional arguments should allow us
 to recognize our unconscious biases,
 and hopefully to offset them.
+These items are even more contentious than the rational ones,
+so do not expect any definitive answers here;
+at most, some uncomfortable questions.
 
 ### The Joy of Building Things
 
@@ -251,7 +289,7 @@ Joel Spolsky, cofounder of Trello and Stack Overflow,
 > If it is a core business function -- do it yourself, no matter what.
 
 I worked for 6 years in the banking sector.
-Most banks in Spain insist on trying to outsource their IT competencies,
+At the time, most banks in Spain insisted on outsourcing their IT competencies,
 since they are not technology companies.
 But are they not?
 I contend that, in this day and age,
@@ -260,13 +298,15 @@ handling physical money is anecdotal and incidental to their business.
 Bank accounts and most financial products are just bits that move around.
 So, why should not banks embrace information technology?
 
+Right now in the sector there is an opposite tendency to do IT in-house,
+and a good thing it is too.
 As [FinTech](https://en.wikipedia.org/wiki/Financial_technology)
-becomes both a hot sector and a buzzword,
+becomes both a hot trend and a buzzword,
 it is becoming apparent that traditional banks can and should do more with technology,
 or they risk going the way of CD stores and Symbian phones.
 Time to market is starting to be critical even for mastodontic banks.
 
-So, what is a core business function?
+What constitutes a "core business function" is not so obvious.
 Is providing Internet connectivity
 [a core function for Facebook](https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg)?
 Are [self-driving cars core for Google](https://www.google.com/selfdrivingcar/)?
@@ -327,6 +367,27 @@ can be as effective as a sophisticated Jenkins pipeline?
 
 Brave voices are now raising against
 [using JavaScript frameworks](https://slack-files.com/T03JT4FC2-F151AAF7A-13fe6f98da).
+
+### Against Craftmanship
+
+Too much [craftmanship](http://alexfernandez.github.io/2016/against-craftsmanship.html)
+is not good either.
+
+Artisans may get carried away and insist on doing everything themselves.
+Especially if they are good.
+But this is not always a good idea.
+
+Like it or not,
+we are part of an industry and therefore must make good use
+of the huge number of parts available to us,
+[280k modules on npm alone](http://www.modulecounts.com/)
+at the time of writing.
+This will probably allow us to do more,
+be more productive and therefore feel better about our work.
+
+Spitting libraries out there can be counter-productive,
+even more if they are not properly maintained.
+And there is no denying that maintaining software can be expensive.
 
 ## A Most Welcome Third Way
 
@@ -406,7 +467,28 @@ having well-defined universal interfaces.
 There is not a universal path that leads to all destinations.
 There is not even an optimal means of transportation for any distance.
 
+Focusing solely on costs is not likely to be 
+A tech company where nobody has fun is not likely to succeed in the long run:
+good engineers will probably move to greener pastures.
+But a company without profits will not last either.
+We should strive to reach a balance between having fun
+
 ### Acknowledgements
+
+This article and the
+[companion talk at DevOps Pro](https://slides.com/alexfernandez/2016-05-build-or-not/)
+have benefited enormously from a
+[presentation at Node.js Madrid](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
+(in Spanish).
+Special thanks to Fernando Sanz, Pablo Almunia, Javi Vélez and Alfredo Pérez
+for the stimulating discussions.
+
+[Juan Carlos Delgado](https://twitter.com/CarlosCondor) ([llollo.com](http://llollo.com/))
+first told me about StriderCD.
+[Alfredo López Moltó](http://xgalen.github.io/) ([MediaSmart Mobile](http://mediasmart.es/))
+did most of the work with the
+[migration to StriderCD](http://alexfernandez.github.io/2016/stridercd.html),
+and also reviewed this article.
 
 ### References
 
