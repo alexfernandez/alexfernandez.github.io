@@ -13,6 +13,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 Latest articles.
 
+* 2016-05-26: [Should I Build or Should I Not](2016/build-or-not.html).
 * 2016-04-10: [Creating a Balancer With Nginx](2016/nginx-balancer.html).
 * 2016-04-03: [Continuously Deploying with StriderCD](2016/stridercd.html).
 * 2016-02-22: [Adventures in the Land of Go](2016/golang-adventures.html).

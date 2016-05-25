@@ -234,7 +234,38 @@ from about 10% to 8% of our revenue.
 
 Now let us see a mixed example,
 with standard and custom solutions.
-We have several monitoring tools in place.
+
+We have several monitoring tools in place,
+which act as our eyes.
+We also have alerting systems,
+which are like our pain receptors.
+
+We use Cloudwatch for basic systems monitoring and alerting.
+But it falls short of our needs in many respects,
+since it only reports CPU usage.
+
+Early on we started building our infrastructure using Node.js:
+very basic alerts for disk space, memory and so on.
+Then we expanded on it with Redis usage alerts.
+Gradually it became more complex,
+reporting on site up / site down,
+log errors and so on.
+
+Our CEO, Noelia Amoedo, has amazing attention to detail.
+So every once in a while she would come to us with questions like:
+why has the CTR on this particular exchange fallen so much?
+At other times it would be our business analyst, Tiago,
+who would alert us on small revenue or no conversions.
+Since we wanted to learn of problems before they told us,
+and realizing that checking business parameters must be a huge burden for them,
+we created Business Alerts, nicknamed the "Automatic Noelia":
+a periodic check of business parameters,
+which would alert us when they differed too much from the previous day
+and the previous hour.
+
+We might use a standard solution such as Nagios or Icinga for the middle monitoring layer.
+There is however no commercial or open source solution for our particular business case,
+so for business alerts there was only one option: build a custom solution.
 
 ### Business Partners
 
@@ -247,6 +278,19 @@ instead of marvelling at our inventive.
 Well-known products give security to people.
 It happens when buying brands at the supermarket,
 and also when choosing business partners.
+
+One particular partner requested that we use
+Jenkins and Icinga before they did business with us.
+We took a look at them, and did not like what we saw:
+large monolithic projects which are a pain to set up and use.
+
+It is not that we dislike existing products;
+but given the option we prefer small, flexible products whenever possible.
+Flexibility is one of our strenghts as a small company,
+and giving it up would probably be a bad idea.
+
+At present we are doing business with this particular partner,
+although not as extensively as we would have liked.
 
 ## Rational Arguments
 
