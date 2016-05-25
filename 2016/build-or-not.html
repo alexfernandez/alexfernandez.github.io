@@ -84,7 +84,7 @@
 <p>I will now present a few examples that have happened in our daily practice at MediaSmart Mobile, the mobile adtech company I work at.</p>
 <h3 id="continuous-deployment">Continuous Deployment</h3>
 <p>Continuous deployment is perhaps the most important practice in DevOps: there are even voices saying that <a href="http://gradle.org/blog/agile-is-dead/">Agile is Dead, Long Live Continuous Delivery</a>.</p>
-<h4 id="continuous-x">Continuous X</h4>
+<h4 id="continuous-what">Continuous What?</h4>
 <p>Do not be fooled by the promises of <a href="http://martinfowler.com/bliki/ContinuousDelivery.html">continuous delivery</a> though; it is just an imperfect form of continuous deployment, where software just reaches some sort of integration environment, and thus is nothing but continuous integration in more elegant clothing. Always request continuous deployment at your favorite shops, since the full advantages are not realized until all changes <em>do</em> reach production right after merging them.</p>
 <p>Why deploy everything? The benefits for the team are multiplied:</p>
 <ul>
@@ -92,7 +92,7 @@
 <li>The discipline to release is written in fire.</li>
 <li>Deploying in small increments, any brokennes can be quickly attributed and fixed.</li>
 </ul>
-<p>Sometimes you really need to delay the release of a feature. Branches are the most obvious answer: develop your changes separately, and only merge when ready. But sometimes many people need to work on the new feature. There are several techniques that help get all the benefits of continuous deployment, without the drawbacks:</p>
+<p>Sometimes you really need to delay the release of a feature. Branches are the most obvious answer: develop your changes separately, and only merge when ready. But sometimes many people need to work on the new feature, or the feature may take long to develop, and branches may be inconvenient. There are several techniques that help get all the benefits of continuous deployment, without the drawbacks:</p>
 <ul>
 <li><p><a href="http://code.flickr.net/2009/12/02/flipping-out/">Feature flags</a>: deploy the new feature disabled, enable with a switch (a setting or a config value).</p></li>
 <li><p><a href="https://codeascraft.com/2011/02/04/how-does-etsy-manage-development-and-operations/">Dark launches</a>: deploy the new feature but do not tell anyone. Can use a feature flag, a secret URL or be visible only for certain users.</p></li>
@@ -106,15 +106,39 @@
 <p>It had all of the rough edges of a custom tool: it was command-line only, had to be set up (with webhooks to GitHub) manually each time, had to be started up using Upstart tasks for Ubuntu. After three years I got tired of setting up deployment servers, and the whole infrastructure was becoming unwieldy. So we started looking for alternatives.</p>
 <h4 id="stridercd">StriderCD</h4>
 <p>Luckily <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a>, CTO at <a href="http://llollo.com/">llollo.com</a>, had told me about a new alternative written in Node.js in a private conversation.</p>
-<p>Excited, I tried StriderCD for a freelancing gig I did the following month: it is a very nice Node.js solution which has a graphical interface, similar to Travis-CI. It automatically sets up webhooks, and even allows testing all PRs. Best of all, it has &quot;continuous deployment&quot; right in the title, which automatically won my heart.</p>
-<p>Lead by our latest recruit Alfredo López, in a few weeks we had migrated almost all of our infrastructure to StriderCD, and it was a <a href="http://alexfernandez.github.io/2016/stridercd.html">most interesting project</a>. At this point we are still refining our continuous deployment, and are missing a few things, like the ability to send a diff of the deployed changes by email after each deployment. But mostly it has been a success.</p>
+<p>Excited, I tried StriderCD for a <a href="http://alexfernandez.github.io/2016/stridercd.html">freelancing gig</a> I did the following month: it is a very nice Node.js solution which has a graphical interface, similar to Travis-CI. It automatically sets up webhooks, and even allows testing all PRs. Best of all, it has &quot;continuous deployment&quot; right in the title, which automatically won my heart.</p>
+<p>Lead by our latest recruit Alfredo López, in a few weeks we had migrated almost all of our infrastructure to StriderCD, and it was a most interesting project. At this point we are still refining our continuous deployment, and are missing a few things, like the ability to send a diff of the deployed changes by email after each deployment. But mostly it has been a success.</p>
 <h3 id="elb-balancer">ELB Balancer</h3>
-<p>A month ago I published an <a href="http://alexfernandez.github.io/2016/nginx-balancer.html">article about this migration</a>.</p>
+<p>Now let us see the reverse situation: going from a standard product to a custom solution. A month ago I published an <a href="http://alexfernandez.github.io/2016/nginx-balancer.html">article about this migration</a> which contains far more detail than this summary.</p>
+<h4 id="elbs-are-expensive">ELBs Are Expensive</h4>
+<p>At MediaSmart we routinely process 300 krps (thousand requests per second), with an average of over 200 krps. We receive over 16 billion requests and serve up to 30 million impressions each day. With these volumes costs can easily add up.</p>
+<p>Amazon AWS Elastic Load Balancers have allowed us to grow quickly, but they were representing too much of a burden: they were eating up 20% of our monthly AWS bill. So we convinced Noelia, our CEO, to switch to a custom solution.</p>
+<h4 id="nginx-to-the-rescue">Nginx to the Rescue</h4>
+<p>We evaluated several open source products, starting with HAProxy which I had successfully used in several projects. We selected Nginx as our reverse proxy since it is easier to configure and use.</p>
+<p>Server cost has gone up, of course: after all, Nginx has to run somewhere. But by reusing our filter servers this cost is almost negligible.</p>
+<p>Just installing Nginx was not the whole story. What about the balancer stuff, sharing requests between a bunch of server? We switched to a DNS balancer: when the registry contains a number of servers, it automatically reorders it randomly for every request, so that every client will connect to a different server.</p>
+<p>So we had to adjust our whole infrastructure to add and remove servers using the DNS registry. Luckily we were already using our own orchestrator, which allows us to make better use of our servers than the AWS Autoscaling Groups; one less thing to do.</p>
+<h4 id="lua-logging">Lua Logging</h4>
+<p>At this point we were still missing out on an important piece: logging and reporting. ELBs come with shiny graphs, and we did not want to lose those; if anything, we wanted to improve them.</p>
+<p>So we hacked together a custom logging solution in Lua, the language that Nginx supports. It is super-fast and has caused zero problems in the months that it has been deployed. And unlike ELB reporting we can see different HTTP codes separately, which has allowed us to improve our response to problems.</p>
+<div class="figure">
+<img src="pics/daily-traffic.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows HTTP responses separated by code." />
+<p class="caption">Traffic dashboard shows HTTP responses separated by code.</p>
+</div>
+<p>To this day I have a server which has processed about 40 billion requests without skipping a beat. And more importantly, we have reduced our AWS costs from about 10% to 8% of our revenue.</p>
 <h3 id="monitoring">Monitoring</h3>
-<p>We have several monitoring tools in place.</p>
+<p>Now let us see a mixed example, with standard and custom solutions.</p>
+<p>We have several monitoring tools in place, which act as our eyes. We also have alerting systems, which are like our pain receptors.</p>
+<p>We use Cloudwatch for basic systems monitoring and alerting. But it falls short of our needs in many respects, since it only reports CPU usage.</p>
+<p>Early on we started building our infrastructure using Node.js: very basic alerts for disk space, memory and so on. Then we expanded on it with Redis usage alerts. Gradually it became more complex, reporting on site up / site down, log errors and so on.</p>
+<p>Our CEO, Noelia Amoedo, has amazing attention to detail. So every once in a while she would come to us with questions like: why has the CTR on this particular exchange fallen so much? At other times it would be our business analyst, Tiago, who would alert us on small revenue or no conversions. Since we wanted to learn of problems before they told us, and realizing that checking business parameters must be a huge burden for them, we created Business Alerts, nicknamed the &quot;Automatic Noelia&quot;: a periodic check of business parameters, which would alert us when they differed too much from the previous day and the previous hour.</p>
+<p>We might use a standard solution such as Nagios or Icinga for the middle monitoring layer. There is however no commercial or open source solution for our particular business case, so for business alerts there was only one option: build a custom solution.</p>
 <h3 id="business-partners">Business Partners</h3>
 <p>Our company, MediaSmart Mobile, has been in talks with many other companies to create partnerships. Some of them do not like it too much when they learn that so much of our infrastructure is custom-made, instead of marvelling at our inventive.</p>
 <p>Well-known products give security to people. It happens when buying brands at the supermarket, and also when choosing business partners.</p>
+<p>One particular partner requested that we use Jenkins and Icinga before they did business with us. We took a look at them, and did not like what we saw: large monolithic projects which are a pain to set up and use.</p>
+<p>It is not that we dislike existing products; but given the option we prefer small, flexible products whenever possible. Flexibility is one of our strenghts as a small company, and giving it up would probably be a bad idea.</p>
+<p>At present we are doing business with this particular partner, although not as extensively as we would have liked.</p>
 <h2 id="rational-arguments">Rational Arguments</h2>
 <p>I am a firm believer in rational thought: thinking things over objectively is our best tool at our disposition. The problem is that rational thought does not come naturally to people; our minds need to be trained very thoroughly if we are to remove subjectivity from our reasonings.</p>
 <p>In this section we will see some arguments that are often used in this discussion, and that are supposed to be objective and rational. We will then deconstruct them to see that they are not as rational as they were supposed to be.</p>
@@ -184,12 +208,22 @@
 </ul>
 <p>We mostly take all these pieces for granted, until they fail. A monolithic environment can provide for all of them, but you would be very lucky if all bits are ideally suited for your environment. Alternatively, each of these can be provided by different packages, which integrate together with some glue to provide the final platform.</p>
 <p>In essence, sysadmins have long known how to make lots of pieces work together, particularly in Unix environments: having well-defined universal interfaces.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance.</p>
-<p>Focusing solely on costs is not likely to be A tech company where nobody has fun is not likely to succeed in the long run: good engineers will probably move to greener pastures. But a company without profits will not last either. We should strive to reach a balance between having fun</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance. And there is not a single answer to this complex problem: build or not. Paraphrasing <span class="citation">[@msanjuan]</span>(https://twitter.com/pinchito/status/735506866558623745):</p>
+<blockquote>
+<p>The answer to every interesting yes/no question is: &quot;it depends&quot;.</p>
+</blockquote>
+<p>That said, there are many questions to consider that may help, among them:</p>
+<ul>
+<li>Are you building a state-of-the-art project?</li>
+<li>Which options is more cost-effective?</li>
+<li>Which option is more likely to succeed?</li>
+<li>Which option is more fun?</li>
+</ul>
+<p>Focusing solely on costs is not likely to be optimal. A tech company where nobody has fun is not likely to succeed in the long run: good engineers will burn faster, and probably move to greener pastures. But a company without profits will not last either. We should strive to reach a balance between having fun and making money. Ideally we should search for a path that takes both into account; the best path allows you to have fun and make money. Hard as it seems, that is why we are paid.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
-<p>This article and the <a href="https://slides.com/alexfernandez/2016-05-build-or-not/">companion talk at DevOps Pro</a> have benefited enormously from a <a href="http://www.todojs.com/fullstack-devops-por-alex-fernandez/">presentation at Node.js Madrid</a> (in Spanish). Special thanks to Fernando Sanz, Pablo Almunia, Javi Vélez and Alfredo Pérez for the stimulating discussions.</p>
-<p><a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>) first told me about StriderCD. <a href="http://xgalen.github.io/">Alfredo López Moltó</a> (<a href="http://mediasmart.es/">MediaSmart Mobile</a>) did most of the work with the <a href="http://alexfernandez.github.io/2016/stridercd.html">migration to StriderCD</a>, and also reviewed this article.</p>
+<p>This article and the <a href="https://slides.com/alexfernandez/2016-05-build-or-not/">companion talk at DevOps Pro</a> have benefited enormously from a <a href="http://www.todojs.com/fullstack-devops-por-alex-fernandez/">presentation at Node.js Madrid</a> (in Spanish). Special thanks to <a href="https://twitter.com/fsanzv">Fernando Sanz</a>, <a href="https://twitter.com/pabloalmunia">Pablo Almunia</a>, <a href="https://twitter.com/javiervelezreye">Javi Vélez</a> and <a href="https://github.com/xgalen">Alfredo Pérez</a> for the stimulating discussions during and after the presentation.</p>
+<p><a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a> (<a href="http://llollo.com/">llollo.com</a>) first told me about StriderCD. <a href="http://xgalen.github.io/">Alfredo López Moltó</a> (<a href="http://mediasmart.es/">MediaSmart Mobile</a>) has extensively reviewed this article. Any errors and omissions are of course my own.</p>
 <h3 id="references">References</h3>
 <ul>
 <li><p>Cyril Field: <a href="https://archive.org/stream/storyofsubmarine00fielrich#page/144/mode/2up/search/peral">The story of the submarine from the earliest ages to the present day</a>, 1908. A very interesting book about the history of submarines, although it thrashes Peral needlessly (and quite unfairly too).</p></li>
