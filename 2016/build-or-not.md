@@ -1,7 +1,8 @@
 ---
 title: Should I Build or Should I Not
 subtitle: 'Or Pondering the Merits of Custom DevOps Tools'
-footer: Published on 2016-05-12.
+footer: Published on 2016-05-26,
+last modified 2016-05-26.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -478,8 +479,11 @@ but at least you should have done it once.
 Otherwise, how can you know that a PHP script invoking `rsync`
 can be as effective as a sophisticated Jenkins pipeline?
 
-Brave voices are now raising against
-[using JavaScript frameworks](https://slack-files.com/T03JT4FC2-F151AAF7A-13fe6f98da).
+And once you have learned how to do something,
+a nice bonus is that installing an external package is made easier:
+after all you know the mechanics pretty well.
+Sometimes, switching from custom code to external package
+is not a big deal.
 
 ### Against Craftmanship
 
@@ -591,6 +595,7 @@ among them:
 * Are you building a state-of-the-art project?
 * Which options is more cost-effective?
 * Which option is more likely to succeed?
+* What is the cost of switching?
 * Which option is more fun?
 
 Focusing solely on costs is not likely to be optimal.
