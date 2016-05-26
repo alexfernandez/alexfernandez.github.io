@@ -1,8 +1,7 @@
 ---
 title: Should I Build or Should I Not
 subtitle: 'Or Pondering the Merits of Custom DevOps Tools'
-footer: Published on 2016-05-26,
-last modified 2016-05-26.
+footer: Published on 2016-05-26, last modified 2016-05-26.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
