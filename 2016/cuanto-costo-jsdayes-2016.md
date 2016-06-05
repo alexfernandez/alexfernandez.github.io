@@ -1,6 +1,6 @@
 ---
 title: ¿Cuánto costó el JSDayES 2016?
-subtitle: 'O, ¿cuánto tengo que presupuestar para un evento parecido?'
+subtitle: 'O, ¿cuánta pasta necesito para un evento parecido?'
 footer: Publicado el 2016-06-05, last modified 2016-06-05.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito)
 ---
