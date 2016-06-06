@@ -326,6 +326,7 @@ Claramente el Campus Madrid se nos ha quedado pequeño,
 y nos gustaría llegar a 400 o 500 asistentes.
 También nos gustaría contar con un **track de ponentes internacionales**,
 junto al tradicional en español.
+[¿Qué te parece?](https://twitter.com/pinchito/status/739957161242021888)
 
 La _unconference_ fue una experiencia muy positiva,
 y a título personal yo me lo pasé genial.
