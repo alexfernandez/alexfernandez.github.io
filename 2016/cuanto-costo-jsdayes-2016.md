@@ -236,6 +236,7 @@ nos han ayudado muchas otras comunidades más o menos relacionadas con JavaScrip
 con la difusión de la Call for Proposals,
 creando _hype_ para la venta de entradas,
 y por fin destacando a sus miembros a compartir con nosotros el evento.
+No quiero dar una lista porque se me olvidarían un montón.
 
 Uno de nuestros objetivos es reunir a las diferentes comunidades de javascripters
 que hacen cosas interesantes en toda España,
