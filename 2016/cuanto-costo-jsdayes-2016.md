@@ -147,5 +147,5 @@ y a título personal yo me lo pasé genial.
 ¡Para el año que viene se queda!
 
 Seguro que tienes alguna idea al respecto.
-Envíanos tus sugerencias a [mailto:hola@jsday.es](hola@jsday.es).
+Envíanos tus sugerencias a [hola@jsday.es](mailto:hola@jsday.es).
 
