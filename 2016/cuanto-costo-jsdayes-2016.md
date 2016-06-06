@@ -54,7 +54,7 @@ Está claro: ¡cotillear los dineros!
 
 Las cuentas de cualquier evento son sencillas:
 hay ingresos y gastos.
-Para salir bien parados, siempre los ingresos deben estar por encima de los gastos.
+Para salir bien parados los ingresos deben estar por encima de los gastos.
 Pero siempre hay detalles que explicar.
 
 Todos los números que vamos a contar son IVA incluido salvo que se especifique lo contrario ("+ IVA").
