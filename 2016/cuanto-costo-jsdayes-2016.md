@@ -214,7 +214,7 @@ JSDayES somos:
 * Isabel Cabezas [@isabelcabezasm](https://twitter.com/isabelcabezasm),
 * Alejandro Fernández [@pinchito](https://twitter.com/pinchito) (vuestro humilde servidor).
 
-Somos voluntarios,
+Todos somos voluntarios,
 o sea que dedicamos nuestro tiempo personal a estas movidas
 (contando con la buena voluntad de nuestras respectivas empresas, claro).
 
