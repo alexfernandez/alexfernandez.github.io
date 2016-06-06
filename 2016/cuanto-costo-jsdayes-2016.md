@@ -177,7 +177,7 @@ voló en unos 8 minutos.
 Por último, la tanda final de 15 entradas cedidas por Campus Madrid
 aguantaron 6 minutos.
 Un total de 20 minutos para 200 entradas.
-El _hype_ que se creó para el evento funcionó a la perfección,
+El #hype que se creó para el evento funcionó a la perfección,
 ya que una de las preocupaciones de cualquier organizador es vender todas las entradas.
 
 Pero no fue sin contrapartidas.
@@ -227,6 +227,22 @@ aunque al ser todos voluntarios nos hemos tenido que llevar bien para hacer las 
 el modelo top-down no funciona como en una organización tradicional.
 
 Ha sido un verdadero placer trabajar con todos ellos.
+
+### Comunidades
+
+Aparte de las comunidades que organizamos directamente JSDayES,
+nos han ayudado muchas otras comunidades más o menos relacionadas con JavaScript de toda España:
+con la difusión de la Call for Proposals,
+creando #hype para la venta de entradas,
+y por fin destacando a sus miembros a compartir con nosotros el evento.
+
+Uno de nuestros objetivos es reunir a las diferentes comunidades de javascripters
+que hacen cosas interesantes en toda España,
+conocernos entre nosotros,
+y crecer juntos.
+Creemos que lo hemos conseguido,
+aunque en futuras ocasiones nos gustaría tener más espacio
+y más visitantes de fuera de Madrid.
 
 ### Personal
 
