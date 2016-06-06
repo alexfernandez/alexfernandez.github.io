@@ -137,8 +137,7 @@ que usaremos el año que viene para la promoción.
 Ponen su esfuerzo gratis, así que lo mínimo es compensarles.
 
 El total es de €11.3k.
-
-Contando con los gastos en especie sale un **total de gastos de €17k** aproximadamente.
+Añadiendo los gastos en especie sale un **total de gastos de €17k** aproximadamente.
 
 ### Beneficios
 
@@ -146,7 +145,7 @@ Como veis las cuentas salen con balance positivo.
 ¿Qué se va a hacer con estos "beneficios" de casi €3k?
 En realidad las cuentas se llevan desde Aprodeweb,
 una organización sin ánimo de lucro,
-así que no podemos tener beneficios por ley.
+así que por ley **no podemos tener beneficios**.
 El remanente se queda para cubrir gastos de gestión
 y para uso de la organización.
 
@@ -175,7 +174,7 @@ La tercera tanda de 80 entradas normales
 voló en unos 8 minutos.
 Por último, la tanda final de 15 entradas cedidas por Campus Madrid
 aguantaron 6 minutos.
-Un total de 20 minutos para 200 entradas.
+**Un total de 20 minutos para 200 entradas**.
 El _hype_ que se creó para el evento funcionó a la perfección,
 ya que una de las preocupaciones de cualquier organizador es vender todas las entradas.
 
@@ -220,7 +219,7 @@ o sea que dedicamos nuestro tiempo personal a estas movidas
 En una interesante charla en el Campus Madrid,
 [Javier Esteban](https://twitter.com/javimonsalupe)
 recomendaba entre otras cosas elegir un director de evento.
-Así que entre todos elegimos a Raquel Benito directora del evento,
+Así que entre todos elegimos a **Raquel Benito directora del evento**,
 ya que desde el año pasado ha llevado el peso de la organización.
 Ha sido bastante útil tener una cabeza visible,
 aunque al ser todos voluntarios nos hemos tenido que llevar bien para hacer las cosas:
@@ -237,7 +236,7 @@ creando _hype_ para la venta de entradas,
 y por fin destacando a sus miembros a compartir con nosotros el evento.
 No quiero dar una lista porque se me olvidarían un montón.
 
-Uno de nuestros objetivos es reunir a las diferentes comunidades de javascripters
+Uno de nuestros objetivos es **reunir a las diferentes comunidades de javascripters**
 que hacen cosas interesantes en toda España,
 conocernos entre nosotros,
 y crecer juntos.
@@ -274,7 +273,7 @@ Muchas gracias a todos.
 
 Hubo nueve valientes que vinieron a contarnos su charla;
 [podéis repasarlas](https://www.youtube.com/playlist?list=PLCE-eme9nf8HlYrIIM7XA1vTzxMeJ519k)
-en nuestro canal de YouTube.
+en **nuestro canal de YouTube**.
 Gracias por dedicar vuestro esfuerzo.
 Y esperamos que pese a todo os valiera la pena.
 
@@ -310,7 +309,7 @@ y lo que no fue tan bien
 para mejorarlo en próximas ediciones.
 Esperamos contar con vosotros.
 
-Entre los asistentes tuvimos un 16% de representación femenina,
+Entre los asistentes tuvimos un **16% de representación femenina**,
 que no está mal si lo comparamos con otras conferencias parecidas,
 pero sigue siendo penoso.
 Es otro aspecto donde tendremos que seguir trabajando.
@@ -325,7 +324,7 @@ Así que, ¡chicas, animaos! Os trataremos bien :)
 Para el año que viene ya estamos maquinando qué hacer.
 Claramente el Campus Madrid se nos ha quedado pequeño,
 y nos gustaría llegar a 400 o 500 asistentes.
-También nos gustaría contar con un track de ponentes internacionales,
+También nos gustaría contar con un **track de ponentes internacionales**,
 junto al tradicional en español.
 
 La _unconference_ fue una experiencia muy positiva,
