@@ -289,7 +289,7 @@ Los que no habéis enviado nunca una propuesta,
 Pese al esfuerzo que representa,
 es una gran oportunidad.
 
-Quiero añadir una nota especial sobre la ausencia de ponentes femeninos.
+Quiero añadir una nota especial sobre la *ausencia de ponentes femeninos*.
 Somos muy conscientes de este problema en nuestra comunidad:
 No en vano tres de los siete organizadores son mujeres.
 Intentamos difundir el Call for Papers entre la mayor cantidad posible de organizaciones femeninas,
