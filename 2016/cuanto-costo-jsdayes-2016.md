@@ -205,6 +205,7 @@ Y qué mejor momento que ahora.
 ### Organizadores
 
 JSDayES somos:
+
 * Raquel Benito [@Pand_Ra](https://twitter.com/Pand_Ra) (directora del evento),
 * Javier Vélez [@javiervelezreye](https://twitter.com/javiervelezreye),
 * María Sánchez [@chimarys](https://twitter.com/chimarys),
