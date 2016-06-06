@@ -265,6 +265,10 @@ Borja Godoy [@gody11](https://twitter.com/gody11) nos ayudaron todo el día.
 * Wilder Olmos [@WilderOlmos](https://twitter.com/WilderOlmos) y Cristina Rodríguez,
 [voluntarios en la sombra](https://twitter.com/pinchito/status/728311926770569217).
 
+También hemos contado con la ayuda en la preparación de Patricia López,
+Celia Tortosa y Cristian Nirchio de Campus Madrid.
+Muchas gracias a todos.
+
 ### Ponentes
 
 Hubo nueve valientes que vinieron a contarnos su charla;
