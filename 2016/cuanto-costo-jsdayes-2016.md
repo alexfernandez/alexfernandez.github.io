@@ -9,7 +9,7 @@ footer: Publicado el 2016-06-05, last modified 2016-06-05.
 
 ## Transparencia total
 
-La política de las comunidades que organizamos JSDayES siempre ha sido la de actuar con transparencia.
+La política de las comunidades que organizamos JSDayES siempre ha sido la de **actuar con transparencia**.
 No ganamos nada con ocultar datos a las comunidades a las que pertenecemos.
 Por eso al organizar JSDayES 2016 publicamos lo que costaban las entradas y los patrocinios,
 y por eso ahora vamos a publicar las cuentas en la web.
@@ -41,7 +41,7 @@ con la inestimable ayuda de Gaceta Tecnológica.
 
 También hemos contado con
 [16 patrocinadores](http://jsday.es/#sponsors),
-y lo mejor: casi 200 asistentes de toda España.
+y lo mejor: **casi 200 asistentes de toda España**.
 
 El evento ha sido todo un éxito, al menos desde nuestro punto de vista:
 hemos vendido todas las entradas,
@@ -57,10 +57,9 @@ hay ingresos y gastos.
 Para salir bien parados, siempre los ingresos deben estar por encima de los gastos.
 Pero siempre hay detalles que explicar.
 
-Todos los números que vamos a contar son IVA incluido
-salvo que se especifique lo contrario ("+ IVA").
-El total con impuestos es lo que se suele ver desde fuera.
-Internamente se contabiliza todo sin IVA y luego se suman los impuestos.
+Todos los números que vamos a contar son IVA incluido salvo que se especifique lo contrario ("+ IVA").
+El total con impuestos es lo que se suele ver desde fuera,
+mientras que internamente se contabiliza todo sin IVA y luego se suman los impuestos.
 
 ### Ingresos
 
@@ -102,7 +101,7 @@ Fueron:
 * [Cabify](http://www.cabify.es/): transporte.
 
 El valor aproximado de estos patrocinios es de unos 6.000 euros.
-Contando esta cantidad los ingresos totales fueron de aproximadamente €20k.
+Contando esta cantidad **los ingresos totales fueron de aproximadamente €20k**.
 
 ### Media Partners
 
@@ -139,7 +138,7 @@ Ponen su esfuerzo gratis, así que lo mínimo es compensarles.
 
 El total es de €11.3k.
 
-Contando con los gastos en especie sale un total de €17k aproximadamente.
+Contando con los gastos en especie sale un **total de gastos de €17k** aproximadamente.
 
 ### Beneficios
 
@@ -289,7 +288,7 @@ Los que no habéis enviado nunca una propuesta,
 Pese al esfuerzo que representa,
 es una gran oportunidad.
 
-Quiero añadir una nota especial sobre la *ausencia de ponentes femeninos*.
+Quiero añadir una nota especial sobre la **ausencia de ponentes femeninos**.
 Somos muy conscientes de este problema en nuestra comunidad:
 No en vano tres de los siete organizadores son mujeres.
 Intentamos difundir el Call for Papers entre la mayor cantidad posible de organizaciones femeninas,
