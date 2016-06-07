@@ -93,9 +93,9 @@ desarrollada por los organizadores de
 [Codemotion](http://2016.codemotion.es/).
 La pusieron a nuestra disposición a cambio de un patrocinio
 y nos ha hecho un gran servicio,
-aunque tuvo sus problemillas debidos a la masiva afluencia de usuarios.
+aunque tuvo sus problemillas causados por la masiva afluencia de usuarios.
 
-La primera tanda de 20 entradas Super Early Bird,
+La primera tanda de 20 entradas Super Early Bird
 se vendió en 2 minutos.
 La segunda tanda de 40 entradas Early Bird
 tardó algo más, 4 minutos.
