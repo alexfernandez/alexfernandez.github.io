@@ -334,7 +334,7 @@ Conseguimos unas cuantas propuestas de desarrolladoras,
 de las que seleccionamos una,
 que finalmente hubo que cancelar por problemas de agenda.
 El año que viene lo intentaremos de nuevo;
-y volveremos a intentar liar a las estupendas javascripters que hay por ahí a que compartan lo mucho que saben.
+y volveremos para liar a las estupendas javascripters que hay por ahí a que compartan lo mucho que saben.
 
 ### Asistentes
 
