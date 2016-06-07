@@ -226,8 +226,7 @@ o si no llegamos a la previsión de entradas,
 podemos tener cierta tranquilidad.
 
 En cualquier caso,
-podéis estar tranquilos de que este dinero se usará para beneficio de la comunidad,
-y específicamente para hacer el JSDayES mejor.
+podéis estar tranquilos de que **este dinero se usará para hacer el JSDayES mejor**.
 
 ## Agradecimientos
 
