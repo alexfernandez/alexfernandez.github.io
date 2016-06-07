@@ -240,13 +240,13 @@ Y qué mejor momento que ahora.
 
 JSDayES somos:
 
-* Raquel Benito [@Pand_Ra](https://twitter.com/Pand_Ra) (directora del evento),
-* Javier Vélez [javiervelezreye](https://twitter.com/javiervelezreye),
-* María Sánchez [@chimarys](https://twitter.com/chimarys),
-* Félix Zapata [@felixzapata](https://twitter.com/felixzapata),
+* [Raquel Benito](https://twitter.com/Pand_Ra) (directora del evento),
+* [Javier Vélez](https://twitter.com/javiervelezreye),
+* [María Sánchez](https://twitter.com/chimarys),
+* [Félix Zapata](https://twitter.com/felixzapata),
 * Juan Fran Alcántara (juanfran.ag@gmail.com),
-* Isabel Cabezas [@isabelcabezasm](https://twitter.com/isabelcabezasm),
-* Alejandro Fernández [@pinchito](https://twitter.com/pinchito) (vuestro humilde servidor).
+* [Isabel Cabezas](https://twitter.com/isabelcabezasm),
+* [Alejandro Fernández](https://twitter.com/pinchito) (vuestro humilde servidor).
 
 Todos somos voluntarios,
 o sea que dedicamos nuestro tiempo personal a estas movidas
@@ -284,21 +284,21 @@ y más visitantes de fuera de Madrid.
 
 En el evento hemos contado a tiempo completo con grandes profesionales:
 
-* Pablo Almunia [@pabloalmunia](https://twitter.com/pabloalmunia) y
-Jorge Cayuela [@jcayuelam](https://twitter.com/jcayuelam)
+* [Pablo Almunia](https://twitter.com/pabloalmunia) y
+[Jorge Cayuela](https://twitter.com/jcayuelam)
 lo dieron todo en la
 [mesa de sonido](https://twitter.com/pinchito/status/728510829495263233).
 
-* Fran Moya [@Franxo06](https://twitter.com/Franxo06)
-y Ana Mejón [@Anutxa](https://twitter.com/Anutxa)
+* [Fran Moya](https://twitter.com/Franxo06)
+y [Ana Mejón](https://twitter.com/Anutxa)
 fueron más allá del cumplimiento del deber en el
 [audiovisual](https://twitter.com/hashtag/jsdayesfiles).
 
 Además, no seríamos nada sin los _otros_ voluntarios:
 
-* Fernando Sanz [@fsanzv](https://twitter.com/fsanzv) y
-Borja Godoy [@gody11](https://twitter.com/gody11) nos ayudaron todo el día.
-* Wilder Olmos [@WilderOlmos](https://twitter.com/WilderOlmos) y Cristina Rodríguez,
+* [Fernando Sanz](https://twitter.com/fsanzv) y
+[Borja Godoy](https://twitter.com/gody11) nos ayudaron todo el día.
+* [Wilder Olmos](https://twitter.com/WilderOlmos) y Cristina Rodríguez,
 [voluntarios en la sombra](https://twitter.com/pinchito/status/728311926770569217).
 
 También hemos contado con la ayuda en la preparación de Patricia López,
