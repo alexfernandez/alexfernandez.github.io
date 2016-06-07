@@ -195,7 +195,7 @@ Añadiendo los gastos en especie sale un **total de gastos de €17k** aproximad
 ### Beneficios
 
 Como veis las cuentas salen con balance positivo.
-¿Qué se va a hacer con estos "beneficios" de casi €3k?
+¿Qué se va a hacer con estos "beneficios" de €2.7k?
 En realidad las cuentas se llevan desde Aprodeweb,
 una organización sin ánimo de lucro,
 así que por ley **no podemos tener beneficios**.
@@ -209,7 +209,7 @@ y los asistentes que habrá.
 Finalmente hemos conseguido vender todas las entradas y los patrocinios,
 y hemos mantenido los gastos muy moderados.
 Otra opción habría sido poner las entradas algo más baratas
-(€30 en lugar de €50, según mis cálculos),
+(€33 en lugar de €50, según mis cálculos),
 conseguir que se vendieran más rápido todavía,
 llegar más ajustados, y pasar nervios con las cuentas.
 Creo que ha estado bien así.
