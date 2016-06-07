@@ -325,7 +325,7 @@ es una gran oportunidad.
 
 Quiero añadir una nota especial sobre la **ausencia de ponentes femeninos**.
 Somos muy conscientes de este problema en nuestra comunidad:
-No en vano tres de los siete organizadores son mujeres.
+no en vano tres de los siete organizadores son mujeres.
 Intentamos difundir el Call for Papers entre la mayor cantidad posible de organizaciones femeninas,
 entre ellas
 [Women Tech Makers](http://wtm.gdgmadrid.es/) o
