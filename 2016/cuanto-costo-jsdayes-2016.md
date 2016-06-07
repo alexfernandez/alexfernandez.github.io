@@ -195,7 +195,7 @@ Añadiendo los gastos en especie sale un **total de gastos de €17k** aproximad
 ### Beneficios
 
 Como veis las cuentas salen con balance positivo.
-¿Qué se va a hacer con estos "beneficios" de €2.7k?
+¿Qué se va a hacer con estos "beneficios" de €3k?
 En realidad las cuentas se llevan desde Aprodeweb,
 una organización sin ánimo de lucro,
 así que por ley **no podemos tener beneficios**.
