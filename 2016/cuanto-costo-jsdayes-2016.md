@@ -330,7 +330,8 @@ Intentamos difundir el Call for Papers entre la mayor cantidad posible de organi
 entre ellas
 [Women Tech Makers](http://wtm.gdgmadrid.es/) o
 [adaJS](http://ada.barcelonajs.org/).
-Conseguimos unas cuantas propuestas femeninas, de las que seleccionamos una,
+Conseguimos unas cuantas propuestas de desarrolladoras,
+de las que seleccionamos una,
 que finalmente hubo que cancelar por problemas de agenda.
 El año que viene lo intentaremos de nuevo;
 y volveremos a intentar liar a las estupendas javascripters que hay por ahí a que compartan lo mucho que saben.
