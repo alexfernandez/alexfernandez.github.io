@@ -215,7 +215,7 @@ llegar más ajustados, y pasar nervios con las cuentas.
 Creo que ha estado bien así.
 
 Y llegados a este punto: ¿qué hacemos con el remanente?
-Lo primero es reservar parte para mantenimiento la organización:
+Lo primero es reservar parte para mantenimiento de la organización:
 gestión, contabilidad, y demás.
 Una opción que se nos ocurrió fue usar una parte en organizar distintos eventos desde las comunidades.
 Tras pensarlo entre todos,
