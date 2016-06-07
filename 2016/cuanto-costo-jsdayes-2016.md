@@ -61,28 +61,80 @@ Todos los números que vamos a contar son IVA incluido salvo que se especifique 
 El total con impuestos es lo que se suele ver desde fuera,
 mientras que internamente se contabiliza todo sin IVA y luego se suman los impuestos.
 
-### Ingresos
+### Patrocinios
 
 En patrocinios ingresamos €8200:
 
 Platinum:
+
 * [paradigma](https://www.paradigmadigital.com/): €1500 + IVA.
 * [Fictizia](http://www.fictizia.com/): €1500 + IVA.
 * [Kairós](http://www.kairosds.com/): €1500 + IVA.
 
 Gold:
+
 * [intelygenz](http://www.intelygenz.es/): €1000 + IVA,
 algo más alto porque incluye presentación de empresa.
 * [redradix](http://www.redradix.com/): €750 + IVA.
 
 Silver:
+
 * [Kaleidos](http://kaleidos.net/): €500 + IVA.
 
+El resto de los patrocinadores nos proporcionaron algún servicio
+en lugar de vil metal, como veremos más abajo.
+
+### Entradas
+
 La venta de entradas nos reportó otros €5900.
-En total contamos con €14100, o €14k redondeando.
+Usamos la plataforma
+[Koliseo](https://www.koliseo.com/),
+desarrollada por los organizadores de
+[Codemotion](http://2016.codemotion.es/).
+La pusieron a nuestra disposición a cambio de un patrocinio
+y nos ha hecho un gran servicio,
+aunque tuvo sus problemillas debidos a la masiva afluencia de usuarios.
+
+La primera tanda de 20 entradas Super Early Bird,
+se vendió en 2 minutos.
+La segunda tanda de 40 entradas Early Bird
+tardó algo más, 4 minutos.
+La tercera tanda de 80 entradas normales
+voló en unos 8 minutos.
+Por último, la tanda final de 15 entradas cedidas por Campus Madrid
+aguantaron 6 minutos.
+**Un total de 20 minutos para 155 entradas**.
+El _hype_ que se creó para el evento funcionó a la perfección,
+ya que una de las preocupaciones de cualquier organizador es poder colgar el letrero de "No hay entradas".
+
+Pero no fue sin contrapartidas.
+Como sabe cualquiera que se dedique a la escalabilidad,
+la concurrencia es la pesadilla de los desarrolladores.
+Eso ocurrió durante la venta de las entradas:
+ante tal volumen de usuarios interesados hubo algunos problemas de concurrencia,
+y muchas quejas de usuarios insatisfechos.
+Podríamos pensar que la causa primera de su insatisfacción fue quedarse sin entrada,
+pero también hay que cuidar los aspectos técnicos.
+
+Los desarrolladores de Koliseo respondieron muy bien al feedback,
+aunque no tuvieron tiempo de implementar las mejoras planeadas a tiempo.
+Eso sí, esperamos que su plataforma esté preparada para próximos aluviones
+gracias a nuestras pruebas de carga.
+
+Si llevas la cuenta, puede que te preguntes:
+casi 200 entradas (194 para ser exactos)
+y sólo se vendieron 155, ¿dónde están las ~40 restantes?
+El aforo de Campus Madrid es de 194 personas;
+hay que incluir ponentes, patrocinadores y organizadores.
+El Campus también se reserva un número de entradas para repartir entre su comunidad,
+aunque en este caso fueron muy majos y nos permitieron vender 15 de las suyas,
+quedándose sólo con cinco.
+En total tuvimos que contar aproximadamente con diez ponentes, diez organizadores, quince patrocinadores y cinco campuseros,
+en números redondos.
 
 ### Patrocinios en especie
 
+Sumando patrocinios + entradas llegamos a €14100, o €14k redondeando.
 Así que, ¿basta con €14k para montar un JSDayES?
 No tan rápido.
 
@@ -146,51 +198,35 @@ Como veis las cuentas salen con balance positivo.
 En realidad las cuentas se llevan desde Aprodeweb,
 una organización sin ánimo de lucro,
 así que por ley **no podemos tener beneficios**.
-El remanente se queda para cubrir gastos de gestión
-y para uso de la organización.
+El remanente se queda para uso de la organización.
 
-Una alternativa que se nos ocurrió fue usar parte del dinero sobrante
-en organizar distintos eventos desde las comunidades.
+En primer lugar puede que te preguntes:
+¿cómo es que nos ha sobrado dinero?
+Ha sido un exceso de previsión.
+En un evento como éste es difícil saber los patrocinadores
+y los asistentes que habrá.
+Finalmente hemos conseguido vender todas las entradas y los patrocinios,
+y hemos mantenido los gastos muy moderados.
+Otra opción habría sido poner las entradas algo más baratas
+(€30 en lugar de €50, según mis cálculos),
+conseguir que se vendieran más rápido todavía,
+llegar más ajustados, y pasar nervios con las cuentas.
+Creo que ha estado bien así.
+
+Y llegados a este punto: ¿qué hacemos con el remanente?
+Lo primero es reservar parte para mantenimiento la organización:
+gestión, contabilidad, y demás.
+Una opción que se nos ocurrió fue usar una parte en organizar distintos eventos desde las comunidades.
 Tras pensarlo entre todos,
 no nos pareció justo gastarlo en eventos que no beneficien directamente a los asistentes.
-Además, tener algo de colchón nos da bastante tranquilidad a la hora de encarar futuros JSDayES,
-incluso aunque no vendamos todas las entradas.
+Además, tener algo de colchón nos da bastante tranquilidad a la hora de encarar futuros JSDayES.
+Por ejemplo, si nos piden una señal para reservar un espacio más grande,
+o si no llegamos a la previsión de entradas,
+podemos tener cierta tranquilidad.
 
-### Venta de tickets
-
-La venta de tickets la hicimos con la plataforma
-[Koliseo](https://www.koliseo.com/),
-desarrollada por los organizadores de
-[Codemotion](http://2016.codemotion.es/).
-La pusieron a nuestra disposición a cambio de un patrocinio.
-La plataforma nos hizo un gran servicio,
-aunque tuvo sus problemillas debidos a la afluencia de usuarios.
-
-La primera tanda de 20 entradas Super Early Bird,
-se vendió en 2 minutos.
-La segunda tanda de 40 entradas Early Bird
-tardó algo más, 4 minutos.
-La tercera tanda de 80 entradas normales
-voló en unos 8 minutos.
-Por último, la tanda final de 15 entradas cedidas por Campus Madrid
-aguantaron 6 minutos.
-**Un total de 20 minutos para 200 entradas**.
-El _hype_ que se creó para el evento funcionó a la perfección,
-ya que una de las preocupaciones de cualquier organizador es vender todas las entradas.
-
-Pero no fue sin contrapartidas.
-Como sabe cualquiera que se dedique a la escalabilidad,
-la concurrencia es la pesadilla de los desarrolladores.
-Eso ocurrió durante la venta de las entradas:
-ante tal volumen de usuarios interesados hubo algunos problemas de concurrencia,
-y muchas quejas de usuarios insatisfechos.
-Podríamos pensar que la causa primera de su insatisfacción fue quedarse sin entrada,
-pero también hay que cuidar los aspectos técnicos.
-
-Los desarrolladores de Koliseo respondieron muy bien al feedback,
-aunque no tuvieron tiempo de implementar las mejoras planeadas a tiempo.
-Eso sí, esperamos que su plataforma esté preparada para próximos aluviones
-gracias a nuestras pruebas de carga.
+En cualquier caso,
+podéis estar tranquilos de que este dinero se usará para beneficio de la comunidad,
+y específicamente para hacer el JSDayES mejor.
 
 ## Agradecimientos
 
