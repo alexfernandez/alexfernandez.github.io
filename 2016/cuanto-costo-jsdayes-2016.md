@@ -316,7 +316,7 @@ Y esperamos que pese a todo os valiera la pena.
 En total recibimos 80 propuestas, de entre las que tuvimos que elegir sólo ocho.
 (Enrique Amodeo vino por invitación a dar la _keynote_, o charla de inauguración.)
 Entre las 72 restantes hemos rescatado unas cuantas propuestas muy interesantes para los Meetups locales,
-y al resto os animamos a presentar las charlas en un un grupo local y pulirlas.
+y al resto os animamos también a presentar las charlas en un grupo local y pulirlas.
 
 Los que no habéis enviado nunca una propuesta,
 ¡animaos!
