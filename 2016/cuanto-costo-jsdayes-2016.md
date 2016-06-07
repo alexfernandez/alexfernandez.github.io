@@ -241,7 +241,7 @@ Y qué mejor momento que ahora.
 JSDayES somos:
 
 * Raquel Benito [@Pand_Ra](https://twitter.com/Pand_Ra) (directora del evento),
-* Javier Vélez [@javiervelezreye](https://twitter.com/javiervelezreye),
+* Javier Vélez [javiervelezreye](https://twitter.com/javiervelezreye),
 * María Sánchez [@chimarys](https://twitter.com/chimarys),
 * Félix Zapata [@felixzapata](https://twitter.com/felixzapata),
 * Juan Fran Alcántara (juanfran.ag@gmail.com),
