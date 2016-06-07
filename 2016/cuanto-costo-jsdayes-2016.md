@@ -122,10 +122,10 @@ Eso sí, esperamos que su plataforma esté preparada para próximos aluviones
 gracias a nuestras pruebas de carga.
 
 Si llevas la cuenta, puede que te preguntes:
-casi 200 entradas (194 para ser exactos)
-y sólo se vendieron 155, ¿dónde están las ~40 restantes?
+hablamos de casi 200 asistentes y sólo se vendieron 155,
+¿dónde están las ~40 restantes?
 El aforo de Campus Madrid es de 194 personas;
-hay que incluir ponentes, patrocinadores y organizadores.
+ahí hay que incluir a toda la organización.
 El Campus también se reserva un número de entradas para repartir entre su comunidad,
 aunque en este caso fueron muy majos y nos permitieron vender 15 de las suyas,
 quedándose sólo con cinco.
