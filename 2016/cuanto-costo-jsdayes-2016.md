@@ -131,6 +131,7 @@ aunque en este caso fueron muy majos y nos permitieron vender 15 de las suyas,
 quedándose sólo con cinco.
 En total tuvimos que contar aproximadamente con diez ponentes, diez organizadores, quince patrocinadores y cinco campuseros,
 en números redondos.
+**Lleno total**.
 
 ### Patrocinios en especie
 
