@@ -215,7 +215,8 @@ Ha sido un exceso de previsión.
 En un evento como éste es difícil saber los patrocinadores
 y los asistentes que habrá.
 Finalmente hemos conseguido vender todas las entradas y los patrocinios,
-y hemos mantenido los gastos muy moderados.
+y hemos mantenido los gastos muy moderados,
+además de conseguir el espacio gratis.
 Otra opción habría sido poner las entradas algo más baratas
 (€33 en lugar de €50, según mis cálculos),
 conseguir que se vendieran más rápido todavía,
