@@ -1,7 +1,7 @@
 ---
 title: ¿Cuánto costó el JSDayES 2016?
 subtitle: 'O, ¿cuánta pasta necesitas para un evento parecido?'
-footer: Publicado el 2016-06-07, modificado el 2016-06-07.
+footer: Publicado el 2016-06-07, modificado el 2016-06-08.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito)
 ---
 
@@ -191,6 +191,14 @@ Ponen su esfuerzo gratis, así que lo mínimo es compensarles.
 
 El total es de €11.3k.
 Añadiendo los gastos en especie sale un **total de gastos de €17k** aproximadamente.
+
+Pero ¡cuidado!
+Nosotros conseguimos el
+[Campus Madrid](https://twitter.com/CampusMadrid)
+gratis (bueno, a cambio de unas entradillas).
+Un espacio similar puede costar fácilmente de 2000 a 3000 euros.
+En total sería sensato contar con los €20k originales,
+a no ser que estemos seguros de poder conseguir una sala gratis.
 
 ### Beneficios
 
