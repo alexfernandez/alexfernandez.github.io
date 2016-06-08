@@ -32,12 +32,16 @@ uno de unconference y otro de charlas.
 
 Entre estas comunidades hemos llevado el peso de la organización:
 
-* Madrid Polymer Group,
-* Node.js Madrid,
-* AngularJS Madrid,
-* y MadridJS,
+* [Madrid Polymer Group](http://www.meetup.com/es-ES/Madrid-Polymer-Group/),
+* [Node.js Madrid](http://www.meetup.com/es-ES/Node-js-Madrid/),
+* [AngularJS Madrid](http://www.meetup.com/es-ES/AngularJS_Madrid/),
+* y [MadridJS](http://www.meetup.com/es-ES/madridjs/),
 
-con la inestimable ayuda de Gaceta Tecnológica.
+con la inestimable ayuda de
+[Gaceta Tecnológica](http://www.gacetatecnologica.com/).
+Este año no hemos contado con
+[HTML5 Spain](http://www.meetup.com/HTML5-Spain/),
+que sí nos ayudaron el año pasado.
 
 También hemos contado con
 [16 patrocinadores](http://jsday.es/#sponsors),
@@ -364,6 +368,19 @@ el trato a todo el mundo (hombres y mujeres) fue respetuoso
 y no tuvimos que poner en práctica el
 [código de conducta](http://www.jsday.es/codigodeconducta.html).
 Así que, ¡chicas, animaos! Os trataremos bien :)
+
+### Meta
+
+Gracias a
+[Félix Zapata](https://twitter.com/felixzapata)
+por tener la idea genial de publicar las cuentas,
+que me ha animado a escribir este artículo.
+
+Gracias también a
+[Javier Vélez](https://twitter.com/javiervelezreye),
+[Raquel Benito](https://twitter.com/Pand_Ra),
+[Wilder Olmos](https://twitter.com/WilderOlmos)
+por sus comentarios que me han ayudado a mejorar el artículo.
 
 ## 2017: más y mejor
 
