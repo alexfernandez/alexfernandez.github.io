@@ -55,7 +55,7 @@ and look for greener pastures.
 But I plodded on as a project manager,
 juggling an ever increasing number of projects as the technical manager for financial cards.
 
-In 2010 I was commended by the bosses after a successful integration.
+In 2010 I was commended by the bosses after a very successful integration.
 My 2011 Q1 review was "good enough";
 that was the literal result on a sliding scale from "bad" to "excellent".
 But alas, at a large company you are never safe;
@@ -340,7 +340,7 @@ and have got to meet many interesting people in the JavaScript community.
 ## A Few Lessons
 
 I wanted to tell the story as I remember it,
-before I forget it further.
+before I forget it any further.
 
 Recently I deleted my LinkedIn account,
 tired of continuous spam and
