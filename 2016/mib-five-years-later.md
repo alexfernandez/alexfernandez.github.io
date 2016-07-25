@@ -269,9 +269,9 @@ Due to our limited experience we had to charge them a pitiful fee of €25/hour 
 
 This lasted for only two months.
 Our client was quite satisfied with our job,
-but we could not continue.
+but we could not take another project.
 Diego soon found a job at
-[Tui Travel](http://es.tui.com/),
+[Tui Travel](http://www.tui.com/),
 where his experience at MoveinBlue was quite valuable.
 
 I have never stopped doing freelance work:
