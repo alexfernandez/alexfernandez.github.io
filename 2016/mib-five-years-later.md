@@ -189,7 +189,7 @@ I studied Physics but have always worked as a developer.
 Being the person with most experience I was leading the development.
 We were all worrying about the functionality and the design of our website,
 and not with actually selling anything to anybody.
-We never worried about earning our first $10.
+We never worried about earning our first €10.
 
 One thing we did right was keeping tabs at the competition.
 Yes, even in the niche non-existing market of holiday planners there was competition,
@@ -265,13 +265,20 @@ a marketing company,
 doing web and mobile development.
 Reprising our roles in MoveinBlue,
 I wrote an Android SDK while Diego did the iOS port.
-Due to our limited experience we had to charge them a pitiful fee of $25/hour each.
+Due to our limited experience we had to charge them a pitiful fee of €25/hour each.
+
+This lasted for only two months.
+Our client was quite satisfied with our job,
+but we could not continue.
+Diego soon found a job at
+[Tui Travel](http://es.tui.com/),
+where his experience at MoveinBlue was quite valuable.
 
 I have never stopped doing freelance work:
 when I signed a full-time contract with MediaSmart Mobile
 a few months later we agreed that I could do work on the side.
 Right now I do not depend on it and can pick interesting projects.
-Also, I now charge a fee of $80/hour,
+Also, I now charge a fee of at least €80/hour,
 which is not bad for Spain.
 
 ## High Scalability
@@ -398,4 +405,11 @@ it is in fact an evolution of the previous lesson.
 
 > Be sure to work in valuable stuff,
 > or be sure to make enough money to compensate.
+
+### Meeting People
+
+A big part of my freelancing work has been done for people I met while at MoveinBlue.
+
+> Working at a company you make money,
+> but being an entrepreneur allows you to meet interesting people.
 
