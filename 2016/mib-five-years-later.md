@@ -87,20 +87,21 @@ and yet I could only see her during dinner and just before she went to bed
 (some days not even that).
 Esther, my partner and mother of our daughter,
 was also exhausted after taking care of her all day long.
-Life kind of sucked in a first-worldly way.
+Life kind of sucked, in the way only a first-world life can kind of suck.
 
 In mid-2011 I had the gall of requesting reduced working hours,
-as was my right as the father of child under 8.
+as was my right as the father of a child under 8.
 That same week I received a disastrous Q2 review by my direct boss.
-Right after that the head of IT and operations (seven steps above myself)
+Right after that the head of IT and operations (six steps above myself)
 called me to his office and let me know that I no longer had a future at the bank.
-Parents with reduced working hours are part of a protected class in Spain,
+Parents with reduced working hours constitute a protected class in Spain,
 so they could not fire me directly.
 I negotiated a generous severance package
 (one year salary)
 and left the bank.
 
-This happened almost exactly five years ago.
+This happened in July 2011,
+almost exactly five years ago.
 At that point I had a little child,
 a mortgage and no job.
 But it tasted like freedom.
@@ -120,18 +121,20 @@ There is a lesson here, a perverse version of technical debt.
 > your pay as a manager needs to compensate for the obsolescence
 > that you are incurring.
 
+I had to recycle myself to be a modern developer.
+Suddenly the severance package did not seem so generous.
+
 ## Minding My Own Business
 
 Around that time my good friend
 [Diego Lafuente](https://twitter.com/tufosa)
 had told me about a little project of his:
-a travel startup he wanted to create
-together with a few of his colleagues at
+a travel startup he wanted to create together with a few of his colleagues at
 [Fedit](http://fedit.com/):
 [Mauricio García Corredor](https://es.linkedin.com/in/mauriciogarciacorredor/es)
 and
 [Íñigo Segura](https://es.linkedin.com/in/inigosegura),
-and with funding provided by Íñigo and by our business angel Juan Carlos Merino.
+with funding provided by Íñigo and by our business angel Juan Carlos Merino.
 After a few meetings they convinced me to join as CTO.
 Our mission: revolutionize how we all plan our holidays.
 Simple enough, right?
@@ -147,20 +150,22 @@ With travel agencies and travel guides in decline,
 where will all those people learn what to do once they arrive to their destination?
 How will they find and book all the fun things they can do?
 We had the solution:
-we would build a holiday planner to find and track their activities.
+build a holiday planner to find and track their activities.
 We had the silly idea that travelling once in a while
-meant we could enter this market knowingly.
+meant we could enter this market confidently.
 I think we have learned this lesson.
 
 > Knowing about travel does not mean you know about the business of travel.
 > Or put another way, buying a product does not mean you know how to sell it.
 
+### Full Steam Ahead
+
 At its peak, MoveinBlue had more than 10 people employed full time,
-most of them as freelancers.
-This included five developers.
+including five developers;
+most of them as remote freelancers.
 The stack was not revolutionary,
 but it was not bad either for its time:
-a single-page application (or SPA) and two mobile apps,
+a single-page application and two mobile apps,
 all of them using a PHP backend.
 We successfully experimented with things like:
 
@@ -168,23 +173,23 @@ We successfully experimented with things like:
 * modern development practices,
 including having several test suites;
 * continuous deployment,
-which has become a prerequisite for all my development work.
+which has become a prerequisite for all my development work,
+* an all-remote team.
 
 During my time as CTO at MoveinBlue I learned PHP and JavaScript,
 and soon afterwards I was working in our Android app.
 I was not earning any money,
 but my job ended up being quite valuable professionally.
-There is another lesson there,
-a corollary of the first one.
+Here we can find a corollary of the first lesson.
 
 > Be sure to work in valuable stuff,
 > or be sure to make enough money to compensate.
 
-### What Marketing Is About
-
 Although development work did not proceed as fast as we would have liked,
-we did not have stability issues.
+things were running smoothly and we did not have stability issues.
 The trouble was elsewhere.
+
+### What Marketing Is About
 
 Having never developed a product,
 I believed that "marketing" was synonymous with "advertising".
@@ -192,7 +197,7 @@ Nothing farther from the truth.
 
 The closest we were to actual marketing at MoveinBlue was the bland segmentation
 we received from a consulting company that helped us define our product:
-both genders, aged 25 to 40, heavy Internet users.
+both genders, aged 25 to 40, heavy Internet users, frequent travellers.
 No wonder, Sherlock!
 
 Properly done marketing is something else.
@@ -203,7 +208,7 @@ and where people is eager to give you money.
 Then you make yourself known in that market,
 get people there to use your product,
 and then convince them to give you money.
-If necessary, you tailor your product to that particular use.
+If necessary, you tailor your product to that particular set of users until they are happy.
 Then you find another niche market and repeat.
 
 But alas, his advice came in too late.
@@ -212,7 +217,7 @@ Actually we tried to contact some niche markets that might have found our planne
 divers, conference organizers, or bikers.
 With zero success.
 It was too little, too late.
-There is a lesson there.
+There is a deep lesson there.
 
 > Good technology does not a good product make.
 > If your product does not serve the needs of its intended users,
@@ -227,20 +232,20 @@ Hewlett and Packard, Wozniak and Jobs, Gates and Allen.
 In our case the four founders were engineers,
 either by training or by trade.
 As it happened we were all very busy creating a product and building a platform.
-Despite the advice of Merino, nobody was minding the business.
+Despite the occasional advice of Merino, nobody was minding the business.
 
 I studied Physics but have always worked as a developer.
 Being the person with most experience I was leading the development.
-We were all worrying about the functionality and the design of our website,
+But we were all worrying about the functionality and the design of our website,
 and not with actually selling anything to anybody.
-We never worried about earning our first €10.
-This is an important lesson.
+We never cared about earning our first €10,
+which is now a widely known lesson.
 
 > Focus on earning your first €10,
 > instead of just increasing your user base blindly.
 
 The urge to get users quickly has worked for some high-profile cases,
-but is not how most companies make their money.
+but it is not how most companies make their money.
 
 One thing we did right was keeping tabs at the competition.
 Yes, even in the niche non-existing market of holiday planners there was competition,
@@ -251,6 +256,7 @@ If I needed convincing for the next lesson,
 this experience provided for it amply.
 
 > Ideas are not worth a dime.
+> Execution is everything.
 
 Several groups around the globe had the same idea as we,
 and a few of them built products very similar to ours.
@@ -260,7 +266,7 @@ But none succeeded at the holiday planner.
 I am not sure why;
 maybe people dislike planning their holidays after all.
 
-To this day there is a huge untapped market there waiting for the picking:
+To this day there is a huge untapped market waiting for the picking:
 tourist activities are a disorganized mess which lives for the most part offline,
 and which would benefit greatly from a broker that helped small providers sell to strangers.
 But nobody has cracked this golden nut yet.
@@ -275,9 +281,11 @@ They were nicely done but were not widely used.
 
 At some point in the summer of 2012 we ceased operations.
 There have been many studies about the reasons for startup failures.
-Do not be fooled;
-the main cause is that the team simply gets bored of trying to make it work,
-and so it was in our case.
+Do not be fooled.
+
+> The main cause of startup failure is that the team simply gets bored of trying to make it work.
+
+And so it was in our case.
 
 I still think that,
 had we continued iterating in our product design,
@@ -287,6 +295,7 @@ and our final design was miles ahead of our first try.
 But sadly we did not have the resources to iterate our mobile apps,
 which are a natural fit for a holiday planner:
 how many of you take your laptops to your holidays?
+Well, you should not!
 
 Since then Íñigo has tried several times to pivot and make our little venture work out of his own pocket.
 He has even sold several travel activities,
@@ -295,8 +304,8 @@ In the next few months we are ceasing operations completely.
 
 ### Founding or Funding
 
-When I told people about the fate of our little company,
-many people were relieved to learn
+When I tell people about the fate of our little company,
+many people are relieved to learn
 (in typical Spanish fashion)
 that I had invested "only time", and not fronted any money.
 How they think that money is more important than time is beyond me.
@@ -309,7 +318,7 @@ in which case you are again wasting huge amounts of your life.
 
 ### Meeting People
 
-I have mentioned that we worked with several freelancers,
+I have mentioned that we worked with several freelancers and a few companies,
 and many of them are great professionals that I remember fondly.
 
 * [Jesús Díaz](http://leals.com/) did a splendid job with us several months.
@@ -323,7 +332,6 @@ worked with us on two really cool Android and iOS apps.
 I had very interesting conversations with all of them.
 In fact, a big part of my freelancing work has been done for people I met while at MoveinBlue.
 On several occasions I have worked for people I had previously hired.
-This is an important lesson for me.
 
 > Working at a company makes you money,
 > but being an entrepreneur allows you to meet interesting people.
@@ -335,8 +343,8 @@ After we gave up on MoveinBlue I sent my CV to a few big companies like Amazon o
 and was promptly ignored.
 I have to recognize that I felt something akin to a vindication
 when I was recently contacted by Amazon to join them in their new Madrid dev center.
-As I tell recruiters,
-right now I am not interested in a job change,
+Right now I am not interested in a job change
+(my standard phrase to say to recruiters),
 but it is nice to know that my skills are appreciated.
 
 So I started interviewing for several job offers:
@@ -344,7 +352,7 @@ a few startups and consulting companies.
 I actually got two job offers,
 but ultimately both involved working at a bank as consultant,
 which felt like a step back.
-Again I conferred with Esther and told here that I was not interested in those jobs.
+Again I conferred with Esther and told her that I was not interested in those jobs.
 She encouraged me to wait for something better,
 since we were not yet (too) pressed for money.
 That is exactly what I did.
@@ -365,9 +373,9 @@ Diego soon found a job at
 where his experience at MoveinBlue was quite valuable.
 
 I have never stopped doing freelance work:
-when I signed a full-time contract with MediaSmart Mobile
-a few months later we agreed that I could do work on the side.
-Right now I do not depend on it and can pick interesting projects.
+when I (spoiler alert) signed a full-time contract a few months later
+we agreed that I could do work on the side.
+The best part is that I do not depend on it and can pick interesting projects.
 Also, I now charge a fee of at least €80/hour,
 which is not bad for Spain.
 
