@@ -306,6 +306,7 @@ worked with us on two really cool Android and iOS apps.
 
 I had very interesting conversations with all of them.
 In fact, a big part of my freelancing work has been done for people I met while at MoveinBlue.
+On several occasions I have worked for people I had previously hired.
 This is an important lesson for me.
 
 > Working at a company makes you money,
