@@ -295,15 +295,16 @@ in which case you are again wasting huge amounts of your life.
 
 I have mentioned that we worked with several freelancers,
 and many of them are great professionals that I remember fondly.
-Jesús David Díaz did a splendid job with us several months.
-Edoardo Batini worked for us less time but just as intensely.
-[Juan Searle](https://twitter.com/jsearle)
+
+* Jesús David Díaz did a splendid job with us several months.
+* Edoardo Batini worked for us less time but just as intensely.
+* [Juan Searle](https://twitter.com/jsearle)
 and [Jonathan Martín](https://twitter.com/mibarbaroja)
 helped us build a kick-ass website.
-(César Domínguez](https://twitter.com/csar4231)
+* [César Domínguez](https://twitter.com/csar4231)
 worked with us on two really cool Android and iOS apps.
-I had very interesting conversations with all of them.
 
+I had very interesting conversations with all of them.
 In fact, a big part of my freelancing work has been done for people I met while at MoveinBlue.
 This is an important lesson for me.
 
