@@ -44,7 +44,7 @@ It goes like this:
 * and finally manager, the top of the food chain,
 the leading light and aspiration of every lowly programmer.
 
-Whatever "organic analysis" is outside of Chemistry is beyond me,
+Whatever "organic analysis" means outside of Chemistry is beyond me,
 despite having held the title for about six years;
 at one company it was hilariously shortened to "Anal. Organ.",
 which might have been a Freudian slip but for their utter ignorance of the English language.
