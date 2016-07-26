@@ -14,6 +14,9 @@ This is the story of how I founded a company,
 did not get rich,
 and in the process got to be much happier.
 
+Allow me to condense it in a few lesons along the way,
+and I promise to avoid the common place.
+
 ## Breaking the Bank
 
 When in 2007 I was hired at ING Direct as an analyst
@@ -97,6 +100,21 @@ This happened almost exactly five years ago.
 At that point I had a little child,
 a mortgage and no job.
 But it tasted like freedom.
+Once again I could pursue a career as a software developer!
+
+There was a serious problem, though.
+After four years at the bank,
+mostly dealing with obsolete technologies and managing projects,
+any development skills that I might have once possessed were blunt and rusty.
+Luckily I had run an interesting
+[Python side project](https://github.com/alexfernandez/elyxer)
+and had kept reading technical books.
+But still there was a significant gap with the state of the art.
+There is a lesson here, a perverse version of technical debt.
+
+> If you want to follow a career as a developer,
+> your pay as a manager needs to compensate for the obsolescence
+> that you are incurring.
 
 ## Minding My Own Business
 
@@ -109,7 +127,7 @@ together with a few of his colleagues at
 [Mauricio García Corredor](https://es.linkedin.com/in/mauriciogarciacorredor/es)
 and
 [Íñigo Segura](https://es.linkedin.com/in/inigosegura),
-and with funding provided by our business angel Juan Carlos Merino.
+and with funding provided by Íñigo and by our business angel Juan Carlos Merino.
 After a few meetings they convinced me to join as CTO.
 Our mission: revolutionize how we all plan our holidays.
 Simple enough, right?
@@ -132,8 +150,8 @@ most of them as freelancers.
 This included five developers.
 The stack was not revolutionary,
 but it was not bad either for its time:
-a single-page application or SPA,
-with a PHP backend.
+a single-page application (or SPA) and two mobile apps,
+all of them using a PHP backend.
 We successfully experimented with things like:
 
 * an all-cloud solution with Amazon AWS;
@@ -142,11 +160,20 @@ including having several test suites;
 * continuous deployment,
 which has become a prerequisite for all my development work.
 
+During my time as CTO at MoveinBlue I learned PHP and JavaScript,
+and soon afterwards I was working in our Android app.
+I was not earning any money,
+but my job ending up being quite valuable professionally.
+There is another lesson there.
+
+> Be sure to work in valuable stuff,
+> or be sure to make enough money to compensate.
+
+### What Marketing Is About
+
 Although development work did not proceed as fast as we would have liked,
 we did not have stability issues.
 The trouble was elsewhere.
-
-### What Marketing Is About
 
 Having never developed a product,
 I believed that "marketing" was synonymous with "advertising".
@@ -168,11 +195,15 @@ and then get them to give you money.
 If necessary, you tailor your product to that particular use.
 Then you find another niche market and repeat.
 
-But alas, too busy building our product,
-we did none of that.
+But alas, his advice came in too late.
+We were too busy building our product so we did none of that.
 Actually we tried to contact some niche markets that might have found a planner useful:
 divers, conference organizers, or bikers.
 With zero success.
+It was too little, too late.
+There is a lesson there.
+
+> Good technology does not a good product make.
 
 ### Bad Business
 
@@ -190,6 +221,13 @@ Being the person with most experience I was leading the development.
 We were all worrying about the functionality and the design of our website,
 and not with actually selling anything to anybody.
 We never worried about earning our first €10.
+This is an important lesson.
+
+> Focus on earning your first €10,
+> instead of just getting users blindly.
+
+The urge to get users quickly has worked for some high-profile cases,
+but is not how most companies make their money.
 
 One thing we did right was keeping tabs at the competition.
 Yes, even in the niche non-existing market of holiday planners there was competition,
@@ -238,6 +276,40 @@ Since then Íñigo has tried several times to pivot and make our little venture 
 He has even sold several travel activities,
 but failed to gain enough traction.
 In the next few months we are ceasing operations completely.
+
+### Founding or Funding
+
+When I told people about the fate of our little company,
+many people were relieved to learn
+(in typical Spanish fashion)
+that I had invested "only time", and not fronted any money.
+How they think that money is more important than time is beyond me.
+The lesson I learned is:
+
+> A year of your limited time on Earth is worth more than any money.
+
+Unless of course you end heavily in debt and having to repay it for several years,
+in which case you are again wasting huge amounts of your life.
+
+### Meeting People
+
+I have mentioned that we worked with several freelancers,
+and many of them are great professionals that I remember fondly.
+Jesús David Díaz did a splendid job with us several months.
+Edoardo Batini worked for us less time but just as intensely.
+[Juan Searle](https://twitter.com/jsearle)
+and [Jonathan Martín](https://twitter.com/mibarbaroja)
+helped us build a kick-ass website.
+(César Domínguez](https://twitter.com/csar4231)
+worked with us on two really cool Android and iOS apps.
+I had very interesting conversations with all of them.
+
+In fact, a big part of my freelancing work has been done for people I met while at MoveinBlue.
+This is an important lesson for me.
+
+> Working at a company makes you money,
+> but being an entrepreneur allows you to meet interesting people.
+> Interesting work often comes from interesting people you know.
 
 ## Freelancing
 
@@ -330,6 +402,10 @@ written critical parts of our infrastructure in
 and [Go](http://alexfernandez.github.io/2016/golang-adventures.html),
 and in general have had a blast.
 
+Before MoveinBlue I was highly allergic to JavaScript.
+After using jQuery to build our website I realized there was something
+to this strange little language,
+and with time I have come to appreciate it.
 In March 2013 I gave [a talk at MadridJS](http://www.meetup.com/es-ES/madridjs/events/105582592/)
 which was attended heavily.
 A few years later I am the organizer of both
@@ -344,8 +420,9 @@ have given talks
 [in a few countries](http://lanyrd.com/profile/pinchito/),
 and have got to meet many interesting people in the JavaScript community.
 
-## A Few Lessons
+## Conclusion
 
+I learned a lot during our run at MoveinBlue.
 I wanted to tell the story as I remember it,
 before I forget it any further.
 
@@ -356,60 +433,10 @@ their careless handling of passwords.
 Let this article serve as a CV of sorts
 for this stage of my career as an entrepreneur.
 
-I learned a lot during our run.
-Allow me to condense it in a few lesons,
-and I promise to avoid the common place.
+### Acknowledgements
 
-### Founding or Funding
-
-When I told people about the fate of our little company,
-many people were relieved to learn
-(in typical Spanish fashion)
-that I had invested "only time", and not fronted any money.
-How they think that money is more important than time is beyond me.
-
-The first lesson I learned is:
-
-> A year of your limited time on Earth is worth more than any money.
-
-Unless of course you end heavily in debt and having to repay it for several years,
-in which case you are again wasting huge amounts of your life.
-
-### The Hardest School
-
-In fact I consider myself lucky that I could use my time in MoveinBlue
-to get back up to speed in my trade.
-Four years at the bank,
-mostly dealing with obsolete technologies or just managing projects,
-were enough to blunt any development skills that I may have possessed.
-Luckily I had run an interesting
-[Python side project](https://github.com/alexfernandez/elyxer)
-and had kept reading technical books,
-or I would have not been able to do a good job.
-
-There is another lesson there, a perverse version of technical debt.
-
-> If you want to follow a career as a developer,
-> your pay as a manager needs to compensate for the obsolescence
-> that you are incurring.
-
-### Do What You Love
-
-During our time at MoveinBlue I learned PHP and JavaScript,
-and soon afterwards I was working in our Android port.
-Remember, I was not earning any money,
-but my job ending up being quite valuable professionally.
-
-Our next lesson concerns my work as CTO;
-it is in fact an evolution of the previous lesson.
-
-> Be sure to work in valuable stuff,
-> or be sure to make enough money to compensate.
-
-### Meeting People
-
-A big part of my freelancing work has been done for people I met while at MoveinBlue.
-
-> Working at a company you make money,
-> but being an entrepreneur allows you to meet interesting people.
+Many thanks to Íñigo, Mauricio and Diego
+for reading a draft of this document
+and making many valuable suggestions.
+Three of the lessons come straight from Diego.
 
