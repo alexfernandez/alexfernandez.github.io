@@ -69,7 +69,7 @@ who is?
 Certainly not me.
 I had never been able to keep my big mouth shut about things I did not like,
 and the boss of my boss did not appreciate it.
-Neither did her boss, or the boss above him.
+Neither did her boss, or the boss above him, or the next boss.
 Oh, I had many bosses:
 the company was supposed to have a flat hierarchy,
 while in practice there were 8 steps in the ladder
@@ -80,13 +80,14 @@ Particularly I did not like the long hours,
 the long faces when I left for home after only 9 hours,
 the half-hour lunch breaks at my table eating a sandwich
 (in the vain hope of leaving earlier),
-the unpaid on-call perennial duty
+the unpaid permanent on-call duty
 or the also unpaid visits to the company to deploy a project at 4 AM.
 Having a two-year-old daughter somehow seemed more important than all that,
 and yet I could only see her during dinner and just before she went to bed
 (some days not even that).
 Esther, my partner and mother of our daughter,
 was also exhausted after taking care of her all day long.
+Life kind of sucked in a first-worldly way.
 
 In mid-2011 I had the gall of requesting reduced working hours,
 as was my right as the father of child under 8.
