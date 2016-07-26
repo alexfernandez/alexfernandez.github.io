@@ -52,7 +52,7 @@ Separating analysis from programming was always a bad idea,
 and these days it is suicide for any company that has any semblance of competition.
 However you will find that these absurd titles still infest job boards in Spain and elsewhere.
 
-Around that moment the bank, in its infinite wisdom,
+Around the time of my "promotion" the bank, in its infinite wisdom,
 decided to externalize all development work.
 There was no way to continue being an analyst since that position was being phased out.
 In retrospect, I could have realized at that point that my future would not be very bright,
@@ -69,6 +69,7 @@ who is?
 Certainly not me.
 I had never been able to keep my big mouth shut about things I did not like,
 and the boss of my boss did not appreciate it.
+Neither did her boss, or the boss above him.
 Oh, I had many bosses:
 the company was supposed to have a flat hierarchy,
 while in practice there were 8 steps in the ladder
