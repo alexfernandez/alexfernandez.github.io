@@ -144,6 +144,12 @@ where will all those people learn what to do once they arrive to their destinati
 How will they find and book all the fun things they can do?
 We had the solution:
 we would build a holiday planner to find and track their activities.
+We had the silly idea that travelling once in a while
+meant we could enter this market knowingly.
+I think we have learned this lesson.
+
+> Knowing about travel does not mean you know about the business of travel.
+> Or put another way, buying a product does not mean you know how to sell it.
 
 At its peak, MoveinBlue had more than 10 people employed full time,
 most of them as freelancers.
@@ -163,8 +169,9 @@ which has become a prerequisite for all my development work.
 During my time as CTO at MoveinBlue I learned PHP and JavaScript,
 and soon afterwards I was working in our Android app.
 I was not earning any money,
-but my job ending up being quite valuable professionally.
-There is another lesson there.
+but my job ended up being quite valuable professionally.
+There is another lesson there,
+a corollary of the first one.
 
 > Be sure to work in valuable stuff,
 > or be sure to make enough money to compensate.
