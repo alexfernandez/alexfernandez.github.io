@@ -14,7 +14,7 @@ This is the story of how I founded a company,
 did not get rich,
 and in the process got to be much happier.
 
-Allow me to condense it in a few lesons along the way,
+Allow me to condense it in a few lessons along the way,
 and I promise to avoid the common place.
 
 ## Breaking the Bank
