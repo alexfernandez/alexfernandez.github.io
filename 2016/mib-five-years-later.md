@@ -247,24 +247,26 @@ which is now a widely known lesson.
 The urge to get users quickly has worked for some high-profile cases,
 but it is not how most companies make their money.
 
-One thing we did right was keeping tabs at the competition.
+One thing we did right was keeping tabs on the competition.
 Yes, even in the niche non-existing market of holiday planners there was competition,
-and plenty of it:
-we kept track of at least ten different companies
-building similar products to ours.
-If I needed convincing for the next lesson, 
-this experience provided for it amply.
+and plenty of it.
+We kept track of ten or twenty different companies at any given time.
+Just as if I needed convincing for the next lesson.
 
 > Ideas are not worth a dime.
 > Execution is everything.
 
-Several groups around the globe had the same idea as we,
+Yes, this one is quite commonplace,
+so at least I will provide ample proof.
+
+Several groups around the globe had the same idea as we did,
 and a few of them built products very similar to ours.
 Some even got millions of dollars of financing,
 whereas we had some pocket money and much enthusiasm.
 But none succeeded at the holiday planner.
 I am not sure why;
 maybe people dislike planning their holidays after all.
+But other approaches have failed as well.
 
 To this day there is a huge untapped market waiting for the picking:
 tourist activities are a disorganized mess which lives for the most part offline,
@@ -281,16 +283,17 @@ They were nicely done but were not widely used.
 
 At some point in the summer of 2012 we ceased operations.
 There have been many studies about the reasons for startup failures.
-Do not be fooled.
+Do not be fooled though.
+I read this great truth somewhere but cannot find the source right now.
 
 > The main cause of startup failure is that the team simply gets bored of trying to make it work.
 
 And so it was in our case.
 
 I still think that,
-had we continued iterating in our product design,
+had we continued working in our product design,
 we might have eventually gained traction.
-After all we did that work on the website,
+After all we did a couple of iterations on the website,
 and our final design was miles ahead of our first try.
 But sadly we did not have the resources to iterate our mobile apps,
 which are a natural fit for a holiday planner:
@@ -298,18 +301,17 @@ how many of you take your laptops to your holidays?
 Well, you should not!
 
 Since then Íñigo has tried several times to pivot and make our little venture work out of his own pocket.
-He has even sold several travel activities,
-but failed to gain enough traction.
+He has even sold actual travel activities,
+but has also failed to gain enough traction.
 In the next few months we are ceasing operations completely.
 
 ### Founding or Funding
 
 When I tell people about the fate of our little company,
-many people are relieved to learn
+many are relieved to learn
 (in typical Spanish fashion)
 that I had invested "only time", and not fronted any money.
 How they think that money is more important than time is beyond me.
-The lesson I learned is:
 
 > A year of your limited time on Earth is worth more than any money.
 
@@ -323,15 +325,19 @@ and many of them are great professionals that I remember fondly.
 
 * [Jesús Díaz](http://leals.com/) did a splendid job with us several months.
 * Edoardo Batini worked for us less time but just as intensely.
-* [Juan Searle](https://twitter.com/jsearle)
+* [Juan Searle](https://www.linkedin.com/in/juansearle)
 and [Jonathan Martín](https://twitter.com/mibarbaroja)
 helped us build a kick-ass website.
 * [César Domínguez](https://twitter.com/csar4231)
 worked with us on two really cool Android and iOS apps.
 
+Mauricio joined Opinno, a company focused on innovation.
+He has still not shaken the entrepreneurship bug,
+and will soon start a new venture.
+
 I had very interesting conversations with all of them.
-In fact, a big part of my freelancing work has been done for people I met while at MoveinBlue.
-On several occasions I have worked for people I had previously hired.
+A big part of my freelancing work has been done for people I met while at MoveinBlue,
+quite often working for people I had previously hired.
 
 > Working at a company makes you money,
 > but being an entrepreneur allows you to meet interesting people.
@@ -342,13 +348,13 @@ On several occasions I have worked for people I had previously hired.
 After we gave up on MoveinBlue I sent my CV to a few big companies like Amazon or Google,
 and was promptly ignored.
 I have to recognize that I felt something akin to a vindication
-when I was recently contacted by Amazon to join them in their new Madrid dev center.
+when I was recently contacted by Amazon to join their new Madrid dev center.
 Right now I am not interested in a job change
-(my standard phrase to say to recruiters),
+(my standard response for recruiters),
 but it is nice to know that my skills are appreciated.
+Not so at the time.
 
-So I started interviewing for several job offers:
-a few startups and consulting companies.
+So I started interviewing for a few startups and consulting companies.
 I actually got two job offers,
 but ultimately both involved working at a bank as consultant,
 which felt like a step back.
@@ -372,10 +378,10 @@ Diego soon found a job at
 [Tui Travel](http://www.tui.com/),
 where his experience at MoveinBlue was quite valuable.
 
-I have never stopped doing freelance work:
-when I (spoiler alert) signed a full-time contract a few months later
+I have never stopped doing freelance work.
+When I (spoiler alert) signed a full-time contract a few months later
 we agreed that I could do work on the side.
-The best part is that I do not depend on it and can pick interesting projects.
+As I do not depend on it, I can pick interesting projects.
 Also, I now charge a fee of at least €80/hour,
 which is not bad for Spain.
 
@@ -461,8 +467,13 @@ for this stage of my career as an entrepreneur.
 
 ### Acknowledgements
 
-Many thanks to Íñigo, Mauricio and Diego
+Many thanks to my three co-founders Íñigo, Mauricio and Diego
 for reading a draft of this document
 and making many valuable suggestions.
-Three of the lessons come straight from Diego.
+Three of the lessons come straight from Diego
+(they are easy to recognize as they are the best three,
+but I will let you guess which).
+
+Thanks also to Jesús, César and Juan
+for their nice comments.
 
