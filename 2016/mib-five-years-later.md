@@ -296,7 +296,7 @@ in which case you are again wasting huge amounts of your life.
 I have mentioned that we worked with several freelancers,
 and many of them are great professionals that I remember fondly.
 
-* Jesús David Díaz did a splendid job with us several months.
+* [Jesús Díaz](http://leals.com/) did a splendid job with us several months.
 * Edoardo Batini worked for us less time but just as intensely.
 * [Juan Searle](https://twitter.com/jsearle)
 and [Jonathan Martín](https://twitter.com/mibarbaroja)
