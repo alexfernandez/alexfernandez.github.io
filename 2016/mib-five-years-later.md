@@ -25,13 +25,14 @@ Since 2005 I had worked as a "consultant" for the banking sector in a few differ
 The financial sector in Spain has long employed "consultants",
 which are actually employees in disguise,
 to avoid bloating their workforce with lowly technicians.
-Now I held a technical position that was more or less like a coordinator.
+Now I held a technical position that was more or less like a group coordinator,
+for a team of varying size (from two to 15 developers).
 
 A couple of years later I was told that I was now a project manager,
 so I finally needed not touch any code any more.
 This, needless to say, made me very unhappy.
 The Spanish IT sector has long clung to a fantasy hierarchy
-which was perhaps used somewhere in the 60s,
+which was perhaps used at some mothball factory in the 60s,
 but which has nothing to do with the realities of software development.
 It goes like this:
 
