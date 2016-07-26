@@ -41,7 +41,8 @@ It goes like this:
 * organic analyst,
 * functional analyst,
 * project manager,
-* and finally manager.
+* and finally manager, the top of the food chain,
+the leading light and aspiration of every lowly programmer.
 
 Whatever "organic analysis" is outside of Chemistry is beyond me,
 despite having held the title for about six years;
