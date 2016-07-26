@@ -15,7 +15,7 @@ did not get rich,
 and in the process got to be much happier.
 
 Allow me to condense it in a few lessons along the way,
-and I promise to avoid the common place.
+and I promise I will try to avoid the common place.
 
 ## Breaking the Bank
 
