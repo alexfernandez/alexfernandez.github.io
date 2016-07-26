@@ -49,8 +49,8 @@ despite having held the title for about six years;
 at one company it was comically shortened to "Anal. Organ.",
 which might have been a Freudian slip but for their utter ignorance of the English language.
 Separating analysis from programming was always a bad idea,
-and now it is suicide.
-These absurd titles still infest job boards in Spain and elsewhere, however.
+and these days it is suicide for any company that has any semblance of competition.
+However you will find that these absurd titles still infest job boards in Spain and elsewhere.
 
 Around that moment the bank, in its infinite wisdom,
 decided to externalize all development work.
