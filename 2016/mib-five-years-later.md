@@ -233,7 +233,7 @@ We never worried about earning our first €10.
 This is an important lesson.
 
 > Focus on earning your first €10,
-> instead of just getting users blindly.
+> instead of just increasing your user base blindly.
 
 The urge to get users quickly has worked for some high-profile cases,
 but is not how most companies make their money.
@@ -243,8 +243,11 @@ Yes, even in the niche non-existing market of holiday planners there was competi
 and plenty of it:
 we kept track of at least ten different companies
 building similar products to ours.
-If I needed convincing that ideas are not worth a dime,
+If I needed convincing for the next lesson, 
 this experience provided for it amply.
+
+> Ideas are not worth a dime.
+
 Several groups around the globe had the same idea as we,
 and a few of them built products very similar to ours.
 Some even got millions of dollars of financing,
