@@ -424,15 +424,9 @@ The company was using Node.js to process an astounding 2 krps!
 And thus I joined the company in January 2013.
 
 Since then we have doubled our revenue every year.
-This year I had the privilege of giving
-[a talk at FullStack London](https://skillsmatter.com/skillscasts/8156-fullstack-devops),
-also at
-[skills matter](https://skillsmatter.com/),
-where I told the audience how we have scaled up to 325 krps,
-written critical parts of our infrastructure in
-[Erlang](http://alexfernandez.github.io/2016/nginx-balancer.html)
-and [Go](http://alexfernandez.github.io/2016/golang-adventures.html),
-and in general have had a blast.
+We are receiving peaks of 325 krps,
+process a total of 25 billion requests per day,
+and serve more than 30 million daily impressions.
 
 Before MoveinBlue I was highly allergic to JavaScript.
 After using jQuery to build our website I realized there was something
@@ -451,6 +445,18 @@ have got to teach JavaScript at
 have given talks
 [in a few countries](http://lanyrd.com/profile/pinchito/),
 and have got to meet many interesting people in the JavaScript community.
+
+This year I had the privilege of giving
+[a talk at FullStack London](https://skillsmatter.com/skillscasts/8156-fullstack-devops),
+also organized by
+[skills matter](https://skillsmatter.com/),
+where I told the audience how we have scaled up to 325 krps,
+using Node.js for a lot of DevOps tasks.
+We have written critical parts of our infrastructure in
+[Erlang](http://alexfernandez.github.io/2016/nginx-balancer.html)
+and [Go](http://alexfernandez.github.io/2016/golang-adventures.html),
+and had a blast while scaling our servers.
+It provides for a nice closure to my little tale.
 
 ## Conclusion
 
