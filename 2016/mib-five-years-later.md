@@ -46,7 +46,7 @@ the leading light and aspiration of every lowly programmer.
 
 Whatever "organic analysis" means outside of Chemistry is beyond me,
 despite having held the title for about six years;
-at one company it was hilariously shortened to "Anal. Organ.",
+at one company it was comically shortened to "Anal. Organ.",
 which might have been a Freudian slip but for their utter ignorance of the English language.
 Separating analysis from programming was always a bad idea,
 and now it is suicide.
