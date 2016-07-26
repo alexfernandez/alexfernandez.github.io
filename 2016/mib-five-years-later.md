@@ -192,25 +192,27 @@ both genders, aged 25 to 40, heavy Internet users.
 No wonder, Sherlock!
 
 Properly done marketing is something else.
-Our capitalist partner Merino is a successful businessman in several profitable ventures:
+Our capitalist partner Merino is a successful businessman in several profitable ventures.
 He gave us a master class in early 2012:
 first you find a niche market where your product works,
 and where people is eager to give you money.
 Then you make yourself known in that market,
 get people there to use your product,
-and then get them to give you money.
+and then convince them to give you money.
 If necessary, you tailor your product to that particular use.
 Then you find another niche market and repeat.
 
 But alas, his advice came in too late.
 We were too busy building our product so we did none of that.
-Actually we tried to contact some niche markets that might have found a planner useful:
+Actually we tried to contact some niche markets that might have found our planner useful:
 divers, conference organizers, or bikers.
 With zero success.
 It was too little, too late.
 There is a lesson there.
 
 > Good technology does not a good product make.
+> If your product does not serve the needs of its intended users,
+> what technologies it employs will not matter.
 
 ### Bad Business
 
