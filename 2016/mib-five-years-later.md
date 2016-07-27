@@ -153,12 +153,14 @@ How will they find and book all the fun things they can do?
 We had the solution:
 build a holiday planner to find and track their activities.
 We had the silly idea that travelling once in a while
-(or, as in the case of Diego, travelling constantly)
 meant we could enter this market confidently.
 We were wrong.
 
 > Knowing about travel does not mean you know about the business of travel.
 > Or put another way, buying a product does not mean you know how to sell it.
+
+This lesson actually comes from Diego,
+who spends at least a month every year travelling.
 
 ### Full Steam Ahead
 
@@ -213,13 +215,12 @@ and then convince them to give you money.
 If necessary, you tailor your product to that particular set of users until they are happy.
 Then you find another niche market and repeat.
 
-But alas, his advice came in too late.
+But alas, his advice came too late.
 We were too busy building our product so we did none of that.
 Actually we tried to contact some niche markets that might have found our planner useful:
 divers, conference organizers, or bikers.
 With zero success.
-It was too little, too late.
-There is a deep lesson there.
+Diego lent me another lesson here.
 
 > Good technology does not a good product make.
 > If your product does not serve the needs of its intended users,
@@ -242,6 +243,7 @@ But we were all worrying about the functionality and the design of our website,
 and not with actually selling anything to anybody.
 We never cared about earning our first €10,
 which is now a widely known lesson.
+Another lesson from Diego is in order.
 
 > Focus on earning your first €10,
 > instead of just increasing your user base blindly.
