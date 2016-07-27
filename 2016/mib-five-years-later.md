@@ -1,7 +1,7 @@
 ---
 title: 'MoveinBlue, Five Years Later'
 subtitle: 'Another Failed Entrepreneurship Story'
-footer: Published on 2016-06-29, last edited on 2016-06-29.
+footer: Published on 2016-07-27, last edited on 2016-07-27.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -429,7 +429,7 @@ We are receiving peaks of 325 krps,
 process a total of 25 billion requests per day,
 and serve more than 30 million daily impressions.
 
-Before MoveinBlue I was highly allergic to JavaScript.
+Before MoveinBlue I was mildly allergic to JavaScript.
 After using jQuery to build our website I realized there was something
 to this strange little language,
 and with time I have come to appreciate it.
