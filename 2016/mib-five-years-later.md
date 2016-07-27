@@ -175,8 +175,8 @@ We successfully experimented with things like:
 * modern development practices,
 including having several test suites;
 * continuous deployment,
-which has become a prerequisite for all my development work,
-* an all-remote team.
+which has become a prerequisite for all my development work;
+* and an all-remote team.
 
 During my time as CTO at MoveinBlue I learned PHP and JavaScript,
 and soon afterwards I was working in our Android app.
