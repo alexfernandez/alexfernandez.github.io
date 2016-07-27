@@ -10,7 +10,7 @@ footer: Published on 2016-06-29, last edited on 2016-06-29.
 Five years ago I was working as a project manager at ING Direct, a largish Spanish bank.
 In the worst of the mortgage crisis the bank decided to dispense with my services,
 and things were not looking good.
-This is the story of how I founded a company,
+This is the story of how I co-founded a company,
 did not get rich,
 and in the process got to be much happier.
 
