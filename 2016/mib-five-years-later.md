@@ -216,15 +216,20 @@ If necessary, you tailor your product to that particular set of users until they
 Then you find another niche market and repeat.
 
 But alas, his advice came too late.
-We were too busy building our product so we did none of that.
 Actually we tried to contact some niche markets that might have found our planner useful:
 divers, conference organizers, or bikers.
 With zero success.
-Diego lent me another lesson here.
+So we continued building our product for an imaginary market,
+thinking that eventually users would come pouring in.
+We never cared about earning our first €10,
+which is now a widely known error.
+Diego summarized it thusly.
 
-> Good technology does not a good product make.
-> If your product does not serve the needs of its intended users,
-> what technologies it employs will not matter.
+> Focus on earning your first €10,
+> instead of just increasing your user base blindly.
+
+The urge to get users quickly has worked for some high-profile cases,
+but it is not how most companies make their money.
 
 ### Bad Business
 
@@ -234,22 +239,16 @@ US entrepreneurship lore states that successful startups need both an inventor a
 Hewlett and Packard, Wozniak and Jobs, Gates and Allen.
 In our case the four founders were engineers,
 either by training or by trade.
-As it happened we were all very busy creating a product and building a platform.
-Despite the occasional advice of Merino, nobody was minding the business.
-
-I studied Physics but have always worked as a developer.
-Being the person with most experience I was leading the development.
-But we were all worrying about the functionality and the design of our website,
+Too much engineering and too little business:
+we were all very busy creating a product and building a platform.
+Everyone was worrying about the functionality and the design of our website,
 and not with actually selling anything to anybody.
-We never cared about earning our first €10,
-which is now a widely known lesson.
-Another lesson from Diego is in order.
+Despite the occasional advice of Merino, nobody was minding the business.
+Diego lent me another lesson here.
 
-> Focus on earning your first €10,
-> instead of just increasing your user base blindly.
-
-The urge to get users quickly has worked for some high-profile cases,
-but it is not how most companies make their money.
+> Good technology does not a good product make.
+> If your product does not serve the needs of its intended users,
+> what technologies it employs will not matter.
 
 One thing we did right was keeping tabs on the competition.
 Yes, even in the niche non-existing market of holiday planners there was competition,
