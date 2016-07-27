@@ -87,7 +87,7 @@ Having a two-year-old daughter somehow seemed more important than all that,
 and yet I could only see her during dinner and just before she went to bed
 (with luck; some days not even that).
 Esther, my partner and mother of our daughter,
-was also exhausted after a long day of work and then taking care of her.
+was also exhausted after working until lunchtime and then taking care of her all afternoon.
 Life kind of sucked, in the way only a first-world life can kind of suck.
 
 In mid-2011 I had the gall of requesting reduced working hours,
