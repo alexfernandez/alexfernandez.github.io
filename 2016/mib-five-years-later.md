@@ -153,8 +153,9 @@ How will they find and book all the fun things they can do?
 We had the solution:
 build a holiday planner to find and track their activities.
 We had the silly idea that travelling once in a while
+(or, as in the case of Diego, travelling constantly)
 meant we could enter this market confidently.
-I think we have learned this lesson.
+We were wrong.
 
 > Knowing about travel does not mean you know about the business of travel.
 > Or put another way, buying a product does not mean you know how to sell it.
