@@ -336,10 +336,6 @@ helped us build a kick-ass website.
 * [César Domínguez](https://twitter.com/csar4231)
 worked with us on two really cool Android and iOS apps.
 
-Mauricio joined Opinno, a company focused on innovation.
-He has still not shaken the entrepreneurship bug,
-and will soon start a new venture.
-
 I had very interesting conversations with all of them.
 A big part of my freelancing work has been done for people I met while at MoveinBlue,
 quite often working for people I had previously hired.
@@ -476,6 +472,16 @@ their careless handling of passwords.
 Let this article serve as a CV of sorts
 for this stage of my career as an entrepreneur.
 
+As to the other co-founders,
+they have also been influenced heavily by our experience.
+Nowadays Diego works for
+[Hotelbeds](http://www.hotelbeds.com/),
+where he actually sells to travellers.
+Mauricio joined Opinno, a company focused on innovation.
+He has still not shaken the entrepreneurship bug,
+and will soon start a new venture.
+Íñigo is also involved in a few companies.
+
 ### Acknowledgements
 
 Many thanks to my three co-founders Íñigo, Mauricio and Diego
@@ -485,6 +491,6 @@ Three of the lessons come straight from Diego
 (they are easy to recognize as they are the best three,
 but I will let you guess which).
 
-Thanks also to Jesús, César and Juan
+Thanks also to Jesús, César, Juan, Jonathan and Edoardo
 for their nice comments.
 
