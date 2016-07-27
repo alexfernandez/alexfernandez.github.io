@@ -281,7 +281,7 @@ But nobody has cracked this golden nut yet.
 During the first half of 2012 we were busy writing and releasing our mobile apps,
 which again failed to revolutionize the way we travel.
 We had an external company to help me build the Android version,
-and Diego did the iOS port.
+and Diego with the iOS port.
 They were nicely done but were not widely used.
 
 At some point in the summer of 2012 we ceased operations.
@@ -302,6 +302,8 @@ But sadly we did not have the resources to iterate our mobile apps,
 which are a natural fit for a holiday planner:
 how many of you take your laptops to your holidays?
 Well, you should not!
+Holidays are for browsing lazily from your phone,
+and laptops feel too much like work.
 
 Since then Íñigo has tried several times to pivot and make our little venture work out of his own pocket.
 He has even sold actual travel activities,
