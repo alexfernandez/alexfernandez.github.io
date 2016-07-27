@@ -280,7 +280,7 @@ But nobody has cracked this golden nut yet.
 
 During the first half of 2012 we were busy writing and releasing our mobile apps,
 which again failed to revolutionize the way we travel.
-We had an external company to help us build the Android version,
+We had an external company to help me build the Android version,
 and Diego did the iOS port.
 They were nicely done but were not widely used.
 
