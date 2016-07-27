@@ -21,7 +21,7 @@ and I promise I will try to avoid the common place.
 
 When in 2007 I was hired at ING Direct as an analyst
 it felt as something of a success.
-Since 2005 I had worked as a "consultant" for the banking sector in a few different projects.
+Since 2005 I had worked as an external "consultant" for the banking sector in a few different projects.
 The financial sector in Spain has long employed these "consultants",
 which are actually employees in disguise,
 to avoid bloating their workforce with lowly technicians.
