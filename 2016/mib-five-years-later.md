@@ -182,7 +182,7 @@ During my time as CTO at MoveinBlue I learned PHP and JavaScript,
 and soon afterwards I was working in our Android app.
 I was not earning any money,
 but my job ended up being quite valuable professionally.
-Here we can find a corollary of the first lesson.
+Here we can find a generalization of the first lesson.
 
 > Be sure to work in valuable stuff,
 > or be sure to make enough money to compensate.
