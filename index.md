@@ -13,6 +13,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 Latest articles.
 
+* 2016-07-27: [MoveinBlue, Five Years Later](2016/mib-five-years-later.html).
 * 2016-05-26: [Should I Build or Should I Not](2016/build-or-not.html).
 * 2016-04-10: [Creating a Balancer With Nginx](2016/nginx-balancer.html).
 * 2016-04-03: [Continuously Deploying with StriderCD](2016/stridercd.html).
