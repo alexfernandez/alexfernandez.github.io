@@ -22,10 +22,11 @@ and I promise I will try to avoid the common place.
 When in 2007 I was hired at ING Direct as an analyst
 it felt as something of a success.
 Since 2005 I had worked as a "consultant" for the banking sector in a few different projects.
-The financial sector in Spain has long employed "consultants",
+The financial sector in Spain has long employed these "consultants",
 which are actually employees in disguise,
 to avoid bloating their workforce with lowly technicians.
-Now I held a technical position that was more or less like a group coordinator,
+Now I held a technical position as a bank employee
+that was more or less like a group coordinator,
 for a team of varying size (from two to 15 developers).
 
 A couple of years later I was told that I was now a project manager,
@@ -81,12 +82,12 @@ the long faces when I left for home after only 9 hours,
 the half-hour lunch breaks at my table eating a sandwich
 (in the vain hope of leaving earlier),
 the unpaid permanent on-call duty
-or the also unpaid visits to the company to deploy a project at 4 AM.
+or the also unpaid visits to our offices to deploy a project at 4 AM.
 Having a two-year-old daughter somehow seemed more important than all that,
 and yet I could only see her during dinner and just before she went to bed
-(some days not even that).
+(with luck; some days not even that).
 Esther, my partner and mother of our daughter,
-was also exhausted after taking care of her all day long.
+was also exhausted after a long day of work and then taking care of her.
 Life kind of sucked, in the way only a first-world life can kind of suck.
 
 In mid-2011 I had the gall of requesting reduced working hours,
