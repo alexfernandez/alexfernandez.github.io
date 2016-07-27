@@ -1,7 +1,7 @@
 ---
 title: 'MoveinBlue, Five Years Later'
 subtitle: 'Another Failed Entrepreneurship Story'
-footer: Published on 2016-07-27, last edited on 2016-07-27.
+footer: Published on 2016-07-27, last edited on 2016-07-28.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -480,7 +480,8 @@ where he actually sells to travellers.
 Mauricio joined Opinno, a company focused on innovation.
 He has still not shaken the entrepreneurship bug,
 and will soon start a new venture.
-Íñigo is also involved in a few companies.
+Íñigo is still involved in the development and commercialization of new technologies
+and high-tech products.
 
 ### Acknowledgements
 
