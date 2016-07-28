@@ -256,12 +256,14 @@ and plenty of it.
 We kept track of ten or twenty different companies at any given time.
 Just as if I needed convincing for the next lesson.
 
-> Ideas are not worth a dime.
-> Execution is everything.
+> Ideas are not worth a dime without great execution.
 
-Yes, this one is quite commonplace,
-so at least I will provide ample proof.
-
+There is a commonplace version which says that
+"ideas are worthless",
+nicely debunked in
+[Ideas aren’t worthless](https://medium.com/the-mission/ideas-arent-worthless-2c8b366f6f75#.wk2odydww).
+But what I know for sure is that many people can come up with the same idea,
+be it good or bad.
 Several groups around the globe had the same idea as we did,
 and a few of them built products very similar to ours.
 Some even got millions of dollars of financing,
