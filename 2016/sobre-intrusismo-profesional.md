@@ -165,9 +165,9 @@ En un mundo globalizado,
 ¿cómo se llevaría a cabo exactamente esa prohibición?
 ¿Sería necesario investigar todo el código
 y prohibir el que no esté escrito por un ingeniero informático?
-Por lo tanto, ¿excluímos los sistemas operativos
+Por lo tanto, ¿debemos excluir los sistemas operativos
 GNU/Linux, Windows y Mac OS,
-desarrollados por extranjeros no titulados?
+desarrollados en su inmensa mayoría por extranjeros sin título homologado en España?
 
 Por lo que sé,
 en todo el mundo el desarrollo de software es una profesión no regulada.
