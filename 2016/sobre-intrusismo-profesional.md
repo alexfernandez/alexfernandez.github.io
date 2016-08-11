@@ -85,7 +85,6 @@ Y hablando de legitimidad,
 
 La [wikipedia](https://es.wikipedia.org/wiki/Intrusismo)
 tiene varios enlaces interesantes.
-
 Decir públicamente que eres "ingeniero informático" sin serlo no es delito.
 El código penal en su
 [artículo 403](http://www.boe.es/buscar/doc.php?id=BOE-A-1995-25444)
@@ -99,7 +98,8 @@ Las dos primeras frases se diferencian simplemente en que una habla de "título 
 en el caso de la informática no hay "título correspondiente" para la profesión,
 al menos según la ley,
 ni "título oficial que […] habilite legalmente para su ejercicio".
-Así que "atribuirse la cualidad de profesional" no puede ser delito.
+Así que "atribuirse la cualidad de profesional" no puede ser delito
+ya que requiere alguna de las condiciones anteriores.
 
 Por su parte, la Constitución Española en su
 [artículo 36](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a36)
