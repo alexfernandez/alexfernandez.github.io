@@ -124,7 +124,8 @@ administración de bases de datos,
 toma de requisitos, pruebas,
 administración de sistemas…
 Eso por no hablar de las diferentes áreas del desarrollo:
-frontend, backend, DevOps
+frontend, backend, DevOps,
+sistemas integrados, compiladores,
 y especialización en múltiples lenguajes.
 En realidad son decenas de disciplinas diferentes,
 con un mapeo bastante nebuloso a las especialidades de la ingeniería.
@@ -136,18 +137,23 @@ piden regulación en todos los aspectos,
 desde la programación hasta la dirección de proyectos.
 Según los tres ilustres consultados,
 contratar a gente que no son ingenieros informáticos conlleva peor calidad.
+La situación requiere regulación de manera urgente.
 
 En un [interesante mensaje](http://www.meetup.com/es-ES/madridjs/messages/78941999/)
-Pablo Almunia argumenta que lo que buscan los que se quejan de intrusismo
-no es otra cosa que proteccionismo,
+Pablo Almunia argumenta que los que se quejan de intrusismo
+buscan en realidad proteccionismo,
 para poner en valor sus estudios.
 La emisión de la UNED parece confirmarlo;
 los únicos argumentos que aportan son que la carrera da "una base",
 al parecer consistente en teoría de la computación y algoritmos.
-No les importa demasiado que hoy día cualquier algoritmo se resuelva con una búsqueda en Google,
-a lo sumo dos o tres y un tutorial.
-También parecen partidarios de unas herramientas bastante obsoletas,
+No parece importarles demasiado que hoy día cualquier algoritmo se resuelva con una búsqueda en Google,
+a lo sumo dos y un tutorial.
+También son claramente partidarios de unas herramientas bastante obsoletas,
 como son la estimación o la gestión de riesgos.
+Que por otra parte no aparecen por ningún lado en el
+[temario de la UNED](https://portal.uned.es/portal/page?_pageid=93,53691653&_dad=portal&_schema=PORTAL&idGrado=7101).
+Me llama la atención en este temario que las "Pruebas de software" sean una asignatura optativa.
+Claramente la calidad no es tan importante para un ingeniero informático.
 
 Ahora vamos a profundizar un poco en cómo se regularía la profesión.
 Como bien dijo
