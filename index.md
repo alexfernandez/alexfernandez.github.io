@@ -48,6 +48,7 @@ Articles about stuff not related to software engineering.
 
 ## Artículos en español
 
+* 2016-08-12: [Sobre el intrusismo profesional en informática](2016/sobre-intrusismo-profesional.html)
 * 2016-06-07: [¿Cuánto costó el JSDayES 2016?](2016/cuanto-costo-jsdayes-2016.html)
 * 2015-12-28: [La arquitectura fluida 2: estrategias de migración](2015/arquitectura-fluida-2-estrategias-migracion.html)
 * 2015-12-27: [Ofertas de trabajo y salarios](2015/ofertas-salarios.html)
