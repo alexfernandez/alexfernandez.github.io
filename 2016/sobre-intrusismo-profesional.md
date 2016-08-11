@@ -29,9 +29,9 @@ Además de un 27% que se declaran intrusos.
 Estos resultados tan poco científicos
 parecen indicar que sólo la tercera parte
 (13% + 21% = 34%) cree que el intrusismo es o puede ser un problema,
-y menos de uno de cada siete está convencido de que lo es.
+y menos de uno de cada siete está convencido de que lo sea.
 Se trataría por tanto de una minoría muy vocal
-que tiene claro que es necesaria una regulación estricta,
+que ve clara la necesidad de una regulación estricta,
 como la que hay en otros sectores:
 medicina, arquitectura y otras ingenierías
 (ejemplos típicos que se suelen poner).
@@ -43,21 +43,23 @@ para recabar la opinión de los proponentes,
 con más detalle de lo que permite Twitter.
 
 Exactamente, ¿qué tipo de regulación se pide?
+Vamos a empezar con una cuestión más básica.
 ¿Realmente tenemos claro qué es el intrusismo?
 
 ### Qué es el intrusismo
 
-Muchos comentaristas insistían en que en Informática no hay intrusismo,
+Muchos comentaristas insisten en que en Informática no hay intrusismo,
 dado que no hay regulación.
 El intrusismo en sentido estricto se da sólo cuando un profesional no tiene cualificación
 para ejercer una profesión,
 y se entiende que hay una regulación que requiere esa cualificación.
-Hay casos claros como falsos médicos y abogados.
+Hay casos claros como las profesiones de medicina o arquitectura.
 Los estudios de medicina son famosos por la cantidad de títulos necesarios:
-la carrera de medicina, la especialización, y el MIR.
-Para ejercer la abogacía también es necesario estudiar derecho y colegiarse.
+como mínimo la carrera, la especialización y el MIR.
+Para ejercer la abogacía o la arquitectura también es necesario estudiar derecho y colegiarse.
+Por tanto, en estas profesiones se puede hablar de intrusismo con la bendición de la RAE.
 
-No creo que haga falta tanta precisión en este caso.
+No creo que haga falta tanta precisión en nuestro caso.
 Coloquialmente se entiende que hay "intrusismo" cuando hay unos estudios relacionados con una profesión,
 y gente sin esos estudios ejerce esa profesión.
 Profesiones con aspiraciones similares son el periodismo o la psicología.
