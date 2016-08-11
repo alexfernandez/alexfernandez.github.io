@@ -150,10 +150,10 @@ No parece importarles demasiado que hoy día cualquier algoritmo se resuelva con
 a lo sumo dos y un tutorial.
 También son claramente partidarios de unas herramientas bastante obsoletas,
 como son la estimación o la gestión de riesgos.
-Que por otra parte no aparecen por ningún lado en el
+Que por otra parte no aparecen por ningún lado en el propio
 [temario de la UNED](https://portal.uned.es/portal/page?_pageid=93,53691653&_dad=portal&_schema=PORTAL&idGrado=7101).
-Me llama la atención en este temario que las "Pruebas de software" sean una asignatura optativa.
-Claramente la calidad no es tan importante para un ingeniero informático.
+(Me llama mucho la atención en este temario que las "Pruebas de software" sean una asignatura optativa:
+claramente la calidad no es tan importante para un ingeniero informático.)
 
 Ahora vamos a profundizar un poco en cómo se regularía la profesión.
 Como bien dijo
