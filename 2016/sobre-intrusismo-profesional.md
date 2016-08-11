@@ -63,7 +63,7 @@ Por tanto, en estas profesiones se puede hablar de intrusismo con la bendición 
 No creo que haga falta tanta precisión en nuestro caso.
 Coloquialmente se entiende que hay "intrusismo" cuando hay unos estudios relacionados con una profesión,
 y gente sin esos estudios ejerce esa profesión.
-Profesiones con aspiraciones similares son el periodismo o la psicología.
+Profesiones con aspiraciones similares a la ingeniería informática son el periodismo o la psicología.
 Es interesante estudiar los matices de ambos casos.
 
 Los periodistas no creen pertinente que gente sin el título
@@ -71,7 +71,7 @@ salga en medios de comunicación dando noticias o haciendo entrevistas.
 Esto aplica sobre todo a famosos.
 Hoy día en que los blogs tienen más tirada que muchos periódicos,
 por no hablar de canales de Youtubers,
-es curioso pensar cómo se podría prohibir que gente sin el título
+puede ser ilustrativo pensar cómo se podría prohibir que gente sin el título
 publique contenido en internet.
 
 En el caso de la psicología se denuncian ciertas
