@@ -57,7 +57,8 @@ Hay casos claros como las profesiones de medicina o arquitectura.
 Los estudios de medicina son famosos por la cantidad de títulos necesarios:
 como mínimo la carrera, la especialización y el MIR.
 Para ejercer la abogacía o la arquitectura también es necesario estudiar derecho y colegiarse.
-Por tanto, en estas profesiones se puede hablar de intrusismo con la bendición de la RAE.
+Por tanto, en estas profesiones se puede hablar de intrusismo con la bendición de la
+[RAE](http://dle.rae.es/?id=M0ZIpJb).
 
 No creo que haga falta tanta precisión en nuestro caso.
 Coloquialmente se entiende que hay "intrusismo" cuando hay unos estudios relacionados con una profesión,
