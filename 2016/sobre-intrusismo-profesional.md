@@ -5,7 +5,7 @@ footer: Publicado el 2016-08-12, modificado el 2016-08-12.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito)
 ---
 
-![Escenario de la segunda edición de JSDayES](pics/jsdayes-2016.jpg "Foto de Fran Moya")
+![Los hermanos Wright, intrusos en la ingeniería aeronáutica](pics/wright-brothers.jpg "Bajada de http://www.biography.com/people/groups/the-wright-brothers")
 
 ## El intrusismo en la informática
 
