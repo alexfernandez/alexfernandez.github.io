@@ -69,8 +69,8 @@ Es interesante estudiar los matices de ambos casos.
 Los periodistas no creen pertinente que gente sin el título
 salga en medios de comunicación dando noticias o haciendo entrevistas.
 Esto aplica sobre todo a famosos.
-Hoy día en que los blogs tienen más tirada que muchos periódicos,
-por no hablar de canales de Youtubers,
+En un mundo en el que algunos blogs tienen más tirada que muchos periódicos,
+por no hablar de canales de Youtubers con más audiencia que la tele,
 puede ser ilustrativo pensar cómo se podría prohibir que gente sin el título
 publique contenido en internet.
 
