@@ -84,5 +84,5 @@ Please browse my [other projects](https://github.com/alexfernandez/). You can al
 ## Credits
 
 Original design is [Read Only](http://html5up.net/read-only), by [HTML5 UP](http://html5up.net).
-Heavily mutilated by myself.
+Heavily mutilated by [the author](https://twitter.com/pinchito).
 
