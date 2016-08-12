@@ -260,7 +260,11 @@ ponerle un lazo y entregarlo.
 Cada vez más el software es algo que evoluciona constantemente y que necesita actualizaciones constantes.
 
 ¿En qué momento plantaría su firma el Señor Ingeniero Informático?
-¿En cada release?
+¿En cada versión liberada?
+En mi trabajo
+(una pequeña startup de <20 personas)
+cambiamos el software de producción entre 5 y 10 veces al día;
+las grandes empresas de internet hacen cientos de releases diarias.
 Sería una forma bastante buena de asegurarse el pan durante años.
 Pero todo tiene una contrapartida.
 
