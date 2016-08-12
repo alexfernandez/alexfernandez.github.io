@@ -226,7 +226,8 @@ Node.js va por su versión 0.6.
 Si la situación cambiara,
 en todo caso tendría que ser a liberalizar otras profesiones.
 Es obligatorio recordar que el primer avión lo diseñaron
-[los dueños de un taller de bicicletas sin estudios](https://en.wikipedia.org/wiki/Wright_brothers).
+[los dueños de un taller de bicicletas](https://en.wikipedia.org/wiki/Wright_brothers)
+que no terminaron secundaria.
 No es complicado aprender a usar un programa que diseñe perfiles de avión,
 y tener un título no garantiza realmente nada.
 No, tristemente esos "conocimientos mínimos"
