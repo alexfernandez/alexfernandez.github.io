@@ -329,12 +329,11 @@ liberalizar las profesiones que no requieren unos estudios específicos.
 Incluso en los estudios,
 las carreras de ingeniería informática
 [no están reguladas](http://www.malagahoy.es/article/malaga/283253/ingenieros/informaticos/se/manifiestan/hoy/contra/intrusismo/laboral.html).
-Además,
-el gobierno ha ignorado
+
+Por ahora el gobierno ha ignorado
 [una y otra vez](http://www.elconfidencial.com/tecnologia/2016-06-17/ingenieria-informatica-espana-huelga_1218927/)
 las aspiraciones de los ingenieros informáticos.
-
-Pero siempre puede llegar un iluminado al gobierno y ganarse cuatro votos a través de los colegios informáticos.
+Pero siempre puede llegar un iluminado al gobierno y ganarse unos cuantos votos a través de los colegios informáticos.
 Esperemos que este momento no llegue nunca.
 
 ## Conclusión
