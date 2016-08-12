@@ -5,9 +5,9 @@ footer: Publicado el 2016-08-12, modificado el 2016-08-12.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito)
 ---
 
-![Los hermanos Wright, intrusos en la ingeniería aeronáutica](pics/wright-brothers.jpg "Bajada de http://www.biography.com/people/groups/the-wright-brothers")
+![Los hermanos Wright, intrusos en ingeniería aeronáutica](pics/wright-brothers.jpg "Bajada de http://www.biography.com/people/groups/the-wright-brothers")
 
-## El intrusismo en la informática
+## El intrusismo en informática
 
 Algunas profesiones están reguladas por ley,
 y no se pueden ejercer sin el título correspondiente.
