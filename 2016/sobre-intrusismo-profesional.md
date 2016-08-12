@@ -211,6 +211,17 @@ Diseñar el perfil de un ala de avión requiere cuidadosos cálculos
 que no todo el mundo es capaz de hacer.
 Además, la profesión no cambia radicalmente cada diez años,
 como la nuestra.
+Por su parte,
+el desarrollo de software se puede aprender perfectamente de forma autodidacta,
+ya que hay recursos infinitos en internet.
+Por más intentos que se hagan,
+la carrera está obsoleta en el mismo momento de empezarla,
+ya que mientras se elaboran y aprueban los planes de estudio
+la tecnología ha cambiado de arriba abajo.
+¿Os imagináis lo que pasaría si aprendiérais a programar JavaScript sólo con la tecnología más en boga
+[hace cinco años](http://www.desarrolloweb.com/de_interes/ranking-navegadores-enero-2011-4746.html)?
+Estamos hablando de Explorer 8, Firefox 3.6 y Chrome 8;
+Node.js va por su versión 0.6.
 
 Si la situación cambiara,
 en todo caso tendría que ser a liberalizar otras profesiones.
@@ -223,7 +234,7 @@ de los que hablan los que apoyan la regulación
 no están garantizados por ningún título.
 Al igual que no te fías de un médico al azar
 o de un abogado que encuentras en las páginas amarillas,
-probablemente no deberías fiarte del primer ingeniero que te encuentres.
+probablemente no deberías fiarte del primer ingeniero aeronáutico que te encuentres.
 
 ### Firma de proyectos
 
