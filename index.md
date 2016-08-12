@@ -46,6 +46,12 @@ Articles about stuff not related to software engineering.
 
 * 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
 
+## Public Talks
+
+* 2016-07-15: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
+* 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
+* 2014-01-25: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
+
 ## Artículos en español
 
 * 2016-08-12: [Sobre el intrusismo profesional en informática](2016/sobre-intrusismo-profesional.html)
@@ -62,6 +68,14 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 * 2013-08-27: [Pruebas de carga](2013/pruebas-de-carga.html)
 * 2013-07-27: [Modo cluster para node.js](2013/modo-cluster.html)
 * 2013-07-11: [Pruebas asíncronas en node.js](2013/pruebas-asincronas.html)
+
+## Charlas en español
+
+* 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
+* 2015-11-27: [La arquitectura fluida](https://www.youtube.com/watch?v=QaX-rTwO7aw)
+* 2015-05-09: [Charla motivacional](https://www.youtube.com/watch?v=uGtlyDmttq0)
+* 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
+* 2014-04-23: [node.js: ¿rápido como el rayo?](http://medialab-prado.es/article/nodejs)
 
 ## And Now for Something Not Quite Alike
 
