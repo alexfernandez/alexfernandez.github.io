@@ -52,6 +52,11 @@ Articles about stuff not related to software engineering.
 * 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
 * 2014-01-25: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
 
+Note: I have spoken at
+[a few more events](http://lanyrd.com/pinchito),
+but the talks were sadly not always published.
+Check out [my presentations](http://slides.com/alexfernandez/) for a quick fix.
+
 ## Artículos en español
 
 * 2016-08-12: [Sobre el intrusismo profesional en informática](2016/sobre-intrusismo-profesional.html)
@@ -79,7 +84,7 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 
 ## And Now for Something Not Quite Alike
 
-Please browse my [other projects](https://github.com/alexfernandez/). You can also see [my presentations](http://slides.com/alexfernandez/) for a quick fix.
+Please browse my [other projects](https://github.com/alexfernandez/).
 
 ## Credits
 
