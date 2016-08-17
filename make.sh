@@ -29,6 +29,7 @@ pandoc --template read-only.html -s 2016/stridercd.md -o 2016/stridercd.html
 pandoc --template read-only.html -s 2016/nginx-balancer.md -o 2016/nginx-balancer.html
 pandoc --template read-only.html -s 2016/build-or-not.md -o 2016/build-or-not.html
 pandoc --template read-only.html -s 2016/mib-five-years-later.md -o 2016/mib-five-years-later.html
+pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 
 # Español
 pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html
