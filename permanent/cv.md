@@ -232,7 +232,8 @@ I even got to learn a bit of C++ and Objective-C
 ### Teaching
 
 The next step was to teach young talent,
-something I have been doing since 2000 when I was sent to Morocco to train new programmers.
+something I have been doing (and enjoyed)
+since 2000 when I was sent to Morocco to train new programmers for IECISA.
 
 I have participated in several editions of
 [IronHack](https://www.ironhack.com/),
@@ -241,6 +242,7 @@ I was responsible for the JavaScript week.
 
 I have also recorded several online courses,
 and taught a few face-to-face courses too.
+Lately they have been mostly about JavaScript and Node.js.
 
 ## Contact
 
