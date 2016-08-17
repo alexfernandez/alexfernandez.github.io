@@ -108,8 +108,11 @@ I worked as a freelancer for Kimia
 writing a PHP backend and an Android app,
 while my friend [Diego Lafuente](https://twitter.com/tufosa)
 wrote the iOS version.
+
 I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
+In fact I have worked for several large companies,
+here is [one interesting story](../2016/stridercd.html)
 
 ### 2013-01 to Present: MediaSmart Mobile
 
@@ -241,8 +244,7 @@ and taught a few face-to-face courses too.
 
 ## Contact
 
-If you have an engagement
-feel free to contact me at
+If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
 Note to recruiters: I am not looking for a job change right now.
 
