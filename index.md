@@ -50,12 +50,23 @@ Articles about stuff not related to software engineering.
 
 * 2016-07-15: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
 * 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
+* 2014-11-18: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
 * 2014-01-25: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
 
 Note: I have spoken at
-[a few more events](http://lanyrd.com/pinchito),
+[a few more events](http://lanyrd.com/profile/pinchito/sessions/),
 but the talks were sadly not always published.
 Check out [my presentations](http://slides.com/alexfernandez/) for a quick fix.
+
+## CV
+
+In case you are interested about my past experience,
+[here you go](permanent/cv.html).
+I sometimes take short-term engagements
+such as teaching courses,
+giving private talks or freelancing for a few days
+on an interesting project.
+Note to recruiters: I am not interested in a job change right now.
 
 ## Artículos en español
 
