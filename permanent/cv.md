@@ -225,7 +225,7 @@ which is a great experience when you want to optimize a program
 to its last consequences.
 But it was already feeling its age in 1996.
 So I got hold of an amazing Apple PowerMac 7500,
-and used to learn Pascal, Perl and C.
+and used it to learn Pascal, Perl and C.
 I even got to learn a bit of C++ and Objective-C
 (back when it was not fashionable).
 
