@@ -5,7 +5,7 @@ footer: Published on 2016-08-17, last edited on 2016-08-17.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![My visage](pics/profile.jpg "Alex Fernández")
+![My visage while I am at work](pics/profile.jpg "Alex Fernández")
 
 A few months ago I deleted my LinkedIn account,
 after the disgraceful password leak
@@ -14,6 +14,7 @@ In its place I have collected my professional experience in this page.
 Instead of just listing months and positions
 I will try to narrate my story.
 Thus the unconventional "from past to present" structure.
+It is a bit longer but far more entertaining, I hope.
 
 ## Job History
 
