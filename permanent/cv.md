@@ -116,14 +116,14 @@ here is [one interesting story](../2016/stridercd.html)
 
 ### 2013-01 to Present: MediaSmart Mobile
 
-Since the start of 2013 I work full time for [MediaSmart Mobile](http://mediasmart.es/).
-At the time they were facing an amazing challenge of scalability
+Since the beginning of 2013 I work full time for [MediaSmart Mobile](http://mediasmart.es/).
+At the time they were facing a major scalability challenge
 and I could not reject the offer.
 In fact we have grown from processing two thousand requests per second
 to more than 300 thousand in little more than three years.
 
-I work with a great team,
-and we are doing great things together.
+I work with a great team and we are doing great things together,
+successfully competing at an international level.
 When I joined I thought I knew some Node.js,
 and I have to say that I was a bit optimistic.
 Since then we have tortured the V8 engine
@@ -141,11 +141,22 @@ But, as befits a small startup,
 I also do lots of other things such as backend development
 and DevOps.
 
-I am telecommuting full time and with flexible hours,
+I am telecommuting full time:
+I go to the office mostly for Monday meetings.
+I also work flexible hours,
 which allows me to take care of my daughter when needed and at the same time
-use my most productive hours working,
-or take care of a crisis at ungodly hours.
+use my most productive hours working.
+I also gladly take care of a crisis at ungodly hours.
 It is a win-win situation!
+
+### Toolset
+
+I have used many dev environments including IDEs such as NetBeans or Eclipse.
+Right now I use a minimalistic environment which consists of a Bash console
+and the `vim` editor.
+(If you use `nano` or `ed` you can question the "minimalistic" bit.)
+This allows me to be as productive in a remote SSH connection as locally,
+which may not be saying much.
 
 ## Volunteer Work
 
@@ -191,11 +202,13 @@ which have been very well received by the JS communities in Spain.
 
 I learned programming when I was 10,
 even before I had a computer:
-I wrote my Spectrum BASIC programs on paper
-and run to the house of a friend who had a Spectrum
-to write and run them.
-When I got my own Amstrad CPC 6128 I wrote a lot of programs
-in the included BASIC interpreter,
+I wrote stupid BASIC programs on paper
+and run to the house of my friend
+[Carlos](https://twitter.com/zuiko21)
+who had a ZX Spectrum,
+to enter them and run them.
+When I got my own Amstrad CPC 6128 a couple of years later
+I wrote a lot of programs in the included BASIC interpreter,
 and even some using Z80 assembler.
 
 ### University
@@ -211,8 +224,8 @@ and then moved to the Universidad Autónoma de Madrid
 to finish the last two years.
 It would have been nice to follow the program set by Wheeler to rewrite all of Physics using information theory,
 or ["it from bit"](http://www.physicsoftheuniverse.com/scientists_wheeler.html).
-But alas, it was not to be.
 
+But alas, it was not to be.
 Instead I graduated in February 1996 and life led me elsewhere.
 
 ### More Programming
@@ -223,6 +236,7 @@ using GFA Basic and a desktop publishing system called Calamus.
 I also learned 68000 assembler,
 which is a great experience when you want to optimize a program
 to its last consequences.
+Being in control of every processor cycle is lots of fun!
 But it was already feeling its age in 1996.
 So I got hold of an amazing Apple PowerMac 7500,
 and used it to learn Pascal, Perl and C.
