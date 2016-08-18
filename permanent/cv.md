@@ -5,7 +5,7 @@ footer: Published on 2016-08-17, last edited on 2016-08-17.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![My visage while I am at work](pics/profile.jpg "Alex Fernández")
+![My visage while at work](pics/profile.jpg "Alex Fernández")
 
 A few months ago I deleted my LinkedIn account,
 after the disgraceful password leak
