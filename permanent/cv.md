@@ -1,16 +1,13 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2016-08-17.
+footer: Published on 2016-08-17, last edited on 2016-08-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
 ![My visage while at work](pics/profile.jpg "Alex Fernández")
 
-A few months ago I deleted my LinkedIn account,
-after the disgraceful password leak
-and the Microsoft buyout.
-In its place I have collected my professional experience in this page.
+I have collected my professional experience in this page.
 Instead of just listing months and positions
 I will try to narrate my story.
 Thus the unconventional "from past to present" structure.
@@ -257,6 +254,36 @@ I was responsible for the JavaScript week.
 I have also recorded several online courses,
 and taught a few face-to-face courses too.
 Lately they have been mostly about JavaScript and Node.js.
+
+## Rationale
+
+Why this page?
+A few months ago I deleted my LinkedIn account.
+I had been using LinkedIn as my online CV for many years.
+This decision was probably not the best,
+given that it consumed some time every week to read its endless stream of notifications
+and keep up with obnoxious updates and inane corporate self-help.
+I hardly got any valuable contracts via LinkedIn,
+just lots of recruiters I was not interested in.
+The few interesting offers I have received
+in recent times
+(from the likes of Amazon and Facebook)
+came by mail.
+
+The disgraceful password leak and the Microsoft buyout were just the last straw.
+I do not want a single tech giant controlling my CV,
+and above all *I do not trust any company that
+[misplace my password](http://arstechnica.com/security/2016/06/how-linkedins-password-sloppiness-hurts-us-all/)*.
+Apparently they do not even know the
+[extent of the leak](https://blog.linkedin.com/2016/05/18/protecting-our-members),
+which is the sure sign of a severe mishandling of an incident.
+
+You may argue that GitHub now owns my CV, but there is a clear difference:
+it is now only _published_ on GitHub,
+but the repo is cloned on my own computers.
+I could replicate it on any hosted server in minutes.
+I firmly believe that people should own their own data.
+So take that as a "personal interest" for my CV.
 
 ## Contact
 
