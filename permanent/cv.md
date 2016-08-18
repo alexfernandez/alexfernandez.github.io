@@ -129,7 +129,7 @@ wrote the iOS version.
 I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
 In fact I have worked for several large companies,
-here is [one recent story](../2016/stridercd.html)
+here is [one recent story](../2016/stridercd.html).
 
 ### 2013-01 to Present: MediaSmart Mobile
 
