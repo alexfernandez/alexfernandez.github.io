@@ -63,13 +63,19 @@ an European project for sharing personal documentation across Europe.
 
 It was cool to cooperate with several companies and institutions from all over Europe.
 As part of my job I attended several conferences and even presented a couple of European projects in academic circles.
-I also got to travel a lot which was nice for a while.
-Then it gets tiring.
+I also got to travel a lot which was nice, for a while.
+Then it got tiring.
+Then the European projects dried out.
+Ibermática was at its heart a consulting company
+(read: part of the semi-legal meat market),
+and it was beginning to show.
+Combined with the sudden lack of research projects it was a good reason to leave.
 
 ### 2005-03 to 2007-02: Consultant at Matchmind
 
+I joined a medium-sized IT consulting company.
 I was subcontracted out to ISBAN, part of Banco Santander.
-There I was part of the team that created BankSphere,
+There I was part of the team that developed BankSphere,
 a much-maligned tool for task automation.
 Creating it was lots of fun though:
 it was a series of Eclipse plugins wrote in Java,
@@ -77,8 +83,17 @@ which allowed users to write JavaScript components.
 In retrospect it was quite advanced for its time,
 although I stayed clear of the JavaScript parts.
 
+During the last few months at Matchmind I worked for Leroy Merlin.
+Then I left, and for a few months joined Indra
+(probably the largest Spanish IT consulting company)
+on a very ambitious project to migrate all of the infrastructure of Caja Madrid
+(a largish public bank, now part of Bankia). 
+But the project was not moving at all and it was quite boring.
+
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
+After so many years at consulting companies,
+joining a "final client" was a breakthrough.
 I was hired as an analyst,
 coordinating a group of 3 to 10 developers.
 For the last couple of years I was a project manager,
@@ -86,6 +101,7 @@ and technical lead for financial cards.
 During my four years there I learned to communicate with non-technical parties,
 and to coordinate disparate teams for a common goal.
 
+We did many interesting projects.
 Truth be told, I sorely missed technical work,
 so at the first opportunity I went back to hard-core software development in anger.
 
@@ -97,9 +113,9 @@ so I will not repeat everything.
 Suffice to say that I learned PHP
 and had my first heavy-duty contact with JavaScript,
 learning to love both despite their quirks.
-Also, I managed a team of 3 to 5 people
-building an amazing product that ultimately failed to find its market,
-and had a great time working with great people.
+Also, I managed a team of 3 to 6 people
+building an amazing product that ultimately failed to find its market.
+I definitely had a great time working with great people.
 
 ### 2012-08 to 2012-12: Freelancer
 
@@ -113,7 +129,7 @@ wrote the iOS version.
 I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
 In fact I have worked for several large companies,
-here is [one interesting story](../2016/stridercd.html)
+here is [one recent story](../2016/stridercd.html)
 
 ### 2013-01 to Present: MediaSmart Mobile
 
@@ -128,12 +144,12 @@ successfully competing at an international level.
 When I joined I thought I knew some Node.js,
 and I have to say that I was a bit optimistic.
 Since then we have tortured the V8 engine
-in ways that I did not even dream back then.
+in ways that I could not even dream back then.
 
 I have also learned a bit of Erlang and Go,
 which we use for certain subsystems.
 My Erlang code is not in production, while my Go code is.
-Those two facts say a lot more about me than about Erlang or Go.
+This last sentence says a lot more about me than about Erlang or Go.
 
 My job includes math puzzles and lots of equations,
 and we handle huge amounts of data,
@@ -150,15 +166,6 @@ use my most productive hours working.
 I also gladly take care of a crisis at ungodly hours.
 It is a win-win situation!
 
-### Toolset
-
-I have used many dev environments including IDEs such as NetBeans or Eclipse.
-Right now I use a minimalistic environment which consists of a Bash console
-and the `vim` editor.
-(If you use `nano` or `ed` you can question the "minimalistic" bit.)
-This allows me to be as productive in a remote SSH connection as locally,
-which may not be saying much.
-
 ## Volunteer Work
 
 Paid work is not everything;
@@ -170,7 +177,7 @@ My projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
 The most popular at 541 stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
-a library for load testing web applications.
+a Node.js library for load testing web applications.
 
 I was a volunteer admin project at Savannah (part of the GNU project)
 from 2008 to 2010.
@@ -181,11 +188,13 @@ In 2013 I started doing public talks,
 the very first to a crowded room for
 [MadridJS](http://www.meetup.com/es-ES/madridjs/events/105582592/).
 
-I also give
-[talks](http://lanyrd.com/profile/pinchito/sessions/)
+I like to give
+[public talks](http://lanyrd.com/profile/pinchito/sessions/)
 every once in a while.
 I consider them to be volunteer work since I am not paid,
-although I get to attend amazing conferences and meet interesting people.
+although I get to attend amazing conferences.
+They are an excellent opportunity to learn how to speak in public
+and meet interesting people.
 
 ### Organizations
 
@@ -205,8 +214,8 @@ I learned programming when I was 10,
 even before I had a computer:
 I wrote stupid BASIC programs on paper
 and run to the house of my friend
-[Carlos](https://twitter.com/zuiko21)
-who had a ZX Spectrum,
+[Carlos](https://twitter.com/zuiko21),
+who owned a ZX Spectrum,
 to enter them and run them.
 When I got my own Amstrad CPC 6128 a couple of years later
 I wrote a lot of programs in the included BASIC interpreter,
@@ -214,18 +223,17 @@ and even some using Z80 assembler.
 
 ### University
 
-I loved computers and I loved science,
-so when 
-I studied Physics,
-with the idea that I could learn computers on my own
-but self-taught science would be much harder.
+I loved computers and I loved science.
+When I went to the Uni I studied Physics,
+with the idea that I could learn computers on my own,
+while self-taught science would be much harder.
 I was more or less right.
 From 1989 to 1993 I studied in Granada,
 and then moved to the Universidad Autónoma de Madrid
 to finish the last two years.
+
 It would have been nice to follow the program set by Wheeler to rewrite all of Physics using information theory,
 or ["it from bit"](http://www.physicsoftheuniverse.com/scientists_wheeler.html).
-
 But alas, it was not to be.
 Instead I graduated in February 1996 and life led me elsewhere.
 
@@ -241,7 +249,7 @@ Being in control of every processor cycle is lots of fun!
 But it was already feeling its age in 1996.
 So I got hold of an amazing Apple PowerMac 7500,
 and used it to learn Pascal, Perl and C.
-I even got to learn a bit of C++ and Objective-C
+I even got to learn a bit of C++ and even some Objective-C
 (back when it was not fashionable).
 
 ### Teaching
@@ -259,13 +267,37 @@ I have also recorded several online courses,
 and taught a few face-to-face courses too.
 Lately they have been mostly about JavaScript and Node.js.
 
-## Rationale
+## Other Useful Info
+
+Not everything fits into a "job history" or "education" narrative.
+Here are some other bits you may find interesting.
+
+### Toolset
+
+I have used many dev environments including IDEs such as NetBeans or Eclipse.
+Right now I use a minimalistic environment which consists of a Bash console
+and the `vim` editor.
+(If you use `nano` or `ed` you can question the "minimalistic" bit.)
+This allows me to be as productive in a remote SSH connection as locally,
+which may not be saying much, but there it is.
+
+My OS of choice is Debian, and my desktop is XFCE.
+Ubuntu for servers is nice too,
+and Mac laptops are great machines with a Unix console.
+
+I have programmed professionally using C, Java,
+PHP, JavaScript, Node.js and now Go.
+I have lots of fun learning a new language or environment,
+although I may
+[get grumpy](../2016/golang-adventures.html) in the process.
+
+### Rationale
 
 Why this page?
 A few months ago I deleted my LinkedIn account.
-I had been using LinkedIn as my online CV for many years.
-This decision was probably not the best,
-given that it consumed some time every week to read its endless stream of notifications
+I had been using it as my online CV for many years,
+which in retrospect was not a great decision:
+it consumed some time every week to read its endless stream of notifications
 and keep up with obnoxious updates and inane corporate self-help.
 I hardly got any valuable contracts via LinkedIn,
 just lots of recruiters I was not interested in.
@@ -289,7 +321,7 @@ I could replicate it on any hosted server in minutes.
 I firmly believe that people should own their own data.
 So take that as a "personal interest" for my CV.
 
-## Contact
+### Contact
 
 If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
