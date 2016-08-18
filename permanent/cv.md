@@ -13,6 +13,10 @@ I will try to narrate my story.
 Thus the unconventional "from past to present" structure.
 It is a bit longer but far more entertaining, I hope.
 
+Dates are in
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+format: August 2016 is 2016-08.
+
 ## Job History
 
 I have 20 years of professional experience related to software development.
