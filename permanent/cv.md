@@ -134,7 +134,7 @@ here is [one recent story](../2016/stridercd.html).
 ### 2013-01 to Present: MediaSmart Mobile
 
 Since the beginning of 2013 I work full time for [MediaSmart Mobile](http://mediasmart.es/).
-At the time they were facing a major scalability challenge
+Before I joined the company was facing a major scalability challenge
 and I could not reject the offer.
 In fact we have grown from processing two thousand requests per second
 to more than 300 thousand in little more than three years.
