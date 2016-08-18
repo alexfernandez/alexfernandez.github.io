@@ -71,7 +71,7 @@ Ibermática was at its heart a consulting company
 and it was beginning to show.
 Combined with the sudden lack of research projects it was a good reason to leave.
 
-### 2005-03 to 2007-02: Consultant at Matchmind
+### 2005-03 to 2007-07: Consultant at Matchmind and Indra
 
 I joined a medium-sized IT consulting company.
 I was subcontracted out to ISBAN, part of Banco Santander.
@@ -88,7 +88,7 @@ Then I left, and for a few months joined Indra
 (probably the largest Spanish IT consulting company)
 on a very ambitious project to migrate all of the infrastructure of Caja Madrid
 (a largish public bank, now part of Bankia). 
-But the project was not moving at all and it was quite boring.
+But after a few months the project was not advancing at all and it was quite boring.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
