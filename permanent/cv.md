@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2016-08-18.
+footer: Published on 2016-08-17, last edited on 2016-08-22.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
