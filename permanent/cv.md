@@ -13,14 +13,19 @@ I will try to narrate my story.
 Thus the unconventional "from past to present" structure.
 It is a bit longer but far more entertaining, I hope.
 
-Dates are in
-[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
-format: August 2016 is 2016-08.
+## TL;DR
+
+A developer with 20 years of experience proficient in Node.js and JavaScript,
+specialized in scalability and DevOps.
 
 ## Job History
 
 I have 20 years of professional experience related to software development.
 Bear with me while we go over them.
+
+Dates are in
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+format: August 2016 is 2016-08.
 
 ### 1996 to 1998: Intern at Plataforma Solar de Almería
 
