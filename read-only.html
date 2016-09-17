@@ -85,6 +85,14 @@
 										<h1>$title$</h1>
 										<p>$subtitle$<p>
 									</header>
+										$if(toc)$
+											<div id="$idprefix$TOC">
+												$if(toctitle)$
+													<h2 id="$idprefix$toctitle">$toctitle$</h2>
+												$endif$
+											$toc$
+											</div>
+										$endif$
 										$body$
 								</div>
 							</section>
