@@ -18,9 +18,13 @@ just so you know where I am coming from.
 
 ## Advice For The Novice
 
+So you are starting in our noble and worthy profession,
+or maybe haven't even started yet but want to get in
+for the fame and riches.
+
 ### Is Attending University Worth It?
 
-The developer profession here in Spain is taught in "ingeniería informática",
+The profession of software developer here in Spain is taught in "ingeniería informática",
 which is an adaptation of the french term
 ["ingénierie informatique"](https://fr.wikipedia.org/wiki/G%C3%A9nie_informatique).
 
@@ -40,7 +44,24 @@ Here is [my take (in Spanish)](http://alexfernandez.github.io/2016/sobre-intrusi
 I have always wondered how you would forbid other people from developing software.
 Apparently software engineers want the exclusive right to sign software projects.
 
+Many fine developers have just studied secondary school,
+and maybe earned a title in vocational education and training.
+
 ### Bootcamps
+
+It is a great day for software development:
+our skills are in such high demand that many cool companies are willing to take in
+people that have learned the basics of our profession in about 8 weeks.
+They are not cheap though.
+
+They are not just for outsiders.
+I have met quite a few people that were already working as developers,
+and just wanted to recycle themselves.
+
+### Life As A Junior
+
+If you are a junior developer at a company,
+you want to be sure that there are really senior people you can learn from.
 
 ## Get Ahead Of The Curve
 
@@ -67,7 +88,8 @@ by the
 > national mean average (£581 per week).
 
 Perhaps developer quality is similarly skewed.
-How can we measure developer quality?
+But first we need to ask an uncomfortable question:
+how can we measure developer quality?
 
 ### Distribution Of Good Developers
 
@@ -76,7 +98,7 @@ How can we measure developer quality?
 > Why the #@&! would I want to leave my comfort zone?
 Do these people even know what "comfort" means?
 
-Source: [\@zezenzuska](https://twitter.com/zezenzuska/status/639350587730100225?lang=es).
+Translated from [\@zezenzuska](https://twitter.com/zezenzuska/status/639350587730100225?lang=es).
 
 Instead of vague feely-goody sentences,
 we may offer concrete advice.
@@ -126,6 +148,13 @@ keep costs below a certain mark,
 or connect to a server within a latency number.
 
 ### The Myth Of The 10x Engineer
+
+Many years ago, some people did a few programming tests,
+and found out that certain developers finished their assignments ten times faster than the average.
+
+I recommend this great article:
+[Hacker Mythologies and Mismanagement](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement),
+by Betsy Haibel.
 
 ### Let The World Know
 
