@@ -11,14 +11,34 @@ So you want to become a better developer?
 No matter what your current status is,
 this simple guide will give you a few tips to help you improve.
 
-<div style="color:#636;border:thin solid #636">
+<p style="color:#636; border:thin solid #c9c">
 I will include my personal experiences in colored boxes like this one,
 just so you know where I am coming from.
-</div>
+</p>
 
 ## Advice For The Novice
 
 ### Is Attending University Worth It?
+
+The developer profession here in Spain is taught in "ingeniería informática",
+which is an adaptation of the french term
+["ingénierie informatique"](https://fr.wikipedia.org/wiki/G%C3%A9nie_informatique).
+
+<p style="color:#636; border:thin solid #c9c">
+I studied physics,
+under the notion that I could learn how to program by myself,
+but I would never get to learn science properly if I studied computers.
+I believe I was basically right:
+it was one of the few good decisions I made as a teenager.
+I don't think that studying software engineering is useless;
+it's probably fine for most people.
+</p>
+
+There has been an ongoing debate in Spain for many years about
+unauthorized practice in software engineering.
+Here is [my take (in Spanish)](http://alexfernandez.github.io/2016/sobre-intrusismo-profesional.html).
+I have always wondered how you would forbid other people from developing software.
+Apparently software engineers want the exclusive right to sign software projects.
 
 ### Bootcamps
 
@@ -56,7 +76,7 @@ How can we measure developer quality?
 > Why the #@&! would I want to leave my comfort zone?
 Do these people even know what "comfort" means?
 
-Source: [@zezenzuska](https://twitter.com/zezenzuska/status/639350587730100225?lang=es).
+Source: [\@zezenzuska](https://twitter.com/zezenzuska/status/639350587730100225?lang=es).
 
 Instead of vague feely-goody sentences,
 we may offer concrete advice.
@@ -118,13 +138,13 @@ It is a great way to attend amazing events for free!
 Even if you are at the top of the game,
 in our industry there are no guarantees.
 
-<font color="#303">
+<p style="color:#636; border:thin solid #c9c">
 About five years ago I left my job at ING Direct Spain
 after four years as a project manager.
 At that point I [co-founded a startup](http://alexfernandez.github.io/2016/mib-five-years-later.html)
 that ultimately went nowhere,
 but allowed me to recycle myself starting to program again.
-</font>
+</p>
 
 Just look at what the tech landscape looked like five years ago.
 In 2011 containers were the realm of VMWare:
@@ -143,6 +163,13 @@ Node.js was at
 Meanwhile [Java 7 was just released](https://en.wikipedia.org/wiki/Java_%28programming_language%29#Versions)
 but not widely adopted
 (and [Oracle had just bought Sun](https://en.wikipedia.org/wiki/Sun_acquisition_by_Oracle) a year ago).
+
+If you want to have a long and prosperous career you can either look for some obscure niche
+where there is no competition
+(think COBOL programmers today),
+or update your skills constantly.
+
+One of my favorite stories was of a mainframe programmer.
 
 ### Teach Others
 
