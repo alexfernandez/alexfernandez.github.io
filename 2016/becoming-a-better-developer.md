@@ -151,10 +151,19 @@ or connect to a server within a latency number.
 
 Many years ago, some people did a few programming tests,
 and found out that certain developers finished their assignments ten times faster than the average.
+From there a myth has been derived that says that certain engineers are
+ten times better than average.
 
-I recommend this great article:
-[Hacker Mythologies and Mismanagement](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement),
-by Betsy Haibel.
+In the words of Betsy Haibel in
+[Hacker Mythologies and Mismanagement](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement):
+
+> The myth of the 10x engineer is derived from a game of telephone:
+> a 1968 study by Sackman, Erikson, and Grant,
+> briefly quoted in one chapter of Frederick Brooks’s The Mythical Man-Month.
+> This study found order-of-magnitude differences in programmer productivity on some narrow measures,
+> but was also methodologically flawed.
+
+It is a great article and I cannot recommend it more.
 
 ### Let The World Know
 
