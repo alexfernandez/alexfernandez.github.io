@@ -1,7 +1,7 @@
 ---
-title: 'Becoming A Better Developer'
-subtitle: 'The Subtle Path To Enlightenment'
-footer: Published on 2016-09-18, last edited on 2016-09-18.
+title: 'The Search For The 10x Engineer'
+subtitle: 'But Do They Really Exist, And Can They Be Captured?'
+footer: Published on 2016-09-24, last edited on 2016-09-24.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
