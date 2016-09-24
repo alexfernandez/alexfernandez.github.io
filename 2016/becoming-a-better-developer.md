@@ -126,7 +126,7 @@ Fred Brooks writes in the classic "The Mythical Man-Month":
 
 DeMarco and Lister found huge differences in productivity in an inter-company competition.
 
-![DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)](pics/moveinblue.jpg "Time to complete")
+![Time to complete a programming task.](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)](pics/demarcolistertimetocomplete.gif "DeMarco and Lister: Peopleware (2nd edition), 1999, via ")
 
 See how most people are below the average?
 Gradually people realized that there were huge differences in productivity between developers.
