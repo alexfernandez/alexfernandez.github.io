@@ -126,7 +126,7 @@ Fred Brooks writes in the classic "The Mythical Man-Month":
 
 DeMarco and Lister found huge differences in productivity in an inter-company competition.
 
-![Time to complete a programming task. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [webfoot](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)).](pics/demarcolistertimetocomplete.gif "Time to complete a programming task.")
+![Time to complete a programming task. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [webfoot](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolistertimetocomplete.gif "Minimum is 100 minutes, average 200, maximum 900.")
 
 See how most people are below the average?
 Gradually people realized that there were huge differences in productivity between developers.
