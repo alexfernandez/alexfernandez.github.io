@@ -30,7 +30,6 @@ pandoc --template read-only.html -s 2016/nginx-balancer.md -o 2016/nginx-balance
 pandoc --template read-only.html -s 2016/build-or-not.md -o 2016/build-or-not.html
 pandoc --template read-only.html -s 2016/mib-five-years-later.md -o 2016/mib-five-years-later.html --toc -V toctitle:'Contents'
 pandoc --template read-only.html -s 2016/becoming-a-better-developer.md -o 2016/becoming-a-better-developer.html
-pandoc --template read-only.html -s 2016/10x-engineer.md -o 2016/10x-engineer.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 
 # Español
