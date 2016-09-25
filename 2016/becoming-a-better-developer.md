@@ -24,7 +24,7 @@ I will include my personal experiences in colored boxes like this one.
 
 * [Start Me Up](#start-me-up)
 * [Advice For The Novice](#advice-for-the-novice)
-* [Ahead Of The Curve](#ahead-of-the-curve)
+* [Get Ahead Of The Curve](#get-ahead-of-the-curve)
 * [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop)
 
 
@@ -114,7 +114,7 @@ it may require lots of changes,
 but in the end you will solve it.
 Or someone else if you give up!
 
-## Ahead Of The Curve
+## Get Ahead Of The Curve
 
 Now let us consider the next step.
 You have been in the industry for a few years,
@@ -191,11 +191,11 @@ You cannot be a top developer by just being a generalist.
 [derived](https://en.wiktionary.org/wiki/engineer#Etymology)
 from latin _ingenium_ (cleverness).
 
-* A **programmer** is tasked with writing a program,
+* A *programmer* is tasked with writing a program,
 supposedly starting with a detailed specification.
-* A **developer** has wider responsibilities:
+* A *developer* has wider responsibilities:
 create a software system that solves a certain problem.
-* An **engineer** is tasked with devising a solution to a necessity.
+* An *engineer* is tasked with devising a solution to a necessity.
 
 ### Bring Me Problems, Not Solutions
 
@@ -225,19 +225,21 @@ So you are finally what we may call
 
 There is a [huge controversy](http://www.ybrikman.com/writing/2013/09/29/the-10x-developer-is-not-myth/)
 surrounding the idea of 10x engineers.
-The problem is not with the findings themselves;
-those initial studies that we quoted above were complemented by
+The problem is not with the findings themselves.
+The first study quoted by Fred Brooks had serious problems,
+for instance: they measured time for *debugging*,
+not time for *programming*.
+But those initial studies quoted above have been complemented by
 [a few more](http://www.construx.com/10x_Software_Development/Origins_of_10X_%E2%80%93_How_Valid_is_the_Underlying_Research_/),
 and they all point to the same direction:
 there are 10x differences between the best and the worst developers.
 
 No, the trouble lies in the new interpretation:
-that some engineers are **10 times more productive than the average**.
-
-Many years ago, some people did a few programming tests,
-and found out that certain developers finished their assignments ten times faster than the average.
-From there a myth has been derived that says that certain engineers are
-ten times better than average.
+that some engineers are *10 times more productive than the average*.
+This is not upheld by any studies.
+Perhaps two or three times as productive?
+That is fine, and would be expected on any field.
+But from there to ten times is a long stretch.
 
 In the words of Betsy Haibel in
 [Hacker Mythologies and Mismanagement](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement):
@@ -247,29 +249,31 @@ In the words of Betsy Haibel in
 > the kind of Real True Hackers who think of themselves as some day inventing radically new tech
 > — naturally identify themselves as 10x engineers amidst a sea of unimaginative clock-punching proles.
 
-> The myth of the 10x engineer is derived from a game of telephone:
-> a 1968 study by Sackman, Erikson, and Grant,
-> briefly quoted in one chapter of Frederick Brooks’s The Mythical Man-Month.
-> This study found order-of-magnitude differences in programmer productivity on some narrow measures,
-> but was also methodologically flawed.
-
 It is a great article and I cannot recommend it more.
 
 The most interesting point in Peopleware is not that some developers perform better than others,
 and it escapes most commentarists.
-
 Their war games were done with couples of developers from the same company.
 The performance of both devs was highly correlated.
 
 ![Correlation between teammates. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolisterteammates.gif "Teammates are highly correlated.")
 
-But *they were not working together; rather competing one against the other*.
+But *couples were not working together; rather competing one against the other*.
 The conclusions in [the study that contains these scans](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)
 are interesting:
 
 > Over and over, I keep seeing that the median time to complete a single task is on the order of 2x to 4x times the fastest, not 100x.
 > This study seems to imply that a great deal of that difference is due not to the individual’s inherent capabilities,
 > but rather the environment where they work.
+
+The advice comes naturally from this refined argument about the "3x engineer":
+
+**Look for a company where your skills can really shine.**
+
+This includes: comfortable working space,
+probably telecommuting at least part of the time,
+a comfortable environment where you can take risks,
+and great colleagues.
 
 ### Be Ready to Resharpen Your Skills
 
