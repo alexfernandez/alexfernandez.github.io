@@ -92,6 +92,7 @@ So you are starting in our noble and worthy profession,
 If you are a junior developer at a company,
 you want to be sure that there are really good people you can learn from.
 Most importantly, you want to actually learn from them.
+Ask to work with someone you respect.
 
 ### Learn Strategies
 
@@ -106,12 +107,41 @@ they tend to reach a point where they say:
 And they give up.
 While more senior people *never* give up.
 
-It helps a lot to know that **the problem has a solution**.
+It helps a lot to know that *the problem has a solution*.
 All bugs can be detected and eventually corrected.
 It may lie in the place that you least expect,
 it may require lots of changes,
 but in the end you will solve it.
 Or someone else if you give up!
+
+**Every bug has a fix, and it is within your grasp.**
+
+As you learn to use more tools,
+you will have more arrows in your quiver,
+and this will help you try different approaches for problem solving.
+For instance, if you want to find and fix a bug,
+you can:
+
+* follow the code,
+* add traces to the code,
+* google any error messages,
+* use a debugger,
+* comment out parts of the code,
+* write an example that fails in a similar way,
+* google for people with the same problem,
+
+If it's a performance bug the strategies vary:
+
+* add traces with time measurements,
+* profile the code,
+* isolate the slow part and benchmark it,
+* find a micro-benchmark with the same problem,
+
+and so on.
+If you can't figure out a new strategy ask someone else.
+
+**There is always another strategy to try out.
+Don't be discouraged.**
 
 ### Ask For Help
 
@@ -135,6 +165,10 @@ After less than a year he was offered an attractive position at University and l
 Since then, we try to keep a closer eye on juniors,
 and encourage them to ask for help.
 </p>
+
+**Always ask for help if you feel lost.**
+
+### Find A Mentor
 
 ## Get Ahead Of The Curve
 
