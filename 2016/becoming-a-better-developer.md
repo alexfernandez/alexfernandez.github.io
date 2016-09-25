@@ -318,6 +318,27 @@ we may offer concrete advice.
 
 Learn a new language.
 Use a new framework for your next pet project.
+Read books about your profession.
+
+<p style="color:#636; border:thin solid #c9c">
+A common complaint at most companies I know is: "we want more training".
+It has always amazed me:
+how come companies are not willing to train their workers?
+That is a cheap request to make;
+in exchange they would get a better and more motivated workforce.
+But quite often those requests are not met.
+</p>
+
+If your company is not giving you training,
+look for it yourself.
+Get them to pay for interesting courses and conferences,
+or at least to give you time off so you can attend.
+If they don't, consider other jobs.
+But while you are there,
+consider taking holidays for these activities.
+
+**Your career is your responsability, not your company's.**
+
 Always keep learning.
 
 ### Trust Me, I'm An Engineer
@@ -344,60 +365,6 @@ But always remember: writing software is a means to an end,
 not a goal in itself.
 
 **Strive to create value, not just to write software.**
-
-### Bring Me Problems, Not Solutions
-
-Quite often engineers are characterized as problem-solvers:
-bring me a problem and I will give you a solution.
-But that is not how a real-world engineer usually operates.
-Once you find the problem it usually easy to solve it.
-The real challenge is in finding the problem.
-
-Oh, somebody may come with a high-level business target.
-For old-school engineers the business target might be:
-let the people of this town cross this river,
-or accomodate the incoming traffic for the next 20 years.
-For a software engineer it can be:
-keep costs below a certain mark,
-or connect to a server within a latency number.
-
-**Do not wait for other people to give you problems;
-go after them for yourself.**
-
-### Find Your Specialty
-
-You cannot be a top developer by just being a generalist.
-Luckily there are many disciplines inside software engineering
- UX, data science, security, scalability
-product owner, scrum master, stakeholder
-Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
-
-Your knowledge should be T-shaped:
-a shallow familiarity with many disciplines,
-
-### Get Involved In The Community
-
-Finally, a really good way to improve as a software engineer
-is to find a local community,
-and get involved.
-Just showing up is a great first step!
-Then you can try giving a talk there,
-and seeing if people like it.
-
-It is very rewarding to know more people that work in your field,
-and exchange stories from the trenches.
-
-The next step is to attend a few conferences,
-both at the national and international level.
-This way you can broaden your circle of acquaintances:
-most people are quite open at conferences
-and are usually willing to speak to anyone during breaks.
-
-## Top Of The Cream Of The Crop
-
-Now we come to the most delicate part.
-So you are finally what we may call
-"an excellent developer".
 
 ### The Myth Of The 10x Engineer
 
@@ -458,10 +425,65 @@ probably telecommuting at least part of the time,
 a comfortable environment where you can take risks,
 and great colleagues.
 
+### Find Your Specialty
+
+You cannot be a top developer by just being a generalist.
+Luckily there are many disciplines inside software engineering
+ UX, data science, security, scalability
+product owner, scrum master, stakeholder
+Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
+
+Your knowledge should be T-shaped:
+a shallow familiarity with many disciplines,
+
+### Get Involved In The Community
+
+Finally, a really good way to improve as a software engineer
+is to find a local community,
+and get involved.
+Just showing up is a great first step!
+Then you can try giving a talk there,
+and seeing if people like it.
+
+It is very rewarding to know more people that work in your field,
+and exchange stories from the trenches.
+
+The next step is to attend a few conferences,
+both at the national and international level.
+This way you can broaden your circle of acquaintances:
+most people are quite open at conferences
+and are usually willing to speak to anyone during breaks.
+
+## Top Of The Cream Of The Crop
+
+Now we come to the most delicate part.
+So you are finally what we may call
+"a good developer".
+How can you really shine?
+
+### Bring Me Problems, Not Solutions
+
+Quite often engineers are characterized as problem-solvers:
+bring me a problem and I will give you a solution.
+But that is not how a real-world engineer usually operates.
+Once you find the problem it usually easy to solve it.
+The real challenge is in finding the problem.
+
+Oh, somebody may come with a high-level business target.
+For old-school engineers the business target might be:
+let the people of this town cross this river,
+or accomodate the incoming traffic for the next 20 years.
+For a software engineer it can be:
+keep costs below a certain mark,
+or connect to a server within a latency number.
+
+**Do not wait for other people to give you problems;
+go after them for yourself.**
+
 ### Look For Help
 
-Another great point by
-[Betsy Haibel](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement):
+Another great point by Betsy Haibel in
+[the article quoted above](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement):
 
 > Myths about 10x engineers are used to make employees feel guilty or incompetent when they ask co-workers for help;
 > truly qualified engineers don’t need help.
@@ -527,14 +549,56 @@ such as [Lanyrd.com](http://lanyrd.com/calls/).
 Just be sure to speak at a [local community first](#get-involved-in-the-community),
 then work your way up to national and then international conferences
 when you feel comfortable.
-
-**Speaking at conferences is a great way to attend for free!**
-
+Speaking at conferences is a great way to attend for free!
 Well, there's the unpaid time for preparing the talk,
 so your ticket does not really come for "free".
 But you get the point.
 
-The benefits go beyond
+The benefits go beyond attending conferences and meeting interesting people in the speakers dinner.
+
+<p style="color:#636; border:thin solid #c9c">
+My first talk at a local community was
+a great attendance success at MadridJS,
+since it was about a hot topic at the moment:
+Node.js and Websockets.
+It was
+[unfortunately taped (in Spanish)](https://vimeo.com/62771422).
+You can see how nervous I was.
+But I persevered: less than a year after that,
+I gave an
+[international talk](https://vimeo.com/121892726),
+and [kept at it](http://lanyrd.com/profile/pinchito/sessions/).
+Gradually I became better at it.
+Right now I feel much more confident when presenting to prospective investors,
+or selling a project to the CEO.
+</p>
+
+When you can speak in public with confidence,
+it becomes much easier to do a presentation in front of a small group.
+
+**Speaking at conferences is a great way to learn how to speak in public.**
+
+### Sell Your Work
+
+Maybe you dislike the phrase above:
+"selling a project to the CEO".
+Well, otherwise how do you expect others to buy your ideas?
+
+Perhaps you remember the famous sentence from Glengarry Glen Ross:
+["Coffee is for closers only"](https://www.youtube.com/watch?v=QMFwFgG9NE8).
+It is interesting that a movie that tried to show the inhumanity of salespeople
+has become famed among their profession.
+But we are not trying to sell real estate here,
+and we don't want to use hardball tactics.
+
+It is no good to make a fast sale and lose a customer.
+We are in for the long run.
+When making a deal,
+keep in mind that in good deals both parties benefit.
+
+**Always sell your work ethically and truthfully.**
+
+But do sell it.
 
 ### Teach Others
 
