@@ -1,11 +1,11 @@
 ---
 title: 'MoveinBlue, Five Years Later'
 subtitle: 'Another Failed Entrepreneurship Story'
-footer: Published on 2016-07-27, last edited on 2016-07-28.
+footer: Published on 2016-07-27, last edited on 2016-09-25.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Picture credit: MoveinBlue](pics/moveinblue.jpg "MoveinBlue Holiday Planner")
+![MoveinBlue Holiday Planner. Picture credit: MoveinBlue.](pics/moveinblue.jpg "Screenshot of MoveinBlue Holiday Planner app")
 
 Five years ago I was working as a project manager at ING Direct, a largish Spanish bank.
 In the worst of the mortgage crisis the bank decided to dispense with my services,
@@ -17,7 +17,15 @@ and in the process got to be much happier.
 Allow me to condense it in a few lessons along the way,
 and I promise I will try to avoid the common place.
 
-## Breaking the Bank
+## Contents
+
+* [Breaking the Bank.](#breaking-the-bank)
+* [Minding My Own Business.](#minding-my-own-business)
+* [Freelancing.](#freelancing)
+* [High Scalability.](#high-scalability)
+* [Conclusion.](#conclusion)
+
+## Breaking The Bank
 
 When in 2007 I was hired at ING Direct as an analyst
 it felt as something of a success.
@@ -312,7 +320,7 @@ He has even sold actual travel activities,
 but has also failed to gain enough traction.
 In the next few months we are ceasing operations completely.
 
-### Founding or Funding
+### Founding Or Funding
 
 When I tell people about the fate of our little company,
 many are relieved to learn
