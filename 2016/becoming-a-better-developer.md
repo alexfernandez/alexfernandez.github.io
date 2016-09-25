@@ -22,10 +22,11 @@ I will include my personal experiences in colored boxes like this one.
 
 ## Contents
 
-* [Start Me Up](#start-me-up)
-* [Advice For The Novice](#advice-for-the-novice)
-* [Get Ahead Of The Curve](#get-ahead-of-the-curve)
-* [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop)
+* [Start Me Up](#start-me-up).
+* [Advice For The Novice](#advice-for-the-novice).
+* [Get Ahead Of The Curve](#get-ahead-of-the-curve).
+* [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop).
+* [Conclusion](#conclusion).
 
 ## Start Me Up
 
@@ -192,10 +193,24 @@ and encourage them to ask for help.
 
 You probably know someone who is a senior developer,
 and you may learn something from them.
+So, why not ask them to mentor you?
+
+<p style="color:#636; border:thin solid #c9c">
+I have had a few people ask me to mentor them over the last few years.
+I usually say yes, of course!
+However they seldom ask for anything.
+That is not how mentoring is supposed to work!
+</p>
+
+A mentor is someone to ask questions to.
+Or at least to tell them your plans,
+and let them speak their opinion.
+
+**Look for a good mentor, and then use them!**
 
 By the way, you can contact me at [alexfernandeznpm@gmail.com](alexfernandeznpm@gmail.com),
 if you need anything from me.
-I don't know if I'm senior, but I'm old.
+I don't know if I'm senior, but at least I'm old.
 
 ## Get Ahead Of The Curve
 
@@ -421,7 +436,7 @@ The performance of both devs was highly correlated.
 
 ![Correlation between teammates. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolisterteammates.gif "Teammates are highly correlated.")
 
-But *couples were not working together; rather competing one against the other*.
+But *couples were not working together; they were rather competing one against the other*.
 The conclusions in [the study that contains these scans](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)
 are interesting:
 
@@ -437,6 +452,25 @@ This includes: comfortable working space,
 probably telecommuting at least part of the time,
 a comfortable environment where you can take risks,
 and great colleagues.
+
+### Look For Help
+
+Another great point by
+[Betsy Haibel](https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement):
+
+> Myths about 10x engineers are used to make employees feel guilty or incompetent when they ask co-workers for help;
+> truly qualified engineers don’t need help.
+
+Needless to say, this is not true.
+Even if you are the world's best engineer,
+there comes a time when you need to talk a problem over with someone.
+Not necessarily another senior developer:
+juniors and people with less experience have a lot to offer in the way of fresh perspectives.
+
+**When faced with a big challenge, share it.
+Help may come from where you least expect it.**
+
+Brainstorming sessions are great tools when used properly.
 
 ### Be Ready to Resharpen Your Skills
 
