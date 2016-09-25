@@ -132,7 +132,6 @@ I offered help with it,
 and did a few joint design sessions.
 But still the junior engineer was overwhelmed.
 After less than a year he was offered an attractive position at University and left.
-
 Since then, we try to keep a closer eye on juniors,
 and encourage them to ask for help.
 </p>
