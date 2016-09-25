@@ -22,6 +22,10 @@ I will include my personal experiences in colored boxes like this one.
 
 ## Contents
 
+This is a looong article,
+so I suggest you go straight to the section you feel more identifed with,
+from less to more experienced.
+
 * [Start Me Up](#start-me-up).
 * [Advice For The Novice](#advice-for-the-novice).
 * [Get Ahead Of The Curve](#get-ahead-of-the-curve).
@@ -248,8 +252,27 @@ Let me introduce you to this little concept called
 which some say is
 [not even a syndrome](http://www.slate.com/articles/business/the_ladder/2016/04/is_impostor_syndrome_real_and_does_it_affect_women_more_than_men.html).
 
-Even if you feel you are not even average,
-you can improve a lot in your profession.
+Basically it means that you feel that you are not adequate at your work,
+even though external measures say you should.
+Albert Einstein [famously said](http://therebegiants.com/overcoming-impostor-syndrome/):
+
+> The exaggerated esteem in which my lifework is held makes me very ill at ease.
+> I feel compelled to think of myself as an involuntary swindler.
+
+If the most celebrated physicist in the 20th century was not immune to impostor syndrome,
+how can you expect to overcome it?
+I recommend focusing on two things:
+
+* First, you don't have to tell others how good or bad you *think* you are;
+just tell them what you have accomplished and let them draw their own conclusions.
+In time this will allow you to focus on results instead of on a perceived quality (or lack of it).
+* And then you can just work hard.
+Don't give yourself a heart attack or spend your life on the keyboard;
+just do your best at whatever you do.
+
+Well, what if you really are mediocre?
+Even if you feel you are below average,
+you can improve a lot in our profession just by working hard and focusing on results.
 
 **Give a chance to mediocre people.
 Especially to yourself.**
