@@ -9,16 +9,28 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
 
 So you want to become a better developer?
 No matter what your current status is,
-this simple guide will give you a few tips to help you improve.
+this guide will give you a few tips to help you improve,
+shown **in bold**.
+
+Now, instead of a bland set of recommendations we have all read 1000 times by now,
+I will try to back up my arguments with data.
+Or at least with my own experience.
 
 <p style="color:#636; border:thin solid #c9c">
-I will include my personal experiences in colored boxes like this one,
-just so you know where I am coming from.
+I will include my personal experiences in colored boxes like this one.
 </p>
 
-## Advice For The Novice
+## Contents
 
-So you are starting in our noble and worthy profession,
+* [Start Me Up](#start-me-up)
+* [Advice For The Novice](#advice-for-the-novice)
+* [Ahead Of The Curve](#ahead-of-the-curve)
+* [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop)
+
+
+## Start Me Up
+
+You 
 or maybe haven't even started yet but want to get in
 for the fame and riches.
 
@@ -58,10 +70,29 @@ They are not just for outsiders.
 I have met quite a few people that were already working as developers,
 and just wanted to recycle themselves.
 
+### Getting That Job
+
+So you have decided you want a job.
+How can you get it?
+Julia Grace, engineering director at Slack,
+[says](http://www.juliahgrace.com/blog/2015/4/9/an-unconventional-guide-for-getting-a-software-engineering-job):
+
+> [...] find someone at the company (search their About pages, which often have links to employees’ LinkedIn, Twitter accounts, etc.) and email that person asking about the company.
+> I’m not saying you should harass them, just politely reach out, indicate you’re interested in the company, ask for advice on how to apply.
+> Most people want to help.
+
+The whole article is very interesting as it reframes a lot of common points of view.
+
+
+## Advice For The Novice
+
+So you are starting in our noble and worthy profession,
+
 ### Life As A Junior
 
 If you are a junior developer at a company,
 you want to be sure that there are really good people you can learn from.
+Most importantly, you want to actually learn from them.
 
 ### Learn Strategies
 
@@ -83,7 +114,7 @@ it may require lots of changes,
 but in the end you will solve it.
 Or someone else if you give up!
 
-## Get Ahead Of The Curve
+## Ahead Of The Curve
 
 Now let us consider the next step.
 You have been in the industry for a few years,
@@ -124,9 +155,11 @@ Fred Brooks writes in the classic "The Mythical Man-Month":
 > Within just this  group the ratios between best and worst performances averaged about 10:1  on productivity measurements
 > and an amazing 5:1 on program speed and space measurements!
 
+This is [the original study](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=AD0645438).
+
 DeMarco and Lister found huge differences in productivity in an inter-company competition.
 
-![Time to complete a programming task. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [webfoot](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolistertimetocomplete.gif "Minimum is 100 minutes, average 200, maximum 900.")
+![Time to complete a programming task. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolistertimetocomplete.gif "Minimum is 100 minutes, average 200, maximum 900.")
 
 See how most people are below the average?
 Gradually people realized that there were huge differences in productivity between developers.
@@ -221,6 +254,22 @@ In the words of Betsy Haibel in
 > but was also methodologically flawed.
 
 It is a great article and I cannot recommend it more.
+
+The most interesting point in Peopleware is not that some developers perform better than others,
+and it escapes most commentarists.
+
+Their war games were done with couples of developers from the same company.
+The performance of both devs was highly correlated.
+
+![Correlation between teammates. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolisterteammates.gif "Teammates are highly correlated.")
+
+But *they were not working together; rather competing one against the other*.
+The conclusions in [the study that contains these scans](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)
+are interesting:
+
+> Over and over, I keep seeing that the median time to complete a single task is on the order of 2x to 4x times the fastest, not 100x.
+> This study seems to imply that a great deal of that difference is due not to the individual’s inherent capabilities,
+> but rather the environment where they work.
 
 ### Be Ready to Resharpen Your Skills
 
