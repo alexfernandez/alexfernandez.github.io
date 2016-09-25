@@ -92,6 +92,7 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 * 2015-05-09: [Charla motivacional](https://www.youtube.com/watch?v=uGtlyDmttq0)
 * 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
 * 2014-04-23: [node.js: ¿rápido como el rayo?](http://medialab-prado.es/article/nodejs)
+* 2013-03-21: [Node.js y websockets, una pareja bien avenida](https://vimeo.com/62771422)
 
 ## And Now for Something Not Quite Alike
 

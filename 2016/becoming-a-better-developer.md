@@ -381,17 +381,17 @@ Finally, a really good way to improve as a software engineer
 is to find a local community,
 and get involved.
 Just showing up is a great first step!
+Then you can try giving a talk there,
+and seeing if people like it.
 
-The next step is to locate conferences,
-both at the national and international level,
-and go there.
+It is very rewarding to know more people that work in your field,
+and exchange stories from the trenches.
 
-Submit a proposal to a CfP (call for proposals).
-
-**Speaking at conferences is a great way to attend for free!**
-
-Well, there's the unpaid time for preparing the talk.
-But you get the point.
+The next step is to attend a few conferences,
+both at the national and international level.
+This way you can broaden your circle of acquaintances:
+most people are quite open at conferences
+and are usually willing to speak to anyone during breaks.
 
 ## Top Of The Cream Of The Crop
 
@@ -401,18 +401,23 @@ So you are finally what we may call
 
 ### The Myth Of The 10x Engineer
 
-There is a [huge controversy](http://www.ybrikman.com/writing/2013/09/29/the-10x-developer-is-not-myth/)
-surrounding the idea of 10x engineers.
-The problem is not with the findings themselves.
+The idea of 10x engineers is alive and well,
+as shown in
+[this informal Twitter poll](https://twitter.com/pinchito/status/779374657984159744).
+
+![In a sample of 59 developers, 44% think that 10x engineers exist.](pics/poll-10x-engineer.png "29% say 'More or less', 15% 'It's a myth', 12% 'TGIF, GTFO'.")
+
+However, there is a [huge controversy](http://www.ybrikman.com/writing/2013/09/29/the-10x-developer-is-not-myth/)
+surrounding the concept.
+The problem is not with the studies themselves.
 The first study quoted by Fred Brooks had serious problems,
-for instance: they measured time for *debugging*,
-not time for *programming*.
+a very small sample to start with.
 But those initial studies quoted above have been complemented by
 [a few more](http://www.construx.com/10x_Software_Development/Origins_of_10X_%E2%80%93_How_Valid_is_the_Underlying_Research_/),
 and they all point to the same direction:
 there are 10x differences between the best and the worst developers.
 
-No, the trouble lies in the new interpretation:
+No, the trouble lies in the new implicit interpretation:
 that some engineers are *10 times more productive than the average*.
 This is not upheld by any studies.
 Perhaps two or three times as productive?
@@ -429,14 +434,14 @@ In the words of Betsy Haibel in
 
 It is a great article and I cannot recommend it more.
 
-The most interesting point in Peopleware is not that some developers perform better than others,
-and it escapes most commentarists.
+The most interesting point in Peopleware is not that some developers perform better than others.
+There is a deep conclusion in there that eludes most commentarists.
 Their war games were done with couples of developers from the same company.
-The performance of both devs was highly correlated.
+The performance of both devs in each team was highly correlated.
 
 ![Correlation between teammates. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolisterteammates.gif "Teammates are highly correlated.")
 
-But *couples were not working together; they were rather competing one against the other*.
+But *couples in a team were not working together; they were rather competing one against the other*.
 The conclusions in [the study that contains these scans](http://blog.webfoot.com/2007/02/16/demarco-and-lister/)
 are interesting:
 
@@ -512,9 +517,24 @@ One of my favorite stories was of a mainframe programmer.
 
 ### Let The World Know
 
-Go give talks around.
-Just send proposals to conferences.
+Conferences all around the world are eager to hear from people of all backgrounds.
+Why not speak about some interesting project at one?
+Just send proposals to a few CfPs (calls for proposals).
 It is a great way to attend amazing events for free!
+
+There are a few places that track such calls,
+such as [Lanyrd.com](http://lanyrd.com/calls/).
+Just be sure to speak at a [local community first](#get-involved-in-the-community),
+then work your way up to national and then international conferences
+when you feel comfortable.
+
+**Speaking at conferences is a great way to attend for free!**
+
+Well, there's the unpaid time for preparing the talk,
+so your ticket does not really come for "free".
+But you get the point.
+
+The benefits go beyond
 
 ### Teach Others
 
