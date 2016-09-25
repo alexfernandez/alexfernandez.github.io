@@ -17,6 +17,8 @@ and in the process got to be much happier.
 Allow me to condense it in a few lessons along the way,
 and I promise I will try to avoid the common place.
 
+> Lessons will appear highlighted like this paragraph.
+
 ## Contents
 
 * [Breaking the Bank.](#breaking-the-bank)
@@ -285,6 +287,15 @@ To this day there is a huge untapped market waiting for the picking:
 tourist activities are a disorganized mess which lives for the most part offline,
 and which would benefit greatly from a broker that helped small providers sell to strangers.
 But nobody has cracked this golden nut yet.
+
+*Update*: in September 2016
+[Airbnb bought Trip4real](http://www.lavanguardia.com/economia/20160917/41371656281/airbnb-compra-trip4real.html)
+for an undisclosed sum,
+[reportedly between 5 and 10 million euros](http://www.elconfidencial.com/tecnologia/2016-09-17/airbnb-trip4real-startups-emprendedores_1261243/).
+The business model is not too dissimilar from ours
+but with activities provided by individuals instead of businesses.
+With only 40 thousand users and three thousand "experiences",
+it goes to show that there is money in the sector.
 
 ### A Good Ride
 
