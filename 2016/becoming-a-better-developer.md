@@ -83,7 +83,6 @@ Julia Grace, engineering director at Slack,
 
 The whole article is very interesting as it reframes a lot of common points of view.
 
-
 ## Advice For The Novice
 
 So you are starting in our noble and worthy profession,
@@ -114,6 +113,30 @@ it may require lots of changes,
 but in the end you will solve it.
 Or someone else if you give up!
 
+### Ask For Help
+
+A junior asking continuously for help is not the worst that can happen.
+Oh no.
+Far worse is a junior *never asking for help*.
+
+<p style="color:#636; border:thin solid #c9c">
+At [my current company](https://mediasmart.io/) we are all busy people,
+so we tend to let juniors on their own,
+and "let them float".
+This strategy does not always work.
+A big, strategic development was assigned to one of the junior engineers,
+to complement his work in tech support.
+The project did not progress as expected;
+in fact it missed all of its milestones.
+I offered help with it,
+and did a few joint design sessions.
+But still the junior engineer was overwhelmed.
+After less than a year he was offered an attractive position at University and left.
+
+Since then, we try to keep a closer eye on juniors,
+and encourage them to ask for help.
+</p>
+
 ## Get Ahead Of The Curve
 
 Now let us consider the next step.
@@ -129,23 +152,27 @@ This is only true if:
 * quality can be measured,
 * and it follows a Gaussian distribution.
 
+Let us put aside the first condition for a moment.
 The second condition is not just a fine point:
 many important variables follow highly skewed distributions.
 
 Let me give you just one example.
 Household income is one of these highly skewed quantities.
-According to 
-[a report](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/532416/households-below-average-income-1994-1995-2014-2015.pdf)
-by the
+
+![Income distribution in the UK (2014/15). Source: [Households Below Average Income](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/532416/households-below-average-income-1994-1995-2014-2015.pdf).](pics/income-median.png "Distribution is highly skewed to the left.")
+
+According to the quoted report by the
 [UK Department for Work and Pensions](https://www.gov.uk/government/statistics/households-below-average-income-199495-to-201415),
 
 > In 2014/15 just under two-thirds of individuals had a household income less than the
 > national mean average (£581 per week).
 
+Surprise!
+Not one half below average, but two-thirds!
 Perhaps developer quality is similarly skewed.
-But what about the first condition?
-This brings us to an uncomfortable question:
-how can we measure developer quality?
+
+Going back to the first condition brings us to an uncomfortable question:
+can we even measure developer quality?
 
 ### The 10x Engineer
 
@@ -184,6 +211,11 @@ Always keep learning.
 ### Find Your Specialty
 
 You cannot be a top developer by just being a generalist.
+ UX, data science, security, scalability
+product owner, scrum master, stakeholder
+Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
+
+
 
 ### Trust Me, I'm An Engineer
 
