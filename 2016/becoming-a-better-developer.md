@@ -27,14 +27,31 @@ I will include my personal experiences in colored boxes like this one.
 * [Get Ahead Of The Curve](#get-ahead-of-the-curve)
 * [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop)
 
-
 ## Start Me Up
 
-You 
-or maybe haven't even started yet but want to get in
+You want to try out the profession of software developer
 for the fame and riches.
+You have heard that recruiters are offering very well paid jobs,
+and that all of the cool girls and boys are working in the field.
+So how can you get in?
 
-### Is Attending University Worth It?
+### Vocation And Devotion
+
+First let us do some soul-searching.
+Do you really want to spend your days (and some nights)
+crouched upon a computer keyboard,
+letting a screen (however large)
+be your only contact with the world?
+Do you have in you the will power to spend countless hours tracking a bug?
+
+Software development is not an easy career to follow.
+Many people have found that there are other profitable career paths,
+some of them related to software development:
+marketing, UX design, sales.
+
+### Is University Worth It?
+
+There is a movement right now in software engineering
 
 The profession of software developer here in Spain is taught in "ingeniería informática",
 which is an adaptation of the french term
@@ -154,13 +171,16 @@ At [my current company](https://mediasmart.io/) we are all busy people,
 so we tend to let juniors on their own,
 and "let them float".
 This strategy does not always work.
-A big, strategic development was assigned to one of the junior engineers,
+A big, strategic development was assigned to
+[Fran Barea](https://twitter.com/MandisBack),
+one of the junior engineers,
 to complement his work in tech support.
 The project did not progress as expected;
 in fact it missed all of its milestones.
 I offered help with it,
 and did a few joint design sessions.
-But still the junior engineer was overwhelmed.
+But still the junior engineer was overwhelmed,
+mostly by his tech support workload.
 After less than a year he was offered an attractive position at University and left.
 Since then, we try to keep a closer eye on juniors,
 and encourage them to ask for help.
@@ -170,10 +190,54 @@ and encourage them to ask for help.
 
 ### Find A Mentor
 
+You probably know someone who is a senior developer,
+and you may learn something from them.
+
+By the way, you can contact me at [alexfernandeznpm@gmail.com](alexfernandeznpm@gmail.com),
+if you need anything from me.
+I don't know if I'm senior, but I'm old.
+
 ## Get Ahead Of The Curve
 
 Now let us consider the next step.
 You have been in the industry for a few years,
+you want to become a better developer.
+
+### Devotion
+
+At this delicate juncture we must search our souls once more.
+Do you have the level of devotion needed to be,
+not just a regular software developer,
+but a really good one?
+Do you want to be at the top of your profession?
+Because honestly, you do not need to be:
+there are many people with an honest development job
+that are happy to punch a clock and do their time.
+
+And then there are these people who do a lot of extra effort
+to look beyond what is asked from them,
+and learn new things every day.
+
+**Never despise great developers;
+never despise good developers;
+never despise regular workers.**
+
+I guess you can say it shorter:
+never despise other people for doing their work as best they can.
+
+### Impostor Syndrome
+
+Perhaps you think you are mediocre.
+Let me introduce you to this little concept called
+[impostor syndrome](https://counseling.caltech.edu/general/InfoandResources/Impostor),
+which some say is
+[not even a syndrome](http://www.slate.com/articles/business/the_ladder/2016/04/is_impostor_syndrome_real_and_does_it_affect_women_more_than_men.html).
+
+Even if you feel you are not even average,
+you can improve a lot in your profession.
+
+**Give a chance to mediocre people.
+Especially to yourself.**
 
 ### So Are You Good Already?
 
@@ -241,15 +305,6 @@ Learn a new language.
 Use a new framework for your next pet project.
 Always keep learning.
 
-### Find Your Specialty
-
-You cannot be a top developer by just being a generalist.
- UX, data science, security, scalability
-product owner, scrum master, stakeholder
-Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
-
-
-
 ### Trust Me, I'm An Engineer
 
 "Engineer" is in many countries a prestigious title,
@@ -261,6 +316,19 @@ supposedly starting with a detailed specification.
 * A *developer* has wider responsibilities:
 create a software system that solves a certain problem.
 * An *engineer* is tasked with devising a solution to a necessity.
+
+Not all solutions involve developing software.
+As Ken Thompson [once said](http://quotes.cat-v.org/programming/),
+
+> One of my most productive days was throwing away 1000 lines of code.
+
+Sometimes it is better to adapt an existing package,
+or just to hack up a simple console script that does 80% of what we want.
+And sometimes the best solution is to write some software.
+But always remember: writing software is a means to an end,
+not a goal in itself.
+
+**Strive to create value, not just to write software.**
 
 ### Bring Me Problems, Not Solutions
 
@@ -278,7 +346,37 @@ For a software engineer it can be:
 keep costs below a certain mark,
 or connect to a server within a latency number.
 
+**Do not wait for other people to give you problems;
+go after them for yourself.**
+
+### Find Your Specialty
+
+You cannot be a top developer by just being a generalist.
+Luckily there are many disciplines inside software engineering
+ UX, data science, security, scalability
+product owner, scrum master, stakeholder
+Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
+
+Your knowledge should be T-shaped:
+a shallow familiarity with many disciplines,
+
 ### Get Involved In The Community
+
+Finally, a really good way to improve as a software engineer
+is to find a local community,
+and get involved.
+Just showing up is a great first step!
+
+The next step is to locate conferences,
+both at the national and international level,
+and go there.
+
+Submit a proposal to a CfP (call for proposals).
+
+**Speaking at conferences is a great way to attend for free!**
+
+Well, there's the unpaid time for preparing the talk.
+But you get the point.
 
 ## Top Of The Cream Of The Crop
 
