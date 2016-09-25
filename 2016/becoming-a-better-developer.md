@@ -254,6 +254,8 @@ which some say is
 
 Basically it means that you feel that you are not adequate at your work,
 even though external measures say you should.
+It is often felt by people of all conditions,
+especially high achievers.
 Albert Einstein [famously said](http://therebegiants.com/overcoming-impostor-syndrome/):
 
 > The exaggerated esteem in which my lifework is held makes me very ill at ease.
@@ -265,7 +267,7 @@ I recommend focusing on two things:
 
 * First, you don't have to tell others how good or bad you *think* you are;
 just tell them what you have accomplished and let them draw their own conclusions.
-In time this will allow you to focus on results instead of on a perceived quality (or lack of it).
+In time this will allow you to focus on results instead of on how good you are or are not.
 * And then you can just work hard.
 Don't give yourself a heart attack or spend your life on the keyboard;
 just do your best at whatever you do.
