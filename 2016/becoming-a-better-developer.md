@@ -107,7 +107,8 @@ The whole article is very interesting as it reframes a lot of common points of v
 
 ## Advice For The Novice
 
-So you are starting in our noble and worthy profession,
+So you are starting in our noble and worthy profession.
+What do you need to know to survive?
 
 ### Life As A Junior
 
@@ -346,7 +347,7 @@ Use a new framework for your next pet project.
 Read books about your profession.
 
 <p style="color:#636; border:thin solid #c9c">
-A common complaint at most companies I know is: "we want more training".
+A common request from workers at most companies I know is: "we want more training".
 It has always amazed me:
 how come companies are not willing to train their workers?
 That is a cheap request to make;
@@ -453,13 +454,27 @@ and great colleagues.
 ### Find Your Specialty
 
 You cannot be a top developer by just being a generalist.
-Luckily there are many disciplines inside software engineering
- UX, data science, security, scalability
-product owner, scrum master, stakeholder
-Gaming, devops, embedded, graphs, physics simulation, quality, mobile, machine learning, analytics.
+Luckily there are many disciplines inside software engineering.
+A few of them are:
+
+* UX,
+* data science,
+* security,
+* scalability,
+* development methodology,
+* gaming,
+* DevOps,
+* embedded systems,
+* physics simulation,
+* visualization,
+* quality assurance,
+* mobile apps,
+* machine learning,
+* analytics.
 
 Your knowledge should be T-shaped:
 a shallow familiarity with many disciplines,
+and deep understanding of one or two.
 
 ### Get Involved In The Community
 
