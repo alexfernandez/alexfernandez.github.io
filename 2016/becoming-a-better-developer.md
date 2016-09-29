@@ -367,6 +367,13 @@ consider taking holidays for these activities.
 
 Always keep learning.
 
+### Pet Project
+
+By far, the best way to learn a new language, framework or environment
+is doing a pet project using it.
+That way, the project supplies the motivation
+and you only need to fill in the details.
+
 ### Trust Me, I'm An Engineer
 
 "Engineer" is in many countries a prestigious title,
