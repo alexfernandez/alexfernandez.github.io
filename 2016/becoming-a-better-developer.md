@@ -501,6 +501,12 @@ Just showing up is a great first step!
 Then you can try giving a talk there,
 and seeing if people like it.
 
+<p style="color:#636; border:thin solid #c9c">
+In 2013 I approached the organizers of MadridJS to propose a talk
+about Node.js and Websockets,
+something I had been working on in my spare time.
+</p>
+
 It is very rewarding to know more people that work in your field,
 and exchange stories from the trenches.
 
