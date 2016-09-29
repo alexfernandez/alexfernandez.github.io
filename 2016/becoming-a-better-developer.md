@@ -374,6 +374,15 @@ is doing a pet project using it.
 That way, the project supplies the motivation
 and you only need to fill in the details.
 
+<p style="color:#636; border:thin solid #c9c">
+I was writing a book that never materialized.
+I started eLyXer.
+</p>
+
+<p style="color:#636; border:thin solid #c9c">
+Later on I wrote milliearth, and then loadtest.
+</p>
+
 ### Trust Me, I'm An Engineer
 
 "Engineer" is in many countries a prestigious title,
