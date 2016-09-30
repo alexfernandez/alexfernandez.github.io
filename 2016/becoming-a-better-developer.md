@@ -360,11 +360,15 @@ a person which is able to do 10 times as much work as the regular developer.
 
 Translated from [\@zezenzuska](https://twitter.com/zezenzuska/status/639350587730100225?lang=es).
 
-Instead of vague feely-goody sentences,
-we may offer concrete advice.
-Learn a new language.
-Use a new framework for your next pet project.
-Read books about your profession.
+There are a lot of excellent resources
+about how to become an excellent developer.
+I like particularly
+[Angelina Fabbro's talk](https://www.youtube.com/watch?v=v0TFmdO4ZP0)
+It contains excellent concrete advice, like:
+
+* learn a new language,
+* use a new framework for your next pet project,
+* or read books about your profession.
 
 <p style="color:#636; border:thin solid #c9c">
 A common request from workers at most companies I know is: "we want more training".
