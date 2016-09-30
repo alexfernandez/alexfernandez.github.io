@@ -5,7 +5,7 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Picture credit: MoveinBlue](pics/moveinblue.jpg "MoveinBlue Holiday Planner")
+![Charles West Cope: "RTFM", Oil on canvas, 1872](pics/rtfm.jpg "Read The Fine Manual")
 
 So you want to become a better developer?
 No matter what your current status is,
