@@ -362,7 +362,6 @@ Translated from [\@zezenzuska](https://twitter.com/zezenzuska/status/63935058773
 
 Instead of vague feely-goody sentences,
 we may offer concrete advice.
-
 Learn a new language.
 Use a new framework for your next pet project.
 Read books about your profession.
@@ -385,8 +384,6 @@ But while you are there,
 consider taking holidays for these activities.
 
 **Your career is your responsibility, not your company's.**
-
-Always keep learning.
 
 ### Trust Me, I'm An Engineer
 
