@@ -92,6 +92,27 @@ They are not just for outsiders.
 I have met quite a few people that were already working as developers,
 and just wanted to recycle themselves.
 
+### Pet Project
+
+By far, the best way to learn a new language, framework or environment
+is doing a pet project using it.
+That way, the project supplies the motivation
+and you only need to fill in the details.
+
+This is also a great presentation card for a prospective employer.
+
+<p style="color:#636; border:thin solid #c9c">
+I was writing a book that never materialized,
+in an obscure editor called [LyX](https://www.lyx.org/).
+I started [eLyXer](https://github.com/alexfernandez/elyxer)
+to help me convert it to HTML;
+it was very useful to learn Python.
+Later on I wrote
+[milliearth](https://github.com/alexfernandez/milliearth),
+and then [loadtest](https://github.com/alexfernandez/loadtest).
+I have learned a lot of Node.js with these two projects.
+</p>
+
 ### Getting That Job
 
 So you have decided you want a job.
@@ -367,22 +388,6 @@ consider taking holidays for these activities.
 
 Always keep learning.
 
-### Pet Project
-
-By far, the best way to learn a new language, framework or environment
-is doing a pet project using it.
-That way, the project supplies the motivation
-and you only need to fill in the details.
-
-<p style="color:#636; border:thin solid #c9c">
-I was writing a book that never materialized.
-I started eLyXer.
-</p>
-
-<p style="color:#636; border:thin solid #c9c">
-Later on I wrote milliearth, and then loadtest.
-</p>
-
 ### Trust Me, I'm An Engineer
 
 "Engineer" is in many countries a prestigious title,
@@ -407,6 +412,62 @@ But always remember: writing software is a means to an end,
 not a goal in itself.
 
 **Strive to create value, not just to write software.**
+
+### Find Your Specialty
+
+You cannot be a top developer by just being a generalist.
+Luckily there are many disciplines inside software engineering.
+A few of them are:
+
+* UX,
+* data science,
+* security,
+* scalability,
+* development methodology,
+* gaming,
+* DevOps,
+* embedded systems,
+* physics simulation,
+* visualization,
+* quality assurance,
+* mobile apps,
+* machine learning,
+* analytics.
+
+Your knowledge should be T-shaped:
+a shallow familiarity with many disciplines,
+and deep understanding of one or two.
+
+### Get Involved In The Community
+
+Finally, a really good way to improve as a software engineer
+is to find a local community,
+and get involved.
+Just showing up is a great first step!
+Then you can try giving a talk there,
+and seeing if people like it.
+
+<p style="color:#636; border:thin solid #c9c">
+In 2013 I approached the organizers of MadridJS to propose a talk
+about Node.js and Websockets,
+something I had been working on in my spare time.
+</p>
+
+It is very rewarding to know more people that work in your field,
+and exchange stories from the trenches.
+
+The next step is to attend a few conferences,
+both at the national and international level.
+This way you can broaden your circle of acquaintances:
+most people are quite open at conferences
+and are usually willing to speak to anyone during breaks.
+
+## Top Of The Cream Of The Crop
+
+Now we come to the most delicate part.
+So you are finally what we may call
+"a good developer".
+How can you really shine?
 
 ### The Myth Of The 10x Engineer
 
@@ -466,62 +527,6 @@ This includes: comfortable working space,
 probably telecommuting at least part of the time,
 a comfortable environment where you can take risks,
 and great colleagues.
-
-### Find Your Specialty
-
-You cannot be a top developer by just being a generalist.
-Luckily there are many disciplines inside software engineering.
-A few of them are:
-
-* UX,
-* data science,
-* security,
-* scalability,
-* development methodology,
-* gaming,
-* DevOps,
-* embedded systems,
-* physics simulation,
-* visualization,
-* quality assurance,
-* mobile apps,
-* machine learning,
-* analytics.
-
-Your knowledge should be T-shaped:
-a shallow familiarity with many disciplines,
-and deep understanding of one or two.
-
-### Get Involved In The Community
-
-Finally, a really good way to improve as a software engineer
-is to find a local community,
-and get involved.
-Just showing up is a great first step!
-Then you can try giving a talk there,
-and seeing if people like it.
-
-<p style="color:#636; border:thin solid #c9c">
-In 2013 I approached the organizers of MadridJS to propose a talk
-about Node.js and Websockets,
-something I had been working on in my spare time.
-</p>
-
-It is very rewarding to know more people that work in your field,
-and exchange stories from the trenches.
-
-The next step is to attend a few conferences,
-both at the national and international level.
-This way you can broaden your circle of acquaintances:
-most people are quite open at conferences
-and are usually willing to speak to anyone during breaks.
-
-## Top Of The Cream Of The Crop
-
-Now we come to the most delicate part.
-So you are finally what we may call
-"a good developer".
-How can you really shine?
 
 ### Bring Me Problems, Not Solutions
 
