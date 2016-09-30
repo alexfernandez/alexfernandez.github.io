@@ -397,15 +397,17 @@ supposedly starting with a detailed specification.
 create a software system that solves a certain problem.
 * An *engineer* is tasked with devising a solution to a necessity.
 
-Not all solutions involve developing software.
+Not all solutions involve writing code.
+Sometimes it is better to adapt an existing package,
+or just to hack up a simple console script that does 80% of what we want.
+And sometimes the best solution is to write some code.
+
+But other times the best course is to delete code.
 As Ken Thompson [once said](http://quotes.cat-v.org/programming/),
 
 > One of my most productive days was throwing away 1000 lines of code.
 
-Sometimes it is better to adapt an existing package,
-or just to hack up a simple console script that does 80% of what we want.
-And sometimes the best solution is to write some software.
-But always remember: writing software is a means to an end,
+Always remember: writing software is a means to an end,
 not a goal in itself.
 
 **Strive to create value, not just to write software.**
@@ -681,7 +683,8 @@ It just takes a bit of effort.
 ### Acknowledgements
 
 This article has benefited a lot from discussions with
-[Alfredo López Moltó](http://xgalen.github.io/) ([mediasmart](http://mediasmart.io/).
+[Alfredo López Moltó](http://xgalen.github.io/) ([mediasmart](http://mediasmart.io/)),
+Fran Barea.
 
 All errors and omissions are mine.
 
