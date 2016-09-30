@@ -5,7 +5,7 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Charles West Cope: "RTFM", Oil on canvas, 1872](pics/rtfm.jpg "Read The Fine Manual")
+![Charles West Cope: "[RTFM](http://classicprogrammerpaintings.com/)", Oil on canvas, 1872](pics/rtfm.jpg "Read The Fine Manual")
 
 So you want to become a better developer?
 No matter what your current status is,
@@ -674,4 +674,12 @@ In martial arts movies great experts always have their own schools.
 
 No matter where you stand in your profession,
 you can always get better.
+It just takes a bit of effort.
+
+### Acknowledgements
+
+This article has benefited a lot from discussions with
+[Alfredo López Moltó](http://xgalen.github.io/) ([mediasmart](http://mediasmart.io/).
+
+All errors and omissions are mine.
 
