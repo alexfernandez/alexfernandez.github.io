@@ -384,7 +384,7 @@ If they don't, consider other jobs.
 But while you are there,
 consider taking holidays for these activities.
 
-**Your career is your responsability, not your company's.**
+**Your career is your responsibility, not your company's.**
 
 Always keep learning.
 
