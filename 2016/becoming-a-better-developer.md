@@ -362,8 +362,8 @@ Translated from [\@zezenzuska](https://twitter.com/zezenzuska/status/63935058773
 
 There are a lot of excellent resources
 about how to become an excellent developer.
-I like particularly
-[Angelina Fabbro's talk](https://www.youtube.com/watch?v=v0TFmdO4ZP0)
+I particularly like
+[Angelina Fabbro's talk](https://www.youtube.com/watch?v=v0TFmdO4ZP0).
 It contains excellent concrete advice, like:
 
 * learn a new language,
@@ -677,6 +677,12 @@ There is a reason why a very accomplished professional is called a
 which also happens to mean "teacher".
 This goes beyond an Occidental tradition.
 In martial arts movies great experts always have their own schools.
+
+As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2016-9):
+
+> The key to having an interesting life is to always say "yes" to anything crazy.
+
+Being open to new things never hurts.
 
 ## Conclusion
 
