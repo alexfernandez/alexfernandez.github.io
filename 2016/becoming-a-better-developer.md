@@ -426,6 +426,7 @@ A few of them are:
 * data science,
 * security,
 * scalability,
+* management,
 * development methodology,
 * gaming,
 * DevOps,
