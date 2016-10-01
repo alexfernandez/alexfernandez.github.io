@@ -600,13 +600,27 @@ Node.js was at
 Meanwhile [Java 7 was just released](https://en.wikipedia.org/wiki/Java_%28programming_language%29#Versions)
 but not widely adopted
 (and [Oracle had just bought Sun](https://en.wikipedia.org/wiki/Sun_acquisition_by_Oracle) a year ago).
+Golang was in [alpha state](https://golang.org/doc/devel/release.html),
+and	[Elixir](https://vimeo.com/53221562)
+was a glint in its creator's eye
 
 If you want to have a long and prosperous career you can either look for some obscure niche
 where there is no competition
 (think COBOL programmers today),
 or update your skills constantly.
 
-One of my favorite stories was of a mainframe programmer.
+One of my favorite stories is about a mainframe programmer
+that appeared in a 70s picture along an old computer.
+A magazine published a story about mainframes a few years ago,
+and did a picture where he appeared by the old photo with a sad face,
+in a cute reference to how mainframe programming was going the way of the dodo.
+(I lost the reference to the story;
+if you evern find it please
+[let me know](https://twitter.com/pinchito).)
+
+The interesting part was that the guy, now in his late 50s,
+had successfully recycled and was now a freeancer telecommuting from his home,
+and he was experimenting with Node.js, which was almost experimental at that time.
 
 ### Let The World Know
 
