@@ -13,11 +13,13 @@ this guide will give you a few tips to help you improve,
 shown **in bold**.
 
 Now, instead of a bland set of recommendations we have all read 1000 times by now,
-I will try to back up my arguments with data.
-Or at least with my own experience.
+I will try to make original points backed by data,
+or at least by my own experience.
 
 <p style="color:#636; border:thin solid #c9c">
 I will include my personal experiences in colored boxes like this one.
+I will speak a lot about
+[my current company](https://mediasmart.io/).
 </p>
 
 ## Contents
@@ -56,11 +58,20 @@ marketing, UX design, sales.
 
 ### Is University Worth It?
 
-There is a movement right now in software engineering
-
 The profession of software developer here in Spain is taught in "ingeniería informática",
 which is an adaptation of the french term
 ["ingénierie informatique"](https://fr.wikipedia.org/wiki/G%C3%A9nie_informatique).
+In the US there are several universities offering "computer engineering",
+whatever it is;
+and some even offer [software engineering](http://computingcareers.acm.org/?page_id=12).
+
+But honestly, any other science-related degree can be good enough.
+
+Not even a degree may be necessary.
+Many fine developers have just studied secondary school,
+and maybe earned a title in vocational education and training.
+Not that University is worthless;
+but its value depends a lot of what you do with it.
 
 <p style="color:#636; border:thin solid #c9c">
 I studied physics,
@@ -72,25 +83,31 @@ I don't think that studying software engineering is useless;
 it's probably fine for most people.
 </p>
 
-There has been an ongoing debate in Spain for many years about
-unauthorized practice in software engineering.
-Here is [my take (in Spanish)](http://alexfernandez.github.io/2016/sobre-intrusismo-profesional.html).
-I have always wondered how you would forbid other people from developing software.
-Apparently software engineers want the exclusive right to sign software projects.
-
-Many fine developers have just studied secondary school,
-and maybe earned a title in vocational education and training.
+And University is not necessarily the best way to work as a developer.
+So if you are doing it as an investment and getting into an enormous debt,
+please reconsider.
 
 ### Bootcamps
 
+There is an easier way to acquire some education and access our noble profession.
 It is a great day for software development:
 our skills are in such high demand that many cool companies are willing to take in
-people that have learned the basics of our profession in about 8 weeks.
+people that have learned the basics of our profession in 8 to 12 weeks.
 They are not cheap though.
+Prepare to pay about a thousand dollars per week.
 
-They are not just for outsiders.
+Bootcamps are not just for outsiders.
 I have met quite a few people that were already working as developers,
-and just wanted to recycle themselves.
+and just wanted to recycle themselves in a different field.
+
+How can you know if a bootcamp is any good?
+It depends a lot on how exigent they are.
+If they are ready to accept anyone then the level is probably not very high.
+If there is a selection process just to get in,
+and many people are rejected,
+then you can trust that it will be worth it.
+Keep in mind that only hopeless cases fail to finish the bootcamp,
+so any selection needs to be done *before* it starts.
 
 ### Pet Project
 
@@ -113,6 +130,12 @@ and then [loadtest](https://github.com/alexfernandez/loadtest).
 I have learned a lot of Node.js with these two projects.
 </p>
 
+Even if your pet project gets nowhere near your original objective,
+the learning experience will probably compensate for it.
+
+**Pet projects are not just for job seekers;
+they are great for developers of all levels.**
+
 ### Getting That Job
 
 So you have decided you want a job.
@@ -126,6 +149,54 @@ Julia Grace, engineering director at Slack,
 
 The whole article is very interesting as it reframes a lot of common points of view.
 
+Do not throw CVs around like it's Christmas;
+instead, focus on places where you _really_ want to work.
+Prepare for them, check what they like,
+what they looking for,
+the kind of interviews that they do.
+Keep in mind that it is better to apply to 5 places thoughtfully
+than to 100 random companies.
+
+Many companies will feature coding tests:
+give you an assignment to complete in a set time.
+From the point of view of the employer,
+it's only natural that you should show how you build software
+if that is what you will be doing at work!
+The best tests should not take longer than a couple of hours.
+
+At <a href="https://mediasmart.io/">mediasmart</a>
+we create a coding test with five or six stages.
+Several of our developers will do it beforehand to gauge how long it should take,
+and keep only enough stages for an hour or so.
+We send the first one by email the morning before to all candidates,
+so they can do it at their leisure;
+if they do not perform well under pressure,
+at least they have something to show.
+The rest of the stages are done under our supervision,
+and they have to complete as many as possible in an hour.
+It is an excellent way to test the abilities of a candidate.
+There is a certain pressure on candidates,
+but knowing how they perform under stress is also valuable.
+
+<p style="color:#636; border:thin solid #c9c">
+Once we had a candidate that said that he had completed the first stage the night before.
+When asked to produce the code, he said that he had solved it "in his head".
+Bad sign!
+Afterwards he was not able to complete even the first stage,
+which supposedly he had finished at home.
+</p>
+
+**Do your research.
+Prepare to show your work,
+and how you work.**
+
+Other companies like to place you in front of a whiteboard
+and ask questions about algorithms and theoretical problems.
+I distrust these tests;
+they are nothing like the work you will later do.
+But hey, if Google do it, then it cannot be wrong,
+[right](http://www.nytimes.com/2013/06/20/business/in-head-hunting-big-data-may-not-be-such-a-big-deal.html?_r=0)?
+
 ## Advice For The Novice
 
 So you are starting in our noble and worthy profession.
@@ -137,6 +208,25 @@ If you are a junior developer at a company,
 you want to be sure that there are really good people you can learn from.
 Most importantly, you want to actually learn from them.
 Ask to work with someone you respect.
+
+Be prepared to receive criticism.
+It is not always easy to have someone rip through your code
+and be cool about it.
+Most people get emotional.
+Keep in mind that knowing what you are doing wrong
+is the best way to improve.
+
+<p style="color:#636; border:thin solid #c9c">
+My colleague Sergio García started as a junior at 
+[mediasmart](https://mediasmart.io/)
+at the same time I did;
+he had no professional experience.
+When I started commenting on his pull requests
+he probably felt that I hated him
+(and that I was a cold bastard);
+he got disheartened by all the negative feedback.
+Nowadays he takes criticism of his code as a pro!
+</p>
 
 ### Learn Strategies
 
@@ -214,6 +304,11 @@ and encourage them to ask for help.
 </p>
 
 **Always ask for help if you feel lost.**
+
+When asking for help,
+quite often you don't need someone to handhold you,
+or find the problem for you.
+Just asking what other strategy can be tried can be enough.
 
 ### Find A Mentor
 
@@ -438,6 +533,26 @@ A few of them are:
 * machine learning,
 * analytics.
 
+Getting thrown into the wrong specialty can be very damaging.
+
+<p style="color:#636; border:thin solid #c9c">
+In 2007 I joined ING Direct Spain as an analyst,
+which involved a lot of technical work and some programming.
+As I have told [elsewhere](2016/mib-five-years-later.md),
+a couple of years later I was made a project manager,
+which means that I was supposed to use an office suite
+as my tool of choice,
+and not code anymore.
+My life was not easy from that point on.
+While it is nice to know how to manage people,
+resources and projects,
+I'm not comfortable in a 100% managerial position.
+After a couple of years I left and have done technical work since.
+</p>
+
+**Find what discipline you you would like to specialize in,
+and strive to work in it.**
+
 Your knowledge should be T-shaped:
 a shallow familiarity with many disciplines,
 and deep understanding of one or two.
@@ -448,23 +563,33 @@ Finally, a really good way to improve as a software engineer
 is to find a local community,
 and get involved.
 Just showing up is a great first step!
-Then you can try giving a talk there,
-and seeing if people like it.
-
-<p style="color:#636; border:thin solid #c9c">
-In 2013 I approached the organizers of MadridJS to propose a talk
-about Node.js and Websockets,
-something I had been working on in my spare time.
-</p>
-
-It is very rewarding to know more people that work in your field,
-and exchange stories from the trenches.
+Then you can stay for a couple of drinks afterwards.
+It is very rewarding to know more people that work in your field and exchange stories from the trenches.
+Talking with your colleagues from work is nice,
+but since you breeze the same environment it is not as interesting.
 
 The next step is to attend a few conferences,
 both at the national and international level.
 This way you can broaden your circle of acquaintances:
 most people are quite open at conferences
 and are usually willing to speak to anyone during breaks.
+
+Then you can try giving a talk at a local group,
+and seeing if people like it.
+
+<p style="color:#636; border:thin solid #c9c">
+In 2012 I approached the organizers of MadridJS to propose a talk
+about Node.js and Websockets,
+something I had been working on in my spare time
+as part of the
+[milliearth](https://github.com/alexfernandez/milliearth)
+project I mentioned before.
+We finally scheduled it in 2013.
+All the 70 available places in Meetup were gone in about four minutes,
+which goes to show how popular the subject was.
+Even though I was very nervous,
+it was a great experience!
+</p>
 
 ## Top Of The Cream Of The Crop
 
@@ -576,9 +701,8 @@ Even if you are at the top of the game,
 in our industry there are no guarantees.
 
 <p style="color:#636; border:thin solid #c9c">
-About five years ago I left my job at ING Direct Spain
-after four years as a project manager.
-At that point I [co-founded a startup](http://alexfernandez.github.io/2016/mib-five-years-later.html)
+After leaving ING Direct Spain,
+I [co-founded a startup](http://alexfernandez.github.io/2016/mib-five-years-later.html)
 that ultimately went nowhere,
 but allowed me to recycle myself starting to program again.
 </p>
