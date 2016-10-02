@@ -38,7 +38,7 @@ from less to more experienced.
 
 If you want a short fix,
 you have
-[my presentation for [Developers.nl](http://developers.nl/)](http://slides.com/alexfernandez/better-dev#/)
+[my presentation for Developers.nl](http://slides.com/alexfernandez/better-dev#/)
 online.
 
 ## Start Me Up
