@@ -17,8 +17,8 @@ I will try to make original points backed by data,
 or at least by my own experience.
 
 <p style="color:#636; border:thin solid #c9c">
-I will include my personal experiences in colored boxes like this one.
-I will speak a lot about
+I will include my personal experiences in colored boxes like this one,
+quite often extracted from
 [my current company](https://mediasmart.io/).
 </p>
 
