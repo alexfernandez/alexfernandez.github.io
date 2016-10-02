@@ -855,31 +855,46 @@ This goes beyond an Occidental tradition.
 In martial arts movies great experts always have their own schools.
 
 Teaching is the best way to learn.
-
-### Be Open To New Things
-
+And also can be an opportunity to do something different.
 As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2016-9):
 
 > The key to having an interesting life is to always say "yes" to anything crazy.
 
-Being open to new things never hurts.
+<p style="color:#636; border:thin solid #c9c">
+In 2013 the good people at
+[IronHack](https://www.ironhack.com/es)
+invited me to give a seminar about Node.js
+for their web development bootcamp.
+A year later they proposed me to be a full-time teacher
+for a couple of weeks,
+so I took holidays at my regular job and did it.
+The experience was good so I did another bootcamp.
+I have made a good deal of friends,
+and hired some ex-alumni.
+</p>
+
+**Be open to new things.**
 
 ## Conclusion
 
 No matter where you stand in your profession,
 you can always get better.
-It just takes a bit of effort.
+It just takes a bit of constant effort.
 
 ### Take The Reins Of Your Career
 
-Set yourself a goal for the next five years,
-and then devise a way to get there.
+To really improve you need a long-term goal;
+it will help you focus.
+
+**Set yourself a goal for the next five years,
+and then build a way to get there.**
 
 Your goal should not be something too specific:
 if you plan to master Angular,
 in five years it might not be that interesting
 (or it might not even exist).
-Instead of a project or a framework try focusing on a particular discipline.
+Instead of a project, a framework or a company,
+try focusing on a particular discipline.
 
 ### Acknowledgements
 
