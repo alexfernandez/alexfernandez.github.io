@@ -34,6 +34,15 @@ from less to more experienced.
 * [Top Of The Cream Of The Crop](#top-of-the-cream-of-the-crop).
 * [Conclusion](#conclusion).
 
+### TL;DR
+
+If you want a short fix,
+you have
+[my presentation for
+[Developers.nl](http://developers.nl/)
+](http://slides.com/alexfernandez/better-dev#/)
+online.
+
 ## Start Me Up
 
 You want to try out the profession of software developer
@@ -587,6 +596,9 @@ project I mentioned before.
 We finally scheduled it in 2013.
 All the 70 available places in Meetup were gone in about four minutes,
 which goes to show how popular the subject was.
+It was
+[unfortunately taped (in Spanish)](https://vimeo.com/62771422).
+You can see how nervous I was.
 Even though I was very nervous,
 it was a great experience!
 </p>
@@ -695,6 +707,16 @@ Help may come from where you least expect it.**
 
 Brainstorming sessions are great tools when used properly.
 
+<p style="color:#636; border:thin solid #c9c">
+At [mediasmart](https://mediasmart.io/)
+sometimes we have a serious problem that merits attention from the whole dev team.
+For an hour we meet (virtually of course) and discuss the problem,
+and propose possible solutions.
+It is important to let everyone speak their minds.
+Very often the best ideas will come from junior members of the team,
+perhaps because they are not really 
+</p>
+
 ### Be Ready to Resharpen Your Skills
 
 Even if you are at the top of the game,
@@ -719,6 +741,7 @@ both iOS and Android were below Mac OS in
 [browser stats](http://gs.statcounter.com/#all-os-ww-monthly-201101-201112).
 HTML5 was [being finalized](https://en.wikipedia.org/wiki/HTML5#2011.C2.A0.E2.80.93_Last_Call)
 and was not yet a recommended standard.
+jQuery was without a doubt the JavaScript framework of choice.
 Node.js was at
 [version 0.6.0](https://blog.risingstack.com/history-of-node-js/).
 Meanwhile [Java 7 was just released](https://en.wikipedia.org/wiki/Java_%28programming_language%29#Versions)
@@ -739,17 +762,33 @@ A magazine published a story about mainframes a few years ago,
 and did a picture where he appeared by the old photo with a sad face,
 in a cute reference to how mainframe programming was going the way of the dodo.
 (I lost the reference to the story;
-if you evern find it please
+if you ever find it please
 [let me know](https://twitter.com/pinchito).)
 
 The interesting part was that the guy, now in his late 50s,
 had successfully recycled and was now a freeancer telecommuting from his home,
-and he was experimenting with Node.js, which was almost experimental at that time.
+and he was experimenting with Node.js, which was at an early stage at that time.
 
 ### Let The World Know
 
+You want to get the word out about the awesome things you have done?
+Just open a blog and try to write there regularly.
+You may not get a lot of visits at first,
+but you will feel more comfortable writing about technical stuff.
+
+Taking the effort to articulate your thoughts is always good.
+A developer has to write a lot of documents:
+code and API documentation, technical specs,
+user help, postmortems, grant applications,
+to name a few.
+Writing a blog will help you make these documents easier to read.
+
+**Blogs are great to hone your writing skills.**
+
+Another great option is a technical talk,
+not only at local groups.
 Conferences all around the world are eager to hear from people of all backgrounds.
-Why not speak about some interesting project at one?
+Want to get the word out about that amazing project?
 Just send proposals to a few CfPs (calls for proposals).
 It is a great way to attend amazing events for free!
 
@@ -766,14 +805,8 @@ But you get the point.
 The benefits go beyond attending conferences and meeting interesting people in the speakers dinner.
 
 <p style="color:#636; border:thin solid #c9c">
-My first talk at a local community was
-a great attendance success at MadridJS,
-since it was about a hot topic at the moment:
-Node.js and Websockets.
-It was
-[unfortunately taped (in Spanish)](https://vimeo.com/62771422).
-You can see how nervous I was.
-But I persevered: less than a year after that,
+After my first talk at MadridJS I sent a few proposals.
+Less than a year after that,
 I gave an
 [international talk](https://vimeo.com/121892726),
 and [kept at it](http://lanyrd.com/profile/pinchito/sessions/).
@@ -787,11 +820,16 @@ it becomes much easier to do a presentation in front of a small group.
 
 **Speaking at conferences is a great way to learn how to speak in public.**
 
+Soft skills (writing, speaking)
+are as important for a developer as writing good code.
+
 ### Sell Your Work
 
-Maybe you dislike the phrase above:
-"selling a project to the CEO".
-Well, otherwise how do you expect others to buy your ideas?
+Maybe you dislike speaking about "selling"
+as related to your work.
+Good projects should sell themselves, right?
+Wrong.
+Honestly, you cannot expect others to buy your ideas if you don't sell them.
 
 Perhaps you remember the famous sentence from Glengarry Glen Ross:
 ["Coffee is for closers only"](https://www.youtube.com/watch?v=QMFwFgG9NE8).
@@ -805,9 +843,8 @@ We are in for the long run.
 When making a deal,
 keep in mind that in good deals both parties benefit.
 
-**Always sell your work ethically and truthfully.**
-
-But do sell it.
+**Always sell your work ethically and truthfully.
+But do sell it.**
 
 ### Teach Others
 
@@ -816,6 +853,10 @@ There is a reason why a very accomplished professional is called a
 which also happens to mean "teacher".
 This goes beyond an Occidental tradition.
 In martial arts movies great experts always have their own schools.
+
+Teaching is the best way to learn.
+
+### Be Open To New Things
 
 As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2016-9):
 
@@ -829,11 +870,23 @@ No matter where you stand in your profession,
 you can always get better.
 It just takes a bit of effort.
 
+### Take The Reins Of Your Career
+
+Set yourself a goal for the next five years,
+and then devise a way to get there.
+
+Your goal should not be something too specific:
+if you plan to master Angular,
+in five years it might not be that interesting
+(or it might not even exist).
+Instead of a project or a framework try focusing on a particular discipline.
+
 ### Acknowledgements
 
 This article has benefited a lot from discussions with
 [Alfredo López Moltó](http://xgalen.github.io/) ([mediasmart](http://mediasmart.io/)),
-Fran Barea.
+Fran Barea,
+the good people at [Developers.nl](http://developers.nl/).
 
 All errors and omissions are mine.
 
