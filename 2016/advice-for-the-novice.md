@@ -1,6 +1,6 @@
 ---
 title: 'Advice For The Novice'
-subtitle: 'Becoming A Better Developer, Part 2'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 2'
 footer: Published on 2016-10-06, last edited on 2016-10-06.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---

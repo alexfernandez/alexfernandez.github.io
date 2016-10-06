@@ -1,6 +1,6 @@
 ---
 title: 'Get Ahead Of The Curve'
-subtitle: 'Becoming A Better Developer, Part 3'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 3'
 footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---

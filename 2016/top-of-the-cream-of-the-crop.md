@@ -1,6 +1,6 @@
 ---
 title: 'Top Of The Cream Of The Crop'
-subtitle: 'Becoming A Better Developer, Part 4'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 4'
 footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---

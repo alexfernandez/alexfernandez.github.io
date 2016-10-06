@@ -49,6 +49,7 @@ This article has benefited a lot from discussions with
 [Alfredo López Moltó](http://xgalen.github.io/),
 [Fran Barea](https://twitter.com/MandisBack),
 [Javi Jiménez](https://twitter.com/soyjavi/),
+[Yarilo Villanueva](https://twitter.com/YariloCocodrilo),
 [Guillermo Fernández](https://es.linkedin.com/in/gfernandez).
 
 Special thanks to the good people at [Developers.nl](http://developers.nl/),
