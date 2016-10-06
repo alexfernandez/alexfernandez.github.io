@@ -5,7 +5,7 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Charles West Cope: "[RTFM](http://classicprogrammerpaintings.com/)", Oil on canvas, 1872](pics/rtfm.jpg "Read The Fine Manual")
+![Pieter de Hooch: "[SRE tempted to ignore the on-call alert on a Saturday afternoon](http://classicprogrammerpaintings.com/)", Oil on canvas, 1670](pics/sre-tempted.jpg "Chilling at home")
 
 So you want to become a better developer?
 This [guide](becoming-a-better-developer.html) is divided into four parts.
@@ -13,16 +13,16 @@ The previous installment was about
 [getting ahead of the curve](becoming-a-better-developer-part-3.html),
 while the one in your hands right now is the fourth and last.
 
-Now we come to the most delicate part.
-So you are finally what we may call
-"a good developer".
-How can you really shine?
-
 Tips to help you improve are shown **in bold**.
 
 <p style="color:#636; border:thin solid #c9c">
 Personal experiences will appear in colored boxes like this one.
 </p>
+
+Now we come to the most delicate part.
+So you are finally what we may call
+"a good developer".
+How can you really shine?
 
 ## The Myth Of The 10x Engineer
 
