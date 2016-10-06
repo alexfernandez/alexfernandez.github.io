@@ -30,10 +30,10 @@ pandoc --template read-only.html -s 2016/nginx-balancer.md -o 2016/nginx-balance
 pandoc --template read-only.html -s 2016/build-or-not.md -o 2016/build-or-not.html
 pandoc --template read-only.html -s 2016/mib-five-years-later.md -o 2016/mib-five-years-later.html
 pandoc --template read-only.html -s 2016/becoming-a-better-developer.md -o 2016/becoming-a-better-developer.html
-pandoc --template read-only.html -s 2016/becoming-a-better-developer-part-1.md -o 2016/becoming-a-better-developer-part-1.html
-pandoc --template read-only.html -s 2016/becoming-a-better-developer-part-2.md -o 2016/becoming-a-better-developer-part-2.html
-pandoc --template read-only.html -s 2016/becoming-a-better-developer-part-3.md -o 2016/becoming-a-better-developer-part-3.html
-pandoc --template read-only.html -s 2016/becoming-a-better-developer-part-4.md -o 2016/becoming-a-better-developer-part-4.html
+pandoc --template read-only.html -s 2016/start-me-up.md -o 2016/start-me-up.html
+pandoc --template read-only.html -s 2016/advice-for-the-novice.md -o 2016/advice-for-the-novice.html
+pandoc --template read-only.html -s 2016/get-ahead-of-the-curve.md -o 2016/get-ahead-of-the-curve.html
+pandoc --template read-only.html -s 2016/top-of-the-cream-of-the-crop.md -o 2016/top-of-the-cream-of-the-crop.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 
 # Español
