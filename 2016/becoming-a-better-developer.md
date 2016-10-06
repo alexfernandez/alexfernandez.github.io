@@ -164,6 +164,14 @@ the kind of interviews that they do.
 Keep in mind that it is better to apply to 5 places thoughtfully
 than to 100 random companies.
 
+But first you have to decide if you prefer to work at a startup
+or at an established company.
+Keep in mind that startups will probably offer more responsibility
+and will have you do many different tasks,
+while large companies tend to have established roles
+and it can be difficult to change projects.
+Whatever rocks your boat.
+
 Many companies will feature coding tests:
 give you an assignment to complete in a set time.
 From the point of view of the employer,
@@ -897,9 +905,13 @@ try focusing on a particular discipline.
 ### Acknowledgements
 
 This article has benefited a lot from discussions with
-[Alfredo López Moltó](http://xgalen.github.io/) ([mediasmart](http://mediasmart.io/)),
-Fran Barea,
-the good people at [Developers.nl](http://developers.nl/).
+[Alfredo López Moltó](http://xgalen.github.io/),
+[Fran Barea](https://twitter.com/MandisBack),
+[Javi Jiménez](https://twitter.com/soyjavi/),
+[Guillermo Fernández](https://es.linkedin.com/in/gfernandez).
+
+Special thanks to the good people at [Developers.nl](http://developers.nl/),
+thanks to whom I have had the motivation to write this post.
 
 All errors and omissions are mine.
 
