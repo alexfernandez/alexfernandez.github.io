@@ -40,9 +40,8 @@ from less to more experienced.
 ### TL;DR
 
 If you want a short fix,
-you have
-[my presentation for Developers.nl](http://slides.com/alexfernandez/better-dev#/)
-online.
+take a look at
+[my presentation for Developers.nl](http://slides.com/alexfernandez/better-dev#/).
 
 ### Acknowledgements
 
