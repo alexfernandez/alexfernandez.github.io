@@ -10,7 +10,7 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
 So you want to become a better developer?
 This [guide](becoming-a-better-developer.html) is divided into four parts.
 The previous installment was about
-[working as a junior](becoming-a-better-developer-part-2.html),
+[working as a junior](advice-for-the-novice.html),
 while the third (the one in your hands right now)
 is devoted to developers that have certain experience and want to improve.
 

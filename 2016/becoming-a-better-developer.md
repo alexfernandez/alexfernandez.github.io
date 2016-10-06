@@ -28,13 +28,13 @@ This series started life as a looong article,
 so I have divided it into four parts,
 from less to more experienced.
 
-* [Start Me Up](becoming-a-better-developer-part-1.html).
+* Part 1: [Start Me Up](start-me-up.html).
 * More parts coming out soon.
 
 <div style="display:none">
-* [Advice For The Novice](becoming-a-better-developer-part-2.html).
-* [Get Ahead Of The Curve](becoming-a-better-developer-part-3.html).
-* [Top Of The Cream Of The Crop](becoming-a-better-developer-part-4.html).
+* Part 2: [Advice For The Novice](advice-for-the-novice.html).
+* Part 3: [Get Ahead Of The Curve](get-ahead-of-the-curve.html).
+* Part 4: [Top Of The Cream Of The Crop](top-of-the-cream-of-the-crop.html).
 </div>
 
 ### TL;DR

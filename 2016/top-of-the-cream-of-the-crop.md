@@ -10,8 +10,9 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
 So you want to become a better developer?
 This [guide](becoming-a-better-developer.html) is divided into four parts.
 The previous installment was about
-[getting ahead of the curve](becoming-a-better-developer-part-3.html),
-while the one in your hands right now is the fourth and last.
+[getting ahead of the curve](get-ahead-of-the-curve.html),
+while the one in your hands right now (the fourth and last)
+is for people that want to become experts.
 
 Tips to help you improve are shown **in bold**.
 

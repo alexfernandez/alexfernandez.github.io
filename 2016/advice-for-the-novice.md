@@ -10,7 +10,7 @@ footer: Published on 2016-10-06, last edited on 2016-10-06.
 So you want to become a better developer?
 This [guide](becoming-a-better-developer.html) is divided into four parts.
 The previous installment was about
-[starting a career](becoming-a-better-developer-part-1.html),
+[starting a career](start-me-up.html),
 while the second (the one in your hands right now)
 is devoted to juniors wanted to improve in their careers.
 
