@@ -1,6 +1,6 @@
 ---
 title: 'Start Me Up'
-subtitle: 'Becoming A Better Developer, Part 1'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 1'
 footer: Published on 2016-10-06, last edited on 2016-10-06.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
