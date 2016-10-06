@@ -39,7 +39,7 @@ from less to more experienced.
 
 ### TL;DR
 
-If you want a short fix,
+If you want a quick fix,
 take a look at
 [my presentation for Developers.nl](http://slides.com/alexfernandez/better-dev#/).
 
