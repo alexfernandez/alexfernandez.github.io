@@ -1,6 +1,6 @@
 ---
-title: 'Becoming A Better Developer, Part 1'
-subtitle: 'Start Me Up'
+title: 'Start Me Up'
+subtitle: 'Becoming A Better Developer, Part 1'
 footer: Published on 2016-10-06, last edited on 2016-10-06.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
@@ -18,15 +18,13 @@ Tips to help you improve are shown **in bold**.
 Personal experiences will appear in colored boxes like this one.
 </p>
 
-## Start Me Up
+## Vocation And Devotion
 
 You want to try out the profession of software developer
 for fame and riches.
 You have heard that recruiters are offering very well paid jobs,
 and that all of the cool girls and boys are working in the field.
 So how can you get in?
-
-### Vocation And Devotion
 
 First let us do some soul-searching.
 Do you really want to spend your days (and some nights)
@@ -40,7 +38,7 @@ Many people have found that there are other profitable career paths,
 some of them related to software development:
 marketing, UX design, sales.
 
-### Is University Worth It?
+## Is University Worth It?
 
 The profession of software developer here in Spain is taught in "ingeniería informática",
 which is an adaptation of the french term
@@ -71,7 +69,7 @@ And University is not necessarily the best way to work as a developer.
 So if you are doing it as an investment and getting into an enormous debt,
 please reconsider.
 
-### Bootcamps
+## Bootcamps
 
 There is an easier way to acquire some education and access our noble profession.
 It is a great day for software development:
@@ -93,7 +91,7 @@ then you can trust that it will be worth it.
 Keep in mind that only hopeless cases fail to finish the bootcamp,
 so any selection needs to be done *before* it starts.
 
-### Pet Project
+## Pet Project
 
 By far, the best way to learn a new language, framework or environment
 is doing a pet project using it.
@@ -120,7 +118,7 @@ the learning experience will probably compensate for it.
 **Pet projects are not just for job seekers;
 they are great for developers of all levels.**
 
-### Getting That Job
+## Getting That Job
 
 So you have decided you want a job.
 How can you get it?
@@ -201,7 +199,7 @@ In this first part we have seen how to start working as a software developer.
 It is important to choose the right company,
 or you may end up wasting a couple of years of your career.
 
-### Part Two
+## Part Two
 
 The next installment will be published soon.
 [Stay tuned!](https://twitter.com/pinchito)
