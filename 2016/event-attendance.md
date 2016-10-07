@@ -1,7 +1,7 @@
 ---
 title: Increasing Event Attendance
 subtitle: 'Several Measures and Why They Are Useless'
-footer: Published on 2016-01-10.
+footer: Published on 2016-01-10, last modified 2016-10-07.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -117,18 +117,20 @@ The problem now becomes: how do you increase the conversion rate?
 ### Proposals Revisited
 
 Now let us review the proposals from CLSxMadrid with this new mindset.
-Imagine that to increase your sales,
-you decide to charge €1 to everyone that uses your shopping cart,
-and then give it back to those that actually buy anything.
+Imagine that to increase sales at an online store,
+you decide to charge €1 to everyone that uses your virtual shopping cart,
+and then give it back **only to those that actually buy anything**.
 Do you think it would be successful?
 
-That is the kind of strategy that a stuffy department-store manager
-might come up with,
-but to anyone with half a clue looks really poorly thought.
-Prevent people from using the shopping cart,
+That is the kind of strategy that not even a stuffy department-store manager at a physical store
+would find acceptable:
+imagine what it would to sales if the token €1 deposit for a real shopping cart
+was only returned to people that buy something?
+To anyone with half a clue it looks really poorly thought.
+Prevent people from using a virtual shopping cart,
 which doesn't cost you anything?
 
-You _really_ do not want to do anything that decreases the broad ends of the funnel.
+You _really_ do not want to do anything that decreases the broad opening of the funnel.
 In our case, it is not a good idea to limit the number of people that sign up,
 and you have better think twice before _reducing the community_ by expelling inconstant members!
 Instead, you want to study why your conversion rate is so low.
@@ -140,10 +142,9 @@ once people have paid for something
 they are sure to attend.
 But unless you are TED Talks,
 good luck bringing people to your events.
-The only way to increase conversion rate would seem to be
-to make events more interesting,
+**The only way to increase conversion rate is to make events more interesting,
 meetups more engaging,
-and talks more inspiring.
+and talks more inspiring.**
 Then again, I bet you are already doing all that already!
 
 With this new point of view, a conversion rate of 30 to 50% is not bad.
