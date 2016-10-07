@@ -142,7 +142,8 @@ once people have paid for something
 they are sure to attend.
 But unless you are TED Talks,
 good luck bringing people to your events.
-**The only way to increase conversion rate is to make events more interesting,
+**The only way to increase conversion rate would seem to be
+to make events more interesting,
 meetups more engaging,
 and talks more inspiring.**
 Then again, I bet you are already doing all that already!
