@@ -96,7 +96,7 @@ Learn how to use it well.**
 ## Reviews And Criticism
 
 The best way to improve is having other people review your code.
-As [Eric Elliott says](https://twitter.com/_ericelliott/status/784914896274063360):
+As [Eric Elliott said just today](https://twitter.com/_ericelliott/status/784914896274063360):
 
 > In a mentorship culture with lots of pairing and code reviews, even novice developers quickly become great assets.
 
