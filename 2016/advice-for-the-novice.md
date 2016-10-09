@@ -25,10 +25,80 @@ Personal experiences will appear in colored boxes like this one.
 So you are starting in our noble and worthy profession.
 What do you need to know to survive?
 
-If you are a junior developer at a company,
+When you are a junior developer at a company,
 you want to be sure that there are really good people you can learn from.
 Most importantly, you want to actually learn from them.
-Ask to work with someone you respect.
+Do not be afraid to ask.
+
+**Ask to work with someone you respect.**
+
+You will probably have to do menial tasks,
+and will be tempted to think that they are below your level.
+But just think: who else is going to do them if you don't?
+Boring, repetitive tasks are great candidates for optimization.
+Why not trying to automate them so that nobody has to do them?
+
+**Try to optimize your workflow.**
+
+## Choosing A Tool Set
+
+Like in any profession, what tools you use makes a huge difference in your daily work.
+Quite often you will have no say on the tools to use in a project:
+text editor, IDE, compiler, and so on.
+But sometimes you do.
+
+Mandating an official dev environment is one of the first things done at many companies:
+big, medium and even startups.
+It is also one of the most futile, if not actively harmful.
+Code is text;
+you should be able to manipulate it using whatever tools are best suited for each task.
+
+<p style="color:#636; border:thin solid #c9c">
+At [mediasmart](https://mediasmart.io/)
+we don't mandate an official text editor.
+Some of us use vim, others emacs,
+some prefer graphical editors such as
+[GitHub's Atom](https://atom.io/).
+I have been using vim exclusively for five years now.
+Even though I am by no means an expert user,
+it gives me a huge advantage:
+I have the same editor locally and on servers,
+it is light and efficient,
+and can be used anywhere.
+Even the bloated and inferior emacs can be used in this fashion.
+Just joking; any console editor is fine.
+But [vim is the best](http://stackoverflow.com/research/developer-survey-2016#developer-environment-per-occupation).
+</p>
+
+No matter who chooses them,
+take the time to learn how to use your tools.
+It will pay off.
+
+**Learn how to use different tools,
+and choose the best for your daily work.**
+
+One of the most overlooked skills is typing.
+Do you peck with two fingers, or touch-type using ten?
+Some people contend that typing is just a tiny portion of the time of a developer,
+so it doesn't matter how fast you type.
+I strongly disagree.
+Adding up the time spent writing code
+and communicating with others (mail, chat, docs)
+would probably make it worth it.
+But consider that everything else you do on the computer
+goes through the keyboard or the mouse.
+There is not much learning in the mouse,
+but using the keyboard 50% faster makes a huge difference in the long run.
+
+**Your keyboard is your basic tool.
+Learn how to use it well.**
+
+## Reviews And Criticism
+
+The best way to improve is having other people review your code.
+As [Eric Elliott says](https://twitter.com/_ericelliott/status/784914896274063360):
+
+> In a mentorship culture with lots of pairing and code reviews, even novice developers quickly become great assets.
 
 Be prepared to receive criticism.
 It is not always easy to have someone rip through your code
@@ -48,6 +118,17 @@ he probably felt that I hated him
 he got disheartened by all the negative feedback.
 Nowadays he takes criticism of his code as a pro!
 </p>
+
+I have never worked with anyone that was a great developer and did everything right from the start.
+But I have never worked with a senior that did _everything_ right, either.
+I don't do everything right myself,
+and I don't expect others to.
+That is why we have
+[code reviews and walkthroughs](/2015/walk-through-my-code.html).
+
+**You are not supposed to do everything perfectly.
+Nobody is.
+We are all supposed to learn and get better.**
 
 ## Learn Strategies
 
@@ -133,7 +214,7 @@ Just asking what other strategy can be tried can be enough.
 And of course, do your homework before asking for help:
 try out the strategies that you know.
 
-**Asking for help must be a last resource.**
+**Asking for help must go after you have exhausted your own resources.**
 
 ## Find A Mentor
 
@@ -150,7 +231,7 @@ That is not how mentoring is supposed to work!
 
 A mentor is someone to ask questions to.
 Or at least to tell them your plans,
-and let them speak their opinion.
+and ask for their opinion.
 
 **Look for a good mentor, and then use them!**
 
