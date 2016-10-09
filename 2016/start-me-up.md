@@ -201,6 +201,7 @@ or you may end up wasting a couple of years of your career.
 
 ## Part Two
 
-The next installment will be published soon.
-[Stay tuned!](https://twitter.com/pinchito)
+The next installment is out!
+Dedicated to
+[juniors starting to work](advice-for-the-novice.html).
 

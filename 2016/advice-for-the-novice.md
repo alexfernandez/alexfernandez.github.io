@@ -1,11 +1,11 @@
 ---
 title: 'Advice For The Novice'
 subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 2'
-footer: Published on 2016-10-06, last edited on 2016-10-06.
+footer: Published on 2016-10-09, last edited on 2016-10-09.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Yoshimori Utagawa: "[Junior dev gets aggressive after his first code review by senior peers](https://twitter.com/pinchito/status/760593307365941248)", Woodblock print, 1862](pics/junior-developer-aggresive.jpg "Getting really aggressive")
+![Yoshimori Utagawa: "[Junior dev gets aggressive after his first code review by senior peers](https://twitter.com/pinchito/status/760593307365941248)", Woodblock print, 1862](pics/junior-developer-aggresive.jpg "Code reviews can get nasty")
 
 So you want to become a better developer?
 This [guide](becoming-a-better-developer.html) is divided into four parts.
