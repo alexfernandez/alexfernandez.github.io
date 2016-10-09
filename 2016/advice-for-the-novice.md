@@ -17,7 +17,7 @@ is for juniors wishing to improve their careers.
 Tips are shown **in bold**.
 
 <p style="color:#636; border:thin solid #c9c">
-Personal experiences will appear in colored boxes like this one.
+Personal experiences appear in colored boxes like this one.
 </p>
 
 ## Life As A Junior
