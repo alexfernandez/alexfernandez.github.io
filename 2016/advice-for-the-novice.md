@@ -38,9 +38,9 @@ Keep in mind that knowing what you are doing wrong
 is the best way to improve.
 
 <p style="color:#636; border:thin solid #c9c">
-My colleague Sergio García started as a junior at 
+One of my colleagues at
 [mediasmart](https://mediasmart.io/)
-at the same time I did;
+started at the same time I did;
 he had no professional experience.
 When I started commenting on his pull requests
 he probably felt that I hated him
