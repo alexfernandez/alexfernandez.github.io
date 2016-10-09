@@ -14,7 +14,7 @@ The previous installment was about
 while the second (the one in your hands right now)
 is for juniors wishing to improve their careers.
 
-Tips to help you improve are shown **in bold**.
+Tips are shown **in bold**.
 
 <p style="color:#636; border:thin solid #c9c">
 Personal experiences will appear in colored boxes like this one.
