@@ -12,7 +12,7 @@ This [guide](becoming-a-better-developer.html) is divided into four parts.
 The previous installment was about
 [starting a career](start-me-up.html),
 while the second (the one in your hands right now)
-is devoted to juniors wishing to improve in their careers.
+is for juniors wishing to improve their careers.
 
 Tips to help you improve are shown **in bold**.
 
