@@ -1,7 +1,7 @@
 ---
 title: 'Advice For The Novice'
 subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 2'
-footer: Published on 2016-10-09, last edited on 2016-10-09.
+footer: Published on 2016-10-09, last edited on 2016-10-10.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -129,6 +129,31 @@ That is why we have
 **You are not supposed to do everything perfectly.
 Nobody is.
 We are all supposed to learn and get better.**
+
+## Test Everything
+
+There is a very small improvement that can make a huge difference in your work.
+Before you take any task as finished, _test it_.
+It would surprise you the amount of people that send something for review,
+or even to customers,
+without testing it first.
+The result: it implodes at first sight,
+making everyone lose their time.
+
+<p style="color:#636; border:thin solid #c9c">
+I am a sucker for competitive cooking TV shows.
+When a dish is particularly nasty,
+one of the judges is sure to ask:
+"Did you taste it?"
+Almost invariably the contestant will answer no.
+Succesful contestants are always shown tasting everything.
+</p>
+
+Good professionals always test everything,
+so that you can trust that when you receive something from them
+it works the first time.
+
+**Test everything before yo deliver it.**
 
 ## Learn Strategies
 
