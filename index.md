@@ -9,6 +9,8 @@ I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pin
 I help organize two great communities: [MadridJS](http://www.meetup.com/es/madridjs/) and [Node.js Madrid](http://www.meetup.com/es/Node-js-Madrid/),
 where we gather once a month and have some fun talking about nerdy stuff.
 
+[Español](#artículos-en-español)
+
 ## Software Engineering
 
 Latest articles.
@@ -50,6 +52,9 @@ Articles about stuff not related to software engineering.
 
 ## Public Talks
 
+Videos of talks at events and conferences,
+from less to more embarrassing.
+
 * 2016-07-15: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
 * 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
 * 2014-11-18: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
@@ -57,18 +62,21 @@ Articles about stuff not related to software engineering.
 
 Note: I have spoken at
 [a few more events](http://lanyrd.com/profile/pinchito/sessions/),
-but the talks were sadly not always published.
+but the videos have not always been published.
 Check out [my presentations](http://slides.com/alexfernandez/) for a quick fix.
 
 ## CV
 
 In case you are interested about my past experience,
 [here you go](permanent/cv.html).
-I sometimes take short-term engagements
+I sometimes work as a freelancer for short-term engagements
 such as teaching courses,
-giving private talks or freelancing for a few days
-on an interesting project.
-Note to recruiters: I am not interested in a job change right now.
+giving private talks
+or working on an interesting project for a few days.
+If you have a proposal
+[let me know](mailto:alexfernandeznpm@gmail.com).
+**Note to recruiters:**
+I am not interested in a job change right now.
 
 ## Artículos en español
 
@@ -88,6 +96,9 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 * 2013-07-11: [Pruebas asíncronas en node.js](2013/pruebas-asincronas.html)
 
 ## Charlas en español
+
+Vídeos de eventos y conferencias,
+de menos a más novato.
 
 * 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
 * 2015-11-27: [La arquitectura fluida](https://www.youtube.com/watch?v=QaX-rTwO7aw)

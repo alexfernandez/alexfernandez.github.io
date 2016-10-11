@@ -53,7 +53,7 @@ This article has benefited a lot from discussions with
 [Guillermo Fernández](https://es.linkedin.com/in/gfernandez).
 
 Special thanks to the good people at [Developers.nl](http://developers.nl/),
-thanks to whom I have had the motivation to write this post.
+thanks to whom I had the motivation to write this post.
 
 All errors and omissions are mine.
 
