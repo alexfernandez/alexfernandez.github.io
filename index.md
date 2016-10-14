@@ -115,4 +115,5 @@ Please browse my [other projects](https://github.com/alexfernandez/).
 
 Original design is [Read Only](http://html5up.net/read-only), by [HTML5 UP](http://html5up.net).
 Heavily mutilated by [the author](https://twitter.com/pinchito).
+Avatar picture taken by [Sergio García](https://twitter.com/sgmonda).
 
