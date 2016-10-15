@@ -1,7 +1,7 @@
 ---
 title: The Case Against Software Craftsmanship
 subtitle: 'or Why Mistrust Engineers that Present Themselves as Craftsmen'
-footer: Published on 2016-01-08.
+footer: Published on 2016-01-08, last modified on 2016-10-15.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -91,7 +91,7 @@ create a vanity Linux distribution,
 or is it just better to use a common Linux variant?
 Suppose that the new project is successful and someone else has to maintain it,
 or just that you need to get some help.
-It Will not be easy to find engineers that know how to fix your beast,
+It will not be easy to find engineers that know how to fix your beast,
 or even worse that _want_ to learn their way around it.
 
 Sticking to industry standards is not only safe;
