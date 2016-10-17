@@ -30,10 +30,10 @@ from less to more experienced.
 
 * Part 1: [Start Me Up](start-me-up.html).
 * Part 2: [Advice For The Novice](advice-for-the-novice.html).
-* More parts coming out soon.
+* Part 3: [Get Ahead Of The Curve](get-ahead-of-the-curve.html).
+* Last part coming out soon.
 
 <div style="display:none">
-* Part 3: [Get Ahead Of The Curve](get-ahead-of-the-curve.html).
 * Part 4: [Top Of The Cream Of The Crop](top-of-the-cream-of-the-crop.html).
 </div>
 

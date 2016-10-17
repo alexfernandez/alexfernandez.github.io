@@ -271,6 +271,7 @@ but if you work hard it can also be very rewarding.
 
 ## Part Three
 
-The next installment will be published soon.
-[Stay tuned!](https://twitter.com/pinchito)
+The next installment is out!
+Dedicated to
+[developers with experience](get-ahead-of-the-curve.html).
 

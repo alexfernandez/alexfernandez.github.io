@@ -1,7 +1,7 @@
 ---
 title: 'Get Ahead Of The Curve'
 subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 3'
-footer: Published on 2016-09-18, last edited on 2016-09-18.
+footer: Published on 2016-10-17, last edited on 2016-10-17.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -24,9 +24,9 @@ Personal experiences will appear in colored boxes like this one.
 
 Now let us consider the next step.
 You have been in the industry for a few years,
-you want to become a better developer.
+and you want to become a better developer.
 
-At this delicate juncture we must search our souls once more.
+At this delicate juncture we must search our souls once again.
 Do you have the level of devotion needed to be,
 not just a regular software developer,
 but a really good one?
@@ -44,11 +44,11 @@ never despise good developers;
 never despise regular workers.**
 
 I guess you can say it shorter:
-never despise other people for doing their work as best they can.
+never despise other people for doing their job as best they can.
 
 ## Impostor Syndrome
 
-Perhaps you think you are mediocre.
+Perhaps you think you are a mediocre developer.
 Let me introduce you to this little concept called
 [impostor syndrome](https://counseling.caltech.edu/general/InfoandResources/Impostor),
 which some say is
@@ -91,12 +91,13 @@ This is only true if:
 * quality can be measured,
 * and it follows a Gaussian distribution.
 
-Let us put aside the first condition for a moment.
+Let us put aside the first item for a moment.
 The second condition is not just a fine point:
 many important variables follow highly skewed distributions.
 
 Let me give you just one example.
-Household income is one of these highly skewed quantities.
+Household income is one of these highly skewed quantities
+that do not follow a Gaussian curve.
 
 ![Income distribution in the UK (2014/15). Source: [Households Below Average Income](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/532416/households-below-average-income-1994-1995-2014-2015.pdf).](pics/income-median.png "Distribution is highly skewed to the left.")
 
@@ -128,7 +129,7 @@ DeMarco and Lister found huge differences in productivity in an inter-company co
 ![Time to complete a programming task. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolistertimetocomplete.gif "Minimum is 100 minutes, average 200, maximum 900.")
 
 See how most people are below the average?
-Gradually people realized that there were huge differences in productivity between developers.
+Gradually managers realized that there were huge differences in productivity between developers.
 
 From this emerged the figure of the 10x engineer:
 a person which is able to do 10 times as much work as the regular developer.
@@ -216,7 +217,8 @@ A few of them are:
 * quality assurance,
 * mobile apps,
 * machine learning,
-* analytics.
+* analytics,
+* …
 
 Getting thrown into the wrong specialty can be very damaging.
 
@@ -227,7 +229,7 @@ As I have told [elsewhere](2016/mib-five-years-later.md),
 a couple of years later I was made a project manager,
 which means that I was supposed to use an office suite
 as my tool of choice,
-and not code anymore.
+and _not code anymore_.
 My life was not easy from that point on.
 While it is nice to know how to manage people,
 resources and projects,
@@ -254,10 +256,10 @@ Finally, a really good way to improve as a software engineer
 is to find a local community,
 and get involved.
 Just showing up is a great first step!
-Then you can stay for a couple of drinks afterwards.
+Then you can stay for a couple of sodas afterwards.
 It is very rewarding to know more people that work in your field and exchange stories from the trenches.
 Talking with your colleagues from work is nice,
-but since you breeze the same environment it is not as interesting.
+but since you breathe the same environment it is not as interesting.
 
 The next step is to attend a few conferences,
 both at the national and international level.
@@ -274,15 +276,16 @@ about Node.js and Websockets,
 something I had been working on in my spare time
 as part of the
 [milliearth](https://github.com/alexfernandez/milliearth)
-project I mentioned before.
+project I have mentioned before.
 We finally scheduled it in 2013.
 All the 70 available places in Meetup were gone in about four minutes,
 which goes to show how popular the subject was.
 It was
 [unfortunately taped (in Spanish)](https://vimeo.com/62771422).
 You can see how nervous I was.
-Even though I was very nervous,
-it was a great experience!
+Even so it was a great experience!
+Since then I have been involved in MadridJS,
+and today I help organize monthly talks.
 </p>
 
 ## Conclusion
@@ -302,7 +305,8 @@ like "mastering Angular":
 in five years it might not be that interesting
 (or it might not even exist).
 Instead of a project, a framework or a company,
-try focusing on a particular discipline.
+try focusing on a particular discipline,
+and work from there.
 
 ## Part Four
 
