@@ -225,7 +225,7 @@ Getting thrown into the wrong specialty can be very damaging.
 <p style="color:#636; border:thin solid #c9c">
 In 2007 I joined ING Direct Spain as an analyst,
 which involved a lot of technical work and some programming.
-As I have told [elsewhere](2016/mib-five-years-later.md),
+As I have told [elsewhere](mib-five-years-later.md),
 a couple of years later I was made a project manager,
 which means that I was supposed to use an office suite
 as my tool of choice,
