@@ -15,6 +15,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 Latest articles.
 
+* 2016-10-17: [Becoming A Better Developer, Part 3: Get Ahead Of The Curve](2016/get-ahead-of-the-curve.html).
 * 2016-10-06: [Becoming A Better Developer, Part 2: Advice For The Novice](2016/advice-for-the-novice.html).
 * 2016-10-06: [Becoming A Better Developer, Part 1: Start Me Up](2016/start-me-up.html).
 * 2016-07-27: [MoveinBlue, Five Years Later](2016/mib-five-years-later.html).
