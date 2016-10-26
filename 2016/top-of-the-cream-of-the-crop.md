@@ -41,11 +41,14 @@ a very small sample to start with.
 But those initial studies quoted above have been complemented by
 [a few more](http://www.construx.com/10x_Software_Development/Origins_of_10X_%E2%80%93_How_Valid_is_the_Underlying_Research_/),
 and they all point to the same direction:
-there are 10x differences between the best and the worst developers.
+there are 10x differences between the best and the *worst* developers.
 
 No, the trouble lies in the new implicit interpretation:
-that some engineers are *10 times more productive than the average*.
-This is not upheld by any studies.
+that some engineers are *10 times more productive than the average*,
+rather than the worst.
+Because, who wants to be compared to the worst developers they know?
+
+This large difference with the average is not upheld by any studies.
 Perhaps two or three times as productive?
 That is fine, and would be expected on any field.
 But from there to ten times is a long stretch.
@@ -58,11 +61,12 @@ In the words of Betsy Haibel in
 > the kind of Real True Hackers who think of themselves as some day inventing radically new tech
 > — naturally identify themselves as 10x engineers amidst a sea of unimaginative clock-punching proles.
 
-It is a great article and I cannot recommend it more.
+It is a great article and I cannot recommend it more,
+even though it contains a few factual inaccuracies.
 
 The most interesting point in Peopleware is not that some developers perform better than others.
 There is a deep conclusion in there that eludes most commentarists.
-Their war games were done with couples of developers from the same company.
+Their "war games" were done with couples of developers from the same company.
 The performance of both devs in each team was highly correlated.
 
 ![Correlation between teammates. Source: DeMarco and Lister: Peopleware (2nd edition), 1999, via [Best Webfoot Forward](http://blog.webfoot.com/2007/02/16/demarco-and-lister/).](pics/demarcolisterteammates.gif "Teammates are highly correlated.")
@@ -83,6 +87,7 @@ This includes: comfortable working space,
 probably telecommuting at least part of the time,
 a comfortable environment where you can take risks,
 and great colleagues.
+Do not settle for less if you want to really shine.
 
 ## Bring Me Problems, Not Solutions
 
@@ -93,12 +98,14 @@ Once you find the problem it usually easy to solve it.
 The real challenge is in finding the problem.
 
 Oh, somebody may come with a high-level business target.
-For old-school engineers the business target might be:
+For classic engineers the business target might be:
 let the people of this town cross this river,
 or accomodate the incoming traffic for the next 20 years.
 For a software engineer it can be:
 keep costs below a certain mark,
 or connect to a server within a latency number.
+But that is just a goal;
+the problems will start to appear as soon as you apply your skills to the task.
 
 **Do not wait for other people to give you problems;
 go after them for yourself.**
@@ -129,7 +136,7 @@ For an hour we meet (virtually of course) and discuss the problem,
 and propose possible solutions.
 It is important to let everyone speak their minds.
 Very often the best ideas will come from junior members of the team,
-perhaps because they are not really 
+perhaps because they are not as tainted as the seniors.
 </p>
 
 ## Be Ready to Resharpen Your Skills
@@ -138,16 +145,17 @@ Even if you are at the top of the game,
 in our industry there are no guarantees.
 
 <p style="color:#636; border:thin solid #c9c">
-After leaving ING Direct Spain,
+After leaving ING Direct Spain five years ago,
 I [co-founded a startup](http://alexfernandez.github.io/2016/mib-five-years-later.html)
 that ultimately went nowhere,
-but allowed me to recycle myself starting to program again.
+but allowed me to recycle myself starting to write software again.
 </p>
 
 Just look at what the tech landscape looked like five years ago.
 In 2011 containers were the realm of VMWare:
 Docker did not exist,
-and Linux developers were busy merging container-related patches into the kernel.
+and Linux developers were busy merging container-related patches into the kernel
+while the world lifted its collective eyebrows in surprise.
 Internet Explorer was the
 [most used browser globally](http://gs.statcounter.com/#browser-ww-monthly-201101-201112),
 and Chrome was just overtaking Firefox in the second place.
@@ -174,14 +182,14 @@ or update your skills constantly.
 One of my favorite stories is about a mainframe programmer
 that appeared in a 70s picture along an old computer.
 A magazine published a story about mainframes a few years ago,
-and did a picture where he appeared by the old photo with a sad face,
+and did a picture where he appeared holding the old photo with a sad face,
 in a cute reference to how mainframe programming was going the way of the dodo.
 (I lost the reference to the story;
 if you ever find it please
 [let me know](https://twitter.com/pinchito).)
 
 The interesting part was that the guy, now in his late 50s,
-had successfully recycled and was now a freeancer telecommuting from his home,
+had successfully reinvented himself and was now a freeancer telecommuting from his home,
 and he was experimenting with Node.js, which was at an early stage at that time.
 
 ## Let The World Know
@@ -201,7 +209,7 @@ Writing a blog will help you make these documents easier to read.
 **Blogs are great to hone your writing skills.**
 
 Another great option is a technical talk,
-not only at local groups.
+at local groups all the way up to international conferences.
 Conferences all around the world are eager to hear from people of all backgrounds.
 Want to get the word out about that amazing project?
 Just send proposals to a few CfPs (calls for proposals).
@@ -213,7 +221,7 @@ Just be sure to speak at a [local community first](#get-involved-in-the-communit
 then work your way up to national and then international conferences
 when you feel comfortable.
 Speaking at conferences is a great way to attend for free!
-Well, there's the unpaid time for preparing the talk,
+Well, there's the unpaid time spent researching and preparing the talk,
 so your ticket does not really come for "free".
 But you get the point.
 
@@ -236,7 +244,7 @@ it becomes much easier to do a presentation in front of a small group.
 **Speaking at conferences is a great way to learn how to speak in public.**
 
 Soft skills (writing, speaking)
-are as important for a developer as writing good code.
+are as important for an expert developer as writing good code.
 Getting the word out will help you develop these.
 
 ## Sell Your Work
@@ -267,16 +275,11 @@ But do sell it.**
 There is a reason why a very accomplished professional is called a
 ["master"](https://en.wiktionary.org/wiki/master#Etymology_1),
 which also happens to mean "teacher".
-This goes beyond an Occidental tradition.
+This goes beyond the Occidental tradition.
 In martial arts movies great experts always have their own schools.
 
 Teaching is the best way to learn.
 And also can be an opportunity to do something different.
-As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2016-9):
-
-## Conclusion
-
-> The key to having an interesting life is to always say "yes" to anything crazy.
 
 <p style="color:#636; border:thin solid #c9c">
 In 2013 the good people at
@@ -291,9 +294,16 @@ I have made a good deal of friends,
 and hired some ex-alumni.
 </p>
 
+## Conclusion
+
+As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2016-9):
+
+> The key to having an interesting life is to always say "yes" to anything crazy.
+
 **Be open to new things.**
 
 ## Thanks For Getting This Far
 
-Back to the [index](becoming-a-better-developer.html).
+Be sure to read the first three parts in the
+[series](becoming-a-better-developer.html).
 
