@@ -22,7 +22,7 @@ Personal experiences will appear in colored boxes like this one.
 
 Now we come to the most delicate part.
 So you are finally what we may call
-"a good developer".
+"an expert developer".
 How can you really shine?
 
 ## The Myth Of The 10x Engineer

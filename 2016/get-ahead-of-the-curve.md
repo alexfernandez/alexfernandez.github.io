@@ -310,6 +310,7 @@ and work from there.
 
 ## Part Four
 
-The next installment will be published soon.
-[Stay tuned!](https://twitter.com/pinchito)
+The next installment is out!
+For you
+[expert developers](top-of-the-cream-of-the-crop.html)
 
