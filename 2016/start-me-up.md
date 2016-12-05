@@ -1,7 +1,7 @@
 ---
 title: 'Start Me Up'
 subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 1'
-footer: Published on 2016-10-06, last edited on 2016-10-06.
+footer: Published on 2016-10-06, last edited on 2016-12-04.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -36,7 +36,7 @@ Do you have in you the will power to spend countless hours tracking a bug?
 Software development is not an easy career to follow.
 Many people have found that there are other profitable career paths,
 some of them related to software development:
-marketing, UX design, sales.
+marketing, design, UX, sales.
 
 ## Is University Worth It?
 
@@ -61,8 +61,7 @@ under the notion that I could learn how to program by myself,
 but I would never get to learn science properly if I studied computers.
 I believe I was basically right:
 it was one of the few good decisions I made as a teenager.
-I don't think that studying software engineering is useless;
-it's probably fine for most people.
+Still, studying software engineering is fine really.
 </p>
 
 And University is not necessarily the best way to work as a developer.
@@ -74,18 +73,18 @@ please reconsider.
 There is an easier way to acquire some education and access our noble profession.
 It is a great day for software development:
 our skills are in such high demand that many cool companies are willing to take in
-people that have learned the basics of our profession in 8 to 12 weeks.
-They are not cheap though.
-Prepare to pay about a thousand dollars per week.
+people that have learned the basics in 8 to 12 weeks.
+These bootcamps are not cheap though:
+prepare to pay about a thousand dollars per week.
 
-Bootcamps are not just for outsiders.
+Intensive courses are not just for outsiders.
 I have met quite a few people that were already working as developers,
 and just wanted to recycle themselves in a different field.
 
 How can you know if a bootcamp is any good?
 It depends a lot on how exigent they are.
 If they are ready to accept anyone then the level is probably not very high.
-If there is a selection process just to get in,
+But if there is a selection process just to get in,
 and many people are rejected,
 then you can trust that it will be worth it.
 Keep in mind that only hopeless cases fail to finish the bootcamp,
@@ -93,23 +92,25 @@ so any selection needs to be done *before* it starts.
 
 ## Pet Project
 
-By far, the best way to learn a new language, framework or environment
-is doing a pet project using it.
-That way, the project supplies the motivation
-and you only need to fill in the details.
+The hardest aspect of learning a new language, framework or environment
+is to keep the motivation up.
+That is why by far, the best way to learn anything new
+is to start a pet project using it.
+That is because the project supplies the necessary motivation to delve into new waters,
+and even to enjoy the journey.
 
 This is also a great presentation card for a prospective employer.
 
 <p style="color:#636; border:thin solid #c9c">
-I was writing a book that never materialized,
+For a few years I was writing a book that never materialized,
 in an obscure editor called [LyX](https://www.lyx.org/).
 I started [eLyXer](https://github.com/alexfernandez/elyxer)
 to help me convert it to HTML;
 it was very useful to learn Python.
-Later on I wrote
+Later on I started
 [milliearth](https://github.com/alexfernandez/milliearth),
-and then [loadtest](https://github.com/alexfernandez/loadtest).
-I have learned a lot of Node.js with these two projects.
+and [loadtest](https://github.com/alexfernandez/loadtest),
+two projects that have helped me learn a lot of Node.js.
 </p>
 
 Even if your pet project gets nowhere near your original objective,
@@ -120,9 +121,9 @@ they are great for developers of all levels.**
 
 ## Getting That Job
 
-So you have decided you want a job.
+So you have decided you want a certain job.
 How can you get it?
-Julia Grace, engineering director at Slack,
+Julia Grace, Director of Infrastructure Engineering at Slack,
 [says](http://www.juliahgrace.com/blog/2015/4/9/an-unconventional-guide-for-getting-a-software-engineering-job):
 
 > [...] find someone at the company (search their About pages, which often have links to employees’ LinkedIn, Twitter accounts, etc.) and email that person asking about the company.
@@ -133,15 +134,15 @@ The whole article is very interesting as it reframes a lot of common points of v
 
 Do not throw CVs around like it's Christmas;
 instead, focus on places where you _really_ want to work.
-Prepare for them, check what they like,
+Research them, check what they like,
 what they looking for,
-the kind of interviews that they do.
+prepare for the kind of interviews that they do.
 Keep in mind that it is better to apply to 5 places thoughtfully
 than to 100 random companies.
 
-But first you have to decide if you prefer to work at a startup
+The first decision is if you prefer to work at a startup
 or at an established company.
-Keep in mind that startups will probably offer more responsibility
+Take into account that startups will probably offer more responsibility
 and will have you do many different tasks,
 while large companies tend to have established roles
 and it can be difficult to change projects.
@@ -149,24 +150,25 @@ Whatever rocks your boat.
 
 Many companies will feature coding tests:
 give you an assignment to complete in a set time.
-From the point of view of the employer,
+From the point of view of the employer
 it's only natural that you should show how you build software
 if that is what you will be doing at work!
-The best tests should not take longer than a couple of hours.
+Each test should not take longer than a couple of hours.
 
+<p style="color:#636; border:thin solid #c9c">
 At <a href="https://mediasmart.io/">mediasmart</a>
 we create a coding test with five or six stages.
 Several of our developers will do it beforehand to gauge how long it should take,
 and keep only enough stages for an hour or so.
-We send the first one by email the morning before to all candidates,
-so they can do it at their leisure;
-if they do not perform well under pressure,
-at least they have something to show.
+We send the first one by email the morning before to all candidates
+so they can do it at their leisure,
+and they always have something to show.
 The rest of the stages are done under our supervision,
 and they have to complete as many as possible in an hour.
 It is an excellent way to test the abilities of a candidate.
-There is a certain pressure on candidates,
+There is a certain pressure in the on-premises test,
 but knowing how they perform under stress is also valuable.
+</p>
 
 <p style="color:#636; border:thin solid #c9c">
 Once we had a candidate that said that he had completed the first stage the night before.
@@ -174,14 +176,16 @@ When asked to produce the code, he said that he had solved it "in his head".
 Bad sign!
 Afterwards he was not able to complete even the first stage,
 which supposedly he had finished at home.
+Maybe he was an excellent developer but he failed to prove it.
+Imagine if we had trusted his word.
 </p>
 
-**Do your research.
+**Do your research for an interview.
 Prepare to show your work,
 and how you work.**
 
-Other companies like to place you in front of a whiteboard
-and ask questions about algorithms and theoretical problems.
+Other companies like to place you in front of a whiteboard,
+make questions about algorithms and ask you to solve theoretical problems.
 I distrust these tests;
 they are nothing like the work you will later do.
 But hey, if Google do it, then it cannot be wrong,
