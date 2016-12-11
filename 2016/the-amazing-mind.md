@@ -429,6 +429,10 @@ and
 where the first is the unmediated world of true things
 and the second is the reality made of words about which we speak.
 
+As Albert Einstein once said:
+
+> Insofar as the propositions of mathematics give an account of reality they are not certain; and insofar as they are certain they do not describe reality.
+
 ## Conclusion
 
 A theoretical framework of how concepts are manipulated is very useful to understand how the mind works,
