@@ -439,9 +439,10 @@ but not to both.
 
 ## Conclusion
 
-A theoretical framework of how concepts are manipulated is very useful to understand how the mind works,
-even if it is not backed yet by experiments or low-level observations;
+A theoretical framework of how concepts are manipulated is very useful to understand how the mind works.
+It is not backed yet by experiments or low-level observations,
 just by a bunch of anecdotal observations.
+But it should be a promising approach for the study of the mind.
 
 ### Acknowledgements
 
