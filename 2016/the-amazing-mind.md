@@ -429,9 +429,13 @@ and
 where the first is the unmediated world of true things
 and the second is the reality made of words about which we speak.
 
-As Albert Einstein once said:
+Albert Einstein once said:
 
 > Insofar as the propositions of mathematics give an account of reality they are not certain; and insofar as they are certain they do not describe reality.
+
+Similarly, words that refer to reality are not true; and words that are true cannot refer to reality.
+Words can either refer to the world where we speak, or to the world about which we speak;
+but not to both.
 
 ## Conclusion
 
