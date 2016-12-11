@@ -82,9 +82,44 @@ But a very peculiar circumstance of how the mind works is that relations can be 
 thus becoming concepts.
 
 The following diagram shows how a concept for
-“my neighbor's dog” might emerge, step by step.
+“my neighbor's dog” might emerge from simpler concepts, step by step.
 
 ![Relations turning into concepts.](pics/relations-into-concepts.svg "A relation turns into a concept: the line between “me” and “neighbor” becomes the concept “my neighbor”, and the line between “my neighbor” and “dog” becomes “my neighbor's dog”.")
+
+First a relation between the two concepts “neighbor” and “me” arises,
+which is then fleshed out as the concept “my neighbor”.
+Then this concept is associated with “dog” with a new relation,
+presumably when I learn about “my neighbor's dog”,
+which is then set us as a standalone concept.
+
+This kind of structure is intriguing.
+Why are relations bidirectional instead of unidirectional?
+And why not associate a meaning on the relation,
+as is commonly done in language?
+We can assign the meaning “has a” with a directed line between “my neighbor” and “dog”,
+so we have the relation spelled out as “my neighbor has a dog”.
+Then we can assign “is a” between “my neighbor's dog” and “dog”,
+and add “possesses” between “my neighbor” and “my neighbor's dog”.
+But these exercises are futile:
+they are not clarifying the existing relations,
+but adding new relations on top of them.
+It is easier to see the problem on the top relation between “me” and “neighbor”:
+I don't possess the neighbor,
+nor does she possess me.
+There is in fact no special meaning in that concept;
+in the deepest sense there is just a neighbor that relates to me,
+and that is what “my neighbor” conveys.
+There is no need to have directed relations.
+
+It is tempting to try and think how this kind of structure can be implemented using neurons.
+It would also be premature at this stage.
+Each concept might be a group of neurons,
+and each relation might be a neuron connecting them,
+which might eventually be grouped with more neurons to form a concept.
+Or a relation might just be a number of prolongations
+emerging from one concept (or group of neurons) to the next.
+It does not really matter at this stage,
+and any supposition is equally plausible until validated by experiments.
 
 ### The Accelerating Mind
 
@@ -96,10 +131,30 @@ Any new concept needs to be related to the existing concepts;
 therefore an older person will assimilate new information more slowly.
 
 When processing any situation,
-an old person will have to check many different concepts.
+an old person will have to check many different concepts
+and see how they relate to the present instance.
 The response will be slower, but more thorough.
 A younger person may react faster to it,
 but not take into account a vital relation.
+
+There is no need to postulate slower firing neurons or any other physical mechanism;
+just the accumulation of concepts in the mind.
+Our brains work just as fine when we are twenty than when we are six,
+but they process less information since creating a new concept is more costly.
+
+### Memory
+
+Armed with this picture it is very easy to see how memory works.
+The very existence of relations links concepts together;
+it means that retrieving once concept will make it easier to travel to linked concepts
+using these relations.
+When I think about my neighbor and dogs at the same time,
+my mind will immediately drift to my neighbor's dog.
+
+That is how memories are encoded, but not all of them.
+There needs to exist a different kind of memory:
+a temporal repository which stores sequences of events
+and links them together in order.
 
 ### Subconscious Relations
 
@@ -111,6 +166,8 @@ The process of thought that creates a relation
 is not always remembered, or even known.
 Children do not form long-term memories until they have a certain age,
 usually two or three years.
+Their brains are furiously creating new concepts before that time,
+but there will be no reminiscence of how they were created.
 
 ### Behavior
 
@@ -120,15 +177,37 @@ Each concept may be associated with either pain or pleasure.
 Concepts related to those will in turn inherit some of that association.
 It is well known that experiencing something that reminds us of a painful experience becomes painful by association.
 
+We can postulate a “pleasure concept” which associates with other concepts
+to make them pleasurable,
+and similarly with a “pain concept”.
+This would be related to the brain's “pleasure center”.
+But in fact there are many different types of pleasure,
+and thus many pleasure concepts.
+This area certainly needs more work.
+
+Our behavior is controlled to a certain extent by pleasure and pain:
+we tend to repeat conducts that result in pleasure and avoid those that cause pain.
+Thus we will seek to stimulate pleasurable concepts,
+and just by thinking about them will yield pleasure by association.
+
 ### Mourning
 
 People in mourning take a long time to accept the loss of someone near.
 The closer the deceased was, the longer it takes.
-The process can be seen as rewriting one's mind:
+This process can be seen as rewriting one's mind:
 all of the concepts that related to this person need to be updated
 with the new information that they are no longer alive.
+Until the concept of “death” is associated with all concepts related to the deceased person,
+the mourning individual will not have completely accepted the death.
+
+The process is very painful as it requires evoking the loss every time a concept is revised.
+After a time, fond memories of the departed will take over
+and the process of healing will be complete.
 
 ## Words
+
+We now turn to another crucial element of how the mind works:
+words.
 
 The definition of a word is not an exact process.
 If we asked a thousand people to define the term "dog",
