@@ -82,7 +82,7 @@ But a very peculiar circumstance of how the mind works is that relations can be 
 thus becoming concepts.
 
 The following diagram shows how a concept for
-"my neighbor's dog" might emerge, step by step.
+“my neighbor's dog” might emerge, step by step.
 
 ![Relations turning into concepts.](pics/relations-into-concepts.svg "A relation turns into a concept: the line between “me” and “neighbor” becomes the concept “my neighbor”, and the line between “my neighbor” and “dog” becomes “my neighbor's dog”.")
 
