@@ -59,8 +59,8 @@ Only as the way to associate two or more concepts.
 Let us for now accept this circular definition,
 even if it is not particularly rigorous.
 The usual definition for "concept" only includes abstract ideas
-that can be applied to many situations,
-while here we will include concrete things.
+that can be applied to many situations.
+Our concept however includes concrete things.
 I can definitely think about my neighbor's dog,
 or about the topmost hair on some person's head;
 from the moment that i think about it,
@@ -74,6 +74,17 @@ if my mother usually wore red clothes
 it would only be natural if in my mind the concepts of
 "red" and "mother" were associated.
 That relation may make no sense to many other people.
+
+### Relations
+
+A relation is what associates two concepts.
+But a very peculiar circumstance of how the mind works is that relations can be thought about,
+thus becoming concepts.
+
+The following diagram shows how a concept for
+"my neighbor's dog" might emerge, step by step.
+
+![Relations turning into concepts.](pics/relations-into-concepts.jpg "A relation turns into a concept: the line between “me” and “neighbor” becomes the concept “my neighbor”, and the line between “my neighbor” and “dog” becomes “my neighbor's dog”.")
 
 ### The Accelerating Mind
 
