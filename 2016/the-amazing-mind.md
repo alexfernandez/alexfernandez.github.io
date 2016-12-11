@@ -58,7 +58,7 @@ Only as the way to associate two or more concepts.
 
 Let us for now accept this circular definition,
 even if it is not particularly rigorous.
-The usual definition for "concept" only includes abstract ideas
+The usual definition for “concept” only includes abstract ideas
 that can be applied to many situations.
 Our concept however includes concrete things.
 I can definitely think about my neighbor's dog,
@@ -72,7 +72,7 @@ specific to themselves.
 For instance,
 if my mother usually wore red clothes
 it would only be natural if in my mind the concepts of
-"red" and "mother" were associated.
+“red” and “mother” were associated.
 That relation may make no sense to many other people.
 
 ### Relations
@@ -121,10 +121,24 @@ emerging from one concept (or group of neurons) to the next.
 It does not really matter at this stage,
 and any supposition is equally plausible until validated by experiments.
 
+### Visual Thinking
+
+For some people,
+thinking can be visual, auditory or tactile.
+But it does not necessarily fall out of the concepts we have just defined.
+Concepts can be visual:
+as long as we can think about something,
+it is a concept.
+And we can easily think about the color green, for instance.
+
+
+From its visual origins concepts can take a life of their own
+in a more abstract plane where they are no longer associated with their visual origins.
+The same happens with sounds or any other sense.
+
 ### The Accelerating Mind
 
-It is a common experience that as we age
-[time appears to go faster](https://www.youtube.com/watch?v=aIx2N-viNwY).
+It is a common experience that as we age time appears to go faster.
 How can we make sense of this phenomenon using our definition?
 As we grow older we have more and more concepts in our brain.
 Any new concept needs to be related to the existing concepts;
@@ -155,6 +169,12 @@ That is how memories are encoded, but not all of them.
 There needs to exist a different kind of memory:
 a temporal repository which stores sequences of events
 and links them together in order.
+From there another mechanism extracts concepts
+and reinforces those that already existed,
+putting them in relation.
+
+Dreams are usually influenced by the events we have experienced.
+Maybe they are a by-product of the mechanism that distilles the linear memory into concepts.
 
 ### Subconscious Relations
 
@@ -168,6 +188,16 @@ Children do not form long-term memories until they have a certain age,
 usually two or three years.
 Their brains are furiously creating new concepts before that time,
 but there will be no reminiscence of how they were created.
+Our innermost concepts are deeply influenced by these primordial concepts and relations:
+after all, a relation is stronger when just created,
+even though it is later molded by a thousand experiences.
+It is easier to remember the first kiss than all those that follow them.
+But unfortunately no recollection is kept for these first years.
+
+When we find a subconscious relation we tend to justify it using conscious means.
+This is just how the mind works:
+it creates concepts to refine other concepts.
+It can even create stories from patchy recollections.
 
 ### Behavior
 
@@ -208,21 +238,26 @@ and the process of healing will be complete.
 
 We now turn to another crucial element of how the mind works:
 words.
+At least the rational mind uses them:
+there is little evidence that animals can use words,
+except perhaps some parrots,
+and then only in a limited capacity.
 
 The definition of a word is not an exact process.
-If we asked a thousand people to define the term "dog",
+If we asked a thousand people to define the term “dog”,
 each person will probably give a different definition.
-
 It is interesting to note that illiterate people, like children,
-do not possess the concept of "definition".
+do not possess the concept of “definition”.
 They just explain what a word means by analogy, metaphora or euphemism:
-"A dog is an animal",
-"A dog has sharp teeth",
-"A dog is a man's best friend".
+
+* “A dog is an animal”,
+* “A dog has sharp teeth”,
+* “A dog is a man's best friend”.
+
 It is very hard to make them attempt a definition which aims to be complete and unambiguous.
 
 So, what is a complete definition of a word?
-In the case of "dog" it is a kind of animal,
+In the case of “dog” it is a kind of animal,
 so to provide a thorough definition a full description might be required:
 anatomy, phisiology, evolution, history.
 The process becomes more and more ridiculous
@@ -237,13 +272,16 @@ We may be tempted to just give enough information
 to tell a dog apart from other similar animals,
 but even then there are complications.
 There are many different meanings for any common word.
-A "dog" can be an animal,
+A “dog” can be an animal,
 but it can also be a colloquial way to call a friend,
 a derogatory term for a person,
 a tool,
 or a Chinese zodiac sign.
-For "dog" we may identify the animal as the primary meaning;
-for other words such as "beauty" we have no such luck.
+For “dog” we may identify the animal as the primary meaning;
+for other words such as “beauty” we have no such luck.
+“Beauty” can refer to a beautiful person (usually a woman),
+to the property that beautiful people have,
+or to anything particularly desirable.
 Any complete definition would need to include these other meanings.
 
 Then there are regional variations of what the word means,
@@ -274,23 +312,37 @@ But the reverse is not necessarily true.
 
 There are many concepts in our mind to which we have not yet given a particular word.
 Others can only be described by a combination of words,
-such as "the feeling I get when I enter an enclosed space that makes me comfortable".
+such as “the feeling I get when I enter an enclosed space that makes me comfortable”.
 I can recognize it,
 speak about it or try to define it;
 but I don't have a word for it.
 Yet; I may later learn that there is a word for it.
 
+Concepts that are not words are at the center of non-verbal thought.
+It can also be called “pre-verbal thought”:
+we can usually trace these thoughts later using words.
+
 It needs to be pointed that some words are not originally concepts:
 they are merely grammatical aids to express our ideas.
-Words like "the", "at" or "thus" do not have regular definitions,
+Words like “the”, “at” or “thus” do not have regular definitions,
 just descriptions as parts of the sentence.
 But since they can be thought and reasoned about,
 they automatically become concepts.
 
-The art of reasoning about words is called "Philosophy".
-The study of the organization of words in sentences is called "Grammar".
-It is not a coincidence that the first peoples to study philosophy
-were also the first grammarians.
+### Words On Words
+
+Language is the only tool that can be extended to be used on itself.
+That is, we can use a word to refer to other words.
+
+Philosophy is the art of reasoning,
+while Grammar is the study of language.
+Both are highly self-referencing:
+Philosophy is reasoning about reason,
+while Grammar is speaking about words.
+It is probably not a coincidence that the first philosophers
+appeared in the same cultures as the first grammarians:
+they were using language on itself,
+first to study concepts and then to study words.
 
 ### My Blue And Your Blue
 
@@ -311,9 +363,19 @@ then I may dislike blue things, consciously or not.
 But while words can be shared, concepts cannot.
 In using a word we are accepting the inputs of other people on it.
 Each time we hear a word we are adding notes to it.
+When people live together they tend to align their words
+because of all the shared notes,
+caused by the shared experiences.
+This works for families, cultures and civilizations.
+
+People living apart will have their words diverge in time.
+When different cultures meet and coexist,
+they tend to share words directly
+instead of molding existing words to suit the common needs.
 
 ## Reality
 
+In this section we will delve into more philosophical grounds.
 Reality is supposedly an objective construct that is independent of any person
 looking at or thinking about it.
 But as we will see,
@@ -328,22 +390,50 @@ it needs to be done with words,
 imperfect as they are in capturing concepts.
 This common view is thus reality.
 
+Each person that communicates with others exposes their own version of reality
+and has to adjust to the reality that the others have to offer;
+otherwise there can be no exchange of ideas.
+Just as words are molded by every use,
+so is reality;
+it is elastic and adapts in time to the different uses.
+
 ### Reality And Truth
 
 Does saying an idea enough times make it true?
 Not necessarily; but it makes the idea part of reality.
 In that sense, any idea becomes more real the more it is repeated.
-It takes considerable effort to distinguish "real" from "true",
+It takes considerable effort to distinguish “real” from “true”,
 and for many people there is no difference.
 
 Many people will speak about their favorite characters in a novel or a TV show
-as if they were alive.
-As long as they have entered our collective minds,
+as if they were true people.
+Since they have entered our collective minds
 they have become part of reality,
 and therefore they are real.
 In a sense they are more real than living people who are unknown to us.
+It is this particular sense of “real” in which we are speaking now.
+
+The moment a character is invented and unleashed upon the world
+it becomes real since it is part of the new reality.
+It can be talked about,
+imagined and reasoned about.
+
+There must be an underlying world which is not made of words or concepts,
+to which we refer indirectly when speaking.
+It is the world that causes our perceptions,
+and which we can know only in a mediated capacity.
+The old Spanish master García Calvo made the distinction between
+“the world where we speak”
+and
+“the world about which we speak”,
+where the first is the unmediated world of true things
+and the second is the reality made of words about which we speak.
 
 ## Conclusion
+
+A theoretical framework of how concepts are manipulated is very useful to understand how the mind works,
+even if it is not backed yet by experiments or low-level observations;
+just by a bunch of anecdotal observations.
 
 ### Acknowledgements
 
