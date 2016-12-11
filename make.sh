@@ -34,6 +34,7 @@ pandoc --template read-only.html -s 2016/start-me-up.md -o 2016/start-me-up.html
 pandoc --template read-only.html -s 2016/advice-for-the-novice.md -o 2016/advice-for-the-novice.html
 pandoc --template read-only.html -s 2016/get-ahead-of-the-curve.md -o 2016/get-ahead-of-the-curve.html
 pandoc --template read-only.html -s 2016/top-of-the-cream-of-the-crop.md -o 2016/top-of-the-cream-of-the-crop.html
+pandoc --template read-only.html -s 2016/the-amazing-mind.md -o 2016/the-amazing-mind.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 
 # Español
