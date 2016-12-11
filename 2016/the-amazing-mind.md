@@ -63,7 +63,7 @@ that can be applied to many situations.
 Our concept however includes concrete things.
 I can definitely think about my neighbor's dog,
 or about the topmost hair on some person's head;
-from the moment that i think about it,
+from the moment that I think about it,
 and that it starts having relations to other concepts,
 it becomes a concept in itself.
 
