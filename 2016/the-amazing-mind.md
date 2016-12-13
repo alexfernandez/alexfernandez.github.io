@@ -308,6 +308,9 @@ Is a word a concept?
 Undoubtedly:
 as we have seen words are defined by their relation to other words,
 just as concepts.
+To be precise,
+there is an underlying concept for every word,
+which is what we think about when we hear it.
 But the reverse is not necessarily true.
 
 There are many concepts in our mind to which we have not yet given a particular word.
@@ -350,12 +353,16 @@ Is the color blue that I see the same as the color blue that you see?
 There is a very simple answer to this question using our definition:
 no, my color blue is different than your color blue,
 and will always be.
-My color blue is tinged by all of the experiences that I have had in my life
-where the color blue has played a part:
-all of the blue things that I have seen have left an imprint.
+Remember, a concept is defined by its relations to all other concepts.
+Since those relations cannot be the same for two different people,
+the underlying concept is necessarily different.
+Same word, different concepts.
+
+My color blue is thus unique.
+My concept of “blue” is tinged by all of the experiences that I have had in my life where the color blue has played a part:
+all of the blue things that I have seen have left an imprint in the network of concepts that define “blue” for me.
 The same happens to any other person,
 and so each one will have a different sensation when they see something blue.
-
 If my relation to blue things has been predominantly positive I may like blue things.
 Conversely, if I have had a very negative experience involving the color blue
 then I may dislike blue things, consciously or not.
