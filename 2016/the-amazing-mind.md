@@ -1,7 +1,7 @@
 ---
 title: The Amazing Mind
 subtitle: 'Concepts And Relations Are Everything'
-footer: Published on 2016-12-11, last modified 2016-12-11.
+footer: Published on 2016-12-11, last modified 2016-12-13.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
