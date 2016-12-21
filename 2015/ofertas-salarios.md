@@ -1,7 +1,7 @@
 ---
 title: Ofertas de trabajo y salarios
 subtitle: 'Respuesta a la Bonilista 2015-12-27'
-footer: Publicado el 2015-12-27
+footer: Publicado el 2015-12-27, modificado el 2016-12-21.
   [¿Comentarios, preguntas, mejoras?](https://twitter.com/pinchito/status/681218539055878146)
 ---
 
@@ -160,11 +160,12 @@ prefiriendo pecar de liberales que de estrictos.
 Si a pesar de todo sigues dispuesto a enviar tu oferta de trabajo a
 [MadridJS](http://www.meetup.com/es/madridjs/messages/archive/),
 las reglas son sencillas:
-envía la oferta tú mismo, a ser posible con salario;
-no olvides poner "[job]" en el asunto del mensaje;
-no hagas _cross-posting_ enviando la oferta a varias listas
-porque Meetup.com no lo permite;
-y si aún así no lo consigues
+
+* envía la oferta tú mismo, a ser posible con salario;
+* usa la dirección de correo desde la que te suscribiste;
+* no olvides poner "[job]" en el asunto del mensaje;
+* no hagas _cross-posting_ enviando la oferta a varias listas porque Meetup.com no lo permite;
+* y si aún así no lo consigues
 (el filtro anti-spam es un poco _clueless_ a veces)
 ponte en contacto con
 [los organizadores](http://www.meetup.com/es/madridjs/members/?op=leaders)
