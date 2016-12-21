@@ -75,6 +75,8 @@ En este punto es obligatorio enlazar a nuestro
 [código de conducta](https://github.com/madridjs/talks/blob/master/codigo-conducta.md).
 Por suerte todavía no hemos tenido que echar a nadie,
 pero no dudaremos en hacerlo si es necesario.
+(Update: en 2016 tuvimos que echar a una persona por insultar públicamente a otro miembro.
+Esperemos que no se repita.)
 
 ## Hombre muerde a perro
 
