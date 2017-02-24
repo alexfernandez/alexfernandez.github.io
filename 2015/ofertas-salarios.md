@@ -177,4 +177,6 @@ La recompensa será alcanzar a una comunidad de más de 1600 desarrolladores,
 y seguramente recibir bastantes candidaturas cualificadas para el puesto,
 con muy poco ruido.
 Siempre que el salario sea el adecuado, claro.
+(Update: ya somos más de
+[3500 javascipters](https://www.meetup.com/es-ES/madridjs/stats/members/?range=all).)
 
