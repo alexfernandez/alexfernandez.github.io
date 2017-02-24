@@ -1,7 +1,7 @@
 ---
 title: Ofertas de trabajo y salarios
 subtitle: 'Respuesta a la Bonilista 2015-12-27'
-footer: Publicado el 2015-12-27, modificado el 2016-12-21.
+footer: Publicado el 2015-12-27, modificado el 2017-02-24.
   [¿Comentarios, preguntas, mejoras?](https://twitter.com/pinchito/status/681218539055878146)
 ---
 
