@@ -367,7 +367,7 @@ so you end up writing things like this gem from the
 
     err = client.Cmd("SET", "foo", "bar", "EX", 3600).Err
 
-Apparently Salvatore Sanfilippo liks this kind of hardcore stuff,
+Apparently Salvatore Sanfilippo likes this kind of hardcore stuff,
 since Radix is also a [recommended client](http://redis.io/clients#go).
 I don't like this stuff, so moving on.
 

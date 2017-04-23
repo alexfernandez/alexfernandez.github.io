@@ -240,7 +240,7 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <h3 id="radix">Radix</h3>
 <p>Then I was lucky enough to find <a href="https://github.com/mediocregopher/radix.v2">Radix</a>. It is also a &quot;minimalistic&quot; (i.e. dumb) package that doesn't even attempt to construct the Redis command for you, so you end up writing things like this gem from the <a href="https://godoc.org/github.com/mediocregopher/radix.v2/redis">docs</a>:</p>
 <pre><code>err = client.Cmd(&quot;SET&quot;, &quot;foo&quot;, &quot;bar&quot;, &quot;EX&quot;, 3600).Err</code></pre>
-<p>Apparently Salvatore Sanfilippo liks this kind of hardcore stuff, since Radix is also a <a href="http://redis.io/clients#go">recommended client</a>. I don't like this stuff, so moving on.</p>
+<p>Apparently Salvatore Sanfilippo likes this kind of hardcore stuff, since Radix is also a <a href="http://redis.io/clients#go">recommended client</a>. I don't like this stuff, so moving on.</p>
 <h3 id="godis">Godis</h3>
 <p>This driver works reasonably well, but it hasn't been updated since 2012. An ominous note on <a href="https://github.com/simonz05/godis">the front page</a> states:</p>
 <blockquote>
