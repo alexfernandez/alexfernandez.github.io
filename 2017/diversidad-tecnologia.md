@@ -119,23 +119,27 @@ Ojo, no hay que ser mala persona para tener esta opinión.
 Mi padre está convencido de que los negros son menos inteligentes que los blancos,
 pese a que reconoce que dos de las personas más inteligentes que ha conocido nunca
 eran negras.
-Pero hoy día mucha gente lo ve regular.
+Pero hoy día por fortuna no es la más habitual.
 
-¿Cómo se compara esto en la falta de diversidad?
+¿Cómo se traspone esta postura a la falta de mujeres en tecnología?
 
 > Las mujeres son peores programadoras,
 y de ahí viene la falta de diversidad.
 
-
-A menudo escuchamos que las mujeres pierden interés por la programación,
-o que directamente son peores.
+Una versión más moderna es que las mujeres
+pierden interés por la programación,
+obviando la larga lista de programadoras ilustres.
+De mi lista de héroes personales:
+[Grace Hopper](https://es.wikipedia.org/wiki/Grace_Murray_Hopper),
+[Margaret Hamilton](https://es.wikipedia.org/wiki/Margaret_Hamilton_(cient%C3%ADfica))
+y la primera persona que programó un ordenador de la historia,
+[Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace)
 Vamos a ver algunos ejemplos de
 [este artículo de menéame](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
 <img src="pics/diversidad-preferencia-diferentes.png" title="¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?">
 
 <img src="pics/diversidad-hombres-aspiran.png" title="Me gustaría saber cuántos hombres aspiran a ser enfermeros, maestros, cuidadores de niños o ancianos, peluqueros, etc.">
-
 
 No me voy a meter a discutir este argumento porque estamos en 2017 y la vida es corta.
 Dejaré que os lo explique
@@ -157,6 +161,7 @@ _Of course_,
 hay muchas variantes:
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="es"><p lang="es" dir="ltr">He aquí un serio contendiente <a href="https://t.co/VfQ2ZyHu2A">pic.twitter.com/VfQ2ZyHu2A</a></p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873933354927869952">11 de junio de 2017</a></blockquote>
+![](https://pbs.twimg.com/media/DCDVuWrXoAA2lyr.jpg:large)
 
 Y de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
