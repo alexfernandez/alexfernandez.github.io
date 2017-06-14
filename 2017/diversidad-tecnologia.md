@@ -391,8 +391,8 @@ Para empezar,
 portarnos decentemente y no hacer nada de esto:
 [acoso, discriminación y abuso](https://www.theguardian.com/technology/2017/apr/27/tech-industry-sexism-racism-silicon-valley-study).
 Para seguir,
-aceptar que tenemos un problema,
-y seguir la guía de las mujeres que nos rodean.
+aceptar que tenemos un problema
+y pedir la opinión de las mujeres que nos rodean.
 
 > ¿Y tú, no eres culpable de machismo, majete?
 
