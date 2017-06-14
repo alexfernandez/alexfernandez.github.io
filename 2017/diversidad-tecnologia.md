@@ -420,5 +420,5 @@ a
 y a
 [ladybenko](https://twitter.com/ladybenko)
 sus explicaciones que para ellas deben ser muy cansinas;
-a todas las compañeras que me han soportado y me han enseñado a ser mejor persona.
+y a todas las compañeras que me han soportado y me han enseñado a ser mejor persona.
 
