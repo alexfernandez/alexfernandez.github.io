@@ -303,7 +303,7 @@ intento corregirlos y a otra cosa.
 
 ### Igualdad real
 
-En esta posición 
+En esta posición no buscamos compromiso.
 
 > No hay diferencias significativas entre negros y blancos.
 Hay una injusticia sistémica que hay que corregir.
