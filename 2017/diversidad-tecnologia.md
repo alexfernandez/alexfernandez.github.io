@@ -314,8 +314,10 @@ veremos si las preferencias de unos y otros son relevantes.
 ¿Mi opinión?
 Durante mucho tiempo las profesiones de médico, abogado o matemático eran coto privado de los hombres,
 porque "las inclinaciones de las mujeres las llevaban a otras tareas".
-Hoy lo petan en esas carreras y en muchas otras,
-con aportaciones 
+Hoy las mujeres lo petan en esas carreras y en muchas otras,
+con aportaciones tan valiosas como las de sus compañeros.
+El reconocimiento tarda en llegar,
+pero si se persevera se termina llegando.
 
 ## Segregación racial
 
