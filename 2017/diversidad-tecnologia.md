@@ -28,7 +28,7 @@ Por fin recomienda a los lectores
 > esforzarse en reconocer lo positivo, en vez de criticar lo negativo.
 
 En seguida empezó la polémica en Twitter.
-[@ladybenko](https://twitter.com/ladybenko)
+[ladybenko](https://twitter.com/ladybenko)
 se lanzó al ruedo con un par de tuits reveladores:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">Lamentablemente los pequeños pasos no nos sirven. Las mujeres de la industria necesitamos cambios, y los necesitamos ya :(((</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873832929893511172">June 11, 2017</a></blockquote>
@@ -38,7 +38,7 @@ se lanzó al ruedo con un par de tuits reveladores:
 Hay muchos más en su timeline que vale la pena leer si queréis seguir la historia en detalle.
 
 Por su parte,
-[@buenapava](https://twitter.com/buenapava)
+[buenapava](https://twitter.com/buenapava)
 incluso escribió un
 [artículo muy recomendable](https://medium.com/@marinavega/lo-que-ada-no-te-ha-ense%C3%B1ado-edcbdef4a3c7)
 donde criticaba que David no hubiera encontrado la información que buscaba para mejorar el sector,
@@ -391,9 +391,9 @@ Agradezco a
 [david_bonilla](https://twitter.com/david_bonilla)
 haber iniciado el debate;
 a
-[@buenapava](https://twitter.com/buenapava)
+[buenapava](https://twitter.com/buenapava)
 y a
-[@ladybenko](https://twitter.com/ladybenko)
+[ladybenko](https://twitter.com/ladybenko)
 sus explicaciones que para ellas deben ser muy cansinas;
 a todas las compañeras que me han soportado y me han enseñado a ser mejor persona.
 
