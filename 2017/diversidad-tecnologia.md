@@ -337,7 +337,7 @@ condiciones de vida bastante peores:
 [menos salario](https://www.theguardian.com/us-news/2016/sep/20/wage-gap-black-white-americans),
 [menos esperanza de vida](https://www.theguardian.com/commentisfree/2015/aug/14/black-lives-five-years-shorter-why-we-interrupt-you).
 En particular,
-su presencia en empresas de tecnología es irrisoria:
+su presencia en muchas empresas de tecnología es irrisoria:
 [1% en Google o Facebook](http://www.businessinsider.com/uber-diversity-report-comparison-google-apple-facebook-microsoft-twitter-2017-3),
 pese a constituir el
 [12% de la población](https://en.wikipedia.org/wiki/Demography_of_the_United_States#Race_and_ethnicity).
@@ -353,6 +353,9 @@ en 1954,
 Dorothy y otros 39 estudiantes negros
 pidieron el traslado a un instituto para blancos.
 Tras un acoso brutal dejó el instituto a los cuatro días.
+He puesto la foto que menos revuelve el estómago,
+pero
+[las hay peores](http://www.msnbc.com/sites/msnbc/files/styles/ratio--3-2--830x553/public/articles/ap570904054.jpg?itok=xV14xSHO).
 
 ¿Os pilla muy lejos el escenario?
 Igual
