@@ -5,8 +5,6 @@ footer: Publicado el 2017-06-14.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito)
 ---
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
 
 ## La polémica
@@ -32,6 +30,7 @@ En seguida empezó la polémica en Twitter.
 se lanzó al ruedo con un par de tuits reveladores:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">Lamentablemente los pequeños pasos no nos sirven. Las mujeres de la industria necesitamos cambios, y los necesitamos ya :(((</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873832929893511172">June 11, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">No sabéis lo que desgasta tener que estar explicando por qué X cosa está mal, continuamente</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873900699876294656">June 11, 2017</a></blockquote>
 
@@ -62,8 +61,7 @@ seguramente por estar algo más obtuso de lo normal.
 Para intentar entender mejor el punto de vista de "estas radicales",
 voy a traducirlo a un escenario mucho más evidente:
 el racismo en Estados Unidos.
-
-Este caso es bastante más extremo que la diversidad en tecnología:
+Es un caso bastante más extremo que la diversidad en tecnología:
 al fin y al cabo las condiciones de vida de la población negra en Estados Unidos
 son realmente lamentables incluso hoy día,
 incluyendo
@@ -84,12 +82,13 @@ sólo por ser mujeres,
 pero muchas han sufrido un acoso brutal
 e incluso [amenazas de muerte](https://en.wikipedia.org/wiki/Gamergate_controversy)
 sólo por expresar su opinión.
-
-En España también hay racismo, faltaría más,
+Y ojo, en España también hay racismo, faltaría más,
 pero está bastante menos estudiado que en USA.
-Si no ves el problema racial o crees que está justificado
+
+Si no ves el problema racial o crees que el racismo está justificado
 entonces no creo que pueda ayudarte con este artículo;
-deja de leer y vuelve a tus cosas.
+deja de leer y vuelve a tus cosas racistas.
+Para los demás, empecemos.
 
 ### Actitudes
 
