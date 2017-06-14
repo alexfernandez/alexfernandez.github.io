@@ -60,9 +60,9 @@ la validez de las posturas.
 
 Ojo, no es que las mujeres informáticas vivan la fiesta perenne:
 no sólo hay pocas, sino que esas valientes
-[cobran menos](http://www.expansion.com/economia/2017/02/20/58aafb61e2704e33078b464d.html)
-y están
-[peor valoradas](https://www.theguardian.com/technology/2016/feb/12/women-considered-better-coders-hide-gender-github)
+[cobran menos](http://www.expansion.com/economia/2017/02/20/58aafb61e2704e33078b464d.html),
+[están peor valoradas](https://www.theguardian.com/technology/2016/feb/12/women-considered-better-coders-hide-gender-github)
+y [son peor tratadas](https://twitter.com/SchneidRemarks/status/839910253680553988)
 sólo por el hecho de ser mujeres.
 Es cierto que no acaban en la cárcel o
 [son asesinadas por la policía](https://es.wikipedia.org/wiki/Asesinato_de_Trayvon_Martin)
