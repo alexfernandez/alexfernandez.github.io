@@ -11,8 +11,10 @@ footer: Publicado el 2017-06-14.
 
 La [#bonilista del 11 de junio de 2017](http://us2.campaign-archive1.com/?u=374c664073e1a1fa3deca53b4&id=7b2b969d9d)
 nos recuerda que existe una sospechosa
-ausencia de mujeres en el sector de la tecnología,
-aunque más adelante reconoce que no sabe cómo remediarlo:
+ausencia de mujeres en el sector de la tecnología.
+David hace una labor encomiable de dar visibilidad a este problema
+entre sus muchos seguidores.
+A continuación empiezan los puntos contenciosos:
 
 > No tengo ni idea de cómo atraer a más mujeres al mundo de la informática [...].
 
@@ -148,6 +150,7 @@ que tiene más gracia.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIBgPUYDGJ4" frameborder="0" allowfullscreen></iframe>
 
+
 ### No hay racismo
 
 Como el madrileño que
@@ -161,7 +164,6 @@ _Of course_,
 hay muchas variantes:
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="es"><p lang="es" dir="ltr">He aquí un serio contendiente <a href="https://t.co/VfQ2ZyHu2A">pic.twitter.com/VfQ2ZyHu2A</a></p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873933354927869952">11 de junio de 2017</a></blockquote>
-![](https://pbs.twimg.com/media/DCDVuWrXoAA2lyr.jpg:large)
 
 Y de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
@@ -187,8 +189,45 @@ Algunos ejemplos inspirados en la misma #bonilista:
 * no pueden usar un tono agresivo porque los hombres se retraen,
 * hay que reconocer lo positivo en lugar de criticar lo negativo.
 
-¿No es más lógico que la responsabilidad de eliminar las barreras
+¿No es más lógico que la responsabilidad de eliminar barreras
 recaiga en los que las levantaron?
+En primer lugar investigar en qué consisten,
+y a continuación ver cómo quitarlas de enmedio.
+
+### Valorar lo positivo
+
+Vamos a centrarnos en ese último punto.
+Traspuesto al racismo, sería algo así como:
+
+> No hay que centrarse en lo negativo del racismo,
+sino en valorar los pasos positivos que vayan dando los blancos.
+
+En nuestro caso, hermanos,
+no tenemos que denunciar a los compañeros de Dorothy Counts,
+sino alabar a las dos chicas que fueron amables con ella
+(aunque luego se echaron atrás por presión social).
+
+¿Realmente os parece que no hay que condenar el racismo
+cuando nos lo encontremos?
+Sería bonito que sólo con refuerzo positivo se pudieran cambiar las situaciones injustas,
+pero no ha funcionado nunca en la historia.
+[Martin Luther King](https://es.wikipedia.org/wiki/Martin_Luther_King)
+no consiguió la
+[abolición del segregacionismo](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964)
+agradeciendo que les dejaran sentarse en los asientos intermedios del autobús,
+sino denunciando el racismo sistemático en múltiples marchas.
+Tal y como
+[Mahatma Gandhi](https://es.wikipedia.org/wiki/Mahatma_Gandhi)
+no consiguió la independencia alabando
+[la libertad de cultivos](https://es.wikipedia.org/wiki/Movimiento_de_independencia_indio),
+sino denunciando el impuesto a la sal.
+
+El equivalente en nuestro sector lo encontramos nuevamente en la #bonilista:
+
+> La mejor manera de concienciar a la Comunidad y atraerla a nuestro lado es premiar cada pequeño paso que la acerque a la diversidad, en vez de castigar la lentitud con la que algunos recorren el camino.
+
+Me temo que, o seguimos criticando las injusticias, los abusos y las microagresiones,
+o la situación no cambiará jamás.
 
 ### Por qué será
 
@@ -262,33 +301,6 @@ están insertados en nuestra cultura tan profundamente que salen sin querer.
 Cuando me doy cuenta,
 o cuando me los señalan,
 intento corregirlos y a otra cosa.
-
-### Valorar lo positivo
-
-Otra posición discutida es la siguiente:
-
-> No hay que centrarse en lo negativo del racismo,
-sino en valorar los pasos positivos que vayan dando los blancos.
-
-En nuestro caso, hermanos,
-no tenemos que denunciar a los compañeros de Dorothy Counts,
-sino alabar a las dos chicas que fueron amables con ella
-(aunque luego se echaron atrás por presión social).
-
-¿Realmente os parece que no hay que denunciar el racismo
-cuando nos lo encontremos?
-Sería bonito que fuera así, pero no ha funcionado nunca en la historia.
-[Mahatma Gandhi](https://es.wikipedia.org/wiki/Mahatma_Gandhi)
-no consiguió la independencia alabando
-[la libertad de cultivos](https://es.wikipedia.org/wiki/Movimiento_de_independencia_indio),
-sino denunciando el impuesto a la sal.
-
-El equivalente en nuestro sector lo encontramos nuevamente en la #bonilista:
-
-> La mejor manera de concienciar a la Comunidad y atraerla a nuestro lado es premiar cada pequeño paso que la acerque a la diversidad, en vez de castigar la lentitud con la que algunos recorren el camino.
-
-Me temo que, o seguimos criticando las injusticias, los abusos y las microagresiones,
-o la situación no cambiará jamás.
 
 ### Igualdad real
 
