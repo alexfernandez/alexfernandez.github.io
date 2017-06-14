@@ -203,7 +203,8 @@ Traspuesto al racismo, sería algo así como:
 sino en valorar los pasos positivos que vayan dando los blancos.
 
 En nuestro caso, hermanos,
-no tenemos que denunciar a los compañeros de Dorothy Counts,
+no tenemos que denunciar a los compañeros de
+[Dorothy Counts](https://en.wikipedia.org/wiki/Dorothy_Counts),
 sino alabar a las dos chicas que fueron amables con ella
 (aunque luego se echaron atrás por presión social).
 
@@ -340,7 +341,7 @@ para constituir el
 
 ### Carolina del Norte, 1956
 
-Un caso particularmente sangrante es el de Dorothy Counts,
+Un caso particularmente sangrante es el de
 [Dorothy Counts](https://en.wikipedia.org/wiki/Dorothy_Counts),
 la joven negra que aparece en la foto que encabeza este artículo.
 Un par de años después del final oficial de la
