@@ -333,9 +333,9 @@ a ser siervos de sus antiguos amos,
 para después ser aislados en _ghettos_ siempre en inferioridad
 frente a los blancos.
 Hoy día siguen teniendo
-condiciones de vida bastante peores
-(menos salario,
-menos esperanza de vida).
+condiciones de vida bastante peores:
+[menos salario](https://www.theguardian.com/us-news/2016/sep/20/wage-gap-black-white-americans),
+[menos esperanza de vida](https://www.theguardian.com/commentisfree/2015/aug/14/black-lives-five-years-shorter-why-we-interrupt-you).
 En particular,
 su presencia en empresas de tecnología es irrisoria:
 [1% en Google o Facebook](http://www.businessinsider.com/uber-diversity-report-comparison-google-apple-facebook-microsoft-twitter-2017-3),
