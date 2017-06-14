@@ -388,7 +388,7 @@ Es lo único que de verdad puede hacer que mejoremos la situación.
 ### Agradecimientos
 
 Agradezco a
-[@david_bonilla](https://twitter.com/david_bonilla)
+[ @david_bonilla](https://twitter.com/david_bonilla)
 haber iniciado el debate;
 a
 [@buenapava](https://twitter.com/buenapava)
