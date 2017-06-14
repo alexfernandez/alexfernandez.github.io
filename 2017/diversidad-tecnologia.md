@@ -395,11 +395,12 @@ y en general lo hago por respeto a todas las mujeres que he conocido.
 > ¿Es que te crees que vas a ligar más?
 
 No creo que vaya a ligar más por ser más decente,
-voy a ligar lo mismo que es cero porque ya tengo pareja estable.
+voy a ligar lo mismo, que es cero porque ya tengo pareja estable.
 
 > ¿Entonces qué ganas con todo esto?
 
-Un mundo más acogedor para mujeres y en general para cualquier persona distinta de uno mismo
+Un mundo más acogedor para las mujeres,
+y en general para cualquier persona distinta de uno mismo,
 es un mundo más acogedor para todos.
 
 > ¿Y tú, no eres culpable de machismo, majete?
