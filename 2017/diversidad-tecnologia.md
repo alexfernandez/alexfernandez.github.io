@@ -119,7 +119,7 @@ Ojo, no hay que ser mala persona para tener esta opinión.
 Mi padre está convencido de que los negros son menos inteligentes que los blancos,
 pese a que reconoce que dos de las personas más inteligentes que ha conocido nunca
 eran negras.
-Pero hoy día mucha gente ve regular esto.
+Pero hoy día mucha gente lo ve regular.
 
 ¿Cómo se compara esto en la falta de diversidad?
 
