@@ -6,7 +6,7 @@ footer: Publicado el 2017-06-14.
 ---
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
+![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
 
 ## La polémica
 
@@ -158,7 +158,7 @@ Y de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
 
-![](pics/soy-mujer.png "Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.")
+![](pics/diversidad-soy-mujer.png "Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.")
 
 ### La culpa del racismo es de la población negra
 
