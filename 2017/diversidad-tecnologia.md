@@ -317,7 +317,7 @@ porque "las inclinaciones de las mujeres las llevaban a otras tareas".
 Hoy las mujeres lo petan en esas carreras y en muchas otras,
 con aportaciones tan valiosas como las de sus compañeros.
 El reconocimiento tarda en llegar,
-pero si se persevera se termina llegando.
+pero si se persevera termina llegando.
 
 ## Segregación racial
 
