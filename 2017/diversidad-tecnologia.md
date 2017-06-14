@@ -128,7 +128,7 @@ o que directamente son peores.
 Vamos a ver algunos ejemplos de
 [este artículo de menéame](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
-![Preferencia diferentes.](pics/preferencia-diferentes.png "¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?")
+![](pics/preferencia-diferentes.png "¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?")
 
 
 No me voy a meter a discutir este argumento porque estamos en 2017 y la vida es corta.
