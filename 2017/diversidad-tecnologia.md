@@ -207,8 +207,6 @@ no tenemos que denunciar a los compañeros de Dorothy Counts,
 sino alabar a las dos chicas que fueron amables con ella
 (aunque luego se echaron atrás por presión social).
 
-¿Realmente os parece que no hay que condenar el racismo
-cuando nos lo encontremos?
 Sería bonito que sólo con refuerzo positivo se pudieran cambiar las situaciones injustas,
 pero no ha funcionado nunca en la historia.
 [Martin Luther King](https://es.wikipedia.org/wiki/Martin_Luther_King)
