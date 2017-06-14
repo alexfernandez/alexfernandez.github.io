@@ -337,10 +337,10 @@ condiciones de vida bastante peores
 (menos salario,
 menos esperanza de vida).
 En particular,
-su presencia en empresas de tecnología es irrisoria
-([1% en Google] o [1% en Facebook])
-para constituir el
-[10% de la población].
+su presencia en empresas de tecnología es irrisoria:
+[1% en Google o Facebook](http://www.businessinsider.com/uber-diversity-report-comparison-google-apple-facebook-microsoft-twitter-2017-3),
+pese a constituir el
+[12% de la población](https://en.wikipedia.org/wiki/Demography_of_the_United_States#Race_and_ethnicity).
 
 ### Carolina del Norte, 1956
 
