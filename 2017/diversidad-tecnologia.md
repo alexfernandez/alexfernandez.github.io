@@ -28,31 +28,17 @@ Por fin recomienda a los lectores
 > esforzarse en reconocer lo positivo, en vez de criticar lo negativo.
 
 En seguida empezó la polémica en Twitter.
-[ladybenko](https://twitter.com/ladybenko)
-se lanzó al ruedo con un par de tuits reveladores:
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">Lamentablemente los pequeños pasos no nos sirven. Las mujeres de la industria necesitamos cambios, y los necesitamos ya :(((</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873832929893511172">June 11, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">No sabéis lo que desgasta tener que estar explicando por qué X cosa está mal, continuamente</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873900699876294656">June 11, 2017</a></blockquote>
-
-Hay muchos más en su
-[timeline](https://twitter.com/ladybenko)
-que vale la pena leer si queréis seguir la historia en detalle.
-
-Por su parte,
 [buenapava](https://twitter.com/buenapava)
-incluso escribió un
+escribió un
 [artículo muy recomendable](https://medium.com/@marinavega/lo-que-ada-no-te-ha-ense%C3%B1ado-edcbdef4a3c7)
 donde criticaba que David no hubiera encontrado la información que buscaba para mejorar el sector,
 y que se moviera en medias tintas (lo que llama "equidistante").
 Leed el post porque vale la pena.
 
-Siendo esto internet, ha derivado en insultos y "mansplaining":
+Siendo esto internet, la discusión ha derivado rápidamente en insultos:
 
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="es" dir="ltr">Me han llamado desde &quot;mascachapas&quot; a &quot;cuñao&quot;, confundiendo la crítica a una opinión con la crítica a la persona.</p>&mdash; David Bonilla (@david_bonilla) <a href="https://twitter.com/david_bonilla/status/874397897609052160">June 12, 2017</a></blockquote>
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="es" dir="ltr">Aquí un señor me explicaba que el problema es que las mujeres no empatizamos con ellos al denunciar el exismo, y que así no lo arreglamos 💅 <a href="https://t.co/00kUEzefcg">pic.twitter.com/00kUEzefcg</a></p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873935543083651072">June 11, 2017</a></blockquote>
 
 ## La comparativa
 
@@ -161,11 +147,7 @@ mucha gente se niega a ver los problemas.
 
 ¿Pasa lo mismo en nuestro sector?
 _Of course_,
-hay muchas variantes:
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="es"><p lang="es" dir="ltr">He aquí un serio contendiente <a href="https://t.co/VfQ2ZyHu2A">pic.twitter.com/VfQ2ZyHu2A</a></p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873933354927869952">11 de junio de 2017</a></blockquote>
-
-Y de nuestra
+hay muchas variantes, por ejemplo de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
 <img src="pics/diversidad-sensacionalista.png" title="Sensacionalista de libro. Culpando directamente y sin pruebas a los “estereotipos de género” y demás tonterías el que las mujeres decidan ir a otras carreras en vez de informática.">
