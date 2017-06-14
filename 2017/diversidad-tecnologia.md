@@ -1,8 +1,8 @@
 ---
 title: Polémica sobre la diversidad en tecnología
 subtitle: 'Echando leña al fuego'
-footer: Publicado el 2017-06-14.
-  [¿Comentarios, mejoras?](https://twitter.com/pinchito)
+footer: Publicado el 2017-06-14, modificado el 2017-06-15.
+  [¿Comentarios, mejoras?](https://twitter.com/pinchito/status/875112819435458560)
 ---
 
 ![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
