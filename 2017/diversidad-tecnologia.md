@@ -308,6 +308,7 @@ En esta posición no buscamos compromiso.
 > No hay diferencias significativas entre negros y blancos.
 Hay una injusticia sistémica que hay que corregir.
 
+La trasposición es inmediata.
 Como dijo más arriba Neil Tyson,
 una vez que desaparezcan las barreras que ponemos constantemente a las mujeres en nuestro sector
 veremos si las preferencias de unos y otros son relevantes.
