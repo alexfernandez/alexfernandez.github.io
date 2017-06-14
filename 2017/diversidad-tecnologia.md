@@ -35,7 +35,9 @@ se lanzó al ruedo con un par de tuits reveladores:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">No sabéis lo que desgasta tener que estar explicando por qué X cosa está mal, continuamente</p>&mdash; Belén (@ladybenko) <a href="https://twitter.com/ladybenko/status/873900699876294656">June 11, 2017</a></blockquote>
 
-Hay muchos más en su timeline que vale la pena leer si queréis seguir la historia en detalle.
+Hay muchos más en su
+[timeline](https://twitter.com/ladybenko)
+que vale la pena leer si queréis seguir la historia en detalle.
 
 Por su parte,
 [buenapava](https://twitter.com/buenapava)
