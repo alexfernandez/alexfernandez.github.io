@@ -6,6 +6,7 @@ footer: Publicado el 2017-06-14.
 ---
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
 
 ## La polémica
@@ -96,9 +97,10 @@ en unas pocas actitudes:
 * Los negros son inferiores y el racismo está injustificado.
 * La culpa del racismo es de la población negra, que con su actitud lo perpetúan.
 * No hay ningún problema de racismo.
+* Los que buscan la igualdad son radicales.
 * Es verdad que hay un problema de racismo,
 pero no sé por qué.
-* No hay absolutamente ninguna diferencia entre negros y blancos.
+* No hay diferencias significativas entre negros y blancos.
 Hay una injusticia sistémica que hay que corregir.
 
 ¿Pensáis que hay relación entre el racismo y la falta de diversidad?
@@ -128,9 +130,9 @@ o que directamente son peores.
 Vamos a ver algunos ejemplos de
 [este artículo de menéame](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
-<img src="pics/diversidad-preferencia-diferentes.png" alt="¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?">
+<img src="pics/diversidad-preferencia-diferentes.png" title="¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?">
 
-![](pics/diversidad-hombres-aspiran.png "Me gustaría saber cuántos hombres aspiran a ser enfermeros, maestros, cuidadores de niños o ancianos, peluqueros, etc.")
+<img src="pics/diversidad-hombres-aspiran.png" title="Me gustaría saber cuántos hombres aspiran a ser enfermeros, maestros, cuidadores de niños o ancianos, peluqueros, etc.">
 
 
 No me voy a meter a discutir este argumento porque estamos en 2017 y la vida es corta.
@@ -157,10 +159,11 @@ hay muchas variantes:
 Y de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
+<img src="pics/diversidad-sensacionalista.png" title="Sensacionalista de libro. Culpando directamente y sin pruebas a los “estereotipos de género” y demás tonterías el que las mujeres decidan ir a otras carreras en vez de informática.">
 
-![](pics/diversidad-soy-mujer.png "Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.")
+<img src="pics/diversidad-soy-mujer.png" title="Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.">
 
-### La culpa del racismo es de la población negra
+### La culpa la tienen ellos
 
 Cuando hay cualquier injusticia
 es habitual culpar a los que la sufren.
@@ -171,20 +174,54 @@ Vamos a ver ahora el equivalente en nuestro sector:
 
 > Es responsabilidad de las mujeres acabar con la falta de diversidad.
 
-Hay muchas variantes:
+Algunos ejemplos inspirados en la misma #bonilista:
 
 * las mujeres deben explicarse más,
 * no pueden usar un tono agresivo porque los hombres se retraen,
-* hay que señalar lo positivo en lugar de centrarse en lo negativo.
+* hay que reconocer lo positivo en lugar de criticar lo negativo.
 
-Nos movemos en un territorio peligrosamente cercano a la #bonilista.
+¿No es más lógico que la responsabilidad de eliminar las barreras
+recaiga en los que las levantaron?
 
-### Equidistantes
+### Por qué será
 
-Este término (nuevo, al menos para mí)
-nos recuerda esta postura:
+Alguna gente no llega a vislumbrar la causa de los problemas.
 
-> No hay que ser ni segregacionista ni igualitario,
+> Es verdad que hay un problema de racismo,
+pero no sé por qué.
+
+No importan los antecedentes de esclavitud o segregación racial por ley;
+da igual que la población negra sufra acoso y violencia a manos de la policía;
+se les cobran [más caras las hipotecas](https://en.wikipedia.org/wiki/Mortgage_discrimination)
+pero no sabemos por qué hay racismo.
+
+¿Y la falta de diversidad en tecnología de dónde vendrá?
+En la #bonilista leemos:
+
+> Aunque el problema sea evidente, las causas y la solución del mismo no lo son tanto.
+
+En realidad sólo hay que preguntar a las propias compañeras
+por qué creen que hay esa falta de diversidad.
+O, como muchas ya están un poco hartas de tener que explicarse,
+estar un poco atento a las noticias como las de
+[acoso en Uber](http://www.elconfidencial.com/ultima-hora-en-vivo/2017-06-12/numero-dos-de-uber-deja-su-cargo-tras-denuncias-de-acoso-sexual-en-la-empresa_1241786/),
+[acoso en GamerGate](https://www.dailydot.com/parsec/zoe-quinn-depression-quest-gaming-sex-scandal/),
+[abuso en Linux](http://www.theregister.co.uk/2015/10/06/linix_kernel_dev_who_asked_linus_torvalds_to_stop_swearing_quits_over_swearing/),
+[sexismo en Google](https://www.nytimes.com/2014/09/25/technology/exposing-hidden-biases-at-google-to-improve-diversity.html?mcubz=0&mcubz=0&_r=0),
+[discriminación en Microsoft](https://www.hrgrapevine.com/content/article/2014-10-10-microsoft-ceo-says-women-asking-for-higher-pay-is-bad-karma),
+por poner algunos ejemplos notorios.
+
+Aparecen múltiples causas tras una
+[búsqueda en Google](https://www.google.es/search?q=sexism+tech+industry)
+y una
+[visita a la wikipedia](https://en.wikipedia.org/wiki/Sexism_in_the_technology_industry).
+Hay poco más que decir.
+
+### Radicales
+
+¿Qué pasa si uno no está convencido del todo de que haya un problema?
+
+> No hay que ser ni racista ni igualitario,
 sino buscar un término medio.
 
 Esto me recuerda mucho a una
@@ -197,6 +234,28 @@ para los negocios:
 no quiero la igualdad,
 pero… ¡hombre!
 
+En nuestro sector, la #bonilista nos proporciona un ejemplo de libro:
+
+> El sector bascula entre los que creen que no hay que hacer mucho porque “todo va más o menos bien” y la escasez de mujeres es un hecho coyuntural que se corregirá solo; y los que, por el contrario, creen que la gravedad de la situación justifica la denuncia pública de cualquier gesto sospechoso de no apoyar más allá de la igualdad, la absoluta e inmediata paridad de géneros, aunque eso ponga en la picota a gente que jamás haya tenido un comportamiento machista. Intentar moverse en la tierra de nadie que existe entre ambos extremos es complicado.
+
+Esto es doblemente problemático.
+En primer lugar,
+no podemos tomar una posición equidistante de dos posiciones que no tienen nada que ver.
+Como dicen en este
+[simpático pero NSFW vídeo](https://www.youtube.com/watch?v=H9Rz2aAMEPQ),
+no podemos elegir una postura intermedia entre "fascista" y "pacifista".
+Por mucho que David intente deslegitimizar la búsqueda de igualdad de oportunidades,
+es la única posición defendible en este debate.
+
+Por otra parte,
+¿hay de verdad gente que nunca ha tenido un comportamiento machista?
+Yo sé que tengo comportamientos machistas constantemente,
+y no es ninguna vergüenza:
+están insertados en nuestra cultura tan profundamente que salen sin querer.
+Cuando me doy cuenta,
+o cuando me los señalan,
+intento corregirlos y a otra cosa.
+
 ### Valorar lo positivo
 
 Otra posición discutida es la siguiente:
@@ -206,22 +265,39 @@ sino en valorar los pasos positivos que vayan dando los blancos.
 
 En nuestro caso, hermanos,
 no tenemos que denunciar a los compañeros de Dorothy Counts,
-sino alabar a los que se mantenían al margen
-o a los que son amables con nosotros.
+sino alabar a las dos chicas que fueron amables con ella
+(aunque luego se echaron atrás por presión social).
 
 ¿Realmente os parece que no hay que denunciar el racismo
 cuando nos lo encontremos?
+Sería bonito que fuera así, pero no ha funcionado nunca en la historia.
+[Mahatma Gandhi](https://es.wikipedia.org/wiki/Mahatma_Gandhi)
+no consiguió la independencia alabando
+[la libertad de cultivos](https://es.wikipedia.org/wiki/Movimiento_de_independencia_indio),
+sino denunciando el impuesto a la sal.
+
+El equivalente en nuestro sector lo encontramos nuevamente en la #bonilista:
+
+> La mejor manera de concienciar a la Comunidad y atraerla a nuestro lado es premiar cada pequeño paso que la acerque a la diversidad, en vez de castigar la lentitud con la que algunos recorren el camino.
+
+Me temo que, o seguimos criticando las injusticias, los abusos y las microagresiones,
+o la situación no cambiará jamás.
 
 ### Igualdad real
 
-La igualdad real 
+En esta posición 
 
-## Diversidad en tecnología
+> No hay diferencias significativas entre negros y blancos.
+Hay una injusticia sistémica que hay que corregir.
 
-Como la reciente bonilista ha vuelto a recordarnos,
-tenemos un grave problema de diversidad en el sector de la tecnología,
-más o menos lo que se llama tradicionalmente "informática":
-desarrollo de software, sistemas, esas cosillas.
+Como dijo más arriba Neil Tyson,
+una vez que desaparezcan las barreras que ponemos constantemente a las mujeres en nuestro sector
+veremos si las preferencias de unos y otros son relevantes.
+¿Mi opinión?
+Durante mucho tiempo las profesiones de médico, abogado o matemático eran coto privado de los hombres,
+porque "las inclinaciones de las mujeres las llevaban a otras tareas".
+Hoy lo petan en esas carreras y en muchas otras,
+con aportaciones 
 
 ## Segregación racial
 
@@ -254,19 +330,22 @@ Un par de años después del final oficial de la
 [segregación en la educación](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education)
 en 1954,
 Dorothy y otros 39 estudiantes negros
-pidieron el traslado a un instituto para blancos
+pidieron el traslado a un instituto para blancos.
+Tras un acoso brutal dejó el instituto a los cuatro días.
 
 ¿Os pilla muy lejos el escenario?
+Igual
+[esta foto](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg)
+os toca algo más la fibra.
+
+![](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg "Niña católica corriendo con su madre acompañada de la policía")
+
 En 2001 varios estudiantes católicos sufrieron
 ataques y persecuciones por asistir al instituto de
 [Holy Cross](https://en.wikipedia.org/wiki/Holy_Cross_dispute)
 por parte de padres protestantes.
 Los ataques incluían ladrillos, globos de orina
 o bombas caseras.
-Igual
-[esta foto](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg)
-de una niña blanca corriendo con su madre
-os toca algo más la fibra.
 Esos unionistas que agredían a los católicos son los mismos
 que ahora quieren
 [formar gobierno con Theresa May](http://www.elconfidencial.com/ultima-hora-en-vivo/2017-06-12/el-dup-mantiene-contactos-positivos-con-theresa-may-para-formar-gobierno_1241628/),
@@ -275,6 +354,8 @@ por cierto.
 ## Conclusión
 
 Tras toda esta polémica veo claramente que la evolución es difícil.
+No podemos obligar a nadie a mirar hacia delante,
+pero podemos señalarles cuándo están mirando hacia atrás.
 
 ### FAQ
 
@@ -292,6 +373,11 @@ y en general lo hago por respeto a todas las mujeres que he conocido.
 No creo que vaya a ligar más por ser más decente,
 voy a ligar lo mismo que es cero porque ya tengo pareja estable.
 
+> ¿Entonces qué ganas con todo esto?
+
+Un mundo más acogedor para mujeres y en general para cualquier persona distinta de uno mismo
+es un mundo más acogedor para todos.
+
 > ¿Y tú, no eres culpable de machismo, majete?
 
 Sí, por supuesto.
@@ -302,11 +388,12 @@ Es lo único que de verdad puede hacer que mejoremos la situación.
 ### Agradecimientos
 
 Agradezco a
-@david_bonilla
+[@david_bonilla](https://twitter.com/david_bonilla)
 haber iniciado el debate;
 a
-@buenapava
+[@buenapava](https://twitter.com/buenapava)
 y a
 [@ladybenko](https://twitter.com/ladybenko)
-sus explicaciones que para ellas deben ser muy cansinas.
+sus explicaciones que para ellas deben ser muy cansinas;
+a todas las compañeras que me han soportado y me han enseñado a ser mejor persona.
 
