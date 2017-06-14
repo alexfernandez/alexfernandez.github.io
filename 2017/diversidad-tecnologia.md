@@ -128,7 +128,9 @@ o que directamente son peores.
 Vamos a ver algunos ejemplos de
 [este artículo de menéame](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
-![](pics/preferencia-diferentes.png "¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?")
+<img src="pics/diversidad-preferencia-diferentes.png" alt="¿Admitimos ya que mujeres y hombres tienen preferencia diferentes o seguimos con el cuento del patriarcado?">
+
+![](pics/diversidad-hombres-aspiran.png "Me gustaría saber cuántos hombres aspiran a ser enfermeros, maestros, cuidadores de niños o ancianos, peluqueros, etc.")
 
 
 No me voy a meter a discutir este argumento porque estamos en 2017 y la vida es corta.
@@ -155,7 +157,8 @@ hay muchas variantes:
 Y de nuestra
 [mina de oro](https://www.meneame.net/story/solo-8-chicas-15-anos-quiere-estudiar-carrera-relacionada-1):
 
-![Soy mujer y nunca tuve ningún problema.](pics/soy-mujer.png "Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.")
+
+![](pics/soy-mujer.png "Soy mujer y nunca tuve ningún problema en estudiar una ingeniería. No en trabajar como ingeniera. No creo que haya tenido mas problemas que un hombre. Cuando un trabajo es una mierda, es una mierda tengas el sexo que tengas.")
 
 ### La culpa del racismo es de la población negra
 
