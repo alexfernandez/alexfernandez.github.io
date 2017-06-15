@@ -89,7 +89,7 @@ Para los demás, empecemos.
 Podemos resumir las posiciones de la población blanca ante el racismo
 en unas pocas actitudes:
 
-* Los negros son inferiores y el racismo está injustificado.
+* Los negros son inferiores y el racismo está justificado.
 * La culpa del racismo es de la población negra, que con su actitud lo perpetúa.
 * No hay ningún problema de racismo.
 * Los que buscan la igualdad son radicales.
