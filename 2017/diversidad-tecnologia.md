@@ -49,15 +49,13 @@ seguramente por estar algo más obtuso de lo normal.
 Para intentar entender mejor el punto de vista de "estas radicales",
 voy a traducirlo a un escenario mucho más evidente:
 el racismo en Estados Unidos.
+
 Es un caso bastante más extremo que la diversidad en tecnología:
 al fin y al cabo las condiciones de vida de la población negra en Estados Unidos
 son realmente lamentables incluso hoy día,
 incluyendo
 [cinco veces más encarcelación](https://www.theguardian.com/us-news/2016/jun/18/mass-incarceration-black-americans-higher-rates-disparities-report)
 o [vivir cinco años menos](https://www.theguardian.com/commentisfree/2015/aug/14/black-lives-five-years-shorter-why-we-interrupt-you).
-Por eso mismo nos puede servir para hacer más evidente
-la validez de las posturas.
-
 Ojo, no es que las mujeres informáticas vivan la fiesta perenne:
 no sólo hay pocas, sino que esas valientes
 [cobran menos](http://www.expansion.com/economia/2017/02/20/58aafb61e2704e33078b464d.html),
@@ -70,8 +68,16 @@ sólo por ser mujeres,
 pero muchas han sufrido un acoso brutal
 e incluso [amenazas de muerte](https://en.wikipedia.org/wiki/Gamergate_controversy)
 sólo por expresar su opinión.
+También hay mujeres que sufren abusos y hasta violaciones en el puesto de trabajo,
+que manda narices.
 Y ojo, en España también hay racismo, faltaría más,
 pero está bastante menos estudiado que en USA.
+
+Vamos, que las situaciones y las injusticias causadas por ellas no son realmente comparables.
+Lo que nos interesa aquí son las posturas que adoptan los privilegiados,
+que son sorprendentemente parecidas.
+Poner la misma postura en un contexto diferente nos puede servir
+para hacer más evidente su posible validez.
 
 Si no ves el problema racial o crees que el racismo está justificado
 entonces no creo que pueda ayudarte con este artículo;
