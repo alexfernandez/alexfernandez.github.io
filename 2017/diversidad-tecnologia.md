@@ -7,6 +7,8 @@ footer: Publicado el 2017-06-14, modificado el 2017-06-15.
 
 ![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
 
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## La polémica
 
 La [#bonilista del 11 de junio de 2017](http://us2.campaign-archive1.com/?u=374c664073e1a1fa3deca53b4&id=7b2b969d9d)
@@ -35,10 +37,8 @@ donde criticaba que David no hubiera encontrado la información que buscaba para
 y que se moviera en medias tintas (lo que llama "equidistante").
 Leed el post porque vale la pena.
 
-Siendo esto internet, la discusión ha derivado rápidamente en insultos:
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="es" dir="ltr">Me han llamado desde &quot;mascachapas&quot; a &quot;cuñao&quot;, confundiendo la crítica a una opinión con la crítica a la persona.</p>&mdash; David Bonilla (@david_bonilla) <a href="https://twitter.com/david_bonilla/status/874397897609052160">June 12, 2017</a></blockquote>
+Siendo esto internet, la discusión ha derivado rápidamente en insultos por ambas partes,
+que prefiero no enlazar por no darles voz.
 
 ## La comparativa
 
