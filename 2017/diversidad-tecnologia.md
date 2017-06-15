@@ -47,7 +47,7 @@ sobre los problemas de la #bonilista.
 Además me ha costado digerir sus explicaciones,
 seguramente por estar algo más obtuso de lo normal.
 Para intentar entender mejor el punto de vista de "estas radicales",
-voy a traducirlo a un escenario mucho más evidente:
+voy a trasponer las actitudes que estamos tratando a un escenario mucho más evidente:
 el racismo en Estados Unidos.
 
 Es un caso bastante más extremo que la diversidad en tecnología:
