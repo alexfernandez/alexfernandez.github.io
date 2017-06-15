@@ -39,6 +39,8 @@ Leed el post porque vale la pena.
 
 Siendo esto internet, la discusión ha derivado rápidamente en insultos por ambas partes,
 que prefiero no enlazar por no darles voz.
+Ojo, no por las personas que más han participado,
+que se han portado siempre de manera ejemplar.
 
 ## La comparativa
 
