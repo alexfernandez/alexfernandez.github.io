@@ -37,10 +37,8 @@ donde criticaba que David no hubiera encontrado la información que buscaba para
 y que se moviera en medias tintas (lo que llama "equidistante").
 Leed el post porque vale la pena.
 
-Siendo esto internet, la discusión ha derivado rápidamente en comentarios desafortunados
-que prefiero no enlazar por no darles voz.
-Ojo, no por las personas que más han participado,
-que se han portado siempre educadamente.
+Siendo esto internet, la discusión ha derivado rápidamente en polémica.
+Voy a intentar aportar mi granito de arena.
 
 ## La comparativa
 
