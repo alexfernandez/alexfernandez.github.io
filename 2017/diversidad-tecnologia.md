@@ -40,7 +40,7 @@ Leed el post porque vale la pena.
 Siendo esto internet, la discusión ha derivado rápidamente en comentarios desafortunados
 que prefiero no enlazar por no darles voz.
 Ojo, no por las personas que más han participado,
-que se han portado siempre con educación.
+que se han portado siempre educadamente.
 
 ## La comparativa
 
