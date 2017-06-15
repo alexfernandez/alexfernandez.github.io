@@ -398,7 +398,8 @@ portarnos decentemente y no hacer nada de esto:
 [acoso, discriminación y abuso](https://www.theguardian.com/technology/2017/apr/27/tech-industry-sexism-racism-silicon-valley-study).
 Para seguir,
 aceptar que tenemos un problema
-y pedir la opinión de las mujeres que nos rodean.
+y pedir la
+[opinión de las mujeres que nos rodean](https://code.likeagirl.io/soy-una-mujer-en-tecnolog%C3%ADa-y-esto-es-lo-que-quiero-de-una-organizaci%C3%B3n-fe1878fe5772).
 
 > ¿Y tú, no eres culpable de machismo, majete?
 
