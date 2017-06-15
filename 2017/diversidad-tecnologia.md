@@ -37,7 +37,7 @@ donde criticaba que David no hubiera encontrado la información que buscaba para
 y que se moviera en medias tintas (lo que llama "equidistante").
 Leed el post porque vale la pena.
 
-Siendo esto internet, la discusión ha derivado rápidamente en insultos por ambas partes,
+Siendo esto internet, la discusión ha derivado rápidamente en comentarios desafortunados por ambas partes,
 que prefiero no enlazar por no darles voz.
 Ojo, no por las personas que más han participado,
 que se han portado siempre de manera ejemplar.
@@ -420,5 +420,7 @@ a
 y a
 [ladybenko](https://twitter.com/ladybenko)
 sus explicaciones que para ellas deben ser muy cansinas;
+a la gente que me ha hecho sugerencias y críticas en público y en privado,
+y que me han servido para refinar este artículo;
 y a todas las compañeras que me han soportado y me han enseñado a ser mejor persona.
 
