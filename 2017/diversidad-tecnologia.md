@@ -1,7 +1,7 @@
 ---
 title: Polémica sobre la diversidad en tecnología
 subtitle: 'Echando leña al fuego'
-footer: Publicado el 2017-06-14, modificado el 2017-06-15.
+footer: Publicado el 2017-06-14, modificado el 2017-06-17.
   [¿Comentarios, mejoras?](https://twitter.com/pinchito/status/875112819435458560)
 ---
 
@@ -397,16 +397,18 @@ Para empezar,
 portarnos decentemente y no hacer nada de esto:
 [acoso, discriminación y abuso](https://www.theguardian.com/technology/2017/apr/27/tech-industry-sexism-racism-silicon-valley-study).
 Para seguir,
+avintar a los demás cuando pongan incómodas a las mujeres que nos rodean.
+Y para terminar,
 aceptar que tenemos un problema
 y pedir la
-[opinión de las mujeres que nos rodean](https://code.likeagirl.io/soy-una-mujer-en-tecnolog%C3%ADa-y-esto-es-lo-que-quiero-de-una-organizaci%C3%B3n-fe1878fe5772).
+[opinión de estas mujeres](https://code.likeagirl.io/soy-una-mujer-en-tecnolog%C3%ADa-y-esto-es-lo-que-quiero-de-una-organizaci%C3%B3n-fe1878fe5772).
 
 > ¿Y tú, no eres culpable de machismo, majete?
 
 Sí, por supuesto.
 Constantemente y todos los días.
 Lo acepto, intento no repetirlo y sigo adelante.
-Es lo único que de verdad puede hacer que mejoremos la situación.
+Es lo único que de verdad puede hacer que mejoremos.
 
 ### Agradecimientos
 
