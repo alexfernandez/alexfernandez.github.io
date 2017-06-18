@@ -104,6 +104,7 @@ It all came to €6k in travels
 and €3k in hotel rooms.
 
 Other assorted costs:
+
 * The workshop by @substack cost us almost €2k. Luckily it paid for itself
 with tickets.
 * The speakers' dinner was €2.3k.
