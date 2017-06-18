@@ -114,7 +114,7 @@ All in all we spent €14k to make our speakers have a great experience.
 
 ### Attendees
 
-We also wanted to make our audience comfortable.
+We also wanted to make our attendees comfortable.
 There were a lot of meals to provide for:
 
 * Tea for both days was €3k.
@@ -454,7 +454,7 @@ which is only fair since most of them are looking for talent.
 
 So we would like sponsors to provide for part of the income,
 but not most of it,
-as this year.
+just as this year.
 We believe that we provide the most value to you this way.
 
 ### Other Models
@@ -463,7 +463,7 @@ This is not the only option that we have considered.
 Below are some alternatives with discussion.
 
 * The _immobilist_ option:
-Keep everything just as this year.
+Keep everything exactly as this year.
 Unfortunately there is only one team of organizers;
 once we are burnt out **JSDayES is over**.
 I assure you that another year with this level of involvement
