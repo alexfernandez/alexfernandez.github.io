@@ -5,7 +5,7 @@ footer: Published on 2017-06-18.
   [Comments, suggestions?](https://twitter.com/pinchito/status/875112819435458560)
 ---
 
-![Dorothy Counts, soportando las burlas de sus "compañeros" de secundaria](pics/diversidad-dorothy-counts.jpg "Bajada de https://www.reddit.com/r/HistoryPorn/comments/34xejf/a_crowd_of_youths_taunt_dorothy_counts_15_as_she/")
+![Attendants at JSDayES 2017](pics/jsdayes-audience.jpg "Attendants at JSDayES 2017")
 
 ## The Moneys
 
