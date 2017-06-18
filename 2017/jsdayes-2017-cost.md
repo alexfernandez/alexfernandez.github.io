@@ -5,7 +5,7 @@ footer: Published on 2017-06-18.
   [Comments, suggestions?](https://twitter.com/pinchito/status/875112819435458560)
 ---
 
-![Attendants at JSDayES 2017](pics/jsdayes-audience.jpg "Attendants at JSDayES 2017")
+![](pics/jsdayes-audience.jpg "Attendants at JSDayES 2017")
 
 ## The Moneys
 
