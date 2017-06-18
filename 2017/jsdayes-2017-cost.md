@@ -5,7 +5,7 @@ footer: Published on 2017-06-18.
   [Comments, suggestions?](https://twitter.com/pinchito/status/875112819435458560)
 ---
 
-![](pics/jsdayes-audience.jpg "Attendants at JSDayES 2017")
+![](pics/jsdayes-audience.jpg "Attendees at JSDayES 2017")
 
 ## The Moneys
 
@@ -26,14 +26,14 @@ Paid tickets were distributed as follows:
 * 51 super early bird (€25),
 * 100 early bird (€50).
 
-The remaining attendants did not pay directly:
+The remaining attendees did not pay directly:
 
 * 60 sponsor tickets,
 * 34 speakers,
 * 18 volunteers,
 * and 4 organizers.
 
-For a grand total of 644 attendants.
+For a grand total of 644 attendees.
 A few of them only came to the workshop by @substack,
 so on Saturday we were just above 600 people.
 
@@ -112,8 +112,9 @@ with tickets.
 
 All in all we spent €14k to make our speakers have a great experience.
 
-### Catering And Attendants
+### Attendees
 
+We also wanted to make our audience comfortable.
 There were a lot of meals to provide for:
 
 * Tea for both days was €3k.
@@ -124,11 +125,11 @@ There were a lot of meals to provide for:
 All amounts have been rounded to the closest half €k.
 All in all, catering was €12.5k.
 
-The other cost related to attendants was lanyard and bag,
+The other cost related to attendees was lanyard and bag,
 which cost €2.5k together.
 
 All in all, costs related to the audience added up to €15k,
-or €25 per attendant.
+or €25 per attendees
 That is how much we spent on each of you directly!
 
 Reduced tickets were priced at €20,
@@ -173,7 +174,7 @@ So in the end we had a pretty tight budget.
 | taxes			| 				| 5				|
 | venue			|				| 13.5			|
 | speakers		|				| 14			|
-| attendants	|				| 15			|
+| attendees		|				| 15			|
 | communication	|				| 4.5			|
 | **total**		| 52			| 52			|
 
@@ -208,7 +209,7 @@ a 600+ people conference has many interesting aspects.
 ### Talks And Speakers
 
 We cannot be more satisfied with the talks for this year.
-You can see the scores given by attendants in the
+You can see the scores given by attendees in the
 [schedule](http://2017.jsday.es/#schedule).
 Average score is around 4.5,
 while in 2015 it was 3.5.
@@ -238,7 +239,7 @@ both related to a couple of speakers that made lewd comments.
 They were both notified,
 and both immediately apologized.
 
-We are happy to report that there were no incidents reported among attendants.
+We are happy to report that there were no incidents reported among attendees.
 Next year we will have to translate the code of conduct to English!
 
 ### Diversity
@@ -256,7 +257,7 @@ was 4.3,
 slightly below the global average of 4.5
 but well within the margin of error.
 
-We have not quantified the percentage of female attendants,
+We have not quantified the percentage of female attendees,
 but it should be well above 10%.
 
 We had a lot of foreign speakers in the international track.
