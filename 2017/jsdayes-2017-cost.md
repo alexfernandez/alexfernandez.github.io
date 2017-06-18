@@ -1,6 +1,6 @@
 ---
 title: How Much Did JSDayES 2017 Cost?
-subtitle: 'Or, How Much Money Do You Need To Make It Work'
+subtitle: 'And What Else You Need To Make It Work'
 footer: Published on 2017-06-18.
   [Comments, suggestions?](https://twitter.com/pinchito/status/875112819435458560)
 ---
