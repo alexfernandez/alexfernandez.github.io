@@ -35,8 +35,13 @@ The remaining attendants did not pay directly:
 
 For a grand total of 644 attendants.
 
-Total income from tickets is almost €30k,
-which comes out as €28k + €1800 commission.
+Total income from tickets is very close to €30k.
+We used
+[Koliseo]
+as a payment platform, which was a very good choice:
+support was excellent,
+and the €1800 commission is quite low.
+All in all, we earned €28k from tickets.
 
 ### Sponsorships
 
@@ -51,14 +56,52 @@ The estimated combined value of these payments is €11.5k.
 
 for a grand total of €35.5k.
 
-
 ### Venue
 
+The venue chosen by the team was the conference center Pablo VI,
+the same used for SpainJS '13 (which I happened to attend).
+
+### Communication
+
+A large part of the success of a conference depends on communication:
+marketing, broadcasting, streaming, audio/visuals.
+
 ### Speakers
+
+### Taxes
+
+There was a painful mixup with taxes:
+we sold the first tickets with 21% VAT,
+but later learned that
+[non-profit conferences are VAT exempt](http://www.asesoriayempresas.es/doctrinaadministrativa/JURIDICO/73494/consulta-vinculante-dgt-de-3-de-febrero-de-2010-iva-exenciones-asociaciones-sin-animo-de-lucro).
+We changed it to 0% on the Koliseo interface,
+but there were already many invoices that had been generated already,
+and which had already been reported to the tax authority
+on the previous quarter.
+
+This resulted in €5k paid on unnecessary taxes.
+The upside is that this money will surely be used to improve the lives of the citizenry
+and never squandered by dishonest politicians,
+so there's that.
 
 ### Final Balance
 
 So in the end we thought.
+
+| concept		| income (€k)	| expense (€k)	|
+|--------------	|-------------	|--------------	|
+| tickets		| 28			|				|
+| sponsors		| 24			|				|
+| taxes			| 				| 5				|
+| communication	|				| 4.5			|
+| venue			|				| 13.5			|
+| attendants	|				| 15			|
+| speakers		|				| 14			|
+| **total**		| 52			| 52			|
+
+Taking into account in kind payments,
+the total would go up to €63.5k,
+which is what you should at least budget for a conference.
 
 An effort of this magnitude has many variables,
 and not all of them are known until after it has ended.
