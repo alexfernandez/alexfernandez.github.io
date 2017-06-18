@@ -80,8 +80,8 @@ This brings the total of revenue in this section to €35.5k.
 
 The venue chosen by the team was the conference center Pablo VI,
 the same used for SpainJS '13 (which I happened to attend).
-Price was €10.8k, discounted from €12k
-(€8k per day for 1.5 days).
+Price for 1.5 days was €10.8k, discounted from €12k
+(for a nominal price of €8k per day).
 
 We also spent €1.5k in furniture for the sponsor stands and 50 additional chairs;
 plus €1k in roll ups, banners and giant white letters.
@@ -92,8 +92,8 @@ All in all we spent €13.5k in the venue.
 We covered transport and accommodation for our speakers from outside Madrid:
 flights, taxis and two hotel nights.
 It is the least we can do for people who spend a lot of their free time
-crafting a presentation to share some of their expertise.
-And believe me, it is _a lot_ of work.
+crafting a presentation to share their expertise with us.
+And believe me, giving a talk is _a lot_ of work.
 
 There were six speakers coming from America
 (one from Canada, four from the US, another from Argentina),
