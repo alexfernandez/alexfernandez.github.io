@@ -34,39 +34,16 @@ The remaining attendants did not pay directly:
 * and 4 organizers.
 
 For a grand total of 644 attendants.
+A few of them only came to the workshop by @substack,
+so on Saturday we were just above 600 people.
 
-Total income from tickets is very close to €30k.
+Total income from tickets is €29.9k, which we will round as €30k.
 We used
 [Koliseo]
 as a payment platform, which was a very good choice:
 support was excellent,
 and the €1800 commission is quite low.
-All in all, we earned €28k from tickets.
-
-### Sponsorships
-
-All in all we counted with 22 sponsors,
-that have provided a total of €23,950
-(which we will round and abbreviate as €24k).
-
-Many sponsors also paid in kind.
-For instance paying for speaker trips
-
-The estimated combined value of these payments is €11.5k.
-
-for a grand total of €35.5k.
-
-### Venue
-
-The venue chosen by the team was the conference center Pablo VI,
-the same used for SpainJS '13 (which I happened to attend).
-
-### Communication
-
-A large part of the success of a conference depends on communication:
-marketing, broadcasting, streaming, audio/visuals.
-
-### Speakers
+All in all, we earned very close to €28k from tickets.
 
 ### Taxes
 
@@ -84,25 +61,128 @@ The upside is that this money will surely be used to improve the lives of the ci
 and never squandered by dishonest politicians,
 so there's that.
 
+### Sponsorships
+
+All in all we counted with 22 sponsors,
+that have provided a total of €23,950
+(which we will round and abbreviate as €24k).
+
+A good number of sponsors also paid in kind.
+Many payed for transportation for their speakers,
+and Cabify provided for transportation within the city.
+This is an excellent formula for us,
+since it reduces the accounting on both parts.
+
+The estimated combined value of these in-kind payments is €11.5k.
+This brings the total of revenue in this section to €35.5k.
+
+### Venue
+
+The venue chosen by the team was the conference center Pablo VI,
+the same used for SpainJS '13 (which I happened to attend).
+Price was €10.8k, discounted from €12k
+(€8k per day for 1.5 days).
+
+We also spent €1.5k in furniture for the sponsor stands and 50 additional chairs;
+plus €1k in roll ups, banners and giant white letters.
+All in all we spent €13.5k in the venue.
+
+### Speakers
+
+We covered transport and accommodation for our speakers from outside Madrid:
+flights, taxis and two hotel nights.
+It is the least we can do for people who spend a lot of their free time
+crafting a presentation to share some of their expertise.
+And believe me, it is _a lot_ of work.
+
+There were six speakers coming from America
+(one from Canada, four from the US, another from Argentina),
+seven from different parts of Europe
+and eight from the rest of Spain.
+Luckily many of them were covered by their respective companies.
+It all came to €6k in travels
+and €3k in hotel rooms.
+
+Other assorted costs:
+* The workshop by @substack cost us almost €2k. Luckily it paid for itself
+with tickets.
+* The speakers' dinner was €2.3k.
+* A small present for all speakers was €700.
+
+All in all we spent €14k in our most precious asset.
+
+### Catering And Attendants
+
+There were a lot of meals to provide for:
+
+* Tea for both days was €3k.
+* Breakfast on Saturday (churros) was €2k.
+* Lunch on Saturday was €6.5k.
+* The final party was €1k.
+
+All amounts have been rounded to the closest half €k.
+All in all, catering was €12.5k.
+
+The other cost related to attendants was lanyard and bag,
+which cost €2.5k together.
+
+All in all, costs related to the audience added up to €15k,
+or €25 per attendant.
+That is how much we spent on each of you directly!
+
+Reduced tickets were priced at €20,
+which means they were not even paying for their direct costs.
+But we were happy because this probably allowed a lot of people to come to JSDayES
+which would otherwise not have been able to attend.
+
+### Communication
+
+A large part of the success of a conference depends on communication:
+marketing, broadcasting, streaming, audio/visuals.
+
+This year we have counted with
+[OK Comunicación],
+publishers of
+[Gaceta tecnológica],
+to help us with communication.
+They have published press releases,
+managed our interactions with sponsors
+and saved us a ton of work.
+
+We released an ad on
+[JavaScript Daily] that cost about €400.
+
+We spent €500 on video and streaming fees,
+but the biggest part was covered by Corus Consulting
+(the old M4V)
+and
+[TodoJS].
+We also spent €400 on the photographers.
+
+All in all communication accounted for about €4.5k.
+
 ### Final Balance
 
-So in the end we thought.
+So in the end we had a pretty tight budget.
 
 | concept		| income (€k)	| expense (€k)	|
 |--------------	|-------------	|--------------	|
 | tickets		| 28			|				|
 | sponsors		| 24			|				|
 | taxes			| 				| 5				|
-| communication	|				| 4.5			|
 | venue			|				| 13.5			|
-| attendants	|				| 15			|
 | speakers		|				| 14			|
+| attendants	|				| 15			|
+| communication	|				| 4.5			|
 | **total**		| 52			| 52			|
 
-Taking into account in kind payments,
-the total would go up to €63.5k,
-which is what you should at least budget for a conference.
+Taking into account payments in kind the total would go up to €64k,
+which is what you should at least budget for a conference of this size.
+All figures have been rounded,
+and in fact there is a deficit of less than €500
 
+How did we balance the budget so tighly?
+Basically through sheer luck.
 An effort of this magnitude has many variables,
 and not all of them are known until after it has ended.
 Our internal spreadsheet has more than 60 different concepts,
@@ -114,9 +194,10 @@ speaker dinner,
 number of sponsors
 (the last one entered in the week before the conference).
 
-We kept 
-party (we kept this one open so we could 
-
+We kept the party open until the last minute so we could spend more or less money
+depending on how the accounting looked.
+Unfortunately this meant that we could not tell everyone in time,
+and anyway we did not have money for a larger party.
 
 ## Some Notes
 
@@ -131,6 +212,22 @@ You can see the scores given by attendants in the
 Average score is around 4.5,
 while in 2015 it was 3.5.
 Therefore we have improved a lot!
+
+We opened a Call for Proposals,
+and it has been an essential tool for attracting speakers.
+We also had an advisory committee that helped us select the best talks,
+for the main and international tracks.
+But a large part of our mission is to attract new talent.
+So we hand-picked many of the talks that would have been discarded otherwise,
+mostly from speakers with less experience;
+and did a "Rising Stars" track with it.
+Was it a success?
+Well, here are the average scores for each track:
+
+* Main track: 4.45.
+* International track: 4.3.
+* Rising stars: 4.45.
+* Workshops: 4.9.
 
 ### Code Of Conduct
 
@@ -169,7 +266,7 @@ also in the national tracks.
 
 The aspect that we are most proud of is geographical diversity.
 Only 12 out of 32 talks (37%) were Madrid-based;
-another 13 were from international speakers;
+another 13 (40%) were from international speakers;
 and the remaining 7 were from Spanish speakers coming from outside Madrid.
 Next year we will strive to reach out even more.
 
@@ -188,7 +285,7 @@ in the end only 12 were able to make it,
 2/3 of which were women.
 They did an excellent job throughout the conference.
 
-Corus volunteers were also present in all rooms recording the audio and video.
+Corus (the old M4V) volunteers were also present in all rooms recording the audio and video.
 
 ### Venue
 
@@ -208,9 +305,23 @@ It is more than €9k above what we paid this year.
 
 The second most disappointing aspect of the conference was food.
 Not everyone complained:
+apparently lunch was not all bad,
+but the best part was really scarce and was over quickly,
+leaving us with the infamous "white buns from hell".
 
 In our defense, we used the same provider as last year,
 which was plentiful and very well valued by attendees.
+
+The remaining meals were OK,
+in quality and quantity,
+and saved us from utter shame.
+
+You may think that with a budget of around €20 per person
+you can do much better than we did.
+Think again.
+Providing catering for 600 people is a completely different problem than for 6.
+There's three meals a day
+Don't forget vegan and gluten-free options.
 
 ### Organization
 
@@ -218,9 +329,31 @@ This was not a generalized complaint,
 but some commenters felt that we the organizers were overwhelmed.
 They don't know half of it.
 
-For next year,
-professional conference management is a must.
-This means at least €6k.
+We are four organizers.
+Each has devoted countless hours in our spare time
+to organizing JSDayES.
+We are unpaid volunteers,
+and do this out of our spare time:
+we all have jobs,
+but participate here independently as individuals.
+The idea is that we stay close to our community roots.
+
+Even with the help of OK Comunicación,
+organizing an event of this magnitude has taken a toll on us.
+And we have spent a lot of time on tasks that do not really provide much value,
+such as renting chairs or ordering Cabifys.
+For next year professional conference management is a must.
+This means at least €6k,
+perhaps more.
+They will ideally take care of those aspects that are not specific to JSDayES:
+
+* sponsors,
+* catering,
+* speaker accommodation and transportation,
+* signage,
+* accounting,
+
+and thus help make JSDayES sustainable for upcoming editions.
 
 ### Community
 
@@ -230,6 +363,25 @@ What is it exactly?
 For the first year the "community" was just a gathering of communities from Madrid.
 In 2016 we reached around and attracted many people from all Spain.
 Finally, this year local attendees were less than half.
+
+We want to help all interested JavaScript developers from Spain meet in one place,
+see some good talks,
+share a few meals and a roof for a day,
+and go back to our daily routine with renewed ideas.
+Our sore spot is Barcelona:
+it has a vibrant startup scene,
+but hardly any developers came from there this year.
+
+This year we have tried to attract an international audience,
+or at least foreigners working in Madrid,
+without much success.
+Next year we will make sure that the international track
+provides for a consistent experience for non-Spanish speakers.
+
+We would love to also strengthen ties with South and Central American developers,
+but there are practical issues:
+each speaker travel from across the ocean costs us more than €1k,
+so costs rapidly add up.
 
 ## JSDayES 2018
 
@@ -243,6 +395,7 @@ The numbers are clear cut:
 and at least €6k for professional organization.
 So next year the total budget would increase to at least
 €64k + €18k = €82k.
+This is a lot of money!
 
 ### Ticket Price
 
@@ -287,6 +440,21 @@ which would increase sponsorship income.
 We should have to attract at least €6k more this way.
 This would help pay for the better venue, management and catering.
 
+Many people seem to think that just adding more sponsors is a magic bullet
+that will solve all of our financial problems.
+There is a problem when sponsors provide for most of the conference budget:
+they start to dictate what you can do!
+For instance, it is a very common model to have sponsored talks.
+At JSDayES we will never compromise the quality of the event;
+at most you get five-minute introductions by top sponsors
+(four of them altogether this year),
+which is only fair since most of them are looking for talent.
+
+So we would like sponsors to provide for part of the income,
+but not most of it,
+as this year.
+We believe that we provide the most value to you this way.
+
 ### Other Models
 
 This is not the only option that we have considered.
@@ -309,6 +477,7 @@ as stated under
 [diversity](#diversity) and [community](#community).
 Plus, we would once again go back to having
 *no international JavaScript conferences in Madrid*.
+That sucked.
 
 * The _professional_ option:
 Some other people have suggested that we charge for our time,
@@ -323,7 +492,7 @@ not a money-maker.
 
 We want to provide attendees with the best possible value for their money,
 and we feel that there is only one way forward;
-and it is not definitely to go backwards.
+and it is definitely not backwards.
 
 ## FAQ
 
@@ -365,11 +534,31 @@ See above under
 [final balance](#final-balance):
 it is unrealistic to balance 60+ concepts on a €65k budget to 1%.
 We should strive to achieve a surplus,
-but if it means a lesser conference we will risk a small deficit.
+but if it means a worse conference we will risk a small deficit.
+
+> Why not skip the "Rising Stars" track?
+
+[See above](#talks-and-speakers):
+it was even liked better than the international track
+and as well liked as the main track.
+
+> Why not skip the international track then?
+
+For international attendees.
+And for national attendees also:
+We want to present an opportunity to see some of the best speakers from around the world
+without leaving Spain.
+
+> Really, I liked one single track;
+I feel like I'm missing out.
+
+The good thing about multi-track conferences is that you can choose.
+The problem is that you have to choose.
+Tough luck; better choose between two good things than just have the one.
 
 ### Acknowledgements
 
-Thanks to 
+Thanks to all volunteers and sponsors.
 
 JSDayES is the work of love of
 [Raquel Benito],
