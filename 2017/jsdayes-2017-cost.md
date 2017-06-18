@@ -100,7 +100,7 @@ There were six speakers coming from America
 seven from different parts of Europe
 and eight from the rest of Spain.
 Luckily many of them were covered by their respective companies.
-It all came to €6k in travels
+It all came to around €6k in travels
 and €3k in hotel rooms.
 
 Other assorted costs:
@@ -110,7 +110,7 @@ with tickets.
 * The speakers' dinner was €2.3k.
 * A small present for all speakers was €700.
 
-All in all we spent €14k in our most precious asset.
+All in all we spent €14k to make our speakers have a great experience.
 
 ### Catering And Attendants
 
