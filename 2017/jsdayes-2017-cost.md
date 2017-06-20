@@ -231,6 +231,20 @@ Well, here are the average scores for each track:
 * Rising stars: 4.45.
 * Workshops: 4.9.
 
+The first three tracks are again within the margin of error.
+There is no noticeable increase in quality between the first two
+(voted by the advisory committee)
+and rising stars (hand-picked).
+
+The same cannot be said about the
+[first day](http://2017.jsday.es/#5642674782601216):
+average score was 3 across opening keynote,
+lightning talks and workshop.
+Not many people have spoken well about it.
+On the plus side it gave us ample time to organize everything
+and start with registration,
+but on the whole it was not very relevant, apparently.
+
 ### Code Of Conduct
 
 We have been notified of a couple of violations of the
@@ -292,15 +306,18 @@ Corus (the old M4V) volunteers were also present in all rooms recording the audi
 ### Venue
 
 This is perhaps the single issue that has generated more complaints.
-We were well aware that the Pablo VI conference center is outdated and in need of reformation;
-but even the brand new room upstairs (where the international track was held)
+We were well aware that the Pablo VI conference center is outdated and in need of reformation.
+Still, even the brand new room upstairs where the international track was held
 was a big disappointment,
 as sound was very deficient and there were very few electric plugs.
-WiFi was also not working well.
-Its biggest advantage was price: for less than €11k we had 1.5 days.
+WiFi was also not working well in the whole building,
+even though we restricted it as much as possible.
 
+The biggest advantage of this venue was price:
+for less than €11k we had it for a day and a half.
 A good conference center in downtown Madrid is around €20k/day.
-Since people are demanding it.
+Since people are demanding a better venue,
+there may be no other way around it.
 It is more than €9k above what we paid this year.
 
 ### Catering
@@ -308,7 +325,7 @@ It is more than €9k above what we paid this year.
 The second most disappointing aspect of the conference was food.
 Not everyone complained:
 apparently lunch was not all bad,
-but the best part was really scarce and was over quickly,
+but it was really scarce and the best portions were over quickly,
 leaving us with the infamous "white buns from hell".
 
 In our defense, we used the same provider as last year,
@@ -322,7 +339,9 @@ You may think that with a budget of around €20 per person
 you can do much better than we did.
 Think again.
 Providing catering for 600 people is a completely different problem than for 6.
-There's three meals a day
+There's three meals a day,
+coffee and tea (another point where we were short).
+You have to set up tables and possibly hire patio furniture.
 Don't forget vegan and gluten-free options.
 
 ### Organization
@@ -344,7 +363,7 @@ Even with the help of OK Comunicación,
 organizing an event of this magnitude has taken a toll on us.
 And we have spent a lot of time on tasks that do not really provide much value,
 such as renting chairs or ordering Cabifys.
-For next year professional conference management is a must.
+For next year we are evaluating professional conference management.
 This means at least €6k,
 perhaps more.
 They will ideally take care of those aspects that are not specific to JSDayES:
@@ -420,9 +439,9 @@ This means an increase in €12k.
 
 We have run a couple of polls among the audience,
 just to gauge if there would be interest at this new price.
-Most of the responders voted for ridiculous amounts such as €50,
-perhaps in the vain hope that we will not increase them.
-We are taking those with a grain of salt:
+Most of the responders voted for unrealistic amounts such as €50,
+perhaps based on the mistaken idea that we were bargaining.
+We are taking poll results with a grain of salt:
 after 2015 we run a similar poll that indicated that people would pay at most €25,
 and yet in 2016 we outsold our €50 tickets in a grand total time of 10 minutes.
 
@@ -541,8 +560,7 @@ but if it means a worse conference we will risk a small deficit.
 > Why not skip the "Rising Stars" track?
 
 [See above](#talks-and-speakers):
-it was even liked better than the international track
-and as well liked as the main track.
+it was as well liked as the main and international tracks.
 
 > Why not skip the international track then?
 
