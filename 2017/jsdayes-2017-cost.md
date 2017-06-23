@@ -181,7 +181,7 @@ So in the end we had a pretty tight budget.
 Taking into account payments in kind the total would go up to €64k,
 which is what you should at least budget for a conference of this size.
 All figures have been rounded,
-and in fact there is a deficit of less than €500
+and in fact there is a deficit of less than €500.
 
 How did we balance the budget so tighly?
 Basically through sheer luck.
@@ -325,7 +325,6 @@ Not everyone complained:
 apparently lunch was not all bad,
 but it was a bit scarce and the best courses were over quickly,
 leaving us with the infamous "white buns from hell".
-
 In our defense, we used the same provider as last year,
 which was plentiful and very well valued by attendees.
 
