@@ -21,7 +21,7 @@ with more than 600 attendees.
 Paid tickets were distributed as follows:
 
 * 225 paid the full price of €80,
-* 56 more used a 20% off discount for a total of €64,
+* 56 more used a 20% off discount and paid €64,
 * 96 bought reduced tickets (€20/€16),
 * 51 super early bird (€25),
 * 100 early bird (€50).
@@ -64,8 +64,8 @@ so there's that.
 ### Sponsorships
 
 All in all we counted with 22 sponsors,
-that have provided a total of €23,950
-(which we will round and abbreviate as €24k).
+that have provided a total of €22,950
+(which we will round and abbreviate as €23k).
 
 A good number of sponsors also paid in kind.
 Many payed for transportation for their speakers,
@@ -74,7 +74,7 @@ This is an excellent formula for us,
 since it reduces the accounting on both parts.
 
 The estimated combined value of these in-kind payments is €11.5k.
-This brings the total of revenue in this section to €35.5k.
+This brings the total of revenue in this section to €34.5k.
 
 ### Venue
 
@@ -100,17 +100,17 @@ There were six speakers coming from America
 seven from different parts of Europe
 and eight from the rest of Spain.
 Luckily many of them were covered by their respective companies.
-It all came to around €6k in travels
+It all came to around €5k in travels
 and €3k in hotel rooms.
 
 Other assorted costs:
 
-* The workshop by @substack cost us almost €2k. Luckily it paid for itself
-with tickets.
+* The workshop by @substack cost us almost €2k.
+Luckily it paid for itself since it was sold separately.
 * The speakers' dinner was €2.3k.
 * A small present for all speakers was €700.
 
-All in all we spent €14k to make our speakers have a great experience.
+All in all we spent €13k to make our speakers have a great experience.
 
 ### Attendees
 
@@ -170,18 +170,19 @@ So in the end we had a pretty tight budget.
 | concept		| income (€k)	| expense (€k)	|
 |--------------	|-------------	|--------------	|
 | tickets		| 28			|				|
-| sponsors		| 24			|				|
+| sponsors		| 23			|				|
 | taxes			| 				| 5				|
 | venue			|				| 13.5			|
-| speakers		|				| 14			|
+| speakers		|				| 13			|
 | attendees		|				| 15			|
 | communication	|				| 4.5			|
-| **total**		| 52			| 52			|
+| **total**		| 51			| 51			|
 
-Taking into account payments in kind the total would go up to €64k,
+Taking into account payments in kind and ticket commissions
+the total goes up to €65k,
 which is what you should at least budget for a conference of this size.
 All figures have been rounded,
-and in fact there is a deficit of less than €500.
+and in fact there is a deficit of less than €100.
 
 How did we balance the budget so tighly?
 Basically through sheer luck.
@@ -316,11 +317,10 @@ even though we restricted it as much as possible.
 The biggest advantage of this venue was price:
 for less than €11k we had it for a day and a half.
 A good conference center in downtown Madrid is around €20k/day.
-Just for one day it is more than €9k above what we paid this year.
 
 ### Catering
 
-Another issue that has generated a lot of complaints was lunch.
+Another issue that has generated a lot of complaints was catering.
 Not everyone complained:
 apparently lunch was not all bad,
 but it was a bit scarce and the best courses were over quickly,
@@ -328,8 +328,10 @@ leaving us with the infamous "white buns from hell".
 In our defense, we used the same provider as last year,
 which was plentiful and very well valued by attendees.
 
-The remaining meals were OK in quality and quantity,
-and saved us from shame (and hunger).
+Also, on the first day we expected 200~300 people, but almost 500 showed up!
+Obviously we were a bit short.
+The remaining meals were OK in quality and quantity
+as far as we know.
 
 You may think that with a budget of around €20 per person
 you can do much better than we did.
@@ -451,7 +453,7 @@ Pros:
 * It will help make JSDayES sustainable for upcoming editions.
 
 Cons:
-* This means at least €6k,
+* Management would cost at least €6k,
 perhaps more.
 * It may make the conference lose some of its community appeal.
 
@@ -474,15 +476,25 @@ Cons:
 for us it is a work of love,
 not a money-maker.
 
-### Budgeted Options
+### Ticket Prices
 
 Now it is time to put a price on these scenarios.
 The first two are easy:
-we have done them so we know how much they cost.
+we have done them before so we know how much they cost.
 
-For the third scenario we would have to increase the budget
-in €9k for a better venue,
-and at least €6k for professional management.
+A single-track, single day, 200 people event came at about €20k
+[in 2016](http://pinchito.es/2016/cuanto-costo-jsdayes-2016.html).
+Counting half of that from sponsors and half from attendees
+means that tickets would again cost around €50.
+While repeating the format of this year would cost around €65k,
+and counting half of that from tickets would again place them at around €80,
+since only about 400 people pay full price.
+
+For the third scenario we would have to increase the budget significantly.
+One and a half days at €20k/day would mean €30k,
+or €20k more, and at least €6k for professional management.
+All in all around €90k for the same number of attendants;
+counting half of it from tickets would mean around €120 per ticket.
 
 A 100% professionalized conference would add the cost for our own time.
 Being generous this would add at least €12k to the conference budget.
@@ -496,7 +508,7 @@ The numbers are clear cut:
 €3k for better catering,
 and at least €6k for professional organization.
 So next year the total budget would increase to at least
-€64k + €18k = €82k.
+€65k + €18k = €82k.
 This is a lot of money!
 
 ### Ticket Price
