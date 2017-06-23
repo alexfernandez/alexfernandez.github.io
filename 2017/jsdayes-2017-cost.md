@@ -400,17 +400,19 @@ taking into account the feedback received.
 
 Below are some scenarios ordered from simplest to more complex,
 with pros and cons.
-
-We present them to you as the beginning of a discussion that we need to have,
-both internally and within the community.
-We will decide taking into account mainly
-that we want to provide attendees with the best possible value for their money.
+We will also show an estimation of ticket prices.
 
 #### The _Grassroots_ Option
 
 Some people have suggested that we go back to one day, one track, local speakers,
 200 attendees,
 everything cheap conference.
+
+It is easy to estimate ticket prices since we have already done something similar.
+A single-track, single day, 200 people event came at about €20k
+[in 2016](http://pinchito.es/2016/cuanto-costo-jsdayes-2016.html).
+Counting half of that from sponsors and half from attendees
+means that tickets would again cost around €50.
 
 Pros:
 * Simple to organize.
@@ -427,6 +429,13 @@ That sucked.
 #### The _Immobilist_ Option
 
 The default option is to keep everything exactly as this year.
+
+Again, it is easy to estimate ticket prices since they remain the same.
+Repeating the format of this year would cost around €65k,
+and counting half of that from tickets would again place them at around €80.
+Many people bought reduced and discounted tickets,
+so we can simplify and say that we sold the equivalent of 400 full price tickets.
+This will come handy for the remaining estimations.
 
 Pros:
 * The result was not bad.
@@ -446,7 +455,19 @@ They will ideally take care of those aspects that are not specific to JSDayES:
 * catering,
 * speaker accommodation and transportation,
 * conference signs,
-* accounting.
+* and accounting.
+
+For this third scenario we would have to increase the budget significantly.
+One and a half days at €20k/day would mean €30k for an improved venue,
+or €20k more, and at least €10k for professional management.
+All in all around €95k for the same number of attendants;
+counting half of it from tickets would mean €45k,
+or (again counting 400 full-price tickets)
+around €120 per ticket.
+We might be able to bring the price down a bit
+by reducing the conference to just one day,
+and perhaps by increasing sponsorships
+(but see below).
 
 Pros:
 * Addresses most concerns.
@@ -466,6 +487,14 @@ and we are not against it.
 Many other conferences in Spain and abroad follow this model successfully,
 to name a few: TarugoConf, AngularCamp, FullStack Fest.
 
+A 100% professionalized conference would add the cost for our own time,
+and make some profit also.
+We would probably have to spend a bit more in catering;
+at least that is the standard in professional conferences.
+The standard around Europe is about €350/day,
+while in Spain prices are between €150 and €200 per day.
+Seems about fair.
+
 Pros:
 * Provides an incentive to organizers.
 * The model is sustainable.
@@ -478,56 +507,9 @@ not a money-maker.
 
 ### Ticket Prices
 
-Now it is time to put a price on these scenarios.
-The first two are easy:
-we have done them before so we know how much they cost.
-
-A single-track, single day, 200 people event came at about €20k
-[in 2016](http://pinchito.es/2016/cuanto-costo-jsdayes-2016.html).
-Counting half of that from sponsors and half from attendees
-means that tickets would again cost around €50.
-While repeating the format of this year would cost around €65k,
-and counting half of that from tickets would again place them at around €80,
-since only about 400 people pay full price.
-
-For the third scenario we would have to increase the budget significantly.
-One and a half days at €20k/day would mean €30k,
-or €20k more, and at least €6k for professional management.
-All in all around €90k for the same number of attendants;
-counting half of it from tickets would mean around €120 per ticket.
-
-A 100% professionalized conference would add the cost for our own time.
-Being generous this would add at least €12k to the conference budget.
-
-a grassroots conference would cost about €50,
-and this 
-
-We have so far seen a few items that would increase the budget.
-The numbers are clear cut:
-€9k for a better venue,
-€3k for better catering,
-and at least €6k for professional organization.
-So next year the total budget would increase to at least
-€65k + €18k = €82k.
-This is a lot of money!
-
-### Ticket Price
-
-To support these improvements we will probably have to increase ticket prices,
-from €80 to an estimated €120.
-Total: €18k, which divided by 600 attendees comes out at €30 per attendee,
-right? Sadly, no.
-
-We will strive to keep reduce tickets at €20.
-A bit less than half the audience (~280) paid full or discounted price,
-and of the rest about half paid (super) early bird (~145).
-100 reduced and 75 sponsor tickets complete the 600 tickets.
-If we keep reduced and early bird tickets prices,
-then the increase is at least €70,
-considering discounts.
-We might be able to increase sponsorship income,
-so hopefully tickets would only increase about €40.
-This means an increase in €12k.
+The final price of tickets is a sensitive issue within the community.
+Many people complain about two-digit price increases in conferences;
+some feel that such prices will drive many people out of events.
 
 We have run a couple of polls among the audience,
 just to gauge if there would be interest at this new price.
@@ -537,21 +519,12 @@ We are taking poll results with a grain of salt:
 after 2015 we run a similar poll that indicated that people would pay at most €25,
 and yet in 2016 we outsold our €50 tickets in a grand total time of 10 minutes.
 
-There is no going around the price hike:
-if you want better venue, management and catering
-the conference needs to be professionalized,
-and ticket prices will increase.
-We would rather not do anything than keep like this.
+The reality is harsh.
+If you want better venue, management and catering
+there is no going around the price hike.
+If we choose to stay as this year then it will be hard to fix complaints.
 
 ### Sponsors
-
-Most sponsors wanted to have stands,
-and some attendees requested it too.
-This year it was sadly not possible due to space constraints.
-With a larger venue we might have perhaps 10 stands,
-which would increase sponsorship income.
-We should have to attract at least €6k more this way.
-This would help pay for the better venue, management and catering.
 
 Many people seem to think that just adding more sponsors is a magic bullet
 that will solve all of our financial problems.
@@ -563,10 +536,29 @@ at most you get five-minute introductions by top sponsors
 (four of them altogether this year),
 which is only fair since most of them are looking for talent.
 
-So we would like sponsors to provide for part of the income,
-but not most of it,
+So we would like sponsors to provide for around half the income,
 just as this year.
 We believe that we provide the most value to you this way.
+
+What we can do is improve our offerings.
+This year most sponsors wanted to have stands,
+and some attendees missed sponsor stands too.
+This year it was sadly not possible due to space constraints.
+With a larger venue we might have perhaps 10 stands,
+which would increase sponsorship income
+and help pay for the venue.
+
+### Discussion
+
+We present these scenarios to you as the beginning of a discussion that we need to have,
+both internally and within the community.
+We want to be as transparent as possible,
+as always,
+but without compromising our ability to choose the best path.
+
+To make a fair decision we need to take into account many things,
+including how the organizers feel and how to provide the best value to the community.
+Your opinion would also help us.
 
 ## FAQ
 
@@ -579,12 +571,12 @@ We are happy to hear.
 Our tickets should be affordable for any professionals;
 and we have reduced tickets for students and unemployed.
 
-> Why do the opening and closing in English,
+> Why do the opening and closing talks in English,
 when 99% of the audience were Spanish speakers?
 
 Out of courtesy to the remaining 1%, of course.
 That is what happens at international conferences:
-there are people that do not speak Spanish!
+they tend to attract some people that do not speak Spanish!
 
 > Why was the
 [last talk](http://2017.jsday.es/#5740078466859008/99964005)
@@ -593,14 +585,13 @@ in the international track in Spanish?
 This was a mess-up from our part.
 The title was in English,
 Alejandro Oviedo offered to do it in English or Spanish,
-but we did not confirm with Alejandro that it should be in English.
+but we did not confirm with him that it should be in English.
 
 > With all this talk about professionalization,
 will you lose the community focus?
 
 Not at all.
-JSDayES is and will be a community non-profit event,
-run by communities for communities.
+We will try to keep JSDayES the best meeting point for JavaScript communities.
 
 > Why did you not square the books so that the conference has €0 net losses?
 
@@ -627,11 +618,56 @@ I feel like I'm missing out.
 
 The good thing about multi-track conferences is that you can choose.
 The problem is that you have to choose.
-Tough luck; better choose between two good things than just have the one.
+Tough luck!
+
+> So, why not skip the first day altogether?
+Lightning talks were not that good.
+
+We think that giving new people the opportunity to speak in public
+is a good way to make our community grow.
+But we can perhaps do it outside JSDayES,
+or during luch time.
 
 ### Acknowledgements
 
-Thanks to all volunteers and sponsors.
+Thanks to all volunteers:
+Félix, Soraya, Leticia, Yamila, Noe, Isa, Luis, Amanda, Ana María,
+Susana, Pablo, Jesús;
+and the whole team at Corus Consulting.
+
+Thanks to all sponsors:
+
+* Platinum:
+[GFT](http://www.gft.com/es),
+[Cabify](https://cabify.com/),
+[Liferay](https://www.liferay.com/),
+[Beeva](https://www.beeva.com/).
+
+* Gold Plus:
+[Esri](http://www.esri.com/),
+[Carto](https://carto.com/),
+[Kairós](http://www.kairosds.com/).
+
+* Gold:
+[Intelygenz](http://www.intelygenz.es/),
+[Tecnilógica](https://tecnilogica.com/en),
+[sngular](https://sngular.team/),
+[The Workshop](https://www.theworkshop.com/),
+[Corus Consulting](http://www.m4v.es/),
+[eDreams ODIGEO](http://edreamsodigeo.com/).
+
+* Community partners:
+[JS Foundation](http://2017.jsday.es/img/sponsors/jsfoundation.png),
+[autentia](https://www.autentia.com/),
+[Betabeers](https://betabeers.com/),
+[todoJS](https://www.todojs.com/).
+
+* Silver:
+[Kaleidos](http://kaleidos.net/),
+[YLD](https://www.yld.io/),
+[MetaDev](https://metadev.pro/),
+[Adobe I/O](https://www.adobe.io/),
+[Mozilla](https://www.mozilla.org/).
 
 JSDayES is the work of love of
 [Raquel Benito],
