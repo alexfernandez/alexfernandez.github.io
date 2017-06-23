@@ -305,7 +305,7 @@ Corus (the old M4V) volunteers were also present in all rooms recording the audi
 
 ### Venue
 
-This is perhaps the single issue that has generated more complaints.
+This is perhaps the single aspect that has generated more complaints.
 We were well aware that the Pablo VI conference center is outdated and in need of reformation.
 Still, even the brand new room upstairs where the international track was held
 was a big disappointment,
@@ -316,31 +316,28 @@ even though we restricted it as much as possible.
 The biggest advantage of this venue was price:
 for less than €11k we had it for a day and a half.
 A good conference center in downtown Madrid is around €20k/day.
-Since people are demanding a better venue,
-there may be no other way around it.
-It is more than €9k above what we paid this year.
+Just for one day it is more than €9k above what we paid this year.
 
 ### Catering
 
-The second most disappointing aspect of the conference was food.
+Another issue that has generated a lot of complaints was lunch.
 Not everyone complained:
 apparently lunch was not all bad,
-but it was really scarce and the best portions were over quickly,
+but it was a bit scarce and the best courses were over quickly,
 leaving us with the infamous "white buns from hell".
 
 In our defense, we used the same provider as last year,
 which was plentiful and very well valued by attendees.
 
-The remaining meals were OK,
-in quality and quantity,
-and saved us from utter shame.
+The remaining meals were OK in quality and quantity,
+and saved us from shame (and hunger).
 
 You may think that with a budget of around €20 per person
 you can do much better than we did.
 Think again.
 Providing catering for 600 people is a completely different problem than for 6.
 There's three meals a day,
-coffee and tea (another point where we were short).
+coffee and tea.
 You have to set up tables and possibly hire patio furniture.
 Don't forget vegan and gluten-free options.
 
@@ -363,18 +360,6 @@ Even with the help of OK Comunicación,
 organizing an event of this magnitude has taken a toll on us.
 And we have spent a lot of time on tasks that do not really provide much value,
 such as renting chairs or ordering Cabifys.
-For next year we are evaluating professional conference management.
-This means at least €6k,
-perhaps more.
-They will ideally take care of those aspects that are not specific to JSDayES:
-
-* sponsors,
-* catering,
-* speaker accommodation and transportation,
-* signage,
-* accounting,
-
-and thus help make JSDayES sustainable for upcoming editions.
 
 ### Community
 
@@ -406,10 +391,106 @@ so costs rapidly add up.
 
 ## JSDayES 2018
 
-So, we have our homework set for the next edition.
+We have considered a lot of options for the next edition of JSDayES,
+taking into account the feedback received.
 
-### Increased Budget
+### Possible Scenarios
 
+Below are some scenarios ordered from simplest to more complex,
+with pros and cons.
+
+We present them to you as the beginning of a discussion that we need to have,
+both internally and within the community.
+We will decide taking into account mainly
+that we want to provide attendees with the best possible value for their money.
+
+#### The _Grassroots_ Option
+
+Some people have suggested that we go back to one day, one track, local speakers,
+200 attendees,
+everything cheap conference.
+
+Pros:
+* Simple to organize.
+* Cheap tickets!
+
+Cons: 
+* It does not fit our stated goal of improving the national JavaScript community,
+as stated under
+[diversity](#diversity) and [community](#community).
+* We would once again go back to having
+*no international JavaScript conferences in Madrid*.
+That sucked.
+
+#### The _Immobilist_ Option
+
+The default option is to keep everything exactly as this year.
+
+Pros:
+* The result was not bad.
+* We already know how to do it.
+
+Cons:
+* Does not address complaints received.
+* Risks burning out the current team of organizers:
+some of us feel that this level of involvement was not sustainable.
+
+#### The _Managed_ Option
+
+We are also evaluating professional conference management.
+They will ideally take care of those aspects that are not specific to JSDayES:
+
+* sponsors,
+* catering,
+* speaker accommodation and transportation,
+* conference signs,
+* accounting.
+
+Pros:
+* Addresses most concerns.
+* It will help make JSDayES sustainable for upcoming editions.
+
+Cons:
+* This means at least €6k,
+perhaps more.
+* It may make the conference lose some of its community appeal.
+
+#### The _Professional_ Option
+
+Some people have suggested that we charge for our time,
+and start making money out of JSDayES.
+This is not a bad idea,
+and we are not against it.
+Many other conferences in Spain and abroad follow this model successfully,
+to name a few: TarugoConf, AngularCamp, FullStack Fest.
+
+Pros:
+* Provides an incentive to organizers.
+* The model is sustainable.
+
+Cons:
+* We would stop publishing articles like this one.
+* This is probably not what we want to do with JSDayES:
+for us it is a work of love,
+not a money-maker.
+
+### Budgeted Options
+
+Now it is time to put a price on these scenarios.
+The first two are easy:
+we have done them so we know how much they cost.
+
+For the third scenario we would have to increase the budget
+in €9k for a better venue,
+and at least €6k for professional management.
+
+A 100% professionalized conference would add the cost for our own time.
+Being generous this would add at least €12k to the conference budget.
+
+a grassroots conference would cost about €50,
+and this 
+
+We have so far seen a few items that would increase the budget.
 The numbers are clear cut:
 €9k for a better venue,
 €3k for better catering,
@@ -423,9 +504,8 @@ This is a lot of money!
 To support these improvements we will probably have to increase ticket prices,
 from €80 to an estimated €120.
 Total: €18k, which divided by 600 attendees comes out at €30 per attendee,
-right?
+right? Sadly, no.
 
-Wrong!
 We will strive to keep reduce tickets at €20.
 A bit less than half the audience (~280) paid full or discounted price,
 and of the rest about half paid (super) early bird (~145).
@@ -475,45 +555,6 @@ So we would like sponsors to provide for part of the income,
 but not most of it,
 just as this year.
 We believe that we provide the most value to you this way.
-
-### Other Models
-
-This is not the only option that we have considered.
-Below are some alternatives with discussion.
-
-* The _immobilist_ option:
-Keep everything exactly as this year.
-Unfortunately there is only one team of organizers;
-once we are burnt out **JSDayES is over**.
-I assure you that another year with this level of involvement
-is not sustainable for any of the current team of organizers.
-
-* The _grassroots_ option:
-Go back to one day, one track, local speakers,
-200 attendees,
-everything cheap conference.
-As attractive as this may seem,
-it does not fit our stated goal of improving the national JavaScript community,
-as stated under
-[diversity](#diversity) and [community](#community).
-Plus, we would once again go back to having
-*no international JavaScript conferences in Madrid*.
-That sucked.
-
-* The _professional_ option:
-Some other people have suggested that we charge for our time,
-and start making money out of JSDayES.
-This is not a bad idea,
-and we are not against it.
-Many other conferences in Spain and abroad follow this model successfully,
-to name a few: TarugoConf, AngularCamp, FullStack Fest.
-But this is definitely not what we want to do with JSDayES:
-for us it is a work of love,
-not a money-maker.
-
-We want to provide attendees with the best possible value for their money,
-and we feel that there is only one way forward;
-and it is definitely not backwards.
 
 ## FAQ
 
