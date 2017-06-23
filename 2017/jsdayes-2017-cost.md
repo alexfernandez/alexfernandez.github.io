@@ -334,7 +334,8 @@ and saved us from shame (and hunger).
 You may think that with a budget of around €20 per person
 you can do much better than we did.
 Think again.
-Providing catering for 600 people is a completely different problem than for 6.
+Providing catering for 600 people is a completely different problem than for 6,
+or for 60.
 There's three meals a day,
 coffee and tea.
 You have to set up tables and possibly hire patio furniture.
