@@ -2,7 +2,7 @@
 title: How Much Did JSDayES 2017 Cost?
 subtitle: 'And What Else You Need To Make It Work'
 footer: Published on 2017-06-18.
-  [Comments, suggestions?](https://twitter.com/pinchito/status/875112819435458560)
+  [Comments, suggestions?](https://twitter.com/pinchito/status/878629295928872961)
 ---
 
 ![](pics/jsdayes-audience.jpg "Attendees at JSDayES 2017")
@@ -558,7 +558,7 @@ but without compromising our ability to choose the best path.
 
 To make a fair decision we need to take into account many things,
 including how the organizers feel and how to provide the best value to the community.
-Your opinion would also help us.
+[Your opinion would also help us.](https://twitter.com/pinchito/status/878629295928872961)
 
 ## FAQ
 
