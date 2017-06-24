@@ -1,7 +1,7 @@
 ---
 title: How Much Did JSDayES 2017 Cost?
 subtitle: 'And What Else You Need To Make It Work'
-footer: Published on 2017-06-18.
+footer: Published on 2017-06-24.
   [Comments, suggestions?](https://twitter.com/pinchito/status/878629295928872961)
 ---
 
@@ -11,8 +11,12 @@ footer: Published on 2017-06-18.
 
 After finishing an exhausting third edition of
 [JSDayES](http://2017.jsday.es),
+and following our principle of transparency by default,
 it is time to publish the books so that they can be audited by you,
-the community.
+the JavaScript community.
+
+Hopefully this article will also inspire and help people
+that want to organize a technical conference.
 
 ### Tickets
 
