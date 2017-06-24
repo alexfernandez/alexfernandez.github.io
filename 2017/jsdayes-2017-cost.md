@@ -669,6 +669,10 @@ Thanks to all sponsors:
 [Adobe I/O](https://www.adobe.io/),
 [Mozilla](https://www.mozilla.org/).
 
+Thanks to everyone who participated in any way,
+including speaking, spreading the word, attending
+or sending your proposals.
+
 JSDayES is the work of love of
 [Raquel Benito],
 [María Sánchez],
