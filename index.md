@@ -50,6 +50,7 @@ Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
 Articles about stuff not related to software engineering.
 
+* 2017-06-24: [How Much Did JSDayES 2017 Cost?](2017/jsdayes-2017-cost.html)
 * 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
 * 2016-12-11: [The Amazing Mind](2016/the-amazing-mind.html).
 
