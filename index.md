@@ -15,6 +15,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 Latest articles.
 
+* 2017-06-24: [How Much Did JSDayES 2017 Cost?](2017/jsdayes-2017-cost.html)
 * 2016-10-26: [Becoming A Better Developer, Part 4: Top Of The Cream Of The Crop](2016/top-of-the-cream-of-the-crop.html).
 * 2016-10-17: [Becoming A Better Developer, Part 3: Get Ahead Of The Curve](2016/get-ahead-of-the-curve.html).
 * 2016-10-06: [Becoming A Better Developer, Part 2: Advice For The Novice](2016/advice-for-the-novice.html).
@@ -50,7 +51,6 @@ Articles for [MoveinBlue Tech](http://tech.moveinblue.com/):
 
 Articles about stuff not related to software engineering.
 
-* 2017-06-24: [How Much Did JSDayES 2017 Cost?](2017/jsdayes-2017-cost.html)
 * 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system.html).
 * 2016-12-11: [The Amazing Mind](2016/the-amazing-mind.html).
 
