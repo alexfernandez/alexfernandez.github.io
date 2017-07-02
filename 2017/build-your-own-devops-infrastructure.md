@@ -5,7 +5,7 @@ footer: Published on 2017-07-01.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
-![](pics/build-otomo.jpg "Build your own [Akira motorbike](https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg))
+![Build your own [Akira motorbike](https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg)](pics/build-otomo.jpg "Build your own Akira motorbike"))
 
 ## DevOps Infrastructure
 
