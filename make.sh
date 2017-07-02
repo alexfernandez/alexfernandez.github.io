@@ -35,6 +35,8 @@ pandoc --template read-only.html -s 2016/advice-for-the-novice.md -o 2016/advice
 pandoc --template read-only.html -s 2016/get-ahead-of-the-curve.md -o 2016/get-ahead-of-the-curve.html
 pandoc --template read-only.html -s 2016/top-of-the-cream-of-the-crop.md -o 2016/top-of-the-cream-of-the-crop.html
 pandoc --template read-only.html -s 2016/the-amazing-mind.md -o 2016/the-amazing-mind.html
+pandoc --template read-only.html -s 2017/jsdayes-2017-cost.md -o 2017/jsdayes-2017-cost.html
+pandoc --template read-only.html -s 2017/build-your-own-devops-infrastructure.md -o 2017/build-your-own-devops-infrastructure.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 
 # Español
@@ -50,7 +52,6 @@ pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migra
 pandoc --template read-only.html -s 2016/cuanto-costo-jsdayes-2016.md -o 2016/cuanto-costo-jsdayes-2016.html
 pandoc --template read-only.html -s 2016/sobre-intrusismo-profesional.md -o 2016/sobre-intrusismo-profesional.html
 pandoc --template read-only.html -s 2017/diversidad-tecnologia.md -o 2017/diversidad-tecnologia.html
-pandoc --template read-only.html -s 2017/jsdayes-2017-cost.md -o 2017/jsdayes-2017-cost.html
 
 git add -A
 git commit -am "Make on $date"
