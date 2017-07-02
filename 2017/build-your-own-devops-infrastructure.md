@@ -138,7 +138,7 @@ and
 for making it possible.
 
 Thanks to
-[@lizrice](https://twitter.com/lizrice)
+[Liz Rice](https://twitter.com/lizrice)
 for her talk on
 [building containers from scratch](http://www.devopspro.ru/2016/liz_rice/),
 which was the inspiration for this humble talk.
