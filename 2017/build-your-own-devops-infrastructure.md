@@ -15,6 +15,10 @@ so you install Jenkins somewhere and...
 What now exactly?
 
 The foundational idea of DevOps is to treat infrastructure as code.
+Write code to manage servers,
+monitor services
+and automate all sysadmin-related tasks.
+This is exactly what we will do here.
 
 Come with us to 
 [FullStack 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program),
@@ -27,25 +31,25 @@ This companion post should help you make the most of the talk.
 All code uses Node.js,
 as befits a JavaScript event.
 We are using ES6,
-so if you are running version of Node.js 7 or earlier
+so if you are running Node.js version 7 or earlier
 you will need to start it with the `--harmony` flag.
 
 We use
 [Amazon Web Services](https://aws.amazon.com/)
 in the examples,
 but the same infrastructure can be built for any other cloud provider,
-as long as they have a Node.js client.
+as long as they have a Node.js driver.
 
 ## Code Talks
 
 In the talk we will do a live demo to build our own simplified infrastructure.
 A more complete example resides in the GitHub repo
 [infra](https://github.com/alexfernandez/infra).
+This is what we will analyze here.
 
 ### Email
 
-We use with a couple of helper libraries,
-which will simplify our job.
+We use with a couple of helper libraries to simplify our job.
 They are simple adapters for the official libraries,
 and will be introduced as they are needed.
 
@@ -65,6 +69,41 @@ Internally this adapter uses the `emailjs` npm library.
 
 First we will start with a
 [log library](https://github.com/alexfernandez/infra/blob/master/lib/log.js).
+It is a library that prints messages at several levels of severity:
+
+* `debug`: internal message, not printed unless we are debugging.
+* `info`: a message that is usually shown.
+* `notice`: an important message that must always be shown.
+* `warning`: something went wrong but we might get over it.
+* `error`: something went wrong.
+* `fatal`: something went really wrong.
+
+Let us start with `log.info()`.
+So in our module we export a function that shows a message:
+
+```
+exports.info = function(message)
+{
+	console.log(message);
+}
+```
+
+It will be used as follows:
+
+```
+const log = require('./log.js');
+log.info('Hello world');
+  \=> Hello world
+```
+
+The last line marked with `\=>` is the output of the program.
+
+Next we want to allow parameters:
+
+```
+log.info('This is a number: %s', 5);
+  \=> This is a number: 5
+```
 
 ### Monitor
 

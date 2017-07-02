@@ -91,20 +91,41 @@
 </div>
 <h2 id="devops-infrastructure">DevOps Infrastructure</h2>
 <p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
-<p>The foundational idea of DevOps is to treat infrastructure as code.</p>
+<p>The foundational idea of DevOps is to treat infrastructure as code. Write code to manage servers, monitor services and automate all sysadmin-related tasks. This is exactly what we will do here.</p>
 <p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. This companion post should help you make the most of the talk.</p>
 <h3 id="requirements">Requirements</h3>
-<p>All code uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running version of Node.js 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
-<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a Node.js client.</p>
+<p>All code uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
+<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a Node.js driver.</p>
 <h2 id="code-talks">Code Talks</h2>
-<p>In the talk we will do a live demo to build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>.</p>
+<p>In the talk we will do a live demo to build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. This is what we will analyze here.</p>
 <h3 id="email">Email</h3>
-<p>We use with a couple of helper libraries, which will simplify our job. They are simple adapters for the official libraries, and will be introduced as they are needed.</p>
+<p>We use with a couple of helper libraries to simplify our job. They are simple adapters for the official libraries, and will be introduced as they are needed.</p>
 <p>The first helper library will simplify the task of sending an email: <a href="https://github.com/alexfernandez/infra/blob/master/lib/email.js"><code>lib/email.js</code></a>. It has a very simple interface:</p>
 <pre><code>email.send(subject, text, callback)</code></pre>
 <p>We have to indicate the subject and the text to send, and it will invoke the callback with an error if it fails. Internally this adapter uses the <code>emailjs</code> npm library.</p>
 <h3 id="log">Log</h3>
-<p>First we will start with a <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">log library</a>.</p>
+<p>First we will start with a <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">log library</a>. It is a library that prints messages at several levels of severity:</p>
+<ul>
+<li><code>debug</code>: internal message, not printed unless we are debugging.</li>
+<li><code>info</code>: a message that is usually shown.</li>
+<li><code>notice</code>: an important message that must always be shown.</li>
+<li><code>warning</code>: something went wrong but we might get over it.</li>
+<li><code>error</code>: something went wrong.</li>
+<li><code>fatal</code>: something went really wrong.</li>
+</ul>
+<p>Let us start with <code>log.info()</code>. So in our module we export a function that shows a message:</p>
+<pre><code>exports.info = function(message)
+{
+    console.log(message);
+}</code></pre>
+<p>It will be used as follows:</p>
+<pre><code>const log = require(&#39;./log.js&#39;);
+log.info(&#39;Hello world&#39;);
+  \=&gt; Hello world</code></pre>
+<p>The last line marked with <code>\=&gt;</code> is the output of the program.</p>
+<p>Next we want to allow parameters:</p>
+<pre><code>log.info(&#39;This is a number: %s&#39;, 5);
+  \=&gt; This is a number: 5</code></pre>
 <h3 id="monitor">Monitor</h3>
 <p>Next we will build a very simple <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">monitor</a>. Its only task is to check if our websites are up, and to notify us otherwise.</p>
 <h4 id="possible-refinements">Possible Refinements</h4>
