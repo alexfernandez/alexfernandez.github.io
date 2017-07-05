@@ -91,20 +91,20 @@
 </div>
 <h2 id="devops-infrastructure">DevOps Infrastructure</h2>
 <p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
-<p>The foundational idea of DevOps is to treat infrastructure as code. Write code to manage servers, monitor services and automate all sysadmin-related tasks. This is exactly what we will do here.</p>
+<p>The foundational idea of DevOps is to treat infrastructure as code. You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that!</p>
 <p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. This companion post should help you make the most of the talk.</p>
 <h3 id="requirements">Requirements</h3>
-<p>All code uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
-<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a Node.js driver.</p>
+<p>The live demo uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
+<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a working Node.js driver.</p>
 <h2 id="code-talks">Code Talks</h2>
-<p>In the talk we will do a live demo to build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. This is what we will analyze here.</p>
+<p>In the talk we will build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. This is what we will analyze here.</p>
 <h3 id="email">Email</h3>
 <p>We use with a couple of helper libraries to simplify our job. They are simple adapters for the official libraries, and will be introduced as they are needed.</p>
-<p>The first helper library will simplify the task of sending an email: <a href="https://github.com/alexfernandez/infra/blob/master/lib/email.js"><code>lib/email.js</code></a>. It has a very simple interface:</p>
-<pre><code>email.send(subject, text, callback)</code></pre>
-<p>We have to indicate the subject and the text to send, and it will invoke the callback with an error if it fails. Internally this adapter uses the <code>emailjs</code> npm library.</p>
+<p>The first helper library will simplify the task of sending an email: <a href="https://github.com/alexfernandez/infra/blob/master/lib/email.js"><code>lib/email.js</code></a>. It has a very straightforward interface:</p>
+<pre><code>email.send(subject, body, callback)</code></pre>
+<p>We have to indicate the subject and the body to send, and it will invoke the callback with an error if it fails. Internally this adapter uses the <code>emailjs</code> npm library.</p>
 <h3 id="log">Log</h3>
-<p>First we will start with a <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">log library</a>. It is a library that prints messages at several levels of severity:</p>
+<p>First we will start with a <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">log library</a>. It prints messages at several levels of severity:</p>
 <ul>
 <li><code>debug</code>: internal message, not printed unless we are debugging.</li>
 <li><code>info</code>: a message that is usually shown.</li>
@@ -113,6 +113,7 @@
 <li><code>error</code>: something went wrong.</li>
 <li><code>fatal</code>: something went really wrong.</li>
 </ul>
+<h4 id="the-code">The Code</h4>
 <p>Let us start with <code>log.info()</code>. So in our module we export a function that shows a message:</p>
 <pre><code>exports.info = function(message)
 {
@@ -122,32 +123,72 @@
 <pre><code>const log = require(&#39;./log.js&#39;);
 log.info(&#39;Hello world&#39;);
   \=&gt; Hello world</code></pre>
-<p>The last line marked with <code>\=&gt;</code> is the output of the program.</p>
-<p>Next we want to allow parameters:</p>
-<pre><code>log.info(&#39;This is a number: %s&#39;, 5);
-  \=&gt; This is a number: 5</code></pre>
-<h3 id="monitor">Monitor</h3>
-<p>Next we will build a very simple <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">monitor</a>. Its only task is to check if our websites are up, and to notify us otherwise.</p>
+<p>The last line marked with <code>\=&gt;</code> is the output of the program. Easy, right? We just need to add the remaining priorities, which will be similar except that <code>log.warning()</code> and <code>log.error()</code> will use <code>console.error()</code>.</p>
+<p>At this point we have a very primitive logging library, when there are many good solutions out there. But we want our library to be proactive: send us by mail all errors in our code. This way we just have to log all runtime errors, with the confidence that we will receive them if they really happen.</p>
+<pre><code>[...]
+doSomethingAsync(error =&gt; {
+    if (error) return log.error(&#39;We have encountered an error: &#39; + error);
+}</code></pre>
+<p>This is one of the core principles of DevOps: do not wait for someone to look over millions of logs, be proactive and notify the team that something went wrong. It is not hard to do:</p>
+<pre><code>exports.error = function(message)
+{
+    console.error(message);
+    const subject = &#39;ERROR: &#39; + message;
+    const body = &#39;ERROR ERROR ERROR\n\n&#39; + message + &#39;\n\nPlease take a look&#39;;
+    email.send(subject, body, error =&gt; {
+        if (error) console.error(&#39;Could not send email &#39; + subject + &#39;: &#39; + error);
+    });
+}</code></pre>
 <h4 id="possible-refinements">Possible Refinements</h4>
+<p>We can improve the logging library substantially: We will probably want to show the date and priority along with the message. Allowing parameters with <code>%s</code> would also be nice. We could also use a test or two. See the <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">complete code</a> for details. All in all we need 75 lines of code.</p>
+<h3 id="monitor">Monitor</h3>
+<p>Next we will build a very simple <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">website monitor</a>. Its only task is to check if our website is up, and to notify us otherwise.</p>
+<h4 id="the-code-1">The Code</h4>
+<p>The library function in Node.js <code>http.get()</code> is a bit cumbersome: we have to check the return code, and also the status of the response to see if the website is up. We use the library <a href="https://www.npmjs.com/package/basic-request"><code>basic-request</code></a>, which simplifies the task of accessing a URL: just pass it the address and a callback that receives an error if the call failed, and a result with the website content.</p>
+<pre><code>const request = require(&#39;basic-request&#39;)
+const log = require(&#39;./log.js&#39;)
+const website = &#39;http://pinchito.es/&#39;
+exports.check = function()
+{
+    request.get(website, error =&gt; {
+        if (error) log.error(&#39;Website is down&#39;);
+    })
+}</code></pre>
+<p>Since we are using our log library, we just need to log an error if the website is down. Now we need to run the function every minute:</p>
+<pre><code>exports.check();
+setInterval(exports.check, 60000);</code></pre>
+<p>And we are done!</p>
+<h4 id="possible-refinements-1">Possible Refinements</h4>
 <ul>
+<li>Check multiple websites.</li>
 <li>Warn only once when the website is down.</li>
 <li>Notify us when the website is up again.</li>
+<li>Add tests.</li>
 </ul>
+<p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">final code</a> contains all improvements, in 74 lines of code.</p>
 <h3 id="aws">AWS</h3>
 <p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let's say, somewhat quirky interface.</p>
 <p><a href="https://github.com/alexfernandez/infra/blob/master/lib/aws.js"><code>lib/aws.js</code></a> has functions to find out instance ids for a number of servers, create and terminate instances, and get the CPU of an instance. It will become clear in a minute why these are needed.</p>
 <h3 id="orchestrator">Orchestrator</h3>
 <p>Next we will build our own orchestrator.</p>
 <h4 id="why-orchestrate-ourselves">Why Orchestrate Ourselves?</h4>
-<p>Load on our web applications is often variable.</p>
-<p>Amazon AWS has its own <a href="https://aws.amazon.com/autoscaling/">Auto Scaling</a></p>
-<h4 id="possible-refinements-1">Possible Refinements</h4>
+<p>Load on our web applications is often variable. We may want to create servers during the day to handle the increased load, and destroy them at night when it goes down. Amazon AWS has its own <a href="https://aws.amazon.com/autoscaling/">Auto Scaling</a>, but it has several issues:</p>
 <ul>
-<li>Add new instance to ELB.</li>
-<li>Remove old instances from the ELB (not really necessary, AWS does it already).</li>
+<li>It orchestrates based on the CPU load of existing servers, not on the CPU load that will result if we remove one.</li>
+<li>It uses average CPU load, not median which is more robust.</li>
+<li>It only works with Amazon's own balancers (ELB or ALB), not with custom solutions.</li>
+<li>It only takes CPU load into account, not memory or latency.</li>
+</ul>
+<p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers.</p>
+<h4 id="the-code-2">The Code</h4>
+<h4 id="possible-refinements-2">Possible Refinements</h4>
+<ul>
+<li>Add new instances to a balancer.</li>
+<li>Remove old instances from the balancer (not really necessary, AWS removes them from the ELB when terminated).</li>
 <li>Check median instead of average.</li>
 <li>Use a JSON configuration file.</li>
 </ul>
+<p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/orchestrator.js">final code</a> has all of these except adding instances to the ELB, in 148 lines of code.</p>
 <h2 id="where-to-go-from-here">Where To Go From Here</h2>
 <p>The next obvious step for our DevOps infrastructure is to implement a continuous deployment system. While it may seem daunting, we are more than half-way there. All that we need to do is:</p>
 <ul>
