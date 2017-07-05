@@ -241,6 +241,23 @@ we can set a narrower range such as 80-90% so we make better use of our servers.
 
 #### The Code
 
+First we need to get the load of our instances.
+They all have names that start with the prefix `server`,
+so we get their instance ids and then the load for each one.
+
+```
+function getInstanceLoads(callback) {
+	aws.getInstanceIds('server', (error, instanceIds) => {
+		if (error) return callback(error);
+		let tasks = instanceIds.map(instanceId => {
+			return next => {
+				aws.getCpuUsage(instanceId, minutes, next);
+			};
+		});
+	});
+}
+```
+
 #### Possible Refinements
 
 * Add new instances to a balancer.

@@ -181,6 +181,17 @@ setInterval(exports.check, 60000);</code></pre>
 </ul>
 <p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers.</p>
 <h4 id="the-code-2">The Code</h4>
+<p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids and then the load for each one.</p>
+<pre><code>function getInstanceLoads(callback) {
+    aws.getInstanceIds(&#39;server&#39;, (error, instanceIds) =&gt; {
+        if (error) return callback(error);
+        let tasks = instanceIds.map(instanceId =&gt; {
+            return next =&gt; {
+                aws.getCpuUsage(instanceId, minutes, next);
+            };
+        });
+    });
+}</code></pre>
 <h4 id="possible-refinements-2">Possible Refinements</h4>
 <ul>
 <li>Add new instances to a balancer.</li>
