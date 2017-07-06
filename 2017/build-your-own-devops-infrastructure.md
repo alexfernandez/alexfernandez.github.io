@@ -138,9 +138,11 @@ exports.error = function(message)
 #### Possible Refinements
 
 We can improve the logging library substantially:
-We will probably want to show the date and priority along with the message.
-Allowing parameters with `%s` would also be nice.
-We could also use a test or two.
+
+* We will probably want to show the date and priority along with the message.
+* Allowing parameters with `%s` would also be nice.
+* We could also use a test or two.
+
 See the
 [complete code](https://github.com/alexfernandez/infra/blob/master/lib/log.js)
 for details.

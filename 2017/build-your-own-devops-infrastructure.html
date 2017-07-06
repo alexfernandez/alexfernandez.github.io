@@ -140,7 +140,13 @@ doSomethingAsync(error =&gt; {
     });
 }</code></pre>
 <h4 id="possible-refinements">Possible Refinements</h4>
-<p>We can improve the logging library substantially: We will probably want to show the date and priority along with the message. Allowing parameters with <code>%s</code> would also be nice. We could also use a test or two. See the <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">complete code</a> for details. All in all we need 75 lines of code.</p>
+<p>We can improve the logging library substantially:</p>
+<ul>
+<li>We will probably want to show the date and priority along with the message.</li>
+<li>Allowing parameters with <code>%s</code> would also be nice.</li>
+<li>We could also use a test or two.</li>
+</ul>
+<p>See the <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">complete code</a> for details. All in all we need 75 lines of code.</p>
 <h3 id="monitor">Monitor</h3>
 <p>Next we will build a very simple <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">website monitor</a>. Its only task is to check if our website is up, and to notify us otherwise.</p>
 <h4 id="the-code-1">The Code</h4>
