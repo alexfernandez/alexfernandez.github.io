@@ -170,10 +170,9 @@ and a result with the website content.
 const request = require('basic-request')
 const log = require('./log.js')
 const website = 'http://pinchito.es/'
-exports.check = function()
-{
+exports.check = function() {
 	request.get(website, error => {
-		if (error) log.error('Website is down');
+		if (error) log.error('Website is down: ' + error);
 	})
 }
 ```
@@ -188,13 +187,19 @@ setInterval(exports.check, 60000);
 ```
 
 And we are done!
+10 lines of code that will warn us
+if our website goes down for any reason.
+
 
 #### Possible Refinements
+
+This monitor is admittedly very crude.
+We will probably want something that can:
 
 * Check multiple websites.
 * Warn only once when the website is down.
 * Notify us when the website is up again.
-* Add tests.
+* Has some tests.
 
 The
 [final code](https://github.com/alexfernandez/infra/blob/master/lib/monitor.js)
@@ -207,9 +212,14 @@ The second helper library is an adapter for the official
 `aws-sdk` library from Amazon,
 which has a, let's say, somewhat quirky interface.
 
+Our adapter library
 [`lib/aws.js`](https://github.com/alexfernandez/infra/blob/master/lib/aws.js)
-has functions to find out instance ids for a number of servers,
-create and terminate instances, and get the CPU of an instance.
+has functions to:
+
+* find out instance ids for a number of servers,
+* create and terminate instances,
+* and get the CPU load of an instance.
+
 It will become clear in a minute why these are needed.
 
 ### Orchestrator
@@ -233,19 +243,20 @@ not median which is more robust.
 * It only works with Amazon's own balancers (ELB or ALB),
 not with custom solutions.
 * It only takes CPU load into account,
-not memory or latency.
+not memory use or latency.
 
 They are explained in detail
 [here](../2016/nginx-balancer.html#orchestration).
 Our custom orchestrator can be fine-tuned as we see fit.
 No longer do we have to set the low CPU load at 40%;
-we can set a narrower range such as 80-90% so we make better use of our servers.
+we can set a narrower range such as 80-90% so we make better use of our servers,
+or use other parameters.
 
 #### The Code
 
 First we need to get the load of our instances.
 They all have names that start with the prefix `server`,
-so we get their instance ids and then the load for each one.
+so we get their instance ids and then the load for each one:
 
 ```
 function getInstanceLoads(callback) {

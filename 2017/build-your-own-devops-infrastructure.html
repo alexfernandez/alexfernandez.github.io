@@ -154,27 +154,33 @@ doSomethingAsync(error =&gt; {
 <pre><code>const request = require(&#39;basic-request&#39;)
 const log = require(&#39;./log.js&#39;)
 const website = &#39;http://pinchito.es/&#39;
-exports.check = function()
-{
+exports.check = function() {
     request.get(website, error =&gt; {
-        if (error) log.error(&#39;Website is down&#39;);
+        if (error) log.error(&#39;Website is down: &#39; + error);
     })
 }</code></pre>
 <p>Since we are using our log library, we just need to log an error if the website is down. Now we need to run the function every minute:</p>
 <pre><code>exports.check();
 setInterval(exports.check, 60000);</code></pre>
-<p>And we are done!</p>
+<p>And we are done! 10 lines of code that will warn us if our website goes down for any reason.</p>
 <h4 id="possible-refinements-1">Possible Refinements</h4>
+<p>This monitor is admittedly very crude. We will probably want something that can:</p>
 <ul>
 <li>Check multiple websites.</li>
 <li>Warn only once when the website is down.</li>
 <li>Notify us when the website is up again.</li>
-<li>Add tests.</li>
+<li>Has some tests.</li>
 </ul>
 <p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">final code</a> contains all improvements, in 74 lines of code.</p>
 <h3 id="aws">AWS</h3>
 <p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let's say, somewhat quirky interface.</p>
-<p><a href="https://github.com/alexfernandez/infra/blob/master/lib/aws.js"><code>lib/aws.js</code></a> has functions to find out instance ids for a number of servers, create and terminate instances, and get the CPU of an instance. It will become clear in a minute why these are needed.</p>
+<p>Our adapter library <a href="https://github.com/alexfernandez/infra/blob/master/lib/aws.js"><code>lib/aws.js</code></a> has functions to:</p>
+<ul>
+<li>find out instance ids for a number of servers,</li>
+<li>create and terminate instances,</li>
+<li>and get the CPU load of an instance.</li>
+</ul>
+<p>It will become clear in a minute why these are needed.</p>
 <h3 id="orchestrator">Orchestrator</h3>
 <p>Next we will build our own orchestrator.</p>
 <h4 id="why-orchestrate-ourselves">Why Orchestrate Ourselves?</h4>
@@ -183,11 +189,11 @@ setInterval(exports.check, 60000);</code></pre>
 <li>It orchestrates based on the CPU load of existing servers, not on the CPU load that will result if we remove one.</li>
 <li>It uses average CPU load, not median which is more robust.</li>
 <li>It only works with Amazon's own balancers (ELB or ALB), not with custom solutions.</li>
-<li>It only takes CPU load into account, not memory or latency.</li>
+<li>It only takes CPU load into account, not memory use or latency.</li>
 </ul>
-<p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers.</p>
+<p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers, or use other parameters.</p>
 <h4 id="the-code-2">The Code</h4>
-<p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids and then the load for each one.</p>
+<p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids and then the load for each one:</p>
 <pre><code>function getInstanceLoads(callback) {
     aws.getInstanceIds(&#39;server&#39;, (error, instanceIds) =&gt; {
         if (error) return callback(error);
