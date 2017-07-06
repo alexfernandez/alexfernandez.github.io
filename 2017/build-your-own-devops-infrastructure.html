@@ -91,7 +91,7 @@
 </div>
 <p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
 <p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. In the talk we will build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. In my day job at <a href="http://mediasmart.io/">mediasmart.io</a>, a Spanish adTech company, we use an even more sophisticated version of this code, based on the same principles. In fact we started with something similar to what we are going to see, and built from there.</p>
-<p>This companion post should wet your appetite, and help you make the most of the talk.</p>
+<p>If you are attending FullStack London this companion post should whet your appetite, and help you make the most of the talk. And if you could not attend you will get an overview of the main ideas.</p>
 <h3 id="requirements">Requirements</h3>
 <p>The live demo uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
 <p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a working Node.js driver.</p>
@@ -100,7 +100,7 @@
 <blockquote>
 <p>Treat infrastructure as code.</p>
 </blockquote>
-<p>You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that! Live on stage in London, UK!</p>
+<p>You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that! Live on stage from London, UK!</p>
 <h3 id="email">Email</h3>
 <p>We use with a couple of helper libraries to simplify our job. They are simple adapters for the official libraries, and will be introduced as they are needed.</p>
 <p>The first helper library will simplify the task of sending an email: <a href="https://github.com/alexfernandez/infra/blob/master/lib/email.js"><code>lib/email.js</code></a>. It has a very straightforward interface:</p>
@@ -145,11 +145,11 @@ exports.fatal = function(message) {
 doSomethingAsync(error =&gt; {
     if (error) return log.error(&#39;We have encountered an error: &#39; + error);
 }</code></pre>
-<p>This is another core principles of DevOps:</p>
+<p>We do not want to wait for someone to crunch through thousands or even millions of lines of logs. This is another core principles of DevOps:</p>
 <blockquote>
 <p>Be proactive and notify the team when something goes wrong.</p>
 </blockquote>
-<p>We do not want to wait for someone to crunch through millions of lines of logs. It is not hard to do:</p>
+<p>It is not hard to do:</p>
 <pre><code>exports.error = function(message) {
     console.error(message);
     const subject = &#39;ERROR: &#39; + message;
@@ -165,7 +165,7 @@ doSomethingAsync(error =&gt; {
 <li>Allowing parameters with <code>%s</code> would also be nice.</li>
 <li>We could also use a test or two.</li>
 </ul>
-<p>See the <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">complete code</a> for details. All in all we need 75 lines of code.</p>
+<p>See the <a href="https://github.com/alexfernandez/infra/blob/master/lib/log.js">complete code</a> for details. All in 75 lines of code.</p>
 <h3 id="monitor">Monitor</h3>
 <p>Next we will build a very simple <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">website monitor</a>. Its only task is to check if our website is up, and to notify us otherwise.</p>
 <h4 id="the-code-1">The Code</h4>
@@ -213,7 +213,8 @@ setInterval(exports.check, 60000);</code></pre>
 <p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers, or use other parameters.</p>
 <h4 id="the-code-2">The Code</h4>
 <p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids. Then we read the CPU load for each one and return the result in an array using <code>async</code>:</p>
-<pre><code>function getInstanceLoads(callback) {
+<pre><code>const aws = require(&#39;./aws.js&#39;);
+function getInstanceLoads(callback) {
     aws.getInstanceIds(&#39;server&#39;, (error, instanceIds) =&gt; {
         if (error) return callback(error);
         let tasks = instanceIds.map(instanceId =&gt; {
@@ -224,14 +225,38 @@ setInterval(exports.check, 60000);</code></pre>
         async.parallel(tasks, callback);
     });
 }</code></pre>
-<p>Computing the average load is easy:</p>
+<p>Computing the average load is easy, and computing the median is even easier using the <code>median</code> npm library. It is also more robust: a misbehaving server or two will not radically change the result. For now we just display the result.</p>
+<pre><code>const median = require(&#39;median&#39;);
+getInstanceLoads((error, loads) =&gt; {
+    if (error) return callback(error);
+    const medianLoad = median(loads);
+    log.info(&#39;Median load is &#39; + medianLoad);
+    [...]
+});</code></pre>
+<p>Now with <code>medianLoad</code> we can determine if we need to create or destroy servers:</p>
+<div class="sourceCode"><pre class="sourceCode js"><code class="sourceCode javascript">    [...]
+    <span class="cf">if</span> (medianLoad <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">{</span>
+        <span class="kw">const</span> name <span class="op">=</span> <span class="st">&#39;server&#39;</span> <span class="op">+</span> (<span class="va">loads</span>.<span class="at">length</span> <span class="op">+</span> <span class="dv">1</span>)
+        <span class="va">aws</span>.<span class="at">createInstance</span>(name<span class="op">,</span> error <span class="op">=&gt;</span> <span class="op">{</span>
+            <span class="cf">if</span> (error) <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not create server: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
+        <span class="op">}</span>)<span class="op">;</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="cf">if</span> (medianLoad <span class="op">&lt;</span> <span class="dv">80</span>) <span class="op">{</span>
+        <span class="co">// get all instances</span>
+        <span class="va">aws</span>.<span class="at">getInstanceIds</span>(prefix<span class="op">,</span> (error<span class="op">,</span> instanceIds) <span class="op">=&gt;</span> <span class="op">{</span>
+            <span class="cf">if</span> (error) <span class="cf">return</span> <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not get instance ids: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
+            <span class="va">aws</span>.<span class="at">terminateInstance</span>(instanceIds[<span class="va">instanceIds</span>.<span class="at">length</span>]<span class="op">,</span> error <span class="op">=&gt;</span> <span class="op">{</span>
+                <span class="cf">if</span> (error) <span class="cf">return</span> <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not terminate: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
+            <span class="op">}</span>)<span class="op">;</span>
+        <span class="op">}</span>)<span class="op">;</span> 
+    <span class="op">}</span></code></pre></div>
 <h4 id="possible-refinements-2">Possible Refinements</h4>
 <ul>
 <li>Add new instances to a balancer.</li>
-<li>Remove old instances from the balancer (not really necessary, AWS removes them from the ELB when terminated).</li>
-<li>Check median instead of average.</li>
-<li>Use a JSON configuration file.</li>
+<li>Add a simulation mode to show messages instead of creating or destroying instances.</li>
+<li>Set a minimum number of servers below which they are not destroyed.</li>
+<li>Add some tests.</li>
 </ul>
+<p>What about removing old instances from the balancer? It is not really necessary, AWS removes them from the ELB when terminated.</p>
 <p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/orchestrator.js">final code</a> has all of these except adding instances to the ELB, in 148 lines of code.</p>
 <h2 id="where-to-go-from-here">Where To Go From Here</h2>
 <p>The next obvious step for our DevOps infrastructure is to implement a continuous deployment system. While it may seem daunting, we are more than half-way there. All that we need to do is:</p>

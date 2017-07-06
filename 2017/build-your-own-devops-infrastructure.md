@@ -27,8 +27,10 @@ based on the same principles.
 In fact we started with something similar to what we are going to see,
 and built from there.
 
-This companion post should wet your appetite,
+If you are attending FullStack London
+this companion post should whet your appetite,
 and help you make the most of the talk.
+And if you could not attend you will get an overview of the main ideas.
 
 ### Requirements
 
@@ -54,7 +56,7 @@ You write code to manage servers,
 monitor services
 and automate all sysadmin-related tasks.
 So let us do that!
-Live on stage in London, UK!
+Live on stage from London, UK!
 
 ### Email
 
@@ -146,11 +148,11 @@ doSomethingAsync(error => {
 }
 ```
 
+We do not want to wait for someone to crunch through thousands or even millions of lines of logs.
 This is another core principles of DevOps:
 
 > Be proactive and notify the team when something goes wrong.
 
-We do not want to wait for someone to crunch through millions of lines of logs.
 It is not hard to do:
 
 ```
@@ -175,7 +177,7 @@ We can improve the logging library substantially:
 See the
 [complete code](https://github.com/alexfernandez/infra/blob/master/lib/log.js)
 for details.
-All in all we need 75 lines of code.
+All in 75 lines of code.
 
 ### Monitor
 
@@ -218,7 +220,6 @@ setInterval(exports.check, 60000);
 And we are done!
 10 lines of code that will warn us
 if our website goes down for any reason.
-
 
 #### Possible Refinements
 
@@ -295,6 +296,7 @@ and return the result in an array
 using `async`:
 
 ```
+const aws = require('./aws.js');
 function getInstanceLoads(callback) {
 	aws.getInstanceIds('server', (error, instanceIds) => {
 		if (error) return callback(error);
@@ -308,15 +310,51 @@ function getInstanceLoads(callback) {
 }
 ```
 
-Computing the average load is easy:
+Computing the average load is easy,
+and computing the median is even easier using the `median` npm library.
+It is also more robust:
+a misbehaving server or two will not radically change the result.
+For now we just display the result.
+
+```
+const median = require('median');
+getInstanceLoads((error, loads) => {
+	if (error) return callback(error);
+	const medianLoad = median(loads);
+	log.info('Median load is ' + medianLoad);
+	[...]
+});
+```
+
+Now with `medianLoad` we can determine if we need to create or destroy servers:
+
+```js
+	[...]
+	if (medianLoad > 90) {
+		const name = 'server' + (loads.length + 1)
+		aws.createInstance(name, error => {
+			if (error) log.error('Could not create server: ' + error);
+		});
+	} else if (medianLoad < 80) {
+		// get all instances
+		aws.getInstanceIds(prefix, (error, instanceIds) => {
+			if (error) return log.error('Could not get instance ids: ' + error);
+			aws.terminateInstance(instanceIds[instanceIds.length], error => {
+				if (error) return log.error('Could not terminate: ' + error);
+			});
+		}); 
+	}
+```
 
 #### Possible Refinements
 
 * Add new instances to a balancer.
-* Remove old instances from the balancer
-(not really necessary, AWS removes them from the ELB when terminated).
-* Check median instead of average.
-* Use a JSON configuration file.
+* Add a simulation mode to show messages instead of creating or destroying instances.
+* Set a minimum number of servers below which they are not destroyed.
+* Add some tests.
+
+What about removing old instances from the balancer?
+It is not really necessary, AWS removes them from the ELB when terminated.
 
 The
 [final code](https://github.com/alexfernandez/infra/blob/master/lib/orchestrator.js)
