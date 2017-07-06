@@ -1665,6 +1665,7 @@
 	code {
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
+		padding: 0.12em;
 	}
 
 	pre {
