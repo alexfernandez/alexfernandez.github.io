@@ -233,22 +233,38 @@ getInstanceLoads((error, loads) =&gt; {
     log.info(&#39;Median load is &#39; + medianLoad);
     [...]
 });</code></pre>
-<p>Now with <code>medianLoad</code> we can determine if we need to create or destroy servers:</p>
+<p>Now with <code>medianLoad</code> we can determine if we need to create or destroy servers: create above 90%, destroy below 80%.</p>
 <div class="sourceCode"><pre class="sourceCode js"><code class="sourceCode javascript">    [...]
     <span class="cf">if</span> (medianLoad <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">{</span>
-        <span class="kw">const</span> name <span class="op">=</span> <span class="st">&#39;server&#39;</span> <span class="op">+</span> (<span class="va">loads</span>.<span class="at">length</span> <span class="op">+</span> <span class="dv">1</span>)
-        <span class="va">aws</span>.<span class="at">createInstance</span>(name<span class="op">,</span> error <span class="op">=&gt;</span> <span class="op">{</span>
-            <span class="cf">if</span> (error) <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not create server: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
-        <span class="op">}</span>)<span class="op">;</span>
+        <span class="at">createInstance</span>()<span class="op">;</span>
     <span class="op">}</span> <span class="cf">else</span> <span class="cf">if</span> (medianLoad <span class="op">&lt;</span> <span class="dv">80</span>) <span class="op">{</span>
-        <span class="co">// get all instances</span>
-        <span class="va">aws</span>.<span class="at">getInstanceIds</span>(prefix<span class="op">,</span> (error<span class="op">,</span> instanceIds) <span class="op">=&gt;</span> <span class="op">{</span>
-            <span class="cf">if</span> (error) <span class="cf">return</span> <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not get instance ids: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
-            <span class="va">aws</span>.<span class="at">terminateInstance</span>(instanceIds[<span class="va">instanceIds</span>.<span class="at">length</span>]<span class="op">,</span> error <span class="op">=&gt;</span> <span class="op">{</span>
-                <span class="cf">if</span> (error) <span class="cf">return</span> <span class="va">log</span>.<span class="at">error</span>(<span class="st">&#39;Could not terminate: &#39;</span> <span class="op">+</span> error)<span class="op">;</span>
-            <span class="op">}</span>)<span class="op">;</span>
-        <span class="op">}</span>)<span class="op">;</span> 
+        <span class="at">terminateInstance</span>()<span class="op">;</span>
     <span class="op">}</span></code></pre></div>
+<p>The function to create an instance is very simple:</p>
+<pre><code>function createInstance() {
+    const name = &#39;server&#39; + (loads.length + 1)
+    aws.createInstance(name, error =&gt; {
+        if (error) log.error(&#39;Could not create server: &#39; + error);
+    });
+}</code></pre>
+<p>Terminating the last instance in the array is not hard either, although we need to fetch the array of instance ids again:</p>
+<pre><code>function terminateInstance() {
+    aws.getInstanceIds(&#39;server&#39;, (error, instanceIds) =&gt; {
+        if (error) return log.error(&#39;Could not get instance ids: &#39; + error);
+        aws.terminateInstance(instanceIds[instanceIds.length], error =&gt; {
+            if (error) return log.error(&#39;Could not terminate: &#39; + error);
+        });
+    });
+}</code></pre>
+<h4 id="remaining-cpu-load">Remaining CPU Load</h4>
+<p>Removing instances when median load is below 80% might get us to a situation where the remaining instances cannot handle the load.</p>
+<p>Imagine we have two instances at 75%; assuming that server load is linear, removing one will leave one server at 150% of CPU capacity. This creates an unstable system that ping-pongs between one and two servers, with degraded performance. We have to choose a minimum load of 40%, so that two loads concentrated into one server still get us to 80%.</p>
+<p>This is the point where we can trivially do better than Amazon's Auto Scaling Groups. We just need to predict the remaining load, by sharing the median load among the remaining instances.</p>
+<pre><code>const predictedLoad = medianLoad * loads.length / (loads.length - 1)
+if (predictedLoad &lt; 80%) {
+    [...]
+}</code></pre>
+<p>This simple change has allowed my company to increase the minimum load from 40% to 80%, which results in savings of tens of thousands of dollars. All this with under 40 lines of code!</p>
 <h4 id="possible-refinements-2">Possible Refinements</h4>
 <ul>
 <li>Add new instances to a balancer.</li>

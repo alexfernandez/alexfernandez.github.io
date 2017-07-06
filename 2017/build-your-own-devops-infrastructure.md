@@ -327,24 +327,69 @@ getInstanceLoads((error, loads) => {
 ```
 
 Now with `medianLoad` we can determine if we need to create or destroy servers:
+create above 90%, destroy below 80%.
 
 ```js
 	[...]
 	if (medianLoad > 90) {
-		const name = 'server' + (loads.length + 1)
-		aws.createInstance(name, error => {
-			if (error) log.error('Could not create server: ' + error);
-		});
+		createInstance();
 	} else if (medianLoad < 80) {
-		// get all instances
-		aws.getInstanceIds(prefix, (error, instanceIds) => {
-			if (error) return log.error('Could not get instance ids: ' + error);
-			aws.terminateInstance(instanceIds[instanceIds.length], error => {
-				if (error) return log.error('Could not terminate: ' + error);
-			});
-		}); 
+		terminateInstance();
 	}
 ```
+
+The function to create an instance is very simple:
+
+```
+function createInstance() {
+	const name = 'server' + (loads.length + 1)
+	aws.createInstance(name, error => {
+		if (error) log.error('Could not create server: ' + error);
+	});
+}
+```
+
+Terminating the last instance in the array is not hard either,
+although we need to fetch the array of instance ids again:
+
+```
+function terminateInstance() {
+	aws.getInstanceIds('server', (error, instanceIds) => {
+		if (error) return log.error('Could not get instance ids: ' + error);
+		aws.terminateInstance(instanceIds[instanceIds.length], error => {
+			if (error) return log.error('Could not terminate: ' + error);
+		});
+	});
+}
+```
+
+#### Remaining CPU Load
+
+Removing instances when median load is below 80%
+might get us to a situation where the remaining instances cannot handle the load.
+
+Imagine we have two instances at 75%;
+assuming that server load is linear,
+removing one will leave one server at 150% of CPU capacity.
+This creates an unstable system that ping-pongs between one and two servers,
+with degraded performance.
+We have to choose a minimum load of 40%,
+so that two loads concentrated into one server still get us to 80%.
+
+This is the point where we can trivially do better than Amazon's Auto Scaling Groups.
+We just need to predict the remaining load,
+by sharing the median load among the remaining instances.
+
+```
+const predictedLoad = medianLoad * loads.length / (loads.length - 1)
+if (predictedLoad < 80%) {
+	[...]
+}
+```
+
+This simple change has allowed my company to increase the minimum load from 40% to 80%,
+which results in savings of tens of thousands of dollars.
+All this with under 40 lines of code!
 
 #### Possible Refinements
 
