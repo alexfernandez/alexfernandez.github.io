@@ -14,7 +14,10 @@ You want to do DevOps because you think it's cool,
 so you install Jenkins somewhere and...
 What now exactly?
 
-The foundational idea of DevOps is to treat infrastructure as code.
+A basic principle of DevOps is:
+
+> Treat infrastructure as code.
+
 You write code to manage servers,
 monitor services
 and automate all sysadmin-related tasks.
@@ -74,9 +77,9 @@ It prints messages at several levels of severity:
 * `debug`: internal message, not printed unless we are debugging.
 * `info`: a message that is usually shown.
 * `notice`: an important message that must always be shown.
-* `warning`: something went wrong but we might get over it.
+* `warning`: something dangerous happened, but it might be nothing.
 * `error`: something went wrong.
-* `fatal`: something went really wrong.
+* `fatal`: something went really wrong, cannot continue.
 
 #### The Code
 
@@ -84,8 +87,7 @@ Let us start with `log.info()`.
 So in our module we export a function that shows a message:
 
 ```
-exports.info = function(message)
-{
+exports.info = function(message) {
 	console.log(message);
 }
 ```
@@ -102,14 +104,34 @@ The last line marked with `\=>` is the output of the program.
 Easy, right?
 We just need to add the remaining priorities,
 which will be similar except that `log.warning()`
-and `log.error()` will use `console.error()`.
+and `log.error()` will use `console.error()`,
+and `log.debug()` which will show nothing by default.
 
-At this point we have a very primitive logging library,
-when there are many good solutions out there.
-But we want our library to be proactive:
+```
+exports.debug = function() {
+}
+exports.notice = function(message) {
+	console.log(message);
+}
+exports.warning = function(message) {
+	console.error(message);
+}
+exports.error = function(message) {
+	console.error(message);
+}
+exports.fatal = function(message) {
+	console.error(message);
+}
+```
+
+At this point we have a very primitive logging library
+in about 17 lines of code.
+But there are already many good solutions out there.
+What is the advantage of writing another one?
+Well, we want our library to be proactive:
 send us by mail all errors in our code.
 This way we just have to log all runtime errors,
-with the confidence that we will receive them if they really happen.
+with the confidence that we will receive them if they happen in production.
 
 ```
 [...]
@@ -118,14 +140,15 @@ doSomethingAsync(error => {
 }
 ```
 
-This is one of the core principles of DevOps:
-do not wait for someone to look over millions of logs,
-be proactive and notify the team that something went wrong.
+This is another core principles of DevOps:
+
+> Be proactive and notify the team when something goes wrong.
+
+We do not want to wait for someone to crunch through millions of lines of logs.
 It is not hard to do:
 
 ```
-exports.error = function(message)
-{
+exports.error = function(message) {
 	console.error(message);
 	const subject = 'ERROR: ' + message;
 	const body = 'ERROR ERROR ERROR\n\n' + message + '\n\nPlease take a look';

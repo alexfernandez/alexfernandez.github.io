@@ -1669,8 +1669,9 @@
 	}
 
 	pre {
+		background-color: #f8fbff;
 		border-radius: 5px;
-		border: thin solid #bbb;
+		border: thin solid #ccc;
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2.25em 0;

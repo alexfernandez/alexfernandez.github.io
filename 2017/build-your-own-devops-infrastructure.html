@@ -91,7 +91,11 @@
 </div>
 <h2 id="devops-infrastructure">DevOps Infrastructure</h2>
 <p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
-<p>The foundational idea of DevOps is to treat infrastructure as code. You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that!</p>
+<p>A basic principle of DevOps is:</p>
+<blockquote>
+<p>Treat infrastructure as code.</p>
+</blockquote>
+<p>You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that!</p>
 <p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. This companion post should help you make the most of the talk.</p>
 <h3 id="requirements">Requirements</h3>
 <p>The live demo uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
@@ -109,29 +113,45 @@
 <li><code>debug</code>: internal message, not printed unless we are debugging.</li>
 <li><code>info</code>: a message that is usually shown.</li>
 <li><code>notice</code>: an important message that must always be shown.</li>
-<li><code>warning</code>: something went wrong but we might get over it.</li>
+<li><code>warning</code>: something dangerous happened, but it might be nothing.</li>
 <li><code>error</code>: something went wrong.</li>
-<li><code>fatal</code>: something went really wrong.</li>
+<li><code>fatal</code>: something went really wrong, cannot continue.</li>
 </ul>
 <h4 id="the-code">The Code</h4>
 <p>Let us start with <code>log.info()</code>. So in our module we export a function that shows a message:</p>
-<pre><code>exports.info = function(message)
-{
+<pre><code>exports.info = function(message) {
     console.log(message);
 }</code></pre>
 <p>It will be used as follows:</p>
 <pre><code>const log = require(&#39;./log.js&#39;);
 log.info(&#39;Hello world&#39;);
   \=&gt; Hello world</code></pre>
-<p>The last line marked with <code>\=&gt;</code> is the output of the program. Easy, right? We just need to add the remaining priorities, which will be similar except that <code>log.warning()</code> and <code>log.error()</code> will use <code>console.error()</code>.</p>
-<p>At this point we have a very primitive logging library, when there are many good solutions out there. But we want our library to be proactive: send us by mail all errors in our code. This way we just have to log all runtime errors, with the confidence that we will receive them if they really happen.</p>
+<p>The last line marked with <code>\=&gt;</code> is the output of the program. Easy, right? We just need to add the remaining priorities, which will be similar except that <code>log.warning()</code> and <code>log.error()</code> will use <code>console.error()</code>, and <code>log.debug()</code> which will show nothing by default.</p>
+<pre><code>exports.debug = function() {
+}
+exports.notice = function(message) {
+    console.log(message);
+}
+exports.warning = function(message) {
+    console.error(message);
+}
+exports.error = function(message) {
+    console.error(message);
+}
+exports.fatal = function(message) {
+    console.error(message);
+}</code></pre>
+<p>At this point we have a very primitive logging library in about 17 lines of code. But there are already many good solutions out there. What is the advantage of writing another one? Well, we want our library to be proactive: send us by mail all errors in our code. This way we just have to log all runtime errors, with the confidence that we will receive them if they happen in production.</p>
 <pre><code>[...]
 doSomethingAsync(error =&gt; {
     if (error) return log.error(&#39;We have encountered an error: &#39; + error);
 }</code></pre>
-<p>This is one of the core principles of DevOps: do not wait for someone to look over millions of logs, be proactive and notify the team that something went wrong. It is not hard to do:</p>
-<pre><code>exports.error = function(message)
-{
+<p>This is another core principles of DevOps:</p>
+<blockquote>
+<p>Be proactive and notify the team when something goes wrong.</p>
+</blockquote>
+<p>We do not want to wait for someone to crunch through millions of lines of logs. It is not hard to do:</p>
+<pre><code>exports.error = function(message) {
     console.error(message);
     const subject = &#39;ERROR: &#39; + message;
     const body = &#39;ERROR ERROR ERROR\n\n&#39; + message + &#39;\n\nPlease take a look&#39;;
