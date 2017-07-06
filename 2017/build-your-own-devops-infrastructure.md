@@ -7,27 +7,28 @@ footer: Published on 2017-07-01.
 
 ![](pics/build-otomo.jpg "Build your own Akira motorbike, source: https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg")
 
-## DevOps Infrastructure
-
 Your company is using cloud services.
 You want to do DevOps because you think it's cool,
 so you install Jenkins somewhere and...
 What now exactly?
 
-A basic principle of DevOps is:
-
-> Treat infrastructure as code.
-
-You write code to manage servers,
-monitor services
-and automate all sysadmin-related tasks.
-So let us do that!
-
 Come with us to 
 [FullStack 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program),
 where you will learn how to
 build your own DevOps infrastructure.
-This companion post should help you make the most of the talk.
+In the talk we will build our own simplified infrastructure.
+A more complete example resides in the GitHub repo
+[infra](https://github.com/alexfernandez/infra).
+In my day job at
+[mediasmart.io](http://mediasmart.io/),
+a Spanish adTech company,
+we use an even more sophisticated version of this code,
+based on the same principles.
+In fact we started with something similar to what we are going to see,
+and built from there.
+
+This companion post should wet your appetite,
+and help you make the most of the talk.
 
 ### Requirements
 
@@ -43,12 +44,17 @@ in the examples,
 but the same infrastructure can be built for any other cloud provider,
 as long as they have a working Node.js driver.
 
-## Code Talks
+## DevOps Infrastructure
 
-In the talk we will build our own simplified infrastructure.
-A more complete example resides in the GitHub repo
-[infra](https://github.com/alexfernandez/infra).
-This is what we will analyze here.
+A basic principle of DevOps is:
+
+> Treat infrastructure as code.
+
+You write code to manage servers,
+monitor services
+and automate all sysadmin-related tasks.
+So let us do that!
+Live on stage in London, UK!
 
 ### Email
 
@@ -234,6 +240,10 @@ in 74 lines of code.
 The second helper library is an adapter for the official
 `aws-sdk` library from Amazon,
 which has a, let's say, somewhat quirky interface.
+Also, writing an adapter library
+will allow us to replace it with a different cloud provider
+just by building another library with the same interface,
+and modifying the `require()` in a one-line change.
 
 Our adapter library
 [`lib/aws.js`](https://github.com/alexfernandez/infra/blob/master/lib/aws.js)
@@ -279,7 +289,10 @@ or use other parameters.
 
 First we need to get the load of our instances.
 They all have names that start with the prefix `server`,
-so we get their instance ids and then the load for each one:
+so we get their instance ids.
+Then we read the CPU load for each one
+and return the result in an array
+using `async`:
 
 ```
 function getInstanceLoads(callback) {
@@ -290,9 +303,12 @@ function getInstanceLoads(callback) {
 				aws.getCpuUsage(instanceId, minutes, next);
 			};
 		});
+		async.parallel(tasks, callback);
 	});
 }
 ```
+
+Computing the average load is easy:
 
 #### Possible Refinements
 

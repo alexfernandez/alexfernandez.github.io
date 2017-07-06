@@ -89,19 +89,18 @@
 <img src="pics/build-otomo.jpg" title="Build your own Akira motorbike, source: https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg" />
 
 </div>
-<h2 id="devops-infrastructure">DevOps Infrastructure</h2>
 <p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
+<p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. In the talk we will build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. In my day job at <a href="http://mediasmart.io/">mediasmart.io</a>, a Spanish adTech company, we use an even more sophisticated version of this code, based on the same principles. In fact we started with something similar to what we are going to see, and built from there.</p>
+<p>This companion post should wet your appetite, and help you make the most of the talk.</p>
+<h3 id="requirements">Requirements</h3>
+<p>The live demo uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
+<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a working Node.js driver.</p>
+<h2 id="devops-infrastructure">DevOps Infrastructure</h2>
 <p>A basic principle of DevOps is:</p>
 <blockquote>
 <p>Treat infrastructure as code.</p>
 </blockquote>
-<p>You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that!</p>
-<p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. This companion post should help you make the most of the talk.</p>
-<h3 id="requirements">Requirements</h3>
-<p>The live demo uses Node.js, as befits a JavaScript event. We are using ES6, so if you are running Node.js version 7 or earlier you will need to start it with the <code>--harmony</code> flag.</p>
-<p>We use <a href="https://aws.amazon.com/">Amazon Web Services</a> in the examples, but the same infrastructure can be built for any other cloud provider, as long as they have a working Node.js driver.</p>
-<h2 id="code-talks">Code Talks</h2>
-<p>In the talk we will build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. This is what we will analyze here.</p>
+<p>You write code to manage servers, monitor services and automate all sysadmin-related tasks. So let us do that! Live on stage in London, UK!</p>
 <h3 id="email">Email</h3>
 <p>We use with a couple of helper libraries to simplify our job. They are simple adapters for the official libraries, and will be introduced as they are needed.</p>
 <p>The first helper library will simplify the task of sending an email: <a href="https://github.com/alexfernandez/infra/blob/master/lib/email.js"><code>lib/email.js</code></a>. It has a very straightforward interface:</p>
@@ -193,7 +192,7 @@ setInterval(exports.check, 60000);</code></pre>
 </ul>
 <p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">final code</a> contains all improvements, in 74 lines of code.</p>
 <h3 id="aws">AWS</h3>
-<p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let's say, somewhat quirky interface.</p>
+<p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let's say, somewhat quirky interface. Also, writing an adapter library will allow us to replace it with a different cloud provider just by building another library with the same interface, and modifying the <code>require()</code> in a one-line change.</p>
 <p>Our adapter library <a href="https://github.com/alexfernandez/infra/blob/master/lib/aws.js"><code>lib/aws.js</code></a> has functions to:</p>
 <ul>
 <li>find out instance ids for a number of servers,</li>
@@ -213,7 +212,7 @@ setInterval(exports.check, 60000);</code></pre>
 </ul>
 <p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers, or use other parameters.</p>
 <h4 id="the-code-2">The Code</h4>
-<p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids and then the load for each one:</p>
+<p>First we need to get the load of our instances. They all have names that start with the prefix <code>server</code>, so we get their instance ids. Then we read the CPU load for each one and return the result in an array using <code>async</code>:</p>
 <pre><code>function getInstanceLoads(callback) {
     aws.getInstanceIds(&#39;server&#39;, (error, instanceIds) =&gt; {
         if (error) return callback(error);
@@ -222,8 +221,10 @@ setInterval(exports.check, 60000);</code></pre>
                 aws.getCpuUsage(instanceId, minutes, next);
             };
         });
+        async.parallel(tasks, callback);
     });
 }</code></pre>
+<p>Computing the average load is easy:</p>
 <h4 id="possible-refinements-2">Possible Refinements</h4>
 <ul>
 <li>Add new instances to a balancer.</li>
