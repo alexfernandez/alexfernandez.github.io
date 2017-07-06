@@ -275,12 +275,16 @@ if (predictedLoad &lt; 80%) {
 <p>What about removing old instances from the balancer? It is not really necessary, AWS removes them from the ELB when terminated.</p>
 <p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/orchestrator.js">final code</a> has all of these except adding instances to the ELB, in 148 lines of code.</p>
 <h2 id="where-to-go-from-here">Where To Go From Here</h2>
-<p>The next obvious step for our DevOps infrastructure is to implement a continuous deployment system. While it may seem daunting, we are more than half-way there. All that we need to do is:</p>
+<p>The next obvious step for our DevOps infrastructure is to implement a continuous deployment system. The corresponding DevOps principle is:</p>
+<blockquote>
+<p>Developers are responsible for deploying their own code.</p>
+</blockquote>
+<p>While it may seem daunting, we are more than half-way there. All that we need to do is:</p>
 <ul>
 <li>get the list of servers to deploy to,</li>
 <li>SSH into them and make them download the code.</li>
 </ul>
-<p>Combined with a tool such as <a href="http://strider-cd.github.io/">Strider CD</a>, which takes care of downloading and testing our code, we have a full continuous deployment environment!</p>
+<p>Combined with a tool such as <a href="http://strider-cd.github.io/">Strider CD</a>, which takes care of downloading and testing our code, we have a full continuous deployment environment! But that is a tale for another time.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>Thanks to <a href="https://www.meetup.com/es-ES/MallorcaJS/events/240203995/">MallorcaJS</a> for inviting me to give an <a href="http://slides.com/alexfernandez/build-your-owndevops-infrastructure#/">early version of this talk</a>, where I had a lot of fun. Thanks in particular to <a href="http://hotelinking.com/">hotelinking</a> and <a href="https://twitter.com/tufosa">Diego Lafuente</a> for making it possible.</p>
 <p>Thanks to <a href="https://twitter.com/lizrice">Liz Rice</a> for her talk on <a href="http://www.devopspro.ru/2016/liz_rice/">building containers from scratch</a>, which was the inspiration for this humble talk.</p>

@@ -410,6 +410,10 @@ in 148 lines of code.
 
 The next obvious step for our DevOps infrastructure
 is to implement a continuous deployment system.
+The corresponding DevOps principle is:
+
+> Developers are responsible for deploying their own code.
+
 While it may seem daunting,
 we are more than half-way there.
 All that we need to do is:
@@ -421,6 +425,7 @@ Combined with a tool such as
 [Strider CD](http://strider-cd.github.io/),
 which takes care of downloading and testing our code,
 we have a full continuous deployment environment!
+But that is a tale for another time.
 
 ## Acknowledgements
 
