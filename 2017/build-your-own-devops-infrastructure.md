@@ -105,10 +105,9 @@ It will be used as follows:
 ```
 const log = require('./log.js');
 log.info('Hello world');
-  \=> Hello world
 ```
 
-The last line marked with `\=>` is the output of the program.
+This will output the string `Hello world`.
 Easy, right?
 We just need to add the remaining priorities,
 which will be similar except that `log.warning()`

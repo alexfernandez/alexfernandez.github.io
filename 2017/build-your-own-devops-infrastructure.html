@@ -123,9 +123,8 @@
 }</code></pre>
 <p>It will be used as follows:</p>
 <pre><code>const log = require(&#39;./log.js&#39;);
-log.info(&#39;Hello world&#39;);
-  \=&gt; Hello world</code></pre>
-<p>The last line marked with <code>\=&gt;</code> is the output of the program. Easy, right? We just need to add the remaining priorities, which will be similar except that <code>log.warning()</code> and <code>log.error()</code> will use <code>console.error()</code>, and <code>log.debug()</code> which will show nothing by default.</p>
+log.info(&#39;Hello world&#39;);</code></pre>
+<p>This will output the string <code>Hello world</code>. Easy, right? We just need to add the remaining priorities, which will be similar except that <code>log.warning()</code> and <code>log.error()</code> will use <code>console.error()</code>, and <code>log.debug()</code> which will show nothing by default.</p>
 <pre><code>exports.debug = function() {
 }
 exports.notice = function(message) {
