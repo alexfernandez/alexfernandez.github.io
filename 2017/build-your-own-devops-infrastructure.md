@@ -1,7 +1,7 @@
 ---
 title: Build Your Own DevOps Infrastructure
 subtitle: 'Talk for FullStack London 2017'
-footer: Published on 2017-07-01.
+footer: Published on 2017-07-11.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
