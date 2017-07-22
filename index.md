@@ -60,6 +60,7 @@ Articles about stuff not related to software engineering.
 Videos of talks at events and conferences,
 from less to more embarrassing.
 
+* 2017-07-12: [Build Your Own DevOps Infrastructure](https://skillsmatter.com/skillscasts/10239-build-your-own-devops-infrastructure)
 * 2016-07-15: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
 * 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
 * 2014-11-18: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
