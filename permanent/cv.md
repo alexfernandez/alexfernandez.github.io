@@ -294,7 +294,7 @@ Here are some other bits you may find interesting.
 I have used many dev environments including IDEs such as NetBeans or Eclipse.
 Right now I use a minimalistic environment which consists of a Bash console
 and the `vim` editor.
-(If you use `nano` or `ed` you can question the "minimalistic" bit.)
+(If you use `nano` or `ed` you are allowed to question the "minimalistic" bit.)
 This allows me to be as productive in a remote SSH connection as locally,
 which may not be saying much, but there it is.
 
@@ -329,7 +329,7 @@ and above all *I do not trust any company that
 [misplace my password](http://arstechnica.com/security/2016/06/how-linkedins-password-sloppiness-hurts-us-all/)*.
 Apparently they do not even know the
 [extent of the leak](https://blog.linkedin.com/2016/05/18/protecting-our-members),
-which is the sure sign of a severe mishandling of an incident.
+which is a sure sign of severe mishandling of an incident.
 
 You may argue that GitHub now owns my CV, but there is a clear difference:
 it is now only _published_ on GitHub,
@@ -342,4 +342,5 @@ So take that as a "personal interest" for my CV.
 
 If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
+Thanks for making it this far!
 
