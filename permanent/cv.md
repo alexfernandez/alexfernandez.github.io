@@ -49,8 +49,7 @@ in ways that I could not even dream back then.
 
 I have also learned a bit of Erlang and Go,
 which we use for certain subsystems.
-My Erlang code is not in production, while my Go code is.
-This last sentence says a lot more about me than about Erlang or Go.
+Some of my Go code has been in production for years without issues.
 
 My job includes math puzzles and lots of equations,
 and we handle huge amounts of data,
@@ -316,8 +315,7 @@ I had been using it as my online CV for many years,
 which in retrospect was not a great decision:
 it consumed some time every week to read its endless stream of notifications
 and keep up with obnoxious updates and inane corporate self-help.
-I hardly got any valuable contracts via LinkedIn,
-just lots of recruiters I was not interested in.
+In return I just got lots of recruiters I was not interested in.
 The few interesting offers I have received
 in recent times
 (from the likes of Amazon and Facebook)
@@ -333,10 +331,9 @@ which is a sure sign of severe mishandling of an incident.
 
 You may argue that GitHub now owns my CV, but there is a clear difference:
 it is now only _published_ on GitHub,
-but the repo is cloned on my own computers.
-I could replicate it on any hosted server in minutes.
+but the data is replicated on my own computers
+and can be republished anywhere else in minutes.
 I firmly believe that people should own their own data.
-So take that as a "personal interest" for my CV.
 
 ### Contact
 
