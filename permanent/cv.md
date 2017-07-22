@@ -102,14 +102,16 @@ and technical lead for financial cards.
 During my four years there I learned to communicate with non-technical parties,
 and to coordinate disparate teams for a common goal.
 
-We did many interesting projects.
+We did many interesting projects,
+such as coordinating a task force to optimize financial transactions.
 Truth be told, I sorely missed technical work,
 so at the first opportunity I went back to hard-core software development in anger.
 
 ### 2005-03 to 2007-07: Consultant at Matchmind and Indra
 
 I joined a medium-sized IT consulting company.
-I was contracted out to ISBAN, part of Banco Santander.
+I was contracted out to ISBAN,
+back then a subsidiary of Banco Santander.
 There I was part of the team that developed BankSphere,
 a much-maligned tool for task automation.
 Creating it was lots of fun though:
