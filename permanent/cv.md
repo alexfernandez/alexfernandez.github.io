@@ -93,7 +93,7 @@ I definitely had a great time working with great people.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
-After so many years at consulting companies,
+After many years at consulting companies,
 joining a "client" was a breakthrough.
 I was hired as an analyst,
 coordinating a group of 3 to 10 developers.
