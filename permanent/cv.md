@@ -113,33 +113,31 @@ I joined a medium-sized IT consulting company.
 I was contracted out to ISBAN,
 back then a subsidiary of Banco Santander.
 There I was part of the team that developed BankSphere,
-a much-maligned tool for task automation.
-Creating it was lots of fun though:
-it was a series of Eclipse plugins wrote in Java,
+an internal tool for task automation.
+It was a series of Eclipse plugins wrote in Java,
 which allowed users to write JavaScript components.
 In retrospect it was quite advanced for its time;
-sadly the implementation was not up to par,
-which gave BankSphere its bad reputation.
+sadly the implementation was not up to par.
+Creating it was lots of fun though!
 
 During the last few months at Matchmind I worked for Leroy Merlin.
 Then I left, and for a few months joined Indra
 (the largest Spanish IT consulting company)
 on a very ambitious project to migrate all of the infrastructure of Caja Madrid
 (a largish public bank, now part of Bankia). 
-A few months later the project was not advancing much.
 The best part is that I got to work with very talented people,
 some of which I keep in contact with to this day.
 
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
 
 In the Applied Research department we did many innovative things with Java and XSL,
-such as an agent platform (where I dealt very interesting thread synchronization issues)
-and an XSL library to generate recursive documents.
+such as an agent platform where I dealt very interesting thread synchronization issues;
+or an XSL library to generate recursive documents.
 I was also technical lead for InfoCitizen,
 an European project for sharing personal documentation across Europe.
 
 It was cool to cooperate with several companies and institutions from all over Europe.
-As part of my job I attended several conferences and even presented a couple of European projects in academic circles.
+As part of my job I attended several conferences and presented a couple of European projects in academic circles.
 I also got to travel a lot which was nice, for a while.
 Then it got tiring.
 Then the European projects dried out.
@@ -154,7 +152,7 @@ During my first months at Siatcom I got to learn Java,
 then in great demand in the sector.
 Shortly thereafter I got to know first-hand the Spanish "meat market" for tech workers.
 I got to use my new Java skills at Telefónica I+D as a "consultant",
-actually a contractor.
+actually a contractor in disguise.
 But then I got to participate in a couple of cool projects:
 a location experiment that got the user position
 from a mesh of mobile stations (in 2000!),
@@ -175,7 +173,7 @@ My most interesting project was designing and writing a custom plug-in architect
 
 ### 1996 to 1998: Intern at Plataforma Solar de Almería
 
-My first job was to rewrite the PSA website in something that allowed for
+My first job ever was to rewrite the PSA website in something that allowed for
 some degree of automation.
 A large part of it was laying out their annual report.
 I learned HTML in anger, and a long-forgotten environment called Frontier.
