@@ -1,11 +1,11 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2016-08-22.
+footer: Published on 2016-08-17, last edited on 2017-07-22.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![My visage while at work](pics/profile.jpg "Alex Fernández")
+![My visage while at work](../pics/avatar.jpg "Alex Fernández")
 
 I have collected my professional experience in this page.
 Instead of just listing months and positions
