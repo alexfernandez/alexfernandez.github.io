@@ -46,7 +46,6 @@ When I joined I thought I knew some Node.js,
 which was a bit optimistic to say the least.
 Since then we have tortured the V8 engine
 in ways that I could not even dream back then.
-
 I have also learned a bit of Erlang and Go,
 which we use for certain subsystems.
 Some of my Go code has been in production for years without issues.
@@ -68,8 +67,8 @@ It is a win-win situation!
 
 ### 2012-08 to 2012-12: Freelancer
 
-After the adventure was mostly over,
-and we had failed to get rich in the process,
+After my entrepreneurship adventure was mostly over,
+and we failed to get rich in the process,
 I worked as a freelancer for Kimia
 writing a PHP backend and an Android app,
 while my friend [Diego Lafuente](https://twitter.com/tufosa)
