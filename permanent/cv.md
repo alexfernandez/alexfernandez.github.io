@@ -10,149 +10,40 @@ footer: Published on 2016-08-17, last edited on 2017-07-22.
 I have collected my professional experience in this page.
 Instead of just listing months and positions
 I will try to narrate my story.
-Thus the unconventional "from past to present" structure.
 It is a bit longer but far more entertaining, I hope.
 
 ## TL;DR
 
-A developer with 20 years of experience proficient in Node.js and JavaScript,
+A developer with 20 years of experience proficient in Node.js and Golang,
 specialized in scalability and DevOps.
 
 ## Job History
 
 I have 20 years of professional experience related to software development.
-Bear with me while we go over them.
+Bear with me while we go over them,
+in reverse chronological time as is customary.
 
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
-format: August 2016 is 2016-08.
-
-### 1996 to 1998: Intern at Plataforma Solar de Almería
-
-My first job was to rewrite the PSA website in something that allowed for
-some degree of automation.
-A large part of it was laying out their annual report.
-I learned HTML in anger, and a long-forgotten environment called Frontier.
-
-### 1998-08 to 2000-05: Analyst-Programmer at Informática El Corte Inglés, SA
-
-After many years programming as a hobby I thought I knew everything about writing software.
-My first programming job was very useful to teach me that I was in fact wrong.
-I was in the team that wrote a C cash register program,
-with a nifty Visual Basic interface.
-
-My best experience there was a two-week course taught by a real engineer:
-an ex-IBM manager called Kyle Rone that had worked in the Space Shuttle software.
-His charts and graphs made me fall in love with metrics and testing.
-
-### 2000-05 to 2001-07: Analyst at Siatcom, SA
-
-During my first months at Siatcom I got to learn Java,
-then in great demand in the sector.
-Shortly thereafter I got to know  first-hand the pitiful Spanish meat market for tech workers.
-I got to use my new Java skills at Telefónica I+D as a "consultant",
-in reality a subcontractor.
-But then I got to participate in a couple of cool projects:
-a location experiment that got the user position
-from a mesh of mobile stations,
-and a WAP ringtone and messaging platform.
-OK, the second project was not really cool, so I left.
-
-### 2001-08 to 2005-03: Analyst at Ibermática, SA
-
-In the Applied Research department we did many innovative things with Java and XSL,
-such as an agent platform (where I dealt very interesting synchronization issues)
-and an XSL library to generate recursive documents.
-I was also technical lead for InfoCitizen,
-an European project for sharing personal documentation across Europe.
-
-It was cool to cooperate with several companies and institutions from all over Europe.
-As part of my job I attended several conferences and even presented a couple of European projects in academic circles.
-I also got to travel a lot which was nice, for a while.
-Then it got tiring.
-Then the European projects dried out.
-Ibermática was at its heart a consulting company
-(read: part of the semi-legal meat market),
-and it was beginning to show.
-Combined with the sudden lack of research projects it was a good reason to leave.
-
-### 2005-03 to 2007-07: Consultant at Matchmind and Indra
-
-I joined a medium-sized IT consulting company.
-I was subcontracted out to ISBAN, part of Banco Santander.
-There I was part of the team that developed BankSphere,
-a much-maligned tool for task automation.
-Creating it was lots of fun though:
-it was a series of Eclipse plugins wrote in Java,
-which allowed users to write JavaScript components.
-In retrospect it was quite advanced for its time,
-although I stayed clear of the JavaScript parts.
-
-During the last few months at Matchmind I worked for Leroy Merlin.
-Then I left, and for a few months joined Indra
-(probably the largest Spanish IT consulting company)
-on a very ambitious project to migrate all of the infrastructure of Caja Madrid
-(a largish public bank, now part of Bankia). 
-But after a few months the project was not advancing at all and it was quite boring.
-
-### 2007-07 to 2011-08: Project Manager at ING Direct Spain
-
-After so many years at consulting companies,
-joining a "final client" was a breakthrough.
-I was hired as an analyst,
-coordinating a group of 3 to 10 developers.
-For the last couple of years I was a project manager,
-and technical lead for financial cards.
-During my four years there I learned to communicate with non-technical parties,
-and to coordinate disparate teams for a common goal.
-
-We did many interesting projects.
-Truth be told, I sorely missed technical work,
-so at the first opportunity I went back to hard-core software development in anger.
-
-### 2011-08 to 2012-08: CTO at MoveinBlue
-
-I have written elsewhere at length about
-[my experience as CTO](../2016/mib-five-years-later.html)
-so I will not repeat everything.
-Suffice to say that I learned PHP
-and had my first heavy-duty contact with JavaScript,
-learning to love both despite their quirks.
-Also, I managed a team of 3 to 6 people
-building an amazing product that ultimately failed to find its market.
-I definitely had a great time working with great people.
-
-### 2012-08 to 2012-12: Freelancer
-
-After the adventure was mostly over,
-and we had failed to get rich in the process,
-I worked as a freelancer for Kimia
-writing a PHP backend and an Android app,
-while my friend [Diego Lafuente](https://twitter.com/tufosa)
-wrote the iOS version.
-
-I have not stopped taking freelance engagements,
-since they help me stay sharp and learn new things.
-In fact I have worked for several large companies,
-here is [one recent story](../2016/stridercd.html).
+format: is 2016-08 is August 2016.
 
 ### 2013-01 to Present: MediaSmart Mobile
 
 Since the beginning of 2013 I work full time for [MediaSmart Mobile](http://mediasmart.es/),
 a mobile adtech company.
-Before I joined the company was facing a major scalability challenge
+Before I joined the company was facing major scalability challenges
 and I could not reject the offer.
 In fact we have grown from processing two thousand requests per second
-to more than 400 thousand in little more than three years.
+to more than 800 thousand in little more than four years.
 Yes, that is right:
-every 2.5 seconds we process a million requests,
+every ~1.2 seconds we process a million requests,
 decide which ones are useful for our customers
 and respond to all of them.
 
 I work with a great team and we are doing great things together,
 successfully competing at an international level.
 When I joined I thought I knew some Node.js,
-and I have to say that I was a bit optimistic.
+which was a bit optimistic to say the least.
 Since then we have tortured the V8 engine
 in ways that I could not even dream back then.
 
@@ -176,6 +67,119 @@ use my most productive hours working.
 I also gladly take care of a crisis at ungodly hours.
 It is a win-win situation!
 
+### 2012-08 to 2012-12: Freelancer
+
+After the adventure was mostly over,
+and we had failed to get rich in the process,
+I worked as a freelancer for Kimia
+writing a PHP backend and an Android app,
+while my friend [Diego Lafuente](https://twitter.com/tufosa)
+wrote the iOS version.
+
+I have not stopped taking freelance engagements,
+since they help me stay sharp and learn new things.
+In fact I have worked for several large companies:
+here is [one recent story](../2016/stridercd.html).
+
+### 2011-08 to 2012-08: CTO at MoveinBlue
+
+I have written elsewhere at length about
+[my experience as CTO](../2016/mib-five-years-later.html)
+so I will not repeat everything.
+Suffice to say that I learned PHP
+and had my first heavy-duty contact with JavaScript,
+learning to love both despite their quirks.
+Also, I managed a team of 3 to 6 people
+building an amazing product that ultimately failed to find its market.
+I definitely had a great time working with great people.
+
+### 2007-07 to 2011-08: Project Manager at ING Direct Spain
+
+After so many years at consulting companies,
+joining a "client" was a breakthrough.
+I was hired as an analyst,
+coordinating a group of 3 to 10 developers.
+For the last couple of years I was a project manager
+and technical lead for financial cards.
+During my four years there I learned to communicate with non-technical parties,
+and to coordinate disparate teams for a common goal.
+
+We did many interesting projects.
+Truth be told, I sorely missed technical work,
+so at the first opportunity I went back to hard-core software development in anger.
+
+### 2005-03 to 2007-07: Consultant at Matchmind and Indra
+
+I joined a medium-sized IT consulting company.
+I was contracted out to ISBAN, part of Banco Santander.
+There I was part of the team that developed BankSphere,
+a much-maligned tool for task automation.
+Creating it was lots of fun though:
+it was a series of Eclipse plugins wrote in Java,
+which allowed users to write JavaScript components.
+In retrospect it was quite advanced for its time;
+sadly the implementation was not up to par,
+which gave BankSphere its bad reputation.
+
+During the last few months at Matchmind I worked for Leroy Merlin.
+Then I left, and for a few months joined Indra
+(the largest Spanish IT consulting company)
+on a very ambitious project to migrate all of the infrastructure of Caja Madrid
+(a largish public bank, now part of Bankia). 
+A few months later the project was not advancing much.
+The best part is that I got to work with very talented people,
+some of which I keep in contact with to this day.
+
+### 2001-08 to 2005-03: Analyst at Ibermática, SA
+
+In the Applied Research department we did many innovative things with Java and XSL,
+such as an agent platform (where I dealt very interesting thread synchronization issues)
+and an XSL library to generate recursive documents.
+I was also technical lead for InfoCitizen,
+an European project for sharing personal documentation across Europe.
+
+It was cool to cooperate with several companies and institutions from all over Europe.
+As part of my job I attended several conferences and even presented a couple of European projects in academic circles.
+I also got to travel a lot which was nice, for a while.
+Then it got tiring.
+Then the European projects dried out.
+Ibermática was at its heart a consulting company
+(read: part of the dwindling meat market),
+and it was beginning to show.
+Combined with the sudden lack of research projects it was a good reason to leave.
+
+### 2000-05 to 2001-07: Analyst at Siatcom, SA
+
+During my first months at Siatcom I got to learn Java,
+then in great demand in the sector.
+Shortly thereafter I got to know first-hand the Spanish "meat market" for tech workers.
+I got to use my new Java skills at Telefónica I+D as a "consultant",
+actually a contractor.
+But then I got to participate in a couple of cool projects:
+a location experiment that got the user position
+from a mesh of mobile stations (in 2000!),
+and a WAP ringtone and messaging platform.
+OK, the second project was not really cool, so I left.
+
+### 1998-08 to 2000-05: Analyst-Programmer at Informática El Corte Inglés, SA
+
+After many years programming as a hobby I thought I knew everything about writing software.
+My first programming job was very useful to teach me that I was in fact wrong.
+I was in the team that wrote a C cash register program,
+with a nifty Visual Basic interface.
+
+My best experience there was a two-week course taught by a real engineer:
+an ex-IBM manager called Kyle Rone that had worked in the Space Shuttle software.
+His charts and graphs made me fall in love with metrics and testing.
+My most interesting project was designing and writing a custom plug-in architecture from scratch.
+
+### 1996 to 1998: Intern at Plataforma Solar de Almería
+
+My first job was to rewrite the PSA website in something that allowed for
+some degree of automation.
+A large part of it was laying out their annual report.
+I learned HTML in anger, and a long-forgotten environment called Frontier.
+
 ## Volunteer Work
 
 Paid work is not everything;
@@ -185,7 +189,7 @@ often it is more rewarding (and fun!) to give away your time.
 
 My projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
-The most popular at 541 stars is
+The most popular at 773 stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library for load testing web applications.
 
@@ -208,15 +212,18 @@ and meet interesting people.
 
 ### Organizations
 
+I have collaborated in the organization of three editions of
+[JSDayES](http://jsday.es/),
+which have been very well received by the JS communities in Spain.
+The last edition
+[JSDayES 2017](http://2017.jsday.es/)
+had about 600 attendees and featured 35 speakers from over 10 countries.
+
 Since 2015 I am the organizer of MadridJS,
-following on the steps of the previous team which did a great job.
+following on the steps of the previous team that did a great job.
 I am also the organizer of Node.js Madrid.
 We have run a couple of editions of
 [NodeSchool](http://nodeschool.io/madrid/).
-
-I have collaborated in the organization of two editions of
-[JSDayES](http://jsday.es/),
-which have been very well received by the JS communities in Spain.
 
 ## Education
 
@@ -271,7 +278,7 @@ since 2000 when I was sent to Morocco to train new programmers for IECISA.
 I have participated in several editions of
 [IronHack](https://www.ironhack.com/),
 and in two web bootcamps (2014 and 2015)
-I was responsible for the JavaScript week.
+I was responsible the main JavaScript teacher.
 
 I have also recorded several online courses,
 and taught a few face-to-face courses too.
@@ -335,5 +342,4 @@ So take that as a "personal interest" for my CV.
 
 If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
-Note to recruiters: I am not looking for a job change right now.
 
