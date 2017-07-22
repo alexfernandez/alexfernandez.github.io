@@ -183,6 +183,13 @@ I learned HTML in anger, and a long-forgotten environment called Frontier.
 Paid work is not everything;
 often it is more rewarding (and fun!) to give away your time.
 
+### AdaLab
+
+Lately I have given a couple of workshops at
+[AdaLab](http://adalab.es/),
+a bootcamp specifically for women wanting to work in software development.
+It has been a great experience seeing people so motivated!
+
 ### Open Source Projects
 
 My projects can be found in my
