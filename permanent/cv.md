@@ -340,7 +340,7 @@ where this blog is published, now owns my CV.
 There is a clear difference:
 the data is replicated on my own computers
 and can be republished anywhere else in minutes.
-I believe that people should own their personal data.
+One of the advantages of owning my private data!
 
 ### Contact
 
