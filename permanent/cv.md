@@ -183,13 +183,6 @@ I learned HTML in anger, and a long-forgotten environment called Frontier.
 Paid work is not everything;
 often it is more rewarding (and fun!) to give away your time.
 
-### AdaLab
-
-Lately I have given a couple of workshops at
-[AdaLab](http://adalab.es/),
-a bootcamp specifically for women wanting to work in software development.
-It has been a great experience seeing people so motivated!
-
 ### Open Source Projects
 
 My projects can be found in my
@@ -229,6 +222,13 @@ following on the steps of the previous team that did a great job.
 I am also the organizer of Node.js Madrid.
 We have run a couple of editions of
 [NodeSchool](http://nodeschool.io/madrid/).
+
+### AdaLab
+
+Lately I have given a couple of workshops at
+[AdaLab](http://adalab.es/),
+a bootcamp specifically for women wanting to work in software development.
+It has been a great experience seeing people so motivated!
 
 ## Education
 
@@ -335,11 +335,12 @@ Apparently they do not even know the
 [extent of the leak](https://blog.linkedin.com/2016/05/18/protecting-our-members),
 which is a sure sign of severe mishandling of an incident.
 
-You may argue that GitHub now owns my CV, but there is a clear difference:
-it is now only _published_ on GitHub,
-but the data is replicated on my own computers
+Maybe you are thinking that GitHub,
+where this blog is published, now owns my CV.
+There is a clear difference:
+the data is replicated on my own computers
 and can be republished anywhere else in minutes.
-I firmly believe that people should own their own data.
+I firmly believe that people should own their personal data.
 
 ### Contact
 
