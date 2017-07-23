@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2017-07-22.
+footer: Published on 2016-08-17, last edited on 2017-07-24.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -340,7 +340,7 @@ where this blog is published, now owns my CV.
 There is a clear difference:
 the data is replicated on my own computers
 and can be republished anywhere else in minutes.
-I firmly believe that people should own their personal data.
+I believe that people should own their personal data.
 
 ### Contact
 
