@@ -22,10 +22,9 @@ specialized in scalability and DevOps.
 I have 20 years of professional experience related to software development.
 Bear with me while we go over them,
 in reverse chronological time as is customary.
-
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
-format: is 2016-08 is August 2016.
+format: 2016-08 is August 2016.
 
 ### 2013-01 to Present: MediaSmart Mobile
 
