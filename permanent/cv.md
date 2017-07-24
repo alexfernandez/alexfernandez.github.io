@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2017-07-24.
+footer: Published on 2016-08-17, last edited on 2017-07-26.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -26,9 +26,9 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2013-01 to Present: MediaSmart Mobile
+### 2013-01 to Present: mediasmart.io
 
-Since the beginning of 2013 I work full time for [MediaSmart Mobile](http://mediasmart.es/),
+Since the beginning of 2013 I work full time for [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
 Before I joined the company was facing major scalability challenges
 and I could not reject the offer.
