@@ -226,8 +226,9 @@ We have run a couple of editions of
 
 Lately I have given a couple of workshops at
 [AdaLab](http://adalab.es/),
-a bootcamp specifically for women wanting to work in software development.
-It has been a great experience seeing people so motivated!
+a bootcamp specifically for females wanting to work in software development.
+It has been a great experience to see people so motivated!
+These brave women are going to be a force to reckon in our national industry.
 
 ## Education
 
