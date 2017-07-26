@@ -204,7 +204,7 @@ I like to give
 every once in a while.
 I consider them to be volunteer work since I am not paid,
 although I get to attend amazing conferences.
-They are an excellent opportunity to learn how to speak in public
+They are excellent opportunities to learn how to speak in public
 and meet interesting people.
 
 ### Organizations
