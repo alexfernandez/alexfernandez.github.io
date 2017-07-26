@@ -238,7 +238,7 @@ I wrote stupid BASIC programs on paper
 and run to the house of my friend
 [Carlos](https://twitter.com/zuiko21),
 who owned a ZX Spectrum,
-to enter them and run them.
+to type and run them.
 When I got my own Amstrad CPC 6128 a couple of years later
 I wrote a lot of programs in the included BASIC interpreter,
 and even some using Z80 assembler.
