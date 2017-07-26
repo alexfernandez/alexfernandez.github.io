@@ -283,7 +283,7 @@ since 2000 when I was sent to Morocco to train new programmers for IECISA.
 I have participated in several editions of
 [IronHack](https://www.ironhack.com/),
 and in two web bootcamps (2014 and 2015)
-I was responsible the main JavaScript teacher.
+I was the main JavaScript teacher.
 
 I have also recorded several online courses,
 and taught a few face-to-face courses too.
