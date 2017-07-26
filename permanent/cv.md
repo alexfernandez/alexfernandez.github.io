@@ -241,7 +241,7 @@ who owned a ZX Spectrum,
 to type and run them.
 When I got my own Amstrad CPC 6128 a couple of years later
 I wrote a lot of programs in the included BASIC interpreter,
-and even some using Z80 assembler.
+and later a few more using Z80 assembler.
 
 ### University
 
