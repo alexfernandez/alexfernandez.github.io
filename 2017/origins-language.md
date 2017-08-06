@@ -39,11 +39,11 @@ who wrote endless sentences and often forgot to finish them
 A very basic criteria of a language era must be
 how many different words can be uttered.
 
-### A Timeline Proposal
+## A Timeline Proposal
 
 With this data in mind we can create the following timeline.
 
-#### Individual Sounds
+### Individual Sounds
 
 Our most remote ancestors must have communicated using sounds.
 Many animals use distinct vocal utterances to express different meanings.
@@ -53,7 +53,7 @@ Elements include: pitch, volume and articulation
 At this point we cannot yet speak about words,
 since there is no language system.
 
-#### Single Consonants
+### Single Consonants
 
 The first organization of language must have involved single consonants.
 
@@ -73,7 +73,7 @@ The number of simple, distinct sounds that can be uttered separately,
 without combining with others and without significant mixing,
 is limited.
 
-#### The Syllabic Era
+### The Syllabic Era
 
 At some point early humans must have learned to combine several sounds
 into one syllable.
@@ -93,10 +93,48 @@ There are many possible variations, that can often be seen in modern use:
 
 * Add vowels.
 * Increase the number of consonants.
-* Add different tones.
-* Add different contours, as in Chinese.
+* Add clicks.
+[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
+([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
+* Add different tones, as in
+[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
+such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
+([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
+* Add different contours, as in Chinese
+([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
+* Combine multiple syllables into words,
+as in most languages in the world.
 
-#### Vowels
+The fact that all of these mechanisms are so different
+are a testimony that they must have been developed separately.
+This is only possible if they happened after _Homo Sapiens_ left Africa,
+around 50,000 ~ 100,000 years ago.
+After that point these mechanisms developed regionally:
+tonal languages in Africa,
+contours in Southern Asia
+and so on.
+
+We can therefore conclude that all languages were monosyllabic
+until no later than 100,000 years ago.
+
+There is a small problem with this date.
+When _Homo Sapiens_ left Africa,
+there was already a large population of Neanderthals
+occupying Europe and Asia.
+
+Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
+even if there is now ample evidence that both groups could interbreed.
+They should thus be classified as two different subspecies inside _Homo Sapiens_,
+as many scientists have advocated for decades.
+
+So it is reasonable to think that these same Neanderthals
+might have their own languages,
+which influenced the newcomers.
+It has been proposed that languages in North America and Siberia
+[share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
+the separation happened 15,000 years ago.
+
+### Vowels
 
 Consonants cannot properly exist until vowels become
 first-class citizens.
@@ -123,7 +161,7 @@ which would mean that the variants
 _ta_, _ti_ or _tu_ are in fact the same word.
 It is also possible that speakers use always a single neutral vowel.
 
-#### Polysyllabic Words
+### Polysyllabic Words
 
 From the moment that languages have vowels
 
@@ -131,7 +169,16 @@ Arab and other semitic languages have
 [triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
 consisting of three consonants.
 
-### Alternative Timelines
+## Alternative Timelines
+
+### Recent Origin
+
+Many scholars support a much later date for the appearance of language,
+[around 100,000 years ago](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
+It is known that
+[Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
+which is probably enough to discard this timeline:
+this curious bone is used in speech for articulation.
 
 ## Sources Of Evidence
 
