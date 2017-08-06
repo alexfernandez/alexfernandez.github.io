@@ -83,12 +83,15 @@ and are therefore modern constructions.
 
 The number of simple sounds has probably increased with time.
 
-It is hard to see how a language of this kind could work.
-But there is a definite advantage for hominids that can combine simple meanings
-into one coherent whole.
+There must have been a definite advantage for hominids that can combine simple meanings
+into one coherent whole,
+as compared with those that could only emit separate sounds.
+Group coordination become possible without having to see each other.
+Still, it is hard to see how a language of this kind could work.
+In the appendix we have an example of single-consonant language.
 
 At which point in time did this era start?
-Being so far back in time.
+Being so far back in time it is not .
 
 ### The Syllabic Era
 
@@ -236,3 +239,6 @@ it will be possible to study how people without it
 Genetics may thus serve as empirical proof of the timeline
 that has been sketched in this article.
 
+## Appendix: Single-Consonant Language
+
+It becomes much easier to visualize
