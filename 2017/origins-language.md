@@ -38,6 +38,7 @@ who wrote endless sentences and often forgot to finish them
 
 A very basic criteria of a language era must be
 how many different words can be uttered.
+The informational content of 
 
 ## A Timeline Proposal
 
@@ -52,12 +53,23 @@ Elements include: pitch, volume and articulation
 
 At this point we cannot yet speak about words,
 since there is no language system.
+Each sound is uttered individually,
+making its own "sentence".
+Of course,
+where there are no words there can be no proper sentences.
 
 ### Single Consonants
 
 The first organization of language must have involved single consonants.
+At this point these consonants can be combined into sentences,
+making them basic building elements in a very simplistic sentences.
 
 The problem of single consonants is that there are not many of them.
+The number of simple, distinct sounds that can be uttered separately,
+without combining with others and without significant mixing,
+is limited.
+This number has probably changed with time.
+
 Modern languages can have as much as
 87 consonants for [Taa](https://en.wikipedia.org/wiki/Taa_language),
 about 80 for
@@ -69,9 +81,14 @@ since many of these modern consonants are combinations of simple sounds.
 These combinations are most probably evolved from groupings,
 and are therefore modern constructions.
 
-The number of simple, distinct sounds that can be uttered separately,
-without combining with others and without significant mixing,
-is limited.
+The number of simple sounds has probably increased with time.
+
+It is hard to see how a language of this kind could work.
+But there is a definite advantage for hominids that can combine simple meanings
+into one coherent whole.
+
+At which point in time did this era start?
+Being so far back in time.
 
 ### The Syllabic Era
 
@@ -115,21 +132,21 @@ contours in Southern Asia
 and so on.
 
 We can therefore conclude that all languages were monosyllabic
-until no later than 100,000 years ago.
+at least until 100,000 years ago.
 
 There is a small problem with this date.
 When _Homo Sapiens_ left Africa,
 there was already a large population of Neanderthals
 occupying Europe and Asia.
-
-Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
-even if there is now ample evidence that both groups could interbreed.
-They should thus be classified as two different subspecies inside _Homo Sapiens_,
-as many scientists have advocated for decades.
-
 So it is reasonable to think that these same Neanderthals
 might have their own languages,
 which influenced the newcomers.
+
+Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
+even if there is now ample evidence that both groups could and did interbred.
+They should thus be classified as two different subspecies inside _Homo Sapiens_,
+as many scientists have advocated for decades.
+
 It has been proposed that languages in North America and Siberia
 [share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
 the separation happened 15,000 years ago.
