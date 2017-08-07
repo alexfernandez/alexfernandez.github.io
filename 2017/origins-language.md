@@ -77,8 +77,9 @@ Of course words in a sentence are not independent:
 'house' is much more likely to follow 'the' than 'far'.
 The actual number of bits per sentence is much lower.
 But this gross approximation is enough to show that that increasing vocabulary size
-yields great advances in communication,
+yields large advances in communication,
 up to a point.
+After around 1000 words gains are incrementally smaller.
 
 ## A Timeline Proposal
 
@@ -128,7 +129,7 @@ into one coherent whole,
 as compared with those that could only emit separate sounds.
 Group coordination become possible without having to see each other.
 Still, it is hard to see how a language of this kind could work.
-In the appendix we have an example of single-consonant language.
+In the appendix we have an example of a single-consonant language.
 
 At which point in time did this era start?
 Being so far back in time it is not easy to pinpoint.
@@ -143,6 +144,8 @@ But even such a simple language would also have been useful in foraging.
 At some point early humans must have learned to combine several sounds
 into one syllable.
 This great invention extends the range of possible words at least by an order of magnitude.
+Considering the simplest structure of two consonants,
+the number of words would be the square of the number of consonants.
 
 At what point in history did this happen?
 
@@ -245,6 +248,19 @@ It is known that
 which is probably enough to discard this timeline:
 this curious bone is used in speech for articulation.
 
+### Earlier Introduction Of Vowels
+
+The choice of early words consisting of two consonants
+may seem arbitrary.
+It is very well possible that vowels were introduced earlier,
+perhaps with the first syllables.
+Words might consist of one consonant plus one vowel;
+just adding three vowels to a 12-consonant language
+would extend the number of words from 12 to 36.
+
+But there is some evidence supporting the late appearance of vowels.
+For one, [García Calvo][garcia-calvo] makes the argument that 
+
 ## Sources Of Evidence
 
 Language does not fossilize.
@@ -288,6 +304,9 @@ that has been sketched in this article.
 
 It becomes much easier to visualize a language type with an example.
 We will call this hypothetical primitive language 'Singlecon'.
+
+### Vocabulary
+
 In Singlecon we only have 12 words:
 
 * one preposition: 'to',
@@ -296,7 +315,9 @@ In Singlecon we only have 12 words:
 * two numerals that double as pronouns: 'one' (or 'me') and 'two' (or 'you'),
 * and six adverbs: 'down', 'up', 'here', 'near', 'out' and 'far'.
 
-Note that there are no words with meaning: nouns, verbs or adjectives.
+Note that there are no content words: nouns, verbs or adjectives.
+
+### Samples
 
 A few sentences in Singlecon follow.
 They show the value of combining words for a group of foragers or hunters.
@@ -314,6 +335,8 @@ The objective is near but they need to go down.
 * 'much much.'
 There is a lot of what the speaker is seeking.
 
+### Grammar
+
 Even with such a simple language a grammar would be needed,
 to convey different meanings depending on the combination.
 For instance, 'near much' would mean that the objective is very near,
@@ -321,9 +344,16 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 
 ## References
 
-* Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults. _Psychology and Aging_, 16, 312-322.
+* Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
+_Psychology and Aging_, 16, 312-322.
 [Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
 [PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
-* Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005). A crosslinguistic study of the relationship between grammar and lexical development. Journal of Child Language, 32(4), 759-786.
+* Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
+A crosslinguistic study of the relationship between grammar and lexical development.
+_Journal of Child Language_, 32(4), 759-786.
 [PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
+* [garcia-calvo]: García Calvo, A (2003).
+~Es~ Estudio de Gramática Prehistórica (Spanish).
+Ed. Lucina.
+[Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
 
