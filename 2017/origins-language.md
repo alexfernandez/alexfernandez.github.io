@@ -36,9 +36,49 @@ who wrote endless sentences and often forgot to finish them
 
 ### Number Of Words
 
-A very basic criteria of a language era must be
+A very basic criteria that describes a language era is
 how many different words can be uttered.
-The informational content of 
+The informational content of a sentence depends largely
+on the number of different meanings that can be conveyed,
+and on the number of words per sentence.
+
+We can estimate the average number of words per sentence using MLU,
+Mean Length of Utterance.
+Kemper & Sumner estimate that young adults have a MLU of around 12 ± 4.
+With a vocabulary of around 10k words,
+following a Zipf distribution,
+each word would carry around 10 bits of information.
+Therefore a typical adult sentence might carry 120 bits of information,
+if all words were independent.
+
+What happens with smaller vocabularies?
+Devescovi _et al_ estimate that children with a vocabulary of 101-200 words
+have a MLU of around 3 words.
+200 words following a Zipf distribution would carry around 6 bits per word,
+yielding a total of 18 bits per sentence.
+Similarly, 400 words would have a MLU of around 4 words,
+which at 6.5 bits per word would yield 26 bits per sentence.
+1000 words are outside their range of study,
+but a MLU of 10 words seems a reasonable extrapolation;
+at 7.5 bits per word each sentence would reach 75 bits.
+On the lower range, a vocabulary of 12 words might have a MLU of 2,
+which combined with 3 bits per word yields 6 bits per sentence.
+The following table summarizes these estimations.
+
+|Vocabulary	size|MLU	|Bits per word	|Bits per sentence	|
+|---	|---	|---	|---	|
+|12	|2	|3	|6	|
+|200	|3	|6	|18	|
+|400	|4	|6.5	|26	|
+|1000	|10	|7.5	|75	|
+|10k	|12	|10	|120	|
+
+Of course words in a sentence are not independent:
+'house' is much more likely to follow 'the' than 'far'.
+The actual number of bits per sentence is much lower.
+But this gross approximation is enough to show that that increasing vocabulary size
+yields great advances in communication,
+up to a point.
 
 ## A Timeline Proposal
 
@@ -63,13 +103,13 @@ where there are no words there can be no proper sentences.
 The first organization of language must have involved single consonants.
 At this point these consonants can be combined into sentences,
 making them basic building elements in a very simplistic sentences.
+To combine simple elements they must have been words without meaning:
+prepositions, negations, pronouns, quantifiers and adverbs.
 
 The problem of single consonants is that there are not many of them.
 The number of simple, distinct sounds that can be uttered separately,
 without combining with others and without significant mixing,
 is limited.
-This number has probably changed with time.
-
 Modern languages can have as much as
 87 consonants for [Taa](https://en.wikipedia.org/wiki/Taa_language),
 about 80 for
@@ -81,9 +121,9 @@ since many of these modern consonants are combinations of simple sounds.
 These combinations are most probably evolved from groupings,
 and are therefore modern constructions.
 
-The number of simple sounds has probably increased with time.
+The number of consonants has probably increased with time.
 
-There must have been a definite advantage for hominids that can combine simple meanings
+There must have been a definite advantage for hominins that can combine simple meanings
 into one coherent whole,
 as compared with those that could only emit separate sounds.
 Group coordination become possible without having to see each other.
@@ -91,7 +131,12 @@ Still, it is hard to see how a language of this kind could work.
 In the appendix we have an example of single-consonant language.
 
 At which point in time did this era start?
-Being so far back in time it is not .
+Being so far back in time it is not easy to pinpoint.
+The advantage of group coordination would definitely have been greater
+when humans started to hunt in groups,
+which may have been
+[around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
+But even such a simple language would also have been useful in foraging.
 
 ### The Syllabic Era
 
@@ -241,4 +286,44 @@ that has been sketched in this article.
 
 ## Appendix: Single-Consonant Language
 
-It becomes much easier to visualize
+It becomes much easier to visualize a language type with an example.
+We will call this hypothetical primitive language 'Singlecon'.
+In Singlecon we only have 12 words:
+
+* one preposition: 'to',
+* one negation: 'no',
+* two non-numeral quantifiers: 'much' and 'little',
+* two numerals that double as pronouns: 'one' (or 'me') and 'two' (or 'you'),
+* and six adverbs: 'down', 'up', 'here', 'near', 'out' and 'far'.
+
+Note that there are no words with meaning: nouns, verbs or adjectives.
+
+A few sentences in Singlecon follow.
+They show the value of combining words for a group of foragers or hunters.
+
+* 'one here. two out.'
+The speaker will remain here while the listener goes away.
+* 'one to. two here.'
+The speaker will go to the objective;
+the listener must stay here.
+* 'much up. little here.'
+There is a large quantity of what the speaker is seeking going up,
+while there is little to be found here.
+* 'near down.'
+The objective is near but they need to go down.
+* 'much much.'
+There is a lot of what the speaker is seeking.
+
+Even with such a simple language a grammar would be needed,
+to convey different meanings depending on the combination.
+For instance, 'near much' would mean that the objective is very near,
+while 'much near' would mean that there is a lot of what the speaker is seeking nearby.
+
+## References
+
+* Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults. _Psychology and Aging_, 16, 312-322.
+[Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
+[PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
+* Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005). A crosslinguistic study of the relationship between grammar and lexical development. Journal of Child Language, 32(4), 759-786.
+[PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
+
