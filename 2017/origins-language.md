@@ -53,9 +53,9 @@ if all words were independent.
 
 What happens with smaller vocabularies?
 Devescovi _et al_ estimate that children with a vocabulary of 101-200 words
-have a MLU of around 3 words.
+have a MLU of around 3.5 words.
 200 words following a Zipf distribution would carry around 6 bits per word,
-yielding a total of 18 bits per sentence.
+yielding a total of 21 bits per sentence.
 Similarly, 400 words would have a MLU of around 4 words,
 which at 6.5 bits per word would yield 26 bits per sentence.
 1000 words are outside their range of study,
@@ -71,7 +71,7 @@ The following table summarizes these estimations.
 |---	|---	|---	|---	|
 |12	|2	|3	|6	|
 |100	|3	|5.3	|16	|
-|200	|3	|6	|18	|
+|200	|3.5	|6	|21	|
 |400	|4	|6.5	|26	|
 |1000	|10	|7.5	|75	|
 |10k	|12	|10	|120	|
