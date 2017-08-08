@@ -146,7 +146,7 @@ An educated guess might thus be that a million years ago
 (i.e. during the reign of _Homo Erectus_)
 hominins could profer single consonants and combine them into simple sentences.
 
-### The Syllabic Era
+### The Monosyllabic Era
 
 At some point early humans must have learned to combine several sounds
 into one syllable.
@@ -164,7 +164,7 @@ What brought forward this advance?
 Calling syllables an _invention_ may very well misleading:
 it is very likely that both proferring and parsing syllables require adaptations in the brain.
 
-The syllabic era is still alive and well in many languages.
+The monosyllabic era is still alive and well in many languages.
 
 At what point in prehistory did this happen?
 The basic problem of a monosyllabic language is how to cram
@@ -232,6 +232,20 @@ which would mean that the variants
 _ta_, _ti_ or _tu_ are in fact the same word.
 It is also possible that speakers use always a single neutral vowel.
 
+Tracing the appearance of vowels in all languages
+is again a hard issue.
+
+García Calvo notes that Proto-Indoeuropean
+(PIE) already has vowels,
+while its archaic ancestor (called here AIE for short) didn't.
+Keep in mind that PIE is already a modern language
+with suffixes, pronouns and conjugation.
+It was supposedly spoken around 7000 years ago,
+which is very close to historic times in many places of the world.
+A guess about rate of language change would perhaps allow dating
+AIE.
+
+
 ### Polysyllabic Words
 
 From the moment that languages have vowels
@@ -243,6 +257,9 @@ It looks like a straightforward extension
 of the two-consonant syllables seen above.
 
 ## Alternative Timelines
+
+There are a number of possible objections
+that can be raised about this timeline.
 
 ### Recent Origin
 
@@ -316,10 +333,18 @@ or are they just pretty arrangements?
 
 Indoeuropean is the most famous and studied archaic language.
 
+Rate of linguistic change is hard to estimate.
+In historical times languages have varied 
+[Nettle](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf)
+argues that languages change faster in small populations.
+Here we argue exactly the opposite view:
+that languages with few speakers evolve slowly.
+
 ### Genetics
 
 There are many genes responsible for speech.
 [?]()
+[FOXP2](https://en.wikipedia.org/wiki/FOXP2).
 It is likely that we will be able to trace evolution of speech
 by following how these genes have evolved.
 
@@ -330,6 +355,7 @@ affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
 it will be possible to study how people without it
 (or with a non-functional variant) communicate.
+[A family](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
 
 Genetics may thus serve as empirical proof of the timeline
 that has been sketched in this article.
@@ -349,7 +375,8 @@ In Singlecon we only have 12 words:
 * two numerals that double as pronouns: 'one' (or 'me') and 'two' (or 'you'),
 * and six adverbs: 'down', 'up', 'here', 'near', 'out' and 'far'.
 
-Note that there are no content words: nouns, verbs or adjectives.
+Note that the language consists only of particles.
+There are no content words: nouns, verbs or adjectives.
 
 ### Samples
 
