@@ -104,8 +104,9 @@ where there are no words there can be no proper sentences.
 The first organization of language must have involved single consonants.
 At this point these consonants can be combined into sentences,
 making them basic building elements in a very simplistic sentences.
-To combine simple elements they must have been words without meaning:
+To combine simple elements they must have been only function words:
 prepositions, negations, pronouns, quantifiers and adverbs.
+There can be no content words: nouns, adjectives or verbs.
 
 The problem of single consonants is that there are not many of them.
 The number of simple, distinct sounds that can be uttered separately,
@@ -375,7 +376,7 @@ In Singlecon we only have 12 words:
 * two numerals that double as pronouns: 'one' (or 'me') and 'two' (or 'you'),
 * and six adverbs: 'down', 'up', 'here', 'near', 'out' and 'far'.
 
-Note that the language consists only of particles.
+Note that the language consists only of function words.
 There are no content words: nouns, verbs or adjectives.
 
 ### Samples
