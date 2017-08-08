@@ -61,6 +61,8 @@ which at 6.5 bits per word would yield 26 bits per sentence.
 1000 words are outside their range of study,
 but a MLU of 10 words seems a reasonable extrapolation;
 at 7.5 bits per word each sentence would reach 75 bits.
+100 words correspond to a MLU of 3
+and 5.3 bits per word, or 16 bits per sentence.
 On the lower range, a vocabulary of 12 words might have a MLU of 2,
 which combined with 3 bits per word yields 6 bits per sentence.
 The following table summarizes these estimations.
@@ -68,6 +70,7 @@ The following table summarizes these estimations.
 |Vocabulary	size|MLU	|Bits per word	|Bits per sentence	|
 |---	|---	|---	|---	|
 |12	|2	|3	|6	|
+|100	|3	|5.3	|16	|
 |200	|3	|6	|18	|
 |400	|4	|6.5	|26	|
 |1000	|10	|7.5	|75	|
