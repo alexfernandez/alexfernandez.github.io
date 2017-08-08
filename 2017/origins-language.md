@@ -141,7 +141,7 @@ Group coordination become possible without having to see each other.
 Still, it is hard to see how a language of this kind could work.
 In the appendix we have an example of a single-consonant language.
 
-At which point in time did this era start?
+At which point in time did the era of single consonants start?
 Being so far back in time it is not easy to pinpoint.
 The advantage of group coordination would definitely have been greater
 when hominins started to hunt in groups,
@@ -174,9 +174,16 @@ adding 144 content words combining two consonants: 𝛫∅𝛫.
 What brought forward this advance?
 Calling syllables an _invention_ may very well misleading:
 it is very likely that both proferring and parsing syllables require adaptations in the brain.
+Probably the first words with two consonants were formed by
+common linguistic mechanisms:
+[compounding](https://en.wikipedia.org/wiki/Compound_(linguistics))
+and
+[reduplication](https://en.wikipedia.org/wiki/Reduplication)
+of function words.
+The appendix has a
+[hypothetical monosyllabic language](#doublecon).
 
 The monosyllabic era is still alive and well in many languages.
-
 
 Our reasonable guess for the monosyllabic era is that
 it overlapped largely with the emergence of _Homo Sapiens_,
@@ -282,9 +289,9 @@ It looks like a straightforward extension
 of the two-consonant syllables seen above.
 
 A language with 12 consonants and three vowels
-combinations of up to three consonants
-would have 1728 words of the form 𝛫∅𝛫∅𝛫,
-which added to 144 𝛫∅𝛫 and 12 𝛫 yield a total of 1884 words.
+allows combinations:
+12 𝛫, 444 𝛫𝛢𝛫, and 15552 𝛫𝛢𝛫𝛢𝛫,
+for a total of 16008 combinations.
 Again we gain an order of magnitude over monosyllabic words.
 
 At what point did polysyllabic words arise?
@@ -292,6 +299,8 @@ At what point did polysyllabic words arise?
 appearance right before the Neolithic.
 
 [Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
+[Became polysyllabic about 3000 years ago](https://en.wikipedia.org/wiki/Old_Chinese).
+Probably as the necessity arose.
 
 ## Alternative Timelines
 
@@ -340,8 +349,6 @@ perhaps with the first syllables.
 Words might consist of one consonant plus one vowel;
 just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
-Words consisting of consonant + vowel + consonant
-would increase the number of possibilities to 432.
 
 But there is some evidence supporting the late appearance of vowels.
 García Calvo makes the argument that prehistoric Indo-European
@@ -397,48 +404,107 @@ it will be possible to study how people without it
 Genetics may thus serve as empirical proof of the timeline
 that has been sketched in this article.
 
-## Appendix: Single-Consonant Language
+## Appendix
 
-It becomes much easier to visualize a language type with an example.
+It becomes much easier to visualize language types with examples.
+In the appendix we will explore several hypothetical languages
+to illustrate the different eras of language evolution.
+
+### Singlecon
+
+The first language has just words that consist of a single consonant.
 We will call this hypothetical primitive language 'Singlecon'.
 
-### Vocabulary
+#### Vocabulary
 
-In Singlecon we only have 12 words:
+In Singlecon we only have 12 words,
+that correspond with the 12 consonants:
 
-* one preposition: 'to',
-* one negation: 'no',
-* two non-numeral quantifiers: 'much' and 'little',
-* two numerals that double as pronouns: 'one' (or 'me') and 'two' (or 'you'),
-* and six adverbs: 'down', 'up', 'here', 'near', 'out' and 'far'.
+* one preposition: 'to' ('R'),
+* one negation: 'no' ('P'),
+* two non-numeral quantifiers: 'much' ('K') and 'little' ('D'),
+* two numerals that double as pronouns: 'one' or 'me' ('V') and 'two' or 'you' ('N'),
+* and six adverbs: 'down' ('L'), 'up' ('S'), 'here' ('M'),
+'near' ('T'), 'out' ('H') and 'far' ('F').
 
 Note that the language consists only of function words.
 There are no content words: nouns, verbs or adjectives.
 
-### Samples
+#### Samples
 
 A few sentences in Singlecon follow.
 They show the value of combining words for a group of foragers or hunters.
 
-* 'one here. two out.'
-The speaker will remain here while the listener goes away.
-* 'one to. two here.'
-The speaker will go to the objective;
+* 'V M. N H.'
+Means 'one here. two out.':
+the speaker will remain here while the listener goes away.
+* 'V R. N M.'
+Means 'one to. two here.':
+the speaker will go to the objective;
 the listener must stay here.
-* 'much up. little here.'
-There is a large quantity of what the speaker is seeking going up,
+* 'K S. D M.'
+Means 'much up. little here.':
+there is a large quantity of what the speaker is seeking going up,
 while there is little to be found here.
-* 'near down.'
-The objective is near but they need to go down.
-* 'much much.'
-There is a lot of what the speaker is seeking.
+* 'T L.'
+'near down.':
+the objective is near but they need to go down.
+* 'K K'.
+Means 'much much.':
+there is a lot of what the speaker is seeking.
 
-### Grammar
+#### Grammar
 
 Even with such a simple language a grammar would be needed,
 to convey different meanings depending on the combination.
 For instance, 'near much' would mean that the objective is very near,
 while 'much near' would mean that there is a lot of what the speaker is seeking nearby.
+
+## Doublecon
+
+Our next language is an evolution of Singlecon
+that allows for monosyllabic words with two consonants and a schwa.
+It still keeps single-consonant function words,
+while the new combinations are content words.
+We will call it Doublecon.
+
+### Vocabulary
+
+Doublecon has a maximum of 144 content words,
+that can work as nouns, verbs or adjectives depending on the situation.
+Words are formed with two consonants by
+reduplication and composition.
+
+* The combination of 'down' ('L') and 'to' ('R') is 'L∅R'
+and refers to something that moves on the ground
+such as a small animal.
+* 'up' ('S') with 'to' ('S∅R') is a big animal.
+* The combination of 'near' ('T') and 'much' ('K'), 'T∅K',
+represents 'family'.
+* 'near' ('T') combined with itself is 'T∅T'
+which means 'good'.
+
+### Samples
+
+A few sentences in Doublecon follow.
+
+* 'T∅K M': 'family here',
+the family has arrived.
+* 'V R S∅R. N M.':
+'me to big animal. you here.',
+I will go to the big animals, you stay here.
+* 'S∅R K S.': 'big animal much up',
+there is much big game going up.
+
+Note that it is very important to distinguish between
+two single-consonant words and one syllable:
+'S R' from 'S∅R'.
+In the first case there is a small pause between
+both utterances, while in the second the schwa provides vocal continuity.
+
+### Grammar
+
+A simplistic grammar is needed to combine content and function words.
 
 ## References
 
