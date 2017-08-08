@@ -324,7 +324,7 @@ It is likely that we will be able to trace evolution of speech
 by following how these genes have evolved.
 
 Another important area of study is speech disorders.
-The best way to learn how a machine works is by studying its failure modes.
+The best way to learn how a machine works is often watching how it malfunctions.
 Similarly, it is now possible to study how defects in individual genes
 affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
