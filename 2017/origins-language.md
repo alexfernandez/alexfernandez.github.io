@@ -123,6 +123,10 @@ These combinations are most probably evolved from groupings,
 and are therefore modern constructions.
 
 The number of consonants has probably increased with time.
+We can choose any number from 10 to 20 or so,
+with the reasonable assurance
+that at some point in time humans could only profer that number of words.
+A value of 12 seems certainly achievable.
 
 There must have been a definite advantage for hominins that can combine simple meanings
 into one coherent whole,
@@ -134,27 +138,35 @@ In the appendix we have an example of a single-consonant language.
 At which point in time did this era start?
 Being so far back in time it is not easy to pinpoint.
 The advantage of group coordination would definitely have been greater
-when humans started to hunt in groups,
+when hominins started to hunt in groups,
 which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
 But even such a simple language would also have been useful in foraging.
+An educated guess might thus be that a million years ago
+(i.e. during the reign of _Homo Erectus_)
+hominins could profer single consonants and combine them into simple sentences.
 
 ### The Syllabic Era
 
 At some point early humans must have learned to combine several sounds
 into one syllable.
-This great invention extends the range of possible words at least by an order of magnitude.
+This great advance extends the range of possible words at least by an order of magnitude.
 Considering the simplest structure of two consonants,
 the number of words would be the square of the number of consonants.
+A pair of 12 consonants would thus yield 144 combinations.
 
-At what point in history did this happen?
+Some kind of vowel must link the two consonants together,
+to mark syllable boundaries and
+to distinguish a syllable from two single consonants.
+It can be a schwa or a non-grammatical vowel.
 
 What brought forward this advance?
 Calling syllables an _invention_ may very well misleading:
-it is very likely that syllables require adaptations in the brain.
+it is very likely that both proferring and parsing syllables require adaptations in the brain.
 
 The syllabic era is still alive and well in many languages.
 
+At what point in prehistory did this happen?
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
 There are many possible variations, that can often be seen in modern use:
@@ -185,29 +197,20 @@ and so on.
 We can therefore conclude that all languages were monosyllabic
 at least until 100,000 years ago.
 
-There is a small problem with this date.
-When _Homo Sapiens_ left Africa,
-there was already a large population of Neanderthals
-occupying Europe and Asia.
-So it is reasonable to think that these same Neanderthals
-might have their own languages,
-which influenced the newcomers.
+Our reasonable guess for the monosyllabic era is that
+it overlapped largely with the emergence of _Homo Sapiens_,
+with only minute differences between African and Neanderthal variations.
 
-Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
-even if there is now ample evidence that both groups could and did interbred.
-They should thus be classified as two different subspecies inside _Homo Sapiens_,
-as many scientists have advocated for decades.
-
-It has been proposed that languages in North America and Siberia
-[share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
-the separation happened 15,000 years ago.
+It is very tempting to imagine how different populations
+geographically separated
+might communicate between them.
 
 ### Vowels
 
 Consonants cannot properly exist until vowels become
 first-class citizens.
 
-The invention of vowels may have happened several times throughout prehistory.
+The appearance of vowels may have happened several times throughout prehistory.
 Many of the first written languages only wrote consonants (?).
 
 The
@@ -236,6 +239,8 @@ From the moment that languages have vowels
 Arab and other semitic languages have
 [triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
 consisting of three consonants.
+It looks like a straightforward extension
+of the two-consonant syllables seen above.
 
 ## Alternative Timelines
 
@@ -248,6 +253,30 @@ It is known that
 which is probably enough to discard this timeline:
 this curious bone is used in speech for articulation.
 
+### Earlier Monosyllabic Era
+
+Our estimation for the monosyllabic era
+is from 200k to 100k years ago,
+due to the divergence of schemes to extend it
+across the world.
+
+There is a small problem with these dates.
+When _Homo Sapiens_ left Africa,
+there was already a large population of Neanderthals
+occupying Europe and Asia.
+So it is reasonable to think that these same Neanderthals
+might have their own languages,
+which influenced the newcomers.
+
+Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
+even if there is now ample evidence that both groups could and did interbred.
+They should thus be classified as two different subspecies inside _Homo Sapiens_,
+as many scientists have advocated for decades.
+
+It has been proposed that languages in North America and Siberia
+[share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
+the separation happened 15,000 years ago.
+
 ### Earlier Introduction Of Vowels
 
 The choice of early words consisting of two consonants
@@ -257,9 +286,14 @@ perhaps with the first syllables.
 Words might consist of one consonant plus one vowel;
 just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
+Words consisting of consonant + vowel + consonant
+would increase the number of possibilities to 432.
 
 But there is some evidence supporting the late appearance of vowels.
-For one, [García Calvo][garcia-calvo] makes the argument that 
+García Calvo makes the argument that prehistoric Indo-European
+in its earliest incarnation had no vowels:
+just non-content words with a single consonant,
+and content words consisting of two juxtaposed consonants.
 
 ## Sources Of Evidence
 
@@ -352,7 +386,7 @@ _Psychology and Aging_, 16, 312-322.
 A crosslinguistic study of the relationship between grammar and lexical development.
 _Journal of Child Language_, 32(4), 759-786.
 [PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
-* [garcia-calvo]: García Calvo, A (2003).
+* García Calvo, A (2003).
 ~Es~ Estudio de Gramática Prehistórica (Spanish).
 Ed. Lucina.
 [Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
