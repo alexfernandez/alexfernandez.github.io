@@ -34,7 +34,7 @@ Subordinate sentences were pretty new to Herodotus,
 who wrote endless sentences and often forgot to finish them
 (technically: [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
 
-### Number Of Words
+### Number Of Words And Information Content
 
 A very basic criteria that describes a language era is
 how many different words can be uttered.
@@ -75,11 +75,15 @@ The following table summarizes these estimations.
 
 Of course words in a sentence are not independent:
 'house' is much more likely to follow 'the' than 'far'.
-The actual number of bits per sentence is much lower.
+The actual number of bits per sentence is thus much lower than represented.
 But this gross approximation is enough to show that that increasing vocabulary size
 yields large advances in communication,
 up to a point.
 After around 1000 words gains are incrementally smaller.
+
+In fact, information content would grow even more slowly with vocabulary size,
+when considering redundancy in sentences.
+Particles and other function words are highly redundant.
 
 ## A Timeline Proposal
 
@@ -163,7 +167,9 @@ It can be a schwa or a non-grammatical vowel.
 We will use the symbol ∅ (empty set) to represent a vocalic separator.
 A syllable in a monosyllabic language can be either
 𝛫∅𝛫 or 𝛫.
-A language with 12 consonants would thus yield 144 + 12 = 156 combinations.
+Such a language might preserve the original one-consonant functions words 𝛫,
+adding 144 content words combining two consonants: 𝛫∅𝛫.
+12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this advance?
 Calling syllables an _invention_ may very well misleading:
@@ -171,36 +177,6 @@ it is very likely that both proferring and parsing syllables require adaptations
 
 The monosyllabic era is still alive and well in many languages.
 
-At what point in prehistory did this happen?
-The basic problem of a monosyllabic language is how to cram
-a large number of words into a single syllable.
-There are many possible variations, that can often be seen in modern use:
-
-* Add vowels.
-* Increase the number of consonants.
-* Add clicks.
-[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
-([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
-* Add different tones, as in
-[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
-such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
-([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
-* Add different contours, as in Chinese
-([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
-* Combine multiple syllables into words,
-as in most languages in the world.
-
-The fact that all of these mechanisms are so different
-are a testimony that they must have been developed separately.
-This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 50,000 ~ 100,000 years ago.
-After that point these mechanisms developed regionally:
-tonal languages in Africa,
-contours in Southern Asia
-and so on.
-
-We can therefore conclude that all languages were monosyllabic
-at least until 100,000 years ago.
 
 Our reasonable guess for the monosyllabic era is that
 it overlapped largely with the emergence of _Homo Sapiens_,
@@ -210,23 +186,24 @@ It is very tempting to imagine how different populations
 geographically separated
 might communicate between them.
 
-### Polysyllabic Words
-
-From the moment that languages have vowels
-
-Arab and other semitic languages have
-[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
-consisting of three consonants.
-It looks like a straightforward extension
-of the two-consonant syllables seen above.
-
 ### Vowels
 
 Consonants cannot properly exist until vowels become
 first-class citizens.
 
+With vowels the number of possible syllables grows a bit.
+A proper vowel is represented by the symbol 𝛢 (math Alpha).
+Let us suppose that there are three possible vowels.
+The number of combinations is now:
+consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
+plus the original 12 single-consonant function words 𝛫,
+for a total of 444 combinations.
+
 The appearance of vowels may have happened several times throughout prehistory.
 Many of the first written languages only wrote consonants (?).
+But almost all languages in the world have vowels,
+so that we can infer that their appearance happened before the last diaspora
+around 50k years ago.
 
 How do languages without vowels work?
 The
@@ -248,8 +225,41 @@ which would mean that the variants
 _ta_, _ti_ or _tu_ are in fact the same word.
 It is also possible that speakers use always a single neutral vowel.
 
+[Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
+[Vowel apophony](https://en.wikipedia.org/wiki/Apophony)
+
 Tracing the appearance of vowels in all languages
 is again a hard issue.
+At what point in prehistory did this happen?
+The basic problem of a monosyllabic language is how to cram
+a large number of words into a single syllable.
+There are many possible variations, that can often be seen in modern use:
+
+* Increase the number of consonants.
+* Add clicks.
+[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
+([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
+* Add different tones, as in
+[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
+such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
+([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
+* Add different contours, as in Chinese
+([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
+* Combine multiple syllables into words,
+as in most languages in the world.
+
+The fact that all of these mechanisms are so different
+are a testimony that they must have been developed separately.
+This is only possible if they happened after _Homo Sapiens_ left Africa,
+around 50,000 ~ 100,000 years ago.
+After that point these mechanisms developed regionally:
+tonal languages in Africa,
+contours in Southern Asia,
+syllables in Europe,
+and so on.
+
+We can therefore conclude that all languages were monosyllabic
+at least until 100,000 years ago.
 
 García Calvo notes that Proto-Indoeuropean
 (PIE) already has vowels,
@@ -260,6 +270,28 @@ It was supposedly spoken around 7000 years ago,
 which is very close to historic times in many places of the world.
 A guess about rate of language change would perhaps allow dating
 AIE.
+
+### Polysyllabic Words
+
+An immediate extension of two consonant words are three consonant words.
+
+Arab and other semitic languages have
+[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
+consisting of three consonants.
+It looks like a straightforward extension
+of the two-consonant syllables seen above.
+
+A language with 12 consonants and three vowels
+combinations of up to three consonants
+would have 1728 words of the form 𝛫∅𝛫∅𝛫,
+which added to 144 𝛫∅𝛫 and 12 𝛫 yield a total of 1884 words.
+Again we gain an order of magnitude over monosyllabic words.
+
+At what point did polysyllabic words arise?
+[Agmon](https://en.wikipedia.org/wiki/Semitic_root#CITEREFAgmon2010)
+appearance right before the Neolithic.
+
+[Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
 
 ## Alternative Timelines
 
