@@ -128,6 +128,7 @@ We can choose any number from 10 to 20 or so,
 with the reasonable assurance
 that at some point in time humans could only profer that number of words.
 A value of 12 seems certainly achievable.
+We will use the symbol 𝛫 (math Kappa) to represent a single consonant.
 
 There must have been a definite advantage for hominins that can combine simple meanings
 into one coherent whole,
@@ -154,12 +155,15 @@ into one syllable.
 This great advance extends the range of possible words at least by an order of magnitude.
 Considering the simplest structure of two consonants,
 the number of words would be the square of the number of consonants.
-A pair of 12 consonants would thus yield 144 combinations.
 
 Some kind of vowel must link the two consonants together,
 to mark syllable boundaries and
 to distinguish a syllable from two single consonants.
 It can be a schwa or a non-grammatical vowel.
+We will use the symbol ∅ (empty set) to represent a vocalic separator.
+A syllable in a monosyllabic language can be either
+𝛫∅𝛫 or 𝛫.
+A language with 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this advance?
 Calling syllables an _invention_ may very well misleading:
@@ -206,6 +210,16 @@ It is very tempting to imagine how different populations
 geographically separated
 might communicate between them.
 
+### Polysyllabic Words
+
+From the moment that languages have vowels
+
+Arab and other semitic languages have
+[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
+consisting of three consonants.
+It looks like a straightforward extension
+of the two-consonant syllables seen above.
+
 ### Vowels
 
 Consonants cannot properly exist until vowels become
@@ -214,6 +228,7 @@ first-class citizens.
 The appearance of vowels may have happened several times throughout prehistory.
 Many of the first written languages only wrote consonants (?).
 
+How do languages without vowels work?
 The
 [rhotic](https://en.wikipedia.org/wiki/Rhoticity_in_English)
 pronunciation of English omits vowels in many words.
@@ -245,17 +260,6 @@ It was supposedly spoken around 7000 years ago,
 which is very close to historic times in many places of the world.
 A guess about rate of language change would perhaps allow dating
 AIE.
-
-
-### Polysyllabic Words
-
-From the moment that languages have vowels
-
-Arab and other semitic languages have
-[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
-consisting of three consonants.
-It looks like a straightforward extension
-of the two-consonant syllables seen above.
 
 ## Alternative Timelines
 
