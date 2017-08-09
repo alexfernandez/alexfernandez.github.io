@@ -67,6 +67,11 @@ at 7.5 bits per word each sentence would reach 75 bits.
 and 5.3 bits per word, or 16 bits per sentence.
 On the lower range, a vocabulary of 12 words might have a MLU of 2,
 which combined with 3 bits per word yields 6 bits per sentence.
+
+Data from both studies is not necessarily compatible,
+as they use different definitions for MLU.
+Yet it is reasonable to expect that after a point,
+increasing the vocabulary does not entail a corresponding increase in sentence size.
 The following table summarizes these estimations.
 
 |Vocabulary	size|MLU	|Bits per word	|Bits per sentence	|
@@ -82,8 +87,8 @@ Of course words in a sentence are not independent:
 'house' is much more likely to follow 'the' than 'far'.
 The actual number of bits per sentence is thus much lower than represented.
 But this gross approximation is enough to show that that increasing vocabulary size
-yields large advances in communication,
-up to a point.
+initially yields large advances in communication,
+and then tapers off.
 After around 1000 words gains are incrementally smaller.
 
 In fact, information content would grow even more slowly with vocabulary size,
@@ -105,13 +110,18 @@ At this point we cannot yet speak about words,
 since there is no language system.
 Each sound is uttered individually,
 making its own "sentence".
-Of course,
-where there are no words there can be no proper sentences.
+Where there are no words there can be no proper sentences.
+And without words or sentences there is no "language" to speak about.
+
+Do animals have a grammar,
+i.e. do they combine different signs in a coherent whole?
+[No](http://www.alphadictionary.com/articles/ling002.html).
+[No](http://www.pnas.org/content/110/16/6324.full).
 
 ### Single Consonants
 
-The first organization of language must have involved single consonants.
-At this point these consonants can be combined into sentences,
+The first stage of language must have involved single consonants.
+At this point the noises from the fi se consonants can be combined into sentences,
 making them basic building elements in a very simplistic sentences.
 To combine simple elements they must have been only function words:
 prepositions, negations, pronouns, quantifiers and adverbs.
@@ -483,11 +493,18 @@ reduplication and composition.
 * The combination of 'down' ('L') and 'to' ('R') is 'L∅R'
 and refers to something that moves on the ground
 such as a small animal.
-* 'up' ('S') with 'to' ('S∅R') is a big animal.
-* The combination of 'near' ('T') and 'much' ('K'), 'T∅K',
+* 'up' ('S') + 'to' ('S∅R') is a big animal.
+* The combination of 'near' ('T') with 'much' ('K'), 'T∅K',
 represents 'family'.
 * 'near' ('T') combined with itself is 'T∅T'
 which means 'good'.
+* 'to' + 'down': 'R∅L', trail.
+
+Even when words are formed as compounds
+there is considerable arbitrariness in the process.
+The combination of 'down' with 'to' ('L∅R') is small animal,
+while 'to' + 'down' ('R∅L') is trail.
+It might perfectly be the other way around.
 
 ### Samples
 
