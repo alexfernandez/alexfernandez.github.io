@@ -51,10 +51,10 @@ each word would carry around 10 bits of information.
 Therefore a typical adult sentence might carry 120 bits of information,
 if all words were independent.
 
-![From Devescovi _et al_: _A crosslinguistic study…_](pics/origins-mlu.jpg "Devescovi _et al_: _A crosslinguistic study…_, source: https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf")
+![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
 
 What happens with smaller vocabularies?
-Devescovi _et al_ estimate that children with a vocabulary of 101-200 words
+Devescovi _et al_ (2005) estimate that children with a vocabulary of 101-200 words
 have a MLU of around 3.5 words.
 200 words following a Zipf distribution would carry around 6 bits per word,
 yielding a total of 21 bits per sentence.
