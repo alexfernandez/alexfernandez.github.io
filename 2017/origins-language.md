@@ -12,13 +12,13 @@ given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
 which in these unimaginative times is a showstopper for many.
-But there is an indirect approach that combines
-language reconstruction and information theory
-to arrive at a consistent evolution.
+But there are many indirect approaches which can give interesting answers.
 
-In this article we will explore how language originated and developed
-in prehistoric times.
-From beyond the mysts of time we will try to make reasoned conjectures.
+In this article we will explore how language originated and developed in prehistoric times,
+combining language reconstruction and information theory
+to arrive at a consistent pattern of evolution.
+From beyond the mysts of time we will try to make reasoned conjectures and verify them,
+or at least lay a path to future discovery.
 
 Note: I am neither a paleontologist nor a linguist,
 so treat this humble blog post as a hopefully interesting voyage.
