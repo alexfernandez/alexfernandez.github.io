@@ -7,11 +7,11 @@ footer: Published on 2017-08-06.
 
 ![](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
-The lack of modern speculation about prehistoric language is surprising,
+The scarcity of modern speculation about prehistoric language is surprising,
 given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
-The lack of direct evidence in these unimaginative times
-is the most probable reason.
+The most likely reason is lack of direct evidence,
+which in these unimaginative times is a showstopper for many.
 But there is an indirect approach that combines
 language reconstruction and information theory
 to arrive at a consistent evolution.
@@ -19,6 +19,9 @@ to arrive at a consistent evolution.
 In this article we will explore how language originated and developed
 in prehistoric times.
 From beyond the mysts of time we will try to make reasoned conjectures.
+
+Note: I am neither a paleontologist nor a linguist,
+so treat this humble blog post as a hopefully interesting voyage.
 
 ## The Eras Of Language
 
@@ -414,10 +417,16 @@ affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
 it will be possible to study how people without it
 (or with a non-functional variant) communicate.
-[A family](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
+[A disfunctional family](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
 
 Genetics may thus serve as empirical proof of the timeline
 that has been sketched in this article.
+
+### Previous Studies
+
+While not direct evidence,
+there is ample literature about the origins of language.
+[D. Smillie 1985: SOCIOBIOLOGY AND HUMAN CULTURE](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false)
 
 ## Appendix
 
