@@ -323,7 +323,7 @@ such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
 The fact that all of these mechanisms are so different
 are a testimony that they must have been developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 100,000 ~ 50,000 years ago.
+around 100,000 years ago (100 kya).
 After that point these mechanisms developed regionally:
 tonal languages in Africa,
 contours in Southern Asia,
@@ -331,7 +331,7 @@ clusters in Europe,
 and so on.
 
 We can therefore conclude that all languages were monosyllabic
-at least until 50,000 years ago.
+at least until 50 kya.
 
 ### Polysyllabic Words
 
@@ -367,7 +367,8 @@ that can be raised about this timeline.
 ### Recent Origin
 
 Many scholars support a much later date for the appearance of language,
-[around 100,000 years ago](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
+around 100 kya.
+See [Dediu _et al_](#8).
 It is known that
 [Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
 which is probably enough to discard this timeline:
@@ -520,7 +521,7 @@ for our hypothetical hominins.
 Again, this requires increasing the number of possible words.
 
 Another important use is training.
-Here too language can help to remove ambiguity.
+Here too language can help to **remove ambiguity**.
 Complex techniques require very precise movements,
 be they used for tool making, gathering food or hunting game.
 Language can be a powerful teaching aid.
@@ -535,8 +536,8 @@ There is only one species _Acacia karroo_ which is ideally suited,
 and the proportion of ochre must be adjusted depending on its iron content.
 This complex process carries a lot of ambiguity
 that has to be removed in the teaching process;
-training time would be unfeasibly long without verbal aids
-guiding the process.
+it is easy to imagine how training time would have been reduced substantially
+with verbal aids guiding the process.
 Given that there are archeological samples from at least 70 kya
 it seems that language must have been quite advanced by then.
 
@@ -678,4 +679,8 @@ _Brill's companion to Herodotus_. Brill.
 The origin of the Proto-Indo-European gender system: Typological considerations.
 _Folia linguistica_, 45(2), 435-463.
 [PDF](http://www.academia.edu/download/30873708/Gender_FoL.pdf).
+* #8: Dediu, D., & Levinson, S. C. (2013).
+On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
+_Frontiers in psychology_, 4.
+[Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
 
