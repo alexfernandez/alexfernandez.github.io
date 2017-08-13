@@ -1,27 +1,27 @@
 ---
 title: The Origins Of Language
-subtitle: 'A View From The Top'
+subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
 footer: Published on 2017-08-06.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
 ![](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
-The scarcity of modern speculation about prehistoric language is surprising,
+The scarcity of modern speculation about prehistoric languages is surprising,
 given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
 which in these unimaginative times is a showstopper for many.
 But there are many indirect approaches which can give interesting answers.
 
-In this article we will explore how language originated and developed in prehistoric times,
+In this article we will explore together how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
-to arrive at a consistent pattern of evolution.
+to arrive at a consistent view of evolution.
 From beyond the mysts of time we will try to make reasoned conjectures and verify them,
 or at least lay a path to future discovery.
 
 Note: I am neither a paleontologist nor a linguist,
-so treat this humble blog post as a hopefully interesting voyage.
+so treat this humble blog post as the start of a hopefully interesting voyage.
 
 ## The Eras Of Language
 
@@ -35,7 +35,7 @@ shows that many elements are recent additions.
 Furthermore, in historic times there have been significant improvements.
 Subordinate sentences were pretty new to Herodotus,
 who wrote endless sentences and often forgot to finish them
-(technically: [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
+(technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
 
 ### Number Of Words And Information Content
 
@@ -104,7 +104,7 @@ With this data in mind we can create the following timeline.
 
 ### Individual Sounds
 
-Our most remote ancestors must have communicated using sounds.
+Our most remote ancestors must have communicated using simple sounds.
 Many animals use distinct vocal utterances to express different meanings.
 Elements include: pitch, volume and articulation
 (the shape of the mouth to generate the sound).
@@ -228,7 +228,7 @@ The appearance of vowels may have happened several times throughout prehistory.
 Many of the first written languages only wrote consonants (?).
 But almost all languages in the world have vowels,
 so that we can infer that their appearance happened before the last diaspora
-around 50k years ago.
+between 100k and 50k years ago.
 
 How do languages without vowels work?
 The
@@ -256,35 +256,6 @@ It is also possible that speakers use always a single neutral vowel.
 Tracing the appearance of vowels in all languages
 is again a hard issue.
 At what point in prehistory did this happen?
-The basic problem of a monosyllabic language is how to cram
-a large number of words into a single syllable.
-There are many possible variations, that can often be seen in modern use:
-
-* Increase the number of consonants.
-* Add clicks.
-[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
-([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
-* Add different tones, as in
-[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
-such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
-([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
-* Add different contours, as in Chinese
-([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
-* Combine multiple syllables into words,
-as in most languages in the world.
-
-The fact that all of these mechanisms are so different
-are a testimony that they must have been developed separately.
-This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 50,000 ~ 100,000 years ago.
-After that point these mechanisms developed regionally:
-tonal languages in Africa,
-contours in Southern Asia,
-syllables in Europe,
-and so on.
-
-We can therefore conclude that all languages were monosyllabic
-at least until 100,000 years ago.
 
 García Calvo notes that Proto-Indoeuropean
 (PIE) already has vowels,
@@ -296,9 +267,62 @@ which is very close to historic times in many places of the world.
 A guess about rate of language change would perhaps allow dating
 AIE.
 
+### Syllable Extension
+
+The basic problem of a monosyllabic language is how to cram
+a large number of words into a single syllable.
+There are many possible variations,
+all of which can be seen in modern use.
+They fall broadly into three categories:
+
+* Increase the number of consonants and vowels.
+* Add more phonemes per syllable.
+* Add modifiers for vowels.
+
+#### More Consonants
+
+* Add clicks.
+[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
+([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
+* Consonant combinations,
+such as the mix of ⟨t⟩ and ⟨ʃ⟩
+to form the
+[modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
+still shown in IPA as ⟨tʃ⟩.
+
+#### More Phonemes Per Syllable
+
+* [Consonant clusters](https://en.wikipedia.org/wiki/Consonant_cluster):
+sequences of consonants without vowels.
+
+#### Vowel Modifiers.
+
+* Add different tones, as in
+[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
+such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
+([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
+* Add different contours, as in Chinese
+([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
+
+#### Time Frame
+
+The fact that all of these mechanisms are so different
+are a testimony that they must have been developed separately.
+This is only possible if they happened after _Homo Sapiens_ left Africa,
+around 100,000 ~ 50,000 years ago.
+After that point these mechanisms developed regionally:
+tonal languages in Africa,
+contours in Southern Asia,
+clusters in Europe,
+and so on.
+
+We can therefore conclude that all languages were monosyllabic
+at least until 50,000 years ago.
+
 ### Polysyllabic Words
 
 An immediate extension of two consonant words are three consonant words.
+However, it does not look as if this extension has happened always in prehistoric times.
 
 Arab and other semitic languages have
 [triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
@@ -310,11 +334,12 @@ A language with 12 consonants and three vowels
 allows combinations:
 12 𝛫, 444 𝛫𝛢𝛫, and 15552 𝛫𝛢𝛫𝛢𝛫,
 for a total of 16008 combinations.
-Again we gain an order of magnitude over monosyllabic words.
+A gain of more than an order of magnitude over monosyllabic words.
 
 At what point did polysyllabic words arise?
 [Agmon](https://en.wikipedia.org/wiki/Semitic_root#CITEREFAgmon2010)
-appearance right before the Neolithic.
+appearanc during the transition to the Neolithic period.
+15k ~ 10k years ago.
 
 [Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
 [Became polysyllabic about 3000 years ago](https://en.wikipedia.org/wiki/Old_Chinese).
@@ -425,8 +450,63 @@ that has been sketched in this article.
 ### Previous Studies
 
 While not direct evidence,
-there is ample literature about the origins of language.
+there is a sizeable volume of literature about the origins of language.
 [D. Smillie 1985: SOCIOBIOLOGY AND HUMAN CULTURE](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false)
+
+## Discussion
+
+What does this timeline want to prove?
+
+### Uses Of Language
+
+Language has many uses.
+There can be no doubt that it has gained utility with time.
+
+The most primitive use of language is related to the present situation.
+It is to _remove ambiguity_.
+Say that two hominins _A_ and _B_ are in a certain setting.
+_A_ sees an animal, and wants to communicate it to _B_.
+Perhaps their common language has a word for 'warning'
+and that will be _A_'s first utterance.
+Combined with a pointing hand it may be enough to make _B_ look 
+But then _A_ may want to give _B_ a more precise idea of the situation,
+even if _B_ is not currently able to see the animal
+(let us suppose it just ran away).
+
+If their language only has a single word for all animals
+they will utter 'animal',
+which is not very precise: there is a lot of ambiguity.
+It could be a wolf or a sheep,
+and both situations will probably call for very different actions.
+Perhaps there will be words for 'big' and 'small',
+so some of the ambiguity can be removed by saying
+'animal small' or 'animal big'.
+But a small wolf and a big sheep still call for different actions.
+A language with different words for 'wolf' and 'sheep'
+will have a distinct advantage for its speakers.
+Given the number of different animal species,
+a large vocabulary is required to accurately represent even
+the most common animal families
+(i.e. a single word for 'wolf', 'dog' and 'fox').
+The number of possible words is crucial to remove all ambiguity.
+
+More information can be added by adding a plural form:
+'one wolf' is a very different situation from 'wolves'
+for our hypothetical hominins.
+
+Another important use is training.
+Complex techniques require very precise movements,
+be they used for tool making, gathering food or hunting game.
+Language can be a powerful teaching aid.
+Composite materials used for hafting stones to handles
+require precise combinations of materials,
+each in turn gathered from the correct environment.
+[]()
+red ochre and resin.
+
+A more modern use of language is storytelling.
+In this setting the speakers are recounting previous events.
+Here too removing ambiguity is essential.
 
 ## Appendix
 
