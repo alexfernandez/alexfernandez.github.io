@@ -463,18 +463,28 @@ Language has many uses.
 There can be no doubt that it has gained utility with time.
 
 The most primitive use of language is related to the present situation.
-It is to _remove ambiguity_.
+It is used to **remove ambiguity**.
 Say that two hominins _A_ and _B_ are in a certain setting.
 _A_ sees an animal, and wants to communicate it to _B_.
-Perhaps their common language has a word for 'warning'
-and that will be _A_'s first utterance.
-Combined with a pointing hand it may be enough to make _B_ look 
+Perhaps their common language has an utterance for 'warning',
+not necessarily a word:
+it may be a simpler sound like a shout,
+or a prosodic change such as an intonation.
+It will be _A_'s first utterance.
+Combined with a pointing hand it may be enough
+to make _B_ look and appraise the situation on their own.
 But then _A_ may want to give _B_ a more precise idea of the situation,
-even if _B_ is not currently able to see the animal
-(let us suppose it just ran away).
+even if _B_ is not currently able to see the animal:
+let us suppose it just ran away.
+Maybe _B_ is far away.
+Or maybe even there is a group of listeners:
+a shout that lets them know there is a bear nearby
+will be much more effective than waiting for them to look for it.
+Their reaction if there is a rabbit instead
+should be equally swift but completely different.
 
 If their language only has a single word for all animals
-they will utter 'animal',
+_A_ will utter 'animal',
 which is not very precise: there is a lot of ambiguity.
 It could be a wolf or a sheep,
 and both situations will probably call for very different actions.
@@ -488,21 +498,33 @@ Given the number of different animal species,
 a large vocabulary is required to accurately represent even
 the most common animal families
 (i.e. a single word for 'wolf', 'dog' and 'fox').
-The number of possible words is crucial to remove all ambiguity.
+Increasing the number of possible words is thus crucial to remove all ambiguity.
 
 More information can be added by adding a plural form:
 'one wolf' is a very different situation from 'wolves'
 for our hypothetical hominins.
+Again, this requires increasing the number of possible words.
 
 Another important use is training.
+Here too language can help to remove ambiguity.
 Complex techniques require very precise movements,
 be they used for tool making, gathering food or hunting game.
 Language can be a powerful teaching aid.
 Composite materials used for hafting stones to handles
 require precise combinations of materials,
 each in turn gathered from the correct environment.
-[]()
-red ochre and resin.
+[Wadley et al](#4)
+explain how red ochre and tree gum must be mixed in precise proportions
+and heated near a fire at between 250 °C and 300 °C
+to obtain a composite glue for hafting stone points to wooden handles.
+The tree _Acacia karroo_ which is ideally suited,
+and the proportion of ochre varies depending on iron content.
+This complex process carries a lot of ambiguity
+that has to be removed in the teaching process;
+training time would be unfeasibly long without verbal aids
+guiding the process.
+Given that there are archeological samples from at least 70 kya
+it seems that language must have been quite advanced by then.
 
 A more modern use of language is storytelling.
 In this setting the speakers are recounting previous events.
@@ -631,4 +653,8 @@ _Journal of Child Language_, 32(4), 759-786.
 ~Es~ Estudio de Gramática Prehistórica (Spanish).
 Ed. Lucina.
 [Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
+* Wadley, L., Hodgskiss, T., & Grant, M. (2009).
+Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
+_Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
+[Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
 
