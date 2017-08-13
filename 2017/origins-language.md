@@ -48,14 +48,13 @@ is able to reconstruct an even earlier prehistoric language.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
 with little credibility.
-
 We need some other tools to delve into the darkness of time.
 
 ### Number Of Words And Information Content
 
 A very basic criteria that describes a language era is
 how many different words can be uttered.
-The informational content of a sentence depends largely
+The information content of a sentence depends largely
 on the number of different meanings that can be conveyed,
 and on the number of words per sentence.
 
@@ -447,8 +446,11 @@ that languages with few speakers evolve slowly.
 There are many genes responsible for speech.
 [?]()
 [FOXP2](https://en.wikipedia.org/wiki/FOXP2).
-It is likely that we will be able to trace evolution of speech
-by following how these genes have evolved.
+This gene has the same expression in humans and Neanderthals,
+from which [Dediu _et al_](#8)
+deduce that both groups had identical language capabilities.
+It is likely that we will be able to trace evolution of speech even further back in time
+by following how this and other genes have evolved.
 
 Another important area of study is speech disorders.
 The best way to learn how a machine works is often watching how it malfunctions.
