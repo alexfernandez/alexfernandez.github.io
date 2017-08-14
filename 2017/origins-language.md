@@ -48,6 +48,10 @@ is able to reconstruct an even earlier prehistoric language.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
 with little credibility.
+This is not what we are doing here;
+we are not tracing common roots for all languages,
+but trying to establish how all languages evolved.
+
 We need some other tools to delve into the darkness of time.
 
 ### Number Of Words And Information Content
@@ -413,6 +417,12 @@ in its earliest incarnation had no vowels:
 just non-content words with a single consonant,
 and content words consisting of two juxtaposed consonants.
 
+On the other hand,
+there are languages with very different syllable structures,
+such as
+[Upper Arrernte](https://en.wikipedia.org/wiki/Upper_Arrernte_language)
+([sample](https://www.youtube.com/watch?v=aiBnZjOahhM)).
+
 ## Sources Of Evidence
 
 Language does not fossilize.
@@ -429,6 +439,13 @@ There are the mysterious dots in prehistoric paintings
 that nobody has been able to decode.
 Do they represent concepts of some kind,
 or are they just pretty arrangements?
+
+### Modern Languages
+
+Today there are thousands of languages spoken around the world
+[]().
+It is to be expected that any features before these languages separated
+would be shared.
 
 ### Language Reconstruction
 
