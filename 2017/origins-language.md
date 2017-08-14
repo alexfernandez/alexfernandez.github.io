@@ -31,7 +31,7 @@ perfectly formed with all the elements that it has today.
 ### Evolution Of Language
 
 Furthermore, in historic times there have been significant improvements.
-As [Bakker _et al_](#5) explain,
+As [Bakker _et al_](#ref5) explain,
 subordinate sentences were an innovation to Herodotus,
 who wrote endless sentences and often forgot to finish them
 (technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
@@ -40,10 +40,10 @@ Going further back in the past,
 partial reconstructions such as the enlightening work done with Indo-European
 shows that many elements of language that we take for granted are relatively recent additions.
 Proto-Indo-European developed gender gradually,
-as explained by [Luraghi](#6).
+as explained by [Luraghi](#ref6).
 
 How far back can we go?
-[García Calvo](#3)
+[García Calvo](#ref3)
 is able to reconstruct an even earlier prehistoric language.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
@@ -56,11 +56,11 @@ A very basic criteria that describes a language era is
 how many different words can be uttered.
 The information content of a sentence depends largely
 on the number of different meanings that can be conveyed,
-and on the number of words per sentence.
+and therefore on the number of words per sentence.
 
 We can estimate the average number of words per sentence using MLU,
-Mean Length of Utterance.
-[Kemper & Sumner](#1) estimate that young adults have a MLU of around 12 ± 4.
+[Mean Length of Utterance](https://en.wikipedia.org/wiki/Mean_length_of_utterance).
+[Kemper & Sumner](#ref1) estimate that young adults have a MLU of around 12 ± 4.
 With a vocabulary of around 10k words,
 following a Zipf distribution,
 each word would carry around 10 bits of information.
@@ -70,7 +70,7 @@ if all words were independent.
 ![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
 
 What happens with smaller vocabularies?
-[Devescovi _et al_](#2) estimate that children with a vocabulary of 101-200 words
+[Devescovi _et al_](#ref2) estimate that children with a vocabulary of 101-200 words
 have a MLU of around 3.5 words.
 200 words following a Zipf distribution would carry around 6 bits per word,
 yielding a total of 21 bits per sentence.
@@ -270,7 +270,7 @@ Tracing the appearance of vowels in all languages
 is again a hard issue.
 At what point in prehistory did this happen?
 
-[García Calvo](#3) notes that Proto-Indoeuropean
+[García Calvo](#ref3) notes that Proto-Indoeuropean
 (PIE) already has vowels,
 while its archaic ancestor (called here AIE for short) didn't.
 Keep in mind that PIE is already a modern language
@@ -367,7 +367,7 @@ that can be raised about this timeline.
 
 Many scholars support a much later date for the appearance of language,
 around 100 kya.
-See [Dediu _et al_](#8).
+See [Dediu _et al_](#ref7).
 It is known that
 [Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
 which is probably enough to discard this timeline:
@@ -408,7 +408,7 @@ just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
 
 But there is some evidence supporting the late appearance of vowels.
-[García Calvo](#3) makes the argument that prehistoric Indo-European
+[García Calvo](#ref3) makes the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just non-content words with a single consonant,
 and content words consisting of two juxtaposed consonants.
@@ -447,7 +447,7 @@ There are many genes responsible for speech.
 [?]()
 [FOXP2](https://en.wikipedia.org/wiki/FOXP2).
 This gene has the same expression in humans and Neanderthals,
-from which [Dediu _et al_](#8)
+from which [Dediu _et al_](#ref7)
 deduce that both groups had identical language capabilities.
 It is likely that we will be able to trace evolution of speech even further back in time
 by following how this and other genes have evolved.
@@ -530,7 +530,7 @@ Language can be a powerful teaching aid.
 Composite materials used for hafting stones to handles
 require precise combinations of materials,
 each in turn gathered from the correct environment.
-[Wadley _et al_](#4)
+[Wadley _et al_](#ref4)
 explain how red ochre and tree gum must be mixed in precise proportions
 and heated near a fire at between 250 °C and 300 °C
 to obtain a composite glue for hafting stone points to wooden handles.
@@ -658,30 +658,37 @@ A simplistic grammar is needed to combine content and function words.
 
 ## References
 
-* #1: Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
+* <a name="ref1"></a>
+Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
 _Psychology and Aging_, 16, 312-322.
 [Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
 [PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
-* #2: Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
+* <a name="ref2"></a>
+Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
 A crosslinguistic study of the relationship between grammar and lexical development.
 _Journal of Child Language_, 32(4), 759-786.
 [PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
-* #3: García Calvo, A (2003).
+* <a name="ref3"></a>
+García Calvo, A (2003).
 ~Es~ Estudio de Gramática Prehistórica (Spanish).
 Ed. Lucina.
 [Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
-* #4: Wadley, L., Hodgskiss, T., & Grant, M. (2009).
+* <a name="ref4"></a>
+Wadley, L., Hodgskiss, T., & Grant, M. (2009).
 Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
 _Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
 [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
-* #5: Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
+* <a name="ref5"></a>
+Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
 _Brill's companion to Herodotus_. Brill.
 [Ref](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
-* #6: Luraghi, S. (2011).
+* <a name="ref6"></a>
+Luraghi, S. (2011).
 The origin of the Proto-Indo-European gender system: Typological considerations.
 _Folia linguistica_, 45(2), 435-463.
 [PDF](http://www.academia.edu/download/30873708/Gender_FoL.pdf).
-* #8: Dediu, D., & Levinson, S. C. (2013).
+* <a name="ref7"></a>
+Dediu, D., & Levinson, S. C. (2013).
 On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
 _Frontiers in psychology_, 4.
 [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
