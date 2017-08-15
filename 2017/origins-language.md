@@ -62,7 +62,23 @@ correlates strongly with how much information can be conveyed:
 see [below](#information-content)
 for a couple of attempts at quantification.
 Modern languages can be seen as open:
-the number of productions is not bounded.
+the number of productions is unbounded.
+This however need not be the case in the past.
+
+Let us start by computing the information carried by a single word.
+Using the classic Shannon formula for entropy:
+
+> I = Σ p<sub>i</sub> log(p<sub>i</sub>)
+
+|Vocabulary	size|Bits per word	|
+|---	|---	|
+|12	|3.1	|
+|100	|5.3	|
+|200	|6.0	|
+|400	|6.6	|
+|1000	|7.5	|
+|10k	|9.5	|
+|20k	|10.1	|
 
 ## A Timeline Proposal
 
@@ -416,7 +432,7 @@ and they may have added a second consonant to syllables later.
 
 > 𝛫 → 𝛫𝛢 → 𝛫𝛢𝛫.
 
-Compare this path with the eras described above:
+Compare this path with the one described above:
 
 > 𝛫 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
 
@@ -426,6 +442,8 @@ losing them later in favor of biconsonant words,
 and regaining them later.
 
 > 𝛫 → 𝛫𝛢 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
+
+In any case, the number of words grows monotonically.
 
 ### Hand Signs
 

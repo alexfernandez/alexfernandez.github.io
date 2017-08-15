@@ -100,7 +100,49 @@
 <p>How far back can we go? <a href="#ref03">García Calvo (2003)</a> is able to reconstruct an even earlier prehistoric language. Some researchers have even posited a <a href="https://en.wikipedia.org/wiki/Proto-Human_language">Proto-Human language</a>, with little credibility. This is not what we are doing here; we are not tracing common roots for all languages, but trying to establish how language features evolved.</p>
 <p>We need some other tools to delve into the darkness of time.</p>
 <h3 id="information-density">Information Density</h3>
-<p>The number of possible words in a given language correlates strongly with how much information can be conveyed: see <a href="#information-content">below</a> for a couple of attempts at quantification. Modern languages can be seen as open: the number of productions is not bounded.</p>
+<p>The number of possible words in a given language correlates strongly with how much information can be conveyed: see <a href="#information-content">below</a> for a couple of attempts at quantification. Modern languages can be seen as open: the number of productions is unbounded. This however need not be the case in the past.</p>
+<p>Let us start by computing the information carried by a single word. Using the classic Shannon formula for entropy:</p>
+<blockquote>
+<p>I = Σ p<sub>i</sub> log(p<sub>i</sub>)</p>
+</blockquote>
+<table>
+<thead>
+<tr class="header">
+<th>Vocabulary size</th>
+<th>Bits per word</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12</td>
+<td>3.1</td>
+</tr>
+<tr class="even">
+<td>100</td>
+<td>5.3</td>
+</tr>
+<tr class="odd">
+<td>200</td>
+<td>6.0</td>
+</tr>
+<tr class="even">
+<td>400</td>
+<td>6.6</td>
+</tr>
+<tr class="odd">
+<td>1000</td>
+<td>7.5</td>
+</tr>
+<tr class="even">
+<td>10k</td>
+<td>9.5</td>
+</tr>
+<tr class="odd">
+<td>20k</td>
+<td>10.1</td>
+</tr>
+</tbody>
+</table>
 <h2 id="a-timeline-proposal">A Timeline Proposal</h2>
 <p>With this data in mind we can create the following timeline.</p>
 <h3 id="individual-sounds">Individual Sounds</h3>
@@ -179,7 +221,7 @@
 <blockquote>
 <p>𝛫 → 𝛫𝛢 → 𝛫𝛢𝛫.</p>
 </blockquote>
-<p>Compare this path with the eras described above:</p>
+<p>Compare this path with the one described above:</p>
 <blockquote>
 <p>𝛫 → 𝛫∅𝛫 → 𝛫𝛢𝛫.</p>
 </blockquote>
@@ -187,6 +229,7 @@
 <blockquote>
 <p>𝛫 → 𝛫𝛢 → 𝛫∅𝛫 → 𝛫𝛢𝛫.</p>
 </blockquote>
+<p>In any case, the number of words grows monotonically.</p>
 <h3 id="hand-signs">Hand Signs</h3>
 <p>It is very tempting to imagine how populations geographically separated and speaking different languages might communicate between them. There is a growing corpus of literature about sign languages.</p>
 <h2 id="sources-of-evidence">Sources Of Evidence</h2>
