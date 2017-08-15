@@ -14,9 +14,9 @@ The most likely reason is lack of direct evidence,
 which in these unimaginative times is a showstopper for many.
 But there are many indirect approaches which can give interesting answers.
 
-In this article we will explore together how language originated and developed in prehistoric times,
+In this article we will explore how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
-to arrive at a consistent view of evolution.
+to arrive at a consistent view of language evolution.
 From beyond the mysts of time we will try to make reasoned conjectures and verify them,
 or at least lay a path to future discovery.
 
@@ -32,7 +32,8 @@ perfectly formed with all the elements that it has today.
 
 Furthermore, in historic times there have been significant improvements.
 As [Bakker _et al_ (2002)](#ref05) explain,
-subordinate sentences were an innovation to Herodotus,
+subordinate sentences were an innovation to Herodotus
+roughly 2,500 years ago (2.5 kya),
 who wrote endless sentences and often forgot to finish them
 (technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
 
@@ -175,7 +176,9 @@ into one coherent whole,
 as compared with those that could only emit separate sounds.
 Group coordination become possible without having to see each other.
 Still, it is hard to see how a language of this kind could work.
-In the appendix we have an example of a single-consonant language.
+For illustration purposes,
+in the appendix we have an example of a
+[single-consonant language](#singlecon).
 
 At which point in time did the era of single consonants start?
 Being so far back in time it is not easy to pinpoint.
@@ -194,19 +197,53 @@ At some point early humans must have learned to combine several sounds
 into one syllable.
 This great advance extends the range of possible words at least by an order of magnitude.
 Considering the simplest structure of two consonants,
+or 𝛫𝛫,
 the number of words would be the square of the number of consonants.
 
+The evolution so far can be represented as:
+
+> 𝛫 → 𝛫𝛫
+
+Adding a second consonant without a vowel may seem a strange choice.
+It is however a logical extension of the single-consonant words seen above,
+which does not require additional phonetic categories.
+
+How do languages without vowels work?
+The
+[rhotic](https://en.wikipedia.org/wiki/Rhoticity_in_English)
+pronunciation of English omits vowels in many words.
+[Nuxalk or Bella Coola](https://en.wikipedia.org/wiki/Nuxalk_language)
+is an example of a contemporary language without vowels;
+you can
+[hear a sample](https://www.youtube.com/watch?v=dFnrp-cUTLQ).
+From our modern perspective,
+not having vowels does not mean that all consonants are stuck together
+in an unpronunceable blob.
+It just means that vowels are not part of the language.
 Some kind of vocalic sound must link the two consonants together,
-to mark syllable boundaries and
-to distinguish a syllable from two single consonants.
-It can be a schwa or a non-grammatical vowel,
-only present to link both consonants,
-technically an
-[epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis).
+to mark syllable boundaries.
+This allows listeners to distinguish a double-consonant word 𝛫𝛫
+from two single-consonant words 𝛫-𝛫.
+
 We will use the symbol ∅ (empty set) to represent a vocalic separator.
-Such a language might preserve the original one-consonant functions words 𝛫,
+Biconsonant syllables will therefore be rendered as 𝛫∅𝛫.
+
+In practice, the ∅ can be a neutral vowel or
+[schwa](https://en.wikipedia.org/wiki/Schwa).
+It can also be a more definite vowel sound,
+either automatically assigned by
+[prosodic rules](https://en.wikipedia.org/wiki/Prosody_(linguistics)).
+or chosen at random.
+Technically it is an
+[epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis),
+only present to link both consonants.
+This would mean that the variants
+'SAN', 'SIN' or 'SUN'
+are in fact different renditions of the same word 'S∅N'.
+
+A two-consonant language might preserve the original one-consonant functions words 𝛫,
 adding 144 content words combining two consonants: 𝛫∅𝛫.
-A syllable in a monosyllabic language can therefore be either
+A syllable during this era can therefore be either
 𝛫 or 𝛫∅𝛫.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
@@ -223,14 +260,14 @@ The appendix has a
 [hypothetical monosyllabic language](#doublecon).
 
 The monosyllabic era is still alive and well in many languages.
+Sino-Tibetan languages in particular have monosyllabic morphemes.
+[Michaud (2012)](#ref14)
+refers that these monosyllables are often the result of compacting longer words,
+and therefore not a direct descendent of monosyllabic languages.
 
 Our reasonable guess for the monosyllabic era is that
 it overlapped largely with the emergence of _Homo Sapiens_,
 with only minute differences between African and Neanderthal variations.
-
-It is very tempting to imagine how different populations
-geographically separated
-might communicate between them.
 
 ### Vowels
 
@@ -250,28 +287,6 @@ Many of the first written languages only wrote consonants (?).
 But almost all languages in the world have vowels,
 so that we can infer that their appearance happened before the last diaspora
 between 100k and 50k years ago.
-
-How do languages without vowels work?
-The
-[rhotic](https://en.wikipedia.org/wiki/Rhoticity_in_English)
-pronunciation of English omits vowels in many words.
-[Nuxalk or Bella Coola](https://en.wikipedia.org/wiki/Nuxalk_language)
-is an example of a modern language without vowels;
-you can
-[hear a sample](https://www.youtube.com/watch?v=dFnrp-cUTLQ).
-
-From our modern perspective,
-not having vowels does not mean that all consonants are stuck together
-in an unpronunceable blob.
-It just means that vowels are not part of the language.
-They may be automatically assigned by prosodic rules
-or they may be assigned randomly,
-which would mean that the variants
-_ta_, _ti_ or _tu_ are in fact the same word.
-It is also possible that speakers use always a single neutral vowel.
-In any case these
-[epenthetic vowels](https://en.wikipedia.org/wiki/Epenthesis)
-carry no meaning.
 
 [Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
 [Vowel apophony](https://en.wikipedia.org/wiki/Apophony)
@@ -329,7 +344,7 @@ They are a special kind of tone that vary within a syllable.
 The fact that all of these mechanisms are so different
 are a testimony that they must have been developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 70,000 years ago (70 kya).
+around 70 kya.
 After that point these mechanisms developed regionally:
 tonal languages in Africa,
 contours in Southern Asia,
@@ -369,7 +384,8 @@ or 15 ~ 10 kya.
 In the reconstruction of [Baxter & Sagart (2014)](#ref12),
 Old Chinese was already polysyllabic.
 There are some hints at monosyllabic Sino-Tibetan ancestors as in
-[Lama (2012)](#ref13).
+[Lama (2012)](#ref13),
+as recently as 4 kya.
 
 Probably as the necessity arose.
 
@@ -440,13 +456,32 @@ Languages with only simple syllable structures
 Interestingly enough,
 almost all of them are either in Africa,
 Pacific Islands or South America,
-suggesting some genetic clustering.
+suggesting some ancestral clustering.
 
 Ultimately this question is hard to answer
 and not terribly significant.
 It is possible that certain proto-languages have developed vocals first,
-having lost them later in favor of biconsonant words,
-and having regained them later.
+and they may have added a second consonant to syllables later.
+
+> 𝛫 → 𝛫𝛢 → 𝛫𝛢𝛫.
+
+Compare this path with the eras described above:
+
+> 𝛫 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
+
+More complex paths are possible:
+developing vocals first,
+losing them later in favor of biconsonant words,
+and regaining them later.
+
+> 𝛫 → 𝛫𝛢 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
+
+### Hand Signs
+
+It is very tempting to imagine how populations geographically separated
+and speaking different languages
+might communicate between them.
+There is a growing corpus of literature about sign languages.
 
 ## Sources Of Evidence
 
@@ -784,9 +819,13 @@ _Studies In The Evolution Of Language, 3_, 58-76.
 * <a name="ref12"></a>
 Baxter, W. H., & Sagart, L. (2014).
 _Old Chinese: a new reconstruction_, 318. Oxford University Press.
-[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false)
+[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
 * <a name="ref13"></a>
 Lama, Z. Q. F. (2012).
 Subgrouping of Nisoic (Yi) languages: A study from the perspectives of shared innovation and phylogenetic estimation.
 [PDF](https://uta-ir.tdl.org/uta-ir/bitstream/handle/10106/11161/Lama_uta_2502D_11591.pdf?sequence=1).
+* <a name="ref14"></a>
+Michaud, A. (2012).
+Monosyllabicization: patterns of evolution in Asian languages.
+_Monosyllables: from phonology to typology_, 115-130.
 
