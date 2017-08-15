@@ -11,8 +11,8 @@ The scarcity of modern speculation about prehistoric languages is surprising,
 given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
-which in these unimaginative times is a showstopper for many.
-But there are many indirect approaches which can give interesting answers.
+which in these unimaginative times is often a showstopper.
+But there are many indirect approaches that can give interesting answers.
 
 In this article we will explore how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
@@ -31,7 +31,7 @@ perfectly formed with all the elements that it has today.
 ### Evolution Of Language
 
 Furthermore, in historic times there have been significant improvements.
-As [Bakker _et al_ (2002)](#ref05) explain,
+As [Bakker _et al_ (2002)](#ref05) hint,
 subordinate sentences were an innovation to Herodotus
 roughly 2,500 years ago (2.5 kya),
 who wrote endless sentences and often forgot to finish them
@@ -55,67 +55,14 @@ but trying to establish how language features evolved.
 
 We need some other tools to delve into the darkness of time.
 
-### Number Of Words And Information Content
+### Information Density
 
-A very basic criteria that describes a language era is
-how many different words can be uttered.
-The information content of a sentence depends largely
-on the number of different meanings that can be conveyed,
-and therefore on the number of words per sentence.
-
-We can estimate the average number of words per sentence using MLU,
-[Mean Length of Utterance](https://en.wikipedia.org/wiki/Mean_length_of_utterance).
-[Kemper & Sumner (2001)](#ref01) estimate that young adults have a MLU of around 12 ± 4.
-With a vocabulary of around
-[20k words](http://www.lextutor.ca/research/nation_waring_97.html)
-following a Zipf distribution,
-each word would carry around 10 bits of information.
-Therefore a typical adult sentence might carry 120 bits of information,
-if all words were independent.
-
-![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
-
-What happens with smaller vocabularies?
-[Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
-have a MLU of around 3.5 words.
-200 words following a Zipf distribution would carry around 6 bits per word,
-yielding a total of 21 bits per sentence.
-Similarly, 400 words would have a MLU of around 4 words,
-which at 6.5 bits per word would yield 26 bits per sentence.
-1000 words are outside their range of study,
-but a MLU of 10 words seems a reasonable extrapolation;
-at 7.5 bits per word each sentence would reach 75 bits.
-100 words correspond to a MLU of 3
-and 5.3 bits per word, or 16 bits per sentence.
-On the lower range, a vocabulary of 12 words might have a MLU of 2,
-which combined with 3 bits per word yields 6 bits per sentence.
-
-Data from both studies is not necessarily compatible,
-as they use different definitions for MLU.
-Yet it is reasonable to expect that after a point,
-increasing the vocabulary does not entail a corresponding increase in sentence size.
-The following table summarizes these estimations.
-
-|Vocabulary	size|MLU	|Bits per word	|Bits per sentence	|
-|---	|---	|---	|---	|
-|12	|2	|3	|6	|
-|100	|3	|5.3	|16	|
-|200	|3.5	|6	|21	|
-|400	|4	|6.5	|26	|
-|1000	|10	|7.5	|75	|
-|20k	|12	|10	|120	|
-
-Of course words in a sentence are not independent:
-'house' is much more likely to follow 'the' than 'far'.
-The actual number of bits per sentence is thus much lower than represented.
-But this gross approximation is enough to show that that increasing vocabulary size
-initially yields large advances in communication,
-and then tapers off.
-After around 1000 words gains are incrementally smaller.
-
-In fact, information content would grow even more slowly with vocabulary size,
-when considering redundancy in sentences.
-Particles and other function words are highly redundant.
+The number of possible words in a given language
+correlates strongly with how much information can be conveyed:
+see [below](#information-content)
+for a couple of attempts at quantification.
+Modern languages can be seen as open:
+the number of productions is not bounded.
 
 ## A Timeline Proposal
 
@@ -137,8 +84,12 @@ And without words or sentences there is no "language" to speak about.
 
 Do animals have a grammar,
 i.e. do they combine different signs in a coherent whole?
-[No](http://www.alphadictionary.com/articles/ling002.html).
-[No](http://www.pnas.org/content/110/16/6324.full).
+More specifically,
+[can chimpanzees talk](http://www.alphadictionary.com/articles/ling002.html)?
+[Yang (2013)](#ref15)
+compares the relative frequency of words uttered by a chimpanzee
+with those from human language,
+and concludes that chimpanzees do not have a grammar.
 
 ### Single Consonants
 
@@ -556,10 +507,72 @@ In the same volume,
 [Newmeyer (2003)](#ref11)
 gives an overview of other theories.
 
-## Uses Of Language
+## Information Theory
 
 Language has many uses.
 There can be no doubt that it has gained utility with time.
+
+### Information Content
+
+A very basic criteria that describes a language era is
+how many different words can be uttered.
+The information content of a sentence depends largely
+on the number of different meanings that can be conveyed,
+and therefore on the number of words per sentence.
+
+We can estimate the average number of words per sentence using MLU,
+[Mean Length of Utterance](https://en.wikipedia.org/wiki/Mean_length_of_utterance).
+[Kemper & Sumner (2001)](#ref01) estimate that young adults have a MLU of around 12 ± 4.
+With a vocabulary of around
+[20k words](http://www.lextutor.ca/research/nation_waring_97.html)
+following a Zipf distribution,
+each word would carry around 10 bits of information.
+Therefore a typical adult sentence might carry 120 bits of information,
+if all words were independent.
+
+![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
+
+What happens with smaller vocabularies?
+[Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
+have a MLU of around 3.5 words.
+200 words following a Zipf distribution would carry around 6 bits per word,
+yielding a total of 21 bits per sentence.
+Similarly, 400 words would have a MLU of around 4 words,
+which at 6.5 bits per word would yield 26 bits per sentence.
+1000 words are outside their range of study,
+but a MLU of 10 words seems a reasonable extrapolation;
+at 7.5 bits per word each sentence would reach 75 bits.
+100 words correspond to a MLU of 3
+and 5.3 bits per word, or 16 bits per sentence.
+On the lower range, a vocabulary of 12 words might have a MLU of 2,
+which combined with 3 bits per word yields 6 bits per sentence.
+
+Data from both studies is not necessarily compatible,
+as they use different definitions for MLU.
+Yet it is reasonable to expect that after a point,
+increasing the vocabulary does not entail a corresponding increase in sentence size.
+The following table summarizes these estimations.
+
+|Vocabulary	size|MLU	|Bits per word	|Bits per sentence	|
+|---	|---	|---	|---	|
+|12	|2	|3	|6	|
+|100	|3	|5.3	|16	|
+|200	|3.5	|6	|21	|
+|400	|4	|6.5	|26	|
+|1000	|10	|7.5	|75	|
+|20k	|12	|10	|120	|
+
+Of course words in a sentence are not independent:
+'house' is much more likely to follow 'the' than 'far'.
+The actual number of bits per sentence is thus much lower than represented.
+But this gross approximation is enough to show that that increasing vocabulary size
+initially yields large advances in communication,
+and then tapers off.
+After around 1000 words gains are incrementally smaller.
+
+In fact, information content would grow even more slowly with vocabulary size,
+when considering redundancy in sentences.
+Particles and other function words are highly redundant.
 
 ### Description
 
@@ -828,4 +841,10 @@ Subgrouping of Nisoic (Yi) languages: A study from the perspectives of shared in
 Michaud, A. (2012).
 Monosyllabicization: patterns of evolution in Asian languages.
 _Monosyllables: from phonology to typology_, 115-130.
+[PDF](https://hal.archives-ouvertes.fr/docs/00/43/64/32/PDF/Monosyllabicization_In_Asia_Michaud_preprint_Nov2009.pdf).
+* <a name="ref15"></a>
+Yang, C. (2013).
+Ontogeny and phylogeny of language.
+_Proceedings of the National Academy of Sciences_, 110(16), 6324-6327.
+[Ref](http://www.pnas.org/content/110/16/6324.full).
 
