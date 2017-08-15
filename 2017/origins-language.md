@@ -31,7 +31,7 @@ perfectly formed with all the elements that it has today.
 ### Evolution Of Language
 
 Furthermore, in historic times there have been significant improvements.
-As [Bakker _et al_](#ref5) explain,
+As [Bakker _et al_ (2002)](#ref05) explain,
 subordinate sentences were an innovation to Herodotus,
 who wrote endless sentences and often forgot to finish them
 (technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
@@ -40,10 +40,10 @@ Going further back in the past,
 partial reconstructions such as the enlightening work done with Indo-European
 shows that many elements of language that we take for granted are relatively recent additions.
 Proto-Indo-European developed gender gradually,
-as explained by [Luraghi](#ref6).
+as explained by [Luraghi (2011)](#ref06).
 
 How far back can we go?
-[García Calvo](#ref3)
+[García Calvo (2003)](#ref03)
 is able to reconstruct an even earlier prehistoric language.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
@@ -64,8 +64,9 @@ and therefore on the number of words per sentence.
 
 We can estimate the average number of words per sentence using MLU,
 [Mean Length of Utterance](https://en.wikipedia.org/wiki/Mean_length_of_utterance).
-[Kemper & Sumner](#ref1) estimate that young adults have a MLU of around 12 ± 4.
-With a vocabulary of around 10k words,
+[Kemper & Sumner (2001)](#ref01) estimate that young adults have a MLU of around 12 ± 4.
+With a vocabulary of around
+[20k words](http://www.lextutor.ca/research/nation_waring_97.html)
 following a Zipf distribution,
 each word would carry around 10 bits of information.
 Therefore a typical adult sentence might carry 120 bits of information,
@@ -74,7 +75,7 @@ if all words were independent.
 ![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
 
 What happens with smaller vocabularies?
-[Devescovi _et al_](#ref2) estimate that children with a vocabulary of 101-200 words
+[Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
 have a MLU of around 3.5 words.
 200 words following a Zipf distribution would carry around 6 bits per word,
 yielding a total of 21 bits per sentence.
@@ -101,7 +102,7 @@ The following table summarizes these estimations.
 |200	|3.5	|6	|21	|
 |400	|4	|6.5	|26	|
 |1000	|10	|7.5	|75	|
-|10k	|12	|10	|120	|
+|20k	|12	|10	|120	|
 
 Of course words in a sentence are not independent:
 'house' is much more likely to follow 'the' than 'far'.
@@ -195,15 +196,18 @@ This great advance extends the range of possible words at least by an order of m
 Considering the simplest structure of two consonants,
 the number of words would be the square of the number of consonants.
 
-Some kind of vowel must link the two consonants together,
+Some kind of vocalic sound must link the two consonants together,
 to mark syllable boundaries and
 to distinguish a syllable from two single consonants.
-It can be a schwa or a non-grammatical vowel.
+It can be a schwa or a non-grammatical vowel,
+only present to link both consonants,
+technically an
+[epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis).
 We will use the symbol ∅ (empty set) to represent a vocalic separator.
-A syllable in a monosyllabic language can be either
-𝛫∅𝛫 or 𝛫.
 Such a language might preserve the original one-consonant functions words 𝛫,
 adding 144 content words combining two consonants: 𝛫∅𝛫.
+A syllable in a monosyllabic language can therefore be either
+𝛫 or 𝛫∅𝛫.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this advance?
@@ -241,7 +245,7 @@ consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
 plus the original 12 single-consonant function words 𝛫,
 for a total of 444 combinations.
 
-The appearance of vowels may have happened several times throughout prehistory.
+Vowels may have appeared several times throughout prehistory.
 Many of the first written languages only wrote consonants (?).
 But almost all languages in the world have vowels,
 so that we can infer that their appearance happened before the last diaspora
@@ -260,12 +264,14 @@ From our modern perspective,
 not having vowels does not mean that all consonants are stuck together
 in an unpronunceable blob.
 It just means that vowels are not part of the language.
-They may be automatically assigned by prosodic rules,
-and therefore carry no meaning themselves.
-Or they may be assigned randomly,
+They may be automatically assigned by prosodic rules
+or they may be assigned randomly,
 which would mean that the variants
 _ta_, _ti_ or _tu_ are in fact the same word.
 It is also possible that speakers use always a single neutral vowel.
+In any case these
+[epenthetic vowels](https://en.wikipedia.org/wiki/Epenthesis)
+carry no meaning.
 
 [Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
 [Vowel apophony](https://en.wikipedia.org/wiki/Apophony)
@@ -274,12 +280,12 @@ Tracing the appearance of vowels in all languages
 is again a hard issue.
 At what point in prehistory did this happen?
 
-[García Calvo](#ref3) notes that Proto-Indoeuropean
+[García Calvo (2003)](#ref03) notes that Proto-Indoeuropean
 (PIE) already has vowels,
 while its archaic ancestor (called here AIE for short) didn't.
 Keep in mind that PIE is already a modern language
 with suffixes, pronouns and conjugation.
-It was supposedly spoken around 7000 years ago,
+It was supposedly spoken around 7 kya,
 which is very close to historic times in many places of the world.
 A guess about rate of language change would perhaps allow dating
 AIE.
@@ -288,15 +294,11 @@ AIE.
 
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
-There are many possible variations,
+There are many possible solutions,
 all of which can be seen in modern use.
-They fall broadly into three categories:
+They fall broadly into three strategies.
 
-* Increase the number of consonants and vowels.
-* Add more phonemes per syllable.
-* Add modifiers for vowels.
-
-#### More Consonants
+The first strategy is to increase the number of consonants and vowels.
 
 * Add clicks.
 [Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
@@ -305,14 +307,16 @@ They fall broadly into three categories:
 such as the mix of ⟨t⟩ and ⟨ʃ⟩
 to form the
 [modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
-still shown in IPA as ⟨tʃ⟩.
+tellingly shown in IPA as ⟨tʃ⟩.
 
-#### More Phonemes Per Syllable
+The second strategy is to add more phonemes per syllable.
 
 * [Consonant clusters](https://en.wikipedia.org/wiki/Consonant_cluster):
 sequences of consonants without vowels.
+* [Diphthongs](https://en.wikipedia.org/wiki/Diphthong)
+allow combinations of vowels in a single syllable.
 
-#### Vowel Modifiers.
+The last strategy is to add modifiers for vowels.
 
 * Add different tones, as in
 [tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
@@ -320,18 +324,20 @@ such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
 ([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
 * Add different contours, as in Chinese
 ([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
-
-#### Time Frame
+They are a special kind of tone that vary within a syllable.
 
 The fact that all of these mechanisms are so different
 are a testimony that they must have been developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 100,000 years ago (100 kya).
+around 70,000 years ago (70 kya).
 After that point these mechanisms developed regionally:
 tonal languages in Africa,
 contours in Southern Asia,
 clusters in Europe,
 and so on.
+
+There are few languages on Earth
+that have 
 
 We can therefore conclude that all languages were monosyllabic
 at least until 50 kya.
@@ -355,11 +361,16 @@ A gain of more than an order of magnitude over monosyllabic words.
 
 At what point did polysyllabic words arise?
 [Agmon](https://en.wikipedia.org/wiki/Semitic_root#CITEREFAgmon2010)
-appearanc during the transition to the Neolithic period.
-15k ~ 10k years ago.
+appearanc during the transition to the Neolithic period,
+or 15 ~ 10 kya.
 
 [Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
 [Became polysyllabic about 3000 years ago](https://en.wikipedia.org/wiki/Old_Chinese).
+In the reconstruction of [Baxter & Sagart (2014)](#ref12),
+Old Chinese was already polysyllabic.
+There are some hints at monosyllabic Sino-Tibetan ancestors as in
+[Lama (2012)](#ref13).
+
 Probably as the necessity arose.
 
 ## Alternative Timelines
@@ -371,7 +382,7 @@ that can be raised about this timeline.
 
 Many scholars support a much later date for the appearance of language,
 around 100 kya.
-See [Dediu _et al_](#ref7).
+See [Dediu _et al_ (2013)](#ref07).
 It is known that
 [Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
 which is probably enough to discard this timeline:
@@ -412,7 +423,7 @@ just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
 
 But there is some evidence supporting the late appearance of vowels.
-[García Calvo](#ref3) makes the argument that prehistoric Indo-European
+[García Calvo (2003)](#ref03) makes the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just non-content words with a single consonant,
 and content words consisting of two juxtaposed consonants.
@@ -422,6 +433,20 @@ there are languages with very different syllable structures,
 such as
 [Upper Arrernte](https://en.wikipedia.org/wiki/Upper_Arrernte_language)
 ([sample](https://www.youtube.com/watch?v=aiBnZjOahhM)).
+
+Languages with only simple syllable structures
+(V or CV) are 61 out of a total of 486 in
+[WALS](http://wals.info/chapter/12).
+Interestingly enough,
+almost all of them are either in Africa,
+Pacific Islands or South America,
+suggesting some genetic clustering.
+
+Ultimately this question is hard to answer
+and not terribly significant.
+It is possible that certain proto-languages have developed vocals first,
+having lost them later in favor of biconsonant words,
+and having regained them later.
 
 ## Sources Of Evidence
 
@@ -465,7 +490,7 @@ There are many genes responsible for speech.
 [?]()
 [FOXP2](https://en.wikipedia.org/wiki/FOXP2).
 This gene has the same expression in humans and Neanderthals,
-from which [Dediu _et al_](#ref7)
+from which [Dediu _et al_ (2013)](#ref07)
 deduce that both groups had mostly equivalent language capabilities.
 It is likely that we will be able to trace evolution of speech even further back in time
 by following how this and other genes have evolved.
@@ -477,7 +502,7 @@ affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
 it will be possible to study how people without it
 (or with a non-functional variant) communicate.
-[Vargha-Khadem _et al_](#ref10)
+[Vargha-Khadem _et al_ (1995)](#ref10)
 study the implications of a genetic issue
 on a large family.
 
@@ -488,12 +513,12 @@ that has been sketched in this article.
 
 While not direct evidence,
 there is a sizeable volume of literature about the origins of language.
-[Smillie](#ref9) models the evolution of early languages
+[Smillie (1985)](#ref09) models the evolution of early languages
 on the acquisition of language by children.
-[Hurford](#ref8) offers a limited view of proto-languages,
+[Hurford (2003)](#ref08) offers a limited view of proto-languages,
 without function words.
 In the same volume,
-[Newmeyer](#ref11)
+[Newmeyer (2003)](#ref11)
 gives an overview of other theories.
 
 ## Uses Of Language
@@ -557,7 +582,7 @@ Language can be a powerful teaching aid.
 Composite materials used for hafting stones to handles
 require precise combinations of materials,
 each in turn gathered from the correct environment.
-[Wadley _et al_](#ref4)
+[Wadley _et al_ (2009)](#ref04)
 explain how red ochre and tree gum must be mixed in precise proportions
 and heated near a fire at between 250 °C and 300 °C
 to obtain a composite glue for hafting stone points to wooden handles.
@@ -702,46 +727,46 @@ A simplistic grammar is needed to combine content and function words.
 
 ## References
 
-* <a name="ref1"></a>
+* <a name="ref01"></a>
 Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
 _Psychology and Aging_, 16, 312-322.
 [Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
 [PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
-* <a name="ref2"></a>
+* <a name="ref02"></a>
 Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
 A crosslinguistic study of the relationship between grammar and lexical development.
 _Journal of Child Language_, 32(4), 759-786.
 [PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
-* <a name="ref3"></a>
+* <a name="ref03"></a>
 García Calvo, A (2003).
 ~Es~ Estudio de Gramática Prehistórica (Spanish).
 Ed. Lucina.
 [Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
-* <a name="ref4"></a>
+* <a name="ref04"></a>
 Wadley, L., Hodgskiss, T., & Grant, M. (2009).
 Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
 _Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
 [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
-* <a name="ref5"></a>
+* <a name="ref05"></a>
 Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
 _Brill's companion to Herodotus_. Brill.
 [Ref](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
-* <a name="ref6"></a>
+* <a name="ref06"></a>
 Luraghi, S. (2011).
 The origin of the Proto-Indo-European gender system: Typological considerations.
 _Folia linguistica_, 45(2), 435-463.
 [PDF](http://www.academia.edu/download/30873708/Gender_FoL.pdf).
-* <a name="ref7"></a>
+* <a name="ref07"></a>
 Dediu, D., & Levinson, S. C. (2013).
 On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
 _Frontiers in psychology_, 4.
 [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
-* <a name="ref8"></a>
+* <a name="ref08"></a>
 Hurford, J. R. (2003).
 The language mosaic and its evolution.
 _Studies in the Evolution of Language, 3_, 38-57.
 [Ref](http://www.lel.ed.ac.uk/~jim/nustates.htm).
-* <a name="ref9"></a>
+* <a name="ref09"></a>
 Smillie, D. (1985).
 Sociobiology and human culture.
 In _Sociobiology and epistemology_ (pp. 75-95). Springer Netherlands.
@@ -755,4 +780,13 @@ _Proceedings of the National Academy of Sciences_, 92(3), 930-933.
 Newmeyer, F. J. (2003).
 What can the field of linguistics tell us about the origins of language?.
 _Studies In The Evolution Of Language, 3_, 58-76.
+[Ref](https://books.google.es/books?hl=es&lr=&id=OeN2Rhvfdn4C&oi=fnd&pg=PA58&dq=What+can+the+field+of+linguistics&ots=tuUVjyFPeL&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0#v=onepage&q=What%20can%20the%20field%20of%20linguistics&f=false).
+* <a name="ref12"></a>
+Baxter, W. H., & Sagart, L. (2014).
+_Old Chinese: a new reconstruction_, 318. Oxford University Press.
+[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false)
+* <a name="ref13"></a>
+Lama, Z. Q. F. (2012).
+Subgrouping of Nisoic (Yi) languages: A study from the perspectives of shared innovation and phylogenetic estimation.
+[PDF](https://uta-ir.tdl.org/uta-ir/bitstream/handle/10106/11161/Lama_uta_2502D_11591.pdf?sequence=1).
 
