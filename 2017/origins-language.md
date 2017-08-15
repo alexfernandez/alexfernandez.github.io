@@ -50,7 +50,7 @@ Some researchers have even posited a
 with little credibility.
 This is not what we are doing here;
 we are not tracing common roots for all languages,
-but trying to establish how all languages evolved.
+but trying to establish how language features evolved.
 
 We need some other tools to delve into the darkness of time.
 
@@ -442,8 +442,9 @@ or are they just pretty arrangements?
 
 ### Modern Languages
 
-Today there are thousands of languages spoken around the world
-[]().
+Today there are about
+[7,099 languages](https://www.ethnologue.com/guides/how-many-languages).
+spoken around the world.
 It is to be expected that any features before these languages separated
 would be shared.
 
@@ -465,7 +466,7 @@ There are many genes responsible for speech.
 [FOXP2](https://en.wikipedia.org/wiki/FOXP2).
 This gene has the same expression in humans and Neanderthals,
 from which [Dediu _et al_](#ref7)
-deduce that both groups had identical language capabilities.
+deduce that both groups had mostly equivalent language capabilities.
 It is likely that we will be able to trace evolution of speech even further back in time
 by following how this and other genes have evolved.
 
@@ -476,7 +477,9 @@ affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
 it will be possible to study how people without it
 (or with a non-functional variant) communicate.
-[A disfunctional family](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
+[Vargha-Khadem _et al_](#ref10)
+study the implications of a genetic issue
+on a large family.
 
 Genetics may thus serve as empirical proof of the timeline
 that has been sketched in this article.
@@ -485,16 +488,20 @@ that has been sketched in this article.
 
 While not direct evidence,
 there is a sizeable volume of literature about the origins of language.
-[D. Smillie 1985: SOCIOBIOLOGY AND HUMAN CULTURE](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false)
+[Smillie](#ref9) models the evolution of early languages
+on the acquisition of language by children.
+[Hurford](#ref8) offers a limited view of proto-languages,
+without function words.
+In the same volume,
+[Newmeyer](#ref11)
+gives an overview of other theories.
 
-## Discussion
-
-What does this timeline want to prove?
-
-### Uses Of Language
+## Uses Of Language
 
 Language has many uses.
 There can be no doubt that it has gained utility with time.
+
+### Description
 
 The most primitive use of language is related to the present situation.
 It is used to **remove ambiguity**.
@@ -539,11 +546,14 @@ More information can be added by adding a plural form:
 for our hypothetical hominins.
 Again, this requires increasing the number of possible words.
 
+### Training
+
 Another important use is training.
 Here too language can help to **remove ambiguity**.
 Complex techniques require very precise movements,
 be they used for tool making, gathering food or hunting game.
 Language can be a powerful teaching aid.
+
 Composite materials used for hafting stones to handles
 require precise combinations of materials,
 each in turn gathered from the correct environment.
@@ -560,9 +570,26 @@ with verbal aids guiding the process.
 Given that there are archeological samples from at least 70 kya
 it seems that language must have been quite advanced by then.
 
+### Telling Stories
+
 A more modern use of language is storytelling.
 In this setting the speakers are recounting previous events.
 Here too removing ambiguity is essential.
+
+Storytelling is useful as training:
+someone listening to hunting stories may learn tips and tricks.
+But it goes much deeper than that.
+Stories carry with them mythology,
+world view, family tree, ethics;
+in short, the essentials of human culture.
+A complex language and vocabulary
+allow for better transmission of information
+among groups and between generations.
+There is a clear advantage for groups with strong oral culture.
+
+The fact that oral traditions have existed for so long,
+and even now are still maintained by certain groups,
+points to some innate capability in humans.
 
 ## Appendix
 
@@ -709,4 +736,23 @@ Dediu, D., & Levinson, S. C. (2013).
 On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
 _Frontiers in psychology_, 4.
 [Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
+* <a name="ref8"></a>
+Hurford, J. R. (2003).
+The language mosaic and its evolution.
+_Studies in the Evolution of Language, 3_, 38-57.
+[Ref](http://www.lel.ed.ac.uk/~jim/nustates.htm).
+* <a name="ref9"></a>
+Smillie, D. (1985).
+Sociobiology and human culture.
+In _Sociobiology and epistemology_ (pp. 75-95). Springer Netherlands.
+[Book](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false).
+* <a name="ref10"></a>
+Vargha-Khadem, F., Watkins, K., Alcock, K., Fletcher, P., & Passingham, R. (1995).
+Praxic and nonverbal cognitive deficits in a large family with a genetically transmitted speech and language disorder.
+_Proceedings of the National Academy of Sciences_, 92(3), 930-933.
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
+* <a name="ref11"></a>
+Newmeyer, F. J. (2003).
+What can the field of linguistics tell us about the origins of language?.
+_Studies In The Evolution Of Language, 3_, 58-76.
 

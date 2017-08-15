@@ -1,6 +1,6 @@
 'use strict';
 
-const maxes = [2, 12, 100, 200, 400, 1000, 10000, 200000, 1e6];
+const maxes = [2, 12, 100, 200, 400, 1000, 10000, 20000, 200000, 1e6];
 
 maxes.forEach(showInfo);
 
