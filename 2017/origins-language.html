@@ -103,8 +103,13 @@
 <p>The number of possible words in a given language correlates strongly with how much information can be conveyed: see <a href="#information-content">below</a> for a couple of attempts at quantification. Modern languages can be seen as open: the number of productions is unbounded. This however need not be the case in the past.</p>
 <p>Let us start by computing the information carried by a single word. Using the classic Shannon formula for entropy:</p>
 <blockquote>
-<p>I = Σ p<sub>i</sub> log(p<sub>i</sub>)</p>
+<p>I = - Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)</p>
 </blockquote>
+<p>If all words are equally likely the resulting entropy is</p>
+<blockquote>
+<p>I = log<sub>2</sub>(N)</p>
+</blockquote>
+<p>where <em>N</em> is the total number of words or vocabulary size. But we can do better using <a href="https://en.wikipedia.org/wiki/Zipf%27s_law">Zipf's law</a>, as characterized in <a href="#ref15">Yang (2013)</a>: it is the empirical distribution followed by all known languages. The resulting information content in bits per word is shown in the table below.</p>
 <table>
 <thead>
 <tr class="header">
@@ -143,6 +148,7 @@
 </tr>
 </tbody>
 </table>
+<p><a href="origins-script.js">This script</a> has been used to generate the table.</p>
 <h2 id="a-timeline-proposal">A Timeline Proposal</h2>
 <p>With this data in mind we can create the following timeline.</p>
 <h3 id="individual-sounds">Individual Sounds</h3>

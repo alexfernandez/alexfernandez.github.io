@@ -68,7 +68,21 @@ This however need not be the case in the past.
 Let us start by computing the information carried by a single word.
 Using the classic Shannon formula for entropy:
 
-> I = Σ p<sub>i</sub> log(p<sub>i</sub>)
+> I = - Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
+
+If all words are equally likely the resulting entropy is
+
+> I = log<sub>2</sub>(N)
+
+where _N_ is the total number of words or
+vocabulary size.
+But we can do better using
+[Zipf's law](https://en.wikipedia.org/wiki/Zipf%27s_law),
+as characterized in
+[Yang (2013)](#ref15):
+it is the empirical distribution followed by all known languages.
+The resulting information content in bits per word
+is shown in the table below.
 
 |Vocabulary	size|Bits per word	|
 |---	|---	|
@@ -79,6 +93,9 @@ Using the classic Shannon formula for entropy:
 |1000	|7.5	|
 |10k	|9.5	|
 |20k	|10.1	|
+
+[This script](origins-script.js)
+has been used to generate the table.
 
 ## A Timeline Proposal
 
