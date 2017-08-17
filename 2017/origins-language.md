@@ -292,7 +292,7 @@ A guess about rate of language change would perhaps allow dating
 AIE.
 
 Vowels may have appeared several times throughout prehistory.
-Almost all languages in the world have proper vowels,
+Almost all languages in the world have at least a few vowels,
 so that we can infer that their appearance happened before the last diaspora
 at around 70 ~ 50 kya.
 
@@ -334,19 +334,23 @@ such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
 * Add different contours, as in Chinese
 ([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
 They are a special kind of tone that vary within a syllable.
+* Add nasalized vowels as in
+[French](https://en.wikipedia.org/wiki/French_language)
+([sample](https://www.youtube.com/watch?v=j_Qs75dfpko)).
 
 The fact that all of these mechanisms are so different
 are a testimony that they must have been developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
 around 70 kya.
-After that point these mechanisms developed regionally:
-tonal languages in Africa,
-contours in Southern Asia,
-clusters in Europe,
-and so on.
+After that point these mechanisms developed regionally.
+It is interesting to note that tonal languages have developed mostly
+[in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
+while more complex syllable structures are more abundant
+[in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
 
 We can therefore conclude that all languages were monosyllabic
-at least until 50 kya.
+at least until 50 kya,
+probably later.
 
 The monosyllabic era is still alive and well in many languages.
 Many Sino-Tibetan languages in particular have monosyllabic morphemes.
@@ -357,13 +361,6 @@ and therefore not a direct descendent of monosyllabic languages.
 ### Polysyllabic Words
 
 An immediate extension of two consonant words are three consonant words.
-However, it does not look as if this extension has happened always in prehistoric times.
-
-Arab and other semitic languages have
-[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
-consisting of three consonants.
-It looks like a straightforward extension
-of the two-consonant syllables seen above.
 
 A language with 12 consonants and three vowels
 allows combinations:
@@ -371,9 +368,18 @@ allows combinations:
 for a total of 16008 combinations.
 A gain of more than an order of magnitude over monosyllabic words.
 
+However, it does not look as if this extension has happened early in prehistoric times.
+
 At what point did polysyllabic words arise?
-[Agmon](https://en.wikipedia.org/wiki/Semitic_root#CITEREFAgmon2010)
-appearanc during the transition to the Neolithic period,
+Arab and other semitic languages have
+[triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
+consisting of three consonants.
+It looks like a straightforward extension
+of the two-consonant syllables seen above.
+[Agmon (2010)](#ref17)
+shows that for Semitic languages,
+the transition from two- to three-consonant roots
+happened during the transition to the Neolithic period,
 or 15 ~ 10 kya.
 
 [Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
@@ -902,4 +908,8 @@ _Proceedings of the National Academy of Sciences_, 110(16), 6324-6327.
 Trask, R. L. (2003).
 _Language: the basics_, 5. Routledge.
 [Ref](https://books.google.es/books?hl=es&lr=&id=0oQJPHJjCSAC&oi=fnd&pg=PR13&ots=qhJpW-NuXR&sig=ka4GGYM3kKkorX69iLC955vBexg#v=onepage&q=ended&f=false).
+* <a name="ref17"></a>
+Agmon, N. (2010).
+Materials and Language: Pre-Semitic Root Structure Change Concomitant with Transition to Agriculture.
+_Brill's Journal of Afroasiatic Languages and Linguistics_, 2(1), 23-79.
 
