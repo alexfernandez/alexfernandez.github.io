@@ -614,7 +614,7 @@ each word would carry around 10 bits of information.
 Therefore a typical adult sentence might carry 120 bits of information,
 if all words were independent.
 
-![Figure 2: Mean Lenght Of Utterance In Children. From Devescovi _et al_ (2005).](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
+![[Figure 2: Mean Lenght Of Utterance In Children](pics/origins-mlu.jpg). From Devescovi _et al_ (2005).](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
 
 What happens with smaller vocabularies?
 [Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
