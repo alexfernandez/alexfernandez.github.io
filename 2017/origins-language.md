@@ -293,18 +293,25 @@ The number of combinations is now:
 consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
 plus the original 12 single-consonant function words 𝛫,
 for a total of 444 combinations.
+Note that non-content words may acquire vowels too,
+to yield simple structures like 𝛫𝛢,
+in order to increase their number (to 36).
+
+The process of vowel acquisition may require larynx, ear and brain adaptations
+to generate, hear and process the new grammatical elements.
+The incorporation of vowels into consonantic languages may happen similarly to the
+[Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
+or more generally as
+[vowel apophony](https://en.wikipedia.org/wiki/Apophony):
+vowels enter the system as modifiers for existing roots.
 
 Tracing the appearance of vowels in all languages
 is again a hard issue.
-At what point in prehistory did this happen?
-
-Vowels may have appeared several times throughout prehistory.
-Almost all languages in the world have at least a few vowels,
+At what point did this happen?
+Vowels may in fact have appeared several times throughout prehistory.
+Almost all known languages have at least a few vowels,
 so that we can infer that their appearance happened before the last diaspora
 at around 70 ~ 50 kya.
-
-[Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
-[Vowel apophony](https://en.wikipedia.org/wiki/Apophony)
 
 ### The Monosyllabic Explosion
 
@@ -355,28 +362,33 @@ It is interesting to note that tonal languages have developed mostly
 while more complex syllable structures are more abundant
 [in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
 
-We can therefore conclude that all languages were monosyllabic
+It is not unreasonable to hypothesize that all languages were monosyllabic
 at least until 50 kya,
 probably later.
+The new techniques to increase vocabulary sizes
+were surely there for the transition to the
+[upper paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
+as described by
+[Bar-Yosef (2002)](#ref19).
 
-The monosyllabic era might seem to be still alive and well in many languages.
-Many Sino-Tibetan languages in particular have monosyllabic morphemes.
-But [Michaud (2012)](#ref14)
-refers that these monosyllables are often the result of compacting longer words,
-and therefore not a direct descendent of monosyllabic languages.
+Starting with our previous estimation of 12 consonants and 3 vowels,
+a conservative estimation for syllable variability might be:
+
+* Increasing to 20 consonants and 9 vowels for structure 𝛫𝛢𝛫 yields 3600 combinations.
+* New syllable structures 𝛫𝛫𝛢𝛫 or 𝛫𝛢𝛫𝛫 yield 5184 combinations.
+* Adding four tones per vowel for structure 𝛫𝛢𝛫 yield 1728 combinations.
 
 ### Polysyllables
 
 An immediate extension of two consonant words are three consonant words.
-
-A language with 12 consonants and three vowels
-allows the following combinations:
+Continuing with the basic structure of 12 consonants and three vowels,
+there are now the following combinations:
 12 𝛫, 444 𝛫𝛢𝛫, and 15552 𝛫𝛢𝛫𝛢𝛫,
 for a total of 16008 combinations.
 A gain of more than an order of magnitude over monosyllabic words.
 
-However, it does not look as if this extension has happened early in prehistoric times.
-
+However, and a bit surprisingly,
+it does not look as if this extension has happened early in prehistoric times.
 At what point did polysyllabic words arise?
 Arab and other semitic languages have
 [triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
@@ -405,19 +417,25 @@ A timescale is not given by García Calvo,
 but we may again deduce that the transition from monosyllabic language to PIE
 may have happened near the transition to the Neolithic period.
 
-[Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
-[Became polysyllabic about 3000 years ago](https://en.wikipedia.org/wiki/Old_Chinese).
+The Sino-Tibetan family might seem a perfect example
+of the transition to polysyllabic languages in near-historical times,
+since many languages have monosyllabic morphemes.
+But [Michaud (2012)](#ref14)
+refers that these monosyllables are often the result of compacting longer words,
+and therefore not a direct descendent of monosyllabic languages.
 In the reconstruction of [Baxter & Sagart (2014)](#ref12),
+[Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese).
 Old Chinese was already polysyllabic.
 There are some hints at monosyllabic Sino-Tibetan ancestors as in
 [Lama (2012)](#ref13),
 as recently as 4 kya.
 
-Probably as the necessity arose.
+Languages must have adopted polysyllabic forms probably as the necessity arose,
+given their particular information density configurations.
 
 ### Time Scales
 
-Figure 1 shows several time scales for language eras.
+Figure 1 shows several time scales for language eras as discussed.
 
 ![[Figure 1: Language time scales](pics/origins-time-scales.svg). Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
 
@@ -434,10 +452,11 @@ Figure 1-c shows an alternate time scale with logarithmic axis.
 The scale has been expanded to include apparition of the first hominins,
 about 5 Mya.
 The graph ends at the beginning of history around 5 kya.
-It is very tempting (and not particularly hard to do)
+Note that it would not be particularly hard 
+(and it may be tempting)
 to make all eras approximately equal in the logarithmic axis,
 which would give a nice picture of constantly accelerating linguistic progress.
-But it would break all the known boundaries.
+But the process would break all the known species and cultural boundaries.
 
 ## Alternative Timelines
 
@@ -969,4 +988,9 @@ Tomasello, M. (2008).
 Why don't apes point?.
 _Trends In Linguistics Studies And Monographs_, 197, 375.
 [PDF](http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf).
+* <a name="ref19"></a>
+Bar-Yosef, O. (2002).
+The upper paleolithic revolution.
+_Annual Review of Anthropology_, 31(1), 363-393.
+[PDF](http://www.cameronmsmith.com/courses/EuropeanPrehistory2007/TheUpperPalaeolithicRevolution.pdf).
 
