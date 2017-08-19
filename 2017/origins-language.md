@@ -7,7 +7,7 @@ footer: Published on 2017-08-06.
 
 ![](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
-The scarcity of modern speculation about prehistoric languages is surprising,
+The relative scarcity of modern speculation about prehistoric languages is surprising,
 given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
@@ -16,6 +16,7 @@ But there are many indirect approaches that can give interesting answers.
 
 In this article we will explore how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
+with generous amounts of conjecture
 to arrive at a consistent view of language evolution.
 From beyond the mysts of time we will try to make reasoned conjectures and verify them,
 or at least lay a path to future discovery.
@@ -418,7 +419,7 @@ Probably as the necessity arose.
 
 Figure 1 shows several time scales for language eras.
 
-![Figure 1: Language time scales. Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
+![[Figure 1: Language time scales](pics/origins-time-scales.svg). Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
 
 ## Alternative Timelines
 
