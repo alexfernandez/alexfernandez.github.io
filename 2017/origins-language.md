@@ -414,6 +414,12 @@ as recently as 4 kya.
 
 Probably as the necessity arose.
 
+### Time Scales
+
+Figure 2 shows several time scales for language eras.
+
+![Figure 1: Language time scales. Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
+
 ## Alternative Timelines
 
 There are a number of possible objections
@@ -607,7 +613,7 @@ each word would carry around 10 bits of information.
 Therefore a typical adult sentence might carry 120 bits of information,
 if all words were independent.
 
-![From Devescovi _et al_ (2005)](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
+![Figure 2: Mean Lenght Of Utterance In Children. From Devescovi _et al_ (2005).](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
 
 What happens with smaller vocabularies?
 [Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
@@ -650,6 +656,9 @@ After around 1000 words gains are incrementally smaller.
 In fact, information content would grow even more slowly with vocabulary size,
 when considering redundancy in sentences.
 Particles and other function words are highly redundant.
+
+We will now delve into different uses for language
+are enabled by increasing information content.
 
 ### Description
 
