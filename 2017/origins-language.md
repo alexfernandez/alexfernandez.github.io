@@ -416,7 +416,7 @@ Probably as the necessity arose.
 
 ### Time Scales
 
-Figure 2 shows several time scales for language eras.
+Figure 1 shows several time scales for language eras.
 
 ![Figure 1: Language time scales. Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
 
@@ -645,10 +645,7 @@ The following table summarizes these estimations.
 |1000	|10	|7.5	|75	|
 |20k	|12	|10	|120	|
 
-Of course words in a sentence are not independent:
-'house' is much more likely to follow 'the' than 'far'.
-The actual number of bits per sentence is thus much lower than represented.
-But this gross approximation is enough to show that that increasing vocabulary size
+This gross approximation is enough to show that that increasing vocabulary size
 initially yields large advances in communication,
 and then tapers off.
 After around 1000 words gains are incrementally smaller.
@@ -656,8 +653,12 @@ After around 1000 words gains are incrementally smaller.
 In fact, information content would grow even more slowly with vocabulary size,
 when considering redundancy in sentences.
 Particles and other function words are highly redundant.
+In general words in a sentence are not independent:
+'house' is much more likely to follow 'the' than 'far'.
+The actual number of bits per sentence is thus much lower than represented.
+The values above can only be considered bounding limits.
 
-We will now delve into different uses for language
+We will now delve into how different uses for language
 are enabled by increasing information content.
 
 ### Description
