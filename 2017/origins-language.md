@@ -204,7 +204,7 @@ which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
 (2 Mya).
 But even such a simple language would also have been useful in foraging.
-An educated guess might thus be that a million years ago (1 Mya)
+An educated guess might thus be that 1 Mya
 hominins could profer single consonants and combine them into simple sentences.
 We can thus identify the rise of _Homo Erectus_ with the appearance of proper language.
 
@@ -420,6 +420,24 @@ Probably as the necessity arose.
 Figure 1 shows several time scales for language eras.
 
 ![[Figure 1: Language time scales](pics/origins-time-scales.svg). Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
+
+Figure 1-a shows how the period under study looks when represented linearly.
+Hardly anything can be shown since most of the period is occupied
+by the single consonant era.
+
+Figure 1-b shows the main eras along with the hominin species
+that was thriving at the moment.
+The single consonant era has been compressed for easier visualization.
+Note that Neanderthals are included in _Homo Sapiens_.
+
+Figure 1-c shows an alternate time scale with logarithmic axis.
+The scale has been expanded to include apparition of the first hominins,
+about 5 Mya.
+The graph ends at the beginning of history around 5 kya.
+It is very tempting (and not particularly hard to do)
+to make all eras approximately equal in the logarithmic axis,
+which would give a nice picture of constantly accelerating linguistic progress.
+But it would break all the known boundaries.
 
 ## Alternative Timelines
 
