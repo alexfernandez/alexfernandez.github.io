@@ -38,36 +38,32 @@ who wrote endless sentences and often forgot to finish them
 (technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
 
 Going further back in the past,
-partial reconstructions such as the enlightening work done with Indo-European
+partial reconstructions such as the enlightening work done with Indoeuropean
 shows that many elements of language that we take for granted are relatively recent additions.
-Proto-Indo-European developed gender gradually,
+Proto-Indo-European (PIE) developed gender gradually,
 as explained by [Luraghi (2011)](#ref06).
 
-How far back can we go?
+How far back can we go with reconstructions?
 [García Calvo (2003)](#ref03)
-is able to reconstruct an even earlier prehistoric language.
+is able to reconstruct an even earlier prehistoric language,
+as we will see below.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
-with little credibility.
-This is not what we are doing here;
-we are not tracing common roots for all languages,
-but trying to establish how language features evolved.
+with little success and credibility.
+Past a certain point reconstructions are no use:
+our interest is not in tracing common roots for all languages,
+but to investigate how language features evolved.
 
 We need some other tools to delve into the darkness of time.
 
 ### Information Density
 
+A very basic criteria that describes a language era is
+how many different words can be uttered.
 The number of possible words in a given language
 correlates strongly with how much information can be conveyed:
-see [below](#information-content)
-for a couple of attempts at quantification.
-Modern languages can be seen as open-ended:
-the number of productions is unlimited,
-as explained in
-[Trask (2003)](#ref16).
-This however needs not be the case in the past.
 
-Let us start by computing the information carried by a single word.
+For the moment we will focus on computing the information carried by a single word.
 Using the classic Shannon formula for entropy:
 
 > I = - Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
@@ -98,7 +94,15 @@ is shown in the table below.
 
 Adding more possiblities to the vocabulary
 increases the information carried by each word.
+
 Another way to convey more information is to combine words together.
+see [below](#information-content)
+for a couple of attempts at quantification.
+Modern languages can be seen as open-ended:
+the number of productions is unlimited,
+as explained in
+[Trask (2003)](#ref16).
+This however needs not be the case in the past.
 
 We have to suppose that [hominin](https://en.wikipedia.org/wiki/Hominini)
 languages started somewhere,
@@ -137,13 +141,24 @@ compares the relative frequency of words uttered by a chimpanzee
 with those from human language,
 and concludes that chimpanzees do not have a grammar.
 
+We can suppose that early hominins had a way to augment their communication
+beyond what other primates can do,
+even without a grammar:
+perhaps by emitting a bigger range of sounds,
+or by adding context information with their hands.
+As [Tomasello (2008)](#ref18) refers,
+pointing is a very human activity.
+This humble activity requires having a model of someone else's mind,
+and is therefore the basis for
+[deixis](https://en.wikipedia.org/wiki/Deixis).
+
 This era is therefore the "ground zero" of language:
 the common base with animals.
 
 ### Single Consonants
 
 The first stage of language must have involved single consonants.
-At this point the noises from the previous step can be combined into sentences,
+At this point the sounds from the previous step can be combined into sentences,
 making them basic building elements in very simplistic sentences.
 To combine simple elements they must have been only function words:
 prepositions, negations, pronouns, quantifiers and adverbs.
@@ -186,10 +201,11 @@ The advantage of group coordination would definitely have been greater
 when hominins started to hunt in groups,
 which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
+(2 Mya).
 But even such a simple language would also have been useful in foraging.
-An educated guess might thus be that a million years ago
-(i.e. during the reign of _Homo Erectus_)
+An educated guess might thus be that a million years ago (1 Mya)
 hominins could profer single consonants and combine them into simple sentences.
+We can thus identify the rise of _Homo Erectus_ with the appearance of proper language.
 
 ### Double Consonant Syllables
 
@@ -281,16 +297,6 @@ Tracing the appearance of vowels in all languages
 is again a hard issue.
 At what point in prehistory did this happen?
 
-[García Calvo (2003)](#ref03) notes that Proto-Indoeuropean
-(PIE) already has vowels,
-while its archaic ancestor (called here AIE for short) didn't.
-Keep in mind that PIE is already a modern language
-with suffixes, pronouns and conjugation.
-It was supposedly spoken around 7 kya,
-which is very close to historic times in many places of the world.
-A guess about rate of language change would perhaps allow dating
-AIE.
-
 Vowels may have appeared several times throughout prehistory.
 Almost all languages in the world have at least a few vowels,
 so that we can infer that their appearance happened before the last diaspora
@@ -299,7 +305,7 @@ at around 70 ~ 50 kya.
 [Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
 [Vowel apophony](https://en.wikipedia.org/wiki/Apophony)
 
-### The Monosyllabic Era
+### The Monosyllabic Explosion
 
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
@@ -352,18 +358,18 @@ We can therefore conclude that all languages were monosyllabic
 at least until 50 kya,
 probably later.
 
-The monosyllabic era is still alive and well in many languages.
+The monosyllabic era might seem to be still alive and well in many languages.
 Many Sino-Tibetan languages in particular have monosyllabic morphemes.
 But [Michaud (2012)](#ref14)
 refers that these monosyllables are often the result of compacting longer words,
 and therefore not a direct descendent of monosyllabic languages.
 
-### Polysyllabic Words
+### Polysyllables
 
 An immediate extension of two consonant words are three consonant words.
 
 A language with 12 consonants and three vowels
-allows combinations:
+allows the following combinations:
 12 𝛫, 444 𝛫𝛢𝛫, and 15552 𝛫𝛢𝛫𝛢𝛫,
 for a total of 16008 combinations.
 A gain of more than an order of magnitude over monosyllabic words.
@@ -381,6 +387,22 @@ shows that for Semitic languages,
 the transition from two- to three-consonant roots
 happened during the transition to the Neolithic period,
 or 15 ~ 10 kya.
+
+[García Calvo (2003)](#ref03)
+reconstructs a prehistoric language ancestral to Indo-European
+and Proto-Indo-European
+with just two consonants per syllable and without vowels.
+In constrast,
+[Proto-Indo-European (PIE)](https://en.wikipedia.org/wiki/Proto-Indo-European_language)
+already has polysyllabic words and vowels;
+it is in fact a mostly modern language
+with suffixes, pronouns and conjugation.
+PIE was supposedly spoken
+[around 7 kya](http://www.archaeology.org/exclusives/articles/1302-proto-indo-european-schleichers-fable),
+which is very close to historic times in many places of the world.
+A timescale is not given by García Calvo,
+but we may again deduce that the transition from monosyllabic language to PIE
+may have happened near the transition to the Neolithic period.
 
 [Chinese not monosyllabic](http://www.pinyin.info/readings/texts/east_asian_languages.html#monosyllabic).
 [Became polysyllabic about 3000 years ago](https://en.wikipedia.org/wiki/Old_Chinese).
@@ -442,7 +464,8 @@ just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
 
 But there is some evidence supporting the late appearance of vowels.
-[García Calvo (2003)](#ref03) makes the argument that prehistoric Indo-European
+[García Calvo (2003)](#ref03)
+makes the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just non-content words with a single consonant,
 and content words consisting of two juxtaposed consonants.
@@ -453,12 +476,12 @@ such as
 [Upper Arrernte](https://en.wikipedia.org/wiki/Upper_Arrernte_language)
 ([sample](https://www.youtube.com/watch?v=aiBnZjOahhM)).
 
-Languages with only simple syllable structures
-(V or CV) are 61 out of a total of 486 in
-[WALS](http://wals.info/chapter/12).
 Interestingly enough,
-almost all of them are either in Africa,
-Pacific Islands or South America,
+almost all languages with
+[simple syllable structures](http://wals.info/chapter/12).
+(V or CV) are
+[almost exclusively found](http://wals.info/chapter/12)
+in Africa, South America or Pacific Islands,
 suggesting some ancestral clustering.
 
 Ultimately this question is hard to answer
@@ -912,4 +935,10 @@ _Language: the basics_, 5. Routledge.
 Agmon, N. (2010).
 Materials and Language: Pre-Semitic Root Structure Change Concomitant with Transition to Agriculture.
 _Brill's Journal of Afroasiatic Languages and Linguistics_, 2(1), 23-79.
+[PDF](https://pdfs.semanticscholar.org/4ab2/a50c183404df4a4e8eab93dedc3bf0c707b5.pdf).
+* <a name="ref18"></a>
+Tomasello, M. (2008).
+Why don't apes point?.
+_Trends In Linguistics Studies And Monographs_, 197, 375.
+[PDF](http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf).
 
