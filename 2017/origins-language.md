@@ -609,7 +609,7 @@ is the direct result of prehistoric migrations.
 
 ### Language Reconstructions
 
-Indoeuropean is the most famous and studied archaic language.
+Indoeuropean is the most widely known and studied archaic language.
 
 Rate of linguistic change is hard to estimate.
 In historical times languages have varied 
