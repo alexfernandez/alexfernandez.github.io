@@ -290,7 +290,7 @@ The number of combinations is now:
 consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
 plus the original 12 single-consonant function words 𝛫,
 for a total of 444 combinations.
-Note that non-content words may acquire vowels too,
+Note that function words may acquire vowels too,
 to yield simple structures like 𝛫𝛢,
 in order to increase their number (to 36).
 
@@ -320,7 +320,7 @@ They fall broadly into three categories.
 
 The first strategy is to increase the number of consonants and vowels.
 
-* Add clicks.
+* Add clicks, as in
 [Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
 ([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
 * Consonant combinations,
@@ -516,7 +516,7 @@ But there is some evidence supporting the late appearance of vowels.
 [García Calvo (2003)](#ref03)
 makes the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
-just non-content words with a single consonant,
+just function words with a single consonant,
 and content words consisting of two juxtaposed consonants.
 
 On the other hand,
@@ -572,19 +572,22 @@ But there is also symbolic evidence which might prove much more valuable.
 
 There are the
 [mysterious signs](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/)
-that crop up in all kinds of prehistoric paintings
+that crop up in Upper Paleolithic cave paintings
 and that nobody has been able to interpret.
 Do they represent concepts of some kind,
 or are they just pretty doodles?
 [Von Petzinger (2009)](#ref20)
 has found that the same set of symbols is repeated
-across much of France.
+across much of France, and then
+[around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
+
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
 from later periods.
 
 With a more concrete language description in mind
-it is conceivable that these inscriptions might be decyphered
+it is conceivable that these inscriptions might be decyphered,
+perhaps as function words,
 or at least put in context.
 
 ### Modern Languages
@@ -828,7 +831,7 @@ Experiments like
 with a limited vocabulary (850 words) and simplified grammar rules
 have had some success among foreign speakers.
 It would be enlightening to see if a complex story can be told
-with a limited vocabulary.
+with an even more limited vocabulary.
 
 ## Conclusion
 
@@ -846,7 +849,7 @@ But it is my belief that there is fruitful research to be done.
 A theory only needs to be consistent with the known facts,
 and it is validated when it can explain new phenomena.
 
-Coherent discussion about very early phonetics,
+Learned discussion about very early phonetics,
 [phonotactics](https://en.wikipedia.org/wiki/Phonotactics)
 and grammar may take us a long way towards a deeper understanding of our ancestors.
 
@@ -925,11 +928,11 @@ reduplication and composition.
 and refers to something that moves on the ground
 such as a small animal.
 * 'up' ('S') + 'to' ('S∅R') is a big animal.
-* The combination of 'near' ('T') with 'much' ('K'), 'T∅K',
-represents 'family'.
+* 'near' ('T') + 'much' ('K'), 'T∅K': family.
 * 'near' ('T') combined with itself is 'T∅T'
 which means 'good'.
-* 'to' + 'down': 'R∅L', trail.
+* 'to' + 'down', 'R∅L': trail.
+* 'to' + 'near', 'R∅T': run.
 
 Even when words are formed as compounds
 there is considerable arbitrariness in the process.
@@ -941,7 +944,7 @@ It might perfectly be the other way around.
 
 A few sentences in Doublecon follow.
 
-* 'T∅K M': 'family here',
+* 'T∅K M. T∅K T∅T.': 'family here. family good',
 the family has arrived.
 * 'V R S∅R. N M.':
 'me to big animal. you here.',
@@ -953,12 +956,17 @@ Note that it is very important to distinguish between
 two single-consonant words and one syllable:
 'S R' from 'S∅R'.
 In the first case there is a small pause between 'S' and 'R',
-similar to the intersyllabic transition in modern languages.
+similar to the intersyllabic transition in modern languages,
+as in English 'pos·ter'.
 In the case of 'S∅R' the schwa provides vocal continuity.
 
 ### Grammar
 
 A simplistic grammar is needed to combine content and function words.
+
+Some words can be both nouns or verbs, such as 'R∅T': run, or 'R∅L': trail.
+Nouns are always the first word,
+followed by verbs or adjectives.
 
 ## References
 
