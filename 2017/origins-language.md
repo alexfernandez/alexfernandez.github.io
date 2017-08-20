@@ -11,7 +11,7 @@ The relative scarcity of modern speculation about prehistoric languages is surpr
 given how much interest there is both academia and the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
-which in these unimaginative times is often a showstopper.
+which in these often unimaginative times can be a showstopper.
 But there are many indirect approaches that can give interesting answers.
 
 In this article we will explore how language originated and developed in prehistoric times,
@@ -21,12 +21,12 @@ to arrive at a consistent view of language evolution.
 From beyond the mysts of time we will try to make and defend reasoned conjectures,
 or at the very least lay a path to future discovery.
 
-## The Eras Of Language
+## Language Evolution
 
 It is not reasonable to expect that language appeared at some point in the past,
 perfectly formed with all the elements that it has today.
 
-### Evolution Of Language
+### Back In Time
 
 Furthermore, in historic times there have been significant improvements.
 As [Bakker _et al_ (2002)](#ref05) hint,
@@ -881,7 +881,7 @@ We will call this hypothetical primitive language 'Singlecon'.
 #### Vocabulary
 
 In Singlecon we only have 12 words,
-that correspond with the 12 consonants:
+that correspond to the 12 consonants:
 
 * one preposition: 'to' ('R'),
 * one negation: 'no' ('P'),
@@ -926,8 +926,9 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 ## Doublecon
 
 Our next language is an evolution of Singlecon
-that allows for monosyllabic words with two consonants and a schwa.
-It still keeps single-consonant function words,
+that allows for monosyllabic words with two consonants and a schwa,
+expressed as '𝛫∅𝛫'.
+It keeps the same set of single-consonant function words,
 while the new combinations are content words.
 We will call it Doublecon.
 
@@ -948,11 +949,27 @@ which means 'good'.
 * 'to' + 'down', 'R∅L': trail.
 * 'to' + 'near', 'R∅T': run.
 
+Not all combinations are used by actual words;
+of the 144 possibilities for '𝛫∅𝛫' only about 100 are valid.
+
 Even when words are formed as compounds
 there is considerable arbitrariness in the process.
 The combination of 'down' with 'to' ('L∅R') is small animal,
 while 'to' + 'down' ('R∅L') is trail.
 It might perfectly be the other way around.
+
+### Prosody
+
+There are three possible sentence intonations,
+indicated here by the sentence ending sign:
+
+* neutral, marked with '.',
+* interrogative: marked with '?',
+* and exclamative: marked with '!'.
+
+There are no other possible intonations such as our comma ','.
+Sentences may follow each other closely,
+with a pause between them.
 
 ### Samples
 
@@ -976,11 +993,24 @@ In the case of 'S∅R' the schwa provides vocal continuity.
 
 ### Grammar
 
-A simplistic grammar is needed to combine content and function words.
+Even at this level,
+a simplistic grammar is needed to combine content and function words.
+
+The [copula](https://en.wikipedia.org/wiki/Copula_(linguistics))
+is straightforward juxtaposition:
+'V T∅K' means 'I am family'.
 
 Some words can be both nouns or verbs, such as 'R∅T': run, or 'R∅L': trail.
 Nouns are always the first word,
-followed by verbs or adjectives.
+followed by verbs or adjectives:
+'S∅R R∅T' means 'big animal runs'. 
+Another possibility is juxtaposition of two nouns:
+'R∅L S∅R' means 'trail of a big animal'.
+Verbs can also appear on their own or with function words:
+'R∅T K!' means 'run a lot!'
+(remember that 'K' means 'much'),
+and so with adjectives:
+'T∅T K' means 'very good'.
 
 ## References
 
