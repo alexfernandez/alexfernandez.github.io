@@ -604,6 +604,8 @@ And while
 is not free,
 [The World Atlas of Language Structures Online (WALS)](http://wals.info/)
 is a great resource organized by language features.
+It is entirely possible that the distribution of some features
+is the direct result of prehistoric migrations.
 
 ### Language Reconstructions
 
@@ -807,14 +809,37 @@ in short, the essentials of human culture.
 A complex language and vocabulary
 allow for better transmission of information
 among groups and between generations.
-There is a clear advantage for groups with strong oral culture.
+Groups with strong oral culture have an advantage over those without,
+especially in a crisis as described by [Minc (1985)](#ref21).
 
-The fact that oral traditions have existed for so long,
+
+The fact that [oral traditions](https://en.wikipedia.org/wiki/Oral_tradition)
+have existed for so long,
 and even now are still maintained by certain groups,
 points to some innate capability in humans.
 Our fascination with hearing stories is present today
 thinly disguised as books or movies.
 We still get most of our morals in the form of exemplifying stories.
+
+Storytelling is possible with a limited set of words;
+Dr Seuss' [The Cat in the Hat](https://en.wikipedia.org/wiki/The_Cat_in_the_Hat)
+contains only 236 different words,
+and [Green Eggs and Ham](https://en.wikipedia.org/wiki/Green_Eggs_and_Ham)
+is limited to 50.
+
+## Conclusion
+
+Unraveling the origins of language is a particularly hard task,
+which was once famously
+[banned by the Linguistic Society of Paris](https://en.wikipedia.org/wiki/Origin_of_language).
+In this article we have seen a possible evolution path
+that takes us from animal sounds to the written word.
+We have also explored briefly how it fits with known evidence
+and how to refine or refute it with more research.
+
+It may 
+A theory only needs to be consistent with the known facts,
+and it is validated when it can explain new phenomena.
 
 ## Appendix
 
@@ -1022,4 +1047,10 @@ _Annual Review of Anthropology_, 31(1), 363-393.
 Von Petzinger, G. (2009).
 _Making the abstract concrete: The place of geometric signs in French Upper Paleolithic parietal art_
 (Doctoral dissertation).
+[PDF](https://dspace.library.uvic.ca/handle/1828/1402).
+* <a name="ref21"></a>
+Minc, L. D. (1986).
+Scarcity and survival: the role of oral tradition in mediating subsistence crises.
+_Journal of Anthropological Archaeology_, 5(1), 39-113.
+[PDF](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26239/0000319.pdf?sequence=1&isAllowed=y).
 
