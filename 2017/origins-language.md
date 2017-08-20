@@ -362,21 +362,26 @@ It is interesting to note that tonal languages have developed mostly
 while more complex syllable structures are more abundant
 [in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
 
-It is not unreasonable to hypothesize that all languages were monosyllabic
+It is not unreasonable to suppose that all languages were monosyllabic
 at least until 50 kya,
 probably later.
 The new techniques to increase vocabulary sizes
 were surely there for the transition to the
 [upper paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
 as described by
-[Bar-Yosef (2002)](#ref19).
+[Bar-Yosef (2002)](#ref19),
+which must have required a broader lexicon of materials,
+plants, animals, tools and techniques.
 
-Starting with our previous estimation of 12 consonants and 3 vowels,
+Starting with our basic structure of 12 consonants and 3 vowels,
 a conservative estimation for syllable variability might be:
 
 * Increasing to 20 consonants and 9 vowels for structure 𝛫𝛢𝛫 yields 3600 combinations.
 * New syllable structures 𝛫𝛫𝛢𝛫 or 𝛫𝛢𝛫𝛫 yield 5184 combinations.
 * Adding four tones per vowel for structure 𝛫𝛢𝛫 yield 1728 combinations.
+
+Of course many of these innovations may have been used in conjunction
+for even greater vocabularies.
 
 ### Polysyllables
 
@@ -432,6 +437,9 @@ as recently as 4 kya.
 
 Languages must have adopted polysyllabic forms probably as the necessity arose,
 given their particular information density configurations.
+In combination with other monosyllabic techniques
+they may have achieved vocabularies of tens of thousands of words.
+This leaves us just right before the invention of writing.
 
 ### Time Scales
 
@@ -548,29 +556,39 @@ and regaining them later.
 
 In any case, the number of words grows monotonically.
 
-### Hand Signs
-
-It is very tempting to imagine how populations geographically separated
-and speaking different languages
-might communicate between them.
-There is a growing corpus of literature about sign languages.
-
 ## Sources Of Evidence
 
 Language does not fossilize.
-This sad fact means that all of our knowledge
-about how language evolved before the invention of writing
-is pure speculation.
+This well-known fact means that all of our knowledge
+about how language evolved before the invention of writing is pure speculation.
 Or is it?
 
 There are several sources of evidence about prehistoric languages.
 
 ### Physical Remains
 
-There are the mysterious dots in prehistoric paintings
-that nobody has been able to decode.
+Archeological remains are the first and foremost source of evidence
+about all things prehistoric.
+We know the lifestyle and capabilities of our ancestors
+thanks to the remains that they left behind.
+But there is also symbolic evidence which might prove much more valuable.
+
+There are the
+[mysterious signs](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/)
+that crop up in all kinds of prehistoric paintings
+and that nobody has been able to interpret.
 Do they represent concepts of some kind,
-or are they just pretty arrangements?
+or are they just pretty doodles?
+[Von Petzinger (2009)](#ref20)
+has found that the same set of symbols is repeated
+across much of France.
+There are also
+[cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
+from later periods.
+
+With a more concrete language description in mind
+it is conceivable that these inscriptions might be decyphered
+or at least put in context.
 
 ### Modern Languages
 
@@ -580,7 +598,14 @@ spoken around the world.
 It is to be expected that any features before these languages separated
 would be shared.
 
-### Language Reconstruction
+Watching the distribution of certain features can be very instructive.
+And while
+[Ethnologue](https://www.ethnologue.com/)
+is not free,
+[The World Atlas of Language Structures Online (WALS)](http://wals.info/)
+is a great resource organized by language features.
+
+### Language Reconstructions
 
 Indoeuropean is the most famous and studied archaic language.
 
@@ -594,8 +619,8 @@ that languages with few speakers evolve slowly.
 ### Genetics
 
 There are many genes responsible for speech.
-[?]()
-[FOXP2](https://en.wikipedia.org/wiki/FOXP2).
+[FOXP2](https://en.wikipedia.org/wiki/FOXP2)
+is the most famous and studied of all.
 This gene has the same expression in humans and Neanderthals,
 from which [Dediu _et al_ (2013)](#ref07)
 deduce that both groups had mostly equivalent language capabilities.
@@ -993,4 +1018,8 @@ Bar-Yosef, O. (2002).
 The upper paleolithic revolution.
 _Annual Review of Anthropology_, 31(1), 363-393.
 [PDF](http://www.cameronmsmith.com/courses/EuropeanPrehistory2007/TheUpperPalaeolithicRevolution.pdf).
+* <a name="ref20"></a>
+Von Petzinger, G. (2009).
+_Making the abstract concrete: The place of geometric signs in French Upper Paleolithic parietal art_
+(Doctoral dissertation).
 
