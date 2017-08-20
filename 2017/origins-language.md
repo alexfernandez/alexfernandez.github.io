@@ -125,8 +125,7 @@ Elements include: pitch, volume and articulation
 
 At this point we cannot yet speak about words,
 since there is no language system.
-Each sound is uttered individually,
-making its own "sentence".
+Each sound is uttered individually making its own "sentence".
 Where there are no words there can be no proper sentences.
 And without words or sentences there is no "language" to speak about.
 
@@ -151,7 +150,8 @@ and is therefore the basis for
 [deixis](https://en.wikipedia.org/wiki/Deixis).
 
 This era is therefore the "ground zero" of language:
-the common base with animals.
+the common base with animals,
+with deictic information added on top.
 
 ### Single Consonants
 
