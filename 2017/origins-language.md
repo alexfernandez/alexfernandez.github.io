@@ -841,10 +841,14 @@ We have also explored briefly how it fits with known evidence
 and how to refine or refute it with more research.
 
 The whole endeavour may seem idle speculation.
-After all it may seem impossible to refute most of what has been said.
+After all it may seem impossible to refute most of what has been said here.
 But it is my belief that there is fruitful research to be done.
 A theory only needs to be consistent with the known facts,
 and it is validated when it can explain new phenomena.
+
+Coherent discussion about very early phonetics,
+[phonotactics](https://en.wikipedia.org/wiki/Phonotactics)
+and grammar may take us a long way towards a deeper understanding of our ancestors.
 
 ## Appendix
 
