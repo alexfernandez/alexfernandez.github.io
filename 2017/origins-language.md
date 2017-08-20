@@ -646,7 +646,7 @@ that has been sketched in this article.
 ### Previous Studies
 
 While not direct evidence,
-there is a sizeable volume of literature about the origins of language.
+there is a growing amount of literature about the origins of language.
 [Smillie (1985)](#ref09) models the evolution of early languages
 on the acquisition of language by children.
 [Hurford (2003)](#ref08) offers a limited view of proto-languages,
