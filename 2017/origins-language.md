@@ -518,6 +518,7 @@ makes the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just function words with a single consonant,
 and content words consisting of two juxtaposed consonants.
+As we saw before there is no timescale for this language.
 
 On the other hand,
 there are languages with very different syllable structures,
@@ -587,7 +588,7 @@ from later periods.
 
 With a more concrete language description in mind
 it is conceivable that these inscriptions might be decyphered,
-perhaps as function words,
+perhaps as function words;
 or at least put in context.
 
 ### Modern Languages
@@ -599,9 +600,6 @@ It is to be expected that any features before these languages separated
 would be shared.
 
 Watching the distribution of certain features can be very instructive.
-And while
-[Ethnologue](https://www.ethnologue.com/)
-is not free,
 [The World Atlas of Language Structures Online (WALS)](http://wals.info/)
 is a great resource organized by language features.
 It is entirely possible that the distribution of some features
@@ -609,14 +607,27 @@ is the direct result of prehistoric migrations.
 
 ### Language Reconstructions
 
-Indoeuropean is the most widely known and studied archaic language.
+Indoeuropean is the most widely known and studied archaic language,
+but many others have been reconstructed.
+A few protolanguages (like Proto-Indo-European or PIE)
+have also been postulated with varied success.
 
 Rate of linguistic change is hard to estimate.
-In historical times languages have varied 
-[Nettle](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf)
+[Nettle (1999)](#ref22)
 argues that languages change faster in small populations.
-Here we argue exactly the opposite view:
-that languages with few speakers evolve slowly.
+It remains to be seen how ancient languages can be reconstructed
+to such a high degree of precision if they were spoken
+by relatively few people for many centuries.
+
+Reconstructions rarely go back beyond the
+[Neolithic revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution),
+around 12 kya.
+Except glorious exceptions like the study by
+[García Calvo (2003)](#ref03),
+they are of limited value to infer
+how or when language features evolved.
+It remains to be seen if the veils of time can be pierced
+by keener eyes.
 
 ### Genetics
 
@@ -650,10 +661,13 @@ there is a growing amount of literature about the origins of language.
 [Smillie (1985)](#ref09) models the evolution of early languages
 on the acquisition of language by children.
 [Hurford (2003)](#ref08) offers a limited view of proto-languages,
-without function words.
+where at the beginning they would have no function words.
 In the same volume,
 [Newmeyer (2003)](#ref11)
 gives an overview of other theories.
+
+It is my sincere hope that I have overlooked a mountain of literature
+specifying how languages came to be the complex wonders that we know.
 
 ## Language As A Tool
 
@@ -1071,4 +1085,9 @@ Minc, L. D. (1986).
 Scarcity and survival: the role of oral tradition in mediating subsistence crises.
 _Journal of Anthropological Archaeology_, 5(1), 39-113.
 [PDF](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26239/0000319.pdf?sequence=1&isAllowed=y).
+* <a name="ref22"></a>
+Nettle, D. (1999).
+Is the rate of linguistic change constant?
+_Lingua_, 108(2-3), 119-136.
+[PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf).
 
