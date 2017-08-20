@@ -18,11 +18,8 @@ In this article we will explore how language originated and developed in prehist
 combining language reconstruction and information theory
 with generous amounts of conjecture
 to arrive at a consistent view of language evolution.
-From beyond the mysts of time we will try to make reasoned conjectures and verify them,
-or at least lay a path to future discovery.
-
-Note: I am neither a paleontologist nor a linguist,
-so treat this humble blog post as part of a hopefully interesting discussion.
+From beyond the mysts of time we will try to make and defend reasoned conjectures,
+or at the very least lay a path to future discovery.
 
 ## The Eras Of Language
 
@@ -812,7 +809,6 @@ among groups and between generations.
 Groups with strong oral culture have an advantage over those without,
 especially in a crisis as described by [Minc (1985)](#ref21).
 
-
 The fact that [oral traditions](https://en.wikipedia.org/wiki/Oral_tradition)
 have existed for so long,
 and even now are still maintained by certain groups,
@@ -826,6 +822,13 @@ Dr Seuss' [The Cat in the Hat](https://en.wikipedia.org/wiki/The_Cat_in_the_Hat)
 contains only 236 different words,
 and [Green Eggs and Ham](https://en.wikipedia.org/wiki/Green_Eggs_and_Ham)
 is limited to 50.
+But these were stories tailored to suit the limited number of words.
+Experiments like
+[Basic English](https://en.wikipedia.org/wiki/Basic_English)
+with a limited vocabulary (850 words) and simplified grammar rules
+have had some success among foreign speakers.
+It would be enlightening to see if a complex story can be told
+with a limited vocabulary.
 
 ## Conclusion
 
@@ -837,7 +840,9 @@ that takes us from animal sounds to the written word.
 We have also explored briefly how it fits with known evidence
 and how to refine or refute it with more research.
 
-It may 
+The whole endeavour may seem idle speculation.
+After all it may seem impossible to refute most of what has been said.
+But it is my belief that there is fruitful research to be done.
 A theory only needs to be consistent with the known facts,
 and it is validated when it can explain new phenomena.
 
@@ -943,8 +948,9 @@ there is much big game going up.
 Note that it is very important to distinguish between
 two single-consonant words and one syllable:
 'S R' from 'S∅R'.
-In the first case there is a small pause between
-both utterances, while in the second the schwa provides vocal continuity.
+In the first case there is a small pause between 'S' and 'R',
+similar to the intersyllabic transition in modern languages.
+In the case of 'S∅R' the schwa provides vocal continuity.
 
 ### Grammar
 
