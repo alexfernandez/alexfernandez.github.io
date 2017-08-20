@@ -1,7 +1,7 @@
 ---
 title: The Origins Of Language
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
-footer: Published on 2017-08-06.
+footer: Published on 2017-08-21.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
