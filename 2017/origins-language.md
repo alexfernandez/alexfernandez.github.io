@@ -725,7 +725,7 @@ are enabled by increasing information content.
 ### Description
 
 The most primitive use of language is related to the present situation.
-It is used to **remove ambiguity**.
+It is used to _remove ambiguity_.
 Say that two hominins _A_ and _B_ are in a certain setting.
 _A_ sees an animal, and wants to communicate it to _B_.
 Perhaps their common language has an utterance for 'warning',
@@ -770,7 +770,7 @@ Again, this requires increasing the number of possible words.
 ### Training
 
 Another important use is training.
-Here too language can help to **remove ambiguity**.
+Here too language can help to _remove ambiguity_.
 Complex techniques require very precise movements,
 be they used for tool making, gathering food or hunting game.
 Language can be a powerful teaching aid.
@@ -795,7 +795,7 @@ it seems that language must have been quite advanced by then.
 
 A more modern use of language is storytelling.
 In this setting the speakers are recounting previous events.
-Here too removing ambiguity is essential.
+Here too _removing ambiguity_ is essential.
 
 Storytelling is useful as training:
 someone listening to hunting stories may learn tips and tricks.
@@ -817,7 +817,7 @@ Our fascination with hearing stories is present today
 thinly disguised as books or movies.
 We still get most of our morals in the form of exemplifying stories.
 
-Storytelling is possible with a limited set of words;
+Stories are possible with a limited set of words:
 Dr Seuss' [The Cat in the Hat](https://en.wikipedia.org/wiki/The_Cat_in_the_Hat)
 contains only 236 different words,
 and [Green Eggs and Ham](https://en.wikipedia.org/wiki/Green_Eggs_and_Ham)
