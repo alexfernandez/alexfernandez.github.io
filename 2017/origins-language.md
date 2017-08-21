@@ -63,7 +63,7 @@ correlates strongly with how much information can be conveyed.
 First we will compute the information carried by a single word.
 Using the classic Shannon formula for entropy:
 
-> I = - Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
+> I = -Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
 
 If there are _N_ words, all equally likely, the resulting entropy is
 
