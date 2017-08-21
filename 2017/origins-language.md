@@ -59,9 +59,8 @@ We need some other tools to delve into the darkness of time.
 A very basic criteria that describes a language era is
 how many different words can be uttered.
 The number of possible words in a given language
-correlates strongly with how much information can be conveyed:
-
-For the moment we will focus on computing the information carried by a single word.
+correlates strongly with how much information can be conveyed.
+First we will compute the information carried by a single word.
 Using the classic Shannon formula for entropy:
 
 > I = - Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
