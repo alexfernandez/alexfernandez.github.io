@@ -604,7 +604,7 @@ We know the lifestyle and capabilities of our ancestors
 thanks to the remains that they left behind.
 
 We have seen [above](#recent-origin)
-how hyoid bones allow us to hypothesize that hominins
+how hyoid bones seem to imply that hominins
 could already articulate 530 kya
 (and no sooner than 3.3 Mya).
 More samples might help us pinpoint these dates more exactly.
