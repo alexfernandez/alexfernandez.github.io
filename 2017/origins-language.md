@@ -179,11 +179,11 @@ about 80 for
 A single consonant word is thus limited to less than 100 words
 in the best of cases,
 and probably no further than 30 or so,
-since many of these modern consonants are combinations of simpler sounds.
-These combinations are most probably evolved from consonant groupings,
-and are therefore modern constructions.
+since many of these consonants are combinations of simpler sounds.
+These combinations may have evolved from consonant groupings,
+and be therefore modern constructions.
 
-The number of consonants has probably increased with time.
+The number of consonants has likely increased with time.
 We can choose any number from 10 to 20 or so,
 with the reasonable assurance
 that at some point in time humans could only profer that number of words.
