@@ -660,8 +660,7 @@ Except glorious exceptions like the study by
 [García Calvo (2003)](#ref03),
 they are of limited value to infer
 how or when language features evolved.
-It remains to be seen if the veils of time can be pierced
-by keener eyes.
+It remains to be seen if the veils of time can be pierced any further.
 
 ### Genetics
 
@@ -685,7 +684,7 @@ it will be possible to study how people without it
 study the implications of a genetic issue
 on a large family.
 
-Genetics may thus serve as empirical proof of the timeline
+Genetics may thus serve as empirical test of the timeline
 that has been sketched in this article.
 
 ### Previous Studies
@@ -701,7 +700,8 @@ In the same volume,
 gives an overview of other theories.
 
 It is my sincere hope that I have overlooked a mountain of literature
-specifying how languages came to be the complex wonders that we know.
+specifying how languages came to be the complex wonders that we know,
+feature by feature.
 
 ## Language As A Tool
 
