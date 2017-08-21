@@ -499,13 +499,28 @@ that can be raised about this timeline.
 ### Recent Origin
 
 Many scholars support a much later date for the appearance of language,
-around 100 kya.
-See [Dediu _et al_ (2013)](#ref07).
-It is known that
-[Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
-which is probably enough to discard this timeline:
-this curious bone is used in speech for articulation.
-[D'Anastasio _et al_](#ref24)
+around 100 kya,
+as reported by [Dediu _et al_ (2013)](#ref07).
+This is not supported by evidence.
+
+The [hyoid bone](https://en.wikipedia.org/wiki/Hyoid_bone)
+ is a critical part of our capacity to speak;
+more specifically it is used for articulation.
+[Martínez _et al_ (2008)](#ref25)
+report that a couple of hyoid bones of hominins from 530 kya
+are very similar to samples from modern humans.
+[D'Anastasio _et al_ (2013)](#ref24)
+find the hyoid bone in Neanderthals to be structurally very similar to modern bones,
+Even further,
+[Martínez _et al_ (2013)](#ref26)
+find that 530 kya hominins had a similar auditory range as today.
+
+Barring some theory that explains why non-speaking hominins
+had similar bones as we use today for speech,
+these findings are probably enough to discard this timeline.
+In fact, a sample from 3.3 Mya ago is very similar to the hyoid bone of modern chimpanzees,
+which seems to imply that speech capabilities were developed between
+3.3 Mya and 530 kya.
 
 ### Earlier Monosyllabic Explosion
 
@@ -587,10 +602,16 @@ Archeological remains are the first and foremost source of evidence
 about all things prehistoric.
 We know the lifestyle and capabilities of our ancestors
 thanks to the remains that they left behind.
-But there is also symbolic evidence which might prove much more valuable.
 
+We have seen [above](#recent-origin)
+how hyoid bones allow us to hypothesize that hominins
+could already articulate 530 kya
+(and no sooner than 3.3 Mya).
+More samples might help us pinpoint these dates more exactly.
+
+There is also symbolic evidence which might prove even more valuable.
 There are the
-[mysterious signs](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/)
+[mysterious symbols](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/)
 that crop up in Upper Paleolithic cave paintings
 and that nobody has been able to interpret.
 Do they represent concepts of some kind,
@@ -1148,3 +1169,14 @@ D’Anastasio, R., Wroe, S., Tuniz, C., Mancini, L., Cesana, D. T., Dreossi, D.,
 Micro-biomechanics of the Kebara 2 hyoid and its implications for speech in Neanderthals.
 _PloS one_, 8(12), e82261.
 [Web](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082261).
+* <a name="ref25"></a>
+Martínez, I., Arsuaga, J. L., Quam, R., Carretero, J. M., Gracia, A., & Rodríguez, L. (2008).
+Human hyoid bones from the middle Pleistocene site of the Sima de los Huesos (Sierra de Atapuerca, Spain).
+_Journal of human evolution_, 54(1), 118-124.
+[PDF](https://www.researchgate.net/profile/Ignacio_Martinez8/publication/6036504_Human_hyoid_bones_from_the_Middle_Pleistocene_site_of_the_Sima_de_los_Huesos_(Sierra_de_Atapuerca_Spain)/links/0912f50fa6213181b3000000.pdf)
+* <a name="ref26"></a>
+Martínez, I., Rosa, M., Quam, R., Jarabo, P., Lorenzo, C., Bonmatí, A., ... & Arsuaga, J. L. (2013).
+Communicative capacities in Middle Pleistocene humans from the Sierra de Atapuerca in Spain.
+_Quaternary International_, 295, 94-101.
+[PDF](http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf)
+
