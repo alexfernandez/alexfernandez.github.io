@@ -616,13 +616,13 @@ across much of France, and then
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
-from later periods.
+from later periods,
+and probably many more overlooked prehistoric marks.
 
 Do they represent concepts of some kind,
 or are they just pretty designs?
 With a more concrete language description in mind
 it is conceivable that these inscriptions might be decyphered,
-perhaps as function words;
 or at least put in context.
 
 ### Modern Languages
