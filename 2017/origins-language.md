@@ -113,7 +113,7 @@ and so it has continued until the present time.
 
 ## A Timeline Proposal
 
-With the previous analysis in mind we can create the following timeline,
+With this preliminary analysis in mind we can create the following timeline,
 dividing language evolution into a number of stages.
 
 ### Individual Sounds
