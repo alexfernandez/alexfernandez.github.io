@@ -278,7 +278,7 @@ only present to link both consonants.
 
 A two-consonant language might still preserve the original one-consonant functions words 𝛫,
 and add content words combining two consonants: 𝛫∅𝛫.
-A syllable during this era can therefore be either 𝛫 or 𝛫∅𝛫.
+A word during this era can therefore be either 𝛫 or 𝛫∅𝛫.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this improvement?
