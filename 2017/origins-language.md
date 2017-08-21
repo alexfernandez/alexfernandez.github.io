@@ -587,122 +587,6 @@ and regaining them later.
 
 In any case, the number of words grows monotonically.
 
-## Sources Of Evidence
-
-Language does not fossilize.
-This well-known fact means that all of our knowledge
-about how language evolved before the invention of writing is pure speculation.
-Or is it?
-
-There are several sources of evidence about prehistoric languages.
-
-### Physical Remains
-
-Archeological remains are the first and foremost source of evidence
-about all things prehistoric.
-We know the lifestyle and capabilities of our ancestors
-thanks to the remains that they left behind.
-
-We have seen [above](#recent-origin)
-how hyoid bones seem to imply that hominins
-could already articulate 530 kya
-(and no sooner than 3.3 Mya).
-More samples might help us pinpoint these dates more exactly.
-
-There is also symbolic evidence which might prove even more valuable.
-[Von Petzinger (2009)](#ref20)
-has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
-across much of France, and then
-[around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
-There are also
-[cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
-from later periods,
-and probably many more overlooked prehistoric marks.
-
-Do they represent concepts of some kind,
-or are they just pretty designs?
-With a more concrete language description in mind
-it is conceivable that these inscriptions might be decyphered,
-or at least put in context.
-
-### Modern Languages
-
-Today there are about
-[7,099 languages](https://www.ethnologue.com/guides/how-many-languages).
-spoken around the world.
-It is to be expected that any features before these languages separated
-would be shared.
-
-Watching the distribution of certain features can be very instructive.
-[The World Atlas of Language Structures Online (WALS)](http://wals.info/)
-is a great resource organized by language features.
-It is entirely possible that the distribution of some features
-is the direct result of prehistoric migrations.
-
-### Language Reconstructions
-
-Indoeuropean is the most widely known and studied archaic language,
-but many others have been reconstructed.
-A few protolanguages (like Proto-Indo-European or PIE)
-have also been postulated with varied success.
-
-Rate of linguistic change is hard to estimate.
-[Nettle (1999)](#ref22)
-argues that languages change faster in small populations.
-It remains to be seen how ancient languages can be reconstructed
-to such a high degree of precision if they were spoken
-by relatively few people for many centuries.
-
-Reconstructions rarely go back beyond the
-[Neolithic revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution),
-around 12 kya.
-Except glorious exceptions like the study by
-[García Calvo (2003)](#ref03),
-they are of limited value to infer
-how or when language features evolved.
-It remains to be seen if the veils of time can be pierced any further.
-
-### Genetics
-
-There are many genes responsible for speech.
-[FOXP2](https://en.wikipedia.org/wiki/FOXP2)
-is the most famous and studied of all.
-This gene has the same expression in humans and Neanderthals,
-from which [Dediu _et al_ (2013)](#ref07)
-deduce that both groups had mostly equivalent language capabilities.
-It is likely that we will be able to trace evolution of speech even further back in time
-by following how this and other genes have evolved.
-
-Another important area of study is speech disorders.
-The best way to learn how a machine works is often watching how it malfunctions.
-Similarly, it is now possible to study how defects in individual genes
-affect individuals that carry them.
-So if gene that enables syllabic speech can be identified,
-it will be possible to study how people without it
-(or with a non-functional variant) communicate.
-[Vargha-Khadem _et al_ (1995)](#ref10)
-study the implications of a genetic issue
-on a large family.
-
-Genetics may thus serve as empirical test of the timeline
-that has been sketched in this article.
-
-### Previous Studies
-
-While not direct evidence,
-there is a growing amount of literature about the origins of language.
-[Smillie (1985)](#ref09) models the evolution of early languages
-on the acquisition of language by children.
-[Hurford (2003)](#ref08) offers a limited view of proto-languages,
-where at the beginning they would have no function words.
-In the same volume,
-[Newmeyer (2003)](#ref11)
-gives an overview of other theories.
-
-It is my sincere hope that I have overlooked a mountain of literature
-specifying how languages came to be the complex wonders that we know,
-feature by feature.
-
 ## Language As A Tool
 
 Language has many uses.
@@ -878,8 +762,124 @@ Experiments like
 [Basic English](https://en.wikipedia.org/wiki/Basic_English)
 with a limited vocabulary (850 words) and simplified grammar rules
 have had some success among foreign speakers.
-It would be enlightening to see if a complex story can be told
+It would be enlightening to learn if a complex story can be told
 with an even more limited vocabulary.
+
+## Sources Of Evidence
+
+Language does not fossilize.
+This well-known fact means that all of our knowledge
+about how language evolved before the invention of writing is pure speculation.
+Or is it?
+
+There are several sources of evidence about prehistoric languages.
+
+### Physical Remains
+
+Archeological remains are the first and foremost source of evidence
+about all things prehistoric.
+We know the lifestyle and capabilities of our ancestors
+thanks to the remains that they left behind.
+
+We have seen [above](#recent-origin)
+how hyoid bones seem to imply that hominins
+could already articulate 530 kya
+(and no sooner than 3.3 Mya).
+More samples might help us pinpoint these dates more exactly.
+
+There is also symbolic evidence which might prove even more valuable.
+[Von Petzinger (2009)](#ref20)
+has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
+across much of France, and then
+[around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
+There are also
+[cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
+from later periods,
+and probably many more overlooked prehistoric marks.
+
+Do they represent concepts of some kind,
+or are they just pretty designs?
+With a more concrete language description in mind
+it is conceivable that these inscriptions might be decyphered,
+or at least put in context.
+
+### Modern Languages
+
+Today there are about
+[7,099 languages](https://www.ethnologue.com/guides/how-many-languages).
+spoken around the world.
+It is to be expected that any features before these languages separated
+would be shared.
+
+Watching the distribution of certain features can be very instructive.
+[The World Atlas of Language Structures Online (WALS)](http://wals.info/)
+is a great resource organized by language features.
+It is entirely possible that the distribution of some features
+is the direct result of prehistoric migrations.
+
+### Language Reconstructions
+
+Indoeuropean is the most widely known and studied archaic language,
+but many others have been reconstructed.
+A few protolanguages (like Proto-Indo-European or PIE)
+have also been postulated with varied success.
+
+Rate of linguistic change is hard to estimate.
+[Nettle (1999)](#ref22)
+argues that languages change faster in small populations.
+It remains to be seen how ancient languages can be reconstructed
+to such a high degree of precision if they were spoken
+by relatively few people for many centuries.
+
+Reconstructions rarely go back beyond the
+[Neolithic revolution](https://en.wikipedia.org/wiki/Neolithic_Revolution),
+around 12 kya.
+Except glorious exceptions like the study by
+[García Calvo (2003)](#ref03),
+they are of limited value to infer
+how or when language features evolved.
+It remains to be seen if the veils of time can be pierced any further.
+
+### Genetics
+
+There are many genes responsible for speech.
+[FOXP2](https://en.wikipedia.org/wiki/FOXP2)
+is the most famous and studied of all.
+This gene has the same expression in humans and Neanderthals,
+from which [Dediu _et al_ (2013)](#ref07)
+deduce that both groups had mostly equivalent language capabilities.
+It is likely that we will be able to trace evolution of speech even further back in time
+by following how this and other genes have evolved.
+
+Another important area of study is speech disorders.
+The best way to learn how a machine works is often watching how it malfunctions.
+Similarly, it is now possible to study how defects in individual genes
+affect individuals that carry them.
+So if gene that enables syllabic speech can be identified,
+it will be possible to study how people without it
+(or with a non-functional variant) communicate.
+[Vargha-Khadem _et al_ (1995)](#ref10)
+study the implications of a genetic issue
+on a large family.
+
+Genetics may thus serve as empirical test of the timeline
+that has been sketched in this article.
+
+### Previous Studies
+
+While not direct evidence,
+there is a growing amount of literature about the origins of language.
+[Smillie (1985)](#ref09) models the evolution of early languages
+on the acquisition of language by children.
+[Hurford (2003)](#ref08) offers a limited view of proto-languages,
+where at the beginning they would have no function words.
+In the same volume,
+[Newmeyer (2003)](#ref11)
+gives an overview of other theories.
+
+It is my sincere hope that I have overlooked a mountain of literature
+specifying how languages came to be the complex wonders that we know,
+feature by feature.
 
 ## Conclusion
 
