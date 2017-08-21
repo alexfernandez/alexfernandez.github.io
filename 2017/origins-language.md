@@ -207,7 +207,7 @@ so they seem like a more natural fit for a very restricted set of words.
 It is easy to defend a definite advantage for hominins
 that can combine simple meanings into one coherent whole,
 as compared with those that could only emit separate sounds.
-Group coordination become possible without having to see each other.
+Group coordination becomes possible without having to see each other.
 Still, it is hard to see how a language of this kind could work.
 For illustration purposes,
 in the appendix we have an example of a
