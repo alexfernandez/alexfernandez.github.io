@@ -187,7 +187,8 @@ The number of consonants has likely increased with time.
 We can choose any number from 10 to 20 or so,
 with the reasonable assurance
 that at some point in time humans could only profer that number of words.
-A value of 12 seems certainly achievable.
+A value of 12 seems certainly achievable,
+so we will use it as archetypical.
 We will use the symbol 𝛫 (math Kappa) to represent any single consonant.
 
 Using content words would have limited utterances greatly,
