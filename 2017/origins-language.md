@@ -1000,9 +1000,9 @@ It might perfectly be the other way around.
 There are three possible sentence intonations,
 indicated here by the sentence ending sign:
 
-* neutral, marked with '.',
-* interrogative: marked with '?',
-* and exclamative: marked with '!'.
+* neutral, marked with a dot '.',
+* interrogative: marked with an interrogation mark '?',
+* and exclamative: marked with an exclamation mark '!'.
 
 There are no other possible intonations such as our comma ','.
 Sentences may follow each other closely,
