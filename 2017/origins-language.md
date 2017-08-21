@@ -222,7 +222,7 @@ which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
 (2 Mya).
 According to [Roach (2016)](#ref28),
-at this point _Homo erectus_ started to hunt and scavenge animals,
+around this point _Homo erectus_ started to hunt and scavenge animals,
 increasing its meat consumption.
 But even such a simple language would also have been useful in foraging.
 An educated guess might thus be that around 1 Mya
