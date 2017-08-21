@@ -155,12 +155,18 @@ with deictic information added on top.
 
 ### Single Consonants
 
-The first stage of language must have involved single consonants.
+The first stage of language may have involved single consonants.
 At this point the sounds from the previous step can be combined into sentences,
 making them basic building elements in very simplistic sentences.
-To combine simple elements they must have been only function words:
+These simple elements to combine might be thought to have been
+[content words](https://en.wikipedia.org/wiki/Content_word):
+nouns, adjectives or verbs,
+as proposed by [Hurford (2003)](#ref08).
+Instead we will work from the opposite assumption,
+that these simple elements were only
+[function words](https://en.wikipedia.org/wiki/Function_word):
 prepositions, negations, pronouns, quantifiers and adverbs.
-There can be no content words: nouns, adjectives or verbs.
+Why? Simply because of sheer numbers.
 
 The problem of single consonants is that there are not many of them.
 The number of simple, distinct sounds that can be uttered separately,
@@ -184,6 +190,17 @@ that at some point in time humans could only profer that number of words.
 A value of 12 seems certainly achievable.
 We will use the symbol 𝛫 (math Kappa) to represent a single consonant.
 
+Using content words would have limited utterances greatly,
+and specially the ability to combine them.
+Function words on the other hand can be combined readily,
+creating the first sentences.
+There are other reasons such as the use of pronouns
+('I' and 'you') as deictic words in a sentence,
+without which conversations would be really inane
+and would be limited to point out that there are
+an entity from one of 12 possible categories out there,
+at any given time.
+
 There must have been a definite advantage for hominins that can combine simple meanings
 into one coherent whole,
 as compared with those that could only emit separate sounds.
@@ -201,7 +218,7 @@ which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
 (2 Mya).
 But even such a simple language would also have been useful in foraging.
-An educated guess might thus be that 1 Mya
+An educated guess might thus be that around 1 Mya
 hominins could profer single consonants and combine them into simple sentences.
 We can thus identify the rise of _Homo Erectus_ with the appearance of proper language.
 
@@ -213,11 +230,6 @@ This great advance extends the range of possible words at least by an order of m
 Considering the simplest structure of two consonants,
 or 𝛫𝛫,
 the number of words would be the square of the number of consonants.
-
-The evolution so far can be represented as:
-
-> 𝛫 → 𝛫𝛫
-
 Adding a second consonant without a vowel may seem a strange choice.
 It is however a logical extension of the single-consonant words seen above,
 which does not require additional phonetic entities.
@@ -241,6 +253,9 @@ from two single-consonant words 𝛫-𝛫.
 
 We will use the symbol ∅ (empty set) to represent a vocalic separator.
 Biconsonant syllables will therefore be rendered as 𝛫∅𝛫.
+The evolution so far can be represented as:
+
+> 𝛫 → 𝛫∅𝛫
 
 In practice, ∅ can be a neutral vowel or
 [schwa](https://en.wikipedia.org/wiki/Schwa).
@@ -257,13 +272,13 @@ only present to link both consonants.
 
 A two-consonant language might still preserve the original one-consonant functions words 𝛫,
 and add content words combining two consonants: 𝛫∅𝛫.
-A syllable during this era can therefore be either
-𝛫 or 𝛫∅𝛫.
+A syllable during this era can therefore be either 𝛫 or 𝛫∅𝛫.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this improvement?
 Calling syllables an _invention_ may very well misleading:
-it is very likely that both proferring and parsing syllables require adaptations in the brain.
+it is very likely that both proferring and parsing syllables require
+adaptations in the brains of speakers and listeners to handle the increased complexity.
 Probably the first words with two consonants were formed by
 common linguistic mechanisms:
 [compounding](https://en.wikipedia.org/wiki/Compound_(linguistics))
@@ -276,7 +291,16 @@ The appendix has a
 Our reasonable guess for the double consonant era is that
 it overlapped largely with the emergence of _Homo Sapiens_,
 at around 200 - 100 kya.
-There must have been only minute differences between African and Neanderthal variations.
+At this point modern hominins were evolving fast,
+with large brains and impressive
+[advances in technology](https://en.wikipedia.org/wiki/Middle_Paleolithic#Technology).
+
+Neanderthals are usually classified as a distinct species from _Homo Sapiens_.
+Given the now ample evidence that both groups could and did interbred,
+as reviewed in [Groucutt _et al_ (2015)](#ref23),
+it does not seem unreasonable to classify them as two different subspecies inside _Homo Sapiens_,
+as many scientists have advocated for decades.
+There may have been only minute differences between African and Neanderthal language evolution.
 
 ### Vowels
 
@@ -492,11 +516,6 @@ occupying Europe and Asia.
 So it is reasonable to think that these same Neanderthals
 might have their own languages,
 which influenced the newcomers.
-
-Neanderthals are usually classified as a distinct species from _Homo Sapiens_,
-even if there is now ample evidence that both groups could and did interbred.
-They should thus be classified as two different subspecies inside _Homo Sapiens_,
-as many scientists have advocated for decades.
 
 It has been proposed that languages in North America and Siberia
 [share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
@@ -927,7 +946,7 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
-expressed as '𝛫∅𝛫'.
+expressed as 𝛫∅𝛫.
 It keeps the same set of single-consonant function words,
 while the new combinations are content words.
 We will call it Doublecon.
@@ -950,7 +969,7 @@ which means 'good'.
 * 'to' + 'near', 'R∅T': run.
 
 Not all combinations are used by actual words;
-of the 144 possibilities for '𝛫∅𝛫' only about 100 are valid.
+of the 144 possibilities for 𝛫∅𝛫 only about 100 are valid.
 
 Even when words are formed as compounds
 there is considerable arbitrariness in the process.
@@ -1120,4 +1139,9 @@ Nettle, D. (1999).
 Is the rate of linguistic change constant?
 _Lingua_, 108(2-3), 119-136.
 [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf).
+* <a name="ref23"></a>
+Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton, A., Clark‐Balzan, L., ... & Breeze, P. S. (2015).
+Rethinking the dispersal of Homo sapiens out of Africa.
+_Evolutionary Anthropology: Issues, News, and Reviews_, 24(4), 149-164.
+[PDF](http://www.academia.edu/download/41344856/Rethinking_the_Dispersal_of_Homo_sapiens20160120-29405-d77uh9.pdf)
 
