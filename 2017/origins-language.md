@@ -289,7 +289,7 @@ The appendix has a
 
 Our reasonable guess for the double consonant era is that
 it overlapped largely with the emergence of _Homo Sapiens_,
-at around 200 - 100 kya.
+at around 200–100 kya.
 At this point modern hominins were evolving fast,
 with large brains and impressive
 [advances in technology](https://en.wikipedia.org/wiki/Middle_Paleolithic#Technology).
@@ -334,7 +334,10 @@ so that we can infer that their appearance happened before the last diaspora
 at around 70–50 kya.
 We will suppose that it did not happen much earlier than that.
 
-### The Monosyllabic Explosion
+### Monosyllabic Explosion
+
+In this period the number of words grows in a number of ways
+while remaining monosyllables.
 
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
@@ -502,11 +505,13 @@ It is known that
 [Neanderthals had a similar hyoid bone to ours](https://phys.org/news/2013-12-hyoid-bone-analysis-hypothesis-complex.html),
 which is probably enough to discard this timeline:
 this curious bone is used in speech for articulation.
+[D'Anastasio _et al_](#ref24)
 
-### Earlier Double Consonant Era
+### Earlier Monosyllabic Explosion
 
-Our estimation for the double consonant era
+Our estimation for the monosyllabic explosion
 is from 200 to 100 kya,
+firmly 
 due to the divergence of schemes to extend it
 across the world.
 
@@ -1049,7 +1054,7 @@ Ed. Lucina.
 Wadley, L., Hodgskiss, T., & Grant, M. (2009).
 Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
 _Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
-[Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
+[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
 * <a name="ref05"></a>
 Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
 _Brill's companion to Herodotus_. Brill.
@@ -1063,12 +1068,12 @@ _Folia linguistica_, 45(2), 435-463.
 Dediu, D., & Levinson, S. C. (2013).
 On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
 _Frontiers in psychology_, 4.
-[Ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
+[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
 * <a name="ref08"></a>
 Hurford, J. R. (2003).
 The language mosaic and its evolution.
 _Studies in the Evolution of Language, 3_, 38-57.
-[Ref](http://www.lel.ed.ac.uk/~jim/nustates.htm).
+[Web](http://www.lel.ed.ac.uk/~jim/nustates.htm).
 * <a name="ref09"></a>
 Smillie, D. (1985).
 Sociobiology and human culture.
@@ -1101,7 +1106,7 @@ _Monosyllables: from phonology to typology_, 115-130.
 Yang, C. (2013).
 Ontogeny and phylogeny of language.
 _Proceedings of the National Academy of Sciences_, 110(16), 6324-6327.
-[Ref](http://www.pnas.org/content/110/16/6324.full).
+[Web](http://www.pnas.org/content/110/16/6324.full).
 * <a name="ref16"></a>
 Trask, R. L. (2003).
 _Language: the basics_, 5. Routledge.
@@ -1141,4 +1146,8 @@ Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton, A., Clark�
 Rethinking the dispersal of Homo sapiens out of Africa.
 _Evolutionary Anthropology: Issues, News, and Reviews_, 24(4), 149-164.
 [PDF](https://www.researchgate.net/profile/Huw_Groucutt/publication/280941810_Rethinking_the_Dispersal_of_Homo_sapiens_out_of_Africa/links/55cda22e08aeeaab209b5680/Rethinking-the-Dispersal-of-Homo-sapiens-out-of-Africa.pdf).
-
+* <a name="ref24"></a>
+D’Anastasio, R., Wroe, S., Tuniz, C., Mancini, L., Cesana, D. T., Dreossi, D., ... & Capasso, L. (2013).
+Micro-biomechanics of the Kebara 2 hyoid and its implications for speech in Neanderthals.
+_PloS one_, 8(12), e82261.
+[Web](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082261).
