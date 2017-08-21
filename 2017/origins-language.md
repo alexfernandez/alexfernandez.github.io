@@ -118,7 +118,7 @@ dividing language evolution into a number of stages.
 
 ### Individual Sounds
 
-Our most remote ancestors must have communicated using simple sounds.
+Our most remote ancestors probably communicated using simple sounds.
 Many animals use distinct vocal utterances to express different meanings.
 Elements include: pitch, volume and articulation
 (the shape of the mouth to generate the sound).
@@ -201,8 +201,8 @@ and would be limited to point out that there are
 an entity from one of 12 possible categories out there,
 at any given time.
 
-There must have been a definite advantage for hominins that can combine simple meanings
-into one coherent whole,
+It is easy to defend a definite advantage for hominins
+that can combine simple meanings into one coherent whole,
 as compared with those that could only emit separate sounds.
 Group coordination become possible without having to see each other.
 Still, it is hard to see how a language of this kind could work.
@@ -224,8 +224,7 @@ We can thus identify the rise of _Homo Erectus_ with the appearance of proper la
 
 ### Double Consonant Syllables
 
-At some point early humans must have learned to combine several sounds
-into one syllable.
+At some point early humans learned to combine several sounds into one syllable.
 This great advance extends the range of possible words at least by an order of magnitude.
 Considering the simplest structure of two consonants,
 or 𝛫𝛫,
@@ -308,14 +307,15 @@ but there may have been only minute differences between African and Neanderthal 
 At some point in time vowels become first-class citizens.
 With vowels the number of possible syllables grows a bit.
 A proper vowel is represented by the symbol 𝛢 (math Alpha).
-Let us suppose that there are three possible vowels.
+Let us suppose that there are three possible vowels at some point in time,
+along with the original 12 consonants.
 The number of combinations is now:
 consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
 plus the original 12 single-consonant function words 𝛫,
 for a total of 444 combinations.
-Note that function words may acquire vowels too,
-to yield simple structures like 𝛫𝛢,
-in order to increase their number (to 36).
+Note that function words may also acquire vowels to yield simple structures like 𝛫𝛢,
+in order to increase their number to 36;
+in this case yielding 468 possible words.
 
 The process of vowel acquisition may require larynx, ear and brain adaptations
 to generate, hear and process the new grammatical elements.
@@ -332,6 +332,7 @@ Vowels may in fact have appeared several times throughout prehistory.
 Almost all known languages have at least a few vowels,
 so that we can infer that their appearance happened before the last diaspora
 at around 70 ~ 50 kya.
+We will suppose that it did not happen much earlier than that.
 
 ### The Monosyllabic Explosion
 
@@ -373,7 +374,7 @@ They are a special kind of tone that vary within a syllable.
 ([sample](https://www.youtube.com/watch?v=j_Qs75dfpko)).
 
 The fact that all of these mechanisms are so different
-are a testimony that they must have been developed separately.
+are a testimony that they were probably developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
 around 70 kya.
 After that point these mechanisms developed regionally.
@@ -455,11 +456,12 @@ There are some hints at monosyllabic Sino-Tibetan ancestors as in
 [Lama (2012)](#ref13),
 as recently as 4 kya.
 
-Languages must have adopted polysyllabic forms probably as the necessity arose,
+Languages probably adopted polysyllabic forms as the necessity arose,
 given their particular information density configurations.
 In combination with other monosyllabic techniques
 they may have achieved vocabularies of tens of thousands of words.
-This leaves us just right before the invention of writing.
+This leaves us just right before the invention of writing,
+which is the point where Prehistory ends along with our journey.
 
 ### Time Scales
 
