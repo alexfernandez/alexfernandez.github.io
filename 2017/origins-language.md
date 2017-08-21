@@ -993,7 +993,8 @@ Even when words are formed as compounds
 there is considerable arbitrariness in the process.
 The combination of 'down' with 'to' ('L∅R') is small animal,
 while 'to' + 'down' ('R∅L') is trail.
-It might perfectly be the other way around.
+It might perfectly be the other way around,
+so it is purely a matter of convention.
 
 ### Prosody
 
