@@ -214,12 +214,16 @@ in the appendix we have an example of a
 [single-consonant language](#singlecon).
 
 At which point in time did the era of single consonants start?
-Being so far back in time it is not easy to pinpoint.
+The determination of the era of single consonants will have to involve
+considerable guesswork, being so far back in time.
 The advantage of group coordination would definitely have been greater
 when hominins started to hunt in groups,
 which may have been
 [around two million years ago](http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346).
 (2 Mya).
+According to [Roach (2016)](#ref28),
+at this point _Homo erectus_ started to hunt and scavenge animals,
+increasing its meat consumption.
 But even such a simple language would also have been useful in foraging.
 An educated guess might thus be that around 1 Mya
 hominins could profer single consonants and combine them into simple sentences.
@@ -1184,5 +1188,10 @@ _Quaternary International_, 295, 94-101.
 * <a name="ref27"></a>
 Lombardi, O., Holik, F., & Vanni, L. (2016).
 What is Shannon information? _Synthese_, 193(7), 1983-2012.
-[PDF](http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf)
+[PDF](http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf).
+* <a name="ref28"></a>
+Roach, N. T., Hatala, K. G., Ostrofsky, K. R., Villmoare, B., Reeves, J. S., Du, A., ... & Richmond, B. G. (2016).
+Pleistocene footprints show intensive use of lake margin habitats by Homo erectus groups.
+_Scientific reports_, 6.
+[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873780/).
 
