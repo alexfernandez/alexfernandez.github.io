@@ -509,13 +509,10 @@ this curious bone is used in speech for articulation.
 
 ### Earlier Monosyllabic Explosion
 
-Our estimation for the monosyllabic explosion
-is from 200 to 100 kya,
-firmly 
-due to the divergence of schemes to extend it
-across the world.
+Our estimation for the monosyllabic explosion is from 50 to 15 kya,
+due to the divergence of schemes to extend monosyllables across the world.
 
-There is a small problem with these dates.
+There is a small problem with this argument.
 When _Homo Sapiens_ left Africa,
 there was already a large population of Neanderthals
 occupying Europe and Asia.
