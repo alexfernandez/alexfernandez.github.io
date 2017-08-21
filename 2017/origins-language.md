@@ -300,7 +300,8 @@ Given the now ample evidence that both groups could and did interbred,
 as reviewed in [Groucutt _et al_ (2015)](#ref23),
 it does not seem unreasonable to classify them as two different subspecies inside _Homo Sapiens_,
 as many scientists have advocated for decades.
-There may have been only minute differences between African and Neanderthal language evolution.
+The degree of shared evolution is far from clear,
+but there may have been only minute differences between African and Neanderthal language evolution.
 
 ### Vowels
 
@@ -1143,5 +1144,5 @@ _Lingua_, 108(2-3), 119-136.
 Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton, A., Clark‐Balzan, L., ... & Breeze, P. S. (2015).
 Rethinking the dispersal of Homo sapiens out of Africa.
 _Evolutionary Anthropology: Issues, News, and Reviews_, 24(4), 149-164.
-[PDF](http://www.academia.edu/download/41344856/Rethinking_the_Dispersal_of_Homo_sapiens20160120-29405-d77uh9.pdf)
+[PDF](https://www.researchgate.net/profile/Huw_Groucutt/publication/280941810_Rethinking_the_Dispersal_of_Homo_sapiens_out_of_Africa/links/55cda22e08aeeaab209b5680/Rethinking-the-Dispersal-of-Homo-sapiens-out-of-Africa.pdf).
 
