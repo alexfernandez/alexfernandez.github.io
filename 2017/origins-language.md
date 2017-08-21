@@ -18,7 +18,7 @@ In this article we will explore how language originated and developed in prehist
 combining language reconstruction and information theory
 with generous amounts of conjecture
 to arrive at a consistent view of language evolution.
-From beyond the mysts of time we will try to build defensible positions,
+From beyond the mysts of time we will try to build a few defensible positions,
 or at the very least lay a path to future discovery.
 
 ## Language Evolution
@@ -38,7 +38,7 @@ who wrote endless sentences and often forgot to finish them
 Going further back in the past,
 partial reconstructions such as the enlightening work done with Indoeuropean
 shows that many elements of language that we take for granted are relatively recent additions.
-Proto-Indo-European (PIE) developed gender gradually,
+For instance, Proto-Indo-European (PIE) developed gender gradually,
 as explained by [Luraghi (2011)](#ref06).
 
 How far back can we go with reconstructions?
@@ -47,10 +47,10 @@ is able to reconstruct an even earlier prehistoric language,
 as we will see below.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
-with little success and credibility.
+with little success and even less credibility.
 Past a certain point reconstructions are no use:
 our interest is not in tracing common roots for all languages,
-but to investigate how language features evolved.
+but to investigate how broad language features evolved.
 
 We need some other tools to delve into the darkness of time.
 
