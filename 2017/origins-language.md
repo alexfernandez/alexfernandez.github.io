@@ -979,7 +979,7 @@ reduplication and composition.
 * The combination of 'down' ('L') and 'to' ('R') is 'L∅R'
 and refers to something that moves on the ground
 such as a small animal.
-* 'up' ('S') + 'to' ('S∅R') is a big animal.
+* 'up' ('S') + 'to' ('R') is 'S∅R': a big animal.
 * 'near' ('T') + 'much' ('K'), 'T∅K': family.
 * 'near' ('T') combined with itself is 'T∅T'
 which means 'good'.
