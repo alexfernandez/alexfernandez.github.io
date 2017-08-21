@@ -1013,7 +1013,7 @@ with a pause between them.
 A few sentences in Doublecon follow.
 
 * 'T∅K M. T∅K T∅T.': 'family here. family good',
-the family has arrived.
+the good family has arrived.
 * 'V R S∅R. N M.':
 'me to big animal. you here.',
 I will go to the big animals, you stay here.
