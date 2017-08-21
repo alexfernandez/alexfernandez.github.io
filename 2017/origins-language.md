@@ -179,7 +179,7 @@ about 80 for
 A single consonant word is thus limited to less than 100 words
 in the best of cases,
 and probably no further than 30 or so,
-since many of these consonants are combinations of simpler sounds.
+since many of these consonants can be viewed as combinations of simpler sounds.
 These combinations may have evolved from consonant groupings,
 and be therefore modern constructions.
 
