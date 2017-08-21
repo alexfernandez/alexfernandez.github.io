@@ -61,11 +61,12 @@ how many different words can be uttered.
 The number of possible words in a given language
 correlates strongly with how much information can be conveyed.
 First we will compute the information carried by a single word.
-Using the classic Shannon formula for entropy:
+Using the classic Shannon formula,
+see e.g. [Lombardi (2016)](#ref27):
 
 > I = -Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
 
-If there are _N_ words, all equally likely, the resulting entropy is
+If there are _N_ words, all equally likely, the resulting information is
 
 > I = log<sub>2</sub>(N)
 
@@ -1177,4 +1178,8 @@ Martínez, I., Rosa, M., Quam, R., Jarabo, P., Lorenzo, C., Bonmatí, A., ... & 
 Communicative capacities in Middle Pleistocene humans from the Sierra de Atapuerca in Spain.
 _Quaternary International_, 295, 94-101.
 [PDF](http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf)
+* <a name="ref27"></a>
+Lombardi, O., Holik, F., & Vanni, L. (2016).
+What is Shannon information? _Synthese_, 193(7), 1983-2012.
+[PDF](http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf)
 
