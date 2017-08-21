@@ -305,9 +305,7 @@ but there may have been only minute differences between African and Neanderthal 
 
 ### Vowels
 
-Consonants cannot properly exist until vowels become
-first-class citizens.
-
+At some point in time vowels become first-class citizens.
 With vowels the number of possible syllables grows a bit.
 A proper vowel is represented by the symbol 𝛢 (math Alpha).
 Let us suppose that there are three possible vowels.
