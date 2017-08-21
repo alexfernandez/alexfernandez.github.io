@@ -331,7 +331,7 @@ At what point did this happen?
 Vowels may in fact have appeared several times throughout prehistory.
 Almost all known languages have at least a few vowels,
 so that we can infer that their appearance happened before the last diaspora
-at around 70 ~ 50 kya.
+at around 70–50 kya.
 We will suppose that it did not happen much earlier than that.
 
 ### The Monosyllabic Explosion
@@ -425,7 +425,7 @@ of the two-consonant syllables seen above.
 shows that for Semitic languages,
 the transition from two- to three-consonant roots
 happened during the transition to the Neolithic period,
-or 15 ~ 10 kya.
+or 15–10 kya.
 
 [García Calvo (2003)](#ref03)
 reconstructs a prehistoric language ancestral to Indo-European
@@ -503,10 +503,10 @@ It is known that
 which is probably enough to discard this timeline:
 this curious bone is used in speech for articulation.
 
-### Earlier Monosyllabic Era
+### Earlier Double Consonant Era
 
-Our estimation for the monosyllabic era
-is from 200k to 100k years ago,
+Our estimation for the double consonant era
+is from 200 to 100 kya,
 due to the divergence of schemes to extend it
 across the world.
 
@@ -517,10 +517,6 @@ occupying Europe and Asia.
 So it is reasonable to think that these same Neanderthals
 might have their own languages,
 which influenced the newcomers.
-
-It has been proposed that languages in North America and Siberia
-[share a common ancestry](https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages);
-the separation happened 15,000 years ago.
 
 ### Earlier Introduction Of Vowels
 
