@@ -200,6 +200,8 @@ without which conversations would be really inane
 and would be limited to point out that there are
 an entity from one of 12 possible categories out there,
 at any given time.
+Also, function words are always in a finite supply anyway,
+so they seem like a more natural fit for a very restricted set of words.
 
 It is easy to defend a definite advantage for hominins
 that can combine simple meanings into one coherent whole,
