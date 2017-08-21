@@ -18,7 +18,7 @@ In this article we will explore how language originated and developed in prehist
 combining language reconstruction and information theory
 with generous amounts of conjecture
 to arrive at a consistent view of language evolution.
-From beyond the mysts of time we will try to make and defend reasoned conjectures,
+From beyond the mysts of time we will try to build defensible positions,
 or at the very least lay a path to future discovery.
 
 ## Language Evolution
