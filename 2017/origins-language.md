@@ -898,7 +898,7 @@ The whole endeavour may seem idle speculation.
 After all it may seem impossible to refute most of what has been said here.
 But it is my belief that there is fruitful research to be done.
 A theory only needs to be consistent with the known facts,
-and it is validated when it can explain new phenomena.
+and it is partially validated when it can explain new phenomena.
 
 Learned discussion about very early phonetics,
 [phonotactics](https://en.wikipedia.org/wiki/Phonotactics)
