@@ -856,11 +856,14 @@ The best way to learn how a machine works is often watching how it malfunctions.
 Similarly, it is now possible to study how defects in individual genes
 affect individuals that carry them.
 So if gene that enables syllabic speech can be identified,
-it will be possible to study how people without it
-(or with a non-functional variant) communicate.
+it should be possible to study how people without it
+(or with a non-functional variant) can communicate.
+For instance,
 [Vargha-Khadem _et al_ (1995)](#ref10)
-study the implications of a genetic issue
+study the implications of a genetic problem in FOXP2
 on a large family.
+Would it be possible to find variants of this and other genes
+that limit for instance polysyllabic communication?
 
 Genetics may thus serve as empirical test of the timeline
 that has been sketched in this article.
