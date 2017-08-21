@@ -610,21 +610,16 @@ could already articulate 530 kya
 More samples might help us pinpoint these dates more exactly.
 
 There is also symbolic evidence which might prove even more valuable.
-There are the
-[mysterious symbols](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/)
-that crop up in Upper Paleolithic cave paintings
-and that nobody has been able to interpret.
-Do they represent concepts of some kind,
-or are they just pretty doodles?
 [Von Petzinger (2009)](#ref20)
-has found that the same set of symbols is repeated
+has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
 across much of France, and then
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
-
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
 from later periods.
 
+Do they represent concepts of some kind,
+or are they just pretty designs?
 With a more concrete language description in mind
 it is conceivable that these inscriptions might be decyphered,
 perhaps as function words;
