@@ -92,10 +92,10 @@ is shown in the table below.
 
 Adding more possiblities to the vocabulary
 increases the information carried by each word.
+Another way to convey more information is to combine words together;
+[below](#information-content)
+we will see a couple of attempts at quantification.
 
-Another way to convey more information is to combine words together.
-see [below](#information-content)
-for a couple of attempts at quantification.
 Modern languages can be seen as open-ended:
 the number of productions is unlimited,
 as explained in
