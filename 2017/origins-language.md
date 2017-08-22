@@ -329,7 +329,7 @@ in order to increase their number to 36;
 in this case yielding 468 possible words.
 
 The process of vowel acquisition may require larynx, ear and brain adaptations
-to generate, hear and process the new grammatical elements.
+to generate, distinguish and process the new grammatical elements.
 The incorporation of vowels into consonantic languages may happen similarly to the
 [Indo-European ablaut](https://en.wikipedia.org/wiki/Indo-European_ablaut)
 or more generally as
