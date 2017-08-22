@@ -410,11 +410,11 @@ Starting with our basic structure of 12 consonants and 3 vowels,
 a conservative estimation for syllable variability might be:
 
 * Increasing to 20 consonants and 9 vowels for structure 𝛫𝛢𝛫 yields 3600 combinations.
-* New syllable structures 𝛫𝛫𝛢𝛫 or 𝛫𝛢𝛫𝛫 yield 5184 combinations.
+* New syllable structures 𝛫𝛫𝛢𝛫 or 𝛫𝛢𝛫𝛫 yield 5184 combinations each.
 * Adding four tones per vowel for structure 𝛫𝛢𝛫 yield 1728 combinations.
 
 Of course many of these innovations may have been used in conjunction
-for even greater vocabularies.
+to achieve even greater vocabularies.
 
 ### Polysyllables
 
@@ -462,8 +462,8 @@ But [Michaud (2012)](#ref14)
 refers that these monosyllables are often the result of compacting longer words,
 and therefore not a direct descendent of monosyllabic languages.
 In the reconstruction of [Baxter & Sagart (2014)](#ref12),
-[Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese).
-Old Chinese was already polysyllabic.
+[Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese)
+was already polysyllabic.
 There are some hints at monosyllabic Sino-Tibetan ancestors as in
 [Lama (2012)](#ref13),
 as recently as 4 kya.
