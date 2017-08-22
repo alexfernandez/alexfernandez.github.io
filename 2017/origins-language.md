@@ -464,14 +464,14 @@ and therefore not a direct descendent of monosyllabic languages.
 In the reconstruction of [Baxter & Sagart (2014)](#ref12),
 [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese)
 was already polysyllabic.
-There are some hints at monosyllabic Sino-Tibetan ancestors as in
+There are however some hints at monosyllabic Sino-Tibetan ancestors as in
 [Lama (2012)](#ref13),
 as recently as 4 kya.
 
 Languages probably adopted polysyllabic forms as the necessity arose,
 given their particular information density configurations.
 In combination with other monosyllabic techniques
-they may have achieved vocabularies of tens of thousands of words.
+they may have easily achieved vocabularies of tens of thousands of words.
 This leaves us just right before the invention of writing,
 which is the point where Prehistory ends along with our journey.
 
