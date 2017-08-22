@@ -881,7 +881,7 @@ Another important area of study is speech disorders.
 The best way to learn how a machine works is often watching how it malfunctions.
 Similarly, it is now possible to study how defects in individual genes
 affect individuals that carry them.
-So e.g. if a gene that enables syllabic speech can be identified,
+So e.g. if a gene that enables polysyllabic speech can be identified,
 it should be possible to study how people without it
 (or with a non-functional variant) can communicate.
 For instance,
