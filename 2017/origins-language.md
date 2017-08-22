@@ -690,7 +690,7 @@ _A_ sees an animal, and wants to communicate it to _B_.
 Perhaps their common language has an utterance for 'warning',
 not necessarily a word:
 it may be a simpler sound like a shout,
-or a prosodic change such as an intonation.
+probably combined with a prosodic mark such as an intonation.
 It will be _A_'s first utterance.
 Combined with a pointing hand it may be enough
 to make _B_ look and appraise the situation on their own.
