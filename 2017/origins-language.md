@@ -478,7 +478,7 @@ they may have easily achieved vocabularies of tens of thousands of words.
 These newfound combinatorial riches allow for
 [conjugations](https://en.wikipedia.org/wiki/Grammatical_conjugation),
 [declensions](https://en.wikipedia.org/wiki/Declension)
-and many other modern language features.
+and other modern language features.
 This leaves us just right before the invention of writing,
 which is the point where Prehistory ends along with our journey.
 
@@ -498,14 +498,14 @@ The single consonant era has been compressed for easier visualization.
 Note that Neanderthals are included in _Homo Sapiens_.
 
 Figure 1-c shows an alternate time scale with logarithmic axis.
-The scale has been expanded to include apparition of the first hominins,
+The scale has been expanded to include the apparition of the first hominins,
 about 5 Mya.
 The graph ends at the beginning of history around 5 kya.
 Note that it would not be particularly hard 
 (and it may be tempting)
 to make all eras approximately equal in the logarithmic axis,
 which would give a nice picture of constantly accelerating linguistic progress.
-But the process would break all the known species and cultural boundaries.
+But the change would break all the known boundaries of cultures and species.
 
 ## Alternative Timelines
 
