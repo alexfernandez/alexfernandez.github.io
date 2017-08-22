@@ -300,7 +300,11 @@ at around 200–100 kya.
 At this point modern hominins were evolving fast,
 with large brains and impressive
 [advances in technology](https://en.wikipedia.org/wiki/Middle_Paleolithic#Technology).
+An exponential increase in the complexity of their communications
+would have suited perfectly their new activities,
+and would be a great help for the the new challenges they were facing.
 
+A note on the European branch of the family is in order.
 Neanderthals are usually classified as a distinct species from _Homo Sapiens_.
 Given the now ample evidence that both groups could and did interbred,
 as reviewed in [Groucutt _et al_ (2015)](#ref23),
