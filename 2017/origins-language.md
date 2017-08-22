@@ -347,7 +347,7 @@ We will suppose that it did not happen much earlier than that.
 
 ### Monosyllabic Explosion
 
-In this period the number of words grows in a number of ways
+In this next period the number of words grows in a number of ways
 while remaining monosyllables.
 
 The basic problem of a monosyllabic language is how to cram
