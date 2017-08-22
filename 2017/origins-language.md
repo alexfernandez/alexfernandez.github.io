@@ -401,7 +401,7 @@ at least until 50 kya,
 probably later.
 The new techniques to increase vocabulary sizes
 were surely there for the transition to the
-[upper paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
+[Upper Paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
 as described by
 [Bar-Yosef (2002)](#ref19),
 which must have required a broader lexicon of materials,
@@ -1150,7 +1150,7 @@ _Trends In Linguistics Studies And Monographs_, 197, 375.
 [PDF](http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf).
 * <a name="ref19"></a>
 Bar-Yosef, O. (2002).
-The upper paleolithic revolution.
+The Upper Paleolithic revolution.
 _Annual Review of Anthropology_, 31(1), 363-393.
 [PDF](http://www.cameronmsmith.com/courses/EuropeanPrehistory2007/TheUpperPalaeolithicRevolution.pdf).
 * <a name="ref20"></a>
