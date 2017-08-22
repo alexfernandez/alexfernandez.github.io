@@ -389,7 +389,7 @@ They are a special kind of tone that may vary within a syllable.
 The fact that all of these mechanisms are so different
 is a testimony that they were probably developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 70 kya.
+around 70–50 kya.
 After that point these mechanisms developed regionally.
 It is interesting to note that tonal languages have developed mostly
 [in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
