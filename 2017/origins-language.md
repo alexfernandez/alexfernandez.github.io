@@ -534,7 +534,7 @@ find that 530 kya hominins had a similar auditory range to modern humans.
 Barring some theory that explains why non-speaking hominins
 had similar bones as we use today for speech,
 these findings are probably enough to discard this timeline.
-In fact, a sample from 3.3 Mya ago is very similar to the hyoid bone of modern chimpanzees,
+Furthermore, a sample from 3.3 Mya ago is very similar to the hyoid bone of modern chimpanzees,
 which seems to imply that speech capabilities were developed between
 3.3 Mya and 530 kya.
 
