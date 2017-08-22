@@ -415,6 +415,9 @@ a conservative estimation for syllable variability might be:
 
 Of course many of these innovations may have been used in conjunction
 to achieve even greater vocabularies.
+This increase of combinations may have enabled the separation of word forms
+for verbs, nouns and adjectives,
+effectively establishing word classes as we know them.
 
 ### Polysyllables
 
@@ -472,6 +475,10 @@ Languages probably adopted polysyllabic forms as the necessity arose,
 given their particular information density configurations.
 In combination with other monosyllabic techniques
 they may have easily achieved vocabularies of tens of thousands of words.
+These newfound combinatorial riches allow for
+[conjugations](https://en.wikipedia.org/wiki/Grammatical_conjugation),
+[declensions](https://en.wikipedia.org/wiki/Declension)
+and many other modern language features.
 This leaves us just right before the invention of writing,
 which is the point where Prehistory ends along with our journey.
 
