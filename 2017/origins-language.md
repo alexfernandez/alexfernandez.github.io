@@ -670,7 +670,7 @@ This gross approximation is enough to show that that increasing vocabulary size
 initially yields large advances in communication,
 and then tapers off.
 After around 1000 words gains are incrementally smaller.
-In fact, information content would grow even more slowly with vocabulary size,
+In fact, information content would grow even more slowly with vocabulary size
 when considering redundancy in sentences.
 Particles and other function words are highly redundant.
 In general words in a sentence are not independent:
