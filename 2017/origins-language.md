@@ -1199,12 +1199,12 @@ _PloS one_, 8(12), e82261.
 Martínez, I., Arsuaga, J. L., Quam, R., Carretero, J. M., Gracia, A., & Rodríguez, L. (2008).
 Human hyoid bones from the middle Pleistocene site of the Sima de los Huesos (Sierra de Atapuerca, Spain).
 _Journal of human evolution_, 54(1), 118-124.
-[PDF](https://www.researchgate.net/profile/Ignacio_Martinez8/publication/6036504_Human_hyoid_bones_from_the_Middle_Pleistocene_site_of_the_Sima_de_los_Huesos_(Sierra_de_Atapuerca_Spain)/links/0912f50fa6213181b3000000.pdf)
+[PDF](https://www.researchgate.net/profile/Ignacio_Martinez8/publication/6036504_Human_hyoid_bones_from_the_Middle_Pleistocene_site_of_the_Sima_de_los_Huesos_(Sierra_de_Atapuerca_Spain)/links/0912f50fa6213181b3000000.pdf).
 * <a name="ref26"></a>
 Martínez, I., Rosa, M., Quam, R., Jarabo, P., Lorenzo, C., Bonmatí, A., ... & Arsuaga, J. L. (2013).
 Communicative capacities in Middle Pleistocene humans from the Sierra de Atapuerca in Spain.
 _Quaternary International_, 295, 94-101.
-[PDF](http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf)
+[PDF](http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf).
 * <a name="ref27"></a>
 Lombardi, O., Holik, F., & Vanni, L. (2016).
 What is Shannon information? _Synthese_, 193(7), 1983-2012.
