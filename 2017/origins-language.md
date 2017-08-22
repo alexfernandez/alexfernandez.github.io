@@ -404,8 +404,7 @@ were surely there for the transition to the
 [Upper Paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
 as described by
 [Bar-Yosef (2002)](#ref19),
-which must have required a broader lexicon of materials,
-plants, animals, tools and techniques.
+which must have required a broader lexicon of plants, animals, materials, tools and techniques.
 
 Starting with our basic structure of 12 consonants and 3 vowels,
 a conservative estimation for syllable variability might be:
