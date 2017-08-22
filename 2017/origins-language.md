@@ -582,7 +582,6 @@ there are languages with very different syllable structures,
 such as
 [Upper Arrernte](https://en.wikipedia.org/wiki/Upper_Arrernte_language)
 ([sample](https://www.youtube.com/watch?v=aiBnZjOahhM)).
-
 Interestingly enough,
 almost all languages with
 [simple syllable structures](http://wals.info/chapter/12).
