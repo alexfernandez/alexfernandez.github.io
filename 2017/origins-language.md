@@ -349,7 +349,6 @@ We will suppose that it did not happen much earlier than that.
 
 In this next period the number of words grows in a number of ways
 while they remain monosyllables.
-
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
 There are many possible solutions,
@@ -382,13 +381,13 @@ such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
 ([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
 * Add different contours, as in Chinese
 ([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
-They are a special kind of tone that vary within a syllable.
+They are a special kind of tone that may vary within a syllable.
 * Add nasalized vowels as in
 [French](https://en.wikipedia.org/wiki/French_language)
 ([sample](https://www.youtube.com/watch?v=j_Qs75dfpko)).
 
 The fact that all of these mechanisms are so different
-are a testimony that they were probably developed separately.
+is a testimony that they were probably developed separately.
 This is only possible if they happened after _Homo Sapiens_ left Africa,
 around 70 kya.
 After that point these mechanisms developed regionally.
