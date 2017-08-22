@@ -823,6 +823,8 @@ and probably many more overlooked prehistoric marks.
 
 Do they represent concepts of some kind,
 or are they just pretty designs?
+Are marks more likely to represent functions words,
+or are they content words?
 With a more concrete language description in mind
 it is conceivable that these inscriptions might be decyphered,
 or at least put in context.
