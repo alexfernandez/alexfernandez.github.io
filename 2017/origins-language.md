@@ -696,9 +696,9 @@ Combined with a pointing hand it may be enough
 to make _B_ look and appraise the situation on their own.
 But then _A_ may want to give _B_ a more precise idea of the situation,
 even if _B_ is not currently able to see the animal:
-let us suppose it just ran away.
-Maybe _B_ is far away.
-Or maybe even there is a group of listeners:
+let us suppose it just fled,
+or maybe _B_ is far away.
+At some other situation there may be a group of listeners:
 a shout that lets them know there is a bear nearby
 will be much more effective than waiting for them to look for it.
 Their reaction if there is a rabbit instead
