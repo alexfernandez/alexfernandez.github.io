@@ -795,8 +795,8 @@ Language does not fossilize.
 This well-known fact means that all of our knowledge
 about how language evolved before the invention of writing is pure speculation.
 Or is it?
-
-There are several sources of evidence about prehistoric languages.
+As a matter of fact,
+there are several sources of evidence about prehistoric languages.
 
 ### Physical Remains
 
