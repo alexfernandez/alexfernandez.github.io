@@ -541,15 +541,23 @@ which seems to imply that speech capabilities were developed between
 ### Earlier Monosyllabic Explosion
 
 Our estimation for the monosyllabic explosion is from 50 to 15 kya,
-due to the divergence of schemes to extend monosyllables across the world.
-
+due to the divergence of schemes to augment monosyllables found across the world.
 There is a small problem with this argument.
 When _Homo Sapiens_ left Africa,
-there was already a large population of Neanderthals
+there was already a sizeable population of Neanderthals
 occupying Europe and Asia.
 So it is reasonable to think that these same Neanderthals
 might have their own languages,
-which influenced the newcomers.
+which influenced any newcomers.
+In this case the monosyllabic explosion might have happened much earlier.
+
+It may be an interesting avenue of enquiry.
+Its first obstacle is to reconcile the earlier monosyllabic explosion
+with the late appearance of polysyllables that we have seen
+in many language families.
+What happened in between?
+Unless a satisfactory answer for the extended era is found,
+this point of view should be put on hold.
 
 ### Earlier Introduction Of Vowels
 
@@ -579,7 +587,7 @@ Interestingly enough,
 almost all languages with
 [simple syllable structures](http://wals.info/chapter/12).
 (V or CV) are
-[almost exclusively found](http://wals.info/chapter/12)
+[almost exclusively found](http://wals.info/feature/12A#2/19.3/152.9)
 in Africa, South America or Pacific Islands,
 suggesting some ancestral clustering.
 
