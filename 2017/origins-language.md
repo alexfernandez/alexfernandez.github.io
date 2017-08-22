@@ -962,23 +962,23 @@ There are no content words: nouns, verbs or adjectives.
 A few sentences in Singlecon follow.
 They show the value of combining words for a group of foragers or hunters.
 
+* 'T L.'
+means 'near down.':
+the objective is near but they need to go down.
+* 'K K'.
+means 'much much.':
+there is a lot of what the speaker is interested in.
 * 'V M. N H.'
-Means 'one here. two out.':
+means 'one here. two out.':
 the speaker will remain here while the listener goes away.
 * 'V R. N M.'
-Means 'one to. two here.':
+means 'one to. two here.':
 the speaker will go to the objective;
 the listener must stay here.
 * 'K S. D M.'
-Means 'much up. little here.':
+means 'much up. little here.':
 there is a large quantity of what the speaker is seeking going up,
 while there is little to be found here.
-* 'T L.'
-'near down.':
-the objective is near but they need to go down.
-* 'K K'.
-Means 'much much.':
-there is a lot of what the speaker is seeking.
 
 #### Grammar
 
