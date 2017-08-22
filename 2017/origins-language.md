@@ -747,7 +747,7 @@ This complex process carries a lot of ambiguity
 that has to be removed in the teaching process;
 it is easy to imagine how training time would have been reduced substantially
 with verbal aids guiding the process.
-Given that there are archeological samples from at least 70 kya
+Given that there are archeological samples of such composite materials from at least 70 kya
 it seems that language must have been quite advanced by then.
 
 ### Telling Stories
