@@ -526,10 +526,10 @@ more specifically it is used for articulation.
 report that a couple of hyoid bones of hominins from 530 kya
 are very similar to samples from modern humans.
 [D'Anastasio _et al_ (2013)](#ref24)
-find the hyoid bone in Neanderthals to be structurally very similar to modern bones,
+find the hyoid bone in Neanderthals to be structurally very similar to modern samples.
 Even further,
 [Martínez _et al_ (2013)](#ref26)
-find that 530 kya hominins had a similar auditory range as today.
+find that 530 kya hominins had a similar auditory range to modern humans.
 
 Barring some theory that explains why non-speaking hominins
 had similar bones as we use today for speech,
