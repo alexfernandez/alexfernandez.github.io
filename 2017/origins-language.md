@@ -752,7 +752,7 @@ it seems that language must have been quite advanced by then.
 
 ### Telling Stories
 
-A more modern use of language is storytelling.
+A more elaborate use of language is storytelling.
 In this setting the speakers are recounting previous events.
 Here too _removing ambiguity_ is essential.
 
