@@ -629,7 +629,8 @@ We can estimate the average number of words per sentence using MLU,
 With a vocabulary of around
 [20k words](http://www.lextutor.ca/research/nation_waring_97.html)
 following a Zipf distribution,
-each word would carry around 10 bits of information.
+each word would carry around 10 bits of information,
+as we saw [above](#information-density).
 Therefore a typical adult sentence might carry 120 bits of information,
 if all words were independent.
 
