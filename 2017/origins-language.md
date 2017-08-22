@@ -8,7 +8,7 @@ footer: Published on 2017-08-21.
 ![](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
 The relative scarcity of modern speculation about prehistoric languages is surprising,
-given how much interest there is both academia and the general public
+given how much interest there is both in academia and among the general public
 about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
 which in these often unimaginative times can be a showstopper.
