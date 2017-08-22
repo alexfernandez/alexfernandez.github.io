@@ -908,7 +908,8 @@ gives an overview of other theories.
 
 It is my sincere hope that I have overlooked a mountain of literature
 specifying how languages came to be the complex wonders that we know,
-feature by feature.
+feature by feature and with even more fantastical timelines.
+If it does not exist, it definitely should.
 
 ## Conclusion
 
