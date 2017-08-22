@@ -1000,8 +1000,8 @@ We will call it Doublecon.
 
 Doublecon has a maximum of 144 content words,
 that can work as nouns, verbs or adjectives depending on the situation.
-Words are formed with two consonants by
-reduplication and composition.
+Content words are formed with two consonants by
+reduplication and composition of function words.
 
 * The combination of 'down' ('L') and 'to' ('R') is 'L∅R'
 and refers to something that moves on the ground
