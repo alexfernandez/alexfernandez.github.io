@@ -993,7 +993,7 @@ Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
 expressed as 𝛫∅𝛫.
 It keeps the same set of single-consonant function words,
-while the new combinations are content words.
+while the new combinations are all content words.
 We will call it Doublecon.
 
 ### Vocabulary
