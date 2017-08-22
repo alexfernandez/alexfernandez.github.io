@@ -321,9 +321,9 @@ A proper vowel is represented by the symbol 𝛢 (math Alpha).
 Let us suppose that there are three possible vowels at some point in time,
 along with the original 12 consonants.
 The number of combinations is now:
-consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations,
-plus the original 12 single-consonant function words 𝛫,
-for a total of 444 combinations.
+consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations;
+adding the original 12 single-consonant function words 𝛫
+yields a total of 444 combinations.
 Note that function words may also acquire vowels to yield simple structures like 𝛫𝛢,
 in order to increase their number to 36;
 in this case yielding 468 possible words.
