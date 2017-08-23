@@ -933,7 +933,7 @@ and grammar may take us a long way towards a deeper understanding of our ancesto
 
 ## Appendix
 
-It becomes much easier to visualize language types with examples.
+It becomes much easier to visualize language types with an example.
 In the appendix we will explore several hypothetical languages
 to illustrate the different eras of language evolution.
 
