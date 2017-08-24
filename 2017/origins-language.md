@@ -35,7 +35,7 @@ roughly 2,500 years ago (2.5 kya),
 who wrote endless sentences and often forgot to finish them
 (technically called [anacoluthon](https://en.wikipedia.org/wiki/Anacoluthon)).
 
-Going further back in the past,
+Going further back into the past,
 partial reconstructions such as the enlightening work done with Indoeuropean
 shows that many elements of language that we take for granted are relatively recent additions.
 For instance, Proto-Indo-European (PIE) developed gender gradually,
@@ -43,7 +43,7 @@ as explained by [Luraghi (2011)](#ref06).
 
 How far back can we go with reconstructions?
 [García Calvo (2003)](#ref03)
-is able to reconstruct an even earlier prehistoric language,
+was able to reconstruct an even earlier prehistoric language,
 as we will see below.
 Some researchers have even posited a
 [Proto-Human language](https://en.wikipedia.org/wiki/Proto-Human_language),
@@ -443,7 +443,7 @@ happened during the transition to the Neolithic period,
 or 15–10 kya.
 
 [García Calvo (2003)](#ref03)
-reconstructs a prehistoric language ancestral to Indo-European
+reconstructed a prehistoric language ancestral to Indo-European
 and Proto-Indo-European
 with just two consonants per syllable and without vowels.
 In constrast,
@@ -454,7 +454,7 @@ with suffixes, pronouns and conjugation.
 PIE was supposedly spoken
 [around 7 kya](http://www.archaeology.org/exclusives/articles/1302-proto-indo-european-schleichers-fable),
 which is very close to historic times in many places of the world.
-A timescale is not given by García Calvo,
+A timescale was not given by García Calvo,
 but we may again deduce that the transition from monosyllabic language to PIE
 may have happened near the transition to the Neolithic period.
 
@@ -571,7 +571,7 @@ would extend the number of words from 12 to 36.
 
 But there is some evidence supporting the late appearance of vowels.
 [García Calvo (2003)](#ref03)
-makes the argument that prehistoric Indo-European
+made the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just function words with a single consonant,
 and content words consisting of two juxtaposed consonants.
