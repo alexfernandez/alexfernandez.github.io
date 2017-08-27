@@ -257,15 +257,15 @@ and mark syllable boundaries.
 This allows listeners to distinguish a double-consonant word _KK_
 from two single-consonant words in succession _K-K_.
 
-We will use the symbol Ø
+We will use the italic _Ə_
 ([uppercase schwa](https://en.wikipedia.org/wiki/%C6%8F))
 to represent a vocalic separator.
-Biconsonant syllables will therefore be rendered as _KØK_.
+Biconsonant syllables will therefore be rendered as _KƏK_.
 The evolution so far can be represented as:
 
-> K → KØK
+> K → KƏK
 
-In practice, Ø can be a neutral vowel or
+In practice, Ə can be a neutral vowel or
 [schwa](https://en.wikipedia.org/wiki/Schwa).
 It can also be a more definite vowel sound,
 either automatically assigned by
@@ -273,14 +273,14 @@ either automatically assigned by
 or chosen at random.
 This would mean that e.g. the variants
 'SAN', 'SIN' or 'SUN'
-are in fact different renditions of the same word 'SØN'.
+are in fact different renditions of the same word 'SƏN'.
 Technically it is an
 [epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis),
 only present to link both consonants.
 
 A two-consonant language might still preserve the original one-consonant functions words _K_,
-and add content words combining two consonants: _KØK_.
-A word during this era can therefore be either _K_ or _KØK_.
+and add content words combining two consonants: _KƏK_.
+A word during this era can therefore be either _K_ or _KƏK_.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this improvement?
@@ -606,14 +606,14 @@ and they may have added a second consonant to syllables later.
 
 Compare this path with the one described above:
 
-> K → KØK → KAK.
+> K → KƏK → KAK.
 
 More complex paths are possible:
 developing vocals first,
 losing them later in favor of biconsonant words,
 and regaining them later.
 
-> K → KA → KØK → KAK.
+> K → KA → KƏK → KAK.
 
 In any case, the number of words grows monotonically.
 
@@ -998,7 +998,7 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
-expressed as _K∅K_.
+expressed as _KƏK_.
 It keeps the same set of single-consonant function words,
 while the new combinations are all content words.
 We will call it Doublecon.
@@ -1010,7 +1010,7 @@ that can work as nouns, verbs or adjectives depending on the situation.
 Content words are formed with two consonants by
 reduplication and composition of function words.
 
-* The combination of 'down' ('L') and 'to' ('R') is 'L∅R'
+* The combination of 'down' ('L') and 'to' ('R') is 'LƏR'
 and refers to something that moves on the ground
 such as a small animal.
 * 'up' ('S') + 'to' ('R') is 'S∅R': a big animal.
