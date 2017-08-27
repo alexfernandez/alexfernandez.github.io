@@ -317,7 +317,11 @@ but there may have been only minute differences between African and Neanderthal 
 
 ### Vowels
 
-At some point in time vowels become first-class citizens.
+At some point in time vowels become first-class citizens,
+just as meaningful as consonants.
+
+> K → KƏK → KAK
+
 With vowels the number of possible syllables grows a bit.
 A proper vowel is represented by _A_ (cursive 'A').
 Let us suppose that there are three possible vowels at some point in time,
@@ -429,6 +433,9 @@ effectively establishing word classes as we know them.
 ### Polysyllables
 
 An immediate extension of two consonant words are three consonant words.
+
+> K → KƏK → KAK → KAKAK
+
 Continuing with the basic structure of 12 consonants and three vowels,
 there are now the following combinations:
 12 _K_, 444 _KAK_, and 15552 _KAKAK_,
@@ -998,7 +1005,7 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
-expressed as _KƏK_.
+represented as _KƏK_.
 It keeps the same set of single-consonant function words,
 while the new combinations are all content words.
 We will call it Doublecon.
@@ -1013,20 +1020,20 @@ reduplication and composition of function words.
 * The combination of 'down' ('L') and 'to' ('R') is 'LƏR'
 and refers to something that moves on the ground
 such as a small animal.
-* 'up' ('S') + 'to' ('R') is 'S∅R': a big animal.
-* 'near' ('T') + 'much' ('K'), 'T∅K': family.
-* 'near' ('T') combined with itself is 'T∅T'
+* 'up' ('S') + 'to' ('R') is 'SƏR': a big animal.
+* 'near' ('T') + 'much' ('K'), 'TƏK': family.
+* 'near' ('T') combined with itself is 'TƏT'
 which means 'good'.
-* 'to' + 'down', 'R∅L': trail.
-* 'to' + 'near', 'R∅T': run.
+* 'to' + 'down', 'RƏL': trail.
+* 'to' + 'near', 'RƏT': run.
 
 Not all combinations are used by actual words;
-of the 144 possibilities for _K∅K_ only about 100 are valid.
+of the 144 possibilities for _KƏK_ only about 100 are valid.
 
 Even when words are formed as compounds
 there is considerable arbitrariness in the process.
-The combination of 'down' with 'to' ('L∅R') is small animal,
-while 'to' + 'down' ('R∅L') is trail.
+The combination of 'down' with 'to' ('LƏR') is small animal,
+while 'to' + 'down' ('RƏL') is trail.
 It might perfectly be the other way around,
 so it is purely a matter of convention.
 
@@ -1047,21 +1054,21 @@ with a pause between them.
 
 A few sentences in Doublecon follow.
 
-* 'T∅K M. T∅K T∅T.': 'family here. family good',
+* 'TƏK M. TƏK TƏT.': 'family here. family good',
 the good family has arrived.
-* 'V R S∅R. N M.':
+* 'V R SƏR. N M.':
 'me to big animal. you here.',
 I will go to the big animals, you stay here.
-* 'S∅R K S.': 'big animal much up',
+* 'SƏR K S.': 'big animal much up',
 there is much big game going up.
 
 Note that it is very important to distinguish between
 two single-consonant words and one syllable:
-'S R' from 'S∅R'.
+'S R' from 'SƏR'.
 In the first case there is a small pause between 'S' and 'R',
 similar to the intersyllabic transition in modern languages,
 as in English 'pos·ter'.
-In the case of 'S∅R' the schwa provides vocal continuity.
+In the case of 'SƏR' the schwa provides vocal continuity.
 
 ### Grammar
 
@@ -1070,19 +1077,19 @@ a simplistic grammar is needed to combine content and function words.
 
 The [copula](https://en.wikipedia.org/wiki/Copula_(linguistics))
 is straightforward juxtaposition:
-'V T∅K' means 'I am family'.
+'V TƏK' means 'I am family'.
 
-Some words can be both nouns or verbs, such as 'R∅T': run, or 'R∅L': trail.
+Some words can be both nouns or verbs, such as 'RƏT': run, or 'RƏL': trail.
 Nouns are always the first word,
 followed by verbs or adjectives:
-'S∅R R∅T' means 'big animal runs'. 
+'SƏR RƏT' means 'big animal runs'. 
 Another possibility is juxtaposition of two nouns:
-'R∅L S∅R' means 'trail of a big animal'.
+'RƏL SƏR' means 'trail of a big animal'.
 Verbs can also appear on their own or with function words:
-'R∅T K!' means 'run a lot!'
+'RƏT K!' means 'run a lot!'
 (remember that 'K' means 'much'),
 and so with adjectives:
-'T∅T K' means 'very good'.
+'TƏT K' means 'very good'.
 
 ## References
 
