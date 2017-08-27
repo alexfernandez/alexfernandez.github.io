@@ -257,13 +257,15 @@ and mark syllable boundaries.
 This allows listeners to distinguish a double-consonant word _KK_
 from two single-consonant words in succession _K-K_.
 
-We will use the symbol ∅ (empty set) to represent a vocalic separator.
-Biconsonant syllables will therefore be rendered as _K∅K_.
+We will use the symbol Ø
+([uppercase schwa](https://en.wikipedia.org/wiki/%C6%8F))
+to represent a vocalic separator.
+Biconsonant syllables will therefore be rendered as _KØK_.
 The evolution so far can be represented as:
 
-> K → K∅K
+> K → KØK
 
-In practice, ∅ can be a neutral vowel or
+In practice, Ø can be a neutral vowel or
 [schwa](https://en.wikipedia.org/wiki/Schwa).
 It can also be a more definite vowel sound,
 either automatically assigned by
@@ -271,14 +273,14 @@ either automatically assigned by
 or chosen at random.
 This would mean that e.g. the variants
 'SAN', 'SIN' or 'SUN'
-are in fact different renditions of the same word 'S∅N'.
+are in fact different renditions of the same word 'SØN'.
 Technically it is an
 [epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis),
 only present to link both consonants.
 
 A two-consonant language might still preserve the original one-consonant functions words _K_,
-and add content words combining two consonants: _K∅K_.
-A word during this era can therefore be either _K_ or _K∅K_.
+and add content words combining two consonants: _KØK_.
+A word during this era can therefore be either _K_ or _KØK_.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this improvement?
@@ -604,14 +606,14 @@ and they may have added a second consonant to syllables later.
 
 Compare this path with the one described above:
 
-> K → K∅K → KAK.
+> K → KØK → KAK.
 
 More complex paths are possible:
 developing vocals first,
 losing them later in favor of biconsonant words,
 and regaining them later.
 
-> K → KA → K∅K → KAK.
+> K → KA → KØK → KAK.
 
 In any case, the number of words grows monotonically.
 
