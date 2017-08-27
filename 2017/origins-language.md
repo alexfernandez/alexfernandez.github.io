@@ -189,7 +189,7 @@ with the reasonable assurance
 that at some point in time humans could only profer that number of words.
 A value of 12 seems certainly achievable,
 so it will serve as archetypical.
-We will use the symbol 𝛫 (math Kappa) to represent any single consonant.
+We will use the symbol _K_ (cursive 'K') to represent any single consonant.
 
 Using content words would have limited utterances greatly,
 and specially the ability to combine them.
@@ -234,7 +234,7 @@ We can thus identify the rise of _Homo Erectus_ with the appearance of proper la
 At some point early humans learned to combine several sounds into one syllable.
 This great advance extends the range of possible words at least by an order of magnitude.
 Considering the simplest structure of two consonants,
-or 𝛫𝛫,
+or _KK_,
 the number of words would be the square of the number of consonants.
 Adding a second consonant without a vowel may seem a strange choice.
 It is however a logical extension of the single-consonant words seen above,
@@ -254,14 +254,14 @@ in an unpronunceable blob.
 It just means that vowels are not part of the language.
 Some kind of vocalic sound must still link the two consonants together,
 and mark syllable boundaries.
-This allows listeners to distinguish a double-consonant word 𝛫𝛫
-from two single-consonant words 𝛫-𝛫.
+This allows listeners to distinguish a double-consonant word _KK_
+from two single-consonant words in succession _K-K_.
 
 We will use the symbol ∅ (empty set) to represent a vocalic separator.
-Biconsonant syllables will therefore be rendered as 𝛫∅𝛫.
+Biconsonant syllables will therefore be rendered as _K∅K_.
 The evolution so far can be represented as:
 
-> 𝛫 → 𝛫∅𝛫
+> K → K∅K
 
 In practice, ∅ can be a neutral vowel or
 [schwa](https://en.wikipedia.org/wiki/Schwa).
@@ -276,9 +276,9 @@ Technically it is an
 [epenthetic vowel](https://en.wikipedia.org/wiki/Epenthesis),
 only present to link both consonants.
 
-A two-consonant language might still preserve the original one-consonant functions words 𝛫,
-and add content words combining two consonants: 𝛫∅𝛫.
-A word during this era can therefore be either 𝛫 or 𝛫∅𝛫.
+A two-consonant language might still preserve the original one-consonant functions words _K_,
+and add content words combining two consonants: _K∅K_.
+A word during this era can therefore be either _K_ or _K∅K_.
 12 consonants would thus yield 144 + 12 = 156 combinations.
 
 What brought forward this improvement?
@@ -317,14 +317,14 @@ but there may have been only minute differences between African and Neanderthal 
 
 At some point in time vowels become first-class citizens.
 With vowels the number of possible syllables grows a bit.
-A proper vowel is represented by the symbol 𝛢 (math Alpha).
+A proper vowel is represented by _A_ (cursive 'A').
 Let us suppose that there are three possible vowels at some point in time,
 along with the original 12 consonants.
 The number of combinations is now:
-consonant + vowel + consonant, or 𝛫𝛢𝛫, with 432 combinations;
-adding the original 12 single-consonant function words 𝛫
+consonant + vowel + consonant, or _KAK_, with 432 combinations;
+adding the original 12 single-consonant function words _K_
 yields a total of 444 combinations.
-Note that function words may also acquire vowels to yield simple structures like 𝛫𝛢,
+Note that function words may also acquire vowels to yield simple structures like _KA_,
 in order to increase their number to 36;
 in this case yielding 468 possible words.
 
@@ -365,6 +365,11 @@ such as the mix of ⟨t⟩ and ⟨ʃ⟩
 to form the
 [modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
 tellingly shown in IPA as ⟨tʃ⟩.
+
+Regarding this last point,
+the idea of compound phonemes in
+[Clair (1972)](#ref29)
+can be expanded to many other consonants.
 
 The second strategy is to add more phonemes per syllable.
 
@@ -409,9 +414,9 @@ which must have required a broader lexicon of plants, animals, materials, tools 
 Starting with our basic structure of 12 consonants and 3 vowels,
 a conservative estimation for syllable variability might be:
 
-* Increasing to 20 consonants and 9 vowels for structure 𝛫𝛢𝛫 yields 3600 combinations.
-* New syllable structures 𝛫𝛫𝛢𝛫 or 𝛫𝛢𝛫𝛫 yield 5184 combinations each.
-* Adding four tones per vowel for structure 𝛫𝛢𝛫 yield 1728 combinations.
+* Increasing to 20 consonants and 9 vowels for structure _KAK_ yields 3600 combinations.
+* New syllable structures _KKAK_ or _KAKK_ yield 5184 combinations each.
+* Adding four tones per vowel for the original structure _KAK_ yield 1728 combinations.
 
 Of course many of these innovations may have been used in conjunction
 to achieve even greater vocabularies.
@@ -424,7 +429,7 @@ effectively establishing word classes as we know them.
 An immediate extension of two consonant words are three consonant words.
 Continuing with the basic structure of 12 consonants and three vowels,
 there are now the following combinations:
-12 𝛫, 444 𝛫𝛢𝛫, and 15552 𝛫𝛢𝛫𝛢𝛫,
+12 _K_, 444 _KAK_, and 15552 _KAKAK_,
 for a total of 16008 combinations.
 A gain of more than an order of magnitude over monosyllabic words.
 
@@ -595,18 +600,18 @@ and not terribly significant.
 It is possible that certain proto-languages have developed vocals first,
 and they may have added a second consonant to syllables later.
 
-> 𝛫 → 𝛫𝛢 → 𝛫𝛢𝛫.
+> K → KA → KAK.
 
 Compare this path with the one described above:
 
-> 𝛫 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
+> K → K∅K → KAK.
 
 More complex paths are possible:
 developing vocals first,
 losing them later in favor of biconsonant words,
 and regaining them later.
 
-> 𝛫 → 𝛫𝛢 → 𝛫∅𝛫 → 𝛫𝛢𝛫.
+> K → KA → K∅K → KAK.
 
 In any case, the number of words grows monotonically.
 
@@ -991,7 +996,7 @@ while 'much near' would mean that there is a lot of what the speaker is seeking 
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
-expressed as 𝛫∅𝛫.
+expressed as _K∅K_.
 It keeps the same set of single-consonant function words,
 while the new combinations are all content words.
 We will call it Doublecon.
@@ -1014,7 +1019,7 @@ which means 'good'.
 * 'to' + 'near', 'R∅T': run.
 
 Not all combinations are used by actual words;
-of the 144 possibilities for 𝛫∅𝛫 only about 100 are valid.
+of the 144 possibilities for _K∅K_ only about 100 are valid.
 
 Even when words are formed as compounds
 there is considerable arbitrariness in the process.
@@ -1214,4 +1219,9 @@ Roach, N. T., Hatala, K. G., Ostrofsky, K. R., Villmoare, B., Reeves, J. S., Du,
 Pleistocene footprints show intensive use of lake margin habitats by Homo erectus groups.
 _Scientific reports_, 6.
 [Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873780/).
+* <a name="ref29"></a>
+Clair, R. N. S. (1972).
+Compound phonological segments.
+_Lingua_, 29, 120-127.
+[Web](http://www.academia.edu/30366473/Compound_phonological_segments).
 
