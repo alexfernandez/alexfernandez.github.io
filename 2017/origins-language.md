@@ -424,12 +424,13 @@ Tones allow us to distinguish between function words
 (which usually have no word accent)
 and content words,
 and in many languages also between different content words
-which have different word accents.
+which have developed different word accents.
 
-In general,
+In the case of a monosyllabic language,
 if a function word is 'KA' and a content word is 'KAK',
 a new polysyllabic 'KAKAK' will sound identical to the combination 'KA KAK',
-unless it develops an accent first which makes it 'KAKÁK' or 'KÁKAK'.
+unless it develops an accent first 'Á' which makes it 'KAKÁK' or 'KÁKAK',
+or perhaps even 'KÁKÁK' with double word accent.
 
 At what point did polysyllabic words arise?
 Arab and other semitic languages have
