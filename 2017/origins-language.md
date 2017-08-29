@@ -351,22 +351,52 @@ so that we can infer that their appearance happened before the last diaspora
 at around 70–50 kya.
 We will suppose that it did not happen much earlier than that.
 
-### Tones
+### Monosyllabic Expansion
 
+In this next period the number of words grows in a number of ways
+while they remain monosyllables.
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
-At this stage speakers start distinguishing words by
+There are a couple of expansions that may have happened at this point in time.
+
+The first strategy is to increase the number of consonants and vowels.
+The basic inventory of consonants may have grown in time.
+As a modern example,
+[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
+([sample](https://www.youtube.com/watch?v=W6WO5XabD-s))
+have added clicks as regular consonants.
+The phoneme inventory may have grown from 12 consonants and 3 vowels
+to e.g. 20 consonants and 5 vowels,
+which yields yields 2000 combinations while following the same _KAK_ structure.
+
+The second strategy is to add tones.
+At this stage speakers may start distinguishing words by
 [tone](https://en.wikipedia.org/wiki/Tone_(linguistics))
 as many modern languages
 such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
 ([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
 do nowadays.
+Adding four tones per vowel for the original structure _KAK_ yields 1728 combinations.
 
-Adding four tones per vowel for the original structure _KAK_ yield 1728 combinations.
+Of course both of these innovations may have been used in conjunction
+to achieve even greater vocabularies.
+This increase of combinations may have enabled the separation of word forms
+for verbs, nouns and adjectives,
+effectively establishing word classes as we know them.
 
 As we will see below,
 tones are a prerequisite to polysyllables,
-and therefore had to be acquired first.
+and therefore had to be acquired at this stage.
+
+It is not unreasonable to suppose that all languages were monosyllabic
+at least until 50 kya,
+probably later.
+The new techniques to expand vocabulary sizes
+were likely there for the transition to the
+[Upper Paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
+as described by
+[Bar-Yosef (2002)](#ref19),
+which must have required a broader lexicon of plants, animals, materials, tools and techniques.
 
 ### Polysyllables
 
@@ -378,10 +408,29 @@ Continuing with the basic structure of 12 consonants and three vowels,
 there are now the following combinations:
 12 _K_, 444 _KAK_, and 15552 _KAKAK_,
 for a total of 16008 combinations.
-A gain of more than an order of magnitude over monosyllabic words.
+A gain of an order of magnitude over monosyllabic words,
+even after the expansion period.
 
 However, and a bit surprisingly,
 it does not look as if this extension has happened early in prehistoric times.
+For starters, tones had to be developed first.
+To see why we need to consider how the listener can tell apart words.
+
+All polysyllabic languages use tones as a distinctive feature.
+E.g. in English, the only difference in pronunciation between
+'insight' /ˈɪnsaɪt/, 'incite' /ɪnˈsaɪt/ and 'inn sight' /ˈɪn ˈsaɪt/
+is intonation.
+Tones allow us to distinguish between function words
+(which usually have no word accent)
+and content words,
+and in many languages also between different content words
+which have different word accents.
+
+In general,
+if a function word is 'KA' and a content word is 'KAK',
+a new polysyllabic 'KAKAK' will sound identical to the combination 'KA KAK',
+unless it develops an accent first which makes it 'KAKÁK' or 'KÁKAK'.
+
 At what point did polysyllabic words arise?
 Arab and other semitic languages have
 [triliteral roots](https://en.wikipedia.org/wiki/Semitic_root)
@@ -422,10 +471,6 @@ was already polysyllabic.
 There are however some hints at monosyllabic Sino-Tibetan ancestors as in
 [Lama (2012)](#ref13),
 as recently as 4 kya.
-
-The only difference in pronunciation between
-'insight' /ˈɪnsaɪt/, 'incite' /ɪnˈsaɪt/ and 'inn sight' /ˈɪn ˈsaɪt/
-is intonation.
 
 Languages probably adopted polysyllabic forms as the necessity arose,
 given their particular information density configurations.
@@ -494,111 +539,6 @@ Furthermore, a sample from 3.3 Mya ago is very similar to the hyoid bone of mode
 which seems to imply that speech capabilities were developed between
 3.3 Mya and 530 kya.
 
-### Monosyllabic Explosion
-
-In this next period the number of words grows in a number of ways
-while they remain monosyllables.
-The basic problem of a monosyllabic language is how to cram
-a large number of words into a single syllable.
-There are many possible solutions,
-all of which can be seen in modern use.
-They fall broadly into three categories.
-
-The first strategy is to increase the number of consonants and vowels.
-
-* Add clicks, as in
-[Khoisan click languages](https://en.wikipedia.org/wiki/Khoisan_languages)
-([sample](https://www.youtube.com/watch?v=W6WO5XabD-s)).
-* Consonant combinations,
-such as the mix of ⟨t⟩ and ⟨ʃ⟩
-to form the
-[modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
-tellingly shown in IPA as ⟨tʃ⟩.
-
-Regarding this last point,
-the idea of compound phonemes in
-[Clair (1972)](#ref29)
-can be expanded to many other consonants.
-
-The second strategy is to add more phonemes per syllable.
-
-* [Consonant clusters](https://en.wikipedia.org/wiki/Consonant_cluster):
-sequences of consonants without vowels.
-* [Diphthongs](https://en.wikipedia.org/wiki/Diphthong)
-allow combinations of vowels in a single syllable.
-
-The last strategy is to add modifiers for vowels.
-
-* Add different tones, as in
-[tonal languages](https://en.wikipedia.org/wiki/Tone_(linguistics))
-such as [Bantu](https://en.wikipedia.org/wiki/Bantu_languages)
-([sample](https://www.youtube.com/watch?v=ZXAnrqkt_yM))
-* Add different contours, as in Chinese
-([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
-They are a special kind of tone that may vary within a syllable.
-As [Michaud (2012)](#ref14) refers,
-tones evolved from consonant depletion.
-* Add nasalized vowels as in
-[French](https://en.wikipedia.org/wiki/French_language)
-([sample](https://www.youtube.com/watch?v=j_Qs75dfpko)).
-As [Hombert (1986)](#ref30) explains,
-nasalized vowels come from assimilation of a nasal consonant
-into its preceding (or occasionally anteceding) vowel.
-
-The fact that all of these mechanisms are so different
-is a testimony that they were probably developed separately.
-This is only possible if they happened after _Homo Sapiens_ left Africa,
-around 70–50 kya.
-After that point each region may have developed their own extensions to monosyllables.
-It is interesting to note that tonal languages have developed mostly
-[in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
-while more complex syllable structures are more abundant
-[in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
-
-It is not unreasonable to suppose that all languages were monosyllabic
-at least until 50 kya,
-probably later.
-The new techniques to increase vocabulary sizes
-were surely there for the transition to the
-[Upper Paleolithic](https://en.wikipedia.org/wiki/Upper_Paleolithic)
-as described by
-[Bar-Yosef (2002)](#ref19),
-which must have required a broader lexicon of plants, animals, materials, tools and techniques.
-
-Starting with our basic structure of 12 consonants and 3 vowels,
-a conservative estimation for syllable variability might be:
-
-* Increasing to 20 consonants and 9 vowels for structure _KAK_ yields 3600 combinations.
-* New syllable structures _KKAK_ or _KAKK_ yield 5184 combinations each.
-* Adding four tones per vowel for the original structure _KAK_ yield 1728 combinations.
-
-Of course many of these innovations may have been used in conjunction
-to achieve even greater vocabularies.
-This increase of combinations may have enabled the separation of word forms
-for verbs, nouns and adjectives,
-effectively establishing word classes as we know them.
-
-### Earlier Monosyllabic Explosion
-
-Our estimation for the monosyllabic explosion is from 50 to 15 kya,
-due to the divergence of schemes to augment monosyllables found across the world.
-There is a small problem with this argument.
-When _Homo Sapiens_ left Africa,
-there was already a sizeable population of Neanderthals
-occupying Europe and Asia.
-So it is reasonable to think that these same Neanderthals
-might have their own languages,
-which influenced any newcomers.
-In this case the monosyllabic explosion might have happened much earlier.
-
-It may be an interesting avenue of enquiry.
-Its first obstacle is to reconcile the earlier monosyllabic explosion
-with the late appearance of polysyllables that we have seen
-in many language families.
-What happened in between?
-Unless a satisfactory answer for the extended era is found,
-this point of view should be put on hold.
-
 ### Earlier Introduction Of Vowels
 
 The choice of early words consisting of two consonants
@@ -649,6 +589,100 @@ and regaining them later.
 > K → KA → KƏK → KAK.
 
 In any case, the number of words grows monotonically.
+
+### Earlier Monosyllabic Expansion
+
+Our estimation for the monosyllabic explosion is from 50 to 15 kya,
+due to the divergence of schemes to augment monosyllables found across the world.
+There is a small problem with this argument.
+When _Homo Sapiens_ left Africa,
+there was already a sizeable population of Neanderthals
+occupying Europe and Asia.
+So it is reasonable to think that these same Neanderthals
+might have their own languages,
+which influenced any newcomers.
+In this case the monosyllabic explosion might have happened much earlier.
+
+It may be an interesting avenue of enquiry.
+Its first obstacle is to reconcile the earlier monosyllabic explosion
+with the late appearance of polysyllables that we have seen
+in many language families.
+What happened in between?
+Unless a satisfactory answer for the extended era is found,
+this point of view should be put on hold.
+
+### Broader Monosyllabic Expansion
+
+For the monosyllabic expansion a number of mechanisms have been proposed above.
+There are many others that can be seen in modern use,
+but that are not likely to have been a part of this era.
+We will review them along with the reason to have discarded them.
+
+The first strategy is to increase the number of consonants.
+
+* [Gemination](https://en.wikipedia.org/wiki/Gemination),
+or reduplication of consonants.
+
+* Consonant combinations,
+such as the mix of ⟨t⟩ and ⟨ʃ⟩
+to form the
+[modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
+tellingly shown in IPA as ⟨tʃ⟩.
+Regarding this last point,
+the idea of compound phonemes in
+[Clair (1972)](#ref29)
+can be expanded to many other consonants.
+
+* [Prenasalize](https://en.wikipedia.org/wiki/Prenasalized_consonant)
+or
+[palatalize](https://en.wikipedia.org/wiki/Palatalization_(phonetics))
+consonants.
+One more time, come from assimilation of intermediate consonants.
+
+The second strategy is to add more phonemes per syllable.
+
+* [Consonant clusters](https://en.wikipedia.org/wiki/Consonant_cluster),
+or sequences of consonants without vowels.
+It is possible that the basic _KAK_ scheme was supplemented at this point
+by adding consonants at the beginning or the end,
+using the same mechanism of
+[compounding](https://en.wikipedia.org/wiki/Compound_(linguistics))
+that we saw for two-consonant words.
+These new syllable structures _KKAK_ or _KAKK_ would yield 5184 combinations each.
+But as we will see [below](#polysyllables),
+there is evidence of languages keeping the old two-consonant words at a later phase,
+so these structures would be anachronical at this point.
+
+* [Diphthongs](https://en.wikipedia.org/wiki/Diphthong)
+allow combinations of vowels in a single syllable.
+Again, probably come from collapsing two separate syllables,
+in this case with an intermediate aspirant consonant,
+later lost.
+
+The last strategy is to add modifiers for vowels and consonants.
+
+* Add different contours, as in Chinese
+([sample](https://www.youtube.com/watch?v=wkMbSWwS3FA)).
+They are a special kind of tone that may vary within a syllable.
+As [Michaud (2012)](#ref14) refers,
+tones evolved from consonant depletion.
+
+* Add nasalized vowels as in
+[French](https://en.wikipedia.org/wiki/French_language)
+([sample](https://www.youtube.com/watch?v=j_Qs75dfpko)).
+As [Hombert (1986)](#ref30) explains,
+nasalized vowels come from assimilation of a nasal consonant
+into its preceding (or occasionally anteceding) vowel.
+
+It is interesting to note that tonal languages have developed mostly
+[in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
+while more complex syllable structures are more abundant
+[in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
+
+These innovations,
+if originated from polysyllabic words as seems likely,
+would not have increase the range of possible words
+but just have followed the natural paths of languages.
 
 ## Language As A Tool
 
@@ -1041,7 +1075,10 @@ We will call it Doublecon.
 Doublecon has a maximum of 144 content words,
 that can work as nouns, verbs or adjectives depending on the situation.
 Content words are formed with two consonants by
-reduplication and composition of function words.
+[reduplication](https://en.wikipedia.org/wiki/Reduplication)
+and
+[compounding](https://en.wikipedia.org/wiki/Compound_(linguistics))
+of function words.
 
 * The combination of 'down' ('L') and 'to' ('R') is 'LƏR'
 and refers to something that moves on the ground
