@@ -623,22 +623,25 @@ The first strategy is to increase the number of consonants.
 
 * [Gemination](https://en.wikipedia.org/wiki/Gemination),
 or reduplication of consonants.
+These longer versions are usually derived from intermediate consonants,
+and therefore cannot appear from monosyllables alone.
 
-* Consonant combinations,
-such as the mix of ⟨t⟩ and ⟨ʃ⟩
-to form the
-[modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
-tellingly shown in IPA as ⟨tʃ⟩.
-Regarding this last point,
-the idea of compound phonemes in
+* Compound consonants:
+when a combination of consonants becomes a single phoneme.
+The idea of compound phonemes in
 [Clair (1972)](#ref29)
 can be expanded to many other consonants.
+An example can be how the
+[modern sound for 'ch'](https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate),
+is tellingly shown in IPA as ⟨tʃ⟩,
+suggesting it was originated by the combination of ⟨t⟩ and ⟨ʃ⟩.
 
-* [Prenasalize](https://en.wikipedia.org/wiki/Prenasalized_consonant)
+* [Prenasalized](https://en.wikipedia.org/wiki/Prenasalized_consonant)
 or
-[palatalize](https://en.wikipedia.org/wiki/Palatalization_(phonetics))
+[palatalized](https://en.wikipedia.org/wiki/Palatalization_(phonetics))
 consonants.
-One more time, come from assimilation of intermediate consonants.
+These seem to come from assimilation of intermediate consonants,
+although further study is needed to assert it generally.
 
 The second strategy is to add more phonemes per syllable.
 
@@ -650,7 +653,7 @@ using the same mechanism of
 [compounding](https://en.wikipedia.org/wiki/Compound_(linguistics))
 that we saw for two-consonant words.
 These new syllable structures _KKAK_ or _KAKK_ would yield 5184 combinations each.
-But as we will see [below](#polysyllables),
+But as we saw [above](#polysyllables),
 there is evidence of languages keeping the old two-consonant words at a later phase,
 so these structures would be anachronical at this point.
 
@@ -680,7 +683,7 @@ It is interesting to note that tonal languages have developed mostly
 while more complex syllable structures are more abundant
 [in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
 
-These innovations,
+All of these innovations,
 if originated from polysyllabic words as seems likely,
 would not have increase the range of possible words
 but just have followed the natural paths of languages.
