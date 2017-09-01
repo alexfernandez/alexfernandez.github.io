@@ -678,15 +678,16 @@ As [Hombert (1986)](#ref30) explains,
 nasalized vowels come from assimilation of a nasal consonant
 into its preceding (or occasionally anteceding) vowel.
 
-It is interesting to note that tonal languages have developed mostly
-[in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
-while more complex syllable structures are more abundant
-[in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
-
 All of these innovations,
 if originated from polysyllabic words as seems likely,
 would not have increase the range of possible words
 but just have followed the natural paths of languages.
+
+It is interesting to note that tonal languages have developed mostly
+[in Africa and Southern Asia](http://wals.info/feature/13A#2/19.3/152.9),
+while more complex syllable structures are more abundant
+[in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
+But it does not seem to bear any effect on prehistoric langauges.
 
 ## Language As A Tool
 
