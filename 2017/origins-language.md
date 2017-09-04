@@ -540,6 +540,32 @@ Furthermore, a sample from 3.3 Mya ago is very similar to the hyoid bone of mode
 which seems to imply that speech capabilities were developed between
 3.3 Mya and 530 kya.
 
+### Much Earlier Origin
+
+There is also the opposite belief:
+that language was already fully formed at least 100 kya.
+A good review can be found in
+[von Petzinger (2017, pp. 70-71)](#ref31).
+The supporting evidence is intriguing but certainly not bulletproof:
+geometric patterns engraved on common items and personal adornment
+during the Middle Paleolithic.
+
+We have however reviewed how
+[polysyllables](#polysyllables)
+appeared much later in the game in some lanaguage families,
+right before or during the Neolithic period.
+Monosyllabic languages simply do not have the necessary breadth of vocabulary
+to incorporate features such as gender, declination or even tense.
+Even in highly analytic languages such as English,
+a restricted number of words would make it hard to construct a modern language.
+We have also seen reliable reconstructions of the appearance of such features as
+gender or declination in proto-languages.
+
+A more gradual appearance of modern language,
+in accordance with other signs of human progress such as art or technology,
+appears to be more in line with the existing evidence.
+Still, this area will need much more study before it can be reliably clarified.
+
 ### Earlier Introduction Of Vowels
 
 The choice of early words consisting of two consonants
@@ -593,7 +619,7 @@ In any case, the number of words grows monotonically.
 
 ### Earlier Monosyllabic Expansion
 
-Our estimation for the monosyllabic explosion is from 50 to 15 kya,
+Our estimation for the monosyllabic expansion is from 50 to 15 kya,
 due to the divergence of schemes to augment monosyllables found across the world.
 There is a small problem with this argument.
 When _Homo Sapiens_ left Africa,
@@ -602,10 +628,10 @@ occupying Europe and Asia.
 So it is reasonable to think that these same Neanderthals
 might have their own languages,
 which influenced any newcomers.
-In this case the monosyllabic explosion might have happened much earlier.
+In this case the monosyllabic expansion might have happened much earlier.
 
 It may be an interesting avenue of enquiry.
-Its first obstacle is to reconcile the earlier monosyllabic explosion
+Its first obstacle is again to reconcile the earlier monosyllabic expansion
 with the late appearance of polysyllables that we have seen
 in many language families.
 What happened in between?
@@ -1306,4 +1332,9 @@ Hombert, J. M. (1986).
 The development of nasalized vowels in the Teke language group (Bantu).
 _The phonological representation of suprasegmentals: Studies on African languages offered to John M. Stewart on his 60th birthday_, 359-379.
 [PDF](http://www.ddl.ish-lyon.cnrs.fr/fulltext/Hombert/Hombert_1986_TekeLanguage.pdf).
+* <a name="ref31"></a>
+Von Petzinger, G. (2017).
+_The First Signs: Unlocking the Mysteries of the World's Oldest Symbols_.
+Simon and Schuster.
+[Ref](https://books.google.es/books?hl=es&lr=&id=HptvDgAAQBAJ&oi=fnd&pg=PA1&dq=the+first+signs+von+petzinger&ots=2XvfrCJFjq&sig=0tk0ZLaRt9RX78DEhw9Ut8S3F70#v=onepage&q=the%20first%20signs%20von%20petzinger&f=false).
 
