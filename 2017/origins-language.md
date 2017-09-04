@@ -444,7 +444,7 @@ the transition from two- to three-consonant roots
 happened during the transition to the Neolithic period,
 or 15–10 kya.
 
-[García Calvo (2003)](#ref03)
+[García Calvo (2003, pp. 90–97)](#ref03)
 reconstructed a prehistoric language ancestral to Indo-European
 and Proto-Indo-European
 with just two consonants per syllable and without vowels.
@@ -545,7 +545,7 @@ which seems to imply that speech capabilities were developed between
 There is also the opposite belief:
 that language was already fully formed at least 100 kya.
 A good review can be found in
-[von Petzinger (2017, pp. 70-71)](#ref31).
+[von Petzinger (2017, pp. 70–71)](#ref31).
 The supporting evidence is intriguing but certainly not bulletproof:
 geometric patterns engraved on common items and personal adornment
 during the Middle Paleolithic.
@@ -577,7 +577,7 @@ just adding three vowels to a 12-consonant language
 would extend the number of words from 12 to 36.
 
 But there is some evidence supporting the late appearance of vowels.
-[García Calvo (2003)](#ref03)
+[García Calvo (2003, pp. 87–89)](#ref03)
 made the argument that prehistoric Indo-European
 in its earliest incarnation had no vowels:
 just function words with a single consonant,
