@@ -922,7 +922,7 @@ has found that the same set of symbols is repeated in Upper Paleolithic cave pai
 across much of France, and then
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
 
-![Figure 1: 32 recurrent symbols across Upper Paleolithic Europe.](pics/origins-first-signs.jpg "Source: von Petzinger (2017), used with permission")
+![[Figure 1: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch, .")
 
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
