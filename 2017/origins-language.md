@@ -919,10 +919,10 @@ More samples might help us pinpoint these dates more exactly.
 There is also symbolic evidence which might prove even more valuable.
 [Von Petzinger (2009)](#ref20)
 has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
-across much of France, and then
+across much of France, and in later publications
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
 
-![[Figure 1: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch, .")
+![[Figure 1: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch and asterisk.")
 
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
