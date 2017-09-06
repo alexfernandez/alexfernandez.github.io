@@ -1043,6 +1043,8 @@ where at the beginning they would have no function words.
 In the same volume,
 [Newmeyer (2003)](#ref11)
 gives an overview of other theories.
+[Bickerton (2016, p. 200)](#ref32)
+also proposes generic names as the first words.
 
 It is my sincere hope that I have overlooked a mountain of literature
 specifying how languages came to be the complex wonders that we know,
@@ -1125,7 +1127,19 @@ to convey different meanings depending on the combination.
 For instance, 'near much' would mean that the objective is very near,
 while 'much near' would mean that there is a lot of what the speaker is seeking nearby.
 
-## Doublecon
+#### Utility
+
+As the examples show,
+Singlecon can be used by its hypothetical speakers to coordinate during a group hunt,
+or to guide their gathering activities.
+In the [uses we saw above](#language-as-a-tool),
+it would serve for coordination for very limited description.
+
+The astute reader will realize that Singlecon almost passes the ten word test in
+[Bickerton (2009, p. 24)](#ref33):
+it is useful with just a dozen words.
+
+### Doublecon
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
@@ -1134,7 +1148,7 @@ It keeps the same set of single-consonant function words,
 while the new combinations are all content words.
 We will call it Doublecon.
 
-### Vocabulary
+#### Vocabulary
 
 Doublecon has a maximum of 144 content words,
 that can work as nouns, verbs or adjectives depending on the situation.
@@ -1164,7 +1178,7 @@ while 'to' + 'down' ('RƏL') is trail.
 It might perfectly be the other way around,
 so it is purely a matter of convention.
 
-### Prosody
+#### Prosody
 
 There are three possible sentence intonations,
 indicated here by the sentence ending sign:
@@ -1177,7 +1191,7 @@ There are no other possible intonations such as our comma ','.
 Sentences may follow each other closely,
 with a pause between them.
 
-### Samples
+#### Samples
 
 A few sentences in Doublecon follow.
 
@@ -1197,7 +1211,7 @@ similar to the intersyllabic transition in modern languages,
 as in English 'pos·ter'.
 In the case of 'SƏR' the schwa provides vocal continuity.
 
-### Grammar
+#### Grammar
 
 Even at this level,
 a simplistic grammar is needed to combine content and function words.
@@ -1217,6 +1231,16 @@ Verbs can also appear on their own or with function words:
 (remember that 'K' means 'much'),
 and so with adjectives:
 'TƏT K' means 'very good'.
+
+#### Utility
+
+With just about 100 words Doublecon has many more uses than Singlecon,
+as can be gathered from the examples we have seen.
+In the [list of uses above](#language-as-a-tool)
+it would serve for coordination and description,
+and for very basic training.
+It might start to be used for story telling,
+although it would be quite unsatisfactory.
 
 ## References
 
@@ -1238,6 +1262,13 @@ _Annual Review of Anthropology_, 31(1), 363-393.
 Baxter, W. H., & Sagart, L. (2014).
 _Old Chinese: a new reconstruction_, 318. Oxford University Press.
 [Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
+* <a name="ref33"></a>
+Bickerton, D. (2009).
+_Adam's tongue: how humans made language, how language made humans_. Hill and Wang.
+* <a name="ref32"></a>
+Bickerton, D. (2016).
+_Roots of language_. Language Science Press.
+[PDF](http://www.oapen.org/download?type=document&docid=603354).
 * <a name="ref29"></a>
 Clair, R. N. S. (1972).
 Compound phonological segments.
