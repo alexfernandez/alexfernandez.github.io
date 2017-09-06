@@ -1220,122 +1220,82 @@ and so with adjectives:
 
 ## References
 
-* <a name="ref01"></a>
-Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
-_Psychology and Aging_, 16, 312-322.
-[Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
-[PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
-* <a name="ref02"></a>
-Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
-A crosslinguistic study of the relationship between grammar and lexical development.
-_Journal of Child Language_, 32(4), 759-786.
-[PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
-* <a name="ref03"></a>
-García Calvo, A (2003).
-\~Es\~ Estudio de Gramática Prehistórica (Spanish).
-Ed. Lucina.
-[Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
-* <a name="ref04"></a>
-Wadley, L., Hodgskiss, T., & Grant, M. (2009).
-Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
-_Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
-[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
-* <a name="ref05"></a>
-Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
-_Brill's companion to Herodotus_. Brill.
-[Ref](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
-* <a name="ref06"></a>
-Luraghi, S. (2011).
-The origin of the Proto-Indo-European gender system: Typological considerations.
-_Folia linguistica_, 45(2), 435-463.
-[PDF](http://www.academia.edu/download/30873708/Gender_FoL.pdf).
-* <a name="ref07"></a>
-Dediu, D., & Levinson, S. C. (2013).
-On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
-_Frontiers in psychology_, 4.
-[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
-* <a name="ref08"></a>
-Hurford, J. R. (2003).
-The language mosaic and its evolution.
-_Studies in the Evolution of Language, 3_, 38-57.
-[Web](http://www.lel.ed.ac.uk/~jim/nustates.htm).
-* <a name="ref09"></a>
-Smillie, D. (1985).
-Sociobiology and human culture.
-In _Sociobiology and epistemology_ (pp. 75-95). Springer Netherlands.
-[Book](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false).
-* <a name="ref10"></a>
-Vargha-Khadem, F., Watkins, K., Alcock, K., Fletcher, P., & Passingham, R. (1995).
-Praxic and nonverbal cognitive deficits in a large family with a genetically transmitted speech and language disorder.
-_Proceedings of the National Academy of Sciences_, 92(3), 930-933.
-[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
-* <a name="ref11"></a>
-Newmeyer, F. J. (2003).
-What can the field of linguistics tell us about the origins of language?.
-_Studies In The Evolution Of Language, 3_, 58-76.
-[Ref](https://books.google.es/books?hl=es&lr=&id=OeN2Rhvfdn4C&oi=fnd&pg=PA58&dq=What+can+the+field+of+linguistics&ots=tuUVjyFPeL&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0#v=onepage&q=What%20can%20the%20field%20of%20linguistics&f=false).
-* <a name="ref12"></a>
-Baxter, W. H., & Sagart, L. (2014).
-_Old Chinese: a new reconstruction_, 318. Oxford University Press.
-[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
-* <a name="ref13"></a>
-Lama, Z. Q. F. (2012).
-Subgrouping of Nisoic (Yi) languages: A study from the perspectives of shared innovation and phylogenetic estimation.
-[PDF](https://uta-ir.tdl.org/uta-ir/bitstream/handle/10106/11161/Lama_uta_2502D_11591.pdf?sequence=1).
-* <a name="ref14"></a>
-Michaud, A. (2012).
-Monosyllabicization: patterns of evolution in Asian languages.
-_Monosyllables: from phonology to typology_, 115-130.
-[PDF](https://hal.archives-ouvertes.fr/docs/00/43/64/32/PDF/Monosyllabicization_In_Asia_Michaud_preprint_Nov2009.pdf).
-* <a name="ref15"></a>
-Yang, C. (2013).
-Ontogeny and phylogeny of language.
-_Proceedings of the National Academy of Sciences_, 110(16), 6324-6327.
-[Web](http://www.pnas.org/content/110/16/6324.full).
-* <a name="ref16"></a>
-Trask, R. L. (2003).
-_Language: the basics_, 5. Routledge.
-[Ref](https://books.google.es/books?hl=es&lr=&id=0oQJPHJjCSAC&oi=fnd&pg=PR13&ots=qhJpW-NuXR&sig=ka4GGYM3kKkorX69iLC955vBexg#v=onepage&q=ended&f=false).
 * <a name="ref17"></a>
 Agmon, N. (2010).
 Materials and Language: Pre-Semitic Root Structure Change Concomitant with Transition to Agriculture.
 _Brill's Journal of Afroasiatic Languages and Linguistics_, 2(1), 23-79.
 [PDF](https://pdfs.semanticscholar.org/4ab2/a50c183404df4a4e8eab93dedc3bf0c707b5.pdf).
-* <a name="ref18"></a>
-Tomasello, M. (2008).
-Why don't apes point?.
-_Trends In Linguistics Studies And Monographs_, 197, 375.
-[PDF](http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf).
+* <a name="ref05"></a>
+Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
+_Brill's companion to Herodotus_. Brill.
+[Ref](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
 * <a name="ref19"></a>
 Bar-Yosef, O. (2002).
 The Upper Paleolithic revolution.
 _Annual Review of Anthropology_, 31(1), 363-393.
 [PDF](http://www.cameronmsmith.com/courses/EuropeanPrehistory2007/TheUpperPalaeolithicRevolution.pdf).
-* <a name="ref20"></a>
-Von Petzinger, G. (2009).
-_Making the abstract concrete: The place of geometric signs in French Upper Paleolithic parietal art_
-(Doctoral dissertation).
-[PDF](https://dspace.library.uvic.ca/handle/1828/1402).
-* <a name="ref21"></a>
-Minc, L. D. (1986).
-Scarcity and survival: the role of oral tradition in mediating subsistence crises.
-_Journal of Anthropological Archaeology_, 5(1), 39-113.
-[PDF](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26239/0000319.pdf?sequence=1&isAllowed=y).
-* <a name="ref22"></a>
-Nettle, D. (1999).
-Is the rate of linguistic change constant?
-_Lingua_, 108(2-3), 119-136.
-[PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf).
-* <a name="ref23"></a>
-Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton, A., Clark‐Balzan, L., ... & Breeze, P. S. (2015).
-Rethinking the dispersal of Homo sapiens out of Africa.
-_Evolutionary Anthropology: Issues, News, and Reviews_, 24(4), 149-164.
-[PDF](https://www.researchgate.net/profile/Huw_Groucutt/publication/280941810_Rethinking_the_Dispersal_of_Homo_sapiens_out_of_Africa/links/55cda22e08aeeaab209b5680/Rethinking-the-Dispersal-of-Homo-sapiens-out-of-Africa.pdf).
+* <a name="ref12"></a>
+Baxter, W. H., & Sagart, L. (2014).
+_Old Chinese: a new reconstruction_, 318. Oxford University Press.
+[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
+* <a name="ref29"></a>
+Clair, R. N. S. (1972).
+Compound phonological segments.
+_Lingua_, 29, 120-127.
+[Web](http://www.academia.edu/30366473/Compound_phonological_segments).
+* <a name="ref07"></a>
+Dediu, D., & Levinson, S. C. (2013).
+On the antiquity of language: the reinterpretation of Neandertal linguistic capacities and its consequences.
+_Frontiers in psychology_, 4.
+[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/).
+* <a name="ref02"></a>
+Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P., Reilly, J., & Bates, E. (2005).
+A crosslinguistic study of the relationship between grammar and lexical development.
+_Journal of Child Language_, 32(4), 759-786.
+[PDF](https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf).
 * <a name="ref24"></a>
 D’Anastasio, R., Wroe, S., Tuniz, C., Mancini, L., Cesana, D. T., Dreossi, D., ... & Capasso, L. (2013).
 Micro-biomechanics of the Kebara 2 hyoid and its implications for speech in Neanderthals.
 _PloS one_, 8(12), e82261.
 [Web](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082261).
+* <a name="ref03"></a>
+García Calvo, A (2003).
+\~Es\~ Estudio de Gramática Prehistórica (Spanish).
+Ed. Lucina.
+[Ref](http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html).
+* <a name="ref23"></a>
+Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton, A., Clark‐Balzan, L., ... & Breeze, P. S. (2015).
+Rethinking the dispersal of Homo sapiens out of Africa.
+_Evolutionary Anthropology: Issues, News, and Reviews_, 24(4), 149-164.
+[PDF](https://www.researchgate.net/profile/Huw_Groucutt/publication/280941810_Rethinking_the_Dispersal_of_Homo_sapiens_out_of_Africa/links/55cda22e08aeeaab209b5680/Rethinking-the-Dispersal-of-Homo-sapiens-out-of-Africa.pdf).
+* <a name="ref30"></a>
+Hombert, J. M. (1986).
+The development of nasalized vowels in the Teke language group (Bantu).
+_The phonological representation of suprasegmentals: Studies on African languages offered to John M. Stewart on his 60th birthday_, 359-379.
+[PDF](http://www.ddl.ish-lyon.cnrs.fr/fulltext/Hombert/Hombert_1986_TekeLanguage.pdf).
+* <a name="ref08"></a>
+Hurford, J. R. (2003).
+The language mosaic and its evolution.
+_Studies in the Evolution of Language, 3_, 38-57.
+[Web](http://www.lel.ed.ac.uk/~jim/nustates.htm).
+* <a name="ref01"></a>
+Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
+_Psychology and Aging_, 16, 312-322.
+[Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
+[PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
+* <a name="ref13"></a>
+Lama, Z. Q. F. (2012).
+Subgrouping of Nisoic (Yi) languages: A study from the perspectives of shared innovation and phylogenetic estimation.
+[PDF](https://uta-ir.tdl.org/uta-ir/bitstream/handle/10106/11161/Lama_uta_2502D_11591.pdf?sequence=1).
+* <a name="ref27"></a>
+Lombardi, O., Holik, F., & Vanni, L. (2016).
+What is Shannon information? _Synthese_, 193(7), 1983-2012.
+[PDF](http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf).
+* <a name="ref06"></a>
+Luraghi, S. (2011).
+The origin of the Proto-Indo-European gender system: Typological considerations.
+_Folia linguistica_, 45(2), 435-463.
+[PDF](http://www.academia.edu/download/30873708/Gender_FoL.pdf).
 * <a name="ref25"></a>
 Martínez, I., Arsuaga, J. L., Quam, R., Carretero, J. M., Gracia, A., & Rodríguez, L. (2008).
 Human hyoid bones from the middle Pleistocene site of the Sima de los Huesos (Sierra de Atapuerca, Spain).
@@ -1346,28 +1306,68 @@ Martínez, I., Rosa, M., Quam, R., Jarabo, P., Lorenzo, C., Bonmatí, A., ... & 
 Communicative capacities in Middle Pleistocene humans from the Sierra de Atapuerca in Spain.
 _Quaternary International_, 295, 94-101.
 [PDF](http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf).
-* <a name="ref27"></a>
-Lombardi, O., Holik, F., & Vanni, L. (2016).
-What is Shannon information? _Synthese_, 193(7), 1983-2012.
-[PDF](http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf).
+* <a name="ref14"></a>
+Michaud, A. (2012).
+Monosyllabicization: patterns of evolution in Asian languages.
+_Monosyllables: from phonology to typology_, 115-130.
+[PDF](https://hal.archives-ouvertes.fr/docs/00/43/64/32/PDF/Monosyllabicization_In_Asia_Michaud_preprint_Nov2009.pdf).
+* <a name="ref21"></a>
+Minc, L. D. (1986).
+Scarcity and survival: the role of oral tradition in mediating subsistence crises.
+_Journal of Anthropological Archaeology_, 5(1), 39-113.
+[PDF](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26239/0000319.pdf?sequence=1&isAllowed=y).
+* <a name="ref22"></a>
+Nettle, D. (1999).
+Is the rate of linguistic change constant?
+_Lingua_, 108(2-3), 119-136.
+[PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848&rep=rep1&type=pdf).
+* <a name="ref11"></a>
+Newmeyer, F. J. (2003).
+What can the field of linguistics tell us about the origins of language?.
+_Studies In The Evolution Of Language, 3_, 58-76.
+[Ref](https://books.google.es/books?hl=es&lr=&id=OeN2Rhvfdn4C&oi=fnd&pg=PA58&dq=What+can+the+field+of+linguistics&ots=tuUVjyFPeL&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0#v=onepage&q=What%20can%20the%20field%20of%20linguistics&f=false).
 * <a name="ref28"></a>
 Roach, N. T., Hatala, K. G., Ostrofsky, K. R., Villmoare, B., Reeves, J. S., Du, A., ... & Richmond, B. G. (2016).
 Pleistocene footprints show intensive use of lake margin habitats by Homo erectus groups.
 _Scientific reports_, 6.
 [Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873780/).
-* <a name="ref29"></a>
-Clair, R. N. S. (1972).
-Compound phonological segments.
-_Lingua_, 29, 120-127.
-[Web](http://www.academia.edu/30366473/Compound_phonological_segments).
-* <a name="ref30"></a>
-Hombert, J. M. (1986).
-The development of nasalized vowels in the Teke language group (Bantu).
-_The phonological representation of suprasegmentals: Studies on African languages offered to John M. Stewart on his 60th birthday_, 359-379.
-[PDF](http://www.ddl.ish-lyon.cnrs.fr/fulltext/Hombert/Hombert_1986_TekeLanguage.pdf).
+* <a name="ref09"></a>
+Smillie, D. (1985).
+Sociobiology and human culture.
+In _Sociobiology and epistemology_ (pp. 75-95). Springer Netherlands.
+[Book](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false).
+* <a name="ref18"></a>
+Tomasello, M. (2008).
+Why don't apes point?.
+_Trends In Linguistics Studies And Monographs_, 197, 375.
+[PDF](http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf).
+* <a name="ref16"></a>
+Trask, R. L. (2003).
+_Language: the basics_, 5. Routledge.
+[Ref](https://books.google.es/books?hl=es&lr=&id=0oQJPHJjCSAC&oi=fnd&pg=PR13&ots=qhJpW-NuXR&sig=ka4GGYM3kKkorX69iLC955vBexg#v=onepage&q=ended&f=false).
+* <a name="ref10"></a>
+Vargha-Khadem, F., Watkins, K., Alcock, K., Fletcher, P., & Passingham, R. (1995).
+Praxic and nonverbal cognitive deficits in a large family with a genetically transmitted speech and language disorder.
+_Proceedings of the National Academy of Sciences_, 92(3), 930-933.
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf).
+* <a name="ref20"></a>
+Von Petzinger, G. (2009).
+_Making the abstract concrete: The place of geometric signs in French Upper Paleolithic parietal art_
+(Doctoral dissertation).
+[PDF](https://dspace.library.uvic.ca/handle/1828/1402).
 * <a name="ref31"></a>
 Von Petzinger, G. (2017).
 _The First Signs: Unlocking the Mysteries of the World's Oldest Symbols_.
 Simon and Schuster.
 [Ref](https://books.google.es/books?hl=es&lr=&id=HptvDgAAQBAJ&oi=fnd&pg=PA1&dq=the+first+signs+von+petzinger&ots=2XvfrCJFjq&sig=0tk0ZLaRt9RX78DEhw9Ut8S3F70#v=onepage&q=the%20first%20signs%20von%20petzinger&f=false).
+* <a name="ref04"></a>
+Wadley, L., Hodgskiss, T., & Grant, M. (2009).
+Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
+_Proceedings of the National Academy of Sciences_, 106(24), 9590-9594.
+[Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/).
+* <a name="ref15"></a>
+Yang, C. (2013).
+Ontogeny and phylogeny of language.
+_Proceedings of the National Academy of Sciences_, 110(16), 6324-6327.
+[Web](http://www.pnas.org/content/110/16/6324.full).
 
