@@ -785,16 +785,41 @@ when considering redundancy in sentences.
 In general words in a sentence are not independent:
 'house' is much more likely to follow 'the' than 'far'.
 Particles and other function words are highly redundant.
-The actual number of bits per sentence is thus much lower than represented.
 The values above can only be considered bounding limits.
+The actual number of bits per sentence is thus much lower than represented,
+especially as the vocabulary size grows.
 
 We will now delve into how different uses for language
 are enabled by increasing information content.
 
+### Coordination
+
+The most primitive uses of language are related to the present situation:
+they are in fact deictic,
+as we saw
+[above](#individual-sounds).
+Even with only a handful of function words and nothing else,
+a language that allows combinations of words can be used to guide and coordinate group activities.
+A group of hominins may use this limited set of words to _remove ambiguity_
+from their common undertakings.
+
+During group hunting,
+a scout can pinpoint the location and amount of prey with gestures and a few words,
+much more effectively than with the gestures alone.
+Not much information is needed to express a direction,
+a relative distance (far or near) and quantity (whether there is much or little prey).
+Similarly, a group leader can direct the movements of team members
+with a couple of indications for each.
+
+We will see below
+[a sample language](#singlecon)
+that can fulfill a very basic version of this coordination role with only 12 words.
+
 ### Description
 
-The most primitive use of language is related to the present situation.
-It is used to _remove ambiguity_.
+Still in the immediate present,
+a more advanced language with content words
+can be used more effectively to _remove ambiguity_ about the current situation.
 Say that two hominins _A_ and _B_ are in a certain setting.
 _A_ sees an animal, and wants to communicate it to _B_.
 Perhaps their common language has an utterance for 'warning',
