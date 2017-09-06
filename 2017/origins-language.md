@@ -934,7 +934,6 @@ There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
 from later periods,
 and probably many more overlooked marks.
-
 Do they represent concepts of some kind,
 or are they just pretty designs?
 Are marks more likely to represent functions words,
