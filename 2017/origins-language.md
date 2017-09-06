@@ -114,7 +114,7 @@ and so it has continued until the present time.
 ## A Timeline Proposal
 
 With this preliminary analysis in mind we can create the following timeline,
-dividing language evolution into a number of stages.
+dividing language evolution into a few distinct stages.
 
 ### Individual Sounds
 
@@ -353,7 +353,7 @@ We will suppose that it did not happen much earlier than that.
 
 ### Monosyllabic Expansion
 
-In this next period the number of words grows in a number of ways
+In this next period the number of words grows in a couple of different ways
 while they remain monosyllables.
 The basic problem of a monosyllabic language is how to cram
 a large number of words into a single syllable.
@@ -511,8 +511,8 @@ But the change would break all the known boundaries of cultures and species.
 
 ## Alternative Timelines
 
-There are a number of possible objections
-that can be raised about this timeline.
+There are many possible objections that can be raised about this timeline.
+In this section we will examine a few.
 
 ### Recent Origin
 
