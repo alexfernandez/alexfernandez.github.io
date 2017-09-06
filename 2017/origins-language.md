@@ -921,6 +921,7 @@ There is also symbolic evidence which might prove even more valuable.
 has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
 across much of France, and in later publications
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
+Figure 1 shows the latest 32 symbols recurrent across Europe.
 
 ![[Figure 1: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch and asterisk.")
 
