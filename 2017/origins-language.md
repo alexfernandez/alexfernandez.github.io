@@ -1045,6 +1045,11 @@ In the same volume,
 gives an overview of other theories.
 [Bickerton (2016, p. 200)](#ref32)
 also proposes generic names as the first words.
+[Pinker (2003, pp. 352-354)](#ref34)
+favors gradual evolution in speech development,
+but without giving concrete stages or time frames;
+he just notes that all humans have "identical language abilities",
+so that this evolution must have happened before the big out-of-Africa diaspora.
 
 It is my sincere hope that I have overlooked a mountain of literature
 specifying how languages came to be the complex wonders that we know,
@@ -1252,7 +1257,7 @@ _Brill's Journal of Afroasiatic Languages and Linguistics_, 2(1), 23-79.
 * <a name="ref05"></a>
 Bakker, E. J., de Jong, I. J., & van Wees, H. (Eds.). (2002).
 _Brill's companion to Herodotus_. Brill.
-[Ref](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
+[Book](https://books.google.es/books?id=z38tDgAAQBAJ&pg=PA59&lpg=PA59&dq=anacoluthon+herodotus&source=bl&ots=ZPXd7-JOFu&sig=g4VGD3p-IhLycomf-xDgp2SHPH8&hl=es&sa=X&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA#v=onepage&q=anacoluthon%20herodotus&f=false)
 * <a name="ref19"></a>
 Bar-Yosef, O. (2002).
 The Upper Paleolithic revolution.
@@ -1261,7 +1266,7 @@ _Annual Review of Anthropology_, 31(1), 363-393.
 * <a name="ref12"></a>
 Baxter, W. H., & Sagart, L. (2014).
 _Old Chinese: a new reconstruction_, 318. Oxford University Press.
-[Ref](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
+[Book](https://books.google.es/books?id=K6Q-BAAAQBAJ&printsec=frontcover&dq=isbn:9780199945375&hl=es&sa=X&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA#v=onepage&q=monosyllabic&f=false).
 * <a name="ref33"></a>
 Bickerton, D. (2009).
 _Adam's tongue: how humans made language, how language made humans_. Hill and Wang.
@@ -1356,7 +1361,11 @@ _Lingua_, 108(2-3), 119-136.
 Newmeyer, F. J. (2003).
 What can the field of linguistics tell us about the origins of language?.
 _Studies In The Evolution Of Language, 3_, 58-76.
-[Ref](https://books.google.es/books?hl=es&lr=&id=OeN2Rhvfdn4C&oi=fnd&pg=PA58&dq=What+can+the+field+of+linguistics&ots=tuUVjyFPeL&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0#v=onepage&q=What%20can%20the%20field%20of%20linguistics&f=false).
+[Book](https://books.google.es/books?hl=es&lr=&id=OeN2Rhvfdn4C&oi=fnd&pg=PA58&dq=What+can+the+field+of+linguistics&ots=tuUVjyFPeL&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0#v=onepage&q=What%20can%20the%20field%20of%20linguistics&f=false).
+* <a name="ref34"></a>
+Pinker, S. (2003).
+_The language instinct: How the mind creates language_. Penguin UK.
+[Book](https://books.google.es/books?hl=es&lr=&id=UtFqXQosVP0C&oi=fnd&pg=PT8&ots=6H56NxDBPr&sig=HCBZFFvn68LBBcoe5iVibzqS-MI#v=onepage&q=origin&f=false).
 * <a name="ref28"></a>
 Roach, N. T., Hatala, K. G., Ostrofsky, K. R., Villmoare, B., Reeves, J. S., Du, A., ... & Richmond, B. G. (2016).
 Pleistocene footprints show intensive use of lake margin habitats by Homo erectus groups.
@@ -1375,7 +1384,7 @@ _Trends In Linguistics Studies And Monographs_, 197, 375.
 * <a name="ref16"></a>
 Trask, R. L. (2003).
 _Language: the basics_, 5. Routledge.
-[Ref](https://books.google.es/books?hl=es&lr=&id=0oQJPHJjCSAC&oi=fnd&pg=PR13&ots=qhJpW-NuXR&sig=ka4GGYM3kKkorX69iLC955vBexg#v=onepage&q=ended&f=false).
+[Book](https://books.google.es/books?hl=es&lr=&id=0oQJPHJjCSAC&oi=fnd&pg=PR13&ots=qhJpW-NuXR&sig=ka4GGYM3kKkorX69iLC955vBexg#v=onepage&q=ended&f=false).
 * <a name="ref10"></a>
 Vargha-Khadem, F., Watkins, K., Alcock, K., Fletcher, P., & Passingham, R. (1995).
 Praxic and nonverbal cognitive deficits in a large family with a genetically transmitted speech and language disorder.
@@ -1390,7 +1399,7 @@ _Making the abstract concrete: The place of geometric signs in French Upper Pale
 Von Petzinger, G. (2017).
 _The First Signs: Unlocking the Mysteries of the World's Oldest Symbols_.
 Simon and Schuster.
-[Ref](https://books.google.es/books?hl=es&lr=&id=HptvDgAAQBAJ&oi=fnd&pg=PA1&dq=the+first+signs+von+petzinger&ots=2XvfrCJFjq&sig=0tk0ZLaRt9RX78DEhw9Ut8S3F70#v=onepage&q=the%20first%20signs%20von%20petzinger&f=false).
+[Book](https://books.google.es/books?hl=es&lr=&id=HptvDgAAQBAJ&oi=fnd&pg=PA1&dq=the+first+signs+von+petzinger&ots=2XvfrCJFjq&sig=0tk0ZLaRt9RX78DEhw9Ut8S3F70#v=onepage&q=the%20first%20signs%20von%20petzinger&f=false).
 * <a name="ref04"></a>
 Wadley, L., Hodgskiss, T., & Grant, M. (2009).
 Implications for complex cognition from the hafting of tools with compound adhesives in the Middle Stone Age, South Africa.
