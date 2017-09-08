@@ -1006,7 +1006,9 @@ It remains to be seen if the veils of time can be pierced any further.
 
 ### Genetics
 
-There are many genes responsible for speech.
+[Pinker (2003, pp. 297-331)](#ref34)
+makes a quite convincing case that language must be enabled
+not by one but by several different genes.
 [FOXP2](https://en.wikipedia.org/wiki/FOXP2)
 is the most famous and studied of all.
 This gene has the same expression in humans and Neanderthals,
@@ -1045,7 +1047,7 @@ In the same volume,
 gives an overview of other theories.
 [Bickerton (2016, p. 200)](#ref32)
 also proposes generic names as the first words.
-[Pinker (2003, pp. 352-354)](#ref34)
+[Pinker (2003, pp. 352-368)](#ref34)
 favors gradual evolution in speech development,
 but without giving concrete stages or time frames;
 he just notes that all humans have "identical language abilities",
