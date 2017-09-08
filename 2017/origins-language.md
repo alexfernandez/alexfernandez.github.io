@@ -1055,8 +1055,8 @@ and proposes that protolanguages were similar to pidgin languages
 with very loose rules of grammar.
 [Pinker (2003, pp. 352-368)](#ref34)
 favors gradual evolution in speech development,
-but without giving concrete stages or time frames;
-he just notes that all humans have "identical language abilities",
+but without giving concrete stages or time frames.
+He notes that all humans have "identical language abilities",
 so that this evolution must have happened before the big out-of-Africa diaspora.
 
 It is my sincere hope that I have overlooked a mountain of literature
