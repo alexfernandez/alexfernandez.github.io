@@ -1,11 +1,12 @@
 ---
 title: The Origins Of Language
+author: Alejandro Fernández
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
 footer: Published on 2017-08-21.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
-![](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
+![Cave people in Bhimbetka.](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
 The relative scarcity of modern speculation about prehistoric languages is surprising,
 given how much interest there is both in academia and among the general public
@@ -223,7 +224,7 @@ It just means that vowels are not part of the language.
 Some kind of vocalic sound must still link the two consonants together,
 and mark syllable boundaries.
 This allows listeners to distinguish a double-consonant word _KK_
-from two single-consonant words in succession _K-K_.
+from two single-consonant words in succession _K K_.
 
 We will use the italic _Ə_
 ([uppercase schwa](https://en.wikipedia.org/wiki/%C6%8F))
@@ -456,7 +457,7 @@ which is the point where Prehistory ends along with our journey.
 
 Figure 1 shows several time scales for language eras as discussed.
 
-![[Figure 1: Language time scales](pics/origins-time-scales.svg). Prepared by the author.](pics/origins-time-scales.svg "Different time scales for language eras")
+![[Figure 1: Language time scales](pics/origins-time-scales.svg). Prepared by the author.](pics/origins-time-scales.png "Different time scales for language eras")
 
 Figure 1-a shows how the period under study looks when represented linearly.
 Hardly anything can be shown since most of the period is occupied

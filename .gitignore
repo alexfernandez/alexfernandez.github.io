@@ -22,5 +22,6 @@ _testmain.go
 *.exe
 *.test
 *.swp
+*.pdf
 .DS_Store
 
