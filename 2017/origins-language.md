@@ -1050,7 +1050,9 @@ In the same volume,
 [Newmeyer (2003)](#ref11)
 gives an overview of other theories.
 [Bickerton (2016, p. 200)](#ref32)
-also proposes generic names as the first words.
+also postulates generic names as the first words,
+and proposes that protolanguages were similar to pidgin languages
+with very loose rules of grammar.
 [Pinker (2003, pp. 352-368)](#ref34)
 favors gradual evolution in speech development,
 but without giving concrete stages or time frames;
