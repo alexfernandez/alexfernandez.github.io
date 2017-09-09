@@ -4,6 +4,20 @@ author: Alejandro Fernández
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
 footer: Published on 2017-08-21.
   [Comments, suggestions?](https://twitter.com/pinchito/)
+abstract: |
+  The origins of language are reviewed from the perspectives of phonology,
+  phonotactics and information content.
+  A few well-defined evolutionary steps (or language eras)
+  are proposed:
+  monosyllabic words with a single consonant,
+  monosyllabic words with two consonants,
+  monosyllabic words with vowels
+  and finally polysyllabic words.
+  The available evidence for this evolutionary path is reviewed from several perspectives,
+  including comparative linguistics, paleoanthropology and genetics.
+  A number of alternative evolutionary paths in the literature are also discussed.
+  Finally, two artificial languages are proposed to illustrate the expressive power of the earliest language eras:
+  Singlecon and Doublecon.
 ---
 
 ![Cave people in Bhimbetka.](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
