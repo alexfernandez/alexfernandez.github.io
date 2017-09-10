@@ -1338,7 +1338,8 @@ The language mosaic and its evolution.
 _Studies in the Evolution of Language, 3_, 38-57.
 [Web](http://www.lel.ed.ac.uk/~jim/nustates.htm).
 * <a name="ref01"></a>
-Kemper, S. & Sumner, A. (2001). The structure of verbal abilities in young and older adults.
+Kemper, S. & Sumner, A. (2001).
+The structure of verbal abilities in young and older adults.
 _Psychology and Aging_, 16, 312-322.
 [Ref](https://kuscholarworks.ku.edu/handle/1808/8619?show=full),
 [PDF](https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper%20Verbal%20Abilities%20author%20final.pdf;sequence=1).
