@@ -765,12 +765,9 @@ as we saw [above](#information-density).
 Therefore a typical adult sentence might carry 120 bits of information,
 if all words were independent.
 
-![[Figure 2: Mean Lenght Of Utterance In Children](pics/origins-mlu.jpg). From Devescovi _et al_ (2005).](pics/origins-mlu.jpg "MLU correlated with vocabulary size")
-
 What happens with smaller vocabularies?
 [Devescovi _et al_ (2005)](#ref02) estimate that children with a vocabulary of 101-200 words
-have a MLU of around 3.5 words,
-as shown in figure 2.
+have a MLU of around 3.5 words.
 200 words following a Zipf distribution would carry around 6 bits per word,
 yielding a total of 21 bits per sentence.
 Similarly, 400 words would have a MLU of around 4 words,
@@ -975,9 +972,9 @@ There is also symbolic evidence which might prove even more valuable.
 has found that the same set of symbols is repeated in Upper Paleolithic cave paintings
 across much of France, and in later publications
 [around the world](https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/).
-Figure 3 shows the latest 32 symbols recurrent across Europe.
+Figure 2 shows the latest 32 symbols recurrent across Europe.
 
-![[Figure 3: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch and asterisk.")
+![[Figure 2: 32 recurrent symbols across Upper Paleolithic Europe](pics/origins-first-signs.jpg). From von Petzinger (2017), used with permission.](pics/origins-first-signs.jpg "32 abstract signs including crosshatch and asterisk.")
 
 There are also
 [cup and ring marks](https://en.wikipedia.org/wiki/Cup_and_ring_mark)
