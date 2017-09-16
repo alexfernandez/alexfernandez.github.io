@@ -41,7 +41,7 @@ or at the very least lay a path to future discovery.
 It is not reasonable to expect that language appeared at some point in the past,
 perfectly formed with all the elements that it has today.
 One day people were communicating with grunts,
-the next they were speaking a modern language.
+the next they were speaking a modern language?
 Some kind of evolution is necessary.
 
 ### Back In Time
