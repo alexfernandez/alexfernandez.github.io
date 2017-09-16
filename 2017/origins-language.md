@@ -297,7 +297,8 @@ Neanderthals are usually classified as a distinct species from _Homo Sapiens_.
 Given the now ample evidence that both groups could and did interbred,
 as reviewed in [Groucutt _et al_ (2015)](#ref23),
 it does not seem unreasonable to classify them as two different subspecies inside _Homo Sapiens_,
-as many scientists have advocated for decades.
+as many scientists have advocated for decades,
+e.g. [Tattersall & Schwartz (1999)](#ref35).
 The degree of shared evolution is far from clear,
 but there may have been only minute differences between African and Neanderthal language evolution.
 
@@ -1403,6 +1404,10 @@ Smillie, D. (1985).
 Sociobiology and human culture.
 In _Sociobiology and epistemology_ (pp. 75-95). Springer Netherlands.
 [Book](https://books.google.es/books?hl=es&lr=&id=4AM9VoCtH_EC&oi=fnd&pg=PA75&ots=QKa6OlCe8S&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc#v=onepage&q&f=false).
+* <a name="ref35"></a>
+Tattersall, I., & Schwartz, J. H. (1999).
+Hominids and hybrids: The place of Neanderthals in human evolution.
+_Proceedings of the National Academy of Sciences_, 96(13), 7117-7119.
 * <a name="ref18"></a>
 Tomasello, M. (2008).
 Why don't apes point?.
