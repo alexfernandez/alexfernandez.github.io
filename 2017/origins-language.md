@@ -1,6 +1,6 @@
 ---
 title: The Origins Of Language
-author: Alejandro Fernández
+author: Alejandro Fernández Martínez
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
 keywords: language origins, linguistic anthropology, Neanderthals, protolanguages.
 footer: Published on 2017-08-21.
