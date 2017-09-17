@@ -19,6 +19,7 @@ abstract: |
   Finally, two artificial languages are proposed to illustrate the expressive power of the earliest language eras:
   Singlecon and Doublecon.
 keywords: language origins, linguistic anthropology, Neanderthals, protolanguages.
+
 ---
 
 ![Cave people in Bhimbetka.](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
