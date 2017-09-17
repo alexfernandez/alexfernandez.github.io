@@ -1,0 +1,1467 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+\usepackage{fontspec}
+\setmainfont{Charis SIL}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={The Origins Of Language},
+            pdfauthor={Alejandro Fernández},
+            pdfkeywords={language origins, linguistic anthropology, Neanderthals, protolanguages.},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\title{The Origins Of Language}
+\providecommand{\subtitle}[1]{}
+\subtitle{An Exploration Of Prehistoric Linguistic Phases}
+\author{Alejandro Fernández}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+The origins of language are reviewed from the perspectives of phonology,
+phonotactics and information content. A few well-defined evolutionary
+steps (or language eras) are proposed: monosyllabic words with a single
+consonant, monosyllabic words with two consonants, monosyllabic words
+with vowels and finally polysyllabic words. The available evidence for
+this evolutionary path is reviewed from several perspectives, including
+comparative linguistics, paleoanthropology and genetics. A number of
+alternative evolutionary paths in the literature are also discussed.
+Finally, two artificial languages are proposed to illustrate the
+expressive power of the earliest language eras: Singlecon and Doublecon.
+\end{abstract}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{pics/origins-cave-people.jpg}
+\caption{Cave people in Bhimbetka.}
+\end{figure}
+
+The relative scarcity of modern speculation about prehistoric languages
+is surprising, given how much interest there is both in academia and
+among the general public about other aspects of prehistoric life. The
+most likely reason is lack of direct evidence, which in these often
+unimaginative times can be a showstopper. But there are many indirect
+approaches that can give interesting answers.
+
+In this article we will explore how language originated and developed in
+prehistoric times, combining language reconstruction and information
+theory with generous amounts of conjecture to arrive at a consistent
+view of language evolution. From beyond the mysts of time we will try to
+build a few defensible positions, or at the very least lay a path to
+future discovery.
+
+\subsection{Language Evolution}\label{language-evolution}
+
+It is not reasonable to expect that language appeared at some point in
+the past, perfectly formed with all the elements that it has today. One
+day people were communicating with grunts, the next they were speaking a
+modern language? Some kind of evolution is necessary.
+
+\subsubsection{Back In Time}\label{back-in-time}
+
+Furthermore, in historic times there have been significant improvements.
+As \protect\hyperlink{ref05}{Bakker \emph{et al} (2002)} hint,
+subordinate sentences were an innovation to Herodotus roughly 2,500
+years ago (2.5 kya), who wrote endless sentences and often forgot to
+finish them (technically called
+\href{https://en.wikipedia.org/wiki/Anacoluthon}{anacoluthon}).
+
+Going further back into the past, partial reconstructions such as the
+enlightening work done with Indoeuropean shows that many elements of
+language that we take for granted are relatively recent additions. For
+instance, Proto-Indo-European (PIE) developed gender gradually, as
+explained by \protect\hyperlink{ref06}{Luraghi (2011)}.
+
+How far back can we go with reconstructions?
+\protect\hyperlink{ref03}{García Calvo (2003)} was able to reconstruct
+an even earlier prehistoric language, as we will see below. Some
+researchers have even posited a
+\href{https://en.wikipedia.org/wiki/Proto-Human_language}{Proto-Human
+language}, with little success and even less credibility. Past a certain
+point reconstructions are no use: our interest is not in tracing common
+roots for all languages, but to investigate how broad language features
+evolved.
+
+We need some other tools to delve into the darkness of time.
+
+\subsubsection{Increasing Information}\label{increasing-information}
+
+A very basic criteria that describes a language era is how many
+different words can be uttered. The number of possible words in a given
+language correlates strongly with how much information can be conveyed.
+We will see \protect\hyperlink{information-content}{below} an attempt at
+quantification.
+
+Modern languages can be seen as open-ended: the number of productions is
+unlimited, as explained in \protect\hyperlink{ref16}{Trask (2003)}. This
+however needs not be the case in the past.
+
+We have to suppose that
+\href{https://en.wikipedia.org/wiki/Hominini}{hominin} languages started
+somewhere, by assigning meaning to a few sounds. As the number of
+possible utterances increased, some methods to combine them appeared,
+thus also increasing the amount of information conveyed. The process
+must have conferred a distinct advantage to speakers, and so it has
+continued until the present time.
+
+\subsection{A Timeline Proposal}\label{a-timeline-proposal}
+
+With this preliminary analysis in mind we can create the following
+timeline, dividing language evolution into a few distinct stages.
+
+\hypertarget{individual-sounds}{\subsubsection{Individual
+Sounds}\label{individual-sounds}}
+
+Our most remote ancestors probably communicated using simple sounds.
+Many animals use distinct vocal utterances to express different
+meanings. Elements include: pitch, volume and articulation (the shape of
+the mouth to generate the sound).
+
+At this point we cannot yet speak about words, since there is no
+language system. Each sound is uttered individually making its own
+``sentence''. Where there are no words there can be no proper sentences.
+And without words or sentences there is no ``language'' to speak about.
+
+Do animals have a grammar, i.e.~do they combine different signs into a
+coherent whole? More specifically,
+\href{http://www.alphadictionary.com/articles/ling002.html}{can
+chimpanzees talk}? \protect\hyperlink{ref15}{Yang (2013)} compares the
+relative frequency of words uttered by a chimpanzee with those from
+human language, and concludes that chimpanzees do not have a grammar.
+
+We can suppose that early hominins had a way to augment their
+communication beyond what other primates can do, even without a grammar:
+perhaps by emitting a bigger range of sounds, or by adding context
+information with their hands. As \protect\hyperlink{ref18}{Tomasello
+(2008)} refers, pointing is a very human activity. This humble activity
+requires having a model of someone else's mind, and is therefore the
+basis for \href{https://en.wikipedia.org/wiki/Deixis}{deixis}.
+
+This era is therefore the ``ground zero'' of language: the common base
+with animals, with deictic information added on top.
+
+\subsubsection{Single Consonants}\label{single-consonants}
+
+The first stage of language may have involved single consonants. At this
+point the sounds from the previous step can be combined into sentences,
+making them basic building elements in very simplistic sentences. These
+simple elements to combine might be thought to have been
+\href{https://en.wikipedia.org/wiki/Content_word}{content words}: nouns,
+adjectives or verbs, as proposed by \protect\hyperlink{ref08}{Hurford
+(2003)}. Instead we will work from the opposite assumption, that these
+simple elements were only
+\href{https://en.wikipedia.org/wiki/Function_word}{function words}:
+prepositions, negations, pronouns, quantifiers and adverbs. Why? Simply
+because of sheer numbers.
+
+The problem of single consonants is that there are not many of them. The
+number of simple, distinct sounds that can be uttered separately,
+without combining with others and without significant mixing, is
+limited. Modern languages can have as much as 87 consonants for
+\href{https://en.wikipedia.org/wiki/Taa_language}{Taa}, about 80 for
+\href{https://en.wikipedia.org/wiki/Ubykh_language}{Ubykh}. A single
+consonant word is thus limited to less than 100 words in the best of
+cases, and probably no further than 30 or so, since many of these
+consonants can be viewed as combinations of simpler sounds. These
+combinations may have evolved from consonant groupings, and be therefore
+modern constructions.
+
+The number of consonants has likely increased with time. We can choose
+any number from 10 to 20 or so, with the reasonable assurance that at
+some point in time humans could only profer that number of words. A
+value of 12 seems certainly achievable, so it will serve as
+archetypical. We will use the symbol \emph{K} (cursive `K') to represent
+any single consonant.
+
+Using content words would have limited utterances greatly, and specially
+the ability to combine them. Function words on the other hand can be
+combined readily, creating the first sentences. There are other reasons
+such as the use of pronouns (`I' and `you') as deictic words in a
+sentence, without which conversations would be really inane and would be
+limited to point out that there are an entity from one of 12 possible
+categories out there, at any given time. Also, function words are always
+in a finite supply anyway, so they seem like a more natural fit for a
+very restricted set of words.
+
+It is easy to defend a definite advantage for hominins that can combine
+simple meanings into one coherent whole, as compared with those that
+could only emit separate sounds. Group coordination becomes possible
+without having to see each other. Still, it is hard to see how a
+language of this kind could work. For illustration purposes, in the
+appendix we have an example of a
+\protect\hyperlink{singlecon}{single-consonant language}.
+
+At which point in time did the era of single consonants start? The
+determination of the era of single consonants will have to involve
+considerable guesswork, being so far back in time. The advantage of
+group coordination would definitely have been greater when hominins
+started to hunt in groups, which may have been
+\href{http://www.nature.com/news/homo-erectus-footprints-hint-at-ancient-hunting-party-1.17346}{around
+two million years ago}. (2 Mya). According to
+\protect\hyperlink{ref28}{Roach (2016)}, around this point \emph{Homo
+erectus} started to hunt and scavenge animals, increasing its meat
+consumption. But even such a simple language would also have been useful
+in foraging. An educated guess might thus be that around 1 Mya hominins
+could profer single consonants and combine them into simple sentences.
+We can thus identify the rise of \emph{Homo Erectus} with the appearance
+of proper language.
+
+\subsubsection{Double Consonant
+Syllables}\label{double-consonant-syllables}
+
+At some point early humans learned to combine several sounds into one
+syllable. This great advance extends the range of possible words at
+least by an order of magnitude. Considering the simplest structure of
+two consonants, or \emph{KK}, the number of words would be the square of
+the number of consonants. Adding a second consonant without a vowel may
+seem a strange choice. It is however a logical extension of the
+single-consonant words seen above, which does not require additional
+phonetic entities.
+
+How do languages without vowels work? The
+\href{https://en.wikipedia.org/wiki/Rhoticity_in_English}{rhotic}
+pronunciation of English omits vowels in many words.
+\href{https://en.wikipedia.org/wiki/Nuxalk_language}{Nuxalk or Bella
+Coola} is an example of a contemporary language without vowels; you can
+\href{https://www.youtube.com/watch?v=dFnrp-cUTLQ}{hear a sample}. From
+our modern perspective, not having vowels does not mean that all
+consonants are stuck together in an unpronunceable blob. It just means
+that vowels are not part of the language. Some kind of vocalic sound
+must still link the two consonants together, and mark syllable
+boundaries. This allows listeners to distinguish a double-consonant word
+\emph{KK} from two single-consonant words in succession \emph{K K}.
+
+We will use the italic \emph{Ə}
+(\href{https://en.wikipedia.org/wiki/\%C6\%8F}{uppercase schwa}) to
+represent a vocalic separator. Biconsonant syllables will therefore be
+rendered as \emph{KƏK}. The evolution so far can be represented as:
+
+\begin{quote}
+K → KƏK
+\end{quote}
+
+In practice, Ə can be a neutral vowel or
+\href{https://en.wikipedia.org/wiki/Schwa}{schwa}. It can also be a more
+definite vowel sound, either automatically assigned by
+\href{https://en.wikipedia.org/wiki/Prosody_(linguistics)}{prosodic
+rules}. or chosen at random. This would mean that e.g.~the variants
+`SAN', `SIN' or `SUN' are in fact different renditions of the same word
+`SƏN'. Technically it is an
+\href{https://en.wikipedia.org/wiki/Epenthesis}{epenthetic vowel}, only
+present to link both consonants.
+
+A two-consonant language might still preserve the original one-consonant
+functions words \emph{K}, and add content words combining two
+consonants: \emph{KƏK}. A word during this era can therefore be either
+\emph{K} or \emph{KƏK}. 12 consonants would thus yield 144 + 12 = 156
+combinations.
+
+What brought forward this improvement? Calling syllables an
+\emph{invention} may very well misleading: it is very likely that both
+proferring and parsing syllables require adaptations in the brains of
+speakers and listeners to handle the increased complexity. Probably the
+first words with two consonants were formed by common linguistic
+mechanisms:
+\href{https://en.wikipedia.org/wiki/Compound_(linguistics)}{compounding}
+and \href{https://en.wikipedia.org/wiki/Reduplication}{reduplication} of
+function words. The appendix has a
+\protect\hyperlink{doublecon}{hypothetical double-consonant language}.
+
+Our reasonable guess for the double consonant era is that it overlapped
+largely with the emergence of \emph{Homo Sapiens}, at around 200--100
+kya. At this point modern hominins were evolving fast, with large brains
+and impressive
+\href{https://en.wikipedia.org/wiki/Middle_Paleolithic\#Technology}{advances
+in technology}. An exponential increase in the complexity of their
+communications would have suited perfectly their new activities, and
+would be a great help for the the new challenges they were facing.
+
+A note on the European branch of the family is in order. Neanderthals
+are usually classified as a distinct species from \emph{Homo Sapiens}.
+Given the now ample evidence that both groups could and did interbred,
+as reviewed in \protect\hyperlink{ref23}{Groucutt \emph{et al} (2015)},
+it does not seem unreasonable to classify them as two different
+subspecies inside \emph{Homo Sapiens}, as many scientists have advocated
+for decades, e.g. \protect\hyperlink{ref35}{Tattersall \& Schwartz
+(1999)}. The degree of shared evolution is far from clear, but there may
+have been only minute differences between African and Neanderthal
+language evolution.
+
+\subsubsection{Vowels}\label{vowels}
+
+At some point in time vowels become first-class citizens, just as
+meaningful as consonants. A proper vowel is represented by \emph{A}
+(cursive `A').
+
+\begin{quote}
+K → KƏK → KAK
+\end{quote}
+
+With vowels the number of possible syllables grows a bit. Let us suppose
+that there are three possible vowels at some point in time, along with
+the original 12 consonants. The number of combinations is now: consonant
++ vowel + consonant, or \emph{KAK}, with 432 combinations; adding the
+original 12 single-consonant function words \emph{K} yields a total of
+444 combinations. Note that function words may also acquire vowels to
+yield simple structures like \emph{KA}, in order to increase their
+number to 36; in this case yielding 468 possible words.
+
+The process of vowel acquisition may require larynx, ear and brain
+adaptations to generate, distinguish and process the new grammatical
+elements. The incorporation of vowels into consonantic languages may
+happen similarly to the
+\href{https://en.wikipedia.org/wiki/Indo-European_ablaut}{Indo-European
+ablaut} or more generally as
+\href{https://en.wikipedia.org/wiki/Apophony}{vowel apophony}: vowels
+enter the system as modifiers for existing roots.
+
+Tracing the appearance of vowels in all languages is again a hard issue.
+At what point did this happen? Vowels may in fact have appeared several
+times throughout prehistory. Almost all known languages have at least a
+few vowels, so that we can infer that their appearance happened before
+the last diaspora at around 70--50 kya. We will suppose that it did not
+happen much earlier than that.
+
+\subsubsection{Monosyllabic Expansion}\label{monosyllabic-expansion}
+
+In this next period the number of words grows in a couple of different
+ways while they remain monosyllables. The basic problem of a
+monosyllabic language is how to cram a large number of words into a
+single syllable. There are a couple of expansions that may have happened
+at this point in time.
+
+The first strategy is to increase the number of consonants and vowels.
+The basic inventory of consonants may have grown in time. As a modern
+example, \href{https://en.wikipedia.org/wiki/Khoisan_languages}{Khoisan
+click languages}
+(\href{https://www.youtube.com/watch?v=W6WO5XabD-s}{sample}) have added
+clicks as regular consonants. The phoneme inventory may have grown from
+12 consonants and 3 vowels to e.g.~20 consonants and 5 vowels, which
+yields yields 2000 combinations while following the same \emph{KAK}
+structure.
+
+The second strategy is to add tones. At this stage speakers may start
+distinguishing words by
+\href{https://en.wikipedia.org/wiki/Tone_(linguistics)}{tone} as many
+modern languages such as
+\href{https://en.wikipedia.org/wiki/Bantu_languages}{Bantu}
+(\href{https://www.youtube.com/watch?v=ZXAnrqkt_yM}{sample}) do
+nowadays. Adding four tones per vowel for the original structure
+\emph{KAK} yields 1728 combinations.
+
+Of course both of these innovations may have been used in conjunction to
+achieve even greater vocabularies. This increase of combinations may
+have enabled the separation of word forms for verbs, nouns and
+adjectives, effectively establishing word classes as we know them.
+
+As we will see below, tones are a prerequisite to polysyllables, and
+therefore had to be acquired at this stage.
+
+It is not unreasonable to suppose that all languages were monosyllabic
+at least until 50 kya, probably later. The new techniques to expand
+vocabulary sizes were likely there for the transition to the
+\href{https://en.wikipedia.org/wiki/Upper_Paleolithic}{Upper
+Paleolithic} as described by \protect\hyperlink{ref19}{Bar-Yosef
+(2002)}, which must have required a broader lexicon of plants, animals,
+materials, tools and techniques.
+
+\hypertarget{polysyllables}{\subsubsection{Polysyllables}\label{polysyllables}}
+
+An immediate extension of two consonant words are three consonant words.
+
+\begin{quote}
+K → KƏK → KAK → KAKAK
+\end{quote}
+
+Continuing with the basic structure of 12 consonants and three vowels,
+there are now the following combinations: 12 \emph{K}, 444 \emph{KAK},
+and 15552 \emph{KAKAK}, for a total of 16008 combinations. A gain of an
+order of magnitude over monosyllabic words, even after the expansion
+period.
+
+However, and a bit surprisingly, it does not look as if this extension
+has happened early in prehistoric times. For starters, tones had to be
+developed first. To see why we need to consider how the listener can
+tell apart words.
+
+All polysyllabic languages use tones as a distinctive feature. E.g. in
+English, the only difference in pronunciation between `insight'
+/ˈɪnsaɪt/, `incite' /ɪnˈsaɪt/ and `inn sight' /ˈɪn ˈsaɪt/ is intonation.
+Tones allow us to distinguish between function words (which usually have
+no word accent) and content words, and in many languages also between
+different content words which have developed different word accents.
+
+In the case of a monosyllabic language, if a function word is `KA' and a
+content word is `KAK', a new polysyllabic `KAKAK' will sound identical
+to the combination `KA KAK', unless it develops an accent first `Á'
+which makes it `KAKÁK' or `KÁKAK', or perhaps even `KÁKÁK' with double
+word accent.
+
+At what point did polysyllabic words arise? Arab and other semitic
+languages have
+\href{https://en.wikipedia.org/wiki/Semitic_root}{triliteral roots}
+consisting of three consonants. It looks like a straightforward
+extension of the two-consonant syllables seen above.
+\protect\hyperlink{ref17}{Agmon (2010)} shows that for Semitic
+languages, the transition from two- to three-consonant roots happened
+during the transition to the Neolithic period, or 15--10 kya.
+
+\protect\hyperlink{ref03}{García Calvo (2003, pp.~90--97)} reconstructed
+a prehistoric language ancestral to Indo-European and
+Proto-Indo-European with just two consonants per syllable and without
+vowels. In constrast,
+\href{https://en.wikipedia.org/wiki/Proto-Indo-European_language}{Proto-Indo-European
+(PIE)} already has polysyllabic words and vowels; it is in fact a mostly
+modern language with suffixes, pronouns and conjugation. PIE was
+supposedly spoken
+\href{http://www.archaeology.org/exclusives/articles/1302-proto-indo-european-schleichers-fable}{around
+7 kya}, which is very close to historic times in many places of the
+world. A timescale was not given by García Calvo, but we may again
+deduce that the transition from monosyllabic language to PIE may have
+happened near the transition to the Neolithic period.
+
+The Sino-Tibetan family might seem a perfect example of the transition
+to polysyllabic languages in near-historical times, since many languages
+have monosyllabic morphemes. But \protect\hyperlink{ref14}{Michaud
+(2012)} refers that these monosyllables are often the result of
+compacting longer words, and therefore not a direct descendent of
+monosyllabic languages. In the reconstruction of
+\protect\hyperlink{ref12}{Baxter \& Sagart (2014)},
+\href{https://en.wikipedia.org/wiki/Old_Chinese}{Old Chinese} was
+already polysyllabic. There are however some hints at monosyllabic
+Sino-Tibetan ancestors as in \protect\hyperlink{ref13}{Lama (2012)}, as
+recently as 4 kya.
+
+Languages probably adopted polysyllabic forms as the necessity arose,
+given their particular information density configurations. In
+combination with other monosyllabic techniques they may have easily
+achieved vocabularies of tens of thousands of words. These newfound
+combinatorial riches allow for
+\href{https://en.wikipedia.org/wiki/Grammatical_conjugation}{conjugations},
+\href{https://en.wikipedia.org/wiki/Declension}{declensions} and other
+modern language features. This leaves us just right before the invention
+of writing, which is the point where Prehistory ends along with our
+journey.
+
+\subsubsection{Time Scales}\label{time-scales}
+
+Figure 1 shows several time scales for language eras as discussed.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{pics/origins-time-scales.png}
+\caption{\href{pics/origins-time-scales.svg}{Figure 1: Language time
+scales}. Prepared by the author.}
+\end{figure}
+
+Figure 1-a shows how the period under study looks when represented
+linearly. Hardly anything can be shown since most of the period is
+occupied by the single consonant era.
+
+Figure 1-b shows the main eras along with the hominin species that was
+thriving at the moment. The single consonant era has been compressed for
+easier visualization. Note that Neanderthals are included in \emph{Homo
+Sapiens}.
+
+Figure 1-c shows an alternate time scale with logarithmic axis. The
+scale has been expanded to include the apparition of the first hominins,
+about 5 Mya. The graph ends at the beginning of history around 5 kya.
+Note that it would not be particularly hard (and it may be tempting) to
+make all eras approximately equal in the logarithmic axis, which would
+give a nice picture of constantly accelerating linguistic progress. But
+the change would break all the known boundaries of cultures and species.
+
+\subsection{Alternative Timelines}\label{alternative-timelines}
+
+There are many possible objections that can be raised about this
+timeline. In this section we will examine a few.
+
+\hypertarget{recent-origin}{\subsubsection{Recent
+Origin}\label{recent-origin}}
+
+Many scholars support a much later date for the appearance of language,
+around 100 kya, as reported by \protect\hyperlink{ref07}{Dediu \emph{et
+al} (2013)}. This is not supported by evidence.
+
+The \href{https://en.wikipedia.org/wiki/Hyoid_bone}{hyoid bone} is a
+critical part of our capacity to speak; more specifically it is used for
+articulation. \protect\hyperlink{ref25}{Martínez \emph{et al} (2008)}
+report that a couple of hyoid bones of hominins from 530 kya are very
+similar to samples from modern humans.
+\protect\hyperlink{ref24}{D'Anastasio \emph{et al} (2013)} find the
+hyoid bone in Neanderthals to be structurally very similar to modern
+samples. Even further, \protect\hyperlink{ref26}{Martínez \emph{et al}
+(2013)} find that 530 kya hominins had a similar auditory range to
+modern humans.
+
+Barring some theory that explains why non-speaking hominins had similar
+bones as we use today for speech, these findings are probably enough to
+discard this timeline. Furthermore, a sample from 3.3 Mya ago is very
+similar to the hyoid bone of modern chimpanzees, which seems to imply
+that speech capabilities were developed between 3.3 Mya and 530 kya.
+
+\subsubsection{Much Earlier Origin}\label{much-earlier-origin}
+
+There is also the opposite belief: that language was already fully
+formed at least 100 kya. A good review can be found in
+\protect\hyperlink{ref31}{von Petzinger (2017, pp.~70--71)}. The
+supporting evidence is intriguing but certainly not bulletproof:
+geometric patterns engraved on common items and personal adornment
+during the Middle Paleolithic.
+
+We have however reviewed how
+\protect\hyperlink{polysyllables}{polysyllables} appeared much later in
+the game in some lanaguage families, right before or during the
+Neolithic period. Monosyllabic languages simply do not have the
+necessary breadth of vocabulary to incorporate features such as gender,
+declination or even tense. Even in highly analytic languages such as
+English, a restricted number of words would make it hard to construct a
+modern language. We have also seen reliable reconstructions of the
+appearance of such features as gender or declination in proto-languages.
+
+A more gradual appearance of modern language, in accordance with other
+signs of human progress such as art or technology, appears to be more in
+line with the existing evidence. Still, this area will need much more
+study before it can be reliably clarified.
+
+\subsubsection{Earlier Introduction Of
+Vowels}\label{earlier-introduction-of-vowels}
+
+The choice of early words consisting of two consonants may seem
+arbitrary. It is very well possible that vowels were introduced earlier,
+perhaps with the first syllables. Words might consist of one consonant
+plus one vowel; just adding three vowels to a 12-consonant language
+would extend the number of words from 12 to 36.
+
+But there is some evidence supporting the late appearance of vowels.
+\protect\hyperlink{ref03}{García Calvo (2003, pp.~87--89)} made the
+argument that prehistoric Indo-European in its earliest incarnation had
+no vowels: just function words with a single consonant, and content
+words consisting of two juxtaposed consonants. As we saw before there is
+no timescale for this language.
+
+On the other hand, there are languages with very different syllable
+structures, such as
+\href{https://en.wikipedia.org/wiki/Upper_Arrernte_language}{Upper
+Arrernte} (\href{https://www.youtube.com/watch?v=aiBnZjOahhM}{sample}).
+Interestingly enough, almost all languages with
+\href{http://wals.info/chapter/12}{simple syllable structures}. (V or
+CV) are \href{http://wals.info/feature/12A\#2/19.3/152.9}{almost
+exclusively found} in Africa, South America or Pacific Islands,
+suggesting some ancestral clustering.
+
+Ultimately this question is hard to answer and not terribly significant.
+It is possible that certain proto-languages have developed vocals first,
+and they may have added a second consonant to syllables later.
+
+\begin{quote}
+K → KA → KAK.
+\end{quote}
+
+Compare this path with the one described above:
+
+\begin{quote}
+K → KƏK → KAK.
+\end{quote}
+
+More complex paths are possible: developing vocals first, losing them
+later in favor of biconsonant words, and regaining them later.
+
+\begin{quote}
+K → KA → KƏK → KAK.
+\end{quote}
+
+In any case, the number of words grows monotonically.
+
+\subsubsection{Earlier Monosyllabic
+Expansion}\label{earlier-monosyllabic-expansion}
+
+Our estimation for the monosyllabic expansion is from 50 to 15 kya, due
+to the divergence of schemes to augment monosyllables found across the
+world. There is a small problem with this argument. When \emph{Homo
+Sapiens} left Africa, there was already a sizeable population of
+Neanderthals occupying Europe and Asia. So it is reasonable to think
+that these same Neanderthals might have their own languages, which
+influenced any newcomers. In this case the monosyllabic expansion might
+have happened much earlier.
+
+It may be an interesting avenue of enquiry. Its first obstacle is again
+to reconcile the earlier monosyllabic expansion with the late appearance
+of polysyllables that we have seen in many language families. What
+happened in between? Unless a satisfactory answer for the extended era
+is found, this point of view should be put on hold.
+
+\subsubsection{Broader Monosyllabic
+Expansion}\label{broader-monosyllabic-expansion}
+
+For the monosyllabic expansion a number of mechanisms have been proposed
+above. There are many others that can be seen in modern use, but that
+are not likely to have been a part of this era. We will review them
+along with the reason to have discarded them.
+
+The first strategy is to increase the number of consonants.
+
+\begin{itemize}
+\item
+  \href{https://en.wikipedia.org/wiki/Gemination}{Gemination}, or
+  reduplication of consonants. These longer versions are usually derived
+  from intermediate consonants, and therefore cannot appear from
+  monosyllables alone.
+\item
+  Compound consonants: when a combination of consonants becomes a single
+  phoneme. The idea of compound phonemes in
+  \protect\hyperlink{ref29}{Clair (1972)} can be expanded to many other
+  consonants. An example can be how the
+  \href{https://en.wikipedia.org/wiki/Voiceless_palato-alveolar_affricate}{modern
+  sound for `ch'}, is tellingly shown in IPA as ⟨tʃ⟩, suggesting it was
+  originated by the combination of ⟨t⟩ and ⟨ʃ⟩.
+\item
+  \href{https://en.wikipedia.org/wiki/Prenasalized_consonant}{Prenasalized}
+  or
+  \href{https://en.wikipedia.org/wiki/Palatalization_(phonetics)}{palatalized}
+  consonants. These seem to come from assimilation of intermediate
+  consonants, although further study is needed to assert it generally.
+\end{itemize}
+
+The second strategy is to add more phonemes per syllable.
+
+\begin{itemize}
+\item
+  \href{https://en.wikipedia.org/wiki/Consonant_cluster}{Consonant
+  clusters}, or sequences of consonants without vowels. It is possible
+  that the basic \emph{KAK} scheme was supplemented at this point by
+  adding consonants at the beginning or the end, using the same
+  mechanism of
+  \href{https://en.wikipedia.org/wiki/Compound_(linguistics)}{compounding}
+  that we saw for two-consonant words. These new syllable structures
+  \emph{KKAK} or \emph{KAKK} would yield 5184 combinations each. But as
+  we saw \protect\hyperlink{polysyllables}{above}, there is evidence of
+  languages keeping the old two-consonant words at a later phase, so
+  these structures would be anachronical at this point.
+\item
+  \href{https://en.wikipedia.org/wiki/Diphthong}{Diphthongs} allow
+  combinations of vowels in a single syllable. Again, probably come from
+  collapsing two separate syllables, in this case with an intermediate
+  aspirant consonant, later lost.
+\end{itemize}
+
+The last strategy is to add modifiers for vowels and consonants.
+
+\begin{itemize}
+\item
+  Add different contours, as in Chinese
+  (\href{https://www.youtube.com/watch?v=wkMbSWwS3FA}{sample}). They are
+  a special kind of tone that may vary within a syllable. As
+  \protect\hyperlink{ref14}{Michaud (2012)} refers, tones evolved from
+  consonant depletion.
+\item
+  Add nasalized vowels as in
+  \href{https://en.wikipedia.org/wiki/French_language}{French}
+  (\href{https://www.youtube.com/watch?v=j_Qs75dfpko}{sample}). As
+  \protect\hyperlink{ref30}{Hombert (1986)} explains, nasalized vowels
+  come from assimilation of a nasal consonant into its preceding (or
+  occasionally anteceding) vowel.
+\end{itemize}
+
+All of these innovations, if originated from polysyllabic words as seems
+likely, would not have increase the range of possible words but just
+have followed the natural paths of languages.
+
+It is interesting to note that tonal languages have developed mostly
+\href{http://wals.info/feature/13A\#2/19.3/152.9}{in Africa and Southern
+Asia}, while more complex syllable structures are more abundant
+\href{http://wals.info/feature/12A\#2/19.3/152.9}{in Europe and North
+America}. But it does not seem to bear any effect on prehistoric
+langauges.
+
+\hypertarget{language-as-a-tool}{\subsection{Language As A
+Tool}\label{language-as-a-tool}}
+
+Language has many uses. There can be no doubt that it has gained utility
+with time.
+
+\hypertarget{information-content}{\subsubsection{Information
+Content}\label{information-content}}
+
+Language becomes more useful as it becomes more expressive. A very basic
+criteria that describes a language era is how much information can be
+conveyed in a single sentence, something which can luckily be estimated
+using information theory.
+
+First we will compute the information carried by a single word. Using
+the classic Shannon formula, see e.g. \protect\hyperlink{ref27}{Lombardi
+(2016)}:
+
+\begin{quote}
+I = -Σ pi log2(pi)
+\end{quote}
+
+If there are \emph{N} words, all equally likely, the resulting
+information is
+
+\begin{quote}
+I = log2(N)
+\end{quote}
+
+But we can do better using
+\href{https://en.wikipedia.org/wiki/Zipf\%27s_law}{Zipf's law}, as
+characterized in \protect\hyperlink{ref15}{Yang (2013)}: it is the
+empirical distribution followed by all known languages. We can suppose
+for simplicity that prehistoric languages also followed this
+distribution. The resulting information content in bits per word,
+generated by \href{origins-script.js}{this script}, is shown in the
+table 1 below.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Vocabulary size & Bits per word\tabularnewline
+\midrule
+\endhead
+12 & 3.1\tabularnewline
+100 & 5.3\tabularnewline
+200 & 6.0\tabularnewline
+400 & 6.6\tabularnewline
+1000 & 7.5\tabularnewline
+10k & 9.5\tabularnewline
+20k & 10.1\tabularnewline
+\bottomrule
+\end{longtable}
+
+Table 1: Bits per word depending on vocabulary size. Prepared by the
+author.
+
+Adding more possiblities to the vocabulary increases the information
+carried by each word. Another way to convey more information is to
+combine words together. The information content of a sentence depends on
+the number of words that can be put together per sentence.
+
+We can estimate the average number of words per sentence using MLU,
+\href{https://en.wikipedia.org/wiki/Mean_length_of_utterance}{Mean
+Length of Utterance}. \protect\hyperlink{ref01}{Kemper \& Sumner (2001)}
+estimate that young adults have a MLU of around 12 ± 4. With a
+vocabulary of around
+\href{http://www.lextutor.ca/research/nation_waring_97.html}{20k words}
+following a Zipf distribution, each word would carry around 10 bits of
+information, as we saw \protect\hyperlink{information-density}{above}.
+Therefore a typical adult sentence might carry 120 bits of information,
+if all words were independent.
+
+What happens with smaller vocabularies?
+\protect\hyperlink{ref02}{Devescovi \emph{et al} (2005)} estimate that
+children with a vocabulary of 101-200 words have a MLU of around 3.5
+words. 200 words following a Zipf distribution would carry around 6 bits
+per word, yielding a total of 21 bits per sentence. Similarly, 400 words
+would have a MLU of around 4 words, which at 6.5 bits per word would
+yield 26 bits per sentence. 1000 words are outside their range of study,
+but a MLU of 10 words seems a reasonable extrapolation; at 7.5 bits per
+word each sentence would reach 75 bits. 100 words correspond to a MLU of
+3 and 5.3 bits per word, or 16 bits per sentence. On the lower range, a
+vocabulary of 12 words might have a MLU of 2, which combined with 3 bits
+per word yields 6 bits per sentence.
+
+Data from both studies is not necessarily compatible, as they use
+different definitions for MLU. Yet it is reasonable to expect that after
+a point, increasing the vocabulary does not entail a corresponding
+increase in sentence size. Table 2 summarizes these estimations.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Vocabulary size & MLU & Bits per word & Bits per sentence\tabularnewline
+\midrule
+\endhead
+12 & 2 & 3 & 6\tabularnewline
+100 & 3 & 5.3 & 16\tabularnewline
+200 & 3.5 & 6 & 21\tabularnewline
+400 & 4 & 6.5 & 26\tabularnewline
+1000 & 10 & 7.5 & 75\tabularnewline
+20k & 12 & 10 & 120\tabularnewline
+\bottomrule
+\end{longtable}
+
+Table 2: Bits per sentence depending on vocabulary size. Prepared by the
+author.
+
+This gross approximation is enough to show that that increasing
+vocabulary size initially yields large advances in communication, and
+then tapers off. After around 1000 words gains are incrementally
+smaller. In fact, information content would grow even more slowly with
+vocabulary size when considering redundancy in sentences. In general
+words in a sentence are not independent: `house' is much more likely to
+follow `the' than `far'. Particles and other function words are highly
+redundant. The values above can only be considered bounding limits. The
+actual number of bits per sentence is thus much lower than represented,
+especially as the vocabulary size grows.
+
+We will now delve into how different uses for language are enabled by
+increasing information content.
+
+\subsubsection{Coordination}\label{coordination}
+
+The most primitive uses of language are related to the present
+situation: they are in fact deictic, as we saw
+\protect\hyperlink{individual-sounds}{above}. Even with only a handful
+of function words and nothing else, a language that allows combinations
+of words can be used to guide and coordinate group activities. A group
+of hominins may use this limited set of words to \emph{remove ambiguity}
+from their common undertakings.
+
+During group hunting, a scout can pinpoint the location and amount of
+prey with gestures and a few words, much more effectively than with the
+gestures alone. Not much information is needed to express a direction, a
+relative distance (far or near) and quantity (whether there is much or
+little prey). Similarly, a group leader can direct the movements of team
+members with a couple of indications for each.
+
+We will see below \protect\hyperlink{singlecon}{a sample language} that
+can fulfill a very basic version of this coordination role with only 12
+words.
+
+\subsubsection{Description}\label{description}
+
+Still in the immediate present, a more advanced language with content
+words can be used more effectively to \emph{remove ambiguity} about the
+current situation. Say that two hominins \emph{A} and \emph{B} are in a
+certain setting. \emph{A} sees an animal, and wants to communicate it to
+\emph{B}. Perhaps their common language has an utterance for `warning',
+not necessarily a word: it may be a simpler sound like a shout, probably
+combined with a prosodic mark such as an intonation. It will be
+\emph{A}'s first utterance. Combined with a pointing hand it may be
+enough to make \emph{B} look and appraise the situation on their own.
+But then \emph{A} may want to give \emph{B} a more precise idea of the
+situation, even if \emph{B} is not currently able to see the animal: let
+us suppose it just fled, or maybe \emph{B} is far away. At some other
+situation there may be a group of listeners: a shout that lets them know
+there is a bear nearby will be much more effective than waiting for them
+to look for it. Their reaction if there is a rabbit instead should be
+equally swift but completely different.
+
+If their language only has a single word for all animals \emph{A} will
+utter `animal', which is not very precise: there is a lot of ambiguity.
+It could be a wolf or a sheep, and both situations will probably call
+for very different actions. Perhaps there will be words for `big' and
+`small', so some of the ambiguity can be removed by saying `animal
+small' or `animal big'. But a small wolf and a big sheep still call for
+different actions. A language with different words for `wolf' and
+`sheep' will have a distinct advantage for its speakers. Given the
+number of different animal species, a large vocabulary is required to
+accurately represent even the most common animal families (i.e.~a single
+word for `wolf', `dog' and `fox'). Increasing the number of possible
+words is thus crucial to remove all ambiguity.
+
+More information can be added by adding a plural form: `one wolf' is a
+very different situation from `wolves' for our hypothetical hominins.
+Again, this requires increasing the number of possible words.
+
+\subsubsection{Training}\label{training}
+
+Another important use is training. Here too language can help to
+\emph{remove ambiguity}. Complex techniques require very precise
+movements, be they used for tool making, gathering food or hunting game.
+Language can be a powerful teaching aid.
+
+Composite materials used for hafting stones to handles require precise
+combinations of materials, each in turn gathered from the correct
+environment. \protect\hyperlink{ref04}{Wadley \emph{et al} (2009)}
+explain how red ochre and tree gum must be mixed in precise proportions
+and heated near a fire at between 250 °C and 300 °C to obtain a
+composite glue for hafting stone points to wooden handles. There is only
+one species \emph{Acacia karroo} which is ideally suited for the
+process, and the proportion of ochre must be adjusted depending on its
+iron content. This complex process carries a lot of ambiguity that has
+to be removed in the teaching process; it is easy to imagine how
+training time would have been reduced substantially with verbal aids
+guiding the process. Given that there are archeological samples of such
+composite materials from at least 70 kya it seems that language must
+have been quite advanced by then.
+
+\subsubsection{Telling Stories}\label{telling-stories}
+
+A more elaborate use of language is storytelling. In this setting the
+speakers are recounting previous events. Here too \emph{removing
+ambiguity} is essential.
+
+Storytelling is useful as training: someone listening to hunting stories
+may learn tips and tricks. But it goes much deeper than that. Stories
+carry with them mythology, world view, family tree, ethics; in short,
+the essentials of human culture. A complex language and vocabulary allow
+for better transmission of information among groups and between
+generations. Groups with strong oral culture have an advantage over
+those without, especially in a crisis as described by
+\protect\hyperlink{ref21}{Minc (1985)}.
+
+The fact that \href{https://en.wikipedia.org/wiki/Oral_tradition}{oral
+traditions} have existed for so long, and even now are still maintained
+by certain groups, points to some innate capability in humans. Our
+fascination with hearing stories is present today thinly disguised as
+books or movies. We still get most of our morals in the form of
+exemplifying stories.
+
+Stories are possible with a limited set of words: Dr Seuss'
+\href{https://en.wikipedia.org/wiki/The_Cat_in_the_Hat}{The Cat in the
+Hat} contains only 236 different words, and
+\href{https://en.wikipedia.org/wiki/Green_Eggs_and_Ham}{Green Eggs and
+Ham} is limited to 50. But these were stories tailored to suit the
+limited number of words. Experiments like
+\href{https://en.wikipedia.org/wiki/Basic_English}{Basic English} with a
+limited vocabulary (850 words) and simplified grammar rules have had
+some success among foreign speakers. It would be enlightening to learn
+if a complex story can be told with an even more limited vocabulary.
+
+\subsection{Sources Of Evidence}\label{sources-of-evidence}
+
+Language does not fossilize. This well-known fact means that all of our
+knowledge about how language evolved before the invention of writing is
+pure speculation. Or is it? As a matter of fact, there are several
+sources of evidence about prehistoric languages.
+
+\subsubsection{Physical Remains}\label{physical-remains}
+
+Archeological remains are the first and foremost source of evidence
+about all things prehistoric. We know the lifestyle and capabilities of
+our ancestors thanks to the remains that they left behind.
+
+We have seen \protect\hyperlink{recent-origin}{above} how hyoid bones
+seem to imply that hominins could already articulate 530 kya (and no
+sooner than 3.3 Mya). More samples might help us pinpoint these dates
+more exactly.
+
+There is also symbolic evidence which might prove even more valuable.
+\protect\hyperlink{ref20}{Von Petzinger (2009)} has found that the same
+set of symbols is repeated in Upper Paleolithic cave paintings across
+much of France, and in later publications
+\href{https://www.newscientist.com/article/mg23230990-700-in-search-of-the-very-first-coded-symbols/}{around
+the world}. Figure 2 shows the latest 32 symbols recurrent across
+Europe.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{pics/origins-first-signs.jpg}
+\caption{\href{pics/origins-first-signs.jpg}{Figure 2: 32 recurrent
+symbols across Upper Paleolithic Europe}. From von Petzinger (2017),
+used with permission.}
+\end{figure}
+
+There are also
+\href{https://en.wikipedia.org/wiki/Cup_and_ring_mark}{cup and ring
+marks} from later periods, and probably many more overlooked marks. Do
+they represent concepts of some kind, or are they just pretty designs?
+Are marks more likely to represent functions words, or are they content
+words? With a more concrete language description in mind it is
+conceivable that these inscriptions might be decyphered, or at least put
+in context.
+
+\subsubsection{Modern Languages}\label{modern-languages}
+
+Today there are about
+\href{https://www.ethnologue.com/guides/how-many-languages}{7,099
+languages}. spoken around the world. It is to be expected that any
+features before these languages separated would be shared.
+
+Watching the distribution of certain features can be very instructive.
+\href{http://wals.info/}{The World Atlas of Language Structures Online
+(WALS)} is a great resource organized by language features. It is
+entirely possible that the distribution of some features is the direct
+result of prehistoric migrations.
+
+\subsubsection{Language Reconstructions}\label{language-reconstructions}
+
+Indoeuropean is the most widely known and studied archaic language, but
+many others have been reconstructed. A few protolanguages (like
+Proto-Indo-European or PIE) have also been postulated with varied
+success.
+
+Rate of linguistic change is hard to estimate.
+\protect\hyperlink{ref22}{Nettle (1999)} argues that languages change
+faster in small populations. It remains to be seen how ancient languages
+can be reconstructed to such a high degree of precision if they were
+spoken by relatively few people for many centuries.
+
+Reconstructions rarely go back beyond the
+\href{https://en.wikipedia.org/wiki/Neolithic_Revolution}{Neolithic
+revolution}, around 12 kya. Except glorious exceptions like the study by
+\protect\hyperlink{ref03}{García Calvo (2003)}, they are of limited
+value to infer how or when language features evolved. It remains to be
+seen if the veils of time can be pierced any further.
+
+\subsubsection{Genetics}\label{genetics}
+
+\protect\hyperlink{ref34}{Pinker (2003, pp.~297-331)} makes a quite
+convincing case that language must be enabled not by one but by several
+different genes. \href{https://en.wikipedia.org/wiki/FOXP2}{FOXP2} is
+the most famous and studied of all. This gene has the same expression in
+humans and Neanderthals, from which \protect\hyperlink{ref07}{Dediu
+\emph{et al} (2013)} deduce that both groups had mostly equivalent
+language capabilities. It is likely that we will be able to trace
+evolution of speech even further back in time by following how this and
+other genes have evolved.
+
+Another important area of study is speech disorders. The best way to
+learn how a machine works is often watching how it malfunctions.
+Similarly, it is now possible to study how defects in individual genes
+affect individuals that carry them. So e.g.~if a gene that enables
+polysyllabic speech can be identified, it should be possible to study
+how people without it (or with a non-functional variant) can
+communicate. For instance, \protect\hyperlink{ref10}{Vargha-Khadem
+\emph{et al} (1995)} study the implications of a genetic problem in
+FOXP2 on a large family. Would it be possible to find variants of this
+and other genes that limit for instance polysyllabic communication?
+
+Genetics may thus serve as empirical test of the timeline that has been
+sketched in this article.
+
+\subsubsection{Previous Studies}\label{previous-studies}
+
+While not direct evidence, there is a growing amount of literature about
+the origins of language. \protect\hyperlink{ref09}{Smillie (1985)}
+models the evolution of early languages on the acquisition of language
+by children. \protect\hyperlink{ref08}{Hurford (2003)} offers a limited
+view of proto-languages, where at the beginning they would have no
+function words. In the same volume, \protect\hyperlink{ref11}{Newmeyer
+(2003)} gives an overview of other theories.
+\protect\hyperlink{ref32}{Bickerton (2016, p.~200)} also postulates
+generic names as the first words, and proposes that protolanguages were
+similar to pidgin languages with very loose rules of grammar.
+\protect\hyperlink{ref34}{Pinker (2003, pp.~352-368)} favors gradual
+evolution in speech development, but without giving concrete stages or
+time frames. He notes that all humans have ``identical language
+abilities'', so that this evolution must have happened before the big
+out-of-Africa diaspora.
+
+It is my sincere hope that I have overlooked a mountain of literature
+specifying how languages came to be the complex wonders that we know,
+feature by feature and with even more fantastical timelines. If it does
+not exist, it definitely should.
+
+\subsection{Conclusion}\label{conclusion}
+
+Unraveling the origins of language is a particularly hard task, which
+was once famously
+\href{https://en.wikipedia.org/wiki/Origin_of_language}{banned by the
+Linguistic Society of Paris}. In this article we have seen a possible
+evolution path that takes us from animal sounds to the written word. We
+have also explored briefly how it fits with known evidence and how to
+refine or refute it with more research.
+
+The whole endeavour may seem idle speculation. After all it may seem
+impossible to refute most of what has been said here. But it is my
+belief that there is fruitful research to be done. A theory only needs
+to be consistent with the known facts, and it is partially validated
+when it can explain new phenomena.
+
+Learned discussion about very early phonetics,
+\href{https://en.wikipedia.org/wiki/Phonotactics}{phonotactics} and
+grammar may take us a long way towards a deeper understanding of our
+ancestors.
+
+\subsection{Appendix}\label{appendix}
+
+It becomes much easier to visualize language types with an example. In
+the appendix we will explore several hypothetical languages to
+illustrate the different eras of language evolution.
+
+\hypertarget{singlecon}{\subsubsection{Singlecon}\label{singlecon}}
+
+The first language has just words that consist of a single consonant. We
+will call this hypothetical primitive language `Singlecon'.
+
+\paragraph{Vocabulary}\label{vocabulary}
+
+In Singlecon we only have 12 words, that correspond to the 12
+consonants:
+
+\begin{itemize}
+\tightlist
+\item
+  one preposition: `to' (`R'),
+\item
+  one negation: `no' (`P'),
+\item
+  two non-numeral quantifiers: `much' (`K') and `little' (`D'),
+\item
+  two numerals that double as pronouns: `one' or `me' (`V') and `two' or
+  `you' (`N'),
+\item
+  and six adverbs: `down' (`L'), `up' (`S'), `here' (`M'), `near' (`T'),
+  `out' (`H') and `far' (`F').
+\end{itemize}
+
+Note that the language consists only of function words. There are no
+content words: nouns, verbs or adjectives.
+
+\paragraph{Samples}\label{samples}
+
+A few sentences in Singlecon follow. They show the value of combining
+words for a group of foragers or hunters.
+
+\begin{itemize}
+\tightlist
+\item
+  `T L.' means `near down.': the objective is near but they need to go
+  down.
+\item
+  `K K'. means `much much.': there is a lot of what the speaker is
+  interested in.
+\item
+  `V M. N H.' means `one here. two out.': the speaker will remain here
+  while the listener goes away.
+\item
+  `V R. N M.' means `one to. two here.': the speaker will go to the
+  objective; the listener must stay here.
+\item
+  `K S. D M.' means `much up. little here.': there is a large quantity
+  of what the speaker is seeking going up, while there is little to be
+  found here.
+\end{itemize}
+
+\paragraph{Grammar}\label{grammar}
+
+Even with such a simple language a grammar would be needed, to convey
+different meanings depending on the combination. For instance, `near
+much' would mean that the objective is very near, while `much near'
+would mean that there is a lot of what the speaker is seeking nearby.
+
+\paragraph{Utility}\label{utility}
+
+As the examples show, Singlecon can be used by its hypothetical speakers
+to coordinate during a group hunt, or to guide their gathering
+activities. In the \protect\hyperlink{language-as-a-tool}{uses we saw
+above}, it would serve for coordination for very limited description.
+
+The astute reader will realize that Singlecon almost passes the ten word
+test in \protect\hyperlink{ref33}{Bickerton (2009, p.~24)}: it is useful
+with just a dozen words.
+
+\hypertarget{doublecon}{\subsubsection{Doublecon}\label{doublecon}}
+
+Our next language is an evolution of Singlecon that allows for
+monosyllabic words with two consonants and a schwa, represented as
+\emph{KƏK}. It keeps the same set of single-consonant function words,
+while the new combinations are all content words. We will call it
+Doublecon.
+
+\paragraph{Vocabulary}\label{vocabulary-1}
+
+Doublecon has a maximum of 144 content words, that can work as nouns,
+verbs or adjectives depending on the situation. Content words are formed
+with two consonants by
+\href{https://en.wikipedia.org/wiki/Reduplication}{reduplication} and
+\href{https://en.wikipedia.org/wiki/Compound_(linguistics)}{compounding}
+of function words.
+
+\begin{itemize}
+\tightlist
+\item
+  The combination of `down' (`L') and `to' (`R') is `LƏR' and refers to
+  something that moves on the ground such as a small animal.
+\item
+  `up' (`S') + `to' (`R') is `SƏR': a big animal.
+\item
+  `near' (`T') + `much' (`K'), `TƏK': family.
+\item
+  `near' (`T') combined with itself is `TƏT' which means `good'.
+\item
+  `to' + `down', `RƏL': trail.
+\item
+  `to' + `near', `RƏT': run.
+\end{itemize}
+
+Not all combinations are used by actual words; of the 144 possibilities
+for \emph{KƏK} only about 100 are valid.
+
+Even when words are formed as compounds there is considerable
+arbitrariness in the process. The combination of `down' with `to'
+(`LƏR') is small animal, while `to' + `down' (`RƏL') is trail. It might
+perfectly be the other way around, so it is purely a matter of
+convention.
+
+\paragraph{Prosody}\label{prosody}
+
+There are three possible sentence intonations, indicated here by the
+sentence ending sign:
+
+\begin{itemize}
+\tightlist
+\item
+  neutral, marked with a dot `.',
+\item
+  interrogative: marked with an interrogation mark `?',
+\item
+  and exclamative: marked with an exclamation mark `!'.
+\end{itemize}
+
+There are no other possible intonations such as our comma `,'. Sentences
+may follow each other closely, with a pause between them.
+
+\paragraph{Samples}\label{samples-1}
+
+A few sentences in Doublecon follow.
+
+\begin{itemize}
+\tightlist
+\item
+  `TƏK M. TƏK TƏT.': `family here. family good', the good family has
+  arrived.
+\item
+  `V R SƏR. N M.': `me to big animal. you here.', I will go to the big
+  animals, you stay here.
+\item
+  `SƏR K S.': `big animal much up', there is much big game going up.
+\end{itemize}
+
+Note that it is very important to distinguish between two
+single-consonant words and one syllable: `S R' from `SƏR'. In the first
+case there is a small pause between `S' and `R', similar to the
+intersyllabic transition in modern languages, as in English `pos·ter'.
+In the case of `SƏR' the schwa provides vocal continuity.
+
+\paragraph{Grammar}\label{grammar-1}
+
+Even at this level, a simplistic grammar is needed to combine content
+and function words.
+
+The \href{https://en.wikipedia.org/wiki/Copula_(linguistics)}{copula} is
+straightforward juxtaposition: `V TƏK' means `I am family'.
+
+Some words can be both nouns or verbs, such as `RƏT': run, or `RƏL':
+trail. Nouns are always the first word, followed by verbs or adjectives:
+`SƏR RƏT' means `big animal runs'. Another possibility is juxtaposition
+of two nouns: `RƏL SƏR' means `trail of a big animal'. Verbs can also
+appear on their own or with function words: `RƏT K!' means `run a lot!'
+(remember that `K' means `much'), and so with adjectives: `TƏT K' means
+`very good'.
+
+\paragraph{Utility}\label{utility-1}
+
+With just about 100 words Doublecon has many more uses than Singlecon,
+as can be gathered from the examples we have seen. In the
+\protect\hyperlink{language-as-a-tool}{list of uses above} it would
+serve for coordination and description, and for very basic training. It
+might start to be used for story telling, although it would be quite
+unsatisfactory.
+
+\subsection{References}\label{references}
+
+\begin{itemize}
+\tightlist
+\item
+   Agmon, N. (2010). Materials and Language: Pre-Semitic Root Structure
+  Change Concomitant with Transition to Agriculture. \emph{Brill's
+  Journal of Afroasiatic Languages and Linguistics}, 2(1), 23-79.
+  \href{https://pdfs.semanticscholar.org/4ab2/a50c183404df4a4e8eab93dedc3bf0c707b5.pdf}{PDF}.
+\item
+   Bakker, E. J., de Jong, I. J., \& van Wees, H. (Eds.). (2002).
+  \emph{Brill's companion to Herodotus}. Brill.
+  \href{https://books.google.es/books?id=z38tDgAAQBAJ\&pg=PA59\&lpg=PA59\&dq=anacoluthon+herodotus\&source=bl\&ots=ZPXd7-JOFu\&sig=g4VGD3p-IhLycomf-xDgp2SHPH8\&hl=es\&sa=X\&ved=0ahUKEwj_vM6mptXVAhUkAsAKHfC_DcMQ6AEIJjAA\#v=onepage\&q=anacoluthon\%20herodotus\&f=false}{Book}
+\item
+   Bar-Yosef, O. (2002). The Upper Paleolithic revolution. \emph{Annual
+  Review of Anthropology}, 31(1), 363-393.
+  \href{http://www.cameronmsmith.com/courses/EuropeanPrehistory2007/TheUpperPalaeolithicRevolution.pdf}{PDF}.
+\item
+   Baxter, W. H., \& Sagart, L. (2014). \emph{Old Chinese: a new
+  reconstruction}, 318. Oxford University Press.
+  \href{https://books.google.es/books?id=K6Q-BAAAQBAJ\&printsec=frontcover\&dq=isbn:9780199945375\&hl=es\&sa=X\&ved=0ahUKEwip-qb-hdnVAhUIKsAKHVqvAp0Q6AEIJjAA\#v=onepage\&q=monosyllabic\&f=false}{Book}.
+\item
+   Bickerton, D. (2009). \emph{Adam's tongue: how humans made language,
+  how language made humans}. Hill and Wang.
+\item
+   Bickerton, D. (2016). \emph{Roots of language}. Language Science
+  Press.
+  \href{http://www.oapen.org/download?type=document\&docid=603354}{PDF}.
+\item
+   Clair, R. N. S. (1972). Compound phonological segments.
+  \emph{Lingua}, 29, 120-127.
+  \href{http://www.academia.edu/30366473/Compound_phonological_segments}{Web}.
+\item
+   Dediu, D., \& Levinson, S. C. (2013). On the antiquity of language:
+  the reinterpretation of Neandertal linguistic capacities and its
+  consequences. \emph{Frontiers in psychology}, 4.
+  \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701805/}{Web}.
+\item
+   Devescovi, A., Caselli, M. C., Marchione, D., Pasqualetti, P.,
+  Reilly, J., \& Bates, E. (2005). A crosslinguistic study of the
+  relationship between grammar and lexical development. \emph{Journal of
+  Child Language}, 32(4), 759-786.
+  \href{https://www.researchgate.net/profile/Antonella_Devescovi/publication/262683112_J_Child_Lang2005/links/0deec5386f74cb8ce0000000/J-Child-Lang2005.pdf}{PDF}.
+\item
+   D'Anastasio, R., Wroe, S., Tuniz, C., Mancini, L., Cesana, D. T.,
+  Dreossi, D., \ldots{} \& Capasso, L. (2013). Micro-biomechanics of the
+  Kebara 2 hyoid and its implications for speech in Neanderthals.
+  \emph{PloS one}, 8(12), e82261.
+  \href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082261}{Web}.
+\item
+   García Calvo, A (2003). \textasciitilde{}Es\textasciitilde{} Estudio
+  de Gramática Prehistórica (Spanish). Ed. Lucina.
+  \href{http://www.editoriallucina.es/articulo/es-estudio-de-gramatica-prehistorica_21.html}{Ref}.
+\item
+   Groucutt, H. S., Petraglia, M. D., Bailey, G., Scerri, E. M., Parton,
+  A., Clark‐Balzan, L., \ldots{} \& Breeze, P. S. (2015). Rethinking the
+  dispersal of Homo sapiens out of Africa. \emph{Evolutionary
+  Anthropology: Issues, News, and Reviews}, 24(4), 149-164.
+  \href{https://www.researchgate.net/profile/Huw_Groucutt/publication/280941810_Rethinking_the_Dispersal_of_Homo_sapiens_out_of_Africa/links/55cda22e08aeeaab209b5680/Rethinking-the-Dispersal-of-Homo-sapiens-out-of-Africa.pdf}{PDF}.
+\item
+   Hombert, J. M. (1986). The development of nasalized vowels in the
+  Teke language group (Bantu). \emph{The phonological representation of
+  suprasegmentals: Studies on African languages offered to John M.
+  Stewart on his 60th birthday}, 359-379.
+  \href{http://www.ddl.ish-lyon.cnrs.fr/fulltext/Hombert/Hombert_1986_TekeLanguage.pdf}{PDF}.
+\item
+   Hurford, J. R. (2003). The language mosaic and its evolution.
+  \emph{Studies in the Evolution of Language, 3}, 38-57.
+  \href{http://www.lel.ed.ac.uk/~jim/nustates.htm}{Web}.
+\item
+   Kemper, S. \& Sumner, A. (2001). The structure of verbal abilities in
+  young and older adults. \emph{Psychology and Aging}, 16, 312-322.
+  \href{https://kuscholarworks.ku.edu/handle/1808/8619?show=full}{Ref},
+  \href{https://kuscholarworks.ku.edu/bitstream/handle/1808/8619/Kemper\%20Verbal\%20Abilities\%20author\%20final.pdf;sequence=1}{PDF}.
+\item
+   Lama, Z. Q. F. (2012). Subgrouping of Nisoic (Yi) languages: A study
+  from the perspectives of shared innovation and phylogenetic
+  estimation.
+  \href{https://uta-ir.tdl.org/uta-ir/bitstream/handle/10106/11161/Lama_uta_2502D_11591.pdf?sequence=1}{PDF}.
+\item
+   Lombardi, O., Holik, F., \& Vanni, L. (2016). What is Shannon
+  information? \emph{Synthese}, 193(7), 1983-2012.
+  \href{http://philsci-archive.pitt.edu/10911/1/What_is_Shannon_Information.pdf}{PDF}.
+\item
+   Luraghi, S. (2011). The origin of the Proto-Indo-European gender
+  system: Typological considerations. \emph{Folia linguistica}, 45(2),
+  435-463.
+  \href{http://www.academia.edu/download/30873708/Gender_FoL.pdf}{PDF}.
+\item
+   Martínez, I., Arsuaga, J. L., Quam, R., Carretero, J. M., Gracia, A.,
+  \& Rodríguez, L. (2008). Human hyoid bones from the middle Pleistocene
+  site of the Sima de los Huesos (Sierra de Atapuerca, Spain).
+  \emph{Journal of human evolution}, 54(1), 118-124.
+  \href{https://www.researchgate.net/profile/Ignacio_Martinez8/publication/6036504_Human_hyoid_bones_from_the_Middle_Pleistocene_site_of_the_Sima_de_los_Huesos_(Sierra_de_Atapuerca_Spain)/links/0912f50fa6213181b3000000.pdf}{PDF}.
+\item
+   Martínez, I., Rosa, M., Quam, R., Jarabo, P., Lorenzo, C., Bonmatí,
+  A., \ldots{} \& Arsuaga, J. L. (2013). Communicative capacities in
+  Middle Pleistocene humans from the Sierra de Atapuerca in Spain.
+  \emph{Quaternary International}, 295, 94-101.
+  \href{http://www.academia.edu/download/31250860/A016b-Martinez_et_al._Communicative_capacities-Author.pdf}{PDF}.
+\item
+   Michaud, A. (2012). Monosyllabicization: patterns of evolution in
+  Asian languages. \emph{Monosyllables: from phonology to typology},
+  115-130.
+  \href{https://hal.archives-ouvertes.fr/docs/00/43/64/32/PDF/Monosyllabicization_In_Asia_Michaud_preprint_Nov2009.pdf}{PDF}.
+\item
+   Minc, L. D. (1986). Scarcity and survival: the role of oral tradition
+  in mediating subsistence crises. \emph{Journal of Anthropological
+  Archaeology}, 5(1), 39-113.
+  \href{https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26239/0000319.pdf?sequence=1\&isAllowed=y}{PDF}.
+\item
+   Nettle, D. (1999). Is the rate of linguistic change constant?
+  \emph{Lingua}, 108(2-3), 119-136.
+  \href{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.500.4848\&rep=rep1\&type=pdf}{PDF}.
+\item
+   Newmeyer, F. J. (2003). What can the field of linguistics tell us
+  about the origins of language?. \emph{Studies In The Evolution Of
+  Language, 3}, 58-76.
+  \href{https://books.google.es/books?hl=es\&lr=\&id=OeN2Rhvfdn4C\&oi=fnd\&pg=PA58\&dq=What+can+the+field+of+linguistics\&ots=tuUVjyFPeL\&sig=pgYVxdtUfd-R-WmcvS6_f5bKDC0\#v=onepage\&q=What\%20can\%20the\%20field\%20of\%20linguistics\&f=false}{Book}.
+\item
+   Pinker, S. (2003). \emph{The language instinct: How the mind creates
+  language}. Penguin UK.
+  \href{https://books.google.es/books?hl=es\&lr=\&id=UtFqXQosVP0C\&oi=fnd\&pg=PT8\&ots=6H56NxDBPr\&sig=HCBZFFvn68LBBcoe5iVibzqS-MI\#v=onepage\&q=origin\&f=false}{Book}.
+\item
+   Roach, N. T., Hatala, K. G., Ostrofsky, K. R., Villmoare, B., Reeves,
+  J. S., Du, A., \ldots{} \& Richmond, B. G. (2016). Pleistocene
+  footprints show intensive use of lake margin habitats by Homo erectus
+  groups. \emph{Scientific reports}, 6.
+  \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873780/}{Web}.
+\item
+   Smillie, D. (1985). Sociobiology and human culture. In
+  \emph{Sociobiology and epistemology} (pp.~75-95). Springer
+  Netherlands.
+  \href{https://books.google.es/books?hl=es\&lr=\&id=4AM9VoCtH_EC\&oi=fnd\&pg=PA75\&ots=QKa6OlCe8S\&sig=SAbV4_ALqPIPSvlimgwaNmrKoFc\#v=onepage\&q\&f=false}{Book}.
+\item
+   Tattersall, I., \& Schwartz, J. H. (1999). Hominids and hybrids: The
+  place of Neanderthals in human evolution. \emph{Proceedings of the
+  National Academy of Sciences}, 96(13), 7117-7119.
+\item
+   Tomasello, M. (2008). Why don't apes point?. \emph{Trends In
+  Linguistics Studies And Monographs}, 197, 375.
+  \href{http://lnx.lacosapsy.com/wp-content/uploads/2012/02/why-dont-apes-point1.pdf}{PDF}.
+\item
+   Trask, R. L. (2003). \emph{Language: the basics}, 5. Routledge.
+  \href{https://books.google.es/books?hl=es\&lr=\&id=0oQJPHJjCSAC\&oi=fnd\&pg=PR13\&ots=qhJpW-NuXR\&sig=ka4GGYM3kKkorX69iLC955vBexg\#v=onepage\&q=ended\&f=false}{Book}.
+\item
+   Vargha-Khadem, F., Watkins, K., Alcock, K., Fletcher, P., \&
+  Passingham, R. (1995). Praxic and nonverbal cognitive deficits in a
+  large family with a genetically transmitted speech and language
+  disorder. \emph{Proceedings of the National Academy of Sciences},
+  92(3), 930-933.
+  \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC42734/pdf/pnas01481-0291.pdf}{PDF}.
+\item
+   Von Petzinger, G. (2009). \emph{Making the abstract concrete: The
+  place of geometric signs in French Upper Paleolithic parietal art}
+  (Doctoral dissertation).
+  \href{https://dspace.library.uvic.ca/handle/1828/1402}{PDF}.
+\item
+   Von Petzinger, G. (2017). \emph{The First Signs: Unlocking the
+  Mysteries of the World's Oldest Symbols}. Simon and Schuster.
+  \href{https://books.google.es/books?hl=es\&lr=\&id=HptvDgAAQBAJ\&oi=fnd\&pg=PA1\&dq=the+first+signs+von+petzinger\&ots=2XvfrCJFjq\&sig=0tk0ZLaRt9RX78DEhw9Ut8S3F70\#v=onepage\&q=the\%20first\%20signs\%20von\%20petzinger\&f=false}{Book}.
+\item
+   Wadley, L., Hodgskiss, T., \& Grant, M. (2009). Implications for
+  complex cognition from the hafting of tools with compound adhesives in
+  the Middle Stone Age, South Africa. \emph{Proceedings of the National
+  Academy of Sciences}, 106(24), 9590-9594.
+  \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700998/}{Web}.
+\item
+   Yang, C. (2013). Ontogeny and phylogeny of language.
+  \emph{Proceedings of the National Academy of Sciences}, 110(16),
+  6324-6327. \href{http://www.pnas.org/content/110/16/6324.full}{Web}.
+\end{itemize}
+
+\end{document}
