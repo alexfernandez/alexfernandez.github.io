@@ -23,5 +23,9 @@ _testmain.go
 *.test
 *.swp
 *.pdf
+*.latex
+*.aux
+*.log
+*.out
 .DS_Store
 
