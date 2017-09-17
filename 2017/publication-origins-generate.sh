@@ -2,7 +2,7 @@
 # Generate PDF for The Origins of Language.
 # First convert to latex:
 
-pandoc --latex-engine=xelatex -s origins-language.md -o origins-language.latex --variable=documentclass:article
+pandoc --latex-engine=xelatex -s publication-origins-language.md -o publication-origins-language.latex --variable=documentclass:article
 
 # Then Follow advice in
 # https://tex.stackexchange.com/questions/357616/how-to-insert-the-letters-%C6%9F-%C6%A2-%C6%8F-%CA%90-%D2%9A-and-%D2%A2,
@@ -12,5 +12,5 @@ pandoc --latex-engine=xelatex -s origins-language.md -o origins-language.latex -
 #   \setmainfont{Charis SIL}
 # And run again:
 
-xelatex origins-language.latex
+xelatex publication-origins-language.latex
 
