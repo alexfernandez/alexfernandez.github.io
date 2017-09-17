@@ -3,8 +3,8 @@ title: The Origins Of Language
 author: Alejandro Fernández Martínez
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
 keywords: language origins, linguistic anthropology, Neanderthals, protolanguages.
-footer: Published on 2017-08-21.
-  [Comments, suggestions?](https://twitter.com/pinchito/)
+footer: RFC published on 2017-09-17.
+  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract: |
   The origins of language are reviewed from the perspectives of phonology,
   phonotactics and information content.
@@ -37,6 +37,10 @@ with generous amounts of conjecture
 to arrive at a consistent view of language evolution.
 From beyond the mysts of time we will try to build a few defensible positions,
 or at the very least lay a path to future discovery.
+
+**Note:** this is a public Request For Comments.
+Please send any questions or suggestions to
+[the author](mailto:alexfernandeznpm@gmail.com).
 
 ## Language Evolution
 
