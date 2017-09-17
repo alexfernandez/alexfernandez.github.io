@@ -38,7 +38,7 @@ to arrive at a consistent view of language evolution.
 From beyond the mysts of time we will try to build a few defensible positions,
 or at the very least lay a path to future discovery.
 
-# Language Evolution
+## Language Evolution
 
 It is not reasonable to expect that language appeared at some point in the past,
 perfectly formed with all the elements that it has today.
@@ -46,7 +46,7 @@ One day people were communicating with grunts,
 the next they were speaking a modern language?
 Some kind of evolution is necessary.
 
-## Back In Time
+### Back In Time
 
 Furthermore, in historic times there have been significant improvements.
 As [Bakker _et al_ (2002)](#ref05) hint,
@@ -74,7 +74,7 @@ but to investigate how broad language features evolved.
 
 We need some other tools to delve into the darkness of time.
 
-## Increasing Information
+### Increasing Information
 
 A very basic criteria that describes a language era is
 how many different words can be uttered.
@@ -99,12 +99,12 @@ thus also increasing the amount of information conveyed.
 The process must have conferred a distinct advantage to speakers,
 and so it has continued until the present time.
 
-# A Timeline Proposal
+## A Timeline Proposal
 
 With this preliminary analysis in mind we can create the following timeline,
 dividing language evolution into a few distinct stages.
 
-## Individual Sounds
+### Individual Sounds
 
 Our most remote ancestors probably communicated using simple sounds.
 Many animals use distinct vocal utterances to express different meanings.
@@ -141,7 +141,7 @@ This era is therefore the "ground zero" of language:
 the common base with animals,
 with deictic information added on top.
 
-## Single Consonants
+### Single Consonants
 
 The first stage of language may have involved single consonants.
 At this point the sounds from the previous step can be combined into sentences,
@@ -217,7 +217,7 @@ An educated guess might thus be that around 1 Mya
 hominins could profer single consonants and combine them into simple sentences.
 We can thus identify the rise of _Homo Erectus_ with the appearance of proper language.
 
-## Double Consonant Syllables
+### Double Consonant Syllables
 
 At some point early humans learned to combine several sounds into one syllable.
 This great advance extends the range of possible words at least by an order of magnitude.
@@ -304,7 +304,7 @@ e.g. [Tattersall & Schwartz (1999)](#ref35).
 The degree of shared evolution is far from clear,
 but there may have been only minute differences between African and Neanderthal language evolution.
 
-## Vowels
+### Vowels
 
 At some point in time vowels become first-class citizens,
 just as meaningful as consonants.
@@ -340,7 +340,7 @@ so that we can infer that their appearance happened before the last diaspora
 at around 70–50 kya.
 We will suppose that it did not happen much earlier than that.
 
-## Monosyllabic Expansion
+### Monosyllabic Expansion
 
 In this next period the number of words grows in a couple of different ways
 while they remain monosyllables.
@@ -387,7 +387,7 @@ as described by
 [Bar-Yosef (2002)](#ref19),
 which must have required a broader lexicon of plants, animals, materials, tools and techniques.
 
-## Polysyllables
+### Polysyllables
 
 An immediate extension of two consonant words are three consonant words.
 
@@ -473,7 +473,7 @@ and other modern language features.
 This leaves us just right before the invention of writing,
 which is the point where Prehistory ends along with our journey.
 
-## Time Scales
+### Time Scales
 
 Figure 1 shows several time scales for language eras as discussed.
 
@@ -498,12 +498,12 @@ to make all eras approximately equal in the logarithmic axis,
 which would give a nice picture of constantly accelerating linguistic progress.
 But the change would break all the known boundaries of cultures and species.
 
-# Alternative Timelines
+## Alternative Timelines
 
 There are many possible objections that can be raised about this timeline.
 In this section we will examine a few.
 
-## Recent Origin
+### Recent Origin
 
 Many scholars support a much later date for the appearance of language,
 around 100 kya,
@@ -529,7 +529,7 @@ Furthermore, a sample from 3.3 Mya ago is very similar to the hyoid bone of mode
 which seems to imply that speech capabilities were developed between
 3.3 Mya and 530 kya.
 
-## Much Earlier Origin
+### Much Earlier Origin
 
 There is also the opposite belief:
 that language was already fully formed at least 100 kya.
@@ -555,7 +555,7 @@ in accordance with other signs of human progress such as art or technology,
 appears to be more in line with the existing evidence.
 Still, this area will need much more study before it can be reliably clarified.
 
-## Earlier Introduction Of Vowels
+### Earlier Introduction Of Vowels
 
 The choice of early words consisting of two consonants
 may seem arbitrary.
@@ -606,7 +606,7 @@ and regaining them later.
 
 In any case, the number of words grows monotonically.
 
-## Earlier Monosyllabic Expansion
+### Earlier Monosyllabic Expansion
 
 Our estimation for the monosyllabic expansion is from 50 to 15 kya,
 due to the divergence of schemes to augment monosyllables found across the world.
@@ -627,7 +627,7 @@ What happened in between?
 Unless a satisfactory answer for the extended era is found,
 this point of view should be put on hold.
 
-## Broader Monosyllabic Expansion
+### Broader Monosyllabic Expansion
 
 For the monosyllabic expansion a number of mechanisms have been proposed above.
 There are many others that can be seen in modern use,
@@ -704,12 +704,12 @@ while more complex syllable structures are more abundant
 [in Europe and North America](http://wals.info/feature/12A#2/19.3/152.9).
 But it does not seem to bear any effect on prehistoric langauges.
 
-# Language As A Tool
+## Language As A Tool
 
 Language has many uses.
 There can be no doubt that it has gained utility with time.
 
-## Information Content
+### Information Content
 
 Language becomes more useful as it becomes more expressive.
 A very basic criteria that describes a language era is
@@ -814,7 +814,7 @@ especially as the vocabulary size grows.
 We will now delve into how different uses for language
 are enabled by increasing information content.
 
-## Coordination
+### Coordination
 
 The most primitive uses of language are related to the present situation:
 they are in fact deictic,
@@ -837,7 +837,7 @@ We will see below
 [a sample language](#singlecon)
 that can fulfill a very basic version of this coordination role with only 12 words.
 
-## Description
+### Description
 
 Still in the immediate present,
 a more advanced language with content words
@@ -883,7 +883,7 @@ More information can be added by adding a plural form:
 for our hypothetical hominins.
 Again, this requires increasing the number of possible words.
 
-## Training
+### Training
 
 Another important use is training.
 Here too language can help to _remove ambiguity_.
@@ -907,7 +907,7 @@ with verbal aids guiding the process.
 Given that there are archeological samples of such composite materials from at least 70 kya
 it seems that language must have been quite advanced by then.
 
-## Telling Stories
+### Telling Stories
 
 A more elaborate use of language is storytelling.
 In this setting the speakers are recounting previous events.
@@ -946,7 +946,7 @@ have had some success among foreign speakers.
 It would be enlightening to learn if a complex story can be told
 with an even more limited vocabulary.
 
-# Sources Of Evidence
+## Sources Of Evidence
 
 Language does not fossilize.
 This well-known fact means that all of our knowledge
@@ -955,7 +955,7 @@ Or is it?
 As a matter of fact,
 there are several sources of evidence about prehistoric languages.
 
-## Physical Remains
+### Physical Remains
 
 Archeological remains are the first and foremost source of evidence
 about all things prehistoric.
@@ -989,7 +989,7 @@ With a more concrete language description in mind
 it is conceivable that these inscriptions might be decyphered,
 or at least put in context.
 
-## Modern Languages
+### Modern Languages
 
 Today there are about
 [7,099 languages](https://www.ethnologue.com/guides/how-many-languages).
@@ -1003,7 +1003,7 @@ is a great resource organized by language features.
 It is entirely possible that the distribution of some features
 is the direct result of prehistoric migrations.
 
-## Language Reconstructions
+### Language Reconstructions
 
 Indoeuropean is the most widely known and studied archaic language,
 but many others have been reconstructed.
@@ -1026,7 +1026,7 @@ they are of limited value to infer
 how or when language features evolved.
 It remains to be seen if the veils of time can be pierced any further.
 
-## Genetics
+### Genetics
 
 [Pinker (2003, pp. 297-331)](#ref34)
 makes a quite convincing case that language must be enabled
@@ -1056,7 +1056,7 @@ that limit for instance polysyllabic communication?
 Genetics may thus serve as empirical test of the timeline
 that has been sketched in this article.
 
-## Previous Studies
+### Previous Studies
 
 While not direct evidence,
 there is a growing amount of literature about the origins of language.
@@ -1082,7 +1082,7 @@ specifying how languages came to be the complex wonders that we know,
 feature by feature and with even more fantastical timelines.
 If it does not exist, it definitely should.
 
-# Conclusion
+## Conclusion
 
 Unraveling the origins of language is a particularly hard task,
 which was once famously
@@ -1102,18 +1102,18 @@ Learned discussion about very early phonetics,
 [phonotactics](https://en.wikipedia.org/wiki/Phonotactics)
 and grammar may take us a long way towards a deeper understanding of our ancestors.
 
-# Appendix
+## Appendix
 
 It becomes much easier to visualize language types with an example.
 In the appendix we will explore several hypothetical languages
 to illustrate the different eras of language evolution.
 
-## Singlecon
+### Singlecon
 
 The first language has just words that consist of a single consonant.
 We will call this hypothetical primitive language 'Singlecon'.
 
-### Vocabulary
+#### Vocabulary
 
 In Singlecon we only have 12 words,
 that correspond to the 12 consonants:
@@ -1128,7 +1128,7 @@ that correspond to the 12 consonants:
 Note that the language consists only of function words.
 There are no content words: nouns, verbs or adjectives.
 
-### Samples
+#### Samples
 
 A few sentences in Singlecon follow.
 They show the value of combining words for a group of foragers or hunters.
@@ -1151,14 +1151,14 @@ means 'much up. little here.':
 there is a large quantity of what the speaker is seeking going up,
 while there is little to be found here.
 
-### Grammar
+#### Grammar
 
 Even with such a simple language a grammar would be needed,
 to convey different meanings depending on the combination.
 For instance, 'near much' would mean that the objective is very near,
 while 'much near' would mean that there is a lot of what the speaker is seeking nearby.
 
-### Utility
+#### Utility
 
 As the examples show,
 Singlecon can be used by its hypothetical speakers to coordinate during a group hunt,
@@ -1170,7 +1170,7 @@ The astute reader will realize that Singlecon almost passes the ten word test in
 [Bickerton (2009, p. 24)](#ref33):
 it is useful with just a dozen words.
 
-## Doublecon
+### Doublecon
 
 Our next language is an evolution of Singlecon
 that allows for monosyllabic words with two consonants and a schwa,
@@ -1179,7 +1179,7 @@ It keeps the same set of single-consonant function words,
 while the new combinations are all content words.
 We will call it Doublecon.
 
-### Vocabulary
+#### Vocabulary
 
 Doublecon has a maximum of 144 content words,
 that can work as nouns, verbs or adjectives depending on the situation.
@@ -1209,7 +1209,7 @@ while 'to' + 'down' ('RƏL') is trail.
 It might perfectly be the other way around,
 so it is purely a matter of convention.
 
-### Prosody
+#### Prosody
 
 There are three possible sentence intonations,
 indicated here by the sentence ending sign:
@@ -1222,7 +1222,7 @@ There are no other possible intonations such as our comma ','.
 Sentences may follow each other closely,
 with a pause between them.
 
-### Samples
+#### Samples
 
 A few sentences in Doublecon follow.
 
@@ -1242,7 +1242,7 @@ similar to the intersyllabic transition in modern languages,
 as in English 'pos·ter'.
 In the case of 'SƏR' the schwa provides vocal continuity.
 
-### Grammar
+#### Grammar
 
 Even at this level,
 a simplistic grammar is needed to combine content and function words.
@@ -1263,7 +1263,7 @@ Verbs can also appear on their own or with function words:
 and so with adjectives:
 'TƏT K' means 'very good'.
 
-### Utility
+#### Utility
 
 With just about 100 words Doublecon has many more uses than Singlecon,
 as can be gathered from the examples we have seen.
@@ -1273,7 +1273,7 @@ and for very basic training.
 It might start to be used for story telling,
 although it would be quite unsatisfactory.
 
-# References
+## References
 
 * <a name="ref17"></a>
 Agmon, N. (2010).
