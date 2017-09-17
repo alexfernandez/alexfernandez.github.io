@@ -2,6 +2,7 @@
 title: The Origins Of Language
 author: Alejandro Fernández
 subtitle: 'An Exploration Of Prehistoric Linguistic Phases'
+keywords: language origins, linguistic anthropology, Neanderthals, protolanguages.
 footer: Published on 2017-08-21.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 abstract: |
@@ -18,7 +19,6 @@ abstract: |
   A number of alternative evolutionary paths in the literature are also discussed.
   Finally, two artificial languages are proposed to illustrate the expressive power of the earliest language eras:
   Singlecon and Doublecon.
-keywords: language origins, linguistic anthropology, Neanderthals, protolanguages.
 
 ---
 
