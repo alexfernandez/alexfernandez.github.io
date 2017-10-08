@@ -24,12 +24,12 @@ abstract: |
 
 ![Cave people in Bhimbetka.](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
 
-The relative scarcity of modern speculation about prehistoric languages is surprising,
-given how much interest there is both in academia and among the general public
-about other aspects of prehistoric life.
+The relative scarcity of divulgative materials about prehistoric languages is surprising,
+given how much interest there is among the general public about other aspects of prehistoric life.
 The most likely reason is lack of direct evidence,
 which in these often unimaginative times can be a showstopper.
-But there are many indirect approaches that can give interesting answers.
+There is however an increasingly large body of research about the origins of language,
+based on many indirect approaches which give interesting results.
 
 In this article we will explore how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
