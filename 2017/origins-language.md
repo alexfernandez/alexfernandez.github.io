@@ -29,7 +29,7 @@ given how much interest there is among the general public about other aspects of
 The most likely reason is lack of direct evidence,
 which in these often unimaginative times can be a showstopper.
 There is however an increasingly large body of research about the origins of language,
-based on many indirect approaches which give interesting results.
+based on many indirect approaches which often give interesting results.
 
 In this article we will explore how language originated and developed in prehistoric times,
 combining language reconstruction and information theory
@@ -1276,6 +1276,11 @@ it would serve for coordination and description,
 and for very basic training.
 It might start to be used for story telling,
 although it would be quite unsatisfactory.
+
+# Acknowledgements
+
+Thanks to G. von Petzinger and Bermúdez de Castro for their encouragement.
+Special thanks to B. Bolles for his insightful comments.
 
 # References
 
