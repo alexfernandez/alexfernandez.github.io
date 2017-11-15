@@ -26,20 +26,37 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2013-01 to Present: mediasmart.io
+### 2017-10 to present: Logtrust
 
-Since the beginning of 2013 I work full time for [mediasmart.io](http://mediasmart.io/),
+I have recently joined [Logtrust](https://www.logtrust.com/),
+a thriving Spanish company that collects huge amounts of data
+and keeps it in a searchable format for our customers.
+We are in the middle of an impressive international expansion.
+I am eager to face the new technical challenges
+that we may find along the way!
+
+I am telecommuting full time:
+I go to the office mostly for Monday meetings.
+I also work flexible hours,
+which allows me to take care of my daughter when needed and at the same time
+use my most productive hours working.
+It is a win-win situation!
+
+### 2013-01 to 2017-09: mediasmart.io
+
+I worked full time for a few years
+at [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
 Before I joined the company was facing major scalability challenges
 and I could not reject the offer.
-In fact we have grown from processing two thousand requests per second
+In fact we grew from processing two thousand requests per second
 to more than 800 thousand in little more than four years.
 Yes, that is right:
-every ~1.2 seconds we process a million requests,
-decide which ones are useful for our customers
-and respond to all of them.
+every ~1.2 seconds we processed a million requests,
+decided which ones are useful for our customers
+and responded to all of them.
 
-I work with a great team and we are doing great things together,
+I have worked with a great team and we did great things together,
 successfully competing at an international level.
 When I joined I thought I knew some Node.js,
 which was a bit optimistic to say the least.
@@ -49,20 +66,12 @@ I have also learned a bit of Erlang and Go,
 which we use for certain subsystems.
 Some of my Go code has been in production for years without issues.
 
-My job includes math puzzles and lots of equations,
-and we handle huge amounts of data,
-so I guess I could say that I do "Big Data".
+My job included math puzzles and lots of equations,
+and we handled huge amounts of data,
+so I guess I could say that I did some "Big Data" too.
 But, as befits a small startup,
-I also do lots of other things such as backend development
+I also did lots of other things such as backend development
 and DevOps.
-
-I am telecommuting full time:
-I go to the office mostly for Monday meetings.
-I also work flexible hours,
-which allows me to take care of my daughter when needed and at the same time
-use my most productive hours working.
-I also gladly take care of a crisis at ungodly hours.
-It is a win-win situation!
 
 ### 2012-08 to 2012-12: Freelancer
 
