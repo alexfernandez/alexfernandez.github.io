@@ -60,11 +60,12 @@ Articles about stuff not related to software engineering.
 Videos of talks at events and conferences,
 from less to more embarrassing.
 
-* 2017-07-12: [Build Your Own DevOps Infrastructure](https://skillsmatter.com/skillscasts/10239-build-your-own-devops-infrastructure)
-* 2016-07-15: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
-* 2015-05-13: [The Fluid Architecture](https://vimeo.com/136912284)
-* 2014-11-18: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
-* 2014-01-25: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
+* 2017-07-12, London: [Build Your Own DevOps Infrastructure](https://skillsmatter.com/skillscasts/10239-build-your-own-devops-infrastructure)
+* 2016-11-15, Moscow: [The FullStack DevOps](https://www.youtube.com/watch?v=rofFbzBMchw)
+* 2016-07-15, London: [FullStack DevOps](https://skillsmatter.com/skillscasts/8156-fullstack-devops)
+* 2015-05-13, Verona: [The Fluid Architecture](https://vimeo.com/136912284)
+* 2014-11-18, Madrid: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
+* 2014-01-25, Verona: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
 
 Note: I have spoken at
 [a few more events](http://lanyrd.com/profile/pinchito/sessions/),
