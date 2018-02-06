@@ -62,11 +62,14 @@ There is precedent: it has been used
 as a Mars testbed due to its
 [similar conditions](http://news.bbc.co.uk/2/hi/science/nature/4767403.stm).
 
-It is also an active volcano.
-Construction should ensure that operations do not reach hot areas.
-[Tectonic movements](https://www.express.co.uk/news/science/717563/Canary-Islands-earthquake-tremors-Tenerife-Mount-Teide-volcano)
+It is also an active volcano,
+so maybe it is not the best idea to use it.
+Apart from volcanic eruptions,
+[tectonic movements](https://www.express.co.uk/news/science/717563/Canary-Islands-earthquake-tremors-Tenerife-Mount-Teide-volcano)
 are common in the area,
-and may damage in the tunnel.
+and may damage the tunnel.
+But it is a feasible location,
+even if a more suitable mountain is eventually found.
 
 ### Big Tunnel
 
@@ -76,6 +79,13 @@ How long is the tunnel?
 It depends on a couple of operational parameters:
 maximum acceleration and launch velocity
 (measured at the end of the tunnel).
+
+Such a large tunnel with a near vacuum may not seem easy.
+But in fact it is not outside the realm of possibility.
+Think of
+[CERN LHP](https://en.wikipedia.org/wiki/Large_Hadron_Collider):
+a 27 km long circular tunnel with a perfect vacuum.
+It was originally built in 1988 for the LEP.
 
 ### Construction
 
