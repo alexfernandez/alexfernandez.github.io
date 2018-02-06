@@ -1,12 +1,12 @@
 ---
-title: Building a Space Gun
+title: Building a Space Launcher
 subtitle: 'The Next Stage in Space Exploration'
 footer: Published on 2018-02-06,
 last modified on 2018-02-06.
 [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Cave people in Bhimbetka.](pics/origins-cave-people.jpg "Cave paintings, Bhimbetka, source: https://commons.wikimedia.org/wiki/File:Cave21.jpg")
+![Spaceship launched.](pics/building-spaceship.jpg "Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/")
 
 Space guns, and more specifically mass drivers,
 are a long-standing alternative means of reaching space.
