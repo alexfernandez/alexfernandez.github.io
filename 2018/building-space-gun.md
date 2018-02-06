@@ -1,5 +1,5 @@
 ---
-title: How to Build a Mass Driver
+title: Building a Space Gun
 subtitle: 'The Next Stage in Space Exploration'
 footer: Published on 2018-02-06,
 last modified on 2018-02-06.
