@@ -233,12 +233,12 @@ getInstanceLoads((error, loads) =&gt; {
     [...]
 });</code></pre>
 <p>Now with <code>medianLoad</code> we can determine if we need to create or destroy servers: create above 90%, destroy below 80%.</p>
-<pre class="js"><code>    [...]
-    if (medianLoad &gt; 90) {
-        createInstance();
-    } else if (medianLoad &lt; 80) {
-        terminateInstance();
-    }</code></pre>
+<div class="sourceCode"><pre class="sourceCode js"><code class="sourceCode javascript">    [...]
+    <span class="cf">if</span> (medianLoad <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">{</span>
+        <span class="at">createInstance</span>()<span class="op">;</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="cf">if</span> (medianLoad <span class="op">&lt;</span> <span class="dv">80</span>) <span class="op">{</span>
+        <span class="at">terminateInstance</span>()<span class="op">;</span>
+    <span class="op">}</span></code></pre></div>
 <p>The function to create an instance is very simple:</p>
 <pre><code>function createInstance() {
     const name = &#39;server&#39; + (loads.length + 1)
