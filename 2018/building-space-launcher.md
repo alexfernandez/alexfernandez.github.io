@@ -2,7 +2,7 @@
 title: 'Building a Space Launcher'
 subtitle: 'The Next Stage in Space Exploration'
 footer: Published on 2018-02-06, last modified on 2018-02-06.
-[Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![Artistic rendition of a spaceship after launch.](pics/building-spaceship.jpg "Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/")
