@@ -65,7 +65,7 @@ a 3718 m peak in Spain.
 It has the ideal curvature: it raises 3.7 km in 28 km,
 with a final steep near the peak.
 
-![Curvature of Teide is almost ideal.](pics/building-spaceship.jpg "Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php")
+![Curvature of Teide is almost ideal.](pics/building-elevation.jpg "Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php")
 
 Pico del Teide is part of Teide National Park,
 which means that it is protected:
