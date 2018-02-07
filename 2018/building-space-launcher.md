@@ -63,7 +63,7 @@ I propose to use
 [Pico del Teide](https://en.wikipedia.org/wiki/Teide),
 a 3718 m peak in Spain.
 It has the ideal curvature: it raises 3.7 km in 28 km,
-with a final steep near the peak.
+with a steeper slope near the peak.
 
 ![Curvature of Teide is almost ideal.](pics/building-elevation.jpg "Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php")
 
