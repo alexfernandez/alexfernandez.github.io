@@ -1,5 +1,5 @@
 ---
-title: Building a Space Launcher
+title: 'Building a Space Launcher'
 subtitle: 'The Next Stage in Space Exploration'
 footer: Published on 2018-02-06, last modified on 2018-02-06.
 [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
