@@ -140,8 +140,13 @@ it will take around 6 seconds to reach our target speed of 9 km/s.
 After firing all coils the projectile should reach our reference speed of 9 km/s.
 With a mass of 10 tonnes the kinetic energy would be 400 Gigajoules,
 or 110 Megawatt·hour.
+At a standard price of €0.10 per Kw·h,
+and assuming an efficiency of 80%,
+the total cost per launch would be €11k.
+
 This power needs to be released in 6 seconds,
-but it can be generated slowly and stored in the coils themselves
+and so result in an insane power release of 67 Gigawatt.
+But electrical power can be generated slowly and stored in the coils themselves
 if they are superconducting,
 or in batteries otherwise.
 
@@ -166,26 +171,90 @@ this is almost Mach 30,
 and the vehicle would instantly be hypersonic.
 Impact with air would result in a tremendous deceleration.
 
-A [waverider](http://www.aerospaceweb.org/design/waverider/main.shtml)
-design should allow the vehicle to reduce drag,
-and therefore reach LEO with our design speed.
-Note that several hypersonic vehicles have been designed and operated to date.
-
 [This simulation](http://pinchito.es/mass-driver/drag.html)
 allows you to change several parameters
 and simulate the flight.
 
+### Vehicle
+
+Having a heavy vehicle is important to withstand drag forces
+upon entering the atmosphere:
+a light vehicle would lose too much speed as to reach LEO.
+A 10-tonne vehicle would be similar in weight to an
+[Eurofighter Typhoon](https://en.wikipedia.org/wiki/Eurofighter_Typhoon).
+
+A [waverider design](http://www.aerospaceweb.org/design/waverider/main.shtml)
+should allow the vehicle to reduce drag,
+and therefore reach LEO with our design speed.
+Note that several hypersonic vehicles have been designed and operated to date.
+
+The vehicle can be made to reenter the atmosphere and be reused multiple times.
+An ablation shield must then be used to absorb the heat of reentry.
+Another option is to build cheap disposable vehicles.
+After all, what we have is basically a glider with no motors,
+so it should be much cheaper to build than hypersonic planes.
+
 ### Cargo
 
-Cargo would be limited to what the vehicle can carry. 
+Certifying the cargo for an acceleration of 150 g should not be hard.
+
+Loads would be limited to what the vehicle can carry aboard.
+The cargo bay would not be large,
+but it might carry a lot of things:
+of the 10 tonnes for the complete vehicle around half might be cargo.
+But even one ton would be a great help to space exploration.
+Obviously the space launcher would not be able to send large payloads to LEO,
+so it would not be a substitute to rockets, for now.
+But it is very useful to send supplies to orbiting spaceships,
+such as the International Space Station (ISS).
+
+The space launcher vehicle itself can be used for exploration.
+For a trip to Mars it is probably be a bit small.
 
 ### Human Tripulated Ship
 
+The problem of transporting humans is entirely different.
+We are squishy and do not tolerate well accelerations beyond 4 g.
+On a 28 km tunnel the exit speed would be of at most 1500 m/s.
+The vehicle should carry enough fuel to reach LEO after that.
+
+This launch speed would be no small feat.
+
+That is, unless we visit more exotic options.
+Fighter pilots regularly withstand
+[more than 10g](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19980223621.pdf),
+which would give us 2366 m/s.
+This is almost as much as the first stage of the
+[Saturn V](https://en.wikipedia.org/wiki/Saturn_V).
+This acceleration would be sustained for only 12 seconds.
+
+A human in a liquid tank should resist higher accelerations.
+
 ## Other Options
 
-Mass drivers are not the only option.
+Mass drivers are not the only alternative to rockets.
+Wikipedia has a
+[few ideas](https://en.wikipedia.org/wiki/Non-rocket_spacelaunch),
+some of which we will consider here.
+
+### Star Tram
+
+The
+[Star Tram](https://en.wikipedia.org/wiki/StarTram)
+concept is very similar to the space launcher considered here.
+Gen-1 is cargo-only;
+acceleration is slower (30 g).
+Gen-2 relies on 20 km high launch and is not feasible yet.
 
 ### Space Elevator
+
+Dramatically illustrated by Arthur C. Clarke in The Fountains of Paradise,
+a space elevator consists of a very long rope reaching from LEO to Earth surface.
+It is not yet a practical concept.
+
+### Launch Loop
+
+Another great idea that is well outside the realm of possibility right now.
 
 ## Computations
 
@@ -219,7 +288,14 @@ At 9 km/s a 10-tonne vehicle will have:
 
 E = 1/2 · 10^4 kg · (9 · 10^3 m/s)^2 ~ 400 · 10^9 J = 400 Gigajoule.
 
-## Acknowledgements
+Or [111 Megawatts-hour](http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&unit=0&val=400).
+
+## Conclusion
+
+A space launcher can be a great help for space exploration,
+enabling the supply of larger ships at a very low cost.
+
+### Acknowledgements
 
 Thanks to Carlos Santisteban for his encouragement.
 
