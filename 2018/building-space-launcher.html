@@ -121,19 +121,34 @@
 <h3 id="launch">Launch</h3>
 <p>Before each launch all coils must be charged.</p>
 <p>At the precise moment of launch the vehicle lies at rest at the foot of the tunnel. The tunnel passage would be very swift: it will take around 6 seconds to reach our target speed of 9 km/s.</p>
-<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tonnes the kinetic energy would be 400 Gigajoules, or 110 Megawatt·hour. This power needs to be released in 6 seconds, but it can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise.</p>
+<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tonnes the kinetic energy would be 400 Gigajoules, or 110 Megawatt·hour. At a standard price of €0.10 per Kw·h, and assuming an efficiency of 80%, the total cost per launch would be €11k.</p>
+<p>This power needs to be released in 6 seconds, and so result in an insane power release of 67 Gigawatt. But electrical power can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise.</p>
 <p>The top of the tunnel should open automatically. A <a href="https://en.wikipedia.org/wiki/Plasma_window">plasma window</a> has been proposed, but it is not necessary: a regular diaphragm is enough to keep air out of the tunnel and open in a few seconds.</p>
 <h3 id="atmospheric-passage">Atmospheric Passage</h3>
 <p>When reaching the atmosphere the vehicle will be moving at a very high speed. Since the vehicle is launched from a relatively low altitude, aerodynamics must be considered. To reach low earth orbit (LEO) it should fly at at least 7.8 km/s; and considerably more if we take drag into account.</p>
 <p>We can take as reference a post-launch speed of 9 km/s; this is almost Mach 30, and the vehicle would instantly be hypersonic. Impact with air would result in a tremendous deceleration.</p>
-<p>A <a href="http://www.aerospaceweb.org/design/waverider/main.shtml">waverider</a> design should allow the vehicle to reduce drag, and therefore reach LEO with our design speed. Note that several hypersonic vehicles have been designed and operated to date.</p>
 <p><a href="http://pinchito.es/mass-driver/drag.html">This simulation</a> allows you to change several parameters and simulate the flight.</p>
+<h3 id="vehicle">Vehicle</h3>
+<p>Having a heavy vehicle is important to withstand drag forces upon entering the atmosphere: a light vehicle would lose too much speed as to reach LEO. A 10-tonne vehicle would be similar in weight to an <a href="https://en.wikipedia.org/wiki/Eurofighter_Typhoon">Eurofighter Typhoon</a>.</p>
+<p>A <a href="http://www.aerospaceweb.org/design/waverider/main.shtml">waverider design</a> should allow the vehicle to reduce drag, and therefore reach LEO with our design speed. Note that several hypersonic vehicles have been designed and operated to date.</p>
+<p>The vehicle can be made to reenter the atmosphere and be reused multiple times. An ablation shield must then be used to absorb the heat of reentry. Another option is to build cheap disposable vehicles. After all, what we have is basically a glider with no motors, so it should be much cheaper to build than hypersonic planes.</p>
 <h3 id="cargo">Cargo</h3>
-<p>Cargo would be limited to what the vehicle can carry.</p>
+<p>Certifying the cargo for an acceleration of 150 g should not be hard.</p>
+<p>Loads would be limited to what the vehicle can carry aboard. The cargo bay would not be large, but it might carry a lot of things: of the 10 tonnes for the complete vehicle around half might be cargo. But even one ton would be a great help to space exploration. Obviously the space launcher would not be able to send large payloads to LEO, so it would not be a substitute to rockets, for now. But it is very useful to send supplies to orbiting spaceships, such as the International Space Station (ISS).</p>
+<p>The space launcher vehicle itself can be used for exploration. For a trip to Mars it is probably be a bit small.</p>
 <h3 id="human-tripulated-ship">Human Tripulated Ship</h3>
+<p>The problem of transporting humans is entirely different. We are squishy and do not tolerate well accelerations beyond 4 g. On a 28 km tunnel the exit speed would be of at most 1500 m/s. The vehicle should carry enough fuel to reach LEO after that.</p>
+<p>This launch speed would be no small feat.</p>
+<p>That is, unless we visit more exotic options. Fighter pilots regularly withstand <a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19980223621.pdf">more than 10g</a>, which would give us 2366 m/s. This is almost as much as the first stage of the <a href="https://en.wikipedia.org/wiki/Saturn_V">Saturn V</a>. This acceleration would be sustained for only 12 seconds.</p>
+<p>A human in a liquid tank should resist higher accelerations.</p>
 <h2 id="other-options">Other Options</h2>
-<p>Mass drivers are not the only option.</p>
+<p>Mass drivers are not the only alternative to rockets. Wikipedia has a <a href="https://en.wikipedia.org/wiki/Non-rocket_spacelaunch">few ideas</a>, some of which we will consider here.</p>
+<h3 id="star-tram">Star Tram</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/StarTram">Star Tram</a> concept is very similar to the space launcher considered here. Gen-1 is cargo-only; acceleration is slower (30 g). Gen-2 relies on 20 km high launch and is not feasible yet.</p>
 <h3 id="space-elevator">Space Elevator</h3>
+<p>Dramatically illustrated by Arthur C. Clarke in The Fountains of Paradise, a space elevator consists of a very long rope reaching from LEO to Earth surface. It is not yet a practical concept.</p>
+<h3 id="launch-loop">Launch Loop</h3>
+<p>Another great idea that is well outside the realm of possibility right now.</p>
 <h2 id="computations">Computations</h2>
 <p>We have to accelerate a 10-tonne vehicle to 9 km/s in 28 km. Assume constant acceleration a. The motion is described by these two equations:</p>
 <p>v = a · t, Dx = 1/2 · a · t^2</p>
@@ -148,7 +163,10 @@
 <p>E = m · v^2 / 2.</p>
 <p>At 9 km/s a 10-tonne vehicle will have:</p>
 <p>E = 1/2 · 10^4 kg · (9 · 10^3 m/s)^2 ~ 400 · 10^9 J = 400 Gigajoule.</p>
-<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Or <a href="http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&amp;unit=0&amp;val=400">111 Megawatts-hour</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
 <p>Thanks to Carlos Santisteban for his encouragement.</p>
 								</div>
 							</section>
