@@ -132,8 +132,7 @@ and
 ### Construction
 
 Construction will proceed in stages.
-Entries every kilometer or so should allow easy access to the tunnel,
-for eventual repairs.
+Entries every kilometer should allow easy access to the tunnel for repairs.
 
 A regular
 [Tunnel boring machine](https://en.wikipedia.org/wiki/Tunnel_boring_machine)
@@ -332,6 +331,14 @@ at a very high cost.
 
 ### Other Systems
 
+Blue Origin has plans for space exploration.
+The company is
+[not yet ready](https://www.geekwire.com/2016/jeff-bezos-lifts-curtain-blue-origin-rocket-factory-vision-space/)
+to reach Mars.
+China is also planning missions to Mars,
+but the outlook is
+[still very uncertain](https://www.chinaspaceflight.com/rocket/Heavy-Lift-Launch-Vehicle/Heavy-Lift-Launch-Vehicle.html).
+
 ## Other Options
 
 Mass drivers are not the only alternative to rockets.
@@ -345,13 +352,15 @@ The
 [Star Tram](https://en.wikipedia.org/wiki/StarTram)
 concept is very similar to the space launcher considered here.
 Gen-1 is cargo-only;
-acceleration is slower (30 g).
+acceleration is slower than here (30 g),
+and therefore exit speeds are smaller.
 Gen-2 relies on 20 km high launch and is not feasible yet.
 
 ### Space Elevator
 
-Dramatically illustrated by Arthur C. Clarke in The Fountains of Paradise,
-a space elevator consists of a very long rope reaching from LEO to Earth surface.
+Dramatically illustrated by Arthur C. Clarke in
+[The Fountains of Paradise](https://en.wikipedia.org/wiki/The_Fountains_of_Paradise),
+a space elevator consists of a very long tether reaching from LEO to Earth surface.
 It is not yet a practical concept.
 
 ### Launch Loop
@@ -415,6 +424,10 @@ P = E / t = 400 GJ / 86400 s = 4.63 MW
 
 or around 4 megawatt.
 
+### Electricity and Electronics
+
+By far the most complex part of the project.
+
 ## Conclusion
 
 A space launcher can be a great help for space exploration,
@@ -425,5 +438,5 @@ everything is based on existing technologies.
 
 ### Acknowledgements
 
-Thanks to Carlos Santisteban for his encouragement.
+Thanks to Birli Birloque for her encouragement.
 
