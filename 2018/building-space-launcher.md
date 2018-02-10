@@ -104,8 +104,7 @@ Computations are
 [detailed below](#Computations).
 
 Synchronization of the coils is essential.
-[ (p. 22)](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf)
-says:
+[Davis says in "Advanced Propulsion Study", p. 22](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf):
 
 > Accelerations of 100,000 – 250,000 g are theoretically possible. However, only small, low velocity,
 low acceleration laboratory-scale devices have been demonstrated with projectiles of a few hundred
