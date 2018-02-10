@@ -115,6 +115,7 @@ voltage and current limitations of the silicon-controlled rectifiers used for sw
 superconducting drive coils operating under fast pulse conditions is a subject requiring experimental
 study. There is also the problem that magnetic friction at the end of the muzzle drags down the muzzle
 velocity of the projectile by several percent, and this has not yet been solved.
+
 > A coil gun will have to be a very large, complex, power-hungry device requiring rapid switching of
 large amounts of power in order for it to launch space transportation sized payloads. A 10-ton projectile
 will require switching electrical power at several hundred kilovolts in the stator coils. This will require a
@@ -122,6 +123,11 @@ large dedicated power plant and energy storage system. The quenched coils in a s
 generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled
 so large that such a gun cannot be applied to space transportation. No experimental tests have been done
 using superconducting (high-temperature type) drive coils and armatures. 
+
+Some insights can be found in papers by
+[Zabar _et al_, 1989](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
+and
+[Cravey _et al_, 1995](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf).
 
 ### Construction
 
