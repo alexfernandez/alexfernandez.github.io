@@ -1,21 +1,24 @@
 ---
-title: Curriculum Vitae of Alex Fernández 
-subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2017-07-26.
-  [Comments, improvements?](https://twitter.com/pinchito)
+title: Public Speaking Profile of Alex Fernández 
+subtitle: 'Conferences and Other Talks'
+footer: Published on 2018-02-12, last edited on 2018-02-12.
+  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-I have collected my professional experience in this page.
-Instead of just listing months and positions
-I will try to narrate my story.
-It is a bit longer but far more entertaining, I hope.
+![My visage while speaking in public](../pics/avatar.jpg "Alex Fernández")
+
+I have collected my public speaker experience in this page.
+Since the partial demise of
+[Lanyrd](http://lanyrd.com/profile/pinchito/)
+I cannot add more engagements there,
+and I prefer to have control over my data.
 
 ## TL;DR
 
-A developer with 20 years of experience proficient in Node.js and Golang,
-specialized in scalability and DevOps.
+More than a decade boring people at diverse conferences,
+lately mostly about Javascript and DevOps.
 
-## Job History
+## I Spoke
 
 I have 20 years of professional experience related to software development.
 Bear with me while we go over them,
@@ -216,12 +219,9 @@ and meet interesting people.
 
 ### Organizations
 
-I have helped organize three editions of
+I have collaborated in the organization of three editions of
 [JSDayES](http://jsday.es/),
 which have been very well received by the JS communities in Spain.
-The last edition
-[JSDayES 2017](http://2017.jsday.es/)
-had about 600 attendees and featured 35 speakers from over 10 countries.
 
 Since 2015 I am the organizer of MadridJS,
 following on the steps of the previous team that did a great job.
@@ -348,6 +348,29 @@ There is a clear difference:
 the data is replicated on my own computers
 and can be republished anywhere else in minutes.
 One of the advantages of owning my private data!
+
+## Community Organizer
+
+Co-organizer of
+[MadridJS](https://www.meetup.com/es-ES/madridjs/)
+and
+[Node.js Madrid](https://www.meetup.com/es-ES/Node-js-Madrid/),
+along with
+[Manu Fosela](https://twitter.com/manufosela)
+and
+[Javier Vélez](https://twitter.com/javiervelezreye).
+We gather monthly to talk about JavaScript and gossip about the latest developments.
+
+I have helped organize three editions of JSDayES:
+2015, 2016 and 2017.
+In the last edition
+[JSDayES 2017](http://2017.jsday.es/)
+we received about 600 attendees and featured 35 speakers from over 10 countries.
+Over the years we have brought many local and international figures in the JavaScript scene to Madrid,
+including
+[Javi Santana](http://javisantana.com/), CTO of Carto,
+and
+[substack](https://github.com/substack), creator of Browserify.
 
 ### Contact
 
