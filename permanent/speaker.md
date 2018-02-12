@@ -6,13 +6,6 @@ footer: Published on 2018-02-12, last edited on 2018-02-12.
 ---
 
 I have collected my public speaker experience in this page.
-Since the partial demise of
-[Lanyrd](http://lanyrd.com/profile/pinchito/)
-I cannot add more engagements there,
-and I prefer to have control over my data.
-
-## TL;DR
-
 More than a decade boring people at diverse conferences,
 lately mostly about Javascript and DevOps.
 
@@ -67,6 +60,7 @@ The Fluid Architecture:
 [slides](https://slides.com/alexfernandez/fluid-architecture-mediterraneajs-2015/).
 
 [enterJS 2015](https://www.enterjs.de/archive/2015/)
+
 * ![Darmstaadt, Germany](./pics/germany.svg "Germany") Darmstaadt, Germany
 * 2015-06-17/19
 * [The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
@@ -124,6 +118,9 @@ Scalability Lessons,
 [slides](https://slides.com/alexfernandez/scalability-lessons/),
 [video](https://vimeo.com/121892726).
 
+In a previous life I spoke at a couple of older conferences,
+which I will spare you here.
+
 All of these materials and more are
 [online](https://slides.com/alexfernandez).
 
@@ -150,7 +147,14 @@ including
 and
 [substack](https://github.com/substack), creator of Browserify.
 
-### Contact
+## Rationale
+
+Since the partial demise of
+[Lanyrd](http://lanyrd.com/profile/pinchito/)
+I cannot add more engagements there,
+and I prefer to have control over my data.
+
+## Contact
 
 If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
