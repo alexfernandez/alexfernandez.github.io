@@ -40,6 +40,7 @@ pandoc --template read-only.html -s 2017/build-your-own-devops-infrastructure.md
 pandoc --template read-only.html -s 2017/origins-language.md -o 2017/origins-language.html
 pandoc --template read-only.html -s 2018/building-space-launcher.md -o 2018/building-space-launcher.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
+pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
 
 # Español
 pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html
