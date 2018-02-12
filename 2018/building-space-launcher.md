@@ -127,7 +127,12 @@ using superconducting (high-temperature type) drive coils and armatures.
 Some insights can be found in papers by
 [Zabar _et al_, 1989](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
 and
-[Cravey _et al_, 1995](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf).
+[Cravey _et al_, 1995](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf)
+and
+[Williamson & Smith, 1997](https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf).
+According to
+[Marder (1993)](https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf)
+it is possible.
 
 ### Construction
 
