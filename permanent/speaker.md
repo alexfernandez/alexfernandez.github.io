@@ -30,7 +30,7 @@ London, UK
 [slides](https://slides.com/alexfernandez/2016-11-fullstack-devops/),
 [video](https://www.youtube.com/watch?v=rofFbzBMchw).
 <br>
-<img height="15" src="./pics/uk.svg" alt="UK" style="margin:4px;vertical-align:middle;">
+<img height="15" src="./pics/russia.svg" alt="Russia" style="margin:4px;vertical-align:middle;">
 Moscow, Russia
 <br>
 2016-11-15
