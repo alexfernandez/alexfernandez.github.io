@@ -68,28 +68,36 @@ Madrid, Spain
 <br>
 2015-11-27/28
 
-[MediterráneaJS](http://lanyrd.com/2015/mediterraneajs/)
-Barcelona, Spain
-2015-06-22/23
+### [MediterráneaJS](http://lanyrd.com/2015/mediterraneajs/)
+
 The Fluid Architecture:
 [slides](https://slides.com/alexfernandez/fluid-architecture-mediterraneajs-2015/).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Barcelona, Spain
+<br>
+2015-06-22/23
 
 ### [enterJS 2015](https://www.enterjs.de/archive/2015/)
 
+[The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
+[slides](https://slides.com/alexfernandez/fluid-architecture-enterjs-2015/).
+<br>
 <img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">
 Darmstaadt, Germany
 <br>
 2015-06-17/19
-<br>
-[The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
-[slides](https://slides.com/alexfernandez/fluid-architecture-enterjs-2015/).
 
-[jsDay 2015](http://2015.jsday.it/)
-Verona, Italy
-2015-05-13/14
+### [jsDay 2015](http://2015.jsday.it/)
+
 [The Fluid Architecture](http://2015.jsday.it/talk/the-fluid-architecture/):
 [slides](https://slides.com/alexfernandez/fluid-architecture-jsday-verona/),
 [video](https://vimeo.com/136912284).
+<br>
+<img height="15" src="./pics/italy.svg" alt="Italy" style="margin:4px;vertical-align:middle;">
+Verona, Italy
+<br>
+2015-05-13/14
 
 [T3chFest 2015](https://t3chfest.uc3m.es/2015/)
 Madrid, Spain
