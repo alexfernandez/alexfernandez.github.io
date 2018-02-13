@@ -1,7 +1,7 @@
 ---
-title: Speaker Profile for Alex Fernández 
-subtitle: 'Conferences and Other Talks'
-footer: Published on 2018-02-12, last edited on 2018-02-12.
+title: Speaker Profile 
+subtitle: 'Alex Fernández (@pinchito)'
+footer: Published on 2018-02-12, last edited on 2018-02-13.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
