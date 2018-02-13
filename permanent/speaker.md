@@ -69,8 +69,9 @@ Madrid, Spain
 
 ### [Codemotion 2015](https://2015.codemotion.es/)
 
-[The Fluid Architecture](https://2015.codemotion.es/agenda.html#5677904553836544/51104001):
-[slides](https://slides.com/alexfernandez/fluid-architecture-codemotion-2015/).
+[La arquitectura fluida](https://2015.codemotion.es/agenda.html#5677904553836544/51104001):
+[slides](https://slides.com/alexfernandez/fluid-architecture-codemotion-2015/),
+[video](https://www.youtube.com/watch?v=QaX-rTwO7aw).
 <br>
 <img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
@@ -107,6 +108,17 @@ Darmstaadt, Germany
 Verona, Italy
 <br>
 2015-05-13/14
+
+### [JSDayES 2015](http://lanyrd.com/2015/jsdayes/)
+
+Charla motivacional:
+[slides](https://slides.com/alexfernandez/motivational-talk-jsdayes/),
+[video](https://www.youtube.com/watch?v=uGtlyDmttq0).
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2015-05-09
+
 
 ### [T3chFest 2015](https://t3chfest.uc3m.es/2015/)
 
@@ -185,12 +197,19 @@ Brescia, Italy
 
 I have spoken at a number of local Meetups about many topics:
 Node.js, JavaScript, Scalability, DevOps, even Wordpress.
+Below you can find a few videos of those interventions,
+in Spanish.
 
-In a previous life I spoke at a couple of older conferences,
-which I will spare you here.
+* 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
+* 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
+* 2014-04-23: [node.js: ¿rápido como el rayo?](http://medialab-prado.es/article/nodejs)
+* 2013-03-21: [Node.js y websockets, una pareja bien avenida](https://vimeo.com/62771422)
 
 All of these materials and more are
 [online](https://slides.com/alexfernandez).
+
+In a previous life I spoke at a couple of older conferences,
+which I will spare you here.
 
 ## Community Organizer
 
@@ -202,12 +221,12 @@ along with
 [Manu Fosela](https://twitter.com/manufosela)
 and
 [Javier Vélez](https://twitter.com/javiervelezreye).
-We gather monthly to talk about JavaScript and gossip about the latest developments.
+We gather monthly to talk about JavaScript and gossip about the latest developments in the community.
 
 I have helped organize three editions of JSDayES:
 2015, 2016 and 2017.
-In the last edition
-[JSDayES 2017](http://2017.jsday.es/)
+In the
+[latest 2017 edition](http://2017.jsday.es/)
 we received about 600 attendees and featured 35 speakers from over 10 countries.
 Over the years we have brought many local and international figures in the JavaScript scene to Madrid,
 including

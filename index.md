@@ -104,18 +104,6 @@ Artículos para [GodTIC](http://www.godtic.com/blog/):
 * 2013-07-27: [Modo cluster para node.js](2013/modo-cluster.html)
 * 2013-07-11: [Pruebas asíncronas en node.js](2013/pruebas-asincronas.html)
 
-## Charlas en español
-
-Vídeos de eventos y conferencias,
-de menos a más novato.
-
-* 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
-* 2015-11-27: [La arquitectura fluida](https://www.youtube.com/watch?v=QaX-rTwO7aw)
-* 2015-05-09: [Charla motivacional](https://www.youtube.com/watch?v=uGtlyDmttq0)
-* 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
-* 2014-04-23: [node.js: ¿rápido como el rayo?](http://medialab-prado.es/article/nodejs)
-* 2013-03-21: [Node.js y websockets, una pareja bien avenida](https://vimeo.com/62771422)
-
 ## And Now for Something Not Quite Alike
 
 Please browse my [other projects](https://github.com/alexfernandez/).
