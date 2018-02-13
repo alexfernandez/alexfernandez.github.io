@@ -68,10 +68,9 @@ from less to more embarrassing.
 * 2014-11-18, Madrid: [Building an Analytics Database on a Dime](https://www.youtube.com/watch?v=F3rzQdCDxgg)
 * 2014-01-25, Brescia: [Scalability Lessons: Beyond 10K Requests per Second](https://vimeo.com/121892726)
 
-Note: I have spoken at
-[a few more events](http://lanyrd.com/profile/pinchito/sessions/),
-but the videos have not always been published.
-Check out [my presentations](http://slides.com/alexfernandez/) for a quick fix.
+I have spoken at a few more events but the videos have not always been published.
+You can also see my full
+[speaker profile](permanent/speaker.html).
 
 ## CV
 
