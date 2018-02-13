@@ -1587,7 +1587,7 @@
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1.3em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1614,7 +1614,7 @@
 	}
 
 	h3 {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		line-height: 1.5em;
 	}
 
@@ -2054,7 +2054,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1.5em 0;
 		padding-left: 1em;
 	}
 
@@ -2884,7 +2884,7 @@
 			}
 
 			h3 {
-				font-size: 1.3em;
+				font-size: 1.2em;
 			}
 
 			h4 {
