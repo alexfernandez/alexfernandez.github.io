@@ -24,40 +24,48 @@ London, UK
 <br>
 2017-07-12/14
 
-[DevOps Pro Moscow 2016](http://www.devopspro.ru/2016/)
-Moscow, Russia
-<br>
-2016-11-15
-<br>
+### [DevOps Pro Moscow 2016](http://www.devopspro.ru/2016/)
+
 [The FullStack DevOps](http://www.devopspro.ru/2016/alex-fernandez/):
 [slides](https://slides.com/alexfernandez/2016-11-fullstack-devops/),
 [video](https://www.youtube.com/watch?v=rofFbzBMchw).
+<br>
+<img height="15" src="./pics/uk.svg" alt="UK" style="margin:4px;vertical-align:middle;">
+Moscow, Russia
+<br>
+2016-11-15
 
-[FullStack London 2016](https://skillsmatter.com/conferences/7278-fullstack-2016-the-conference-on-javascript-node-and-internet-of-things)
-London, UK
-<br>
-2016-07-13/15
-<br>
+### [FullStack London 2016](https://skillsmatter.com/conferences/7278-fullstack-2016-the-conference-on-javascript-node-and-internet-of-things)
+
 FullStack DevOps:
 [slides](https://slides.com/alexfernandez/2016-07-fullstack-devops/),
 [video](https://skillsmatter.com/skillscasts/8156-fullstack-devops).
+<br>
+<img height="15" src="./pics/uk.svg" alt="UK" style="margin:4px;vertical-align:middle;">
+London, UK
+<br>
+2016-07-13/15
 
-[DevOps Pro Vilnius](http://devopspro.lt/2016/)
-Vilnius, Lithuania
-<br>
-2016-05-26
-<br>
+### [DevOps Pro Vilnius](http://devopspro.lt/2016/)
+
 Should I Build or Should I Not:
 [slides](https://slides.com/alexfernandez/2016-05-build-or-not/),
 [video](http://devopspro.lt/2016/alex-fernandez/).
+<br>
+<img height="15" src="./pics/lithuania.svg" alt="Lithuania" style="margin:4px;vertical-align:middle;">
+Vilnius, Lithuania
+<br>
+2016-05-26
 
-[Community Leadership Summit CLSxMadrid](https://clsxspain.es/index.en.html)
+### [Community Leadership Summit CLSxMadrid](https://clsxspain.es/index.en.html)
+
+Leadership:
+[slides](https://slides.com/alexfernandez/leadership-clsxmadrid-2015/).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
 <br>
 2015-12-12
-<br>
-Leadership:
-[slides](https://slides.com/alexfernandez/leadership-clsxmadrid-2015/).
 
 ### [Codemotion 2015](https://2015.codemotion.es/)
 
@@ -100,50 +108,78 @@ Verona, Italy
 <br>
 2015-05-13/14
 
-[T3chFest 2015](https://t3chfest.uc3m.es/2015/)
-Madrid, Spain
-2015-02-12/13
+### [T3chFest 2015](https://t3chfest.uc3m.es/2015/)
+
 [Ingeniería Reversible](https://t3chfest.uc3m.es/2015/programa/ingenieria-reversible-revirtiendo-los-efectos-del-tiempo/):
 [slides](https://slides.com/alexfernandez/ingenieria-reversible/),
 [video](https://www.youtube.com/watch?v=9E9gwGlmHis).
-
-[Codemotion Madrid 2014](http://2014.codemotion.es/en/)
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
-2014-11-21/22
+<br>
+2015-02-12/13
+
+### [Codemotion Madrid 2014](http://2014.codemotion.es/en/)
+
 [Scalability Lessons: Beyond 85 Krps](http://2014.codemotion.es/en/agenda.html?recommended=#day1/escalar-con-nodejs-tras-las-50-mil-peticiones-por-segundo):
 [slides](https://slides.com/alexfernandez/scalability-lessons-beyond-85krps/).
-
-[Big Data Spain 2014](http://www.bigdataspain.org/2014/)
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
-2014-11-18
+<br>
+2014-11-21/22
+
+### [Big Data Spain 2014](http://www.bigdataspain.org/2014/)
+
 [Building an Analytics Database on a Dime](http://www.bigdataspain.org/2014/conference/analytics-for-ads-servers-by-mediasmart-mobile.html),
 [slides](https://slides.com/alexfernandez/analytics-dime/),
 [video](https://www.youtube.com/watch?v=F3rzQdCDxgg).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2014-11-18
 
-[dotJS 2014](http://2014.dotjs.io/)
-Paris, France
-2014-11-17
+### [dotJS 2014](http://2014.dotjs.io/)
+
 NPM Quality (lightning talk):
 [slides](https://slides.com/alexfernandez/npm-quality/).
+<br>
+<img height="15" src="./pics/france.svg" alt="France" style="margin:4px;vertical-align:middle;">
+Paris, France
+<br>
+2014-11-17
 
-[WeNode 2014](http://lanyrd.com/2014/wenode/)
-Barcelona, Spain
-2014-10-04
+### [WeNode 2014](http://lanyrd.com/2014/wenode/)
+
 Scalability Lessons: Beyond 70 Krps,
 [slides](https://slides.com/alexfernandez/scalability-lessons-beyond-70krps/).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Barcelona, Spain
+<br>
+2014-10-04
 
-[Berlin Expert Days 2014](http://bed-con.org/2014/)
-Berlin, Germany
-2014-04-03/04
+### [Berlin Expert Days 2014](http://bed-con.org/2014/)
+
 [Reversible Engineering](http://bed-con.org/2014/talks/Reversible-Engineering-Going-Back-in-Time),
 [slides](https://slides.com/alexfernandez/reversible-engineering/).
+<br>
+<img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">
+Berlin, Germany
+<br>
+2014-04-03/04
 
-[Node.js Conf 2014](http://2014.nodejsconf.it/)
-Brescia, Italy
-2014-01-25
+### [Node.js Conf 2014](http://2014.nodejsconf.it/)
+
 Scalability Lessons,
 [slides](https://slides.com/alexfernandez/scalability-lessons/),
 [video](https://vimeo.com/121892726).
+<br>
+<img height="15" src="./pics/italy.svg" alt="Italy" style="margin:4px;vertical-align:middle;">
+Brescia, Italy
+<br>
+2014-01-25
 
 In a previous life I spoke at a couple of older conferences,
 which I will spare you here.
