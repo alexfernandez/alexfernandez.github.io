@@ -6,7 +6,7 @@ footer: Published on 2018-02-12, last edited on 2018-02-12.
 ---
 
 I have collected my public speaker experience in this page.
-More than a decade boring people at diverse conferences,
+About five years boring people at diverse conferences,
 lately mostly about Javascript and DevOps.
 
 ## Speaker
@@ -181,6 +181,11 @@ Brescia, Italy
 <br>
 2014-01-25
 
+### Other Events
+
+I have spoken at a number of local Meetups about many topics:
+Node.js, JavaScript, Scalability, DevOps, even Wordpress.
+
 In a previous life I spoke at a couple of older conferences,
 which I will spare you here.
 
@@ -216,6 +221,8 @@ Since the partial demise of
 [Lanyrd](http://lanyrd.com/profile/pinchito/)
 I cannot add more engagements there,
 and I prefer to have control over my data.
+
+You can also browse my [complete CV](./cv.html).
 
 ## Contact
 

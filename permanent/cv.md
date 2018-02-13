@@ -207,7 +207,7 @@ the very first to a crowded room for
 [MadridJS](http://www.meetup.com/es-ES/madridjs/events/105582592/).
 
 I like to give
-[public talks](http://lanyrd.com/profile/pinchito/sessions/)
+[public talks](./speaker.html)
 every once in a while.
 I consider them to be volunteer work since I am not paid,
 although I get to attend amazing conferences.
