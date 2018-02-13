@@ -15,13 +15,14 @@ List of conferences, latest first.
 
 ### [FullStack London 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things)
 
-London, UK
-<br>
-2017-07-12/14
-<br>
 Build Your Own DevOps Infrastructure,
 [slides](https://slides.com/alexfernandez/build-your-owndevops-infrastructure-fullstack/),
 [video](https://skillsmatter.com/skillscasts/10239-build-your-own-devops-infrastructure).
+<br>
+<img height="15" src="./pics/uk.svg" alt="UK" style="margin:4px;vertical-align:middle;">
+London, UK
+<br>
+2017-07-12/14
 
 [DevOps Pro Moscow 2016](http://www.devopspro.ru/2016/)
 Moscow, Russia
