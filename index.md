@@ -70,7 +70,8 @@ from less to more embarrassing.
 
 You can also see my full
 [speaker profile](permanent/speaker.html).
-I have spoken at a few more events but the videos have not always been published.
+I have spoken at a few more events over the years,
+but the talks have not always been recorded or published.
 
 ## CV
 
