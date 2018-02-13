@@ -59,8 +59,8 @@ Barcelona, Spain
 The Fluid Architecture:
 [slides](https://slides.com/alexfernandez/fluid-architecture-mediterraneajs-2015/).
 
-[enterJS 2015](https://www.enterjs.de/archive/2015/)
-<br>
+### [enterJS 2015](https://www.enterjs.de/archive/2015/)
+
 <img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
 <br>
 2015-06-17/19
