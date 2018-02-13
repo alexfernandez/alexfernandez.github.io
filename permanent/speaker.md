@@ -11,47 +11,62 @@ lately mostly about Javascript and DevOps.
 
 ## Speaker
 
-Conferences, latest first.
+List of conferences, latest first.
 
-[FullStack London 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things)
+### [FullStack London 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things)
+
 London, UK
+<br>
 2017-07-12/14
+<br>
 Build Your Own DevOps Infrastructure,
 [slides](https://slides.com/alexfernandez/build-your-owndevops-infrastructure-fullstack/),
 [video](https://skillsmatter.com/skillscasts/10239-build-your-own-devops-infrastructure).
 
 [DevOps Pro Moscow 2016](http://www.devopspro.ru/2016/)
 Moscow, Russia
+<br>
 2016-11-15
+<br>
 [The FullStack DevOps](http://www.devopspro.ru/2016/alex-fernandez/):
 [slides](https://slides.com/alexfernandez/2016-11-fullstack-devops/),
 [video](https://www.youtube.com/watch?v=rofFbzBMchw).
 
 [FullStack London 2016](https://skillsmatter.com/conferences/7278-fullstack-2016-the-conference-on-javascript-node-and-internet-of-things)
 London, UK
+<br>
 2016-07-13/15
+<br>
 FullStack DevOps:
 [slides](https://slides.com/alexfernandez/2016-07-fullstack-devops/),
 [video](https://skillsmatter.com/skillscasts/8156-fullstack-devops).
 
 [DevOps Pro Vilnius](http://devopspro.lt/2016/)
 Vilnius, Lithuania
+<br>
 2016-05-26
+<br>
 Should I Build or Should I Not:
 [slides](https://slides.com/alexfernandez/2016-05-build-or-not/),
 [video](http://devopspro.lt/2016/alex-fernandez/).
 
 [Community Leadership Summit CLSxMadrid](https://clsxspain.es/index.en.html)
 Madrid, Spain
+<br>
 2015-12-12
+<br>
 Leadership:
 [slides](https://slides.com/alexfernandez/leadership-clsxmadrid-2015/).
 
-[Codemotion 2015](https://2015.codemotion.es/)
-Madrid, Spain
-2015-11-27/28
+### [Codemotion 2015](https://2015.codemotion.es/)
+
 [The Fluid Architecture](https://2015.codemotion.es/agenda.html#5677904553836544/51104001):
 [slides](https://slides.com/alexfernandez/fluid-architecture-codemotion-2015/).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2015-11-27/28
 
 [MediterráneaJS](http://lanyrd.com/2015/mediterraneajs/)
 Barcelona, Spain
@@ -61,7 +76,8 @@ The Fluid Architecture:
 
 ### [enterJS 2015](https://www.enterjs.de/archive/2015/)
 
-<img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
+<img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">
+Darmstaadt, Germany
 <br>
 2015-06-17/19
 <br>
