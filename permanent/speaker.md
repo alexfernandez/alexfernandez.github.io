@@ -60,10 +60,12 @@ The Fluid Architecture:
 [slides](https://slides.com/alexfernandez/fluid-architecture-mediterraneajs-2015/).
 
 [enterJS 2015](https://www.enterjs.de/archive/2015/)
-
-* <img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
-* 2015-06-17/19
-* [The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
+<br>
+<img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
+<br>
+2015-06-17/19
+<br>
+[The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
 [slides](https://slides.com/alexfernandez/fluid-architecture-enterjs-2015/).
 
 [jsDay 2015](http://2015.jsday.it/)
