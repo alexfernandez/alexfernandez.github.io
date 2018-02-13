@@ -61,7 +61,7 @@ The Fluid Architecture:
 
 [enterJS 2015](https://www.enterjs.de/archive/2015/)
 
-* <img height="20" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
+* <img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">Darmstaadt, Germany.
 * 2015-06-17/19
 * [The Fluid Architecture](https://www.enterjs.de/archive/2015/abstracts.html#fluid-architecture):
 [slides](https://slides.com/alexfernandez/fluid-architecture-enterjs-2015/).
