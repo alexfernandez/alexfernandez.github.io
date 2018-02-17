@@ -91,7 +91,7 @@ It spans 28 km from sea level to the top of the Teide.
 Such a large tunnel with a near vacuum may seem crazy,
 but it is not outside the realm of possibility at all.
 Think of
-[CERN LHP](https://en.wikipedia.org/wiki/Large_Hadron_Collider):
+[CERN LHC](https://en.wikipedia.org/wiki/Large_Hadron_Collider):
 a 27 km long circular tunnel with a perfect vacuum.
 It was originally built in 1988,
 and completely refurbished in 2006 for
@@ -443,5 +443,6 @@ everything is based on existing technologies.
 
 ### Acknowledgements
 
-Thanks to Birli Birloque for her encouragement.
+Thanks to [Carlos Santisteban](https://twitter.com/zuiko21)
+for his help.
 
