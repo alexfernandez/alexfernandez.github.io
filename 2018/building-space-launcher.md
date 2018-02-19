@@ -103,6 +103,24 @@ along 28 km will do the trick.
 Computations are
 [detailed below](#Computations).
 
+### Construction
+
+Construction will proceed in stages.
+Entries every kilometer should allow easy access to the tunnel for repairs.
+
+A regular
+[Tunnel boring machine](https://en.wikipedia.org/wiki/Tunnel_boring_machine)
+or TBM should do the job,
+and keep costs low.
+
+The coilgun consists of a big number of wire loops,
+each with a current passing through it
+at the exact moment that the vehicle reaches it.
+The tunnel must have a near vacuum to avoid friction with the vehicle,
+so it needs high performance pumps and seals.
+
+### Propulsion
+
 Synchronization of the coils is essential.
 [Davis says in "Advanced Propulsion Study", p. 22](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf):
 
@@ -133,22 +151,9 @@ and
 According to
 [Marder (1993)](https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf)
 it is possible.
-
-### Construction
-
-Construction will proceed in stages.
-Entries every kilometer should allow easy access to the tunnel for repairs.
-
-A regular
-[Tunnel boring machine](https://en.wikipedia.org/wiki/Tunnel_boring_machine)
-or TBM should do the job,
-and keep costs low.
-
-The coilgun consists of a big number of wire loops,
-each with a current passing through it
-at the exact moment that the vehicle reaches it.
-The tunnel must have a near vacuum to avoid friction with the vehicle,
-so it needs high performance pumps and seals.
+And
+[Balikci _et al_, 2007](https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf)
+only add more stages.
 
 Superconducting wires can store current without loss.
 They have been successfully used in several maglev projects;
@@ -188,6 +193,12 @@ has been proposed,
 but it is not necessary:
 a regular diaphragm is enough to keep air out of the tunnel
 and open in a few seconds.
+
+#### Alternative Propulsion
+
+Tanks built to withstand
+[1000 atmospheres](https://wikivisually.com/wiki/Hydrogen_tank)
+are used for storing hydrogen.
 
 ### Atmospheric Passage
 
