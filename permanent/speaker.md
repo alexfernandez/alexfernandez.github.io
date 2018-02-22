@@ -1,6 +1,6 @@
 ---
 title: Speaker Profile 
-subtitle: 'Alex Fernández [@pinchito](https://twitter.com/pinchito)'
+subtitle: 'Alex Fernández <a href="https://twitter.com/pinchito">@pinchito</a>'
 footer: Published on 2018-02-12, last edited on 2018-02-13.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
