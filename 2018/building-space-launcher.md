@@ -192,8 +192,7 @@ only add more stages.
 
 There is an interesting variant:
 carry a ton of water as coolant.
-[Specific heat of water is ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity):
-$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.
+[Specific heat of water is ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity).
 
 Also 2 MJ/Kg are needed to
 [vaporize water]() [replace](https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r).
@@ -417,7 +416,7 @@ $$ t = 2 \cdot Dx / v = 2 \cdot 28 \cdot 10^3 m / (9 \cdot 10^3 m/s) \approx 6.2
 
 Acceleration is thus:
 
-a = v / t = 9 \cdot 10^3 m/s / 6.2 s \approx 1.45 \cdot 10^3 m/s^2.
+$$a = v / t = 9 \cdot 10^3 m/s / 6.2 s \approx 1.45 \cdot 10^3 m/s^2.$$
 
 Or 145 g, where g is the acceleration of gravity on Earth.
 
@@ -425,21 +424,21 @@ Or 145 g, where g is the acceleration of gravity on Earth.
 
 Kinetic energy can computed as:
 
-E = m \cdot v^2 / 2.
+$$E = m \cdot v^2 / 2.$$
 
 At 9 km/s a 10-ton vehicle will have:
 
-E = 1/2 \cdot 10^4 kg \cdot (9 \cdot 10^3 m/s)^2 \approx 400 \cdot 10^9 J = 400 GJ
+$$E = 1/2 \cdot 10^4 kg \cdot (9 \cdot 10^3 m/s)^2 \approx 400 \cdot 10^9 J = 400 GJ$$
 
 Or 400 gigajoules. That is
 [111 megawatts-hour](http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&unit=0&val=400).
 
 [Electricity prices](https://en.wikipedia.org/wiki/Electricity_pricing)
 vary wildly across Europe;
-we can use an industrial price of around €0.10 per KW\cdot h.
-With 80% efficiency, total price is:
+we can use an industrial price of around €0.10 per KWh.
+With 80% efficiency, total cost $C$ is:
 
-M = 111 MW\cdot h \cdot €0.10 / KW\cdot h / 0.80 = €13875
+$$C = 111\mathrm{MW}\cdot\mathrm{h} \cdot €0.10 / \mathrm{KW}\cdot\mathrm{h}/ 0.80 = €13875.$$
 
 or around €14K.
 
@@ -512,6 +511,9 @@ temperature might be reduced to half that and be within parameters.
 
 Of course,
 $1000\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.
+
+Water dissipation would help with a specific heat of
+$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.
 
 ## Conclusion
 

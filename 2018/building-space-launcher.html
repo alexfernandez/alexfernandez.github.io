@@ -126,7 +126,7 @@
 </blockquote>
 <p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> only add more stages.</p>
 <h4 id="water-coolant-and-propellant">Water Coolant and Propellant</h4>
-<p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>: <span class="math inline">$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$</span>.</p>
+<p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>.</p>
 <p>Also 2 MJ/Kg are needed to <a href="">vaporize water</a> <a href="https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r">replace</a>.</p>
 <p>So 2 GJ would be used just to vaporize the ton of water. As it boils, water vapor can be directed through a nozzle and propel the vehicle even further. Explosive heating would be a problem, since water would be heated in just 6 seconds. But the pressures involved should not be too terrible.</p>
 <h4 id="superconductors">Superconductors</h4>
@@ -179,16 +179,16 @@
 <h3 id="kinetic-parameters">Kinetic Parameters</h3>
 <p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km: <br /><span class="math display"><em>v</em> = 9<em>k</em><em>m</em>/<em>s</em></span><br /> <br /><span class="math display"><em>Δ</em><em>x</em> = 28<em>k</em><em>m</em></span><br /> Assume constant acceleration <span class="math inline"><em>a</em></span>. The motion is described by these well known two equations: <br /><span class="math display"><em>v</em> = <em>a</em> ⋅ <em>t</em></span><br /> <br /><span class="math display">$$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$</span><br /> Passage time can be computed as: <br /><span class="math display"><em>t</em> = 2 ⋅ <em>D</em><em>x</em>/<em>v</em> = 2 ⋅ 28 ⋅ 10<sup>3</sup><em>m</em>/(9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>)≈6.2<em>s</em>.</span><br /></p>
 <p>Acceleration is thus:</p>
-<p>a = v / t = 9 10^3 m/s / 6.2 s 1.45 10^3 m/s^2.</p>
+<p><br /><span class="math display"><em>a</em> = <em>v</em>/<em>t</em> = 9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>/6.2<em>s</em> ≈ 1.45 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em><sup>2</sup>.</span><br /></p>
 <p>Or 145 g, where g is the acceleration of gravity on Earth.</p>
 <h3 id="energy-and-power">Energy and Power</h3>
 <p>Kinetic energy can computed as:</p>
-<p>E = m v^2 / 2.</p>
+<p><br /><span class="math display"><em>E</em> = <em>m</em> ⋅ <em>v</em><sup>2</sup>/2.</span><br /></p>
 <p>At 9 km/s a 10-ton vehicle will have:</p>
-<p>E = 1/2 10^4 kg (9 10^3 m/s)^2 400 10^9 J = 400 GJ</p>
+<p><br /><span class="math display"><em>E</em> = 1/2 ⋅ 10<sup>4</sup><em>k</em><em>g</em> ⋅ (9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>)<sup>2</sup> ≈ 400 ⋅ 10<sup>9</sup><em>J</em> = 400<em>G</em><em>J</em></span><br /></p>
 <p>Or 400 gigajoules. That is <a href="http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&amp;unit=0&amp;val=400">111 megawatts-hour</a>.</p>
-<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total price is:</p>
-<p>M = 111 MWh €0.10 / KWh / 0.80 = €13875</p>
+<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total cost <span class="math inline"><em>C</em></span> is:</p>
+<p><br /><span class="math display"><em>C</em> = 111<em>M</em><em>W</em> ⋅ <em>h</em> ⋅ €0.10/<em>K</em><em>W</em> ⋅ <em>h</em>/0.80 = €13875.</span><br /></p>
 <p>or around €14K.</p>
 <p>Power required depends on charging time. Assuming the tunnel can be charged over a 24h period:</p>
 <p>P = E / t = 400 GJ / 86400 s = 4.63 MW</p>
@@ -209,6 +209,7 @@
 <p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, <span class="math inline">4<em>G</em><em>J</em></span> can be spread among 100 tons of copper and avoid reaching <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>.</p>
 <p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: <br /><span class="math display"><em>E</em><em>t</em> = <em>C</em><em>p</em> ⋅ <em>m</em> ⋅ <em>T</em> ≈ (1 − <em>η</em>)⋅<em>E</em><sub><em>k</em></sub> = (1 − <em>η</em>)⋅<em>m</em> ⋅ <em>v</em><sup>2</sup> ⟹ <em>T</em> = (1 − <em>η</em>)⋅<em>v</em><sup>2</sup>/<em>C</em><em>p</em>.</span><br /> <br /><span class="math display"><em>v</em> = 3<em>k</em><em>m</em>/<em>s</em> ⟹ <em>T</em> = 0.1 ⋅ 9 ⋅ 10<sup>6</sup>/430 ≈ 2000<em>K</em>,</span><br /> if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
 <p>Of course, <span class="math inline">1000<em>K</em></span> is still a considerable temperature that would cause significant plastic deformations.</p>
+<p>Water dissipation would help with a specific heat of <span class="math inline">$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$</span>.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
 <p>Nothing revolutionary has been proposed in this article; everything is based on existing technologies.</p>
