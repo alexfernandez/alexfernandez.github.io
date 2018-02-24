@@ -410,6 +410,8 @@ $$\Delta x = 28\mathrm{km}.$$
 Assume constant acceleration $a$.
 The motion is described by these well known two equations:
 $$v = a \cdot t$$
+$$v=a\cdot t$$
+$$v = a\cdot t$$
 $$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$
 Passage time can be computed as:
 $$ t = \frac{2 \cdot \Delta x}{v} = 2 \cdot \frac{28 \cdot 10^3 \mathrm{m}}{9 \cdot 10^3 \frac{\mathrm{m}}{\mathrm{s}}} \approx 6.2 s.$$
