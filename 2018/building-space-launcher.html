@@ -85,11 +85,12 @@
 										<h1>Building a Space Launcher</h1>
 										<p>The Next Stage in Space Exploration<p>
 									</header>
-																				<div class="figure">
+																				<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+<div class="figure">
 <img src="pics/building-spaceship.jpg" title="Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/" alt="Artistic rendition of a spaceship after launch." />
 <p class="caption">Artistic rendition of a spaceship after launch.</p>
 </div>
-<p>Space launchers, and more specifically <a href="https://en.wikipedia.org/wiki/Mass_driver">mass drivers</a>, are a long-standing alternative to rockets for reaching space. In this article we will explore how to build one today.</p>
+<p>Space launchers, and more specifically <a href="https://en.wikipedia.org/wiki/Mass_driver">mass drivers</a>, are a long-standing alternative to rockets for reaching space. For instance, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1859907/">Angel (2006)</a> proposes an electromagnetic launcher to cool the Earth. In this article we will explore how to build one today.</p>
 <h2 id="the-space-gun">The Space Gun</h2>
 <p>We present a plan to build a space gun with existing technologies. It is easy to envision futuristic means of transportation, as we will see in the next sections; but a space gun is well within the state of the art, and can be realistically built in the next decade.</p>
 <p>In essence it is just a long <a href="https://en.wikipedia.org/wiki/Coilgun">coilgun</a> in a vacuum: electromagnetic forces push a vehicle up a tunnel, until it enters the atmosphere and hopefully reaches space with the impulse. Our aim is to reach low earth orbit (LEO), and more specifically 400 km, which happens to be the altitude of the <a href="https://en.wikipedia.org/wiki/International_Space_Station">International Space Station</a>. The speed required is 7.7 km/s (27,600 km/h; 17,200 mph).</p>
@@ -108,26 +109,28 @@
 <h3 id="big-tunnel">Big Tunnel</h3>
 <p>The space gun is based on a long tunnel in which a near vacuum has been created. It spans 28 km from sea level to the top of the Teide. Such a large tunnel with a near vacuum may seem crazy, but it is not outside the realm of possibility at all. Think of <a href="https://en.wikipedia.org/wiki/Large_Hadron_Collider">CERN LHC</a>: a 27 km long circular tunnel with a perfect vacuum. It was originally built in 1988, and completely refurbished in 2006 for <a href="https://tunneltalk.com/CERN-Aug01-Construction-of-great-excavations2.php">approximately 200 million USD</a>.</p>
 <p>Can this tunnel make us reach our target speed of 9 km/s? As it happens a constant acceleration of 150g applied for about 6 seconds along 28 km will do the trick. Computations are <a href="#Computations">detailed below</a>.</p>
-<h3 id="construction">Construction</h3>
-<p>Construction will proceed in stages. Entries every kilometer should allow easy access to the tunnel for repairs.</p>
+<p>Construction will proceed in stages. Entries at least every kilometer should allow easy access to the tunnel for repairs.</p>
 <p>A regular <a href="https://en.wikipedia.org/wiki/Tunnel_boring_machine">Tunnel boring machine</a> or TBM should do the job, and keep costs low.</p>
-<p>The coilgun consists of a big number of wire loops, each with a current passing through it at the exact moment that the vehicle reaches it. The tunnel must have a near vacuum to avoid friction with the vehicle, so it needs high performance pumps and seals.</p>
-<h3 id="propulsion">Propulsion</h3>
-<p>Synchronization of the coils is essential. <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
-<blockquote>
-<p>Accelerations of 100,000 – 250,000 g are theoretically possible. However, only small, low velocity, low acceleration laboratory-scale devices have been demonstrated with projectiles of a few hundred grams. Also, the experimental scale-up for space transportation applications has not yet been addressed. There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. The failure mode of superconducting drive coils operating under fast pulse conditions is a subject requiring experimental study. There is also the problem that magnetic friction at the end of the muzzle drags down the muzzle velocity of the projectile by several percent, and this has not yet been solved.</p>
-</blockquote>
-<blockquote>
-<p>A coil gun will have to be a very large, complex, power-hungry device requiring rapid switching of large amounts of power in order for it to launch space transportation sized payloads. A 10-ton projectile will require switching electrical power at several hundred kilovolts in the stator coils. This will require a large dedicated power plant and energy storage system. The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation. No experimental tests have been done using superconducting (high-temperature type) drive coils and armatures.</p>
-</blockquote>
-<p>Some insights can be found in papers by <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em>, 1989</a>, and <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em>, 1995</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith, 1997</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em>, 2007</a> only add more stages.</p>
-<p>Superconducting wires can store current without loss. They have been successfully used in several maglev projects; the low temperatures required can be reached relatively easily in a sealed tunnel.</p>
+<p>The coilgun consists of a big number of wire loops, each with a current passing through it at the exact moment that the vehicle reaches it. Each coil is a section of wire loops that is connected to a large capacitor at the exact time that the vehicle passes through it. Energy is therefore stored in the capacitors, and released at a precise moment.</p>
+<p>The tunnel must have a near vacuum to avoid friction with the vehicle, so it needs high performance pumps and seals.</p>
 <h3 id="launch">Launch</h3>
-<p>Before each launch all coils must be charged.</p>
+<p>Before each launch all coils must be charged. When the vehicle passes through them they will release their energy, imparting it onto the vehicle. Synchronization of the coils is essential.</p>
 <p>At the precise moment of launch the vehicle lies at rest at the foot of the tunnel. The tunnel passage would be very swift: it will take around 6 seconds to reach our target speed of 9 km/s.</p>
-<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt·hour. At a standard price of €0.10 per Kw·h, and assuming an efficiency of 80%, the total cost per launch is €14k. An efficiency of 90% <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">has been estimated</a>. Even with lower efficiencies the cost is not dramatic.</p>
+<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt-hour. At a standard price of €0.10 per <span class="math inline"><em>K</em><em>W</em> ⋅ <em>h</em></span>, and assuming an efficiency of 80%, the total cost per launch is €14k. An efficiency of 90% <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">has been estimated</a>. Even with lower efficiencies the cost is not dramatic.</p>
 <p>The whole power needs to be released in 6 seconds, and so result in an insane power release of 67 Gigawatt. But electrical power can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise. Assuming the coils can be charged in 24h only 4 megawatt are needed, which can be achieved with a <a href="http://www.macon.com/news/business/article30238353.html">small solar farm</a>.</p>
 <p>The top of the tunnel should open automatically. A <a href="https://en.wikipedia.org/wiki/Plasma_window">plasma window</a> has been proposed, but it is not necessary: a regular diaphragm is enough to keep air out of the tunnel and open in a few seconds.</p>
+<h3 id="efficiency-and-dissipation">Efficiency and Dissipation</h3>
+<p>We now come to the most complex part of the project: efficiency, heat and dissipation. <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
+<blockquote>
+<p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. [...] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
+</blockquote>
+<p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> only add more stages.</p>
+<h4 id="water-coolant-and-propellant">Water Coolant and Propellant</h4>
+<p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>: <span class="math inline">$4\mathrm{\frac{KJ}{Kg\cdot K}}$</span>.</p>
+<p>Also 2 MJ/Kg are needed to <a href="">vaporize water</a> <a href="https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r">replace</a>.</p>
+<p>So 2 GJ would be used just to vaporize the ton of water. As it boils, water vapor can be directed through a nozzle and propel the vehicle even further. Explosive heating would be a problem, since water would be heated in just 6 seconds. But the pressures involved should not be too terrible.</p>
+<h4 id="superconductors">Superconductors</h4>
+<p>Superconducting wires can store current without loss. They have been successfully used in several maglev projects; the low temperatures required can be reached relatively easily in a sealed tunnel.</p>
 <h4 id="alternative-propulsion">Alternative Propulsion</h4>
 <p>Tanks built to withstand <a href="https://wikivisually.com/wiki/Hydrogen_tank">1000 atmospheres</a> are used for storing hydrogen.</p>
 <h3 id="atmospheric-passage">Atmospheric Passage</h3>
@@ -174,29 +177,38 @@
 <h2 id="computations">Computations</h2>
 <p>Detailed computations are presented here.</p>
 <h3 id="kinetic-parameters">Kinetic Parameters</h3>
-<p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km. Assume constant acceleration a. The motion is described by these two equations:</p>
-<p>v = a · t, Dx = 1/2 · a · t^2</p>
-<p>With our initial data:</p>
-<p>v = 9 km/s Dx = 28 km</p>
-<p>passage time can be computed as:</p>
-<p>t = 2 · Dx / v = 2 · 28 · 10^3 m / (9 · 10^3 m/s) ~ 6.2 s.</p>
+<p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km: <br /><span class="math display"><em>v</em> = 9<em>k</em><em>m</em>/<em>s</em></span><br /> <br /><span class="math display"><em>Δ</em><em>x</em> = 28<em>k</em><em>m</em></span><br /> Assume constant acceleration <span class="math inline"><em>a</em></span>. The motion is described by these well known two equations: <br /><span class="math display"><em>v</em> = <em>a</em> ⋅ <em>t</em></span><br /> <br /><span class="math display">$$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$</span><br /> Passage time can be computed as: <br /><span class="math display"><em>t</em> = 2 ⋅ <em>D</em><em>x</em>/<em>v</em> = 2 ⋅ 28 ⋅ 10<sup>3</sup><em>m</em>/(9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>) 6.2<em>s</em>.</span><br /></p>
 <p>Acceleration is thus:</p>
-<p>a = v / t = 9 · 10^3 m/s / 6.2 s ~ 1.45 · 10^3 m/s^2.</p>
+<p>a = v / t = 9 10^3 m/s / 6.2 s ~ 1.45 10^3 m/s^2.</p>
 <p>Or 145 g, where g is the acceleration of gravity on Earth.</p>
 <h3 id="energy-and-power">Energy and Power</h3>
 <p>Kinetic energy can computed as:</p>
-<p>E = m · v^2 / 2.</p>
+<p>E = m v^2 / 2.</p>
 <p>At 9 km/s a 10-ton vehicle will have:</p>
-<p>E = 1/2 · 10^4 kg · (9 · 10^3 m/s)^2 ~ 400 · 10^9 J = 400 GJ</p>
+<p>E = 1/2 10^4 kg (9 10^3 m/s)^2 ~ 400 10^9 J = 400 GJ</p>
 <p>Or 400 gigajoules. That is <a href="http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&amp;unit=0&amp;val=400">111 megawatts-hour</a>.</p>
-<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KW·h. With 80% efficiency, total price is:</p>
-<p>M = 111 MW·h · €0.10 / KW·h / 0.80 = €13875</p>
+<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total price is:</p>
+<p>M = 111 MWh €0.10 / KWh / 0.80 = €13875</p>
 <p>or around €14K.</p>
 <p>Power required depends on charging time. Assuming the tunnel can be charged over a 24h period:</p>
 <p>P = E / t = 400 GJ / 86400 s = 4.63 MW</p>
 <p>or around 4 megawatt.</p>
-<h3 id="electricity-and-electronics">Electricity and Electronics</h3>
-<p>By far the most complex part of the project.</p>
+<h3 id="efficiency-and-dissipation-1">Efficiency and Dissipation</h3>
+<p>As explained in <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, efficiency depends on the slip at each coil, which is computed using the difference between the vehicle speed <span class="math inline"><em>V</em></span> and the speed of the travelling wave <span class="math inline"><em>V</em><sub><em>s</em></sub></span>: <br /><span class="math display">$$S = \frac{V_s - V}{V_s}$$</span><br /> Efficiency will thus be:</p>
+<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004)</a> mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With such an efficiency of 90%, energy losses would amount to 40 GJ, and would be directly converted into heat.</p>
+<p>Let us suppose a copper sabot weighing a ton, which should maximize conductivity and heat capacity. The specific heat of copper is:</p>
+<p><br /><span class="math display"><em>C</em><em>p</em> = 430<em>J</em>/(<em>K</em><em>g</em> ⋅ <em>K</em>).</span><br /></p>
+<p>We will consider a maximum temperature of</p>
+<p><br /><span class="math display"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em> = 1000<em>K</em>,</span><br /></p>
+<p>a bit below the fusion temperature of copper, then thermal energy <span class="math inline"><em>E</em><sub><em>t</em></sub></span> will be:</p>
+<p><br /><span class="math display"><em>E</em><em>t</em> = <em>C</em><em>p</em> ⋅ <em>m</em> ⋅ <em>T</em> = &gt;<em>T</em> = <em>E</em><em>t</em>/(<em>C</em><em>p</em> ⋅ <em>m</em>).</span><br /></p>
+<p>With <span class="math inline">40<em>G</em><em>J</em></span> we would raise <span class="math inline">10<sup>3</sup><em>K</em><em>g</em></span> to</p>
+<p><br /><span class="math display"><em>T</em> = 40<em>G</em><em>J</em>/(430<em>J</em>/(<em>K</em><em>g</em> ⋅ <em>K</em>)⋅10<sup>3</sup><em>K</em><em>g</em>) 10<sup>5</sup><em>K</em>.</span><br /></p>
+<p>Such a temperature would instantly vaporize all known materials.</p>
+<p>Even working with an efficiency of 99%, we would still have to dissipate <span class="math inline">4<em>G</em><em>J</em></span>, enough to heat the sabot to <span class="math inline">10<sup>4</sup><em>K</em></span>. An efficiency of 99.9% would be needed to lower the temperature to <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
+<p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, <span class="math inline">4<em>G</em><em>J</em></span> can be spread among 100 tons of copper and avoid reaching <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>.</p>
+<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: <br /><span class="math display"><em>E</em><em>t</em> = <em>C</em><em>p</em> ⋅ <em>m</em> ⋅ <em>T</em> (1 − <em>η</em>)⋅<em>E</em><em>k</em> = (1 − <em>η</em>)⋅<em>m</em> ⋅ <em>v</em><sup>2</sup> = &gt;<em>T</em> = (1 − <em>η</em>)⋅<em>v</em><sup>2</sup>/<em>C</em><em>p</em>.</span><br /> <br /><span class="math display"><em>v</em> = 3<em>k</em><em>m</em>/<em>s</em> = &gt;<em>T</em> = 0.1 ⋅ 9 ⋅ 10<sup>6</sup>/430 2000<em>K</em>,</span><br /> if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
+<p>Of course, <span class="math inline">1000<em>K</em></span> is still a considerable temperature that would cause significant plastic deformations.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
 <p>Nothing revolutionary has been proposed in this article; everything is based on existing technologies.</p>
