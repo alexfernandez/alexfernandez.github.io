@@ -413,11 +413,11 @@ The motion is described by these well known two equations:
 $$v = a \cdot t$$
 $$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$
 Passage time can be computed as:
-$$ t = 2 \cdot Dx / v = 2 \cdot 28 \cdot 10^3 m / (9 \cdot 10^3 m/s) ~ 6.2 s.$$
+$$ t = 2 \cdot Dx / v = 2 \cdot 28 \cdot 10^3 m / (9 \cdot 10^3 m/s) \approx 6.2 s.$$
 
 Acceleration is thus:
 
-a = v / t = 9 \cdot 10^3 m/s / 6.2 s ~ 1.45 \cdot 10^3 m/s^2.
+a = v / t = 9 \cdot 10^3 m/s / 6.2 s \approx 1.45 \cdot 10^3 m/s^2.
 
 Or 145 g, where g is the acceleration of gravity on Earth.
 
@@ -429,7 +429,7 @@ E = m \cdot v^2 / 2.
 
 At 9 km/s a 10-ton vehicle will have:
 
-E = 1/2 \cdot 10^4 kg \cdot (9 \cdot 10^3 m/s)^2 ~ 400 \cdot 10^9 J = 400 GJ
+E = 1/2 \cdot 10^4 kg \cdot (9 \cdot 10^3 m/s)^2 \approx 400 \cdot 10^9 J = 400 GJ
 
 Or 400 gigajoules. That is
 [111 megawatts-hour](http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&unit=0&val=400).
@@ -481,11 +481,11 @@ $$T_max = 1000\mathrm{K},$$
 a bit below the fusion temperature of copper,
 then thermal energy $E_t$ will be:
 
-$$Et = Cp \cdot m \cdot T => T = Et / (Cp \cdot m).$$
+$$Et = Cp \cdot m \cdot T \implies T = Et / (Cp \cdot m).$$
 
 With $40\mathrm{GJ}$ we would raise $10^3\mathrm{Kg}$ to
 
-$$T = 40 GJ / (430 J/(Kg\cdot K) \cdot 10^3 Kg) ~ 10^5 K.$$
+$$T = 40 GJ / (430 J/(Kg\cdot K) \cdot 10^3 Kg) \approx 10^5 K.$$
 
 Such a temperature would instantly vaporize all known materials.
 
@@ -504,8 +504,8 @@ Energy is proportional to mass.
 Since kinetic energy is also proportional to mass,
 reducing the vehicle's mass will not change the temperatures involved.
 But lowering the exit speed would make a big change:
-$$Et = Cp \cdot m \cdot T ~ (1 - η) \cdot Ek = (1 - η) \cdot m \cdot v^2 => T = (1 - η) \cdot v^2 / Cp.$$
-$$v = 3 km/s => T = 0.1 \cdot 9 \cdot 10^6 / 430 ~ 2000 K,$$
+$$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$
+$$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$
 if all heat is generated in the sabot.
 If it is spread between sabot and coils,
 temperature might be reduced to half that and be within parameters.
