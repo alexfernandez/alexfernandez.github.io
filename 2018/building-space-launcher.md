@@ -33,7 +33,7 @@ Our aim is to reach low earth orbit (LEO),
 and more specifically 400 km,
 which happens to be the altitude of the
 [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station).
-The speed required is $7.7\mathrm{\frac{km}{s}}$ (27,600 km/h; 17,200 mph).
+The speed required is 7.7 km/s (27,600 km/h; 17,200 mph).
 
 We will use a reference speed of 9 km/s at the moment of leaving the coilgun,
 allowing for speed losses due to drag.
@@ -140,7 +140,7 @@ it will take around 6 seconds to reach our target speed of 9 km/s.
 After firing all coils the projectile should reach our reference speed of 9 km/s.
 With a mass of 10 tons the kinetic energy would be 400 Gigajoules,
 or 110 Megawatt-hour.
-At a standard price of €0.10 per $\mathrm{KW\cdot h}$,
+At a standard price of €0.10 per KWh,
 and assuming an efficiency of 80%,
 the total cost per launch is €14k.
 An efficiency of 90%
@@ -193,7 +193,7 @@ only add more stages.
 There is an interesting variant:
 carry a ton of water as coolant.
 [Specific heat of water is ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity):
-$4\mathrm{\frac{KJ}{Kg\cdot K}}$.
+$4\frac{\mathrm{KJ}}{\mathrm{Kg\cdot K}}}$.
 
 Also 2 MJ/Kg are needed to
 [vaporize water]() [replace](https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r).
