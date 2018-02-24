@@ -33,7 +33,7 @@ Our aim is to reach low earth orbit (LEO),
 and more specifically 400 km,
 which happens to be the altitude of the
 [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station).
-The speed required is 7.7 km/s (27,600 km/h; 17,200 mph).
+The speed required is $7.7\mathrm{\frac{km}{s}}$ (27,600 km/h; 17,200 mph).
 
 We will use a reference speed of 9 km/s at the moment of leaving the coilgun,
 allowing for speed losses due to drag.
