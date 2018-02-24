@@ -405,8 +405,8 @@ Detailed computations are presented here.
 ### Kinetic Parameters
 
 We have to accelerate a 10-ton vehicle to 9 km/s in 28 km:
-$$v = 9 km/s$$
-$$\Delta x = 28 km$$
+$$v = 9\frac{\mathrm{km}}{\mathrm{s}}$$
+$$\Delta x = 28\mathrm{km}$$
 Assume constant acceleration $a$.
 The motion is described by these well known two equations:
 $$v = a \cdot t$$
