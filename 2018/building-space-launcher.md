@@ -193,7 +193,7 @@ only add more stages.
 There is an interesting variant:
 carry a ton of water as coolant.
 [Specific heat of water is ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity):
-$4\frac{\mathrm{KJ}}{\mathrm{Kg\cdot K}}}$.
+$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.
 
 Also 2 MJ/Kg are needed to
 [vaporize water]() [replace](https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r).
