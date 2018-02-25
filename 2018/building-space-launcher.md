@@ -6,6 +6,14 @@ footer: Published on 2018-02-06, last modified on 2018-02-06.
 ---
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 
 ![Artistic rendition of a spaceship after launch.](pics/building-spaceship.jpg "Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/")
 
@@ -65,7 +73,7 @@ since a mass driver will largely preserve the environment.
 There is precedent: it has been used
 (appropriately enough)
 as a Mars testbed due to its
-[similar conditions](http://news.bbc.co.uk/2/hi/science/nature/4767403.stm).
+[similar conditions to the red planet](http://news.bbc.co.uk/2/hi/science/nature/4767403.stm).
 
 There are also a few complications.
 Teide is an active volcano;
@@ -167,6 +175,15 @@ and open in a few seconds.
 
 We now come to the most complex part of the project:
 efficiency, heat and dissipation.
+
+Some insights can be found in papers by
+[Cravey _et al_ (1995)](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf)
+and
+[Williamson & Smith (1997)](https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf).
+According to
+[Marder (1993)](https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf)
+it is possible.
+
 [Davis (2004) says in "Advanced Propulsion Study", p. 22](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf):
 
 > There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but
@@ -177,13 +194,16 @@ The quenched coils in a superconducting coilgun
 generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled
 so large that such a gun cannot be applied to space transportation.
 
-Some insights can be found in papers by
-[Cravey _et al_ (1995)](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf)
-and
-[Williamson & Smith (1997)](https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf).
-According to
-[Marder (1993)](https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf)
-it is possible.
+In this same article,
+Davis mentions an efficiency of > 90% as a great achievement.
+A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ,
+which can not be overstated as a tremendous amount of energy.
+With such an efficiency of 90%,
+energy losses would amount to 40 GJ,
+and would be directly converted into heat.
+
+Let us suppose a copper armature weighing a ton,
+which should maximize conductivity and heat capacity.
 And
 [Balikci _et al_ (2007)](https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf)
 only add more stages.
@@ -405,32 +425,36 @@ Detailed computations are presented here.
 ### Kinetic Parameters
 
 We have to accelerate a 10-ton vehicle to 9 km/s in 28 km:
-$$v = 9\frac{\mathrm{km}}{\mathrm{s}},$$
-$$\Delta x = 28\mathrm{km}.$$
+
+$$v = 9 \\mathrm{km}/\\mathrm{s},$$
+
+$$\\Delta x = 28\\mathrm{km}.$$
+
 Assume constant acceleration $a$.
-The motion is described by these well known two equations:
-$$v = a \cdot t$$
-$$v=a\cdot$$
-$$v = a\cdot t$$
-$$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$
-Passage time can be computed as:
-$$ t = \frac{2 \cdot \Delta x}{v} = 2 \cdot \frac{28 \cdot 10^3 \mathrm{m}}{9 \cdot 10^3 \frac{\mathrm{m}}{\mathrm{s}}} \approx 6.2 s.$$
+The motion is described by the well known two equations:
+
+$$v = a \\cdot t,$$
+$$\\Delta x = \\frac{1}{2} \\cdot a \\cdot t^2.$$
+
+Time to traverse the tunnel can be computed as:
+
+$$ t = \\frac{2 \\cdot \\Delta x}{v} = 2 \\cdot \\frac{28 \\cdot 10^3 \\mathrm{m}}{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}} \\approx 6.2 \\mathrm{s}.$$
 
 Acceleration is thus:
 
-$$a = v / t = 9 \cdot 10^3 m/s / 6.2 s \approx 1.45 \cdot 10^3 m/s^2.$$
+$$a = \\frac{v}{t} = \\frac{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}}{6.2 \\mathrm{s}} \\approx 1.45 \\cdot 10^3 m/s^2.$$
 
-Or 145 g, where g is the acceleration of gravity on Earth.
+Or $145g$, where $g$ is the acceleration of gravity on Earth.
 
 ### Energy and Power
 
 Kinetic energy can computed as:
 
-$$E = m \cdot v^2 / 2.$$
+$$E = \\frac{1}{2} \\cdot m \\cdot v^2.$$
 
 At 9 km/s a 10-ton vehicle will have:
 
-$$E = 1/2 \cdot 10^4 kg \cdot (9 \cdot 10^3 m/s)^2 \approx 400 \cdot 10^9 J = 400 GJ$$
+$$E = \\frac{1}{2} \\cdot 10^4 \\mathrm{kg} \\cdot (9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s})^2 \\approx 400 \\cdot 10^9 \\mathrm{J} = 400 \\mathrm{GJ}$$
 
 Or 400 gigajoules. That is
 [111 megawatts-hour](http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&unit=0&val=400).
@@ -440,57 +464,67 @@ vary wildly across Europe;
 we can use an industrial price of around €0.10 per KWh.
 With 80% efficiency, total cost $C$ is:
 
-$$C = 111\mathrm{MW}\cdot\mathrm{h} \cdot €0.10 / \mathrm{KW}\cdot\mathrm{h}/ 0.80 = €13875.$$
+$$C = \\frac{1}{0.80} \\cdot 111\\mathrm{MW}\\cdot\\mathrm{h} \\cdot \\frac{0.10 €}{\\mathrm{KW}\\cdot\\mathrm{h}} = €13875.$$
 
 or around €14K.
 
 Power required depends on charging time.
 Assuming the tunnel can be charged over a 24h period:
 
-P = E / t = 400 GJ / 86400 s = 4.63 MW
+$$P = \\frac{E}{t} = \\frac{400 \\mathrm{GJ}}{86400 \\mathrm{s}} = 4.63 MW,$$
 
-or around 4 megawatt.
+or around 5 megawatt.
 
 ### Efficiency and Dissipation
 
 As explained in
 [Zabar _et al_ (1989)](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
 efficiency depends on the slip at each coil,
-which is computed using the difference between the vehicle speed $V$
-and the speed of the travelling wave $V_s$:
-$$S = \frac{V_s - V}{V_s}$$
-Efficiency will thus be:
+which is computed using the difference between the vehicle speed $v$
+and the speed of the travelling wave $v_s$:
 
-[Davis (2004)](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf)
-mentions an efficiency of > 90% as a great achievement.
-A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ,
-which can not be overstated as a tremendous amount of energy.
-With such an efficiency of 90%,
-energy losses would amount to 40 GJ,
-and would be directly converted into heat.
+$$S_n = \\frac{v_s - v}{v_s}$$
 
-Let us suppose a copper sabot weighing a ton,
-which should maximize conductivity and heat capacity.
+Efficiency $η$ is the ratio of kinetic energy $E_k$ to total energy $E$:
+
+$$η = \\frac{E_k}{E} = \\frac{E_k}{E_k + E_t},$$
+
+where $E_t$ is thermal energy.
+Since thermal energy for each coil $E_{tn}$ can be computed as
+
+$$E_{tn} = E_{kn} \\frac{S_n}{1-S_n},$$
+
+the efficiency of each coil $η_n$ will be:
+
+$$η_n = \\frac{E_{kn}}{E_{kn} + E_{tn}} = \\frac{E_{kn}}{E_{kn} + E_{kn} \\cdot  \\frac{S_n}{1-S_n}} \\implies$$
+$$η_n = \\frac{E_{kn}}{E_{kn} \\cdot \\frac{1+S_n}{1-S_n}} = \\frac{1-S_n}{1+S_n}.$$
+
+Bigger slips will lead to less efficiency.
+Global efficiency $η$ will depend on the sum of kinetic energies
+and the total sum of kinetic and thermal energies for all coils.
+Shorter coils will generate less slip,
+and therefore increasing the number of coils should increase total efficiency.
+
 The specific heat of copper is:
 
-$$Cp = 430 J/(Kg\cdot K).$$
+$$Cp = 430 J/(Kg\\cdot K).$$
 
 We will consider a maximum temperature of
 
-$$T_max = 1000\mathrm{K},$$
+$$T_max = 1000\\mathrm{K},$$
 
 a bit below the fusion temperature of copper,
 then thermal energy $E_t$ will be:
 
-$$Et = Cp \cdot m \cdot T \implies T = Et / (Cp \cdot m).$$
+$$Et = Cp \\cdot m \\cdot T \\implies T = Et / (Cp \\cdot m).$$
 
-With $40\mathrm{GJ}$ we would raise $10^3\mathrm{Kg}$ to
+With $40\\mathrm{GJ}$ we would raise $10^3\\mathrm{Kg}$ to
 
-$$T = 40 GJ / (430 J/(Kg\cdot K) \cdot 10^3 Kg) \approx 10^5 K.$$
+$$T = 40 GJ / (430 J/(Kg\\cdot K) \\cdot 10^3 Kg) \\approx 10^5 K.$$
 
 Such a temperature would instantly vaporize all known materials.
 
-Even working with an efficiency of 99%, we would still have to dissipate $4\mathrm{GJ}$, enough to heat the sabot to $10^4\mathrm{K}$.
+Even working with an efficiency of 99%, we would still have to dissipate $4\\mathrm{GJ}$, enough to heat the sabot to $10^4\\mathrm{K}$.
 An efficiency of 99.9% would be needed to lower the temperature to $T_max$.
 Is such an efficiency even possible?
 According to [Zabar _et al_ (1989)](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
@@ -498,24 +532,24 @@ it requires increasing the number of coils as desired.
 
 It also depends on what part of the heat will be generated in the coils and which in the vehicle.
 Heat in the coils is much less critical since it would be spread among many tons of copper.
-Even with only 90% efficiency, $4\mathrm{GJ}$ can be spread among 100 tons of copper
+Even with only 90% efficiency, $4\\mathrm{GJ}$ can be spread among 100 tons of copper
 and avoid reaching $T_max$.
 
 Energy is proportional to mass.
 Since kinetic energy is also proportional to mass,
 reducing the vehicle's mass will not change the temperatures involved.
 But lowering the exit speed would make a big change:
-$$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$
-$$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$
+$$Et = Cp \\cdot m \\cdot T \\approx (1 - η) \\cdot E_k = (1 - η) \\cdot m \\cdot v^2 \\implies T = (1 - η) \\cdot v^2 / Cp.$$
+$$v = 3 km/s \\implies T = 0.1 \\cdot 9 \\cdot 10^6 / 430 \\approx 2000 K,$$
 if all heat is generated in the sabot.
 If it is spread between sabot and coils,
 temperature might be reduced to half that and be within parameters.
 
 Of course,
-$1000\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.
+$1000\\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.
 
 Water dissipation would help with a specific heat of
-$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.
+$4\\frac{\\mathrm{KJ}}{\\mathrm{Kg}\\cdot{K}}$.
 
 ## Conclusion
 

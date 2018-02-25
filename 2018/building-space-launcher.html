@@ -86,6 +86,14 @@
 										<p>The Next Stage in Space Exploration<p>
 									</header>
 																				<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 <div class="figure">
 <img src="pics/building-spaceship.jpg" title="Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/" alt="Artistic rendition of a spaceship after launch." />
 <p class="caption">Artistic rendition of a spaceship after launch.</p>
@@ -102,7 +110,7 @@
 <img src="pics/building-elevation.jpg" title="Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php" alt="Curvature of Teide is almost ideal." />
 <p class="caption">Curvature of Teide is almost ideal.</p>
 </div>
-<p>Pico del Teide is part of Teide National Park, which means that it is protected: in particular, exploitation of natural resources is forbidden. An exemption can be made in this case, since a mass driver will largely preserve the environment. There is precedent: it has been used (appropriately enough) as a Mars testbed due to its <a href="http://news.bbc.co.uk/2/hi/science/nature/4767403.stm">similar conditions</a>.</p>
+<p>Pico del Teide is part of Teide National Park, which means that it is protected: in particular, exploitation of natural resources is forbidden. An exemption can be made in this case, since a mass driver will largely preserve the environment. There is precedent: it has been used (appropriately enough) as a Mars testbed due to its <a href="http://news.bbc.co.uk/2/hi/science/nature/4767403.stm">similar conditions to the red planet</a>.</p>
 <p>There are also a few complications. Teide is an active volcano; apart from volcanic eruptions, <a href="https://www.express.co.uk/news/science/717563/Canary-Islands-earthquake-tremors-Tenerife-Mount-Teide-volcano">tectonic movements</a> are common in the area and may damage the tunnel. To make it a feasible location comprehensive geological studies need to be performed to avoid any hot spots of volcanic activity.</p>
 <p>To prevent accidents the precise location must be chosen carefully: there need to be no villages on the slope opposite the tunnel entrance. Any failed launches will probably fall in the sea, but if post-lauch speed is below 500 m/s they might fall on the island. Also, a wide area near the tunnel exit and along the intended trajectory will need to be evacuated whenever launches are scheduled.</p>
 <p>I contend that a space launcher will also be a major tourist attraction, both for the mountain and the island. The entry point can be visited all year round. Together with the influx of high quality jobs the space launcher should be a major boom for the island.</p>
@@ -120,11 +128,14 @@
 <p>The whole power needs to be released in 6 seconds, and so result in an insane power release of 67 Gigawatt. But electrical power can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise. Assuming the coils can be charged in 24h only 4 megawatt are needed, which can be achieved with a <a href="http://www.macon.com/news/business/article30238353.html">small solar farm</a>.</p>
 <p>The top of the tunnel should open automatically. A <a href="https://en.wikipedia.org/wiki/Plasma_window">plasma window</a> has been proposed, but it is not necessary: a regular diaphragm is enough to keep air out of the tunnel and open in a few seconds.</p>
 <h3 id="efficiency-and-dissipation">Efficiency and Dissipation</h3>
-<p>We now come to the most complex part of the project: efficiency, heat and dissipation. <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
+<p>We now come to the most complex part of the project: efficiency, heat and dissipation.</p>
+<p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible.</p>
+<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
 <blockquote>
 <p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. [...] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
 </blockquote>
-<p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> only add more stages.</p>
+<p>In this same article, Davis mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With such an efficiency of 90%, energy losses would amount to 40 GJ, and would be directly converted into heat.</p>
+<p>Let us suppose a copper armature weighing a ton, which should maximize conductivity and heat capacity. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> only add more stages.</p>
 <h4 id="water-coolant-and-propellant">Water Coolant and Propellant</h4>
 <p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>.</p>
 <p>Also 2 MJ/Kg are needed to <a href="">vaporize water</a> <a href="https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r">replace</a>.</p>
@@ -177,39 +188,52 @@
 <h2 id="computations">Computations</h2>
 <p>Detailed computations are presented here.</p>
 <h3 id="kinetic-parameters">Kinetic Parameters</h3>
-<p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km: <br /><span class="math display">$$v = 9\frac{\mathrm{km}}{\mathrm{s}},$$</span><br /> <br /><span class="math display"><em>Δ</em><em>x</em> = 28<em>k</em><em>m</em>.</span><br /> Assume constant acceleration <span class="math inline"><em>a</em></span>. The motion is described by these well known two equations: <br /><span class="math display"><em>v</em> = <em>a</em> ⋅ <em>t</em></span><br /> <br /><span class="math display"><em>v</em> = <em>a</em>⋅</span><br /> <br /><span class="math display"><em>v</em> = <em>a</em> ⋅ <em>t</em></span><br /> <br /><span class="math display">$$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$</span><br /> Passage time can be computed as: <br /><span class="math display">$$ t = \frac{2 \cdot \Delta x}{v} = 2 \cdot \frac{28 \cdot 10^3 \mathrm{m}}{9 \cdot 10^3 \frac{\mathrm{m}}{\mathrm{s}}} \approx 6.2 s.$$</span><br /></p>
+<p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km:</p>
+<p><br /><span class="math display">$$v = 9 \\mathrm{km}/\\mathrm{s},$$</span><br /></p>
+<p><br /><span class="math display">$$\\Delta x = 28\\mathrm{km}.$$</span><br /></p>
+<p>Assume constant acceleration <span class="math inline"><em>a</em></span>. The motion is described by the well known two equations:</p>
+<p><br /><span class="math display">$$v = a \\cdot t,$$</span><br /> <br /><span class="math display">$$\\Delta x = \\frac{1}{2} \\cdot a \\cdot t^2.$$</span><br /></p>
+<p>Time to traverse the tunnel can be computed as:</p>
+<p><br /><span class="math display">$$ t = \\frac{2 \\cdot \\Delta x}{v} = 2 \\cdot \\frac{28 \\cdot 10^3 \\mathrm{m}}{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}} \\approx 6.2 \\mathrm{s}.$$</span><br /></p>
 <p>Acceleration is thus:</p>
-<p><br /><span class="math display"><em>a</em> = <em>v</em>/<em>t</em> = 9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>/6.2<em>s</em> ≈ 1.45 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em><sup>2</sup>.</span><br /></p>
-<p>Or 145 g, where g is the acceleration of gravity on Earth.</p>
+<p><br /><span class="math display">$$a = \\frac{v}{t} = \\frac{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}}{6.2 \\mathrm{s}} \\approx 1.45 \\cdot 10^3 m/s^2.$$</span><br /></p>
+<p>Or <span class="math inline">145<em>g</em></span>, where <span class="math inline"><em>g</em></span> is the acceleration of gravity on Earth.</p>
 <h3 id="energy-and-power">Energy and Power</h3>
 <p>Kinetic energy can computed as:</p>
-<p><br /><span class="math display"><em>E</em> = <em>m</em> ⋅ <em>v</em><sup>2</sup>/2.</span><br /></p>
+<p><br /><span class="math display">$$E = \\frac{1}{2} \\cdot m \\cdot v^2.$$</span><br /></p>
 <p>At 9 km/s a 10-ton vehicle will have:</p>
-<p><br /><span class="math display"><em>E</em> = 1/2 ⋅ 10<sup>4</sup><em>k</em><em>g</em> ⋅ (9 ⋅ 10<sup>3</sup><em>m</em>/<em>s</em>)<sup>2</sup> ≈ 400 ⋅ 10<sup>9</sup><em>J</em> = 400<em>G</em><em>J</em></span><br /></p>
+<p><br /><span class="math display">$$E = \\frac{1}{2} \\cdot 10^4 \\mathrm{kg} \\cdot (9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s})^2 \\approx 400 \\cdot 10^9 \\mathrm{J} = 400 \\mathrm{GJ}$$</span><br /></p>
 <p>Or 400 gigajoules. That is <a href="http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&amp;unit=0&amp;val=400">111 megawatts-hour</a>.</p>
 <p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total cost <span class="math inline"><em>C</em></span> is:</p>
-<p><br /><span class="math display"><em>C</em> = 111<em>M</em><em>W</em> ⋅ <em>h</em> ⋅ €0.10/<em>K</em><em>W</em> ⋅ <em>h</em>/0.80 = €13875.</span><br /></p>
+<p><br /><span class="math display">$$C = \\frac{1}{0.80} \\cdot 111\\mathrm{MW}\\cdot\\mathrm{h} \\cdot \\frac{0.10 €}{\\mathrm{KW}\\cdot\\mathrm{h}} = €13875.$$</span><br /></p>
 <p>or around €14K.</p>
 <p>Power required depends on charging time. Assuming the tunnel can be charged over a 24h period:</p>
-<p>P = E / t = 400 GJ / 86400 s = 4.63 MW</p>
-<p>or around 4 megawatt.</p>
+<p><br /><span class="math display">$$P = \\frac{E}{t} = \\frac{400 \\mathrm{GJ}}{86400 \\mathrm{s}} = 4.63 MW,$$</span><br /></p>
+<p>or around 5 megawatt.</p>
 <h3 id="efficiency-and-dissipation-1">Efficiency and Dissipation</h3>
-<p>As explained in <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, efficiency depends on the slip at each coil, which is computed using the difference between the vehicle speed <span class="math inline"><em>V</em></span> and the speed of the travelling wave <span class="math inline"><em>V</em><sub><em>s</em></sub></span>: <br /><span class="math display">$$S = \frac{V_s - V}{V_s}$$</span><br /> Efficiency will thus be:</p>
-<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004)</a> mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With such an efficiency of 90%, energy losses would amount to 40 GJ, and would be directly converted into heat.</p>
-<p>Let us suppose a copper sabot weighing a ton, which should maximize conductivity and heat capacity. The specific heat of copper is:</p>
-<p><br /><span class="math display"><em>C</em><em>p</em> = 430<em>J</em>/(<em>K</em><em>g</em> ⋅ <em>K</em>).</span><br /></p>
+<p>As explained in <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, efficiency depends on the slip at each coil, which is computed using the difference between the vehicle speed <span class="math inline"><em>v</em></span> and the speed of the travelling wave <span class="math inline"><em>v</em><sub><em>s</em></sub></span>:</p>
+<p><br /><span class="math display">$$S_n = \\frac{v_s - v}{v_s}$$</span><br /></p>
+<p>Efficiency <span class="math inline"><em>η</em></span> is the ratio of kinetic energy <span class="math inline"><em>E</em><sub><em>k</em></sub></span> to total energy <span class="math inline"><em>E</em></span>:</p>
+<p><br /><span class="math display">$$η = \\frac{E_k}{E} = \\frac{E_k}{E_k + E_t},$$</span><br /></p>
+<p>where <span class="math inline"><em>E</em><sub><em>t</em></sub></span> is thermal energy. Since thermal energy for each coil <span class="math inline"><em>E</em><sub><em>t</em><em>n</em></sub></span> can be computed as</p>
+<p><br /><span class="math display">$$E_{tn} = E_{kn} \\frac{S_n}{1-S_n},$$</span><br /></p>
+<p>the efficiency of each coil <span class="math inline"><em>η</em><sub><em>n</em></sub></span> will be:</p>
+<p><br /><span class="math display">$$η_n = \\frac{E_{kn}}{E_{kn} + E_{tn}} = \\frac{E_{kn}}{E_{kn} + E_{kn} \\cdot  \\frac{S_n}{1-S_n}} \\implies$$</span><br /> <br /><span class="math display">$$η_n = \\frac{E_{kn}}{E_{kn} \\cdot \\frac{1+S_n}{1-S_n}} = \\frac{1-S_n}{1+S_n}.$$</span><br /></p>
+<p>Bigger slips will lead to less efficiency. Global efficiency <span class="math inline"><em>η</em></span> will depend on the sum of kinetic energies and the total sum of kinetic and thermal energies for all coils. Shorter coils will generate less slip, and therefore increasing the number of coils should increase total efficiency.</p>
+<p>The specific heat of copper is:</p>
+<p><br /><span class="math display">$$Cp = 430 J/(Kg\\cdot K).$$</span><br /></p>
 <p>We will consider a maximum temperature of</p>
-<p><br /><span class="math display"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em> = 1000<em>K</em>,</span><br /></p>
+<p><br /><span class="math display">$$T_max = 1000\\mathrm{K},$$</span><br /></p>
 <p>a bit below the fusion temperature of copper, then thermal energy <span class="math inline"><em>E</em><sub><em>t</em></sub></span> will be:</p>
-<p><br /><span class="math display"><em>E</em><em>t</em> = <em>C</em><em>p</em> ⋅ <em>m</em> ⋅ <em>T</em> ⟹ <em>T</em> = <em>E</em><em>t</em>/(<em>C</em><em>p</em> ⋅ <em>m</em>).</span><br /></p>
-<p>With <span class="math inline">40<em>G</em><em>J</em></span> we would raise <span class="math inline">10<sup>3</sup><em>K</em><em>g</em></span> to</p>
-<p><br /><span class="math display"><em>T</em> = 40<em>G</em><em>J</em>/(430<em>J</em>/(<em>K</em><em>g</em> ⋅ <em>K</em>)⋅10<sup>3</sup><em>K</em><em>g</em>)≈10<sup>5</sup><em>K</em>.</span><br /></p>
+<p><br /><span class="math display">$$Et = Cp \\cdot m \\cdot T \\implies T = Et / (Cp \\cdot m).$$</span><br /></p>
+<p>With <span class="math inline">$40\\mathrm{GJ}$</span> we would raise <span class="math inline">$10^3\\mathrm{Kg}$</span> to</p>
+<p><br /><span class="math display">$$T = 40 GJ / (430 J/(Kg\\cdot K) \\cdot 10^3 Kg) \\approx 10^5 K.$$</span><br /></p>
 <p>Such a temperature would instantly vaporize all known materials.</p>
-<p>Even working with an efficiency of 99%, we would still have to dissipate <span class="math inline">4<em>G</em><em>J</em></span>, enough to heat the sabot to <span class="math inline">10<sup>4</sup><em>K</em></span>. An efficiency of 99.9% would be needed to lower the temperature to <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
-<p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, <span class="math inline">4<em>G</em><em>J</em></span> can be spread among 100 tons of copper and avoid reaching <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>.</p>
-<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: <br /><span class="math display"><em>E</em><em>t</em> = <em>C</em><em>p</em> ⋅ <em>m</em> ⋅ <em>T</em> ≈ (1 − <em>η</em>)⋅<em>E</em><sub><em>k</em></sub> = (1 − <em>η</em>)⋅<em>m</em> ⋅ <em>v</em><sup>2</sup> ⟹ <em>T</em> = (1 − <em>η</em>)⋅<em>v</em><sup>2</sup>/<em>C</em><em>p</em>.</span><br /> <br /><span class="math display"><em>v</em> = 3<em>k</em><em>m</em>/<em>s</em> ⟹ <em>T</em> = 0.1 ⋅ 9 ⋅ 10<sup>6</sup>/430 ≈ 2000<em>K</em>,</span><br /> if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
-<p>Of course, <span class="math inline">1000<em>K</em></span> is still a considerable temperature that would cause significant plastic deformations.</p>
-<p>Water dissipation would help with a specific heat of <span class="math inline">$4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$</span>.</p>
+<p>Even working with an efficiency of 99%, we would still have to dissipate <span class="math inline">$4\\mathrm{GJ}$</span>, enough to heat the sabot to <span class="math inline">$10^4\\mathrm{K}$</span>. An efficiency of 99.9% would be needed to lower the temperature to <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
+<p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, <span class="math inline">$4\\mathrm{GJ}$</span> can be spread among 100 tons of copper and avoid reaching <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>.</p>
+<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: <br /><span class="math display">$$Et = Cp \\cdot m \\cdot T \\approx (1 - η) \\cdot E_k = (1 - η) \\cdot m \\cdot v^2 \\implies T = (1 - η) \\cdot v^2 / Cp.$$</span><br /> <br /><span class="math display">$$v = 3 km/s \\implies T = 0.1 \\cdot 9 \\cdot 10^6 / 430 \\approx 2000 K,$$</span><br /> if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
+<p>Of course, <span class="math inline">$1000\\mathrm{K}$</span> is still a considerable temperature that would cause significant plastic deformations.</p>
+<p>Water dissipation would help with a specific heat of <span class="math inline">$4\\frac{\\mathrm{KJ}}{\\mathrm{Kg}\\cdot{K}}$</span>.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
 <p>Nothing revolutionary has been proposed in this article; everything is based on existing technologies.</p>
