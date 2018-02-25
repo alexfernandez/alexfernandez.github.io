@@ -124,30 +124,9 @@
 <h3 id="launch">Launch</h3>
 <p>Before each launch all coils must be charged. When the vehicle passes through them they will release their energy, imparting it onto the vehicle. Synchronization of the coils is essential.</p>
 <p>At the precise moment of launch the vehicle lies at rest at the foot of the tunnel. The tunnel passage would be very swift: it will take around 6 seconds to reach our target speed of 9 km/s.</p>
-<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt-hour. At a standard price of €0.10 per KWh, and assuming an efficiency of 80%, the total cost per launch is €14k. An efficiency of 90% <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">has been estimated</a>. Even with lower efficiencies the cost is not dramatic.</p>
+<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt-hour. At a standard price of €0.10 per KWh, and assuming an efficiency of 80%, the total electrical cost per launch is €14k. An efficiency of 90% <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">has been estimated</a>. Even with lower efficiencies the cost is not dramatic.</p>
 <p>The whole power needs to be released in 6 seconds, and so result in an insane power release of 67 Gigawatt. But electrical power can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise. Assuming the coils can be charged in 24h only 4 megawatt are needed, which can be achieved with a <a href="http://www.macon.com/news/business/article30238353.html">small solar farm</a>.</p>
 <p>The top of the tunnel should open automatically. A <a href="https://en.wikipedia.org/wiki/Plasma_window">plasma window</a> has been proposed, but it is not necessary: a regular diaphragm is enough to keep air out of the tunnel and open in a few seconds.</p>
-<h3 id="efficiency-and-dissipation">Efficiency and Dissipation</h3>
-<p>We now come to the most complex part of the project: efficiency, heat and dissipation.</p>
-<p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> it is possible.</p>
-<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
-<blockquote>
-<p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. [...] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
-</blockquote>
-<p>In this same article, Davis mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With such an efficiency of 90%, energy losses would amount to 40 GJ, and would be directly converted into heat.</p>
-<p>Let us suppose a copper armature weighing a ton, which should maximize conductivity and heat capacity. And <a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> only add more stages.</p>
-<h4 id="water-coolant-and-propellant">Water Coolant and Propellant</h4>
-<p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>.</p>
-<p>Also 2 MJ/Kg are needed to <a href="">vaporize water</a> <a href="https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r">replace</a>.</p>
-<p>So 2 GJ would be used just to vaporize the ton of water. As it boils, water vapor can be directed through a nozzle and propel the vehicle even further. Explosive heating would be a problem, since water would be heated in just 6 seconds. But the pressures involved should not be too terrible.</p>
-<h4 id="superconductors">Superconductors</h4>
-<p>Superconducting wires can store current without loss. They have been successfully used in several maglev projects; the low temperatures required can be reached relatively easily in a sealed tunnel.</p>
-<h4 id="alternative-propulsion">Alternative Propulsion</h4>
-<p>Tanks built to withstand <a href="https://wikivisually.com/wiki/Hydrogen_tank">1000 atmospheres</a> are used for storing hydrogen.</p>
-<h3 id="atmospheric-passage">Atmospheric Passage</h3>
-<p>When reaching the atmosphere the vehicle will be moving at a very high speed. Since the vehicle is launched from a relatively low altitude, aerodynamics must be considered. To reach low earth orbit (LEO) it should fly at at least 7.8 km/s; and considerably more if we take drag into account.</p>
-<p>We can take as reference a post-launch speed of 9 km/s; this is almost Mach 30, and the vehicle would instantly be hypersonic. Impact with air would result in a tremendous deceleration.</p>
-<p><a href="http://pinchito.es/mass-driver/drag.html">This simulation</a> allows you to change several parameters and simulate the flight.</p>
 <h3 id="vehicle">Vehicle</h3>
 <p>Having a heavy vehicle is important to withstand drag forces upon entering the atmosphere: a light vehicle would lose too much speed as to reach LEO. A 10-ton vehicle would be similar in weight to an <a href="https://en.wikipedia.org/wiki/Eurofighter_Typhoon">Eurofighter Typhoon</a>.</p>
 <p>A <a href="http://www.aerospaceweb.org/design/waverider/main.shtml">waverider design</a> should allow the vehicle to reduce drag, and therefore reach LEO with our design speed. Note that several hypersonic vehicles have been designed and operated to date.</p>
@@ -155,17 +134,45 @@
 <p>The vehicle can be made to reenter the atmosphere and be reused multiple times. An ablation shield must then be used to absorb the heat of reentry. Another option is to build cheap disposable vehicles.</p>
 <p>Magnetic levitation might be impractical for an aerodynamic vehicle. An interesting option is to embed the vehicle in a cylindrical <a href="https://en.wikipedia.org/wiki/Sabot">sabot</a> with optimal magnetic properties, and then discard it at exit. This is the technique used for military railguns. As a bonus the sabot might absorb part of the shock when entering the atmosphere.</p>
 <p>The vehicle itself can be used for unmanned exploration.</p>
-<h3 id="cargo">Cargo</h3>
+<h4 id="cargo">Cargo</h4>
 <p>Cargo is limited to what the vehicle can carry aboard. The kind of cargo bay that can be fit in the vehicle is not large, but it can carry a sizeable weight: of the 10 tons for the complete vehicle around half might be cargo. But even one ton would be a great help to space exploration. Obviously the space launcher would not be able to send large payloads to LEO, so it would not be a substitute to rockets, for now. But it is very useful to send supplies to orbiting spaceships, such as the International Space Station (ISS).</p>
 <p>Certifying the cargo for an acceleration of 150 g should not be hard.</p>
-<h3 id="human-tripulated-ship">Human Tripulated Ship</h3>
-<p>The problem of transporting humans is entirely different. We are squishy and do not tolerate well accelerations beyond 4 g. On a 28 km tunnel the exit speed would be of at most 1500 m/s. The vehicle should carry enough fuel to reach LEO after that.</p>
+<h4 id="human-tripulated-ship">Human Tripulated Ship</h4>
+<p>The problem of launching humans with a coilgun is even harder than with cargo. We are squishy and do not tolerate well accelerations beyond 4 g. On a 28 km tunnel the exit speed would be of at most 1500 m/s. The vehicle should carry enough fuel to reach LEO after that.</p>
 <p>This launch speed would be no small feat.</p>
 <p>That is, unless we visit more exotic options. Fighter pilots regularly withstand <a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19980223621.pdf">more than 10g</a>, which would give us 2366 m/s. This speed is almost as much as the delta-v generated by the first stage of the <a href="https://en.wikipedia.org/wiki/Saturn_V">Saturn V</a>, and can be used to launch a small rocket to LEO. This acceleration would be sustained for only 12 seconds: with a proper suit a trained subject would remain conscious.</p>
-<p>A human in a liquid tank should resist higher accelerations.</p>
+<p>A human in a liquid tank should resist higher accelerations, but it has not yet been tried.</p>
+<h3 id="efficiency-and-dissipation">Efficiency and Dissipation</h3>
+<p>We now come to the most complex part of the project: efficiency, heat and dissipation.</p>
+<p>Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>.</p>
+<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
+<blockquote>
+<p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. [...] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
+</blockquote>
+<p>In this same article, Davis mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With an efficiency of 90%, energy losses would amount to about 44 GJ, which would be directly converted into heat. We will consider that half the energy will go into heating the coils and the other half directly into the armature.</p>
+<p>Let us suppose a copper sabot weighing a ton, which in this context is usually called an <a href="https://en.wikipedia.org/wiki/Armature_(electrical_engineering)">armature</a>. Copper should maximize conductivity and heat capacity. We will consider a maximum temperature of</p>
+<p>$$T_{max} = 1000\mathrm{K},$$</p>
+<p>a bit below the fusion temperature of copper. With 22 GJ the armature would heat by $5\cdot 10^4\mathrm{K}$, which is about fifty thousand °C.</p>
+<p><a href="https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf">Balikci <em>et al</em> (2007)</a> suggest adding more stages to improve efficiency. Even with an efficiency of 99% we would have to deal with about 2 GJ of heat, which would still raise the temperature by $5\cdot 10^3\mathrm{K}$. To stay below $T_{max}$ the efficiency would need to be 99.8%. Needless to say, this would need a lot of stages and therefore a lot of coils.</p>
+<p>The coils in the tunnel will also heat, although in this case the temperature is spread across much more material. According to <a href="https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf">Marder (1993)</a> a launch gun to reach LEO should be possible with much lower efficiencies of 30%, only raising the temperature of the coils by $100\mathrm{K}$. Temperature in the armature is sadly not considered.</p>
+<h4 id="water-coolant-and-propellant">Water Coolant and Propellant</h4>
+<p>There is an interesting variant: carry a ton of water as coolant. <a href="https://en.wikipedia.org/wiki/Heat_capacity">Specific heat of water is ten times bigger than copper</a>.</p>
+<p>Also 2 MJ/Kg are needed to <a href="">vaporize water</a> <a href="https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r">replace</a>.</p>
+<p>So 2 GJ would be used just to vaporize the ton of water. As it boils, water vapor can be directed through a nozzle and propel the vehicle even further. Explosive heating would be a problem, since water would be heated in just 6 seconds. But the pressures involved should not be too terrible.</p>
+<p>Tanks built to withstand <a href="https://wikivisually.com/wiki/Hydrogen_tank">1000 atmospheres</a> are used for storing hydrogen.</p>
+<h4 id="superconductors">Superconductors</h4>
+<p>Superconducting wires can store current without loss. They have been successfully used in several maglev projects; the low temperatures required can be reached relatively easily in a sealed tunnel. It remains to be seen how they would fare in a large coilgun, but if used might reduce the need for large energy storage since coils would just keep an induced current without loss.</p>
+<h3 id="atmospheric-passage">Atmospheric Passage</h3>
+<p>When reaching the atmosphere the vehicle will be moving at a very high speed. Since the vehicle is launched from a relatively low altitude, aerodynamics must be considered. To reach low earth orbit (LEO) it should fly at at least 7.8 km/s; and considerably more if we take drag into account.</p>
+<p>We can take as reference a post-launch speed of 9 km/s; this is almost Mach 30, and the vehicle would instantly be hypersonic. Impact with air would result in a tremendous deceleration.</p>
+<p><a href="http://pinchito.es/mass-driver/drag.html">This simulation</a> allows you to change several parameters and simulate the flight.</p>
+<h3 id="other-considerations">Other Considerations</h3>
+<h4 id="cost">Cost</h4>
+<h4 id="levitation">Levitation</h4>
+<h4 id="heat-expansion">Heat Expansion</h4>
 <h2 id="going-to-mars-and-back">Going to Mars… and Back</h2>
 <p>Rockets have dominated interplanetary exploration since the beginning of the space age. They have served us well for reaching the Moon, first with probes and then by a few select astronauts. Mars however is a different story.</p>
-<p>Travelling to Mars is quite easy: many probes have been sent there. The problems start when you want to return afterwards. With only 0.16g launching from the Moon was easy enough, and could be done with a <a href="https://en.wikipedia.org/wiki/Ascent_Propulsion_System">relatively low-powered system</a>. But Mars gravity is more than twice at 0.38g, and also there is an atmosphere. A proportionally big rocket is required to leave the Martian surface.</p>
+<p>Travelling to Mars is quite easy: many probes have been sent there. The problems start when you want to return afterwards. With only 0.16g launching from the Moon was easy enough, and could be done with a <a href="https://en.wikipedia.org/wiki/Ascent_Propulsion_System">relatively low-powered system</a>. But Mars gravity is more than twice at 0.38g, and also there is an atmosphere. A proportionally big rocket is required to leave the Martian surface, which is why many launches are needed to transport the tripulation, the cargo and the return rocket.</p>
 <h3 id="spacex">SpaceX</h3>
 <p>Elon Musk often speaks about reaching Mars. His plan is quite complex, depending on several launches and in-orbit refuelling. It is also quite expensive: <a href="https://www.nytimes.com/2016/09/28/science/elon-musk-spacex-mars-exploration.html">around 10 billion dollars</a>.</p>
 <p>The problem of reusable rockets is that they have not been proven in practice. The Space Shuttle program used reusable boosters and a reusable vehicle; it was <a href="https://en.wikipedia.org/wiki/Criticism_of_the_Space_Shuttle_program">quite more expensive</a> than expendable alternatives which are still in operation.</p>
@@ -220,18 +227,15 @@
 <p>the efficiency of each coil $η_n$ will be:</p>
 <p>$$η_n = \frac{E_{kn}}{E_{kn} + E_{tn}} = \frac{E_{kn}}{E_{kn} + E_{kn} \cdot \frac{S_n}{1-S_n}} \implies$$ $$η_n = \frac{E_{kn}}{E_{kn} \cdot \frac{1+S_n}{1-S_n}} = \frac{1-S_n}{1+S_n}.$$</p>
 <p>Bigger slips will lead to less efficiency. Global efficiency $η$ will depend on the sum of kinetic energies and the total sum of kinetic and thermal energies for all coils. Shorter coils will generate less slip, and therefore increasing the number of coils should increase total efficiency.</p>
-<p>The specific heat of copper is:</p>
-<p>$$Cp = 430 J/(Kg\cdot K).$$</p>
-<p>We will consider a maximum temperature of</p>
-<p>$$T_max = 1000\mathrm{K},$$</p>
-<p>a bit below the fusion temperature of copper, then thermal energy $E_t$ will be:</p>
-<p>$$Et = Cp \cdot m \cdot T \implies T = Et / (Cp \cdot m).$$</p>
+<p>An armature of pure copper will heat due to energy losses. The specific heat of copper is:</p>
+<p>$$Cp = 430 \frac{\mathrm{J}}{\mathrm{Kg}\cdot \mathrm{K}}.$$ We can compute the resulting temperature from any thermal energy on copper: then thermal energy $E_t$ will be:</p>
+<p>$$E_t = C_p \cdot m \cdot T \implies T = \frac{E_t}{C_p \cdot m}.$$</p>
 <p>With $40\mathrm{GJ}$ we would raise $10^3\mathrm{Kg}$ to</p>
-<p>$$T = 40 GJ / (430 J/(Kg\cdot K) \cdot 10^3 Kg) \approx 10^5 K.$$</p>
+<p>$$T = \frac{40 GJ}{\frac{430 J}{Kg\cdot K} \cdot 10^3 Kg} \approx 10^5 K.$$</p>
 <p>Such a temperature would instantly vaporize all known materials.</p>
-<p>Even working with an efficiency of 99%, we would still have to dissipate $4\mathrm{GJ}$, enough to heat the sabot to $10^4\mathrm{K}$. An efficiency of 99.9% would be needed to lower the temperature to $T_max$. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
+<p>Even working with an efficiency of 99%, we would still have to dissipate $4\mathrm{GJ}$, enough to heat the armature to $10^4\mathrm{K}$. An efficiency of 99.9% would be needed to lower the temperature to $T_max$. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
 <p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, $4\mathrm{GJ}$ can be spread among 100 tons of copper and avoid reaching $T_max$.</p>
-<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: $$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$ $$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$ if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
+<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: $$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$ $$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$ if all heat is generated in the armature. If it is spread between armature and coils, temperature might be reduced to half that and be within parameters.</p>
 <p>Of course, $1000\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.</p>
 <p>Water dissipation would help with a specific heat of $4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.</p>
 <h2 id="conclusion">Conclusion</h2>
