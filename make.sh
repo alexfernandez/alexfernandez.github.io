@@ -38,7 +38,8 @@ pandoc --template read-only.html -s 2016/the-amazing-mind.md -o 2016/the-amazing
 pandoc --template read-only.html -s 2017/jsdayes-2017-cost.md -o 2017/jsdayes-2017-cost.html
 pandoc --template read-only.html -s 2017/build-your-own-devops-infrastructure.md -o 2017/build-your-own-devops-infrastructure.html
 pandoc --template read-only.html -s 2017/origins-language.md -o 2017/origins-language.html
-pandoc --template read-only.html -s 2018/building-space-launcher.md -o 2018/building-space-launcher.html
+pandoc --template read-only.html -s \
+       -f markdown-tex_math_dollars 2018/building-space-launcher.md -o 2018/building-space-launcher.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
 

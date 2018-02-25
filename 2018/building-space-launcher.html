@@ -189,51 +189,51 @@
 <p>Detailed computations are presented here.</p>
 <h3 id="kinetic-parameters">Kinetic Parameters</h3>
 <p>We have to accelerate a 10-ton vehicle to 9 km/s in 28 km:</p>
-<p><br /><span class="math display">$$v = 9 \\mathrm{km}/\\mathrm{s},$$</span><br /></p>
-<p><br /><span class="math display">$$\\Delta x = 28\\mathrm{km}.$$</span><br /></p>
-<p>Assume constant acceleration <span class="math inline"><em>a</em></span>. The motion is described by the well known two equations:</p>
-<p><br /><span class="math display">$$v = a \\cdot t,$$</span><br /> <br /><span class="math display">$$\\Delta x = \\frac{1}{2} \\cdot a \\cdot t^2.$$</span><br /></p>
+<p>$$v = 9 \mathrm{km}/\mathrm{s},$$</p>
+<p>$$\Delta x = 28\mathrm{km}.$$</p>
+<p>Assume constant acceleration $a$. The motion is described by the well known two equations:</p>
+<p>$$v = a \cdot t,$$ $$\Delta x = \frac{1}{2} \cdot a \cdot t^2.$$</p>
 <p>Time to traverse the tunnel can be computed as:</p>
-<p><br /><span class="math display">$$ t = \\frac{2 \\cdot \\Delta x}{v} = 2 \\cdot \\frac{28 \\cdot 10^3 \\mathrm{m}}{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}} \\approx 6.2 \\mathrm{s}.$$</span><br /></p>
+<p>$$ t = \frac{2 \cdot \Delta x}{v} = 2 \cdot \frac{28 \cdot 10^3 \mathrm{m}}{9 \cdot 10^3 \mathrm{m}/\mathrm{s}} \approx 6.2 \mathrm{s}.$$</p>
 <p>Acceleration is thus:</p>
-<p><br /><span class="math display">$$a = \\frac{v}{t} = \\frac{9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s}}{6.2 \\mathrm{s}} \\approx 1.45 \\cdot 10^3 m/s^2.$$</span><br /></p>
-<p>Or <span class="math inline">145<em>g</em></span>, where <span class="math inline"><em>g</em></span> is the acceleration of gravity on Earth.</p>
+<p>$$a = \frac{v}{t} = \frac{9 \cdot 10^3 \mathrm{m}/\mathrm{s}}{6.2 \mathrm{s}} \approx 1.45 \cdot 10^3 m/s^2.$$</p>
+<p>Or $145g$, where $g$ is the acceleration of gravity on Earth.</p>
 <h3 id="energy-and-power">Energy and Power</h3>
 <p>Kinetic energy can computed as:</p>
-<p><br /><span class="math display">$$E = \\frac{1}{2} \\cdot m \\cdot v^2.$$</span><br /></p>
+<p>$$E = \frac{1}{2} \cdot m \cdot v^2.$$</p>
 <p>At 9 km/s a 10-ton vehicle will have:</p>
-<p><br /><span class="math display">$$E = \\frac{1}{2} \\cdot 10^4 \\mathrm{kg} \\cdot (9 \\cdot 10^3 \\mathrm{m}/\\mathrm{s})^2 \\approx 400 \\cdot 10^9 \\mathrm{J} = 400 \\mathrm{GJ}$$</span><br /></p>
+<p>$$E = \frac{1}{2} \cdot 10^4 \mathrm{kg} \cdot (9 \cdot 10^3 \mathrm{m}/\mathrm{s})^2 \approx 400 \cdot 10^9 \mathrm{J} = 400 \mathrm{GJ}$$</p>
 <p>Or 400 gigajoules. That is <a href="http://online.unitconverterpro.com/conversion-tables/convert-group/factors.php?cat=energy&amp;unit=0&amp;val=400">111 megawatts-hour</a>.</p>
-<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total cost <span class="math inline"><em>C</em></span> is:</p>
-<p><br /><span class="math display">$$C = \\frac{1}{0.80} \\cdot 111\\mathrm{MW}\\cdot\\mathrm{h} \\cdot \\frac{0.10 €}{\\mathrm{KW}\\cdot\\mathrm{h}} = €13875.$$</span><br /></p>
+<p><a href="https://en.wikipedia.org/wiki/Electricity_pricing">Electricity prices</a> vary wildly across Europe; we can use an industrial price of around €0.10 per KWh. With 80% efficiency, total cost $C$ is:</p>
+<p>$$C = \frac{1}{0.80} \cdot 111\mathrm{MW}\cdot\mathrm{h} \cdot \frac{0.10 €}{\mathrm{KW}\cdot\mathrm{h}} = €13875.$$</p>
 <p>or around €14K.</p>
 <p>Power required depends on charging time. Assuming the tunnel can be charged over a 24h period:</p>
-<p><br /><span class="math display">$$P = \\frac{E}{t} = \\frac{400 \\mathrm{GJ}}{86400 \\mathrm{s}} = 4.63 MW,$$</span><br /></p>
+<p>$$P = \frac{E}{t} = \frac{400 \mathrm{GJ}}{86400 \mathrm{s}} = 4.63 MW,$$</p>
 <p>or around 5 megawatt.</p>
 <h3 id="efficiency-and-dissipation-1">Efficiency and Dissipation</h3>
-<p>As explained in <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, efficiency depends on the slip at each coil, which is computed using the difference between the vehicle speed <span class="math inline"><em>v</em></span> and the speed of the travelling wave <span class="math inline"><em>v</em><sub><em>s</em></sub></span>:</p>
-<p><br /><span class="math display">$$S_n = \\frac{v_s - v}{v_s}$$</span><br /></p>
-<p>Efficiency <span class="math inline"><em>η</em></span> is the ratio of kinetic energy <span class="math inline"><em>E</em><sub><em>k</em></sub></span> to total energy <span class="math inline"><em>E</em></span>:</p>
-<p><br /><span class="math display">$$η = \\frac{E_k}{E} = \\frac{E_k}{E_k + E_t},$$</span><br /></p>
-<p>where <span class="math inline"><em>E</em><sub><em>t</em></sub></span> is thermal energy. Since thermal energy for each coil <span class="math inline"><em>E</em><sub><em>t</em><em>n</em></sub></span> can be computed as</p>
-<p><br /><span class="math display">$$E_{tn} = E_{kn} \\frac{S_n}{1-S_n},$$</span><br /></p>
-<p>the efficiency of each coil <span class="math inline"><em>η</em><sub><em>n</em></sub></span> will be:</p>
-<p><br /><span class="math display">$$η_n = \\frac{E_{kn}}{E_{kn} + E_{tn}} = \\frac{E_{kn}}{E_{kn} + E_{kn} \\cdot  \\frac{S_n}{1-S_n}} \\implies$$</span><br /> <br /><span class="math display">$$η_n = \\frac{E_{kn}}{E_{kn} \\cdot \\frac{1+S_n}{1-S_n}} = \\frac{1-S_n}{1+S_n}.$$</span><br /></p>
-<p>Bigger slips will lead to less efficiency. Global efficiency <span class="math inline"><em>η</em></span> will depend on the sum of kinetic energies and the total sum of kinetic and thermal energies for all coils. Shorter coils will generate less slip, and therefore increasing the number of coils should increase total efficiency.</p>
+<p>As explained in <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, efficiency depends on the slip at each coil, which is computed using the difference between the vehicle speed $v$ and the speed of the travelling wave $v_s$:</p>
+<p>$$S_n = \frac{v_s - v}{v_s}$$</p>
+<p>Efficiency $η$ is the ratio of kinetic energy $E_k$ to total energy $E$:</p>
+<p>$$η = \frac{E_k}{E} = \frac{E_k}{E_k + E_t},$$</p>
+<p>where $E_t$ is thermal energy. Since thermal energy for each coil $E_{tn}$ can be computed as</p>
+<p>$$E_{tn} = E_{kn} \frac{S_n}{1-S_n},$$</p>
+<p>the efficiency of each coil $η_n$ will be:</p>
+<p>$$η_n = \frac{E_{kn}}{E_{kn} + E_{tn}} = \frac{E_{kn}}{E_{kn} + E_{kn} \cdot \frac{S_n}{1-S_n}} \implies$$ $$η_n = \frac{E_{kn}}{E_{kn} \cdot \frac{1+S_n}{1-S_n}} = \frac{1-S_n}{1+S_n}.$$</p>
+<p>Bigger slips will lead to less efficiency. Global efficiency $η$ will depend on the sum of kinetic energies and the total sum of kinetic and thermal energies for all coils. Shorter coils will generate less slip, and therefore increasing the number of coils should increase total efficiency.</p>
 <p>The specific heat of copper is:</p>
-<p><br /><span class="math display">$$Cp = 430 J/(Kg\\cdot K).$$</span><br /></p>
+<p>$$Cp = 430 J/(Kg\cdot K).$$</p>
 <p>We will consider a maximum temperature of</p>
-<p><br /><span class="math display">$$T_max = 1000\\mathrm{K},$$</span><br /></p>
-<p>a bit below the fusion temperature of copper, then thermal energy <span class="math inline"><em>E</em><sub><em>t</em></sub></span> will be:</p>
-<p><br /><span class="math display">$$Et = Cp \\cdot m \\cdot T \\implies T = Et / (Cp \\cdot m).$$</span><br /></p>
-<p>With <span class="math inline">$40\\mathrm{GJ}$</span> we would raise <span class="math inline">$10^3\\mathrm{Kg}$</span> to</p>
-<p><br /><span class="math display">$$T = 40 GJ / (430 J/(Kg\\cdot K) \\cdot 10^3 Kg) \\approx 10^5 K.$$</span><br /></p>
+<p>$$T_max = 1000\mathrm{K},$$</p>
+<p>a bit below the fusion temperature of copper, then thermal energy $E_t$ will be:</p>
+<p>$$Et = Cp \cdot m \cdot T \implies T = Et / (Cp \cdot m).$$</p>
+<p>With $40\mathrm{GJ}$ we would raise $10^3\mathrm{Kg}$ to</p>
+<p>$$T = 40 GJ / (430 J/(Kg\cdot K) \cdot 10^3 Kg) \approx 10^5 K.$$</p>
 <p>Such a temperature would instantly vaporize all known materials.</p>
-<p>Even working with an efficiency of 99%, we would still have to dissipate <span class="math inline">$4\\mathrm{GJ}$</span>, enough to heat the sabot to <span class="math inline">$10^4\\mathrm{K}$</span>. An efficiency of 99.9% would be needed to lower the temperature to <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
-<p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, <span class="math inline">$4\\mathrm{GJ}$</span> can be spread among 100 tons of copper and avoid reaching <span class="math inline"><em>T</em><sub><em>m</em></sub><em>a</em><em>x</em></span>.</p>
-<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: <br /><span class="math display">$$Et = Cp \\cdot m \\cdot T \\approx (1 - η) \\cdot E_k = (1 - η) \\cdot m \\cdot v^2 \\implies T = (1 - η) \\cdot v^2 / Cp.$$</span><br /> <br /><span class="math display">$$v = 3 km/s \\implies T = 0.1 \\cdot 9 \\cdot 10^6 / 430 \\approx 2000 K,$$</span><br /> if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
-<p>Of course, <span class="math inline">$1000\\mathrm{K}$</span> is still a considerable temperature that would cause significant plastic deformations.</p>
-<p>Water dissipation would help with a specific heat of <span class="math inline">$4\\frac{\\mathrm{KJ}}{\\mathrm{Kg}\\cdot{K}}$</span>.</p>
+<p>Even working with an efficiency of 99%, we would still have to dissipate $4\mathrm{GJ}$, enough to heat the sabot to $10^4\mathrm{K}$. An efficiency of 99.9% would be needed to lower the temperature to $T_max$. Is such an efficiency even possible? According to <a href="https://coilgun.info/theorymath/ieee/design_power_condition.pdf">Zabar <em>et al</em> (1989)</a>, it requires increasing the number of coils as desired.</p>
+<p>It also depends on what part of the heat will be generated in the coils and which in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of copper. Even with only 90% efficiency, $4\mathrm{GJ}$ can be spread among 100 tons of copper and avoid reaching $T_max$.</p>
+<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: $$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$ $$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$ if all heat is generated in the sabot. If it is spread between sabot and coils, temperature might be reduced to half that and be within parameters.</p>
+<p>Of course, $1000\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.</p>
+<p>Water dissipation would help with a specific heat of $4\frac{\mathrm{KJ}}{\mathrm{Kg}\cdot{K}}$.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
 <p>Nothing revolutionary has been proposed in this article; everything is based on existing technologies.</p>
