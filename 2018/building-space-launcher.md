@@ -236,7 +236,7 @@ This acceleration would be sustained for only 12 seconds:
 with a proper suit a trained subject would remain conscious.
 
 A human in a liquid tank should resist higher accelerations,
-but it has not yet been tried.
+but it has not yet been tried for space flight.
 
 ### Efficiency and Dissipation
 
@@ -300,17 +300,17 @@ Temperature in the armature is sadly not considered.
 
 There is an interesting variant:
 carry a ton of water as coolant.
-[Specific heat of water is ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity).
+Specific heat of water is
+[ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity).
 
 Also 2 MJ/Kg are needed to
 [vaporize water]() [replace](https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r).
-
 So 2 GJ would be used just to vaporize the ton of water.
-As it boils,
-water vapor can be directed through a nozzle and propel the vehicle even further.
-Explosive heating would be a problem, since water would be heated in just 6 seconds.
-But the pressures involved should not be too terrible.
 
+Additionally, water vapor as it boils can be directed through a nozzle and propel the vehicle even further.
+Explosive heating would be a problem, since water would be heated in just 6 seconds.
+But the pressures involved should not be too terrible:
+about 300 atmospheres.
 Tanks built to withstand
 [1000 atmospheres](https://wikivisually.com/wiki/Hydrogen_tank)
 are used for storing hydrogen.
@@ -336,13 +336,16 @@ and considerably more if we take drag into account.
 We can take as reference a post-launch speed of 9 km/s;
 this is almost Mach 30,
 and the vehicle would instantly be hypersonic.
-Impact with air would result in a tremendous deceleration.
+Impact with air would result in a tremendous deceleration,
+and a huge sonic boom.
 
 [This simulation](http://pinchito.es/mass-driver/drag.html)
 allows you to change several parameters
 and simulate the flight.
 
 ### Other Considerations
+
+There are some other aspects that might be problematic.
 
 #### Cost
 
@@ -562,7 +565,7 @@ it requires increasing the number of coils as desired.
 
 It also depends on what part of the heat will be generated in the coils and which in the vehicle.
 Heat in the coils is much less critical since it would be spread among many tons of copper.
-Even with only 90% efficiency, $4\\mathrm{GJ}$ can be spread among 100 tons of copper
+Even with only 90% efficiency, $2\\mathrm{GJ}$ can be spread among 100 tons of copper
 and avoid reaching $T_max$.
 
 Energy is proportional to mass.
@@ -580,6 +583,38 @@ $1000\\mathrm{K}$ is still a considerable temperature that would cause significa
 
 Water dissipation would help with a specific heat of
 $4\\frac{\\mathrm{KJ}}{\\mathrm{Kg}\\cdot{K}}$.
+
+### Water Vapor Pressure
+
+How much pressure would a ton of water heated exert?
+Let us start with the
+[ideal gas equation](https://en.wikipedia.org/wiki/Ideal_gas_law):
+
+$$P\\cdot V = n \\cdot R \\cdot T,$$
+
+where:
+
+* $P$ is the pressure,
+* $V$ is the volume,
+* $n$ is the number of moles of gas,
+* $R$ is the gas constant $0.082 \\frac{\\mathrm{L} \\cdot \\mathrm{atm}}{\\mathrm{mol} \\cdot \\mathrm{K}}$,
+* $T$ is the temperature.
+
+For the volume we need to consider the dimensions of the tank,
+which in this case is the armature.
+A cylinder with a radius of 1 m and a length of 4 m
+has a volume:
+
+$$V = \\pi \\cdot 1 \\mathrm{m}^2 \\cdot 4 \\mathrm {m} \\approx 1.2 \\cdot 10^4 \\mathrm{L}.$$
+
+[A ton of water has](https://www.wolframalpha.com/input/?i=number+of+moles+in+a+metric+ton+of+water)
+55509 mol, which we will approximate as $5.6 \\cdot 10^4\\mathrm{mol}$.
+Finally, the initial temperature of the water will be around
+250 K, and with the 500 K heating will reach 750 K.
+Putting it all together:
+
+$$P = \\frac{n\\cdot R\\cdot T}{V} = \\frac{5.6 \\cdot 10^4 \\mathrm{mol} \\cdot 0.082 \\frac{\\mathrm{L} \\mathrm{atm}}{\\mathrm{mol} \\mathrm{K}} \\cdot 750 \\mathrm{K}}{1.2 \\cdot 10^4 \\mathrm{L}} \\implies$$
+$$P = \\frac{5 \\cdot 10^4 \\cdot 0.082 \\cdot 750}{1.2 \\cdot 10^4}\\mathrm{atm} = 287 \\mathrm{atm}.$$
 
 ## Conclusion
 
