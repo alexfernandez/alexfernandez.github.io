@@ -613,7 +613,7 @@ Finally, the initial temperature of the water will be around
 250 K, and with the 500 K heating will reach 750 K.
 Putting it all together:
 
-$$P = \\frac{n\\cdot R\\cdot T}{V} = \\frac{5.6 \\cdot 10^4 \\mathrm{mol} \\cdot 0.082 \\frac{\\mathrm{L} \\mathrm{atm}}{\\mathrm{mol} \\mathrm{K}} \\cdot 750 \\mathrm{K}}{1.2 \\cdot 10^4 \\mathrm{L}} \\implies$$
+$$P = \\frac{n\\cdot R\\cdot T}{V} = \\frac{5.6 \\cdot 10^4 \\mathrm{mol} \\cdot 0.082 \\frac{\\mathrm{L} \\cdot \\mathrm{atm}}{\\mathrm{mol} \\cdot \\mathrm{K}} \\cdot 750 \\mathrm{K}}{1.2 \\cdot 10^4 \\mathrm{L}} \\implies$$
 $$P = \\frac{5 \\cdot 10^4 \\cdot 0.082 \\cdot 750}{1.2 \\cdot 10^4}\\mathrm{atm} = 287 \\mathrm{atm}.$$
 
 ## Conclusion
