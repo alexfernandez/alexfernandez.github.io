@@ -1,7 +1,7 @@
 ---
 title: 'Building a Space Launcher'
 subtitle: 'The Next Stage in Space Exploration'
-footer: Published on 2018-02-06, last modified on 2018-02-06.
+footer: Published on 2018-03-04, last modified on 2018-03-04.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -27,7 +27,7 @@ and how it would help in space exploration.
 
 ## The Space Gun
 
-We present a plan to build a space gun with existing technologies.
+A plan is here presented to build a space gun with existing technologies.
 It is easy to envision futuristic means of transportation,
 as we will see in the next sections;
 but a space gun is well within the state of the art,
@@ -35,7 +35,7 @@ and can be realistically built in the next decade.
 
 In essence it is just a long
 [coilgun](https://en.wikipedia.org/wiki/Coilgun)
-in a vacuum:
+operating in a vacuum:
 electromagnetic forces push a vehicle up a tunnel,
 until it enters the atmosphere and hopefully reaches space with the impulse.
 Our aim is to reach low earth orbit (LEO),
@@ -113,7 +113,7 @@ and completely refurbished in 2006 for
 Can this tunnel make us reach our target speed of 9 km/s?
 As it happens a constant acceleration of 150g applied for about 6 seconds
 along 28 km will do the trick.
-Computations are
+All computations are
 [detailed below](#Computations).
 
 Construction will proceed in stages.
