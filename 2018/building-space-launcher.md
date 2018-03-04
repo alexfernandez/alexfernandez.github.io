@@ -22,7 +22,8 @@ Space launchers, and more specifically
 are a long-standing alternative to rockets for reaching space.
 For instance,
 [Angel (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1859907/) proposes an electromagnetic launcher to cool the Earth.
-In this article we will explore how to build one today.
+In this article we will explore how to build one today,
+and how it would help in space exploration.
 
 ## The Space Gun
 
@@ -149,10 +150,10 @@ After firing all coils the projectile should reach our reference speed of 9 km/s
 With a mass of 10 tons the kinetic energy would be 400 Gigajoules,
 or 110 Megawatt-hour.
 At a standard price of €0.10 per KWh,
-and assuming an efficiency of 80%,
-the total electrical cost per launch is €14k.
-An efficiency of 90%
-[has been estimated](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf).
+and assuming an efficiency of 90%,
+the total electrical cost per launch is $12\\mathrm{K€}$.
+Such efficiency appears e.g. in
+[Davis (2004)](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&Location=U2&doc=GetTRDoc.pdf).
 Even with lower efficiencies the cost is not dramatic.
 
 The whole power needs to be released in 6 seconds,
@@ -242,7 +243,6 @@ but it has not yet been tried for space flight.
 
 We now come to the most complex part of the project:
 efficiency, heat and dissipation.
-
 Some insights can be found in papers by
 [Cravey _et al_ (1995)](http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf)
 and
@@ -265,7 +265,12 @@ which can not be overstated as a tremendous amount of energy.
 With an efficiency of 90%,
 energy losses would amount to about 44 GJ,
 which would be directly converted into heat.
-We will consider that half the energy will go into heating the coils
+
+This heat would be generated partly in the coils and partly in the vehicle.
+Heat in the coils is much less critical since it would be spread among many tons of material.
+
+We will consider (somewhat arbitrarily)
+that half the energy will go into heating the coils
 and the other half directly into the armature.
 
 Let us suppose a copper sabot weighing a ton,
@@ -281,39 +286,57 @@ With 22 GJ the armature would heat by $5\\cdot 10^4\\mathrm{K}$,
 which is about fifty thousand °C.
 
 [Balikci _et al_ (2007)](https://www.researchgate.net/profile/Abdulkadir_Balikci/publication/3112247_On_the_Design_of_Coilguns_for_Super-Velocity_Launchers/links/53ea343f0cf2fb1b9b676bdf.pdf)
-suggest adding more stages to improve efficiency.
+and [Zabar _et al_ (1989)](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
+suggest adding more stages to improve efficiency,
+increasing the number of coils.
 Even with an efficiency of 99% we would have to deal with about 2 GJ of heat,
 which would still raise the temperature by $5\\cdot 10^3\\mathrm{K}$.
 To stay below $T_{max}$ the efficiency would need to be 99.8%.
-Needless to say, this would need a lot of stages
-and therefore a lot of coils.
+Needless to say, such an efficiency would need a lot of stages
+and therefore a lot of coils,
+if it is even possible.
 
 The coils in the tunnel will also heat,
 although in this case the temperature is spread across much more material.
+Even with only 90% efficiency, $22\\mathrm{GJ}$ can be spread among 100 tons of copper
+and avoid reaching $T_{max}$.
 According to
 [Marder (1993)](https://www.coilgun.info/theorymath/ieee/coilgun_primer.pdf)
 a launch gun to reach LEO should be possible with much lower efficiencies of 30%,
 only raising the temperature of the coils by $100\\mathrm{K}$.
 Temperature in the armature is sadly not considered.
+It should also be noted that this paper
+consider the efficiency to be the ratio of kinetic to electrical energy,
+and posits a mechanism to recclaim some electrical energy from the coils.
+This is not uncommon in the literature and should also be considered.
+
+Of course,
+$1000\\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.
+Given the low clearances required between vehicle and coils,
+the tunnel would have to be designed considering thermal expansion.
 
 #### Water Coolant and Propellant
 
 There is an interesting variant:
 carry a ton of water as coolant.
 Specific heat of water is
-[ten times bigger than copper](https://en.wikipedia.org/wiki/Heat_capacity).
-
-Also 2 MJ/Kg are needed to
-[vaporize water]() [replace](https://answers.yahoo.com/question/index?qid=20110315071128AAynL0r).
-So 2 GJ would be used just to vaporize the ton of water.
+[ten times bigger than copper](https://www.engineeringtoolbox.com/water-thermal-properties-d_162.html),
+which would help absorb a lot of heat.
+First, $2.4 \\mathrm{MJ}/\\mathrm{Kg}$ are needed to
+[convert water from solid to vapor](http://kentchemistry.com/links/Energy/HeatVaporization.htm),
+so $2.4 \\mathrm{GJ}$ would be used just to vaporize the ton of water.
+Raising the water to $1000\\mathrm{K}$ would absorb an additional
+$2.2\\mathrm{GJ}$.
 
 Additionally, water vapor as it boils can be directed through a nozzle and propel the vehicle even further.
 Explosive heating would be a problem, since water would be heated in just 6 seconds.
 But the pressures involved should not be too terrible:
-about 300 atmospheres.
+about 350 atmospheres.
 Tanks built to withstand
 [1000 atmospheres](https://wikivisually.com/wiki/Hydrogen_tank)
 are used for storing hydrogen.
+The biggest difficulty would arise when leaving the tunnel:
+it would be hard to make the vehicle separate from the sabot.
 
 #### Superconductors
 
@@ -323,6 +346,17 @@ the low temperatures required can be reached relatively easily in a sealed tunne
 It remains to be seen how they would fare in a large coilgun,
 but if used might reduce the need for large energy storage
 since coils would just keep an induced current without loss.
+
+#### Magnetic Levitation
+
+The vehicle would be very tightly fit inside the tunnel:
+clearances considered in the literature are often of a few milimeters.
+A vehicle at a speed of $9\\mathrm{km}/\\mathrm{s}$ going through a tunnel
+will need much higher clearances.
+In particular, gravity attraction will change its trajectory.
+
+Coil design will need to take into account the need to counteract gravity.
+In passages between coils a form of magnetic levitation needs to be used.
 
 ### Atmospheric Passage
 
@@ -342,16 +376,6 @@ and a huge sonic boom.
 [This simulation](http://pinchito.es/mass-driver/drag.html)
 allows you to change several parameters
 and simulate the flight.
-
-### Other Considerations
-
-There are some other aspects that might be problematic.
-
-#### Cost
-
-#### Levitation
-
-#### Heat Expansion
 
 ## Going to Mars… and Back
 
@@ -441,6 +465,8 @@ concept is very similar to the space launcher considered here.
 Gen-1 is cargo-only;
 acceleration is slower than here (30 g),
 and therefore exit speeds are smaller.
+Cost is estimated as
+[20 billion dollars](http://www.startram.com/home).
 Gen-2 relies on 20 km high launch and is not feasible yet.
 
 ### Space Elevator
@@ -452,7 +478,9 @@ It is not yet a practical concept.
 
 ### Launch Loop
 
-Another great idea that is well outside the realm of possibility right now.
+Another [great idea](https://en.wikipedia.org/wiki/Launch_loop)
+that is well outside the realm of possibility right now.
+It requires a suspended track at 80 km altitude.
 
 ## Computations
 
@@ -498,11 +526,11 @@ Or 400 gigajoules. That is
 [Electricity prices](https://en.wikipedia.org/wiki/Electricity_pricing)
 vary wildly across Europe;
 we can use an industrial price of around €0.10 per KWh.
-With 80% efficiency, total cost $C$ is:
+With 90% efficiency, total cost $C$ is:
 
-$$C = \\frac{1}{0.80} \\cdot 111\\mathrm{MW}\\cdot\\mathrm{h} \\cdot \\frac{0.10 €}{\\mathrm{KW}\\cdot\\mathrm{h}} = €13875.$$
+$$C = \\frac{1}{0.90} \\cdot 111\\mathrm{MW}\\cdot\\mathrm{h} \\cdot \\frac{0.10 €}{\\mathrm{KW}\\cdot\\mathrm{h}} = 12333€.$$
 
-or around €14K.
+or around 12K€.
 
 Power required depends on charging time.
 Assuming the tunnel can be charged over a 24h period:
@@ -550,23 +578,25 @@ then thermal energy $E_t$ will be:
 
 $$E_t = C_p \\cdot m \\cdot T \\implies T = \\frac{E_t}{C_p \\cdot m}.$$
 
-With $40\\mathrm{GJ}$ we would raise $10^3\\mathrm{Kg}$ to
+The vehicle carries $400\\mathrm{GJ}$,
+and all losses are supposed to convert to thermal energy.
+Thermal energy can be computed using the global efficiency $η$:
 
-$$T = \\frac{40 GJ}{\\frac{430 J}{Kg\\cdot K} \\cdot 10^3 Kg} \\approx 10^5 K.$$
+$$η = \\frac{E_k}{E_k + E_t} \\implies E_t = E_k \\cdot \\frac{1-η}{η},$$
+
+so an efficiency of 90% will yield to a heat energy of:
+
+$$E_t = 400\\mathrm{GJ} \\cdot \\frac{0.1}{0.9} \\approx 400 \\cdot 0.1 \\mathrm{GJ} \\implies$$
+$$E_t \\approx 44 \\mathrm{GJ}.$$
+
+With $44\\mathrm{GJ}$ we would raise $10^3\\mathrm{Kg}$ to
+
+$$T = \\frac{44 GJ}{\\frac{430 J}{Kg\\cdot K} \\cdot 10^3 Kg} \\approx 10^5 K.$$
 
 Such a temperature would instantly vaporize all known materials.
 
 Even working with an efficiency of 99%, we would still have to dissipate $4\\mathrm{GJ}$,
 enough to heat the armature to $10^4\\mathrm{K}$.
-An efficiency of 99.9% would be needed to lower the temperature to $T_max$.
-Is such an efficiency even possible?
-According to [Zabar _et al_ (1989)](https://coilgun.info/theorymath/ieee/design_power_condition.pdf),
-it requires increasing the number of coils as desired.
-
-It also depends on what part of the heat will be generated in the coils and which in the vehicle.
-Heat in the coils is much less critical since it would be spread among many tons of copper.
-Even with only 90% efficiency, $2\\mathrm{GJ}$ can be spread among 100 tons of copper
-and avoid reaching $T_max$.
 
 Energy is proportional to mass.
 Since kinetic energy is also proportional to mass,
@@ -578,15 +608,43 @@ if all heat is generated in the armature.
 If it is spread between armature and coils,
 temperature might be reduced to half that and be within parameters.
 
-Of course,
-$1000\\mathrm{K}$ is still a considerable temperature that would cause significant plastic deformations.
+### Water Coolant
 
-Water dissipation would help with a specific heat of
-$4\\frac{\\mathrm{KJ}}{\\mathrm{Kg}\\cdot{K}}$.
+Carrying a ton of water as coolant would have interesting consequences.
+Let us suppose that the water is initially stored as ice
+at a temperature close to absolute zero, $0\\mathrm{K}$.
+It will be heated to $1000\\mathrm{K}$.
+[Specificic heat of water](https://www.engineeringtoolbox.com/water-thermal-properties-d_162.html)
+varies depending on its state:
 
-### Water Vapor Pressure
+* ice has $C_{p1}=1.996 \\mathrm{KJ}/\\mathrm{KgK}$,
+* water has $C_{p2}=4.187 \\mathrm{KJ}/\\mathrm{KgK}$,
+* while vapor has $C_{p3}=1.996 \\mathrm{KJ}/\\mathrm{KgK}$.
 
-How much pressure would a ton of water heated exert?
+We would be handling the following temperatures:
+
+* first from absolute zero to melting point: $T_1 = 273 \\mathrm{K}$,
+* second from melting to boiling point: $T_2 = 100 \\mathrm{K}$,
+* and finally from boiling point to our target: $T_3 = 627 \\mathrm{K}$.
+
+Keeping in mind the basic equation:
+
+$$E_t = C_p \\cdot m \\cdot T,$$
+
+raising $10^3 \\mathrm{Kg}$ of water to $1000\\mathrm{K}$ would require:
+
+$$E_t = E_{t1} + E_{t2} + E_{t3} = m \\cdot (C_{p1} \\cdot T_1 + C_{p2} \\cdot T_2 + C_{p3} \\cdot T_3) \\implies$$
+$$E_t = 10^3 \\cdot (1.996 \\cdot 273 + 4.187 \\cdot 100 + 1.996 \\cdot 627) \\mathrm{KJ} = 2.2 \\mathrm{GJ}.$$
+
+The thermal energy used for vaporization would depend on the latent heat of evaporation and melting:
+
+$$H_{melt} = 334 \\mathrm{KJ} / \\mathrm{Kg},$$
+$$H_{evap} = 2030 \\mathrm{KJ} / \\mathrm{Kg}.$$
+$$E_t = m \\cdot (H_{melt} + H_{evap}) = 10^3 \\cdot (334 + 2030) \\mathrm{KJ} \\approx 2.4 {GJ}.$$
+
+Therefore the water would be able to absorb a total of $4.6\\mathrm{GJ}$.
+
+How much pressure would a ton of heated water exert?
 Let us start with the
 [ideal gas equation](https://en.wikipedia.org/wiki/Ideal_gas_law):
 
@@ -609,12 +667,11 @@ $$V = \\pi \\cdot 1 \\mathrm{m}^2 \\cdot 4 \\mathrm {m} \\approx 1.2 \\cdot 10^4
 
 [A ton of water has](https://www.wolframalpha.com/input/?i=number+of+moles+in+a+metric+ton+of+water)
 55509 mol, which we will approximate as $5.6 \\cdot 10^4\\mathrm{mol}$.
-Finally, the initial temperature of the water will be around
-250 K, and with the 500 K heating will reach 750 K.
+And the water vapor will reach $1000\\mathrm{K}$
 Putting it all together:
 
-$$P = \\frac{n\\cdot R\\cdot T}{V} = \\frac{5.6 \\cdot 10^4 \\mathrm{mol} \\cdot 0.082 \\frac{\\mathrm{L} \\cdot \\mathrm{atm}}{\\mathrm{mol} \\cdot \\mathrm{K}} \\cdot 750 \\mathrm{K}}{1.2 \\cdot 10^4 \\mathrm{L}} \\implies$$
-$$P = \\frac{5 \\cdot 10^4 \\cdot 0.082 \\cdot 750}{1.2 \\cdot 10^4}\\mathrm{atm} = 287 \\mathrm{atm}.$$
+$$P = \\frac{n\\cdot R\\cdot T}{V} = \\frac{5.6 \\cdot 10^4 \\mathrm{mol} \\cdot 0.082 \\frac{\\mathrm{L} \\cdot \\mathrm{atm}}{\\mathrm{mol} \\cdot \\mathrm{K}} \\cdot 10^3 \\mathrm{K}}{1.2 \\cdot 10^4 \\mathrm{L}} \\implies$$
+$$P = \\frac{5 \\cdot 10^4 \\cdot 0.082 \\cdot 10^3}{1.2 \\cdot 10^4}\\mathrm{atm} = 342 \\mathrm{atm}.$$
 
 ## Conclusion
 
@@ -623,6 +680,9 @@ enabling the supply of larger ships at a very low cost.
 
 Nothing revolutionary has been proposed in this article;
 everything is based on existing technologies.
+
+The author is a _dilettante_ that has had a lot of fun
+working out the overall details of the project.
 
 ### Acknowledgements
 
