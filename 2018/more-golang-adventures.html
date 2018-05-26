@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	alexfernandez.github.io | @pinchito
+-->
+<html>
+	<head>
+		<title>More Adventures in the Land of Go</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+		<script>
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-UA-75898530-1';
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			  window[disableStr] = true;
+		}
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-75898530-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="../index.html"><img src="../pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="../index.html">Alex Fernández</a></h1>
+					<p>
+					I am a developer known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					</p>
+					<p>
+					This site uses (gasp!) cookies for gathering statistics.
+					You can
+						<a href="javascript:gaOptout()">disable them</a>.
+					</p>
+				</header>
+				<!--
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">A Few Accomplishments</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+				-->
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>More Adventures in the Land of Go</h1>
+										<p>That Ungoogleable Language from Google, Part 2<p>
+									</header>
+																				<div class="figure">
+<img src="pics/adventures-gophercolor.jpg" title="Golang mascot" alt="Picture credit: Renee French" />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Gophercolor.jpg">Renee French</a></p>
+</div>
+<p>A couple of years I had the chance to play with Go (or &quot;Golang&quot; as exasperated people searching on the web often use) and wrote <a href="../2016/golang-adventures.html">part 1</a> of this article. In the last few weeks I have delved deeper into the gopher hole, and have been discouraged from using it on large projects. This longish rant explains why.</p>
+<h2 id="more-language-fun">More Language Fun</h2>
+<p>Criticizing those aspects of a programming language that we don't like is an endless source of amusement. So there you go.</p>
+<h3 id="pointless-pointers">Pointless Pointers</h3>
+<p>After using C for any length of time, pointer arithmetic becomes</p>
+<p>This for me was the dealbreaker. But there's more. Oh so much more.</p>
+<h3 id="section"></h3>
+<h2 id="packages">Packages</h2>
+<h2 id="tooling">Tooling</h2>
+<h3 id="gofmt"><code>gofmt</code></h3>
+<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option, and now mandate tabs everywhere.</p>
+<div class="figure">
+<img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it" />
+<p class="caption">Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a></p>
+</div>
+<h2 id="momentum">Momentum</h2>
+<h3 id="performance">Performance</h3>
+<h2 id="conclusion">Conclusion</h2>
+<p>A space launcher can be a great help for space exploration, enabling the supply of larger ships at a very low cost.</p>
+<p>Nothing revolutionary has been proposed in this article; everything is based on existing technologies.</p>
+<p>The author is a <em>dilettante</em> that has had a lot of fun working out the overall details of the project.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to <a href="https://twitter.com/zuiko21">Carlos Santisteban</a> for his help.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Published on 2018-05-26, last modified on 2018-05-26. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									</p>
+									<p>
+									Back to the <a href="../index.html">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>. Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
