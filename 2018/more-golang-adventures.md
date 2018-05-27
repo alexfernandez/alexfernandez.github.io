@@ -355,7 +355,7 @@ The momentum has gone largely to Rust, which performs
 and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html)
 while being at the same time
 [very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
-Rust appears to have stolen Go's thunder.
+In short, Rust appears to have stolen Go's thunder.
 
 ### Community
 
