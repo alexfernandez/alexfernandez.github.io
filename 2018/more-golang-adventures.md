@@ -10,15 +10,16 @@ footer: Published on 2018-05-26, last modified on 2018-05-26.
 A couple of years I had the chance to play with Go
 (or "Golang" as exasperated people searching on the web often use)
 and wrote [part 1](../2016/golang-adventures.html) of this article.
-In the last few weeks I have delved deeper into the gopher hole,
+In the last few weeks I have delved deeper into the gopher hole
 and have been discouraged from using it on large projects.
 This longish rant explains why.
 
-I will avoid well-treaded ground such as the
-[lack of generics]()
-or TODO.
-I will also center on largish project management.
-I still like Go for small trivial projects.
+I will center on largish projects while trying to avoid well-trodden ground
+such as the
+[lack of generics](https://golang.org/doc/faq#generics).
+I still think Go is a good option for small trivial projects
+when Node.js does not deliver the required performance,
+such as intensive computations or simple load tests.
 
 ## More Language Fun
 
