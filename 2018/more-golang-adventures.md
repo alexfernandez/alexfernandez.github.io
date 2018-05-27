@@ -55,6 +55,8 @@ func main() {
 ```
 
 We create a box with width 5, and then set its width to 10.
+Anything wrong about it?
+Expert Gophers are probably cringing in their chairs.
 What do you think will be the result?
 If you guessed "10" then you are wrong, it is still 5!
 You can [check it for yourself](https://play.golang.org/p/rHShwwYcDu8).

@@ -114,7 +114,7 @@
         box.SetWidth(<span class="dv">10</span>)
         log.Printf(<span class="st">&quot;Box width is now %v&quot;</span>, coolBox.Width)
 }</code></pre></div>
-<p>We create a box with width 5, and then set its width to 10. What do you think will be the result? If you guessed &quot;10&quot; then you are wrong, it is still 5! You can <a href="https://play.golang.org/p/rHShwwYcDu8">check it for yourself</a>.</p>
+<p>We create a box with width 5, and then set its width to 10. Anything wrong about it? Expert Gophers are probably cringing in their chairs. What do you think will be the result? If you guessed &quot;10&quot; then you are wrong, it is still 5! You can <a href="https://play.golang.org/p/rHShwwYcDu8">check it for yourself</a>.</p>
 <p>To get the desired behaviour you need to use our <a href="https://play.golang.org/p/bRpxq4gZQxX">cool box</a>:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="kw">type</span> CoolBox <span class="kw">struct</span> {
         Width <span class="dt">int</span>
