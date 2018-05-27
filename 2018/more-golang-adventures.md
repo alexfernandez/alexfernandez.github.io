@@ -55,14 +55,14 @@ func main() {
 ```
 
 We create a box with width 5, and then set its width to 10.
-Anything wrong about it?
-Expert Gophers are probably cringing in their chairs.
 What do you think will be the result?
-If you guessed "10" then you are wrong, it is still 5!
+Expert Gophers are probably cringing in their chairs.
+The rest of us probably guessed "10" which is of course wrong.
+Box width is still 5!
 You can [check it for yourself](https://play.golang.org/p/rHShwwYcDu8).
 
-To get the desired behaviour you need to use our
-[cool box](https://play.golang.org/p/bRpxq4gZQxX):
+What kind of evil witchcraft is this?
+To get the desired behaviour you need to use our new improved cool box:
 
 ```go
 type CoolBox struct {
@@ -80,8 +80,7 @@ func main() {
 }
 ```
 
-This time we get 10 as expected.
-You can [play with it](https://play.golang.org/p/bRpxq4gZQxX).
+This time we get [10 as expected](https://play.golang.org/p/bRpxq4gZQxX).
 
 Can you tell the difference?
 [Methods in Go](https://golang.org/doc/effective_go.html#methods)
@@ -98,7 +97,7 @@ Methods can also be declared on a *pointer to the struct*:
     func (box *Box) SetWidth([...])
 
 That small asterisk makes all the difference.
-Now the method can modify the original struct.
+Now the method operates on the original struct and can thus modify it.
 Adding to the confusion, access to an attribute is done using `.`
 for both structs and struct pointers.
 
@@ -106,11 +105,11 @@ The problem is compounded for functions.
 At a certain point you realize that passing variables around by value
 is probably not what you want:
 whenever you are tempted to modify a value you will get a surprise.
-It is also slower since you are making copies of structs all the time,
-which can clog the garbage collector in high performance applications.
+It is also slower since you are making copies of structs all the time
+and can clog the garbage collector in high performance applications.
 So you start using pointers for everything.
-Any parameter you see without the dreaded `*` is a pending optimization.
-But careful! Because pointers to `interface`s are no good;
+Any parameter you see without the dreaded `*` becomes a pending optimization.
+But careful! Because pointers to `interface`s are no good and
 for some reason you need to pass the original interface.
 
 Once you are using pointers everywhere, you start getting these fun errors:
