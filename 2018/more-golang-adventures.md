@@ -345,6 +345,8 @@ It promised to be faster e.g. than Java,
 but in practice is
 [about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
 
+![Not that Java is [slow](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
+
 Add to this that Go channels are really slow.
 Channels are the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2),
 but relying on them can slow your program down a lot.
