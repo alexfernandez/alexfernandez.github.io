@@ -142,13 +142,12 @@
 <p>which are equivalent to the infamous Null Pointer Exception in Java, or the <code>ReferenceError</code> in JavaScript. And that is how pointer safety is compromised.</p>
 <p>Granted, Go at least has no <a href="http://www.eskimo.com/~scs/cclass/notes/sx10b.html">pointer arithmetic</a>, but that is a meager consolation when you have to add <code>*</code> and <code>&amp;</code> everywhere. And don't even get me started on passing slices around, or you may end up with abominations such as <code>*[]*[]*Box</code>: a pointer to a slice of pointers to slices of pointers to <code>Box</code>es.</p>
 <p>This for me was the dealbreaker. But there's more.</p>
-<h3 id="interfaces">Interfaces</h3>
-<p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game.</p>
-<p>Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn't start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
 <h3 id="minor-nitpicks">Minor Nitpicks</h3>
 <p>Even the most unimportant things can add up. Right now it's all coming through in waves.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
+<p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game.</p>
+<p>Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn't start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
 <p>Go uses capitals Every <em>Darned</em> Where. Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
 <p>It is much easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy.</p>
 <p>The <code>copy()</code> built-in also makes a weird choice. While the world slowly converges to a single, logical version of copy that goes in my mind as &quot;copy <em>from</em> source to <em>destination</em>&quot;:</p>

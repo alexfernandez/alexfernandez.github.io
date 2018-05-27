@@ -128,7 +128,12 @@ or you may end up with abominations such as
 
 This for me was the dealbreaker. But there's more.
 
-### Interfaces
+### Minor Nitpicks
+
+Even the most unimportant things can add up.
+Right now it's all coming through in waves.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 As has been [said before](https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html),
 [implicit interfaces](https://tour.golang.org/methods/10)
@@ -140,13 +145,6 @@ Declaring interface pertenence explicitly communicates an intent:
 this class does this and behaves like that.
 But in Go you can never trust that the class that acts like a `Server`
 didn't start its life as a `VideoPlayer` or a `Car`.
-
-### Minor Nitpicks
-
-Even the most unimportant things can add up.
-Right now it's all coming through in waves.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Go uses capitals Every *Darned* Where.
 Public attributes and methods in a struct are written using uppercase
