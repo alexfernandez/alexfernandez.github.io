@@ -347,9 +347,8 @@ but in practice is
 
 ![Not that Java is [slow](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
-Add to this that Go channels are really slow.
-Channels are the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2),
-but relying on them can slow your program down a lot.
+Add to this that relying on Go channels can slow your program down a bit.
+Channels happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
 
 The momentum has gone largely to Rust, which performs
 [about the same as the speed king C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
