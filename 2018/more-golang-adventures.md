@@ -140,7 +140,6 @@ As has been [said before](https://www.teamten.com/lawrence/writings/why-i-dont-l
 are a mess.
 Not every class that implements the method `Start()` and `Stop()`
 is a `Server`: it can be a `VideoPlayer` or a `Car` in a game.
-
 Declaring interface pertenence explicitly communicates an intent:
 this class does this and behaves like that.
 But in Go you can never trust that the class that acts like a `Server`
