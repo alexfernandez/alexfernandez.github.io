@@ -341,13 +341,13 @@ but in practice it is
 
 ![Not that Java is [slow](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
-Add to this that relying on Go channels can slow your program down a bit.
-Channels happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
+Add to this that relying on Go channels can slow your program down a bit,
+which happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
 
 The momentum has gone largely to Rust, which performs
 [about the same as the speed king C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
-and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html)
-while being at the same time
+and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html).
+Rust is at the same time
 [very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
 In short, Rust appears to have stolen Go's thunder.
 
