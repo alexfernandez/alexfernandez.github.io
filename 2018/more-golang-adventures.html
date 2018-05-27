@@ -92,15 +92,15 @@
 <p>A couple of years I had the chance to play with Go (or &quot;Golang&quot; as exasperated people searching on the web often use) and wrote <a href="../2016/golang-adventures.html">part 1</a> of this article. In the last few weeks I have delved deeper into the gopher hole and have been discouraged from using it on large projects. This longish rant explains why.</p>
 <p>I will center on largish projects while trying to avoid well-trodden ground such as the <a href="https://golang.org/doc/faq#generics">lack of generics</a>. I still think Go is a good option for small trivial projects when Node.js does not deliver the required performance, such as intensive computations or simple load tests.</p>
 <h2 id="more-language-fun">More Language Fun</h2>
-<p>Criticizing those aspects of a programming language that we don't like is an endless source of amusement. So there you go.</p>
+<p>Criticizing those aspects of a programming language that we don't like is an endless source of amusement.</p>
 <h3 id="pointless-pointers">Pointless Pointers</h3>
-<p>After using C for any length of time pointer arithmetic becomes a constant annoyance. One of the cool innovations in Java was to pass all objects by reference, so there was no need to use pointers explicitly any longer.</p>
+<p>After using C for any length of time pointers become a constant annoyance. One of the cool innovations in Java was to pass all objects by reference so there was no need to use pointers explicitly any longer.</p>
 <p>But alas, Go was masterminded by <a href="https://en.wikipedia.org/wiki/Rob_Pike">a member of the original Unix team</a>.</p>
 <div class="figure">
 <img src="pics/adventures-johnny.gif" title="Here&#39;s Johnny!" alt="Yes, baby, they are back!" />
 <p class="caption">Yes, baby, <a href="https://diply.com/shining-movie-facts?publisher=what-the-facts&amp;config=22">they are back!</a></p>
 </div>
-<p>So, suppose that you are writing a <code>struct</code> with a setter function:</p>
+<p>So suppose that you are writing a <code>struct</code> with a setter function:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="kw">type</span> Box <span class="kw">struct</span> {
         Width <span class="dt">int</span>
 }

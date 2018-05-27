@@ -25,19 +25,18 @@ such as intensive computations or simple load tests.
 
 Criticizing those aspects of a programming language that we don't like
 is an endless source of amusement.
-So there you go.
 
 ### Pointless Pointers
 
-After using C for any length of time pointer arithmetic becomes a constant annoyance.
-One of the cool innovations in Java was to pass all objects by reference,
+After using C for any length of time pointers become a constant annoyance.
+One of the cool innovations in Java was to pass all objects by reference
 so there was no need to use pointers explicitly any longer.
 
 But alas, Go was masterminded by [a member of the original Unix team](https://en.wikipedia.org/wiki/Rob_Pike).
 
 ![Yes, baby, [they are back!](https://diply.com/shining-movie-facts?publisher=what-the-facts&config=22)](pics/adventures-johnny.gif "Here's Johnny!")
 
-So, suppose that you are writing a `struct` with a setter function:
+So suppose that you are writing a `struct` with a setter function:
 
 ```go
 type Box struct {
