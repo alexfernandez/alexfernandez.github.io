@@ -5,7 +5,7 @@ footer: Published on 2018-05-26, last modified on 2018-05-26.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Picture credit: [Renee French](https://commons.wikimedia.org/wiki/File:Gophercolor.jpg)](pics/adventures-gophercolor.jpg "Golang mascot")
+![Picture credit: [Renee French](https://commons.wikimedia.org/wiki/File:Gophercolor.jpg).](pics/adventures-gophercolor.jpg "Golang mascot")
 
 A couple of years I had the chance to play with Go
 (or "Golang" as exasperated people searching on the web often use)
@@ -147,8 +147,7 @@ Right now it's all coming through in waves.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### Capitals Every *Darned* Where
-
+Go uses capitals Every *Darned* Where.
 Public attributes and methods in a struct are written using uppercase
 while private stuff uses lowercase.
 This looks like a nice convention,
@@ -157,8 +156,8 @@ but it can force you to write capitals more often than you might like.
 It is much easier to write private resources with an underscore `_` prefix as in JavaScript.
 Making the default behaviour public is more comfy.
 
-#### Copy _to_ Destination _from_ Source?
 
+The `copy()` built-in also makes a weird choice.
 While the world slowly converges to a single, logical version of copy
 that goes in my mind as "copy _from_ source to _destination_":
 
@@ -177,17 +176,14 @@ copy(dst, src)
 This breaks my mind in surprisingly aberrant ways.
 Never mind the obnoxious abbreviations `dst` and `src`.
 
-#### Obnoxious Abbreviations
-
-![Actually, I do mind the [obnoxious abbreviations](https://imgur.com/gallery/1nEIbxb)](pics/adventures-abbrevs.gif "Stop abbreviating words")
-
+![Actually, I do mind the [obnoxious abbreviations](https://imgur.com/gallery/1nEIbxb).](pics/adventures-abbrevs.gif "Stop abbreviating words")
 
 Go authors [encourage](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)
 the use of single name variables whenever possible.
 I believe this encourages newbies to use the language, 
 specifically two-finger typers.
 
-![Two-finger typers like [John Watson](http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge)](pics/adventures-typing.gif "John Watson types using two fingers")
+![Two-finger typers like [John Watson](http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge).](pics/adventures-typing.gif "John Watson types using two fingers")
 
 For everyone else, single-letter variables can quickly become a mess.
 Good code is written once and read many times.
@@ -200,10 +196,8 @@ which at least were justified by the scarcity of bytes at the time.
 ## Packaging Your Code
 
 Another source of frustration is the poor support for packaging.
-The gold standard for me is Node.js and its [`npm`](https://www.npmjs.com/),
+The gold standard for me is Node.js and its [`npm`](https://www.npmjs.com/)
 which not surprisingly boasts more modules than any other package manager.
-
-![Source: [Module Counts](http://www.modulecounts.com/)](pics/adventures-modulecounts.png "npm has 600k+ packages, Gopm around 20k")
 
 ### Package Layout
 
@@ -237,7 +231,17 @@ the most popular seems to be
 which counts more than 20k packages.
 Unsurprisingly not many people use it:
 the most popular package [golang.org/x/net](https://gopm.io/golang.org/x/net)
-only counts around 13k downloads, total.
+only counts around 13k downloads total.
+
+These 20k packages are dwarved by the 200k in Java's Maven
+and the 600k for JavaScript's npm.
+
+![Source: [Module Counts](http://www.modulecounts.com/).](pics/adventures-modulecounts.png "npm has 600k+ packages, Gopm around 20k")
+
+All kinds of dumb excuses can be given,
+from the bad average quality in npm to the nature of Go as a "systems language".
+In reality Go is often used as a web development language,
+it just lacks the libraries.
 
 ### Accessing Other Packages
 
@@ -287,7 +291,7 @@ But remember, `gofmt` is brought to you by the same people who
 So they saw it fit to remove spaces as an option,
 and now mandate tabs everywhere.
 
-![Richard Hendricks would [love it](http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny)](pics/adventures-spaces.gif "Winnie types spaces")
+![Richard Hendricks would [love it](http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny).](pics/adventures-spaces.gif "Winnie types spaces")
 
 Another nitpick is automatic reformatting.
 Suppose you have this variable declaration at the top:
@@ -323,40 +327,49 @@ An unpopular language or framework can severely limit its evolution.
 The hype around Go seems to have largely subdued.
 Data from Google Trends shows that Go has peaked:
 
-![Source: [Google Trends](https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&geo=US&q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89)](pics/adventures-google-trends.png "Max height on April 2014")
+![Source: [Google Trends](https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&geo=US&q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89).](pics/adventures-google-trends.png "Max height for Go on April 2014")
 
-Data from Google is however largely suspect:
+This dataset is however largely suspect:
 Go is always above Node.js,
 and it starts at around 25% even before it was announced.
 I suspect some filtering artifact inflating Go.
 Let us see data from Stack Overflow Trends:
 
-![Source: [Stack Overflow Trends](https://insights.stackoverflow.com/trends?tags=go%2Cnode.js)](pics/adventures-stackoverflow-trends.png "Growth stalling around 2016")
+![Source: [Stack Overflow Trends](https://insights.stackoverflow.com/trends?tags=go%2Cnode.js).](pics/adventures-stackoverflow-trends.png "Go growth stalling around 2016")
 
-Apparently, the opportunity for Go to be the Java killer has passed.
+This looks more sensible.
+Apparently the opportunity for Go to be the Java killer has come and passed.
 
 ### Performance
 
-A large part of Go's appeal was based on its good performance.
-But now it seems that it does not perform so well.
-It is around the same ballpark as Java
-[source: Debian].
-This momentum has gone largely to Rust, which performs about the same as C
-[source: Debian]
-while being very well liked by the community
-[source: SO survey].
-It seems as if Rust has stolen Go's thunder.
+A large part of Go's early appeal was based on its good performance.
+It promised to be faster e.g. than Java,
+but in practice is
+[about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
+
+Add to this that Go channels are really slow.
+Channels are the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2),
+but relying on them can slow your program down a lot.
+
+The momentum has gone largely to Rust, which performs
+[about the same as the speed king C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
+and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html)
+while being at the same time
+[very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
+Rust appears to have stolen Go's thunder.
 
 ### Community
 
 Go has a weird situation with regards to community:
-it is controlled directly by Google,
-which limits the ability of the community to influence its design.
-But that is not the worst peril:
+it is controlled directly by Google limiting the ability of the community to influence its design.
+This poor starting point leads to a paucity of collaborations in libraries.
 
 ## Conclusion
 
-A 
+Go does not look like a solid bet for large projects at this point.
+The language is cumbersome and has suffered from a lot of weird choices.
+It is still a good fit for small utilities,
+offering a good compromise between .
 
 ### Acknowledgements
 

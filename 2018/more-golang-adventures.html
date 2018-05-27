@@ -86,8 +86,8 @@
 										<p>That Ungoogleable Language from Google, Part 2<p>
 									</header>
 																				<div class="figure">
-<img src="pics/adventures-gophercolor.jpg" title="Golang mascot" alt="Picture credit: Renee French" />
-<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Gophercolor.jpg">Renee French</a></p>
+<img src="pics/adventures-gophercolor.jpg" title="Golang mascot" alt="Picture credit: Renee French." />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Gophercolor.jpg">Renee French</a>.</p>
 </div>
 <p>A couple of years I had the chance to play with Go (or &quot;Golang&quot; as exasperated people searching on the web often use) and wrote <a href="../2016/golang-adventures.html">part 1</a> of this article. In the last few weeks I have delved deeper into the gopher hole, and have been discouraged from using it on large projects. This longish rant explains why.</p>
 <p>I will avoid well-treaded ground such as the <a href="">lack of generics</a> or TODO. I will also center on largish project management. I still like Go for small trivial projects.</p>
@@ -149,39 +149,38 @@
 <p>Even the most unimportant things can add up. Right now it's all coming through in waves.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
-<h4 id="capitals-every-darned-where">Capitals Every <em>Darned</em> Where</h4>
-<p>Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
+<p>Go uses capitals Every <em>Darned</em> Where. Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
 <p>It is much easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy.</p>
-<h4 id="copy-to-destination-from-source">Copy <em>to</em> Destination <em>from</em> Source?</h4>
-<p>While the world slowly converges to a single, logical version of copy that goes in my mind as &quot;copy <em>from</em> source to <em>destination</em>&quot;:</p>
+<p>The <code>copy()</code> built-in also makes a weird choice. While the world slowly converges to a single, logical version of copy that goes in my mind as &quot;copy <em>from</em> source to <em>destination</em>&quot;:</p>
 <pre><code>copy(source, destination)</code></pre>
 <p>Go programmers have stuck with the older <a href="https://twitter.com/hynek/status/991915878051729414">C-like</a> version:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="bu">copy</span>(dst, src)</code></pre></div>
 <p>This breaks my mind in surprisingly aberrant ways. Never mind the obnoxious abbreviations <code>dst</code> and <code>src</code>.</p>
-<h4 id="obnoxious-abbreviations">Obnoxious Abbreviations</h4>
 <div class="figure">
-<img src="pics/adventures-abbrevs.gif" title="Stop abbreviating words" alt="Actually, I do mind the obnoxious abbreviations" />
-<p class="caption">Actually, I do mind the <a href="https://imgur.com/gallery/1nEIbxb">obnoxious abbreviations</a></p>
+<img src="pics/adventures-abbrevs.gif" title="Stop abbreviating words" alt="Actually, I do mind the obnoxious abbreviations." />
+<p class="caption">Actually, I do mind the <a href="https://imgur.com/gallery/1nEIbxb">obnoxious abbreviations</a>.</p>
 </div>
 <p>Go authors <a href="https://github.com/golang/go/wiki/CodeReviewComments#receiver-names">encourage</a> the use of single name variables whenever possible. I believe this encourages newbies to use the language, specifically two-finger typers.</p>
 <div class="figure">
-<img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="Two-finger typers like John Watson" />
-<p class="caption">Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a></p>
+<img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="Two-finger typers like John Watson." />
+<p class="caption">Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a>.</p>
 </div>
 <p>For everyone else, single-letter variables can quickly become a mess. Good code is written once and read many times. In the case of errors you don't even have the option of using <code>error</code> instead of <code>err</code>, since <code>error</code> is a <a href="https://golang.org/ref/spec#Predeclared_identifiers">pre-declared type</a>.</p>
 <p>Apparently we have learned nothing from the whole fiasco of cryptic Unix commands, which at least were justified by the scarcity of bytes at the time.</p>
 <h2 id="packaging-your-code">Packaging Your Code</h2>
-<p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a>, which not surprisingly boasts more modules than any other package manager.</p>
-<div class="figure">
-<img src="pics/adventures-modulecounts.png" title="npm has 600k+ packages, Gopm around 20k" alt="Source: Module Counts" />
-<p class="caption">Source: <a href="http://www.modulecounts.com/">Module Counts</a></p>
-</div>
+<p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a> which not surprisingly boasts more modules than any other package manager.</p>
 <h3 id="package-layout">Package Layout</h3>
 <p>There seems to be no official layout for a package. The <a href="https://golang.org/doc/code.html#Organization">documentation</a> shows a somehow messy layout. There is support for subpackages, but no standard routes: code just lies around in the root directory of the package.</p>
 <p>Big projects usually have many folders; apparently sub-sub-subpackages are the only way to go. This contrasts with Node.js where a single export point can easily be specified, while maintaining a complex internal structure.</p>
 <h3 id="package-manager-or-lack-thereof">Package Manager, or Lack Thereof</h3>
 <p>Go has no official package manager. <a href="https://github.com/golang/dep">dep</a> is labeled as an &quot;<em>official</em> experiment&quot;. It is quite telling that, 9 years after its creation and 6 years after its 1.0 release, there is still no official package manager. Contrast this with <a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a>, released around the same time as the first Go, which counted with [npm](https://en.wikipedia.org/wiki/Npm_(software) a few months later.</p>
-<p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: the most popular package <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> only counts around 13k downloads, total.</p>
+<p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: the most popular package <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> only counts around 13k downloads total.</p>
+<p>These 20k packages are dwarved by the 200k in Java's Maven and the 600k for JavaScript's npm.</p>
+<div class="figure">
+<img src="pics/adventures-modulecounts.png" title="npm has 600k+ packages, Gopm around 20k" alt="Source: Module Counts." />
+<p class="caption">Source: <a href="http://www.modulecounts.com/">Module Counts</a>.</p>
+</div>
+<p>All kinds of dumb excuses can be given, from the bad average quality in npm to the nature of Go as a &quot;systems language&quot;. In reality Go is often used as a web development language, it just lacks the libraries.</p>
 <h3 id="accessing-other-packages">Accessing Other Packages</h3>
 <p>The official way of downloading other packages is therefore to <code>go get</code> them:</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">go</span> get github.org/golang/lint</code></pre></div>
@@ -197,8 +196,8 @@
 <h3 id="gofmt"><code>gofmt</code></h3>
 <p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option, and now mandate tabs everywhere.</p>
 <div class="figure">
-<img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it" />
-<p class="caption">Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a></p>
+<img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it." />
+<p class="caption">Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a>.</p>
 </div>
 <p>Another nitpick is automatic reformatting. Suppose you have this variable declaration at the top:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="kw">var</span> (
@@ -215,21 +214,23 @@
 <h3 id="hard-data">Hard Data</h3>
 <p>The hype around Go seems to have largely subdued. Data from Google Trends shows that Go has peaked:</p>
 <div class="figure">
-<img src="pics/adventures-google-trends.png" title="Max height on April 2014" alt="Source: Google Trends" />
-<p class="caption">Source: <a href="https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&amp;geo=US&amp;q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89">Google Trends</a></p>
+<img src="pics/adventures-google-trends.png" title="Max height for Go on April 2014" alt="Source: Google Trends." />
+<p class="caption">Source: <a href="https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&amp;geo=US&amp;q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89">Google Trends</a>.</p>
 </div>
-<p>Data from Google is however largely suspect: Go is always above Node.js, and it starts at around 25% even before it was announced. I suspect some filtering artifact inflating Go. Let us see data from Stack Overflow Trends:</p>
+<p>This dataset is however largely suspect: Go is always above Node.js, and it starts at around 25% even before it was announced. I suspect some filtering artifact inflating Go. Let us see data from Stack Overflow Trends:</p>
 <div class="figure">
-<img src="pics/adventures-stackoverflow-trends.png" title="Growth stalling around 2016" alt="Source: Stack Overflow Trends" />
-<p class="caption">Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a></p>
+<img src="pics/adventures-stackoverflow-trends.png" title="Go growth stalling around 2016" alt="Source: Stack Overflow Trends." />
+<p class="caption">Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a>.</p>
 </div>
-<p>Apparently, the opportunity for Go to be the Java killer has passed.</p>
+<p>This looks more sensible. Apparently the opportunity for Go to be the Java killer has come and passed.</p>
 <h3 id="performance">Performance</h3>
-<p>A large part of Go's appeal was based on its good performance. But now it seems that it does not perform so well. It is around the same ballpark as Java [source: Debian]. This momentum has gone largely to Rust, which performs about the same as C [source: Debian] while being very well liked by the community [source: SO survey]. It seems as if Rust has stolen Go's thunder.</p>
+<p>A large part of Go's early appeal was based on its good performance. It promised to be faster e.g. than Java, but in practice is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about the same</a>.</p>
+<p>Add to this that Go channels are really slow. Channels are the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>, but relying on them can slow your program down a lot.</p>
+<p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as the speed king C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a> while being at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. Rust appears to have stolen Go's thunder.</p>
 <h3 id="community">Community</h3>
-<p>Go has a weird situation with regards to community: it is controlled directly by Google, which limits the ability of the community to influence its design. But that is not the worst peril:</p>
+<p>Go has a weird situation with regards to community: it is controlled directly by Google limiting the ability of the community to influence its design. This poor starting point leads to a paucity of collaborations in libraries.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>A</p>
+<p>Go does not look like a solid bet for large projects at this point. The language is cumbersome and has suffered from a lot of weird choices. It is still a good fit for small utilities, offering a good compromise between .</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a>, and to everyone else that has helped me on Twitter with #golang.</p>
 								</div>
