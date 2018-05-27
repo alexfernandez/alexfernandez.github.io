@@ -95,7 +95,7 @@
 <p>Criticizing those aspects of a programming language that we don't like is an endless source of amusement. So there you go.</p>
 <h3 id="pointless-pointers">Pointless Pointers</h3>
 <p>After using C for any length of time pointer arithmetic becomes a constant annoyance. One of the cool innovations in Java was to pass all objects by reference, so there was no need to use pointers explicitly any longer.</p>
-<p>But alas, Go was masterminded by <a href="https://en.wikipedia.org/wiki/Rob_Pike">a member of the Unix team</a>.</p>
+<p>But alas, Go was masterminded by <a href="https://en.wikipedia.org/wiki/Rob_Pike">a member of the original Unix team</a>.</p>
 <div class="figure">
 <img src="pics/adventures-johnny.gif" title="Here&#39;s Johnny!" alt="Yes, baby, they are back!" />
 <p class="caption">Yes, baby, <a href="https://diply.com/shining-movie-facts?publisher=what-the-facts&amp;config=22">they are back!</a></p>
@@ -115,7 +115,7 @@
         log.Printf(<span class="st">&quot;Box width is now %v&quot;</span>, coolBox.Width)
 }</code></pre></div>
 <p>We create a box with width 5, and then set its width to 10. What do you think will be the result? If you guessed &quot;10&quot; then you are wrong, it is still 5! You can <a href="https://play.golang.org/p/rHShwwYcDu8">check it for yourself</a>.</p>
-<p>To get the desired behaviour you need to use our <a href="https://play.golang.org/p/bRpxq4gZQxX">cool box</a>, which uses pointers:</p>
+<p>To get the desired behaviour you need to use our <a href="https://play.golang.org/p/bRpxq4gZQxX">cool box</a>:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="kw">type</span> CoolBox <span class="kw">struct</span> {
         Width <span class="dt">int</span>
 }
@@ -130,13 +130,21 @@
         log.Printf(<span class="st">&quot;Cool box width is now %v&quot;</span>, coolBox.Width)
 }</code></pre></div>
 <p>This time we get 10 as expected. You can <a href="https://play.golang.org/p/bRpxq4gZQxX">play with it</a>.</p>
-<p>The reason is that functions declared as methods of a regular struct operate on <em>a copy</em> of the original struct. Why this is ever needed on this world, I don't really know. Adding to the confusion, access to an attribute is done using <code>.</code> for both structs and struct pointers.</p>
-<p>Then at a certain point you realize that passing variables around by value is slow and uncomfortable: So you start using pointers for everything. Anything you see without the dreaded <code>*</code> is a pending optimization. But careful! Because pointers to <code>interface</code>s are no good; for them you need to pass the original interface! For some reason.</p>
-<p>Granted, Go at least has no <a href="http://www.eskimo.com/~scs/cclass/notes/sx10b.html">pointer arithmetic</a>, but that is a meager consolation. Adding <code>*</code> and <code>&amp;</code> everywhere is so backwards. And don't even get me started on passing slices around, or you may end up with abominations such as <code>*[]*Box</code>: a pointer to a slice of pointers to <code>Box</code>es.</p>
-<p>This for me was the dealbreaker. But there's more. Oh so much more.</p>
+<p>Can you tell the difference? <a href="https://golang.org/doc/effective_go.html#methods">Methods in Go</a> can be declared on a struct, thus:</p>
+<pre><code>func (box Box) SetWidth([...])</code></pre>
+<p>in which case they operate on <em>a copy</em> of the original struct. Every invocation results in a new <code>Box</code>. Why this is ever needed on this world, I don't really know.</p>
+<p>Methods can also be declared on a <em>pointer to the struct</em>:</p>
+<pre><code>func (box *Box) SetWidth([...])</code></pre>
+<p>That small asterisk makes all the difference. Now the method can modify the original struct. Adding to the confusion, access to an attribute is done using <code>.</code> for both structs and struct pointers.</p>
+<p>The problem is compounded for functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise. It is also slower since you are making copies of structs all the time, which can clog the garbage collector in high performance applications. So you start using pointers for everything. Any parameter you see without the dreaded <code>*</code> is a pending optimization. But careful! Because pointers to <code>interface</code>s are no good; for some reason you need to pass the original interface.</p>
+<p>Once you are using pointers everywhere, you start getting these fun errors:</p>
+<pre><code>panic: runtime error: invalid memory address or nil pointer dereference</code></pre>
+<p>which are equivalent to the infamous Null Pointer Exception in Java, or the <code>ReferenceError</code> in JavaScript. And that is how pointer safety is compromised.</p>
+<p>Granted, Go at least has no <a href="http://www.eskimo.com/~scs/cclass/notes/sx10b.html">pointer arithmetic</a>, but that is a meager consolation when you have to add <code>*</code> and <code>&amp;</code> everywhere. And don't even get me started on passing slices around, or you may end up with abominations such as <code>*[]*[]*Box</code>: a pointer to a slice of pointers to slices of pointers to <code>Box</code>es.</p>
+<p>This for me was the dealbreaker. But there's more.</p>
 <h3 id="interfaces">Interfaces</h3>
-<p>As xxx said, implicit interfaces are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>, and not everything with a <code>TODO</code> is a TODO.</p>
-<p>Declaring interface pertenence explicitly communicates an intent.</p>
+<p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game.</p>
+<p>Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn't start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
 <h3 id="minor-nitpicks">Minor Nitpicks</h3>
 <p>Even the most unimportant things can add up. Right now it's all coming through in waves.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
@@ -151,7 +159,11 @@
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="bu">copy</span>(dst, src)</code></pre></div>
 <p>This breaks my mind in surprisingly aberrant ways. Never mind the obnoxious abbreviations <code>dst</code> and <code>src</code>.</p>
 <h4 id="obnoxious-abbreviations">Obnoxious Abbreviations</h4>
-<p>Actually, I do mind the obnoxious abbreviations. Go authors <a href="https://github.com/golang/go/wiki/CodeReviewComments#receiver-names">encourage</a> the use of single name variables whenever possible. I believe this encourages newbies to use the language, specifically two-finger typers.</p>
+<div class="figure">
+<img src="pics/adventures-abbrevs.gif" title="Stop abbreviating words" alt="Actually, I do mind the obnoxious abbreviations" />
+<p class="caption">Actually, I do mind the <a href="https://imgur.com/gallery/1nEIbxb">obnoxious abbreviations</a></p>
+</div>
+<p>Go authors <a href="https://github.com/golang/go/wiki/CodeReviewComments#receiver-names">encourage</a> the use of single name variables whenever possible. I believe this encourages newbies to use the language, specifically two-finger typers.</p>
 <div class="figure">
 <img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="Two-finger typers like John Watson" />
 <p class="caption">Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a></p>

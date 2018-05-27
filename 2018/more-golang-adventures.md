@@ -32,7 +32,7 @@ After using C for any length of time pointer arithmetic becomes a constant annoy
 One of the cool innovations in Java was to pass all objects by reference,
 so there was no need to use pointers explicitly any longer.
 
-But alas, Go was masterminded by [a member of the Unix team](https://en.wikipedia.org/wiki/Rob_Pike).
+But alas, Go was masterminded by [a member of the original Unix team](https://en.wikipedia.org/wiki/Rob_Pike).
 
 ![Yes, baby, [they are back!](https://diply.com/shining-movie-facts?publisher=what-the-facts&config=22)](pics/adventures-johnny.gif "Here's Johnny!")
 
@@ -60,7 +60,7 @@ If you guessed "10" then you are wrong, it is still 5!
 You can [check it for yourself](https://play.golang.org/p/rHShwwYcDu8).
 
 To get the desired behaviour you need to use our
-[cool box](https://play.golang.org/p/bRpxq4gZQxX), which uses pointers:
+[cool box](https://play.golang.org/p/bRpxq4gZQxX):
 
 ```go
 type CoolBox struct {
@@ -78,42 +78,67 @@ func main() {
 }
 ```
 
-This time we get 10 as expected. You can
-[play with it](https://play.golang.org/p/bRpxq4gZQxX).
+This time we get 10 as expected.
+You can [play with it](https://play.golang.org/p/bRpxq4gZQxX).
 
-The reason is that functions declared as methods of a regular struct
-operate on _a copy_ of the original struct.
+Can you tell the difference?
+[Methods in Go](https://golang.org/doc/effective_go.html#methods)
+can be declared on a struct, thus:
+
+    func (box Box) SetWidth([...])
+
+in which case they operate on _a copy_ of the original struct.
+Every invocation results in a new `Box`.
 Why this is ever needed on this world, I don't really know.
+
+Methods can also be declared on a *pointer to the struct*:
+
+    func (box *Box) SetWidth([...])
+
+That small asterisk makes all the difference.
+Now the method can modify the original struct.
 Adding to the confusion, access to an attribute is done using `.`
 for both structs and struct pointers.
 
-Then at a certain point you realize that passing variables around by value
-is slow and uncomfortable:
+The problem is compounded for functions.
+At a certain point you realize that passing variables around by value
+is probably not what you want:
+whenever you are tempted to modify a value you will get a surprise.
+It is also slower since you are making copies of structs all the time,
+which can clog the garbage collector in high performance applications.
 So you start using pointers for everything.
-Anything you see without the dreaded `*` is a pending optimization.
+Any parameter you see without the dreaded `*` is a pending optimization.
 But careful! Because pointers to `interface`s are no good;
-for them you need to pass the original interface!
-For some reason.
+for some reason you need to pass the original interface.
+
+Once you are using pointers everywhere, you start getting these fun errors:
+
+    panic: runtime error: invalid memory address or nil pointer dereference
+
+which are equivalent to the infamous Null Pointer Exception in Java,
+or the `ReferenceError` in JavaScript.
+And that is how pointer safety is compromised.
 
 Granted, Go at least has no [pointer arithmetic](http://www.eskimo.com/~scs/cclass/notes/sx10b.html),
-but that is a meager consolation.
-Adding `*` and `&` everywhere is so backwards.
+but that is a meager consolation when you have to add `*` and `&` everywhere.
 And don't even get me started on passing slices around,
 or you may end up with abominations such as
-`*[]*Box`: a pointer to a slice of pointers to `Box`es.
+`*[]*[]*Box`: a pointer to a slice of pointers to slices of pointers to `Box`es.
 
 This for me was the dealbreaker. But there's more.
-Oh so much more.
 
 ### Interfaces
 
-As xxx said,
-implicit interfaces are a mess.
+As has been [said before](https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html),
+[implicit interfaces](https://tour.golang.org/methods/10)
+are a mess.
 Not every class that implements the method `Start()` and `Stop()`
-is a `Server`,
-and not everything with a `TODO` is a TODO.
+is a `Server`: it can be a `VideoPlayer` or a `Car` in a game.
 
-Declaring interface pertenence explicitly communicates an intent.
+Declaring interface pertenence explicitly communicates an intent:
+this class does this and behaves like that.
+But in Go you can never trust that the class that acts like a `Server`
+didn't start its life as a `VideoPlayer` or a `Car`.
 
 ### Minor Nitpicks
 
@@ -154,7 +179,9 @@ Never mind the obnoxious abbreviations `dst` and `src`.
 
 #### Obnoxious Abbreviations
 
-Actually, I do mind the obnoxious abbreviations.
+![Actually, I do mind the [obnoxious abbreviations](https://imgur.com/gallery/1nEIbxb)](pics/adventures-abbrevs.gif "Stop abbreviating words")
+
+
 Go authors [encourage](https://github.com/golang/go/wiki/CodeReviewComments#receiver-names)
 the use of single name variables whenever possible.
 I believe this encourages newbies to use the language, 
