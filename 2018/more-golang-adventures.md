@@ -351,16 +351,21 @@ Rust is at the same time
 [very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
 In short, Rust appears to have stolen Go's thunder.
 
-Go has a weird situation with regards to community:
-it is controlled directly by Google limiting the ability of the community to influence its design.
-This poor starting point leads to a paucity of collaborations in libraries.
+Go has also a weird situation with regards to community:
+it is controlled directly by Google limiting the ability of others to influence its design.
+This poor starting point leads to a paucity of collaborations in libraries,
+and to a weak community around it.
+But Go people are apparently happy so they are not likely to do anything about it.
 
 ## Conclusion
 
+A largish project comes with a long-term commitment to maintain it,
+and a successful organization needs to carefully evaluate a language
+before committing to using it for any significant amount of time.
+
 Go does not look like a solid bet for large projects at this point.
 The language is cumbersome and has suffered from a lot of weird choices.
-It is still a good fit for small utilities,
-offering a good compromise between .
+It is still a good fit for small utilities that require better computing performance.
 
 ### Acknowledgements
 
