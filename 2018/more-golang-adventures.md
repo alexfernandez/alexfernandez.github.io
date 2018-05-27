@@ -319,10 +319,7 @@ making it impossible to trace a particular change.
 The ability to maintain a project long-term
 depends on how attractive it is to its potential developers.
 An unpopular language or framework can severely limit its evolution.
-
-### Hard Data
-
-The hype around Go seems to have largely subdued.
+And the hype around Go seems to have largely subdued.
 Data from Google Trends shows that Go has peaked:
 
 ![Source: [Google Trends](https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&geo=US&q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89).](pics/adventures-google-trends.png "Max height for Go on April 2014")
@@ -338,11 +335,9 @@ Let us see data from Stack Overflow Trends:
 This looks more sensible.
 Apparently the opportunity for Go to be the Java killer has come and passed.
 
-### Performance
-
 A large part of Go's early appeal was based on its good performance.
-It promised to be faster e.g. than Java,
-but in practice is
+It promised to be faster than other languages like Java,
+but in practice it is
 [about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
 
 ![Not that Java is [slow](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
@@ -356,8 +351,6 @@ and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmark
 while being at the same time
 [very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
 In short, Rust appears to have stolen Go's thunder.
-
-### Community
 
 Go has a weird situation with regards to community:
 it is controlled directly by Google limiting the ability of the community to influence its design.
