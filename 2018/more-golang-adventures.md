@@ -317,8 +317,8 @@ making it impossible to trace a particular change.
 ## Momentum
 
 The ability to maintain a project long-term
-depends on how attractive it is to its potential developers.
-An unpopular language or framework can severely limit its evolution.
+depends on how attractive it is to its potential developers:
+it is hard to look for candidates to work on an unpopular language or framework.
 And the hype around Go seems to have largely subdued.
 Data from Google Trends shows that Go has peaked:
 
