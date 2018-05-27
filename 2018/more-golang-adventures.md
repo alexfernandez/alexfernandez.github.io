@@ -326,17 +326,16 @@ Data from Google Trends shows that Go has peaked:
 
 This dataset is however largely suspect:
 Go is always above Node.js,
-and it starts at around 25% even before it was announced.
-I suspect some filtering artifact inflating Go.
+and it starts at around 25% before it was even announced.
+I suspect that not even Google is able to filter correctly such a common word.
 Let us see data from Stack Overflow Trends:
 
 ![Source: [Stack Overflow Trends](https://insights.stackoverflow.com/trends?tags=go%2Cnode.js).](pics/adventures-stackoverflow-trends.png "Go growth stalling around 2016")
 
 This looks more sensible.
-Apparently the opportunity for Go to be the Java killer has come and passed.
 
-A large part of Go's early appeal was based on its good performance.
-It promised to be faster than other languages like Java,
+Apparently the opportunity for Go to be the Java killer has come and passed.
+A large part of Go's early appeal was based on being faster than other languages like Java,
 but in practice it is
 [about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
 
