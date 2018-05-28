@@ -225,9 +225,8 @@ which not surprisingly boasts more modules than any other package manager.
 There seems to be no official layout for a package.
 The [documentation](https://golang.org/doc/code.html#Organization)
 shows a somehow messy layout.
-There is support for subpackages,
-but no standard routes:
-code just lies around in the root directory of the package.
+There is support for subpackages but no standard paths:
+in most packages code just lies around in the root directory of the package.
 
 Big projects usually have many folders; apparently
 sub-sub-subpackages are the only way to go.
@@ -236,12 +235,11 @@ while maintaining a complex internal structure.
 
 ### Package Manager, or Lack Thereof
 
+9 years after its creation and 6 years after its 1.0 release
 Go has no official package manager.
 [dep](https://github.com/golang/dep)
 is labeled as an "_official_ experiment".
-It is quite telling that, 9 years after its creation and 6 years after its 1.0 release,
-there is still no official package manager.
-Contrast this with [Node.js](https://en.wikipedia.org/wiki/Node.js),
+Contrast this with [Node.js](https://en.wikipedia.org/wiki/Node.js) which was
 released around the same time as the first Go,
 which counted with [npm](https://en.wikipedia.org/wiki/Npm_(software)
 a few months later.
