@@ -92,7 +92,7 @@ in which case they operate on _a copy_ of the original struct.
 Every invocation results in a new `Box`.
 Why this is ever needed on this world, I don't really know.
 
-![[Source](https://giphy.com/gifs/eye-roll-PyPO7ZR8KXbxe).](pics/adventures-rolleyess.gif "Stop and roll your eyes")
+![[Source](https://giphy.com/gifs/eye-roll-PyPO7ZR8KXbxe).](pics/adventures-rolleyes.gif "Stop and roll your eyes")
 
 Methods can also be declared on a *pointer to the struct*:
 
