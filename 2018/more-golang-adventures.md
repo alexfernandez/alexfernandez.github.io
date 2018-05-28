@@ -294,8 +294,9 @@ Maybe you work for different companies and want to keep their code separate?
 Maybe you just like organizing your stuff in a different way?
 In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
-But the `go` tool will only look at the `$GOPATH` for things like dependencies
-and tests.
+But the `go` tool will only look at the `$GOPATH` for things like dependencies and tests.
+
+![Otherwise it might become distracted and look around your hard drive? [Source](TODO).](pics/adventures-blinkers.png "Horse with eye blinkers strays not")
 
 ## Tooling
 
