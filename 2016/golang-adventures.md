@@ -1,7 +1,7 @@
 ---
 title: Adventures in the Land of Go
 subtitle: 'That Ungoogleable Language from Google'
-footer: Published on 2016-02-22.
+footer: Published on 2016-02-22, updated on 2018-05-28.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -691,4 +691,8 @@ At least for the most performance hungry parts of your application;
 and write the rest in a more productive language.
 That's my impression after a few days;
 I'll update this article if I change my mind.
+
+Update: I have published a
+[second part](../2018/more-golang-adventures.html)
+with more adventures!
 
