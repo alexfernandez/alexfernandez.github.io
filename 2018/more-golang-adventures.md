@@ -236,12 +236,12 @@ while maintaining a complex internal structure.
 ### Package Manager, or Lack Thereof
 
 9 years after its creation and 6 years after its 1.0 release
-Go has no official package manager.
+Go still has no official package manager.
 [dep](https://github.com/golang/dep)
 is labeled as an "_official_ experiment".
-Contrast this with [Node.js](https://en.wikipedia.org/wiki/Node.js) which was
-released around the same time as the first Go,
-and got [npm](https://en.wikipedia.org/wiki/Npm_(software))
+Contrast this with [Node.js](https://en.wikipedia.org/wiki/Node.js):
+released around the same time as Go
+it got [npm](https://en.wikipedia.org/wiki/Npm_(software))
 a few months later.
 
 There are other Go package managers;
