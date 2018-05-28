@@ -108,7 +108,6 @@ whenever you are tempted to modify a value you will get a surprise:
 
 ```
 func enlargeBox(box Box) {
-        showBox(box)
         box.Width += 5
 }
 

@@ -138,7 +138,6 @@
 <p>That small asterisk makes all the difference. Now the method operates on the original struct and can thus modify it. Adding to the confusion, access to an attribute is done using the dot '<code>.</code>' for both structs and struct pointers.</p>
 <p>The problem is just as confusing for regular functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise:</p>
 <pre><code>func enlargeBox(box Box) {
-        showBox(box)
         box.Width += 5
 }
 
