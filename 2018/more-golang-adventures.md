@@ -241,7 +241,7 @@ Go has no official package manager.
 is labeled as an "_official_ experiment".
 Contrast this with [Node.js](https://en.wikipedia.org/wiki/Node.js) which was
 released around the same time as the first Go,
-which counted with [npm](https://en.wikipedia.org/wiki/Npm_(software)
+and got [npm](https://en.wikipedia.org/wiki/Npm_(software))
 a few months later.
 
 There are other Go package managers;
