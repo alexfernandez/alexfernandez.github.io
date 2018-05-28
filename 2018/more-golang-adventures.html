@@ -210,7 +210,7 @@ func main() {
 <h2 id="tooling">Tooling</h2>
 <p>Since we are already speaking about tooling, let's complain about it at length.</p>
 <h3 id="gofmt"><code>gofmt</code></h3>
-<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option, and now mandate tabs everywhere.</p>
+<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, kids: <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option and now mandate tabs everywhere.</p>
 <div class="figure">
 <img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it." />
 <p class="caption">Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a>.</p>
@@ -224,29 +224,31 @@ func main() {
   i     <span class="dt">int</span>
   value <span class="dt">int</span>
 )</code></pre></div>
-<p>Voilà! Looks nice, right? Now your diff tool says that two lines have changed. Each long variable you add will increase the number of lines changed, making it impossible to trace a particular change.</p>
+<p>Voilà! The first line has been reformatted adding several spaces. Looks nice with both variables lined up at the <code>int</code>, right? Now your diff tool says that two lines have changed. Each long variable you add will increase the number of lines changed making it impossible to trace a particular change.</p>
+<p>You can always not use <code>gofmt</code> at your peril, of course. But remember that the rest of the world will probably do.</p>
 <h2 id="momentum">Momentum</h2>
 <p>The ability to maintain a project long-term depends on how attractive it is to its potential developers: it is hard to look for candidates to work on an unpopular language or framework. And the hype around Go seems to have largely subdued. Data from Google Trends shows that Go has peaked:</p>
 <div class="figure">
 <img src="pics/adventures-google-trends.png" title="Max height for Go on April 2014" alt="Source: Google Trends." />
 <p class="caption">Source: <a href="https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&amp;geo=US&amp;q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89">Google Trends</a>.</p>
 </div>
-<p>This dataset is however largely suspect: Go is always above Node.js, and it starts at around 25% before it was even announced. I suspect that not even Google is able to filter correctly such a common word. Let us see data from Stack Overflow Trends:</p>
+<p>This dataset is however largely suspect: Go is always above Node.js and starts at around 25% before it was even announced. I fear that not even Google is able to filter correctly such a common word. Let us see data from Stack Overflow Trends:</p>
 <div class="figure">
 <img src="pics/adventures-stackoverflow-trends.png" title="Go growth stalling around 2016" alt="Source: Stack Overflow Trends." />
 <p class="caption">Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a>.</p>
 </div>
-<p>This looks more sensible.</p>
-<p>Apparently the opportunity for Go to be the Java killer has come and passed. A large part of Go's early appeal was based on being faster than other languages like Java, but in practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about the same</a>. Add to this that relying on Go channels can slow your program down a bit, which happen to be the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
+<p>This looks more like it.</p>
+<p>Go has a weird situation with regards to community: it is controlled directly by Google limiting the ability of others to influence its design. This poor starting point leads to a paucity of collaborations in libraries, and to a weak community around it. But Go people are apparently happy so they are not likely to do anything about it.</p>
+<p>Apparently the opportunity for Go to be the new C has come and passed. A large part of Go's early appeal was based on being as fast as the proverbial speed king. In practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about as fast as Java</a>. Add to this that relying on Go channels can slow your program down a bit, which happen to be the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
 <div class="figure">
 <img src="pics/adventures-slow.gif" title="A snail on a turtle" alt="Channels in go, source." />
 <p class="caption">Channels in go, <a href="https://tenor.com/search/snail-gifs">source</a>.</p>
 </div>
-<p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as the speed king C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a>. Rust is at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. In short, Rust appears to have stolen Go's thunder.</p>
-<p>Go has also a weird situation with regards to community: it is controlled directly by Google limiting the ability of others to influence its design. This poor starting point leads to a paucity of collaborations in libraries, and to a weak community around it. But Go people are apparently happy so they are not likely to do anything about it.</p>
+<p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a>. Rust is at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. In short, Rust appears to have stolen Go's performance thunder.</p>
+<p>At the same time Node.js has not lost an iota of popularity, even with the <a href="https://auth0.com/blog/whats-tjs-stack-these-days/">high</a> <a href="https://thenewstack.io/another-respected-developer-says-farewell-to-node-js-and-hello-to-go/">profile</a> defections. Its robust appeal comes from using JavaScript which is still evolving rapidly. Even if it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go-node.html">not as fast as Go</a> it happens to be fast enough for most applications.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>A largish project comes with a long-term commitment to maintain it. A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. Adopting a new language also brings the implicit compromise to hire knowledgeable people.</p>
-<p>Go does not look like a solid bet for large projects at this point. The language is cumbersome and has suffered from a lot of weird choices, and it does not seem like they are going to be revised any time soon. Don't get me wrong, it is still a good fit for small utilities that require better computing performance than Node.js.</p>
+<p>A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. A largish project comes with a long-term commitment to maintain it. Adopting a new language also brings the implicit compromise to hire knowledgeable people. Go does not look like a solid bet for large projects at this point.</p>
+<p>Apart from the corporate babble there is a glaring conclusion: Go quickly stops being fun when more ambitious projects are tackled. The language is cumbersome and has suffered from a lot of weird choices; it does not seem like they are going to be revised any time soon. The toolset is not as good as it believes it is. I think that Go can still be a good fit for small utilities that require better computing performance than Node.js but do not need the power of C.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a>, and to everyone else that has helped me on Twitter with #golang.</p>
 								</div>

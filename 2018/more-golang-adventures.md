@@ -307,10 +307,9 @@ let's complain about it at length.
 
 It should be great when the creators of a language
 also give you a [nice formatting tool](https://golang.org/cmd/gofmt/).
-But remember, `gofmt` is brought to you by the same people who
+But remember, kids: `gofmt` is brought to you by the same people who
 [mandate inlined brace style](2016/golang-adventures.html#mandatory-brace-style).
-So they saw it fit to remove spaces as an option,
-and now mandate tabs everywhere.
+So they saw it fit to remove spaces as an option and now mandate tabs everywhere.
 
 ![Richard Hendricks would [love it](http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny).](pics/adventures-spaces.gif "Winnie types spaces")
 
@@ -332,10 +331,14 @@ var (
 )
 ```
 
-Voilà! Looks nice, right?
+Voilà! The first line has been reformatted adding several spaces.
+Looks nice with both variables lined up at the `int`, right?
 Now your diff tool says that two lines have changed.
-Each long variable you add will increase the number of lines changed,
+Each long variable you add will increase the number of lines changed
 making it impossible to trace a particular change.
+
+You can always not use `gofmt` at your peril, of course.
+But remember that the rest of the world will probably do.
 
 ## Momentum
 
@@ -348,48 +351,62 @@ Data from Google Trends shows that Go has peaked:
 ![Source: [Google Trends](https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&geo=US&q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89).](pics/adventures-google-trends.png "Max height for Go on April 2014")
 
 This dataset is however largely suspect:
-Go is always above Node.js,
-and it starts at around 25% before it was even announced.
-I suspect that not even Google is able to filter correctly such a common word.
+Go is always above Node.js and starts at around 25% before it was even announced.
+I fear that not even Google is able to filter correctly such a common word.
 Let us see data from Stack Overflow Trends:
 
 ![Source: [Stack Overflow Trends](https://insights.stackoverflow.com/trends?tags=go%2Cnode.js).](pics/adventures-stackoverflow-trends.png "Go growth stalling around 2016")
 
-This looks more sensible.
+This looks more like it.
 
-Apparently the opportunity for Go to be the Java killer has come and passed.
-A large part of Go's early appeal was based on being faster than other languages like Java,
-but in practice it is
-[about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
+Go has a weird situation with regards to community:
+it is controlled directly by Google limiting the ability of others to influence its design.
+This poor starting point leads to a paucity of collaborations in libraries,
+and to a weak community around it.
+But Go people are apparently happy so they are not likely to do anything about it.
+
+Apparently the opportunity for Go to be the new C has come and passed.
+A large part of Go's early appeal was based on being as fast as the proverbial speed king.
+In practice it is
+[about as fast as Java](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
 Add to this that relying on Go channels can slow your program down a bit,
 which happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
 
 ![Channels in go, [source](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
 The momentum has gone largely to Rust, which performs
-[about the same as the speed king C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
+[about the same as C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
 and much faster than [Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html).
 Rust is at the same time
 [very well liked by the community](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted).
-In short, Rust appears to have stolen Go's thunder.
+In short, Rust appears to have stolen Go's performance thunder.
 
-Go has also a weird situation with regards to community:
-it is controlled directly by Google limiting the ability of others to influence its design.
-This poor starting point leads to a paucity of collaborations in libraries,
-and to a weak community around it.
-But Go people are apparently happy so they are not likely to do anything about it.
+At the same time Node.js has not lost an iota of popularity,
+even with the [high](https://auth0.com/blog/whats-tjs-stack-these-days/)
+[profile](https://thenewstack.io/another-respected-developer-says-farewell-to-node-js-and-hello-to-go/)
+defections.
+Its robust appeal comes from using JavaScript
+which is still evolving rapidly.
+Even if it is
+[not as fast as Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go-node.html)
+it happens to be fast enough for most applications.
 
 ## Conclusion
 
-A largish project comes with a long-term commitment to maintain it.
 A successful organization needs to carefully evaluate a language or platform
 before using it for any significant projects.
+A largish project comes with a long-term commitment to maintain it.
 Adopting a new language also brings the implicit compromise to hire knowledgeable people.
-
 Go does not look like a solid bet for large projects at this point.
-The language is cumbersome and has suffered from a lot of weird choices,
-and it does not seem like they are going to be revised any time soon.
-Don't get me wrong, it is still a good fit for small utilities that require better computing performance than Node.js.
+
+Apart from the corporate babble there is a glaring conclusion:
+Go quickly stops being fun when more ambitious projects are tackled.
+The language is cumbersome and has suffered from a lot of weird choices;
+it does not seem like they are going to be revised any time soon.
+The toolset is not as good as it believes it is.
+I think that Go can still be a good fit for small utilities that require better computing performance than Node.js
+but do not need the power of C.
+
 
 ### Acknowledgements
 
