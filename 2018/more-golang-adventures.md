@@ -238,7 +238,8 @@ everything is piled up in files with random names.
 There is no way to know which structs or variables are defined in which files,
 since they are exported whenever they use capitals.
 The only rule is that test files end with `_test.go`,
-a practice that I happen to dislike.
+and I happen to dislike separating tests from code.
+ಠ_ಠ
 
 ### Package Manager, or Lack Thereof
 
