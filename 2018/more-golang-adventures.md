@@ -249,15 +249,14 @@ the most popular seems to be
 [gopm](https://gopm.io/)
 which counts more than 20k packages.
 Unsurprisingly not many people use it:
-the most popular package [golang.org/x/net](https://gopm.io/golang.org/x/net)
-only counts around 13k downloads total.
-
+[golang.org/x/net](https://gopm.io/golang.org/x/net)
+is the package most downloaded ever, with about 13k downloads.
 These 20k packages are dwarved by the 200k in Java's Maven
 and the 600k for JavaScript's npm.
 
 ![Source: [Module Counts](http://www.modulecounts.com/).](pics/adventures-modulecounts.png "npm has 600k+ packages, Gopm around 20k")
 
-All kinds of dumb excuses can be given,
+All kinds of poor excuses can be given,
 from the bad average quality in npm to the nature of Go as a "systems language".
 In reality Go is often used as a web development language,
 it just lacks the libraries.
@@ -290,7 +289,9 @@ have this to say:
 > [...]
 > Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.
 
-Perhaps there is a reason for preferring a different organization?
+Keeping all code together is a poor practice.
+Maybe you work for different companies and want to keep their code separate?
+Maybe you just like organizing your stuff in a different way?
 In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
 But the `go` tool will only look at the `$GOPATH` for things like dependencies

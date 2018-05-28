@@ -187,13 +187,12 @@ func main() {
 <p>Big projects usually have many folders; apparently sub-sub-subpackages are the only way to go. This contrasts with Node.js where a single export point can easily be specified, while maintaining a complex internal structure.</p>
 <h3 id="package-manager-or-lack-thereof">Package Manager, or Lack Thereof</h3>
 <p>9 years after its creation and 6 years after its 1.0 release Go still has no official package manager. <a href="https://github.com/golang/dep">dep</a> is labeled as an &quot;<em>official</em> experiment&quot;. Contrast this with <a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a>: released around the same time as Go it got <a href="https://en.wikipedia.org/wiki/Npm_(software)">npm</a> a few months later.</p>
-<p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: the most popular package <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> only counts around 13k downloads total.</p>
-<p>These 20k packages are dwarved by the 200k in Java's Maven and the 600k for JavaScript's npm.</p>
+<p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> is the package most downloaded ever, with about 13k downloads. These 20k packages are dwarved by the 200k in Java's Maven and the 600k for JavaScript's npm.</p>
 <div class="figure">
 <img src="pics/adventures-modulecounts.png" title="npm has 600k+ packages, Gopm around 20k" alt="Source: Module Counts." />
 <p class="caption">Source: <a href="http://www.modulecounts.com/">Module Counts</a>.</p>
 </div>
-<p>All kinds of dumb excuses can be given, from the bad average quality in npm to the nature of Go as a &quot;systems language&quot;. In reality Go is often used as a web development language, it just lacks the libraries.</p>
+<p>All kinds of poor excuses can be given, from the bad average quality in npm to the nature of Go as a &quot;systems language&quot;. In reality Go is often used as a web development language, it just lacks the libraries.</p>
 <h3 id="accessing-other-packages">Accessing Other Packages</h3>
 <p>The official way of downloading other packages is therefore to <code>go get</code> them:</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">go</span> get github.org/golang/lint</code></pre></div>
@@ -203,7 +202,7 @@ func main() {
 <blockquote>
 <p>Go programmers typically keep all their Go code in a single workspace. [...] Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.</p>
 </blockquote>
-<p>Perhaps there is a reason for preferring a different organization? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. But the <code>go</code> tool will only look at the <code>$GOPATH</code> for things like dependencies and tests.</p>
+<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. But the <code>go</code> tool will only look at the <code>$GOPATH</code> for things like dependencies and tests.</p>
 <h2 id="tooling">Tooling</h2>
 <p>Since we are already speaking about tooling, let's complain about it at length.</p>
 <h3 id="gofmt"><code>gofmt</code></h3>
