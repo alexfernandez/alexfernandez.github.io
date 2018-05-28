@@ -338,11 +338,10 @@ Apparently the opportunity for Go to be the Java killer has come and passed.
 A large part of Go's early appeal was based on being faster than other languages like Java,
 but in practice it is
 [about the same](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
-
-![Not that Java is [slow](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
-
 Add to this that relying on Go channels can slow your program down a bit,
 which happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
+
+![Channels in go, [source](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
 The momentum has gone largely to Rust, which performs
 [about the same as the speed king C](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html)
@@ -359,13 +358,15 @@ But Go people are apparently happy so they are not likely to do anything about i
 
 ## Conclusion
 
-A largish project comes with a long-term commitment to maintain it,
-and a successful organization needs to carefully evaluate a language
-before committing to using it for any significant amount of time.
+A largish project comes with a long-term commitment to maintain it.
+A successful organization needs to carefully evaluate a language or platform
+before using it for any significant projects.
+Adopting a new language also brings the implicit compromise to hire knowledgeable people.
 
 Go does not look like a solid bet for large projects at this point.
-The language is cumbersome and has suffered from a lot of weird choices.
-It is still a good fit for small utilities that require better computing performance.
+The language is cumbersome and has suffered from a lot of weird choices,
+and it does not seem like they are going to be revised any time soon.
+Don't get me wrong, it is still a good fit for small utilities that require better computing performance than Node.js.
 
 ### Acknowledgements
 

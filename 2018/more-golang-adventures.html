@@ -219,17 +219,16 @@
 <p class="caption">Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a>.</p>
 </div>
 <p>This looks more sensible.</p>
-<p>Apparently the opportunity for Go to be the Java killer has come and passed. A large part of Go's early appeal was based on being faster than other languages like Java, but in practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about the same</a>.</p>
+<p>Apparently the opportunity for Go to be the Java killer has come and passed. A large part of Go's early appeal was based on being faster than other languages like Java, but in practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about the same</a>. Add to this that relying on Go channels can slow your program down a bit, which happen to be the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
 <div class="figure">
-<img src="pics/adventures-slow.gif" title="A snail on a turtle" alt="Not that Java is slow." />
-<p class="caption">Not that Java is <a href="https://tenor.com/search/snail-gifs">slow</a>.</p>
+<img src="pics/adventures-slow.gif" title="A snail on a turtle" alt="Channels in go, source." />
+<p class="caption">Channels in go, <a href="https://tenor.com/search/snail-gifs">source</a>.</p>
 </div>
-<p>Add to this that relying on Go channels can slow your program down a bit, which happen to be the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
 <p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as the speed king C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a>. Rust is at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. In short, Rust appears to have stolen Go's thunder.</p>
 <p>Go has also a weird situation with regards to community: it is controlled directly by Google limiting the ability of others to influence its design. This poor starting point leads to a paucity of collaborations in libraries, and to a weak community around it. But Go people are apparently happy so they are not likely to do anything about it.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>A largish project comes with a long-term commitment to maintain it, and a successful organization needs to carefully evaluate a language before committing to using it for any significant amount of time.</p>
-<p>Go does not look like a solid bet for large projects at this point. The language is cumbersome and has suffered from a lot of weird choices. It is still a good fit for small utilities that require better computing performance.</p>
+<p>A largish project comes with a long-term commitment to maintain it. A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. Adopting a new language also brings the implicit compromise to hire knowledgeable people.</p>
+<p>Go does not look like a solid bet for large projects at this point. The language is cumbersome and has suffered from a lot of weird choices, and it does not seem like they are going to be revised any time soon. Don't get me wrong, it is still a good fit for small utilities that require better computing performance than Node.js.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a>, and to everyone else that has helped me on Twitter with #golang.</p>
 								</div>
