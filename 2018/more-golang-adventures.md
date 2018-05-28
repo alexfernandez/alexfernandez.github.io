@@ -98,7 +98,7 @@ Methods can also be declared on a *pointer to the struct*:
 
 That small asterisk makes all the difference.
 Now the method operates on the original struct and can thus modify it.
-Adding to the confusion, access to an attribute is done using `.`
+Adding to the confusion, access to an attribute is done using the dot '`.`'
 for both structs and struct pointers.
 
 The problem is compounded for functions.
