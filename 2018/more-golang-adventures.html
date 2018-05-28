@@ -136,7 +136,19 @@
 <p>Methods can also be declared on a <em>pointer to the struct</em>:</p>
 <pre><code>func (box *Box) SetWidth([...])</code></pre>
 <p>That small asterisk makes all the difference. Now the method operates on the original struct and can thus modify it. Adding to the confusion, access to an attribute is done using the dot '<code>.</code>' for both structs and struct pointers.</p>
-<p>The problem is compounded for functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise. It is also slower since you are making copies of structs all the time and can clog the garbage collector in high performance applications. So you start using pointers for everything. Any parameter you see without the dreaded <code>*</code> becomes a pending optimization. But careful! Because pointers to <code>interface</code>s are no good and for some reason you need to pass the original interface.</p>
+<p>The problem is just as confusing for regular functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise:</p>
+<pre><code>func enlargeBox(box Box) {
+        showBox(box)
+        box.Width += 5
+}
+
+func main() {
+        box := Box{5}
+        enlargeBox(box)
+        log.Printf(&quot;Box width is now %v&quot;, box.Width)
+}</code></pre>
+<p>Width is of course still 5, since <code>enlargeBox()</code> has operated on a copy of the original <code>box</code> (<a href="https://play.golang.org/p/PDZ7IPN2LoB">play</a>). When this is done five function calls in for a variety of parameter objects it is not easy to see the problem.</p>
+<p>Regular struct access is also slower since you are making copies of structs all the time and can clog the garbage collector in high performance applications. So you start using pointers for everything. Any parameter you see without the dreaded <code>*</code> becomes a pending optimization. But careful! Because pointers to <code>interface</code>s are no good and for some reason you need to pass the original interface.</p>
 <p>Once you are using pointers everywhere, you start getting these fun errors:</p>
 <pre><code>panic: runtime error: invalid memory address or nil pointer dereference</code></pre>
 <p>which are equivalent to the infamous Null Pointer Exception in Java, or the <code>ReferenceError</code> in JavaScript. And that is how pointer safety is compromised.</p>

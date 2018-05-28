@@ -101,11 +101,30 @@ Now the method operates on the original struct and can thus modify it.
 Adding to the confusion, access to an attribute is done using the dot '`.`'
 for both structs and struct pointers.
 
-The problem is compounded for functions.
+The problem is just as confusing for regular functions.
 At a certain point you realize that passing variables around by value
 is probably not what you want:
-whenever you are tempted to modify a value you will get a surprise.
-It is also slower since you are making copies of structs all the time
+whenever you are tempted to modify a value you will get a surprise:
+
+```
+func enlargeBox(box Box) {
+        showBox(box)
+        box.Width += 5
+}
+
+func main() {
+        box := Box{5}
+        enlargeBox(box)
+        log.Printf("Box width is now %v", box.Width)
+}
+```
+
+Width is of course still 5, since `enlargeBox()` has operated on a copy of the original `box`
+([play](https://play.golang.org/p/PDZ7IPN2LoB)).
+When this is done five function calls in for a variety of parameter objects
+it is not easy to see the problem.
+
+Regular struct access is also slower since you are making copies of structs all the time
 and can clog the garbage collector in high performance applications.
 So you start using pointers for everything.
 Any parameter you see without the dreaded `*` becomes a pending optimization.
