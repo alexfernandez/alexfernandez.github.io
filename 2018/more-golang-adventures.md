@@ -1,6 +1,6 @@
 ---
 title: 'More Adventures in the Land of Go'
-subtitle: 'That Ungoogleable Language from Google, Part 2'
+subtitle: 'Large Projects'
 footer: Published on 2018-05-28, last modified on 2018-05-28.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
