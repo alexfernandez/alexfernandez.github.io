@@ -131,7 +131,7 @@ But this can be a trap!
 Pointers to `interface`s are no good as parameters and
 for some reason you need to pass the interface without `*`.
 Unless you know by heart which of your objects are interfaces and which are structs
-you have to add `*` everywhere and wait for something to explode.
+you have to add `*` everywhere and wait for compiler errors.
 
 Once you are using pointers everywhere, you start getting these fun errors:
 
