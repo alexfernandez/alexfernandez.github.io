@@ -92,6 +92,8 @@ in which case they operate on _a copy_ of the original struct.
 Every invocation results in a new `Box`.
 Why this is ever needed on this world, I don't really know.
 
+![[Source](https://giphy.com/gifs/eye-roll-PyPO7ZR8KXbxe).](pics/adventures-rolleyess.gif "Stop and roll your eyes")
+
 Methods can also be declared on a *pointer to the struct*:
 
     func (box *Box) SetWidth([...])
@@ -131,9 +133,9 @@ But this can be a trap!
 Pointers to `interface`s are no good as parameters and
 for some reason you need to pass the interface without `*`.
 Unless you know by heart which of your objects are interfaces and which are structs
-you have to add `*` everywhere and wait for compiler errors.
+you have to add `*` everywhere and wait for the compiler to complain.
 
-Once you are using pointers everywhere, you start getting these fun errors:
+Once you are using pointers consistently, you start getting these fun errors:
 
     panic: runtime error: invalid memory address or nil pointer dereference
 
