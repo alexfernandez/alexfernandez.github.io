@@ -127,9 +127,11 @@ Regular struct access is also slower since you are making copies of structs all 
 and can clog the garbage collector in high performance applications.
 So you start using pointers for everything.
 Any parameter you see without the dreaded `*` becomes a pending optimization.
-But there are still other pitfalls!
+But this can be a trap!
 Pointers to `interface`s are no good as parameters and
 for some reason you need to pass the interface without `*`.
+Unless you know by heart which of your objects are interfaces and which are structs
+you have to add `*` everywhere and wait for something to explode.
 
 Once you are using pointers everywhere, you start getting these fun errors:
 
