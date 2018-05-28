@@ -233,6 +233,13 @@ sub-sub-subpackages are the only way to go.
 This contrasts with Node.js where a single export point can easily be specified,
 while maintaining a complex internal structure.
 
+Even inside a subpackage there is no hint of structure:
+everything is piled up in files with random names.
+There is no way to know which structs or variables are defined in which files,
+since they are exported whenever they use capitals.
+The only rule is that test files end with `_test.go`,
+a practice that I happen to dislike.
+
 ### Package Manager, or Lack Thereof
 
 9 years after its creation and 6 years after its 1.0 release
@@ -296,7 +303,7 @@ In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
 But the `go` tool will only look at the `$GOPATH` for things like dependencies and tests.
 
-![Otherwise it might become distracted and look around your hard drive? [Source](TODO).](pics/adventures-blinkers.png "Horse with eye blinkers strays not")
+![Otherwise it might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
 
 ## Tooling
 
@@ -405,7 +412,8 @@ The language is cumbersome and has suffered from a lot of weird choices;
 it does not seem like they are going to be revised any time soon.
 The toolset is not as good as it believes it is.
 I think that Go can still be a good fit for small utilities that require better computing performance than Node.js
-but do not need the power of C.
+but do not need the power of C,
+although Node.js is closing the performance gap rapidly.
 
 
 ### Acknowledgements
