@@ -2,7 +2,7 @@
 title: 'More Adventures in the Land of Go'
 subtitle: 'Large Projects'
 footer: Published on 2018-05-28, last modified on 2018-05-28.
-  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, suggestions?](https://twitter.com/pinchito/status/1001151736848048128)
 ---
 
 ![Picture credit: [Renee French](https://commons.wikimedia.org/wiki/File:Gophercolor.jpg).](pics/adventures-gophercolor.jpg "Golang mascot")
