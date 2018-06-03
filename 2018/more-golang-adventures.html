@@ -163,7 +163,7 @@ func main() {
 </iframe>
 <p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game. Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn't start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
 <p>Go uses capitals Every <em>Darned</em> Where. Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
-<p>It is much easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy.</p>
+<p>It is easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy, although this point is highly debatable as has been <span class="citation">[pointed out by @SamuelAFalvoII]</span>(https://twitter.com/SamuelAFalvoII/status/1001189915118395393). To be honest I also dislike the underscore <code>_</code> prefix; I prefer to export just the relevant methods and attributes. But I digress; the nitpick is about having to write so many capitals.</p>
 <p>The <code>copy()</code> built-in also makes a weird choice. While the world slowly converges to a single, logical version of copy that goes in my mind as &quot;copy <em>from</em> source to <em>destination</em>&quot;:</p>
 <pre><code>copy(source, destination)</code></pre>
 <p>Go programmers have stuck with the older <a href="https://twitter.com/hynek/status/991915878051729414">C-like</a> version:</p>
@@ -178,8 +178,7 @@ func main() {
 <img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="Two-finger typers like John Watson." />
 <p class="caption">Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a>.</p>
 </div>
-<p>For everyone else, single-letter variables can quickly become a mess. Good code is written once and read many times. In the case of errors you don't even have the option of using <code>error</code> instead of <code>err</code>, since <code>error</code> is a <a href="https://golang.org/ref/spec#Predeclared_identifiers">pre-declared type</a>.</p>
-<p>Apparently we have learned nothing from the whole fiasco of cryptic Unix commands, which at least were justified by the scarcity of bytes at the time.</p>
+<p>For everyone else single-letter variables can quickly become a mess. Good code is written once and read many times. It is true that short variables are often fine, but making it the default is, should I say, dangerous. Apparently we have learned nothing from the whole fiasco of cryptic Unix commands, which at least was somehow justified by the scarcity of bytes at the time.</p>
 <h2 id="packaging-your-code">Packaging Your Code</h2>
 <p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a> which not surprisingly boasts more modules than any other package manager.</p>
 <h3 id="package-layout">Package Layout</h3>
@@ -203,7 +202,7 @@ func main() {
 <blockquote>
 <p>Go programmers typically keep all their Go code in a single workspace. [...] Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.</p>
 </blockquote>
-<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. But the <code>go</code> tool will only look at the <code>$GOPATH</code> for things like dependencies and tests.</p>
+<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. But the <code>go</code> tool will only look at the <code>$GOPATH</code> for dependencies and even for tests.</p>
 <div class="figure">
 <img src="pics/adventures-blinkers.jpg" title="Horse with eye blinkers strays not" alt="Otherwise it might become distracted and look around your hard drive? Source." />
 <p class="caption">Otherwise it might become distracted and look around your hard drive? <a href="https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers">Source</a>.</p>
@@ -211,12 +210,12 @@ func main() {
 <h2 id="tooling">Tooling</h2>
 <p>Since we are already speaking about tooling, let's complain about it at length.</p>
 <h3 id="gofmt"><code>gofmt</code></h3>
-<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, kids: <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option and now mandate tabs everywhere.</p>
+<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, kids: <code>gofmt</code> is brought to you by the same people who <a href="2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option and now mandate tabs everywhere, except for automatic alignment.</p>
 <div class="figure">
 <img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it." />
 <p class="caption">Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a>.</p>
 </div>
-<p>Another nitpick is automatic reformatting. Suppose you have this variable declaration at the top:</p>
+<p>Oh and about automatic alignment: suppose you have this variable declaration at the top:</p>
 <div class="sourceCode"><pre class="sourceCode go"><code class="sourceCode go"><span class="kw">var</span> (
   i <span class="dt">int</span>
 )</code></pre></div>
@@ -251,7 +250,7 @@ func main() {
 <p>A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. A largish project comes with a long-term commitment to maintain it. Adopting a new language also brings the implicit compromise to hire knowledgeable people. Go does not look like a solid bet for large projects at this point.</p>
 <p>Apart from the corporate babble there is a glaring conclusion: Go quickly stops being fun when more ambitious projects are tackled. The language is cumbersome and has suffered from a lot of weird choices; it does not seem like they are going to be revised any time soon. The toolset is not as good as it believes it is. I think that Go can still be a good fit for small utilities that require better computing performance than Node.js but do not need the power of C, although Node.js is closing the performance gap rapidly.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a>, and to everyone else that has helped me on Twitter with #golang.</p>
+<p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a> for the kind comments. Thanks to <span class="citation">[@SamuelAFalvoII]</span>(https://twitter.com/SamuelAFalvoII) for the on-point criticisms. Thanks also to everyone else that has helped me on Twitter with #golang for their immense patience.</p>
 								</div>
 							</section>
 							<section id="last">
