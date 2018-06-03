@@ -1,7 +1,7 @@
 ---
 title: 'More Adventures in the Land of Go'
 subtitle: 'Large Projects'
-footer: Published on 2018-05-28, last modified on 2018-05-28.
+footer: Published on 2018-05-28, last modified on 2018-06-03.
   [Comments, suggestions?](https://twitter.com/pinchito/status/1001151736848048128)
 ---
 
