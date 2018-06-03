@@ -202,11 +202,12 @@ func main() {
 <blockquote>
 <p>Go programmers typically keep all their Go code in a single workspace. [...] Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.</p>
 </blockquote>
-<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. But the <code>go</code> tool will only look at the <code>$GOPATH</code> for dependencies and even for tests.</p>
+<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. The <code>go</code> tool expects to find everything in the <code>$GOROOT</code>.</p>
 <div class="figure">
 <img src="pics/adventures-blinkers.jpg" title="Horse with eye blinkers strays not" alt="Otherwise it might become distracted and look around your hard drive? Source." />
 <p class="caption">Otherwise it might become distracted and look around your hard drive? <a href="https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers">Source</a>.</p>
 </div>
+<p>Otherwise you will need to muck with <code>$GOPATH</code>, which is suboptimal. I find it more convenient to manipulate code starting in the current directory, not assume everything will be in a single place. But apparently I'm in the minority here?</p>
 <h2 id="tooling">Tooling</h2>
 <p>Since we are already speaking about tooling, let's complain about it at length.</p>
 <h3 id="gofmt"><code>gofmt</code></h3>
@@ -225,7 +226,7 @@ func main() {
   value <span class="dt">int</span>
 )</code></pre></div>
 <p>Voilà! The first line has been reformatted adding several spaces. Looks nice with both variables lined up at the <code>int</code>, right? Now your diff tool says that two lines have changed. Each long variable you add will increase the number of lines changed making it impossible to trace a particular change.</p>
-<p>You can always not use <code>gofmt</code> at your peril, of course. But remember that the rest of the world will probably do.</p>
+<p>Other tools for other languages do the same mess, but at least they are not official. You can always not use <code>gofmt</code> at your peril, of course. But remember that the rest of the world will probably do.</p>
 <h2 id="momentum">Momentum</h2>
 <p>The ability to maintain a project long-term depends on how attractive it is to its potential developers: it is hard to look for candidates to work on an unpopular language or framework. And the hype around Go seems to have largely subdued. Data from Google Trends shows that Go has peaked:</p>
 <div class="figure">

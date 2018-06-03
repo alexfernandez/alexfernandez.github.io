@@ -305,9 +305,14 @@ Maybe you work for different companies and want to keep their code separate?
 Maybe you just like organizing your stuff in a different way?
 In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
-But the `go` tool will only look at the `$GOPATH` for dependencies and even for tests.
+The `go` tool expects to find everything in the `$GOROOT`.
 
 ![Otherwise it might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
+
+Otherwise you will need to muck with `$GOPATH`, which is suboptimal.
+I find it more convenient to manipulate code starting in the current directory,
+not assume everything will be in a single place.
+But apparently I'm in the minority here?
 
 ## Tooling
 
@@ -349,6 +354,8 @@ Now your diff tool says that two lines have changed.
 Each long variable you add will increase the number of lines changed
 making it impossible to trace a particular change.
 
+Other tools for other languages do the same mess,
+but at least they are not official.
 You can always not use `gofmt` at your peril, of course.
 But remember that the rest of the world will probably do.
 
