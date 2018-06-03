@@ -320,8 +320,8 @@ It should be great when the creators of a language
 also give you a [nice formatting tool](https://golang.org/cmd/gofmt/).
 But remember, kids: `gofmt` is brought to you by the same people who
 [mandate inlined brace style](2016/golang-adventures.html#mandatory-brace-style).
-So they saw it fit to remove spaces as an option and now mandate tabs everywhere,
-except for automatic alignment.
+So they saw it fit to remove spaces as an option and now mandate tabs for indentation,
+and spaces for automatic alignment.
 
 ![Richard Hendricks would [love it](http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny).](pics/adventures-spaces.gif "Winnie types spaces")
 
@@ -426,7 +426,7 @@ although Node.js is closing the performance gap rapidly.
 Thanks to
 [Hynek Schlawack](https://twitter.com/hynek) for the kind comments.
 Thanks to [@SamuelAFalvoII](https://twitter.com/SamuelAFalvoII) for the
-on-point criticisms.
+on point criticisms.
 Thanks also to everyone else that has helped me on Twitter with #golang
 for their immense patience.
 
