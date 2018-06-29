@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2017-07-26.
+footer: Published on 2016-08-17, last edited on 2018-06-29.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -12,21 +12,21 @@ It is a bit longer but far more entertaining, I hope.
 
 ## TL;DR
 
-A developer with 20 years of experience proficient in Node.js and Golang,
+A developer with 20 years of experience proficient in backend development,
 specialized in scalability and DevOps.
 
 ## Job History
 
-I have 20 years of professional experience related to software development.
+I have 20+ years of professional experience related to software development.
 Bear with me while we go over them,
 in reverse chronological time as is customary.
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2017-10 to present: Logtrust
+### 2017-10 to present: Devo (Formerly Logtrust)
 
-I have recently joined [Logtrust](https://www.logtrust.com/),
+I have recently joined [Devo](https://www.devo.com/),
 a thriving Spanish company that collects huge amounts of data
 and keeps it in a searchable format for our customers.
 We are in the middle of an impressive international expansion.
@@ -61,7 +61,7 @@ which was a bit optimistic to say the least.
 Since then we have tortured the V8 engine
 in ways that I could not even dream back then.
 I have also learned a bit of Erlang and Go,
-which we use for certain subsystems.
+which we used for certain subsystems.
 Some of my Go code has been in production for years without issues.
 
 My job included math puzzles and lots of equations,
@@ -70,6 +70,10 @@ so I guess I could say that I did some "Big Data" too.
 But, as befits a small startup,
 I also did lots of other things such as backend development
 and DevOps.
+
+I am especially proud of the team we managed to build while working there.
+I actively participated in the selection of everyone in the dev team,
+and I think they are bound to do great things there and elsewhere.
 
 ### 2012-08 to 2012-12: Freelancer
 
@@ -84,6 +88,12 @@ I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
 In fact I have worked for several large companies:
 here is [one recent story](../2016/stridercd.html).
+
+Other customers over time include:
+[Grupo Inditex](https://www.inditex.com/),
+[M&C Saatchi](http://www.mcsaatchimadrid.com/),
+[TUI Group](https://www.tuigroup.com/en-en),
+and a few other smaller companies.
 
 ### 2011-08 to 2012-08: CTO at MoveinBlue
 
@@ -214,6 +224,10 @@ although I get to attend amazing conferences.
 They are excellent opportunities to learn how to speak in public
 and meet interesting people.
 
+I also give talks at private events from time to time.
+If you would like to have a seasoned tech speaker
+just [contact](#Contact) me!
+
 ### Organizations
 
 I have helped organize three editions of
@@ -224,7 +238,7 @@ The last edition
 had about 600 attendees and featured 35 speakers from over 10 countries.
 
 Since 2015 I am the organizer of MadridJS,
-following on the steps of the previous team that did a great job.
+following on the steps of the previous team who did a great job.
 I am also the organizer of Node.js Madrid.
 We have run a couple of editions of
 [NodeSchool](http://nodeschool.io/madrid/).
@@ -284,7 +298,7 @@ I even got to learn a bit of C++ and even some Objective-C
 ### Teaching
 
 The next step was to teach young talent,
-something I have been doing (and enjoyed)
+something I have been doing (and enjoying)
 since 2000 when I was sent to Morocco to train new programmers for IECISA.
 
 I have participated in several editions of
@@ -323,7 +337,7 @@ although I may
 ### Rationale
 
 Why this page?
-A few months ago I deleted my LinkedIn account.
+A few years ago I deleted my LinkedIn account.
 I had been using it as my online CV for many years,
 which in retrospect was not a great decision:
 it consumed some time every week to read its endless stream of notifications
@@ -337,13 +351,14 @@ came by mail.
 The disgraceful password leak and the Microsoft buyout were just the last straw.
 I do not want a single tech giant controlling my CV,
 and above all *I do not trust any company that
-[misplace my password](http://arstechnica.com/security/2016/06/how-linkedins-password-sloppiness-hurts-us-all/)*.
+[misplaced my password](http://arstechnica.com/security/2016/06/how-linkedins-password-sloppiness-hurts-us-all/)*.
 Apparently they do not even know the
 [extent of the leak](https://blog.linkedin.com/2016/05/18/protecting-our-members),
 which is a sure sign of severe mishandling of an incident.
 
 Maybe you are thinking that GitHub,
 where this blog is published, now owns my CV.
+Furthermore, GitHub is also now owned by Microsoft!
 There is a clear difference:
 the data is replicated on my own computers
 and can be republished anywhere else in minutes.
