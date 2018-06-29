@@ -307,8 +307,12 @@ and in two web bootcamps (2014 and 2015)
 I was the main JavaScript teacher.
 
 I have also recorded several online courses,
-and taught a few face-to-face courses too.
-Lately they have been mostly about JavaScript and Node.js.
+but they have not worked well.
+I have taught a few face-to-face courses.
+Lately they have been mostly about JavaScript and Node.js,
+and a few workshops centered on DevOps:
+continuous deployment and orchestration.
+
 
 ## Other Useful Info
 
