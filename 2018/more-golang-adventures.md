@@ -177,7 +177,7 @@ but it can force you to write capitals more often than you might like.
 It is easier to write private resources with an underscore `_` prefix as in JavaScript.
 Making the default behaviour public is more comfy,
 although this point is highly debatable
-as has been [pointed out by @SamuelAFalvoII](https://twitter.com/SamuelAFalvoII/status/1001189915118395393).
+as has been [pointed out by SamuelAFalvoII](https://twitter.com/SamuelAFalvoII/status/1001189915118395393).
 To be honest I also dislike the underscore `_` prefix;
 I prefer to export just the relevant methods and attributes.
 But I digress; the nitpick is about having to write so many capitals.
