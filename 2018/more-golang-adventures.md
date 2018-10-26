@@ -384,7 +384,7 @@ This poor starting point leads to a paucity of collaborations in libraries,
 and to a weak community around it.
 But Go people are apparently happy so they are not likely to do anything about it.
 
-Apparently the opportunity for Go to be the new C has come and passed.
+The opportunity for Go to be the new C seems to have come and passed.
 A large part of Go's early appeal was based on being as fast as the proverbial speed king.
 In practice it is
 [about as fast as Java](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
