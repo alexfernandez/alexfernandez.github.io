@@ -388,8 +388,8 @@ The opportunity for Go to be the new C seems to have come and passed.
 A large part of Go's early appeal was based on being as fast as the proverbial speed king.
 In practice it is
 [about as fast as Java](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
-Add to this that relying on Go channels can slow your program down a bit,
-which happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
+Add to this that using Go channels can slow your program down a bit,
+and they are the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
 
 ![Channels in go, [source](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
