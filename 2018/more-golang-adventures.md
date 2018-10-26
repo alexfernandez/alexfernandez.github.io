@@ -378,7 +378,7 @@ Let us see data from Stack Overflow Trends:
 
 This looks more like it.
 
-Go has a weird situation with regards to community:
+Go is in a weird situation with regards to community:
 it is controlled directly by Google limiting the ability of others to influence its design.
 This poor starting point leads to a paucity of collaborations in libraries,
 and to a weak community around it.
