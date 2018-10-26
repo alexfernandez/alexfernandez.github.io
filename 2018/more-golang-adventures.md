@@ -432,7 +432,7 @@ although Node.js is closing the performance gap rapidly.
 
 Thanks to
 [Hynek Schlawack](https://twitter.com/hynek) for the kind comments.
-Thanks to [@SamuelAFalvoII](https://twitter.com/SamuelAFalvoII) for the
+Thanks to [SamuelAFalvoII](https://twitter.com/SamuelAFalvoII) for the
 on point criticisms.
 Thanks also to everyone else that has helped me on Twitter with #golang
 for their immense patience.
