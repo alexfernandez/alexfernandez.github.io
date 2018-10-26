@@ -307,7 +307,7 @@ In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
 The `go` tool expects to find everything in the `$GOROOT`.
 
-![Otherwise it might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
+![Perhaps `go` might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
 
 Otherwise you will need to muck with `$GOPATH`, which is suboptimal.
 I find it more convenient to manipulate code starting in the current directory,
