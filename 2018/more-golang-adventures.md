@@ -227,7 +227,7 @@ which not surprisingly boasts more modules than any other package manager.
 
 There seems to be no official layout for a package.
 The [documentation](https://golang.org/doc/code.html#Organization)
-shows a somehow messy layout.
+shows a somewhat messy layout.
 There is support for subpackages but no standard paths:
 in most packages code just lies around in the root directory of the package.
 

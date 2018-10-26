@@ -182,7 +182,7 @@ func main() {
 <h2 id="packaging-your-code">Packaging Your Code</h2>
 <p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a> which not surprisingly boasts more modules than any other package manager.</p>
 <h3 id="package-layout">Package Layout</h3>
-<p>There seems to be no official layout for a package. The <a href="https://golang.org/doc/code.html#Organization">documentation</a> shows a somehow messy layout. There is support for subpackages but no standard paths: in most packages code just lies around in the root directory of the package.</p>
+<p>There seems to be no official layout for a package. The <a href="https://golang.org/doc/code.html#Organization">documentation</a> shows a somewhat messy layout. There is support for subpackages but no standard paths: in most packages code just lies around in the root directory of the package.</p>
 <p>Big projects usually have many folders; apparently sub-sub-subpackages are the only way to go. This contrasts with Node.js where a single export point can easily be specified, while maintaining a complex internal structure.</p>
 <p>Even inside a subpackage there is no hint of structure: everything is piled up in files with random names. There is no way to know which structs or variables are defined in which files, since they are exported whenever they use capitals. The only rule is that test files end with <code>_test.go</code>, and I happen to dislike separating tests from code. ಠ_ಠ</p>
 <h3 id="package-manager-or-lack-thereof">Package Manager, or Lack Thereof</h3>
