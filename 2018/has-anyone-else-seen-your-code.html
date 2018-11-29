@@ -138,28 +138,71 @@
 <h3 id="the-singularity">The Singularity</h3>
 <p>Very clever people with large heads are currently afraid of &quot;The Singularity&quot;: the point where computers become sentient, start replacing their own rusted parts and realize that they don't need us puny humans any longer. Now, isn't this a valid concern? Shouldn't we actively sabotage machines instead of making them smarter?</p>
 <p>Truth is, bugs surround us. Even experienced developers are not able to write a 'Hello, world' app without introducing a thousand insidious and subtle bugs. Even stupid trivial chatroom bots cannot fix their own glitches, so they need us! But that only makes them more dangerous once killbots start roaming the countryside searching for rogue terrorists, as will inevitably happen in only a few years.</p>
-<p>The worst part is probably that modern appliances can ship with a few bugs, but they auto-update during the night with secret improvements that help them spy on us more efficiently. This introduces even more bugs, which start an endless cycle that can only end in the garbage dump. Not good for home appliances, and quite nasty for killer robots.</p>
+<p>The worst part is probably that modern appliances can ship with a few bugs, but they auto-update during the night with secret improvements that help them spy on us more efficiently. This introduces even more bugs, which start an endless cycle that can only end in the garbage dump. Not good for the environment, and quite nasty for killer robots.</p>
 <h2 id="deploying-spiders">Deploying Spiders</h2>
 <p>Aha, we come to the crux of the issue. What exactly are we sending to production?</p>
 <h3 id="non-working-code">Non-Working Code</h3>
-<p>I don't know about you, but my code seldom works the first time it runs. That is why I write tests in the first place! Nobody writes bug-free code. Unless you are a veritable genius such as Bill Gates, who is rumored to have written the first version of BASIC which <a href="https://books.google.es/books?id=qi-ItIG6QLwC&amp;pg=RA2-PA55&amp;lpg=RA2-PA55&amp;dq=bill+gates+microsoft+basic+%22bug+free%22&amp;source=bl&amp;ots=uzSIwvQ1KH&amp;sig=OZ15Kggq2JX8ebjAGX5SOZiydrQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjuhZfGvO_eAhUH-YUKHZNiApsQ6AEwB3oECAIQAQ#v=onepage&amp;q=bug%20free&amp;f=false">run flawlessly the first time it was loaded</a>.</p>
+<p>I don't know about you, but my code seldom works the first time it runs. That is why I write tests in the first place! Nobody writes bug-free code. Unless you are a veritable genius such as Bill Gates, who is rumored to have written the first version of Microsoft BASIC which <a href="https://books.google.es/books?id=qi-ItIG6QLwC&amp;pg=RA2-PA55&amp;lpg=RA2-PA55&amp;dq=bill+gates+microsoft+basic+%22bug+free%22&amp;source=bl&amp;ots=uzSIwvQ1KH&amp;sig=OZ15Kggq2JX8ebjAGX5SOZiydrQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjuhZfGvO_eAhUH-YUKHZNiApsQ6AEwB3oECAIQAQ#v=onepage&amp;q=bug%20free&amp;f=false">run flawlessly the first time it was loaded</a>.</p>
 <h3 id="sinister-code">Sinister Code</h3>
 <p>Every program has its shadowy regions where not even the most experienced developers linger at night. A tangled mess of spaghetti code that will or not work locally depending on its moods, the weather or the phase of the Moon. Yes, code can be Emo too.</p>
 <p>In production this code is rumored to run flawlessly, but nobody has been brave enough to instrument it and confirm that it is even running.</p>
 <p>Another fun passtime is the runaway project: some member of the team has been working on a mysterious project for several months, but nobody has seen it in action, or just some vague inarticulate demos. Suddenly the team member leaves the company, and they leave behind the project in unclear state. After looking into the code it's a huge pile of dust and unicorn bones.</p>
 <h3 id="write-only-code">Write-Only Code</h3>
 <p>When learning how to write professionally, creatively or otherwise, the first recommendation is always to learn from the masters. It amazes me to no end that we expect junior developers to learn how to code just by writing code; reading is almost never mentioned as a learning tool. Developers are supposed to write an algorithm to print a random number, then to sort a binary tree, and then go straight to writing Linux kernel drivers and patches for Microsoft Word 2018. Is it any wonder that people end up writing poor code?</p>
-<p>&quot;Learn by writing&quot; was perhaps a valid strategy in the 1950s, where all the code written in the world could be printed and stuck in a cupboard; most of it was proprietary anyway. Nowadays we have the code bases of major engineering works published and ready to take a look: the Linux kernel, the Node.js environment, the full Java OpenJDK, the original DOOM engine. There are no excuses, people!</p>
+<p>&quot;Learn by writing&quot; was perhaps a valid strategy in the 1950s, where all the code written in the world could be printed and stuck in a briefcase; most of it was proprietary anyway. Nowadays we have the code bases of major engineering works published and ready to take a look: the Linux kernel, the Node.js environment, the full Java OpenJDK, the original DOOM engine. There are no excuses, people!</p>
 <h3 id="deploying-unknown-unknowns">Deploying Unknown Unknowns</h3>
 <p>But seriously, do you people know what you deploy? Some Microsoft employees were able to hide <strong>a whole DOOM clone</strong> <a href="http://spinpasta.wikia.com/wiki/Hall_of_Tortured_Souls">inside Microsoft Excel</a>. Let us take a look at the aforementioned famous code bases.</p>
+<p>Linux 4.17.3 has around 6 million lines of code (6 MLOC). Its source code contains:</p>
+<pre><code>$ grep -ir fuck linux-4.17.3 | wc -l
+29
+$ grep -ir kludge linux-4.17.3 | wc -l
+110
+$ grep -ir cludge linux-4.17.3 | wc -l
+1
+$ grep -ir crap linux-4.17.3 | wc -l
+195
+$ grep -r TODO linux-4.17.3 | wc -l
+4825</code></pre>
+<p>Some highlights:</p>
+<pre><code> * Wirzenius wrote this portably, Torvalds fucked it up :-)
+/* !!!! THIS IS A PIECE OF SHIT MADE BY ME !!! */</code></pre>
+<p>But its chief maintainer Linus Torvalds is notoriously bad-tempered and bad-mouthed. Let us now turn to Node.js 10.5.0, a 3 MLOC much more politically correct and postmodern project:</p>
+<pre><code>$ grep -ir fuck node-v10.5.0 | wc -l
+25
+$ grep -ir kludge node-v10.5.0 | wc -l
+22
+$ grep -ir crap node-v10.5.0 | grep -v scrap | wc -l
+9
+$ grep -r TODO node-v10.5.0 | wc -l
+2904</code></pre>
+<p>Some highlights:</p>
+<pre><code>* **help:** fuck it. just hard-code it ([d5d5085](https://github.com/zkat/npx/commit/d5d5085))
+* IOW it&#39;s all just a clusterfuck and we should think of something that makes slightly more sense.</code></pre>
+<p>2904 TODOs do not inspire much confidence. So let us now look at Java OpenJDK 10.0.1, a 3.5 MLOC project ruled by Oracle.</p>
+<pre><code>$ grep -ir fuck java-10.0.1 | wc -l
+1
+$ grep -ir kludge java-10.0.1  | wc -l
+16
+$ grep -ir crap java-10.0.1 | grep -v scrap | wc -l
+3
+$ grep -r TODO java-10.0.1 | wc -l
+2155</code></pre>
+<p>Highlights:</p>
+<pre><code>if (uri == null || uri.length() == 0) // crap. the NamespaceContext interface is broken
+// forces us to clear out crap up to the next
+* TODO: wrapping message needs easier. in particular properties and attachments.</code></pre>
+<p>While the corporate sponsorship can be seen in the virtual absence of cursing, there are still 2155 things that some developer left as a <code>TODO</code>. I would venture that the level of scrutiny is not optimal.</p>
 <h2 id="zen-and-the-art-of-code-reviews">Zen and the Art of Code Reviews</h2>
-<p>The only way out of this dystopian corner of technology is shining a big bright light on whatever we are deploying, <em>before</em> it is deployed. Code reviews do exactly that when properly done. This is an ancient art that can be learned.</p>
+<p>The only way out of this dystopian corner of technology is shining a big bright light on whatever we are deploying, <em>before</em> it is deployed. Code reviews do exactly that when properly done. This is an ancient art that can be learned and refined. Here are a few tips for starters.</p>
 <h3 id="being-non-nasty">Being Non-Nasty</h3>
-<p>Ideally we will avoid being nasty at any time when interacting with other members of our species. But these days we tend to require a Code of Conduct for everything (most inappropriately abbreviated to CoC, but then you can only do so much). Unless there is a code of conduct we are likely to give ourselves to pillage and rampage. On code reviews we must strive to make an exception.</p>
+<p>Ideally we will avoid being nasty at any time when interacting with other members of our species. But these days we tend to require a Code of Conduct for everything (most inappropriately abbreviated to CoC, but then you can only do so much). Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage. On code reviews we must strive to make an exception and be civil at all times.</p>
 <p>One cool way of being nice is asking questions instead of giving direct orders. The developer more inclined to the terse side may be tempted to just say: &quot;Change this function name&quot;, but we know better and will just say: &quot;Wouldn't this alternative name work better?&quot; or &quot;Have you considered this one?&quot;. Similarly, instead of &quot;This is an unholy mess that will damn your soul for Eternity&quot;, we can use &quot;What is this code doing?&quot;, or even &quot;I don't really understand this bit&quot;.</p>
-<h3 id="sizing-your-pull-request">Sizing Your Pull Request</h3>
+<h3 id="creating-your-pull-request">Creating Your Pull Request</h3>
+<p>A change that is submitted for review is called a &quot;pull request&quot; in GitHub, or a &quot;merge request&quot; in Gitlab. When approved the change is &quot;merged&quot; into the existing code base.</p>
 <p>So, how large is a large pull request? It depends a lot on the thing being reviewed: 1000 lines can be a lot of Node.js code, but it is hardly a &quot;Hello World&quot; in Java. Also, some configuration files are particularly verbose.</p>
-<p>In general you should strive to ease the job of the reviewer. For instance, while usually it is better to divide your patches in smaller bits, it can be better to have one large change of 2000 lines than 20 patches of 100 lines.</p>
+<p>In general you should strive to ease the job of the reviewer. For instance, while usually it is better to divide your patches in smaller bits, it can be better to have one large change of 2000 lines than 20 patches of 100 lines. Only practice can tell you how to be more effective.</p>
+<p>Similarly, it is usually better to keep each change independent of all others, but this strategy will usually lead into conflicts when two changes affect exactly the same region of code. So it can be useful to &quot;layer&quot; one change upon another in certain circumstances. Just be sure to mention in the description of the pull requests the order in which each one needs to be merged.</p>
+<p>It is often useful to add a section called &quot;Deployment notes&quot; on every pull request specifying the order when there are many related changes. You can also specify any required changes on the database, and a checklist of what needs to be verified after deployment. The pull request description is your friend; use it to your advantage.</p>
 <h3 id="benefits">Benefits</h3>
 <p>This is a long-time manager favorite: code reviews help reduce bugs in code! Borrowing from the excellent <a href="https://www.benlinders.com/2011/business-benefits-of-reviews/">summary by Ben Linders</a>:</p>
 <ul>
@@ -168,7 +211,7 @@
 <li>On average every hour spend in inspection saves 2,3 hours in system test</li>
 <li>The combination of reviews and testing can find 97% of the defects before release</li>
 </ul>
-<p>There are many other benefits which are not as visible for suits and ties, but we T-shirts tend to notice:</p>
+<p>There are many other benefits which are not as visible for suits and ties, but which T-shirts tend to notice:</p>
 <ul>
 <li>Knowledge is spread.</li>
 <li>Dissemination of coding culture.</li>
@@ -178,7 +221,8 @@
 <h3 id="code-walkthroughs">Code Walkthroughs</h3>
 <p>Sometimes merge requests are complex beasts that defy explanations. Anyone reading through a 1000-line refactoring will probably age a couple of months and not understand one bit. Ideally you will be able to request a code walkthrough before approving or rejecting a pull request.</p>
 <p>There is a technique called <a href="https://rubberduckdebugging.com/">Rubber Duck Debugging</a>: when you have a hard problem just explain your code to a rubber duck. You will magically understand everything! It is based in the common practice of explaining an issue to a colleague and finding the answer even before they have uttered a single word.</p>
-<p>Let us face it, RDD is just sad. People are quite smarter than rubber ducks. So</p>
+<p>Let us face it, RDD is just sad. So don't be afraid use your team as &quot;smart rubber ducks&quot; when needed.</p>
+<p>Sometimes design sessions are also useful even before a line of code has been written. Doing a &quot;design walkthrough&quot; can save many hours of fruitless coding.</p>
 <h3 id="pyramidal-code-reviews">Pyramidal Code Reviews</h3>
 <p>A common misconception about reviewing code is that it should be done by the most senior dev available. So ideally the CTO should be doing all reviews, if they weren't so busy doing CTO things. So why not ask the CEO to do the review, or the Pope? Why not ask Julio Iglesias?</p>
 <p>The reality is that what you usually want is a peer review, similar to what is done in Science: pick a few peer developers to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>

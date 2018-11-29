@@ -121,7 +121,7 @@ as will inevitably happen in only a few years.
 The worst part is probably that modern appliances can ship with a few bugs,
 but they auto-update during the night with secret improvements that help them spy on us more efficiently.
 This introduces even more bugs, which start an endless cycle that can only end in the garbage dump.
-Not good for home appliances,
+Not good for the environment,
 and quite nasty for killer robots.
 
 ## Deploying Spiders
@@ -135,7 +135,7 @@ I don't know about you, but my code seldom works the first time it runs.
 That is why I write tests in the first place!
 Nobody writes bug-free code.
 Unless you are a veritable genius such as Bill Gates,
-who is rumored to have written the first version of BASIC
+who is rumored to have written the first version of Microsoft BASIC
 which [run flawlessly the first time it was loaded](https://books.google.es/books?id=qi-ItIG6QLwC&pg=RA2-PA55&lpg=RA2-PA55&dq=bill+gates+microsoft+basic+%22bug+free%22&source=bl&ots=uzSIwvQ1KH&sig=OZ15Kggq2JX8ebjAGX5SOZiydrQ&hl=en&sa=X&ved=2ahUKEwjuhZfGvO_eAhUH-YUKHZNiApsQ6AEwB3oECAIQAQ#v=onepage&q=bug%20free&f=false).
 
 ### Sinister Code
@@ -169,7 +169,7 @@ and then go straight to writing Linux kernel drivers and patches for Microsoft W
 Is it any wonder that people end up writing poor code?
 
 "Learn by writing" was perhaps a valid strategy in the 1950s,
-where all the code written in the world could be printed and stuck in a cupboard;
+where all the code written in the world could be printed and stuck in a briefcase;
 most of it was proprietary anyway.
 Nowadays we have the code bases of major engineering works published and ready to take a look:
 the Linux kernel, the Node.js environment, the full Java OpenJDK, the original DOOM engine.
@@ -182,20 +182,93 @@ Some Microsoft employees were able to hide **a whole DOOM clone**
 [inside Microsoft Excel](http://spinpasta.wikia.com/wiki/Hall_of_Tortured_Souls).
 Let us take a look at the aforementioned famous code bases.
 
+Linux 4.17.3 has around 6 million lines of code (6 MLOC).
+Its source code contains:
+
+```
+$ grep -ir fuck linux-4.17.3 | wc -l
+29
+$ grep -ir kludge linux-4.17.3 | wc -l
+110
+$ grep -ir cludge linux-4.17.3 | wc -l
+1
+$ grep -ir crap linux-4.17.3 | wc -l
+195
+$ grep -r TODO linux-4.17.3 | wc -l
+4825
+```
+
+Some highlights:
+
+```
+ * Wirzenius wrote this portably, Torvalds fucked it up :-)
+/* !!!! THIS IS A PIECE OF SHIT MADE BY ME !!! */
+```
+
+But its chief maintainer Linus Torvalds is notoriously bad-tempered
+and bad-mouthed. Let us now turn to Node.js 10.5.0,
+a 3 MLOC much more politically correct and postmodern project:
+
+```
+$ grep -ir fuck node-v10.5.0 | wc -l
+25
+$ grep -ir kludge node-v10.5.0 | wc -l
+22
+$ grep -ir crap node-v10.5.0 | grep -v scrap | wc -l
+9
+$ grep -r TODO node-v10.5.0 | wc -l
+2904
+```
+
+Some highlights:
+
+```
+* **help:** fuck it. just hard-code it ([d5d5085](https://github.com/zkat/npx/commit/d5d5085))
+* IOW it's all just a clusterfuck and we should think of something that makes slightly more sense.
+```
+
+2904 TODOs do not inspire much confidence.
+So let us now look at Java OpenJDK 10.0.1, a 3.5 MLOC
+project ruled by Oracle.
+
+```
+$ grep -ir fuck java-10.0.1 | wc -l
+1
+$ grep -ir kludge java-10.0.1  | wc -l
+16
+$ grep -ir crap java-10.0.1 | grep -v scrap | wc -l
+3
+$ grep -r TODO java-10.0.1 | wc -l
+2155
+```
+
+Highlights:
+
+```
+if (uri == null || uri.length() == 0) // crap. the NamespaceContext interface is broken
+// forces us to clear out crap up to the next
+* TODO: wrapping message needs easier. in particular properties and attachments.
+```
+
+While the corporate sponsorship can be seen in the virtual absence of cursing,
+there are still 2155 things that some developer left as a `TODO`.
+I would venture that the level of scrutiny is not optimal.
+
 ## Zen and the Art of Code Reviews
 
 The only way out of this dystopian corner of technology is shining a big bright light on whatever we are deploying,
 *before* it is deployed.
 Code reviews do exactly that when properly done.
-This is an ancient art that can be learned.
+This is an ancient art that can be learned and refined.
+Here are a few tips for starters.
 
 ### Being Non-Nasty
 
 Ideally we will avoid being nasty at any time when interacting with other members of our species.
 But these days we tend to require a Code of Conduct for everything
 (most inappropriately abbreviated to CoC, but then you can only do so much).
-Unless there is a code of conduct we are likely to give ourselves to pillage and rampage.
-On code reviews we must strive to make an exception.
+Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage.
+On code reviews we must strive to make an exception and be civil at all times.
 
 One cool way of being nice is asking questions instead of giving direct orders.
 The developer more inclined to the terse side may be tempted to just say:
@@ -206,7 +279,13 @@ Similarly, instead of
 we can use "What is this code doing?",
 or even "I don't really understand this bit".
 
-### Sizing Your Pull Request
+### Creating Your Pull Request
+
+A change that is submitted for review
+is called a "pull request" in GitHub,
+or a "merge request" in Gitlab.
+When approved the change is "merged"
+into the existing code base.
 
 So, how large is a large pull request?
 It depends a lot on the thing being reviewed:
@@ -218,6 +297,22 @@ In general you should strive to ease the job of the reviewer.
 For instance, while usually it is better to divide your patches in smaller bits,
 it can be better to have one large change of 2000 lines
 than 20 patches of 100 lines.
+Only practice can tell you how to be more effective.
+
+Similarly, it is usually better to keep each change independent of all others,
+but this strategy will usually lead into conflicts when two changes
+affect exactly the same region of code.
+So it can be useful to "layer" one change upon another
+in certain circumstances.
+Just be sure to mention in the description of the pull requests
+the order in which each one needs to be merged.
+
+It is often useful to add a section called "Deployment notes"
+on every pull request specifying the order when there are many related changes.
+You can also specify any required changes on the database,
+and a checklist of what needs to be verified after deployment.
+The pull request description is your friend;
+use it to your advantage.
 
 ### Benefits
 
@@ -231,7 +326,7 @@ Borrowing from the excellent [summary by Ben Linders](https://www.benlinders.com
 * The combination of reviews and testing can find 97% of the defects before release
 
 There are many other benefits which are not as visible for suits and ties,
-but we T-shirts tend to notice:
+but which T-shirts tend to notice:
 
 * Knowledge is spread.
 * Dissemination of coding culture.
@@ -254,8 +349,11 @@ It is based in the common practice of explaining an issue to a colleague
 and finding the answer even before they have uttered a single word.
 
 Let us face it, RDD is just sad.
-People are quite smarter than rubber ducks.
-So 
+So don't be afraid use your team as "smart rubber ducks" when needed.
+
+Sometimes design sessions are also useful
+even before a line of code has been written.
+Doing a "design walkthrough" can save many hours of fruitless coding.
 
 ### Pyramidal Code Reviews
 
