@@ -1,6 +1,11 @@
-# Has Anyone Else Seen your Code?
+---
+title: 'Has Anyone Else Seen your Code?'
+subtitle: 'Code review in the age of GitHub.'
+footer: Published on 2018-11-29, last modified on 2018-11-29
+  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+---
 
-Code review in the age of GitHub.
+![Code reviews can be [fun](https://www.stellman-greene.com/2008/09/20/how-to-hold-a-more-effective-code-review/).](pics/sally-code-review.png "Man complains stupidly about source code, source: https://www.stellman-greene.com/2008/09/20/how-to-hold-a-more-effective-code-review/")
 
 ## Intro
 
@@ -138,6 +143,14 @@ Yes, code can be Emo too.
 
 In production this code is rumored to run flawlessly,
 but nobody has been brave enough to instrument it and confirm that it is even running.
+
+Another fun passtime is the runaway project:
+some member of the team has been working on a mysterious project for several months,
+but nobody has seen it in action,
+or just some vague inarticulate demos.
+Suddenly the team member leaves the company,
+and they leave behind the project in unclear state.
+After looking into the code it's a huge pile of dust and unicorn bones.
 
 ### Write-Only Code
 
@@ -355,7 +368,7 @@ such as:
 * lack of organization,
 * tensions among team members,
 * hormone imbalances (usually testosterone),
-* .
+* unclear rules and roles.
 
 For instance, once I had a colleague write 87 times 'Missing semicolon' in a pull request.
 Astutely, I started to suspect that he had an issue with my care-free "optional semicolons" style.
@@ -368,6 +381,38 @@ so I think you should feel it too.
 
 ## Conclusion
 
-What surprised me most about disciplined code reviews is how useful it was to involve juniors in the process.
+Our first conclusion for today is that people "deploy" a lot of crap,
+for a particularly nasty meaning of "deploy".
+Code is absolutely critical for our society today
+and will probably be even more critical tomorrow,
+so we have better start caring about it
+or we will all be destroyed in a big pile of shining metal and smoke.
 
+What surprised me most about disciplined code reviews is how useful it was to involve juniors in the process.
+I had feared that it would be just handholding,
+but it turns out they have very good ideas and are more open-minded about other people's.
+Now I am regretting being so old, but I fear it's too late for me.
+So my advice 👴: hire more juniors into your team,
+except if your team is mostly juniors already.
+
+Another key take-away menu item is:
+it's always a good idea to make the process and policies explicit;
+write them on a big billboard in the back of the dev headquarters if necessary.
+When everyone knows what to expect there are no time-consuming misunderstandings.
+
+Finally: code reviews keep you honest.
+Knowing that someone else is going to look at your code will make you
+concentrate on writing good code,
+and avoid taking shortcuts.
+
+### Acknowledgements
+
+Thanks to Codemotion Berlin for holding the première,
+and also to Codemotion Madrid for hosting this talk.
+Thanks for my company, Devo, for letting me attend both conferences.
+I have received invaluable help in the preparation from
+[Fran Picolini](https://twitter.com/francjp),
+[Alba Roza](https://twitter.com/Alba_Roza),
+[Ben Linders](https://twitter.com/BenLinders)
+and many others that I am unjustly forgetting.
 
