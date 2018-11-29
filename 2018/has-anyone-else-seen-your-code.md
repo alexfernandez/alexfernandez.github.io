@@ -115,12 +115,14 @@ Even experienced developers are not able to write a 'Hello, world' app
 without introducing a thousand insidious and subtle bugs.
 Even stupid trivial chatroom bots cannot fix their own glitches,
 so they need us!
-But that only makes them more dangerous once killbots start roaming the countryside looking for rogue terrorists,
-as is wont to happen in only a few years.
+But that only makes them more dangerous once killbots start roaming the countryside searching for rogue terrorists,
+as will inevitably happen in only a few years.
 
 The worst part is probably that modern appliances can ship with a few bugs,
 but they auto-update during the night with secret improvements that help them spy on us more efficiently.
 This introduces even more bugs, which start an endless cycle that can only end in the garbage dump.
+Not good for home appliances,
+and quite nasty for killer robots.
 
 ## Deploying Spiders
 
