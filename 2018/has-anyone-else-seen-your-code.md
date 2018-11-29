@@ -61,8 +61,8 @@ In about a couple of years that old messy, smelly human driving will be banned.
 Also you are feeling like a visionary for saying this.
 I am sorry but you are 60 years late:
 [Arthur C Clarke already said it in 1958](https://books.google.es/books?hl=es&id=gzYDuQEACAAJ&dq=arthur+clarke+profiles+future&focus=searchwithinvolume&q=choffeur).
-Also also, it is probably not true.
 
+But you don't care who said it.
 After realizing that natural intelligence is so scarce we have been trying to manufacture our own artificial version for decades.
 The autonomous vehicle is one of the shiniest applications of artificial intelligence.
 Or is it?
