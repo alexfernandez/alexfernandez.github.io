@@ -100,6 +100,8 @@ Or your $5k
 
 ![Yes, this car is currently [sold in Iran](https://es.wikipedia.org/wiki/SAIPA_Saba).](https://upload.wikimedia.org/wikipedia/commons/5/5e/Saipa_Pride_GLXi_sedan.jpg "A modern car")
 
+Maybe you are starting to see my previous point about software trying actively to kill us.
+
 ### The Singularity
 
 Very clever people with large heads are currently afraid of "The Singularity":
