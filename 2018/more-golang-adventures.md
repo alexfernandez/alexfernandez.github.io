@@ -1,7 +1,7 @@
 ---
 title: 'More Adventures in the Land of Go'
 subtitle: 'Large Projects'
-footer: Published on 2018-05-28, last modified on 2018-05-28.
+footer: Published on 2018-05-28, last modified on 2018-06-03.
   [Comments, suggestions?](https://twitter.com/pinchito/status/1001151736848048128)
 ---
 
@@ -174,9 +174,13 @@ while private stuff uses lowercase.
 This looks like a nice convention,
 but it can force you to write capitals more often than you might like.
 
-It is much easier to write private resources with an underscore `_` prefix as in JavaScript.
-Making the default behaviour public is more comfy.
-
+It is easier to write private resources with an underscore `_` prefix as in JavaScript.
+Making the default behaviour public is more comfy,
+although this point is highly debatable
+as has been [pointed out by SamuelAFalvoII](https://twitter.com/SamuelAFalvoII/status/1001189915118395393).
+To be honest I also dislike the underscore `_` prefix;
+I prefer to export just the relevant methods and attributes.
+But I digress; the nitpick is about having to write so many capitals.
 
 The `copy()` built-in also makes a weird choice.
 While the world slowly converges to a single, logical version of copy
@@ -206,13 +210,12 @@ specifically two-finger typers.
 
 ![Two-finger typers like [John Watson](http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge).](pics/adventures-typing.gif "John Watson types using two fingers")
 
-For everyone else, single-letter variables can quickly become a mess.
+For everyone else single-letter variables can quickly become a mess.
 Good code is written once and read many times.
-In the case of errors you don't even have the option of using `error` instead of `err`,
-since `error` is a [pre-declared type](https://golang.org/ref/spec#Predeclared_identifiers).
-
+It is true that short variables are often fine,
+but making it the default is, should I say, dangerous.
 Apparently we have learned nothing from the whole fiasco of cryptic Unix commands,
-which at least were justified by the scarcity of bytes at the time.
+which at least was somehow justified by the scarcity of bytes at the time.
 
 ## Packaging Your Code
 
@@ -224,7 +227,7 @@ which not surprisingly boasts more modules than any other package manager.
 
 There seems to be no official layout for a package.
 The [documentation](https://golang.org/doc/code.html#Organization)
-shows a somehow messy layout.
+shows a somewhat messy layout.
 There is support for subpackages but no standard paths:
 in most packages code just lies around in the root directory of the package.
 
@@ -302,9 +305,14 @@ Maybe you work for different companies and want to keep their code separate?
 Maybe you just like organizing your stuff in a different way?
 In fact, most other languages do not mandate where to keep your code:
 you can compile from anywhere on your hard drive.
-But the `go` tool will only look at the `$GOPATH` for things like dependencies and tests.
+The `go` tool expects to find everything in the `$GOROOT`.
 
-![Otherwise it might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
+![Perhaps `go` might become distracted and look around your hard drive? [Source](https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers).](pics/adventures-blinkers.jpg "Horse with eye blinkers strays not")
+
+Otherwise you will need to muck with `$GOPATH`, which is suboptimal.
+I find it more convenient to manipulate code starting in the current directory,
+not assume everything will be in a single place.
+But apparently I'm in the minority here?
 
 ## Tooling
 
@@ -317,12 +325,13 @@ It should be great when the creators of a language
 also give you a [nice formatting tool](https://golang.org/cmd/gofmt/).
 But remember, kids: `gofmt` is brought to you by the same people who
 [mandate inlined brace style](2016/golang-adventures.html#mandatory-brace-style).
-So they saw it fit to remove spaces as an option and now mandate tabs everywhere.
+So they saw it fit to remove spaces as an option and now mandate tabs for indentation,
+and spaces for automatic alignment.
 
 ![Richard Hendricks would [love it](http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny).](pics/adventures-spaces.gif "Winnie types spaces")
 
-Another nitpick is automatic reformatting.
-Suppose you have this variable declaration at the top:
+Oh and about automatic alignment:
+suppose you have this variable declaration at the top:
 
 ```go
 var (
@@ -345,6 +354,8 @@ Now your diff tool says that two lines have changed.
 Each long variable you add will increase the number of lines changed
 making it impossible to trace a particular change.
 
+Other tools for other languages do the same mess,
+but at least they are not official.
 You can always not use `gofmt` at your peril, of course.
 But remember that the rest of the world will probably do.
 
@@ -367,18 +378,18 @@ Let us see data from Stack Overflow Trends:
 
 This looks more like it.
 
-Go has a weird situation with regards to community:
+Go is in a weird situation with regards to community:
 it is controlled directly by Google limiting the ability of others to influence its design.
 This poor starting point leads to a paucity of collaborations in libraries,
 and to a weak community around it.
 But Go people are apparently happy so they are not likely to do anything about it.
 
-Apparently the opportunity for Go to be the new C has come and passed.
+The opportunity for Go to be the new C seems to have come and passed.
 A large part of Go's early appeal was based on being as fast as the proverbial speed king.
 In practice it is
 [about as fast as Java](https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html).
-Add to this that relying on Go channels can slow your program down a bit,
-which happen to be the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
+Add to this that using Go channels can slow your program down a bit,
+and they are the [main concurrency primitive in Go](https://tour.golang.org/concurrency/2).
 
 ![Channels in go, [source](https://tenor.com/search/snail-gifs).](pics/adventures-slow.gif "A snail on a turtle")
 
@@ -420,7 +431,9 @@ although Node.js is closing the performance gap rapidly.
 ### Acknowledgements
 
 Thanks to
-[Hynek Schlawack](https://twitter.com/hynek),
-and to everyone else that has helped me on Twitter
-with #golang.
+[Hynek Schlawack](https://twitter.com/hynek) for the kind comments.
+Thanks to [SamuelAFalvoII](https://twitter.com/SamuelAFalvoII) for the
+on point criticisms.
+Thanks also to everyone else that has helped me on Twitter with #golang
+for their immense patience.
 
