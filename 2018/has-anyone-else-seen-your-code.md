@@ -325,7 +325,8 @@ Borrowing from the excellent [summary by Ben Linders](https://www.benlinders.com
 * On average every hour spend in inspection saves 2,3 hours in system test
 * The combination of reviews and testing can find 97% of the defects before release
 
-There are many other benefits which are not as visible for suits and ties,
+There are [many other benefits](https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-for-catching-bugs/)
+which are not as visible for suits and ties,
 but which T-shirts tend to notice:
 
 * Knowledge is spread.
@@ -338,8 +339,10 @@ but which T-shirts tend to notice:
 Sometimes merge requests are complex beasts that defy explanations.
 Anyone reading through a 1000-line refactoring will probably age a couple of months
 and not understand one bit.
-Ideally you will be able to request a code walkthrough
-before approving or rejecting a pull request.
+Ideally you will be able to request a [code walkthrough](https://stevemcconnell.com/articles/software-quality-at-top-speed/)
+before approving or rejecting a pull request:
+the author will explain the changes one by one to a selected audience of developers,
+and take questions from them.
 
 There is a technique called
 [Rubber Duck Debugging](https://rubberduckdebugging.com/):
@@ -350,9 +353,7 @@ and finding the answer even before they have uttered a single word.
 
 Let us face it, RDD is just sad.
 So don't be afraid use your team as "smart rubber ducks" when needed.
-
-Sometimes design sessions are also useful
-even before a line of code has been written.
+Sometimes design sessions are also useful even before a line of code has been written.
 Doing a "design walkthrough" can save many hours of fruitless coding.
 
 ### Pyramidal Code Reviews
