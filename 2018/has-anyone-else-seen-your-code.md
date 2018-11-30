@@ -361,7 +361,10 @@ A common misconception about reviewing code is that it should be done by the mos
 So ideally the CTO should be doing all reviews,
 if they weren't so busy doing CTO things.
 So why not ask the CEO to do the review, or the Pope?
-Why not ask Julio Iglesias?
+Why not even ask Julio Iglesias,
+the greatest artist ever to walk the Earth?
+
+![He has probably not touched a computer in his life, though.](pics/julio-iglesias.jpg "Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html")
 
 The reality is that what you usually want is a peer review,
 similar to what is done in Science:
