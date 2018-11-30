@@ -317,7 +317,7 @@ use it to your advantage.
 ### Benefits
 
 This is a long-time manager favorite:
-code reviews help reduce bugs in code!
+[code reviews help reduce bugs in code](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)!
 Borrowing from the excellent [summary by Ben Linders](https://www.benlinders.com/2011/business-benefits-of-reviews/):
 
 * Repairing a defect in acceptance test is 50 times as expensive than in requirement review
@@ -366,7 +366,12 @@ the greatest artist ever to walk the Earth?
 
 ![He has probably not touched a computer in his life, though.](pics/julio-iglesias.jpg "Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html")
 
-The reality is that what you usually want is a peer review,
+Some projects, most notably the [Linux kernel](https://www.kernel.org/doc/html/latest/process/2.Process.html),
+work this way.
+But then 
+
+The reality is that what you usually want is a
+[peer review](https://medium.com/palantir/code-review-best-practices-19e02780015f),
 similar to what is done in Science:
 pick a few peer developers to do the review.
 If there is a particularly delicate bit of code being modified

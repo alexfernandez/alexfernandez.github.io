@@ -204,7 +204,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 <p>Similarly, it is usually better to keep each change independent of all others, but this strategy will usually lead into conflicts when two changes affect exactly the same region of code. So it can be useful to &quot;layer&quot; one change upon another in certain circumstances. Just be sure to mention in the description of the pull requests the order in which each one needs to be merged.</p>
 <p>It is often useful to add a section called &quot;Deployment notes&quot; on every pull request specifying the order when there are many related changes. You can also specify any required changes on the database, and a checklist of what needs to be verified after deployment. The pull request description is your friend; use it to your advantage.</p>
 <h3 id="benefits">Benefits</h3>
-<p>This is a long-time manager favorite: code reviews help reduce bugs in code! Borrowing from the excellent <a href="https://www.benlinders.com/2011/business-benefits-of-reviews/">summary by Ben Linders</a>:</p>
+<p>This is a long-time manager favorite: <a href="https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/">code reviews help reduce bugs in code</a>! Borrowing from the excellent <a href="https://www.benlinders.com/2011/business-benefits-of-reviews/">summary by Ben Linders</a>:</p>
 <ul>
 <li>Repairing a defect in acceptance test is 50 times as expensive than in requirement review</li>
 <li>Reviews find between 51% – 70% of the defects in documents</li>
@@ -229,7 +229,8 @@ $ grep -r TODO java-10.0.1 | wc -l
 <img src="pics/julio-iglesias.jpg" title="Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html" alt="He has probably not touched a computer in his life, though." />
 <p class="caption">He has probably not touched a computer in his life, though.</p>
 </div>
-<p>The reality is that what you usually want is a peer review, similar to what is done in Science: pick a few peer developers to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
+<p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way. But then</p>
+<p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few peer developers to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
 <h3 id="junior-reviews">Junior Reviews</h3>
 <p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign only the most inconsequential tasks to them, like changing colors on a web page or sweeping the floors of the laboratory. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
 <p>When faced with a pull request by a wizard of programming such as a senior dev, a junior dev tends to just gape in wonder and approve the changes mindlessly. It is a good practice to encourage juniors to ask at least one question.</p>
