@@ -223,18 +223,20 @@ $ grep -r TODO java-10.0.1 | wc -l
 <p>There is a technique called <a href="https://rubberduckdebugging.com/">Rubber Duck Debugging</a>: when you have a hard problem just explain your code to a rubber duck. You will magically understand everything! It is based in the common practice of explaining an issue to a colleague and finding the answer even before they have uttered a single word.</p>
 <p>Let us face it, RDD is just sad. So don't be afraid use your team as &quot;smart rubber ducks&quot; when needed. Sometimes design sessions are also useful even before a line of code has been written. Doing a &quot;design walkthrough&quot; can save many hours of fruitless coding.</p>
 <h3 id="pyramidal-code-reviews">Pyramidal Code Reviews</h3>
-<p>A common misconception about reviewing code is that it should be done by the most senior dev available. So ideally the CTO should be doing all reviews, if they weren't so busy doing CTO things. So why not ask the CEO to do the review, or the Pope? Why not even ask Julio Iglesias, the greatest artist ever to walk the Earth?</p>
+<p>A common misconception about reviewing code is that it should be done by the most senior dev available. A team leader should review everything that is deployed by the team. So ideally the CTO should be doing all reviews, if they weren't so busy doing CTO things. So why not ask the CEO to do the review, or the Pope? Why not even ask Julio Iglesias, the greatest artist ever to walk the Earth?</p>
 <div class="figure">
 <img src="pics/julio-iglesias.jpg" title="Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html" alt="He has probably not touched a computer in his life, though." />
 <p class="caption">He has probably not touched a computer in his life, though.</p>
 </div>
-<p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way. But then</p>
-<p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few peer developers to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
+<p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way: there is a pyramidal review process with developers, maintainers, lieutenants and Linus Torvalds at the top. This scheme it tends to overwork the people at the top, as has famously happened to Linus Torvalds who <a href="TODO">had to seek help because of his toxic behavior</a>.</p>
+<p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few colleagues to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
+<p>A code review is much more than supervision: it is also an explanation, a conversation, and an iterative process to improve the code.</p>
 <h3 id="junior-reviews">Junior Reviews</h3>
-<p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign only the most inconsequential tasks to them, like changing colors on a web page or sweeping the floors of the laboratory. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
+<p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign to them only inconsequential tasks, like changing colors on web pages or TODO. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
 <p>When faced with a pull request by a wizard of programming such as a senior dev, a junior dev tends to just gape in wonder and approve the changes mindlessly. It is a good practice to encourage juniors to ask at least one question.</p>
+<p>The best comment can sometimes be &quot;I don't understand this code&quot;. Having to write code that a junior understands is better for everyone: for the junior, for the rest of the team, and even for yourself in a few months when you have forgotten about all the clever stuff that you wrote while possessed by the muses. Besides, juniors often have good ideas and are less afraid to explore them.</p>
 <h2 id="editorial-process">Editorial Process</h2>
-<p>Setting up an editorial process is a great way to make your policy explicit.</p>
+<p>Once you start doing reviews regularly you may feel tempted to integrate them as part of your development process. Well, don't resist the urge! Many organizations do mandatory reviews before merging any code. Setting up an editorial process is a great way to make your policy explicit.</p>
 <h3 id="real-editorial-processes-of-old">Real Editorial Processes of Old</h3>
 <p>Once more we can learn from the masters. There is a whole industry set up on the premise that you should never publish what someone just wrote; instead there should be a whole process to refine that initial draft into something palatable.</p>
 <p>Our old friend Cervantes did not just publish &quot;El Quijote&quot;; we know he had an editor, we know that the text was revised by a professional scribe and <a href="https://elpais.com/diario/2006/11/25/babelia/1164413829_850215.html">approved by the Council of Castille</a>, and we know that 10 years passed between the first and the second parts. But the exact editorial process is lost in obscurity.</p>
@@ -243,7 +245,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 <h3 id="create-your-own-adventure">Create Your Own Adventure</h3>
 <p>Now compare to your typical corporate developer: they write some bit of code, which can undergo testing or not depending on the rush, and then it shows up on the corporate website, several apps and on customers' phones.</p>
 <p>Now is your chance to do better! I present you a few alternatives.</p>
-<p>The <a href="https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests">Node.js project</a></p>
+<p>The <a href="https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests">Node.js project</a> does a great job of reviewing any code before it enters the main code base. It is quite pyramidal though.</p>
 <p>The <a href="http://www.apache.org/foundation/voting.html#expressing-votes-1-0-1-and-fractions">Apache Voting Process</a> encourages committers to vote on any change where they are interested. Voting rules are:</p>
 <ul>
 <li>+1: yes.</li>
@@ -259,10 +261,10 @@ $ grep -r TODO java-10.0.1 | wc -l
 <li>+2: This solves a blocking issue for me, kind of a fast-track.</li>
 <li>-2: This change will tear my life apart.</li>
 </ul>
-<h3 id="fast-track">Fast Track</h3>
-<p>There is no need really to have a single process for everything. You may require just 2 +1's for regular changes, and 3 +1's for certain changes -- or just for bigger requests.</p>
+<p>There is no need really to have a single process for everything. You may require just 2 +1's for regular changes, and 3 +1's for certain changes -- or just for bigger requests. You can also have a fast track for particularly urgent changes, for one-liners (trivial changes that only modify one or two lines of code) or for otherwise mechanical changes.</p>
+<p>Within a small team you can get away just with a manual process. For large organizations you may use several tools that allow you to gateway changes until they are approved by a certain number of people. TODO.</p>
 <h3 id="debug-your-process">Debug Your Process</h3>
-<p>You need to be careful to distinguish between real problems with the process and underlying issues. Keep in mind that code reviews tend to surface any company issues, such as:</p>
+<p>You need to distinguish carefully between real problems with the process and underlying issues. Keep in mind that code reviews tend to surface any company issues, such as:</p>
 <ul>
 <li>lack of organization,</li>
 <li>tensions among team members,</li>

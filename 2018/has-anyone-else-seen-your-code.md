@@ -359,6 +359,7 @@ Doing a "design walkthrough" can save many hours of fruitless coding.
 ### Pyramidal Code Reviews
 
 A common misconception about reviewing code is that it should be done by the most senior dev available.
+A team leader should review everything that is deployed by the team.
 So ideally the CTO should be doing all reviews,
 if they weren't so busy doing CTO things.
 So why not ask the CEO to do the review, or the Pope?
@@ -368,24 +369,32 @@ the greatest artist ever to walk the Earth?
 ![He has probably not touched a computer in his life, though.](pics/julio-iglesias.jpg "Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html")
 
 Some projects, most notably the [Linux kernel](https://www.kernel.org/doc/html/latest/process/2.Process.html),
-work this way.
-But then 
+work this way:
+there is a pyramidal review process
+with developers, maintainers, lieutenants and Linus Torvalds at the top.
+This scheme it tends to overwork the people at the top,
+as has famously happened to Linus Torvalds
+who [had to seek help because of his toxic behavior](TODO).
 
 The reality is that what you usually want is a
 [peer review](https://medium.com/palantir/code-review-best-practices-19e02780015f),
 similar to what is done in Science:
-pick a few peer developers to do the review.
+pick a few colleagues to do the review.
 If there is a particularly delicate bit of code being modified
 (say, the flux condenser)
 then you may want the owner of that bit to do the review.
 But it is easier to organize if code can be modified by everyone,
 and reviews are done also by anyone.
 
+A code review is much more than supervision:
+it is also an explanation, a conversation,
+and an iterative process to improve the code.
+
 ### Junior Reviews
 
 Ah, junior developers, with their golden curly locks and their eyes full of stars.
-We old horses tend to assign only the most inconsequential tasks to them,
-like changing colors on a web page or sweeping the floors of the laboratory.
+We old horses tend to assign to them only inconsequential tasks,
+like changing colors on web pages or TODO.
 But I can assure you that they can tackle more demanding tasks!
 Keep in mind that we have all been juniors at some point,
 even if it was a century ago when we used to program on abacuses.
@@ -394,8 +403,19 @@ When faced with a pull request by a wizard of programming such as a senior dev,
 a junior dev tends to just gape in wonder and approve the changes mindlessly.
 It is a good practice to encourage juniors to ask at least one question.
 
+The best comment can sometimes be "I don't understand this code".
+Having to write code that a junior understands is better for everyone:
+for the junior, for the rest of the team,
+and even for yourself in a few months when you have forgotten about
+all the clever stuff that you wrote while possessed by the muses.
+Besides, juniors often have good ideas and are less afraid to explore them.
+
 ## Editorial Process
 
+Once you start doing reviews regularly you may feel tempted to integrate them
+as part of your development process.
+Well, don't resist the urge!
+Many organizations do mandatory reviews before merging any code.
 Setting up an editorial process is a great way to make your policy explicit.
 
 ### Real Editorial Processes of Old
@@ -440,7 +460,8 @@ several apps and on customers' phones.
 Now is your chance to do better!
 I present you a few alternatives.
 
-The [Node.js project](https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests)
+The [Node.js project](https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests) does a great job of reviewing any code before it enters the main code base.
+It is quite pyramidal though.
 
 The [Apache Voting Process](http://www.apache.org/foundation/voting.html#expressing-votes-1-0-1-and-fractions)
 encourages committers to vote on any change where they are interested.
@@ -463,15 +484,21 @@ Then there are some modifications which are widely accepted:
 * +2: This solves a blocking issue for me, kind of a fast-track.
 * -2: This change will tear my life apart.
 
-### Fast Track
-
 There is no need really to have a single process for everything.
 You may require just 2 +1's for regular changes,
 and 3 +1's for certain changes -- or just for bigger requests.
+You can also have a fast track for particularly urgent changes,
+for one-liners (trivial changes that only modify one or two lines of code)
+or for otherwise mechanical changes.
+
+Within a small team you can get away just with a manual process.
+For large organizations you may use several tools
+that allow you to gateway changes until they are approved by a certain number of people.
+TODO.
 
 ### Debug Your Process
 
-You need to be careful to distinguish between real problems with the process
+You need to distinguish carefully between real problems with the process
 and underlying issues.
 Keep in mind that code reviews tend to surface any company issues,
 such as:
