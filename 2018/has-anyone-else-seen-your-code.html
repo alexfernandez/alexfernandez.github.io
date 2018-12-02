@@ -236,7 +236,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 <p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few colleagues to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
 <p>A code review is much more than supervision: it is also an explanation, a conversation, and an iterative process to improve the code.</p>
 <h3 id="junior-reviews">Junior Reviews</h3>
-<p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign to them only inconsequential tasks, like changing colors on web pages or TODO. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
+<p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign to them only inconsequential tasks like changing pretty colors on web pages. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
 <p>When faced with a pull request by a wizard of programming such as a senior dev, a junior dev tends to just gape in wonder and approve the changes mindlessly. It is a good practice to encourage juniors to ask at least one question.</p>
 <p>The best comment can sometimes be &quot;I don't understand this code&quot;. Having to write code that a junior understands is better for everyone: for the junior, for the rest of the team, and even for yourself in a few months when you have forgotten about all the clever stuff that you wrote while possessed by the muses. Besides, juniors often have good ideas and are less afraid to explore them.</p>
 <h2 id="editorial-process">Editorial Process</h2>
@@ -260,7 +260,11 @@ $ grep -r TODO java-10.0.1 | wc -l
 </div>
 <h3 id="create-your-own-adventure">Create Your Own Adventure</h3>
 <p>Now compare to your typical corporate developer: they write some bit of code, which can undergo testing or not depending on the rush, and then it shows up on the corporate website, several apps and on customers' phones.</p>
-<p>Now is your chance to do better! I present you a few alternatives.</p>
+<div class="figure">
+<img src="pics/corporate.png" title="The lone corporate dev who publishes in obscurity" />
+
+</div>
+<p>Now is your chance to do better! I present to you a few alternatives.</p>
 <p>The <a href="https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests">Node.js project</a> does a great job of reviewing any code before it enters the main code base. It is quite pyramidal though.</p>
 <p>The <a href="http://www.apache.org/foundation/voting.html#expressing-votes-1-0-1-and-fractions">Apache Voting Process</a> encourages committers to vote on any change where they are interested. Voting rules are:</p>
 <ul>
@@ -268,7 +272,11 @@ $ grep -r TODO java-10.0.1 | wc -l
 <li>-1: veto. Apache requires -1s to be accompanied by a technical justification showing why the change is bad.</li>
 <li>0: I don't care about it.</li>
 </ul>
-<p>Usually changes require 3 +1's and no -1's to be accepted. Giving the power of veto to everyone in the team has some liberating consequences: people tend to feel they own the code base.</p>
+<p>Usually changes require 3 +1's and no -1's to be accepted. Giving the power of veto to everyone in the team has some liberating consequences: people tend to feel they own the code base. You can also require at least one senior and one junior reviewer.</p>
+<div class="figure">
+<img src="pics/reviewed.png" title="At least two reviewers" />
+
+</div>
 <p>Then there are some modifications which are widely accepted:</p>
 <ul>
 <li>+0: I like the change but I am not sure it is properly done.</li>
@@ -278,7 +286,11 @@ $ grep -r TODO java-10.0.1 | wc -l
 <li>-2: This change will tear my life apart.</li>
 </ul>
 <p>There is no need really to have a single process for everything. You may require just 2 +1's for regular changes, and 3 +1's for certain changes -- or just for bigger requests. You can also have a fast track for particularly urgent changes, for one-liners (trivial changes that only modify one or two lines of code) or for otherwise mechanical changes.</p>
-<p>Within a small team you can get away just with a manual process. For large organizations you may use several tools that allow you to gateway changes until they are approved by a certain number of people. TODO.</p>
+<div class="figure">
+<img src="pics/fasttrack.png" title="Just one reviewer" />
+
+</div>
+<p>Within a small team you can get away just with a manual process. For large organizations you may use several tools that allow you to gateway changes until they are approved by a certain number of people. GitHub or Gitlab are your first gateway so you should start there.</p>
 <h3 id="debug-your-process">Debug Your Process</h3>
 <p>You need to distinguish carefully between real problems with the process and underlying issues. Keep in mind that code reviews tend to surface any company issues, such as:</p>
 <ul>

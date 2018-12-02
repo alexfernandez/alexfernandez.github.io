@@ -414,8 +414,8 @@ and an iterative process to improve the code.
 ### Junior Reviews
 
 Ah, junior developers, with their golden curly locks and their eyes full of stars.
-We old horses tend to assign to them only inconsequential tasks,
-like changing colors on web pages or TODO.
+We old horses tend to assign to them only inconsequential tasks
+like changing pretty colors on web pages.
 But I can assure you that they can tackle more demanding tasks!
 Keep in mind that we have all been juniors at some point,
 even if it was a century ago when we used to program on abacuses.
@@ -484,8 +484,10 @@ which can undergo testing or not depending on the rush,
 and then it shows up on the corporate website,
 several apps and on customers' phones.
 
+![](pics/corporate.png "The lone corporate dev who publishes in obscurity")
+
 Now is your chance to do better!
-I present you a few alternatives.
+I present to you a few alternatives.
 
 The [Node.js project](https://github.com/nodejs/node/blob/master/doc/guides/contributing/pull-requests.md#reviewing-pull-requests) does a great job of reviewing any code before it enters the main code base.
 It is quite pyramidal though.
@@ -502,6 +504,9 @@ showing why the change is bad.
 Usually changes require 3 +1's and no -1's to be accepted.
 Giving the power of veto to everyone in the team has some liberating consequences:
 people tend to feel they own the code base.
+You can also require at least one senior and one junior reviewer.
+
+![](pics/reviewed.png "At least two reviewers")
 
 Then there are some modifications which are widely accepted:
 
@@ -518,10 +523,12 @@ You can also have a fast track for particularly urgent changes,
 for one-liners (trivial changes that only modify one or two lines of code)
 or for otherwise mechanical changes.
 
+![](pics/fasttrack.png "Just one reviewer")
+
 Within a small team you can get away just with a manual process.
 For large organizations you may use several tools
 that allow you to gateway changes until they are approved by a certain number of people.
-TODO.
+GitHub or Gitlab are your first gateway so you should start there.
 
 ### Debug Your Process
 
