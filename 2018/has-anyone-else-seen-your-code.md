@@ -1,7 +1,7 @@
 ---
 title: 'Has Anyone Else Seen your Code?'
 subtitle: 'Code review in the age of GitHub.'
-footer: Published on 2018-12-02, last modified on 2018-12-02
+footer: Published on 2018-12-03, last modified on 2018-12-03
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -588,7 +588,8 @@ I have received invaluable help in the preparation from
 [Alba Roza](https://twitter.com/Alba_Roza),
 [Ben Linders](https://twitter.com/BenLinders),
 [Pablo Almunia](https://twitter.com/pabloalmunia),
-[Matteo Collina](https://twitter.com/matteocollina/)
+[Enrique Amodeo](https://twitter.com/eamodeorubio),
+[Matteo Collina](https://twitter.com/matteocollina)
 and many others that I am unjustly forgetting.
 
 ### More Info
