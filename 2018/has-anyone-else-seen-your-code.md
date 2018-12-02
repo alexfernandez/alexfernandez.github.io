@@ -421,8 +421,9 @@ Keep in mind that we have all been juniors at some point,
 even if it was a century ago when we used to program on abacuses.
 
 When faced with a pull request by a wizard of programming such as a senior dev,
-a junior dev tends to just gape in wonder and approve the changes mindlessly.
-It is a good practice to encourage juniors to ask at least one question.
+a junior tends to just gape in wonder and approve the changes mindlessly.
+It is a good practice to encourage juniors to ask at least one question,
+and they are usually quite good at locating a particularly nasty spot to ask about.
 
 The best comment can sometimes be "I don't understand this code".
 Having to write code that a junior understands is better for everyone:
