@@ -454,6 +454,8 @@ and [approved by the Council of Castille](https://elpais.com/diario/2006/11/25/b
 and we know that 10 years passed between the first and the second parts.
 But the exact editorial process is lost in obscurity.
 
+![](pics/cervantes.png.jpg "Cervantes editorial process is mostly unknown")
+
 We are lucky enough to know more about JRR Tolkien:
 while he was writing "The Lord of the Rings" he read it to his friends,
 who were a bunch of Oxford academics and did not enjoy the crazy thing one bit.
