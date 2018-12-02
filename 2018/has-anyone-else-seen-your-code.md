@@ -1,7 +1,7 @@
 ---
 title: 'Has Anyone Else Seen your Code?'
 subtitle: 'Code review in the age of GitHub.'
-footer: Published on 2018-11-29, last modified on 2018-11-29
+footer: Published on 2018-12-02, last modified on 2018-12-02
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -260,24 +260,7 @@ The only way out of this dystopian corner of technology is shining a big bright 
 *before* it is deployed.
 Code reviews do exactly that when properly done.
 This is an ancient art that can be learned and refined.
-Here are a few tips for starters.
-
-### Being Non-Nasty
-
-Ideally we will avoid being nasty at any time when interacting with other members of our species.
-But these days we tend to require a Code of Conduct for everything
-(most inappropriately abbreviated to CoC, but then you can only do so much).
-Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage.
-On code reviews we must strive to make an exception and be civil at all times.
-
-One cool way of being nice is asking questions instead of giving direct orders.
-The developer more inclined to the terse side may be tempted to just say:
-"Change this function name", but we know better and will just say:
-"Wouldn't this alternative name work better?" or "Have you considered this one?".
-Similarly, instead of 
-"This is an unholy mess that will damn your soul for Eternity",
-we can use "What is this code doing?",
-or even "I don't really understand this bit".
+Here are a few tips that will get you started.
 
 ### Creating Your Pull Request
 
@@ -314,6 +297,42 @@ and a checklist of what needs to be verified after deployment.
 The pull request description is your friend;
 use it to your advantage.
 
+### Being Non-Nasty
+
+Ideally we will avoid being nasty at any time when interacting with other members of our species.
+But these days we tend to require a Code of Conduct for everything
+(most inappropriately abbreviated to CoC, but then you can only do so much).
+Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage.
+On code reviews we must strive to make an exception and be civil at all times.
+
+One cool way of being nice is asking questions instead of giving direct orders.
+The developer more inclined to the terse side may be tempted to just say:
+"Change this function name", but we know better and will just say:
+"Wouldn't this alternative name work better?" or "Have you considered this one?".
+Similarly, instead of 
+"This is an unholy mess that will damn your soul for Eternity",
+we can use "What is this code doing?",
+or even "I don't really understand this bit".
+Very often I have been wrong in my criticism,
+and having said it in the form of a question saved me a lot of face.
+
+I have been told anecdotes about a developer that came in yelling about some bit of code
+until the rest of the team told them that it was the yeller's own code.
+Don't be that person.
+
+### Thou Shall Not Pass
+
+This does not mean that you should let any crap pass:
+it just means that you should say it politely.
+As [Pablo Almunia](https://twitter.com/pabloalmunia)
+often says,
+urgencies are forgotten but bad code remains.
+
+[Matteo Collina](https://twitter.com/matteocollina/),
+member of the Node.js TSC and great developer all around,
+does lots of code reviews as part of his job.
+His advice is to 
+
 ### Benefits
 
 This is a long-time manager favorite:
@@ -329,8 +348,8 @@ There are [many other benefits](https://blog.fullstory.com/what-we-learned-from-
 which are not as visible for suits and ties,
 but which T-shirts tend to notice:
 
-* Knowledge is spread.
-* Dissemination of coding culture.
+* Knowledge is spread, increasing the [bus factor](https://blog.sandglaz.com/increasing-bus-factor-in-project-management/).
+* Dissemination of [coding culture](https://medium.com/javascript-scene/the-outrageous-cost-of-skipping-tdd-code-reviews-57887064c412).
 * Faster status updates: all changes are in the public record.
 * Reviews take time, but skipping them takes much longer.
 
@@ -343,6 +362,8 @@ Ideally you will be able to request a [code walkthrough](https://stevemcconnell.
 before approving or rejecting a pull request:
 the author will explain the changes one by one to a selected audience of developers,
 and take questions from them.
+Although [not everyone agrees](https://www.codacy.com/blog/how-to-code-review-in-a-pull-request/),
+in-person communication is a great addition to remote reviews.
 
 There is a technique called
 [Rubber Duck Debugging](https://rubberduckdebugging.com/):
@@ -374,7 +395,7 @@ there is a pyramidal review process
 with developers, maintainers, lieutenants and Linus Torvalds at the top.
 This scheme it tends to overwork the people at the top,
 as has famously happened to Linus Torvalds
-who [had to seek help because of his toxic behavior](TODO).
+who [had to seek help because of his toxic behavior](https://www.developer-tech.com/news/2018/nov/05/torvalds-empathetic-linux-code-reviews/).
 
 The reality is that what you usually want is a
 [peer review](https://medium.com/palantir/code-review-best-practices-19e02780015f),
@@ -551,6 +572,18 @@ Thanks for my company, Devo, for letting me attend both conferences.
 I have received invaluable help in the preparation from
 [Fran Picolini](https://twitter.com/francjp),
 [Alba Roza](https://twitter.com/Alba_Roza),
-[Ben Linders](https://twitter.com/BenLinders)
+[Ben Linders](https://twitter.com/BenLinders),
+[Pablo Almunia](https://twitter.com/pabloalmunia),
+[Matteo Collina](https://twitter.com/matteocollina/)
 and many others that I am unjustly forgetting.
+
+### More Info
+
+Check out the [Q&A with me on InfoQ](https://www.infoq.com/news/2018/11/code-reviews)
+for additional tips,
+and you can see my [slides](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/)
+for Codemotion Madrid 2018.
+
+Also check
+[10 Faulty Behaviors](https://speakerdeck.com/lemiorhan/10-faulty-behaviors-of-code-review).
 

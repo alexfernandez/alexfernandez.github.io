@@ -193,16 +193,20 @@ $ grep -r TODO java-10.0.1 | wc -l
 * TODO: wrapping message needs easier. in particular properties and attachments.</code></pre>
 <p>While the corporate sponsorship can be seen in the virtual absence of cursing, there are still 2155 things that some developer left as a <code>TODO</code>. I would venture that the level of scrutiny is not optimal.</p>
 <h2 id="zen-and-the-art-of-code-reviews">Zen and the Art of Code Reviews</h2>
-<p>The only way out of this dystopian corner of technology is shining a big bright light on whatever we are deploying, <em>before</em> it is deployed. Code reviews do exactly that when properly done. This is an ancient art that can be learned and refined. Here are a few tips for starters.</p>
-<h3 id="being-non-nasty">Being Non-Nasty</h3>
-<p>Ideally we will avoid being nasty at any time when interacting with other members of our species. But these days we tend to require a Code of Conduct for everything (most inappropriately abbreviated to CoC, but then you can only do so much). Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage. On code reviews we must strive to make an exception and be civil at all times.</p>
-<p>One cool way of being nice is asking questions instead of giving direct orders. The developer more inclined to the terse side may be tempted to just say: &quot;Change this function name&quot;, but we know better and will just say: &quot;Wouldn't this alternative name work better?&quot; or &quot;Have you considered this one?&quot;. Similarly, instead of &quot;This is an unholy mess that will damn your soul for Eternity&quot;, we can use &quot;What is this code doing?&quot;, or even &quot;I don't really understand this bit&quot;.</p>
+<p>The only way out of this dystopian corner of technology is shining a big bright light on whatever we are deploying, <em>before</em> it is deployed. Code reviews do exactly that when properly done. This is an ancient art that can be learned and refined. Here are a few tips that will get you started.</p>
 <h3 id="creating-your-pull-request">Creating Your Pull Request</h3>
 <p>A change that is submitted for review is called a &quot;pull request&quot; in GitHub, or a &quot;merge request&quot; in Gitlab. When approved the change is &quot;merged&quot; into the existing code base.</p>
 <p>So, how large is a large pull request? It depends a lot on the thing being reviewed: 1000 lines can be a lot of Node.js code, but it is hardly a &quot;Hello World&quot; in Java. Also, some configuration files are particularly verbose.</p>
 <p>In general you should strive to ease the job of the reviewer. For instance, while usually it is better to divide your patches in smaller bits, it can be better to have one large change of 2000 lines than 20 patches of 100 lines. Only practice can tell you how to be more effective.</p>
 <p>Similarly, it is usually better to keep each change independent of all others, but this strategy will usually lead into conflicts when two changes affect exactly the same region of code. So it can be useful to &quot;layer&quot; one change upon another in certain circumstances. Just be sure to mention in the description of the pull requests the order in which each one needs to be merged.</p>
 <p>It is often useful to add a section called &quot;Deployment notes&quot; on every pull request specifying the order when there are many related changes. You can also specify any required changes on the database, and a checklist of what needs to be verified after deployment. The pull request description is your friend; use it to your advantage.</p>
+<h3 id="being-non-nasty">Being Non-Nasty</h3>
+<p>Ideally we will avoid being nasty at any time when interacting with other members of our species. But these days we tend to require a Code of Conduct for everything (most inappropriately abbreviated to CoC, but then you can only do so much). Unless there is a code of conduct, we are likely to give ourselves to pillage and rampage. On code reviews we must strive to make an exception and be civil at all times.</p>
+<p>One cool way of being nice is asking questions instead of giving direct orders. The developer more inclined to the terse side may be tempted to just say: &quot;Change this function name&quot;, but we know better and will just say: &quot;Wouldn't this alternative name work better?&quot; or &quot;Have you considered this one?&quot;. Similarly, instead of &quot;This is an unholy mess that will damn your soul for Eternity&quot;, we can use &quot;What is this code doing?&quot;, or even &quot;I don't really understand this bit&quot;. Very often I have been wrong in my criticism, and having said it in the form of a question saved me a lot of face.</p>
+<p>I have been told anecdotes about a developer that came in yelling about some bit of code until the rest of the team told them that it was the yeller's own code. Don't be that person.</p>
+<h3 id="thou-shall-not-pass">Thou Shall Not Pass</h3>
+<p>This does not mean that you should let any crap pass: it just means that you should say it politely. As <a href="https://twitter.com/pabloalmunia">Pablo Almunia</a> often says, urgencies are forgotten but bad code remains.</p>
+<p><a href="https://twitter.com/matteocollina/">Matteo Collina</a>, member of the Node.js TSC and great developer all around, does lots of code reviews as part of his job. His advice is to</p>
 <h3 id="benefits">Benefits</h3>
 <p>This is a long-time manager favorite: <a href="https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/">code reviews help reduce bugs in code</a>! Borrowing from the excellent <a href="https://www.benlinders.com/2011/business-benefits-of-reviews/">summary by Ben Linders</a>:</p>
 <ul>
@@ -213,13 +217,13 @@ $ grep -r TODO java-10.0.1 | wc -l
 </ul>
 <p>There are <a href="https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-for-catching-bugs/">many other benefits</a> which are not as visible for suits and ties, but which T-shirts tend to notice:</p>
 <ul>
-<li>Knowledge is spread.</li>
-<li>Dissemination of coding culture.</li>
+<li>Knowledge is spread, increasing the <a href="https://blog.sandglaz.com/increasing-bus-factor-in-project-management/">bus factor</a>.</li>
+<li>Dissemination of <a href="https://medium.com/javascript-scene/the-outrageous-cost-of-skipping-tdd-code-reviews-57887064c412">coding culture</a>.</li>
 <li>Faster status updates: all changes are in the public record.</li>
 <li>Reviews take time, but skipping them takes much longer.</li>
 </ul>
 <h3 id="code-walkthroughs">Code Walkthroughs</h3>
-<p>Sometimes merge requests are complex beasts that defy explanations. Anyone reading through a 1000-line refactoring will probably age a couple of months and not understand one bit. Ideally you will be able to request a <a href="https://stevemcconnell.com/articles/software-quality-at-top-speed/">code walkthrough</a> before approving or rejecting a pull request: the author will explain the changes one by one to a selected audience of developers, and take questions from them.</p>
+<p>Sometimes merge requests are complex beasts that defy explanations. Anyone reading through a 1000-line refactoring will probably age a couple of months and not understand one bit. Ideally you will be able to request a <a href="https://stevemcconnell.com/articles/software-quality-at-top-speed/">code walkthrough</a> before approving or rejecting a pull request: the author will explain the changes one by one to a selected audience of developers, and take questions from them. Although <a href="https://www.codacy.com/blog/how-to-code-review-in-a-pull-request/">not everyone agrees</a>, in-person communication is a great addition to remote reviews.</p>
 <p>There is a technique called <a href="https://rubberduckdebugging.com/">Rubber Duck Debugging</a>: when you have a hard problem just explain your code to a rubber duck. You will magically understand everything! It is based in the common practice of explaining an issue to a colleague and finding the answer even before they have uttered a single word.</p>
 <p>Let us face it, RDD is just sad. So don't be afraid use your team as &quot;smart rubber ducks&quot; when needed. Sometimes design sessions are also useful even before a line of code has been written. Doing a &quot;design walkthrough&quot; can save many hours of fruitless coding.</p>
 <h3 id="pyramidal-code-reviews">Pyramidal Code Reviews</h3>
@@ -228,7 +232,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 <img src="pics/julio-iglesias.jpg" title="Julio Iglesias holding some tablet-like object, source: https://www.antena3.com/noticias/deportes/futbol/julio-iglesias-promociona-el-corazon-classic-match-yo-estaria-pero-ya-estoy-viejo_20170611593d5bb10cf26e79aba73a40.html" alt="He has probably not touched a computer in his life, though." />
 <p class="caption">He has probably not touched a computer in his life, though.</p>
 </div>
-<p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way: there is a pyramidal review process with developers, maintainers, lieutenants and Linus Torvalds at the top. This scheme it tends to overwork the people at the top, as has famously happened to Linus Torvalds who <a href="TODO">had to seek help because of his toxic behavior</a>.</p>
+<p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way: there is a pyramidal review process with developers, maintainers, lieutenants and Linus Torvalds at the top. This scheme it tends to overwork the people at the top, as has famously happened to Linus Torvalds who <a href="https://www.developer-tech.com/news/2018/nov/05/torvalds-empathetic-linux-code-reviews/">had to seek help because of his toxic behavior</a>.</p>
 <p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few colleagues to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
 <p>A code review is much more than supervision: it is also an explanation, a conversation, and an iterative process to improve the code.</p>
 <h3 id="junior-reviews">Junior Reviews</h3>
@@ -279,13 +283,16 @@ $ grep -r TODO java-10.0.1 | wc -l
 <p>Another key take-away menu item is: it's always a good idea to make the process and policies explicit; write them on a big billboard in the back of the dev headquarters if necessary. When everyone knows what to expect there are no time-consuming misunderstandings.</p>
 <p>Finally: code reviews keep you honest. Knowing that someone else is going to look at your code will make you concentrate on writing good code, and avoid taking shortcuts.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to Codemotion Berlin for holding the première, and also to Codemotion Madrid for hosting this talk. Thanks for my company, Devo, for letting me attend both conferences. I have received invaluable help in the preparation from <a href="https://twitter.com/francjp">Fran Picolini</a>, <a href="https://twitter.com/Alba_Roza">Alba Roza</a>, <a href="https://twitter.com/BenLinders">Ben Linders</a> and many others that I am unjustly forgetting.</p>
+<p>Thanks to Codemotion Berlin for holding the première, and also to Codemotion Madrid for hosting this talk. Thanks for my company, Devo, for letting me attend both conferences. I have received invaluable help in the preparation from <a href="https://twitter.com/francjp">Fran Picolini</a>, <a href="https://twitter.com/Alba_Roza">Alba Roza</a>, <a href="https://twitter.com/BenLinders">Ben Linders</a>, <a href="https://twitter.com/pabloalmunia">Pablo Almunia</a>, <a href="https://twitter.com/matteocollina/">Matteo Collina</a> and many others that I am unjustly forgetting.</p>
+<h3 id="more-info">More Info</h3>
+<p>Check out the <a href="https://www.infoq.com/news/2018/11/code-reviews">Q&amp;A with me on InfoQ</a> for additional tips, and you can see my <a href="https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/">slides</a> for Codemotion Madrid 2018.</p>
+<p>Also check <a href="https://speakerdeck.com/lemiorhan/10-faulty-behaviors-of-code-review">10 Faulty Behaviors</a>.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2018-11-29, last modified on 2018-11-29 <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2018-12-02, last modified on 2018-12-02 <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="../index.html">index</a>.
