@@ -595,8 +595,11 @@ and many others that I am unjustly forgetting.
 
 Check out the [Q&A with me on InfoQ](https://www.infoq.com/news/2018/11/code-reviews)
 for additional tips,
-and you can see my [slides](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/)
-for Codemotion Madrid 2018.
+and you can see my slides
+for Codemotion
+[Berlin](https://slides.com/alexfernandez/code-review-codemotion-berlin-2018/)
+and [Madrid](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/)
+2018.
 
 Also check
 [10 Faulty Behaviors](https://speakerdeck.com/lemiorhan/10-faulty-behaviors-of-code-review).
