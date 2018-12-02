@@ -454,7 +454,7 @@ and [approved by the Council of Castille](https://elpais.com/diario/2006/11/25/b
 and we know that 10 years passed between the first and the second parts.
 But the exact editorial process is lost in obscurity.
 
-![](pics/cervantes.png.jpg "Cervantes editorial process is mostly unknown")
+![](pics/cervantes.png "Cervantes editorial process is mostly unknown")
 
 We are lucky enough to know more about JRR Tolkien:
 while he was writing "The Lord of the Rings" he read it to his friends,
@@ -462,6 +462,8 @@ who were a bunch of Oxford academics and did not enjoy the crazy thing one bit.
 Then an editor came by,
 and the result made everyone rich.
 Except for the poor academics, that is.
+
+![](pics/tolkien.png "Tolkien used to pester his Oxford colleagues and then his editor")
 
 Then we have a modern newsroom.
 After the intrepid reporter has got the scoop on some huge piece of news
