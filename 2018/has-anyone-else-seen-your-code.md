@@ -474,6 +474,8 @@ come the fact checker and the proof reader,
 although this latter job has largely been automated.
 Finally the piece can see the light of day!
 
+![](pics/newspaper.png "In a newspaper there can be multiple editors and correctors involved")
+
 ### Create Your Own Adventure
 
 Now compare to your typical corporate developer:
