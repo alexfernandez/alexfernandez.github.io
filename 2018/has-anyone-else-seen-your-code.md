@@ -1,6 +1,6 @@
 ---
 title: 'Has Anyone Else Seen your Code?'
-subtitle: 'Code review in the age of GitHub.'
+subtitle: 'Code review in the age of GitHub'
 footer: Published on 2018-12-03, last modified on 2018-12-03
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -582,7 +582,9 @@ and avoid taking shortcuts.
 
 Thanks to Codemotion Berlin for holding the première,
 and also to Codemotion Madrid for hosting this talk.
-Thanks for my company, Devo, for letting me attend both conferences.
+Thanks also to the audience for the thoughtful questions.
+Thanks to my company, [Devo](https://www.devo.com/),
+for letting me attend both conferences.
 I have received invaluable help in the preparation from
 [Fran Picolini](https://twitter.com/francjp),
 [Alba Roza](https://twitter.com/Alba_Roza),
