@@ -6,7 +6,7 @@ footer: Published on 2018-02-12, last edited on 2018-12-05.
 ---
 
 I have collected my public speaker experience in this page:
-about six years speaking at diverse conferences,
+about five years speaking at diverse conferences,
 lately mostly about Javascript and DevOps.
 
 ## Speaker
