@@ -1,17 +1,37 @@
 ---
 title: Speaker Profile 
 subtitle: 'Alex Fernández (<a href="https://twitter.com/pinchito">@pinchito</a>)'
-footer: Published on 2018-02-12, last edited on 2018-02-13.
+footer: Published on 2018-02-12, last edited on 2018-12-05.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-I have collected my public speaker experience in this page.
-About five years boring people at diverse conferences,
+I have collected my public speaker experience in this page:
+about six years speaking at diverse conferences,
 lately mostly about Javascript and DevOps.
 
 ## Speaker
 
 List of conferences, latest first.
+
+### [Codemotion Madrid 2018](https://madrid2018.codemotionworld.com/)
+
+[¿Quién ha visto tu código?](https://madrid2018.codemotionworld.com/talk-detail/?detail=9236):
+[slides](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2018-12-01
+
+### [Codemotion Berlin 2018](https://berlin2018.codemotionworld.com/)
+
+[Has Anyone Else Seen your Code?](https://berlin2018.codemotionworld.com/talk-detail/?detail=9237),
+[slides](https://slides.com/alexfernandez/code-review-codemotion-berlin-2018/).
+<br>
+<img height="15" src="./pics/germany.svg" alt="Germany" style="margin:4px;vertical-align:middle;">
+Berlin, Germany
+<br>
+2018-11-21
 
 ### [FullStack London 2017](https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things)
 
