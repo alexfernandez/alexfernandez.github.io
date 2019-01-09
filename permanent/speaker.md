@@ -16,7 +16,8 @@ List of conferences, latest first.
 ### [Codemotion Madrid 2018](https://madrid2018.codemotionworld.com/)
 
 [¿Quién ha visto tu código?](https://madrid2018.codemotionworld.com/talk-detail/?detail=9236):
-[slides](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/).
+[slides](https://slides.com/alexfernandez/code-review-codemotion-madrid-2018/),
+[video](https://www.youtube.com/watch?v=mEYb1DloINg).
 <br>
 <img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
