@@ -5,7 +5,7 @@ footer: Published on 2019-01-13, last modified on 2019-01-13.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Ethics for Robots According to Asimov.](pics/ethics-laws.jpg "The three laws of Robotics, source: https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg")
+![](pics/ethics-laws.jpg "The three laws of Robotics, source: https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg")
 
 In these turbulent times of troubled leftist principles and worrying fascist risings
 it is too easy to lose track of our moral principles.
