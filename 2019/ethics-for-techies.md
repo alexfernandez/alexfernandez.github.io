@@ -7,15 +7,22 @@ footer: Published on 2019-01-13, last modified on 2019-01-13.
 
 ![](pics/ethics-laws.jpg "The three laws of Robotics, source: https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg")
 
-In these turbulent times of troubled leftist principles and worrying fascist risings
-it is too easy to lose track of our moral principles.
-In this article I will try to 
+In these turbulent times of troubled leftist movements and worrying fascist risings
+of eroding privacy and Orwellian surveillance,
+it is too easy to lose track of moral principles.
+For those of use involved in technology it is our duty to understand that we are indeed transforming society,
+not always for good.
+
+In this article I will try to explain how I try to make moral choices,
+in the hope that it will be useful for others too.
 
 ## Right and Wrong
 
 Let us start at the very beginning.
 What is "right" and what is "wrong"?
 How can we tell the difference?
+
+### What Is Mine Is Mine
 
 ## Generalizing
 
@@ -26,9 +33,12 @@ and it is that of generalization.
 
 ### Laws
 
-The problem of having written laws
+The problem of having written laws is that they should apply equally to everyone.
+However all laws have a scope and many exceptions.
 
-## Religion
+## Dealing with Contradictions
+
+### Religion
 
 Given that it is hard to get our own ideas about what is right and wrong,
 it is tempting to give in and let someone else define our moral principles.
@@ -50,6 +60,8 @@ I don't think there is any ambiguity here.
 And yet it is easy to spot rich people calling them Christians;
 they have to contort the meaning of "rich" in their own heads
 or else be complete hypocrites.
+
+### The Fractal Nature of Issues
 
 ## Conclusion
 
