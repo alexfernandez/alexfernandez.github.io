@@ -3,29 +3,26 @@ title: Curriculum Vitae of Alex Fernández
 footer: Last edited on 2019-05-21.
 ---
 
-Developer with 20 years of experience proficient in backend development,
-specialized in scalability and DevOps.
+Developer with 20 years of experience specialized in scalability and DevOps.
 
 ## Job History
 
-I have 20+ years of professional experience related to software development.
 I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
+I have held several management positions.
 
 ### 2019-05 to present: Influencity
 
 I have recently joined [Influencity](https://www.influencity.com/) as CTO.
 I am leading a team of talented developers
-to help build the best console for influencer marketing.
+to help build the best console for influencer marketing,
+using Node.js and React.
 
 ### 2017-10 to 2019-04: Devo (Formerly Logtrust)
 
-I joined [Devo](https://www.devo.com/),
-a thriving Spanish company that collects huge amounts of data
-and keeps it in a searchable format for our customers.
-The company was in the middle of an impressive international expansion.
-
-As a senior developer I wrote code for very demading data ingestion,
+I joined [Devo](https://www.devo.com/)
+while in the middle of an impressive international expansion.
+As a senior developer I wrote very demanding Node.js code for data ingestion,
 supporting peaks of 3.5 million events per second (Meps).
 I also helped keep developer environments up and running.
 
@@ -33,38 +30,18 @@ I also helped keep developer environments up and running.
 
 I worked full time at [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
-The company was facing major scalability challenges,
-and in fact we grew from processing two thousand requests per second
+The company grew from processing two thousand requests per second
 to around one million per second in little more than four years.
-Every second we processed a million requests,
-decided which ones were useful for our customers
-and responded to all of them.
-
 We successfully competed at an international level
 both in price and in features.
-We used Node.js for the main engine,
-and Erlang and Go for certain subsystems.
-Some of my Go code has been in production for years without issues.
+We used JavaScript, Node.js, Erlang and Go.
 
-My job included handling huge amounts of data,
-backend development and DevOps.
-I actively participated in the selection of everyone in the dev team.
+### 2012-08 to present: Freelancer
 
-### 2012-08 to 2012-12: Freelancer
-
-After my entrepreneurship adventure was mostly over,
-and we failed to get rich in the process,
-I worked as a freelancer for Kimia
-writing a PHP backend and an Android app,
-while my friend [Diego Lafuente](https://twitter.com/tufosa)
-wrote the iOS version.
-
-I have not stopped taking freelance engagements,
-since they help me stay sharp and learn new things.
-In fact I have worked for several large companies:
-here is [one recent story](../2016/stridercd.html).
-
-Other customers over time include:
+In 2012 I worked as a freelancer for Kimia writing a PHP backend and an Android app.
+Since then I have not stopped taking freelance engagements.
+Customers over time include:
+[hotelbeds](https://www.hotelbeds.com/home),
 [Grupo Inditex](https://www.inditex.com/),
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
 [TUI Group](https://www.tuigroup.com/en-en),
@@ -72,9 +49,8 @@ and a few other smaller companies.
 
 ### 2011-08 to 2012-08: MoveinBlue
 
-I worked MoveinBlue as co-founder and CTO.
-I managed a team of 5 people,
-building an amazing product that ultimately failed to find its market.
+I worked at MoveinBlue as co-founder and CTO,
+managing a team of 5 people and building an amazing product that ultimately failed to find its market.
 We used PHP and JavaScript.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
@@ -94,11 +70,8 @@ back then a subsidiary of Banco Santander.
 There I was part of the team that developed BankSphere,
 an internal tool for task automation.
 
-During the last few months at Matchmind I worked for Leroy Merlin.
-For a few months I joined Indra
-(the largest Spanish IT consulting company)
-on a very ambitious project to migrate all of the infrastructure of Caja Madrid
-(a largish public bank, now part of Bankia). 
+During the last few months as a consultant for Matchmind and Indra
+I worked for Leroy Merlin and Caja Madrid (now Bankia).
 
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
 
@@ -113,16 +86,15 @@ As part of my job I attended several conferences and presented a couple of Europ
 ### 2000-05 to 2001-07: Analyst at Siatcom, SA
 
 I worked at Telefonica I+D as a consultant.
-I participated in a couple of landmark projects:
+I participated in a couple of innovative projects:
 a location experiment that got the user position
-from a mesh of mobile stations (in 2000!),
+from a mesh of mobile stations,
 and a WAP ringtone and messaging platform.
 
 ### 1998-08 to 2000-05: Analyst-Programmer at Informática El Corte Inglés, SA
 
-I was in the team that wrote a C cash register program,
-with a nifty Visual Basic interface.
-The most interesting project there was designing and writing a custom plug-in architecture from scratch.
+I worked writing a C cash register program.
+I lead a project to design and write a custom plug-in architecture.
 
 ### 1996 to 1998: Intern at Plataforma Solar de Almería
 
@@ -141,7 +113,7 @@ The most popular at 1619 stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library for load testing web applications.
 
-I was a volunteer admin at Savannah (part of the GNU project)
+I was also a volunteer admin at Savannah (part of the GNU project)
 from 2008 to 2010.
 
 ### Public Speaking
@@ -168,7 +140,8 @@ Since 2015 I have been an organizer of MadridJS and Node.js Madrid.
 
 ## Education
 
-I learned programming as a hobby and have never had any formal training as a programmer.
+I learned programming as a hobby,
+and have never had any formal training as a programmer.
 
 ### University
 
@@ -179,7 +152,7 @@ to finish my degree in February 1996.
 ### Teaching
 
 I have participated in two editions of
-[IronHack](https://www.ironhack.com/),
+[IronHack](https://www.ironhack.com/)
 as the main JavaScript teacher.
 
 ## Contact
