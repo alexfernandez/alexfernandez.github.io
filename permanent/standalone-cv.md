@@ -9,7 +9,7 @@ Developer with 20 years of experience specialized in scalability and DevOps.
 
 I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
-I have held several management positions.
+I have also held several management positions.
 
 ### 2019-05 to present: Influencity
 
@@ -70,9 +70,6 @@ back then a subsidiary of Banco Santander.
 There I was part of the team that developed BankSphere,
 an internal tool for task automation.
 
-During the last few months as a consultant for Matchmind and Indra
-I worked for Leroy Merlin and Caja Madrid (now Bankia).
-
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
 
 I worked at the Applied Research department managing and developing European projects
@@ -95,11 +92,6 @@ and a WAP ringtone and messaging platform.
 
 I worked writing a C cash register program.
 I lead a project to design and write a custom plug-in architecture.
-
-### 1996 to 1998: Intern at Plataforma Solar de Almería
-
-My first job was to rewrite the PSA website in something that allowed for
-some degree of automation.
 
 ## Volunteer Work
 
