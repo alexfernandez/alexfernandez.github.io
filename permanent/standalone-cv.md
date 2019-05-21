@@ -124,30 +124,21 @@ the very first to a crowded room for
 
 I have
 [extensive experience as a public speaker](./speaker.html)
-Technical conferences are excellent opportunities to learn how to speak in public,
-update my skills and meet interesting people.
+Technical conferences are excellent opportunities to keep up to date with the community.
 
 ### Organizations
 
 I have helped organize three editions of
 [JSDayES](http://jsday.es/),
-which have been very well received by the JS communities in Spain.
-The last edition
-[JSDayES 2017](http://2017.jsday.es/)
-had about 600 attendees and featured 35 speakers from over 10 countries.
+the last one with around 600 attendees and featuring 35 speakers from over 10 countries.
 
 Since 2015 I have been an organizer of MadridJS and Node.js Madrid.
 
 ## Education
 
-I learned programming as a hobby,
-and have never had any formal training as a programmer.
+### 1989 - 1996: Degree of Physics
 
-### University
-
-From 1989 to 1993 I studied Physics in Granada,
-and then moved to the Universidad Autónoma de Madrid
-to finish my degree in February 1996.
+I studied first at Granada and then at Universidad Autónoma de Madrid.
 
 ### Teaching
 
@@ -157,7 +148,7 @@ as the main JavaScript teacher.
 
 ## Contact
 
-* [Email](mailto:alexfernandeznpm@gmail.com).
+* [Email](mailto:alexfernandeznpm@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/pinchito/)
 * [Twitter](https://twitter.com/pinchito)
 
