@@ -42,11 +42,45 @@ Puedes seguir las [diapos](https://slides.com/alexfernandez/unix-floqq).
 
 ### Capítulo 5: Procesos
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DtieUT-HE5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Capítulo 6: Enlazando comandos
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WNJSm5ab92I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 7: Opciones
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0oxKvr7D5JE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 8: Buscando comandos
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HggpTQ7VoUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 9: Expresiones regulares.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/b_mEuIgK3xc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capíutulo 10: Seguridad
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5DG9pDqVdRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 11: Comandos avanzados
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SWFEgJPTKSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 12: Algunos trucos
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FkiV_QafDPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Capítulo 13: Scripts de Bash
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sn8f1wJ2G2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tomas falsas
 
-Y si te has quedado con ganas de más: ¡las tomas falsas!
+Por si te has quedado con ganas de más: ¡las tomas falsas!
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sWHP9dTQDek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Conclusión
 
