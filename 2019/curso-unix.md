@@ -12,9 +12,11 @@ un curso de Unix bastante completo.
 Ya era hora de publicarlo en YouTube como curso gratuito,
 así que ¡ahí va!
 
-## Contenido
+## Vídeos
 
-Puedes seguir las [diapos](https://slides.com/alexfernandez/unix-floqq).
+Puedes seguir las [diapos](https://slides.com/alexfernandez/unix-floqq),
+y hacer los ejercicios sobre el
+[repo del proyecto](https://github.com/alexfernandez/floqq-unix).
 
 ### Trailer
 
@@ -81,6 +83,13 @@ Puedes seguir las [diapos](https://slides.com/alexfernandez/unix-floqq).
 Por si te has quedado con ganas de más: ¡las tomas falsas!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sWHP9dTQDek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Ejercicios
+
+La parte con la que más se aprende sin duda es haciendo
+los ejercicios que acompañan a cada capítulo.
+Si te quedas con dudas puedes consultar
+[las soluciones](https://github.com/alexfernandez/floqq-unix/blob/master/soluciones.md).
 
 ## Conclusión
 
