@@ -85,9 +85,10 @@
 										<h1>Estrategias de migración</h1>
 										<p>La arquitectura fluida, parte 2<p>
 									</header>
-																				<figure>
-<img src="pics/arquitectura-fluida-2.jpg" title="El puente del César sobre el Rhin" alt="Imagen: John Soane" /><figcaption>Imagen: <a href="http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html">John Soane</a></figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/arquitectura-fluida-2.jpg" title="El puente del César sobre el Rhin" alt="Imagen: John Soane" />
+<p class="caption">Imagen: <a href="http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html">John Soane</a></p>
+</div>
 <p>En la <a href="arquitectura-fluida-1-arquitectura-perfecta.html">parte anterior</a> vimos cómo la arquitectura perfecta no existe; nuestra única esperanza es poder migrar rápidamente de una a otra para responder a los cambios a los que nos enfrentamos.</p>
 <p>Llegamos ahora a al catálogo de estrategias. Vamos a describir varias técnicas que se pueden usar para realizar una migración, de las más bruscas a las que son completamente reversibles.</p>
 <h2 id="quieres-decir-patrones">¿Quieres decir “patrones”?</h2>
@@ -101,9 +102,10 @@
 <h1 id="catálogo-de-estrategias-de-servidor">Catálogo de estrategias de servidor</h1>
 <p>En esta primera categoría tenemos estrategias que se implementan puramente en el servidor, sin tener que modificar el cliente salvo para reconfigurarlo.</p>
 <h2 id="parar-y-arrancar">Parar y arrancar</h2>
-<figure>
-<img src="pics/stop-migrate.png" alt="Stop and migrate" /><figcaption>Stop and migrate</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/stop-migrate.png" alt="Stop and migrate" />
+<p class="caption">Stop and migrate</p>
+</div>
 <p>Ésta es la migración de toda la vida:</p>
 <ul>
 <li>se para el sistema,</li>
@@ -142,9 +144,10 @@ db.current.get(key, function(error, result) {
 <p>Y, una vez que tenemos la estrategia inversa, también es importante (y de nuevo contraintuitivo) que lo mejor es no realizar la migración inversa, sino buscar las causas profundas de los problemas.</p>
 </blockquote>
 <h2 id="versión-de-sólo-lectura">Versión de sólo lectura</h2>
-<figure>
-<img src="pics/read-only-version.png" alt="Read-only version" /><figcaption>Read-only version</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/read-only-version.png" alt="Read-only version" />
+<p class="caption">Read-only version</p>
+</div>
 <p>Ahora veremos una estrategia ligeramente más sofisticada. Los pasos son:</p>
 <ul>
 <li>pasar a modo de sólo lectura,</li>
@@ -163,9 +166,10 @@ db.current.get(key, function(error, result) {
 <p>Esta técnica es muy básica: se aplica por ejemplo a las <a href="http://www.wpbeginner.com/plugins/how-to-put-your-wordpress-site-in-read-only-state-for-site-migrations-and-maintenance/">migraciones de WordPress</a>, para no tener que preocuparse de cambios mientras se migra.</p>
 </blockquote>
 <h2 id="sincronización">Sincronización</h2>
-<figure>
-<img src="pics/sync.png" alt="Synchronization" /><figcaption>Synchronization</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/sync.png" alt="Synchronization" />
+<p class="caption">Synchronization</p>
+</div>
 <p>Supongamos de nuevo que tenemos dos bases de datos, la antigua y la nueva. Queremos que ambas queden sincronizadas, de forma que podamos usar una u otra. Los pasos para hacer esta sincronización son:</p>
 <ul>
 <li>hacer una copia en caliente de la antigua a la nueva,</li>
@@ -185,9 +189,10 @@ db.current.get(key, function(error, result) {
 <p>La parte positiva es que la migración fue completamente suave. En este caso, la sincronización se mantiene siempre (disfrazada de carga de datos), por lo que para dejar de usar la nueva base de datos en Redshift sólo tenemos que cambiar un parámetro de configuración. Así que cuando se reportaron bugs fue trivial comparar ambos, y volver a la versión anterior mientras se investigaba por qué no funcionaban bien datos migrados.</p>
 </blockquote>
 <h2 id="copia-doble">Copia doble</h2>
-<figure>
-<img src="pics/double-copy.png" alt="Double copy" /><figcaption>Double copy</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/double-copy.png" alt="Double copy" />
+<p class="caption">Double copy</p>
+</div>
 <p>En este caso queremos copiar los datos en dos tandas, una antes de cambiar el acceso y otra después. Los pasos a seguir son los siguientes:</p>
 <ul>
 <li>realizar una copia en caliente mientras se accede al sistema antiguo,</li>
@@ -269,9 +274,10 @@ function getAdapter(address) {
 <p>Tras crear el adaptador, era cosa sencilla elegir si usábamos Memcached o Redis para cada instancia de base de datos.</p>
 </blockquote>
 <h2 id="consulta-dual">Consulta dual</h2>
-<figure>
-<img src="pics/dual-lookup.png" alt="Dual lookup" /><figcaption>Dual lookup</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/dual-lookup.png" alt="Dual lookup" />
+<p class="caption">Dual lookup</p>
+</div>
 <p>Esta técnica es muy sencilla: empezamos a escribir en la nueva base de datos, y a la hora de leer leemos de ambas: primero miramos en la nueva, y si no está, tiramos de la antigua.</p>
 <p>La migración de datos en el servidor se puede hacer con una sencilla copia en caliente.</p>
 <p>El problema más obvio es que el tiempo de lectura se duplica, cosa que no siempre es aceptable.</p>
@@ -290,9 +296,10 @@ function getAdapter(address) {
     });
 }</code></pre>
 <h2 id="escritura-dual">Escritura dual</h2>
-<figure>
-<img src="pics/dual-write.png" alt="Dual write" /><figcaption>Dual write</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/dual-write.png" alt="Dual write" />
+<p class="caption">Dual write</p>
+</div>
 <p>Esta técnica es similar a la anterior, pero en lugar de leer de dos sitios, escribimos a dos sitios.</p>
 <p>La escritura dual sirve para mantener dos servidores sincronizados después de haber pasado de usar uno al otro.</p>
 <p>En este caso la latencia añadida puede no ser un problema, siempre que las escrituras se realicen de forma asíncrona tras terminar de procesar las peticiones. En el caso de que requiramos confirmación de escritura en ambas bases de datos la latencia aumentará.</p>
@@ -302,9 +309,10 @@ function getAdapter(address) {
 <p>Hace unos años se pasó de tener una réplica en caliente a una réplica online: todas las escrituras debían confirmarse en ambos centros antes de darse por finalizadas. De esta forma se tiene la garantía de que los datos son iguales en ambos centros, y se puede pasar de uno a otro a voluntad.</p>
 </blockquote>
 <h2 id="paso-temporizado">Paso temporizado</h2>
-<figure>
-<img src="pics/timed-rollover.png" alt="Timed rollover" /><figcaption>Timed rollover</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/timed-rollover.png" alt="Timed rollover" />
+<p class="caption">Timed rollover</p>
+</div>
 <p>En este caso el cliente usará un servidor u otro dependiendo de los datos a acceder, con una fecha de corte configurable.</p>
 <p>El resultado es un cambio suave de servidores, a costa de añadir como mucho unos pocos microsegundos (µs) a cada query.</p>
 <h3 id="código-de-ejemplo-3">Código de ejemplo</h3>
@@ -335,9 +343,10 @@ exports.CleverAdapter = function(name, address) {
 <p>Sencillo y elegante, y que nos ahorró un montón de trabajo.</p>
 </blockquote>
 <h2 id="conversión-in-situ">Conversión <em>in situ</em></h2>
-<figure>
-<img src="pics/in-place.png" alt="In-place conversion" /><figcaption>In-place conversion</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/in-place.png" alt="In-place conversion" />
+<p class="caption">In-place conversion</p>
+</div>
 <p>Queremos cambiar el formato de los valores de un cierto tipo. En lugar de recorrer todos los valores existentes y modificarlos, podemos empezar a escribir los valores nuevos con este nuevo formato, e ir modificando los antiguos según se leen.</p>
 <p>La lectura de cualquier valor consta de los siguientes pasos:</p>
 <ul>
@@ -377,9 +386,10 @@ exports.CleverAdapter = function(name, address) {
 <p>A continuación vamos a ver un par de estrategias que dependen de una máquina intermedia entre el cliente y el servidor, a la que vamos a llamar “broker”.</p>
 <p>De nuevo estas estrategias suelen requerir una migración en el servidor paralela, así que tampoco investigaremos si son reversibles o no. Dado que son similares a las estrategias en cliente tampoco veremos casos prácticos; sólo las mencionamos de pasada.</p>
 <h2 id="acceso-mediante-proxy">Acceso mediante proxy</h2>
-<figure>
-<img src="pics/proxied-access.png" alt="Proxied access" /><figcaption>Proxied access</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/proxied-access.png" alt="Proxied access" />
+<p class="caption">Proxied access</p>
+</div>
 <p>El broker es en este caso un proxy, que envía las consultas a un servidor o a otro según un valor de configuración. El cliente no tiene que preocuparse de enviar las consultas al servidor correcto; el broker se ocupa de todo.</p>
 <p>El problema más evidente es que añadimos tiempo a la consulta, y además un nuevo punto de fallo.</p>
 <h3 id="código-de-ejemplo-5">Código de ejemplo</h3>
@@ -404,15 +414,17 @@ http.createServer((request, response) =&gt; {
   console.log(`Server running at http://${hostname}:${port}/`);
 });</code></pre>
 <h2 id="escritura-en-cola">Escritura en cola</h2>
-<figure>
-<img src="pics/queued-write.png" alt="Queued write" /><figcaption>Queued write</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/queued-write.png" alt="Queued write" />
+<p class="caption">Queued write</p>
+</div>
 <p>En este caso no escribimos directamente en destino, sino que almacenamos las escrituras y las hacemos todas de golpe.</p>
 <p>Es muy común en los servidores de base de datos (por ejemplo <a href="http://docs.couchbase.com/admin/admin/Monitoring/monitor-diskqueue.html">Couchbase</a>) agrupar las escrituras para ahorrar procesamiento. En nuestro caso podemos enviar las escrituras al servidor que convenga para nuestra migración.</p>
 <h2 id="migración-de-cualquier-tipo">Migración de cualquier tipo</h2>
-<figure>
-<img src="pics/all.png" alt="All strategies" /><figcaption>All strategies</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/all.png" alt="All strategies" />
+<p class="caption">All strategies</p>
+</div>
 <p>Todas las estrategias que hemos visto son útiles no sólo para migraciones de base de datos. En lugar de copiar datos es posible que tengamos que copiar configuraciones, código o ficheros planos. En cualquier caso tendremos que ocuparnos de dos cosas: migrar los accesos, y mover la información necesaria. Cada parte puede resolverse de forma separada, lo que nos da dos grados de libertad que nos pueden ayudar en nuestro trabajo.</p>
 <p>En cualquier migración querremos evitar tener <em>downtime</em>, no sólo por no molestar a nuestros clientes: por orgullo, y porque dejar de dar servicio es mala ingeniería.</p>
 <blockquote>

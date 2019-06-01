@@ -85,13 +85,14 @@
 										<h1>The Case Against Software Craftsmanship</h1>
 										<p>or Why Mistrust Engineers that Present Themselves as Craftsmen<p>
 									</header>
-																				<figure>
-<img src="pics/craftsmen.jpg" title="Shop of the Woodcrafters and Carvers, Gatlinburg, Tennessee. Besides making fine furniture, these two craftsmen turn out interesting souvenirs, etc." alt="Picture credit: Lewis Hine" /><figcaption>Picture credit: <a href="https://commons.wikimedia.org/wiki/File:%22Shop_of_the_Woodcrafters_and_Carvers,_Gatlinburg,_Tennessee._Besides_making_fine_furniture,_these_two_craftsmen_turn..._-_NARA_-_532771.jpg">Lewis Hine</a></figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/craftsmen.jpg" title="Shop of the Woodcrafters and Carvers, Gatlinburg, Tennessee. Besides making fine furniture, these two craftsmen turn out interesting souvenirs, etc." alt="Picture credit: Lewis Hine" />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:%22Shop_of_the_Woodcrafters_and_Carvers,_Gatlinburg,_Tennessee._Besides_making_fine_furniture,_these_two_craftsmen_turn..._-_NARA_-_532771.jpg">Lewis Hine</a></p>
+</div>
 <h2 id="software-craftsmanship">Software Craftsmanship</h2>
 <p>Among software developers there is a rather large movement termed <a href="https://en.wikipedia.org/wiki/Software_craftsmanship">Software Craftsmanship</a>, that reclaims the artisanship of the profession. In Madrid for instance there are is a <a href="http://www.meetup.com/es/madswcraft/">Meetup with over 700 members</a>.</p>
-<p>The <a href="http://manifesto.softwarecraftsmanship.org/">manifesto</a> is simple: it calls for “well-crafted software”, “productive partnerships” and speaks about “a community of professionals” that are “steadily adding value”. Despite it being 6+ years old it <a href="http://manifesto.softwarecraftsmanship.org/metrics">continues to seduce</a> people.</p>
-<p>In the old days I would have been proud to be called a craftsman. Today, not so much. For me it’s more of a bad habit that I try to keep hidden.</p>
+<p>The <a href="http://manifesto.softwarecraftsmanship.org/">manifesto</a> is simple: it calls for &quot;well-crafted software&quot;, &quot;productive partnerships&quot; and speaks about &quot;a community of professionals&quot; that are &quot;steadily adding value&quot;. Despite it being 6+ years old it <a href="http://manifesto.softwarecraftsmanship.org/metrics">continues to seduce</a> people.</p>
+<p>In the old days I would have been proud to be called a craftsman. Today, not so much. For me it's more of a bad habit that I try to keep hidden.</p>
 <h2 id="craft-engineering-industry">Craft, Engineering, Industry</h2>
 <p>The most striking proposal to come out of the manifesto is to consider software development more a craft than an engineering discipline. The developer puts together each project like an artisan, devoting attention to every aspect from the first line of code to the last deployment.</p>
 <p>I contend that software development is not just an engineering discipline; it is an industry. We have our tools, toolchains, assembly lines, integration of parts; we have at our disposal <a href="http://modulecounts.com/">large numbers of modules</a> that can be put together for the quick job and for the large project.</p>
@@ -99,17 +100,17 @@
 <p>But just like industry workers, we are able to replicate our work endlessly, and make it work day and night without tiring.</p>
 <p>So, what kind of artisan would grab an off-the-shelf component instead of creating their own?</p>
 <h2 id="craftsmanship-and-craftsmen">Craftsmanship and Craftsmen</h2>
-<p>“But, pinchito”, I hear you saying, “being a craftsman is surely a good thing. It’s good to be able to create like an artisan, even if you don’t do it all the time. How can you criticise such a crafty craft?”</p>
+<p>&quot;But, pinchito&quot;, I hear you saying, &quot;being a craftsman is surely a good thing. It's good to be able to create like an artisan, even if you don't do it all the time. How can you criticise such a crafty craft?&quot;</p>
 <p>The trouble with taking too much pride in being a good craftsman is that you will take every opportunity to show your crafts; even when there are perfectly good solutions out there that will fit the problem well.</p>
 <p>Do you need to craft something once in a while? Sure. Do you need to make that aspect the <em>core</em> of your profession? I doubt it.</p>
 <h2 id="industry-standards">Industry Standards</h2>
-<p>There is value in using industry-standard products. I am sure that many of you would be perfectly able to create a new operating system, and a few have indeed done so. It’s fun, it’s harmless and you learn a lot.</p>
+<p>There is value in using industry-standard products. I am sure that many of you would be perfectly able to create a new operating system, and a few have indeed done so. It's fun, it's harmless and you learn a lot.</p>
 <p>Now, do you need to create a new operating system for every new project, reuse your existing pet system, create a vanity Linux distribution, or is it just better to use a common Linux variant? Suppose that the new project is successful and someone else has to maintain it, or just that you need to get some help. It will not be easy to find engineers that know how to fix your beast, or even worse that <em>want</em> to learn their way around it.</p>
 <p>Sticking to industry standards is not only safe; it is also the recommended way to go, unless there is some strong reason not to.</p>
 <h2 id="when-to-use-your-craft">When to Use your Craft</h2>
 <p>I am indeed too fond of creating my own solutions to everyday problems: in <a href="https://www.npmjs.com/~alexfernandez">npm</a> I have created my own libraries for <a href="https://www.npmjs.com/package/loadtest">load testing</a>, <a href="https://www.npmjs.com/package/deployment">deployment</a>, <a href="https://www.npmjs.com/package/testing">testing</a>, and even supplemented the default JavaScript <a href="https://www.npmjs.com/package/prototypes">prototypes</a>. So in a sense I am not the best dev to warn against <em>too much</em> craftsmanship. But at least <em>I am aware</em> that I have a problem, and that I have to fight against my urges to create even more software.</p>
 <p>For small projects you sometimes have the luxury of creating a custom package, when the complexities of integrating a commercial solution do not pay themselves. Also, sometimes you are a true pioneer in some area, like with an <a href="https://www.npmjs.com/package/inits">initialization system</a> for Node.js. But that should be the exception, not the rule. In your day-to-day practice, take your craft and apply it to new and exciting problems, even if you have to go to the bleeding edge to find them.</p>
-<p>There are other reasons to create custom software: it is an excellent learning opportunity. It’s also going to be very well maintained for your particular project when the team is the same. Finally, it is a lot of fun! Just be sure to let whoever is paying for the software know what they are getting into.</p>
+<p>There are other reasons to create custom software: it is an excellent learning opportunity. It's also going to be very well maintained for your particular project when the team is the same. Finally, it is a lot of fun! Just be sure to let whoever is paying for the software know what they are getting into.</p>
 <p>So, when faced with a new problem, always err on the side of using existing software. Unless you want to have fun, just that one time…</p>
 								</div>
 							</section>

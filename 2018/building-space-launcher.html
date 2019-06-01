@@ -94,9 +94,10 @@
     }
   });
 </script>
-<figure>
-<img src="pics/building-spaceship.jpg" title="Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/" alt="Artistic rendition of a spaceship after launch." /><figcaption>Artistic rendition of a spaceship after launch.</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/building-spaceship.jpg" title="Space ship, source: https://pixabay.com/en/spaceship-raumgleiter-3d-model-2098519/" alt="Artistic rendition of a spaceship after launch." />
+<p class="caption">Artistic rendition of a spaceship after launch.</p>
+</div>
 <p>Space launchers, and more specifically <a href="https://en.wikipedia.org/wiki/Mass_driver">mass drivers</a>, are a long-standing alternative to rockets for reaching space. For instance, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1859907/">Angel (2006)</a> proposes an electromagnetic launcher to cool the Earth. In this article we will explore how to build one today, and how it would help in space exploration.</p>
 <h2 id="the-space-gun">The Space Gun</h2>
 <p>A plan is here presented to build a space gun with existing technologies. It is easy to envision futuristic means of transportation, as we will see in the next sections; but a space gun is well within the state of the art, and can be realistically built in the next decade.</p>
@@ -105,9 +106,10 @@
 <h3 id="location">Location</h3>
 <p>The ideal place for launch is a very high mountain, which reduces air density and therefore drag on the vehicle after leaving the tunnel. But construction at very high altitudes is complex. Also, remote locations are hard to reach: mountains above 8000 m high can only be found in the Himalayas and the nearby Karakoram.</p>
 <p>A compromise location is a relatively high mountain near Europe. Here we will build our space launcher at <a href="https://en.wikipedia.org/wiki/Teide">Pico del Teide</a>, a 3718 m peak in Spain. It has the ideal curvature: it raises 3.7 km in 28 km, with a steeper slope near the peak.</p>
-<figure>
-<img src="pics/building-elevation.jpg" title="Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php" alt="Curvature of Teide is almost ideal." /><figcaption>Curvature of Teide is almost ideal.</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/building-elevation.jpg" title="Teide elevation profile, source: https://www.mapdevelopers.com/elevation_calculator.php" alt="Curvature of Teide is almost ideal." />
+<p class="caption">Curvature of Teide is almost ideal.</p>
+</div>
 <p>Pico del Teide is part of Teide National Park, which means that it is protected: in particular, exploitation of natural resources is forbidden. An exemption can be made in this case, since a mass driver will largely preserve the environment. There is precedent: it has been used (appropriately enough) as a Mars testbed due to its <a href="http://news.bbc.co.uk/2/hi/science/nature/4767403.stm">similar conditions to the red planet</a>.</p>
 <p>There are also a few complications. Teide is an active volcano; apart from volcanic eruptions, <a href="https://www.express.co.uk/news/science/717563/Canary-Islands-earthquake-tremors-Tenerife-Mount-Teide-volcano">tectonic movements</a> are common in the area and may damage the tunnel. To make it a feasible location comprehensive geological studies need to be performed to avoid any hot spots of volcanic activity.</p>
 <p>To prevent accidents the precise location must be chosen carefully: there need to be no villages on the slope opposite the tunnel entrance. Any failed launches will probably fall in the sea, but if post-lauch speed is below 500 m/s they might fall on the island. Also, a wide area near the tunnel exit and along the intended trajectory will need to be evacuated whenever launches are scheduled.</p>
@@ -122,7 +124,7 @@
 <h3 id="launch">Launch</h3>
 <p>Before each launch all coils must be charged. When the vehicle passes through them they will release their energy, imparting it onto the vehicle. Synchronization of the coils is essential.</p>
 <p>At the precise moment of launch the vehicle lies at rest at the foot of the tunnel. The tunnel passage would be very swift: it will take around 6 seconds to reach our target speed of 9 km/s.</p>
-<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt-hour. At a standard price of €0.10 per KWh, and assuming an efficiency of 90%, the total electrical cost per launch is $12\mathrm{K€}$. Such efficiency appears e.g. in <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004)</a>. Even with lower efficiencies the cost is not dramatic.</p>
+<p>After firing all coils the projectile should reach our reference speed of 9 km/s. With a mass of 10 tons the kinetic energy would be 400 Gigajoules, or 110 Megawatt-hour. At a standard price of €0.10 per KWh, and assuming an efficiency of 90%, the total electrical cost per launch is $12\mathrm{K€}$. Such efficiency appears e.g. in <a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004)</a>. Even with lower efficiencies the cost is not dramatic.</p>
 <p>The whole power needs to be released in 6 seconds, and so result in an insane power release of 67 Gigawatt. But electrical power can be generated slowly and stored in the coils themselves if they are superconducting, or in batteries otherwise. Assuming the coils can be charged in 24h only 4 megawatt are needed, which can be achieved with a <a href="http://www.macon.com/news/business/article30238353.html">small solar farm</a>.</p>
 <p>The top of the tunnel should open automatically. A <a href="https://en.wikipedia.org/wiki/Plasma_window">plasma window</a> has been proposed, but it is not necessary: a regular diaphragm is enough to keep air out of the tunnel and open in a few seconds.</p>
 <h3 id="vehicle">Vehicle</h3>
@@ -142,9 +144,9 @@
 <p>A human in a liquid tank should resist higher accelerations, but it has not yet been tried for space flight.</p>
 <h3 id="efficiency-and-dissipation">Efficiency and Dissipation</h3>
 <p>We now come to the most complex part of the project: efficiency, heat and dissipation. Some insights can be found in papers by <a href="http://www.eecs.ucf.edu/seniordesign/sp2014su2014/g10/research/other_sources/00599800.pdf">Cravey <em>et al</em> (1995)</a> and <a href="https://www.coilgun.info/theorymath/ieee/pulse_limits_1997.pdf">Williamson &amp; Smith (1997)</a>.</p>
-<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in “Advanced Propulsion Study”, p. 22</a>:</p>
+<p><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA426465&amp;Location=U2&amp;doc=GetTRDoc.pdf">Davis (2004) says in &quot;Advanced Propulsion Study&quot;, p. 22</a>:</p>
 <blockquote>
-<p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. […] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
+<p>There is no practical technical limit to the launch velocity and length of the barrel in coilguns, but performance is ultimately limited by thermal and mechanical failure of the drive coils, along with the voltage and current limitations of the silicon-controlled rectifiers used for switching. [...] The quenched coils in a superconducting coilgun generate a great deal of heat, and thus a cryogenic refrigerator to remove the heat would have to be scaled so large that such a gun cannot be applied to space transportation.</p>
 </blockquote>
 <p>In this same article, Davis mentions an efficiency of &gt; 90% as a great achievement. A 10-ton vehicle at 9 km/s has a kinetic energy of 400 GJ, which can not be overstated as a tremendous amount of energy. With an efficiency of 90%, energy losses would amount to about 44 GJ, which would be directly converted into heat.</p>
 <p>This heat would be generated partly in the coils and partly in the vehicle. Heat in the coils is much less critical since it would be spread among many tons of material.</p>
@@ -176,8 +178,8 @@
 <p>SpaceX currently has the most powerful <a href="https://en.wikipedia.org/wiki/Comparison_of_orbital_launch_systems">operational rocket</a>, the recently launched <a href="https://en.wikipedia.org/wiki/Falcon_Heavy">Falcon Heavy</a>. Going to Mars requires a large ship, with a lot of fuel if they intend to get back.</p>
 <p>A practical means of sending cargo up to Earth orbit would help lowering costs. Only the (mostly empty) spaceship and the tripulants needs to be sent up in a rocket; everything else including fuel can be sent up using a space launcher.</p>
 <h3 id="nasa">NASA</h3>
-<p>NASA has sent a few very successful robotic probes to Mars. But a manned (or should we say, “peopled”) rocket is a different story: they always seem to be a decade away from sending the first human expedition.</p>
-<p>Funding is one issue: <a href="https://en.wikipedia.org/wiki/Budget_of_NASA">diminishing budgets</a> have affected NASA’s ability to embark in complex missions, and Mars is very far away and quite inhospitable. The lack of suitable vehicles is another important factor.</p>
+<p>NASA has sent a few very successful robotic probes to Mars. But a manned (or should we say, &quot;peopled&quot;) rocket is a different story: they always seem to be a decade away from sending the first human expedition.</p>
+<p>Funding is one issue: <a href="https://en.wikipedia.org/wiki/Budget_of_NASA">diminishing budgets</a> have affected NASA's ability to embark in complex missions, and Mars is very far away and quite inhospitable. The lack of suitable vehicles is another important factor.</p>
 <p>There is currently no vehicle capable of launching a big payload. Since the demise of the Space Shuttle NASA has had no powerful rockets of its own. It is planning to build the <a href="https://en.wikipedia.org/wiki/Space_Launch_System">Space Launch System</a> in the next years, at a very high cost.</p>
 <h3 id="other-systems">Other Systems</h3>
 <p>Blue Origin has plans for space exploration. The company is <a href="https://www.geekwire.com/2016/jeff-bezos-lifts-curtain-blue-origin-rocket-factory-vision-space/">not yet ready</a> to reach Mars. China is also planning missions to Mars, but the outlook is <a href="https://www.chinaspaceflight.com/rocket/Heavy-Lift-Launch-Vehicle/Heavy-Lift-Launch-Vehicle.html">still very uncertain</a>.</p>
@@ -235,7 +237,7 @@
 <p>$$T = \frac{44 GJ}{\frac{430 J}{Kg\cdot K} \cdot 10^3 Kg} \approx 10^5 K.$$</p>
 <p>Such a temperature would instantly vaporize all known materials.</p>
 <p>Even working with an efficiency of 99%, we would still have to dissipate $4\mathrm{GJ}$, enough to heat the armature to $10^4\mathrm{K}$.</p>
-<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle’s mass will not change the temperatures involved. But lowering the exit speed would make a big change: $$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$ $$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$ if all heat is generated in the armature. If it is spread between armature and coils, temperature might be reduced to half that and be within parameters.</p>
+<p>Energy is proportional to mass. Since kinetic energy is also proportional to mass, reducing the vehicle's mass will not change the temperatures involved. But lowering the exit speed would make a big change: $$Et = Cp \cdot m \cdot T \approx (1 - η) \cdot E_k = (1 - η) \cdot m \cdot v^2 \implies T = (1 - η) \cdot v^2 / Cp.$$ $$v = 3 km/s \implies T = 0.1 \cdot 9 \cdot 10^6 / 430 \approx 2000 K,$$ if all heat is generated in the armature. If it is spread between armature and coils, temperature might be reduced to half that and be within parameters.</p>
 <h3 id="water-coolant">Water Coolant</h3>
 <p>Carrying a ton of water as coolant would have interesting consequences. Let us suppose that the water is initially stored as ice at a temperature close to absolute zero, $0\mathrm{K}$. It will be heated to $1000\mathrm{K}$. <a href="https://www.engineeringtoolbox.com/water-thermal-properties-d_162.html">Specificic heat of water</a> varies depending on its state:</p>
 <ul>

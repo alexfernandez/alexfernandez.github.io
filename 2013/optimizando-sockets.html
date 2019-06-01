@@ -85,9 +85,10 @@
 										<h1>Optimizando sockets con node.js</h1>
 										<p><p>
 									</header>
-																				<figure>
-<img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="Crédito: Alex Fernández" /><figcaption>Crédito: Alex Fernández</figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="Crédito: Alex Fernández" />
+<p class="caption">Crédito: Alex Fernández</p>
+</div>
 <p>Este post es una especie de segunda parte de <a href="nodejs-rapido-como-el-rayo.html">Node.js: ¿rápido como el rayo?</a>. En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.</p>
 <h2 id="punto-de-partida">Punto de partida</h2>
 <p>Nuestro punto de partida es muy sencillo: el <a href="http://www.memcached.org/">memcached original</a> nos da más de 70 mil peticiones por segundo (70 krps, por <em>kilo requests per second</em>), mientras que nodecached difícilmente pasa de 30k. ¿Es posible mejorar esta situación? Vamos a intentarlo.</p>
@@ -153,13 +154,14 @@
 105054.62 requests per second</code></pre>
 <p>Por algún motivo los resultados son ahora escandalosamente mejores que los que obtuvimos en <a href="http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/">la última ocasión</a>, lo cual nos debe llevar a una desconfianza sana hacia los resultados que podamos obtener ahora, por buenos o malos que sean. En cualquier caso, los tiempos son ahora mucho mejores: 1/105k ~ 9.5 µs, o sea menos de 10 microsegundos. Y un pelín más para get, unos 12 µs.</p>
 <p>La situación es la de la siguiente gráfica: tenemos un montón de “espacio de mejora” por delante.</p>
-<figure>
-<img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" /><figcaption>Rendimiento inicial</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" />
+<p class="caption">Rendimiento inicial</p>
+</div>
 <p>Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.</p>
-<p>!(pics/optimizando-sockets-cpu-nodejs.png “CPUs con node.js”)</p>
+<p>!(pics/optimizando-sockets-cpu-nodejs.png &quot;CPUs con node.js&quot;)</p>
 <p>Mientras que memcached es mucho más glotón y satura completamente las dos CPUs.</p>
-<p>!(pics/optimizando-sockets-cpu-memcached.png “CPUs con memcached”)</p>
+<p>!(pics/optimizando-sockets-cpu-memcached.png &quot;CPUs con memcached&quot;)</p>
 <h3 id="buffers-y-strings">Buffers y Strings</h3>
 <p>Uno de los consejos que aparecen bastante al optimizar node.js es evitar las conversiones de <a href="http://nodejs.org/api/buffer.html">Buffer</a> a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, ya que pueden llevar mucho tiempo. ¿Cuánto exactamente? Vamos a verlo.</p>
 <p>En nuestro código tenemos la siguiente línea en <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js"><code>lib/server.js</code></a> (en negrita):</p>
@@ -394,22 +396,23 @@ Requests: 100000, mean time: 14.10403694 µs</code></pre>
   [...]
 37243.95 requests per second</code></pre>
 <p>Hemos reducido el tiempo del get a 1s/37k ~ 27 µs, y el set a 35.4 µs. La siguiente figura muestra el desglose de tiempos en la nueva distribución.</p>
-<figure>
-<img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="Rendimiento final" /><figcaption>Rendimiento final</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="Rendimiento final" />
+<p class="caption">Rendimiento final</p>
+</div>
 <p>Las áreas claras del gráfico son las que están directamente bajo nuestro control; se ve claramente que son minoría. Vamos a centrarnos en la petición get, por ejemplo. Del total de 27 µs, 2 µs son para conversión a string y división en líneas; otros 6 µs para el procesamiento interno, y 12 µs para escribir la respuesta. Pero estos tiempos desglosados suman 20 µs; ¿dónde están los 7 µs restantes? Podemos suponer que es el tiempo interno que gasta node.js en recibir una petición y montar las estructuras de datos necesarias para responder a ella.</p>
-<p>Si hacemos las cuentas para el set, vemos que este tiempo “fantasma” son 8 µs: 35-2-12-13. Tiene sentido que sea un poco mayor porque recibimos más datos en el set.</p>
+<p>Si hacemos las cuentas para el set, vemos que este tiempo &quot;fantasma&quot; son 8 µs: 35-2-12-13. Tiene sentido que sea un poco mayor porque recibimos más datos en el set.</p>
 <h3 id="otros-perfiladores">Otros perfiladores</h3>
 <p>Es probable que hayas pensado: ¿por qué usar un perfilador cutre-salchichero hecho a mano, teniendo tantos profilers maravillosos para node.js? Pues piénsatelo dos veces. Nuestro perfilador está altamente optimizado para nuestra situación particular, tiene una penalización fácilmente medible (1 µs por petición) y nos ha dado datos que hemos podido contrastar directamente con nuestro benchmark externo. Ahora pregunto yo: ¿por qué complicarse la vida con un paquete escrito en C, que lee directamente los datos de V8 o lo que sea, que tiene una penalización de tiempo desconocida, cuando nuestro propio perfilador es trivial y sabemos cómo funciona? Francamente, no creo que las oscilaciones de resultados que estamos viendo fueran sustancialmente menores con otros perfiladores.</p>
-<p>En cualquier caso, es buena idea usar un perfilador externo para contrastar nuestros datos. Pero no vamos a hacerlo aquí porque bastante larga es ya esta entrada como para meter más datos redundantes…</p>
+<p>En cualquier caso, es buena idea usar un perfilador externo para contrastar nuestros datos. Pero no vamos a hacerlo aquí porque bastante larga es ya esta entrada como para meter más datos redundantes...</p>
 <h2 id="conclusiones">Conclusiones</h2>
 <p>Es hora de sacar conclusiones de nuestro trabajo de optimización.</p>
 <ul>
 <li>Aparte de algunas mejoras rápidas y poco significativas, <em>no hay balas de plata</em> que nos permitan optimizar el código actual con poco trabajo.</li>
 <li>Dicho esto, con bastante trabajo y arañando de aquí y allá hemos rebajado nuestro presupuesto inicial para una petición get, de los 30 µs del principio del post a 27 µs, a base de optimizar nuestro código. Un 10% de mejora que no está mal.</li>
-<li>Otro resultado del trabajo de optimización es que nos permite saber en qué estamos gastando el tiempo, cuál es nuestro “presupuesto” de tiempo a gastar, y qué partes están bajo nuestro control y cuáles no.</li>
+<li>Otro resultado del trabajo de optimización es que nos permite saber en qué estamos gastando el tiempo, cuál es nuestro &quot;presupuesto&quot; de tiempo a gastar, y qué partes están bajo nuestro control y cuáles no.</li>
 <li><em>La mayor parte del tiempo de proceso está fuera de nuestro alcance</em>: de los 30 µs por operación, unos 20 (13 + 7) están dedicados a montar la petición y escribir la respuesta. Nuestro trabajo de optimización está limitado a las restantes partes; y una aplicación trivial de la <a href="http://es.wikipedia.org/wiki/Ley_de_Amdahl">ley de Amdahl</a> nos dice que nunca podremos llegar a rivalizar con memcached, al menos en rendimiento.</li>
-<li>Finalmente, <em>los resultados de estos benchmarks son bastante ruidosos</em>: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con <code>top</code> o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable…</li>
+<li>Finalmente, <em>los resultados de estos benchmarks son bastante ruidosos</em>: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con <code>top</code> o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable...</li>
 </ul>
 								</div>
 							</section>
