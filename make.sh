@@ -60,6 +60,7 @@ pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migra
 pandoc --template read-only.html -s 2016/cuanto-costo-jsdayes-2016.md -o 2016/cuanto-costo-jsdayes-2016.html
 pandoc --template read-only.html -s 2016/sobre-intrusismo-profesional.md -o 2016/sobre-intrusismo-profesional.html
 pandoc --template read-only.html -s 2017/diversidad-tecnologia.md -o 2017/diversidad-tecnologia.html
+pandoc --template read-only.html -s 2019/curso-unix.md -o 2019/curso-unix.html
 
 git add -A
 git commit -am "Make on $date"
