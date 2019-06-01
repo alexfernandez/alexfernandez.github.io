@@ -1,6 +1,6 @@
 ---
 title: 'Curso de Unix'
-subtitle: 'Originalmente hecho para Floqq'
+subtitle: 'Introducción práctica y gratuita a Unix'
 footer: Published on 2019-06-01, last modified on 2019-06-01.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
