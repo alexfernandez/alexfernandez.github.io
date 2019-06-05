@@ -99,6 +99,9 @@ Si te ha gustado, ¡dale al like y al suscribe! O algo.
 
 Muchas gracias a [Marta Fonda](https://twitter.com/MartaFonda)
 por animarme a hacer el curso,
-y a ella y a [Álvaro Sanmartín](https://twitter.com/AlvaroSanmartin)
-por las risas que nos echamos grabando las intros.
+a ella y al equipo de Floqq
+(Carlos Cifuentes y Alejandro Asensio)
+por las risas que nos echamos grabando las intros,
+y a [Álvaro Sanmartín](https://twitter.com/AlvaroSanmartin)
+por apoyar el proyecto.
 
