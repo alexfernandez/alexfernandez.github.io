@@ -43,6 +43,7 @@ pandoc --template read-only.html -s \
 pandoc --template read-only.html -s 2018/more-golang-adventures.md -o 2018/more-golang-adventures.html
 pandoc --template read-only.html -s 2018/has-anyone-else-seen-your-code.md -o 2018/has-anyone-else-seen-your-code.html
 pandoc --template read-only.html -s 2019/ethics-for-techies.md -o 2019/ethics-for-techies.html
+pandoc --template read-only.html -s 2019/high-speeds.md -o 2019/high-speeds.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 pandoc -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
