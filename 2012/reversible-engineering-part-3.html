@@ -85,9 +85,10 @@
 										<h1>Reversible Engineering, Part 3: Management</h1>
 										<p><p>
 									</header>
-																				<figure>
-<img src="pics/reversible-engineering-part-3.jpg" title="Canalside" alt="Photo credit: Steve Heron." /><figcaption>Photo credit: <a href="https://www.flickr.com/photos/sbh/6774004978/in/photostream">Steve Heron.</a></figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/reversible-engineering-part-3.jpg" title="Canalside" alt="Photo credit: Steve Heron." />
+<p class="caption">Photo credit: <a href="https://www.flickr.com/photos/sbh/6774004978/in/photostream">Steve Heron.</a></p>
+</div>
 <p>In the <a href="reversible-engineering-part-1.html">first part</a> of this series we looked into reversible processes as a way of minimizing engineering complexity; and explored how to approach software development near reversibility. In the <a href="reversible-engineering-part-2.html">second part</a> we then applied this principle to DevOps, and derived explanations for a lot of modern practices.</p>
 <p>In this last installment we will try to tame that fearful beast in the minds of most engineers: management, or how to organize the work of other people. Let us now take a look at how management can benefit from reversibility.</p>
 <h2 id="that-pesky-complexity-again">That Pesky Complexity Again</h2>
@@ -120,7 +121,7 @@
 <p>Synchronization is a particular thorny issue. When there are several copies of each piece of data it becomes harder to update any one of them, as there is a high probability that we will forget one of them; there is an added effort to resynchronize any duplicate piece of information. The effort required to backtrack any such change also grows: the system must know that two or more changes always go together, and if any one is reverted the rest must also be undone.</p>
 <p>For many years the technical answer has been to avoid duplicate data; normalized databases are the canonical example, where every piece of data is stored once and only once, and they lie at the core of most management systems. Unfortunately this approach carries with it many disadvantages:</p>
 <ul>
-<li>Redundant data is not always duplicate: e.g. the number of user accesses can be found adding together accesses to every page, but sometimes total and partial access counts must be kept separately. The usual trick is to do both changes atomically, as a single step that can be completed or aborted; but no thought is usually given to reverting the change as a whole.</li>
+<li>Redundant data is not always duplicate: e.g. the number of user accesses can be found adding together accesses to every page, but sometimes total and partial access counts must be kept separately. The usual trick is to do both changes atomically, as a single step that can be completed or aborted; but no thought is usually given to reverting the change as a whole.</li>
 <li>Performance is penalized when accessing normalized data: sometimes many unrelated tables have to be queried to return a single item. Denormalization allows a database to keep related data together for easy access.</li>
 <li>Following pure normalization rules blindly can lead to databases with many thousands of tables which are hard to follow.</li>
 <li>Reality is stubborn: the double-entry accounting system was invented to avoid making mistakes.</li>

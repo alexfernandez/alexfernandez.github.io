@@ -43,6 +43,7 @@ pandoc --template read-only.html -s \
 pandoc --template read-only.html -s 2018/more-golang-adventures.md -o 2018/more-golang-adventures.html
 pandoc --template read-only.html -s 2018/has-anyone-else-seen-your-code.md -o 2018/has-anyone-else-seen-your-code.html
 pandoc --template read-only.html -s 2019/ethics-for-techies.md -o 2019/ethics-for-techies.html
+pandoc --template read-only.html -s 2019/high-speeds.md -o 2019/high-speeds.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 pandoc -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
@@ -60,6 +61,7 @@ pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migra
 pandoc --template read-only.html -s 2016/cuanto-costo-jsdayes-2016.md -o 2016/cuanto-costo-jsdayes-2016.html
 pandoc --template read-only.html -s 2016/sobre-intrusismo-profesional.md -o 2016/sobre-intrusismo-profesional.html
 pandoc --template read-only.html -s 2017/diversidad-tecnologia.md -o 2017/diversidad-tecnologia.html
+pandoc --template read-only.html -s 2019/curso-unix.md -o 2019/curso-unix.html
 
 git add -A
 git commit -am "Make on $date"

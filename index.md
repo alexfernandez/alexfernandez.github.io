@@ -91,6 +91,7 @@ I am not interested in a job change right now.
 
 ## Artículos en español
 
+* 2019-06-01: [Curso de Unix](2019/curso-unix.html)
 * 2017-06-15: [Polémica sobre la diversidad en tecnología](2017/diversidad-tecnologia.html)
 * 2016-08-12: [Sobre el intrusismo profesional en informática](2016/sobre-intrusismo-profesional.html)
 * 2016-06-07: [¿Cuánto costó el JSDayES 2016?](2016/cuanto-costo-jsdayes-2016.html)
