@@ -179,9 +179,13 @@ the bomb that destroyed Hiroshima,
 would cause 35 times more destruction from the kinetic energy of the impact (2.2e15 J)
 than when it was detonated (15 kilotons or 6.3e13 J).
 
-We are not close to sending anything at this speed anywhere.
+We are not close to sending anything in space at this speed anywhere.
 The [Parker Solar Probe](https://en.wikipedia.org/wiki/Parker_Solar_Probe)
-is expected to reach 190 km/s in 2025.
+is expected to reach 190 km/s in 2025,
+which falls quite short.
+We would need nuclear propulsion such as that proposed for
+[Project Orion](https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)),
+which was an interesting concept but has been pretty much abandoned.
 
 #### 10,000 km/s
 
