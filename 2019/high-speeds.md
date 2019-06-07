@@ -95,10 +95,10 @@ the [1935 .220 Swift](https://en.wikipedia.org/wiki/.220_Swift) at 1200 m/s.
 
 I'm sad to report that the SR-71 "Blackbird" spy plane,
 while being wonderful in many other respects,
-did not reach this speed;
+did not officially reach this speed;
 instead it flew at [3,529 km/h](https://records.fai.org/record/8865),
 or a paltry 980 m/s.
-As a consolation there are [unofficial records](https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird#Records),
+As a consolation there are [unofficial records](https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird#Records)
 that go beyond that.
 
 Anyway there are plenty of rocket-powered planes that have flown quite faster.
