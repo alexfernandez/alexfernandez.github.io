@@ -9,13 +9,13 @@ footer: Published on 2019-06-05, last modified on 2019-06-05.
 
 Really high speeds are out of our ordinary experience,
 and can be quite hard to apprehend.
-Is a rocket to the moon closer to a person walking or to the unmovable wall of the speed of light?
-In this article we will see a graded approach to appreciate how fast they really are,
-and at which point in our history they were (or will be) achieved.
+Is the speed of a rocket to the moon closer to a person walking or to the unmovable wall of the speed of light?
+In this article we will see a graded approach to appreciate how fast things and people can move,
+and at which point in our history each speed interval was (or will be) achieved.
 
 ## By Intervals
 
-A grading scale will make it easier to categorize high speeds.
+A grading scale should make it easier to understand high speeds.
 
 ### 1 m/s
 
@@ -203,7 +203,7 @@ so the mission is purely speculative by now.
 
 We are now nearing the speed of light.
 Even this fast it might not be possible to
-[escape from a neutron star](https://en.wikipedia.org/wiki/Neutron_star#Formation)
+[escape from a neutron star](https://en.wikipedia.org/wiki/Neutron_star#Formation).
 
 The only projectiles ever launched by humans at this speed
 are probably atomic particles in a particle accelerator.
