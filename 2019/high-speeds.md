@@ -133,17 +133,21 @@ which is only 60 km/s.
 Particles at dust accelerators can [exceed this speed](https://www.hou.usra.edu/meetings/lpsc2016/pdf/1653.pdf).
 But the first human-made object to reach it was not one of them.
 It wasn't even a rocket or a deep space probe; it was probably a
-[humble manhole cover](https://professionalparanoid.wordpress.com/the-fastest-man-made-object-ever-a-nuclear-powered-manhole-cover-true/),
-which [predated Sputnik](http://nuclearweaponarchive.org/Usa/Tests/Plumbob.html) by a few months.
+[humble manhole cover](https://professionalparanoid.wordpress.com/the-fastest-man-made-object-ever-a-nuclear-powered-manhole-cover-true/).
+It was launched by a [nuclear explosion](https://en.wikipedia.org/wiki/Operation_Plumbbob#Propulsion_of_steel_plate_cap).
+that [predated the Sputnik mission](http://nuclearweaponarchive.org/Usa/Tests/Plumbob.html) by a few months;
+so it may have been the first human-made object in space (or it may have dissintegrated in the atmosphere).
 Original sources estimate its [speed at 66 km/s](http://nuclearweaponarchive.org/Usa/Tests/Brownlee.html),
 while others put it [well above 100 km/s](https://www.businessinsider.com/fastest-object-robert-brownlee-2016-2?IR=T#brownlee-replicated-the-first-experiment-but-the-column-inpascal-bwas-deeper-at500-feet-deep-they-also-recorded-the-experiment-with-a-camera-that-shot1-frame-per-millisecondon-august-27-1957-the-manhole-cover-cap-flew-off-the-column-with-the-force-of-the-nuclear-explosionthe-iron-cover-was-only-partially-visible-in-one-frame-brownlee-said-10).
 
-This speed is probably outside the realm of rocket-powered human travel:
+This kind of speed is probably outside the realm of rocket-powered human travel:
 some kind of gravity assist will probably be required if we are ever to achieve it.
-And this kind of speed would be required
-[for human exploration of the outer planets](https://www.centauri-dreams.org/2010/06/03/manned-missions-to-the-outer-system/).
+And going this fast is a requisite
+[for human exploration of the outer planets](https://www.centauri-dreams.org/2010/06/03/manned-missions-to-the-outer-system/)
+without getting burned by radiation in deep space.
 But we are not even at Mars yet,
-so sadly this next step is likely going to take a bit longer.
+so sadly this next step is likely going to take a bit longer,
+at least until 2075.
 
 #### 1000 km/s
 
@@ -162,6 +166,10 @@ the bomb that destroyed Hiroshima,
 would cause 35 times more destruction from kinetic energy (2.2e15 J)
 than when it was detonated (15 kilotons or 6.3e13 J).
 
+We are not close to sending anything at this speed anywhere.
+The [Parker Solar Probe](https://en.wikipedia.org/wiki/Parker_Solar_Probe)
+is expected to reach 190 km/s in 2025.
+
 #### 10,000 km/s
 
 Is there no end to this madness?
@@ -177,6 +185,9 @@ to launch micro-spacecrafts at 15% of the speed of light (0.15 _c_, or 45,000 km
 each would weight a few grams and be accelerated using lasers,
 reaching their target planet [Proxima Centauri b](https://en.wikipedia.org/wiki/Proxima_Centauri_b)
 in [around 30 years](https://www.wolframalpha.com/input/?i=time+to+travel+4.2+light+years+at+45000+km%2Fs+in+years).
+Many technologies need to be improved by orders of magnitude
+so the mission is purely speculative by now.
+
 
 #### 100,000 km/s
 
