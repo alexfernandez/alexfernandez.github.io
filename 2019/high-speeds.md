@@ -57,7 +57,7 @@ put this crazy pace within the reach of anyone.
 ### 100 m/s
 
 At 360 km/h and 223 mph,
-we have reached at a very interesting point in our scale.
+we have reached a very interesting point in our scale.
 [No known animals](https://en.wikipedia.org/wiki/Fastest_animals) are able to reach this speed
 except perhaps for the peregrine falcon,
 which [has been clocked at 389 km/h](https://www.airspacemag.com/flight-today/falling-with-the-falcon-7491768/):
