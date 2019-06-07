@@ -213,7 +213,8 @@ Even this fast it might not be possible to
 [escape from a neutron star](https://en.wikipedia.org/wiki/Neutron_star#Formation).
 
 The only projectiles ever launched by humans at this speed
-are probably atomic particles in a particle accelerator.
+are probably atomic particles in [particle accelerators](https://en.wikipedia.org/wiki/Cyclotron),
+which get very close to the speed of light.
 
 As to transporting humans at this speed,
 the tremendous energies involved make it quite impractical.
