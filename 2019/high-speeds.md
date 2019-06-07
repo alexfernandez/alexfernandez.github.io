@@ -50,7 +50,9 @@ Bolt can run 100 m in less than 10 seconds,
 with [peak speeds of 12.42 m/s](https://www.topendsports.com/resources/records/speed.htm).
 But our ancestors have been [great runners for a long time](https://archive.unews.utah.edu/news_releases/how-running-made-us-human/),
 and surely they could run downhill attaining high speeds.
-So we have been moving at this speed for maybe a few million years.
+So our most athletic peers have been moving at this speed for maybe a few million years.
+The advent of [horse riding](https://sportsaspire.com/history-of-horseback-riding)
+put this crazy pace within the reach of anyone.
 
 ### 100 m/s
 
