@@ -173,8 +173,9 @@ and some moving faster.
 
 We are definitely out of reach of human projectiles at least for now,
 which we should be thankful for.
-At this tremendous speed [Little Boy](https://en.wikipedia.org/wiki/Little_Boy),
+At this tremendous speed
 the bomb that destroyed Hiroshima,
+[Little Boy](https://en.wikipedia.org/wiki/Little_Boy),
 would cause 35 times more destruction from kinetic energy (2.2e15 J)
 than when it was detonated (15 kilotons or 6.3e13 J).
 
