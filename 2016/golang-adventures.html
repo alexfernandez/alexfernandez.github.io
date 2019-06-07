@@ -85,17 +85,18 @@
 										<h1>Adventures in the Land of Go</h1>
 										<p>That Ungoogleable Language from Google<p>
 									</header>
-																				<figure>
-<img src="pics/gopher.jpg" title="Camas pocket gopher" alt="Picture credit: Ian Silvernail, Institute for Applied Ecology" /><figcaption>Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Camas_pocket_gopher_(2)_crop.jpg">Ian Silvernail, Institute for Applied Ecology</a></figcaption>
-</figure>
-<p>This week I had the opportunity to play with Go (or “Golang” as has come to be known) for a work-related project. It is not the first occasion that we meet, but now I am serious about it. And after the first few days I have to vent my frustrations with the language.</p>
-<p>I don’t want to sound bitter needlessly, although to be honest I don’t care much as long as it’s for comedic effect. So sit down and relax while I pound on the web’s new favorite language.</p>
+																				<div class="figure">
+<img src="pics/gopher.jpg" title="Camas pocket gopher" alt="Picture credit: Ian Silvernail, Institute for Applied Ecology" />
+<p class="caption">Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Camas_pocket_gopher_(2)_crop.jpg">Ian Silvernail, Institute for Applied Ecology</a></p>
+</div>
+<p>This week I had the opportunity to play with Go (or &quot;Golang&quot; as has come to be known) for a work-related project. It is not the first occasion that we meet, but now I am serious about it. And after the first few days I have to vent my frustrations with the language.</p>
+<p>I don't want to sound bitter needlessly, although to be honest I don't care much as long as it's for comedic effect. So sit down and relax while I pound on the web's new favorite language.</p>
 <h2 id="the-language">The Language</h2>
-<p>Oh what fun it is to criticise a computing language. Let’s start there.</p>
+<p>Oh what fun it is to criticise a computing language. Let's start there.</p>
 <h3 id="adding-elements-to-an-array">Adding Elements to an Array</h3>
 <p>Say you have an array and you want to add an element. You start with this innocent Google search: <a href="https://www.google.es/search?q=golang+array+append">golang array append</a>.</p>
 <p>The first link, as it happens, is a <a href="https://blog.golang.org/slices">long, long wormhole</a> that carefully explains how arrays and slices are different, that what you thought until now were arrays were instead slices, and that arrays contain a fixed number of elements. Armed with that knowledge, you will promptly ignore all of that crap and just use slices throughout lest your head explode in denial.</p>
-<p>So, why bother with arrays at all, you say? Probably it’s a clever low-level mechanism that is even more cleverly hidden by slices. It remains to be seen if with a little bit more cleverness they could have been hidden from sight completely.</p>
+<p>So, why bother with arrays at all, you say? Probably it's a clever low-level mechanism that is even more cleverly hidden by slices. It remains to be seen if with a little bit more cleverness they could have been hidden from sight completely.</p>
 <p>Just one lesson remains through all that noise: arrays in Go are <em>not</em> resizeable, so you will have to write:</p>
 <pre><code>array = append(array, newElement)</code></pre>
 <p>to your eternal annoyance.</p>
@@ -140,20 +141,20 @@ err := callSecond()</code></pre>
 err = callSecond()</code></pre>
 <p>Ending one of the joys of programming, the ease of copy-paste. Or you can define the variable ahead of time with this clumsy wart:</p>
 <pre><code>var err error</code></pre>
-<p>Observe that the error message says “no new variables”: it is OK to reuse <code>err</code> as long as there is a new variable there.</p>
+<p>Observe that the error message says &quot;no new variables&quot;: it is OK to reuse <code>err</code> as long as there is a new variable there.</p>
 <pre><code>first, err := callFirst()
 second, err := callSecond()</code></pre>
 <p>This works! So one new variable and one old variable is fine; but only old variables is not. Even ignoring the return value is <em>not</em> OK:</p>
 <pre><code>_, err := callFirst()
 _, err := callSecond()</code></pre>
-<p>This fails, don’t ask me why; just the compiler being helpful I guess. The end result is that you spend time changing <code>=</code> to <code>:=</code> and viceversa, for no good reason.</p>
-<p>Every time I have to waste time doing absurd changes I think: “I’m too old for this crap”.</p>
+<p>This fails, don't ask me why; just the compiler being helpful I guess. The end result is that you spend time changing <code>=</code> to <code>:=</code> and viceversa, for no good reason.</p>
+<p>Every time I have to waste time doing absurd changes I think: &quot;I'm too old for this crap&quot;.</p>
 <h3 id="implicit-conversions">Implicit Conversions</h3>
 <p>Did you know that in Go you cannot simply divide <code>6 / 4</code> and expect the answer to be <code>1.5</code>? It does not <a href="https://groups.google.com/forum/#!topic/golang-nuts/LXL4L0jzWXU">perform implicit conversions</a> as you might expect from a language designed this century. So you first have to do an explicit conversion, leading to such fun errors as:</p>
 <blockquote>
 <p>cannot use n / d (type int) as type float32 in return argument</p>
 </blockquote>
-<p>But as it happens, Go isn’t even able to compare an integer with a float:</p>
+<p>But as it happens, Go isn't even able to compare an integer with a float:</p>
 <pre><code>    var myFloat = float64(5)
     var myInt = 5
     if myFloat &gt; myInt {
@@ -162,7 +163,7 @@ _, err := callSecond()</code></pre>
 ...
 
 invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code></pre>
-<p>This is clearly going too far with one’s beliefs against automatic conversions. This is why you will occasionally see unholy messes like this:</p>
+<p>This is clearly going too far with one's beliefs against automatic conversions. This is why you will occasionally see unholy messes like this:</p>
 <pre><code>    var myFloat = float64(5)
     var myInt = 5
     if myFloat &gt; float64(myInt) {
@@ -173,12 +174,12 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
         return true
     }   </code></pre>
 <h3 id="mandatory-brace-style">Mandatory Brace Style</h3>
-<p>Some people like the correct style for braces: nice and symmetrical. I’m talking of course of the “brace on the next line” school of thought:</p>
+<p>Some people like the correct style for braces: nice and symmetrical. I'm talking of course of the &quot;brace on the next line&quot; school of thought:</p>
 <pre><code>if something
 {
     something else
 }</code></pre>
-<p>Other people like the more compact notation with “brace on the same line”:</p>
+<p>Other people like the more compact notation with &quot;brace on the same line&quot;:</p>
 <pre><code>if something {
     something else
 }</code></pre>
@@ -194,13 +195,13 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 </blockquote>
 <p>That is not cool, people. You may shut up Googlers from having the sempiternal brace debate, but you cannot <a href="https://groups.google.com/forum/#!topic/golang-nuts/rzLzp_Z74ik%5B1-25%5D">shut</a> <a href="https://www.reddit.com/r/golang/comments/2jpzpd/brace_yourself_a_small_script_for_converting/">us</a> <a href="http://zerospace.org/goallman.php">people</a> <a href="http://comments.gmane.org/gmane.comp.lang.go.general/19965">up</a>!</p>
 <h3 id="just-making-shit-up">Just Making Shit Up</h3>
-<p>Sometimes you get the impression that, as the creators of Go went along, they realized they had forgotten some very basic capability and added it as a <a href="https://golang.org/pkg/builtin/">“built-in function”</a>. There are 15 of these abominations.</p>
+<p>Sometimes you get the impression that, as the creators of Go went along, they realized they had forgotten some very basic capability and added it as a <a href="https://golang.org/pkg/builtin/">&quot;built-in function&quot;</a>. There are 15 of these abominations.</p>
 <p>A good example is <a href="https://blog.golang.org/go-maps-in-action">maps</a>. So you declare an array of campaigns:</p>
 <pre><code>var campaigns map[string]Campaign</code></pre>
 <p>But then have to populate it, how? Easy, with a built-in function:</p>
 <pre><code>campaigns = make(map[string]Campaign)</code></pre>
 <p>There you have to specify the kind of map you want to make, again. Why? You already know the type, Obnoxious Gopher!</p>
-<p>The fun doesn’t end with <code>make()</code> though. Just look at what they have to say about <code>println()</code>:</p>
+<p>The fun doesn't end with <code>make()</code> though. Just look at what they have to say about <code>println()</code>:</p>
 <blockquote>
 <p>Println is useful for bootstrapping and debugging; it is not guaranteed to stay in the language.</p>
 </blockquote>
@@ -208,21 +209,22 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <p>Granted, there are also built-in functions in JavaScript, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">about 12</a>. Of these, <code>escape()</code> and <code>unescape()</code> are holdouts from a different era; <code>eval()</code> is widely discredited, and so on.</p>
 <p>In the end <code>parseInt()</code>, <code>parseFloat()</code> and the URI things are the only functions in use, and they are quite low-level really.</p>
 <h2 id="the-redis-driver">The Redis Driver</h2>
-<p>So you want to do some easy task, say: access a local Redis database. Let’s find a simple driver. Redis is one of the <a href="http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50">most popular NoSQL databases</a>, and Golang has <a href="http://www.modulecounts.com/">more than 100k packages</a>, rivalling Maven or rubygems.</p>
-<figure>
-<img src="pics/modulecounts.png" title="Module Counts for many popular package repositories" alt="Module Counts" /><figcaption><a href="http://www.modulecounts.com/">Module Counts</a></figcaption>
-</figure>
-<p>So it shouldn’t be hard to find a nice and robust package to access Redis from Go, right?</p>
+<p>So you want to do some easy task, say: access a local Redis database. Let's find a simple driver. Redis is one of the <a href="http://stackshare.io/posts/top-50-developer-tools-and-services-of-2015#top-50">most popular NoSQL databases</a>, and Golang has <a href="http://www.modulecounts.com/">more than 100k packages</a>, rivalling Maven or rubygems.</p>
+<div class="figure">
+<img src="pics/modulecounts.png" title="Module Counts for many popular package repositories" alt="Module Counts" />
+<p class="caption"><a href="http://www.modulecounts.com/">Module Counts</a></p>
+</div>
+<p>So it shouldn't be hard to find a nice and robust package to access Redis from Go, right?</p>
 <p>Right???</p>
 <h3 id="redigo">Redigo</h3>
 <p>This is one of <a href="http://redis.io/clients#go">the recommended clients for Redis</a>. In <a href="https://godoc.org/github.com/garyburd/redigo/redis">the documentation</a> it claims:</p>
 <blockquote>
 <p>The Conn interface is the primary interface for working with Redis. Applications create connections by calling the Dial, DialWithTimeout or NewConn functions. In the future, functions will be added for creating sharded and other types of connections.</p>
 </blockquote>
-<p>To what I say: WAT. No introduction, no “hello world”, no nothing, just this? You can do better, Redigo.</p>
+<p>To what I say: WAT. No introduction, no &quot;hello world&quot;, no nothing, just this? You can do better, Redigo.</p>
 <p>Also, it does not present a nice API. You end up writing something that looks like this gem, from the docs:</p>
 <pre><code>n, err := conn.Do(&quot;APPEND&quot;, &quot;key&quot;, &quot;value&quot;)</code></pre>
-<p>I won’t be using it soon.</p>
+<p>I won't be using it soon.</p>
 <h3 id="go-redis">Go-redis</h3>
 <p>Apparently <a href="https://github.com/go-redis/redis">this package</a> is complete and well documented. Nice, huh? So you want to install onto your Debian testing machine, and this happens:</p>
 <pre><code>$ go get gopkg.in/redis.v3
@@ -236,16 +238,16 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <p>So at this point backwards compatibility is not one of the selling points for Go.</p>
 <p>In the end I had to use Go 1.6 to get acceptable performance, so this issue was solved. But I was already using a different package and stuck with it.</p>
 <h3 id="radix">Radix</h3>
-<p>Then I was lucky enough to find <a href="https://github.com/mediocregopher/radix.v2">Radix</a>. It is also a “minimalistic” (i.e. dumb) package that doesn’t even attempt to construct the Redis command for you, so you end up writing things like this gem from the <a href="https://godoc.org/github.com/mediocregopher/radix.v2/redis">docs</a>:</p>
+<p>Then I was lucky enough to find <a href="https://github.com/mediocregopher/radix.v2">Radix</a>. It is also a &quot;minimalistic&quot; (i.e. dumb) package that doesn't even attempt to construct the Redis command for you, so you end up writing things like this gem from the <a href="https://godoc.org/github.com/mediocregopher/radix.v2/redis">docs</a>:</p>
 <pre><code>err = client.Cmd(&quot;SET&quot;, &quot;foo&quot;, &quot;bar&quot;, &quot;EX&quot;, 3600).Err</code></pre>
-<p>Apparently Salvatore Sanfilippo likes this kind of hardcore stuff, since Radix is also a <a href="http://redis.io/clients#go">recommended client</a>. I don’t like this stuff, so moving on.</p>
+<p>Apparently Salvatore Sanfilippo likes this kind of hardcore stuff, since Radix is also a <a href="http://redis.io/clients#go">recommended client</a>. I don't like this stuff, so moving on.</p>
 <h3 id="godis">Godis</h3>
-<p>This driver works reasonably well, but it hasn’t been updated since 2012. An ominous note on <a href="https://github.com/simonz05/godis">the front page</a> states:</p>
+<p>This driver works reasonably well, but it hasn't been updated since 2012. An ominous note on <a href="https://github.com/simonz05/godis">the front page</a> states:</p>
 <blockquote>
-<p>13 Aug 2012 Currently very busy with work, and I don’t have the time to fix some of the pending issues at hand.</p>
+<p>13 Aug 2012 Currently very busy with work, and I don't have the time to fix some of the pending issues at hand.</p>
 </blockquote>
 <p>And nothing else; frankly it looks like the recovered diary from a long lost expedition.</p>
-<p>So now let’s read a hash of organizations from Redis:</p>
+<p>So now let's read a hash of organizations from Redis:</p>
 <pre><code>elem, err := driver.Hgetall(key)
 if err != nil {
     return err
@@ -272,16 +274,16 @@ for index, subelem := range elem.Elems {
 log.Printf(&quot;Read %v campaigns&quot;, len(campaigns))
 return nil</code></pre>
 <p>This is like a kaleidoscope of weird issues. Godis returns everything in <code>Hgetall()</code>: keys and values mixed in an array, just as the raw output of Redis. So you have to skip every other element to get at the values.</p>
-<p>Since Go doesn’t have generics, you will have to repeat this crappy code every time you want to read a different hash.</p>
-<p>I don’t really know why I’m sticking to this package, to be honest, but it works and it’s fast, so please leave me alone. I’ll cry when I need to change to something else.</p>
+<p>Since Go doesn't have generics, you will have to repeat this crappy code every time you want to read a different hash.</p>
+<p>I don't really know why I'm sticking to this package, to be honest, but it works and it's fast, so please leave me alone. I'll cry when I need to change to something else.</p>
 <h2 id="tooling">Tooling</h2>
 <p>This area is of course ladden with misery and despair, with a few bright spots.</p>
 <h3 id="anal-retentive-compiler.">Anal Retentive Compiler.</h3>
 <p>The behavior of the compiler with unused variables and imports is unmeasurably annoying: not a warning but an error that prevents code to be run. This means that, when you are experimenting with some new feature, you have to craft utterly perfect code before running it just for the compiler to be happy.</p>
-<p>This is nothing that has not been <a href="http://www.evanmiller.org/four-days-of-go.html">said better before</a>, so I’ll leave it here. Just one nitpick: why forbid unused imports and variables, but allow unused functions? Aren’t unused functions equally (or even more) dangerous? This question has been bothering me for some time, so if you have an answer please let me know.</p>
+<p>This is nothing that has not been <a href="http://www.evanmiller.org/four-days-of-go.html">said better before</a>, so I'll leave it here. Just one nitpick: why forbid unused imports and variables, but allow unused functions? Aren't unused functions equally (or even more) dangerous? This question has been bothering me for some time, so if you have an answer please let me know.</p>
 <h3 id="testing">Testing</h3>
 <p>There is a very nice feature of the toolchain: <a href="https://golang.org/pkg/testing/">integrated testing</a>. You can write a few tests as functions that start with <code>Test...</code> and run them all using <code>go test</code>. Nice!</p>
-<p>Of course, it doesn’t come without its share of weirdness. For starters, you may not mix testing code and regular code. I know this filthy habit of mine is frowned upon in many circles, but it is often quite handy: change your code, then scroll down and change the tests. At least I would like to have the option.</p>
+<p>Of course, it doesn't come without its share of weirdness. For starters, you may not mix testing code and regular code. I know this filthy habit of mine is frowned upon in many circles, but it is often quite handy: change your code, then scroll down and change the tests. At least I would like to have the option.</p>
 <p>Then, files that contains tests <em>need</em> to be called <code>..._test.go</code>. This seems like a sensible addition, until you try to autocomplete from the console to access your regular file <code>campaigns.go</code> instead of your testing file <code>campaigns_test.go</code>:</p>
 <pre><code>$ campaigns[tab]
 campaigns.go campaigns_test.go</code></pre>
@@ -289,9 +291,9 @@ campaigns.go campaigns_test.go</code></pre>
 <h2 id="the-help">The Help</h2>
 <p>You are programming in Go, so you are probably going to need some help. How do you go about it?</p>
 <h3 id="the-name">The Name</h3>
-<p>First, let me get this off my chest: why on Earth would someone create a language with a name that cannot be searched? Especially someone working for Google, which (in case you have not noticed) runs the world’s biggest <em>search engine</em>!</p>
-<p>People, if you ever create a language, use a distinctive word that can be googled. “Golang” would have been fine; “Go” is <a href="http://www.wordfrequency.info/free.asp?s=y">the 35th most common word in English</a>. Not cool.</p>
-<p>Usually it is fine to search for “golang…”, but once in a while you forget and are greeted by innumerable pages helping you play Go (the Eastern board game), or some other weird stuff (did you know there’s a game called “Go Repo”, now I do).</p>
+<p>First, let me get this off my chest: why on Earth would someone create a language with a name that cannot be searched? Especially someone working for Google, which (in case you have not noticed) runs the world's biggest <em>search engine</em>!</p>
+<p>People, if you ever create a language, use a distinctive word that can be googled. &quot;Golang&quot; would have been fine; &quot;Go&quot; is <a href="http://www.wordfrequency.info/free.asp?s=y">the 35th most common word in English</a>. Not cool.</p>
+<p>Usually it is fine to search for &quot;golang...&quot;, but once in a while you forget and are greeted by innumerable pages helping you play Go (the Eastern board game), or some other weird stuff (did you know there's a game called &quot;Go Repo&quot;, now I do).</p>
 <h3 id="documentation">Documentation</h3>
 <p>With JavaScript finding help is very easy: the semi-official docs are in the <a href="https://developer.mozilla.org/">MDN</a>, and help is usually found on the well known <a href="http://stackoverflow.com/">Stack Overflow</a>.</p>
 <p>Now Go had it <em>much</em> easier: there is an official creator, sponsor and source for everything Go. Why then is everything spread in a lot of places?</p>
@@ -300,9 +302,9 @@ campaigns.go campaigns_test.go</code></pre>
 <li><p>The official documentation is too terse and lacks examples. For those, you have to go to <a href="https://blog.golang.org/">The Go Blog</a>, or just start browsing random blogs which are usually the best option.</p></li>
 </ul>
 <h2 id="assorted-issues">Assorted Issues</h2>
-<p>I have a few more random complaints that I’m too lazy to fit neatly into categories.</p>
+<p>I have a few more random complaints that I'm too lazy to fit neatly into categories.</p>
 <h3 id="open-source">Open Source</h3>
-<p>The good thing about Go is that it is open source. Everyone can look at the source code, even send a pull request…</p>
+<p>The good thing about Go is that it is open source. Everyone can look at the source code, even send a pull request...</p>
 <p>What is that in the <a href="https://github.com/golang/go">README.md</a>, you say?</p>
 <blockquote>
 <p>Note that we do not accept pull requests and that we use the issue tracker for bug reports and proposals only. Please ask questions on https://forum.golangbridge.org or https://groups.google.com/forum/#!forum/golang-nuts.</p>
@@ -310,9 +312,9 @@ campaigns.go campaigns_test.go</code></pre>
 <p>Oopsie.</p>
 <p>Yes, there is a <a href="https://golang.org/doc/contribute.html">most convoluted process</a> to contribute your code. Say you find a simple bug in the code, easy to fix but which is hindering your work. You have to register in five different places and then fax them your birth certificate or something, so that they can ensure that you are really who you say you are (and also that you are more devoted to your task than the Pope of Rome to go through all the hoops).</p>
 <h3 id="installing-from-source">Installing from Source</h3>
-<p>So the version of Go in your distribution is a bit out of date (meaning that nothing works any more, or is unavoidably slow). Just grab the sources and <a href="https://golang.org/doc/install/source">compile your own</a>, then. You just need to have a modern version of Go installed, and… Wait, what?</p>
+<p>So the version of Go in your distribution is a bit out of date (meaning that nothing works any more, or is unavoidably slow). Just grab the sources and <a href="https://golang.org/doc/install/source">compile your own</a>, then. You just need to have a modern version of Go installed, and... Wait, what?</p>
 <p>Sorry, the Go toolchain is written in Go, and therefore requires Go to be compiled. So you need to download the Go binaries, and <em>only then</em> can you compile from source.</p>
-<p>Remember when I said that Debian packs Go 1.3 (and Ubuntu LTS Go 1.2)? The latest version of Go is 1.6 and was released a couple of days ago, so it’s still quite shiny. But it requires Go 1.4 to compile, so there is one extra step of downloading an intermediate version, building, installing <em>and then</em> going for 1.6. Isn’t life great?</p>
+<p>Remember when I said that Debian packs Go 1.3 (and Ubuntu LTS Go 1.2)? The latest version of Go is 1.6 and was released a couple of days ago, so it's still quite shiny. But it requires Go 1.4 to compile, so there is one extra step of downloading an intermediate version, building, installing <em>and then</em> going for 1.6. Isn't life great?</p>
 <p>In the end I just installed the binary version and moved on with my (now a bit more miserable) life.</p>
 <h3 id="performance">Performance</h3>
 <p>We can put up with all little annoyances, since after all you get such great performance. Except when you use Go 1.3 where HTTP requests to the server are slow and not concurrent (for some reason). Or when you upgrade to Go 1.6 and get a 10x speed improvement, but then your program explodes in flames after spouting this most modest of messages:</p>
@@ -322,7 +324,7 @@ campaigns.go campaigns_test.go</code></pre>
     sync.RWMutex
     m map[string]int
 }{m: make(map[string]int)}</code></pre>
-<p>Well, that’s the price you pay for concurrency. And thankfully it performs just as well, which makes you think: why didn’t the high priests of the language implement it by default? The FAQ <a href="https://golang.org/doc/faq#atomic_maps">helpfully explains</a> (and allow me to glose):</p>
+<p>Well, that's the price you pay for concurrency. And thankfully it performs just as well, which makes you think: why didn't the high priests of the language implement it by default? The FAQ <a href="https://golang.org/doc/faq#atomic_maps">helpfully explains</a> (and allow me to glose):</p>
 <blockquote>
 <p>Therefore requiring that all map operations grab a mutex would slow down most programs and add safety to few.</p>
 </blockquote>
@@ -330,18 +332,18 @@ campaigns.go campaigns_test.go</code></pre>
 <blockquote>
 <p>This was not an easy decision, however, since it means uncontrolled map access can crash the program.</p>
 </blockquote>
-<p>It’s nice to know that you have lost sleep over this matter, but hey, my programs are still crashing…</p>
+<p>It's nice to know that you have lost sleep over this matter, but hey, my programs are still crashing...</p>
 <h2 id="a-might-have-been">A Might Have Been</h2>
 <p>All these annoyances are not only a pain in the ass, but make Go a huge missed opportunity.</p>
 <p>Full disclosure: I am, or have been at some point, proficient in a few languages: Basic, Pascal, C (but not C++), Java, PHP, Perl, Python, JavaScript. I have tried to learn quite a few more, like Erlang or Lua, but have not written any significant amount of code with those.</p>
 <h3 id="what-could-have-been">What Could Have Been</h3>
-<p>Let’s ask ourselves, what drove Google to create a new language? The need for a successor for C, and to an extent for C++; perhaps even for Java, which runs on a virtual machine and is notoriously memory hungry. It was not probably meant as a replacement for Python or Ruby, even if it is annoyingly sold as both.</p>
+<p>Let's ask ourselves, what drove Google to create a new language? The need for a successor for C, and to an extent for C++; perhaps even for Java, which runs on a virtual machine and is notoriously memory hungry. It was not probably meant as a replacement for Python or Ruby, even if it is annoyingly sold as both.</p>
 <p>It is a pity because I liked the idea very much: a compiled language that is very performant and which solves concurrency with elegance. A noble successor to C indeed. But if there is something that C is not, is opinionated: it adapts to your style and is flexible enough to accomodate everyone. Alas, that is something that the creators of Go deemed <a href="https://golang.org/doc/faq#semicolons">unworthy of their time</a>.</p>
 <p>With a bit more effort Go might have been a decent language in a few more areas: functional programming, generics, and so on. But again, the creators of Go did not think generics was <a href="https://golang.org/doc/faq#generics">worth their time</a>, and we may assume the same about functional programming. So we will have to keep on looking for a good language for the web, or wait until JavaScript engulfs all features of all other languages and is finally usable for all purposes.</p>
 <h3 id="the-right-frame-of-mind">The Right Frame of Mind</h3>
-<p>The <a href="https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model">five stages of grief</a> start with denial, then anger. This article was a meager attempt of bargaining (third stage), knowing full well that after a hopefully short depression I’ll accept and embrace Go for what it is worth.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model">five stages of grief</a> start with denial, then anger. This article was a meager attempt of bargaining (third stage), knowing full well that after a hopefully short depression I'll accept and embrace Go for what it is worth.</p>
 <p>The only way to enjoy developing in Go is to let go of your preconceptions. No, Go is not a replacement for all your daily needs. It is not even a great language. It is however a good low-level language which is performant and robust, with several concurrency primitives. If used wisely, it can probably be a good addition to your repertory of languages. It will <em>not</em> be your one-stop shop for development.</p>
-<p>So go out there and write yourself some Go! At least for the most performance hungry parts of your application; and write the rest in a more productive language. That’s my impression after a few days; I’ll update this article if I change my mind.</p>
+<p>So go out there and write yourself some Go! At least for the most performance hungry parts of your application; and write the rest in a more productive language. That's my impression after a few days; I'll update this article if I change my mind.</p>
 <p>Update: I have published a <a href="../2018/more-golang-adventures.html">second part</a> with more adventures!</p>
 								</div>
 							</section>

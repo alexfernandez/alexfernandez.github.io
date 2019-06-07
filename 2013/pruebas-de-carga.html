@@ -85,9 +85,10 @@
 										<h1>Pruebas de carga</h1>
 										<p><p>
 									</header>
-																				<figure>
-<img src="pics/pruebas-de-carga.jpg" title="Weighing cotton bales at the Brisbane ginnery" alt="Imagen: Queenslander" /><figcaption>Imagen: <a href="http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg">Queenslander</a></figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/pruebas-de-carga.jpg" title="Weighing cotton bales at the Brisbane ginnery" alt="Imagen: Queenslander" />
+<p class="caption">Imagen: <a href="http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg">Queenslander</a></p>
+</div>
 <p>En esta ocasión nos vamos a alejar por un rato de node.js, y vamos a ver cómo hacer pruebas de carga a nuestro servidor web.</p>
 <h2 id="herramientas">Herramientas</h2>
 <p>Para empezar vamos a mirar un par de herramientas muy sencillas y libres (o si lo prefieres open source) que podemos usar completamente gratis.</p>
@@ -167,9 +168,9 @@ Percentage of the requests served within a certain time
 <p>Ahora en lugar de 3000 estamos alrededor de las 2200 req/s. ¿Por qué nos quedamos bastante por debajo que antes? Hay que decir que loadtest tiene un cierto overhead al estar escrito para node.js y no en C súper-optimizado, por lo que es normal ver cifras ligeramente peores. Dicho esto, la herramienta está optimizada y el overhead no debería nunca superar un milisegundo. Aunque en nuestro servidor trivial se note mucho, en un servidor más realista (o lanzando las pruebas desde otra máquina) debería dejar de afectar a los resultados.</p>
 <p>Ahora empieza la diversión. ¿Por qué usar loadtest si tiene los mismos parámetros y peor rendimiento? Por las opciones avanzadas, claro.</p>
 <ul>
-<li>–rps <em>tasa</em>: número de peticiones por segundo a lanzar. ¿No es igual que la concurrencia? En absoluto; <code>--rps</code> lanza (siempre que pueda) la tasa pedida de peticiones, aunque las anteriores no hayan terminado. Esto nos permite controlar la carga de peticiones que enviamos cada segundo al servidor.</li>
-<li>–noagent: no usar el agente integrado de node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, lo que puede afectar a las pruebas; este parámetro elimina ese límite. Viene activado de fábrica.</li>
-<li>–keepalive: usa el agente <a href="https://github.com/TBEDP/agentkeepalive">agentkeepalive</a>, que añade <code>Connection: Keep-alive</code> y está muy mejorado sobre el que viene en node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, con lo que las pruebas pueden verse afectadas.</li>
+<li>--rps <em>tasa</em>: número de peticiones por segundo a lanzar. ¿No es igual que la concurrencia? En absoluto; <code>--rps</code> lanza (siempre que pueda) la tasa pedida de peticiones, aunque las anteriores no hayan terminado. Esto nos permite controlar la carga de peticiones que enviamos cada segundo al servidor.</li>
+<li>--noagent: no usar el agente integrado de node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, lo que puede afectar a las pruebas; este parámetro elimina ese límite. Viene activado de fábrica.</li>
+<li>--keepalive: usa el agente <a href="https://github.com/TBEDP/agentkeepalive">agentkeepalive</a>, que añade <code>Connection: Keep-alive</code> y está muy mejorado sobre el que viene en node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, con lo que las pruebas pueden verse afectadas.</li>
 </ul>
 <p><em>Nota de precaución</em>: el agente por defecto de node.js apesta de mala manera: tiene un pool de sólo 10 conexiones, lo que nos puede limitar si necesitamos enviar más peticiones a la vez. Pero desactivarlo con <code>--default</code> implica no usar agente y perder el keep-alive: se abre una conexión cada vez al servidor que estamos probando, lo que puede perjudicar el rendimiento. Es recomendable usar siempre <code>--keepalive</code>.</p>
 <p>Vamos a probar ahora nuestro servidor con agentkeepalive:</p>
