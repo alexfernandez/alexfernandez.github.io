@@ -176,7 +176,7 @@ which we should be thankful for.
 At this tremendous speed
 the bomb that destroyed Hiroshima,
 [Little Boy](https://en.wikipedia.org/wiki/Little_Boy),
-would cause 35 times more destruction from kinetic energy (2.2e15 J)
+would cause 35 times more destruction from the kinetic energy of the impact (2.2e15 J)
 than when it was detonated (15 kilotons or 6.3e13 J).
 
 We are not close to sending anything at this speed anywhere.
