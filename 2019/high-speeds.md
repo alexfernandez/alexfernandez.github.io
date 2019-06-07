@@ -11,7 +11,7 @@ Really high speeds are out of our ordinary experience,
 and can be quite hard to apprehend.
 Is a rocket to the moon closer to a person walking or to the unmovable wall of the speed of light?
 In this article we will see a graded approach to appreciate how fast they really are,
-and at which point in our history they were achieved.
+and at which point in our history they were (or will be) achieved.
 
 ## By Intervals
 
@@ -25,34 +25,39 @@ We are definitely out of the realm of hyperspeeds for now.
 
 This relatively slow pace is easy to achieve by a walking person,
 and indeed for animals of all kinds.
+[Many turtles](https://hypertextbook.com/facts/1999/RachelShweky.shtml)
+can move faster than this!
 It is however not so easy for bacteria and other unicellular animals
 to reach 1 m/s on their own;
-a protozoo in the wind is out of scope for our purposes.
+a protozoo in the wind is out of scope for our purposes of self-propulsion.
 We may assume that the first moving organisms to move this fast lived in the sea,
 perhaps the first [jellyfish](https://en.wikipedia.org/wiki/Jellyfish).
 For instance the [box jellyfish](https://en.wikipedia.org/wiki/Box_jellyfish)
 can move at up to 2 m/s.
+So this speed may have been reached around 500 millions of years ago?
 
 ### 10 m/s
 
 We are now at 36 km/h or 22 mph,
 still below hypervelocities.
 It is logically hard to know when animals first breached that speed;
-perhaps [the first sharks](https://en.wikipedia.org/wiki/Cladoselache).
+perhaps [the first sharks](https://en.wikipedia.org/wiki/Cladoselache)
+some 300 millions of years ago.
 
 As to humans,
-we are around our top running speed:
+we are near our top running speed:
 Bolt can run 100 m in less than 10 seconds,
 with [peak speeds of 12.42 m/s](https://www.topendsports.com/resources/records/speed.htm).
-But our ancestors have been great runners for a long time,
-and surely they have run downhill attaining high speeds.
+But our ancestors have been [great runners for a long time](https://archive.unews.utah.edu/news_releases/how-running-made-us-human/),
+and surely they could run downhill attaining high speeds.
+So we have been moving at this speed for maybe a few million years.
 
 ### 100 m/s
 
 At 360 km/h and 223 mph,
 we have reached at a very interesting point in our scale.
 [No known animals](https://en.wikipedia.org/wiki/Fastest_animals) are able to reach this speed
-except for the peregrine falcon,
+except perhaps for the peregrine falcon,
 which [has been clocked at 389 km/h](https://www.airspacemag.com/flight-today/falling-with-the-falcon-7491768/):
 it essentially flies up and then dives at terminal velocity.
 
@@ -60,16 +65,17 @@ With humans the issue is similarly contended.
 A modern compound bow can reach 347 feet per second (105 m/s),
 and crossbows can be [even faster at 460 fps](https://pickabow.com/fastest-crossbow/).
 But it is doubtful that ancient weapons could reach these speeds.
-So throwing something at above 100 m/s is probably a modern achievement
+So throwing stuff at above 100 m/s is probably a modern achievement
 that had to wait for firearms,
 like the 14th century arquebus which could shoot at
 [300 m/s](http://www.rapidoyfacil.es/wiki/otras_reglas_para_ryf/equipo/armas_de_fuego_antiguas).
 
 But enough with projectiles: when was the first time that a human reached this speed?
-Barring people falls from balloons or other accidents it was probably an aircraft;
+Barring people falling from balloons or other accidents it was probably an aircraft;
 [Wikipedia's page of aircraft records](https://en.wikipedia.org/wiki/Aircraft_records)
 lists the date as 1922, on a [Curtiss CR](https://en.wikipedia.org/wiki/Curtiss_CR)
 piloted by [the father of the USAF](https://en.wikipedia.org/wiki/Billy_Mitchell).
+Less than a century ago!
 Interestingly, nowadays there are a variety of vehicles that can exceed 100 m/s,
 [from cars to trains](https://en.wikipedia.org/wiki/List_of_vehicle_speed_records).
 
@@ -115,24 +121,28 @@ it is not hard to send projectiles beyond 10 km/s
 [using exotic guns](https://www.nytimes.com/1994/03/22/science/fastest-gun-on-earth-goals-go-beyond-planet.html).
 
 As to human travel,
-the Guinness World Records book for 2002 lists
+the [Guinness World Records webpage](https://www.guinnessworldrecords.com/products/books/superlatives/fastest) lists
 the [Apollo 10 mission](https://en.wikipedia.org/wiki/Apollo_10)
 as having reached 11.08 km/s during re-entry into the Earth atmosphere,
 well beyond our milestone.
 That record has not been topped since 1969.
+In less than 50 years flying humans breached three steps in our scale,
+from 100 m/s to 10 km/s, and none since!
+Which is a bit sad.
 
 #### 100 km/s
 
-The figures at this point in our scale make little sense:
-360,000 km/h or 223,700 mph.
+The speeds at this point in our scale become harder to understand:
+360,000 km/h or 223,700 mph,
+which means one hour to reach the moon.
 We have now officially surpassed the escape velocity of
 [Jupiter](https://en.wikipedia.org/wiki/Jupiter),
 the biggest planet in the solar system,
 which is only 60 km/s.
 
 Particles at dust accelerators can [exceed this speed](https://www.hou.usra.edu/meetings/lpsc2016/pdf/1653.pdf).
-But the first human-made object to reach it was not one of them.
-It wasn't even a rocket or a deep space probe; it was probably a
+But the first human-made object to reach it was not a speck of dust;
+probably it wasn't even a rocket or a deep space probe, but a
 [humble manhole cover](https://professionalparanoid.wordpress.com/the-fastest-man-made-object-ever-a-nuclear-powered-manhole-cover-true/).
 It was launched by a [nuclear explosion](https://en.wikipedia.org/wiki/Operation_Plumbbob#Propulsion_of_steel_plate_cap).
 that [predated the Sputnik mission](http://nuclearweaponarchive.org/Usa/Tests/Plumbob.html) by a few months;
