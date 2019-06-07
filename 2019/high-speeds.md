@@ -30,7 +30,7 @@ can move faster than this!
 It is however not so easy for bacteria and other unicellular animals
 to reach 1 m/s on their own;
 a protozoo in the wind is out of scope for our purposes of self-propulsion.
-We may assume that the first moving organisms to move this fast lived in the sea,
+We may assume that the first living organisms to move this fast roamed the sea,
 perhaps the first [jellyfish](https://en.wikipedia.org/wiki/Jellyfish).
 For instance the [box jellyfish](https://en.wikipedia.org/wiki/Box_jellyfish)
 can move at up to 2 m/s.
