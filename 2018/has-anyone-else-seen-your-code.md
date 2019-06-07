@@ -331,7 +331,8 @@ urgencies are forgotten but bad code remains.
 [Matteo Collina](https://twitter.com/matteocollina/),
 member of the Node.js TSC and great developer all around,
 does lots of code reviews as part of his job.
-His advice is to 
+His advice is to reject bad code *always*,
+resisting any pressures or urges to just let things pass.
 
 ### Benefits
 
