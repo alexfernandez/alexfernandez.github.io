@@ -229,7 +229,8 @@ and this is without taking into account any vehicles or life support.
 Keep in mind that vehicles made to travel much slower such as cars
 weigh more than a metric ton,
 and that the [Apollo 11 lunar module](https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C)
-which only had to keep its crew alive for a few days weighed more than 15 tons.
+(which only had to keep its crew alive for a few days)
+weighed more than 15 tons.
 Accelerating just this module to this speed would require
 [**19 gigatons of TNT**](https://www.wolframalpha.com/input/?i=8.176%C3%9710%5E19+joules&lk=1&assumption=%22ClashPrefs%22+-%3E+%22%22),
 which is almost 20% of the energy output of the whole planet in 2001.
