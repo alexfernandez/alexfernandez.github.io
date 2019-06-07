@@ -5,7 +5,8 @@ footer: Published on 2019-06-05, last modified on 2019-06-05.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![](pics/high-speeds-sr71-blackbird.jpg "SR-71 Blackbird, source: https://commons.wikimedia.org/wiki/File:An_air-to-air_overhead_front_view_of_an_SR-71A_strategic_reconnaissance_aircraft._The_SR-71_is_unofficially_known_as_the_%22Blackbird.%22_DF-ST-89-06288.jpg")
+![](pics/high-speeds-sr71-blackbird.jpg "SR-71 Blackbird")
+[source](https://commons.wikimedia.org/wiki/File:An_air-to-air_overhead_front_view_of_an_SR-71A_strategic_reconnaissance_aircraft._The_SR-71_is_unofficially_known_as_the_%22Blackbird.%22_DF-ST-89-06288.jpg)
 
 Really high speeds are out of our ordinary experience,
 and can be quite hard to apprehend.
