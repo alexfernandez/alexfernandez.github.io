@@ -183,9 +183,10 @@ We are not close to sending anything in space at this speed anywhere.
 The [Parker Solar Probe](https://en.wikipedia.org/wiki/Parker_Solar_Probe)
 is expected to reach 190 km/s in 2025,
 which falls quite short.
-We would need nuclear propulsion such as that proposed for
+We would need radically powerful nuclear propulsion such as that proposed for
 [Project Orion](https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)),
-which was an interesting concept but has been pretty much abandoned.
+an interesting concept that was quickly abandoned.
+But not before it was proved to be feasible! So not all hope is lost.
 
 #### 10,000 km/s
 
@@ -235,7 +236,7 @@ Accelerating just this module to this speed would require
 [**19 gigatons of TNT**](https://www.wolframalpha.com/input/?i=8.176%C3%9710%5E19+joules&lk=1&assumption=%22ClashPrefs%22+-%3E+%22%22),
 which is almost 20% of the energy output of the whole planet in 2001.
 On the upside, it would take only [13 years to reach Alpha Centauri](https://www.wolframalpha.com/input/?i=time+to+reach+alpha+centauri+at+100000+km%2Fs),
-and due to relativistic effects the brave occupants would only have to wait for 12.5 years.
+and due to relativistic effects its brave occupants would only have to wait for 12.5 years.
 
 #### 1,000,000 km/s
 
