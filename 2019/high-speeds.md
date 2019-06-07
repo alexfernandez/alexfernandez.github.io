@@ -218,7 +218,7 @@ which get very close to the speed of light.
 
 As to transporting humans at this speed,
 the tremendous energies involved make it quite impractical.
-Just accelerating a (rather small) human of 50 kg (110 lbs)
+Just accelerating a (rather smallish) human of 50 kg (110 lbs)
 to 0.3333 of the speed of light _c_ would require
 [65 megatons of TNT](https://www.wolframalpha.com/input/?i=relativistic+kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergyRelativistic%22,+%22K%22%7D,+%7B%22KineticEnergyRelativistic%22,+%22m%22%7D,+%7B%22KineticEnergyRelativistic%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergyRelativistic%22,+%22m%22%7D+-%3E%2250+kg%22&assumption=%7B%22F%22,+%22KineticEnergyRelativistic%22,+%22v%22%7D+-%3E%220.3333+c%22),
 which is more than the energy liberated by the
