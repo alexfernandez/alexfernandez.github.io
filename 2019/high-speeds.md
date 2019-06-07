@@ -73,7 +73,7 @@ like the 14th century arquebus which could shoot at
 [300 m/s](http://www.rapidoyfacil.es/wiki/otras_reglas_para_ryf/equipo/armas_de_fuego_antiguas).
 
 But enough with projectiles: when was the first time that a human reached this speed?
-Barring people falling from balloons or other accidents it was probably an aircraft;
+This we know exactly, barring people falling from balloons or other accidents.
 [Wikipedia's page of aircraft records](https://en.wikipedia.org/wiki/Aircraft_records)
 lists the date as 1922, on a [Curtiss CR](https://en.wikipedia.org/wiki/Curtiss_CR)
 piloted by [the father of the USAF](https://en.wikipedia.org/wiki/Billy_Mitchell).
