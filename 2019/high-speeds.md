@@ -206,7 +206,6 @@ in [around 30 years](https://www.wolframalpha.com/input/?i=time+to+travel+4.2+li
 Many technologies need to be improved by orders of magnitude
 so the mission is purely speculative by now.
 
-
 #### 100,000 km/s
 
 We are now nearing the speed of light.
@@ -215,7 +214,7 @@ Even this fast it might not be possible to
 
 The only projectiles ever launched by humans at this speed
 are probably atomic particles in [particle accelerators](https://en.wikipedia.org/wiki/Cyclotron),
-which get very close to the speed of light.
+which can get really close to the speed of light.
 
 As to transporting humans at this speed,
 the tremendous energies involved make it quite impractical.
