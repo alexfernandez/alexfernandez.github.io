@@ -63,7 +63,7 @@ except perhaps for the peregrine falcon,
 which [has been clocked at 389 km/h](https://www.airspacemag.com/flight-today/falling-with-the-falcon-7491768/):
 it essentially flies up and then dives at terminal velocity.
 
-With humans the issue is similarly contended.
+With human artifacts the issue is similarly contended.
 A modern compound bow can reach 347 feet per second (105 m/s),
 and crossbows can be [even faster at 460 fps](https://pickabow.com/fastest-crossbow/).
 But it is doubtful that ancient weapons could reach these speeds.
