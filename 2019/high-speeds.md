@@ -1,7 +1,7 @@
 ---
 title: 'A Guide to High Speeds'
 subtitle: 'And When They Were Achieved'
-footer: Published on 2019-06-05, last modified on 2019-06-05.
+footer: Published on 2019-06-08, last modified on 2019-06-08.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -121,6 +121,17 @@ Even though [conventional guns](https://en.wikipedia.org/wiki/Muzzle_velocity#Pr
 cannot go beyond 2.3 km/s,
 it is not hard to send projectiles beyond 10 km/s
 [using exotic guns](https://www.nytimes.com/1994/03/22/science/fastest-gun-on-earth-goals-go-beyond-planet.html).
+To calibrate how much energy we are talking about
+let us look at the [collision of two satellites in 2009](https://en.wikipedia.org/wiki/2009_satellite_collision),
+a high-tech Iridium and an old Russian military satellite that crashed at a relative velocity of 11.7 km/s.
+A [rather conservative estimate](https://slate.com/technology/2009/02/kablam-satellite-collision-math-and-a-correction.html)
+gives an energy of [6.22 MWh](https://www.wolframalpha.com/input/?i=kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergy%22,+%22K%22%7D,+%7B%22KineticEnergy%22,+%22m%22%7D,+%7B%22KineticEnergy%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22m%22%7D+-%3E%22700+kg%22&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22v%22%7D+-%3E%228000+m%2Fs%22&assumption=%7B%22MC%22,+%22%22%7D+-%3E+%7B%22Formula%22,+%22dflt%22%7D).
+With more probable assumptions of one ton moving at 10 km/s
+we would get
+[around 14 MWh](https://www.wolframalpha.com/input/?i=kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergy%22,+%22K%22%7D,+%7B%22KineticEnergy%22,+%22m%22%7D,+%7B%22KineticEnergy%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22m%22%7D+-%3E%221000+kg%22&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22v%22%7D+-%3E%2210000+m%2Fs%22&assumption=%7B%22MC%22,+%22%22%7D+-%3E+%7B%22Formula%22,+%22dflt%22%7D):
+this is enough to power a [typical home in Europe for two years](http://shrinkthatfootprint.com/average-household-electricity-consumption)
+(and in the US for one year).
+Think about a fridge, air conditioning and other appliances working for two years!
 
 As to human travel,
 the [Guinness World Records webpage](https://www.guinnessworldrecords.com/products/books/superlatives/fastest) lists
@@ -268,4 +279,6 @@ Wikipedia has an
 ### Acknowledgements
 
 Thanks to my daughter Lucía for being so curious about speeds.
+Thanks to [Carlos Santisteban](https://twitter.com/zuiko21)
+for [the reference to the 2009 satellite collision](https://twitter.com/zuiko21/status/1137271254635950081).
 
