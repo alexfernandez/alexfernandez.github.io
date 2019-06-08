@@ -131,7 +131,7 @@ we would get
 [around 14 MWh](https://www.wolframalpha.com/input/?i=kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergy%22,+%22K%22%7D,+%7B%22KineticEnergy%22,+%22m%22%7D,+%7B%22KineticEnergy%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22m%22%7D+-%3E%221000+kg%22&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22v%22%7D+-%3E%2210000+m%2Fs%22&assumption=%7B%22MC%22,+%22%22%7D+-%3E+%7B%22Formula%22,+%22dflt%22%7D):
 this is enough to power a [typical home in Europe for two years](http://shrinkthatfootprint.com/average-household-electricity-consumption)
 (and in the US for one year).
-Think about a fridge, air conditioning and other appliances working for two years!
+Think about a fridge, air conditioning and all other appliances working for two years!
 
 As to human travel,
 the [Guinness World Records webpage](https://www.guinnessworldrecords.com/products/books/superlatives/fastest) lists
