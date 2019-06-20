@@ -1,7 +1,7 @@
 ---
 title: 'Becoming A Better Developer'
 subtitle: 'The Subtle Path To Enlightenment'
-footer: Published on 2016-09-18, last edited on 2016-09-18.
+footer: Published on 2016-09-18, last edited on 2016-10-26.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 

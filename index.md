@@ -19,6 +19,7 @@ Latest articles.
 * 2018-05-28: [More Adventures in the Land of Go](2018/more-golang-adventures.html)
 * 2017-07-11: [Build Your Own DevOps Infrastructure](2017/build-your-own-devops-infrastructure.html)
 * 2017-06-24: [How Much Did JSDayES 2017 Cost?](2017/jsdayes-2017-cost.html)
+* 2016-10-26: [Becoming a Better Developer](2016/becoming-a-better-developer.html).
 * 2016-10-26: [Becoming A Better Developer, Part 4: Top Of The Cream Of The Crop](2016/top-of-the-cream-of-the-crop.html).
 * 2016-10-17: [Becoming A Better Developer, Part 3: Get Ahead Of The Curve](2016/get-ahead-of-the-curve.html).
 * 2016-10-06: [Becoming A Better Developer, Part 2: Advice For The Novice](2016/advice-for-the-novice.html).
