@@ -1,7 +1,7 @@
 ---
 title: 'Has Anyone Else Seen your Code?'
 subtitle: 'Code review in the age of GitHub'
-footer: Published on 2018-12-03, last modified on 2018-12-03
+footer: Published on 2018-12-03, last modified on 2019-07-24
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -377,6 +377,9 @@ Let us face it, RDD is just sad.
 So don't be afraid use your team as "smart rubber ducks" when needed.
 Sometimes design sessions are also useful even before a line of code has been written.
 Doing a "design walkthrough" can save many hours of fruitless coding.
+
+More details are available in my
+[2015 article](http://pinchito.es/2015/walk-through-my-code.html).
 
 ### Pyramidal Code Reviews
 
