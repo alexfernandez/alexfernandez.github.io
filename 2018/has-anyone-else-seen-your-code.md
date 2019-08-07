@@ -413,7 +413,7 @@ and reviews are done also by anyone.
 
 A code review is much more than supervision:
 it is also an explanation, a conversation,
-and an iterative process to improve the code.
+and an [iterative process](https://codingsans.com/blog/code-review) to improve the code.
 
 ### Junior Reviews
 

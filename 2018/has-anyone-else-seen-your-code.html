@@ -222,6 +222,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 <p>Sometimes merge requests are complex beasts that defy explanations. Anyone reading through a 1000-line refactoring will probably age a couple of months and not understand one bit. Ideally you will be able to request a <a href="https://stevemcconnell.com/articles/software-quality-at-top-speed/">code walkthrough</a> before approving or rejecting a pull request: the author will explain the changes one by one to a selected audience of developers, and take questions from them. Although <a href="https://www.codacy.com/blog/how-to-code-review-in-a-pull-request/">not everyone agrees</a>, in-person communication is a great addition to remote reviews.</p>
 <p>There is a technique called <a href="https://rubberduckdebugging.com/">Rubber Duck Debugging</a>: when you have a hard problem just explain your code to a rubber duck. You will magically understand everything! It is based in the common practice of explaining an issue to a colleague and finding the answer even before they have uttered a single word.</p>
 <p>Let us face it, RDD is just sad. So don’t be afraid use your team as “smart rubber ducks” when needed. Sometimes design sessions are also useful even before a line of code has been written. Doing a “design walkthrough” can save many hours of fruitless coding.</p>
+<p>More details are available in my <a href="http://pinchito.es/2015/walk-through-my-code.html">2015 article</a>.</p>
 <h3 id="pyramidal-code-reviews">Pyramidal Code Reviews</h3>
 <p>A common misconception about reviewing code is that it should be done by the most senior dev available. A team leader should review everything that is deployed by the team. So ideally the CTO should be doing all reviews, if they weren’t so busy doing CTO things. So why not ask the CEO to do the review, or the Pope? Why not even ask Julio Iglesias, the greatest artist ever to walk the Earth?</p>
 <figure>
@@ -229,7 +230,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 </figure>
 <p>Some projects, most notably the <a href="https://www.kernel.org/doc/html/latest/process/2.Process.html">Linux kernel</a>, work this way: there is a pyramidal review process with developers, maintainers, lieutenants and Linus Torvalds at the top. This scheme it tends to overwork the people at the top, as has famously happened to Linus Torvalds who <a href="https://www.developer-tech.com/news/2018/nov/05/torvalds-empathetic-linux-code-reviews/">had to seek help because of his toxic behavior</a>.</p>
 <p>The reality is that what you usually want is a <a href="https://medium.com/palantir/code-review-best-practices-19e02780015f">peer review</a>, similar to what is done in Science: pick a few colleagues to do the review. If there is a particularly delicate bit of code being modified (say, the flux condenser) then you may want the owner of that bit to do the review. But it is easier to organize if code can be modified by everyone, and reviews are done also by anyone.</p>
-<p>A code review is much more than supervision: it is also an explanation, a conversation, and an iterative process to improve the code.</p>
+<p>A code review is much more than supervision: it is also an explanation, a conversation, and an <a href="https://codingsans.com/blog/code-review">iterative process</a> to improve the code.</p>
 <h3 id="junior-reviews">Junior Reviews</h3>
 <p>Ah, junior developers, with their golden curly locks and their eyes full of stars. We old horses tend to assign to them only inconsequential tasks like changing pretty colors on web pages. But I can assure you that they can tackle more demanding tasks! Keep in mind that we have all been juniors at some point, even if it was a century ago when we used to program on abacuses.</p>
 <p>When faced with a pull request by a wizard of programming such as a senior dev, a junior tends to just gape in wonder and approve the changes mindlessly. It is a good practice to encourage juniors to ask at least one question, and they are usually quite good at locating a particularly nasty spot to ask about.</p>
@@ -293,7 +294,7 @@ $ grep -r TODO java-10.0.1 | wc -l
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2018-12-03, last modified on 2018-12-03 <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2018-12-03, last modified on 2019-07-24 <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="../index.html">index</a>.
