@@ -15,7 +15,7 @@ I have also held several management positions.
 
 I have recently joined [Influencity](https://www.influencity.com/) as CTO.
 I am leading a team of talented developers
-to help build the best console for influencer marketing,
+to help build the best platform for influencer marketing,
 using Node.js and React.
 
 ### 2017-10 to 2019-04: Devo (Formerly Logtrust)

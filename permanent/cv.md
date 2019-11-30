@@ -24,21 +24,34 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2017-10 to present: Devo (Formerly Logtrust)
+### 2019-05 to present: Influencity
 
-I have recently joined [Devo](https://www.devo.com/),
+I am currently working as the CTO of Influencity,
+a thriving company in the field of influencer marketing.
+I am managing a team of 5 engineers,
+writing an awesome SaaS platform to manage influencer campaigns.
+
+### 2017-10 to 2019-04: Devo (Formerly Logtrust)
+
+[Devo](https://www.devo.com/) is
 a thriving Spanish company that collects huge amounts of data
 and keeps it in a searchable format for our customers.
-We are in the middle of an impressive international expansion.
-I am eager to face the new technical challenges
-that we may find along the way!
+We were in the middle of an impressive international expansion.
+I faced a lot of exciting technical challenges while working there
+as a senior software engineer.
 
-I am telecommuting full time:
-I go to the office mostly for Monday meetings.
-I also work flexible hours,
-which allows me to take care of my daughter when needed and at the same time
-use my most productive hours working.
-It is a win-win situation!
+I worked in the data ingestion team along with
+my friends [Diego Lafuente](https://twitter.com/tufosa)
+and Pedro Palao,
+and many other great friends and colleagues.
+Our system reached peaks of 3.5 million events per second,
+which it ingested flawlessly.
+
+I was telecommuting full time,
+going  to the office one day per week.
+We also had flexible hours,
+which allowed me to be with my family when needed
+while devoting my most productive hours to my job.
 
 ### 2013-01 to 2017-09: mediasmart.io
 

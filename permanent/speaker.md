@@ -6,7 +6,7 @@ footer: Published on 2018-02-12, last edited on 2018-12-05.
 ---
 
 I have collected my public speaker experience in this page:
-about five years speaking at diverse conferences,
+more than five years speaking at diverse conferences,
 lately mostly about Javascript and DevOps.
 
 ## Speaker
@@ -229,12 +229,12 @@ in Spanish.
 All of these materials and more are
 [online](https://slides.com/alexfernandez).
 
-In a previous life I spoke at a couple of older conferences,
+In a previous life I spoke at a couple of eGovernment conferences,
 which I will spare you here.
 
 ## Community Organizer
 
-Co-organizer of
+From 2014 to 2019 I was the organizer of
 [MadridJS](https://www.meetup.com/es-ES/madridjs/)
 and
 [Node.js Madrid](https://www.meetup.com/es-ES/Node-js-Madrid/),
@@ -242,7 +242,7 @@ along with
 [Manu Fosela](https://twitter.com/manufosela)
 and
 [Javier Vélez](https://twitter.com/javiervelezreye).
-We gather monthly to talk about JavaScript and gossip about the latest developments in the community.
+We gathered monthly to talk about JavaScript and gossip about the latest developments in the community.
 
 I have helped organize three editions of JSDayES:
 2015, 2016 and 2017.
