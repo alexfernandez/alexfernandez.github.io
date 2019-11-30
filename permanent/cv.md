@@ -42,9 +42,9 @@ I faced a lot of exciting technical challenges while working there
 as a senior software engineer.
 
 I worked in the data ingestion team along with
-my friends [Diego Lafuente](https://twitter.com/tufosa)
+my great friends [Diego Lafuente](https://twitter.com/tufosa)
 and Pedro Palao,
-and many other great friends and colleagues.
+and many other friends and colleagues.
 Our system reached peaks of 3.5 million events per second,
 which it ingested flawlessly.
 
