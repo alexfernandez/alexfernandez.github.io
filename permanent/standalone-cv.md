@@ -13,7 +13,8 @@ I have also held several management positions.
 
 ### 2019-05 to present: Influencity
 
-I have recently joined [Influencity](https://www.influencity.com/) as CTO.
+I am currently working as the CTO of [Influencity](https://www.influencity.com/),
+a thriving company in the field of influencer marketing.
 I am leading a team of talented developers
 to help build the best platform for influencer marketing,
 using Node.js and React.

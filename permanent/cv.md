@@ -26,10 +26,11 @@ format: 2016-08 is August 2016.
 
 ### 2019-05 to present: Influencity
 
-I am currently working as the CTO of Influencity,
+I am currently working as the CTO of [Influencity](https://www.influencity.com/),
 a thriving company in the field of influencer marketing.
-I am managing a team of 5 engineers,
-writing an awesome SaaS platform to manage influencer campaigns.
+I am leading a team of talented developers
+to help build the best platform for influencer marketing,
+using Node.js and React.
 
 ### 2017-10 to 2019-04: Devo (Formerly Logtrust)
 
