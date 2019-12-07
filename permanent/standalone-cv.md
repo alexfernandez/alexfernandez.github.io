@@ -11,9 +11,9 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
 I have also held several management positions.
 
-### 2019-05 to present: Influencity
+### 2019-05 to 2019-12: Influencity
 
-I am currently working as the CTO of [Influencity](https://www.influencity.com/),
+My latest position was CTO of [Influencity](https://www.influencity.com/),
 a thriving company in the field of influencer marketing.
 I am leading a team of talented developers
 to help build the best platform for influencer marketing,
