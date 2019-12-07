@@ -37,7 +37,7 @@ We successfully competed at an international level
 both in price and in features.
 We used JavaScript, Node.js, Erlang and Go.
 
-### 2012-08 to present: Freelancer
+### 2012-08 to 2012-12: Freelancer
 
 In 2012 I worked as a freelancer for Kimia writing a PHP backend and an Android app.
 Since then I have not stopped taking freelance engagements.
