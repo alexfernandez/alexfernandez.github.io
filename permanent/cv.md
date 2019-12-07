@@ -251,7 +251,7 @@ The last edition
 [JSDayES 2017](http://2017.jsday.es/)
 had about 600 attendees and featured 35 speakers from over 10 countries.
 
-Since 2015 I am the organizer of MadridJS,
+From 2015 to 2019 I was the main organizer of MadridJS,
 following on the steps of the previous team who did a great job.
 I am also the organizer of Node.js Madrid.
 We have run a couple of editions of

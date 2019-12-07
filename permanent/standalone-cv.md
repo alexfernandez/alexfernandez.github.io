@@ -125,7 +125,7 @@ I have helped organize three editions of
 [JSDayES](http://jsday.es/),
 the last one with around 600 attendees and featuring 35 speakers from over 10 countries.
 
-Since 2015 I have been an organizer of MadridJS and Node.js Madrid.
+From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid.
 
 ## Education
 
@@ -135,9 +135,11 @@ I studied first at Granada and then at Universidad Autónoma de Madrid.
 
 ### Teaching
 
-I have participated in two editions of
-[IronHack](https://www.ironhack.com/)
+I have participated in two editions of the
+[IronHack](https://www.ironhack.com/) bootcamp
 as the main JavaScript teacher.
+
+I have taught courses in Node.js, JavaScript and Go.
 
 ## Contact
 
