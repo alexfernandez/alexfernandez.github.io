@@ -217,7 +217,7 @@ often it is more rewarding (and fun!) to give away your time.
 
 My projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
-The most popular at 773 stars is
+The most popular at 1.8k stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library for load testing web applications.
 
