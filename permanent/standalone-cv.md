@@ -144,6 +144,5 @@ I have taught courses in Node.js, JavaScript and Go.
 ## Contact
 
 * [Email](mailto:alexfernandeznpm@gmail.com)
-* [LinkedIn](https://www.linkedin.com/in/pinchito/)
 * [Twitter](https://twitter.com/pinchito)
 
