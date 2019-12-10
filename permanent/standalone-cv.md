@@ -15,8 +15,8 @@ I have also held several management positions.
 
 My latest position was CTO of [Influencity](https://www.influencity.com/),
 a thriving company in the field of influencer marketing.
-I am leading a team of talented developers
-to help build the best platform for influencer marketing,
+I led a team of talented developers
+and helped them build the best platform for influencer marketing,
 using Node.js and React.
 
 ### 2017-10 to 2019-04: Devo (Formerly Logtrust)
