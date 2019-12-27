@@ -112,10 +112,16 @@ and at that point there had been few in the last months.
 I thought to myself that the task could not be that hard.
 In essence what I wanted was simple enough:
 something that run a build each time a commit was pushed.
+More bells and whistles could be added later.
 
 So with the help of my colleagues at Influencity
 (who were bravely placating the beast delivering product)
 I started building a prototype.
+
+I have used Node.js for DevOps work for many years now.
+I have to say I am quite happy with it:
+it runs reliably,
+code can be written very quickly and there are libraries for everything.
 
 ## Assessment
 
