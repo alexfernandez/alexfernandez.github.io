@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	alexfernandez.github.io | @pinchito
+-->
+<html>
+	<head>
+		<title>Continuous Deployment on the Cheap</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+		<script>
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-UA-75898530-1';
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			  window[disableStr] = true;
+		}
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-75898530-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="../index.html"><img src="../pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="../index.html">Alex Fernández</a></h1>
+					<p>
+					I am a developer known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					</p>
+					<p>
+					This site uses (gasp!) cookies for gathering statistics.
+					You can
+						<a href="javascript:gaOptout()">disable them</a>.
+					</p>
+				</header>
+				<!--
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#three">A Few Accomplishments</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+				-->
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>Continuous Deployment on the Cheap</h1>
+										<p>Or, Build Your Own Adventure in CD<p>
+									</header>
+																				<p><img src="pics/high-speeds-sr71-blackbird.jpg" title="SR-71 Blackbird, source: https://commons.wikimedia.org/wiki/File:An_air-to-air_overhead_front_view_of_an_SR-71A_strategic_reconnaissance_aircraft._The_SR-71_is_unofficially_known_as_the_%22Blackbird.%22_DF-ST-89-06288.jpg" /></p>
+<p>This is the tale of how I built my nth system for continuous integration.</p>
+<h2 id="what-is-continuous-deployment">What Is Continuous Deployment</h2>
+<p>For many years I have advocated for continuous deployment (CD), in fact since I learned about the technique in 2011 on the wonderful <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a> by Allspaw &amp; Robins.</p>
+<p>Essentially it means deploying each change the moment it is ready, instead of waiting until many changes are piled up and tested. Tests run automatically and certify that the code is fit for production.</p>
+<h3 id="benefits">Benefits</h3>
+<p>For me CD is the most relevant practice in the hot pot known as “DevOps”. It encompasses many important disciplines: deployment, testing, and integration, with a layer of automation to make it as agile as possible.</p>
+<p>Everyone that has tried this practice has found that the number of errors is indeed reduced as the number of daily deployments increases, perhaps paradoxically. One reason is that changes are deployed individually, which reduces the possibility of compound errors. Also automatic test suites become quite important and they are cared for on a daily basis, which creates a virtuous cycle of improvement and stability.</p>
+<p>When an error does actually appear in production it is usually easy to confine to the latest deployment, instead of having to browse endless lists of changes to find out what went wrong.</p>
+<h3 id="its-lesser-relatives">Its Lesser Relatives</h3>
+<p>It is unfortunate that the acronym CD has been co-opted by a much less powerful version. With continuous delivery changes are tested but not deployed until there is a manual intervention step. In essence we are back to piling up changes, which makes our job much harder.</p>
+<p>Continuous delivery is well suited for environments where a manual step is hard to avoid, such as regulatory audits or manual frontend tests. In my experience it is usually worth the effort to try to automate even these hard situations, but it is indeed harder to do.</p>
+<p>There is also continuous integration (CI), where code is tested after each commit and possibly deployed to an integration server.</p>
+<h2 id="the-adventure">The Adventure</h2>
+<p>In March 2019 I joined <a href="https://influencity.com/">Influencity</a>, an influencer marketing company, as CTO. I had the chance to set technology priorities, and of course my first priority was to set up continuous deployment. Or at least continuous integration!</p>
+<h3 id="package-selection">Package Selection</h3>
+<p>Nowadays there are well-established services to do it like <a href="https://travis-ci.org/">Travis-CI</a>. or <a href="https://circleci.com/">CircleCI</a>, and of course there is <a href="https://jenkins.io/">Jenkins</a> and its more modern cousin <a href="https://jenkins-x.io/">Jenkins X</a>. There are also other smaller contenders such as <a href="https://github.com/Strider-CD/strider">Strider CD</a>, which I have <a href="../2016/stridercd.html">used in the past</a>. So it should be an easy decision to just evaluate the most promising options and install them on a server.</p>
+<p>I did just that and came back a bit disappointed. None of the services or products were really a good fit:</p>
+<ul>
+<li><p>Travis-CI needs access to your repos and your infrastructure, which is a further point of failure. It can be set up with webhooks. Also the price for companies is not exactly cheap, at <a href="https://travis-ci.com/plans">$63/month</a>.</p></li>
+<li><p>CircleCI is cheaper at <a href="https://circleci.com/pricing/">$0/month</a> for one concurrent build, which is a great option. There is again the issue of giving access to repos and infrastructure. Also it seems to require some kind of Docker image (or other VMs), and it is not trivial to configure if your infrastructure is not geared towards Docker.</p></li>
+<li><p>Jenkins is a monster. With <a href="https://plugins.jenkins.io/">more than 1500 plugins</a> I am sure that it covers all necessities that anyone may have, but it is a bit overwhelming. I have used it at my previous job, Devo, and configuration was a mess. If at all possible I would like to avoid it for the rest of my professional career.</p></li>
+<li><p>Jenkins X is an unknown, and also seems to require Docker. Not that I have anything against Docker as a technology, but at Influencity it would have meant another roadblock towards adoption of CD. That is exactly what I wanted to avoid.</p></li>
+<li><p>Finally, I have a lot of love for Strider. First it has “CD” in the title instead of the more common “CI”. I have used it for a couple of projects during the last few years and it worked great! At mediasmart we even contributed a little bit to it. But support seemed spotty: <a href="https://github.com/Strider-CD/strider/commits/master">commits</a> are erratic, and at that point there had been few in the last months.</p></li>
+</ul>
+<h3 id="the-eternal-diy-option">The Eternal DIY Option</h3>
+<p>I thought to myself that the task could not be that hard. In essence what I wanted was simple enough: something that run a build each time a commit was pushed. More bells and whistles could be added later.</p>
+<p>I have used Node.js for DevOps work for many years now. I have to say I am quite happy with it: it runs reliably, code can be written very quickly and there are libraries for everything.</p>
+<p>So with the help of my colleagues at Influencity (who were bravely placating the business side delivering improvements to the product) I started building a prototype.</p>
+<h3 id="development-phases">Development Phases</h3>
+<p>The right approach to automation is always to start with a well-understood manual task, and then automate every bit. Afterwards you can keep on improving until your automatic process is better than the manual task ever was.</p>
+<h4 id="phase-0">Phase 0</h4>
+<p>Phase zero was therefore to create a reliable manual integration phase. The integration environment had to be streamlined and cleaned up, and my colleagues helped me set up a robust automated test suite for the backend. We also created a script to deploy to this environment.</p>
+<h4 id="phase-1">Phase 1</h4>
+<p>The first phase proceeded in parallel: we created a new control server where we could run a reliable build of the backend code. Then we created an HTTP server that was listening on a given port on this server, and which when instructed would download the latest code, run the build and our test suite, and send us mail if it was broken. Then we had to connect GitHub to our environment using a webhook: with every commit the code would be built and tested, and we would get mail with the result of the tests. This would allow the dev team to realize that the latest code needed fixing.</p>
+<p>This server could also be accessed using a web browser, to simplify debugging of any issues.</p>
+<h4 id="phase-2">Phase 2</h4>
+<p>This little HTTP server was listening just for a single repo. In a second phase we created a multirepo server which was capable of building and testing any repo. It was still a very simplistic HTTP server using the <a href="https://nodejs.org/api/http.html">system library</a>; nothing fancy like restify or fastify was really needed. It read the name of the server from the <a href="https://developer.github.com/v3/activity/events/types/#pushevent">info sent with the webhook</a>.</p>
+<p>Builds were also sent to AWS CloudWatch so we could set alarms when a build to a particular branch (usually <code>master</code>) was broken, and so we could compute metrics of deployments.</p>
+<p>A further refinment (say, phase 2.5) was to make successful pushes to master deploy the code to our integration server. This was in fact super easy: all we needed was to run a command locally that SSH’d to the integration server.</p>
+<h4 id="phase-3">Phase 3</h4>
+<p>The third phase was then to connect our server with GitHub in the opposite direction: use the <a href="https://developer.github.com/v3/">GitHub API</a> to</p>
+<p><img src="pics/devops-github-pr.png" title="GitHub builds" /></p>
+<p>In the figure above you can see how builds are seen with Travis-CI integration: for each commit Travis is informed and it runs the automated test suite, letting us know if the build failed (❌) or it worked (✅). This is done calling the GitHub API to let GitHub know if the build worked for every commit.</p>
+<p>It is in fact easier than it seems, thanks to the official npm package <span class="citation" data-cites="octokit/rest">[@octokit/rest]</span>(https://www.npmjs.com/package/<span class="citation" data-cites="octokit/rest">@octokit/rest</span>). Essentially you just need to <a href="https://octokit.github.io/rest.js/#octokit-routes-repos-create-status">create a status</a>. You can add detailed information about the build and it will be shown in a box, as seen above. At this point our little deployment script was close to 200 lines.</p>
+<h4 id="phase-4">Phase 4</h4>
+<p>When creating a status you can even add a <a href="https://developer.github.com/v3/repos/statuses/#create-a-status">target URL</a> which will be shown as a link to “Details”. This would be our fourth phase: each deployment was now stored in a MongoDB instance, with a unique key for the build containing among other things the repo, branch and date of the build.</p>
+<p>A new endpoint was created to access any particular build. The target URL would then be:</p>
+<pre><code>http://[server]/read/[key],</code></pre>
+<p>and it would read the deployment info for that <code>key</code>.</p>
+<p>We also had a similar setup for frontend code, but unfortunately the test suite was not robust or complete enough to give us any guarantees. For other repos tests were simply a sytax check with <code>eslint .</code>, or just import the library and see that nothing broke.</p>
+<h4 id="future-improvements">Future Improvements</h4>
+<p>The system might be easily expanded to deploy directly to production.</p>
+<h2 id="assessment">Assessment</h2>
+<p>Our little system had close to 600 lines of code, and four dependencies: * <code>@octokit/rest</code>: to access the GitHub API. * <code>aws-sdk</code>: to store deployment success or failure in AWs CloudWatch. * <code>mongodb</code>: to store deployment info in MongoDB. * <code>stdio</code>: to read the directory to run into from the command line.</p>
+<p>It could do everything that we needed for continuous integration.</p>
+<p>Time spent creating it was more or less equivalent to installing and configuring something like Jenkins or StriderCD. The system worked much more reliably than Jenkins ever did for me, and knowing its inner workings made it quite simpler to repair.</p>
+<p>Unfortunately at this point I stopped working at the company and could not keep improving it. But the point remains.</p>
+<p>It remains to be seen if my colleagues will be able to work with (and improve) our little script; I have confidence that they will since it is all Node.js code.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Thanks to my colleagues <a href="https://twitter.com/alfonh">Alfonso</a>, <a href="https://twitter.com/BeatrizDGL">Bea</a>, <a href="https://twitter.com/jimeno0">Charlie</a>, <a href="https://twitter.com/abbitxuelo">JC</a> and <a href="https://twitter.com/WilderOlmos">Will</a> for their coopoeration in this awesome project.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Published on 2019-12-26, last modified on 2019-12-26. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									</p>
+									<p>
+									Back to the <a href="../index.html">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>. Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
