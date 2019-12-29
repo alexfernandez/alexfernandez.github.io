@@ -394,6 +394,30 @@ But the point remains.
 It remains to be seen if my colleagues will be able to work with (and improve) our little script;
 I have confidence that they will since it is all Node.js code.
 
+### Code Release
+
+I am not at liberty to divulge the code which was all proprietary.
+The ideas however are quite easy to reimplement independently,
+and may be of use to other people.
+
+If there is enough interest I will think about creating a clone.
+In my opinion it will be more of a didactic tool than for production,
+since configuring this thing may be 
+
+## Conclusion
+
+Before adopting any existing tool think always of the DIY option.
+It may be a better fit for your organization,
+you will learn a lot and have fun too!
+
+By all means consider also the downsides of non-standard tooling:
+* steep learning curve,
+* hard training.
+
+But on the upside,
+anyone that actually knows what the tool is supposed to do
+instead of treating it like magic should be able to take over operation seamlessly.
+
 ## Acknowledgements
 
 Thanks to my colleagues
