@@ -159,7 +159,7 @@ probably it wasn't even a rocket or a deep space probe, but a
 [humble manhole cover](https://professionalparanoid.wordpress.com/the-fastest-man-made-object-ever-a-nuclear-powered-manhole-cover-true/).
 It was launched by a [nuclear explosion](https://en.wikipedia.org/wiki/Operation_Plumbbob#Propulsion_of_steel_plate_cap)
 that [predated the Sputnik mission](http://nuclearweaponarchive.org/Usa/Tests/Plumbob.html) by a few months;
-so it may have been the first human-made object in space (or it may have dissintegrated in the atmosphere).
+so it may have been the first human-made object in space (or it may have disintegrated in the atmosphere).
 Original sources estimate its [speed at 66 km/s](http://nuclearweaponarchive.org/Usa/Tests/Brownlee.html),
 while others put it [well above 100 km/s](https://www.businessinsider.com/fastest-object-robert-brownlee-2016-2?IR=T#brownlee-replicated-the-first-experiment-but-the-column-inpascal-bwas-deeper-at500-feet-deep-they-also-recorded-the-experiment-with-a-camera-that-shot1-frame-per-millisecondon-august-27-1957-the-manhole-cover-cap-flew-off-the-column-with-the-force-of-the-nuclear-explosionthe-iron-cover-was-only-partially-visible-in-one-frame-brownlee-said-10).
 
