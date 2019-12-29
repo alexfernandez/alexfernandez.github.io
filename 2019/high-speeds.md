@@ -1,7 +1,7 @@
 ---
 title: 'A Guide to High Speeds'
 subtitle: 'And When They Were Achieved'
-footer: Published on 2019-06-08, last modified on 2019-06-08.
+footer: Published on 2019-06-08, last modified on 2019-12-30.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -119,7 +119,7 @@ Incidentally, we are really close to the
 
 Even though [conventional guns](https://en.wikipedia.org/wiki/Muzzle_velocity#Projectile_velocity)
 cannot go beyond 2.3 km/s,
-it is not hard to send projectiles beyond 10 km/s
+it is not impossible to send projectiles beyond 10 km/s
 [using exotic guns](https://www.nytimes.com/1994/03/22/science/fastest-gun-on-earth-goals-go-beyond-planet.html).
 To calibrate how much energy we are talking about
 let us look at the [collision of two satellites in 2009](https://en.wikipedia.org/wiki/2009_satellite_collision),
