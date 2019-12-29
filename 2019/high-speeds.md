@@ -157,7 +157,7 @@ Particles at dust accelerators can [exceed this speed](https://www.hou.usra.edu/
 But the first human-made object to reach it was not a speck of dust;
 probably it wasn't even a rocket or a deep space probe, but a
 [humble manhole cover](https://professionalparanoid.wordpress.com/the-fastest-man-made-object-ever-a-nuclear-powered-manhole-cover-true/).
-It was launched by a [nuclear explosion](https://en.wikipedia.org/wiki/Operation_Plumbbob#Propulsion_of_steel_plate_cap).
+It was launched by a [nuclear explosion](https://en.wikipedia.org/wiki/Operation_Plumbbob#Propulsion_of_steel_plate_cap)
 that [predated the Sputnik mission](http://nuclearweaponarchive.org/Usa/Tests/Plumbob.html) by a few months;
 so it may have been the first human-made object in space (or it may have dissintegrated in the atmosphere).
 Original sources estimate its [speed at 66 km/s](http://nuclearweaponarchive.org/Usa/Tests/Brownlee.html),
