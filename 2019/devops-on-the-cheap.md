@@ -5,9 +5,7 @@ footer: Published on 2019-12-26, last modified on 2019-12-26.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![](pics/devops-gears.jpg "Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg")
-
-This is the tale of how my team and I built what would become my nth system for continuous deployment.
+![This is the tale of how my team and I built what would become my nth system for continuous deployment.](pics/devops-gears.jpg "Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg")
 
 ## What Is Continuous Deployment
 
