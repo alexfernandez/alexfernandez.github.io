@@ -123,7 +123,7 @@ it is not impossible to send projectiles beyond 10 km/s
 [using exotic guns](https://www.nytimes.com/1994/03/22/science/fastest-gun-on-earth-goals-go-beyond-planet.html).
 To calibrate how much energy we are talking about
 let us look at the [collision of two satellites in 2009](https://en.wikipedia.org/wiki/2009_satellite_collision),
-a high-tech Iridium and an old Russian military satellite that crashed at a relative velocity of 11.7 km/s.
+a high-tech Iridium and an old Russian military satellite, which crashed at a relative velocity of 11.7 km/s.
 A [rather conservative estimate](https://slate.com/technology/2009/02/kablam-satellite-collision-math-and-a-correction.html)
 gives an energy of [6.22 MWh](https://www.wolframalpha.com/input/?i=kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergy%22,+%22K%22%7D,+%7B%22KineticEnergy%22,+%22m%22%7D,+%7B%22KineticEnergy%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22m%22%7D+-%3E%22700+kg%22&assumption=%7B%22F%22,+%22KineticEnergy%22,+%22v%22%7D+-%3E%228000+m%2Fs%22&assumption=%7B%22MC%22,+%22%22%7D+-%3E+%7B%22Formula%22,+%22dflt%22%7D).
 With more probable assumptions of one ton moving at 10 km/s
