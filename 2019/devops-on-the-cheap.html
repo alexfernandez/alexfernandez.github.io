@@ -188,7 +188,9 @@
 <h3 id="phase-4-let-the-world-know">Phase 4: Let the World Know</h3>
 <p>Builds were also sent to AWS CloudWatch so we could set alarms when a build to a particular branch (usually <code>master</code>) was broken, and so we could compute metrics of deployments.</p>
 <p>The third phase was then to connect our server with GitHub in the opposite direction: use the <a href="https://developer.github.com/v3/">GitHub API</a> to</p>
-<p><img src="pics/devops-github-pr.png" title="GitHub builds" /></p>
+<figure>
+<img src="pics/devops-github-pr.png" title="GitHub builds" alt="GitHub builds" /><figcaption>GitHub builds</figcaption>
+</figure>
 <p>In the figure above you can see how builds are seen with Travis-CI integration: for each commit Travis is informed and it runs the automated test suite, letting us know if the build failed (❌) or it worked (✅). This is done calling the GitHub API to let GitHub know if the build worked for every commit.</p>
 <p>It is in fact easier than it seems, thanks to the official npm package <span class="citation" data-cites="octokit/rest">[@octokit/rest]</span>(https://www.npmjs.com/package/<span class="citation" data-cites="octokit/rest">@octokit/rest</span>). Essentially you just need to <a href="https://octokit.github.io/rest.js/#octokit-routes-repos-create-status">create a status</a>. You can add detailed information about the build and it will be shown in a box, as seen above. At this point our little deployment script was close to 200 lines.</p>
 <h4 id="phase-4">Phase 4</h4>

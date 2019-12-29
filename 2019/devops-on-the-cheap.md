@@ -332,7 +332,7 @@ and so we could compute metrics of deployments.
 The third phase was then to connect our server with GitHub in the opposite direction:
 use the [GitHub API](https://developer.github.com/v3/) to 
 
-![](pics/devops-github-pr.png "GitHub builds")
+![GitHub builds](pics/devops-github-pr.png "GitHub builds")
 
 In the figure above you can see how builds are seen with Travis-CI integration:
 for each commit Travis is informed and it runs the automated test suite,
