@@ -2040,6 +2040,10 @@
 				max-height: 300px;
 			}
 
+			figcaption {
+				margin-bottom: 1em;
+			}
+
 /* List */
 
 	ol {

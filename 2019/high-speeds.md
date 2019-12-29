@@ -5,7 +5,7 @@ footer: Published on 2019-06-08, last modified on 2019-12-30.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![SR-71 Blackbird](pics/high-speeds-sr71-blackbird.jpg "SR-71 Blackbird, source: https://commons.wikimedia.org/wiki/File:An_air-to-air_overhead_front_view_of_an_SR-71A_strategic_reconnaissance_aircraft._The_SR-71_is_unofficially_known_as_the_%22Blackbird.%22_DF-ST-89-06288.jpg")
+![You are about read about many things that flew faster than the iconic SR-71 Blackbird.](pics/high-speeds-sr71-blackbird.jpg "SR-71 Blackbird, source: https://commons.wikimedia.org/wiki/File:An_air-to-air_overhead_front_view_of_an_SR-71A_strategic_reconnaissance_aircraft._The_SR-71_is_unofficially_known_as_the_%22Blackbird.%22_DF-ST-89-06288.jpg")
 
 Really high speeds are out of our ordinary experience,
 and can be quite hard to apprehend.
@@ -101,7 +101,7 @@ or a paltry 980 m/s.
 As a consolation there are [unofficial records](https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird#Records)
 that go beyond that.
 
-Anyway there are plenty of rocket-powered planes that have flown quite faster.
+Anyway there are plenty of rocket-powered planes that have flown faster.
 The [North American X-15](https://en.wikipedia.org/wiki/North_American_X-15)
 has the current record at 2020 m/s (7270 km/h or 4517 mph),
 reached more than 50 years ago in 1967.
@@ -141,7 +141,7 @@ well beyond our milestone.
 That record has not been topped since 1969.
 In less than 50 years flying humans breached three steps in our scale,
 from 100 m/s to 10 km/s, and none since!
-Which is a bit sad.
+Which if you ask me is a bit sad.
 
 #### 100 km/s
 
@@ -202,7 +202,7 @@ But not before it was proved to be feasible! So not all hope is lost.
 #### 10,000 km/s
 
 Is there no end to this madness?
-In fact, at 10 thousand km per second we are still far from the Universe's top speed of 300 thousand km/s.
+In fact, at 10 thousand km per second we are still far from the Universe's maximum value of 300 thousand km/s.
 This kind of speed is necessary to escape a large white dwarf star
 such as [Sirius B](http://www.astronoo.com/en/articles/escape-velocity.html) (5200 km/s).
 
@@ -211,7 +211,7 @@ it would take about [132 years to reach Alpha Centauri](https://www.wolframalpha
 Going a little faster would make it much more interesting.
 There are [plans](https://en.wikipedia.org/wiki/Breakthrough_Starshot)
 to launch micro-spacecrafts at 15% of the speed of light (0.15 _c_, or 45,000 km/s):
-each would weight a few grams and be accelerated using lasers,
+each would weigh a few grams and be accelerated using powerful lasers,
 reaching their target planet [Proxima Centauri b](https://en.wikipedia.org/wiki/Proxima_Centauri_b)
 in [around 30 years](https://www.wolframalpha.com/input/?i=time+to+travel+4.2+light+years+at+45000+km%2Fs+in+years).
 Many technologies need to be improved by orders of magnitude
@@ -229,8 +229,8 @@ which can get really close to the speed of light.
 
 As to transporting humans at this speed,
 the tremendous energies involved make it quite impractical.
-Just accelerating a (rather light) human of 50 kg (110 lbs)
-to 0.3333 of the speed of light _c_ would require
+Just accelerating a human of 50 kg (110 lbs)
+to 0.33 of the speed of light _c_ would require
 [65 megatons of TNT](https://www.wolframalpha.com/input/?i=relativistic+kinetic+energy+calculator&assumption=%7B%22FS%22%7D+-%3E+%7B%7B%22KineticEnergyRelativistic%22,+%22K%22%7D,+%7B%22KineticEnergyRelativistic%22,+%22m%22%7D,+%7B%22KineticEnergyRelativistic%22,+%22v%22%7D%7D&assumption=%7B%22F%22,+%22KineticEnergyRelativistic%22,+%22m%22%7D+-%3E%2250+kg%22&assumption=%7B%22F%22,+%22KineticEnergyRelativistic%22,+%22v%22%7D+-%3E%220.3333+c%22),
 which is more than the energy liberated by the
 [largest hydrogen bomb ever exploded](https://en.wikipedia.org/wiki/Tsar_Bomba)
@@ -240,13 +240,14 @@ and this is without taking into account any vehicles or life support.
 Keep in mind that vehicles made to travel much slower such as cars
 weigh more than a metric ton,
 and that the [Apollo 11 lunar module](https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C)
-(which only had to keep its crew alive for a few days)
+(which only had to keep its crew of three alive for a few days)
 weighed more than 15 tons.
 Accelerating just this module to this speed would require
 [**19 gigatons of TNT**](https://www.wolframalpha.com/input/?i=8.176%C3%9710%5E19+joules&lk=1&assumption=%22ClashPrefs%22+-%3E+%22%22),
 which is almost 20% of the energy output of the whole planet in 2001.
 On the upside, it would take only [13 years to reach Alpha Centauri](https://www.wolframalpha.com/input/?i=time+to+reach+alpha+centauri+at+100000+km%2Fs),
 and due to relativistic effects its brave occupants would only have to wait for 12.5 years.
+How they would stop once they got there is another story.
 
 #### 1,000,000 km/s
 
@@ -263,7 +264,7 @@ or if they might ever interact with ordinary matter
 Of course there have been many fictional depictions of
 [hyperspace](https://en.wikipedia.org/wiki/Hyperspace),
 or faster-than-light travel.
-The most famous hyperdrive is probably shown in [Star Wars](https://starwars.fandom.com/wiki/Hyperspace).
+A popular example of hyperdrive is depicted in [Star Wars](https://starwars.fandom.com/wiki/Hyperspace).
 For now there are no realistic ways of achieving these speeds so we will stop here.
 
 ## Conclusion
