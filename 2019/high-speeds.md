@@ -13,15 +13,15 @@ Is the speed of a rocket to the moon closer to a person walking or to the unmova
 In this article we will see a graded approach to appreciate how fast things and people can move,
 and at which point in our history each speed interval was (or will be) achieved.
 
-## By Intervals
+## Interval Scale
 
-A grading scale should make it easier to understand high speeds.
+A grading scale by factors of ten will make it easier to understand high speeds.
 
 ### 1 m/s
 
 We start at a comfortable pace of 1 meter per second,
 which is 3.6 km/h or 2.2 miles per hour (mph).
-We are definitely out of the realm of hyperspeeds for now.
+We are definitely in the realm of every day speeds for now.
 
 This relatively slow pace is easy to achieve by a walking person,
 and indeed for animals of all kinds.
@@ -34,25 +34,25 @@ We may assume that the first living organisms to move this fast roamed the sea,
 perhaps the first [jellyfish](https://en.wikipedia.org/wiki/Jellyfish).
 For instance the [box jellyfish](https://en.wikipedia.org/wiki/Box_jellyfish)
 can move at up to 2 m/s.
-So this speed may have been reached around 500 millions of years ago?
+So this speed may have been reached by our remotest ancestors around 500 millions of years ago!
 
 ### 10 m/s
 
 We are now at 36 km/h or 22 mph,
 still below hypervelocities.
-It is logically hard to know when animals first breached that speed;
+It is understandably hard to know when animals first breached that speed;
 perhaps [the first sharks](https://en.wikipedia.org/wiki/Cladoselache)
 some 300 millions of years ago.
 
 As to humans,
 we are near our top running speed:
-Bolt can run 100 m in less than 10 seconds,
+Usain Bolt can run 100 m in less than 10 seconds,
 with [peak speeds of 12.42 m/s](https://www.topendsports.com/resources/records/speed.htm).
 But our ancestors have been [great runners for a long time](https://archive.unews.utah.edu/news_releases/how-running-made-us-human/),
 and surely they could run downhill attaining high speeds.
 So our most athletic peers have been moving at this speed for maybe a few million years.
 The advent of [horse riding](https://sportsaspire.com/history-of-horseback-riding)
-put this crazy pace within the reach of anyone.
+put this crazy pace within the reach of most people around 6000 years ago.
 
 ### 100 m/s
 
@@ -63,7 +63,7 @@ except perhaps for the peregrine falcon,
 which [has been clocked at 389 km/h](https://www.airspacemag.com/flight-today/falling-with-the-falcon-7491768/):
 it essentially flies up and then dives at terminal velocity.
 
-With human artifacts the issue is similarly contended.
+With human artifacts the issue is contended.
 A modern compound bow can reach 347 feet per second (105 m/s),
 and crossbows can be [even faster at 460 fps](https://pickabow.com/fastest-crossbow/).
 But it is doubtful that ancient weapons could reach these speeds.
@@ -72,13 +72,14 @@ that had to wait for firearms,
 like the 14th century arquebus which could shoot at
 [300 m/s](http://www.rapidoyfacil.es/wiki/otras_reglas_para_ryf/equipo/armas_de_fuego_antiguas).
 
-But enough with projectiles: when was the first time that a human reached this speed?
-This we know exactly, barring people falling from balloons or other accidents.
+But projectiles are just one side of the story:
+when was the first time that a human reached this speed?
+This we know exactly, apart from people falling from balloons or other accidents.
 [Wikipedia's page of aircraft records](https://en.wikipedia.org/wiki/Aircraft_records)
 lists the date as 1922, on a [Curtiss CR](https://en.wikipedia.org/wiki/Curtiss_CR)
 piloted by [the father of the USAF](https://en.wikipedia.org/wiki/Billy_Mitchell).
 Less than a century ago!
-Interestingly, nowadays there are a variety of vehicles that can exceed 100 m/s,
+Nowadays there are a variety of vehicles that can exceed 100 m/s,
 [from cars to trains](https://en.wikipedia.org/wiki/List_of_vehicle_speed_records).
 
 #### 1000 m/s
@@ -113,7 +114,9 @@ in about half an hour.
 
 We are now at 36,000 km/h or 22,370 mph, firmly in the realm of
 [hypervelocities](https://en.wikipedia.org/wiki/Hypervelocity).
-Going around the Earth at this speed would take around an hour.
+Going around the Earth at this speed would take around an hour
+(the ISS takes
+[90 minutes](http://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Where_is_the_International_Space_Station)).
 Incidentally, we are really close to the
 [escape velocity from our planet](https://en.wikipedia.org/wiki/Escape_velocity).
 
