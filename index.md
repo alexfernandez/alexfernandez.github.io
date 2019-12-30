@@ -15,6 +15,7 @@ where we gather once a month and have some fun talking about nerdy stuff.
 
 Latest articles.
 
+* 2019-12-31: [Continuous Deployment on the Cheap](2019/devops-on-the-cheap.html)
 * 2018-12-01: [Has Anyone Else Seen Your Code](2018/has-anyone-else-seen-your-code.html)
 * 2018-05-28: [More Adventures in the Land of Go](2018/more-golang-adventures.html)
 * 2017-07-11: [Build Your Own DevOps Infrastructure](2017/build-your-own-devops-infrastructure.html)
