@@ -205,7 +205,7 @@ But not before it was proved to be feasible! So not all hope is lost.
 #### 10,000 km/s
 
 Is there no end to this madness?
-In fact, at 10 thousand km per second we are still not close to the Universe's maximum value of 300 thousand km/s.
+In fact, at 10 thousand km per second we are not even close to the Universe's maximum value (300 thousand km/s).
 This kind of speed is necessary to escape a large white dwarf star
 such as [Sirius B](http://www.astronoo.com/en/articles/escape-velocity.html) (5200 km/s).
 
