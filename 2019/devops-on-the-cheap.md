@@ -1,7 +1,7 @@
 ---
 title: 'Continuous Deployment on the Cheap'
 subtitle: 'Or, Build Your Own Adventure in CD'
-footer: Published on 2019-12-26, last modified on 2019-12-26.
+footer: Published on 2019-12-31, last modified on 2019-12-31.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -171,8 +171,10 @@ In essence what I wanted was simple enough:
 something that run a build each time a commit was pushed.
 More bells and whistles could be added later.
 
-I have used Node.js for DevOps work for many years now.
-I have to say I am quite happy with it:
+I have used Node.js for DevOps work for many years now,
+and even spoken about it in public:
+[Build Your Own DevOps Infrastructure](http://pinchito.es/2017/build-your-own-devops-infrastructure.html).
+I have to say I have always been quite happy with it:
 it runs reliably,
 code can be written very quickly and there are libraries for everything.
 
@@ -458,20 +460,23 @@ In my opinion it will be more of a didactic tool than for production,
 since configuring this thing may be a bit hard,
 but who knows?
 
-## Conclusion
+## Conclusions
+
+Too often we treat our tooling like black boxes which solve our problems magically.
+But I have found that it is always a good idea to invest some time to think about what we really need,
+and then look for a solution.
 
 By all means consider also the downsides of non-standard tooling:
 * steep learning curve,
 * hard training.
 
-But also consider the downsides of standard tooling:
+But also consider the downsides of _standard_ tooling:
 * complex configuration,
 * mindless adoption,
 * hard maintenance.
 
-Too often we treat our tooling like black boxes which solve our problems magically.
-But I have found that it is always a good idea to invest some time to think about what we really need,
-and then look for a solution.
+I have written about the topic before if you are interested:
+[Should I Build or Should I Not](http://pinchito.es/2016/build-or-not.html).
 
 When it comes to maintaining the tooling,
 everyone in the team should know what it is doing behind the scenes.
