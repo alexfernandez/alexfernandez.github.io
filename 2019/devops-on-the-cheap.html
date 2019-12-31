@@ -88,6 +88,8 @@
 																				<figure>
 <img src="pics/devops-gears.jpg" title="Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg" alt="This is the tale of how my team and I built what would become my nth system for continuous deployment." /><figcaption>This is the tale of how my team and I built what would become my nth system for continuous deployment.</figcaption>
 </figure>
+<h2 id="tldr">TL;DR</h2>
+<p>Before adopting any existing tool always consider building a custom tool. It may be a better fit for your particular needs; you will learn a lot and have fun too!</p>
 <h2 id="what-is-continuous-deployment">What Is Continuous Deployment</h2>
 <p>For many years I have advocated for continuous deployment (CD), in fact since I learned about the technique in 2011 on the wonderful <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a> by Allspaw &amp; Robins.</p>
 <p>Essentially it means deploying each change the moment it is ready, instead of waiting until many changes are piled up and tested. Tests run automatically and verify that the code is fit for production.</p>
@@ -126,7 +128,7 @@
 <li><p>Jenkins X is an unknown, and also seems to require Docker. Not that I have anything against Docker as a technology, but at Influencity it would have meant another roadblock towards adoption of CD. That is exactly what I wanted to avoid.</p></li>
 <li><p>Finally, I have a lot of love for Strider. First it has “CD” in the title instead of the more common “CI”. I have used it for a couple of projects during the last few years and it worked great! At mediasmart we even contributed a little bit to it. But development seemed spotty: <a href="https://github.com/Strider-CD/strider/commits/master">commits</a> are erratic, and at that point there had been few in the last months.</p></li>
 </ul>
-<h3 id="the-eternal-diy-option">The Eternal DIY Option</h3>
+<h3 id="the-custom-option">The Custom Option</h3>
 <p>I thought to myself that the task could not be that hard. In essence what I wanted was simple enough: something that run a build each time a commit was pushed. More bells and whistles could be added later.</p>
 <p>I have used Node.js for DevOps work for many years now. I have to say I am quite happy with it: it runs reliably, code can be written very quickly and there are libraries for everything.</p>
 <p>So with the help of my colleagues at Influencity we started building a prototype.</p>
@@ -218,13 +220,14 @@
 <p>Time spent creating it was more or less equivalent to installing and configuring something like Jenkins or StriderCD. The system worked much more reliably than Jenkins ever did for me, and knowing its inner workings made it quite simpler to repair.</p>
 <p>I have confidence that my colleagues will be able to work with (and improve) our little script, since it is all Node.js code. The biggest hurdle is to understand all of the different concepts involved in its operation.</p>
 <h3 id="code-release">Code Release</h3>
-<p>I am not at liberty to divulge the code which was all proprietary. The ideas however are quite easy to reimplement independently, and may be of use to other people.</p>
+<p>I am not at liberty to publish the code which was all proprietary. The ideas however are quite easy to reimplement independently, and may be of use to other people.</p>
 <p>If there is enough interest I will think about creating a clone. In my opinion it will be more of a didactic tool than for production, since configuring this thing may be a bit hard, but who knows?</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Before adopting any existing tool think always of the DIY option. It may be a better fit for your organization, you will learn a lot and have fun too!</p>
 <p>By all means consider also the downsides of non-standard tooling: * steep learning curve, * hard training.</p>
-<p>But on the upside, anyone that actually knows what the tool is supposed to do instead of treating it like magic should be able to take over operation seamlessly.</p>
-<h2 id="acknowledgements">Acknowledgements</h2>
+<p>But also consider the downsides of standard tooling: * complex configuration, * mindless adoption, * hard maintenance.</p>
+<p>Too often we treat our tooling like black boxes which solve our problems magically. But I have found that it is always a good idea to invest some time to think about what we really need, and then look for a solution.</p>
+<p>When it comes to maintaining the tooling, everyone in the team should know what it is doing behind the scenes. That way they will be able to take over and even expand as needed, either with standard tools or custom solutions.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
 <p>Thanks to my colleagues <a href="https://twitter.com/alfonh">Alfonso</a>, <a href="https://twitter.com/BeatrizDGL">Bea</a>, <a href="https://twitter.com/jimeno0">Charlie</a>, <a href="https://twitter.com/abbitxuelo">JC</a> and <a href="https://twitter.com/WilderOlmos">Will</a> for their coopoeration in this awesome project.</p>
 								</div>
 							</section>

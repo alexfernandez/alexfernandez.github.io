@@ -7,6 +7,12 @@ footer: Published on 2019-12-26, last modified on 2019-12-26.
 
 ![This is the tale of how my team and I built what would become my nth system for continuous deployment.](pics/devops-gears.jpg "Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg")
 
+## TL;DR
+
+Before adopting any existing tool always consider building a custom tool.
+It may be a better fit for your particular needs;
+you will learn a lot and have fun too!
+
 ## What Is Continuous Deployment
 
 For many years I have advocated for continuous deployment (CD),
@@ -158,7 +164,7 @@ But development seemed spotty:
 [commits](https://github.com/Strider-CD/strider/commits/master) are erratic,
 and at that point there had been few in the last months.
 
-### The Eternal DIY Option
+### The Custom Option
 
 I thought to myself that the task could not be that hard.
 In essence what I wanted was simple enough:
@@ -443,7 +449,7 @@ The biggest hurdle is to understand all of the different concepts involved in it
 
 ### Code Release
 
-I am not at liberty to divulge the code which was all proprietary.
+I am not at liberty to publish the code which was all proprietary.
 The ideas however are quite easy to reimplement independently,
 and may be of use to other people.
 
@@ -454,19 +460,25 @@ but who knows?
 
 ## Conclusion
 
-Before adopting any existing tool think always of the DIY option.
-It may be a better fit for your organization,
-you will learn a lot and have fun too!
-
 By all means consider also the downsides of non-standard tooling:
 * steep learning curve,
 * hard training.
 
-But on the upside,
-anyone that actually knows what the tool is supposed to do
-instead of treating it like magic should be able to take over operation seamlessly.
+But also consider the downsides of standard tooling:
+* complex configuration,
+* mindless adoption,
+* hard maintenance.
 
-## Acknowledgements
+Too often we treat our tooling like black boxes which solve our problems magically.
+But I have found that it is always a good idea to invest some time to think about what we really need,
+and then look for a solution.
+
+When it comes to maintaining the tooling,
+everyone in the team should know what it is doing behind the scenes.
+That way they will be able to take over and even expand as needed,
+either with standard tools or custom solutions.
+
+### Acknowledgements
 
 Thanks to my colleagues
 [Alfonso](https://twitter.com/alfonh),
