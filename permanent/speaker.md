@@ -13,6 +13,27 @@ lately mostly about Javascript and DevOps.
 
 List of conferences, latest first.
 
+### [Codemotion Madrid 2019](https://events.codemotion.com/conferences/madrid/2019/es/)
+
+[Artificial Stupidity](https://events.codemotion.com/conferences/madrid/2019/speaker/4421/):
+[slides](https://slides.com/alexfernandez/artificial-stupidity-madrid).
+<br>
+<img height="15" src="./pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2019-09-24/25
+
+### [Codemotion Roma 2019](https://events.codemotion.com/conferences/rome/2019/)
+
+[Artificial Stupidity](https://events.codemotion.com/conferences/rome/2019/speaker/4421/):
+[slides](https://slides.com/alexfernandez/artificial-stupidity-roma-2019),
+[video](https://www.youtube.com/watch?v=DFrGoEQj1Ts).
+<br>
+<img height="15" src="./pics/italy.svg" alt="Italy" style="margin:4px;vertical-align:middle;">
+Roma, Italy
+<br>
+2019-03-22/23
+
 ### [Codemotion Madrid 2018](https://madrid2018.codemotionworld.com/)
 
 [¿Quién ha visto tu código?](https://madrid2018.codemotionworld.com/talk-detail/?detail=9236):
@@ -219,7 +240,7 @@ Brescia, Italy
 I have spoken at a number of local Meetups about many topics:
 Node.js, JavaScript, Scalability, DevOps, even Wordpress.
 Below you can find a few videos of those interventions,
-in Spanish.
+all in Spanish.
 
 * 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
 * 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
