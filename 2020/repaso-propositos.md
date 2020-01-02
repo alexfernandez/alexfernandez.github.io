@@ -69,7 +69,7 @@ De forma global creo que hemos cumplido (casi) todos los objetivos técnicos y d
 El camino no ha estado exento de problemas:
 al parecer no he sabido transmitir al CEO todo el trabajo realizado.
 Mi torpeza para la comunicación y la política interna
-(seguramente combinada con una situación financiera mejorable)
+(seguramente combinada con una situación financiera delicada)
 ha terminado motivando mi salida de la empresa.
 
 Termino el año embarcado en algún que otro proceso de selección para puestos en remoto.
