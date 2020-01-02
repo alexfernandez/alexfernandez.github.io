@@ -177,7 +177,7 @@ y hace tiempo que lo tengo algo abandonado.
 Este año me gustaría **acercarme a
 [ViennaJS](https://viennajs.org/)**
 para ver qué se cuece por allí.
-A finales de curso tenemos previsto volvernos a España así que no tengo demasiado tiempo.
+A finales de curso tenemos previsto volvernos a España así que tengo unos meses todavía.
 
 Quiero **seguir dando charlas ocasionales**.
 Como soy muy divo no suelo buscar CfPs activamente sino que espero a que me inviten.
