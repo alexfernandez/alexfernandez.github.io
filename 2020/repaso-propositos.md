@@ -140,7 +140,7 @@ Esta Navidad me propuse el _portrait challenge_:
 dibujar gratis a gente que pasara por el paseo marítimo.
 Finalmente me atreví y conseguí un par de "clientes".
 
-[Este retrato no quedó mal].
+![Este retrato no quedó mal, ¿verdad?](pics/repaso-retrato.jpg "Afortunado poseedor de un Fernández").
 
 ## Propósitos para 2020
 
