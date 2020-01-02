@@ -1,7 +1,7 @@
 ---
 title: 'Repaso de 2019 y propósitos para 2020'
 subtitle: '🎶 Ay quién maneja mi barca, quién 🎶'
-footer: Publicado el 2020-01-01, modificado el 2020-01-01.
+footer: Publicado el 2020-02-01, modificado el 2020-02-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -175,6 +175,7 @@ y hace tiempo que lo tengo algo abandonado.
 Este año me gustaría **acercarme a
 [ViennaJS](https://viennajs.org/)**
 para ver qué se cuece por allí.
+A finales de curso tenemos previsto volvernos a España.
 
 Quiero **seguir dando charlas ocasionales**.
 Como soy muy divo no suelo buscar CfPs activamente sino que espero a que me inviten.
