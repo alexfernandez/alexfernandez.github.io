@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-01, modificado el 2020-01-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![This is the tale of how my team and I built what would become my nth system for continuous deployment.](pics/devops-gears.jpg "Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg")
+![Empezamos un nuevo año.](pics/repaso-anyo-nuevo.jpg "San Isidro Concert at Retiro Park, fuente: https://commons.wikimedia.org/wiki/File:MADRID_060515_MXALX_096.jpg")
 
 En este inicio de año voy a hacer públicas algunas reflexiones,
 a ver si consigo que se publiquen en la página de objetivos de
@@ -45,6 +45,8 @@ El reto era bastante grande:
 liderar un equipo muy desmotivado y actualizar una plataforma con una deuda técnica monumental,
 tras varios años de desarrollos a matacaballo.
 
+![Bienvenidos al maravilloso mundo de los influencers.](pics/repaso-influencers.jpg "Mona et la laitière immortalisent leur voyage chez le cri, fuente: https://commons.wikimedia.org/wiki/File:Selfie_art.jpg")
+
 En unos pocos meses teníamos
 [un sistema de integración continua potente](http://pinchito.es/2019/devops-on-the-cheap.html),
 y dos nuevas personas que han redondeado un equipo de alto rendimiento, motivado y trabajando a tope.
@@ -54,14 +56,14 @@ renovado la web y añadido una sección de pagos completamente nueva.
 Todo esto mientras creábamos varias suites de pruebas y
 mejorábamos la arquitectura interna:
 en el backend hemos eliminado una arquitectura de microservicios algo extraña
-que ralentizaba ejecución, desarrollo y despliegues sin beneficio real,
+que ralentizaba desarrollo, ejecución y despliegues sin ningún beneficio real,
 volviendo a un monolito mucho más eficiente.
 En el frontend hemos creado una librería de componentes React
 que ha simplificado mucho el trabajo.
 
 No está mal para ocho meses, ¿no?
 Pero ni siquiera ha sido lo más importante:
-la experiencia de liderar un equipo de gente majísima ha sido muy enriquecedora.
+la experiencia de liderar un equipo de _millennials_ ha sido muy enriquecedora.
 
 De forma global creo que hemos cumplido (casi) todos los objetivos técnicos y de negocio.
 El camino no ha estado exento de problemas:
@@ -70,8 +72,9 @@ Mi torpeza para la comunicación y la política interna
 (seguramente combinada con una situación financiera mejorable)
 ha terminado motivando mi salida de la empresa.
 
-Termino el año embarcado en algún que otro proceso de selección
-para puestos en remoto.
+Termino el año embarcado en algún que otro proceso de selección para puestos en remoto.
+¡Estoy más liado que cuando trabajaba!
+(Es broma, pero hay días estresantes, la verdad.)
 
 ### Comunidad
 
@@ -83,9 +86,10 @@ he decidido dejar la organización en las capaces manos de
 [Javi Vélez](https://twitter.com/javiervelezreye) y
 [Manu Fosela](https://twitter.com/manufosela).
 
-He seguido actuando como parte del PMC de Codemotion Madrid,
+He seguido en el PMC de Codemotion Madrid,
 donde también he dado una
-[charlita](https://events.codemotion.com/conferences/madrid/2019/agenda/).
+[charlita](https://events.codemotion.com/conferences/madrid/2019/speaker/4421/)
+metiéndome con inteligencias artificiales y "roboces".
 En el lado negativo la valoración del público ha sido regular:
 
 > 67 % "Good", 22 % "Neutral" and 11 % "Bad"
@@ -102,8 +106,6 @@ Para empezar tuve problemas técnicos con algunos vídeos,
 pero no puedo achacar a eso la valoración.
 Aunque el público estuvo interesado la mayor parte del tiempo
 creo que no he sabido hacer que el material fuera todo lo interesante que se merecía.
-En sucesivas charlas intentaré potenciar el aspecto técnico,
-sin descuidar la parte más lúdica.
 
 También en Codemotion he dado un
 [webinar](https://extra.codemotion.com/webinar-alexfernandez-refactoringarchitecture/)
@@ -114,7 +116,7 @@ He presentado cinco propuestas para
 [t3chfest](https://t3chfest.es/2020/en):
 una en solitario sobre bacterias vistas desde el punto de vista de la tecnología,
 y [cuatro dando apoyo](https://twitter.com/pinchito/status/1207344167854247937) a otros tantos grandes ponentes.
-Aviso, ¡como salga mi propuesta con [Fran Barea](https://twitter.com/MandisBack) va a ser la risa! 😂
+Ya hemos avisado que como salga mi propuesta con [Fran Barea](https://twitter.com/MandisBack) ¡va a ser la risa! 😂
 
 Por último he publicado el
 [curso de Unix](http://pinchito.es/2019/curso-unix.html)
@@ -122,11 +124,12 @@ que sin duda hará las delicias de grandes y pequeños.
 
 ### Personal
 
-Este año me he mudado a Viena con mi familia;
-durante este tiempo yo he seguido viniendo a Madrid una semana al mes.
+Este año me he mudado a Viena con mi familia,
+aunque yo he seguido viniendo a Madrid una semana al mes.
 Mi hija y mi mujer están aprendiendo alemán como unas campeonas,
 y hemos podido atravesar los complejos trámites del cambio de residencia para ellas.
-La vida allí es muy tranquila y ordenada.
+La vida en esta maravillosa ciudad es muy tranquila y ordenada.
+En general, una experiencia muy interesante.
 
 También me he dedicado con afán a aprender a dibujar,
 y ya empiezo a ver los frutos.
@@ -140,7 +143,7 @@ Esta Navidad me propuse el _portrait challenge_:
 dibujar gratis a gente que pasara por el paseo marítimo.
 Finalmente me atreví y conseguí un par de "clientes".
 
-![Este retrato no quedó mal, ¿verdad?](pics/repaso-retrato.jpg "Afortunado poseedor de un Fernández").
+![Este retrato no quedó mal.](pics/repaso-retrato.jpg "Afortunado poseedor de un Fernández")
 
 ## Propósitos para 2020
 
@@ -179,10 +182,15 @@ No pido mucho realmente, basta con un tweet o un mail convocándome.
 Y por supuesto me interesa **seguir colaborando con cualquier organización que me necesite**,
 empezando por Codemotion (si me quieren).
 
-También estoy muy interesado en **subir el nivel de las charlas que dé**,
+Estoy muy interesado en **subir el nivel de las charlas que dé**,
 tras el relativo jarro de agua fría de Codemotion.
-Aquí no tengo muy claro cómo hacerlo más allá de colaborar con otra gente.
-Estoy dispuesto a buscar ayuda donde la encuentre.
+Para empezar intentaré potenciar el aspecto técnico,
+y al mismo tiempo que sean más amenas.
+¡Todo un reto!
+
+También pretendo **colaborar con charlas de otra gente**
+y aprovechar para aprender de ellos.
+Básicamente estoy dispuesto a buscar ayuda donde la encuentre.
 
 ### Personal
 
@@ -203,18 +211,18 @@ Tengo interés desde hace tiempo en empezar a **publicar mis dibujos**,
 por ejemplo en Instagram,
 aunque me da bastante reparo su política de uso.
 
-También quiero **publicar el curso de dibujo en remoto** de mi profesor Arturo,
+Por último tengo pendiente **publicar el curso de dibujo en remoto** de mi profesor Arturo,
 basado en los ejercicios que me envía.
 Creo que puede ayudar a mucha gente igual que me ha servido a mí.
 
 ## Conclusiones
 
-Como veis tengo nueve propósitos para este año.
-¿Cuántos cumpliré?
-¿Cuántos quedarán en agua de borrajas?
-
+Como véis tengo doce propósitos para este año.
 He intentado que sean objetivos concretos y contrastables,
 aunque soy consciente de que no siempre lo he conseguido.
+¿Cuántos cumpliré?
+¿Cuántos quedarán en agua de borrajas?
+¡El año que viene tendremos la respuesta!
 
 ### Agradecimientos
 
