@@ -5,7 +5,7 @@ footer: Published on 2019-06-01, last modified on 2019-06-01.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![](pics/curso-unix-portada.jpg "Portada del curso de Unix")
+![CURSO UNIX](pics/curso-unix-portada.jpg "Portada del curso de Unix")
 
 En 2014 grabé para Floqq, una plataforma de cursos online,
 un curso de Unix bastante completo.
