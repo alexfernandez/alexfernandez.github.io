@@ -166,7 +166,7 @@ Creo que en este momento mi mejor opción es ver qué ofertas tengo
 y luego decidir entre ellas
 (si es que consigo más de una).
 
-![#firstWorldProblem.](pics/repaso-desempleo.jpg "Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, fuente: https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg")
+![#firstWorldProblem, o como decimos en España: "Más cornás da el hambre".](pics/repaso-desempleo.jpg "Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, fuente: https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg")
 
 También me gustaría **dar algún curso técnico**.
 Se aprende muchísimo dando clase,
