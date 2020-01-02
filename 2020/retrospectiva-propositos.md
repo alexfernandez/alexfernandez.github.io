@@ -110,11 +110,15 @@ También en Codemotion he dado un
 sobre cómo refactorizar la arquitectura de un sistema en uso,
 basado en el trabajo hecho en Influencity.
 
-Por último, he presentado cinco propuestas para
+He presentado cinco propuestas para
 [t3chfest](https://t3chfest.es/2020/en):
 una en solitario sobre bacterias vistas desde el punto de vista de la tecnología,
 y [cuatro dando apoyo](https://twitter.com/pinchito/status/1207344167854247937) a otros tantos grandes ponentes.
 Aviso, ¡como salga mi propuesta con [Fran Barea](https://twitter.com/MandisBack) va a ser la risa! 😂
+
+Por último he publicado el
+[curso de Unix](http://pinchito.es/2019/curso-unix.html)
+que sin duda hará las delicias de grandes y pequeños.
 
 ### Personal
 
@@ -158,6 +162,10 @@ o bien combinar ambas cosas.
 Creo que en este momento mi mejor opción es ver qué ofertas tengo
 y luego decidir entre ellas
 (si es que consigo más de una).
+
+También me gustaría **dar algún curso técnico**.
+Se aprende muchísimo dando clase,
+y hace tiempo que lo tengo algo abandonado.
 
 ### Comunidad
 
