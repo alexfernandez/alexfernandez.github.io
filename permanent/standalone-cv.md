@@ -130,7 +130,7 @@ From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid.
 
 ## Education
 
-### 1989 - 1996: Degree of Physics
+### 1989 - 1996: Physics Degree
 
 I studied first at Granada and then at Universidad Autónoma de Madrid.
 
