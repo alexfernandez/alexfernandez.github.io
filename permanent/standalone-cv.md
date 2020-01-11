@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-footer: Last edited on 2019-05-21.
+footer: Last edited on 2020-01-11.
 ---
 
 Developer with 20 years of experience specialized in scalability and DevOps.
@@ -11,7 +11,7 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
 I have also held several management positions.
 
-### 2019-05 to 2019-12: Influencity
+### 2019-04 to 2019-12: Influencity
 
 My latest position was CTO of [Influencity](https://www.influencity.com/),
 a thriving company in the field of influencer marketing.
@@ -19,7 +19,7 @@ I led a team of talented developers
 and helped them build the best platform for influencer marketing,
 using Node.js and React.
 
-### 2017-10 to 2019-04: Devo (Formerly Logtrust)
+### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
 I joined [Devo](https://www.devo.com/)
 while in the middle of an impressive international expansion.

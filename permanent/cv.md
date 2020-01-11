@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2018-06-29.
+footer: Published on 2016-08-17, last edited on 2020-01-11.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -24,15 +24,15 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2019-05 to present: Influencity
+### 2019-04 to 2019-12: Influencity
 
-I am currently working as the CTO of [Influencity](https://www.influencity.com/),
+My latest position was CTO of [Influencity](https://www.influencity.com/),
 a thriving company in the field of influencer marketing.
-I am leading a team of talented developers
-to help build the best platform for influencer marketing,
+I led a team of talented developers
+and helped them build the best platform for influencer marketing,
 using Node.js and React.
 
-### 2017-10 to 2019-04: Devo (Formerly Logtrust)
+### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
 [Devo](https://www.devo.com/) is
 a thriving Spanish company that collects huge amounts of data
