@@ -47,7 +47,7 @@ pandoc --template read-only.html -s 2019/high-speeds.md -o 2019/high-speeds.html
 pandoc --template read-only.html -s 2019/devops-on-the-cheap.md -o 2019/devops-on-the-cheap.html
 pandoc --template read-only.html -s 2020/repaso-propositos.md -o 2020/repaso-propositos.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
-pandoc -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
+pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
 
 # Español
