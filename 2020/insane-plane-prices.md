@@ -274,7 +274,7 @@ But hey, a boy can dream.
 For a similar situation that was solved with regulation,
 the seasoned travellers among you will remember that in the late 2000s
 airlines began feeling the heat of low cost and started applying a host of price supplements
-that took the advertised €30 per ticket to €100 or more:
+that could take a €50 ticket to €100 or more:
 handling fees,
 airport fees,
 fuel surcharges and many other surreptitious ripoffs.
