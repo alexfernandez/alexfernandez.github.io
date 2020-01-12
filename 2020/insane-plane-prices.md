@@ -40,6 +40,7 @@ For some time this annoying behaviour could be thwarted with private browsing mo
 But then web servers got smarter and started to detect users with browser fingerprinting.
 After a while they would even check when the source IP address was the same,
 and try to overcharge with their artificial demand trick.
+Abandon all hope now, human.
 
 ### Some History
 
