@@ -296,7 +296,6 @@ no haggling, no looking around, no comparison shopping.
 Everyone gets to their destination happily,
 if not glamorously;
 after all it is still a bus.
-
 Following the redneckish theory that "planes are buses with wings",
 applying the same uniform pricing scheme would mean that
 we might finally stop wondering what the neighbour paid for their ticket
@@ -307,7 +306,7 @@ but setting a fair price for every seat would leave the same margin for the airl
 than overcharging some people and underchanging others.
 And meanwhile the amount of time now spent to just buy simple plane tickets without being robbed blind
 could be used profitably by society to cure cancer in a few months,
-and have many people-years to spare.
+with minutes to spare.
 
 ## Conclusions
 
