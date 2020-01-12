@@ -19,7 +19,7 @@ and make a humble (+ a bold) proposal.
 It is written from a subjective perspective and therefore I will not add careful references.
 But I would love it if we would take collective action and improve the situation for future generations.
 
-## So What is the Problem, Dear?
+## So What _Is_ the Problem, Dear?
 
 Simple.
 Go to your favorite airline website and check the price of a plane ticket for any destination and time frame.
