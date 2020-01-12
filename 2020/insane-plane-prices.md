@@ -56,8 +56,8 @@ According to the Wikipedia article on
 this happened sometime in the 1980s in the US,
 and I have to assume that it was imported to Europe in the 1990s,
 like all good things.
-During the 2000s this madness was fully implemented everywhere,
-making airlines some of the least loved organizations in the world,
+During the early 2000s complex software algorithms were designed to maximize profit.
+This helped make airlines some of the least loved organizations in the world,
 right after criminal syndicates but perhaps a bit before tobacco purveyors.
 They were so obviously trying to squeeze customers dry,
 and for some reason we customers tend to not like that.
