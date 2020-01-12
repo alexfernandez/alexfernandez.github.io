@@ -90,10 +90,10 @@ in case anyone trusts comparison sites.
 ### Last Minute
 
 Last minute tickets are quite contradictory in nature.
-Plane tickets have a fixed expiry date: when boarding is closed off.
-At that point they will lose all their value.
+Plane tickets have a fixed expiry date:
+when boarding is closed they lose all their value.
 
-Whenever the flight time is approaching prices should therefore drop.
+Whenever flight time is approaching prices should therefore drop.
 This is the foundation of sites like lastminute.com
 that offered cheap ticket prices close to the flight.
 You were supposed to go to the airport,
