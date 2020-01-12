@@ -1,7 +1,7 @@
 ---
 title: 'Insane Plane Ticket Prices'
-subtitle: 'A Review and two Proposals'
-footer: Published on 2020-01-12, last modified on 2020-01-12.
+subtitle: 'A Review and Two Proposals'
+footer: Published on 2020-01-13, last modified on 2020-01-13.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
