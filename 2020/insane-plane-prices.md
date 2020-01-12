@@ -107,6 +107,11 @@ which force people to travel as soon as humanly possible.
 Surge pricing when the flight nears often means making money off bereaved people:
 airlines behave like vultures with total impunity.
 
+So should late tickets be cheap or expensive?
+For mere mortals they are now very expensive;
+I guess there must be some outlets where they are sold cheap when there is little demand,
+but I have not found it yet.
+
 ## Bizarrities and Excentrologies
 
 There are some phenomena that just defy what little common sense we may have left
