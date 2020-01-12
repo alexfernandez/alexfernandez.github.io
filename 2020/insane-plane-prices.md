@@ -293,7 +293,9 @@ In fact it is even simpler:
 This radical idea comes from a related industry.
 When you ride a bus there is just a single price:
 no haggling, no looking around, no comparison shopping.
-Everyone is happy and gets to their destination happily.
+Everyone gets to their destination happily,
+if not glamorously;
+after all it is still a bus.
 
 Following the redneckish theory that "planes are buses with wings",
 applying the same uniform pricing scheme would mean that
