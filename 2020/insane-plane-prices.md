@@ -208,7 +208,8 @@ The agent himself told me on the phone:
 
 Somehow it is cheaper to just leave an empty seat on the plane.
 I had already made the call and wasted the agent's time,
-so I have to guess that the €110 of administrative fees were for changing a few bytes on some datacenter.
+so I have to guess that the €110 in administrative fees were for changing a few bytes on some datacenter.
+Those are some expensive bytes.
 
 ### Overbooking
 
