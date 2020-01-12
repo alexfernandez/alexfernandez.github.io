@@ -160,7 +160,7 @@ Messy, huh?
 
 But that is not all.
 Quite often direct flights would be too expensive and we would be routed through some big hub like Frankfurt.
-so we would need to book Madrid → Frankfurt and Frankfurt → Cologne (and back).
+So we would need to book Madrid → Frankfurt and Frankfurt → Cologne (and back).
 And quite often the same restrictions would apply to tickets during the week to all four tickets.
 Therefore we would be travelling with **eight plane tickets** of which we would only use four:
 
@@ -194,7 +194,7 @@ Problem is they cost at least twice than a regular ticket,
 and it is not unusual to find some that cost around five times the regular price.
 In what world is this a good deal?
 
-![Why pay less when you can pay double for a flexible ticket?.](pics/insane-flexible-ticket.png "Optimal rate is €113, flexible rate (allowing change or cancellation is €231. Source: Iberia.com")
+![Why pay less when you can pay double for a flexible ticket?](pics/insane-flexible-ticket.png "Optimal rate is €113, flexible rate (allowing change or cancellation is €231. Source: Iberia.com")
 
 Some airlines allow you to change regular tickets.
 The other day I wanted to change a plane ticket on Iberia
