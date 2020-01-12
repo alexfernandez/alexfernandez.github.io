@@ -291,7 +291,7 @@ In fact it is even simpler:
 **attach the same price tag to every seat on the plane**.
 
 This radical idea comes from a related industry.
-When you ride a bus there just a single price:
+When you ride a bus there is just a single price:
 no haggling, no looking around, no comparison shopping.
 Everyone is happy and gets to their destination happily.
 
