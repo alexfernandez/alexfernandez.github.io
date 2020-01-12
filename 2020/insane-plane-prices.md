@@ -45,7 +45,7 @@ Abandon all hope now, human.
 ### Some History
 
 At some point in the past airlines stopped charging a fixed price for plane seats;
-instead they implemented weird price fixing schemes that charge everyone on the plane a different amount,
+instead they implemented weird price schemes that charge everyone on the plane a different amount,
 depending on what seat it is, at what time the ticket was purchased,
 the intermediary selling the ticket,
 and stupid things like how often they visited the website (!).
@@ -54,8 +54,8 @@ Such practices are completely opaque and unfair to buyers.
 According to the Wikipedia article on
 [Dynamic pricing](https://en.wikipedia.org/wiki/Dynamic_pricing#Dynamic_pricing_in_air_transportation)
 this happened sometime in the 1980s in the US,
-and I have to assume that it was imported to Europe in the 1990s.
-
+and I have to assume that it was imported to Europe in the 1990s,
+like all good things.
 During the 2000s this madness was fully implemented everywhere,
 making airlines some of the least loved organizations in the world,
 right after criminal syndicates but perhaps a bit before tobacco purveyors.
