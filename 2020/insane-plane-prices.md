@@ -89,14 +89,14 @@ in case anyone trusts comparison sites.
 
 ### Last Minute
 
-Last minute tickets are quite contradictory in nature.
-Plane tickets have a fixed expiry date:
+Late plane tickets are quite contradictory in nature.
+They have a fixed expiry date:
 when boarding is closed they lose all their value.
 
 Whenever flight time is approaching prices should therefore drop.
 This is the foundation of sites like lastminute.com
 that offered cheap ticket prices close to the flight.
-You were supposed to go to the airport,
+Originally you were supposed to go to the airport,
 go to the last minute booth and just let fortune take you to wherever was cheapest that day.
 I am guessing that a lot of visits to Norway in February were done in that fashion.
 
