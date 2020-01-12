@@ -252,7 +252,7 @@ Every price should be displayed on a neat map of the plane,
 just like seats on a concert.
 
 You see, dynamic pricing tends to favor the wealthy:
-they can overpay you out because they are, ahem, wealthy.
+they can overpay you out because they are, after all, wealthy.
 As we saw before it also burdens people in emergency situations,
 when they are most vulnerable.
 So for me it is clear that governments should protect their citizens
