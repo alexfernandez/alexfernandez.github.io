@@ -57,18 +57,34 @@ and I have to assume that it was imported to Europe in the 1990s.
 
 During the 2000s this madness was fully implemented everywhere,
 making airlines some of the least loved organizations in the world,
-right behind criminal syndicates but perhaps a bit ahead of tobacco purveyors.
+right after criminal syndicates but perhaps a bit before tobacco purveyors.
 They were so obviously trying to squeeze customers dry,
 and for some reason we customers tend to not like that.
 
-Around this time low cost airlines would start to announce flights
+![Just the top of the iceberg: scientifically designed to screw you over.](pics/insane-pricing-trends.png "Price trends from Madrid to Vienna varying wildly from January to June, source: Kayak.com")
+
+Around this time low cost airlines would announce cheap flights
 "starting at €1/$1/£1".
-For some reason
+Apparently they had lots of empty seats on their planes
+and would start selling them at ridiculous prices.
+Most of us would never get those tickets though,
+since they corresponded to off-off-season flights.
 
 ### Arms Race
 
-At some point during the early 2000s flight comparison sites started to appear,
-skipping all those protections and allowing users to really compare flight prices.
+It was also during the early 2000s that flight comparison sites started to appear:
+technology was now available to collect information from airlines and compare prices,
+skipping all the protections and allowing customers to really know how badly we were being scammed.
+What used to take a seasoned travel agent five or ten minutes was now done in seconds.
+
+![Cheap and romantic does not need to be mutually exclusive.](pics/insane-comparison-map.png "Price per location departing from MAD departing Tue 2/4 and returning Fri 2/7 on a nifty map, source: Kayak.com")
+
+Nowadays flight aggregators like eDreams or Expedia do the whole comparison,
+but also allow users to book flights and a host of other services.
+They have a patent conflict of interest,
+since they are now part of the problem:
+they take a commission off the ticket price.
+Therefore they cannot be trusted the same way as a pure comparison site.
 
 ### Last Minute
 
@@ -79,6 +95,9 @@ At that point they will lose all their value.
 Whenever the flight time is approaching prices should therefore drop.
 This is the foundation of sites like lastminute.com
 that offered cheap ticket prices close to the flight.
+You were supposed to go to the airport,
+go to the last minute booth and just let fortune take you to wherever was cheapest that day.
+I am guessing that a lot of visits to Norway in February were done in that fashion.
 
 But then there are people with emergencies that just have to travel.
 Airlines will probably speak of a sudden business oportunity when they want to whiten this practice.
@@ -89,7 +108,8 @@ airlines behave like vultures with total impunity.
 
 ## Bizarrities and Excentrologies
 
-There are some phenomena that just defy what little common sense we may have left.
+There are some phenomena that just defy what little common sense we may have left
+after this visit to the madhouse of plane ticket pricing.
 
 ### Stopovers
 
@@ -109,7 +129,10 @@ We might also think that those two flights are less in demand than the straight 
 but something tells me that if I wanted to fly from Palma to Vienna I would be offered
 Palma → Madrid → Vienna as a cheaper option.
 
-![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80")
+![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80, source: Kayak.com")
+
+So, everyone else is trying to lower their carbon footprint,
+but airlines are just happy to burn the planet so that they can charge more for a direct flight?
 
 ### Unused Return Tickets
 
@@ -145,28 +168,48 @@ Therefore we would be travelling with **eight plane tickets** of which we would 
 
 Somehow all this mess was cheaper than buying regular Madrid → Cologne tickets.
 
-Luckily at some point airlines stopped this madness.
+Luckily at some point airlines seemed to stop this madness
+But I don't want to naïvely assume that this is not happening right now under our noses,
+since it would make too much sense.
 
 ### Changes and Cancellations
 
 Another source of annoyances that would make old Franz Kafka proud
 is the issue of flight modifications.
-In the good old days you would go to the airport some hours or even days earlier,
+A couple of decades ago you would go to the airport some hours or even days earlier,
 ask on the company counter, and change your flight to an earlier one,
-perhaps paying a nominal fee but often for free.
+perhaps paying a nominal fee; often for free.
+Ah, those were the days.
 
-The other day I 
+Now airlines have something called "flexible rates"
+
+![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80, source: Kayak.com")
+
+The other day I wanted to change a plane ticket on Iberia
+for a later date.
+They have this funny "administration fee" (something like €30),
+which is coupled with an even funnier "cancellation fee" (€80? I forget)
+plus the difference in price for the ticket itself,
+for a total of €145. Neat!
+The agent himself told me on the phone:
+"You can purchase a new ticket for just €85 on our website".
+
+Somehow it is cheaper to just leave an empty seat on the plane.
+I had already made the call and wasted the agent's time,
+so I have to guess that the €110 of administrative fees were for changing a few bytes on some datacenter.
 
 ### Overbooking
 
 All this mess of fake and unused tickets
 
-## A Modest Proposal
+## A Modest (+ a Bold) Proposal
+
+Is there any way to fix this madness?
 
 ### Fixed Pricing
 
-One of the great improvements in commerce is **the price tag**:
-the price of an item displayed next to it.
+One of the great improvements in commerce is **the price tag**,
+a little label that displays the price of an item next to it.
 This allowed buyers to stop bargaining for every purchase,
 saving countless hours of time both for the buyer and for the seller.
 If you have gone shopping in a country where prices are not fixed
@@ -176,9 +219,67 @@ Or even worse, the regrets of overpaying because you are in a hurry or just not 
 Fixed pricing solved all of this and allowed commerce to blossom,
 with inventions like the supermarket or the mall flourishing.
 
-## Pricing Software
+![Some of us miss the haggling, though.](pics/insane-haggling-beard.png "Haggling for a beard on Life of Brian, by Monty Python.")
 
+So the modest proposal is this:
+**Attach a fixed price to every seat on a plane**.
+It can be a different price for each seat,
+but it cannot change over the sale of the plane ticket.
+Every price should be displayed on a neat map of the plane,
+just like seats on a concert.
 
+You see, dynamic pricing tends to favor the wealthy:
+they can overpay you out because they are, ahem, wealthy.
+As we saw before it also burdens people in emergency situations,
+when they are most vulnerable.
+So for me it is clear that governments should protect their citizens
+and stop this madness.
+Each government should be free to regulate its own domestic flights,
+and then some kind of transnational cooperation might do the same for international flights.
+In the EU it would be relatively simple to keep airlines in check
+and stop doing the macabre pricing dance across its member countries.
+Then the rest of the world would see the goodness of the new scheme and…
+
+Haha, just kidding!
+It would probably be tried in some Nordic country first
+(if they are not already doing it for their domestic flights),
+seen to be good and then ignored by everyone else.
+But hey, a boy can dream.
+
+### Fees, Taxes, Surcharges and Other Scams
+
+For a similar situation that was solved with regulation,
+the seasoned travellers among you will remember that in the late 2000s
+airlines began feeling the heat of low cost and started applying a host of price supplements
+that took the advertised €30 per ticket to €100 or more:
+handling fees,
+airport fees,
+fuel surcharges and many other surreptitious ripoffs.
+
+At some point it got so bad that authorities had to intervene and forbid all those surcharges.
+Surprise!
+Airlines did not collapse and planes did not start falling off the skies.
+
+### The Bold Proposal
+
+We are almost finished,
+and it's about time to tell you the bold proposal.
+In fact it is even simpler:
+**attach the same price tag to every seat on the plane**.
+
+This radical idea comes from a related industry.
+When you ride a bus there just a single price:
+no haggling, no looking around, no comparison shopping.
+Everyone is happy and gets to their destination happily.
+
+Following the redneckish theory that "planes are buses with wings",
+applying the same uniform pricing scheme would mean that
+we might finally stop wondering what the neighbour paid for their ticket
+and instead concentrate on our innate fears of being airborne.
+
+Truth is, the amount of time spent to just book simple plane tickets
+could be used profitably by society to cure cancer in a few months,
+and have many people-years to spare.
 
 ## Conclusions
 

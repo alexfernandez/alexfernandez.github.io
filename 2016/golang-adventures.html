@@ -228,7 +228,7 @@ invalid operation: myFloat &gt; myInt (mismatched types float64 and int)</code><
 <pre><code>$ go get gopkg.in/redis.v3
 # gopkg.in/redis.v3
 ../../.gocode/src/gopkg.in/redis.v3/pool.go:144: undefined: atomic.Value</code></pre>
-<p>What is this evil? Googling <code>go-redis &quot;undefined: atomic.Value&quot;</code> will not yield an answer, but Google helpfully removes the quotes and returns this <a href="https://github.com/ethereum/go-ethereum/issues/1584">related page</a> for a different project:</p>
+<p>What is this evil? Googling <code>go-redis "undefined: atomic.Value"</code> will not yield an answer, but Google helpfully removes the quotes and returns this <a href="https://github.com/ethereum/go-ethereum/issues/1584">related page</a> for a different project:</p>
 <blockquote>
 <p>You need Go 1.4 or a later version to build go-ethereum.</p>
 </blockquote>
