@@ -150,9 +150,9 @@ She was kind of a wizard at finding cheap options in combination with the agency
 Now, airlines at the time wanted to rip off business travellers such as ourselves
 even harder than regular customers.
 Plane tickets during the week were much more expensive than when one of the trips happened on a weekend.
-Sometimes they would propose a cheaper alternative:
+Sometimes our secretary would propose a cheaper alternative:
 instead of e.g. Madrid → Cologne on Monday with return ticket Cologne → Madrid on Thursday,
-they would buy Madrid → Cologne on Monday with a fake return ticket on Sunday,
+the agency would buy Madrid → Cologne on Monday with a fake return ticket on Sunday,
 and then buy Cologne → Madrid on Thursday again with a fake return ticket on Sunday.
 We would of course only use the first leg of the first ticket +
 the second leg of the second ticket.
