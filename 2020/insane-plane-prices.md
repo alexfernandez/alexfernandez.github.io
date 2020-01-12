@@ -108,9 +108,9 @@ Surge pricing when the flight nears often means making money off bereaved people
 airlines behave like vultures with total impunity.
 
 So should late tickets be cheap or expensive?
-For mere mortals they are now very expensive;
-I guess there must be some outlets where they are sold cheap when there is little demand,
-but I have not found it yet.
+For mere mortals they are now very expensive.
+I have not found any outlets where they are sold cheap when there is little demand,
+in direct defiance of the sacred laws of supply and demand.
 
 ## Bizarrities and Excentrologies
 
@@ -138,7 +138,8 @@ Palma → Madrid → Vienna as a cheaper option.
 ![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80. Source: Kayak.com")
 
 So, everyone else is trying to lower their carbon footprint,
-but airlines are just happy to burn the planet so that they can charge more for a direct flight?
+but airlines are just happy to burn the planet so that they can charge more for a direct flight.
+Way to go, air travel industry!
 
 ### Unused Return Tickets
 
