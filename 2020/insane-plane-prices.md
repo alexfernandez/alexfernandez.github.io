@@ -5,7 +5,7 @@ footer: Published on 2020-01-12, last modified on 2020-01-12.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Crazy planes.](pics/crazy-planes.jpg "Image TBD")
+![Algorithm to determine plane ticket prices.](pics/insane-dreyfus-writing.jpg "Chief Inspector Dreyfus writes on wall of asylum in Return of the Pink Panther. Source: https://www.bbc.com/news/in-pictures-19746381")
 
 If you have ever travelled by plane you have probably suffered some form of insane pricing scheme:
 cheaper tickets if you fly with several stopovers,
@@ -61,7 +61,7 @@ right after criminal syndicates but perhaps a bit before tobacco purveyors.
 They were so obviously trying to squeeze customers dry,
 and for some reason we customers tend to not like that.
 
-![Just the top of the iceberg: scientifically designed to screw you over.](pics/insane-pricing-trends.png "Price trends from Madrid to Vienna varying wildly from January to June, source: Kayak.com")
+![Just the top of the iceberg: scientifically designed to screw you over.](pics/insane-price-trends.png "Price trends from Madrid to Vienna varying wildly from January to June. Source: Kayak.com")
 
 Around this time low cost airlines would announce cheap flights
 "starting at €1/$1/£1".
@@ -77,7 +77,7 @@ technology was now available to collect information from airlines and compare pr
 skipping all the protections and allowing customers to really know how badly we were being scammed.
 What used to take a seasoned travel agent five or ten minutes was now done in seconds.
 
-![Cheap and romantic does not need to be mutually exclusive.](pics/insane-comparison-map.png "Price per location departing from MAD departing Tue 2/4 and returning Fri 2/7 on a nifty map, source: Kayak.com")
+![Cheap and romantic does not need to be mutually exclusive.](pics/insane-comparison-map.png "Price per location departing from MAD departing Tue 2/4 and returning Fri 2/7 on a nifty map. Source: Kayak.com")
 
 Nowadays flight aggregators like eDreams or Expedia do the whole comparison,
 but also allow users to book flights and a host of other services.
@@ -129,7 +129,7 @@ We might also think that those two flights are less in demand than the straight 
 but something tells me that if I wanted to fly from Palma to Vienna I would be offered
 Palma → Madrid → Vienna as a cheaper option.
 
-![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80, source: Kayak.com")
+![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80. Source: Kayak.com")
 
 So, everyone else is trying to lower their carbon footprint,
 but airlines are just happy to burn the planet so that they can charge more for a direct flight?
@@ -182,9 +182,14 @@ perhaps paying a nominal fee; often for free.
 Ah, those were the days.
 
 Now airlines have something called "flexible rates"
+that allow travellers to change dates freely.
+Problem is they cost at least twice than a regular ticket,
+and it is not unusual to find some that cost around five times the regular price.
+In what world is this a good deal?
 
-![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80, source: Kayak.com")
+![Why pay less when you can pay double for a flexible ticket?.](pics/insane-flexible-ticket.png "Optimal rate is €113, flexible rate (allowing change or cancellation is €231. Source: Iberia.com")
 
+Some airlines allow you to change regular tickets.
 The other day I wanted to change a plane ticket on Iberia
 for a later date.
 They have this funny "administration fee" (something like €30),
@@ -200,7 +205,17 @@ so I have to guess that the €110 of administrative fees were for changing a fe
 
 ### Overbooking
 
-All this mess of fake and unused tickets
+All this mess of fake and unused tickets used to leave a lot of empty seats on planes.
+So airlines cleverly started to sell more tickets than seats.
+The downside is that sometimes everyone wanted to fly after all,
+resulting in "overbooking" a plane:
+some people had to be moved to later flights,
+in the process losing a day or two of their precious holidays.
+
+This practice is now heavily regulated:
+in the EU companies must pay hefty fines to overbooked passengers,
+and it has correspondingly gone out of fashion.
+But it can still be seen from time to time.
 
 ## A Modest (+ a Bold) Proposal
 
@@ -219,7 +234,7 @@ Or even worse, the regrets of overpaying because you are in a hurry or just not 
 Fixed pricing solved all of this and allowed commerce to blossom,
 with inventions like the supermarket or the mall flourishing.
 
-![Some of us miss the haggling, though.](pics/insane-haggling-beard.png "Haggling for a beard on Life of Brian, by Monty Python.")
+![Some of us miss the haggling, though.](pics/insane-haggling-beard.jpg "Haggling for a beard on Life of Brian, by Monty Python. Source: https://images.app.goo.gl/ifPBNYqxroT4Jgpr8")
 
 So the modest proposal is this:
 **Attach a fixed price to every seat on a plane**.
@@ -277,16 +292,20 @@ applying the same uniform pricing scheme would mean that
 we might finally stop wondering what the neighbour paid for their ticket
 and instead concentrate on our innate fears of being airborne.
 
-Truth is, the amount of time spent to just book simple plane tickets
+I am not an economist,
+but setting a fair price for every seat would leave the same margin for the airline
+than overcharging some people and underchanging others.
+And meanwhile the amount of time now spent to just buy simple plane tickets without being robbed blind
 could be used profitably by society to cure cancer in a few months,
 and have many people-years to spare.
 
 ## Conclusions
 
-The situation stinks,
+The plane ticket pricing situation stinks,
 but it is not unsolvable.
 International regulation would probably be required to fix the situation completely.
 Meanwhile countries can start fixing the issue for national flights.
+Or we can just go on as usual!
 
 ### Acknowledgements
 
