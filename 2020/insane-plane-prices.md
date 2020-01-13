@@ -176,9 +176,9 @@ Therefore we would be travelling with **eight plane tickets** of which we would 
 
 Somehow all this mess was cheaper than buying regular Madrid → Cologne tickets.
 
-Luckily at some point airlines seemed to stop this madness
-But I don't want to naïvely assume that this is not happening right now under our noses,
-since it would make too much sense.
+I have not used travel agencies in a long time,
+and from what I have seen lately it does not happen anymore.
+But I don't want to naïvely assume that the weekend discount has completely disappeared since it would make too much sense.
 
 ### Changes and Cancellations
 
