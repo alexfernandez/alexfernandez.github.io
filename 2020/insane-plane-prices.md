@@ -214,7 +214,7 @@ Those are some expensive bytes.
 
 ### Overbooking
 
-All this mess of fake and unused tickets used to leave a lot of empty seats on planes.
+All this mess of fake and unused tickets will leave a lot of empty seats on planes.
 So airlines cleverly started to sell more tickets than seats.
 The downside is that sometimes everyone wanted to fly after all,
 resulting in "overbooking" a plane:
