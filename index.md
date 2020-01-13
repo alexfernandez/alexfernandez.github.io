@@ -14,6 +14,7 @@ Some articles are in Spanish **#ES**.
 
 Latest articles first.
 
+* 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices.html) #OT
 * 2020-01-02: [Repaso de 2019 y propósitos para 2020](2020/repaso-propositos.html) #OT #ES
 * 2019-12-31: [Continuous Deployment on the Cheap](2019/devops-on-the-cheap.html) #SoftEng
 * 2019-06-08: [A Guide to High Speeds](2019/high-speeds.html) #OT
