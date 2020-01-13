@@ -22,8 +22,8 @@ But I would love it if we would take collective action and improve the situation
 ## So What _Is_ the Problem, Dear?
 
 Simple.
-Go to your favorite airline website and check the price of a plane ticket for any destination and time frame.
-Then go back the next day and do the same again: chances are prices will have fluctuated.
+Go to your favorite airline website and check the price of a plane ticket for any destination and dates.
+Then go back the next day and check the same ticket again: chances are prices will have fluctuated.
 Do the same for a few times for the sake of it,
 and you will have a nice curve that has nothing whatsoever to do with actual value
 or any other aspect of the real world.
