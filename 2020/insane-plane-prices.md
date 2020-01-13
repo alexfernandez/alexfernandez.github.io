@@ -46,7 +46,7 @@ Abandon all hope now, human.
 
 At some point in the past airlines stopped charging a fixed price for plane seats;
 instead they implemented weird price schemes that charge everyone on the plane a different amount,
-depending on what seat it is, at what time the ticket was purchased,
+depending on what seat it is, at what date and time the ticket was purchased,
 the intermediary selling the ticket,
 and stupid things like how often they visited the website (!).
 Such practices are completely opaque and unfair to buyers.
