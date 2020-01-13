@@ -166,13 +166,13 @@ And quite often the same restrictions would apply to tickets during the week to 
 Therefore we would be travelling with **eight plane tickets** of which we would only use four:
 
 * Madrid → Frankfurt,
-* Frankfurt → Madrid (fake, on the next weekend),
+* Frankfurt → Madrid (fake return, on the next weekend),
 * Frankfurt → Cologne,
-* Cologne → Frankfurt (fake, on the next weekend),
+* Cologne → Frankfurt (fake return, on the next weekend),
 * Cologne → Frankfurt (for real now),
-* Frankfurt → Cologne (fake, on the next weekend),
+* Frankfurt → Cologne (fake return, on the next weekend),
 * Frankfurt → Madrid (finally),
-* and Madrid → Frankfurt (again fake on the next weekend).
+* and Madrid → Frankfurt (again fake return on the next weekend).
 
 Somehow all this mess was cheaper than buying regular Madrid → Cologne tickets.
 
