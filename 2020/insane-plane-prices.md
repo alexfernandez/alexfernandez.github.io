@@ -321,5 +321,6 @@ Or we can just go on as usual!
 
 ### Acknowledgements
 
-Thanks for reading!
+Thanks to [Rubén Sospedra](https://twitter.com/sospedra_r/status/1216666141248147456)
+for the TL;DR at the beginning.
 
