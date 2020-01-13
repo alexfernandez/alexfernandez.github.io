@@ -82,8 +82,8 @@ What used to take a seasoned travel agent five or ten minutes was now done in se
 
 Nowadays flight aggregators like eDreams or Expedia do the whole comparison,
 but also allow users to book flights and a host of other services.
-They have a patent conflict of interest,
-since they are now part of the problem when they take a commission off the ticket price.
+They have a patent conflict of interest:
+since they take a commission off the ticket price they are now part of the problem.
 They can no longer be trusted to act as a pure comparison site,
 in case anyone trusts comparison sites.
 
