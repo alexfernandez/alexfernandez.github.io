@@ -7,6 +7,8 @@ footer: Published on 2020-01-13, last modified on 2020-01-13.
 
 ![Artistic representation of an algorithm to determine plane ticket prices.](pics/insane-dreyfus-writing.jpg "Chief Inspector Dreyfus writes on wall of asylum in Return of the Pink Panther. Source: https://www.bbc.com/news/in-pictures-19746381")
 
+TL;DR Neocon pricing ruins plane travel
+
 If you have ever travelled by plane you have probably suffered some form of insane pricing scheme:
 cheaper tickets if you fly with several stopovers,
 different prices depending on where and how you buy your ticket,
