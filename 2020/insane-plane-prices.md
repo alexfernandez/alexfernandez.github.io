@@ -126,16 +126,17 @@ it is quite likely that the cheapest ticket is not a direct route;
 instead it has one or sometimes even two stopovers,
 lenghtening flight time considerably.
 
+![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80. Source: Kayak.com")
+
 Now I like to think of myself as a reasonable person,
 but there is no way you will ever convince me that flying from Madrid to Palma
 and then to Vienna can be made cheaper than going straight to Vienna.
+Or even worse, Vienna → Cologne → Madrid cheaper than Vienna → Madrid!
 The only explanation I can think of is that airlines are charging a premium for flying comfortably,
 or equivalently they are discounting the annoyances of having to change planes and spend all day travelling.
 We might also think that those two flights are less in demand than the straight route,
 but something tells me that if I wanted to fly from Palma to Vienna I would be offered
 Palma → Madrid → Vienna as a cheaper option.
-
-![Madrid → Vienna cheapest options. I promise this was my first search.](pics/insane-madrid-vienna.png "Madrid → Vienna 2020-02-04 to 2020-02-07, first option is Madrid → Palma → Vienna at $67 and second also has return Vienna → Cologne → Madrid at $80. Source: Kayak.com")
 
 So, everyone else is trying to lower their carbon footprint,
 but airlines are just happy to burn the planet so that they can charge more for a direct flight.
