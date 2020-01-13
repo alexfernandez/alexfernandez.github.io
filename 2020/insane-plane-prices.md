@@ -109,7 +109,7 @@ airlines behave like vultures with total impunity.
 
 So should late tickets be cheap or expensive?
 For mere mortals they are now very expensive.
-I have not found any outlets where they are sold cheap when there is little demand,
+I have not found any outlets where they are sold cheap when the plane is half empty,
 in direct defiance of the sacred laws of supply and demand.
 
 ## Bizarrities and Excentrologies
