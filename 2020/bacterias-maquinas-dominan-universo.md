@@ -1,7 +1,7 @@
 ---
-title: 'Repaso de 2019 y propósitos para 2020'
+title: 'Bacterias: máquinas que dominan el universo'
 subtitle: '🎶 Ay quién maneja mi barca, quién 🎶'
-footer: Publicado el 2020-01-02, modificado el 2020-01-02.
+footer: Publicado el 2020-02-01, modificado el 2020-02-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
