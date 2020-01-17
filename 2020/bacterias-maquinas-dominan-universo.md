@@ -1,235 +1,166 @@
 ---
 title: 'Bacterias: máquinas que dominan el universo'
-subtitle: '🎶 Ay quién maneja mi barca, quién 🎶'
-footer: Publicado el 2020-02-01, modificado el 2020-02-01.
+subtitle: 'Artículo sobre la charla para T3chfest 2020'
+footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Empezamos un nuevo año.](pics/repaso-anyo-nuevo.jpg "San Isidro Concert at Retiro Park, fuente: https://commons.wikimedia.org/wiki/File:MADRID_060515_MXALX_096.jpg")
+![Latitude Leaking Longitude.](pics/bacterias-agar-art-contest.jpg "Latitude Leaking Longitude, source: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/")
 
-En este inicio de año voy a hacer públicas algunas reflexiones,
-a ver si consigo que se publiquen en la página de objetivos de
-[David Bonilla](https://bonillaware.com/objetivos-para-2020).
-Los propósitos en sí los he indicado **en negrita**.
+Desde las profundidades del océano hasta el límite del espacio, desde el hielo de la Antártida hasta nuestros cerebros: donde quiera que miramos encontramos bacterias. La vida en nuestro planeta sería imposible sin ellas, y sin embargo a veces nos ponen difícil sobrevivir. ¿Os suena un discurso apropiado para una conferencia de tecnología? ¿Y si os digo que en realidad son microfactorías de microrrobots controlados por programas que se autogeneran?
 
-## Repaso de 2019
+A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. En esta charla veremos el campo desde el punto de vista tecnológico: de cuánta información disponen y cómo la transmiten entre sí. Por el camino repasaremos la relación de las bacterias con el resto de la vida, en particular con la humanidad. También veremos multitud de hallazgos curiosos que se desconocían hace sólo un par de décadas, incluyendo algunos que están esperando confirmación para dar premios Nobel a sus descubridores. Para terminar veremos los controvertidos hallazgos fuera de la Tierra, y su posible origen estelar.
 
-Voy a empezar por revisar el año que acaba de terminar.
+## ¿Máquinas?
 
-### Laboral
+### Tamaño de ROM
 
-Empecé este año pasado negociando un cambio de trabajo.
+Los virus tienen un genoma que oscila entre
+4000 y 1.3 millones de nucleótidos, según
+[Harnessing the Power of Viruses p.8 (Boriana Marintcheva, 2018)](https://books.google.at/books?id=20E7DwAAQBAJ&printsec=frontcover&dq=Harnessing+the+Power+of+Viruses&hl=en&sa=X&ved=0ahUKEwjard3Hu4rnAhWu16YKHU-nDyUQ6AEIMDAA#v=snippet&q=4000%20nucleotides&f=false).
 
-He estado casi dos años muy a gusto en [Devo](https://www.devo.com/)
-y con buenas condiciones:
-en el equipo de desarrollo he reencontrado a viejos amigos y hecho otros nuevos,
-he trabajado en Node.js a muy bajo nivel,
-e incluso he conseguido que aceptaran
-[mi primer código en el core de Node.js](https://github.com/nodejs/node/pull/20344),
-que ha llevado a una
-[mejora de rendimiento brutal en conexiones TLS](https://github.com/nodejs/node/pull/27861)
-para todos los usuarios.
+### Clasificación
 
-Pero echaba de menos algo más de responsabilidad, la verdad,
-sobre todo para implantar ciertas prácticas de desarrollo de software
-que me parecen esenciales y donde Devo dejaba que desear:
+Las bacterias son una fuente inagotable de sorpresas.
+Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
 
-* limpieza en entornos de desarrollo,
-* despliegue continuo,
-* [DevOps en general](http://pinchito.es/2017/build-your-own-devops-infrastructure.html),
-* y [revisión de código](http://pinchito.es/2018/has-anyone-else-seen-your-code.html).
+En 1974
+[Woese y Fox](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC432104/)
+propusieron separar a las "arqueobacterias" en su propio árbol
+independiente del resto de bacterias.
+Actualmente se conocen como ["arqueas"](https://biodifferences.com/difference-between-archaea-and-bacteria.html)
+ya que son muy diferentes en metabolismo y genética a las bacterias.
 
-A finales de marzo me cambié a
-[Influencity](https://influencity.com/).
-El reto era bastante grande:
-liderar un equipo muy desmotivado y actualizar una plataforma con una deuda técnica monumental,
-tras varios años de desarrollos a matacaballo.
+Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
+¿verdad?
 
-![Bienvenidos al maravilloso mundo de los influencers.](pics/repaso-influencers.jpg "Mona et la laitière immortalisent leur voyage chez le cri, fuente: https://commons.wikimedia.org/wiki/File:Selfie_art.jpg")
+En enero de 2020 se ha publicado un artículo en Nature con el
+[descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
 
-En unos pocos meses teníamos
-[un sistema de integración continua potente](http://pinchito.es/2019/devops-on-the-cheap.html),
-y dos nuevas personas que han redondeado un equipo de alto rendimiento, motivado y trabajando a tope.
-Hemos relanzado varios componentes críticos de la plataforma,
-renovado la web y añadido una sección de pagos completamente nueva.
+### Parámetros físicos
 
-Todo esto mientras creábamos varias suites de pruebas y
-mejorábamos la arquitectura interna:
-en el backend hemos eliminado una arquitectura de microservicios algo extraña
-que ralentizaba desarrollo, ejecución y despliegues sin ningún beneficio real,
-volviendo a un monolito mucho más eficiente.
-En el frontend hemos creado una librería de componentes React
-que ha simplificado mucho el trabajo.
+La mayoría de las bacterías están
+[alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
+aunque algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
+Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.sciencespacerobots.com/thiomargarita-namibiensis-61420191)
+que son visibles a simple vista (0.75 mm).
 
-No está mal para ocho meses, ¿no?
-Pero ni siquiera ha sido lo más importante:
-la experiencia de liderar un equipo de _millennials_ ha sido muy enriquecedora.
+A pesar de ser tan pequeñas,
+al haber 10^30 representan la gran mayoría de la
+[biomasa terrestre](https://www.vox.com/science-and-health/2018/5/29/17386112/all-life-on-earth-chart-weight-plants-animals-pnas).
 
-De forma global creo que hemos cumplido (casi) todos los objetivos técnicos y de negocio.
-El camino no ha estado exento de problemas:
-al parecer no he sabido transmitir al CEO todo el trabajo realizado.
-Mi torpeza para la comunicación y la política interna
-(seguramente combinada con una situación financiera delicada)
-ha terminado motivando mi salida de la empresa.
+![Biomasa por reino.](pics/bacterias-by-weight.jpg "Protistas: 4 gigatones de carbono, arqueas: 7 Gt C, hongos: 12 Gt C, bacterias: 70 Gt C. Fuente: https://www.vox.com/science-and-health/2018/5/29/17386112/all-life-on-earth-chart-weight-plants-animals-pnas.")
 
-Termino el año embarcado en algún que otro proceso de selección para puestos en remoto.
-¡Estoy más liado que cuando trabajaba!
-(Es broma, pero hay días estresantes, la verdad.)
+No sabemos exactamente el número de especies.
+Algunas estimaciones llegan hasta
+[el trillón de especies](https://www.pnas.org/content/113/21/5970),
+aunque estimaciones más realistas dan
+[entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
+entre bacterias y arqueas.
 
-### Comunidad
+### Historia
 
-Este año he dejado la organización de MadridJS y Node.js Madrid.
-Había empezado a notar que me daba pereza gestionar los eventos,
-y luego a la hora de ir me saltaba la mayoría.
-Así que tras cinco años a una media de 20 eventos al año
-he decidido dejar la organización en las capaces manos de
-[Javi Vélez](https://twitter.com/javiervelezreye) y
-[Manu Fosela](https://twitter.com/manufosela).
+Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
-He seguido en el PMC de Codemotion Madrid,
-donde también he dado una
-[charlita](https://events.codemotion.com/conferences/madrid/2019/speaker/4421/)
-metiéndome con inteligencias artificiales y "roboces".
-En el lado negativo la valoración del público ha sido regular:
+## El largo camino a la simbiosis
 
-> 67 % "Good", 22 % "Neutral" and 11 % "Bad"
+### Control bacteriano
 
-bastante peor que mi charla del año pasado:
+Seguro que has visto jabones anunciados que
+[matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
+Suena bien, ¿no?
+El único problema es la replicación exponencial.
 
-> 95% "Good", 5 % "Neutral" and 0% "Bad",
+El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
+puede oscilar entre unos 20 minutos para _Escherichia coli_ y 15 horas para _Mycobacterium tuberculosis_.
+Eso quiere decir que tras una hora el número de _E. coli_ se multiplica por 8.
+Tras eliminar el 99.9% de las bacterias,
+¿cuánto tiempo tardamos en volver a tener las mismas bacterias que al principio?
+Fácil: 200 minutos, o sea unas tres horas.
 
-e incluso que la [première en Roma](https://events.codemotion.com/conferences/rome/2019/speaker/4421/) este mismo año:
+En la naturaleza se observan
+[tiempo de replicación mayores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015860/),
+alrededor de una hora para _E. coli_.
+Con este tiempo más conservador las manos nos durarán más tiempo limpias:
+para ser exactos, 10 horas.
 
-> 78% "Good",  15% "Neutral" and  7% "Bad".
+Seguir añadiendo nueves no nos protege demasiado más.
+Incluso un jabón que elimine
+[el 99.999% de las bacterias](http://www2.debgroup.com/sites/default/files/pdfs/Por-que-es-importante-el-99.999%25.pdf)
+nos dejará las manos exactamente igual tras 16 horitas.
+Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
-Para empezar tuve problemas técnicos con algunos vídeos,
-pero no puedo achacar a eso la valoración.
-Aunque el público estuvo interesado la mayor parte del tiempo
-creo que no he sabido hacer que el material fuera todo lo interesante que se merecía.
+### Enfermedades múltiples
 
-También en Codemotion he dado un
-[webinar](https://extra.codemotion.com/webinar-alexfernandez-refactoringarchitecture/)
-sobre cómo refactorizar la arquitectura de un sistema en uso,
-basado en el trabajo hecho en Influencity.
+Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
+[autismo y esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
-He presentado cinco propuestas para
-[t3chfest](https://t3chfest.es/2020/en):
-una en solitario sobre bacterias vistas desde el punto de vista de la tecnología,
-y [cuatro dando apoyo](https://twitter.com/pinchito/status/1207344167854247937) a otros tantos grandes ponentes.
-Ya hemos avisado que como salga mi propuesta con [Fran Barea](https://twitter.com/MandisBack) ¡va a ser la risa! 😂
+### Úlceras y bacterias
 
-Por último he publicado el
-[curso de Unix](http://pinchito.es/2019/curso-unix.html)
-que sin duda hará las delicias de grandes y pequeños.
+### Enfermedades autoinmunes
 
-### Personal
+### Enfermedad inflamatoria intestinal
 
-Este año me he mudado a Viena con mi familia,
-aunque yo he seguido viniendo a Madrid una semana al mes.
-Mi hija y mi mujer están aprendiendo alemán como unas campeonas,
-y hemos podido atravesar los complejos trámites del cambio de residencia para ellas.
-La vida en esta maravillosa ciudad es muy tranquila y ordenada.
-En general, una experiencia muy interesante.
+El número de casos crece de forma alarmante en todo el mundo.
+Algunos ejemplos:
+[Canadá](https://www.sciencedirect.com/science/article/pii/S0016508519300216),
+[España](https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679)
+o
+[Taiwan](https://www.researchgate.net/publication/259244930_A_nationwide_population-based_study_of_the_inflammatory_bowel_diseases_between_1998_and_2008_in_Taiwan).
+Los [datos históricos desde 1930](https://www.researchgate.net/publication/8044431_Helminths_and_the_modulation_of_mucosal_inflammation)
+siguen la misma tendencia.
+La incidencia se acerca peligrosamente al 1% de la población en ciertas regiones como
+[Canadá o Australia](https://www.researchgate.net/publication/320437880_Worldwide_incidence_and_prevalence_of_inflammatory_bowel_disease_in_the_21st_century_A_systematic_review_of_population-based_studies).
+Además, parece que los aumentos están asociados a la
+[industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
+de las sociedades.
 
-También me he dedicado con afán a aprender a dibujar,
-y ya empiezo a ver los frutos.
-Mi profesor es el gran
-[Arturo Martín Burgos](http://www.arturomartinburgos.com/),
-reputado pintor y escenógrafo, y ganador de un premio MAX de teatro.
-Me está dando clase a través de Whatsapp,
-y a cambio yo le actualizo de vez en cuando su página web.
+![Casos en España, 1976 a 2010.](pics/bacterias-crohns-incidence-spain.jpg "De un caso de Crohn en los 1980 a 10 en 2010. Fuente: https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679.")
 
-Esta Navidad me propuse el _portrait challenge_:
-dibujar gratis a gente que pasara por el paseo marítimo.
-Finalmente me atreví y conseguí un par de "clientes".
+¿Cuál es la causa de esta plaga moderna?
 
-![Afortunado poseedor de un Fernández.](pics/repaso-retrato.jpg "Este retrato no quedó mal del todo")
 
-## Propósitos para 2020
+## Panspermia: ¿venimos de las estrellas?
 
-A continuación os contaré mis propósitos de año nuevo.
+https://en.wikipedia.org/wiki/Plasmid
 
-### Laboral
 
-En este nuevo año quiero buscar un **trabajo que sea sostenible**
-y donde pueda desarrollar mi carrera durante cinco o diez años tranquilamente.
-Idealmente me gustaría trabajar en un sitio con reto técnico
-y que no sea exactamente lo mismo que llevo haciendo varios años.
 
-También me interesa que sea algo relacionado con mi carrera profesional:
-tengo ya 47 años, y según parece a partir de los 50 la búsqueda de trabajo se complica bastante.
-Me gustaría seguir avanzando en retos de escalabilidad y rendimiento.
+http://nautil.us/issue/77/underworldsnbsp/never-underestimate-the-intelligence-of-trees
 
-Llevo varias semanas dudando entre buscar puestos más de liderazo de equipos o seguir una carrera técnica,
-o bien combinar ambas cosas.
-Creo que en este momento mi mejor opción es ver qué ofertas tengo
-y luego decidir entre ellas
-(si es que consigo más de una).
+image.png
 
-![#firstWorldProblems, o como decimos en España: "Más cornás da el hambre".](pics/repaso-desempleo.jpg "Unemployed men queued outside a depression soup kitchen opened in Chicago by Al Capone, fuente: https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg")
 
-También me gustaría **dar algún curso técnico**.
-Se aprende muchísimo dando clase,
-y hace tiempo que lo tengo algo abandonado.
+http://book.bionumbers.org/how-big-are-genomes/
 
-### Comunidad
+https://www.youtube.com/watch?v=plVk4NVIUh8
 
-Este año me gustaría **acercarme a
-[ViennaJS](https://viennajs.org/)**
-para ver qué se cuece por allí.
-A finales de curso tenemos previsto volvernos a España así que tengo unos meses todavía.
+Bacteria attacks: fast mutation - plasmids
 
-Quiero **seguir dando charlas ocasionales**.
-Como soy muy divo no suelo buscar CfPs activamente sino que espero a que me inviten.
-No pido mucho realmente, basta con un tweet o un mail convocándome.
-Y por supuesto me interesa **seguir colaborando con cualquier organización que me necesite**,
-empezando por Codemotion (si me quieren).
+Human attacks: random generation -> rapid mutation in the immune system
 
-Estoy muy interesado en **subir el nivel de las charlas que dé**,
-tras el relativo jarro de agua fría de Codemotion.
-Para empezar intentaré potenciar el aspecto técnico,
-y al mismo tiempo que sean más amenas.
-¡Todo un reto!
+Science attacks: double blind studies
 
-También pretendo **colaborar con charlas de otra gente**
-y aprovechar para aprender de ellos.
-Básicamente estoy dispuesto a buscar ayuda donde la encuentre.
+https://ideas.ted.com/watch-a-cellular-biologist-animates-the-life-cycle-of-hiv-in-this-hypnotic-video/
 
-### Personal
+https://www.youtube.com/watch?v=wJyUtbn0O5Y
 
-Para terminar el año se me rompió mi añejo Samsung S7,
-sin posibilidad de recuperar nada;
-por suerte había hecho una copia de seguridad hace un par de semanas.
-En el nuevo Samsung A40 no he instalado el ajedrez ni otras aplicaciones que me coman la vida.
-Mi propósito general es **usar mucho menos el móvil**.
-Esto sustituye al clásico "pasar más tiempo con mi familia" pero no deja de tener el mismo objetivo,
-porque el tiempo robado al móvil lo usaré obviamente en eso.
+Epigenetic material in bacteria
+https://mmbr.asm.org/content/70/3/830
 
-En el área más artística me gustaría **perfeccionar varias áreas del dibujo**
-como el trazo o la composición.
-Espero poder **repetir el _portrait challenge_**,
-tanto este inicio de año como en verano.
+Archaea and bacteria
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC432104/
 
-Tengo interés desde hace tiempo en empezar a **publicar mis dibujos**,
-por ejemplo en Instagram,
-aunque me da bastante reparo su política de uso.
+https://en.wikipedia.org/wiki/Human_milk_microbiome
 
-Por último tengo pendiente **publicar el curso de dibujo en remoto** de mi profesor Arturo,
-basado en los ejercicios que me envía.
-Creo que puede ayudar a mucha gente igual que me ha servido a mí.
 
 ## Conclusiones
 
-Como véis tengo doce propósitos para este año.
-He intentado que sean objetivos concretos y contrastables,
-aunque soy consciente de que no siempre lo he conseguido.
-¿Cuántos cumpliré?
-¿Cuántos quedarán en agua de borrajas?
-¡El año que viene tendremos la respuesta!
+Las bacterias siguen siendo,
+siglos después de su descubrimiento,
+fuentes inagotables de asombro.
 
 ### Agradecimientos
 
-Quiero dar las gracias a
-[David Bonilla](https://bonillaware.com/objetivos-para-2020)
-por animarme a escribir este artículo con su última Bonilista.
+Gracias a la organización de 
 
