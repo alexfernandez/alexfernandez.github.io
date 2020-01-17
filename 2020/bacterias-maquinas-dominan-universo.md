@@ -11,15 +11,11 @@ Desde las profundidades del océano hasta el límite del espacio, desde el hielo
 
 A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. En esta charla veremos el campo desde el punto de vista tecnológico: de cuánta información disponen y cómo la transmiten entre sí. Por el camino repasaremos la relación de las bacterias con el resto de la vida, en particular con la humanidad. También veremos multitud de hallazgos curiosos que se desconocían hace sólo un par de décadas, incluyendo algunos que están esperando confirmación para dar premios Nobel a sus descubridores. Para terminar veremos los controvertidos hallazgos fuera de la Tierra, y su posible origen estelar.
 
-## ¿Máquinas?
+## Introducción
 
-### Tamaño de ROM
+### Historia
 
-Los virus tienen un genoma que oscila entre
-4000 y 1.3 millones de nucleótidos, según
-[Harnessing the Power of Viruses p.8 (Boriana Marintcheva, 2018)](https://books.google.at/books?id=20E7DwAAQBAJ&printsec=frontcover&dq=Harnessing+the+Power+of+Viruses&hl=en&sa=X&ved=0ahUKEwjard3Hu4rnAhWu16YKHU-nDyUQ6AEIMDAA#v=snippet&q=4000%20nucleotides&f=false).
-
-### Clasificación
+Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
 Las bacterias son una fuente inagotable de sorpresas.
 Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
@@ -34,35 +30,114 @@ ya que son muy diferentes en metabolismo y genética a las bacterias.
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
 
+[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
+[leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x)
+
 En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
 
 ### Parámetros físicos
 
-La mayoría de las bacterías están
+a mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
 aunque algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
 Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.sciencespacerobots.com/thiomargarita-namibiensis-61420191)
 que son visibles a simple vista (0.75 mm).
 
 A pesar de ser tan pequeñas,
-al haber 10^30 representan la gran mayoría de la
-[biomasa terrestre](https://www.vox.com/science-and-health/2018/5/29/17386112/all-life-on-earth-chart-weight-plants-animals-pnas).
+al haber 10^30 representan una parte sustancial de la
+[biomasa terrestre](https://www.pnas.org/content/115/25/6506).
 
-![Biomasa por reino.](pics/bacterias-by-weight.jpg "Protistas: 4 gigatones de carbono, arqueas: 7 Gt C, hongos: 12 Gt C, bacterias: 70 Gt C. Fuente: https://www.vox.com/science-and-health/2018/5/29/17386112/all-life-on-earth-chart-weight-plants-animals-pnas.")
+![Biomasa por grupo.](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, arqueas: 7 Gt C, animales: 4 GT C. Fuente: https://www.pnas.org/content/115/25/6506.")
 
-No sabemos exactamente el número de especies.
+No sabemos exactamente el número de especies de bacterias.
 Algunas estimaciones llegan hasta
 [el trillón de especies](https://www.pnas.org/content/113/21/5970),
 aunque estimaciones más realistas dan
 [entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
 entre bacterias y arqueas.
 
-### Historia
+## ¿Máquinas?
 
-Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
+### Tamaño de ROM
+
+Los virus tienen un genoma que oscila entre
+[1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
+La unidad usada se corresponde con un nucleótido,
+pareado siempre con otro en el genoma;
+de ahí que se midan pares de bases.
+El rango más habitual es
+[entre 4 kbp y 20 kbp](https://www.frontiersin.org/articles/10.3389/fevo.2015.00143/full).
+
+Las bacterias están  en un rango más estrecho;
+quitando anomalías como micoplasmas,
+sus genomas tienen
+[entre 1 y 10 Mbp](https://metode.org/issues/monographs/the-size-of-the-genome-and-the-complexity-of-living-beings.html).
+
+Las eucariotas unicelulares ocupan el siguiente escalón:
+[alrededor de 10 Mbp](https://www.researchgate.net/publication/49759737_Chromosome_Size_in_Diploid_Eukaryotic_Species_Centers_on_the_Average_Length_with_a_Conserved_Boundary).
+Invertebrados, plantas y mamíferos están
+entre 100 Mbp y 10 Gbp.
+
+### Memoria
+
+Las bacterias tienen,
+igual que las eucariotas,
+[memoria epigenética](https://mmbr.asm.org/content/70/3/830):
+ciertas condiciones del entorno (encontradas localmente o incluso heredadas)
+pueden hacer que se expresen ciertos genes y se supriman otros.
+
+Existen mecanismos como los priones
+que permiten compartir estos cambios entre una población entera de bacterias.
+
+### Refactorización
+
+[reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
+
+### Ejecutables
+
+https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
+
+### Herramientas
+
+Este vídeo muestra cómo funciona un pelo de bacteria:
+extensión y retractación rápidas que le permiten moverse.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HGvnrWrudpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+La generación de energía se realiza en la ATP sintasa,
+que funciona con una eficiencia
+[cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf):
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Las kinesinas son unas maquinitas moleculares que sacan los desperdicios de la célula usando ATP como combustible.
+Caminan por los microtúbulos,
+una especie de autopistas celulares exclusivas de las eucariotas,
+aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232192/).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+En modelos más sencillos,
+como el virus del SIDA,
+Janet Iwasa ha realizado una
+[animación más completa](http://scienceofhiv.org/wp/?page_id=20)
+de cómo funcionan:
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/260291607">HIV Life Cycle - narrated</a> from <a href="https://vimeo.com/jiwasa">Janet</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## El largo camino a la simbiosis
+
+Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
+animales y humanos.
+
+### Mutación rápida
+
+Este vídeo muestra cómo evolucionan las bacterias en pocas horas
+para conseguir inmunidad ante un antibiótico.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Control bacteriano
 
@@ -95,11 +170,21 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 [autismo y esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
-### Úlceras y bacterias
+### Nuestras defensas
 
-### Enfermedades autoinmunes
+### Nuevas técnicas
 
-### Enfermedad inflamatoria intestinal
+Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/106957770" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/106957770">Introduction to Genome Editing Using CRISPR/Cas9</a> from <a href="https://vimeo.com/igisci">Innovative Genomics Institute</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+## Enfermedades autoinmunes
+
+Este grupo de enfermedades incluyen dolencias tan dispares
+como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
+
+### Enfermedad de Crohn
 
 El número de casos crece de forma alarmante en todo el mundo.
 Algunos ejemplos:
@@ -119,6 +204,10 @@ de las sociedades.
 
 ¿Cuál es la causa de esta plaga moderna?
 
+
+### Úlceras y bacterias
+
+### Otras enfermedades autoinmunes
 
 ## Panspermia: ¿venimos de las estrellas?
 
@@ -144,12 +233,6 @@ Science attacks: double blind studies
 https://ideas.ted.com/watch-a-cellular-biologist-animates-the-life-cycle-of-hiv-in-this-hypnotic-video/
 
 https://www.youtube.com/watch?v=wJyUtbn0O5Y
-
-Epigenetic material in bacteria
-https://mmbr.asm.org/content/70/3/830
-
-Archaea and bacteria
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC432104/
 
 https://en.wikipedia.org/wiki/Human_milk_microbiome
 
