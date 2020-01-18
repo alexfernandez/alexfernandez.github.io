@@ -29,6 +29,9 @@ independiente del resto de bacterias.
 Actualmente se conocen como ["arqueas"](https://biodifferences.com/difference-between-archaea-and-bacteria.html)
 ya que son muy diferentes en metabolismo y genética a las bacterias.
 
+Técnicamente en este artículo vamos a hablar de "procariotas",
+que incluye a bacterias y arqueas.
+
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
 
@@ -47,7 +50,7 @@ Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.scien
 que son visibles a simple vista (0.75 mm).
 
 A pesar de ser tan pequeñas,
-al haber 10^30 representan una parte sustancial de la
+al haber 10<sup>30</sup> representan una parte sustancial de la
 [biomasa terrestre](https://www.pnas.org/content/115/25/6506).
 
 ![Biomasa por grupo.](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, arqueas: 7 Gt C, animales: 4 GT C. Fuente: https://www.pnas.org/content/115/25/6506.")
@@ -66,8 +69,40 @@ Lo que parecería ser un proceso puramente inorgánico
 está [fuertemente regulado por al menos una bacteria](https://www.nature.com/articles/ismej2007113):
 _Pseudomonas syringae_.
 La [hipótesis de David Sands en 1982](https://www.researchgate.net/publication/284553193_The_association_between_bacteria_and_rain_and_possible_resultant_meteorological_implications)
+cogió fuerza cuando se encontró la
+[proteína responsable de la nucleación, InaZ](https://www.pnas.org/content/pnas/83/19/7256.full.pdf).
+Y de hecho un derivado es lo que se usa hoy día en
+[los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
+Prácticamente toda la lluvia
+[contiene cepas de _P. syringae_](https://www.nature.com/articles/ismej2007113).
+
+Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son arqueas.
+Ellas son responsables de [todo el metano que se genera]()
+(así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales).
+
+### Los extremófilos no se tocan
+
+Se han encontrado [extremófilos]()
+en los sitios más inverosímiles:
+bacterias capaces de alimentarse de
+[sal](),
+[uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
+[azufre y calor]() generado por fumarolas volcánicas.
+Aguantan temperaturas de
+[300 °C](),
+salinidades de
+[XXX](),
+el [vacío del espacio]()
+
+Se ha sugerido que los extremófilos podrían vivir
+[miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
+aunque el sol se apagara de repente.
 
 ## ¿Máquinas?
+
+Como buenos tecnólogos,
+la fascinación por estos pequeños amiguitos sólo puede crecer
+si los comparamos con nuestros queridos ordenadores.
 
 ### Tamaño de ROM
 
@@ -231,6 +266,49 @@ de las sociedades.
 
 ## Panspermia: ¿venimos de las estrellas?
 
+### ¿Vida en Marte?
+
+La misión Viking llevaba a bordo cinco experimentos para detectar vida en Marte.
+Carl Sagan (junto con Joshua Lederberg)
+[dijo antes de la misión](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19760009917.pdf):
+
+> Tenga éxito o no la misión Viking 1976,
+> las siguientes naves que aterricen en Marte deberían llevar un rango más variado de experimentos biológicos,
+> capaces de buscar en un espectro más amplio de organismos marcianos concebibles.
+
+![Carl Sagan con una réplica de la sonda Viking Lander.](pics/bacterias-sagan-viking.jpg "Carl Sagan posa con una réplica de la Viking lander, con un fondo que simula Marte. Fuente: https://en.wikipedia.org/wiki/File:Sagan_Viking.jpg.")
+
+El 30 de julio de 1976 llegaron los resultados de los experimentos a bordo.
+[Cuatro de los cinco eran positivos](https://blogs.scientificamerican.com/observations/im-convinced-we-found-evidence-of-life-on-mars-in-the-1970s/).
+El quinto, diseñado para captar moléculas vivas, falló.
+La NASA (y la comunidad científica)
+se resignaron a aceptar que se habían detectado mecanismos inorgánicos que simulaban la actividad de seres vivos.
+
+De vuelta en la Tierra se ha demostrado que
+[la presencia de perclorato en el suelo marciano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3691774/)
+puede haber provocado el falso negativo.
+
+No es necesario buscar conspiraciones:
+el principio de prudencia se debe aplicar mientras no haya resultados concluyentes.
+
+Desde entonces se han detectado agua líquida, metano y compuestos orgánicos complejos.
+Además se encuentra CO<sub>2</sub> que no puede explicarse sólo por fuentes inorgánicas.
+¿Qué nos falta pues?
+
+¿Es posible que hayamos llevado nosotros esas bacterias?
+En la NASA tienen una "oficial de protección planetaria",
+Catharine "Cassie" Conley.
+
+![Representación artística de la Planetary Protection Officer, según xkcd.](pics/bacterias-planetary-protection-officer.jpg "Cómic de una señora molona con espada rodeada de planetas. Fuente: https://what-if.xkcd.com/imgs/a/117/officer.png.")
+
+De vez en cuando
+[ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
+
+### ¿Vida en el sistema solar?
+
+Y ¿qué pasa con esa
+[misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
+
 https://en.wikipedia.org/wiki/Plasmid
 
 
@@ -265,5 +343,9 @@ fuentes inagotables de asombro.
 
 ### Agradecimientos
 
-Gracias a la organización de 
+Gracias a la organización de T3chFest.
+
+Gracias a
+[Carlos J. Santisteban](https://twitter.com/zuiko21)
+por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
