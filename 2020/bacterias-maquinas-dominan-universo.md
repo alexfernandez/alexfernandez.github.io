@@ -288,10 +288,12 @@ De vuelta en la Tierra se ha demostrado que
 [la presencia de perclorato en el suelo marciano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3691774/)
 puede haber provocado el falso negativo.
 
+¿Por qué negar el hallazgo de vida en Marte pues?
+¿Acaso los hombrecillos verdes controlan las instituciones terráqueas?
 No es necesario buscar conspiraciones:
 el principio de prudencia se debe aplicar mientras no haya resultados concluyentes.
 
-Desde entonces se han detectado agua líquida, metano y compuestos orgánicos complejos.
+Desde entonces se han detectado en Marte agua líquida, metano y compuestos orgánicos complejos.
 Además se encuentra CO<sub>2</sub> que no puede explicarse sólo por fuentes inorgánicas.
 ¿Qué nos falta pues?
 
@@ -299,7 +301,7 @@ Además se encuentra CO<sub>2</sub> que no puede explicarse sólo por fuentes in
 En la NASA tienen una "oficial de protección planetaria",
 Catharine "Cassie" Conley.
 
-![Representación artística de la Planetary Protection Officer, según xkcd.](pics/bacterias-planetary-protection-officer.jpg "Cómic de una señora molona con espada rodeada de planetas. Fuente: https://what-if.xkcd.com/imgs/a/117/officer.png.")
+![Representación artística de la Planetary Protection Officer, según xkcd.](pics/bacterias-planetary-protection-officer.png "Cómic de una señora molona con espada rodeada de planetas. Fuente: https://what-if.xkcd.com/imgs/a/117/officer.png.")
 
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
