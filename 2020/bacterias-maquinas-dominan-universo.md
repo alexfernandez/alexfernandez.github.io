@@ -17,6 +17,8 @@ A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. 
 
 Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Las bacterias son una fuente inagotable de sorpresas.
 Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
 
@@ -56,6 +58,14 @@ Algunas estimaciones llegan hasta
 aunque estimaciones más realistas dan
 [entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
 entre bacterias y arqueas.
+
+### Relevancia
+
+¿Por qué aparecen la lluvia y la nieve?
+Lo que parecería ser un proceso puramente inorgánico
+está [fuertemente regulado por al menos una bacteria](https://www.nature.com/articles/ismej2007113):
+_Pseudomonas syringae_.
+La [hipótesis de David Sands en 1982](https://www.researchgate.net/publication/284553193_The_association_between_bacteria_and_rain_and_possible_resultant_meteorological_implications)
 
 ## ¿Máquinas?
 
@@ -127,6 +137,16 @@ de cómo funcionan:
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/260291607">HIV Life Cycle - narrated</a> from <a href="https://vimeo.com/jiwasa">Janet</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+### Usos industriales
+
+Como hacemos con otras máquinas,
+los humanos usamos de forma habitual bacterias en nuestros procesos industriales,
+a veces en áreas que pueden sorprender.
+
+Los cañones de nieve artificial usan la proteína 
+_Pseudomonas syringae_.
+
+
 ## El largo camino a la simbiosis
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
@@ -184,7 +204,7 @@ Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 Este grupo de enfermedades incluyen dolencias tan dispares
 como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
 
-### Enfermedad de Crohn
+## Enfermedad de Crohn
 
 El número de casos crece de forma alarmante en todo el mundo.
 Algunos ejemplos:
@@ -196,13 +216,13 @@ Los [datos históricos desde 1930](https://www.researchgate.net/publication/8044
 siguen la misma tendencia.
 La incidencia se acerca peligrosamente al 1% de la población en ciertas regiones como
 [Canadá o Australia](https://www.researchgate.net/publication/320437880_Worldwide_incidence_and_prevalence_of_inflammatory_bowel_disease_in_the_21st_century_A_systematic_review_of_population-based_studies).
-Además, parece que los aumentos están asociados a la
-[industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
-de las sociedades.
 
-![Casos en España, 1976 a 2010.](pics/bacterias-crohns-incidence-spain.jpg "De un caso de Crohn en los 1980 a 10 en 2010. Fuente: https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679.")
+![Casos en España, 1976 a 2010. Siguendo la tendencia global, se duplican cada década.](pics/bacterias-crohns-incidence-spain.jpg "De un caso de Crohn en los 1980 a 10 en 2010. Fuente: https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679.")
 
 ¿Cuál es la causa de esta plaga moderna?
+Parece que el aumento de casos está asociado a la
+[industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
+de las sociedades.
 
 
 ### Úlceras y bacterias
