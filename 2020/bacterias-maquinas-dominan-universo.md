@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Latitude Leaking Longitude.](pics/bacterias-agar-art-contest.jpg "Latitude Leaking Longitude, source: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/")
+![Latitude Leaking Longitude.](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo. Fuente: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/.")
 
 Desde las profundidades del océano hasta el límite del espacio, desde el hielo de la Antártida hasta nuestros cerebros: donde quiera que miramos encontramos bacterias. La vida en nuestro planeta sería imposible sin ellas, y sin embargo a veces nos ponen difícil sobrevivir. ¿Os suena un discurso apropiado para una conferencia de tecnología? ¿Y si os digo que en realidad son microfactorías de microrrobots controlados por programas que se autogeneran?
 
@@ -13,11 +13,23 @@ A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. 
 
 ## Introducción
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Historia
 
-Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
+Corría el año 1770.
+[Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
+adinerado y sin hijos,
+decidió enfocar su primitivo microscopio sobre el mundo a su alrededor.
+Descubrió un mundo fantástico desconocido hasta entonces,
+y nos dejó cientos de maravillosos dibujos.
+Alrededor de 1776 encontró gran cantidad de pequeños animales
+("animálculos") flotando en agua estancada.
+Fue el primero en ver lo que ahora llamamos "bacterias".
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Bacterias dibujadas por Leeuwenhoek en un experimento bastante guarro. "No me limpié los dientes durante tres días y después tomé una muestra del material que se había alojado en pequeñas cantidades en las encías sobre mis incisivos… Encontré algunos animálculos vivos."](pics/bacterias-leeuwenhoek-oral-bacteria.jpg "Dibujo original de Leeuwenhoek, y sus equivalentes modernos: _Campylobacter rectus_, _Selenomonas sputigena_, _Treponema denticola_, _Leptotrichia buccalis_. Fuente: https://europepmc.org/article/PMC/2168648.")
+
+Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
 Las bacterias son una fuente inagotable de sorpresas.
 Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
@@ -31,12 +43,6 @@ ya que son muy diferentes en metabolismo y genética a las bacterias.
 
 Técnicamente en este artículo vamos a hablar de "procariotas",
 que incluye a bacterias y arqueas.
-
-Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
-¿verdad?
-
-[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
-[leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x)
 
 En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
@@ -63,6 +69,14 @@ aunque estimaciones más realistas dan
 entre bacterias y arqueas.
 
 ### Relevancia
+
+Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
+¿verdad?
+
+[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
+[leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x)
+
+https://en.wikipedia.org/wiki/Human_milk_microbiome
 
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
@@ -142,6 +156,8 @@ que permiten compartir estos cambios entre una población entera de bacterias.
 ### Ejecutables
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
+
+https://en.wikipedia.org/wiki/Plasmid
 
 ### Herramientas
 
@@ -227,6 +243,10 @@ Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 
 ### Nuestras defensas
 
+Human attacks: random generation -> rapid mutation in the immune system
+
+Science attacks: double blind studies
+
 ### Nuevas técnicas
 
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
@@ -264,7 +284,9 @@ de las sociedades.
 
 ### Otras enfermedades autoinmunes
 
-## Panspermia: ¿venimos de las estrellas?
+## ¿Venimos de las estrellas?
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### ¿Vida en Marte?
 
@@ -311,31 +333,57 @@ De vez en cuando
 Y ¿qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
 
-https://en.wikipedia.org/wiki/Plasmid
+### Panspermia
 
+La primera vez que me encontré con esta idea de que la vida se había originado en otro planeta,
+o incluso en otro sistema solar,
+me pareció un poco ridícula.
+¿Qué se resolvía de esta manera?
+Todo lo que se conseguiría es,
+en todo caso,
+retrasar el problema del origen de la vida a un ámbito todavía más desconocido que la Tierra primigenia.
 
+Pero es que el origen de la vida no es lo único importante.
 
-http://nautil.us/issue/77/underworldsnbsp/never-underestimate-the-intelligence-of-trees
+### ¿El origen del sol?
 
-image.png
+Dado que los elementos que componen la Tierra se fraguaron
+[en estrellas de neutrones]()
+y
+[en supernovas](),
+siempre me ha llamado la atención que no se dedique más atención a estudiar
+cuáles son nuestros ancestros estelares.
 
+A 3000 años luz del sol se encuentra el
+[clúster abierto M67](https://freestarcharts.com/messier-67).
+Contiene unas 200 estrellas con edad y composición
+parecidas a nuestro Sol.
+Esto lo hace candidato número uno a haber sido la cuna de nuestro sistema solar.
+La pregunta es ¿por qué estamos tan lejos?
 
-http://book.bionumbers.org/how-big-are-genomes/
+Contando 4500 millones de años
+tampoco hace falta una velocidad muy grande:
+[230 km/h](https://www.wolframalpha.com/input/?i=300+parsec+%2F+4500+million+years+to+km%2Fh),
+al alcance de un coche de carreras.
+¡Eso no es nada en términos estelares!
+Basta con suponer que algo sacó al Sol de su órbita,
+lo que nos convertiría en huérfanos estelares recorriendo la galaxia sin rumbo definido,
+lejos de nuestros hermanos.
 
-https://www.youtube.com/watch?v=plVk4NVIUh8
+No todo el mundo está de acuerdo.
+En una simulación la astrofísica Bárbara Pichardo _et al_
+[descartaron este clúster como origen del sol](https://iopscience.iop.org/article/10.1088/0004-6256/143/3/73/pdf):
+no consiguieron simular la salida del Sol del cluster sin destruir el incipiente sistema solar.
+También reconocieron que una mejora en sus modelos podría cambiar la situación.
+Pero lo cierto es que no tenemos candidatos mejores.
+En un estudio más reciente se descubrió que las estrellas de este cluster
+[rotan en unos 26 días](https://iopscience.iop.org/article/10.3847/0004-637X/823/1/16),
+casi igual que nuestro Sol,
+lo que para muchos volvió a confirmar la paternidad de M67.
 
-Bacteria attacks: fast mutation - plasmids
-
-Human attacks: random generation -> rapid mutation in the immune system
-
-Science attacks: double blind studies
-
-https://ideas.ted.com/watch-a-cellular-biologist-animates-the-life-cycle-of-hiv-in-this-hypnotic-video/
-
-https://www.youtube.com/watch?v=wJyUtbn0O5Y
-
-https://en.wikipedia.org/wiki/Human_milk_microbiome
-
+Combinando la teoría de la panspermia estelar con este descubrimiento,
+podríamos pensar que el origen de la vida debería de buscarse en este cluster.
+Incluso que serían buenos candidatos para buscar seres vivos.
 
 ## Conclusiones
 
