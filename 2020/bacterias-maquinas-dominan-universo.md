@@ -19,7 +19,7 @@ A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. 
 
 Corría el año 1770.
 [Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
-adinerado y sin hijos,
+un comerciante de telas holandés adinerado y sin hijos,
 decidió enfocar su primitivo microscopio sobre el mundo a su alrededor.
 Descubrió un mundo fantástico desconocido hasta entonces,
 y nos dejó cientos de maravillosos dibujos.
@@ -158,6 +158,15 @@ que permiten compartir estos cambios entre una población entera de bacterias.
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
 https://en.wikipedia.org/wiki/Plasmid
+
+Otra forma interesante de recibir genes externos es a través de virus:
+los bacteriófagos funcionan
+[como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
+para sus anfitriones bacterianos.
+En las cianobacterias del mar, por ejemplo,
+los cianófagos almacenan genes de fotosíntesis
+que pueden aportar a sus víctimas en lugar de infectarlas.
+Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf).
 
 ### Herramientas
 
@@ -330,8 +339,15 @@ De vez en cuando
 
 ### ¿Vida en el sistema solar?
 
+Se ha encontrado material genético bacteriano
+[en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
+correspondientes a bacterias terrestres.
+
 Y ¿qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
+Desde luego parece que merece más estudio,
+al menos para descartar que provenga de arqueas
+(o sus equivalentes jovianas).
 
 ### Panspermia
 
@@ -348,9 +364,36 @@ Si todo nuestro sistema solar está lleno de bacterias
 esto nos permitiría contemplar un ecosistema gigante,
 con bacterias evolucionando en otros cuerpos celestes
 y volviendo a la Tierra como nuevas especies que enriquecen (o alteran) nuestros ecosistemas.
-En particular, se ha propuesto que nuevas enfermedades
-pueden tener su origen extraterrestre,
-aunque viendo la especifidad de los ataques contra nuestras células no parece muy probable.
+En particular, Fred Hoyle propuso que
+[las enfermedades pueden tener su origen extraterrestre](https://www.hoyle.org.uk/resources/virusesfromspacecompressed.pdf),
+aunque la especifidad de los ataques contra nuestras células siembra serias dudas.
+
+Abriendo un poco más los ojos,
+y ampliando los periodos de tiempo considerados,
+podríamos considerar que la vida venga de otras estrellas cercanas.
+En este caso podríamos ver nuestro entorno galáctico
+como un caldo de cultivo de vida,
+con [estrellas que se contaminan unas a otras](https://iopscience.iop.org/article/10.3847/2041-8213/aaef2d)
+intercambiando cometas y asteroides.
+
+Hay que tener mucho cuidado con estas ideas.
+A veces vienen de científicos reputados como
+[Stephen Hawking](https://web.archive.org/web/20110724233755/http://www.statepress.com/archive/node/5745):
+
+> La vida podría extenderse de planeta en planeta o incluso de sistema estelar en sistema estelar,
+> llevada por meteoritos.
+
+Pero también hay propuestas de gente más _fringe_ como las del
+[Journal of Cosmology](http://journalofcosmology.com/Life100.html)
+que es, digamos,
+[poco](https://scienceblogs.com/pharyngula/2011/03/06/did-scientists-discover-bacter)
+[escrupuloso](https://www.discovermagazine.com/the-sciences/followup-thoughts-on-the-meteorite-fossils-claim).
+
+La intrigante idea de Sharov de que
+[la vida se originó hace diez mil millones de años](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/)
+y que, por lo tanto, no ha habido tiempo de que evolucionara en la Tierra,
+requiere de bastantes más pruebas antes de que pueda aceptarse;
+una gráfica con cinco puntos y una regresión no es suficiente.
 
 ### ¿El origen del sol?
 
@@ -358,7 +401,8 @@ Dado que los elementos que componen la Tierra se fraguaron
 [en estrellas de neutrones]()
 y
 [en supernovas](),
-siempre me ha llamado la atención que no se dedique más atención a estudiar
+está claro que venimos de un medio estelar muy rico en historia.
+Siempre me ha llamado la atención que no se dedique más atención a estudiar
 cuáles son nuestros ancestros estelares.
 
 A 3000 años luz del sol se encuentra el
@@ -369,11 +413,11 @@ Esto lo hace candidato número uno a haber sido la cuna de nuestro sistema solar
 La pregunta es ¿por qué estamos tan lejos?
 
 Contando 4500 millones de años
-tampoco hace falta una velocidad muy grande:
+nos da una velocidad media de
 [230 km/h](https://www.wolframalpha.com/input/?i=300+parsec+%2F+4500+million+years+to+km%2Fh),
 al alcance de un coche de carreras.
 ¡Eso no es nada en términos estelares!
-Basta con suponer que algo sacó al Sol de su órbita,
+Basta con suponer que algo sacó al Sol de su entorno y lo dejó a la deriva,
 lo que nos convertiría en huérfanos estelares recorriendo la galaxia sin rumbo definido,
 lejos de nuestros hermanos.
 
@@ -395,6 +439,15 @@ Incluso que serían buenos candidatos para buscar seres vivos.
 ![¿Tendremos primos en este pueblo?](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67. Fuente: https://en.wikipedia.org/wiki/File:Messier_object_067.jpg.")
 
 ## Conclusiones
+
+Este viaje nos ha llevado desde el telar de Leeuwenhoek
+a un clúster estelar a miles de años luz de distancia.
+Por el camino hemos recorrido las profundidades abisales,
+las nubes y el espacio cercano,
+para pasar por los planetas del sistema solar.
+Hemos visto evolucionar seres vivos en directo,
+hemos investigado el origen de enfermedades misteriosas
+y 
 
 Las bacterias siguen siendo,
 siglos después de su descubrimiento,
