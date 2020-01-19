@@ -344,6 +344,13 @@ en todo caso,
 retrasar el problema del origen de la vida a un ámbito todavía más desconocido que la Tierra primigenia.
 
 Pero es que el origen de la vida no es lo único importante.
+Si todo nuestro sistema solar está lleno de bacterias
+esto nos permitiría contemplar un ecosistema gigante,
+con bacterias evolucionando en otros cuerpos celestes
+y volviendo a la Tierra como nuevas especies que enriquecen (o alteran) nuestros ecosistemas.
+En particular, se ha propuesto que nuevas enfermedades
+pueden tener su origen extraterrestre,
+aunque viendo la especifidad de los ataques contra nuestras células no parece muy probable.
 
 ### ¿El origen del sol?
 
@@ -384,6 +391,8 @@ lo que para muchos volvió a confirmar la paternidad de M67.
 Combinando la teoría de la panspermia estelar con este descubrimiento,
 podríamos pensar que el origen de la vida debería de buscarse en este cluster.
 Incluso que serían buenos candidatos para buscar seres vivos.
+
+![¿Tendremos primos en este pueblo?](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67. Fuente: https://en.wikipedia.org/wiki/File:Messier_object_067.jpg.")
 
 ## Conclusiones
 
