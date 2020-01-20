@@ -155,7 +155,13 @@ pero Franklin habría llegado a la doble hélice por sí sola.
 El genoma es el conjunto de material genético de un organismo vivo.
 Contiene las instrucciones para fabricar todas sus proteínas,
 que a su vez serán las encargadas de realizar todas las funciones de cada célula.
-Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras alucinantes.
+El [proceso de transcripción]()
+funciona como un ordenador de 6 bits:
+cada "palabra" consiste en tres pares de bases que contienen dos bits cada uno,
+y se traduce en un aminoácido distinto siguiendo una [tabla que varía según el tipo de organismo](https://en.wikipedia.org/wiki/Genetic_code#RNA_codon_table).
+
+Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras complejísimas,
+que veremos más abajo.
 El problema del
 [plegamiento de proteínas en 3D]()
 es computacionalmente muy intensivo:
