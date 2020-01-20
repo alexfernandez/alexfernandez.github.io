@@ -118,6 +118,49 @@ Como buenos tecnólogos,
 la fascinación por estos pequeños amiguitos sólo puede crecer
 si los comparamos con nuestros queridos ordenadores.
 
+### La estructura del ADN
+
+Corría el año 1953.
+Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
+Rosalind Franklin, cristalógrafa del King's College,
+trabajaba en [la estructura del ADN](https://profiles.nlm.nih.gov/spotlight/kr/feature/dna)
+por difracción de rayos X.
+Watson y Crick por su parte estaban sentando las
+[bases matemáticas para analizar la molécula](https://www.theguardian.com/science/2015/jun/23/sexism-in-science-did-watson-and-crick-really-steal-rosalind-franklins-data).
+Por caminos oscuros obtuvieron el trabajo de Franklin,
+el más avanzado de la época,
+y lo usaron para descifrar la doble hélice.
+
+Franklin murió en 1958 de cáncer de ovarios,
+posiblemente provocado por
+[su trabajo con rayos X](https://blogs.scientificamerican.com/observations/rosalind-franklin-and-dna-how-wronged-was-she/).
+Watson, Crick y Wilkins recibieron
+[el premio Nobel de medicina en 1962](https://www.nobelprize.org/prizes/medicine/1962/summary/).
+Dado que estos premios sólo se conceden a personas vivas
+no había posibilidad de reconocer el trabajo de Franklin.
+
+![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia.](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores. Fuente: https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente.")
+
+Esta historia es muy susceptible de interpretarse como la de una heroína feminista mártir,
+traicionada por sus colegas sexistas que le robaron el premio Nobel;
+de hecho es la idea que yo tenía antes de investigar en más detalle.
+Su biógrafa Brenda Maddox [no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
+y cree que debe ponerse más el foco en su brillante carrera científica.
+Que cada cual saque sus propias conclusiones.
+Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
+pero Franklin habría llegado a la doble hélice por sí sola.
+
+### Material genético
+
+El genoma es el conjunto de material genético de un organismo vivo.
+Contiene las instrucciones para fabricar todas sus proteínas,
+que a su vez serán las encargadas de realizar todas las funciones de cada célula.
+Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras alucinantes.
+El problema del
+[plegamiento de proteínas en 3D]()
+es computacionalmente muy intensivo:
+resulta casi imposible predecir la estructura final sin una simulación detalladísima de las fuerzas de cada aminoácido.
+
 ### Tamaño de ROM
 
 Los virus tienen un genoma que oscila entre
