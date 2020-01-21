@@ -1,11 +1,11 @@
 ---
 title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Artículo sobre la charla para T3chfest 2020'
+subtitle: 'Artículo de soporte para la charla para T3chfest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Latitude Leaking Longitude.](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo. Fuente: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/.")
+!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología.](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo. Fuente: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/.")
 
 Desde las profundidades del océano hasta el límite del espacio, desde el hielo de la Antártida hasta nuestros cerebros: donde quiera que miramos encontramos bacterias. La vida en nuestro planeta sería imposible sin ellas, y sin embargo a veces nos ponen difícil sobrevivir. ¿Os suena un discurso apropiado para una conferencia de tecnología? ¿Y si os digo que en realidad son microfactorías de microrrobots controlados por programas que se autogeneran?
 
