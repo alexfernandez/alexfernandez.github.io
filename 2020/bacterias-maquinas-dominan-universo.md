@@ -54,12 +54,14 @@ a mayoría de las bacterías están
 aunque algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
 Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.sciencespacerobots.com/thiomargarita-namibiensis-61420191)
 que son visibles a simple vista (0.75 mm).
+Las arqueas ?.
 
 A pesar de ser tan pequeñas,
-al haber 10<sup>30</sup> representan una parte sustancial de la
-[biomasa terrestre](https://www.pnas.org/content/115/25/6506).
+las 10<sup>30</sup> procariotas representan una parte sustancial de la
+[biomasa terrestre](https://www.pnas.org/content/115/25/6506):
+un 14% aproximadamente.
 
-![Biomasa por grupo.](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, arqueas: 7 Gt C, animales: 4 GT C. Fuente: https://www.pnas.org/content/115/25/6506.")
+![Biomasa por grupo. Los humanos somos un 0.01% del total; las bacterias nos superan más de mil veces.](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, hongos: 12 GT C, arqueas: 7 Gt C, protistas: 4 GT C, animales: 2 GT C. Humanos: 0.06 GT C. Fuente: https://www.pnas.org/content/115/25/6506.")
 
 No sabemos exactamente el número de especies de bacterias.
 Algunas estimaciones llegan hasta
@@ -74,7 +76,16 @@ Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacteri
 ¿verdad?
 
 [cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
-[leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x)
+
+El curso de preparación al parto de mi hija Lucía nos lo dio una pediatra, Matilde ?.
+Me llamó la atención su enfoque científico y numérico a todos los problemas.
+Nos contó a los futuros padres que recientemente se habían descubierto
+[bacterias en la leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x).
+¿Significa eso que el pecho femenino,
+un área tradicionalmente considerada estéril,
+contiene bacterias; o están en la piel de la madre?
+Todo indica que las glándulas mamarias están colonizadas por todo tipo de probióticos.
+El efecto beneficioso está [más que demostrado]().
 
 https://en.wikipedia.org/wiki/Human_milk_microbiome
 
@@ -141,10 +152,11 @@ no había posibilidad de reconocer el trabajo de Franklin.
 
 ![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia.](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores. Fuente: https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente.")
 
-Esta historia es muy susceptible de interpretarse como la de una heroína feminista mártir,
+Esta historia es muy susceptible de interpretarse como la de una mártir feminista heroica,
 traicionada por sus colegas sexistas que le robaron el premio Nobel;
 de hecho es la idea que yo tenía antes de investigar en más detalle.
-Su biógrafa Brenda Maddox [no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
+Su biógrafa Brenda Maddox
+[no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
 y cree que debe ponerse más el foco en su brillante carrera científica.
 Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
@@ -158,7 +170,11 @@ que a su vez serán las encargadas de realizar todas las funciones de cada célu
 El [proceso de transcripción]()
 funciona como un ordenador de 6 bits:
 cada "palabra" consiste en tres pares de bases que contienen dos bits cada uno,
-y se traduce en un aminoácido distinto siguiendo una [tabla que varía según el tipo de organismo](https://en.wikipedia.org/wiki/Genetic_code#RNA_codon_table).
+y se traduce en un aminoácido distinto siguiendo una
+[tabla que varía según el tipo de organismo](https://en.wikipedia.org/wiki/Genetic_code#RNA_codon_table).
+Este "código ensamblador" traduce los 64 posibles valores a 20 aminoácidos + inicio + fin,
+con una sofisticada
+[corrección de errores](https://life.ibs.re.kr/papers/PhysLifeRev2010.pdf).
 
 Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras complejísimas,
 que veremos más abajo.
