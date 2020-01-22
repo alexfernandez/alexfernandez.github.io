@@ -49,12 +49,13 @@ En enero de 2020 se ha publicado un artículo en Nature con el
 
 ### Parámetros físicos
 
-a mayoría de las bacterías están
+La mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
 aunque algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
 Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.sciencespacerobots.com/thiomargarita-namibiensis-61420191)
 que son visibles a simple vista (0.75 mm).
-Las arqueas ?.
+Las arqueas tienen
+[un tamaño similar](https://www.landcareresearch.co.nz/science/soils-and-landscapes/antarctic-soils/microbial-life/bacteria-and-archaea).
 
 A pesar de ser tan pequeñas,
 las 10<sup>30</sup> procariotas representan una parte sustancial de la
@@ -77,7 +78,7 @@ Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacteri
 
 [cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
 
-El curso de preparación al parto de mi hija Lucía nos lo dio una pediatra, Matilde ?.
+El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
 Nos contó a los futuros padres que recientemente se habían descubierto
 [bacterias en la leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x).
@@ -102,8 +103,8 @@ Prácticamente toda la lluvia
 [contiene cepas de _P. syringae_](https://www.nature.com/articles/ismej2007113).
 
 Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son arqueas.
-Ellas son responsables de [todo el metano que se genera]()
-(así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales).
+Ellas son responsables de [todo el metano que se genera](),
+así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales.
 
 ### Los extremófilos no se tocan
 
@@ -112,12 +113,21 @@ en los sitios más inverosímiles:
 bacterias capaces de alimentarse de
 [sal](),
 [uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
-[azufre y calor]() generado por fumarolas volcánicas.
+[azufre y calor]() generado por fumarolas volcánicas,
+o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
-[300 °C](),
+[300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
-el [vacío del espacio]()
+el [vacío del espacio]().
+
+¿Os parece poco?
+¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
+Sin aire ni apenas agua,
+las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo y gas natural.
+
+El género _Pyrodictium_
+[crece de forma óptima a 105 °C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
 
 Se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
@@ -222,6 +232,8 @@ que permiten compartir estos cambios entre una población entera de bacterias.
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
+https://en.wikipedia.org/wiki/Bacterial_conjugation
+
 https://en.wikipedia.org/wiki/Plasmid
 
 Otra forma interesante de recibir genes externos es a través de virus:
@@ -232,6 +244,8 @@ En las cianobacterias del mar, por ejemplo,
 los cianófagos almacenan genes de fotosíntesis
 que pueden aportar a sus víctimas en lugar de infectarlas.
 Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf).
+Estos virus servirían pues como discos duros externos,
+o incluso como almacenamiento en la nube.
 
 ### Herramientas
 
