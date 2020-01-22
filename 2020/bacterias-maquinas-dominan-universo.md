@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología.](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo. Fuente: https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/.")
+!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
 Desde las profundidades del océano hasta el límite del espacio, desde el hielo de la Antártida hasta nuestros cerebros: donde quiera que miramos encontramos bacterias. La vida en nuestro planeta sería imposible sin ellas, y sin embargo a veces nos ponen difícil sobrevivir. ¿Os suena un discurso apropiado para una conferencia de tecnología? ¿Y si os digo que en realidad son microfactorías de microrrobots controlados por programas que se autogeneran?
 
@@ -27,7 +27,7 @@ Alrededor de 1776 encontró gran cantidad de pequeños animales
 ("animálculos") flotando en agua estancada.
 Fue el primero en ver lo que ahora llamamos "bacterias".
 
-![Bacterias dibujadas por Leeuwenhoek en un experimento bastante guarro. "No me limpié los dientes durante tres días y después tomé una muestra del material que se había alojado en pequeñas cantidades en las encías sobre mis incisivos… Encontré algunos animálculos vivos."](pics/bacterias-leeuwenhoek-oral-bacteria.jpg "Dibujo original de Leeuwenhoek, y sus equivalentes modernos: _Campylobacter rectus_, _Selenomonas sputigena_, _Treponema denticola_, _Leptotrichia buccalis_. Fuente: https://europepmc.org/article/PMC/2168648.")
+![Bacterias dibujadas por Leeuwenhoek en un experimento bastante guarro. "No me limpié los dientes durante tres días y después tomé una muestra del material que se había alojado en pequeñas cantidades en las encías sobre mis incisivos… Encontré algunos animálculos vivos." [Fuente](https://europepmc.org/article/PMC/2168648).](pics/bacterias-leeuwenhoek-oral-bacteria.jpg "Dibujo original de Leeuwenhoek, y sus equivalentes modernos: _Campylobacter rectus_, _Selenomonas sputigena_, _Treponema denticola_, _Leptotrichia buccalis_.")
 
 Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
@@ -62,7 +62,7 @@ las 10<sup>30</sup> procariotas representan una parte sustancial de la
 [biomasa terrestre](https://www.pnas.org/content/115/25/6506):
 un 14% aproximadamente.
 
-![Biomasa por grupo. Los humanos somos un 0.01% del total; las bacterias nos superan más de mil veces.](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, hongos: 12 GT C, arqueas: 7 Gt C, protistas: 4 GT C, animales: 2 GT C. Humanos: 0.06 GT C. Fuente: https://www.pnas.org/content/115/25/6506.")
+![Biomasa por grupo. Los humanos somos un 0.01% del total; las bacterias nos superan más de mil veces. [Fuente](https://www.pnas.org/content/115/25/6506).](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, hongos: 12 GT C, arqueas: 7 Gt C, protistas: 4 GT C, animales: 2 GT C. Humanos: 0.06 GT C.")
 
 No sabemos exactamente el número de especies de bacterias.
 Algunas estimaciones llegan hasta
@@ -121,7 +121,7 @@ salinidades de
 [XXX](),
 o el [vacío del espacio]().
 
-![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado.](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.' Fuente: https://www.youtube.com/watch?v=tBSbjKyamRo.")
+![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado. [Fuente](https://www.youtube.com/watch?v=tBSbjKyamRo).](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.'")
 
 ¿Os parece poco?
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
@@ -163,7 +163,7 @@ Watson, Crick y Wilkins recibieron
 Dado que estos premios sólo se conceden a personas vivas
 no había posibilidad de reconocer el trabajo de Franklin.
 
-![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia.](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores. Fuente: https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente.")
+![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia. [Fuente](https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente).](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores.")
 
 Esta historia es muy susceptible de interpretarse como la de una mártir feminista heroica,
 traicionada por sus colegas sexistas que le robaron el premio Nobel;
@@ -276,7 +276,7 @@ Janet Iwasa ha realizado una
 [animación más completa](http://scienceofhiv.org/wp/?page_id=20)
 de cómo funcionan:
 
-<iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" style="max-width:560;max-height:315;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Usos industriales
 
@@ -320,10 +320,11 @@ alrededor de una hora para _E. coli_.
 Con este tiempo más conservador las manos nos durarán más tiempo limpias:
 para ser exactos, 10 horas.
 
-Seguir añadiendo nueves no nos protege demasiado más.
+Seguir añadiendo nueves no nos protege demasiado más:
+cada nueve sólo añade tres horas y veinte minutos.
 Incluso un jabón que elimine
 [el 99.999% de las bacterias](http://www2.debgroup.com/sites/default/files/pdfs/Por-que-es-importante-el-99.999%25.pdf)
-nos dejará las manos exactamente igual tras 16 horitas.
+nos dejará las manos exactamente igual tras unas 17 horitas.
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
 ### Enfermedades múltiples
@@ -341,15 +342,16 @@ Science attacks: double blind studies
 
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/106957770" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p><a href="https://vimeo.com/106957770">Introduction to Genome Editing Using CRISPR/Cas9</a> from <a href="https://vimeo.com/igisci">Innovative Genomics Institute</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-## Enfermedades autoinmunes
-
-Este grupo de enfermedades incluyen dolencias tan dispares
-como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
+<iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Enfermedad de Crohn
+
+Esta enfermedad me toca muy de cerca por tener un pariente que la sufre.
+
+### Caracterización
+
+Se sabe que hay
+[factores genéticos relevantes](https://www.genome.gov/Genetic-Disorders/Crohns-Disease).
 
 El número de casos crece de forma alarmante en todo el mundo.
 Algunos ejemplos:
@@ -362,7 +364,7 @@ siguen la misma tendencia.
 La incidencia se acerca peligrosamente al 1% de la población en ciertas regiones como
 [Canadá o Australia](https://www.researchgate.net/publication/320437880_Worldwide_incidence_and_prevalence_of_inflammatory_bowel_disease_in_the_21st_century_A_systematic_review_of_population-based_studies).
 
-![Casos en España, 1976 a 2010. Siguendo la tendencia global, se duplican cada década.](pics/bacterias-crohns-incidence-spain.jpg "De un caso de Crohn en los 1980 a 10 en 2010. Fuente: https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679.")
+![Casos en España, 1976 a 2010. Siguendo la tendencia global, se duplican cada década. [Fuente](https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679).](pics/bacterias-crohns-incidence-spain.jpg "La incidencia crece de un caso de Crohn por cada cien mil habitantes en los 1980 a 10 en 2010. La colitis ulcerosa crece de forma  similar aunque más despacio.")
 
 ¿Cuál es la causa de esta plaga moderna?
 Parece que el aumento de casos está asociado a la
@@ -372,7 +374,45 @@ de las sociedades.
 
 ### Úlceras y bacterias
 
+En 1984 un valiente doctor llamado Barry Marshall
+[se bebió un tarro de _Helicobacter pylori_](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
+A continuación se curó a sí mismo con una combinación que había descubierto él mismo:
+bismuto y metronidazol.
+
+Había una industria de antiácidos de tres mil millones de dólares.
+Los gastroenterólogos tenían las consultas llenas de pacientes sospechosos de tener úlceras.
+
+En 1989 el doctor Thomas Borody
+[añadió tetraciclina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4939773/)
+a la mezcla de Marshall,
+consiguiendo la terapia que es estándar todavía hoy.
+
+### Terapia antibiótica anti-MAP
+
+La nueva droga se llama
+[RHB-104](https://www.redhillbio.com/rhb-104).
+En [ensayos clínicos de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326)
+se ha comprobado su eficacia en el tratamiento de la enfermedad de Crohn.
+
+¿A quién encontramos tras esta terapia antibiótica?
+Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561).
+
 ### Otras enfermedades autoinmunes
+
+Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sanos del cuerpo por error.
+Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
+incluye dolencias tan dispares
+como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
+
+No se conoce la causa exacta de estas enfermedades;
+probablemente influyan factores ambientales, 
+Se sabe que muchas de ellas están relacionadas entre sí.
+Por ejemplo,
+[vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
+o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
+
+Los resultados del RHB-104 contra la esclerosis múltiple
+[son esperanzadores](https://www.redhillbio.com/multiple-sclerosis).
 
 ## ¿Venimos de las estrellas?
 
@@ -388,7 +428,7 @@ Carl Sagan (junto con Joshua Lederberg)
 > las siguientes naves que aterricen en Marte deberían llevar un rango más variado de experimentos biológicos,
 > capaces de buscar en un espectro más amplio de organismos marcianos concebibles.
 
-![Carl Sagan con una réplica de la sonda Viking Lander.](pics/bacterias-sagan-viking.jpg "Carl Sagan posa con una réplica de la Viking lander, con un fondo que simula Marte. Fuente: https://en.wikipedia.org/wiki/File:Sagan_Viking.jpg.")
+![Carl Sagan con una réplica de la sonda Viking Lander. [Fuente](https://en.wikipedia.org/wiki/File:Sagan_Viking.jpg).](pics/bacterias-sagan-viking.jpg "Carl Sagan posa con una réplica de la Viking lander, con un fondo que simula Marte.")
 
 El 30 de julio de 1976 llegaron los resultados de los experimentos a bordo.
 [Cuatro de los cinco eran positivos](https://blogs.scientificamerican.com/observations/im-convinced-we-found-evidence-of-life-on-mars-in-the-1970s/).
@@ -413,7 +453,7 @@ Además se encuentra CO<sub>2</sub> que no puede explicarse sólo por fuentes in
 En la NASA tienen una "oficial de protección planetaria",
 Catharine "Cassie" Conley.
 
-![Representación artística de la Planetary Protection Officer, según xkcd.](pics/bacterias-planetary-protection-officer.png "Cómic de una señora molona con espada rodeada de planetas. Fuente: https://what-if.xkcd.com/imgs/a/117/officer.png.")
+![Representación artística de la Planetary Protection Officer, según xkcd. [Fuente](https://what-if.xkcd.com/imgs/a/117/officer.png).](pics/bacterias-planetary-protection-officer.png "Cómic de una señora molona con espada rodeada de planetas.")
 
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
@@ -517,7 +557,7 @@ Combinando la teoría de la panspermia estelar con este descubrimiento,
 podríamos pensar que el origen de la vida debería de buscarse en este cluster.
 Incluso que serían buenos candidatos para buscar seres vivos.
 
-![¿Tendremos primos en este pueblo?](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67. Fuente: https://en.wikipedia.org/wiki/File:Messier_object_067.jpg.")
+![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
 
 ## Conclusiones
 
