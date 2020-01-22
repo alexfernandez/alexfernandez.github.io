@@ -113,13 +113,15 @@ en los sitios más inverosímiles:
 bacterias capaces de alimentarse de
 [sal](),
 [uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
-[azufre y calor]() generado por fumarolas volcánicas,
+[azufre y calor](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub) generado por fumarolas volcánicas,
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
 [300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
 el [vacío del espacio]().
+
+![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado.](pics/bacterias-cape-fear.gif "Mi abuelo hacía sermones con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando. Fuente: https://www.youtube.com/watch?v=tBSbjKyamRo.")
 
 ¿Os parece poco?
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
@@ -128,6 +130,7 @@ las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo 
 
 El género _Pyrodictium_
 [crece de forma óptima a 105 °C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
+Se alimenta de sulfuros y forma pirita.
 
 Se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
