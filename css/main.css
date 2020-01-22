@@ -2041,7 +2041,14 @@
 			}
 
 			figcaption {
+				font-size: 95%;
+				background-color: #f8f8f8;
 				margin-bottom: 1em;
+			}
+
+			iframe.video {
+				width: 560px;
+				height: 315px;
 			}
 
 /* List */
@@ -2902,6 +2909,16 @@
 
 			.image.right {
 				margin: 0 0 1em 1.5em;
+			}
+
+			figure img {
+				max-width: 100%;
+				height:auto;
+			}
+
+			iframe.video {
+				max-width: 100%;
+				height:auto;
 			}
 
 		/* Section/Article */

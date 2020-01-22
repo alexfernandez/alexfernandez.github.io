@@ -13,7 +13,7 @@ A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. 
 
 ## Introducción
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Historia
 
@@ -119,7 +119,7 @@ Aguantan temperaturas de
 [300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
-el [vacío del espacio]().
+o el [vacío del espacio]().
 
 ![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado.](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.' Fuente: https://www.youtube.com/watch?v=tBSbjKyamRo.")
 
@@ -255,20 +255,20 @@ o incluso como almacenamiento en la nube.
 Este vídeo muestra cómo funciona un pelo de bacteria:
 extensión y retractación rápidas que le permiten moverse.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HGvnrWrudpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/HGvnrWrudpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 La generación de energía se realiza en la ATP sintasa,
 que funciona con una eficiencia
 [cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf):
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Las kinesinas son unas maquinitas moleculares que sacan los desperdicios de la célula usando ATP como combustible.
 Caminan por los microtúbulos,
 una especie de autopistas celulares exclusivas de las eucariotas,
 aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232192/).
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 En modelos más sencillos,
 como el virus del SIDA,
@@ -276,8 +276,7 @@ Janet Iwasa ha realizado una
 [animación más completa](http://scienceofhiv.org/wp/?page_id=20)
 de cómo funcionan:
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p><a href="https://vimeo.com/260291607">HIV Life Cycle - narrated</a> from <a href="https://vimeo.com/jiwasa">Janet</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" style="max-width:560;max-height:315;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Usos industriales
 
@@ -299,7 +298,7 @@ animales y humanos.
 Este vídeo muestra cómo evolucionan las bacterias en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Control bacteriano
 
@@ -377,7 +376,7 @@ de las sociedades.
 
 ## ¿Venimos de las estrellas?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### ¿Vida en Marte?
 
