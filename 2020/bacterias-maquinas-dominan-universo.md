@@ -121,7 +121,7 @@ salinidades de
 [XXX](),
 el [vacío del espacio]().
 
-![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado.](pics/bacterias-cabo-del-miedo.gif "Mi abuelo hacía sermones con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando. Fuente: https://www.youtube.com/watch?v=tBSbjKyamRo.")
+![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado.](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.' Fuente: https://www.youtube.com/watch?v=tBSbjKyamRo.")
 
 ¿Os parece poco?
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
