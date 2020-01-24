@@ -1,16 +1,22 @@
 ---
-title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Y las bacterias, bonita'
+title: 'Bacterias (parte 1): Y las bacterias, bonita'
+subtitle: 'Serie de soporte para la charla para T3chfest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Introducción
+# Navegación
 
-Este artículo es la primera parte de la [serie sobre bacterias](bacterias-maquinas-dominan-universo.md).
-[siguiente]()
+Este artículo es la primera parte de la
+[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+
+* ↓ Parte 1: Y las bacterias, bonita.
+* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
 
 # Y las bacterias, bonita
 
@@ -144,9 +150,6 @@ aunque el sol se apagara de repente.
 
 # Continuará…
 
-* Parte 1: Y las bacterias, bonita.
-* Parte 2: [¿Máquinas?]()
-* Parte 3: [Largo camino]()
-* Parte 4: [Enfermedades autoinmunes]()
-* Parte 5: [¿Venimos de las estrellas?]()
+Sigue a la
+[parte 2: Tecnología bacteriana](bacterias-tecnologia.html).
 

@@ -48,6 +48,10 @@ pandoc --template read-only.html -s 2020/repaso-propositos.md -o 2020/repaso-pro
 pandoc --template read-only.html -s 2020/insane-plane-prices.md -o 2020/insane-plane-prices.html
 pandoc --template read-only.html -s 2020/bacterias-maquinas-dominan-universo.md -o 2020/bacterias-maquinas-dominan-universo.html
 pandoc --template read-only.html -s 2020/bacterias-bonita.md -o 2020/bacterias-bonita.html
+pandoc --template read-only.html -s 2020/bacterias-tecnologia.md -o 2020/bacterias-tecnologia.html
+pandoc --template read-only.html -s 2020/bacterias-largo-camino-simbiosis.md -o 2020/bacterias-largo-camino-simbiosis.html
+pandoc --template read-only.html -s 2020/bacterias-enfermedades-autoinmunes.md -o 2020/bacterias-enfermedades-autoinmunes.html
+pandoc --template read-only.html -s 2020/bacterias-venimos-de-estrellas.md -o 2020/bacterias-venimos-de-estrellas.html
 pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
 pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html

@@ -1,17 +1,22 @@
 ---
-title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Artículo de soporte para la charla para T3chfest 2020'
+title: 'Bacterias (parte 3): El largo camino a la simbiosis'
+subtitle: 'Serie de soporte para la charla para T3chfest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Introducción
+# Navegación
 
-Este artículo es la tercera parte de la [serie sobre bacterias]().
-[anterior]()
-[siguiente]()
+Este artículo es la tercera parte de la
+[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
+* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* ↓ Parte 3: El largo camino a la simbiosis.
+* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
 
 # El largo camino a la simbiosis
 
@@ -102,9 +107,6 @@ Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
 # Continuará…
 
-* Parte 1: [Y las bacterias, bonita]().
-* Parte 2: [¿Máquinas]().
-* Parte 3: El largo camino a la simbiosis.
-* Parte 4: [Enfermedades autoinmunes]()
-* Parte 5: [¿Venimos de las estrellas?]()
+Sigue a la
+[parte 4: Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
 

@@ -1,6 +1,6 @@
 ---
 title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Artículo de soporte para la charla para T3chfest 2020'
+subtitle: 'Serie de soporte para la charla para T3chfest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -17,20 +17,19 @@ y sin embargo a veces nos ponen difícil sobrevivir.
 
 A día de hoy las bacterias nos siguen dando sorpresas,
 quizás más que nunca.
-En este artículo veremos el campo desde el punto de vista tecnológico:
+En esta serie de artículos veremos el campo desde el punto de vista tecnológico:
 de cuánta información disponen y cómo la transmiten entre sí.
 Por el camino repasaremos la relación de las bacterias con el resto de la vida,
 en particular con la humanidad.
 También veremos multitud de hallazgos curiosos que se desconocían hace sólo un par de décadas,
-incluyendo algunos que están esperando confirmación para dar premios Nobel a sus descubridores.
-Para terminar veremos los controvertidos hallazgos fuera de la Tierra,
-y su posible origen estelar.
+incluyendo algunos que posiblemente terminarán dando premios Nobel a sus descubridores.
+Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posible origen estelar.
 
-# Partes
+# Serie completa
 
-* Parte 1: [Y las bacterias, bonita]().
-* Parte 2: [¿Máquinas?]()
-* Parte 3: [Largo camino]().
-* Parte 4: [Enfermedades autoinmunes]().
-* Parte 5: [¿Venimos de las estrellas?]()
+* → Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
+* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
 
