@@ -38,6 +38,8 @@ Fue el primero en ver lo que ahora llamamos "bacterias".
 
 Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
+## Clasificación
+
 Las bacterias son una fuente inagotable de sorpresas.
 Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
 
@@ -68,6 +70,8 @@ A pesar de ser tan pequeñas,
 las 10<sup>30</sup> procariotas representan una parte sustancial de la
 [biomasa terrestre](https://www.pnas.org/content/115/25/6506):
 un 14% aproximadamente.
+Esta estimación tiene
+[una enorme incertidumbre del 900%](https://www.pnas.org/content/pnas/suppl/2018/07/13/1711842115.DC1/1711842115.sapp.pdf).
 
 ![Biomasa por grupo. Los humanos somos un 0.01% del total; las bacterias nos superan más de mil veces. [Fuente](https://www.pnas.org/content/115/25/6506).](pics/bacterias-by-weight.jpg "Plantas: 450 gigatones de carbono, bacterias: 70 GT C, hongos: 12 GT C, arqueas: 7 Gt C, protistas: 4 GT C, animales: 2 GT C. Humanos: 0.06 GT C.")
 
@@ -78,7 +82,7 @@ aunque estimaciones más realistas dan
 [entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
 entre bacterias y arqueas.
 
-## Relevancia
+## Ubicuidad
 
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
@@ -113,7 +117,10 @@ Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son a
 Ellas son responsables de [todo el metano que se genera](),
 así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales.
 
-Bacterias en cuevas, ¿calcita?
+Las bacterias en cuevas
+[generan la calcita](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273019/),
+y por tanto están detrás de la
+[formación de estalactitas y estalagmitas](https://www.researchgate.net/profile/Hazel_Barton/publication/248985200_Bacterial_Calcium_Carbonate_Precipitation_in_Cave_Environments_A_Function_of_Calcium_Homeostasis/links/56d4c5eb08ae9e9dea65b97b/Bacterial-Calcium-Carbonate-Precipitation-in-Cave-Environments-A-Function-of-Calcium-Homeostasis.pdf).
 
 ## Los extremófilos no se tocan
 
@@ -131,6 +138,8 @@ Aguantan temperaturas de
 [300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
+profundidades de
+[5300 metros bajo tierra](https://academic.oup.com/femsle/article/185/1/9/485798)
 o el [vacío del espacio]().
 
 ![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado. [Fuente](https://www.youtube.com/watch?v=tBSbjKyamRo).](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.'")
@@ -139,6 +148,15 @@ o el [vacío del espacio]().
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
 Sin aire ni apenas agua,
 las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo y gas natural.
+
+¿Cuánto tiempo pueden vivir estas preciosidades?
+Muestras extraídas de formaciones salinas creadas hace 250 millones de años
+[reviven sin problema](https://www.researchgate.net/profile/Russell_Vreeland/publication/13503505_Distribution_and_diversity_of_halophilic_bacteria_In_a_subsurface_salt_formation/links/0c96052c48f061c58b000000.pdf)
+al cultivarlas en un medio salino.
+Estudios cuidadosos muestran que nuestras amigas
+[tenían efectivamente 250 millones de años](https://www.nature.com/articles/35038060),
+lo que las convierte en las criaturas más longevas del planeta
+por muchísima diferencia.
 
 El género _Pyrodictium_
 [crece de forma óptima a 105 °C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
