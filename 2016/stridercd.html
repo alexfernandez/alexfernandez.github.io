@@ -150,7 +150,7 @@
         proxy_pass http://127.0.0.1:3000;
     }
 }</code></pre>
-<p>From that point on, you can access your Strider server as <a href="http://stridercd.taxitime.com/" class="uri">http://stridercd.taxitime.com/</a>.</p>
+<p>From that point on, you can access your Strider server as <a href="http://stridercd.taxitime.com/">http://stridercd.taxitime.com/</a>.</p>
 <h3 id="github-integration">GitHub Integration</h3>
 <p>In our case we are using GitHub private repositories. StriderCD uses <a href="https://developer.github.com/webhooks/">webhooks</a> to be notified when there are changes on the repository. This <a href="https://github.com/Strider-CD/strider-github">GitHub integration</a> is thus a vital point, and it was the first issue that I met.</p>
 <p>The idea is, like in Travis-CI, to authenticate using OAuth2 so that Strider can set up the webhooks for you. With a third party server they have already done the integration for you. But for a private application you have to do the integration yourself, and it is not trivial. The idea is that once you authenticate with GitHub, you have to be redirected to your local Strider server. So you need to create the app in GitHub.</p>
@@ -170,7 +170,7 @@
 <figure>
 <img src="pics/org-settings.png" title="Organization settings below Personal settings" alt="Organization settings" /><figcaption>Organization settings</figcaption>
 </figure>
-<p>Enter a custom name (say, stridercd-taxitime) and the URL (in this case <a href="http://stridercd.taxitime.com/" class="uri">http://stridercd.taxitime.com/</a>) you will get an application ID and an application secret, which are then used to <a href="https://github.com/Strider-CD/strider-github#required-configuration">configure StriderCD</a>. Also be sure to tell Strider what its URL is with the <code>SERVER_NAME</code>. The environment variables should look something like this:</p>
+<p>Enter a custom name (say, stridercd-taxitime) and the URL (in this case <a href="http://stridercd.taxitime.com/">http://stridercd.taxitime.com/</a>) you will get an application ID and an application secret, which are then used to <a href="https://github.com/Strider-CD/strider-github#required-configuration">configure StriderCD</a>. Also be sure to tell Strider what its URL is with the <code>SERVER_NAME</code>. The environment variables should look something like this:</p>
 <pre><code>export SERVER_NAME=&quot;http://stridercd.taxitime.com&quot;
 export PLUGIN_GITHUB_APP_ID=&quot;abcdabcdabcd&quot;
 export PLUGIN_GITHUB_APP_SECRET=&quot;defgdefgdefgdefgdefgdefgdefgdefgdefgdefg&quot;

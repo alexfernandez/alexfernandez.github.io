@@ -106,7 +106,12 @@ Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son a
 Ellas son responsables de [todo el metano que se genera](),
 así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales.
 
+Bacterias en cuevas, ¿calcita?
+
 ### Los extremófilos no se tocan
+
+Ya que nos estamos adentrando en cuevas profundas,
+vamos a seguir buscando bacterias en sitios oscuros.
 
 Se han encontrado [extremófilos]()
 en los sitios más inverosímiles:
@@ -336,9 +341,40 @@ Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 
 Human attacks: random generation -> rapid mutation in the immune system
 
-Science attacks: double blind studies
+El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
+Las especies salvajes suelen encontrarse en un ecosistema limitado,
+y sólo tienen que tratar con cierto número de especies que les puedan contagiar enfermedades.
+El ser humano, por el contrario,
+se mueve entre ecosistemas,
+ha domesticado múltiples especies,
+y además tiene contacto frecuente entre casi todas sus subpoblaciones.
 
-### Nuevas técnicas
+[Transmisión zoonotica]().
+El virus del ébola
+[proviene del murciélago salvaje]();
+al parecer la reciente infección de coronavirus
+[tiene su origen en serpientes salvajes]().
+
+Sólo hay que fijarse en la llegada de los europeos a América.
+En América no hay especies domésticas que puedan transmitir enfermedades zoonóticas.
+La difusión de bacterias y virus a los que gran parte de la población europea ya era inmune
+[acabó con el 90% de la población americana]().
+
+Diseases attacking humans vs cattle vs wild animals.
+
+Amount of genes in human immune system vs other species.
+
+### La ciencia al rescate
+
+¿Qué aporta la ciencia a nuestras defensas?
+
+Antibióticos.
+[Contribución de cepa por señora]()
+
+Resistencia a los antibióticos.
+[Enfoques de big data](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
+
+Science attacks: double blind studies
 
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
@@ -370,22 +406,160 @@ La incidencia se acerca peligrosamente al 1% de la población en ciertas regione
 Parece que el aumento de casos está asociado a la
 [industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
 de las sociedades.
+También se han identificado
+[factores genéticos](),
+relacionados con los macrófagos:
+células blancas responsables de aislar y comerse a las bacterias que están donde no debían.
+Pero falta identificar el disparador:
+¿por qué un individuo con estos factores genéticos
+pero aparentemente sano de repente desarrolla la enfermedad?
+¿Qué mecanismo lleva a la inflamación?
 
+Los únicos tratamientos efectivos ahora mismo son
+[medicamentos inmunomoduladores](),
+que deprimen el sistema inmune para minimizar los síntomas.
+Los pacientes siguen siendo crónicos,
+pero al menos se pueden mantener sin brotes.
+
+### Tras la pista bacteriana
+
+Puede ser interesante ver esta cita del
+[libro del propio doctor Burrill Crohn en 1949](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
+quien por cierto se negaba a
+[usar su nombre para la enfermedad]()
+y prefería el término "ileitis":
+
+> La enfermedad de Johne en el ganado tiene muchos parecidos
+> con la ileitis humana en su configuración anatómica.
+
+Esta enfermedad de Johne, o "paratuberculosis" como se la conoce también,
+[está causada por la bacteria _Micobacterium avium subspecies paratuberculosis_](),
+o MAP para abreviar.
+Se trata de una micobacteria de crecimiento extremadamente lento,
+por lo que se necesita hacer [cultivos de varias semanas para identificarla]().
+Produce unas lesiones en el intestino de los rumiantes conocidas como "granulomas",
+muy similares a las lesiones pulmonares en la tuberculosis;
+de ahí el nombre de [paratuberculosis]().
+
+Se ha identificado la paratuberculosis en ganado doméstico:
+[vacas, cabras, ovejas y conejos]().
+También en [rumiantes salvajes]().
+La incidencia de esta enfermedad
+[ha crecido exponencialmente con la ganadería industrial]().
+Además, se ha identificado la bacteria MAP en [leche de vacas lecheras infectadas]().
+
+¿Es posible que la bacteria pase del ganado a humanos,
+en lo que se conoce como
+[transmisión zoonótica]()?
+Lo cierto es que [múltiples intentos de identificarla en enfermos de Crohn han fracasado]().
+Antes de seguir con esta cuestión vamos a ver otra historia.
 
 ### Úlceras y bacterias
 
-En 1984 un valiente doctor llamado Barry Marshall
-[se bebió un tarro de _Helicobacter pylori_](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
+La gente que no han vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
+no se hace una idea de su magnitud.
+Por poner un ejemplo,
+en Estados Unidos más del 1% de las hospitalizaciones
+[eran debidas a úlcera gástrica](https://www.niddk.nih.gov/-/media/Files/Strategic-Plans/burden-digestive-diseases/BurdenDD_ch15_Jan2009.pdf?la=en&hash=79746549BD74034BC85178EF6D338E51).
+Era habitual conocer a alguien que padecía esta enfermedad,
+que los médicos achacaban al exceso de ácidos gástricos y al estrés.
+La recomendación:
+beber leche y tomar antiácidos,
+que representaban un
+[negocio importante para las farmacéuticas]().
+
+En 1981 un joven doctor llamado Barry Marshall
+[empezó a colaborar con Robin Warren](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)67587-3/fulltext?fbclid=IwAR0AK0FjVEIEwfEMGiUPN87gHqIYL9nFKLwPpq2Ie1Un9E3lmWUGD0KR9OE),
+quien sospechaba de un agente bacteriano.
+Entre los dos localizaron a _Helicobacter pylori_ como el agente sospechoso de causar la úlcera.
+Nadie les creía,
+y en 1983 les rechazaron varias publicaciones.
+
+En 1984 Marshall
+[se bebió una preparación de _H. pylori_](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
 A continuación se curó a sí mismo con una combinación que había descubierto él mismo:
 bismuto y metronidazol.
+Este dramático gesto fue lo que finalmente inclinó la balanza
+y convenció a la comunidad médica para empezar a mirar el asunto.
 
-Había una industria de antiácidos de tres mil millones de dólares.
-Los gastroenterólogos tenían las consultas llenas de pacientes sospechosos de tener úlceras.
+Hay que tener en cuenta que la resistencia era lógica:
+la úlcera se conocía desde la antigüedad,
+y achacarla a un agente bacteriano era un cambio de paradigma:
+¿por qué nadie lo había encontrado antes?
+Pero también había una industria detrás de tres mil millones de dólares.
+[tres mil millones de dólares](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
+Y no sólo en antiácidos:
+los gastroenterólogos tenían las consultas llenas de pacientes sospechosos de tener úlceras.
 
 En 1989 el doctor Thomas Borody
 [añadió tetraciclina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4939773/)
 a la mezcla de Marshall,
 consiguiendo la terapia que es estándar todavía hoy.
+En 2005 Marshall y Warren
+[recibieron el premio Nobel de medicina](https://www.nobelprize.org/prizes/medicine/2005/summary/).
+
+No sólo se han curado la gran mayoría de las úlceras.
+La incidencia de cáncer de estómago
+[ha bajado estrepitosamente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4017034/).
+Todavía hoy la prevalencia de _H. pylori_ es muy alta:
+en España se estima [un 54% de población infectada](https://www.gastrojournal.org/article/S0016-5085(17)35531-2/pdf).
+En su mayoría la gente que da positivo permanece asintomática durante toda su vida;
+los que desarrollan úlcera se tratan con éxito
+con distintas combinaciones de antibióticos según la resistencia de la cepa.
+
+### Uniendo los puntos
+
+Recapitulemos.
+Estamos buscando el culpable de la enfermedad de Crohn.
+Tenemos ya una sospechosa (nuestra amiga MAP),
+un móvil (transmisión zoonótica),
+y un _modus operandi_ (bacterias haciéndose pasar por dolencias autogeneradas).
+Nos falta encontrar la pistola humeante:
+bacterias en las lesiones de enfermos de Crohn.
+
+Aquí es donde tenemos que investigar a fondo la coartada de la MAP.
+Resulta que esta fastidiosa bacteria tiene dos formas:
+la normal con pared celular normal y una forma alternativa "desnuda"
+o [esferoplasto](https://pdfs.semanticscholar.org/3f2c/4d0eef0e42a78c8de67298c414fab4f922a7.pdf),
+En esta segunda forma la bacteria se deshace de esta cubierta,
+por lo que resulta
+[imposible de detectar con la tinción estándar Ziehl-Neelsen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2975476/).
+Sí se detecta, sin embargo, en muestras de sangre de
+[pacientes de Crohn](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/)
+
+![foto de tinción estándar y alternativa]().
+
+El profesor ? [lo expresa magníficamente]():
+
+> Ya sabíamos cómo identificar la forma desnuda de la MAP,
+> pero en algún momento se nos olvidó.
+
+Los cultivos son demasiado lentos.
+Varios equipos de todo el mundo están trabajando en
+[múltiples formas de identificar la MAP](),
+basadas en tests genéticos.
+
+¿Qué ocurre con la medicación inmunomoduladora?
+¿Por qué funciona?
+En tests _in vitro_ se ha mostrado que tanto
+[el Metotrexate]()
+como
+[el Humira]()
+y otros tratamientos usados en pacientes de Crohn
+funcionan contra la bacteria MAP.
+
+El profesor Hermon-Taylor está trabajando en
+[una vacuna contra la MAP](),
+que está ahora en ensayos clínicos de fase II.
+
+Llegados a este punto,
+y si fuéramos médicos o científicos de algún rigor,
+se haría necesario que decir que no todo el mundo está de acuerdo con esta teoría.
+En realidad la gran mayoría del _establishment_ médico está en contra.
+[Ejemplo](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf).
+Eso no quiere decir que estén equivocados,
+pero tampoco que tengan razón;
+sólo que hacen falta pruebas más contundentes para convencerles.
 
 ### Terapia antibiótica anti-MAP
 
@@ -395,7 +569,8 @@ En [ensayos clínicos de fase III](https://clinicaltrials.gov/ct2/show/NCT019513
 se ha comprobado su eficacia en el tratamiento de la enfermedad de Crohn.
 
 ¿A quién encontramos tras esta terapia antibiótica?
-Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561).
+Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
+el mismo de la formulación triple contra _H. pylori_.
 
 ### Otras enfermedades autoinmunes
 
@@ -411,8 +586,32 @@ Por ejemplo,
 [vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
 o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
 
+La diabetes tipo I, en particular,
+ocurre cuando el sistema inmune
+[ataca y destruye los islotes de ?]().
+¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
+Se han documentado casos de pacientes de diabetes tipo I
+[que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
+
+Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
 [son esperanzadores](https://www.redhillbio.com/multiple-sclerosis).
+
+Sin ser médico ni biólogo,
+ni querer parecerlo,
+me atrevo a lanzar la siguiente predicción:
+
+> Una gran proporción de enfermedades "autoinmunes"
+> están causadas en realidad por infecciones bacterianas o víricas,
+> que confunden al sistema inmune.
+
+Por ahora sólo queda esperar que las investigaciones continúen,
+tanto en Crohn como en el resto de enfermedades autoinmunes.
+Por desgracia
+[curar enfermedades no es negocio]();
+tratar enfermos crónicos sí.
+Es mi sincera esperanza que la sociedad recupere el espíritu curativo
+y se enfrente a este gran desafío que tenemos por delante.
 
 ## ¿Venimos de las estrellas?
 
@@ -568,7 +767,8 @@ las nubes y el espacio cercano,
 para pasar por los planetas del sistema solar.
 Hemos visto evolucionar seres vivos en directo,
 hemos investigado el origen de enfermedades misteriosas
-y 
+y nos hemos adentrado en las profunidades de nuestra galaxia
+buscando nuestro origen.
 
 Las bacterias siguen siendo,
 siglos después de su descubrimiento,
