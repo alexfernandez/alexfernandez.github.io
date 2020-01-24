@@ -1,5 +1,5 @@
 ---
-title: 'Bacterias: máquinas que dominan el universo'
+title: 'Bacterias (parte 4): Enfermedades autoinmunes'
 subtitle: 'Artículo de soporte para la charla para T3chfest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
@@ -16,7 +16,20 @@ Este artículo es la cuarta parte de la [serie sobre bacterias]().
 # Enfermedades autoinmunes
 
 Vamos a ver ahora un asunto controvertido.
-La relación con las bacterias no se hará evidente 
+La relación con las bacterias no se hará evidente
+hasta casi el final.
+
+Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sanos del cuerpo por error.
+Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
+incluye dolencias tan dispares
+como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
+
+No se conoce la causa exacta de estas enfermedades;
+probablemente influyan factores ambientales, 
+Se sabe que muchas de ellas están relacionadas entre sí.
+Por ejemplo,
+[vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
+o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
 
 ## Enfermedad de Crohn
 
@@ -210,18 +223,6 @@ el mismo de la formulación triple contra _H. pylori_.
 
 ## Otras enfermedades autoinmunes
 
-Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sanos del cuerpo por error.
-Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
-incluye dolencias tan dispares
-como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
-
-No se conoce la causa exacta de estas enfermedades;
-probablemente influyan factores ambientales, 
-Se sabe que muchas de ellas están relacionadas entre sí.
-Por ejemplo,
-[vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
-o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
-
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
 [ataca y destruye los islotes de ?]().
@@ -233,6 +234,24 @@ Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
 [son esperanzadores](https://www.redhillbio.com/multiple-sclerosis).
 
+Casos previos:
+el [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
+terminó siendo una tuberculosis cutánea.
+El otro tipo de lupus, lupus eritematoso sistémico,
+se ha vinculado a
+[biofilms generados por bacterias](https://www.niams.nih.gov/newsroom/spotlight-on-research/bacterial-biofilms-may-trigger-lupus)
+y a [la infiltración de bacterias intestinales](https://www.sciencedaily.com/releases/2019/02/190219080742.htm).
+Al parecer los biofilms son ricos en ADN extracelular,
+lo que dispara
+[múltiples reacciones inmunes](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02608/full).
+Esto podría explicar la enfermedad.
+
+<figure>
+<video src="pics/bacterias-lupus.mp4" autoplay loop>
+</video>
+<figcaption>La enfermedad favorita del doctor House. <a href="https://tenor.com/view/its-never-lupus-lupus-house-house-md-hugh-laurie-gif-11021011">Fuente</a>.</figcaption>
+</figure>
+ 
 Sin ser médico ni biólogo,
 ni querer parecerlo,
 me atrevo a lanzar la siguiente predicción:
