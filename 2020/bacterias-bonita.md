@@ -1,6 +1,6 @@
 ---
 title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Artículo de soporte para la charla para T3chfest 2020'
+subtitle: 'Y las bacterias, bonita'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -9,7 +9,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 # Introducción
 
-Este artículo es la primera parte de la [serie sobre bacterias]().
+Este artículo es la primera parte de la [serie sobre bacterias](bacterias-maquinas-dominan-universo.md).
 [siguiente]()
 
 # Y las bacterias, bonita
