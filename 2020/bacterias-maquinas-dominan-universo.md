@@ -11,11 +11,11 @@ Desde las profundidades del océano hasta el límite del espacio, desde el hielo
 
 A día de hoy las bacterias nos siguen dando sorpresas, quizás más que nunca. En esta charla veremos el campo desde el punto de vista tecnológico: de cuánta información disponen y cómo la transmiten entre sí. Por el camino repasaremos la relación de las bacterias con el resto de la vida, en particular con la humanidad. También veremos multitud de hallazgos curiosos que se desconocían hace sólo un par de décadas, incluyendo algunos que están esperando confirmación para dar premios Nobel a sus descubridores. Para terminar veremos los controvertidos hallazgos fuera de la Tierra, y su posible origen estelar.
 
-## Introducción
+# Introducción
 
 <iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Historia
+## Historia
 
 Corría el año 1770.
 [Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
@@ -47,7 +47,7 @@ que incluye a bacterias y arqueas.
 En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
 
-### Parámetros físicos
+## Parámetros físicos
 
 La mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
@@ -71,7 +71,7 @@ aunque estimaciones más realistas dan
 [entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
 entre bacterias y arqueas.
 
-### Relevancia
+## Relevancia
 
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
@@ -108,7 +108,7 @@ así que efectivamente están también en [nuestro intestino]() y el de muchos o
 
 Bacterias en cuevas, ¿calcita?
 
-### Los extremófilos no se tocan
+## Los extremófilos no se tocan
 
 Ya que nos estamos adentrando en cuevas profundas,
 vamos a seguir buscando bacterias en sitios oscuros.
@@ -141,13 +141,13 @@ Se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
 aunque el sol se apagara de repente.
 
-## ¿Máquinas?
+# ¿Máquinas?
 
 Como buenos tecnólogos,
 la fascinación por estos pequeños amiguitos sólo puede crecer
 si los comparamos con nuestros queridos ordenadores.
 
-### La estructura del ADN
+## La estructura del ADN
 
 Corría el año 1953.
 Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
@@ -180,7 +180,7 @@ Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
 pero Franklin habría llegado a la doble hélice por sí sola.
 
-### Material genético
+## Material genético
 
 El genoma es el conjunto de material genético de un organismo vivo.
 Contiene las instrucciones para fabricar todas sus proteínas,
@@ -201,7 +201,7 @@ El problema del
 es computacionalmente muy intensivo:
 resulta casi imposible predecir la estructura final sin una simulación detalladísima de las fuerzas de cada aminoácido.
 
-### Tamaño de ROM
+## Tamaño de ROM
 
 Los virus tienen un genoma que oscila entre
 [1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
@@ -221,7 +221,7 @@ Las eucariotas unicelulares ocupan el siguiente escalón:
 Invertebrados, plantas y mamíferos están
 entre 100 Mbp y 10 Gbp.
 
-### Memoria
+## Memoria
 
 Las bacterias tienen,
 igual que las eucariotas,
@@ -232,11 +232,11 @@ pueden hacer que se expresen ciertos genes y se supriman otros.
 Existen mecanismos como los priones
 que permiten compartir estos cambios entre una población entera de bacterias.
 
-### Refactorización
+## Refactorización
 
 [reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
 
-### Ejecutables
+## Ejecutables
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
@@ -255,7 +255,7 @@ Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009
 Estos virus servirían pues como discos duros externos,
 o incluso como almacenamiento en la nube.
 
-### Herramientas
+## Herramientas
 
 Este vídeo muestra cómo funciona un pelo de bacteria:
 extensión y retractación rápidas que le permiten moverse.
@@ -283,7 +283,7 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-### Usos industriales
+## Usos industriales
 
 Como hacemos con otras máquinas,
 los humanos usamos de forma habitual bacterias en nuestros procesos industriales,
@@ -292,20 +292,19 @@ a veces en áreas que pueden sorprender.
 Los cañones de nieve artificial usan la proteína 
 _Pseudomonas syringae_.
 
-
-## El largo camino a la simbiosis
+# El largo camino a la simbiosis
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
 
-### Mutación rápida
+## Mutación rápida
 
 Este vídeo muestra cómo evolucionan las bacterias en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Control bacteriano
+## Control bacteriano
 
 Seguro que has visto jabones anunciados que
 [matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
@@ -332,12 +331,12 @@ Incluso un jabón que elimine
 nos dejará las manos exactamente igual tras unas 17 horitas.
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
-### Enfermedades múltiples
+## Enfermedades múltiples
 
 Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 [autismo y esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
-### Nuestras defensas
+## Nuestras defensas
 
 Human attacks: random generation -> rapid mutation in the immune system
 
@@ -364,7 +363,7 @@ Diseases attacking humans vs cattle vs wild animals.
 
 Amount of genes in human immune system vs other species.
 
-### La ciencia al rescate
+## La ciencia al rescate
 
 ¿Qué aporta la ciencia a nuestras defensas?
 
@@ -380,11 +379,11 @@ Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Enfermedad de Crohn
+# Enfermedad de Crohn
 
 Esta enfermedad me toca muy de cerca por tener un pariente que la sufre.
 
-### Caracterización
+## Caracterización
 
 Se sabe que hay
 [factores genéticos relevantes](https://www.genome.gov/Genetic-Disorders/Crohns-Disease).
@@ -421,7 +420,7 @@ que deprimen el sistema inmune para minimizar los síntomas.
 Los pacientes siguen siendo crónicos,
 pero al menos se pueden mantener sin brotes.
 
-### Tras la pista bacteriana
+## Tras la pista bacteriana
 
 Puede ser interesante ver esta cita del
 [libro del propio doctor Burrill Crohn en 1949](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
@@ -454,7 +453,7 @@ en lo que se conoce como
 Lo cierto es que [múltiples intentos de identificarla en enfermos de Crohn han fracasado]().
 Antes de seguir con esta cuestión vamos a ver otra historia.
 
-### Úlceras y bacterias
+## Úlceras y bacterias
 
 La gente que no han vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
 no se hace una idea de su magnitud.
@@ -507,7 +506,7 @@ En su mayoría la gente que da positivo permanece asintomática durante toda su 
 los que desarrollan úlcera se tratan con éxito
 con distintas combinaciones de antibióticos según la resistencia de la cepa.
 
-### Uniendo los puntos
+## Uniendo los puntos
 
 Recapitulemos.
 Estamos buscando el culpable de la enfermedad de Crohn.
@@ -561,7 +560,7 @@ Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
 
-### Terapia antibiótica anti-MAP
+## Terapia antibiótica anti-MAP
 
 La nueva droga se llama
 [RHB-104](https://www.redhillbio.com/rhb-104).
@@ -572,7 +571,7 @@ se ha comprobado su eficacia en el tratamiento de la enfermedad de Crohn.
 Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
 el mismo de la formulación triple contra _H. pylori_.
 
-### Otras enfermedades autoinmunes
+## Otras enfermedades autoinmunes
 
 Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sanos del cuerpo por error.
 Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
@@ -613,11 +612,11 @@ tratar enfermos crónicos sí.
 Es mi sincera esperanza que la sociedad recupere el espíritu curativo
 y se enfrente a este gran desafío que tenemos por delante.
 
-## ¿Venimos de las estrellas?
+# ¿Venimos de las estrellas?
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ¿Vida en Marte?
+## ¿Vida en Marte?
 
 La misión Viking llevaba a bordo cinco experimentos para detectar vida en Marte.
 Carl Sagan (junto con Joshua Lederberg)
@@ -657,7 +656,7 @@ Catharine "Cassie" Conley.
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
 
-### ¿Vida en el sistema solar?
+## ¿Vida en el sistema solar?
 
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
@@ -669,7 +668,7 @@ Desde luego parece que merece más estudio,
 al menos para descartar que provenga de arqueas
 (o sus equivalentes jovianas).
 
-### Panspermia
+## Panspermia
 
 La primera vez que me encontré con esta idea de que la vida se había originado en otro planeta,
 o incluso en otro sistema solar,
@@ -715,7 +714,7 @@ y que, por lo tanto, no ha habido tiempo de que evolucionara en la Tierra,
 requiere de bastantes más pruebas antes de que pueda aceptarse;
 una gráfica con cinco puntos y una regresión no es suficiente.
 
-### ¿El origen del sol?
+## ¿El origen del sol?
 
 Dado que los elementos que componen la Tierra se fraguaron
 [en estrellas de neutrones]()
@@ -758,7 +757,7 @@ Incluso que serían buenos candidatos para buscar seres vivos.
 
 ![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
 
-## Conclusiones
+# Conclusiones
 
 Este viaje nos ha llevado desde el telar de Leeuwenhoek
 a un clúster estelar a miles de años luz de distancia.
@@ -774,7 +773,7 @@ Las bacterias siguen siendo,
 siglos después de su descubrimiento,
 fuentes inagotables de asombro.
 
-### Agradecimientos
+## Agradecimientos
 
 Gracias a la organización de T3chFest.
 
