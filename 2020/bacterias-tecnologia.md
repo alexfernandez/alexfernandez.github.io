@@ -114,6 +114,13 @@ que permiten compartir estos cambios entre una población entera de bacterias.
 
 [reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
 
+Por ejemplo,
+[_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
+tiene 3.27 Mbp,
+mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
+Por el camino _M. leprae_ ha perdido unos 1200 genes.
+Ahora depende de las células del anfitrión para multitud de funciones vitales.
+
 ## Ejecutables
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer

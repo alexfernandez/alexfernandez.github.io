@@ -60,7 +60,7 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 ## Enfermedades múltiples
 
 Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
-[autismo y esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
+[autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
 ## Nuestras defensas
 
@@ -93,7 +93,7 @@ Amount of genes in human immune system vs other species.
 
 ¿Qué aporta la ciencia a nuestras defensas?
 
-Antibióticos.
+Antibióticos. Fleming.
 [Contribución de cepa por señora]()
 
 Resistencia a los antibióticos.
@@ -104,6 +104,50 @@ Science attacks: double blind studies
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+## Matar al anfitrión
+
+Estamos asumiendo que las bacterias intentan activamente asesinarnos de cualquier forma.
+Y esto no es realmente cierto.
+La lógica es sencilla:
+si el huésped mata al anfitrión,
+el huésped no puede seguir viviendo mucho tiempo en él.
+Si después pasa a otro anfitrión y también lo mata,
+la cadena sigue hasta que se quede sin anfitriones y termine desapareciendo.
+¡Mala estrategia de supervivencia!
+
+Los virus no pueden reproducirse por sí solos:
+necesitan maquinaria celular de la que carecen.
+La mayoría de las bacterias, sin embargo, son autosuficientes.
+Hay excepciones como _Mycobacterium leprae_,
+la bacteria que causa la lepra.
+
+Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
+en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
+Tampoco les interesa realmente dañar los tejidos en los que se alojan.
+
+## Llegando a la simbiosis
+
+La mejor estrategia a largo plazo es siempre
+[la simbiosis]():
+huésped y anfitrión crecen y se apoyan mutuamente.
+La lógica es sencilla:
+supongamos una bacteria que infecta a un humano y le confiere una ventaja evolutiva.
+Si humano + bacteria es mejor que humano solo,
+entonces la bacteria medrará a lomos de su anfitrión humano.
+
+Por tanto, las bacterias sobrevivirán con más probabilidad si ayudan al anfitrión.
+Hay diferentes formas de hacerlo:
+ayudar a digerir la comida,
+eliminar toxinas del medio,
+o proporcionando otras funciones de las que carezca.
+
+Un ejemplo muy llamativo es el de
+[las bacterias en el intestino de los mamíferos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152488/).
+Se sabe desde hace tiempo
+la influencia del microbioma intestinal
+(como se conoce al conjunto de microorganismos del intestino)
+en [la salud humana]().
 
 # Continuará…
 
