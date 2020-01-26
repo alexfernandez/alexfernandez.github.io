@@ -97,7 +97,11 @@ sus genomas tienen
 Las eucariotas unicelulares ocupan el siguiente escalón:
 [alrededor de 10 Mbp](https://www.researchgate.net/publication/49759737_Chromosome_Size_in_Diploid_Eukaryotic_Species_Centers_on_the_Average_Length_with_a_Conserved_Boundary).
 Invertebrados, plantas y mamíferos están
-entre 100 Mbp y 10 Gbp.
+entre 100 Mbp y 10 Gbp,
+con múltiples anomalías de criaturas con genomas enormes.
+Por ejemplo la cebolla común _Allium cepa_ tiene,
+por algún motivo,
+cinco veces más pares de bases que un ser humano.
 
 Resulta que cada par de bases (bp) son dos bits,
 así que un byte serán 4 bp.
