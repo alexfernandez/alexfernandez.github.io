@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# Generate graph using Python
+# -*- coding: utf8 -*-
+# Alex 2020-01-26: Generate graph using Python
 
 # importing the required module
 import matplotlib.pyplot as plt
@@ -8,14 +9,14 @@ import csv
 computer = {
         '8bit': '#ccccff',
         '16bit': '#aaccff',
-        '32bit': '#ccaaff',
+        '32bit': '#eeccff',
         '64bit': '#aaeeff',
         }
 
 mobile = {
         '8bit': '#ffcccc',
-        '16bit': '#ffeecc',
-        '32bit': '#ffdddd',
+        '16bit': '#ffdddd',
+        '32bit': '#ffeecc',
         '64bit': '#ffffcc',
         }
 
@@ -54,19 +55,17 @@ with open('rom-sizes-living.csv', 'r') as csvfile:
         if not row[3]:
             continue
         y = int(row[3])
-        color = mobile.get(row[3], 'gray')
-        plt.plot([1976, 2020], [y, y], color='gray')
+        color = mobile.get(row[3], 'grey')
+        plt.plot([1976, 2020], [y, y], color='#cccccc')
         plt.text(1974, y, row[1], horizontalalignment='left',
                 verticalalignment='center', fontsize=12, bbox=dict(facecolor='white', alpha=0.8, lw=0))
 
-# naming the x axis
-plt.xlabel('year')
-# naming the y axis
-plt.ylabel('bytes')
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
+plt.xlabel(u'año', fontdict = {'fontsize' : 14})
+plt.ylabel('bytes', fontdict = {'fontsize' : 14})
 
-# giving a title to my graph
-plt.title('ROM sizes')
+plt.title(u'Tamaños de ROM', fontdict = {'fontsize' : 18})
 
-# function to show the plot
 plt.show()
 

@@ -14,6 +14,6 @@ Android,Android 8.0.0,,64bit,,1GB,,2017,1073741824,https://developers.google.com
 Android,Android 10.0.0,,64bit,,1.7GB,,2019,1825361101,https://developers.google.com/android/images,https://en.wikipedia.org/wiki/Android_version_history
 Motorola,StarTAC,,,,,,1996,,,https://en.wikipedia.org/wiki/Motorola_StarTAC
 Key,8-bit mobile,,8bit,,8KB,,2017,100,none,none
-Key,16-bit mobile,,16bit,,16KB,,2017,150,none,none
+Key,16-bit mobile,,16bit,,16KB,,2017,250,none,none
 Key,32-bit mobile,,32bit,,32KB,,2017,625,none,none
 Key,64-bit mobile,,64bit,,64KB,,2017,1563,none,none
