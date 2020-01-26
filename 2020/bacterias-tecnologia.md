@@ -112,7 +112,7 @@ Podemos mirar la memoria que trae escrita de fábrica (ROM),
 o si el sistema operativo se carga bajo demanda
 mirar el tamaño de la imagen original.
 
-![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="rom-sizes/rom-sizes-mobile.csv" target="_blank">Pantalla completa</a>. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "Un virus tiene la misma ROM que un ZX Spectrum; una bacteria equivale a una PDA Psion Serie 3 o Siena; una levadura a una Palm Tugsten T; y las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.")
+![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="pics/bacterias-roms.png" target="_blank">Pantalla completa</a>. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "Un virus tiene la misma ROM que un ZX Spectrum; una bacteria equivale a una PDA Psion Serie 3 o Siena; una levadura a una Palm Tugsten T; y las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.")
 
 ## Memoria
 
