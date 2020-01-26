@@ -1,0 +1,23 @@
+Brand,Model,CPU,Data bus,Register size,Addressing,ROM,RAM,Year,Bytes,Source,Wikipedia
+Apple,Apple I,6502,8bit,8bit,16bit,256B,4-8KB,1976,256,http://retro.hansotten.nl/6502-sbc/apple-1/,https://en.wikipedia.org/wiki/Apple_I
+Apple,Macintosh,68000,16bit,32bit,24bit,64KB,128KB,1984,65536,https://www.macintoshrepository.org/7038-all-macintosh-roms-68k-ppc-,https://en.wikipedia.org/wiki/Macintosh_128K
+Apple,Macintosh II,68020,32bit,32bit,24/32bit,256KB,1-8MB,1987,262144,https://www.macintoshrepository.org/7038-all-macintosh-roms-68k-ppc-,https://en.wikipedia.org/wiki/Macintosh_II
+Apple,Macintosh Quadra 700,68040,32bit,32bit,32bit,1MB,4-68MB,1991,1048576,http://mcosre.sourceforge.net/docs/rom_size.html,https://en.wikipedia.org/wiki/Macintosh_Quadra_700
+Sinclair,ZX80,Z80,8bit,8/16bit,16bit,4KB,1KB,1980,4096,,https://en.wikipedia.org/wiki/ZX80
+Sinclair,ZX Spectrum,Z80,8bit,8/16bit,16bit,16KB,16-48KB,1982,16384,,https://en.wikipedia.org/wiki/ZX_Spectrum
+Commodore,PET,6502,8bit,8bit,16bit,20KB,4-32KB,1977,20480,,https://en.wikipedia.org/wiki/Commodore_PET
+Atari,Atari 520ST-F,68000,16bit,32bit,24bit,192KB,512KB,1985,196608,,https://en.wikipedia.org/wiki/Atari_ST
+Microsoft,Windows 95,80386,32bit,16/32bit,32bit,19MB,,1995,19922944,https://www.neowin.net/forum/topic/1060820-how-big-were-the-different-windows-versions-95-19-mb/,https://en.wikipedia.org/wiki/Windows_95
+Microsoft,Windows 98,80486,32bit,16/32bit,32bit,75MB,,1998,78643200,https://winworldpc.com/product/windows-98/windows-98,https://en.wikipedia.org/wiki/Windows_98
+Microsoft,Windows Vista,x64,64bit,64bit,64bit,3.7GB,,2008,3972844749,https://isoriver.com/windows-vista-business-edition-iso/,https://en.wikipedia.org/wiki/Windows_Vista
+Linux,Slackware 1.01,80386,32bit,32bit,32bit,34.9MB,,1993,36700160,https://github.com/hunar1997/Slackware-1.01,https://en.wikipedia.org/wiki/Slackware
+Linux,Knoppix 1.4,80486,32bit,32bit,32bit,700MB,,2000,734003200,,https://en.wikipedia.org/wiki/Knoppix
+Amstrad,PCW256,Z80,8bit,8/16bit,16bit,256B (!),256KB,1985,,,https://en.wikipedia.org/wiki/Amstrad_PCW
+NEC,PC-9801,8086,16bit,16bit,20bit,,128KB,1982,,,https://en.wikipedia.org/wiki/PC-9800_series
+Compaq,Deskpro 386,80386,32bit,32bit,32bit,,1MB,1986,,https://dfarq.homeip.net/compaq-deskpro-386/,https://en.wikipedia.org/wiki/Compaq_Deskpro
+Apricot,VX FT,80486,32bit,32bit,32bit,,4MB,1989,,https://dfarq.homeip.net/first-486-computer-the-apricot-vx-ft/,https://en.m.wikipedia.org/wiki/Apricot_Computers
+DEC,DECpc AXP 150,,64bit,,,,,1993,,,https://en.wikipedia.org/wiki/DECpc_AXP_150
+Key,8-bit computer,,8bit,8bit,8bit,,4KB,2012,100,none,none
+Key,16-bit computer,,16bit,16bit,16bit,,16KB,2012,250,none,none
+Key,32-bit computer,,32bit,32bit,32bit,,32KB,2012,625,none,none
+Key,64-bit computer,,64bit,64bit,64bit,,64KB,2012,1563,none,none

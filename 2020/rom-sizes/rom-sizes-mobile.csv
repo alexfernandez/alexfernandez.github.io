@@ -1,0 +1,19 @@
+Brand,Model,CPU,Data bus,Addressing,ROM,RAM,Year,Bytes,Source,Wikipedia
+Psion,Organiser II,Hitachi 6301,8bit,,32KB,8KB,1986,32768,https://www.jaapsch.net/psion/models.htm,https://en.wikipedia.org/wiki/Psion_Organiser
+Psion,Psion Series 3,NEC V30H,16bit,,384KB,256KB,1991,393216,http://www.primrosebank.net/computers/pda/psion3a/2577.Series%203%203a%20Programming%20Guide.pdf,https://en.wikipedia.org/wiki/Psion_Series_3
+Psion,Psion Siena,NEC V30,16bit,,1MB,512KB,1996,1048576,http://www.primrosebank.net/computers/pda/psion3a/2577.Series%203%203a%20Programming%20Guide.pdf,https://en.wikipedia.org/wiki/Psion_Siena
+Palm,Palm Tungsten T,OMAP1510,32bit,,4MB,16MB,2003,4194304,http://www.palminfocenter.com/news/4490/palm-tungsten-t-review/,https://en.wikipedia.org/wiki/Palm_Tungsten
+Nokia,Nokia 105,MT6261D,32bit,,4MB,4MB,2017,4194304,https://www.digit.in/compare/mobile-phones/nokia-106-2018-vs-nokia-105-2019-compare-173371.html?pid=173371-185185-0-0,https://en.wikipedia.org/wiki/Nokia_105_(2017)
+Apple,Newton 120,ARM 610,32bit,,4MB,1MB,1994,4194304,https://everymac.com/systems/apple/messagepad/stats/newton_mp_120.html,https://en.wikipedia.org/wiki/MessagePad
+Nokia,Nokia 7650,ARM-9,32bit,,16MB,4MB,2002,16777216,https://en.wikipedia.org/wiki/Nokia_7650,https://en.wikipedia.org/wiki/Nokia_7650
+Nokia,Nokia N900,ARM Cortex-A8,32bit,,154MB,,2009,161480704,https://web.archive.org/web/20131117073524/http://skeiron.org/tablets-dev/nokia_N900/,https://en.wikipedia.org/wiki/Nokia_N900
+Android SDK,Android SDK 1.0 r1,,32bit,,87MB,,2007,91226112,https://developer.android.com/sdk/older_releases.html#release-1.0-r1,https://en.wikipedia.org/wiki/Android_version_history
+Android,Android 4.3,,32bit,,287MB,,2013,300941312,https://developers.google.com/android/images,https://en.wikipedia.org/wiki/Android_version_history
+Android,Android 6.0.0,,64bit,,514MB,,2015,538968064,https://developers.google.com/android/images,https://en.wikipedia.org/wiki/Android_version_history
+Android,Android 8.0.0,,64bit,,1GB,,2017,1073741824,https://developers.google.com/android/images,https://en.wikipedia.org/wiki/Android_version_history
+Android,Android 10.0.0,,64bit,,1.7GB,,2019,1825361101,https://developers.google.com/android/images,https://en.wikipedia.org/wiki/Android_version_history
+Motorola,StarTAC,,,,,,1996,,,https://en.wikipedia.org/wiki/Motorola_StarTAC
+Key,8-bit mobile,,8bit,,8KB,,2017,100,none,none
+Key,16-bit mobile,,16bit,,16KB,,2017,150,none,none
+Key,32-bit mobile,,32bit,,32KB,,2017,625,none,none
+Key,64-bit mobile,,64bit,,64KB,,2017,1563,none,none

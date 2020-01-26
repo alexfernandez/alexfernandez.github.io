@@ -113,6 +113,7 @@ que permiten compartir estos cambios entre una población entera de bacterias.
 ## Refactorización
 
 [reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
+[en pájaros](https://en.wikipedia.org/wiki/Genomic_evolution_of_birds).
 
 Por ejemplo,
 [_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
