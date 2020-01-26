@@ -118,8 +118,11 @@ Por ejemplo,
 [_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
 tiene 3.27 Mbp,
 mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
-Por el camino _M. leprae_ ha perdido unos 1200 genes.
-Ahora depende de las células del anfitrión para multitud de funciones vitales.
+Por el camino _M. leprae_ ha perdido unos 1200 genes;
+ahora depende de las células del anfitrión para multitud de funciones vitales.
+
+Reducción manual de genoma:
+[de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
 
 ## Ejecutables
 
@@ -130,7 +133,7 @@ https://en.wikipedia.org/wiki/Bacterial_conjugation
 https://en.wikipedia.org/wiki/Plasmid
 
 Otra forma interesante de recibir genes externos es a través de virus:
-los bacteriófagos funcionan
+los bacteriófagos pueden funcionar
 [como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
 para sus anfitriones bacterianos.
 En las cianobacterias del mar, por ejemplo,

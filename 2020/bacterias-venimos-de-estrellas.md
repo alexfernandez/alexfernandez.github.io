@@ -64,6 +64,14 @@ De vez en cuando
 
 ## ¿Vida en el sistema solar?
 
+No en vano hay toda una disciplina,
+la astrobiología,
+dedicada a encontrarla.
+
+Se ha sugerido que las bacterias más resistentes
+[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
+ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
 correspondientes a bacterias terrestres.

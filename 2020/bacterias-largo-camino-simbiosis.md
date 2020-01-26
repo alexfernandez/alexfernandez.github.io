@@ -25,6 +25,9 @@ animales y humanos.
 
 ## Mutación rápida
 
+Experimento
+[evolución a largo plazo](https://en.wikipedia.org/wiki/E._coli_long-term_evolution_experiment).
+
 Este vídeo muestra cómo evolucionan las bacterias en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
@@ -118,9 +121,13 @@ la cadena sigue hasta que se quede sin anfitriones y termine desapareciendo.
 
 Los virus no pueden reproducirse por sí solos:
 necesitan maquinaria celular de la que carecen.
-La mayoría de las bacterias, sin embargo, son autosuficientes.
-Hay excepciones como _Mycobacterium leprae_,
+Lo mismo les pasa a
+[algunas bacterias](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3129005/),
+que usan los mecanismos de las celulas que infectan;
+un ejemplo es la familia de las Clamidias
+o [_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae),
 la bacteria que causa la lepra.
+La mayoría de las bacterias son autosuficientes.
 
 Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
@@ -129,7 +136,7 @@ Tampoco les interesa realmente dañar los tejidos en los que se alojan.
 ## Llegando a la simbiosis
 
 La mejor estrategia a largo plazo es siempre
-[la simbiosis]():
+[la simbiosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317043/):
 huésped y anfitrión crecen y se apoyan mutuamente.
 La lógica es sencilla:
 supongamos una bacteria que infecta a un humano y le confiere una ventaja evolutiva.

@@ -101,6 +101,9 @@ El efecto beneficioso está [más que demostrado]().
 
 https://en.wikipedia.org/wiki/Human_milk_microbiome
 
+La existencia de bacterias en el aparato reproductor femenino
+[es controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
 está [fuertemente regulado por al menos una bacteria](https://www.nature.com/articles/ismej2007113):
@@ -138,6 +141,7 @@ Aguantan temperaturas de
 [300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
+[radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 profundidades de
 [5300 metros bajo tierra](https://academic.oup.com/femsle/article/185/1/9/485798)
 o el [vacío del espacio]().

@@ -256,6 +256,12 @@ Esto podría explicar la enfermedad.
 </video>
 <figcaption>La enfermedad favorita del doctor House. <a href="https://tenor.com/view/its-never-lupus-lupus-house-house-md-hugh-laurie-gif-11021011">Fuente</a>.</figcaption>
 </figure>
+
+Por ultimo,
+hace unos dias se ha publicado una relacion entre
+[autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
+
+## La gran prediccion
  
 Sin ser médico ni biólogo,
 ni querer parecerlo,
