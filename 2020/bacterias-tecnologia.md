@@ -99,6 +99,17 @@ Las eucariotas unicelulares ocupan el siguiente escalón:
 Invertebrados, plantas y mamíferos están
 entre 100 Mbp y 10 Gbp.
 
+Resulta que cada par de bases (bp) son dos bits,
+así que un byte serán 4 bp.
+Con esta sencilla equivalencia podemos dar un salto conceptual a otra de nuestras áreas favoritas:
+los ordenadores personales y de bolsillo,
+éstos últimos más conocidos como _smartphones_.
+Podemos mirar la memoria que trae escrita de fábrica (ROM),
+o si el sistema operativo se carga bajo demanda
+mirar el tamaño de la imagen original.
+
+![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "Un virus tiene la misma ROM que un ZX Spectrum; una bacteria equivale a una PDA Psion Serie 3 o Siena; una levadura a una Palm Tugsten T; y las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.")
+
 ## Memoria
 
 Las bacterias tienen,
