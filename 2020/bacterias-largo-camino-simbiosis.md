@@ -89,6 +89,7 @@ La difusión de bacterias y virus a los que gran parte de la población europea 
 [acabó con el 90% de la población americana]().
 
 Diseases attacking humans vs cattle vs wild animals.
+[Enfermedades zoonóticas de especies salvajes](https://www.researchgate.net/publication/259870465_Wildlife_a_hidden_warehouse_of_zoonosis_-_a_review).
 
 Amount of genes in human immune system vs other species.
 
