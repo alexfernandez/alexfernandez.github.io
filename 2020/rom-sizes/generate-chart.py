@@ -64,8 +64,22 @@ plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 plt.xlabel(u'año', fontdict = {'fontsize' : 14})
 plt.ylabel('bytes', fontdict = {'fontsize' : 14})
-
 plt.title(u'Tamaños de ROM', fontdict = {'fontsize' : 18})
+
+ylocs = []
+ylabels = []
+i = 0
+for i in range(2, 11):
+    ylocs.append(10**i)
+    ylabels.append("$10^{{{0}}}$".format(i))
+
+ylocs[4] = 1509950
+ylabels[4] = '1 floppy'
+ylocs[7] = 734003200
+ylabels[7] = '1 CD'
+ylocs.append(5046586573)
+ylabels.append('1 DVD')
+plt.yticks(ylocs, ylabels)
 
 plt.show()
 
