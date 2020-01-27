@@ -107,7 +107,7 @@ Antibióticos. Fleming.
 
 Resistencia a los antibióticos.
 
-![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](2020/pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")
+![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")
 
 [Enfoques de big data](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
 
