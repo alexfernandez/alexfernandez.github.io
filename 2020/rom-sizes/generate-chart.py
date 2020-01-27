@@ -4,7 +4,10 @@
 
 # importing the required module
 import matplotlib.pyplot as plt
-import csv
+import unicodecsv as csv
+size = (1920, 960)
+dpi = 96
+plt.figure(num=None, figsize=(size[0]/dpi, size[1]/dpi), dpi=dpi)
 
 computer = {
         '8bit': '#ccccff',
@@ -57,7 +60,7 @@ with open('rom-sizes-living.csv', 'r') as csvfile:
         y = int(row[3])
         color = mobile.get(row[3], 'grey')
         plt.plot([1976, 2020], [y, y], color='#cccccc')
-        plt.text(1974, y, row[1], horizontalalignment='left',
+        plt.text(1974.5, y, row[0], horizontalalignment='left',
                 verticalalignment='center', fontsize=12, bbox=dict(facecolor='white', alpha=0.8, lw=0))
 
 plt.xticks(fontsize=12)
@@ -81,5 +84,7 @@ ylocs.append(5046586573)
 ylabels.append('1 DVD')
 plt.yticks(ylocs, ylabels)
 
-plt.show()
+plt.savefig('../pics/bacterias-roms.png', bbox_inches='tight', pad_inches=0.1)
+
+#plt.show()
 
