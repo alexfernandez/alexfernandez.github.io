@@ -60,8 +60,8 @@ with open('rom-sizes-living.csv', 'r') as csvfile:
         y = int(row[3])
         color = mobile.get(row[3], 'grey')
         plt.plot([1976, 2020], [y, y], color='#cccccc')
-        plt.text(1974.5, y, row[0], horizontalalignment='left',
-                verticalalignment='center', fontsize=12, bbox=dict(facecolor='white', alpha=0.8, lw=0))
+        plt.text(1974.2, y, row[0], horizontalalignment='left',
+                verticalalignment='center', fontsize=12, bbox=dict(facecolor='#fffff8', alpha=0.8, lw=0))
 
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
