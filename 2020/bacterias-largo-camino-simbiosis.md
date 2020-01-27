@@ -96,13 +96,43 @@ Amount of genes in human immune system vs other species.
 
 ¿Qué aporta la ciencia a nuestras defensas?
 
+### Antibióticos
+
+Nuestra primera línea de defensa ante las bacterias son los antibióticos.
+
 Antibióticos. Fleming.
-[Contribución de cepa por señora]()
+[No fue Contribución de cepa por señora](https://sangerinstitute.blog/2019/06/06/breaking-the-mould-the-story-of-penicillin/)
+
+![Foto original de Fleming: el hongo _Penicillium_ contra la bacteria _Staphylococcus_. Gana el hongo por goleada. [Fuente](hhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/pdf/brjexppathol00255-0037.pdf).](pics/bacterias-fleming-penicilina.jpg "Una colonia de _Staphylococcus_ con un crecimiento de _Penicillium_ en medio. Las bacterias que rodean al hongo sufren un proceso de ruptura de la pared celular (lisis) y mueren.")
 
 Resistencia a los antibióticos.
+
+![Antibióticos en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
+
 [Enfoques de big data](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
 
-Science attacks: double blind studies
+### Ensayos clínicos
+
+El progreso actual de la ciencia médica es a través de medicamentos,
+valga la redundancia.
+Se trata de un proceso riguroso que incluye
+[ensayos clínicos en al menos tres fases](https://www.centerwatch.com/clinical-trials/overview):
+en la primera se comprueba que el medicamento sea seguro en voluntarios,
+y en la segunda se verifica su eficacia en pacientes.
+La fase III es la más completa, implica a más pacientes todavía (cientos o miles),
+y suele hacerse con un proceso de
+[doble ciego](https://www.cancerresearchuk.org/find-a-clinical-trial/what-clinical-trials-are/randomised-trials#doubleblind):
+se trata a la mitad de los pacientes con el medicamento,
+y la otra mitad sólo recibe un placebo sin efecto.
+Ni pacientes ni investigadores saben en qué grupo está cada uno.
+
+El problema en este caso es justamente el coste.
+Sólo la fase III puede costar
+[alrededor de $20 millones de dólares](https://www.raps.org/news-and-articles/news-articles/2018/9/phase-3-trial-costs-estimated-at-19m-study-finds).
+¿Quién está dispuesto a pagar esta cantidad?
+Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inversión.
+
+### Edición de genes
 
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 

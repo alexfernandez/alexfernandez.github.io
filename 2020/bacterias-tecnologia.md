@@ -193,8 +193,13 @@ Como hacemos con otras máquinas,
 los humanos usamos de forma habitual bacterias en nuestros procesos industriales,
 a veces en áreas que pueden sorprender.
 
-Los cañones de nieve artificial usan la proteína 
-_Pseudomonas syringae_.
+Los cañones de nieve artificial usan una proteína extraída de
+[_Pseudomonas syringae_]().
+
+Calentamiento global: cubrir los cielos con nubes,
+gracias a
+[_Pseudomonas syringae_]()
+y amigas.
 
 # Continuará…
 
