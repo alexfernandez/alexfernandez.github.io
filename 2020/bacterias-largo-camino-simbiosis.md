@@ -100,21 +100,49 @@ Amount of genes in human immune system vs other species.
 
 Nuestra primera línea de defensa ante las bacterias son los antibióticos.
 
-Antibióticos. Fleming.
-[No fue Contribución de cepa por señora](https://sangerinstitute.blog/2019/06/06/breaking-the-mould-the-story-of-penicillin/)
+Corría el año 1928.
+El doctor Alexander Fleming volvió de vacaciones para encontrarse
+[una cápsula de Petri](https://sangerinstitute.blog/2019/06/06/breaking-the-mould-the-story-of-penicillin/)
+contaminada por bacterias y hongos.
+Podemos suponer que debe ser una ocurrencia habitual en un laboratorio,
+pero Fleming se dedicó a investigar el fenómeno en profundidad.
+Suele decirse que la penicilina se descubrió por casualidad,
+pero no creo que sea una caracterización correcta:
+sin la tenacidad del investigador
+no se habría dado cuenta de que las secreciones de cierta cepa del hongo _Penicillium_
+mataban a las bacterias de alrededor,
+como se les había pasado a todos los investigadores antes de él.
 
-![Foto original de Fleming: el hongo _Penicillium_ contra la bacteria _Staphylococcus_. Gana el hongo por goleada. [Fuente](hhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/pdf/brjexppathol00255-0037.pdf).](pics/bacterias-fleming-penicilina.jpg "Una colonia de _Staphylococcus_ con un crecimiento de _Penicillium_ en medio. Las bacterias que rodean al hongo sufren un proceso de ruptura de la pared celular (lisis) y mueren.")
+![Foto original de Fleming: el hongo _Penicillium_ contra la bacteria _Staphylococcus_. Gana el hongo por goleada. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/pdf/brjexppathol00255-0037.pdf).](pics/bacterias-fleming-penicilina.jpg "Una colonia de _Staphylococcus_ con un crecimiento de _Penicillium_ en medio. Las bacterias que rodean al hongo sufren un proceso de ruptura de la pared celular (lisis) y mueren.")
 
-Resistencia a los antibióticos.
+[Fleming publicó sus resultados](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/pdf/brjexppathol00255-0037.pdf)
+y la cosa quedó ahí,
+como una curiosidad científica.
+Pero otros investigadores siguieron con el trabajo incansable de
+refinar el proceso y aumentar el rendimiento.
+Con la llegada de la segunda guerra mundial los Estados Unidos se unieron a la investigación.
+Fue Mary Hunt,
+una asistente de laboratorio estadounidense,
+quien encontró
+[el melón mohoso que cambiaría la historia](https://sangerinstitute.blog/2019/06/06/breaking-the-mould-the-story-of-penicillin/).
+La hermosa cepa dorada que contenía el melón era 1000 veces más potente que la de Fleming,
+y permitió la producción en masa de penicilina.
+
+Hoy día tenemos una gran variedad de antibióticos,
+pero la situación empeora rápidamente,
+hasta el punto de que la Organización Mundial de la Salud ha
+[solicitado acción urgente](https://www.who.int/news-room/detail/29-04-2019-new-report-calls-for-urgent-action-to-avert-antimicrobial-resistance-crisis).
+Sobre todo en el tercer mundo
+[la sobremedicación está fuera de control](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
+lo que hace que los antibióticos estén perdiendo eficacia a ojos vista.
+Es necesario emplear enfoques de big data que permitan descubrir rápidamente a qué antibióticos es resistente una cepa,
+y poner así el tratamiento adecuado lo antes posible.
 
 ![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")
 
-[Enfoques de big data](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
-
 ### Ensayos clínicos
 
-El progreso actual de la ciencia médica es a través de medicamentos,
-valga la redundancia.
+La forma que tiene la ciencia médica de conseguir nuevos antibióticos es a través de ensayos clínicos.
 Se trata de un proceso riguroso que incluye
 [ensayos clínicos en al menos tres fases](https://www.centerwatch.com/clinical-trials/overview):
 en la primera se comprueba que el medicamento sea seguro en voluntarios,
