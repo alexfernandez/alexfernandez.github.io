@@ -168,7 +168,7 @@ Estamos buscando el culpable de la enfermedad de Crohn.
 Tenemos ya una sospechosa (nuestra amiga MAP),
 un móvil (transmisión zoonótica),
 y un _modus operandi_ (bacterias haciéndose pasar por dolencias autogeneradas).
-Nos falta encontrar la pistola humeante:
+Nos falta encontrar el arma humeante:
 bacterias en las lesiones de enfermos de Crohn.
 
 Aquí es donde tenemos que investigar a fondo la coartada de la MAP.
@@ -196,7 +196,7 @@ basadas en tests genéticos.
 ¿Qué ocurre con la medicación inmunomoduladora?
 ¿Por qué funciona?
 En tests _in vitro_ se ha mostrado que tanto
-[el Metotrexate]()
+[el Metotrexate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1779805/)
 como
 [el Humira]()
 y otros tratamientos usados en pacientes de Crohn
@@ -220,7 +220,8 @@ sólo que hacen falta pruebas más contundentes para convencerles.
 La nueva droga se llama
 [RHB-104](https://www.redhillbio.com/rhb-104).
 En [ensayos clínicos de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326)
-se ha comprobado su eficacia en el tratamiento de la enfermedad de Crohn.
+se ha comprobado su eficacia en el
+[tratamiento de la enfermedad de Crohn](https://www.medpagetoday.com/meetingcoverage/acg/83055?fbclid=IwAR3n_8ds0-LnxeTt9u4oNYQfxzLJDuncGul6sDBdxO-mWb_vfct_EUfougY).
 
 ¿A quién encontramos tras esta terapia antibiótica?
 Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
@@ -228,12 +229,17 @@ el mismo de la formulación triple contra _H. pylori_.
 
 ## Otras enfermedades autoinmunes
 
+El sistema inmune humano es muy complejo,
+y todo sistema complejo tiende a fallar de formas enrevesadas.
+
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
 [ataca y destruye los islotes de ?]().
 ¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
 Se han documentado casos de pacientes de diabetes tipo I
 [que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
+Hay también estudios que relacionan a
+[la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
 
 Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
@@ -261,6 +267,15 @@ Por ultimo,
 hace unos dias se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
 
+## La gripe española
+
+Lo mismo ocurrió con
+[la gripe española](https://www.sciencedaily.com/releases/2006/09/060927201707.htm):
+el virus activaba las reacciones inmunes de los enfermos,
+motivo por el cual esta enfermedad se cebaba en la población más sana
+en lugar de ser más mortífera en infancia y vejez,
+como la gripe normal.
+
 ## La gran prediccion
  
 Sin ser médico ni biólogo,
@@ -270,6 +285,13 @@ me atrevo a lanzar la siguiente predicción:
 > Una gran proporción de enfermedades "autoinmunes"
 > están causadas en realidad por infecciones bacterianas o víricas,
 > que confunden al sistema inmune.
+
+La idea general es:
+una infección ataca el organismo,
+que se apresta a preparar anticuerpos.
+Por desgracia algunos de estos anticuerpos
+[atacan a las moléculas del propio organismo](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full),
+por ser parecidas a las de los invasores.
 
 Por ahora sólo queda esperar que las investigaciones continúen,
 tanto en Crohn como en el resto de enfermedades autoinmunes.

@@ -31,7 +31,7 @@ Experimento
 Este vídeo muestra cómo evolucionan las bacterias en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
-<iframe class="video" src="https://www.youtube.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Control bacteriano
 
@@ -68,6 +68,11 @@ Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 ## Nuestras defensas
 
 Human attacks: random generation -> rapid mutation in the immune system
+Cada célula B se genera aleatoriamente de un
+[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
+presente en nuestro genoma.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
 Las especies salvajes suelen encontrarse en un ecosistema limitado,
@@ -77,11 +82,15 @@ se mueve entre ecosistemas,
 ha domesticado múltiples especies,
 y además tiene contacto frecuente entre casi todas sus subpoblaciones.
 
-[Transmisión zoonotica]().
-El virus del ébola
-[proviene del murciélago salvaje]();
-al parecer la reciente infección de coronavirus
-[tiene su origen en serpientes salvajes]().
+Gran parte de las enfermedades son de
+[transmisión zoonótica](),
+es decir que se transmiten de animales a humanos.
+Y muchas de éstas provienen de
+[fauna salvaje](https://s3.amazonaws.com/academia.edu.documents/31795667/published.pdf?response-content-disposition=inline%3B%20filename%3DWild_life_a_hidden_warehouse_of_zoonosis.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200128T225616Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5284d7827fc7f090b9a2d425909a07d8ccb7f081f95c353cee123952a46a5375),
+como el virus del ébola que
+[proviene del murciélago salvaje]().
+Al parecer la reciente infección de coronavirus
+[tiene su origen en serpientes salvajes](https://www.citynews1130.com/wp-content/blogs.dir/sites/9/2020/01/23/Ji_et_al-2020-Journal_of_Medical_Virology.pdf).
 
 Sólo hay que fijarse en la llegada de los europeos a América.
 En América no hay especies domésticas que puedan transmitir enfermedades zoonóticas.
@@ -89,9 +98,19 @@ La difusión de bacterias y virus a los que gran parte de la población europea 
 [acabó con el 90% de la población americana]().
 
 Diseases attacking humans vs cattle vs wild animals.
-[Enfermedades zoonóticas de especies salvajes](https://www.researchgate.net/publication/259870465_Wildlife_a_hidden_warehouse_of_zoonosis_-_a_review).
 
 Amount of genes in human immune system vs other species.
+El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
+hay miles de millones de combinaciones posibles en cada glóbulo blanco.
+
+### Atracción fetal
+
+Atracción:
+[besos y olores]()
+[sistema inmune]()
+
+Feromonas inodoras
+[descompuestas por bacterias]()
 
 ## La ciencia al rescate
 

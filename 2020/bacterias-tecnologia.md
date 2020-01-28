@@ -79,6 +79,13 @@ El problema del
 es computacionalmente muy intensivo:
 resulta casi imposible predecir la estructura final sin una simulación detalladísima de las fuerzas de cada aminoácido.
 
+Esta introducción es muy somera y no tiene en cuenta factores como
+[pseudo-genes](http://downloads.hindawi.com/journals/cfg/2012/424526.pdf)
+o
+[material no codificante](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2434389/),
+sobre cuyas funciones todavía no hay consenso;
+ni siquiera sabemos si tienen utilidad o no.
+
 ## Tamaño de ROM
 
 Los virus tienen un genoma que oscila entre
