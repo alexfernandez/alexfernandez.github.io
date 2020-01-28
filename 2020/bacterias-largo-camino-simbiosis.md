@@ -67,13 +67,6 @@ Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 
 ## Nuestras defensas
 
-Human attacks: random generation -> rapid mutation in the immune system
-Cada célula B se genera aleatoriamente de un
-[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
-presente en nuestro genoma.
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
 Las especies salvajes suelen encontrarse en un ecosistema limitado,
 y sólo tienen que tratar con cierto número de especies que les puedan contagiar enfermedades.
@@ -81,6 +74,9 @@ El ser humano, por el contrario,
 se mueve entre ecosistemas,
 ha domesticado múltiples especies,
 y además tiene contacto frecuente entre casi todas sus subpoblaciones.
+De ahí que [el sistema inmune humano sea el más complejo que conocemos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
+
+Diseases attacking humans vs cattle vs wild animals.
 
 Gran parte de las enfermedades son de
 [transmisión zoonótica](),
@@ -97,7 +93,16 @@ En América no hay especies domésticas que puedan transmitir enfermedades zoon�
 La difusión de bacterias y virus a los que gran parte de la población europea ya era inmune
 [acabó con el 90% de la población americana]().
 
-Diseases attacking humans vs cattle vs wild animals.
+### Cambios aleatorios
+
+Human attacks: random generation -> rapid mutation in the immune system
+
+[células T y B](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
+Cada célula B se genera aleatoriamente de un
+[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
+presente en nuestro genoma.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Amount of genes in human immune system vs other species.
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
@@ -105,12 +110,15 @@ hay miles de millones de combinaciones posibles en cada glóbulo blanco.
 
 ### Atracción fetal
 
-Atracción:
-[besos y olores]()
-[sistema inmune]()
+La atracción entre una pareja heterosexual.
+Preferencias en olor corporal e incluso la satisfacción sexual de una pareja
+está relacionada con la diferencia en
+[complejo mayor de histocompatibilidad](major histocompatibility complex).
 
-Feromonas inodoras
-[descompuestas por bacterias]()
+Por cierto que las tan citadas feromonas
+son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
+sólo tras la descomposición por la flora bacteriana de la piel
+adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
 
 ## La ciencia al rescate
 
