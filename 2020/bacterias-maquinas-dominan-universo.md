@@ -26,7 +26,7 @@ También veremos multitud de hallazgos curiosos que se desconocían hace sólo u
 incluyendo algunos que posiblemente terminarán dando premios Nobel a sus descubridores.
 Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posible origen estelar.
 
-## Bacterias en T3chFest
+# Bacterias en T3chFest
 
 Esta serie de artículos sirve como complemento bibliográfico a la
 [charla de T3chFest 2020](https://t3chfest.es/2020/programa)
@@ -35,7 +35,7 @@ He intentado que los artículos sean interesantes por su cuenta,
 ampliando las historias y añadiendo material suplementario.
 ¡Ya me contarás si lo he conseguido!
 
-## Agradecimientos
+# Agradecimientos
 
 Gracias a la organización de T3chFest.
 

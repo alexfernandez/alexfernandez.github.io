@@ -7,13 +7,11 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Tecnología bacteriana
-
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
 al estudiar la sofisticada tecnología que son capaces de desplegar.
 
-## La estructura del ADN
+# La estructura del ADN
 
 Corría el año 1953.
 Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
@@ -46,7 +44,7 @@ Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
 pero Franklin habría llegado a la doble hélice por sí sola.
 
-## Material genético
+# Material genético
 
 El genoma es el conjunto de material genético de un organismo vivo.
 Contiene las instrucciones para fabricar todas sus proteínas,
@@ -74,7 +72,7 @@ o
 sobre cuyas funciones todavía no hay consenso;
 ni siquiera sabemos si tienen utilidad o no.
 
-## Tamaño de ROM
+# Tamaño de ROM
 
 Los virus tienen un genoma que oscila entre
 [1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
@@ -109,7 +107,7 @@ mirar el tamaño de la imagen original.
 
 ![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="pics/bacterias-roms.png" target="_blank">🔍 Ampliar</a>. Fuente: elaboración propia. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "Un virus tiene la misma ROM que un ZX Spectrum; una bacteria equivale a una PDA Psion Serie 3 o Siena; una levadura a una Palm Tugsten T; y las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.")
 
-## Memoria
+# Memoria
 
 Las bacterias tienen,
 igual que las eucariotas,
@@ -120,7 +118,7 @@ pueden hacer que se expresen ciertos genes y se supriman otros.
 Existen mecanismos como los priones
 que permiten compartir estos cambios entre una población entera de bacterias.
 
-## Refactorización
+# Refactorización
 
 [reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
 [en pájaros](https://en.wikipedia.org/wiki/Genomic_evolution_of_birds).
@@ -135,7 +133,7 @@ ahora depende de las células del anfitrión para multitud de funciones vitales.
 Reducción manual de genoma:
 [de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
 
-## Ejecutables
+# Ejecutables
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
@@ -154,7 +152,7 @@ Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009
 Estos virus servirían pues como discos duros externos,
 o incluso como almacenamiento en la nube.
 
-## Herramientas
+# Herramientas
 
 Este vídeo muestra cómo funciona un pelo de bacteria:
 extensión y retractación rápidas que le permiten moverse.
@@ -182,7 +180,7 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Usos industriales
+# Usos industriales
 
 Como hacemos con otras máquinas,
 los humanos usamos de forma habitual bacterias en nuestros procesos industriales,

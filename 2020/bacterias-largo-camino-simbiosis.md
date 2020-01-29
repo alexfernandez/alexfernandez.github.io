@@ -7,12 +7,10 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# El largo camino a la simbiosis
-
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
 
-## Mutación rápida
+# Mutación rápida
 
 Experimento
 [evolución a largo plazo](https://en.wikipedia.org/wiki/E._coli_long-term_evolution_experiment).
@@ -22,7 +20,7 @@ para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Control bacteriano
+# Control bacteriano
 
 Seguro que has visto jabones anunciados que
 [matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
@@ -49,12 +47,12 @@ Incluso un jabón que elimine
 nos dejará las manos exactamente igual tras unas 17 horitas.
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
-## Enfermedades múltiples
+# Enfermedades múltiples
 
 Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 [autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
-## Nuestras defensas
+# Nuestras defensas
 
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
 Las especies salvajes suelen encontrarse en un ecosistema limitado,
@@ -82,7 +80,7 @@ En América no hay especies domésticas que puedan transmitir enfermedades zoon�
 La difusión de bacterias y virus a los que gran parte de la población europea ya era inmune
 [acabó con el 90% de la población americana]().
 
-### Cambios aleatorios
+## Cambios aleatorios
 
 Human attacks: random generation -> rapid mutation in the immune system
 
@@ -97,7 +95,7 @@ Amount of genes in human immune system vs other species.
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
 hay miles de millones de combinaciones posibles en cada glóbulo blanco.
 
-### Atracción fetal
+## Atracción fetal
 
 La atracción entre una pareja heterosexual.
 Preferencias en olor corporal e incluso la satisfacción sexual de una pareja
@@ -109,11 +107,11 @@ son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
 sólo tras la descomposición por la flora bacteriana de la piel
 adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
 
-## La ciencia al rescate
+# La ciencia al rescate
 
 ¿Qué aporta la ciencia a nuestras defensas?
 
-### Antibióticos
+## Antibióticos
 
 Nuestra primera línea de defensa ante las bacterias son los antibióticos.
 
@@ -157,7 +155,7 @@ y poner así el tratamiento adecuado lo antes posible.
 
 ![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")
 
-### Ensayos clínicos
+## Ensayos clínicos
 
 La forma que tiene la ciencia médica de conseguir nuevos antibióticos es a través de ensayos clínicos.
 Se trata de un proceso riguroso que incluye
@@ -177,13 +175,13 @@ Sólo la fase III puede costar
 ¿Quién está dispuesto a pagar esta cantidad?
 Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inversión.
 
-### Edición de genes
+## Edición de genes
 
 Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Matar al anfitrión
+# Matar al anfitrión
 
 Estamos asumiendo que las bacterias intentan activamente asesinarnos de cualquier forma.
 Y esto no es realmente cierto.
@@ -208,7 +206,7 @@ Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
 Tampoco les interesa realmente dañar los tejidos en los que se alojan.
 
-## Llegando a la simbiosis
+# Llegando a la simbiosis
 
 La mejor estrategia a largo plazo es siempre
 [la simbiosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317043/):

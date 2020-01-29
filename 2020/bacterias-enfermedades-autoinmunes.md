@@ -7,8 +7,6 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Enfermedades autoinmunes
-
 Vamos a ver ahora un asunto controvertido.
 La relación con las bacterias no se hará evidente
 hasta casi el final.
@@ -25,7 +23,7 @@ Por ejemplo,
 [vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
 o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
 
-## Enfermedad de Crohn
+# Enfermedad de Crohn
 
 Esta enfermedad me toca muy de cerca por tener a alguien en mi familia que la sufre.
 
@@ -64,7 +62,7 @@ que deprimen el sistema inmune para minimizar los síntomas.
 Los pacientes siguen siendo crónicos,
 pero al menos se pueden mantener sin brotes.
 
-## Tras la pista bacteriana
+# Tras la pista bacteriana
 
 Puede ser interesante ver esta cita del
 [libro del propio doctor Burrill Crohn en 1949](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
@@ -97,7 +95,7 @@ en lo que se conoce como
 Lo cierto es que [múltiples intentos de identificarla en enfermos de Crohn han fracasado]().
 Antes de seguir con esta cuestión vamos a ver otra historia.
 
-## Úlceras y bacterias
+# Úlceras y bacterias
 
 La gente que no han vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
 no se hace una idea de su magnitud.
@@ -150,7 +148,7 @@ En su mayoría la gente que da positivo permanece asintomática durante toda su 
 los que desarrollan úlcera se tratan con éxito
 con distintas combinaciones de antibióticos según la resistencia de la cepa.
 
-## Uniendo los puntos
+# Uniendo los puntos
 
 Recapitulemos.
 Estamos buscando el culpable de la enfermedad de Crohn.
@@ -204,7 +202,7 @@ Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
 
-## Terapia antibiótica anti-MAP
+# Terapia antibiótica anti-MAP
 
 La nueva droga se llama
 [RHB-104](https://www.redhillbio.com/rhb-104).
@@ -216,7 +214,7 @@ se ha comprobado su eficacia en el
 Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
 el mismo de la formulación triple contra _H. pylori_.
 
-## Otras enfermedades autoinmunes
+# Otras enfermedades autoinmunes
 
 El sistema inmune humano es muy complejo,
 y todo sistema complejo tiende a fallar de formas enrevesadas.
@@ -256,7 +254,7 @@ Por ultimo,
 hace unos dias se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
 
-## La gripe española
+# La gripe española
 
 Lo mismo ocurrió con
 [la gripe española](https://www.sciencedaily.com/releases/2006/09/060927201707.htm):
@@ -265,7 +263,7 @@ motivo por el cual esta enfermedad se cebaba en la población más sana
 en lugar de ser más mortífera en infancia y vejez,
 como la gripe normal.
 
-## La gran prediccion
+# La gran prediccion
  
 Sin ser médico ni biólogo,
 ni querer parecerlo,

@@ -7,11 +7,9 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# ¿Venimos de las estrellas?
-
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ¿Vida en Marte?
+# ¿Vida en Marte?
 
 La misión Viking llevaba a bordo cinco experimentos para detectar vida en Marte.
 Carl Sagan (junto con Joshua Lederberg)
@@ -51,7 +49,7 @@ Catharine "Cassie" Conley.
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
 
-## ¿Vida en el sistema solar?
+# ¿Vida en el sistema solar?
 
 No en vano hay toda una disciplina,
 la astrobiología,
@@ -71,7 +69,7 @@ Desde luego parece que merece más estudio,
 al menos para descartar que provenga de arqueas
 (o sus equivalentes jovianas).
 
-## Panspermia
+# Panspermia
 
 La primera vez que me encontré con esta idea de que la vida se había originado en otro planeta,
 o incluso en otro sistema solar,
@@ -117,7 +115,7 @@ y que, por lo tanto, no ha habido tiempo de que evolucionara en la Tierra,
 requiere de bastantes más pruebas antes de que pueda aceptarse;
 una gráfica con cinco puntos y una regresión no es suficiente.
 
-## ¿El origen del sol?
+# ¿El origen del sol?
 
 Dado que los elementos que componen la Tierra se fraguaron
 [en estrellas de neutrones]()

@@ -5,11 +5,9 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
-
 <iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Historia
+# Historia
 
 Corría el año 1770.
 [Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
@@ -25,7 +23,7 @@ Fue el primero en ver lo que ahora llamamos "bacterias".
 
 Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
 
-## Clasificación
+# Clasificación
 
 Las bacterias son una fuente inagotable de sorpresas.
 Incluso su clasificación en el árbol de la vida ha cambiado radicalmente en los últimos tiempos.
@@ -43,7 +41,7 @@ que incluye a bacterias y arqueas.
 En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
 
-## Parámetros físicos
+# Parámetros físicos
 
 La mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
@@ -71,7 +69,7 @@ aunque estimaciones más realistas dan
 [entre 2 y 4 millones](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106)
 entre bacterias y arqueas.
 
-## Ubicuidad
+# Ubicuidad
 
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
@@ -114,7 +112,7 @@ Las bacterias en cuevas
 y por tanto están detrás de la
 [formación de estalactitas y estalagmitas](https://www.researchgate.net/profile/Hazel_Barton/publication/248985200_Bacterial_Calcium_Carbonate_Precipitation_in_Cave_Environments_A_Function_of_Calcium_Homeostasis/links/56d4c5eb08ae9e9dea65b97b/Bacterial-Calcium-Carbonate-Precipitation-in-Cave-Environments-A-Function-of-Calcium-Homeostasis.pdf).
 
-## Los extremófilos no se tocan
+# Los extremófilos no se tocan
 
 Ya que nos estamos adentrando en cuevas profundas,
 vamos a seguir buscando bacterias en sitios oscuros.
