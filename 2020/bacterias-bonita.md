@@ -7,8 +7,6 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Y las bacterias, bonita
-
 <iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Historia
@@ -49,11 +47,13 @@ En enero de 2020 se ha publicado un artículo en Nature con el
 
 La mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
-aunque algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
+y las arqueas tienen
+[un tamaño similar](https://www.landcareresearch.co.nz/science/soils-and-landscapes/antarctic-soils/microbial-life/bacteria-and-archaea).
+Algunas nanobacterias como _Mycoplasma genitalium_ pasan por un filtro de 100 nm.
 Por otra parte hay [gigantes como _Thiomargarita namibiensis_](https://www.sciencespacerobots.com/thiomargarita-namibiensis-61420191)
 que son visibles a simple vista (0.75 mm).
-Las arqueas tienen
-[un tamaño similar](https://www.landcareresearch.co.nz/science/soils-and-landscapes/antarctic-soils/microbial-life/bacteria-and-archaea).
+
+![La bacteria más grande que conocemos, _Thiomargarita namibiensis_, es un gigante de casi un milímetro de diámetro. [Fuente](https://sciblogs.co.nz/code-for-life/2009/11/03/worlds-largest-bacteria/).](pics/bacterias-thiomargarita.jpg "Foto de un ejemplar particularmente grande de _Thiomargarita namibiensis_ al lado de un insecto muerto.")
 
 A pesar de ser tan pequeñas,
 las 10<sup>30</sup> procariotas representan una parte sustancial de la
