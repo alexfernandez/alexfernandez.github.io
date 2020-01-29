@@ -1,6 +1,6 @@
 ---
 title: 'Bacterias (parte 1): Y las bacterias, bonita'
-subtitle: 'Serie de soporte para la charla para T3chfest 2020'
+subtitle: 'Complemento a la charla para T3chFest 2020'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
