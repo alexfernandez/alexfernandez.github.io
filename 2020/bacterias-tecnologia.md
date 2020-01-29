@@ -93,6 +93,8 @@ con múltiples anomalías de criaturas con genomas enormes.
 Por ejemplo la cebolla común _Allium cepa_ tiene,
 por algún motivo,
 cinco veces más pares de bases que un ser humano.
+Es lo que se conoce como
+[paradoja de los _C-values_]().
 
 Resulta que cada par de bases (bp) son dos bits,
 así que un byte serán 4 bp.
@@ -101,9 +103,19 @@ los ordenadores personales y de bolsillo,
 éstos últimos más conocidos como _smartphones_.
 Podemos mirar la memoria que trae escrita de fábrica (ROM),
 o si el sistema operativo se carga bajo demanda
-mirar el tamaño de la imagen original.
+buscar el tamaño de la imagen original.
+Así podemos comparar la información que llevan de fábrica nuestros dispositivos y los organismos vivos.
 
-![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="pics/bacterias-roms.png" target="_blank">🔍 Ampliar</a>. Fuente: elaboración propia. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "Un virus tiene la misma ROM que un ZX Spectrum; una bacteria equivale a una PDA Psion Serie 3 o Siena; una levadura a una Palm Tugsten T; y las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.")
+![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="pics/bacterias-roms.png" target="_blank">🔍 Ampliar</a>. Fuente: elaboración propia. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "En la gráfica se muestran los tamaños de ROM de diversos organismos, y una escala temporal de ROMs en ordenadores y dispositivos móviles.")
+
+Un virus tiene la misma ROM que un ZX Spectrum.
+Una bacteria contiene la información equivalente a una PDA Psion Siena.
+La levadura de panadero equivale a una Palm Tugsten T.
+Por su parte, las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.
+El ser humano tiene algo más de información que un CD-Rom,
+y por lo tanto que la distribución de Knoppix en CD;
+y algo menos que un móvil con Android 8.
+No tenemos en cuenta programas y aplicaciones.
 
 # Memoria
 
@@ -115,23 +127,6 @@ pueden hacer que se expresen ciertos genes y se supriman otros.
 
 Existen mecanismos como los priones
 que permiten compartir estos cambios entre una población entera de bacterias.
-
-# Refactorización
-
-[reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
-[en pájaros](https://en.wikipedia.org/wiki/Genomic_evolution_of_birds).
-
-Por ejemplo,
-[_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
-tiene 3.27 Mbp,
-mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
-Por el camino _M. leprae_ ha perdido unos 1200 genes;
-ahora depende de las células del anfitrión para multitud de funciones vitales.
-
-Reducción manual de genoma:
-[de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
-
-# Ejecutables
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
@@ -149,6 +144,21 @@ que pueden aportar a sus víctimas en lugar de infectarlas.
 Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf).
 Estos virus servirían pues como discos duros externos,
 o incluso como almacenamiento en la nube.
+
+# Refactorización
+
+[reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
+[en pájaros](https://en.wikipedia.org/wiki/Genomic_evolution_of_birds).
+
+Por ejemplo,
+[_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
+tiene 3.27 Mbp,
+mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
+Por el camino _M. leprae_ ha perdido unos 1200 genes;
+ahora depende de las células del anfitrión para multitud de funciones vitales.
+
+Reducción manual de genoma:
+[de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
 
 # Herramientas
 
