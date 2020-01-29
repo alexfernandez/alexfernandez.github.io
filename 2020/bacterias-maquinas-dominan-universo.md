@@ -25,6 +25,15 @@ También veremos multitud de hallazgos curiosos que se desconocían hace sólo u
 incluyendo algunos que posiblemente terminarán dando premios Nobel a sus descubridores.
 Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posible origen estelar.
 
+## Agradecimientos
+
+Gracias a la organización de T3chFest.
+
+Gracias a
+[Carlos J. Santisteban](https://twitter.com/zuiko21)
+por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
+También por encontrar el vídeo de "¡Y las bacterias, bonita!".
+
 # Serie completa
 
 * → Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).

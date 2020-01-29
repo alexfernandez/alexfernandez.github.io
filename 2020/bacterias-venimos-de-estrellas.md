@@ -187,14 +187,6 @@ Las bacterias siguen siendo,
 siglos después de su descubrimiento,
 fuentes inagotables de asombro.
 
-## Agradecimientos
-
-Gracias a la organización de T3chFest.
-
-Gracias a
-[Carlos J. Santisteban](https://twitter.com/zuiko21)
-por encontrar el vídeo de "¡Y las bacterias, bonita!".
-
 # Fin
 
 [Volver a la serie completa](bacterias-maquinas-dominan-universo.html).
