@@ -7,17 +7,6 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Navegación
-
-Este artículo es la quinta parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
-
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
-* ← Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
-* ↓ Parte 5: ¿Venimos de las estrellas?
-
 # ¿Venimos de las estrellas?
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -171,7 +160,7 @@ Incluso que serían buenos candidatos para buscar seres vivos.
 
 ![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
 
-# Conclusiones
+# Conclusión
 
 Este viaje nos ha llevado desde el telar de Leeuwenhoek
 a un clúster estelar a miles de años luz de distancia.
@@ -186,8 +175,22 @@ buscando nuestro origen.
 Las bacterias siguen siendo,
 siglos después de su descubrimiento,
 fuentes inagotables de asombro.
+Son una parte importantísima de la vida terrestre,
+y está en nuestro interés conocerlas bien.
+Espero que esta serie de artículos te haya servido como introducción
+y que te animes a seguir los enlaces para profundizar;
+te aseguro que el estudio te recompensará el esfuerzo diez veces.
+¡Gracias por tu interés! 😘
 
 # Fin
 
-[Volver a la serie completa](bacterias-maquinas-dominan-universo.html).
+Este artículo es la quinta y última parte de la
+[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+¡Gracias por llegar hasta aquí! 🦠😅
+
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
+* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* ← Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* ← Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+* ↑ Parte 5: ¿Venimos de las estrellas?
 

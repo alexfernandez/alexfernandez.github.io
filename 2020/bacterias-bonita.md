@@ -7,17 +7,6 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
-# Navegación
-
-Este artículo es la primera parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
-
-* ↓ Parte 1: Y las bacterias, bonita.
-* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* → Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
-* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
-
 # Y las bacterias, bonita
 
 <iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -172,6 +161,14 @@ aunque el sol se apagara de repente.
 
 # Continuará…
 
+Este artículo es la primera parte de la
+[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
 Sigue a la
 [parte 2: Tecnología bacteriana](bacterias-tecnologia.html).
+
+* ↑ Parte 1: Y las bacterias, bonita.
+* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
 

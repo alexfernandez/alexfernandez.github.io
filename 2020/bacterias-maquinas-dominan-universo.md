@@ -13,14 +13,15 @@ donde quiera que miramos encontramos bacterias.
 La vida en nuestro planeta sería imposible sin ellas,
 y sin embargo a veces nos ponen difícil sobrevivir.
 ¿Os suena un discurso apropiado para una conferencia de tecnología?
-¿Y si os digo que en realidad son microfactorías de microrrobots controlados por programas que se autogeneran?
+¿Y si os digo que las bacterias son en realidad microfactorías de microrrobots controlados por programas que se autogeneran?
 
 A día de hoy las bacterias nos siguen dando sorpresas,
 quizás más que nunca.
 En esta serie de artículos veremos el campo desde el punto de vista tecnológico:
 de cuánta información disponen y cómo la transmiten entre sí.
 Por el camino repasaremos la relación de las bacterias con el resto de la vida,
-en particular con la humanidad.
+en particular con la humanidad:
+cómo nos afectan en la salud y en la enfermedad.
 También veremos multitud de hallazgos curiosos que se desconocían hace sólo un par de décadas,
 incluyendo algunos que posiblemente terminarán dando premios Nobel a sus descubridores.
 Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posible origen estelar.
@@ -44,6 +45,8 @@ por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
 También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
 # Serie completa
+
+Empieza por la [parte 1: Y las bacterias, bonita](bacterias-bonita.html).
 
 * → Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
