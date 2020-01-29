@@ -5,11 +5,16 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
-
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+En esta última parte vamos a explorar el origen mismo de las bacterias,
+y para la ocasión vamos a salirnos de nuestro planeta.
+
 # ¿Vida en Marte?
+
+¿Qué pensaríais que pasaría si una misión al planeta rojo detectara vida?
+Grandes titulares y multitud de planes para expandir los descubrimientos, como mínimo.
+La realidad es (o fue) mucho más modesta.
 
 La misión Viking llevaba a bordo cinco experimentos para detectar vida en Marte.
 Carl Sagan (junto con Joshua Lederberg)
@@ -36,8 +41,12 @@ puede haber provocado el falso negativo.
 No es necesario buscar conspiraciones:
 el principio de prudencia se debe aplicar mientras no haya resultados concluyentes.
 
-Desde entonces se han detectado en Marte agua líquida, metano y compuestos orgánicos complejos.
-Además se encuentra CO<sub>2</sub> que no puede explicarse sólo por fuentes inorgánicas.
+Desde entonces se han detectado en Marte
+[agua líquida](http://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Water_at_Martian_south_pole),
+[metano](https://pdfs.semanticscholar.org/6ba6/590c2d871a0f7db0f568e2ba1e838c4c433b.pdf)
+y [compuestos orgánicos complejos](https://www.nasa.gov/press-release/nasa-finds-ancient-organic-material-mysterious-methane-on-mars).
+Además se encuentra O<sub>2</sub> que no puede explicarse sólo por fuentes inorgánicas,
+y que [aumenta en primavera y verano](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006175).
 ¿Qué nos falta pues?
 
 ¿Es posible que hayamos llevado nosotros esas bacterias?
@@ -55,7 +64,9 @@ No en vano hay toda una disciplina,
 la astrobiología,
 dedicada a encontrarla.
 
-Se ha sugerido que las bacterias más resistentes
+Se ha sugerido que las bacterias más resistentes que conocemos,
+_Deinococus  radiodurance_,
+tienen su
 [origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
 
@@ -91,6 +102,12 @@ aunque la especifidad de los ataques contra nuestras células siembra serias dud
 Abriendo un poco más los ojos,
 y ampliando los periodos de tiempo considerados,
 podríamos considerar que la vida venga de otras estrellas cercanas.
+Al fin y al cabo,
+todo parece indicar que ya había abundante vida en la Tierra
+[hace 3700 millones de años](https://www.researchgate.net/profile/Takeshi_Kakegawa/publication/262981831_Evidence_for_biogenic_graphite_in_early_Archaean_Isua_metasedimentary_rocks/links/0046352fdb80b2cbf2000000.pdf),
+poco después de que se enfriara el planeta.
+¿No puede ser que se originara en otra estrella que luego explotara,
+y que por tanto la vida ya estuviera en el sistema solar desde su formación?
 En este caso podríamos ver nuestro entorno galáctico
 como un caldo de cultivo de vida,
 con [estrellas que se contaminan unas a otras](https://iopscience.iop.org/article/10.3847/2041-8213/aaef2d)
@@ -114,6 +131,10 @@ La intrigante idea de Sharov de que
 y que, por lo tanto, no ha habido tiempo de que evolucionara en la Tierra,
 requiere de bastantes más pruebas antes de que pueda aceptarse;
 una gráfica con cinco puntos y una regresión no es suficiente.
+(El artículo de Sharov en general es muy cuestionable,
+y las objeciones de los revisores no tienen desperdicio.)
+
+![Tamaño de genoma para algunos grandes grupos de animales. Nótese que la gráfica es logarítmica, por lo que la recta de regresión sería en realidad exponencial: la evolución se iría acelerando según aumenta el tamaño del genoma. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/).](pics/bacterias-sharov-genome.png "En la gráfica se muestran los genomas de procariotas, eucariotas, gusanos, peces y mamíferos. Los valores aparentan estar aproximadamente sobre una línea recta en una gráfica logarítmica. Se distingue entre genoma completo y genoma funcional no redundante. La recta de regresión exponencial cruzaría el origen hace unos diez mil millones de años.")
 
 # ¿El origen del sol?
 
@@ -136,7 +157,8 @@ Contando 4500 millones de años
 nos da una velocidad media de
 [230 km/h](https://www.wolframalpha.com/input/?i=300+parsec+%2F+4500+million+years+to+km%2Fh),
 al alcance de un coche de carreras.
-¡Eso no es nada en términos estelares!
+¡Eso no es nada
+[en términos estelares](https://pinchito.es/2019/high-speeds.html)!
 Basta con suponer que algo sacó al Sol de su entorno y lo dejó a la deriva,
 lo que nos convertiría en huérfanos estelares recorriendo la galaxia sin rumbo definido,
 lejos de nuestros hermanos.
