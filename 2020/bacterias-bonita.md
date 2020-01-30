@@ -21,7 +21,21 @@ Fue el primero en ver lo que ahora llamamos "bacterias".
 
 ![Bacterias dibujadas por Leeuwenhoek en un experimento bastante guarro. "No me limpié los dientes durante tres días y después tomé una muestra del material que se había alojado en pequeñas cantidades en las encías sobre mis incisivos… Encontré algunos animálculos vivos." [Fuente](https://europepmc.org/article/PMC/2168648).](pics/bacterias-leeuwenhoek-oral-bacteria.jpg "Dibujo original de Leeuwenhoek, y sus equivalentes modernos: _Campylobacter rectus_, _Selenomonas sputigena_, _Treponema denticola_, _Leptotrichia buccalis_.")
 
-Agar descubierto por [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf).
+El periodo entre 1850 y 1915 se conoce como
+["la edad de oro de la microbiología"](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/).
+En esta época Pasteur y Koch sentaron las bases de la nueva ciencia.
+Pasteur hizo su famoso experimento para demostrar que
+[las bacterias no se generaban espontáneamente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).
+
+![Matraz de cuello de cisne similar al usado en el experimento. Al introducir en su interior un caldo de cultivo y hervirlo, Pasteur se aseguró de que no quedaran bacterias vivas. El cuello de cisne evita que lleguen al caldo, por lo que éste no se estropea. Al empujar las partículas atrapadas en la S del cuello hacia dentro, el caldo se corrompe [Fuente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).](pics/bacterias-pasteur-matraz.jpg "Un matraz que contiene un caldo rojizo, con un largo cuello curvo.")
+
+Koch por su parte introdujo sus famosos
+[postulados](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/)
+para determinar si una bacteria era la causante de una enfermedad.
+Entre otras innovaciones también introdujo el uso del agar para cultivo de bacterias,
+aunque fue por cierto la asistente e ilustradora
+[Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf)
+quien le dio la idea.
 
 # Clasificación
 
@@ -74,12 +88,10 @@ entre bacterias y arqueas.
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
 
-## Cuerpo humano
+## En el cuerpo humano
 
 Sabemos desde hace tiempo que el cuerpo humano alberga
 [más bacterias que células](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
-
-[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
@@ -89,12 +101,21 @@ Nos contó a los futuros padres que recientemente se habían descubierto
 un área tradicionalmente considerada estéril,
 contiene bacterias; o están en la piel de la madre?
 Todo indica que las glándulas mamarias están colonizadas por todo tipo de probióticos.
-El efecto beneficioso está [más que demostrado]().
+El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.org/2bf7/95556f1f7f6b63d167196e05947290303ffc.pdf).
 
 https://en.wikipedia.org/wiki/Human_milk_microbiome
 
 La existencia de bacterias en el aparato reproductor femenino
 [es controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+
+[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
+
+Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son arqueas.
+Ellas son responsables de
+[todo el metano que se genera](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf),
+así que efectivamente están también en nuestro intestino y el de muchos otros animales.
+
+## En el medio ambiente
 
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
@@ -107,10 +128,6 @@ Y de hecho un derivado es lo que se usa hoy día en
 [los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
 Prácticamente toda la lluvia
 [contiene cepas de _P. syringae_](https://www.nature.com/articles/ismej2007113).
-
-Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son arqueas.
-Ellas son responsables de [todo el metano que se genera](),
-así que efectivamente están también en [nuestro intestino]() y el de muchos otros animales.
 
 Las bacterias en cuevas
 [generan la calcita](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273019/),
@@ -146,7 +163,7 @@ Sin aire ni apenas agua,
 las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo y gas natural.
 
 ¿Cuánto tiempo pueden vivir estas preciosidades?
-Muestras extraídas de formaciones salinas creadas hace 250 millones de años
+Muestras extraídas de formaciones salinas creadas hace muchos millones de años
 [reviven sin problema](https://www.researchgate.net/profile/Russell_Vreeland/publication/13503505_Distribution_and_diversity_of_halophilic_bacteria_In_a_subsurface_salt_formation/links/0c96052c48f061c58b000000.pdf)
 al cultivarlas en un medio salino.
 Estudios cuidadosos muestran que nuestras amigas
