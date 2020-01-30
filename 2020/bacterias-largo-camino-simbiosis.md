@@ -5,6 +5,8 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
+![Imagen de microscopio electrónico de una bacteria y un macrófago. En el fondo pueden verse virus y anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a alguna otra bacteria fuera de plano.")
+
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
 También sabemos que en nuestro cuerpo,

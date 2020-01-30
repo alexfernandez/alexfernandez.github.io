@@ -5,6 +5,8 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
+![Máquina infernal para inyectar toxinas en una célula. Usada por las bacterias que producen cánceres gástricos, tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
+
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
 al estudiar la sofisticada tecnología que son capaces de desplegar.
