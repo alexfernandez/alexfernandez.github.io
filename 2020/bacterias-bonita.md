@@ -165,7 +165,7 @@ aunque el sol se apagara de repente.
 # Continuará…
 
 Este artículo es la primera parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+[serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
 [parte 2: Tecnología bacteriana](bacterias-tecnologia.html).
 

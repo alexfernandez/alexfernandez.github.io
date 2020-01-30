@@ -211,7 +211,7 @@ y amigas.
 # Continuará…
 
 Este artículo es la segunda parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+[serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
 [parte 3: El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
 

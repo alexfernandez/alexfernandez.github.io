@@ -205,7 +205,7 @@ te aseguro que el estudio te recompensará el esfuerzo diez veces.
 # Fin
 
 Este artículo es la quinta y última parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+[serie sobre bacterias](bacterias-maquinas.html).
 ¡Gracias por llegar hasta aquí! 🦠😅
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).

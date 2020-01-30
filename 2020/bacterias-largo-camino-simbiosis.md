@@ -283,7 +283,7 @@ en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.026
 # Continuará…
 
 Este artículo es la tercera parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+[serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
 [parte 4: Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
 

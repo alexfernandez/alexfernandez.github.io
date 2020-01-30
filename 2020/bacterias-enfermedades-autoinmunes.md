@@ -289,7 +289,7 @@ y se enfrente a este gran desafío que tenemos por delante.
 # Continuará…
 
 Este artículo es la cuarta parte de la
-[serie sobre bacterias](bacterias-maquinas-dominan-universo.html).
+[serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
 [parte 5: ¿Venimos de estrellas?](bacterias-venimos-de-estrellas.html)
 
