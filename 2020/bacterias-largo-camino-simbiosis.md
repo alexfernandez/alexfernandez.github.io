@@ -9,6 +9,10 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
+Y no sólo las que conocemos:
+al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
+[autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
+
 También sabemos que en nuestro cuerpo,
 tanto fuera como dentro, viven
 [trillones de bacterias](),
@@ -93,9 +97,6 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 
 # Enfermedades múltiples
 
-Al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
-[autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
-
 # Nuestras defensas
 
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
@@ -122,11 +123,6 @@ Al parecer la reciente infección de coronavirus
 
 Es interesante señalar que a menudo las enfermedades zoonóticas
 [no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
-
-Sólo hay que fijarse en la llegada de los europeos a América.
-En América no hay especies domésticas que puedan transmitir enfermedades zoonóticas.
-La difusión de bacterias y virus a los que gran parte de la población europea ya era inmune
-[acabó con el 90% de la población americana]().
 
 ## Cambios aleatorios
 

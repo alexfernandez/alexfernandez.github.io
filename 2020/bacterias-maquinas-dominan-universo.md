@@ -31,9 +31,17 @@ Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posib
 Esta serie de artículos sirve como complemento bibliográfico a la
 [charla de T3chFest 2020](https://t3chfest.es/2020/programa)
 del mismo título.
+
 He intentado que los artículos sean interesantes por su cuenta,
 ampliando las historias y añadiendo material suplementario.
 ¡Ya me contarás si lo he conseguido!
+
+Aprovecho para añadir aquí todas las referencias que no caben en las diapositivas.
+Cuando ha sido posible he intentado ir a las fuentes:
+artículos científicos publicados en revistas fiables,
+aunque no siempre ha sido posible.
+He evitado enlazar a la wikipedia por mantener el rigor,
+y porque cualquiera puede encontrarla.
 
 # Agradecimientos
 
