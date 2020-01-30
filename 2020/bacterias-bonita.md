@@ -7,7 +7,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 <iframe class="video" src="https://www.youtube.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Historia
+# Breve historia
 
 Corría el año 1770.
 [Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),

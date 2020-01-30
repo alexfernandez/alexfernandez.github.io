@@ -88,13 +88,17 @@ sus genomas tienen
 Las eucariotas unicelulares ocupan el siguiente escalón:
 [alrededor de 10 Mbp](https://www.researchgate.net/publication/49759737_Chromosome_Size_in_Diploid_Eukaryotic_Species_Centers_on_the_Average_Length_with_a_Conserved_Boundary).
 Invertebrados, plantas y mamíferos están
-entre 100 Mbp y 10 Gbp,
+entre 100 Mbp y 1 Gbp,
 con múltiples anomalías de criaturas con genomas enormes.
 Por ejemplo la cebolla común _Allium cepa_ tiene,
 por algún motivo,
 cinco veces más pares de bases que un ser humano.
-Es lo que se conoce como
-[paradoja de los _C-values_]().
+Es un ejemplo lo que se conoce como
+[enigma de los _C-values_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4571570/):
+no hay una relación estricta entre complejidad de un organismo y el tamaño de su genoma.
+Y mejor no hablemos de _Paris japonica_,
+una planta con
+[150 Gbp](https://academic.oup.com/botlinnean/article/164/1/10/2418538).
 
 Resulta que cada par de bases (bp) son dos bits,
 así que un byte serán 4 bp.
@@ -115,7 +119,7 @@ Por su parte, las eucariotas van de un Windows 95 a un Windows Vista, o bien de 
 El ser humano tiene algo más de información que un CD-Rom,
 y por lo tanto que la distribución de Knoppix en CD;
 y algo menos que un móvil con Android 8.
-No tenemos en cuenta programas y aplicaciones.
+No tenemos en cuenta todavía programas y aplicaciones.
 
 # Memoria
 

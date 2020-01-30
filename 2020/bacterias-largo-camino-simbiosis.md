@@ -7,6 +7,11 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
+También sabemos que en nuestro cuerpo,
+tanto fuera como dentro, viven
+[trillones de bacterias](),
+y que son esenciales para la vida humana.
+¿Por qué nos enfocamos tanto en la enfermedad?
 
 # Mutación rápida
 
