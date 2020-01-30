@@ -15,7 +15,7 @@ tanto fuera como dentro, viven
 y que son esenciales para la vida humana.
 ¿Por qué nos enfocamos tanto en la enfermedad?
 
-# Mutación rápida
+# Replicación rápida
 
 Una característica interesante (y que da bastante miedito)
 de las bacterias es lo rápido que son capaces de evolucionar.
@@ -68,7 +68,7 @@ para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Control bacteriano
+## Control bacteriano
 
 Seguro que has visto jabones anunciados que
 [matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
@@ -105,19 +105,23 @@ El ser humano, por el contrario,
 se mueve entre ecosistemas,
 ha domesticado múltiples especies,
 y además tiene contacto frecuente entre casi todas sus subpoblaciones.
-De ahí que [el sistema inmune humano sea el más complejo que conocemos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
+Por eso
+[el sistema inmune humano es el más complejo que conocemos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
 
-Diseases attacking humans vs cattle vs wild animals.
+![La especie humana tiene contacto con todo tipo de ecosistemas y de animales domésticos, que pueden terminar contagiándonos sus enfermedades. [Fuente](https://foodsource.org.uk/book/export/html/108).](pics/bacterias-zoonosis.png "Varios frascos con poblaciones de _E. coli., el marcado como A-3 aparece con un fondo turbio.")
 
-Gran parte de las enfermedades son de
-[transmisión zoonótica](),
-es decir que se transmiten de animales a humanos.
+Alrededor del 60% de las enfermedades humanas son de
+[transmisión zoonótica](https://www.who.int/neglected_diseases/diseases/zoonoses/en/),
+es decir que se transmiten de animales a seres humanos.
 Y muchas de éstas provienen de
 [fauna salvaje](https://s3.amazonaws.com/academia.edu.documents/31795667/published.pdf?response-content-disposition=inline%3B%20filename%3DWild_life_a_hidden_warehouse_of_zoonosis.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200128T225616Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5284d7827fc7f090b9a2d425909a07d8ccb7f081f95c353cee123952a46a5375),
 como el virus del ébola que
-[proviene del murciélago salvaje]().
+[proviene del murciélago de la fruta](https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease).
 Al parecer la reciente infección de coronavirus
 [tiene su origen en serpientes salvajes](https://www.citynews1130.com/wp-content/blogs.dir/sites/9/2020/01/23/Ji_et_al-2020-Journal_of_Medical_Virology.pdf).
+
+Es interesante señalar que a menudo las enfermedades zoonóticas
+[no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
 Sólo hay que fijarse en la llegada de los europeos a América.
 En América no hay especies domésticas que puedan transmitir enfermedades zoonóticas.
@@ -186,6 +190,13 @@ quien encontró
 [el melón mohoso que cambiaría la historia](https://sangerinstitute.blog/2019/06/06/breaking-the-mould-the-story-of-penicillin/).
 La hermosa cepa dorada que contenía el melón era 1000 veces más potente que la de Fleming,
 y permitió la producción en masa de penicilina.
+
+Por desgracia ya vimos en la
+[parte 2](bacterias-tecnologia.html)
+la facilidad que tienen las bacterias para transferir genes entre ellas.
+Cuando se trata una enfermedad con un antibiótico
+es fácil que las bacterias benéficas del intestino se vuelvan resistentes,
+[y pueden transferir esa inmunidad a otras bacterias patógenas](https://www.frontiersin.org/articles/10.3389/fmicb.2013.00086/full).
 
 Hoy día tenemos una gran variedad de antibióticos,
 pero la situación empeora rápidamente,
@@ -271,7 +282,7 @@ Un ejemplo muy llamativo es el de
 Se sabe desde hace tiempo
 la influencia del microbioma intestinal
 (como se conoce al conjunto de microorganismos del intestino)
-en [la salud humana]().
+en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
 
 # Continuará…
 

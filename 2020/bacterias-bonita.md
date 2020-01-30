@@ -74,6 +74,11 @@ entre bacterias y arqueas.
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
 
+## Cuerpo humano
+
+Sabemos desde hace tiempo que el cuerpo humano alberga
+[más bacterias que células](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
+
 [cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
