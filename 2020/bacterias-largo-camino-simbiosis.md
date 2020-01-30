@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Imagen de microscopio electrónico de una bacteria y un macrófago a punto de fagocitar un virus. En el fondo pueden verse otros virus y anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a un virus.")
+![Imagen de microscopio electrónico de una bacteria y un macrófago a punto de fagocitar un virus. En el fondo puede verse a una bacteria luchando contra algunos anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a un virus.")
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
@@ -17,8 +17,51 @@ y que son esenciales para la vida humana.
 
 # Mutación rápida
 
-Experimento
-[evolución a largo plazo](https://en.wikipedia.org/wiki/E._coli_long-term_evolution_experiment).
+Una característica interesante (y que da bastante miedito)
+de las bacterias es lo rápido que son capaces de evolucionar.
+
+El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
+puede oscilar entre unos 20 minutos para _Escherichia coli_ y 15 horas para _Mycobacterium tuberculosis_.
+En la naturaleza se observan
+[tiempo de replicación mayores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015860/),
+alrededor de una hora para _E. coli_.
+En el tiempo en el que un mamífero particularmente prolífico madura y procrea,
+[unas 12 semanas para un ratón](https://www.orkin.com/rodents/mouse-control/life-cycle),
+las bacterias se habrán duplicado unas 2000 veces.
+
+## Evolución a largo plazo
+
+En 1988 un joven Richard Lenski empezó un
+[novedoso experimento](http://lenski.mmg.msu.edu/ecoli/strainsource.html):
+observar la evolución de _E. coli_ a largo plazo.
+Esta bacteria es la favorita de los científicos por varios motivos,
+entre ellos que es fácil de cultivar y se puede congelar durante largos periodos de tiempo.
+El experimento sigue en marcha hoy día, más de 30 años más tarde.
+Cada día Lenski y su equipo
+[renuevan el sustrato de glucosa y citrato](http://myxo.css.msu.edu/ecoli/overview.html)
+de las 12 poblaciones,
+y cada 75 días almacenan una muestra en el congelador a -80 C.
+Es interesante el aspecto experimental:
+en cualquier momento pueden volver atrás sacando una muestra y reviviéndola,
+o seguirle la pista a las mutaciones secuenciando el genoma de una población en varios momentos.
+Es difícil imaginarse la disciplina requerida,
+y el propio científico nos cuenta que ha habido
+[múltiples errores experimentales](https://telliamedrevisited.wordpress.com/2017/03/13/some-wrinkles-in-time/)
+que por fortuna se han podido resolver.
+
+Entre los resultados del experimento destaca la constatación de que la adaptación al medio
+[sigue una ley de potencia](https://telliamedrevisited.wordpress.com/2013/11/14/fifty-thousand-squared/),
+en lugar de la curva hiperbólica que se solía manejar.
+
+Pero el resultado más espectacular no es un cambio gradual,
+sino una mutación concreta que le permitió a una población de _E. coli_
+[alimentarse del citrato presente en el sustrato](https://www.pnas.org/content/105/23/7899.full).
+Normalmente estas bacterias aprovechan sólo la glucosa,
+pero en la situación experimental resulta muy ventajoso alimentarse también del citrato.
+
+![Experimento de evolución a largo plazo. Nótese cómo la población "A-3" está más turbia, ya que es la única capaz de alimentarse de citrato. Eso hace que la cantidad de bacterias capaces de vivir en el medio aumente espectacularmente. [Fuente](https://en.wikipedia.org/wiki/File:Lenski%27s_long-term_lines_of_E._coli_on_25_June_2008,_close-up_of_citrate_mutant.jpg).](pics/bacterias-ltee-citrato.jpg "Varios frascos con poblaciones de _E. coli., el marcado como A-3 aparece con un fondo turbio.")
+
+## Evolución rápida
 
 Este vídeo muestra cómo evolucionan las bacterias en pocas horas
 para conseguir inmunidad ante un antibiótico.
@@ -32,17 +75,13 @@ Seguro que has visto jabones anunciados que
 Suena bien, ¿no?
 El único problema es la replicación exponencial.
 
-El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
-puede oscilar entre unos 20 minutos para _Escherichia coli_ y 15 horas para _Mycobacterium tuberculosis_.
-Eso quiere decir que tras una hora el número de _E. coli_ se multiplica por 8.
-Tras eliminar el 99.9% de las bacterias,
+El tiempo de replicación óptimo de 20 minutos para _E. coli_
+implica que tras una hora el número de ejemplares se multiplica por 8.
+Tenemos las manos sucias y nos las lavamos con jabón que elimina el 99.9% de las bacterias,
 ¿cuánto tiempo tardamos en volver a tener las mismas bacterias que al principio?
 Fácil: 200 minutos, o sea unas tres horas.
-
-En la naturaleza se observan
-[tiempo de replicación mayores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015860/),
-alrededor de una hora para _E. coli_.
-Con este tiempo más conservador las manos nos durarán más tiempo limpias:
+Con la estimación más realista para el tiempo de replicación de una hora,
+las manos nos durarán más tiempo limpias:
 para ser exactos, 10 horas.
 
 Seguir añadiendo nueves no nos protege demasiado más:

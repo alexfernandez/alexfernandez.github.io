@@ -125,7 +125,7 @@ bacterias capaces de alimentarse de
 [azufre y calor](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub) generado por fumarolas volcánicas,
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
-[300 °C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
+[300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
 [XXX](),
 [radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
@@ -150,7 +150,7 @@ lo que las convierte en las criaturas más longevas del planeta
 por muchísima diferencia.
 
 El género _Pyrodictium_
-[crece de forma óptima a 105 °C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
+[crece de forma óptima a 105 C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
 Se alimenta de sulfuros y forma pirita.
 
 Se ha sugerido que los extremófilos podrían vivir
