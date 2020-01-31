@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por las bacterias que producen cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
+![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
 
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
@@ -196,9 +196,14 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-# Generación de números aleatorios
+# Jugando a los dados
 
-La generación de entropía
+La generación de números aleatorios
+[juega un papel muy importante en criptografía](https://hal.inria.fr/hal-00738638/PDF/rr8060.pdf)
+y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-generators-and-their-limitations-linux).
+Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
+basados en la predictabilidad de los números generados.
+
 
 Human attacks: random generation -> rapid mutation in the immune system
 
