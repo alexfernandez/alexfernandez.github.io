@@ -111,9 +111,9 @@ El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.o
 También es sabido que hay flora bacteriana en la vagina,
 que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
 La existencia de bacterias en el aparato reproductor femenino superior
-[es controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+[es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
 
-¿Seguramente las barbas masculinas sean pozas infectas?
+¿Seguramente las barbas masculinas sean focos de infección?
 En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
 los trabajadores con barba tenían menos probabilidades de llevar
 la peligrosa bacteria _Staphylococcus aureus_ que los lampiños.
