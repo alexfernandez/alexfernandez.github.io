@@ -291,7 +291,7 @@ y se enfrente a este gran desafío que tenemos por delante.
 Este artículo es la cuarta parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
-[parte 5: ¿Venimos de estrellas?](bacterias-venimos-de-estrellas.html)
+[parte 5: ¿Venimos de estrellas?](bacterias-venimos-de-estrellas.html).
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).

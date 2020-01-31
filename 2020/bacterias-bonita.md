@@ -106,6 +106,8 @@ Es sabido que hay flora bacteriana en la vagina,
 que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
 La existencia de bacterias en el aparato reproductor femenino superior
 [es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+Los genitales masculinos también tienen una flora bacteriana,
+aunque [mucho menos estudiada](https://www.the-scientist.com/news-opinion/parsing-the-penis-microbiome-37436).
 
 ¿Seguramente las barbas masculinas sean focos de infección?
 En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
@@ -127,9 +129,13 @@ contienen bacterias; o están en la piel de la madre?
 Todo indica que el interior del pecho colonizado por todo tipo de probióticos.
 El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.org/2bf7/95556f1f7f6b63d167196e05947290303ffc.pdf).
 
-Lo cierto es que no se libra de tener bacterias
-[ni el cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057),
-donde recientemente se han encontrado también colonias en pacientes sanos.
+¿No hay nada sagrado?
+Al menos el templo de nuestra inteligencia,
+el orgullo de nuestra especie,
+¿estará libre de bacterias?
+Al parecer no:
+recientemente se han encontrado
+[colonias bacterianas en cerebros de pacientes sanos](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057).
 
 Y ¿qué pasa con las arqueas?
 Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
@@ -138,7 +144,7 @@ por ejemplo de
 Así que efectivamente están también en nuestro intestino y el de muchos otros animales.
 
 Personalmente creo que estamos en el inicio de una nueva era de descubrimientos,
-y que encontraremos que las bacterias están en todo nuestro cuerpo,
+y que encontraremos que bacterias y arqueas están en todo nuestro cuerpo,
 unas cumpliendo funciones vitales y otras simplemente sobreviviendo.
 
 ## En el medio ambiente

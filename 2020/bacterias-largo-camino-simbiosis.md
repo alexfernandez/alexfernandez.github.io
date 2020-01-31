@@ -95,8 +95,6 @@ Incluso un jabón que elimine
 nos dejará las manos exactamente igual tras unas 17 horitas.
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
-# Enfermedades múltiples
-
 # Nuestras defensas
 
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
@@ -123,21 +121,6 @@ Al parecer la reciente infección de coronavirus
 
 Es interesante señalar que a menudo las enfermedades zoonóticas
 [no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
-
-## Cambios aleatorios
-
-Human attacks: random generation -> rapid mutation in the immune system
-
-[células T y B](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
-Cada célula B se genera aleatoriamente de un
-[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
-presente en nuestro genoma.
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Amount of genes in human immune system vs other species.
-El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
-hay miles de millones de combinaciones posibles en cada glóbulo blanco.
 
 ## Atracción fetal
 
@@ -267,18 +250,27 @@ supongamos una bacteria que infecta a un humano y le confiere una ventaja evolut
 Si humano + bacteria es mejor que humano solo,
 entonces la bacteria medrará a lomos de su anfitrión humano.
 
-Por tanto, las bacterias sobrevivirán con más probabilidad si ayudan al anfitrión.
+Por tanto, bacterias y arqueas sobrevivirán con más probabilidad si ayudan al anfitrión.
 Hay diferentes formas de hacerlo:
 ayudar a digerir la comida,
 eliminar toxinas del medio,
 o proporcionando otras funciones de las que carezca.
 
-Un ejemplo muy llamativo es el de
+Un ejemplo que ya hemos visto de pasada es el de
 [las bacterias en el intestino de los mamíferos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152488/).
 Se sabe desde hace tiempo
-la influencia del microbioma intestinal
+la influencia beneficiosa del microbioma intestinal
 (como se conoce al conjunto de microorganismos del intestino)
 en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
+Pero a veces estas bacterias
+[se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
+sin que sepamos muy bien por qué.
+
+Mi impresión es que estas infecciones de bacterias normalmente beneficiosas
+se debe a una combinación de errores:
+errores de replicación en el ADN bacteriano
+y errores en el sistema inmune del anfitrión,
+que permiten que las huéspedes crezcan sin control.
 
 # Continuará…
 

@@ -29,8 +29,6 @@ posiblemente provocado por
 [su trabajo con rayos X](https://blogs.scientificamerican.com/observations/rosalind-franklin-and-dna-how-wronged-was-she/).
 Watson, Crick y Wilkins recibieron
 [el premio Nobel de medicina en 1962](https://www.nobelprize.org/prizes/medicine/1962/summary/).
-Dado que estos premios sólo se conceden a personas vivas
-no había posibilidad de reconocer el trabajo de Franklin.
 
 ![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia. [Fuente](https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente).](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores.")
 
@@ -40,6 +38,8 @@ de hecho es la idea que yo tenía antes de investigar en más detalle.
 Su biógrafa Brenda Maddox
 [no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
 y cree que debe ponerse más el foco en su brillante carrera científica.
+La realidad es que dado que el premio Nobel sólo se concede a personas vivas
+no había posibilidad de reconocer el trabajo de Franklin.
 Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
 pero Franklin habría llegado a la doble hélice por sí sola.
@@ -194,19 +194,24 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-# Usos industriales
+# Generación de números aleatorios
 
-Como hacemos con otras máquinas,
-los humanos usamos de forma habitual bacterias en nuestros procesos industriales,
-a veces en áreas que pueden sorprender.
+Human attacks: random generation -> rapid mutation in the immune system
 
-Los cañones de nieve artificial usan una proteína extraída de
-[_Pseudomonas syringae_]().
+[células T y B](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
+Cada célula B se genera aleatoriamente de un
+[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
+presente en nuestro genoma.
 
-Calentamiento global: cubrir los cielos con nubes,
-gracias a
-[_Pseudomonas syringae_]()
-y amigas.
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Amount of genes in human immune system vs other species.
+El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
+hay miles de millones de combinaciones posibles en cada glóbulo blanco.
+Y los desarrolladores sabemos bien que los sistemas complejos
+tienden a fallar de formas misteriosas.
+
+Investigaremos más este asunto en la siguiente parte.
 
 # Continuará…
 
