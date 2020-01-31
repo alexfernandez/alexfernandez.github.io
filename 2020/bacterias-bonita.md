@@ -137,10 +137,14 @@ por ejemplo de
 [generar metano](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf).
 Así que efectivamente están también en nuestro intestino y el de muchos otros animales.
 
+Personalmente creo que estamos en el inicio de una nueva era de descubrimientos,
+y que encontraremos que las bacterias están en todo nuestro cuerpo,
+unas cumpliendo funciones vitales y otras simplemente sobreviviendo.
+
 ## En el medio ambiente
 
-Pero hay mucho más.
-Las bacterias aparecen en los sitios más insospechados.
+Vamos ahora a salir afuera aprovechando que se ha quedado buena tarde.
+Veremos que las bacterias juegan papeles esenciales en los sitios más insospechados.
 
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
