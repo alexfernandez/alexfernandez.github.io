@@ -213,16 +213,19 @@ Estudios cuidadosos muestran que nuestras amigas
 lo que las convierte en las criaturas más longevas del planeta
 por muchísima diferencia.
 
-Se ha sugerido que los extremófilos podrían vivir
+Incluso se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
 aunque el sol se apagara de repente.
+Así que no sólo llevan más tiempo que nosotros,
+sino que probablemente aguantarán mucho más.
 
 # Continuará…
 
 Este artículo es la primera parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
-[parte 2: Tecnología bacteriana](bacterias-tecnologia.html).
+[parte 2: Tecnología bacteriana](bacterias-tecnologia.html),
+donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
 
 * ↑ Parte 1: Y las bacterias, bonita.
 * → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).

@@ -271,13 +271,18 @@ se debe a una combinación de errores:
 errores de replicación en el ADN bacteriano
 y errores en el sistema inmune del anfitrión,
 que permiten que las huéspedes crezcan sin control.
+Desde este punto de vista,
+creo también que el campo de la
+[ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
+podría ser muy útil para estudiar las infecciones.
 
 # Continuará…
 
 Este artículo es la tercera parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
-[parte 4: Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
+[parte 4: Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html)
+donde hablaremos de patologías que afectan directamente al sistema inmune.
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).

@@ -196,6 +196,8 @@ de cómo funcionan:
 
 # Generación de números aleatorios
 
+La generación de entropía
+
 Human attacks: random generation -> rapid mutation in the immune system
 
 [células T y B](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
@@ -209,16 +211,15 @@ Amount of genes in human immune system vs other species.
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
 hay miles de millones de combinaciones posibles en cada glóbulo blanco.
 Y los desarrolladores sabemos bien que los sistemas complejos
-tienden a fallar de formas misteriosas.
-
-Investigaremos más este asunto en la siguiente parte.
+tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
 
 # Continuará…
 
 Este artículo es la segunda parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
-[parte 3: El largo camino a la simbiosis](bacterias-simbiosis.html).
+[parte 3: El largo camino a la simbiosis](bacterias-simbiosis.html),
+donde investigaremos más a fondo sobre el sistema inmune y sus modos de fallo.
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ↑ Parte 2: Tecnología bacteriana.

@@ -206,7 +206,7 @@ te aseguro que el estudio te recompensará el esfuerzo diez veces.
 
 Este artículo es la quinta y última parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
-¡Gracias por llegar hasta aquí! 🦠😅
+¡Gracias por llegar hasta aquí! 😅🦠😘
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).

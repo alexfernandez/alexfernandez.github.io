@@ -54,7 +54,8 @@ También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
 # Serie completa
 
-Empieza por la [parte 1: Y las bacterias, bonita](bacterias-bonita.html).
+Empieza por la [parte 1: Y las bacterias, bonita](bacterias-bonita.html),
+donde recorreremos una visión general del panorama bacteriano.
 
 * → Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
