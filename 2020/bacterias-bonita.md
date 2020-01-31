@@ -24,12 +24,12 @@ Fue el primero en ver lo que ahora llamamos "bacterias".
 El periodo entre 1850 y 1915 se conoce como
 ["la edad de oro de la microbiología"](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/).
 En esta época Pasteur y Koch sentaron las bases de la nueva ciencia.
-Pasteur hizo su famoso experimento para demostrar que
+Louis Pasteur hizo su famoso experimento para demostrar que
 [las bacterias no se generaban espontáneamente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).
 
 ![Matraz de cuello de cisne similar al usado en el experimento. Al introducir en su interior un caldo de cultivo y hervirlo, Pasteur se aseguró de que no quedaran bacterias vivas. El cuello de cisne evita que lleguen al caldo, por lo que éste no se estropea. Al empujar las partículas atrapadas en la S del cuello hacia dentro, el caldo se corrompe. [Fuente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).](pics/bacterias-pasteur-matraz.jpg "Un matraz que contiene un caldo rojizo, con un largo cuello curvo.")
 
-Koch por su parte introdujo sus famosos
+Robert Koch por su parte introdujo sus famosos
 [postulados](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/)
 para determinar si una bacteria era la causante de una enfermedad.
 Entre otras innovaciones también introdujo el uso del agar para cultivo de bacterias,
@@ -51,9 +51,12 @@ ya que son muy diferentes en metabolismo y genética a las bacterias.
 
 Técnicamente en este artículo vamos a hablar de "procariotas",
 que incluye a bacterias y arqueas.
-
+¿Qué relación tienen entre sí?
+Desde el principio se ha pensado que las arqueas son más primitivas y por tanto anteriores.
+Pero la cosa no está clara.
 En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
+Es decir que es posible que todos los animales y todas las plantas vengamos de un antiguo linaje de arqueas.
 
 # Parámetros físicos
 
@@ -97,6 +100,22 @@ Y también seguramente sepas que hay un montonaco
 donde cubren multitud de funciones: nos ayudan a alimentarnos
 y nos protegen de peligros.
 Y así por curiosidad, ¿dónde más?
+Aunque la pregunta adecuada sería más bien, ¿dónde no?
+
+Es sabido que hay flora bacteriana en la vagina,
+que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
+La existencia de bacterias en el aparato reproductor femenino superior
+[es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+
+¿Seguramente las barbas masculinas sean focos de infección?
+En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
+los trabajadores con barba tenían menos probabilidades de llevar
+la peligrosa bacteria _Staphylococcus aureus_ que los lampiños.
+Además parece que en las barbas se encuentra la _Staphylococcus epidermidis_,
+capaz de [segregar antibióticos para controlar otras bacterias](https://www.bbc.com/news/magazine-35350886).
+Así que es muy posible que las barbas sean más higiénicas que su ausencia.
+
+![Si tanto Koch como Pasteur llevaban barba, por algo sería. [Fuente](https://www.uni-wuerzburg.de/aktuelles/pressemitteilungen/single/news/deutsch-franzoesische-projekte-der-wissenschaft-1/).](pics/bacterias-koch-pasteur.jpg "Koch y Pasteur luciendo hermosas barbas.")
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
@@ -108,21 +127,9 @@ contienen bacterias; o están en la piel de la madre?
 Todo indica que el interior del pecho colonizado por todo tipo de probióticos.
 El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.org/2bf7/95556f1f7f6b63d167196e05947290303ffc.pdf).
 
-También es sabido que hay flora bacteriana en la vagina,
-que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
-La existencia de bacterias en el aparato reproductor femenino superior
-[es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
-
-¿Seguramente las barbas masculinas sean focos de infección?
-En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
-los trabajadores con barba tenían menos probabilidades de llevar
-la peligrosa bacteria _Staphylococcus aureus_ que los lampiños.
-Además parece que en las barbas se encuentra la _Staphylococcus epidermidis_,
-capaz de [segregar antibióticos para controlar otras bacterias](https://www.bbc.com/news/magazine-35350886).
-
-Lo cierto es que no se libra
+Lo cierto es que no se libra de tener bacterias
 [ni el cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057),
-donde recientemente se han encontrado también bacterias en pacientes sanos.
+donde recientemente se han encontrado también colonias en pacientes sanos.
 
 Y ¿qué pasa con las arqueas?
 Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
