@@ -218,11 +218,11 @@ Investigaremos más este asunto en la siguiente parte.
 Este artículo es la segunda parte de la
 [serie sobre bacterias](bacterias-maquinas.html).
 Sigue a la
-[parte 3: El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+[parte 3: El largo camino a la simbiosis](bacterias-simbiosis.html).
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ↑ Parte 2: Tecnología bacteriana.
-* → Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
 * → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
 

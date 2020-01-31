@@ -210,7 +210,7 @@ Este artículo es la quinta y última parte de la
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-largo-camino-simbiosis.html).
+* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
 * ← Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
 * ↑ Parte 5: ¿Venimos de las estrellas?
 

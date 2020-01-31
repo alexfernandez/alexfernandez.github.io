@@ -9,7 +9,7 @@ sed -i -e 's/"\.\.\//"/g' index.html
 pandoc --template read-only.html -s 2020/bacterias-maquinas.md -o 2020/bacterias-maquinas.html
 pandoc --template read-only.html -s 2020/bacterias-bonita.md -o 2020/bacterias-bonita.html
 pandoc --template read-only.html -s 2020/bacterias-tecnologia.md -o 2020/bacterias-tecnologia.html
-pandoc --template read-only.html -s 2020/bacterias-largo-camino-simbiosis.md -o 2020/bacterias-largo-camino-simbiosis.html
+pandoc --template read-only.html -s 2020/bacterias-simbiosis.md -o 2020/bacterias-simbiosis.html
 pandoc --template read-only.html -s 2020/bacterias-enfermedades-autoinmunes.md -o 2020/bacterias-enfermedades-autoinmunes.html
 pandoc --template read-only.html -s 2020/bacterias-venimos-de-estrellas.md -o 2020/bacterias-venimos-de-estrellas.html
 pandoc --template read-only.html -s 2020/insane-plane-prices.md -o 2020/insane-plane-prices.html
