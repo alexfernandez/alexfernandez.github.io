@@ -204,6 +204,9 @@ y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-g
 Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
 basados en la predictabilidad de los números generados.
 
+Pues bien: nuestro sistema inmune también depende de la generación de números aleatorios.
+
+[Introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/).
 
 Human attacks: random generation -> rapid mutation in the immune system
 
@@ -214,7 +217,6 @@ presente en nuestro genoma.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Amount of genes in human immune system vs other species.
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
 hay miles de millones de combinaciones posibles en cada glóbulo blanco.
 Y los desarrolladores sabemos bien que los sistemas complejos
