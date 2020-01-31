@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Máquina infernal para inyectar toxinas en una célula. Usada por las bacterias que producen cánceres gástricos, tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
+![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por las bacterias que producen cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
 
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
@@ -27,7 +27,8 @@ y lo usaron para descifrar la doble hélice.
 Franklin murió en 1958 de cáncer de ovarios,
 posiblemente provocado por
 [su trabajo con rayos X](https://blogs.scientificamerican.com/observations/rosalind-franklin-and-dna-how-wronged-was-she/).
-Watson, Crick y Wilkins recibieron
+Watson, Crick y Wilkins,
+éste último compañero de Franklin, recibieron
 [el premio Nobel de medicina en 1962](https://www.nobelprize.org/prizes/medicine/1962/summary/).
 
 ![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia. [Fuente](https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente).](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores.")
@@ -39,6 +40,7 @@ Su biógrafa Brenda Maddox
 [no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
 y cree que debe ponerse más el foco en su brillante carrera científica.
 La realidad es que dado que el premio Nobel sólo se concede a personas vivas
+(salvo rarísimas excepciones),
 no había posibilidad de reconocer el trabajo de Franklin.
 Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
