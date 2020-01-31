@@ -188,7 +188,7 @@ Y por supuesto en el
 [hielo de la Antártida](https://epic.awi.de/id/eprint/5290/1/Tho2002b.pdf),
 a temperaturas de -20 C, altas salinidades y muy poca luz.
 
-¿Os parece poco?
+¿Te parece poco?
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
 Sin aire ni apenas agua,
 las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo y gas natural.
