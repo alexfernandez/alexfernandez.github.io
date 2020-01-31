@@ -38,8 +38,8 @@ ampliando las historias y añadiendo material suplementario.
 
 Aprovecho para añadir aquí todas las referencias que no caben en las diapositivas.
 Cuando ha sido posible he intentado ir a las fuentes:
-artículos científicos publicados en revistas fiables,
-aunque no siempre ha sido posible.
+preferiblemente artículos científicos publicados en revistas fiables,
+aunque no siempre he tenido éxito.
 He evitado enlazar a la wikipedia por mantener el rigor,
 y porque cualquiera puede encontrarla.
 

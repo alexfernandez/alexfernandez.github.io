@@ -141,7 +141,7 @@ cogió fuerza cuando se encontró la
 [proteína responsable de la nucleación, InaZ](https://www.pnas.org/content/pnas/83/19/7256.full.pdf).
 Prácticamente toda la lluvia
 [contiene cepas de _P. syringae_](https://www.nature.com/articles/ismej2007113).
-Y de hecho un derivado de esta proteína generada por bacterias es lo que se usa hoy día en
+Y de hecho esta proteína generada por bacterias es lo que se usa hoy día en
 [los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
 
 Las bacterias en cuevas
