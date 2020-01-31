@@ -27,7 +27,7 @@ En esta época Pasteur y Koch sentaron las bases de la nueva ciencia.
 Pasteur hizo su famoso experimento para demostrar que
 [las bacterias no se generaban espontáneamente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).
 
-![Matraz de cuello de cisne similar al usado en el experimento. Al introducir en su interior un caldo de cultivo y hervirlo, Pasteur se aseguró de que no quedaran bacterias vivas. El cuello de cisne evita que lleguen al caldo, por lo que éste no se estropea. Al empujar las partículas atrapadas en la S del cuello hacia dentro, el caldo se corrompe [Fuente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).](pics/bacterias-pasteur-matraz.jpg "Un matraz que contiene un caldo rojizo, con un largo cuello curvo.")
+![Matraz de cuello de cisne similar al usado en el experimento. Al introducir en su interior un caldo de cultivo y hervirlo, Pasteur se aseguró de que no quedaran bacterias vivas. El cuello de cisne evita que lleguen al caldo, por lo que éste no se estropea. Al empujar las partículas atrapadas en la S del cuello hacia dentro, el caldo se corrompe. [Fuente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).](pics/bacterias-pasteur-matraz.jpg "Un matraz que contiene un caldo rojizo, con un largo cuello curvo.")
 
 Koch por su parte introdujo sus famosos
 [postulados](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/)
@@ -92,28 +92,43 @@ Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacteri
 
 Sabemos desde hace tiempo que el cuerpo humano alberga
 [más bacterias que células](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
+Y también seguramente sepas que hay un montonaco
+[en el intestino](https://iai.asm.org/content/76/8/3360)
+donde cubren multitud de funciones: nos ayudan a alimentarnos
+y nos protegen de peligros.
+Y así por curiosidad, ¿dónde más?
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
 Nos contó a los futuros padres que recientemente se habían descubierto
 [bacterias en la leche materna](https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1472-765X.2009.02567.x).
-¿Significa eso que el pecho femenino,
+¿Significa eso que las glándulas mamarias,
 un área tradicionalmente considerada estéril,
-contiene bacterias; o están en la piel de la madre?
-Todo indica que las glándulas mamarias están colonizadas por todo tipo de probióticos.
+contienen bacterias; o están en la piel de la madre?
+Todo indica que el interior del pecho colonizado por todo tipo de probióticos.
 El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.org/2bf7/95556f1f7f6b63d167196e05947290303ffc.pdf).
 
-https://en.wikipedia.org/wiki/Human_milk_microbiome
-
-La existencia de bacterias en el aparato reproductor femenino
+También es sabido que hay flora bacteriana en la vagina,
+que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
+La existencia de bacterias en el aparato reproductor femenino superior
 [es controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
 
-[cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057)
+¿Seguramente las barbas masculinas sean pozas infectas?
+En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
+los trabajadores con barba tenían menos probabilidades de llevar
+la peligrosa bacteria _Staphylococcus aureus_ que los lampiños.
+Además parece que en las barbas se encuentra la _Staphylococcus epidermidis_,
+capaz de [segregar antibióticos para controlar otras bacterias](https://www.bbc.com/news/magazine-35350886).
 
-Las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta son arqueas.
-Ellas son responsables de
-[todo el metano que se genera](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf),
-así que efectivamente están también en nuestro intestino y el de muchos otros animales.
+Lo cierto es que no se libra
+[ni el cerebro](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057),
+donde recientemente se han encontrado también bacterias en pacientes sanos.
+
+Y ¿qué pasa con las arqueas?
+Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
+por ejemplo de
+[generar metano](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf).
+Así que efectivamente están también en nuestro intestino y el de muchos otros animales.
 
 ## En el medio ambiente
 
@@ -124,10 +139,10 @@ _Pseudomonas syringae_.
 La [hipótesis de David Sands en 1982](https://www.researchgate.net/publication/284553193_The_association_between_bacteria_and_rain_and_possible_resultant_meteorological_implications)
 cogió fuerza cuando se encontró la
 [proteína responsable de la nucleación, InaZ](https://www.pnas.org/content/pnas/83/19/7256.full.pdf).
-Y de hecho un derivado es lo que se usa hoy día en
-[los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
 Prácticamente toda la lluvia
 [contiene cepas de _P. syringae_](https://www.nature.com/articles/ismej2007113).
+Y de hecho un derivado de esta proteína generada por bacterias es lo que se usa hoy día en
+[los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
 
 Las bacterias en cuevas
 [generan la calcita](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273019/),
