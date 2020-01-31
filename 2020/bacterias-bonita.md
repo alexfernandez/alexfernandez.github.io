@@ -58,7 +58,7 @@ En enero de 2020 se ha publicado un artículo en Nature con el
 [descubrimiento de la arquea que pudo dar lugar a las eucariotas](https://www.nature.com/articles/s41586-019-1916-6).
 Es decir que es posible que todos los animales y todas las plantas vengamos de un antiguo linaje de arqueas.
 
-# Parámetros físicos
+# Pequeñas pero muchas
 
 La mayoría de las bacterías están
 [alrededor de la micra (1 µm)](https://www.microscopemaster.com/bacteria-size-shape-arrangement.html),
