@@ -132,6 +132,9 @@ Así que efectivamente están también en nuestro intestino y el de muchos otros
 
 ## En el medio ambiente
 
+Pero hay mucho más.
+Las bacterias aparecen en los sitios más insospechados.
+
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
 está [fuertemente regulado por al menos una bacteria](https://www.nature.com/articles/ismej2007113):
@@ -152,30 +155,37 @@ y por tanto están detrás de la
 # Los extremófilos no se tocan
 
 Ya que nos estamos adentrando en cuevas profundas,
-vamos a seguir buscando bacterias en sitios oscuros.
+vamos a seguir buscando bacterias en lugares remotos.
+Estos organismos son los llamados
+[extremófilos](https://epic.awi.de/id/eprint/25214/1/Cavicchioli-et-al-EM-2011.pdf).
 
-Se han encontrado [extremófilos]()
-en los sitios más inverosímiles:
-bacterias capaces de alimentarse de
-[sal](),
+Se han encontrado procariotas capaces de alimentarse de
+[sal](https://mmbr.asm.org/content/mmbr/62/2/504.full.pdf),
 [uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
 [azufre y calor](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub) generado por fumarolas volcánicas,
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
 [300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
 salinidades de
-[XXX](),
+[salinidades de más del 20%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC413857/pdf/bactrev00046-0030.pdf),
 [radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
+[altas concentraciones de metales pesados](https://www.nepjol.info/index.php/ON/article/download/1655/1544),
 profundidades de
 [5300 metros bajo tierra](https://academic.oup.com/femsle/article/185/1/9/485798)
-o el [vacío del espacio]().
-
-![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado. [Fuente](https://www.youtube.com/watch?v=tBSbjKyamRo).](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.'")
+o el [vacío del espacio](https://academic.oup.com/femsle/article/215/1/163/504075).
+Y por supuesto en el
+[hielo de la Antártida](https://epic.awi.de/id/eprint/5290/1/Tho2002b.pdf),
+a temperaturas de -20 C, altas salinidades y muy poca luz.
 
 ¿Os parece poco?
 ¿Qué tal un [lago de asfalto líquido](https://www.researchgate.net/profile/Steven_Hallam/publication/51039674_Microbial_Life_in_a_Liquid_Asphalt_Desert/links/004635383c7b52ac8b000000.pdf)?
 Sin aire ni apenas agua,
 las colonias de bacterias y arqueas se alimentan de asfalto y generan petróleo y gas natural.
+Por su parte el género _Pyrodictium_
+[crece de forma óptima a 105 C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub);
+se alimenta de sulfuros y forma pirita.
+
+![Max Cady de "El cabo del miedo" (Martin Scorsese, 1991) siempre me ha parecido un extremófilo de cuidado. [Fuente](https://www.youtube.com/watch?v=tBSbjKyamRo).](pics/bacterias-cabo-del-miedo.gif "Max Cady dice, mientras el residuo líquido de una bengala le chorrea por la mano: 'Mi abuelo hacía misas con serpientes. Mi abuela bebía estricnina. Se puede decir que juego con ventaja, genéticamente hablando.'")
 
 ¿Cuánto tiempo pueden vivir estas preciosidades?
 Muestras extraídas de formaciones salinas creadas hace muchos millones de años
@@ -185,10 +195,6 @@ Estudios cuidadosos muestran que nuestras amigas
 [tenían efectivamente 250 millones de años](https://www.nature.com/articles/35038060),
 lo que las convierte en las criaturas más longevas del planeta
 por muchísima diferencia.
-
-El género _Pyrodictium_
-[crece de forma óptima a 105 C](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub).
-Se alimenta de sulfuros y forma pirita.
 
 Se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
