@@ -1567,7 +1567,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dashed 1px #004488;
+		border-bottom: dashed 1px #4488cc;
 		color: #004488;
 		text-decoration: none;
 	}
