@@ -98,7 +98,7 @@ If you have a proposal
 **Note to recruiters:**
 I am looking for a job right now.
 
-## And Now for Something Not Quite Alike
+## And Now for Something Completely Different
 
 Please browse my [other projects](https://github.com/alexfernandez/).
 
