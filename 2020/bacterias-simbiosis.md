@@ -87,12 +87,17 @@ Fácil: 200 minutos, o sea unas tres horas.
 Con la estimación más realista para el tiempo de replicación de una hora,
 las manos nos durarán más tiempo limpias:
 para ser exactos, 10 horas.
+O dicho de otra forma, ni una noche entera.
 
 Seguir añadiendo nueves no nos protege demasiado más:
 cada nueve sólo añade tres horas y veinte minutos.
 Incluso un jabón que elimine
 [el 99.999% de las bacterias](http://www2.debgroup.com/sites/default/files/pdfs/Por-que-es-importante-el-99.999%25.pdf)
 nos dejará las manos exactamente igual tras unas 17 horitas.
+Preocuparse en este punto puede parecer exagerado,
+pero ¿quién quiere que las manos de un cirujano tras una
+[operación compleja](https://www.standard.co.uk/news/health/hand-left-hanging-by-chop-saw-is-reattached-in-17-hours-of-surgery-a4222061.html)
+vuelvan a estar como al llegar de la calle?
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
 # Nuestras defensas

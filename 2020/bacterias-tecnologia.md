@@ -198,6 +198,9 @@ de cómo funcionan:
 
 # Jugando a los dados
 
+¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
+Nuestra mejor opción parece ser jugar a los dados.
+
 La generación de números aleatorios
 [juega un papel muy importante en criptografía](https://hal.inria.fr/hal-00738638/PDF/rr8060.pdf)
 y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-generators-and-their-limitations-linux).
