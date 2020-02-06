@@ -188,6 +188,17 @@ aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.ni
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Complejidad
+
+¿Cómo se comparan en complejidad las procariotas con otros organismos?
+
+## Simplicidad
+
+En línea con el tamaño de ROM
+(equivalente, como vimos, a un ordenador de 8 bits),
+los virus son mucho más sencillos que las bacterias:
+no se pueden reproducir por sí solos.
+
 En modelos más sencillos,
 como el virus del SIDA,
 Janet Iwasa ha realizado una
@@ -196,7 +207,22 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-# Jugando a los dados
+## Generación de energía
+
+¿Cómo es la cadena de generación de energía
+(en forma de moléculas de ATP) en distintos organismos?
+
+Vamos a ver el proceso más sencillo que es partir de una molécula de glucosa.
+Las bacterias son normalmente capaces de
+[una o a lo sumo dos transformaciones](),
+generando X.
+
+Los humanos tenemos una cadena de generación mucho más compleja:
+por cada molécula de glucosa
+[generamos 37 moléculas de ATP]().
+La cadena es sumamente compleja.
+
+## Jugando a los dados
 
 ¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
 Nuestra mejor opción parece ser jugar a los dados.
@@ -219,11 +245,6 @@ Cada célula B se genera aleatoriamente de un
 presente en nuestro genoma.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
-hay miles de millones de combinaciones posibles en cada glóbulo blanco.
-Y los desarrolladores sabemos bien que los sistemas complejos
-tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
 
 # Continuará…
 

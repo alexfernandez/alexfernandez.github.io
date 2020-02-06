@@ -102,6 +102,13 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 
 # Nuestras defensas
 
+El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
+hay miles de millones de combinaciones posibles en cada glóbulo blanco.
+Y los desarrolladores sabemos bien que los sistemas complejos
+tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
+
+## Zoonosis
+
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
 Las especies salvajes suelen encontrarse en un ecosistema limitado,
 y sólo tienen que tratar con cierto número de especies que les puedan contagiar enfermedades.
