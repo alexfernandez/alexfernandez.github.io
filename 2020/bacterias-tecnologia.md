@@ -176,8 +176,10 @@ extensión y retractación rápidas que le permiten moverse.
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/HGvnrWrudpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 La generación de energía se realiza en la ATP sintasa,
-que funciona con una eficiencia
-[cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf):
+una especie de motor que funciona con una eficiencia
+[cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf),
+impensable para
+[motores industriales](https://www.electricmotorengineering.com/high-efficiency-motors-and-sustainability/):
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
