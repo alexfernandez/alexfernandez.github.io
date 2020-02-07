@@ -219,10 +219,12 @@ Las bacterias son normalmente capaces de
 [una o a lo sumo dos transformaciones](),
 generando X.
 
-Los humanos tenemos una cadena de generación mucho más compleja:
+Los mamíferos tenemos una cadena de generación mucho más compleja:
 por cada molécula de glucosa
-[generamos 37 moléculas de ATP]().
+[podemos generar unas 30 moléculas de ATP](https://www.researchgate.net/profile/Peter_Rich3/publication/8988933_The_molecular_machinery_of_Keilin's_respiratory_chain/links/00b7d51af382ad9dfd000000.pdf).
 La cadena es sumamente compleja.
+
+![Respiración celular. Se muestra la respiración anaeróbica (fermentación) que es menos eficiente, y también la respiración aeróbica que genera 30 ATPs, según estimaciones recientes. <a href="pics/bacterias-cellular-respiration.gif" target="_blank">🔍 Ampliar</a>. [Fuente](https://en.wikipedia.org/wiki/File:Cellular_respiration.gif).](pics/bacterias-cellular-respiration.gif "La fermentación genera sólo dos ATPs, mientras que en el proceso aeróbico la cadena es mucho más compleja.")
 
 ## Jugando a los dados
 
