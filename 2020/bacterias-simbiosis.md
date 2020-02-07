@@ -22,7 +22,7 @@ y que son esenciales para la vida humana.
 # Replicación rápida
 
 Una característica interesante (y que da bastante miedito)
-de las bacterias es lo rápido que son capaces de evolucionar.
+de las bacterias es lo rápido que son capaces de reproducirse.
 
 El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
 puede oscilar entre unos 20 minutos para _Escherichia coli_ y 15 horas para _Mycobacterium tuberculosis_.
@@ -32,6 +32,8 @@ alrededor de una hora para _E. coli_.
 En el tiempo en el que un mamífero particularmente prolífico madura y procrea,
 [unas 12 semanas para un ratón](https://www.orkin.com/rodents/mouse-control/life-cycle),
 las bacterias se habrán duplicado unas 2000 veces.
+
+Esta velocidad de replicación implica que las bacterias pueden evolucionar muy rápido.
 
 ## Evolución a largo plazo
 
@@ -67,7 +69,8 @@ pero en la situación experimental resulta muy ventajoso alimentarse también de
 
 ## Evolución rápida
 
-Este vídeo muestra cómo evolucionan las bacterias en pocas horas
+¿Cómo de rápida puede ser realmente la evolución bacteriana?
+Este vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -102,10 +105,7 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 
 # Nuestras defensas
 
-El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
-hay miles de millones de combinaciones posibles en cada glóbulo blanco.
-Y los desarrolladores sabemos bien que los sistemas complejos
-tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
+¿Cómo nos defendemos de esta evolución tan rápida?
 
 ## Zoonosis
 
@@ -278,8 +278,13 @@ Pero a veces estas bacterias
 [se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
 sin que sepamos muy bien por qué.
 
+El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
+hay miles de millones de combinaciones posibles en cada glóbulo blanco.
+Y los desarrolladores sabemos bien que los sistemas complejos
+tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
+
 Mi impresión es que estas infecciones de bacterias normalmente beneficiosas
-se debe a una combinación de errores:
+se deben a una combinación de fallos:
 errores de replicación en el ADN bacteriano
 y errores en el sistema inmune del anfitrión,
 que permiten que las huéspedes crezcan sin control.
@@ -287,6 +292,17 @@ Desde este punto de vista,
 creo también que el campo de la
 [ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
 podría ser muy útil para estudiar las infecciones.
+
+La clave, creo yo,
+está en entender correctamente la idea de "evolución rápida".
+No se trata de un avance imparable hacia un estado ideal,
+o una mejora constante en una carrera de armas muy desigual.
+"Evolución rápida" significa "adaptación rápida al medio".
+¡Ni más ni menos!
+Las bacterias se adaptan a lo que se encuentran a gran velocidad.
+Si usamos antibióticos se adaptarán a ellos.
+Su finalidad no es realmente acabar con nosotros,
+sino medrar en el medio donde se encuentren.
 
 # Continuará…
 
