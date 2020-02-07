@@ -215,21 +215,25 @@ de cómo funcionan:
 (en forma de moléculas de ATP) en distintos organismos?
 Vamos a ver el proceso más sencillo que es partir de una molécula de glucosa.
 
-Los mamíferos tenemos una cadena de generación mucho más compleja:
+Los mamíferos tenemos una cadena de generación muy intrincada:
 por cada molécula de glucosa
 [podemos generar unas 30 moléculas de ATP](https://www.researchgate.net/profile/Peter_Rich3/publication/8988933_The_molecular_machinery_of_Keilin's_respiratory_chain/links/00b7d51af382ad9dfd000000.pdf).
-La cadena es sumamente compleja.
+La cadena de reacciones y productos intermedios es sumamente compleja.
+También tenemos una generación anaeróbica menos eficiente:
+sólo genera tres moléculas de ATP por molécula de glucosa.
 
 ![Respiración celular. Se muestra la respiración anaeróbica (fermentación) que es menos eficiente, y también la respiración aeróbica que genera 30 ATPs, según estimaciones recientes. <a href="pics/bacterias-cellular-respiration.gif" target="_blank">🔍 Ampliar</a>. [Fuente](https://en.wikipedia.org/wiki/File:Cellular_respiration.gif).](pics/bacterias-cellular-respiration.gif "La fermentación genera sólo dos ATPs, mientras que en el proceso aeróbico la cadena es mucho más compleja.")
 
-En las bacterias hay
-[múltiples caminos de generación](https://www.ncbi.nlm.nih.gov/books/NBK7919/).
+La mayoría de bacterias son
+[o bien aeróbicas o bien anaeróbicas](https://www.ncbi.nlm.nih.gov/books/NBK7638/).
+Pero en las bacterias llamadas facultativas conviven ambos caminos de generación.
 Por ejemplo _E. coli_ puede llegar a un máximo de
 [unas 18 moléculas de ATP](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/30386/0000004.pdf?sequence=1).
-Al igual que en los mamíferos hay también modos de generación anaeróbicos (sin oxígeno),
+Al igual que en los mamíferos tiene también modos de generación anaeróbicos (sin oxígeno),
 menos eficientes.
-En general los mecanismos son más sencillos,
-pero mucho más variados.
+
+En general los mecanismos bacterianos son más sencillos,
+aunque [mucho más variados](https://www.ncbi.nlm.nih.gov/books/NBK7919/).
 
 ## Jugando a los dados
 
