@@ -226,6 +226,8 @@ En las bacterias hay
 [múltiples caminos de generación](https://www.ncbi.nlm.nih.gov/books/NBK7919/).
 Por ejemplo _E. coli_ puede llegar a un máximo de
 [unas 18 moléculas de ATP](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/30386/0000004.pdf?sequence=1).
+Al igual que en los mamíferos hay también modos de generación anaeróbicos (sin oxígeno),
+menos eficientes.
 En general los mecanismos son más sencillos,
 pero mucho más variados.
 
