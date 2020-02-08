@@ -228,15 +228,17 @@ Otra técnica la hemos
 la técnica CRISPR.
 De hecho ellas la usan como
 [parte de su sistema inmune](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1022.4030&rep=rep1&type=pdf),
-para defenderse de bacteriófagos.
-
-Este vídeo muestra cómo funciona la técnica CRISPR.
-
-<iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+para defenderse de bacteriófagos:
+toman trocitos de ADN invasor y lo colocan en sitios especiales que son
+[dianas para la degradación selectiva](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12355).
+Ante sucesivas invasiones la bacteria o arquea detectará y eliminará los genes invasores.
 
 Actualmente se usa para
 [editar genes de pacientes]()
 _in situ_ y añadir proteínas que falten o no sean funcionales.
+El siguiente vídeo muestra cómo funciona.
+
+<iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 # Matar al anfitrión
 
