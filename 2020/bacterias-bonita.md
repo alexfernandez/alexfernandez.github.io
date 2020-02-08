@@ -5,14 +5,15 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
 ¿verdad?
 
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Breve historia
 
-Corría el año 1770.
+Para empezar vamos a volver la vista atrás,
+hasta el año 1770.
 [Antonie van Leeuwenhoek](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
 un comerciante de telas holandés adinerado y sin hijos,
 decidió enfocar su primitivo microscopio sobre el mundo a su alrededor.
