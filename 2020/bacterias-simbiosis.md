@@ -224,20 +224,30 @@ Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inver
 ## Edición de genes
 
 El viejo sueño de editar genes _in vivo_
+permitiría añadir o quitar proteínas de un organismo directamente.
+Es un sueño para cualquier investigador,
+y por supuesto podría resultar en terapias novedosas para enfermedades genéticas.
+Así que, ¿dónde podríamos encontrar unas "tijeras genéticas" listas para usar?
 
-Otra técnica la hemos
-[robado directamente de bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf):
-la técnica CRISPR.
-De hecho ellas la usan como
+Pues por supuesto,
+[en bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
+Lo que se conoce como
+técnica CRISPR (_clustered regularly interspaced short palindromic repeats_)
+es un robo directo de una
 [parte de su sistema inmune](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1022.4030&rep=rep1&type=pdf),
-para defenderse de bacteriófagos:
+que usan para defenderse de bacteriófagos:
 toman trocitos de ADN invasor y lo colocan en sitios especiales que son
 [dianas para la degradación selectiva](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12355).
-Ante sucesivas invasiones la bacteria o arquea detectará y eliminará los genes invasores.
+Ante posteriores invasiones la bacteria o arquea detectará y eliminará los genes localizados.
 
-Actualmente se usa para
-[editar genes de pacientes]()
-_in situ_ y añadir proteínas que falten o no sean funcionales.
+Actualmente CRISPR/Cas9
+(su nombre completo, por si el acrónimo no fuera ya lo bastante raro)
+se usa para editar genes de pacientes _in situ_
+y añadir proteínas que falten o no sean funcionales.
+Esta técnica puede usarse por ejemplo para
+[tratar diversos tipos de cáncer](https://www.sciencedirect.com/science/article/pii/S1044579X17302742),
+[inmunoterapia](https://link.springer.com/article/10.1007/s13238-017-0410-x)
+y para [muchas otras aplicaciones](https://europepmc.org/article/PMC/5459481).
 El siguiente vídeo muestra cómo funciona.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
