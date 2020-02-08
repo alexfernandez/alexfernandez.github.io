@@ -223,9 +223,20 @@ Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inver
 
 ## Edición de genes
 
-Este vídeo muestra cómo funciona la técnica CRISPR de edición de genes.
+Otra técnica la hemos
+[robado directamente de bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf):
+la técnica CRISPR.
+De hecho ellas la usan como
+[parte de su sistema inmune](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1022.4030&rep=rep1&type=pdf),
+para defenderse de bacteriófagos.
+
+Este vídeo muestra cómo funciona la técnica CRISPR.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Actualmente se usa para
+[editar genes de pacientes]()
+_in situ_ y añadir proteínas que falten o no sean funcionales.
 
 # Matar al anfitrión
 
