@@ -223,6 +223,8 @@ Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inver
 
 ## Edición de genes
 
+El viejo sueño de editar genes _in vivo_
+
 Otra técnica la hemos
 [robado directamente de bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf):
 la técnica CRISPR.

@@ -5,6 +5,9 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
+Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
+¿verdad?
+
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Breve historia
@@ -88,8 +91,12 @@ entre bacterias y arqueas.
 
 # Ubicuidad
 
-Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
-¿verdad?
+Cuando se dice que algo tiene bacterias
+es sinónimo de que está sucio o contaminado.
+Vamos a jugar un pequeño juego:
+"¿Tiene bacterias?"
+Vamos a ir viendo distintos sitios,
+y a pensar si tienen bacterias.
 
 ## En el cuerpo humano
 
