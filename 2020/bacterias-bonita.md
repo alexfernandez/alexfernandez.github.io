@@ -110,12 +110,19 @@ y nos protegen de peligros.
 Y así por curiosidad, ¿dónde más?
 Aunque la pregunta adecuada sería más bien, ¿dónde no?
 
+![Las partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
+
 Es sabido que hay flora bacteriana en la vagina,
 que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
 La existencia de bacterias en el aparato reproductor femenino superior
 [es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
+
+![Las partes privadas de un señor. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-man.jpg "Un hombre en ropa interior, con una flecha apuntando a su mitad inferior.")
+
 Los genitales masculinos también tienen una flora bacteriana,
 aunque [mucho menos estudiada](https://www.the-scientist.com/news-opinion/parsing-the-penis-microbiome-37436).
+
+![Si tanto Koch como Pasteur llevaban barba, por algo sería. [Fuente](https://www.uni-wuerzburg.de/aktuelles/pressemitteilungen/single/news/deutsch-franzoesische-projekte-der-wissenschaft-1/).](pics/bacterias-koch-pasteur.jpg "Koch y Pasteur luciendo hermosas barbas.")
 
 ¿Seguramente las barbas masculinas sean focos de infección?
 En un [estudio en un hospital estadounidense](https://www.journalofhospitalinfection.com/article/S0195-6701(14)00090-5/fulltext)
@@ -125,7 +132,7 @@ Además parece que en las barbas se encuentra la _Staphylococcus epidermidis_,
 capaz de [segregar antibióticos para controlar otras bacterias](https://www.bbc.com/news/magazine-35350886).
 Así que es muy posible que las barbas sean más higiénicas que su ausencia.
 
-![Si tanto Koch como Pasteur llevaban barba, por algo sería. [Fuente](https://www.uni-wuerzburg.de/aktuelles/pressemitteilungen/single/news/deutsch-franzoesische-projekte-der-wissenschaft-1/).](pics/bacterias-koch-pasteur.jpg "Koch y Pasteur luciendo hermosas barbas.")
+![Más partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-up.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad superior.")
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
@@ -136,6 +143,8 @@ un área tradicionalmente considerada estéril,
 contienen bacterias; o están en la piel de la madre?
 Todo indica que el interior del pecho colonizado por todo tipo de probióticos.
 El efecto beneficioso está [más que demostrado](https://pdfs.semanticscholar.org/2bf7/95556f1f7f6b63d167196e05947290303ffc.pdf).
+
+![Arriba: Fragmento de "La creación del Adán", de Michelangelo, en la Capilla Sixtina (1508-15129). Abajo: sección sagital de un cerebro humano. Se sabe que Miguel Angel [diseccionaba cadáveres](https://pdfs.semanticscholar.org/7381/1f3ff70296ed72533f329ced12d492b43ba1.pdf) para adquirir conocimientos de anatomía. [Fuente](https://www.researchgate.net/publication/263311084_Memetics_of_Transhumanist_Imagery).](pics/bacterias-capilla-sixtina-cerebro.jpg "Se dice de la famosa imagen de la Capilla Sixtina con Dios y Adán que contiene un mensaje oculto: Dios es una creación de nuestro cerebro. De hecho Dios está en una especie de recipiente, muy similar en forma a un cerebro humano.")
 
 ¿No hay nada sagrado?
 Al menos el templo de nuestra inteligencia,
