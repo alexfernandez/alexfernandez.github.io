@@ -197,7 +197,7 @@ y por tanto están detrás de la
 # Los extremófilos no se tocan
 
 Ya que nos estamos yendo a lugares remotos,
-nos adentramos en el ámbito de los organismos llamados
+nos adentraremos ahora en el ámbito de los organismos llamados
 [extremófilos](https://epic.awi.de/id/eprint/25214/1/Cavicchioli-et-al-EM-2011.pdf).
 
 ![Fumarola volcánica, un ambiente altamente tóxico y nocivo para la vida en la Tierra. ¿O no? [Fuente](https://lonelyspore.wordpress.com/tag/lanthanum-bacteria/).](pics/bacterias-fumarola.jpg "En un cráter volcánico aparece una fisura, de donde sale una pluma de humo. En el cráter se ven rastros de lava.")
@@ -209,7 +209,6 @@ Se han encontrado procariotas capaces de alimentarse de
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
 [300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
-salinidades de
 [salinidades de más del 20%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC413857/pdf/bactrev00046-0030.pdf),
 [radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 [altas concentraciones de metales pesados](https://www.nepjol.info/index.php/ON/article/download/1655/1544),
