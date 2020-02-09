@@ -214,7 +214,8 @@ Aguantan temperaturas de
 [radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 [altas concentraciones de metales pesados](https://www.nepjol.info/index.php/ON/article/download/1655/1544),
 profundidades de
-[5300 metros bajo tierra](https://academic.oup.com/femsle/article/185/1/9/485798)
+[5300 metros bajo tierra](https://academic.oup.com/femsle/article/185/1/9/485798),
+[en las fosas oceánicas más profundas](https://lonelyspore.wordpress.com/2014/02/27/when-the-going-gets-dense-microbial-life-under-extreme-pressure/),
 o el [vacío del espacio](https://academic.oup.com/femsle/article/215/1/163/504075).
 Y por supuesto en el
 [hielo de la Antártida](https://epic.awi.de/id/eprint/5290/1/Tho2002b.pdf),
