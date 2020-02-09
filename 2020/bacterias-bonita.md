@@ -245,6 +245,8 @@ aunque el sol se apagara de repente.
 Así que no sólo llevan más tiempo que nosotros,
 sino que probablemente aguantarán mucho más.
 
+![Fumarola negra en medio del Océano Atlántico. Un ecosistema que puede durar hasta el fin de los tiempos. [Fuente](https://commons.wikimedia.org/wiki/File:Blacksmoker_in_Atlantic_Ocean.jpg).](pics/bacterias-black-smoker.jpg "Una abertura en una roca en medio del océano deja salir un humo negro denso.")
+
 # Continuará…
 
 Este artículo es la primera parte de la
