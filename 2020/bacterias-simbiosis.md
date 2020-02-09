@@ -229,7 +229,7 @@ Es un sueño para cualquier investigador,
 y por supuesto podría resultar en terapias novedosas para enfermedades genéticas.
 Así que, ¿dónde podríamos encontrar unas "tijeras genéticas" listas para usar?
 
-![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con proteínas. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Escena de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
+![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con proteínas. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Fotograma de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
 
 Pues, como ya te imaginarás,
 [en bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
