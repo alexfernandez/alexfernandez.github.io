@@ -270,6 +270,6 @@ donde investigaremos más a fondo sobre el sistema inmune y sus modos de fallo.
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
 * ↑ Parte 2: Tecnología bacteriana.
 * → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
-* → Parte 4: [Enfermedades autoinmunes](bacterias-enfermedades-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-venimos-de-estrellas.html)
+* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
 

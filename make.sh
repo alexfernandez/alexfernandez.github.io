@@ -10,8 +10,8 @@ pandoc --template read-only.html -s 2020/bacterias-maquinas.md -o 2020/bacterias
 pandoc --template read-only.html -s 2020/bacterias-bonita.md -o 2020/bacterias-bonita.html
 pandoc --template read-only.html -s 2020/bacterias-tecnologia.md -o 2020/bacterias-tecnologia.html
 pandoc --template read-only.html -s 2020/bacterias-simbiosis.md -o 2020/bacterias-simbiosis.html
-pandoc --template read-only.html -s 2020/bacterias-enfermedades-autoinmunes.md -o 2020/bacterias-enfermedades-autoinmunes.html
-pandoc --template read-only.html -s 2020/bacterias-venimos-de-estrellas.md -o 2020/bacterias-venimos-de-estrellas.html
+pandoc --template read-only.html -s 2020/bacterias-autoinmunes.md -o 2020/bacterias-autoinmunes.html
+pandoc --template read-only.html -s 2020/bacterias-estrellas.md -o 2020/bacterias-estrellas.html
 pandoc --template read-only.html -s 2020/insane-plane-prices.md -o 2020/insane-plane-prices.html
 pandoc --template read-only.html -s 2020/repaso-propositos.md -o 2020/repaso-propositos.html
 pandoc --template read-only.html -s 2019/high-speeds.md -o 2019/high-speeds.html
