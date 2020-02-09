@@ -204,8 +204,9 @@ nos adentraremos ahora en el ámbito de los organismos llamados
 
 Se han encontrado procariotas capaces de alimentarse de
 [sal](https://mmbr.asm.org/content/mmbr/62/2/504.full.pdf),
+[azufre](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub) generado por fumarolas volcánicas,
 [uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
-[azufre y calor](https://www.sciencedirect.com/science/article/abs/pii/S0723202083800113?via%3Dihub) generado por fumarolas volcánicas,
+[mercurio](https://academic.oup.com/femsec/article/87/1/52/508980),
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
 [300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),

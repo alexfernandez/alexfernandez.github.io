@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en falso color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
+![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen, entre otras patologías: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
 
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
@@ -149,7 +149,9 @@ para sus anfitriones bacterianos.
 En las cianobacterias del mar, por ejemplo,
 los cianófagos almacenan genes de fotosíntesis
 que pueden aportar a sus víctimas en lugar de infectarlas.
-Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf).
+Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf),
+y en las profundidades marinas con
+[genes para alimentarse de sulfuros](https://www.researchgate.net/profile/Melissa_Duhaime/publication/262019905_Sulfur_Oxidation_Genes_in_Diverse_Deep-Sea_Viruses/links/0deec53a08f3b471d8000000/Sulfur-Oxidation-Genes-in-Diverse-Deep-Sea-Viruses.pdf)
 Estos virus servirían pues como discos duros externos,
 o incluso como almacenamiento en la nube.
 
