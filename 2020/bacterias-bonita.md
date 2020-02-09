@@ -172,6 +172,8 @@ unas cumpliendo funciones vitales y otras simplemente sobreviviendo.
 Vamos ahora a salir afuera aprovechando que se ha quedado buena tarde.
 Veremos que las bacterias juegan papeles esenciales en los sitios más insospechados.
 
+![Nieve en los Alpes austríacos. A la derecha se ve la salida de un cañón de nieve. Foto del autor, febrero 2020.](pics/bacterias-nieve.jpg "Unos pocos esquiadores en el fondo, mucha nieve. Poco más que añadir. Bueno, sí, que el autor claramente quiere presumir con esta foto.")
+
 ¿Por qué aparecen la lluvia y la nieve?
 Lo que parecería ser un proceso puramente inorgánico
 está [fuertemente regulado por al menos una bacteria](https://www.nature.com/articles/ismej2007113):
