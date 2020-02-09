@@ -227,11 +227,12 @@ El viejo sueño de editar genes _in vivo_
 permitiría añadir o quitar proteínas de un organismo directamente.
 Es un sueño para cualquier investigador,
 y por supuesto podría resultar en terapias novedosas para enfermedades genéticas.
-Así que, ¿dónde podríamos encontrar unas "tijeras genéticas" listas para usar?
+Así que, ¿cómo podríamos hacer cambios  en el genoma de seres vivos?
 
 ![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con proteínas. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Fotograma de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
 
-Pues, como ya te imaginarás,
+Pues, como ya te puedes imaginar,
+estas "tijeras genéticas" se encontraron ya listas para usar
 [en bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
 Lo que se conoce como
 técnica CRISPR (_clustered regularly interspaced short palindromic repeats_)
@@ -244,7 +245,7 @@ Ante posteriores invasiones la bacteria o arquea detectará y eliminará los gen
 
 Actualmente CRISPR/Cas9
 (su nombre completo, por si el acrónimo no fuera ya lo bastante raro)
-se usa para editar genes de pacientes _in situ_
+se usa para editar genes de organismos _in situ_
 y añadir proteínas que falten o no sean funcionales.
 Esta técnica puede usarse por ejemplo para
 [tratar diversos tipos de cáncer](https://www.sciencedirect.com/science/article/pii/S1044579X17302742),
@@ -253,6 +254,11 @@ y para [muchas otras aplicaciones](https://europepmc.org/article/PMC/5459481).
 El siguiente vídeo muestra cómo funciona.
 
 <iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Esta técnica es muy prometedora también en
+[la lucha contra las infecciones](https://jcm.asm.org/content/57/4/e01307-18#sec-12),
+y puede servir por ejemplo para reforzar las defensas de pacientes contra bacterias resistentes a los antibióticos.
+Pero es pronto todavía para ver sus efectos.
 
 # Matar al anfitrión
 
