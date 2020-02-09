@@ -92,23 +92,20 @@ entre bacterias y arqueas.
 
 # Ubicuidad
 
-Cuando se dice que algo tiene bacterias
-es sinónimo de que está sucio o contaminado.
-Vamos a jugar un pequeño juego:
+Cuando se dice que algo **tiene bacterias**
+suele ser sinónimo de que está sucio o contaminado.
+Es hora de jugar a un pequeño juego:
 "¿Tiene bacterias?"
-Vamos a ir viendo distintos sitios,
-y a pensar si tienen bacterias.
+Vamos a repasar distintos sitios, lugares y partes,
+y a investigar si albergan bacterias.
 
 ## En el cuerpo humano
 
-Sabemos desde hace tiempo que el cuerpo humano alberga
-[más bacterias que células](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
-Y también seguramente sepas que hay un montonaco
-[en el intestino](https://iai.asm.org/content/76/8/3360)
-donde cubren multitud de funciones: nos ayudan a alimentarnos
-y nos protegen de peligros.
-Y así por curiosidad, ¿dónde más?
-Aunque la pregunta adecuada sería más bien, ¿dónde no?
+Sabemos desde hace tiempo que el cuerpo humano alberga más bacterias que células;
+normalmente se cita que el ratio es de
+[10 bacterias por célula](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full),
+aunque probablemente el número real
+[sea bastante parecido](https://www.cell.com/cell/fulltext/S0092-8674(16)00053-2).
 
 ![Las partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
 
@@ -154,7 +151,13 @@ Al parecer no:
 recientemente se han encontrado
 [colonias bacterianas en cerebros de pacientes sanos](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057).
 
-Y ¿qué pasa con las arqueas?
+![El intestino es un clásico: alberga grandes cantidades de especies de bacterias. [Fuente](https://microbiollogy.blogspot.com/2014/04/microbial-infections-of-humanshuman.html).](pics/bacterias-human-microbiome-project.jpg "El proyecto del microbioma humano: 1000 especies en la piel, 600+ especies en boca y pulmones, 500-1000 en el intestino, 60 en el tracto genito-urinario, 25 en el estómago.")
+
+Seguro que sabes que hay un montonaco de bacterias
+[en el intestino](https://iai.asm.org/content/76/8/3360)
+donde cubren multitud de funciones: nos ayudan a alimentarnos
+y nos protegen de peligros.
+Pero puede que no sepas que el intestino también alberga grandes cantidades de arqueas.
 Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
 por ejemplo de
 [generar metano](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf).
