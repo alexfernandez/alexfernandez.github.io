@@ -186,6 +186,9 @@ Prácticamente toda la lluvia
 Y de hecho esta proteína generada por bacterias es lo que se usa hoy día en
 [los cañones de nieve artificial](https://www.asm.org/Articles/2019/January/Snow-Is-Coming-Whats-That-Have-to-Do-with-Microbe).
 
+![Werner Herzog grabando "La cueva de los sueños olvidados" en la cueva de Chauvet, Francia. [Fuente](https://www.geo-television.de/cms/die-hoehle-der-vergessenen-traeume-4437223.html).](pics/bacterias-herzog-cave.jpg "El director alemán aparece al lado de unas grandes estalactitas, algunas de las cuales están fundidas con estalagmitas saliendo del suelo.")
+
+Vamos a profundizar un poco más.
 Las bacterias en cuevas
 [generan la calcita](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273019/),
 y por tanto están detrás de la
@@ -193,9 +196,8 @@ y por tanto están detrás de la
 
 # Los extremófilos no se tocan
 
-Ya que nos estamos adentrando en cuevas profundas,
-vamos a seguir buscando bacterias en lugares remotos.
-Estos organismos son los llamados
+Ya que nos estamos yendo a lugares remotos,
+nos adentramos en el ámbito de los organismos llamados
 [extremófilos](https://epic.awi.de/id/eprint/25214/1/Cavicchioli-et-al-EM-2011.pdf).
 
 Se han encontrado procariotas capaces de alimentarse de
