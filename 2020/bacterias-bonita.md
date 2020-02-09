@@ -200,6 +200,8 @@ Ya que nos estamos yendo a lugares remotos,
 nos adentramos en el ámbito de los organismos llamados
 [extremófilos](https://epic.awi.de/id/eprint/25214/1/Cavicchioli-et-al-EM-2011.pdf).
 
+![Fumarola volcánica, un ambiente altamente tóxico y nocivo para la vida en la Tierra. ¿O no? [Fuente](https://lonelyspore.wordpress.com/tag/lanthanum-bacteria/).](pics/bacterias-fumarola.jpg "En un cráter volcánico aparece una fisura, de donde sale una pluma de humo. En el cráter se ven rastros de lava.")
+
 Se han encontrado procariotas capaces de alimentarse de
 [sal](https://mmbr.asm.org/content/mmbr/62/2/504.full.pdf),
 [uranio](https://medium.com/blink-1-82-e-06/uranium-and-the-creatures-who-breathe-it-af8a7413301),
