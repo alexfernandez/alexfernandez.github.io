@@ -209,7 +209,8 @@ Se han encontrado procariotas capaces de alimentarse de
 [mercurio](https://academic.oup.com/femsec/article/87/1/52/508980),
 o simplemente [pirita](https://www.nbcnews.com/mach/science/strange-life-forms-found-deep-mine-point-vast-underground-galapagos-ncna1050906).
 Aguantan temperaturas de
-[300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/),
+[300 C](https://www.airspacemag.com/daily-planet/turn-heat-bacterial-spores-can-take-temperatures-hundreds-degrees-180970425/)
+y de [-10 C](https://lonelyspore.wordpress.com/2014/02/03/frozen-bacteria-repair-their-dna-at-15oc/),
 [salinidades de más del 20%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC413857/pdf/bactrev00046-0030.pdf),
 [radiaciones ionizantes de 10 kGy que freirían a un tardígrado](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 [altas concentraciones de metales pesados](https://www.nepjol.info/index.php/ON/article/download/1655/1544),
