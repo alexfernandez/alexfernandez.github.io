@@ -75,7 +75,15 @@ sobre cuyas funciones todavía no hay consenso;
 ni siquiera sabemos si tienen utilidad o no.
 Más abajo veremos algunos detalles más.
 
-# Tamaño de ROM
+# Memoria
+
+En los ordenadores modernos distinguimos entre memoria de sólo lectura (ROM)
+y memoria de acceso aleatorio (RAM), que puede también escribirse.
+
+## Tamaño de ROM
+
+El genoma es en principio memoria de sólo lectura,
+y podemos por tanto compararlo con la ROM de un ordenador.
 
 Los virus tienen un genoma que oscila entre
 [1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
@@ -126,20 +134,25 @@ y por lo tanto que la distribución de Knoppix en CD;
 y algo menos que un móvil con Android 8.
 No tenemos en cuenta todavía programas y aplicaciones.
 
-# Memoria
+# Memoria interna
 
-La RAM sería el ARN:
+En un organismo vivo es necesario primero copiar el ADN en ARN.
+El ARN es por tanto similar a la RAM o memoria de lectura y escritura:
 suele hacer de
 [mensajero](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3078976/)
 y de [regulador de la generación de proteínas](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3132550/).
 En las bacterias hay
 [unas seis veces más ARN que ADN](http://book.bionumbers.org/what-is-the-macromolecular-composition-of-the-cell/)
 
+Pero la cosa no acaba ahí.
 Las bacterias tienen,
 igual que las eucariotas,
 [memoria epigenética](https://mmbr.asm.org/content/70/3/830):
 ciertas condiciones del entorno (encontradas localmente o incluso heredadas)
 pueden hacer que se expresen ciertos genes y se supriman otros.
+Esto se consigue marcando químicamente partes del genoma (con grupos metilo).
+
+## Memorias externas
 
 Existen mecanismos como los priones
 que permiten compartir estos cambios entre una población entera de bacterias.
