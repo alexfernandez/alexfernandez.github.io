@@ -241,6 +241,8 @@ Estudios cuidadosos muestran que nuestras amigas
 lo que las convierte en las criaturas más longevas del planeta
 por muchísima diferencia.
 
+![Imagen de microscopio electrónico de barrido mostrando bacterias mineralizadas de una fumarola negra, en una fuente hidrotermal del fondo marino. Es posible que sean mucho más abundantes de lo que se piensa. [Fuente](https://lonelyspore.wordpress.com/2014/02/20/deep-but-not-dead-continental-crust-bacteria-make-a-global-impact/).](pics/bacterias-mineralized-iron.jpg "Se muestran unas cuantas bacterias sobre un fondo mineral. La escala es de dos micras, 2 µm; la mayoría de organismos son más pequeños.")
+
 Incluso se ha sugerido que los extremófilos podrían vivir
 [miles de millones de años](https://www.youtube.com/watch?v=rltpH6ck2Kc)
 aunque el sol se apagara de repente.
