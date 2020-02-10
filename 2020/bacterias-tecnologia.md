@@ -48,14 +48,14 @@ pero Franklin habría llegado a la doble hélice por sí sola.
 
 # Material genético
 
-El genoma es el conjunto de material genético de un organismo vivo.
+El genoma es el conjunto de material genético (ADN o ARN) de un organismo vivo.
 Contiene las instrucciones para fabricar todas sus proteínas,
 que a su vez serán las encargadas de realizar todas las funciones de cada célula.
-El [proceso de transcripción]()
+El [proceso de transcripción](https://www.nature.com/scitable/topicpage/dna-transcription-426/)
 funciona como un ordenador de 6 bits:
 cada "palabra" consiste en tres pares de bases que contienen dos bits cada uno,
 y se traduce en un aminoácido distinto siguiendo una
-[tabla que varía según el tipo de organismo](https://en.wikipedia.org/wiki/Genetic_code#RNA_codon_table).
+[tabla que varía según el tipo de organismo](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi).
 Este "código ensamblador" traduce los 64 posibles valores a 20 aminoácidos + inicio + fin,
 con una sofisticada
 [corrección de errores](https://life.ibs.re.kr/papers/PhysLifeRev2010.pdf).
@@ -63,7 +63,7 @@ con una sofisticada
 Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras complejísimas,
 que veremos más abajo.
 El problema del
-[plegamiento de proteínas en 3D]()
+[plegamiento de proteínas en 3D](http://cmb.path.uab.edu/pages/documents/papers/Compiani_Biochemistry2013.pdf)
 es computacionalmente muy intensivo:
 resulta casi imposible predecir la estructura final sin una simulación detalladísima de las fuerzas de cada aminoácido.
 
@@ -73,6 +73,7 @@ o
 [material no codificante](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2434389/),
 sobre cuyas funciones todavía no hay consenso;
 ni siquiera sabemos si tienen utilidad o no.
+Más abajo veremos algunos detalles más.
 
 # Tamaño de ROM
 
@@ -126,6 +127,13 @@ y algo menos que un móvil con Android 8.
 No tenemos en cuenta todavía programas y aplicaciones.
 
 # Memoria
+
+La RAM sería el ARN:
+suele hacer de
+[mensajero](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3078976/)
+y de [regulador de la generación de proteínas](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3132550/).
+En las bacterias hay
+[unas seis veces más ARN que ADN](http://book.bionumbers.org/what-is-the-macromolecular-composition-of-the-cell/)
 
 Las bacterias tienen,
 igual que las eucariotas,
@@ -191,6 +199,10 @@ una especie de autopistas celulares exclusivas de las eucariotas,
 aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232192/).
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+En el futuro es posible que podamos usar bacterias como nanobots,
+por ejemplo con
+[regulación magnética](https://lonelyspore.wordpress.com/2014/07/07/could-magnetic-bacteria-be-the-next-generation-of-microbots/).
 
 # Complejidad
 
