@@ -154,27 +154,41 @@ Esto se consigue marcando químicamente partes del genoma (con grupos metilo).
 
 ## Memorias externas
 
+Otra forma interesante de recibir genes externos es a través de virus:
+los bacteriófagos pueden funcionar
+[como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
+para sus anfitriones bacterianos.
+
+En las cianobacterias del mar, por ejemplo,
+los cianófagos almacenan genes de fotosíntesis
+que pueden aportar a sus víctimas en el momento de infectarlas.
+Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf),
+y en las profundidades marinas con
+[genes para alimentarse de sulfuros](https://www.researchgate.net/profile/Melissa_Duhaime/publication/262019905_Sulfur_Oxidation_Genes_in_Diverse_Deep-Sea_Viruses/links/0deec53a08f3b471d8000000/Sulfur-Oxidation-Genes-in-Diverse-Deep-Sea-Viruses.pdf)
+
+Estos virus servirían pues como discos duros externos:
+se guardan un gen que luego pueden aportar si se deteriora el gen original.
+O incluso servir de librería genética en un momento dado.
+Podemos imaginar este mecanismo como un tipo de _backup_ en la nube.
+Lo que está claro es que hay mucho que investigar en este campo.
+
+## Red de redes
+
+Hablando de la nube,
+¿se comunican unas bacterias con otras?
+¿Pueden intercambiar genes directamente?
+
 Existen mecanismos como los priones
 que permiten compartir estos cambios entre una población entera de bacterias.
+Se trata de unas proteinas que cambian de forma al entrar en contacto con la forma modificada.
+La enfermedad de las vacas locas (encefalopatía espongiforme bovina)
+está causada por un prión.
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
 https://en.wikipedia.org/wiki/Bacterial_conjugation
 
 https://en.wikipedia.org/wiki/Plasmid
-
-Otra forma interesante de recibir genes externos es a través de virus:
-los bacteriófagos pueden funcionar
-[como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
-para sus anfitriones bacterianos.
-En las cianobacterias del mar, por ejemplo,
-los cianófagos almacenan genes de fotosíntesis
-que pueden aportar a sus víctimas en lugar de infectarlas.
-Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf),
-y en las profundidades marinas con
-[genes para alimentarse de sulfuros](https://www.researchgate.net/profile/Melissa_Duhaime/publication/262019905_Sulfur_Oxidation_Genes_in_Diverse_Deep-Sea_Viruses/links/0deec53a08f3b471d8000000/Sulfur-Oxidation-Genes-in-Diverse-Deep-Sea-Viruses.pdf)
-Estos virus servirían pues como discos duros externos,
-o incluso como almacenamiento en la nube.
 
 # Refactorización
 
@@ -188,7 +202,7 @@ mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
 Por el camino _M. leprae_ ha perdido unos 1200 genes;
 ahora depende de las células del anfitrión para multitud de funciones vitales.
 
-Reducción manual de genoma:
+Reducción manual de genoma en _E. coli_:
 [de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
 
 # Herramientas
