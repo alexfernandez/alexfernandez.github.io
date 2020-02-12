@@ -158,13 +158,18 @@ Otra forma interesante de recibir genes externos es a través de virus:
 los bacteriófagos pueden funcionar
 [como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
 para sus anfitriones bacterianos.
+Los fagos "templados" pueden reproducirse
+[sin destruir a las bacterias anfitrionas](https://www.nature.com/articles/ismej201716).
+Incluso los fagos virulentos
+pueden permitir a las bacterias anfitrionas
+[reproducirse durante muchas generaciones](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.522.4481&rep=rep1&type=pdf).
 
 En las cianobacterias del mar, por ejemplo,
 los cianófagos almacenan genes de fotosíntesis
 que pueden aportar a sus víctimas en el momento de infectarlas.
 Lo mismo ocurre [en tierra firme](https://www.pnas.org/content/pnas/102/52/19009.full.pdf),
 y en las profundidades marinas con
-[genes para alimentarse de sulfuros](https://www.researchgate.net/profile/Melissa_Duhaime/publication/262019905_Sulfur_Oxidation_Genes_in_Diverse_Deep-Sea_Viruses/links/0deec53a08f3b471d8000000/Sulfur-Oxidation-Genes-in-Diverse-Deep-Sea-Viruses.pdf)
+[genes para alimentarse de sulfuros](https://www.researchgate.net/profile/Melissa_Duhaime/publication/262019905_Sulfur_Oxidation_Genes_in_Diverse_Deep-Sea_Viruses/links/0deec53a08f3b471d8000000/Sulfur-Oxidation-Genes-in-Diverse-Deep-Sea-Viruses.pdf).
 
 Estos virus servirían pues como discos duros externos:
 se guardan un gen que luego pueden aportar si se deteriora el gen original.
@@ -183,6 +188,12 @@ que permiten compartir estos cambios rápidamente entre una población entera de
 Se trata de unas proteinas que cambian de forma al entrar en contacto con la forma modificada.
 La enfermedad de las vacas locas (encefalopatía espongiforme bovina)
 está causada por un prión.
+Pero se puede transmitir poca información de esta forma:
+para ser exactos, un bit (prión inactivo -> prión activo).
+
+Algo mucho más interesante es la conjugación bacteriana:
+
+![Diagrama esquemático de la conjugación bacteriana. _Biiij, qué ascazo_. <a href="pics/bacterias-conjugacion.svg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Conjugation-es.svg).](pics/bacterias-conjugacion.svg "Conjugación en cuatro fases. 1: la célula donante produce un pilus. 2: el pilus alcanza otra célula, uniéndolas. 3: el plásmido se duplica, y una hebra de ADN se transfiere a la célula receptora. 4: ambas células vuelven a circularizar sus plásmidos, sintetizan una segunda hebra, y reproducen los pelos; ambas células son ahora donantes viables.")
 
 Pero también hay intercambio directo de genes.
 
@@ -192,6 +203,8 @@ https://en.wikipedia.org/wiki/Bacterial_conjugation
 
 El caso más interesante es el de los
 [plásmidos](https://en.wikipedia.org/wiki/Plasmid):
+
+![Transferencia horizontal de genes en el árbol de la vida. <a href="pics/bacterias-horizontal-gene-transfer.jpg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Horizontal-gene-transfer.jpg).](pics/bacterias-horizontal-gene-transfer.jpg "Se muestra el árbol de bacterias, arqueas y eucariotas, con ciertos eventos de transferencias horizontales. A destacar: integración de mitocondrias en eucariotas, integración de plástidos en plantas, y transferencias entre bacterias y arqueas. Detalle con eventos de transferencias entre bacterias.")
 
 # Refactorización
 
