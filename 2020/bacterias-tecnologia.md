@@ -208,20 +208,66 @@ en la evolución.
 
 ![Transferencia horizontal de genes en el árbol de la vida. <a href="pics/bacterias-horizontal-gene-transfer.jpg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Horizontal-gene-transfer.jpg).](pics/bacterias-horizontal-gene-transfer.jpg "Se muestra el árbol de bacterias, arqueas y eucariotas, con ciertos eventos de transferencias horizontales. A destacar: integración de mitocondrias en eucariotas, integración de plástidos en plantas, y transferencias entre bacterias y arqueas. Detalle con eventos de transferencias entre bacterias.")
 
-# Refactorización
+# Limpieza de código
 
-[reducción de genoma](https://en.wikipedia.org/wiki/Bacterial_genome#Genomic_reduction).
-[en pájaros](https://en.wikipedia.org/wiki/Genomic_evolution_of_birds).
+Al igual que en cualquier desarrollo de software,
+en el genoma se va acumulando código muerto en forma de
+[pseudo-genes](http://downloads.hindawi.com/journals/cfg/2012/424526.pdf):
+vestigios de genes que ya no funcionan.
+Llega el momento en el que es buena idea reducir el tamaño del código generado.
+¿Cómo se hace sin un equipo de desarrolladores a mano?
+
+Puede ser instructivo estudiar
+[el genoma de las aves](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4390078/),
+que es mucho más reducido que el de mamíferos y reptiles.
+Además tiene menos repeticiones y muchas más deleciones
+(pérdidas de secuencias de ADN).
+Cualquier desarrollador que se precie sabe que el código repetido es la pesadilla del buen profesional del software.
+y que se elimina con una buena refactorización.
+Así que podemos decir con tranquilidad que el genoma de los pájaros
+[está mejor refactorizado](https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-5-12)
+y tiene
+[menos código muerto](https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-4-17)
+que el de los mamíferos.
+¿Qué guía esta reducción de código?
+
+¿Podría ser una reducción de peso que ayude a volar?
+No es descabellado;
+al fin y al cabo el genoma representa
+[el 1% del peso de una célula en mamíferos](http://manalis-lab.mit.edu/publications/delgado_cermak_PLOS_2013.pdf),
+5% si contamos ARN que podemos suponer proporcional.
+Además esta reducción se da más a menudo en
+[pájaros y murciélagos](https://www.pnas.org/content/114/8/E1460);
+y el ave con el genoma más grande es el avestruz,
+que casualmente no vuela.
+
+La realidad parece que es
+[más complicada](https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2009.1004):
+el tamaño del genoma determina el tamaño de la célula,
+y éste a su vez la eficiencia del metabolismo.
+
+En las bacterias es el azar quien guía el proceso,
+con ciertas ayudas.
+Nuestras amigas tienen una
+[fuerte tendencia a eliminar código genético](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1189353/).
+Si el resultado es viable,
+es probable que en unas cuantas generaciones el genoma se reduzca.
+Sería interesante entender por qué es ventajoso para una bacteria reducir su genoma,
+aunque nos puede dar una pista pensar que ADN+ARN representan
+[el 23% del peso de _E. coli_](http://manalis-lab.mit.edu/publications/delgado_cermak_PLOS_2013.pdf):
+una variante con menos genes necesitará menos recursos para reproducirse.
+
+Este proceso puede hacerse manualmente.
+Por ejemplo un equipo de científicos consiguió una reducción manual de genoma en _E. coli_:
+[de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
+Pero parece que la evolución es mucho más fina.
 
 Por ejemplo,
-[_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae)
-tiene 3.27 Mbp,
-mientras que su antecesor _M. tuberculosis_ tiene 4.42 Mbp.
-Por el camino _M. leprae_ ha perdido unos 1200 genes;
+[_Mycobacterium leprae_](https://www.sciencedirect.com/science/article/pii/S0092867402006657)
+tiene 3.3 Mbp,
+mientras que su antecesor _M. tuberculosis_ tiene 4.4 Mbp.
+Por el camino _M. leprae_ ha perdido unos 2000 genes;
 ahora depende de las células del anfitrión para multitud de funciones vitales.
-
-Reducción manual de genoma en _E. coli_:
-[de 4.4 Mbp a 4.263 Mbp](https://genome.cshlp.org/content/12/4/640.full).
 
 # Herramientas
 
