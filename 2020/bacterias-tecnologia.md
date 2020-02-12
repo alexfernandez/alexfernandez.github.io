@@ -179,16 +179,19 @@ Hablando de la nube,
 ¿Pueden intercambiar genes directamente?
 
 Existen mecanismos como los priones
-que permiten compartir estos cambios entre una población entera de bacterias.
+que permiten compartir estos cambios rápidamente entre una población entera de bacterias.
 Se trata de unas proteinas que cambian de forma al entrar en contacto con la forma modificada.
 La enfermedad de las vacas locas (encefalopatía espongiforme bovina)
 está causada por un prión.
+
+Pero también hay intercambio directo de genes.
 
 https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
 
 https://en.wikipedia.org/wiki/Bacterial_conjugation
 
-https://en.wikipedia.org/wiki/Plasmid
+El caso más interesante es el de los
+[plásmidos](https://en.wikipedia.org/wiki/Plasmid):
 
 # Refactorización
 
@@ -207,6 +210,7 @@ Reducción manual de genoma en _E. coli_:
 
 # Herramientas
 
+Las bacterias usan herramientas muy pequeñitas para conseguir sus fines.
 Este vídeo muestra cómo funciona un pelo de bacteria:
 extensión y retractación rápidas que le permiten moverse.
 
