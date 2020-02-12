@@ -191,18 +191,20 @@ está causada por un prión.
 Pero se puede transmitir poca información de esta forma:
 para ser exactos, un bit (prión inactivo -> prión activo).
 
-Algo mucho más interesante es la conjugación bacteriana:
+Pero también hay intercambio directo de genes.
+
+Algo mucho más interesante es la
+[conjugación bacteriana](https://en.wikipedia.org/wiki/Bacterial_conjugation):
+[plásmidos](https://en.wikipedia.org/wiki/Plasmid):
 
 ![Diagrama esquemático de la conjugación bacteriana. _Biiij, qué ascazo_. <a href="pics/bacterias-conjugacion.svg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Conjugation-es.svg).](pics/bacterias-conjugacion.svg "Conjugación en cuatro fases. 1: la célula donante produce un pilus. 2: el pilus alcanza otra célula, uniéndolas. 3: el plásmido se duplica, y una hebra de ADN se transfiere a la célula receptora. 4: ambas células vuelven a circularizar sus plásmidos, sintetizan una segunda hebra, y reproducen los pelos; ambas células son ahora donantes viables.")
 
-Pero también hay intercambio directo de genes.
+El caso más interesante es el de la
+[transformación genética](https://en.wikipedia.org/wiki/Transformation_(genetics)):
 
-https://en.wikipedia.org/wiki/Bacterial_genome#Horizontal_gene_transfer
-
-https://en.wikipedia.org/wiki/Bacterial_conjugation
-
-El caso más interesante es el de los
-[plásmidos](https://en.wikipedia.org/wiki/Plasmid):
+Los genetistas están empezando a darse cuenta de la
+[importancia de la transferencia horizontal](https://en.wikipedia.org/wiki/Horizontal_gene_transfer)
+en la evolución.
 
 ![Transferencia horizontal de genes en el árbol de la vida. <a href="pics/bacterias-horizontal-gene-transfer.jpg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Horizontal-gene-transfer.jpg).](pics/bacterias-horizontal-gene-transfer.jpg "Se muestra el árbol de bacterias, arqueas y eucariotas, con ciertos eventos de transferencias horizontales. A destacar: integración de mitocondrias en eucariotas, integración de plástidos en plantas, y transferencias entre bacterias y arqueas. Detalle con eventos de transferencias entre bacterias.")
 
