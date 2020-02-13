@@ -208,8 +208,9 @@ piensa que hay plásmidos en entornos contaminados
 que codifican
 [resistencia a múltiples antibióticos y a metales pesados](https://mbio.asm.org/content/mbio/5/5/e01918-14.full.pdf).
 
+La transferencia no sólo ocurre en procariotas.
 Los genetistas están empezando a darse cuenta de la
-[importancia de la transferencia horizontal](https://en.wikipedia.org/wiki/Horizontal_gene_transfer)
+[importancia de la transferencia horizontal](https://www.pnas.org/content/96/7/3801https://www.pnas.org/content/96/7/3801)
 en la evolución.
 
 ![Transferencia horizontal de genes en el árbol de la vida. <a href="pics/bacterias-horizontal-gene-transfer.jpg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Horizontal-gene-transfer.jpg).](pics/bacterias-horizontal-gene-transfer.jpg "Se muestra el árbol de bacterias, arqueas y eucariotas, con ciertos eventos de transferencias horizontales. A destacar: integración de mitocondrias en eucariotas, integración de plástidos en plantas, y transferencias entre bacterias y arqueas. Detalle con eventos de transferencias entre bacterias.")
