@@ -192,15 +192,21 @@ Pero se puede transmitir poca información de esta forma:
 para ser exactos, un bit (prión inactivo -> prión activo).
 
 Pero también hay intercambio directo de genes.
-
-Algo mucho más interesante es la
-[conjugación bacteriana](https://en.wikipedia.org/wiki/Bacterial_conjugation):
-[plásmidos](https://en.wikipedia.org/wiki/Plasmid):
+Algo que se conoce desde hace tiempo es la
+[conjugación bacteriana](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1365-2958.2002.03014.x):
+una bacteria inyecta un trocito de ADN llamado plásmido en otra.
 
 ![Diagrama esquemático de la conjugación bacteriana. _Biiij, qué ascazo_. <a href="pics/bacterias-conjugacion.svg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Conjugation-es.svg).](pics/bacterias-conjugacion.svg "Conjugación en cuatro fases. 1: la célula donante produce un pilus. 2: el pilus alcanza otra célula, uniéndolas. 3: el plásmido se duplica, y una hebra de ADN se transfiere a la célula receptora. 4: ambas células vuelven a circularizar sus plásmidos, sintetizan una segunda hebra, y reproducen los pelos; ambas células son ahora donantes viables.")
 
-El caso más interesante es el de la
-[transformación genética](https://en.wikipedia.org/wiki/Transformation_(genetics)):
+Pero la cosa no queda ahí.
+Las bacterias pueden de hecho tomar plásmidos que están sueltos por ahí en el medio,
+e integrarlos en su ADN:
+es lo que se llama
+[transformación genética](http://web.biosci.utexas.edu/psaxena/BIO366/articles/050801DNA%20transformation.pdf).
+Si todavía no tienes miedo,
+piensa que hay plásmidos en entornos contaminados
+que codifican
+[resistencia a múltiples antibióticos y a metales pesados](https://mbio.asm.org/content/mbio/5/5/e01918-14.full.pdf).
 
 Los genetistas están empezando a darse cuenta de la
 [importancia de la transferencia horizontal](https://en.wikipedia.org/wiki/Horizontal_gene_transfer)
