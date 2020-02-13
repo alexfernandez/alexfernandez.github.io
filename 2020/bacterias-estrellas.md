@@ -196,10 +196,14 @@ buscando nuestro origen.
 
 Una idea clave que espero haber sabido transmitir es que las bacterias
 no son nuestras enemigas, más bien al contrario:
-son más felices cuando nos ayudan.
+medran mejor cuando nos ayudan.
+Bacterias y arqueas son ubicuas en el planeta:
+miremos donde miremos siempre están ahí.
 Eso sí, son expertas en sobrevivir en cualquier medio.
 Si las atiborramos a antibióticos es probable que se adapten,
 como de hecho está pasando.
+
+## Evolución
 
 Otra idea clave es que la evolución no ocurre como pensamos muchas veces:
 no es un proceso dirigido hacia una meta.
@@ -209,6 +213,8 @@ Tener muchas bacterias en un sitio evolucionando
 no las convierte en súper-bacterias resistentes a todo;
 sólo significa que se van a adaptar a ese medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
+
+## Reconclusión
 
 Las bacterias siguen siendo,
 siglos después de su descubrimiento,
