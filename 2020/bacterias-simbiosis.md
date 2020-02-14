@@ -292,8 +292,8 @@ necesitan maquinaria celular de la que carecen.
 Lo mismo les pasa a
 [algunas bacterias](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3129005/),
 que usan los mecanismos de las celulas que infectan;
-un ejemplo es la familia de las Clamidias
-o [_Mycobacterium leprae_](https://en.wikipedia.org/wiki/Mycobacterium_leprae),
+ya hemos visto el caso de
+[_Mycobacterium leprae_](https://www.sciencedirect.com/science/article/pii/S0092867402006657),
 la bacteria que causa la lepra.
 La mayoría de las bacterias son autosuficientes.
 
