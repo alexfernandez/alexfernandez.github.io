@@ -247,7 +247,8 @@ No es descabellado;
 al fin y al cabo el genoma representa
 [el 1% del peso de una célula en mamíferos](http://manalis-lab.mit.edu/publications/delgado_cermak_PLOS_2013.pdf),
 5% si contamos ARN que podemos suponer proporcional.
-Además esta reducción se da más a menudo en
+Un humano adulto de 70 kg lleva encima una mochilita de 3.5 kg de ADN y ARN.
+Además esta reducción de genoma se da más a menudo en
 [pájaros y murciélagos](https://www.pnas.org/content/114/8/E1460);
 y el ave con el genoma más grande es el avestruz,
 que casualmente no vuela.
@@ -256,6 +257,7 @@ La realidad parece que es
 [más complicada](https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2009.1004):
 el tamaño del genoma determina el tamaño de la célula,
 y éste a su vez la eficiencia del metabolismo.
+Personalmente no descarto que el peso del genoma haya sido también un factor.
 
 En las bacterias es el azar quien guía el proceso,
 con ciertas ayudas.
