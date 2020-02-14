@@ -106,6 +106,12 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 # Nuestras defensas
 
 ¿Cómo nos defendemos de esta evolución tan rápida?
+Con el sistema inmune.
+
+Recomiendo encarecidamente esta
+[introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/);
+es un tema apasionante y en el que,
+literalmente, nos jugamos la vida.
 
 ## Zoonosis
 
@@ -145,6 +151,16 @@ Por cierto que las tan citadas feromonas
 son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
 sólo tras la descomposición por la flora bacteriana de la piel
 adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
+
+## La vida de una célula T
+
+Ya hemos visto cómo las células B reconocen antígenos.
+Las células T son otro tipo de linfocitos,
+que tienen una vida no menos apasionante.
+
+En el siguiente vídeo vemos cómo una célula T reconoce un patógeno.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # La ciencia al rescate
 

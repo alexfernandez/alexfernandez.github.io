@@ -360,17 +360,31 @@ Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
 basados en la predictabilidad de los números generados.
 
 Pues bien: nuestro sistema inmune también depende de la generación de números aleatorios.
-
-[Introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/).
-
-Human attacks: random generation -> rapid mutation in the immune system
-
-[células T y B](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
+Las células B son
+[un tipo de linfocitos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html)
+esenciales para el sistema inmune.
 Cada célula B se genera aleatoriamente de un
 [repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
 presente en nuestro genoma.
 
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Cuando la célula B se encuentra con un antígeno,
+su configuración única de inmunoglobulina
+le da una cierta probabilidad de que lo reconozca como patógeno.
+Si es así los antígenos llegan a un ganglio linfático,
+donde empieza un proceso conocido como
+[hipermutación somática](https://pdfs.semanticscholar.org/3299/80555aec1d180c523c5fecd6be92376d42dd.pdf):
+las células B se reproducen a toda pastilla,
+los genes que generan la inmunoglobulina mutan rápidamente,
+y sólo aquellas células que mejor reconozcan el antígeno sobreviven.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/qGsyBwDVnTU?start=90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Las células B más aptas empiezan a
+[generar anticuerpos en el ganglio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692737/pdf/10794054.pdf)
+como si no hubiera un mañana,
+frenando la invasión.
+Es un proceso con varias componentes aleatorias que lo hace difícil de predecir,
+pero a la vez altamente efectivo.
 
 # Continuará…
 
