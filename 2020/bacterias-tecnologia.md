@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Esta proteína es una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen, entre otras patologías: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
+![Esta proteína tan bonita es en realidad una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen, entre otras patologías: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
 
 Como buenos tecnólogos,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
@@ -16,7 +16,7 @@ al estudiar la sofisticada tecnología que son capaces de desplegar.
 Corría el año 1953.
 Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
 Rosalind Franklin, cristalógrafa del King's College,
-trabajaba en [la estructura del ADN](https://profiles.nlm.nih.gov/spotlight/kr/feature/dna)
+intentaba dilucidar [la estructura del ADN](https://profiles.nlm.nih.gov/spotlight/kr/feature/dna)
 por difracción de rayos X.
 Watson y Crick por su parte estaban sentando las
 [bases matemáticas para analizar la molécula](https://www.theguardian.com/science/2015/jun/23/sexism-in-science-did-watson-and-crick-really-steal-rosalind-franklins-data).
@@ -60,6 +60,8 @@ Este "código ensamblador" traduce los 64 posibles valores a 20 aminoácidos + i
 con una sofisticada
 [corrección de errores](https://life.ibs.re.kr/papers/PhysLifeRev2010.pdf).
 
+![Tabla de traducción del código genético. [Fuente]().](pics/bacterias-tabla-genetica.jpg ".")
+
 Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras complejísimas,
 que veremos más abajo.
 El problema del
@@ -84,12 +86,14 @@ y memoria de acceso aleatorio (RAM), que puede también escribirse.
 
 El genoma es en principio memoria de sólo lectura,
 y podemos por tanto compararlo con la ROM de un ordenador.
+La unidad usada se corresponde con un nucleótido,
+pareado siempre con otro en la doble hélice;
+de ahí que se midan pares de bases.
+
+![Estructura de la doble hélice. [Fuente]().](pics/bacterias-doble-helice.jpg ".")
 
 Los virus tienen un genoma que oscila entre
 [1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
-La unidad usada se corresponde con un nucleótido,
-pareado siempre con otro en el genoma;
-de ahí que se midan pares de bases.
 El rango más habitual es
 [entre 4 kbp y 20 kbp](https://www.frontiersin.org/articles/10.3389/fevo.2015.00143/full).
 
