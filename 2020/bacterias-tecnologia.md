@@ -353,6 +353,12 @@ menos eficientes.
 
 En general los mecanismos bacterianos son más sencillos,
 aunque [mucho más variados](https://www.ncbi.nlm.nih.gov/books/NBK7919/).
+Podemos citar como curiosidad
+[el intrigante caso del hombre que se emborrachaba sin alcohol](https://www.theatlantic.com/science/archive/2019/09/drunk-without-alcohol-autobrewery-syndrome/598414/):
+tenía una variedad de _Klebsiella pneumoniae_ que generaba gran cantidad de alcohol
+en su intestino al fermentar la comida,
+hasta el punto de que era como si hubiera tomado 15 chupitos de whiskey.
+Se curó con antibióticos y una dieta sin hidratos de carbono.
 
 ## Jugando a los dados
 
