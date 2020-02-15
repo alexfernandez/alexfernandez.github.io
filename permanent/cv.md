@@ -13,7 +13,8 @@ It is a bit longer but far more entertaining, I hope.
 ## TL;DR
 
 A developer with 20+ years of experience proficient in backend development,
-specialized in scalability and DevOps.
+specialized in scalability and DevOps,
+currently leading high-performing teams.
 
 ## Job History
 
@@ -24,13 +25,24 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
+### 2020-02 to present: Marketgoo
+
+I am currently leading an awesome team at [Marketgoo](https://www.marketgoo.com/),
+a thriving startup company doing SEO analysis.
+We have an awesome high-performing platform,
+and an even more awesome team.
+
 ### 2019-04 to 2019-12: Influencity
 
-My latest position was CTO of [Influencity](https://www.influencity.com/),
-a thriving company in the field of influencer marketing.
+I was CTO of [Influencity](https://www.influencity.com/),
+a company in the field of influencer marketing.
 I led a team of talented developers
 and helped them build the best platform for influencer marketing,
 using Node.js and React.
+
+While there I helped improve the architecture,
+hired two new engineers (for a total of 6 people)
+and led the team during a complete revamping of critical modules.
 
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
