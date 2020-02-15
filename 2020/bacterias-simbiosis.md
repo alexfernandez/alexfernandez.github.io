@@ -177,10 +177,17 @@ literalmente, nos jugamos la vida.
 
 ## Atracción fetal
 
-La atracción entre una pareja heterosexual.
-Preferencias en olor corporal e incluso la satisfacción sexual de una pareja
-está relacionada con la diferencia en
-[complejo mayor de histocompatibilidad](major histocompatibility complex).
+La atracción entre una pareja parece relacionada con el
+complejo mayor de histocompatibilidad.
+[Preferencias en olor corporal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1688704/pdf/9364787.pdf).
+Curiosamente no había diferencias entre hombres y mujeres.
+De hecho tenemos un órgano especializado sólo para eso en el cuerpo:
+el [órgano vomeronasal]().
+Incluso la [satisfacción sexual de una pareja](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5006172/).
+está relacionada con la diferencia en CMH.
+Todo el proceso está orientado a generar progenie con mayor variedad en el CMH,
+lo que se supone que los hará más
+[resistentes a infecciones]().
 
 Por cierto que las tan citadas feromonas
 son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
