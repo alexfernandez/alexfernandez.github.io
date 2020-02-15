@@ -106,6 +106,8 @@ normalmente se cita que el ratio es de
 [10 bacterias por célula](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full),
 aunque probablemente el número real
 [sea bastante parecido](https://www.cell.com/cell/fulltext/S0092-8674(16)00053-2).
+El total de bacterias se calcula en 4×10<sup>13</sup>,
+similar al número de células.
 
 ![Las partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
 

@@ -15,8 +15,8 @@ al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
 
 También sabemos que en nuestro cuerpo,
 tanto fuera como dentro, viven
-[trillones de bacterias](),
-y que son esenciales para la vida humana.
+[billones de bacterias](https://www.cell.com/cell/fulltext/S0092-8674(16)00053-2);
+y sabemos que son esenciales para la vida humana.
 ¿Por qué nos enfocamos tanto en la enfermedad?
 
 # Replicación rápida
@@ -106,12 +106,7 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 # Nuestras defensas
 
 ¿Cómo nos defendemos de esta evolución tan rápida?
-Con el sistema inmune.
-
-Recomiendo encarecidamente esta
-[introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/);
-es un tema apasionante y en el que,
-literalmente, nos jugamos la vida.
+Vamos a ver otros aspectos del increíble sistema inmune humano.
 
 ## Zoonosis
 
@@ -125,7 +120,7 @@ y además tiene contacto frecuente entre casi todas sus subpoblaciones.
 Por eso
 [el sistema inmune humano es el más complejo que conocemos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
 
-![La especie humana tiene contacto con todo tipo de ecosistemas y de animales domésticos, que pueden terminar contagiándonos sus enfermedades. [Fuente](https://foodsource.org.uk/book/export/html/108).](pics/bacterias-zoonosis.png "Varios frascos con poblaciones de _E. coli., el marcado como A-3 aparece con un fondo turbio.")
+![La especie humana tiene contacto con todo tipo de ecosistemas y de animales domésticos, que pueden terminar contagiándonos sus enfermedades. [Fuente](https://foodsource.org.uk/book/export/html/108).](pics/bacterias-zoonosis.png "El ser humano contacta con animales salvajes, que pueden contagiarle: enfermedad de Lyme, ébola, SARS. También con animales domésticos, portadores de: viruela vacuna, fiebre del valle del Rift. Y entre animales salvajes y domésticos pueden compartir y propagar: rabia, tuberculosis, ántrax, salmonella, brucelosis...")
 
 Alrededor del 60% de las enfermedades humanas son de
 [transmisión zoonótica](https://www.who.int/neglected_diseases/diseases/zoonoses/en/),
@@ -140,6 +135,46 @@ Al parecer la reciente infección de coronavirus
 Es interesante señalar que a menudo las enfermedades zoonóticas
 [no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
+## La vida de una célula T
+
+Ya hemos visto cómo las células B reconocen antígenos.
+Las células T son otro tipo de linfocitos que tienen una vida incluso más apasionante,
+que funcionan gracias a un sistema de pruebas muy exhaustivo.
+
+Se generan en la médula espinal.
+Al igual que las células B,
+su fenotipo se elige al azar siguiendo un proceso estocástico;
+pero cada célula T es capaz de reconocer múltiples antígenos al mismo tiempo.
+A continuación viajan al timo, en el esternón,
+donde pasan unas pruebas muy estrictas:
+deben reconocer ciertos antígenos,
+pero no deben activarse ante las moléculas propias del organismo.
+Se calcula que se destruye alrededor del 95% de células T por fallar en estas pruebas.
+
+Tras su maduración las células T viajarán por todo el cuerpo,
+entre los nodos linfáticos y la sangre,
+intentando detectar a células que generen patógenos.
+El proceso es muy curioso:
+las células T son como policías que piden la documentación a cada célula que se encuentran.
+Para cada una reclaman ver muestras de las proteínas generadas,
+y las comparan con su repertorio de antígenos.
+Si detectan alguna proteína sospechosa son capaces de destruir rápidamente la célula portadora.
+De esta forma son capaces de detectar células infectadas que están generando proteínas de virus o bacterias,
+o células cancerosas con el genoma dañado.
+Pero también pueden llevar muestras de estos antígenos a los nodos linfáticos,
+donde las células B les ayudarán a generar anticuerpos.
+
+En el siguiente vídeo vemos cómo una célula T reconoce un patógeno.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Hay muchos otros componentes de la respuesta inmune:
+unos que la refuerzan y otros que ayudan a evitar falsos positivos.
+Recomiendo encarecidamente esta
+[introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/);
+es un tema apasionante y en el que,
+literalmente, nos jugamos la vida.
+
 ## Atracción fetal
 
 La atracción entre una pareja heterosexual.
@@ -151,16 +186,6 @@ Por cierto que las tan citadas feromonas
 son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
 sólo tras la descomposición por la flora bacteriana de la piel
 adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
-
-## La vida de una célula T
-
-Ya hemos visto cómo las células B reconocen antígenos.
-Las células T son otro tipo de linfocitos,
-que tienen una vida no menos apasionante.
-
-En el siguiente vídeo vemos cómo una célula T reconoce un patógeno.
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/wTN7AP1WTUI?start=120" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # La ciencia al rescate
 
@@ -247,8 +272,8 @@ Así que, ¿cómo podríamos hacer cambios  en el genoma de seres vivos?
 
 ![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con proteínas. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Fotograma de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
 
-Pues, como ya te puedes imaginar,
-estas "tijeras genéticas" se encontraron ya listas para usar
+Resulta que estas "tijeras genéticas" se encontraron ya listas para usar.
+¿Dónde? Pues, como ya te puedes imaginar,
 [en bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
 Lo que se conoce como
 técnica CRISPR (_clustered regularly interspaced short palindromic repeats_)

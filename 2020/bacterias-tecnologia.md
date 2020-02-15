@@ -394,9 +394,13 @@ y sólo aquellas células que mejor reconozcan el antígeno sobreviven.
 Las células B más aptas empiezan a
 [generar anticuerpos en el ganglio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692737/pdf/10794054.pdf)
 como si no hubiera un mañana,
-frenando la invasión.
+y si el proceso funciona actúan frenando la invasión.
 Es un proceso con varias componentes aleatorias que lo hace difícil de predecir,
 pero a la vez altamente efectivo.
+
+Lo mejor de todo es que algunas células B ya afinadas quedarán rondando en los ganglios;
+ante una nueva invasión del mismo antígeno la respuesta inmune será mucho más rápida,
+ya que estas células estarán listas para producir antígenos enseguida.
 
 # Continuará…
 
