@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2020-01-11.
+footer: Published on 2016-08-17, last edited on 2020-02-15.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -12,7 +12,7 @@ It is a bit longer but far more entertaining, I hope.
 
 ## TL;DR
 
-A developer with 20 years of experience proficient in backend development,
+A developer with 20+ years of experience proficient in backend development,
 specialized in scalability and DevOps.
 
 ## Job History

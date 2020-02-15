@@ -15,9 +15,12 @@ al estudiar la sofisticada tecnología que son capaces de desplegar.
 
 Corría el año 1953.
 Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
+El ácido desoxirribonucleico (ADN, o DNA en inglés)
+era el mayor sospechoso de albergar la información genética de la célula.
 Rosalind Franklin, cristalógrafa del King's College,
 intentaba dilucidar [la estructura del ADN](https://profiles.nlm.nih.gov/spotlight/kr/feature/dna)
 por difracción de rayos X.
+
 Watson y Crick por su parte estaban sentando las
 [bases matemáticas para analizar la molécula](https://www.theguardian.com/science/2015/jun/23/sexism-in-science-did-watson-and-crick-really-steal-rosalind-franklins-data).
 Por caminos oscuros obtuvieron el trabajo de Franklin,

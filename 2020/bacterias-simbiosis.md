@@ -177,19 +177,20 @@ literalmente, nos jugamos la vida.
 
 ## Atracción fetal
 
-La atracción entre una pareja parece relacionada con el
-complejo mayor de histocompatibilidad.
+La atracción en una pareja parece relacionada con el
+complejo mayor de histocompatibilidad (CMH, o MHC en inglés).
 [Preferencias en olor corporal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1688704/pdf/9364787.pdf).
 Curiosamente no había diferencias entre hombres y mujeres.
 De hecho tenemos un órgano especializado sólo para eso en el cuerpo:
-el [órgano vomeronasal]().
+el [órgano vomeronasal](https://www.researchgate.net/profile/Peter_Brennan/publication/8193089_MHC_Class_I_Peptides_as_Chemosensory_Signals_in_the_Vomeronasal_Organ/links/0912f50f139abec104000000/MHC-Class-I-Peptides-as-Chemosensory-Signals-in-the-Vomeronasal-Organ.pdf).
 Incluso la [satisfacción sexual de una pareja](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5006172/).
 está relacionada con la diferencia en CMH.
 Todo el proceso está orientado a generar progenie con mayor variedad en el CMH,
 lo que se supone que los hará más
 [resistentes a infecciones]().
 
-Por cierto que las tan citadas feromonas
+Por cierto que las secreciones corporales
+(que incluyen las ya famosas feromonas)
 son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
 sólo tras la descomposición por la flora bacteriana de la piel
 adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
