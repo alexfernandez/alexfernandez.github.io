@@ -88,7 +88,7 @@ but the talks have not always been recorded or published.
 ## CV
 
 In case you are interested about my past experience,
-[here you go](permanent/cv.html).
+[here you go](/cv.html).
 I sometimes work as a freelancer for short-term engagements
 such as teaching courses,
 giving private talks
