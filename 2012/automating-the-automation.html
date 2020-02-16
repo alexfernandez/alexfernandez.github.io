@@ -3,45 +3,55 @@
 	Read Only by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	https://pinchito.es/ | @pinchito
 -->
 <html>
 	<head>
 		<title>Automating the Automation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="../css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="canonical" href="https://pinchito.es/2012/automating-the-automation" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<script>
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-UA-75898530-1';
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			  window[disableStr] = true;
+		}
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-75898530-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
 	</head>
 	<body>
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><a href="../index.html"><img src="../pics/avatar.jpg" alt="Avatar" /></a></span>
-					<h1 id="logo"><a href="../index.html">Alex Fernández</a></h1>
+					<span class="image avatar"><a href="/"><img src="/pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="/">Alex Fernández</a></h1>
 					<p>
-					I am a developer (little) known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					I am a developer known on Twitter as <a href="https://twitter.com/pinchito">pinchito</a>.
+					</p>
+					<p>
+					This site uses (gasp!) cookies for gathering statistics.
+					You can
+						<a href="javascript:gaOptout()">disable them</a>.
 					</p>
 				</header>
-				<!--
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-				-->
 			</section>
 
 		<!-- Wrapper -->
@@ -54,11 +64,12 @@
 							<section id="one">
 								<div class="container">
 									<header class="major">
-										<h2>Automating the Automation</h2>
+										<h1>Automating the Automation</h1>
+										<p><p>
 									</header>
-										<div class="figure">
-<img src="pics/automating-the-automation.jpg" title="Engrenages - 85.488" alt="Photo credit: annemarie.michel@mpsa.com." /><p class="caption">Photo credit: <a href="https://fr.wikipedia.org/wiki/Fichier:Engrenages_-_85.488_-.jpg">annemarie.michel@mpsa.com.</a></p>
-</div>
+																				<figure>
+<img src="pics/automating-the-automation.jpg" title="Engrenages - 85.488" alt="Photo credit: annemarie.michel@mpsa.com." /><figcaption>Photo credit: <a href="https://fr.wikipedia.org/wiki/Fichier:Engrenages_-_85.488_-.jpg">annemarie.michel@mpsa.com.</a></figcaption>
+</figure>
 <p>Automatic mechanisms have changed our lives for good, but they bring their own set of problems. In this era of turning automation upon itself endlessly, we have to identify these drawbacks and alleviate them if at all possible. This post is dedicated to exploring how we automate our processes in MoveinBlue.</p>
 <h2 id="automated-testing">Automated Testing</h2>
 <p>First, a little secret about development that most managers never seem to understand (or remember): the most onerous task of development is not developing code. Neither is it testing. No, the big time sucker is investigating problems, with all its dirty subdisciplines: debugging, tracing and plain wondering about where does this error come from (or why isn’t this particular solution working as it should). Now, in the 90s everyone was talking about automating development; their idea of automating the automation was to write code that writes some more code. Wrong! People were not thinking clearly back then; if all development was automated, nobody would be able to help once things went wrong and code starting throwing errors around.</p>
@@ -71,7 +82,7 @@
 <p>Once you remove debugging code that someone else wrote one year ago, the most painful task in centralized development teams is code integration: take the work of several people and join it in one coherent tree where each leaf is one file of code. We are supposing that we have all the possible help from our tools, such as… the free and libre software <a href="http://git-scm.com/">git</a>. Or at least another modern distributed version control such as Mercurial.</p>
 <p>Again, the trick is to do this integration in small steps. Do not wait until all code is perfect and pulished; integrate everything all the time. Keep branches at a minimum, although they are not always possible to avoid. Use configuration options to hide incomplete features from the view of the public. And, if you are developing a web application, do not support several versions; just maintain the tip of the tree (HEAD, CURRENT or whatever it is called in your tool of choice) and make all of your changes there.</p>
 <p>Some of the heaviest jobs in integration are debugging problems in the merged code. Having all tests in an automated corps helps a lot here: you may find problems much more quickly if your tests reveal them right after the integration. Combine this with small integration steps and life is fun again.</p>
-<p>But wait, there is a missing element here: It is not enough to run your unit tests, we should have some integration tests too! Now we are not testing separate pieces such as your database code or your formatting functions, but the combined work; we should exercise a functionality end-to-end, from user interaction to response, and probably getting something written on some permanent media. And, aren’t we going to automate these integration tests? Now we are getting into murky waters, since we will probably have to simulate a user doing things in a graphical interface; or for a web application, we have to simulate a complete flow of e.g. user logging in, user putting one of our great products in the cart, user entering credit card data and receiving their wares while sitting comfortably at home. Well, we will probably just check that an order has been created, but you get the point.</p>
+<p>But wait, there is a missing element here: It is not enough to run your unit tests, we should have some integration tests too! Now we are not testing separate pieces such as your database code or your formatting functions, but the combined work; we should exercise a functionality end-to-end, from user interaction to response, and probably getting something written on some permanent media. And, aren’t we going to automate these integration tests? Now we are getting into murky waters, since we will probably have to simulate a user doing things in a graphical interface; or for a web application, we have to simulate a complete flow of e.g. user logging in, user putting one of our great products in the cart, user entering credit card data and receiving their wares while sitting comfortably at home. Well, we will probably just check that an order has been created, but you get the point.</p>
 <p>There are tools that help with these tests; find the ones that suit your particular needs, and use them! Just make sure that code for integration tests is easy to write and debug.</p>
 <h2 id="automated-verification">Automated Verification</h2>
 <p>The next thing we can do is to automate the whole field of verification. We have already dealt with testing, but there are some subtasks here which we must deal with: regression testing, certification and validation. Let us examine each one briefly.</p>
@@ -94,7 +105,7 @@
 									Posted originally at <a href="http://tech.moveinblue.com/post/20991980613/automating-the-automation">Tumblr</a> on 2012-04-12.
 									</p>
 									<p>
-									Back to the <a href="../index.html">index</a>.
+									Back to the <a href="/">index</a>.
 									</p>
 								</div>
 							</section>
@@ -103,8 +114,11 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Alex Fernández. Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</li>
-								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>
+									© <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>.
+									Distributed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.
+								</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

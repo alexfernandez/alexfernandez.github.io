@@ -65,6 +65,7 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh 2012/iterative-evolution
 ./generate.sh 2012/reporting-problems-part-1
 ./generate.sh 2012/reporting-problems-part-2
+./generate.sh 2012/automating-the-automation
 
 ./generate.sh cv
 pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf

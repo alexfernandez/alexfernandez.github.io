@@ -79,8 +79,3 @@ It takes a certain amount of effort to keep all environments working. Keep in mi
 
 But when it works, it works very well! We developers stop worrying obsessively about regressions and they just add features; when somehow an old feature is broken the system beeps the particular developer. We are not afraid to do sweeping changes to existing code, so our codebases are kept flexible and nice as we like them.
 
-`---8<---8<---8<---8<---8<---`
-
-
-Back to [index](../index.html).
-
