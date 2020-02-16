@@ -4,8 +4,8 @@
 date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # Generate all
+pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.html"
 ./generate.sh index
-sed -i -e 's/"\.\.\//"/g' index.html
 ./generate.sh 2020/bacterias-maquinas
 ./generate.sh 2020/bacterias-maquinas
 ./generate.sh 2020/bacterias-bonita
@@ -20,11 +20,11 @@ sed -i -e 's/"\.\.\//"/g' index.html
 ./generate.sh 2019/curso-unix
 ./generate.sh 2018/more-golang-adventures
 ./generate.sh 2018/has-anyone-else-seen-your-code
+./generate.sh 2018/building-space-launcher.md "-f markdown-tex_math_dollars"
 ./generate.sh 2017/diversidad-tecnologia
 ./generate.sh 2017/jsdayes-2017-cost
 ./generate.sh 2017/build-your-own-devops-infrastructure
 ./generate.sh 2017/origins-language
-./generate.sh 2018/building-space-launcher.md "-f markdown-tex_math_dollars"
 ./generate.sh 2016/cuanto-costo-jsdayes-2016
 ./generate.sh 2016/sobre-intrusismo-profesional
 ./generate.sh 2016/against-craftsmanship
