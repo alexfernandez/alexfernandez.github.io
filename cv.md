@@ -113,7 +113,7 @@ wrote the iOS version.
 I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
 In fact I have worked for several large companies:
-here is [one recent story](/2016/stridercd.html).
+here is [one recent story](/2016/stridercd).
 
 Other customers over time include:
 [Grupo Inditex](https://www.inditex.com/),
@@ -124,7 +124,7 @@ and a few other smaller companies.
 ### 2011-08 to 2012-08: CTO at MoveinBlue
 
 I have written elsewhere at length about
-[my experience as CTO](/2016/mib-five-years-later.html)
+[my experience as CTO](/2016/mib-five-years-later)
 so I will not repeat everything.
 Suffice to say that I learned PHP
 and had my first heavy-duty contact with JavaScript,
@@ -243,7 +243,7 @@ the very first to a crowded room for
 [MadridJS](http://www.meetup.com/es-ES/madridjs/events/105582592/).
 
 I like to give
-[public talks](./speaker.html)
+[public talks](/permanent/speaker)
 every once in a while.
 I consider them to be volunteer work since I am not paid,
 although I get to attend amazing conferences.
@@ -362,7 +362,7 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and now Go.
 I have lots of fun learning a new language or environment,
 although I may
-[get grumpy](/2016/golang-adventures.html) in the process.
+[get grumpy](/2016/golang-adventures) in the process.
 
 ### Rationale
 
