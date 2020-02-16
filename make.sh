@@ -3,71 +3,72 @@
 
 date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
-# English
-pandoc --template read-only.html -s index.md -o index.html
+# Generate all
+./generate.sh index
 sed -i -e 's/"\.\.\//"/g' index.html
-pandoc --template read-only.html -s 2020/bacterias-maquinas.md -o 2020/bacterias-maquinas.html
-pandoc --template read-only.html -s 2020/bacterias-bonita.md -o 2020/bacterias-bonita.html
-pandoc --template read-only.html -s 2020/bacterias-tecnologia.md -o 2020/bacterias-tecnologia.html
-pandoc --template read-only.html -s 2020/bacterias-simbiosis.md -o 2020/bacterias-simbiosis.html
-pandoc --template read-only.html -s 2020/bacterias-autoinmunes.md -o 2020/bacterias-autoinmunes.html
-pandoc --template read-only.html -s 2020/bacterias-estrellas.md -o 2020/bacterias-estrellas.html
-pandoc --template read-only.html -s 2020/insane-plane-prices.md -o 2020/insane-plane-prices.html
-pandoc --template read-only.html -s 2020/repaso-propositos.md -o 2020/repaso-propositos.html
-pandoc --template read-only.html -s 2019/high-speeds.md -o 2019/high-speeds.html
-pandoc --template read-only.html -s 2019/devops-on-the-cheap.md -o 2019/devops-on-the-cheap.html
-pandoc --template read-only.html -s 2019/curso-unix.md -o 2019/curso-unix.html
-pandoc --template read-only.html -s 2018/more-golang-adventures.md -o 2018/more-golang-adventures.html
-pandoc --template read-only.html -s 2018/has-anyone-else-seen-your-code.md -o 2018/has-anyone-else-seen-your-code.html
-pandoc --template read-only.html -s 2017/diversidad-tecnologia.md -o 2017/diversidad-tecnologia.html
-pandoc --template read-only.html -s 2017/jsdayes-2017-cost.md -o 2017/jsdayes-2017-cost.html
-pandoc --template read-only.html -s 2017/build-your-own-devops-infrastructure.md -o 2017/build-your-own-devops-infrastructure.html
-pandoc --template read-only.html -s 2017/origins-language.md -o 2017/origins-language.html
-pandoc --template read-only.html -s -f markdown-tex_math_dollars 2018/building-space-launcher.md -o 2018/building-space-launcher.html
-pandoc --template read-only.html -s 2016/cuanto-costo-jsdayes-2016.md -o 2016/cuanto-costo-jsdayes-2016.html
-pandoc --template read-only.html -s 2016/sobre-intrusismo-profesional.md -o 2016/sobre-intrusismo-profesional.html
-pandoc --template read-only.html -s 2016/against-craftsmanship.md -o 2016/against-craftsmanship.html
-pandoc --template read-only.html -s 2016/event-attendance.md -o 2016/event-attendance.html
-pandoc --template read-only.html -s 2016/golang-adventures.md -o 2016/golang-adventures.html
-pandoc --template read-only.html -s 2016/stridercd.md -o 2016/stridercd.html
-pandoc --template read-only.html -s 2016/nginx-balancer.md -o 2016/nginx-balancer.html
-pandoc --template read-only.html -s 2016/build-or-not.md -o 2016/build-or-not.html
-pandoc --template read-only.html -s 2016/mib-five-years-later.md -o 2016/mib-five-years-later.html
-pandoc --template read-only.html -s 2016/becoming-a-better-developer.md -o 2016/becoming-a-better-developer.html
-pandoc --template read-only.html -s 2016/start-me-up.md -o 2016/start-me-up.html
-pandoc --template read-only.html -s 2016/advice-for-the-novice.md -o 2016/advice-for-the-novice.html
-pandoc --template read-only.html -s 2016/get-ahead-of-the-curve.md -o 2016/get-ahead-of-the-curve.html
-pandoc --template read-only.html -s 2016/top-of-the-cream-of-the-crop.md -o 2016/top-of-the-cream-of-the-crop.html
-pandoc --template read-only.html -s 2016/the-amazing-mind.md -o 2016/the-amazing-mind.html
-pandoc --template read-only.html -s 2015/ofertas-salarios.md -o 2015/ofertas-salarios.html
-pandoc --template read-only.html -s 2015/entrevista-devuse.md -o 2015/entrevista-devuse.html
-pandoc --template read-only.html -s 2015/arquitectura-fluida-1-arquitectura-perfecta.md -o 2015/arquitectura-fluida-1-arquitectura-perfecta.html
-pandoc --template read-only.html -s 2015/arquitectura-fluida-2-estrategias-migracion.md -o 2015/arquitectura-fluida-2-estrategias-migracion.html
-pandoc --template read-only.html -s 2015/walk-through-my-code.md -o 2015/walk-through-my-code.html
-pandoc --template read-only.html -s 2013/human-body-engineered-system.md -o 2013/human-body-engineered-system.html
-pandoc --template read-only.html -s 2013/optimizando-sockets.md -o 2013/optimizando-sockets.html
-pandoc --template read-only.html -s 2013/pruebas-de-carga.md -o 2013/pruebas-de-carga.html
-pandoc --template read-only.html -s 2013/nodejs-rapido-como-el-rayo.md -o 2013/nodejs-rapido-como-el-rayo.html
-pandoc --template read-only.html -s 2013/modo-cluster.md -o 2013/modo-cluster.html
-pandoc --template read-only.html -s 2013/pruebas-asincronas.md -o 2013/pruebas-asincronas.html
-pandoc --template read-only.html -s 2012/developer-discipline.md -o 2012/developer-discipline.html
-pandoc --template read-only.html -s 2012/continuous-deployment.md -o 2012/continuous-deployment.html
-pandoc --template read-only.html -s 2012/locked-to-the-cloud.md -o 2012/locked-to-the-cloud.html
-pandoc --template read-only.html -s 2012/reversible-engineering-part-1.md -o 2012/reversible-engineering-part-1.html
-pandoc --template read-only.html -s 2012/reversible-engineering-part-2.md -o 2012/reversible-engineering-part-2.html
-pandoc --template read-only.html -s 2012/reversible-engineering-part-3.md -o 2012/reversible-engineering-part-3.html
-pandoc --template read-only.html -s 2012/from-ground-to-cloud.md -o 2012/from-ground-to-cloud.html
-pandoc --template read-only.html -s 2012/ode-to-telecommuting.md -o 2012/ode-to-telecommuting.html
-pandoc --template read-only.html -s 2012/closing-the-gap.md -o 2012/closing-the-gap.html
-pandoc --template read-only.html -s 2012/performance-review.md -o 2012/performance-review.html
-pandoc --template read-only.html -s 2012/sources-of-irreversibility.md -o 2012/sources-of-irreversibility.html
-pandoc --template read-only.html -s 2012/iterative-evolution.md -o 2012/iterative-evolution.html
-pandoc --template read-only.html -s 2012/reporting-problems-part-1.md -o 2012/reporting-problems-part-1.html
-pandoc --template read-only.html -s 2012/reporting-problems-part-2.md -o 2012/reporting-problems-part-2.html
+./generate.sh 2020/bacterias-maquinas
+./generate.sh 2020/bacterias-maquinas
+./generate.sh 2020/bacterias-bonita
+./generate.sh 2020/bacterias-tecnologia
+./generate.sh 2020/bacterias-simbiosis
+./generate.sh 2020/bacterias-autoinmunes
+./generate.sh 2020/bacterias-estrellas
+./generate.sh 2020/insane-plane-prices
+./generate.sh 2020/repaso-propositos
+./generate.sh 2019/high-speeds
+./generate.sh 2019/devops-on-the-cheap
+./generate.sh 2019/curso-unix
+./generate.sh 2018/more-golang-adventures
+./generate.sh 2018/has-anyone-else-seen-your-code
+./generate.sh 2017/diversidad-tecnologia
+./generate.sh 2017/jsdayes-2017-cost
+./generate.sh 2017/build-your-own-devops-infrastructure
+./generate.sh 2017/origins-language
+./generate.sh 2018/building-space-launcher.md "-f markdown-tex_math_dollars"
+./generate.sh 2016/cuanto-costo-jsdayes-2016
+./generate.sh 2016/sobre-intrusismo-profesional
+./generate.sh 2016/against-craftsmanship
+./generate.sh 2016/event-attendance
+./generate.sh 2016/golang-adventures
+./generate.sh 2016/stridercd
+./generate.sh 2016/nginx-balancer
+./generate.sh 2016/build-or-not
+./generate.sh 2016/mib-five-years-later
+./generate.sh 2016/becoming-a-better-developer
+./generate.sh 2016/start-me-up
+./generate.sh 2016/advice-for-the-novice
+./generate.sh 2016/get-ahead-of-the-curve
+./generate.sh 2016/top-of-the-cream-of-the-crop
+./generate.sh 2016/the-amazing-mind
+./generate.sh 2015/ofertas-salarios
+./generate.sh 2015/entrevista-devuse
+./generate.sh 2015/arquitectura-fluida-1-arquitectura-perfecta
+./generate.sh 2015/arquitectura-fluida-2-estrategias-migracion
+./generate.sh 2015/walk-through-my-code
+./generate.sh 2013/human-body-engineered-system
+./generate.sh 2013/optimizando-sockets
+./generate.sh 2013/pruebas-de-carga
+./generate.sh 2013/nodejs-rapido-como-el-rayo
+./generate.sh 2013/modo-cluster
+./generate.sh 2013/pruebas-asincronas
+./generate.sh 2012/developer-discipline
+./generate.sh 2012/continuous-deployment
+./generate.sh 2012/locked-to-the-cloud
+./generate.sh 2012/reversible-engineering-part-1
+./generate.sh 2012/reversible-engineering-part-2
+./generate.sh 2012/reversible-engineering-part-3
+./generate.sh 2012/from-ground-to-cloud
+./generate.sh 2012/ode-to-telecommuting
+./generate.sh 2012/closing-the-gap
+./generate.sh 2012/performance-review
+./generate.sh 2012/sources-of-irreversibility
+./generate.sh 2012/iterative-evolution
+./generate.sh 2012/reporting-problems-part-1
+./generate.sh 2012/reporting-problems-part-2
 
-pandoc --template read-only.html -s cv.md -o cv.html
+./generate.sh cv
 pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
-pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
+./generate.sh permanent/speaker
 
 git add -A
 git commit -am "Make on $date"
