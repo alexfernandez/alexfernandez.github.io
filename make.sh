@@ -65,7 +65,7 @@ pandoc --template read-only.html -s 2012/iterative-evolution.md -o 2012/iterativ
 pandoc --template read-only.html -s 2012/reporting-problems-part-1.md -o 2012/reporting-problems-part-1.html
 pandoc --template read-only.html -s 2012/reporting-problems-part-2.md -o 2012/reporting-problems-part-2.html
 
-pandoc --template read-only.html -s permanent/cv.md -o permanent/cv.html
+pandoc --template read-only.html -s cv.md -o cv.html
 pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 pandoc --template read-only.html -s permanent/speaker.md -o permanent/speaker.html
 
