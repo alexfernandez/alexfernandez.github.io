@@ -54,12 +54,12 @@ También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
 # Serie completa
 
-Empieza por la [parte 1: Y las bacterias, bonita](bacterias-bonita.html),
+Empieza por la [parte 1: Y las bacterias, bonita](bacterias-bonita),
 donde recorreremos una visión general del panorama bacteriano.
 
-* → Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
-* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
-* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
+* → Parte 1: [Y las bacterias, bonita](bacterias-bonita).
+* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 

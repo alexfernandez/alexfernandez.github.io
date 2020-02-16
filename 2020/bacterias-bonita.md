@@ -256,14 +256,14 @@ sino que probablemente aguantarán mucho más.
 # Continuará…
 
 Este artículo es la primera parte de la
-[serie sobre bacterias](bacterias-maquinas.html).
+[serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 2: Tecnología bacteriana](bacterias-tecnologia.html),
+[parte 2: Tecnología bacteriana](bacterias-tecnologia),
 donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
 
 * ↑ Parte 1: Y las bacterias, bonita.
-* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
-* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
+* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
+* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 

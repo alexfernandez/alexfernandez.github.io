@@ -232,7 +232,7 @@ La hermosa cepa dorada que contenía el melón era 1000 veces más potente que l
 y permitió la producción en masa de penicilina.
 
 Por desgracia ya vimos en la
-[parte 2](bacterias-tecnologia.html)
+[parte 2](bacterias-tecnologia)
 la facilidad que tienen las bacterias para transferir genes entre ellas.
 Cuando se trata una enfermedad con un antibiótico
 es fácil que las bacterias benéficas del intestino se vuelvan resistentes,
@@ -389,14 +389,14 @@ sino medrar en el medio donde se encuentren.
 # Continuará…
 
 Este artículo es la tercera parte de la
-[serie sobre bacterias](bacterias-maquinas.html).
+[serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 4: Enfermedades autoinmunes](bacterias-autoinmunes.html)
+[parte 4: Enfermedades autoinmunes](bacterias-autoinmunes)
 donde hablaremos de patologías que afectan directamente al sistema inmune.
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
 * ↑ Parte 3: El largo camino a la simbiosis.
-* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
+* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 

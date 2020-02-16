@@ -408,14 +408,14 @@ ya que estas células estarán listas para producir antígenos enseguida.
 # Continuará…
 
 Este artículo es la segunda parte de la
-[serie sobre bacterias](bacterias-maquinas.html).
+[serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 3: El largo camino a la simbiosis](bacterias-simbiosis.html),
+[parte 3: El largo camino a la simbiosis](bacterias-simbiosis),
 donde investigaremos más a fondo sobre el sistema inmune y sus modos de fallo.
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
 * ↑ Parte 2: Tecnología bacteriana.
-* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
-* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
+* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 

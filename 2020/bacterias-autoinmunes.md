@@ -289,14 +289,14 @@ y se enfrente a este gran desafío que tenemos por delante.
 # Continuará…
 
 Este artículo es la cuarta parte de la
-[serie sobre bacterias](bacterias-maquinas.html).
+[serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 5: ¿Venimos de estrellas?](bacterias-estrellas.html),
+[parte 5: ¿Venimos de estrellas?](bacterias-estrellas),
 donde veremos en profundidad el enigma del origen de la vida.
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
+* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
 * ↑ Parte 4: Enfermedades autoinmunes.
-* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas.html)
+* → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 

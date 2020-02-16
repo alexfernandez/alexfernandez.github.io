@@ -158,7 +158,7 @@ nos da una velocidad media de
 [230 km/h](https://www.wolframalpha.com/input/?i=300+parsec+%2F+4500+million+years+to+km%2Fh),
 al alcance de un coche de carreras.
 ¡Eso no es nada
-[en términos estelares](https://pinchito.es/2019/high-speeds.html)!
+[en términos estelares](https://pinchito.es/2019/high-speeds)!
 Basta con suponer que algo sacó al Sol de su entorno y lo dejó a la deriva,
 lo que nos convertiría en huérfanos estelares recorriendo la galaxia sin rumbo definido,
 lejos de nuestros hermanos.
@@ -229,12 +229,12 @@ te aseguro que el estudio te recompensará el esfuerzo diez veces.
 # Fin
 
 Este artículo es la quinta y última parte de la
-[serie sobre bacterias](bacterias-maquinas.html).
+[serie sobre bacterias](bacterias-maquinas).
 ¡Gracias por llegar hasta aquí! 😅🦠😘
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita.html).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia.html).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis.html).
-* ← Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes.html).
+* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
+* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* ← Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * ↑ Parte 5: ¿Venimos de las estrellas?
 
