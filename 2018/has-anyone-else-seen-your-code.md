@@ -379,7 +379,7 @@ Sometimes design sessions are also useful even before a line of code has been wr
 Doing a "design walkthrough" can save many hours of fruitless coding.
 
 More details are available in my
-[2015 article](http://pinchito.es/2015/walk-through-my-code.html).
+[2015 article](/2015/walk-through-my-code).
 
 ### Pyramidal Code Reviews
 

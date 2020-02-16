@@ -283,7 +283,7 @@ Since the partial demise of
 I cannot add more engagements there,
 and I prefer to have control over my data.
 
-You can also browse my [complete CV](/cv.html).
+You can also browse my [complete CV](/cv).
 
 ## Contact
 

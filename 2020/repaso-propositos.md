@@ -36,8 +36,8 @@ que me parecen esenciales y donde Devo dejaba que desear:
 
 * limpieza en entornos de desarrollo,
 * despliegue continuo,
-* [DevOps en general](http://pinchito.es/2017/build-your-own-devops-infrastructure.html),
-* y [revisión de código](http://pinchito.es/2018/has-anyone-else-seen-your-code.html).
+* [DevOps en general](/2017/build-your-own-devops-infrastructure),
+* y [revisión de código](/2018/has-anyone-else-seen-your-code).
 
 A finales de marzo me cambié a
 [Influencity](https://influencity.com/).
@@ -48,7 +48,7 @@ tras varios años de desarrollos a matacaballo.
 ![Bienvenidos al maravilloso mundo de los influencers.](pics/repaso-influencers.jpg "Mona et la laitière immortalisent leur voyage chez le cri, fuente: https://commons.wikimedia.org/wiki/File:Selfie_art.jpg")
 
 En unos pocos meses teníamos
-[un sistema de integración continua potente](http://pinchito.es/2019/devops-on-the-cheap.html),
+[un sistema de integración continua potente](/2019/devops-on-the-cheap),
 y dos nuevas personas que han redondeado un equipo de alto rendimiento, motivado y trabajando a tope.
 Hemos relanzado varios componentes críticos de la plataforma,
 renovado la web y añadido una sección de pagos completamente nueva.
@@ -119,7 +119,7 @@ y [cuatro dando apoyo](https://twitter.com/pinchito/status/1207344167854247937) 
 Ya hemos avisado que como salga mi propuesta con [Fran Barea](https://twitter.com/MandisBack) ¡va a ser la risa! 😂
 
 Por último he publicado el
-[curso de Unix](http://pinchito.es/2019/curso-unix.html)
+[curso de Unix](/2019/curso-unix)
 que sin duda hará las delicias de grandes y pequeños.
 
 ### Personal

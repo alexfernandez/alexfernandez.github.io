@@ -373,7 +373,7 @@ and the vehicle would instantly be hypersonic.
 Impact with air would result in a tremendous deceleration,
 and a huge sonic boom.
 
-[This simulation](http://pinchito.es/mass-driver/drag.html)
+[This simulation](/mass-driver/drag.html)
 allows you to change several parameters
 and simulate the flight.
 

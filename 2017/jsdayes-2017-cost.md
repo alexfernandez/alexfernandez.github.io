@@ -414,7 +414,7 @@ everything cheap conference.
 
 It is easy to estimate ticket prices since we have already done something similar.
 A single-track, single day, 200 people event came at about €20k
-[in 2016](http://pinchito.es/2016/cuanto-costo-jsdayes-2016.html).
+[in 2016](/2016/cuanto-costo-jsdayes-2016).
 Counting half of that from sponsors and half from attendees
 means that tickets would again cost around €50.
 

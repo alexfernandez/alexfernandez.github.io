@@ -173,7 +173,7 @@ More bells and whistles could be added later.
 
 I have used Node.js for DevOps work for many years now,
 and even spoken about it in public:
-[Build Your Own DevOps Infrastructure](http://pinchito.es/2017/build-your-own-devops-infrastructure.html).
+[Build Your Own DevOps Infrastructure](/2017/build-your-own-devops-infrastructure).
 I have to say I have always been quite happy with it:
 it runs reliably,
 code can be written very quickly and there are libraries for everything.
@@ -476,7 +476,7 @@ But also consider the downsides of _standard_ tooling:
 * hard maintenance.
 
 I have written about the topic before if you are interested:
-[Should I Build or Should I Not](http://pinchito.es/2016/build-or-not.html).
+[Should I Build or Should I Not](/2016/build-or-not).
 
 When it comes to maintaining the tooling,
 everyone in the team should know what it is doing behind the scenes.
