@@ -29,7 +29,7 @@ Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posib
 # Bacterias en T3chFest
 
 Esta serie de artículos sirve como complemento bibliográfico a la
-[charla de T3chFest 2020](https://t3chfest.es/2020/programa)
+[charla de T3chFest 2020](https://t3chfest.es/2020/programa/bacterias-maquinas-que-dominan-el-universo)
 del mismo título.
 
 He intentado que los artículos sean interesantes por su cuenta,
