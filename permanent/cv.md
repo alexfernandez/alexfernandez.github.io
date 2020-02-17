@@ -279,14 +279,13 @@ These brave women are going to be a force to reckon in our national industry.
 
 ## Education
 
-I learned programming when I was 10,
-even before I had a computer:
+I learned programming even before I had a computer:
 I wrote stupid BASIC programs on paper
 and run to the house of my friend
 [Carlos](https://twitter.com/zuiko21),
 who owned a ZX Spectrum,
 to type and run them.
-When I got my own Amstrad CPC 6128 a couple of years later
+When I got my own Amstrad CPC 6128 a few years later
 I wrote a lot of programs in the included BASIC interpreter,
 and later a few more using Z80 assembler.
 
