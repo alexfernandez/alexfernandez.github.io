@@ -251,7 +251,9 @@ y poner así el tratamiento adecuado lo antes posible.
 
 ## Ensayos clínicos
 
-La forma que tiene la ciencia médica de conseguir nuevos antibióticos es a través de ensayos clínicos.
+La forma que tiene la ciencia médica de conseguir nuevos antibióticos,
+y en general nuevas medicinas,
+es a través de ensayos clínicos.
 Se trata de un proceso riguroso que incluye
 [ensayos clínicos en al menos tres fases](https://www.centerwatch.com/clinical-trials/overview):
 en la primera se comprueba que el medicamento sea seguro en voluntarios,
