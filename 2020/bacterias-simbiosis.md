@@ -158,9 +158,9 @@ El proceso es muy curioso:
 las células T son como policías que piden la documentación a cada célula que se encuentran.
 Para cada una reclaman ver muestras de las proteínas generadas,
 y las comparan con su repertorio de antígenos.
-Si detectan alguna proteína sospechosa son capaces de destruir rápidamente la célula portadora.
 De esta forma son capaces de detectar células infectadas que están generando proteínas de virus o bacterias,
 o células cancerosas con el genoma dañado.
+Si detectan alguna proteína sospechosa son capaces de destruir rápidamente la célula portadora.
 Pero también pueden llevar muestras de estos antígenos a los nodos linfáticos,
 donde las células B les ayudarán a generar anticuerpos.
 
@@ -171,7 +171,8 @@ En el siguiente vídeo vemos cómo una célula T reconoce un patógeno.
 Hay muchos otros componentes de la respuesta inmune:
 unos que la refuerzan y otros que ayudan a evitar falsos positivos.
 Recomiendo encarecidamente esta
-[introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/);
+[introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/)
+de donde he sacado la información para este apartado;
 es un tema apasionante y en el que,
 literalmente, nos jugamos la vida.
 
