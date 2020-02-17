@@ -268,11 +268,15 @@ Ni pacientes ni investigadores saben en qué grupo está cada uno.
 El problema en este caso es justamente el coste.
 Sólo la fase III puede costar
 [alrededor de $20 millones de dólares](https://www.raps.org/news-and-articles/news-articles/2018/9/phase-3-trial-costs-estimated-at-19m-study-finds).
+Y básicamente se consigue un bit de información:
+si funciona el medicamento X para la enfermedad Y o no.
 ¿Quién está dispuesto a pagar esta cantidad?
 Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inversión.
+Y desde hace tiempo los gobiernos han delegado en la empresa privada los ensayos clínicos.
 
 ## Edición de genes
 
+Podemos ir un paso más allá.
 El viejo sueño de editar genes _in vivo_
 permitiría añadir o quitar proteínas de un organismo directamente.
 Es un sueño para cualquier investigador,
