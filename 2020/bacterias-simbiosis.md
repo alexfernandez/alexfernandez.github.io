@@ -187,7 +187,7 @@ Incluso la [satisfacción sexual de una pareja](https://www.ncbi.nlm.nih.gov/pmc
 está relacionada con la diferencia en CMH.
 Todo el proceso está orientado a generar progenie con mayor variedad en el CMH,
 lo que se supone que los hará más
-[resistentes a infecciones]().
+[resistentes a infecciones](https://www.pnas.org/content/99/17/11260.long).
 
 Por cierto que las secreciones corporales
 (que incluyen las ya famosas feromonas)
