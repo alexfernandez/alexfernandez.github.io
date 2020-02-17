@@ -156,7 +156,7 @@ Para cada una reclaman ver muestras de las proteínas generadas,
 y las comparan con su repertorio de antígenos.
 De esta forma son capaces de detectar células infectadas que están generando proteínas de virus o bacterias,
 o células cancerosas con el genoma dañado.
-Si detectan alguna proteína sospechosa son capaces de destruir rápidamente la célula portadora.
+Si encuentran alguna proteína sospechosa son capaces de destruir rápidamente la célula portadora.
 Pero también pueden llevar muestras de estos antígenos a los nodos linfáticos,
 donde las células B les ayudarán a generar anticuerpos.
 
@@ -191,6 +191,8 @@ Por cierto que las secreciones corporales
 son [inodoras](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3987372/);
 sólo tras la descomposición por la flora bacteriana de la piel
 adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sexuales.
+Así que, muy literalmente,
+dependemos de las bacterias incluso para aparearnos.
 
 # La ciencia al rescate
 
