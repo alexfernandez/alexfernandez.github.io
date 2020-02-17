@@ -213,7 +213,7 @@ pero no creo que sea una caracterización correcta:
 sin la tenacidad del investigador
 no se habría dado cuenta de que las secreciones de cierta cepa del hongo _Penicillium_
 mataban a las bacterias de alrededor,
-como se les había pasado a todos los investigadores antes de él.
+como les había pasado a todos los investigadores antes de él.
 
 ![Foto original de Fleming: el hongo _Penicillium_ contra la bacteria _Staphylococcus_. Gana el hongo por goleada. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/pdf/brjexppathol00255-0037.pdf).](pics/bacterias-fleming-penicilina.jpg "Una colonia de _Staphylococcus_ con un crecimiento de _Penicillium_ en medio. Las bacterias que rodean al hongo sufren un proceso de ruptura de la pared celular (lisis) y mueren.")
 
