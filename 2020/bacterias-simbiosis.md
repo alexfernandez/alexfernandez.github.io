@@ -388,9 +388,12 @@ o una mejora constante en una carrera de armas muy desigual.
 "Evolución rápida" significa "adaptación rápida al medio".
 ¡Ni más ni menos!
 Las bacterias se adaptan a lo que se encuentran a gran velocidad.
-Si usamos antibióticos se adaptarán a ellos.
 Su finalidad no es realmente acabar con nosotros,
 sino medrar en el medio donde se encuentren.
+Si usamos antibióticos se adaptarán a ellos,
+y entonces puede que tengamos un problema.
+Pero ellas sólo hacen lo único que saben hacer:
+intentar sobrevivir.
 
 # Continuará…
 
