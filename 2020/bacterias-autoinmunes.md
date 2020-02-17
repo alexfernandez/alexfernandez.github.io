@@ -6,8 +6,8 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 ---
 
 Vamos a ver ahora un asunto controvertido.
-La relación con las bacterias no se hará evidente
-hasta casi el final.
+La relación con las bacterias no será inmediatamente evidente,
+así que te pido paciencia.
 
 Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sanos del cuerpo por error.
 Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
