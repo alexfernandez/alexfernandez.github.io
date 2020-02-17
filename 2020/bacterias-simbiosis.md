@@ -255,7 +255,7 @@ La forma que tiene la ciencia médica de conseguir nuevos antibióticos,
 y en general nuevas medicinas,
 es a través de ensayos clínicos.
 Se trata de un proceso riguroso que incluye
-[ensayos clínicos en al menos tres fases](https://www.centerwatch.com/clinical-trials/overview):
+[al menos tres fases](https://www.centerwatch.com/clinical-trials/overview):
 en la primera se comprueba que el medicamento sea seguro en voluntarios,
 y en la segunda se verifica su eficacia en pacientes.
 La fase III es la más completa, implica a más pacientes todavía (cientos o miles),
