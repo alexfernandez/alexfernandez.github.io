@@ -344,7 +344,7 @@ tanto en el software desarrollado como en los propios ingenieros.
 En realidad es sólo una pequeña minoría la que está a favor,
 aunque muy ruidosa.
 La realidad de la industria va en sentido contrario,
-y no estaría en nuestro interés como país ir contracorriente.
+y no estaría en nuestro interés como país ir contra corriente.
 
 ### Agradecimientos
 
