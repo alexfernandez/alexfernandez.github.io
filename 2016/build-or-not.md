@@ -143,7 +143,7 @@ had told me about a new alternative written in Node.js
 in a private conversation.
 
 Excited, I tried StriderCD for a
-[freelancing gig](http://alexfernandez.github.io/2016/stridercd.html)
+[freelancing gig](/2016/stridercd)
 I did the following month:
 it is a very nice Node.js solution which has a graphical interface,
 similar to Travis-CI.
@@ -167,7 +167,7 @@ But mostly it has been a success.
 Now let us see the reverse situation:
 going from a standard product to a custom solution.
 A month ago I published an
-[article about this migration](http://alexfernandez.github.io/2016/nginx-balancer.html)
+[article about this migration](/2016/nginx-balancer)
 which contains far more detail than this summary.
 
 #### ELBs Are Expensive
@@ -486,7 +486,7 @@ is not a big deal.
 
 ### Against Craftmanship
 
-Too much [craftmanship](http://alexfernandez.github.io/2016/against-craftsmanship.html)
+Too much [craftmanship](/2016/against-craftsmanship)
 is not good either.
 
 Artisans may get carried away and insist on doing everything themselves.

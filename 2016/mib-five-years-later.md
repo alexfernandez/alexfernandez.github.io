@@ -475,8 +475,8 @@ also organized by
 where I told the audience how we have scaled up to 325 krps,
 using Node.js for a lot of DevOps tasks.
 We have written critical parts of our infrastructure in
-[Erlang](http://alexfernandez.github.io/2016/nginx-balancer.html)
-and [Go](http://alexfernandez.github.io/2016/golang-adventures.html),
+[Erlang](/2016/nginx-balancer)
+and [Go](/2016/golang-adventures),
 and had a blast while scaling our servers.
 It provides for a nice closure to my little tale.
 

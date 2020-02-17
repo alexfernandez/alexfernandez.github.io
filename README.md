@@ -3,7 +3,7 @@
 Personal GitHub pages.
 
 This repo can be accessed on
-[pinchito.es](http://pinchito.es/).
+[pinchito.es](https://pinchito.es/).
 
 ## License
 

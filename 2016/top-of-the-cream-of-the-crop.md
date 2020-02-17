@@ -146,7 +146,7 @@ in our industry there are no guarantees.
 
 <p style="color:#636; border:thin solid #c9c">
 After leaving ING Direct Spain five years ago,
-I [co-founded a startup](http://alexfernandez.github.io/2016/mib-five-years-later.html)
+I [co-founded a startup](/2016/mib-five-years-later)
 that ultimately went nowhere,
 but allowed me to recycle myself starting to write software again.
 </p>
