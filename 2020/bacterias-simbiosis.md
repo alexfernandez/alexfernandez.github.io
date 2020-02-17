@@ -21,7 +21,7 @@ y sabemos que son esenciales para la vida humana.
 
 # Replicación rápida
 
-Una característica interesante (y que da bastante miedito)
+Una característica interesante (y que da bastante miedo)
 de las bacterias es lo rápido que son capaces de reproducirse.
 
 El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
@@ -82,18 +82,14 @@ Seguro que has visto jabones anunciados que
 Suena bien, ¿no?
 El único problema es la replicación exponencial.
 
-El tiempo de replicación óptimo de 20 minutos para _E. coli_
-implica que tras una hora el número de ejemplares se multiplica por 8.
+Tomemos el tiempo de replicación más conservador de una hora para _E. coli_.
 Tenemos las manos sucias y nos las lavamos con jabón que elimina el 99.9% de las bacterias,
 ¿cuánto tiempo tardamos en volver a tener las mismas bacterias que al principio?
-Fácil: 200 minutos, o sea unas tres horas.
-Con la estimación más realista para el tiempo de replicación de una hora,
-las manos nos durarán más tiempo limpias:
-para ser exactos, 10 horas.
+Fácil: unas 10 horas.
 O dicho de otra forma, ni una noche entera.
 
 Seguir añadiendo nueves no nos protege demasiado más:
-cada nueve sólo añade tres horas y veinte minutos.
+cada nuevo nueve sólo añade tres horas y veinte minutos.
 Incluso un jabón que elimine
 [el 99.999% de las bacterias](http://www2.debgroup.com/sites/default/files/pdfs/Por-que-es-importante-el-99.999%25.pdf)
 nos dejará las manos exactamente igual tras unas 17 horitas.
@@ -105,13 +101,13 @@ Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que 
 
 # Nuestras defensas
 
-¿Cómo nos defendemos de esta evolución tan rápida?
-Vamos a ver otros aspectos del increíble sistema inmune humano.
+¿Cómo nos defendemos de esta replicación tan rápida?
+Vamos a ahondar en algunos aspectos del increíble sistema inmune humano.
 
 ## Zoonosis
 
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
-Las especies salvajes suelen encontrarse en un ecosistema limitado,
+Los animales salvajes suelen encontrarse en un ecosistema limitado,
 y sólo tienen que tratar con cierto número de especies que les puedan contagiar enfermedades.
 El ser humano, por el contrario,
 se mueve entre ecosistemas,
