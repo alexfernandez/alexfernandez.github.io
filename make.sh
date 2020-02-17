@@ -66,9 +66,9 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh 2012/reporting-problems-part-2
 ./generate.sh 2012/automating-the-automation
 
-./generate.sh cv
-pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
+./generate.sh permanent/cv
 ./generate.sh permanent/speaker
+pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fernandez.pdf
 
 git add -A
 git commit -am "Make on $date"
