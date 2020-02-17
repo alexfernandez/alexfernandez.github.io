@@ -38,7 +38,7 @@ medicina, arquitectura y otras ingenierías
 
 En las respuestas a la encuesta se dijeron cosas muy interesantes.
 Además, abrí un hilo en
-[MadridJS](www.meetup.com/es-ES/madridjs/messages/78941344/)
+[MadridJS](https://www.meetup.com/es-ES/madridjs/messages/78941344/)
 para recabar la opinión de los proponentes,
 con más detalle de lo que permite Twitter.
 
