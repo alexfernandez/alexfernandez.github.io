@@ -333,7 +333,8 @@ que usan los mecanismos de las celulas que infectan;
 ya hemos visto el caso de
 [_Mycobacterium leprae_](https://www.sciencedirect.com/science/article/pii/S0092867402006657),
 la bacteria que causa la lepra.
-La mayoría de las bacterias son autosuficientes.
+No es lo más habitual:
+la mayoría de las bacterias son autosuficientes.
 
 Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
