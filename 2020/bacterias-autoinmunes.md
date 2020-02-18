@@ -108,7 +108,7 @@ que representaban un
 [negocio importante para las farmacéuticas]().
 
 En 1981 un joven doctor llamado Barry Marshall
-[empezó a colaborar con Robin Warren](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)67587-3/fulltext?fbclid=IwAR0AK0FjVEIEwfEMGiUPN87gHqIYL9nFKLwPpq2Ie1Un9E3lmWUGD0KR9OE),
+[empezó a colaborar con otro médico, Robin Warren](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)67587-3/fulltext?fbclid=IwAR0AK0FjVEIEwfEMGiUPN87gHqIYL9nFKLwPpq2Ie1Un9E3lmWUGD0KR9OE),
 quien sospechaba de un agente bacteriano.
 Entre los dos localizaron a _Helicobacter pylori_ como el agente sospechoso de causar la úlcera.
 Nadie les creía,
