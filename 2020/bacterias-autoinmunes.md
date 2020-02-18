@@ -116,6 +116,7 @@ y en 1983 les rechazaron varias publicaciones.
 
 En 1984 Marshall
 [se bebió una preparación de _H. pylori_](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
+En seguida empezó a notar los síntomas de una úlcera gástrica.
 A continuación se curó a sí mismo con una combinación que había descubierto él mismo:
 bismuto y metronidazol.
 Este dramático gesto fue lo que finalmente inclinó la balanza
