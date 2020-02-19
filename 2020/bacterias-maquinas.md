@@ -43,15 +43,6 @@ aunque no siempre he tenido éxito.
 He evitado enlazar a la wikipedia por mantener el rigor,
 y porque cualquiera puede encontrarla.
 
-# Agradecimientos
-
-Gracias a la organización de T3chFest.
-
-Gracias a
-[Carlos J. Santisteban](https://twitter.com/zuiko21)
-por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
-También por encontrar el vídeo de "¡Y las bacterias, bonita!".
-
 # Serie completa
 
 Empieza por la [parte 1: Y las bacterias, bonita](/2020/bacterias-bonita),
@@ -62,4 +53,5 @@ donde recorreremos una visión general del panorama bacteriano.
 * → Parte 3: [El largo camino a la simbiosis](/2020/bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](/2020/bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](/2020/bacterias-estrellas)
+* → Parte 6: [Conclusiones](conclusiones).
 

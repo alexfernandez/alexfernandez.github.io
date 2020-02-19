@@ -12,6 +12,7 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh 2020/bacterias-simbiosis
 ./generate.sh 2020/bacterias-autoinmunes
 ./generate.sh 2020/bacterias-estrellas
+./generate.sh 2020/bacterias-conclusiones
 ./generate.sh 2020/insane-plane-prices
 ./generate.sh 2020/repaso-propositos
 ./generate.sh 2019/high-speeds
