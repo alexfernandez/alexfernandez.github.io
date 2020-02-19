@@ -205,6 +205,8 @@ sólo que hacen falta pruebas más contundentes para convencerles.
 
 La nueva droga se llama
 [RHB-104](https://www.redhillbio.com/rhb-104).
+Ha mostrado su actividad _in vitro_
+[contra la bacteria MAP](https://gutpathogens.biomedcentral.com/articles/10.1186/s13099-016-0115-3).
 En [ensayos clínicos de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326)
 se ha comprobado su eficacia en el
 [tratamiento de la enfermedad de Crohn](https://www.medpagetoday.com/meetingcoverage/acg/83055?fbclid=IwAR3n_8ds0-LnxeTt9u4oNYQfxzLJDuncGul6sDBdxO-mWb_vfct_EUfougY).
@@ -230,6 +232,8 @@ Hay también estudios que relacionan a
 Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
 [son esperanzadores](https://www.redhillbio.com/multiple-sclerosis).
+[sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
+[tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/).
 
 Casos previos:
 el [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
