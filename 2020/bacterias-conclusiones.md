@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Un ejemplar de _Vibrio cholerae_, la bacteria que causa el cólera, al microscopio electrónico. [Fuente](https://pixnio.com/science/microscopy-images/vibrio-related-diseases/vibrio-cholerae-bacteria-under-electron-micrograph).](/2020/pics/bacterias-vibrio-cholerae.jpg "La bacteria, alargada y de una micra de ancho, aparece en un fondo gris con agujeritos, reminiscente de un vaso sanguíneo.")
 
 Este viaje nos ha llevado desde el telar de Leeuwenhoek
 a un clúster estelar a miles de años luz de distancia.
