@@ -214,6 +214,14 @@ no las convierte en súper-bacterias resistentes a todo;
 sólo significa que se van a adaptar a ese medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
 
+## Aprender
+
+Me permito darte un consejo:
+aprende tanto como puedas sobre las enfermedades que te afecten a ti o a tu familia.
+Estarás al tanto de los últimos tratamientos,
+podrás entender por qué se aplican,
+y es posible que consigas nuevas perspectivas sobre por qué funcionan.
+
 ## Reconclusión
 
 Las bacterias siguen siendo,

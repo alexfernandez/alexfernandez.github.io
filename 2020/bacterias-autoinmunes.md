@@ -228,6 +228,7 @@ Se han documentado casos de pacientes de diabetes tipo I
 [que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
 Hay también estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
+[más info](https://humanpara.org/map-and-type-1-diabetes/).
 
 Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
