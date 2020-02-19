@@ -184,8 +184,9 @@ Incluso que serían buenos candidatos para buscar seres vivos.
 
 Este artículo es la quinta parte de la
 [serie sobre bacterias](bacterias-maquinas).
-Sigue para ver las
-[conclusiones](bacterias-conclusiones).
+Sigue a la
+[parte 6: Conclusiones](bacterias-conclusiones),
+donde intentaremos extraer algunas enseñanzas útiles.
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
 * ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
