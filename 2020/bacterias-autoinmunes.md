@@ -164,17 +164,20 @@ o [esferoplasto](https://pdfs.semanticscholar.org/3f2c/4d0eef0e42a78c8de67298c41
 En esta segunda forma la bacteria se deshace de esta cubierta,
 por lo que resulta
 [imposible de detectar con la tinción estándar Ziehl-Neelsen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2975476/).
-Sí se detecta, sin embargo, en muestras de sangre de
-[pacientes de Crohn](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/)
+No es raro porque es un
+[método optimizado para _M. tuberculosis_](https://humanpara.org/wp-content/uploads/2019/12/2019-A-revaluation-of-the-Ziehl-Neelsen-stain.pdf).
+Con los métodos adecuados sí se detecta, sin embargo, en muestras de sangre de
+[pacientes de Crohn](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).
 
-![foto de tinción estándar y alternativa]().
+![Cultivo de _M. avium ssp. paratuberculosis_ procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.").
 
 El profesor ? [lo expresa magníficamente]():
 
 > Ya sabíamos cómo identificar la forma desnuda de la MAP,
 > pero en algún momento se nos olvidó.
 
-Los cultivos son demasiado lentos.
+Hay que decir que estos cultivos tardaron 18 meses en dar resultados.
+Es una técnica demasiado lenta.
 Varios equipos de todo el mundo están trabajando en
 [múltiples formas de identificar la MAP](),
 basadas en tests genéticos.
