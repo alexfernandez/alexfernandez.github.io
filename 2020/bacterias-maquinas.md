@@ -53,5 +53,5 @@ donde recorreremos una visión general del panorama bacteriano.
 * → Parte 3: [El largo camino a la simbiosis](/2020/bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](/2020/bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](/2020/bacterias-estrellas)
-* → Parte 6: [Conclusiones](conclusiones).
+* → Parte 6: [Conclusiones](/2020/bacterias-conclusiones).
 

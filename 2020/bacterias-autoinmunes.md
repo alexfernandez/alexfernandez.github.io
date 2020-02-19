@@ -308,5 +308,5 @@ donde veremos en profundidad el enigma del origen de la vida.
 * ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
 * ↑ Parte 4: Enfermedades autoinmunes.
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas).
-* → Parte 6: [Conclusiones](conclusiones).
+* → Parte 6: [Conclusiones](bacterias-conclusiones).
 
