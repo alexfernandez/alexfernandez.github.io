@@ -693,6 +693,6 @@ That's my impression after a few days;
 I'll update this article if I change my mind.
 
 Update: I have published a
-[second part](../2018/more-golang-adventures.html)
+[second part](/2018/more-golang-adventures)
 with more adventures!
 

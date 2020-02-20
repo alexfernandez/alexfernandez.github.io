@@ -9,7 +9,7 @@ footer: Published on 2018-05-28, last modified on 2018-06-03.
 
 A couple of years I had the chance to play with Go
 (or "Golang" as exasperated people searching on the web often use)
-and wrote [part 1](/2016/golang-adventures.html) of this article.
+and wrote [part 1](/2016/golang-adventures) of this article.
 In the last few weeks I have delved deeper into the gopher hole
 and have been discouraged from using it on large projects.
 This longish rant explains why.
