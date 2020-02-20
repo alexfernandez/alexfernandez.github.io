@@ -9,7 +9,7 @@ footer: Published on 2018-05-28, last modified on 2018-06-03.
 
 A couple of years I had the chance to play with Go
 (or "Golang" as exasperated people searching on the web often use)
-and wrote [part 1](../2016/golang-adventures.html) of this article.
+and wrote [part 1](/2016/golang-adventures.html) of this article.
 In the last few weeks I have delved deeper into the gopher hole
 and have been discouraged from using it on large projects.
 This longish rant explains why.
@@ -324,7 +324,7 @@ let's complain about it at length.
 It should be great when the creators of a language
 also give you a [nice formatting tool](https://golang.org/cmd/gofmt/).
 But remember, kids: `gofmt` is brought to you by the same people who
-[mandate inlined brace style](2016/golang-adventures.html#mandatory-brace-style).
+[mandate inlined brace style](/2016/golang-adventures.html#mandatory-brace-style).
 So they saw it fit to remove spaces as an option and now mandate tabs for indentation,
 and spaces for automatic alignment.
 
