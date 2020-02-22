@@ -56,8 +56,13 @@ siglos después de su descubrimiento,
 fuentes inagotables de asombro.
 Son una parte importantísima de la vida terrestre,
 y está en nuestro interés conocerlas bien.
+
+Hay muchas más cosas que aprender.
+No he tocado en la formación de biofilms que está ahora tan de moda;
+ni las mil complejidades de la relación entre flora intestinal y salud.
 Espero que esta serie de artículos te haya servido como introducción
-y que te animes a seguir los enlaces para profundizar;
+y que te animes a seguir los enlaces para profundizar,
+y luego que investigues por tu cuenta:
 te aseguro que el estudio te recompensará el esfuerzo diez veces.
 ¡Gracias por tu interés! 😘
 
