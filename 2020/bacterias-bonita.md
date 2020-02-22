@@ -131,7 +131,7 @@ Además parece que en las barbas se encuentra la _Staphylococcus epidermidis_,
 capaz de [segregar antibióticos para controlar otras bacterias](https://www.bbc.com/news/magazine-35350886).
 Así que es muy posible que las barbas sean más higiénicas que su ausencia.
 
-![Más partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-up.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad superior.")
+![Más partes privadas de una señora. [Captura de Monty Python's Flying Circus s02e09](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-up.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad superior.")
 
 El curso de preparación al parto de mi hija Lucía nos lo dio la pediatra Matilde Alonso.
 Me llamó la atención su enfoque científico y numérico a todos los problemas.
