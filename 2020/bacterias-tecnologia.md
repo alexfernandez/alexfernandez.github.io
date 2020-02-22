@@ -47,7 +47,7 @@ La realidad es que dado que el premio Nobel sólo se concede a personas vivas
 no había posibilidad de reconocer el trabajo de Franklin.
 Que cada cual saque sus propias conclusiones.
 Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
-pero Franklin habría llegado a la doble hélice por sí sola.
+pero Franklin seguramente habría llegado a la doble hélice por sí sola.
 
 # Material genético
 
