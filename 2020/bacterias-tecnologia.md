@@ -145,7 +145,7 @@ No tenemos en cuenta todavía programas y aplicaciones.
 
 # Memoria interna
 
-En un organismo vivo es necesario primero copiar el ADN en ARN.
+En un organismo vivo es necesario primero transcribir el ADN en ARN.
 El ARN es por tanto similar a la RAM o memoria de lectura y escritura:
 suele hacer de
 [mensajero](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3078976/)
