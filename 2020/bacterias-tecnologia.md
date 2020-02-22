@@ -216,6 +216,9 @@ Si todavía no tienes miedo,
 piensa que hay plásmidos en entornos contaminados
 que codifican
 [resistencia a múltiples antibióticos y a metales pesados](https://mbio.asm.org/content/mbio/5/5/e01918-14.full.pdf).
+Las bacterias integran  los plásmidos cuando los necesitan,
+y [los pierden](https://pdfs.semanticscholar.org/9947/d4ff6aac909bff725edb06ee231351661980.pdf)
+cuando dejan de ser útiles.
 
 La transferencia de genes no sólo ocurre en procariotas.
 Si le damos de comer al nematodo _C. elegans_
