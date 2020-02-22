@@ -365,6 +365,11 @@ en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.026
 Pero a veces estas bacterias
 [se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
 sin que sepamos muy bien por qué.
+Tampoco sabemos por qué funciona el
+[trasplante de heces]()
+en el tratamiento de múltiples patologías;
+incluso parece que ayuda al
+[rendimiento deportivo]().
 
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
 hay miles de millones de combinaciones posibles en cada glóbulo blanco.
