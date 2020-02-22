@@ -324,10 +324,6 @@ En el futuro es posible que podamos usar bacterias como nanobots,
 por ejemplo con
 [regulación magnética](https://lonelyspore.wordpress.com/2014/07/07/could-magnetic-bacteria-be-the-next-generation-of-microbots/).
 
-# Complejidad
-
-¿Cómo se comparan en complejidad las procariotas con otros organismos?
-
 ## Simplicidad
 
 En línea con el tamaño de ROM
@@ -343,39 +339,7 @@ de cómo funcionan:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Generación de energía
-
-¿Cómo es la cadena de generación de energía
-(en forma de moléculas de ATP) en distintos organismos?
-Vamos a ver el proceso más sencillo que es partir de una molécula de glucosa.
-
-Los mamíferos tenemos una cadena de generación muy intrincada:
-por cada molécula de glucosa
-[podemos generar unas 30 moléculas de ATP](https://www.researchgate.net/profile/Peter_Rich3/publication/8988933_The_molecular_machinery_of_Keilin's_respiratory_chain/links/00b7d51af382ad9dfd000000.pdf).
-La cadena de reacciones y productos intermedios es sumamente compleja.
-También tenemos una generación anaeróbica menos eficiente:
-sólo genera tres moléculas de ATP por molécula de glucosa.
-
-![Respiración celular. Se muestra la respiración anaeróbica (fermentación) que es menos eficiente, y también la respiración aeróbica que genera 30 ATPs, según estimaciones recientes. <a href="pics/bacterias-cellular-respiration.gif" target="_blank">🔍 Ampliar</a>. [Fuente](https://en.wikipedia.org/wiki/File:Cellular_respiration.gif).](pics/bacterias-cellular-respiration.gif "La fermentación genera sólo dos ATPs, mientras que en el proceso aeróbico la cadena es mucho más compleja.")
-
-La mayoría de bacterias son
-[o bien aeróbicas o bien anaeróbicas](https://www.ncbi.nlm.nih.gov/books/NBK7638/).
-En las bacterias llamadas facultativas conviven ambos caminos de generación.
-Por ejemplo _E. coli_ puede llegar a un máximo de
-[unas 18 moléculas de ATP](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/30386/0000004.pdf?sequence=1).
-Al igual que en los mamíferos tiene también modos de generación anaeróbicos (sin oxígeno),
-menos eficientes.
-
-En general los mecanismos bacterianos son más sencillos,
-aunque [mucho más variados](https://www.ncbi.nlm.nih.gov/books/NBK7919/).
-Podemos citar como curiosidad
-[el intrigante caso del hombre que se emborrachaba sin alcohol](https://www.theatlantic.com/science/archive/2019/09/drunk-without-alcohol-autobrewery-syndrome/598414/):
-tenía una variedad de _Klebsiella pneumoniae_ que generaba gran cantidad de alcohol
-en su intestino al fermentar la comida,
-hasta el punto de que era como si hubiera tomado 15 chupitos de whiskey.
-Se curó con antibióticos y una dieta sin hidratos de carbono.
-
-## Jugando a los dados
+# Jugando a los dados
 
 ¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
 Nuestra mejor opción parece ser jugar a los dados.
