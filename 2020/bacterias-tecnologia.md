@@ -93,15 +93,14 @@ El genoma es en principio memoria de sólo lectura,
 y podemos por tanto compararlo con la ROM de un ordenador.
 La unidad usada se corresponde con un nucleótido,
 pareado siempre con otro en la doble hélice;
-de ahí que se midan pares de bases.
+de ahí que se midan pares de bases (o "bp" en inglés).
 
 ![Estructura de la doble hélice. Adaptado del [original en tamil](https://commons.wikimedia.org/wiki/File:Diagram_showing_a_double_helix_of_a_chromosome_CRUK_065-ta.svg).](pics/bacterias-doble-helice.svg "El ADN es una escalera de caracol, con el exterior formado por grupos fosfato y desoxirribosa. Los peldaños están formados por un par de aminoácidos adenina, guanina, timina y citosina; la citosina se aparea siempre con guanina, y la adenina con timina.")
 
 Los virus tienen un genoma que oscila entre
-[1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
+[1700 pares de bases y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
 El rango más habitual es
 [entre 4 kbp y 20 kbp](https://www.frontiersin.org/articles/10.3389/fevo.2015.00143/full).
-
 Las bacterias están  en un rango más estrecho;
 quitando anomalías como micoplasmas,
 sus genomas tienen
