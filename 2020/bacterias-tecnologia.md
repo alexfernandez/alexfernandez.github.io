@@ -326,16 +326,14 @@ por ejemplo con
 
 ## Simplicidad
 
-En línea con el tamaño de ROM
-(equivalente, como vimos, a un ordenador de 8 bits),
-los virus son mucho más sencillos que las bacterias:
-no se pueden reproducir por sí solos.
+Los virus son mucho más sencillos que las bacterias:
+como hemos visto, por el tamaño de ROM son equivalentes a un ordenador de 8 bits.
+Para empezar no se pueden reproducir por sí solos.
 
-En modelos más sencillos,
-como el virus del SIDA,
+También son más fáciles de modelar, claro.
 Janet Iwasa ha realizado una
-[animación más completa](http://scienceofhiv.org/wp/?page_id=20)
-de cómo funcionan:
+[animación bastante completa](http://scienceofhiv.org/wp/?page_id=20)
+de cómo funciona el virus del SIDA:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
