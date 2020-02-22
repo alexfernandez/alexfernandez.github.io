@@ -333,7 +333,9 @@ Incluso se ha usado para
 Pero es pronto todavía para ver sus efectos.
 Mientras tanto,
 [Mojica no tiene prisa por ganar un premio Nobel](https://www.labiotech.eu/interviews/francis-mojica-crispr-interview/),
-y es muy posible que quede fuera si alguna vez se concede uno por estos descubrimientos.
+y
+[es muy posible que quede fuera](https://blogs.plos.org/synbio/2017/10/05/when-will-crispr-get-a-nobel-prize/)
+cuando inevitablemente se conceda uno por estos descubrimientos.
 
 # Matar al anfitrión
 
