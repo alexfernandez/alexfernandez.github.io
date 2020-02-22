@@ -63,7 +63,7 @@ Este "código ensamblador" traduce los 64 posibles valores a 20 aminoácidos + i
 con una sofisticada
 [corrección de errores](https://life.ibs.re.kr/papers/PhysLifeRev2010.pdf).
 
-![Tabla de traducción del código genético. [Fuente]().](pics/bacterias-tabla-genetica.jpg ".")
+![Tabla de transcripción del código genético. Cada par de bases se muestra en un círculo concéntrico, de dentro a fuera, y el aminoácido resultante en el exterior. [Fuente](https://commons.wikimedia.org/wiki/File:Codons_aminoacids_table.png).](pics/bacterias-transcription-table.png "Cada par de bases puede ser A, G, U o C. El primero se muestra en el centro, el siguiente círculo tiene el segundo par, y el tercer par se muestra en el exterior. Así, la secuencia GGG corresponde al aminoácido Gly o glicina. De hecho, cualquier secuencia GG* se transcribe a glicina.")
 
 Cada proteína es una secuencia fija de aminoácidos que se pliega consiguiendo estructuras complejísimas,
 que veremos más abajo.
