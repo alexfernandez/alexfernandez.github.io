@@ -77,13 +77,15 @@ Esta introducción es muy somera y no tiene en cuenta factores como
 o
 [material no codificante](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2434389/),
 sobre cuyas funciones todavía no hay consenso;
-ni siquiera sabemos si tienen utilidad o no.
+ni siquiera sabemos si tienen utilidad o no
+(_spoiler alert_: casi seguro que sí).
 Más abajo veremos algunos detalles más.
 
 # Memoria
 
 En los ordenadores modernos distinguimos entre memoria de sólo lectura (ROM)
-y memoria de acceso aleatorio (RAM), que puede también escribirse.
+donde suele venir la información escrita de fábrica;
+y memoria de acceso aleatorio (RAM), que se usa para escribir datos y puede modificarse.
 
 ## Tamaño de ROM
 
@@ -93,7 +95,7 @@ La unidad usada se corresponde con un nucleótido,
 pareado siempre con otro en la doble hélice;
 de ahí que se midan pares de bases.
 
-![Estructura de la doble hélice. [Fuente]().](pics/bacterias-doble-helice.jpg ".")
+![Estructura de la doble hélice. Adaptado del [original en tamil](https://commons.wikimedia.org/wiki/File:Diagram_showing_a_double_helix_of_a_chromosome_CRUK_065-ta.svg).](pics/bacterias-doble-helice.svg "El ADN es una escalera de caracol, con el exterior formado por grupos fosfato y desoxirribosa. Los peldaños están formados por un par de aminoácidos adenina, guanina, timina y citosina; la citosina se aparea siempre con guanina, y la adenina con timina.")
 
 Los virus tienen un genoma que oscila entre
 [1700 y 2.8 millones de pares de bases](http://book.bionumbers.org/how-big-are-genomes/).
