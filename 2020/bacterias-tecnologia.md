@@ -217,7 +217,14 @@ piensa que hay plásmidos en entornos contaminados
 que codifican
 [resistencia a múltiples antibióticos y a metales pesados](https://mbio.asm.org/content/mbio/5/5/e01918-14.full.pdf).
 
-La transferencia no sólo ocurre en procariotas.
+La transferencia de genes no sólo ocurre en procariotas.
+Si le damos de comer al nematodo _C. elegans_
+[un plásmido fluorescente](https://dev.biologists.org/content/develop/124/3/637.full.pdf),
+se lo traga y empieza a expresar la proteína.
+El resultado es muy bonito y útil a la vez para discriminar cuándo expresa ciertos genes.
+
+![Un ejemplar de _C. elegans_ tuneado posa para nosotros, expresando una variante verde de la molécula fluorescente GFP en su intestino. [Fuente](https://dev.biologists.org/content/develop/124/3/637.full.pdf).](pics/bacterias-c-elegans-plasmid.jpg "Los dos nematodos de arriba expresan el gen de la molécula GFP de formas diferentes: el de la izquierda muestra verde en el intestino, el de la derecha en dos leucocitos en forma de rosco.")
+
 Los genetistas están empezando a darse cuenta de la
 [importancia de la transferencia horizontal](https://www.pnas.org/content/96/7/3801https://www.pnas.org/content/96/7/3801)
 en la evolución.
@@ -238,7 +245,7 @@ Puede ser instructivo estudiar
 que es mucho más reducido que el de mamíferos y reptiles.
 Además tiene menos repeticiones y muchas más deleciones
 (pérdidas de secuencias de ADN).
-Cualquier desarrollador que se precie sabe que el código repetido es la pesadilla del buen profesional del software.
+Cualquier desarrollador que se precie sabe que el código repetido es la pesadilla del buen profesional del software,
 y que se elimina con una buena refactorización.
 Así que podemos decir con tranquilidad que el genoma de los pájaros
 [está mejor refactorizado](https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-5-12)
