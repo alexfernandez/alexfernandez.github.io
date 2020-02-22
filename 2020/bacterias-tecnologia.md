@@ -153,7 +153,7 @@ y de [regulador de la generación de proteínas](https://www.ncbi.nlm.nih.gov/pm
 En las bacterias hay
 [unas seis veces más ARN que ADN](http://book.bionumbers.org/what-is-the-macromolecular-composition-of-the-cell/)
 
-Pero la cosa no acaba ahí.
+La cosa no acaba ahí.
 Las bacterias tienen,
 igual que las eucariotas,
 [memoria epigenética](https://mmbr.asm.org/content/70/3/830):
@@ -197,17 +197,17 @@ que permiten compartir estos cambios rápidamente entre una población entera de
 Se trata de unas proteinas que cambian de forma al entrar en contacto con la forma modificada.
 La enfermedad de las vacas locas (encefalopatía espongiforme bovina)
 está causada por un prión.
-Pero se puede transmitir poca información de esta forma:
+Se puede transmitir poca información de esta forma:
 para ser exactos, un bit (prión inactivo -> prión activo).
 
-Pero también hay intercambio directo de genes.
+También hay intercambio directo de genes.
 Algo que se conoce desde hace tiempo es la
 [conjugación bacteriana](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1365-2958.2002.03014.x):
 una bacteria inyecta un trocito de ADN llamado plásmido en otra.
 
 ![Diagrama esquemático de la conjugación bacteriana. _Biiij, qué ascazo_. <a href="pics/bacterias-conjugacion.svg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Conjugation-es.svg).](pics/bacterias-conjugacion.svg "Conjugación en cuatro fases. 1: la célula donante produce un pilus. 2: el pilus alcanza otra célula, uniéndolas. 3: el plásmido se duplica, y una hebra de ADN se transfiere a la célula receptora. 4: ambas células vuelven a circularizar sus plásmidos, sintetizan una segunda hebra, y reproducen los pelos; ambas células son ahora donantes viables.")
 
-Pero la cosa no queda ahí.
+La cosa no queda ahí.
 Las bacterias pueden de hecho tomar plásmidos que están sueltos por ahí en el medio,
 e integrarlos en su ADN:
 es lo que se llama
@@ -360,7 +360,7 @@ sólo genera tres moléculas de ATP por molécula de glucosa.
 
 La mayoría de bacterias son
 [o bien aeróbicas o bien anaeróbicas](https://www.ncbi.nlm.nih.gov/books/NBK7638/).
-Pero en las bacterias llamadas facultativas conviven ambos caminos de generación.
+En las bacterias llamadas facultativas conviven ambos caminos de generación.
 Por ejemplo _E. coli_ puede llegar a un máximo de
 [unas 18 moléculas de ATP](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/30386/0000004.pdf?sequence=1).
 Al igual que en los mamíferos tiene también modos de generación anaeróbicos (sin oxígeno),
