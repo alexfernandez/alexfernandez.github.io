@@ -283,23 +283,39 @@ Es un sueño para cualquier investigador,
 y por supuesto podría resultar en terapias novedosas para enfermedades genéticas.
 Así que, ¿cómo podríamos hacer cambios  en el genoma de seres vivos?
 
-![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con proteínas. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Fotograma de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
+![Editar el genoma sería parecido a la edición de una película: se corta una escena y se pega otra en su lugar. Pues lo mismo, pero con genes. [Fuente](https://it.wikipedia.org/wiki/File:Nuovo_Cinema_Paradiso_(film).jpg).](pics/bacterias-pelicula-cinema-paradiso.jpg "Fotograma de la película Cinema Paradiso: un niño mira con ilusión una escena cortada de una película, mientras el proyector en el fondo trabaja con el rollo.")
 
-Resulta que estas "tijeras genéticas" se encontraron ya listas para usar.
-¿Dónde? Pues, como ya te puedes imaginar,
-[en bacterias y arqueas](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
-Lo que se conoce como
-técnica CRISPR (_clustered regularly interspaced short palindromic repeats_)
-es un robo directo de una
-[parte de su sistema inmune](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1022.4030&rep=rep1&type=pdf),
-que usan para defenderse de bacteriófagos:
+Resulta que estas "tijeras genéticas" se encontraron ya listas para usar,
+cómo no, en bacterias y arqueas.
+Vamos a irnos esta vez a España en 1993,
+para ser exactos a
+[las salinas de Santa Pola en Alicante](https://www.elconfidencial.com/tecnologia/2016-01-16/crispr-francis-mojica-charpentier-doudna-edicion-genomica_1136337/).
+Un investigador español estudiaba la arquea halofílica
+_Haloferax mediterranei_,
+un extremófilo que sobrevive a salinidades extremas.
+Encontró unas secuencias repetidas y empezó a investigar su función.
+En 2000 localizó secuencias similares en muchas bacterias y arqueas,
+y las llamó CRISPR (_clustered regularly interspaced short palindromic repeats_).
+Y en 2003 descubrió que muchas secuencias misteriosas contenían
+[segmentos de genes de virus](https://www.cell.com/cell/fulltext/S0092-8674%2815%2901705-5),
+lo que le llevó a postular que se trataba de un sistema inmune adaptativo.
+No consiguió publicar su descubrimiento
+[hasta dos años después](https://www.researchgate.net/profile/Cesar_Diez-Villasenor/publication/7943649_Intervening_Sequences_of_Regularly_Spaced_Prokaryotic_Repeats_Derive_from_Foreign_Genetic_Elements/links/00b49518274308b40a000000.pdf).
+
+Su teoría se confirmó en 2010.
+CRISPR forma
+[parte del sistema inmune procariota](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1022.4030&rep=rep1&type=pdf),
+y sirve para defenderse de bacteriófagos y otros virus:
 toman trocitos de ADN invasor y lo colocan en sitios especiales que son
 [dianas para la degradación selectiva](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12355).
-Ante posteriores invasiones la bacteria o arquea detectará y eliminará los genes localizados.
+Ante posteriores invasiones la procariota detectará y eliminará los genes localizados.
 
-Actualmente CRISPR/Cas9
-(su nombre completo, por si el acrónimo no fuera ya lo bastante raro)
-se usa para editar genes de organismos _in situ_
+Muchos otros investigadores dieron con piezas del puzzle.
+Seguramente las más importantes sean Charpentier (francesa) y Doudna (estadounidense):
+mostraron cómo la proteína Cas9
+[se puede usar como tijeras genéticas](https://www.cell.com/cell/fulltext/S0092-8674%2815%2901705-5).
+De ahí que el nombre completo de la técnica sea CRISPR/Cas9.
+Hoy día se usa para editar genes de organismos _in situ_
 y añadir proteínas que falten o no sean funcionales.
 Esta técnica puede usarse por ejemplo para
 [tratar diversos tipos de cáncer](https://www.sciencedirect.com/science/article/pii/S1044579X17302742),
@@ -312,7 +328,12 @@ El siguiente vídeo muestra cómo funciona.
 Esta técnica es muy prometedora también en
 [la lucha contra las infecciones](https://jcm.asm.org/content/57/4/e01307-18#sec-12),
 y puede servir por ejemplo para reforzar las defensas de pacientes contra bacterias resistentes a los antibióticos.
+Incluso se ha usado para
+[almacenar datos en el genoma bacteriano](https://www.nature.com/news/lights-camera-crispr-biologists-use-gene-editing-to-store-movies-in-dna-1.22288).
 Pero es pronto todavía para ver sus efectos.
+Mientras tanto,
+[Mojica no tiene prisa por ganar un premio Nobel](https://www.labiotech.eu/interviews/francis-mojica-crispr-interview/),
+y es muy posible que quede fuera si alguna vez se concede uno por estos descubrimientos.
 
 # Matar al anfitrión
 
