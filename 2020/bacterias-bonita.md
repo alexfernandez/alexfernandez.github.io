@@ -25,9 +25,9 @@ Fue el primero en ver lo que ahora llamamos "bacterias".
 
 ![Bacterias dibujadas por Leeuwenhoek en un experimento bastante guarro. "No me limpié los dientes durante tres días y después tomé una muestra del material que se había alojado en pequeñas cantidades en las encías sobre mis incisivos… Encontré algunos animálculos vivos." [Fuente](https://europepmc.org/article/PMC/2168648).](pics/bacterias-leeuwenhoek-oral-bacteria.jpg "Dibujo original de Leeuwenhoek, y sus equivalentes modernos: _Campylobacter rectus_, _Selenomonas sputigena_, _Treponema denticola_, _Leptotrichia buccalis_.")
 
-El periodo entre 1850 y 1915 se conoce como
-["la edad de oro de la microbiología"](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/).
-En esta época Pasteur y Koch sentaron las bases de la nueva ciencia.
+Pasemos ahora a
+["la edad de oro de la microbiología"](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/):
+entre 1850 y 1915 Pasteur y Koch sentaron las bases de la nueva ciencia.
 Louis Pasteur hizo su famoso experimento para demostrar que
 [las bacterias no se generaban espontáneamente](https://medicalmuseum.org.uk/pasteurs-swan-neck-flask).
 

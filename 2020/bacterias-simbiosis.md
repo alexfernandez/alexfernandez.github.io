@@ -137,7 +137,7 @@ Ya hemos visto cómo las células B reconocen antígenos.
 Las células T son otro tipo de linfocitos que tienen una vida incluso más apasionante,
 que funcionan gracias a un sistema de pruebas muy exhaustivo.
 
-Se generan en la médula espinal.
+Se generan en la médula ósea.
 Al igual que las células B,
 su fenotipo se elige al azar siguiendo un proceso estocástico;
 pero cada célula T es capaz de reconocer múltiples antígenos al mismo tiempo.
