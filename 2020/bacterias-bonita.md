@@ -109,14 +109,14 @@ aunque probablemente el número real
 El total de bacterias se calcula en 4×10<sup>13</sup>,
 similar al número de células.
 
-![Las partes privadas de una señora. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
+![Las partes privadas de una señora. [Captura de Monty Python's Flying Circus s02e09](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
 
 Es sabido que hay flora bacteriana en la vagina,
 que [protege de infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC120688/).
 La existencia de bacterias en el aparato reproductor femenino superior
 [es posible aunque controvertida](https://www.the-scientist.com/daily-news/bacteria-found-in-womens-upper-reproductive-tracts-30736).
 
-![Las partes privadas de un señor. [Captura propia](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-man.jpg "Un hombre en ropa interior, con una flecha apuntando a su mitad inferior.")
+![Las partes privadas de un señor. [Captura de Monty Python's Flying Circus s02e09](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-man.jpg "Un hombre en ropa interior, con una flecha apuntando a su mitad inferior.")
 
 Los genitales masculinos también tienen una flora bacteriana,
 aunque [mucho menos estudiada](https://www.the-scientist.com/news-opinion/parsing-the-penis-microbiome-37436).
