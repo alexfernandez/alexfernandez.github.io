@@ -163,7 +163,7 @@ Esto se consigue marcando químicamente partes del genoma (con grupos metilo).
 
 ## Memorias externas
 
-Otra forma interesante de recibir genes externos es a través de virus:
+Las bacterias pueden también recibir genes externos a través de virus:
 los bacteriófagos pueden funcionar
 [como reserva de genes](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040234)
 para sus anfitriones bacterianos.
