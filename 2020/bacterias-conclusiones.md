@@ -9,7 +9,9 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 Este viaje nos ha llevado desde el telar de Leeuwenhoek
 a un clúster estelar a miles de años luz de distancia.
-Por el camino hemos recorrido las profundidades abisales,
+Por el camino hemos recorrido
+las salinas de Santa Pola,
+las profundidades abisales,
 las nubes y el espacio cercano,
 para pasar por los planetas del sistema solar.
 Hemos visto evolucionar seres vivos en directo,
