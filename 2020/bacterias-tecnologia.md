@@ -298,15 +298,18 @@ mientras que su antecesor _M. tuberculosis_ tiene 4.4 Mbp.
 Por el camino _M. leprae_ ha perdido unos 2000 genes;
 ahora depende de las células del anfitrión para multitud de funciones vitales.
 
-# Herramientas
+# Máquinas
 
-Las bacterias usan herramientas muy pequeñitas para conseguir sus fines.
+Pero las bacterias no son sólo código;
+los genes codifican unas proteínas que las convierten de forma efectiva en máquinas.
+Cada proteína es una macromolécula que actúa como una herramienta muy pequeñita,
+con un papel determinado para conseguir sus fines.
 Este vídeo muestra cómo funciona un pelo de bacteria:
 extensión y retractación rápidas que le permiten moverse.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/HGvnrWrudpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-La generación de energía se realiza en la ATP sintasa,
+La generación de energía se realiza en la proteína ATP sintasa,
 una especie de motor que funciona con una eficiencia
 [cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf),
 impensable para
@@ -330,11 +333,13 @@ por ejemplo con
 Los virus son mucho más sencillos que las bacterias:
 como hemos visto, por el tamaño de ROM son equivalentes a un ordenador de 8 bits.
 Para empezar no se pueden reproducir por sí solos.
+Pero siguen siendo máquinas muy efectivas.
 
-También son más fáciles de modelar, claro.
+Al ser más sencillos también son más fáciles de modelar.
 Janet Iwasa ha realizado una
 [animación bastante completa](http://scienceofhiv.org/wp/?page_id=20)
-de cómo funciona el virus del SIDA:
+de cómo funciona el virus del SIDA.
+Aquí podemos apreciar cómo toda la maquinaria molecular funciona junta:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
