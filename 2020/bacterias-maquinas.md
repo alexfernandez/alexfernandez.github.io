@@ -46,7 +46,7 @@ y porque cualquiera puede encontrarla.
 # Serie completa
 
 Empieza por la [parte 1: Y las bacterias, bonita](/2020/bacterias-bonita),
-donde recorreremos una visión general del panorama bacteriano.
+donde daremos un repaso general al panorama bacteriano.
 
 * → Parte 1: [Y las bacterias, bonita](/2020/bacterias-bonita).
 * → Parte 2: [Tecnología bacteriana](/2020/bacterias-tecnologia).
