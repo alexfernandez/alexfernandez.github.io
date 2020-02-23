@@ -120,6 +120,10 @@ La existencia de bacterias en el aparato reproductor femenino superior
 
 Los genitales masculinos también tienen una flora bacteriana,
 aunque [mucho menos estudiada](https://www.the-scientist.com/news-opinion/parsing-the-penis-microbiome-37436).
+Se sabe que el tracto urinario (tanto femenino como masculino)
+puede albergar
+[infecciones asintomáticas](https://www.aafp.org/afp/2006/0915/p985.html),
+que a menudo no conviene tratar.
 
 ![Si tanto Koch como Pasteur llevaban barba, por algo sería. [Fuente](https://www.uni-wuerzburg.de/aktuelles/pressemitteilungen/single/news/deutsch-franzoesische-projekte-der-wissenschaft-1/).](pics/bacterias-koch-pasteur.jpg "Koch y Pasteur luciendo hermosas barbas.")
 

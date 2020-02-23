@@ -182,7 +182,8 @@ Varios equipos de todo el mundo están trabajando en
 [múltiples formas de identificar la MAP](),
 basadas en tests genéticos.
 
-¿Qué ocurre con la medicación inmunomoduladora?
+¿Qué ocurre con la medicación inmunosupresora,
+o inmunomoduladora como se llama ahora?
 ¿Por qué funciona?
 En tests _in vitro_ se ha mostrado que tanto
 [el Metotrexate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1779805/)
