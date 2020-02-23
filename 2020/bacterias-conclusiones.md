@@ -48,7 +48,7 @@ Al sacarlas de ese medio es probable que haya otras que compitan mejor por el al
 En ["Qué te importa a ti lo que piensen los demás"](https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F),
 el famoso físico Richard Feynman cuenta cómo los médicos tardaron muchos meses en diagnosticar
 la tuberculosis de su mujer, Arlene,
-pese a que era la primera opción de manual para el ganglio hinchado que presentaba.
+pese a que era la primera opción de manual para el ganglio inflamado que presentaba.
 
 Hoy día tenemos a nuestra disposición muchísima más información que nunca,
 y a veces los médicos nos piden que no busquemos lo que nos pasa.
