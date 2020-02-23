@@ -43,13 +43,24 @@ no las convierte en súper-bacterias resistentes a todo;
 sólo significa que se van a adaptar a ese medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
 
-# Aprendizaje propio
+# Para aprender más
 
+En ["Qué te importa a ti lo que piensen los demás"](https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F),
+el famoso físico Richard Feynman cuenta cómo los médicos tardaron muchos meses en diagnosticar
+la tuberculosis de su mujer, Arlene,
+pese a que era la primera opción de manual para el ganglio hinchado que presentaba.
+
+Hoy día tenemos a nuestra disposición muchísima más información que nunca,
+y a veces los médicos nos piden que no busquemos lo que nos pasa.
+No puedo estar más en desacuerdo.
 Gracias a mi avanzada edad me permito darte un consejo:
 aprende tanto como puedas sobre las enfermedades que te afecten a ti o a tu familia.
 Estarás al tanto de los últimos tratamientos,
 podrás entender por qué se aplican,
-y es posible que consigas nuevas perspectivas sobre por qué funcionan.
+y es posible que consigas nuevas perspectivas sobre por qué funcionan o no.
+Esto no quiere decir que te automediques o que te autotrates;
+siempre debes buscar buena atención médica.
+Pero entender lo que están haciendo te servirá para distinguir a los buenos médicos de los malos.
 
 # Reconclusión
 
