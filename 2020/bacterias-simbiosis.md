@@ -131,9 +131,50 @@ Al parecer la reciente infección de coronavirus
 Es interesante señalar que a menudo las enfermedades zoonóticas
 [no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
+## Jugando a los dados
+
+¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
+Nuestra mejor opción parece ser jugar a los dados.
+
+La generación de números aleatorios
+[juega un papel muy importante en criptografía](https://hal.inria.fr/hal-00738638/PDF/rr8060.pdf)
+y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-generators-and-their-limitations-linux).
+Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
+basados en la predictabilidad de los números generados.
+
+Pues bien: nuestro sistema inmune también depende de la generación de números aleatorios.
+Las células B son
+[un tipo de linfocitos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html)
+esenciales para el sistema inmune.
+Cada célula B se genera aleatoriamente de un
+[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
+presente en nuestro genoma.
+
+Cuando la célula B se encuentra con un antígeno,
+su configuración única de inmunoglobulina
+le da una cierta probabilidad de que lo reconozca como patógeno.
+Si es así los antígenos llegan a un ganglio linfático,
+donde empieza un proceso conocido como
+[hipermutación somática](https://pdfs.semanticscholar.org/3299/80555aec1d180c523c5fecd6be92376d42dd.pdf):
+las células B se reproducen a toda pastilla,
+los genes que generan la inmunoglobulina mutan rápidamente,
+y sólo aquellas células que mejor reconozcan el antígeno sobreviven.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/qGsyBwDVnTU?start=90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Las células B más aptas empiezan a
+[generar anticuerpos en el ganglio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692737/pdf/10794054.pdf)
+como si no hubiera un mañana,
+y si el proceso funciona actúan frenando la invasión.
+Es un proceso con varias componentes aleatorias que lo hace difícil de predecir,
+pero a la vez altamente efectivo.
+
+Lo mejor de todo es que algunas células B ya afinadas quedarán rondando en los ganglios;
+ante una nueva invasión del mismo antígeno la respuesta inmune será mucho más rápida,
+ya que estas células estarán listas para producir antígenos enseguida.
+
 ## La vida de una célula T
 
-Ya hemos visto cómo las células B reconocen antígenos.
 Las células T son otro tipo de linfocitos que tienen una vida incluso más apasionante,
 que funcionan gracias a un sistema de pruebas muy exhaustivo.
 
@@ -196,6 +237,8 @@ dependemos de las bacterias incluso para aparearnos.
 
 # La ciencia al rescate
 
+Pese a la maravillosa efectividad del sistema inmune,
+muchas infecciones consiguen burlarlo.
 ¿Qué aporta la ciencia a nuestras defensas?
 
 ## Antibióticos
@@ -363,8 +406,6 @@ Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
 Tampoco les interesa realmente dañar los tejidos en los que se alojan.
 
-# Llegando a la simbiosis
-
 La mejor estrategia a largo plazo es siempre
 [la simbiosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317043/):
 huésped y anfitrión crecen y se apoyan mutuamente.
@@ -372,56 +413,6 @@ La lógica es sencilla:
 supongamos una bacteria que infecta a un humano y le confiere una ventaja evolutiva.
 Si humano + bacteria es mejor que humano solo,
 entonces la bacteria medrará a lomos de su anfitrión humano.
-
-Por tanto, bacterias y arqueas sobrevivirán con más probabilidad si ayudan al anfitrión.
-Hay diferentes formas de hacerlo:
-ayudar a digerir la comida,
-eliminar toxinas del medio,
-o proporcionando otras funciones de las que carezca.
-
-Un ejemplo que ya hemos visto de pasada es el de
-[las bacterias en el intestino de los mamíferos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152488/).
-Se sabe desde hace tiempo
-la influencia beneficiosa del microbioma intestinal
-(como se conoce al conjunto de microorganismos del intestino)
-en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
-Pero a veces estas bacterias
-[se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
-sin que sepamos muy bien por qué.
-Tampoco sabemos por qué funciona el
-[trasplante de heces]()
-en el tratamiento de múltiples patologías;
-incluso parece que ayuda al
-[rendimiento deportivo]().
-
-El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
-hay miles de millones de combinaciones posibles en cada glóbulo blanco.
-Y los desarrolladores sabemos bien que los sistemas complejos
-tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
-
-Mi impresión es que estas infecciones de bacterias normalmente beneficiosas
-se deben a una combinación de fallos:
-errores de replicación en el ADN bacteriano
-y errores en el sistema inmune del anfitrión,
-que permiten que las huéspedes crezcan sin control.
-Desde este punto de vista,
-creo también que el campo de la
-[ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
-podría ser muy útil para estudiar las infecciones.
-
-La clave, creo yo,
-está en entender correctamente la idea de "evolución rápida".
-No se trata de un avance imparable hacia un estado ideal,
-o una mejora constante en una carrera de armas muy desigual.
-"Evolución rápida" significa "adaptación rápida al medio".
-¡Ni más ni menos!
-Las bacterias se adaptan a lo que se encuentran a gran velocidad.
-Su finalidad no es realmente acabar con nosotros,
-sino medrar en el medio donde se encuentren.
-Si usamos antibióticos se adaptarán a ellos,
-y entonces puede que tengamos un problema.
-Pero ellas sólo hacen lo único que saben hacer:
-intentar sobrevivir.
 
 # Continuará…
 

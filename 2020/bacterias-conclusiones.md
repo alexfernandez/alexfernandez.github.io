@@ -32,6 +32,56 @@ Eso sí, son expertas en sobrevivir en cualquier medio.
 Si las atiborramos a antibióticos es probable que se adapten,
 como de hecho está pasando.
 
+Bacterias y arqueas sobrevivirán con más probabilidad si ayudan al anfitrión.
+Hay diferentes formas de hacerlo:
+ayudar a digerir la comida,
+eliminar toxinas del medio,
+o proporcionando otras funciones de las que carezca.
+
+Un ejemplo que ya hemos visto de pasada es el de
+[las bacterias en el intestino de los mamíferos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152488/).
+Se sabe desde hace tiempo
+la influencia beneficiosa del microbioma intestinal
+(como se conoce al conjunto de microorganismos del intestino)
+en [la salud humana](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02667/full).
+Pero a veces estas bacterias
+[se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
+sin que sepamos muy bien por qué.
+Tampoco sabemos por qué funciona el
+[trasplante de heces]()
+en el tratamiento de múltiples patologías;
+incluso parece que ayuda al
+[rendimiento deportivo]().
+
+El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
+hay miles de millones de combinaciones posibles en cada glóbulo blanco.
+Y los desarrolladores sabemos bien que los sistemas complejos
+tienden a [fallar de formas misteriosas](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf).
+
+Mi impresión es que estas infecciones de bacterias normalmente beneficiosas
+se deben a una combinación de fallos:
+errores de replicación en el ADN bacteriano
+y errores en el sistema inmune del anfitrión,
+que permiten que las huéspedes crezcan sin control.
+Desde este punto de vista,
+creo también que el campo de la
+[ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
+podría ser muy útil para estudiar las infecciones.
+
+La clave, creo yo,
+está en entender correctamente la idea de "evolución rápida".
+No se trata de un avance imparable hacia un estado ideal,
+o una mejora constante en una carrera de armas muy desigual.
+"Evolución rápida" significa "adaptación rápida al medio".
+¡Ni más ni menos!
+Las bacterias se adaptan a lo que se encuentran a gran velocidad.
+Su finalidad no es realmente acabar con nosotros,
+sino medrar en el medio donde se encuentren.
+Si usamos antibióticos se adaptarán a ellos,
+y entonces puede que tengamos un problema.
+Pero ellas sólo hacen lo único que saben hacer:
+intentar sobrevivir.
+
 # Evolución
 
 Otra idea clave es que la evolución no ocurre como pensamos muchas veces:

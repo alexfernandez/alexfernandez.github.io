@@ -343,55 +343,13 @@ Aquí podemos apreciar cómo toda la maquinaria molecular funciona junta:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-# Jugando a los dados
-
-¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
-Nuestra mejor opción parece ser jugar a los dados.
-
-La generación de números aleatorios
-[juega un papel muy importante en criptografía](https://hal.inria.fr/hal-00738638/PDF/rr8060.pdf)
-y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-generators-and-their-limitations-linux).
-Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
-basados en la predictabilidad de los números generados.
-
-Pues bien: nuestro sistema inmune también depende de la generación de números aleatorios.
-Las células B son
-[un tipo de linfocitos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html)
-esenciales para el sistema inmune.
-Cada célula B se genera aleatoriamente de un
-[repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
-presente en nuestro genoma.
-
-Cuando la célula B se encuentra con un antígeno,
-su configuración única de inmunoglobulina
-le da una cierta probabilidad de que lo reconozca como patógeno.
-Si es así los antígenos llegan a un ganglio linfático,
-donde empieza un proceso conocido como
-[hipermutación somática](https://pdfs.semanticscholar.org/3299/80555aec1d180c523c5fecd6be92376d42dd.pdf):
-las células B se reproducen a toda pastilla,
-los genes que generan la inmunoglobulina mutan rápidamente,
-y sólo aquellas células que mejor reconozcan el antígeno sobreviven.
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/qGsyBwDVnTU?start=90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Las células B más aptas empiezan a
-[generar anticuerpos en el ganglio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692737/pdf/10794054.pdf)
-como si no hubiera un mañana,
-y si el proceso funciona actúan frenando la invasión.
-Es un proceso con varias componentes aleatorias que lo hace difícil de predecir,
-pero a la vez altamente efectivo.
-
-Lo mejor de todo es que algunas células B ya afinadas quedarán rondando en los ganglios;
-ante una nueva invasión del mismo antígeno la respuesta inmune será mucho más rápida,
-ya que estas células estarán listas para producir antígenos enseguida.
-
 # Continuará…
 
 Este artículo es la segunda parte de la
 [serie sobre bacterias](bacterias-maquinas).
 Sigue a la
 [parte 3: El largo camino a la simbiosis](bacterias-simbiosis),
-donde investigaremos más a fondo sobre el sistema inmune y sus modos de fallo.
+donde estudiaremos el sistema inmune y sus modos de fallo.
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
 * ↑ Parte 2: Tecnología bacteriana.
