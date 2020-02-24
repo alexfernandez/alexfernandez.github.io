@@ -180,7 +180,7 @@ El profesor ? [lo expresa magníficamente]():
 Hay que decir que estos cultivos tardaron 18 meses en dar resultados.
 Es una técnica demasiado lenta.
 Varios equipos de todo el mundo están trabajando en
-[múltiples formas de identificar la MAP](),
+[múltiples formas de identificar la MAP](https://humanpara.org/map-testing/)
 basadas en tests genéticos.
 
 ¿Qué ocurre con la medicación inmunosupresora,
