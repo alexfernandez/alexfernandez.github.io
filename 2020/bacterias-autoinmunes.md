@@ -25,8 +25,7 @@ o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/artic
 
 Esta enfermedad me toca muy de cerca por tener a alguien en mi familia que la sufre.
 
-Se sabe que hay
-[factores genéticos relevantes](https://www.genome.gov/Genetic-Disorders/Crohns-Disease).
+Se sabe que hay factores genéticos implicados,
 
 El número de casos crece de forma alarmante en todo el mundo.
 Algunos ejemplos:
@@ -46,12 +45,14 @@ Parece que el aumento de casos está asociado a la
 [industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
 de las sociedades.
 También se han identificado
-[factores genéticos](),
-relacionados con los macrófagos:
+[factores genéticos](https://www.genome.gov/Genetic-Disorders/Crohns-Disease),
+casi todos
+[relacionados con el sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3204665/)
+y [más en concreto con los macrófagos](https://rupress.org/jem/article/206/9/1883/40446):
 células blancas responsables de aislar y comerse a las bacterias que están donde no debían.
 Pero falta identificar el disparador:
-¿por qué un individuo con estos factores genéticos
-pero aparentemente sano de repente desarrolla la enfermedad?
+¿por qué un individuo con estos factores genéticos pero aparentemente sano
+de repente desarrolla la enfermedad?
 ¿Qué mecanismo lleva a la inflamación?
 
 Los únicos tratamientos efectivos ahora mismo son
@@ -88,10 +89,10 @@ La incidencia de esta enfermedad
 Además, se ha identificado la bacteria MAP en [leche de vacas lecheras infectadas]().
 
 ¿Es posible que la bacteria pase del ganado a humanos,
-en lo que se conoce como
-[transmisión zoonótica]()?
+en un ejemplo más de transmisión zoonótica?
 Lo cierto es que [múltiples intentos de identificarla en enfermos de Crohn han fracasado]().
-Antes de seguir con esta cuestión vamos a ver otra historia.
+Antes de seguir con esta cuestión vamos a ver otro caso,
+en principio no relacionado.
 
 # Úlceras y bacterias
 
@@ -204,6 +205,8 @@ En realidad la gran mayoría del _establishment_ médico está en contra.
 Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
+Esas pruebas
+[existen hoy día](http://centaur.vri.cz/docs/2018/HRUSKA_CEPICA.pdf).
 
 # Terapia antibiótica anti-MAP
 
