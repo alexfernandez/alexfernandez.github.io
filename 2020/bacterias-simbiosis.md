@@ -35,6 +35,14 @@ las bacterias se habrán duplicado unas 2000 veces.
 
 Esta velocidad de replicación implica que las bacterias pueden evolucionar muy rápido.
 
+## Evolución rápida
+
+¿Cómo de rápida puede ser realmente la evolución bacteriana?
+Este vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
+para conseguir inmunidad ante un antibiótico.
+
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Evolución a largo plazo
 
 En 1988 un joven Richard Lenski empezó un
@@ -55,25 +63,12 @@ y el propio científico nos cuenta que ha habido
 [múltiples errores experimentales](https://telliamedrevisited.wordpress.com/2017/03/13/some-wrinkles-in-time/)
 que por fortuna se han podido resolver.
 
-Entre los resultados del experimento destaca la constatación de que la adaptación al medio
-[sigue una ley de potencia](https://telliamedrevisited.wordpress.com/2013/11/14/fifty-thousand-squared/),
-en lugar de la curva hiperbólica que se solía manejar.
-
-Pero el resultado más espectacular no es un cambio gradual,
-sino una mutación concreta que le permitió a una población de _E. coli_
+El resultado más espectacular es una mutación concreta que le permitió a una población de _E. coli_
 [alimentarse del citrato presente en el sustrato](https://www.pnas.org/content/105/23/7899.full).
 Normalmente estas bacterias aprovechan sólo la glucosa,
-pero en la situación experimental resulta muy ventajoso alimentarse también del citrato.
+pero cuando están metidas en frascos resulta muy ventajoso aprovechar el medio al máximo.
 
 ![Experimento de evolución a largo plazo. Nótese cómo la población "A-3" está más turbia, ya que es la única capaz de alimentarse de citrato. Eso hace que la cantidad de bacterias capaces de vivir en el medio aumente espectacularmente. [Fuente](https://en.wikipedia.org/wiki/File:Lenski%27s_long-term_lines_of_E._coli_on_25_June_2008,_close-up_of_citrate_mutant.jpg).](pics/bacterias-ltee-citrato.jpg "Varios frascos con poblaciones de _E. coli., el marcado como A-3 aparece con un fondo turbio.")
-
-## Evolución rápida
-
-¿Cómo de rápida puede ser realmente la evolución bacteriana?
-Este vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
-para conseguir inmunidad ante un antibiótico.
-
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Control bacteriano
 
