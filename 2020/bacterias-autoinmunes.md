@@ -186,12 +186,13 @@ basadas en tests genéticos.
 ¿Qué ocurre con la medicación inmunosupresora,
 o inmunomoduladora como se llama ahora?
 ¿Por qué funciona?
-En tests _in vitro_ se ha mostrado que tanto
+Se ha mostrado que
 [el Metotrexate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1779805/)
-como
-[el Humira]()
-y otros tratamientos usados en pacientes de Crohn
-funcionan contra la bacteria MAP.
+es efectivo _in vitro_ contra la bacteria MAP.
+Por otra parte
+[el Infliximab](https://academic.oup.com/ecco-jcc/article/6/5/628/2392344)
+ataca a los macrófagos que albergan esta bacteria.
+Es de esperar que otros medicamentos tengan un efecto similar.
 
 El profesor Hermon-Taylor está trabajando en
 [una vacuna contra la MAP](),
@@ -207,6 +208,8 @@ pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
 Esas pruebas
 [existen hoy día](http://centaur.vri.cz/docs/2018/HRUSKA_CEPICA.pdf).
+La opinión de consenso es que al menos
+[merece la pena investigarlo](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
 
 # Terapia antibiótica anti-MAP
 
