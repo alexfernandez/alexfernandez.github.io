@@ -13,6 +13,7 @@ Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sano
 Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
 incluye dolencias tan dispares
 como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
+Muchas de ellas son crónicas, y casi todas incurables.
 
 No se conoce la causa exacta de estas enfermedades;
 probablemente influyan factores ambientales, 
@@ -24,8 +25,10 @@ o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/artic
 # Enfermedad de Crohn
 
 Esta enfermedad me toca muy de cerca por tener a alguien en mi familia que la sufre.
-
-Se sabe que hay factores genéticos implicados,
+La enfermedad de Crohn es una enfermedad inflamatoria intestinal crónica.
+Causa problemas digestivos severos,
+diarreas y pérdida de peso,
+y puede ser muy grave si no se trata.
 
 El número de casos crece de forma alarmante en todo el mundo.
 Algunos ejemplos:
@@ -41,7 +44,7 @@ La incidencia se acerca peligrosamente al 1% de la población en ciertas regione
 ![Casos en España, 1976 a 2010. Siguendo la tendencia global, se duplican cada década. [Fuente](https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679).](pics/bacterias-crohns-incidence-spain.jpg "La incidencia crece de un caso de Crohn por cada cien mil habitantes en los 1980 a 10 en 2010. La colitis ulcerosa crece de forma  similar aunque más despacio.")
 
 ¿Cuál es la causa de esta plaga moderna?
-Parece que el aumento de casos está asociado a la
+Parece que el aumento de incidencia está asociado a la
 [industrialización y urbanización](https://www.gastrojournal.org/article/S0016-5085(11)01378-3/pdf)
 de las sociedades.
 También se han identificado
@@ -49,15 +52,15 @@ También se han identificado
 casi todos
 [relacionados con el sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3204665/)
 y [más en concreto con los macrófagos](https://rupress.org/jem/article/206/9/1883/40446):
-células blancas responsables de aislar y comerse a las bacterias que están donde no debían.
+esas células blancas responsables de aislar y comerse a las bacterias que están donde no debían.
 Pero falta identificar el disparador:
 ¿por qué un individuo con estos factores genéticos pero aparentemente sano
 de repente desarrolla la enfermedad?
-¿Qué mecanismo lleva a la inflamación?
+¿Qué mecanismo lleva a la inflamación intestinal?
 
 Los únicos tratamientos efectivos ahora mismo son
 [medicamentos inmunomoduladores](),
-que deprimen el sistema inmune para minimizar los síntomas.
+que deprimen el sistema inmune y a veces (no siempre) minimizan los síntomas.
 Los pacientes siguen siendo crónicos,
 pero al menos se pueden mantener sin brotes.
 
