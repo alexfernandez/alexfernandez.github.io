@@ -59,7 +59,7 @@ de repente desarrolla la enfermedad?
 ¿Qué mecanismo lleva a la inflamación intestinal?
 
 Los únicos tratamientos efectivos ahora mismo son
-[medicamentos inmunomoduladores](),
+[medicamentos inmunomoduladores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3002564/),
 que deprimen el sistema inmune y a veces (no siempre) minimizan los síntomas.
 Los pacientes siguen siendo crónicos,
 pero al menos se pueden mantener sin brotes.
@@ -69,20 +69,24 @@ pero al menos se pueden mantener sin brotes.
 Puede ser interesante ver esta cita del
 [libro del propio doctor Burrill Crohn en 1949](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
 quien por cierto se negaba a
-[usar su nombre para la enfermedad]()
+[usar su nombre para la enfermedad](https://www.researchgate.net/profile/Paulo_Kotze/publication/307675955_Burrill_Bernard_Crohn_1884-1983_o_homem_por_tras_da_doenca/links/582397b308ae61258e3cb949/Burrill-Bernard-Crohn-1884-1983-o-homem-por-tras-da-doenca.pdf)
 y prefería el término "ileitis":
 
 > La enfermedad de Johne en el ganado tiene muchos parecidos
 > con la ileitis humana en su configuración anatómica.
 
-Esta enfermedad de Johne, o "paratuberculosis" como se la conoce también,
-[está causada por la bacteria _Micobacterium avium subspecies paratuberculosis_](),
+Se sabe desde 1912 que la enfermedad de Johne,
+ o "paratuberculosis" como se la conoce también,
+[está causada por una bacteria](https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.1912.0011),
+modernamente conocida como
+[_Micobacterium avium subspecies paratuberculosis_](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1112&context=vetscipapers),
 o MAP para abreviar.
 Se trata de una micobacteria de crecimiento extremadamente lento,
-por lo que se necesita hacer [cultivos de varias semanas para identificarla]().
+por lo que se necesitan
+[cultivos de 16 semanas para detectarla](https://sfamjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2672.2005.02645.x).
 Produce unas lesiones en el intestino de los rumiantes conocidas como "granulomas",
 muy similares a las lesiones pulmonares en la tuberculosis;
-de ahí el nombre de [paratuberculosis]().
+de ahí el nombre de paratuberculosis.
 
 Se ha identificado la paratuberculosis en ganado doméstico:
 [vacas, cabras, ovejas y conejos]().
@@ -204,8 +208,9 @@ que está ahora en ensayos clínicos de fase II.
 Llegados a este punto,
 y si fuéramos médicos o científicos de algún rigor,
 se haría necesario que decir que no todo el mundo está de acuerdo con esta teoría.
-En realidad la gran mayoría del _establishment_ médico está en contra.
-[Ejemplo](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf).
+En realidad la gran mayoría del _establishment_ médico
+[no lo tiene claro](https://johnes.org/wp-content/uploads/2019/01/Feller_IBD-Mptb_Meta-analysis_Lancet-ID.pdf).
+o [está directamente en contra](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
 Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
