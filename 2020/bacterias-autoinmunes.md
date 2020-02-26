@@ -272,6 +272,11 @@ Esto podría explicar la enfermedad.
 <figcaption>La enfermedad favorita del doctor House. <a href="https://tenor.com/view/its-never-lupus-lupus-house-house-md-hugh-laurie-gif-11021011">Fuente</a>.</figcaption>
 </figure>
 
+Incluso la esclerosis lateral amiotrófica (ELA),
+la enfermedad de Stephen Hawking,
+tiene un sospechoso infeccioso:
+[un enterovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857577/).
+
 Por ultimo,
 hace unos dias se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
