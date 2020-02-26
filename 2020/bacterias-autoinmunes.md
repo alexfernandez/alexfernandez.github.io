@@ -89,8 +89,8 @@ muy similares a las lesiones pulmonares en la tuberculosis;
 de ahí el nombre de paratuberculosis.
 
 Se ha identificado la paratuberculosis en ganado doméstico:
-[vacas, cabras, ovejas y conejos]().
-También en [rumiantes salvajes]().
+[vacas, cabras y ovejas](https://s3.amazonaws.com/academia.edu.documents/40006541/A_review_of_prevalence_of_paratuberculos20151114-19312-1j8ot5m.pdf?response-content-disposition=inline%3B%20filename%3DA_review_of_prevalences_of_paratuberculo.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200226%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200226T234448Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9769c9f386db92185f7b097e54318648bedb95e7c5401d104a9b4f71aea471f).
+También en [rumiantes salvajes](https://europepmc.org/article/med/16048043).
 La incidencia de esta enfermedad
 [ha crecido exponencialmente con la ganadería industrial]().
 Además, se ha identificado la bacteria MAP en [leche de vacas lecheras infectadas]().
