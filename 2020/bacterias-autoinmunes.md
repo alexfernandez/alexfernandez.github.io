@@ -209,8 +209,8 @@ Llegados a este punto,
 y si fuéramos médicos o científicos de algún rigor,
 se haría necesario que decir que no todo el mundo está de acuerdo con esta teoría.
 En realidad la gran mayoría del _establishment_ médico
-[no lo tiene claro](https://johnes.org/wp-content/uploads/2019/01/Feller_IBD-Mptb_Meta-analysis_Lancet-ID.pdf).
-o [está directamente en contra](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
+[no lo tiene claro](https://johnes.org/wp-content/uploads/2019/01/Feller_IBD-Mptb_Meta-analysis_Lancet-ID.pdf),
+o [está directamente en contra](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf).
 Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
