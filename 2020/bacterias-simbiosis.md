@@ -9,9 +9,6 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
-Y no sólo las que conocemos:
-al parecer sufrir infecciones en el últero aumenta al doble el riesgo de
-[autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 
 También sabemos que en nuestro cuerpo,
 tanto fuera como dentro, viven

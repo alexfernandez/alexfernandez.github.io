@@ -92,12 +92,15 @@ Se ha identificado la paratuberculosis en ganado doméstico:
 [vacas, cabras y ovejas](https://s3.amazonaws.com/academia.edu.documents/40006541/A_review_of_prevalence_of_paratuberculos20151114-19312-1j8ot5m.pdf?response-content-disposition=inline%3B%20filename%3DA_review_of_prevalences_of_paratuberculo.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200226%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200226T234448Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d9769c9f386db92185f7b097e54318648bedb95e7c5401d104a9b4f71aea471f).
 También en [rumiantes salvajes](https://europepmc.org/article/med/16048043).
 La incidencia de esta enfermedad
-[ha crecido exponencialmente con la ganadería industrial]().
-Además, se ha identificado la bacteria MAP en [leche de vacas lecheras infectadas]().
+[ha crecido exponencialmente desde el siglo XIX](https://gutpathogens.biomedcentral.com/articles/10.1186/1757-4749-1-15).
+Además, múltiples estudios han identificado bacterias MAP viables en
+[leche de vacas lecheras infectadas](http://www.lib.ifsu.edu.ph/ejournal/uploads/file/pdf/20180423_023239.pdf),
+incluso después de la pasteurización.
 
 ¿Es posible que la bacteria pase del ganado a humanos,
 en un ejemplo más de transmisión zoonótica?
-Lo cierto es que [múltiples intentos de identificarla en enfermos de Crohn han fracasado]().
+Lo cierto es que
+[múltiples intentos de identificarla en enfermos de Crohn han fracasado](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773423/).
 Antes de seguir con esta cuestión vamos a ver otro caso,
 en principio no relacionado.
 
@@ -277,18 +280,15 @@ la enfermedad de Stephen Hawking,
 tiene un sospechoso infeccioso:
 [un enterovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857577/).
 
+La cosa no queda aquí:
+¿habrá que incluir en el grupo de enfermedades infecciosas otras dolencias
+que hasta ahora se clasifican en otras categorías?
+Está demostrado que sufrir infecciones en el últero aumenta al doble el riesgo de
+[autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
+También sabemos que hay [multitud de cánceres causados por infecciones]().
 Por ultimo,
 hace unos dias se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
-
-# La gripe española
-
-Lo mismo ocurrió con
-[la gripe española](https://www.sciencedaily.com/releases/2006/09/060927201707.htm):
-el virus activaba las reacciones inmunes de los enfermos,
-motivo por el cual esta enfermedad se cebaba en la población más sana
-en lugar de ser más mortífera en infancia y vejez,
-como la gripe normal.
 
 # La gran prediccion
  
@@ -306,6 +306,13 @@ que se apresta a preparar anticuerpos.
 Por desgracia algunos de estos anticuerpos
 [atacan a las moléculas del propio organismo](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full),
 por ser parecidas a las de los invasores.
+
+Lo mismo ocurrió con
+[la gripe española](https://www.sciencedaily.com/releases/2006/09/060927201707.htm):
+el virus activaba las reacciones inmunes de los enfermos,
+motivo por el cual esta enfermedad se cebaba en la población más sana
+en lugar de ser más mortífera en infancia y vejez,
+como la gripe normal.
 
 Por ahora sólo queda esperar que las investigaciones continúen,
 tanto en Crohn como en el resto de enfermedades autoinmunes.

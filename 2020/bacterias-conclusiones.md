@@ -111,11 +111,9 @@ bacterias difíciles de localizar,
 efectos secundarios de la inflamación,
 y un largo etcétera.
 
-Hace tiempo que se han identificado
-[infecciones como causa de múltiples cánceres]().
 Estoy seguro de que si volvemos a hacer investigación básica
-encontraremos la raíz infecciosa de las enfermedades autoinmunes,
-y de otras muchas que ni siquiera sospechamos ahora que puedan estar causadas por bacterias.
+encontraremos la raíz infecciosa de muchas enfermedades autoinmunes,
+y de otras muchas dolencias que ni siquiera sospechamos ahora que puedan estar causadas por bacterias.
 
 # Para aprender más
 
