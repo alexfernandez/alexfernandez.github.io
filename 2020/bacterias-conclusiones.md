@@ -101,6 +101,22 @@ no las convierte en súper-bacterias resistentes a todo;
 sólo significa que se van a adaptar a ese medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
 
+# Enfermedades autoinmunes
+
+Mi impresión es que en el siglo XX se acabaron las enfermedades "fáciles":
+las que tienen una relación sencilla entre infección y dolencia.
+Las que quedan ahora son las difíciles:
+relaciones oblicuas entre patógenos y síntomas,
+bacterias difíciles de localizar,
+efectos secundarios de la inflamación,
+y un largo etcétera.
+
+Hace tiempo que se han identificado
+[infecciones como causa de múltiples cánceres]().
+Estoy seguro de que si volvemos a hacer investigación básica
+encontraremos la raíz infecciosa de las enfermedades autoinmunes,
+y de otras muchas que ni siquiera sospechamos ahora que puedan estar causadas por bacterias.
+
 # Para aprender más
 
 En ["Qué te importa a ti lo que piensen los demás"](https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F),
