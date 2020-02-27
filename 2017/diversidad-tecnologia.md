@@ -350,7 +350,7 @@ Igual
 [esta foto](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg)
 os toca algo más la fibra.
 
-![](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg "Niña católica corriendo con su madre acompañada de la policía")
+![Niña católica corriendo con su madre acompañada de la policía.](http://bobbysandstribute.weebly.com/uploads/1/3/0/2/13023732/7995039_orig.jpg "Una niña corre agarrada de su madre.")
 
 En 2001 varios estudiantes católicos sufrieron
 ataques y persecuciones por asistir al instituto de

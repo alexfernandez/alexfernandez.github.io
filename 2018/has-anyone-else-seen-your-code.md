@@ -459,7 +459,7 @@ and [approved by the Council of Castille](https://elpais.com/diario/2006/11/25/b
 and we know that 10 years passed between the first and the second parts.
 But the exact editorial process is lost in obscurity.
 
-![](pics/cervantes.png "Cervantes editorial process is mostly unknown")
+![Cervantes editorial process is mostly unknown.](pics/cervantes.png "The author writes something, perhaps some editor reviews it?")
 
 We are lucky enough to know more about JRR Tolkien:
 while he was writing "The Lord of the Rings" he read it to his friends,
@@ -468,7 +468,7 @@ Then an editor came by,
 and the result made everyone rich.
 Except for the poor academics, that is.
 
-![](pics/tolkien.png "Tolkien used to pester his Oxford colleagues and then his editor")
+![Tolkien used to pester his Oxford colleagues and then his editor.](pics/tolkien.png "The author writes something, his friends review it, an editor reviews it again, finally it gets published.")
 
 Then we have a modern newsroom.
 After the intrepid reporter has got the scoop on some huge piece of news
@@ -479,7 +479,7 @@ come the fact checker and the proof reader,
 although this latter job has largely been automated.
 Finally the piece can see the light of day!
 
-![](pics/newspaper.png "In a newspaper there can be multiple editors and correctors involved")
+![In a newspaper there can be multiple editors and correctors involved.](pics/newspaper.png "A reporter writes something, then many editors review it before it gets published.")
 
 ### Create Your Own Adventure
 
@@ -489,7 +489,7 @@ which can undergo testing or not depending on the rush,
 and then it shows up on the corporate website,
 several apps and on customers' phones.
 
-![](pics/corporate.png "The lone corporate dev who publishes in obscurity")
+![The lone corporate dev who publishes in obscurity.](pics/corporate.png "A developer writes something, then it gets published.")
 
 Now is your chance to do better!
 I present to you a few alternatives.
@@ -511,7 +511,7 @@ Giving the power of veto to everyone in the team has some liberating consequence
 people tend to feel they own the code base.
 You can also require at least one senior and one junior reviewer.
 
-![](pics/reviewed.png "At least two reviewers")
+![At least two reviewers.](pics/reviewed.png "A developer writes something, then two other developers review it, finally it gets published.")
 
 Then there are some modifications which are widely accepted:
 
@@ -528,7 +528,7 @@ You can also have a fast track for particularly urgent changes,
 for one-liners (trivial changes that only modify one or two lines of code)
 or for otherwise mechanical changes.
 
-![](pics/fasttrack.png "Just one reviewer")
+![Just one reviewer.](pics/fasttrack.png "A developer writes something, then one developer reviews it, finally it gets published.")
 
 Within a small team you can get away just with a manual process.
 For large organizations you may use several tools
