@@ -21,6 +21,14 @@ buscando nuestro origen.
 
 Vamos ahora a extraer unas cuantas lecciones de todo este conocimiento.
 
+# Bacterias y código
+
+Las bacterias funcionan con un código genético.
+Hay [bastante software para analizar este código](),
+pero ¿cuántos de estos programas están hechos por gente que programe profesionalmente?
+Estoy seguro de que podríamos aportar nuestro punto de vista a refactorizaciones,
+duplicaciones, borrados y modificaciones espontáneas.
+
 # Simbiosis
 
 Una idea clave que espero haber sabido transmitir es que las bacterias
