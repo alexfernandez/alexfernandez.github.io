@@ -5,7 +5,7 @@ footer: Published on 2017-07-11.
   [Comments, suggestions?](https://twitter.com/pinchito/)
 ---
 
-![](pics/build-otomo.jpg "Build your own Akira motorbike, source: https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg")
+![Build your own Akira motorbike. [Source](https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg).](pics/build-otomo.jpg "Katsuhiro Otomo with a replica of the Akira motorbike.")
 
 Your company is using cloud services.
 You want to do DevOps because you think it's cool,

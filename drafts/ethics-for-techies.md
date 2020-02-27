@@ -5,7 +5,7 @@ footer: Published on 2019-01-13, last modified on 2019-01-13.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![](pics/ethics-laws.jpg "The three laws of Robotics, source: https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg")
+![The three laws of Robotics. [Source](https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg).](pics/ethics-laws.jpg "A depiction of a robot in the background; in the foreground the text of the three laws of Robotics.")
 
 In these turbulent times of troubled leftist movements and worrying fascist risings
 of eroding privacy and Orwellian surveillance,

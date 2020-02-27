@@ -3,7 +3,7 @@ title: Pruebas asíncronas en node.js
 footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/07/11/pruebas-asincronas-en-node-js/) el 2013-07-11.
 ---
 
-![](pics/pruebas-asincronas.jpg "Laboratorio de pruebas")
+![Laboratorio de pruebas.](pics/pruebas-asincronas.jpg "Filas de técnicos en uniforme aséptico miran en microscopios.")
 
 node.js está muy orientado al desarrollo de software asíncrono: en lugar de ejecutar código y mantenernos ocupados mientras llega la respuesta, se suele liberar el hilo de ejecución para que corran otras tareas mientras esperamos.
 

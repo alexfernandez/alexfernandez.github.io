@@ -5,7 +5,7 @@ footer: Publicado el 2019-07-06, modificado el 2019-07-06.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![](pics/curso-unix-portada.jpg "Portada del curso de Unix")
+![Curso Unix.](pics/curso-unix-portada.jpg "Portada del curso de Unix")
 
 En este mes de julio dejo la organización de los grupos
 MadridJS
