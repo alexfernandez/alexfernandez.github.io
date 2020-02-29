@@ -123,7 +123,7 @@ There are a few well established services to do it like [Travis-CI](https://trav
 As for on-premise [Jenkins](https://jenkins.io/) is the best known tool,
 along with its more modern cousin [Jenkins X](https://jenkins-x.io/).
 There are also other smaller contenders such as [Strider CD](https://github.com/Strider-CD/strider),
-which I have [used in the past](../2016/stridercd.html).
+which I have [used in the past](../2016/stridercd).
 So it should be an easy decision to just evaluate the most promising options
 and either hire or install the best one.
 
