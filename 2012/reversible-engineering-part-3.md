@@ -5,7 +5,7 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/2341446011
 
 ![Photo credit: [Steve Heron.](https://www.flickr.com/photos/sbh/6774004978/in/photostream)](pics/reversible-engineering-part-3.jpg "Canalside")
 
-In the [first part](reversible-engineering-part-1.html) of this series we looked into reversible processes as a way of minimizing engineering complexity; and explored how to approach software development near reversibility. In the [second part](reversible-engineering-part-2.html) we then applied this principle to DevOps, and derived explanations for a lot of modern practices.
+In the [first part](reversible-engineering-part-1) of this series we looked into reversible processes as a way of minimizing engineering complexity; and explored how to approach software development near reversibility. In the [second part](reversible-engineering-part-2) we then applied this principle to DevOps, and derived explanations for a lot of modern practices.
 
 In this last installment we will try to tame that fearful beast in the minds of most engineers: management, or how to organize the work of other people. Let us now take a look at how management can benefit from reversibility.
 
@@ -57,7 +57,7 @@ What, you seriously thought that we were going to keep this at the “pure manag
 
 The basic elements of any management application are four operations which go by the acronym [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete): create, read, update and delete. Note how they behave with respect to reversibility: the read operation does not affect reversibility, create and delete are the opposite of each other, and update is its own opposite (an update is reverted by another update). From our point of view it is important to have always the reverse of any operation, from the lowest level of atomic modifications to high level operations.
 
-To be really reversible, any management system needs to keep a history of all past actions, and be able to undo them at will. Ideally we should be able to bring the system back to its state at any arbitrary point in the past, as we saw with [code repositories](reversible-engineering-part-2.html). At the very least we have to store extra info along with the raw data, so that we can reconstruct the history of modifications and revert them at will. Then we have to organize our modifications and undo them in groups that represent the high level organization of data.
+To be really reversible, any management system needs to keep a history of all past actions, and be able to undo them at will. Ideally we should be able to bring the system back to its state at any arbitrary point in the past, as we saw with [code repositories](reversible-engineering-part-2). At the very least we have to store extra info along with the raw data, so that we can reconstruct the history of modifications and revert them at will. Then we have to organize our modifications and undo them in groups that represent the high level organization of data.
 
 Synchronization is a particular thorny issue. When there are several copies of each piece of data it becomes harder to update any one of them, as there is a high probability that we will forget one of them; there is an added effort to resynchronize any duplicate piece of information. The effort required to backtrack any such change also grows: the system must know that two or more changes always go together, and if any one is reverted the rest must also be undone.
 
@@ -68,7 +68,7 @@ For many years the technical answer has been to avoid duplicate data; normalized
 * Following pure normalization rules blindly can lead to databases with many thousands of tables which are hard to follow.
 * Reality is stubborn: the double-entry accounting system was invented to avoid making mistakes.
 
-The new breed of NoSQL databases tackle the same set of problems by freeing schemas and allowing denormalized data to live happily in the system. Avoiding irreversible schema changes is good, as we saw in [part two](reversible-engineering-part-2.html), but these newfangled databases don’t go far enough: they don’t give so much thought to keeping the full history of the data as it is manipulated.
+The new breed of NoSQL databases tackle the same set of problems by freeing schemas and allowing denormalized data to live happily in the system. Avoiding irreversible schema changes is good, as we saw in [part two](reversible-engineering-part-2), but these newfangled databases don’t go far enough: they don’t give so much thought to keeping the full history of the data as it is manipulated.
 
 An ideal management system should not only keep information about all the changes in the system, but also keep related changes together and do or undo them as a whole. Having several management systems synchronized is left as an exercise for the reader; ample margin should be found at both sides to write a solution should they wish to [write the solution there](http://en.wikipedia.org/wiki/Fermat's_Last_Theorem).
 

@@ -5,11 +5,11 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/2286000652
 
 ![Photo credit: [Steve Heron.](https://www.flickr.com/photos/sbh/6784685100/in/photostream)](pics/reversible-engineering-part-2.jpg "Wasted")
 
-In the [first part](reversible-engineering-part-1.html) of this series we explored how to make your engineering processes reversible, with the idea of minimizing complexity; and applied the resulting ideas to software development. In this installment we will extend them to cover the field of development operations, sometimes called DevOps.
+In the [first part](reversible-engineering-part-1) of this series we explored how to make your engineering processes reversible, with the idea of minimizing complexity; and applied the resulting ideas to software development. In this installment we will extend them to cover the field of development operations, sometimes called DevOps.
 
 ## Complexity Revisited
 
-As we saw [before](reversible-engineering-part-1.html), all systems tend to gain complexity as they evolve, in the form of increased bits in their description. The information required to complete describe such a system (and which can be equated to its entropy, if we would want to get all technical) will never be reduced; it can only be increased. This is known as the Second Law of Thermodynamics, and is an essential axiom of our understanding of the physical world; but it applies to information processes as well.
+As we saw [before](reversible-engineering-part-1), all systems tend to gain complexity as they evolve, in the form of increased bits in their description. The information required to complete describe such a system (and which can be equated to its entropy, if we would want to get all technical) will never be reduced; it can only be increased. This is known as the Second Law of Thermodynamics, and is an essential axiom of our understanding of the physical world; but it applies to information processes as well.
 
 How can we keep the complexity within bounds? The approach we have taken is to evolve the system using always reversible processes; thermodynamic theory ensures that entropy will be kept as a minimum. Of course our processes will never be perfectly reversible in the real world —after all the Second Law tells us that we can never get there— but they can get quite close. Thus our current endeavour is to approach reversibility as much as is practical.
 
@@ -37,7 +37,7 @@ Now, perfect reversibility is impossible, at least for any arbitrary length of t
 
 ## Reversible Deployments
 
-In the old days deployments to production were rare, momentuous events: the whole company clung to their imaginary guns, and the day after was an endless source of entertainment for sysadmins — and often for developers. Now many companies have turned to [continuous deployment](continuous-deployment.html): the practice of deploying code to production in small increments, as soon as every little part is ready.
+In the old days deployments to production were rare, momentuous events: the whole company clung to their imaginary guns, and the day after was an endless source of entertainment for sysadmins — and often for developers. Now many companies have turned to [continuous deployment](continuous-deployment): the practice of deploying code to production in small increments, as soon as every little part is ready.
 
 Work cycles are well known in thermodynamics as a means of making processes repeatable; the steam engine is the classic example of doing work in small increments, and modern combustion engines serve as well. Short, fast cycles tend to increase performance up to a point; there is a sweet spot for every process where the maximum power is achieved. In general, short iterations are closer to the steady state and therefore more efficient.
 
@@ -77,5 +77,5 @@ Keeping reversibility in mind can be a great help not to stray too far from the 
 
 ## To Be Continued
 
-In the [third and final part](reversible-engineering-part-3.html) of this series we will explore reversible management: how to manage your company without making drastic changes. Stay tuned!
+In the [third and final part](reversible-engineering-part-3) of this series we will explore reversible management: how to manage your company without making drastic changes. Stay tuned!
 

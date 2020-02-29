@@ -49,5 +49,5 @@ Another technique related to reversibility, parallel deployment, can be used whe
 
 ## To Be Continued
 
-In future posts we will explore how reversible engineering can be applied to the [complex field of operations](reversible-engineering-part-2.html), and even to [management](reversible-engineering-part-3.html). Stay tuned!
+In future posts we will explore how reversible engineering can be applied to the [complex field of operations](reversible-engineering-part-2), and even to [management](reversible-engineering-part-3). Stay tuned!
 

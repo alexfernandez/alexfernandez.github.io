@@ -5,7 +5,7 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/2491133122
 
 ![Photo credit: [U.S. Navy.](https://commons.wikimedia.org/wiki/File:US_Navy_030415-N-0000X-002_An_F-A-18_Hornet_from_the.jpg)](pics/sources-of-irreversibility.jpg "An F/A-18 Hornet")
 
-We have created our nice, reversible processes; we [develop](reversible-engineering-part-1.html), [deploy](reversible-engineering-part-2.html) and even [manage](reversible-engineering-part-3.html) everything using reversible engineering. But now we are confronted with the real world and irreversibilities start to emerge. What can we do about it?
+We have created our nice, reversible processes; we [develop](reversible-engineering-part-1), [deploy](reversible-engineering-part-2) and even [manage](reversible-engineering-part-3) everything using reversible engineering. But now we are confronted with the real world and irreversibilities start to emerge. What can we do about it?
 
 ## Turbulences Ahead
 
