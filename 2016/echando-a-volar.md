@@ -205,5 +205,5 @@ o puede que termines malgastando un par de años de tu carrera.
 ## Parte dos
 
 La siguiente parte estará dedicada a
-[juniors que empiezan a trabajar](advice-for-the-novice.html).
+[juniors que empiezan a trabajar](advice-for-the-novice).
 

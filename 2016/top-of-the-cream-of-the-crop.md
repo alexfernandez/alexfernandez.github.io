@@ -1,6 +1,6 @@
 ---
 title: 'Top Of The Cream Of The Crop'
-subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 4'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer), Part 4'
 footer: Published on 2016-09-18, last edited on 2016-09-18.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
@@ -8,9 +8,9 @@ footer: Published on 2016-09-18, last edited on 2016-09-18.
 ![Pieter de Hooch: "[SRE tempted to ignore the on-call alert on a Saturday afternoon](http://classicprogrammerpaintings.com/)", Oil on canvas, 1670](pics/sre-tempted.jpg "Chilling at home")
 
 So you want to become a better developer?
-This [guide](becoming-a-better-developer.html) is divided into four parts.
+This [guide](becoming-a-better-developer) is divided into four parts.
 The previous installment was about
-[getting ahead of the curve](get-ahead-of-the-curve.html),
+[getting ahead of the curve](get-ahead-of-the-curve),
 while the one in your hands right now (the fourth and last)
 is for people that want to become experts.
 
@@ -305,5 +305,5 @@ As [Freeman Dyson says](http://www.businessinsider.com/freeman-dyson-interview-2
 ## Thanks For Getting This Far
 
 Be sure to read the first three parts in the
-[series](becoming-a-better-developer.html).
+[series](becoming-a-better-developer).
 

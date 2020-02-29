@@ -1,6 +1,6 @@
 ---
 title: 'Get Ahead Of The Curve'
-subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 3'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer), Part 3'
 footer: Published on 2016-10-17, last edited on 2016-10-17.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
@@ -8,9 +8,9 @@ footer: Published on 2016-10-17, last edited on 2016-10-17.
 ![Francisco de Goya: "[The 10x developer](http://classicprogrammerpaintings.com/)", Oil on canvas, 1808-1812](pics/10x-engineer.jpg "A really large engineer")
 
 So you want to become a better developer?
-This [guide](becoming-a-better-developer.html) is divided into four parts.
+This [guide](becoming-a-better-developer) is divided into four parts.
 The previous installment was about
-[working as a junior](advice-for-the-novice.html),
+[working as a junior](advice-for-the-novice),
 while the third (the one in your hands right now)
 is devoted to developers that have certain experience and want to improve.
 
@@ -312,5 +312,5 @@ and work from there.
 
 The next installment is out!
 For you
-[expert developers](top-of-the-cream-of-the-crop.html)
+[expert developers](top-of-the-cream-of-the-crop)
 

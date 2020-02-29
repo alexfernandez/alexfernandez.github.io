@@ -1,6 +1,6 @@
 ---
 title: 'Start Me Up'
-subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 1'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer), Part 1'
 footer: Published on 2016-10-06, last edited on 2016-12-04.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
@@ -8,7 +8,7 @@ footer: Published on 2016-10-06, last edited on 2016-12-04.
 ![Pablo Picasso: "[Junior developer after her first day](http://classicprogrammerpaintings.com/)", Oil on canvas, 1901-02](pics/junior-after-first-day.jpg "Junior having a stiff one")
 
 So you want to become a better developer?
-This [guide](becoming-a-better-developer.html) is divided into four parts,
+This [guide](becoming-a-better-developer) is divided into four parts,
 the first one (the one in your hands right now)
 is devoted to people wanting to start a career in software development.
 
@@ -207,5 +207,5 @@ or you may end up wasting a couple of years of your career.
 
 The next installment is out!
 Dedicated to
-[juniors starting to work](advice-for-the-novice.html).
+[juniors starting to work](advice-for-the-novice).
 
