@@ -243,12 +243,13 @@ y todo sistema complejo tiende a fallar de formas enrevesadas.
 
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
-[ataca y destruye los islotes de ?]().
+[ataca y destruye los islotes pacreáticos]().
 ¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
 Se han documentado casos de pacientes de diabetes tipo I
 [que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
 Hay también estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
+[En Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1).
 [más info](https://humanpara.org/map-and-type-1-diabetes/).
 
 Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
