@@ -285,7 +285,7 @@ El camino hacia la escalabilidad pasa siempre por mantener la (*atención, palab
 
 Suena rimbombante, pero lo que queremos decir se expresa de forma muy sencilla: doblando el número de servidores soportaremos el doble de carga, expresada en peticiones por segundo. Y lo mismo duplicando el número de núcleos, la frecuencia de la CPU, etcétera. También necesitaremos el doble de memoria y de recursos en general.
 
-Lo que nos permiten las pruebas de carga es, precisamente, detectar pérdidas de linealidad. Supongamos que con un solo proceso aguantamos 15 req/s. ¿Qué podemos esperar si activamos el [modo cluster](modo-cluster.html) con dos procesadores? Pues 30 req/s, claro… Si vemos menos, es que hemos encontrado un cuello de botella. Puede ser que se nos haya agotado algún otro recurso (memoria, conexiones, o lo que sea) o que otro elemento esté saturado (base de datos, interfaz de red…).
+Lo que nos permiten las pruebas de carga es, precisamente, detectar pérdidas de linealidad. Supongamos que con un solo proceso aguantamos 15 req/s. ¿Qué podemos esperar si activamos el [modo cluster](modo-cluster) con dos procesadores? Pues 30 req/s, claro… Si vemos menos, es que hemos encontrado un cuello de botella. Puede ser que se nos haya agotado algún otro recurso (memoria, conexiones, o lo que sea) o que otro elemento esté saturado (base de datos, interfaz de red…).
 
 También nos permitirán encontrar problemas de rendimiento cuando la respuesta no sea constante en el tiempo y tenga altibajos, o cuando el sistema empiece a dar errores al saturarse. Lo ideal es que el sistema deje de responder a las peticiones que no pueda atender, pero siga sirviendo correctamente un número razonable.
 

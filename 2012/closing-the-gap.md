@@ -69,7 +69,7 @@ But the job of business people does not end there; as the project is developed t
 
 After this initial phase It is essential to have some sessions where low level improvements are implemented on the spot, with direct guidance from business. It is easy to imagine the business owner sitting with the graphical designer to make modifications to the initial design; now translate that to the front-end developer modifying your HTML5 site directly and publishing the changes. If it is too hard to achieve then the engineering team should give business owners the tools to make the changes and publish them on their own.
 
-Remember to design your processes [close to reversibility](reversible-engineering-part-3.html); a smooth process can be repeated as often as desired, with short cycles and efficiently.
+Remember to design your processes [close to reversibility](reversible-engineering-part-3); a smooth process can be repeated as often as desired, with short cycles and efficiently.
 
 ## Sources of Failure
 

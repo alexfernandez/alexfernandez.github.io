@@ -5,7 +5,7 @@ footer: Posted originally at [Tumblr](http://tech.moveinblue.com/post/3826000284
 
 ![Photo credit: [National Archives and Records Administration](https://commons.wikimedia.org/wiki/File:%22Planting_and_seed_sowing_tools_used_on_the_Pike_National_Forest.%22_-_NARA_-_293480.jpg).](pics/reporting-problems-part-2.jpg "Planting and seed sowing tools used on the Pike National Forest")
 
-In the [first part](reporting-problems-part-1.html) of this series we saw an introduction to user problems. In this second and last part we will give a few guidelines for creating a tool to manage a large number of problems.
+In the [first part](reporting-problems-part-1) of this series we saw an introduction to user problems. In this second and last part we will give a few guidelines for creating a tool to manage a large number of problems.
 
 ## The Perfect Tool
 
@@ -21,7 +21,7 @@ It is important to keep everyone informed about what happens with the report. An
 
 By the way, people involved in the report should be able to add comments to it: the developer may want to ask more information, and the reporter will probably be eager to provide it. Keeping a list of comments associated with the report is also a good idea.
 
-[Reversibility](reversible-engineering-part-3.html) is, as always, very important. Any open report can be closed and viceversa.
+[Reversibility](reversible-engineering-part-3) is, as always, very important. Any open report can be closed and viceversa.
 
 ## The Missing Fields
 

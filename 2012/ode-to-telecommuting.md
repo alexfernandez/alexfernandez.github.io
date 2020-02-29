@@ -19,7 +19,7 @@ Meetings are harder to do when some people are off-site, but there is a lesson i
 
 ## The Cons
 
-One of the most serious drawbacks of telecommuting is that it requires a special kind of discipline. Not just [developer discipline](developer-discipline.html), but the kind that you need to do your domestic chores or any unpleasant tasks. Specially if you come from a corporate setting where bosses used to mark your stride for you. Oh, and loving your work helps a lot.
+One of the most serious drawbacks of telecommuting is that it requires a special kind of discipline. Not just [developer discipline](developer-discipline), but the kind that you need to do your domestic chores or any unpleasant tasks. Specially if you come from a corporate setting where bosses used to mark your stride for you. Oh, and loving your work helps a lot.
 
 The day with complete freedom ahead of you can be very long; you have to be centered in your tasks to get anything done. Be careful not to spend a whole day watching episodes of your favorite TV show, for example. Work time must be taken seriously even if you are not in an office.
 

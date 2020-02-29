@@ -5,7 +5,7 @@ footer: Original publicado en [GodTIC](http://www.godtic.com/blog/2013/11/24/opt
 
 ![Crédito: Alex Fernández](pics/optimizando-sockets-portada.jpg "Gráfica de rendimiento")
 
-Este post es una especie de segunda parte de [Node.js: ¿rápido como el rayo?](nodejs-rapido-como-el-rayo.html). En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.
+Este post es una especie de segunda parte de [Node.js: ¿rápido como el rayo?](nodejs-rapido-como-el-rayo). En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.
 
 ## Punto de partida
 

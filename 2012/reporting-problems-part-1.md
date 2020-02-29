@@ -53,5 +53,5 @@ There are many other ways to categorize bugs: severity, priority, number of user
 
 There is a lot of literature on bug management, but problem reporting has not received the attention it deserves as a separate task; let us hope that this post serves to make the issue more prominent. Use the comments section for any aspects I may have left behind.
 
-In the [second part](reporting-problems-part-2.html) we will discuss the elements of a good problem reporting tool; be sure to tune in!
+In the [second part](reporting-problems-part-2) we will discuss the elements of a good problem reporting tool; be sure to tune in!
 

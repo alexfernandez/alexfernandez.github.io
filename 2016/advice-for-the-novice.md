@@ -1,6 +1,6 @@
 ---
 title: 'Advice For The Novice'
-subtitle: '[Becoming A Better Developer](becoming-a-better-developer.html), Part 2'
+subtitle: '[Becoming A Better Developer](becoming-a-better-developer), Part 2'
 footer: Published on 2016-10-09, last edited on 2016-10-10.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
@@ -8,9 +8,9 @@ footer: Published on 2016-10-09, last edited on 2016-10-10.
 ![Yoshimori Utagawa: "[Junior dev gets aggressive after his first code review by senior peers](https://twitter.com/pinchito/status/760593307365941248)", Woodblock print, 1862](pics/junior-developer-aggresive.jpg "Code reviews can get nasty")
 
 So you want to become a better developer?
-This [guide](becoming-a-better-developer.html) is divided into four parts.
+This [guide](becoming-a-better-developer) is divided into four parts.
 The previous installment was about
-[starting a career](start-me-up.html),
+[starting a career](start-me-up),
 while the second (the one in your hands right now)
 is for juniors wishing to improve their careers.
 
@@ -124,7 +124,7 @@ But I have never worked with a senior that did _everything_ right, either.
 I don't do everything right myself,
 and I don't expect others to.
 That is why we have
-[code reviews and walkthroughs](/2015/walk-through-my-code.html).
+[code reviews and walkthroughs](/2015/walk-through-my-code).
 
 **You are not supposed to do everything perfectly.
 Nobody is.
@@ -273,5 +273,5 @@ but if you work hard it can also be very rewarding.
 
 The next installment is out!
 Dedicated to
-[developers with experience](get-ahead-of-the-curve.html).
+[developers with experience](get-ahead-of-the-curve).
 

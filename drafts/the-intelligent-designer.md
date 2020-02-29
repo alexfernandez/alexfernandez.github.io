@@ -40,7 +40,7 @@ There is an obvious problem with supposing that the design of humankind was inte
 we are full of 
 
 If we look at the human body,
-[the human body](../2013/human-body-engineered-system.html),
+[the human body](/2013/human-body-engineered-system),
 at first sight there are multiple design flaws that can prove fatal.
 
 But it is too easy to criticise someone else's designs without knowing all the details.
@@ -53,7 +53,7 @@ by [housing "good bacteria"](http://www.nbcnews.com/id/21153898/).
 There are two different ways to go about when designing a system:
 top down and bottom up.
 
-We already evaluated [the human body](../2013/human-body-engineered-system.html)
+We already evaluated [the human body](/2013/human-body-engineered-system)
 in a previous article.
 After looking at how it is divided in subsystems,
 there was no evidence of classic design in any of those.

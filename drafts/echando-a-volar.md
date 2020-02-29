@@ -1,6 +1,6 @@
 ---
 title: 'Echando a volar'
-subtitle: '[Mejorando como desarrollador(a)](mejorando-como-desarrolladora.html), parte 1'
+subtitle: '[Mejorando como desarrollador(a)](mejorando-como-desarrolladora), parte 1'
 footer: Publicado el 2016-12-04, last edited on 2016-12-04.
   [¿Sugerencias, mejoras?](https://twitter.com/pinchito)
 ---
@@ -8,7 +8,7 @@ footer: Publicado el 2016-12-04, last edited on 2016-12-04.
 ![Pablo Picasso: "[Desarrollador junior tras su primer día](http://classicprogrammerpaintings.com/)", óleo sobre lienzo, 1901-02](pics/junior-after-first-day.jpg "Junior metiéndose un lingotazo")
 
 ¿Así que quieres mejorar como desarrollador(a)?
-Esta [guía](mejorando-como-desarrolladora.html) está dividida en cuatro partes.
+Esta [guía](mejorando-como-desarrolladora) está dividida en cuatro partes.
 La primera (en tus manos)
 está dedicada a gente que quiere empezar una carrera en desarrollo de software.
 
