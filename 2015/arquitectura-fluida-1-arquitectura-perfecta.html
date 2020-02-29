@@ -152,7 +152,7 @@
 <p>Seguro que has oído hablar de “entropía”: es un término muy popular entre los divulgadores científicos, que a menudo lo corrompen asignándole significados corrientes como “desorden”, “irregularidad” y similares. Es probable que no te sorprenda que la entropía tiene una definición muy precisa, o más bien varias definiciones equivalentes.</p>
 <p>No es sencillo calcular la entropía de un sistema, y menos todavía medir los flujos de entropía que ocurren mientras evoluciona.</p>
 <p>Por suerte, podemos tomar un atajo: un sistema reversible es, por definición, el que consigue que la entropía se mantenga en el mínimo posible. No por casualidad también es el más eficiente. Y además es muy fácil saber cuándo un sistema es reversible: cuando está en todo momento en equilibrio.</p>
-<p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1.html">estos</a> <a href="../2012/reversible-engineering-part-2.html">tres</a> <a href="../2012/reversible-engineering-part-3.html">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio. Las ideas clave son: no malgastar energía, ir lo más despacio que sea posible, y evitar turbulencias.</p>
+<p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1">estos</a> <a href="../2012/reversible-engineering-part-2">tres</a> <a href="../2012/reversible-engineering-part-3">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio. Las ideas clave son: no malgastar energía, ir lo más despacio que sea posible, y evitar turbulencias.</p>
 <p>En resumen, podemos considerar reversible un sistema que puede invertirse sin consumir energía extra. Al mismo tiempo, si revertir el funcionamiento del sistema requiere energía extra, entonces el sistema no es reversible.</p>
 <h2 id="migraciones">Migraciones</h2>
 <p>Para pasar de una arquitectura a otra normalmente tenemos que realizar un cambio, sea de máquinas, de programas, de código o de datos. Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida: si nuestro sistema pasa de un estado a otro suavemente y sin turbulencias, es decir que las migraciones son también fuidas, entonces podremos considerar que tenemos una arquitectura maleable.</p>
@@ -177,7 +177,7 @@
 <p>Otra peculiaridad es que en estas migraciones es importante migrar por separado el acceso y los datos. Normalmente queremos migrar primero los datos, y luego cambiar el acceso; todo ello por supuesto sin <em>downtime</em>.</p>
 <p>Los cambios de base de datos son ejemplos muy completos del tipo de migraciones que estamos estudiando. Más adelante vamos a abusar de ellos para ilustrar cada técnica de migración.</p>
 <h1 id="fin-por-ahora">Fin (por ahora)</h1>
-<p>En la <a href="arquitectura-fluida-2-estrategias-migracion.html">siguiente parte</a> veremos varias estrategias que se pueden usar para realizar una migración.</p>
+<p>En la <a href="arquitectura-fluida-2-estrategias-migracion">siguiente parte</a> veremos varias estrategias que se pueden usar para realizar una migración.</p>
 								</div>
 							</section>
 							<section id="last">
