@@ -243,7 +243,7 @@ y todo sistema complejo tiende a fallar de formas enrevesadas.
 
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
-[ataca y destruye los islotes pacreáticos]().
+[ataca y destruye los islotes pacreáticos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675247/).
 ¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
 Se han documentado casos de pacientes de diabetes tipo I
 [que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
