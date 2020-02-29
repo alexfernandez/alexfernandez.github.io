@@ -323,9 +323,9 @@ Y además es muy fácil saber cuándo un sistema es reversible:
 cuando está en todo momento en equilibrio.
 
 En 2012 exploré en
-[estos](../2012/reversible-engineering-part-1.html)
-[tres](../2012/reversible-engineering-part-2.html)
-[artículos](../2012/reversible-engineering-part-3.html)
+[estos](../2012/reversible-engineering-part-1)
+[tres](../2012/reversible-engineering-part-2)
+[artículos](../2012/reversible-engineering-part-3)
 (en inglés) una idea similar a la que he desarrollado aquí:
 la ingeniería reversible,
 o cómo trabajar siempre cerca del equilibrio.
@@ -450,7 +450,7 @@ Más adelante vamos a abusar de ellos para ilustrar cada técnica de migración.
 
 # Fin (por ahora)
 
-En la [siguiente parte](arquitectura-fluida-2-estrategias-migracion.html)
+En la [siguiente parte](arquitectura-fluida-2-estrategias-migracion)
 veremos varias estrategias que se pueden usar
 para realizar una migración.
 

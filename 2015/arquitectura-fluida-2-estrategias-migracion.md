@@ -6,7 +6,7 @@ footer: Publicado originalmente en [TodoJS](http://www.todojs.com/tras-la-arquit
 
 ![Imagen: [John Soane](http://gabriel-scipio.blogspot.com.es/2012/01/el-puente-del-cesar.html)](pics/arquitectura-fluida-2.jpg "El puente del César sobre el Rhin")
 
-En la [parte anterior](arquitectura-fluida-1-arquitectura-perfecta.html)
+En la [parte anterior](arquitectura-fluida-1-arquitectura-perfecta)
 vimos cómo la arquitectura perfecta no existe;
 nuestra única esperanza es poder migrar rápidamente de una a otra
 para responder a los cambios a los que nos enfrentamos.
