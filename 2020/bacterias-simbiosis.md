@@ -398,7 +398,8 @@ ya hemos visto el caso de
 la bacteria que causa la lepra.
 No es lo más habitual:
 la mayoría de las bacterias son autosuficientes.
-
+Al menos hasta que pueden permitirse no serlo
+porque el medio donde viven cubra sus necesidades.
 Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
 Tampoco les interesa realmente dañar los tejidos en los que se alojan.
@@ -410,6 +411,8 @@ La lógica es sencilla:
 supongamos una bacteria que infecta a un humano y le confiere una ventaja evolutiva.
 Si humano + bacteria es mejor que humano solo,
 entonces la bacteria medrará a lomos de su anfitrión humano.
+La patogénesis es inestable en el tiempo:
+o bien el patógeno o bien el huésped terminarán adaptándose.
 
 # Continuará…
 
