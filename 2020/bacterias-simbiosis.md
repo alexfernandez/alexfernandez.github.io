@@ -387,6 +387,7 @@ el huésped no puede seguir viviendo mucho tiempo en él.
 Si después pasa a otro anfitrión y también lo mata,
 la cadena sigue hasta que se quede sin anfitriones y termine desapareciendo.
 ¡Mala estrategia de supervivencia!
+Tampoco les interesa realmente dañar los tejidos en los que se alojan.
 
 Los virus no pueden reproducirse por sí solos:
 necesitan maquinaria celular de la que carecen.
@@ -400,10 +401,13 @@ No es lo más habitual:
 la mayoría de las bacterias son autosuficientes.
 Al menos hasta que pueden permitirse no serlo
 porque el medio donde viven cubra sus necesidades.
+Pero si se dedican a matar a sus anfitriones,
+¿dónde van a sobrevivir?
+
+![Como en la fábula de la rana y el escorpión: un escorpión le pidió a una rana que le ayudara a cruzar el río. La rana tenía miedo de que le picara, pero el escorpión la tranquilizó: "No voy a ser tan tonto, si te pico me ahogo". La rana le dejó montarse y el escorpión le picó. [Fuente](https://www.flickr.com/photos/jafundo/9312871863).](pics/bacterias-scorpion-frog.jpg "La rana se queja: 'Pero ¡prometiste no picarme!'. El escorpión responde: 'Lo siento, pero está en mi naturaleza'.")
+
 Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
-Tampoco les interesa realmente dañar los tejidos en los que se alojan.
-
 La mejor estrategia a largo plazo es siempre
 [la simbiosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317043/):
 huésped y anfitrión crecen y se apoyan mutuamente.
@@ -412,7 +416,10 @@ supongamos una bacteria que infecta a un humano y le confiere una ventaja evolut
 Si humano + bacteria es mejor que humano solo,
 entonces la bacteria medrará a lomos de su anfitrión humano.
 La patogénesis es inestable en el tiempo:
-o bien el patógeno o bien el huésped terminarán adaptándose.
+
+* patógeno o huésped vulnerable terminarán adaptándose uno a otro,
+* o bien el huésped desarrollará inmunidad,
+* o ambos desaparecerán.
 
 # Continuará…
 
