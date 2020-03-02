@@ -109,9 +109,10 @@ y también en
 
 ¿Es posible que la bacteria pase del ganado a humanos,
 en un ejemplo más de transmisión zoonótica?
-Lo cierto es que
+Esta relación se ha buscado durante mucho tiempo,
+y lo cierto es que
 [múltiples intentos de identificarla en enfermos de Crohn han fracasado](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773423/).
-La bacteria no se encuentra en
+La bacteria no se ha encontrado en
 [tejidos afectados por Crohn](http://www.clinmedres.org/content/1/3/217.full).
 Antes de seguir con esta cuestión vamos a ver otro caso,
 en principio no relacionado.
