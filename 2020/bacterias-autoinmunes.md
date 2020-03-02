@@ -13,7 +13,7 @@ Las enfermedades autoinmunes ocurren cuando el sistema inmune ataca tejidos sano
 Este [grupo de enfermedades](https://medlineplus.gov/ency/article/000816.htm)
 incluye dolencias tan dispares
 como diabetes tipo I, enfermedad de Crohn, esclerosis múltiple o vitíligo.
-Muchas de ellas son crónicas, y casi todas incurables.
+Muchas de ellas son crónicas, y casi todas incurables a día de hoy.
 
 No se conoce la causa exacta de estas enfermedades;
 probablemente influyan factores ambientales, 
@@ -24,8 +24,10 @@ o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/artic
 
 # Enfermedad de Crohn
 
-Esta enfermedad me toca muy de cerca por tener a alguien en mi familia que la sufre.
-La enfermedad de Crohn es una enfermedad inflamatoria intestinal crónica.
+Vamos a enfocarnos de momento en la
+[enfermedad de Crohn](https://www.crohnscolitisfoundation.org/what-is-crohns-disease/overview),
+que me toca muy de cerca por tener a alguien en mi familia que la sufre.
+Se trata de una enfermedad inflamatoria intestinal crónica.
 Causa problemas digestivos severos,
 diarreas y pérdida de peso,
 y puede ser muy grave si no se trata.
