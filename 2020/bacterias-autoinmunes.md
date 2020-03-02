@@ -55,6 +55,10 @@ casi todos
 [relacionados con el sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3204665/)
 y [más en concreto con los macrófagos](https://rupress.org/jem/article/206/9/1883/40446):
 esas células blancas responsables de aislar y comerse a las bacterias que están donde no debían.
+El gen
+[CARD15](https://www.researchgate.net/profile/Ad_Van_Bodegraven/publication/11391946_CARD15_gene_and_the_classification_of_Crohn's_disease/links/00463529f2481e3c10000000.pdf)
+en concreto es responsable de identificar moléculas bacterianas,
+y sus mutaciones se asocian con la enfermedad de Crohn.
 Pero falta identificar el disparador:
 ¿por qué un individuo con estos factores genéticos pero aparentemente sano
 de repente desarrolla la enfermedad?
@@ -97,9 +101,11 @@ La incidencia de esta enfermedad
 [ha crecido exponencialmente desde el siglo XIX](https://gutpathogens.biomedcentral.com/articles/10.1186/1757-4749-1-15).
 Además, múltiples estudios han identificado bacterias MAP viables en
 [leche de vacas lecheras infectadas](http://www.lib.ifsu.edu.ph/ejournal/uploads/file/pdf/20180423_023239.pdf),
-incluso después de la pasteurización.
+incluso después de la pasteurización,
+y también en
+[el agua del grifo](https://aem.asm.org/content/aem/67/3/1225.full.pdf).
 
-![Muestras de _M. avium ssp. paratuberculosis_ (MAP) al microscopio electrónico. Estas canallas causan enormes pérdidas económicas en la cría de vacas, cabras y ovejas. [Fuente](https://www.researchgate.net/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/link/0fcfd50ab662b009fd000000/download).](pics/bacterias-map-electron-microscope.jpg "Una serie de bacilos con forma de cápsula alargada en blanco y negro.").
+![Muestras de _M. avium ssp. paratuberculosis_ (MAP) al microscopio electrónico. Estas canallas causan enormes pérdidas económicas en la cría de vacas, cabras y ovejas. [Fuente](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf).](pics/bacterias-map-electron-microscope.jpg "Una serie de bacilos con forma de cápsula alargada en blanco y negro.").
 
 ¿Es posible que la bacteria pase del ganado a humanos,
 en un ejemplo más de transmisión zoonótica?
@@ -257,6 +263,13 @@ Hay también estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
 [En Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1).
 [más info](https://humanpara.org/map-and-type-1-diabetes/).
+
+El mecanismo es
+[mímica molecular (_molecular mimicry_)](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf):
+una proteína de la bacteria MAP (HSP65)
+se parece mucho a la molécula pancreática humana glutamato descarboxilasa
+(_glutamic acid decarboxylase_),
+por lo que el sistema inmune las confunde y destruye el páncreas.
 
 Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
 Los resultados del RHB-104 contra la esclerosis múltiple
