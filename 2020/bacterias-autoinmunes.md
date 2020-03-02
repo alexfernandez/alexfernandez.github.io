@@ -348,7 +348,7 @@ y se enfrente a este gran desafío que tenemos por delante.
 Este artículo es la cuarta parte de la
 [serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 5: ¿Venimos de estrellas?](bacterias-estrellas),
+[parte 5: ¿Venimos de las estrellas?](bacterias-estrellas),
 donde veremos en profundidad el enigma del origen de la vida.
 
 * ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
