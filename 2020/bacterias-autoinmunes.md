@@ -105,7 +105,7 @@ incluso después de la pasteurización,
 y también en
 [el agua del grifo](https://aem.asm.org/content/aem/67/3/1225.full.pdf).
 
-![Muestras de _M. avium ssp. paratuberculosis_ (MAP) al microscopio electrónico. Estas canallas causan enormes pérdidas económicas en la cría de vacas, cabras y ovejas. [Fuente](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf).](pics/bacterias-map-electron-microscope.jpg "Una serie de bacilos con forma de cápsula alargada en blanco y negro.").
+![Muestras de MAP al microscopio electrónico. Estas canallas causan enormes pérdidas económicas en la cría de vacas, cabras y ovejas. [Fuente](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf).](pics/bacterias-map-electron-microscope.jpg "Una serie de bacilos con forma de cápsula alargada en blanco y negro.")
 
 ¿Es posible que la bacteria pase del ganado a humanos,
 en un ejemplo más de transmisión zoonótica?
