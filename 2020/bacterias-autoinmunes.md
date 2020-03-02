@@ -99,10 +99,14 @@ Además, múltiples estudios han identificado bacterias MAP viables en
 [leche de vacas lecheras infectadas](http://www.lib.ifsu.edu.ph/ejournal/uploads/file/pdf/20180423_023239.pdf),
 incluso después de la pasteurización.
 
+![Muestras de _M. avium ssp. paratuberculosis_ (MAP) al microscopio electrónico. Estas canallas causan enormes pérdidas económicas en la cría de vacas, cabras y ovejas. [Fuente](https://www.researchgate.net/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/link/0fcfd50ab662b009fd000000/download).](pics/bacterias-map-electron-microscope.jpg "Una serie de bacilos con forma de cápsula alargada en blanco y negro.").
+
 ¿Es posible que la bacteria pase del ganado a humanos,
 en un ejemplo más de transmisión zoonótica?
 Lo cierto es que
 [múltiples intentos de identificarla en enfermos de Crohn han fracasado](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773423/).
+La bacteria no se encuentra en
+[tejidos afectados por Crohn](http://www.clinmedres.org/content/1/3/217.full).
 Antes de seguir con esta cuestión vamos a ver otro caso,
 en principio no relacionado.
 
