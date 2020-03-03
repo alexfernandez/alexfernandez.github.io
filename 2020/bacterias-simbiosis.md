@@ -199,6 +199,12 @@ En el siguiente vídeo vemos cómo una célula T reconoce un patógeno.
 
 Hay muchos otros componentes de la respuesta inmune:
 unos que la refuerzan y otros que ayudan a evitar falsos positivos.
+Sólo de glóbulos blancos hay hay al menos 9 tipos,
+y [múltiples subtipos](https://en.wikipedia.org/wiki/White_blood_cell#Types).
+
+![Árbol de generación de células sanguíneas, o hematopoyesis. [Fuente](https://commons.wikimedia.org/wiki/File:Hematopoiesis_(human)_diagram_es.svg).](pics/bacterias-hematopoyesis.png "De las células madre surge todo un árbol de células sanguíneas. Quitando plaquetas y glóbulos rojos, los otros tipos son glóbulos blancos y por tanto parte del sistema inmune.")
+
+Además hay múltiples órganos implicados.
 Recomiendo encarecidamente esta
 [introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/)
 de donde he sacado la información para este apartado;
