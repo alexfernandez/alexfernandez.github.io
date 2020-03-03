@@ -265,7 +265,7 @@ Hay también estudios que relacionan a
 [En Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1).
 [más info](https://humanpara.org/map-and-type-1-diabetes/).
 
-El mecanismo es
+El mecanismo del que se sospecha es
 [mímica molecular (_molecular mimicry_)](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf):
 una proteína de la bacteria MAP (HSP65)
 se parece mucho a la molécula pancreática humana glutamato descarboxilasa
