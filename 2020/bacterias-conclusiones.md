@@ -162,9 +162,9 @@ por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
 También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
 Gracias a Cristina Pacios, genetista profesional e investigadora excepcional,
-por revisar mi torpe artículo y darme algunas valiosas referencias.
-Gracias a Azahara Fernández, doctora en inmunología,
-por revisar también y por compartir sus amplios conocimientos.
+y a [Azahara Fernández](https://twitter.com/azahara_fergui),
+doctora en inmunología,
+por revisar mi torpe artículo y darme valiosas referencias.
 
 Los errores que permanezcan en el texto son todo míos.
 

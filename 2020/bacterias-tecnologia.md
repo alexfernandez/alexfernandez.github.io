@@ -327,12 +327,15 @@ aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.ni
 En el futuro es posible que podamos usar bacterias como nanobots,
 por ejemplo con
 [regulación magnética](https://lonelyspore.wordpress.com/2014/07/07/could-magnetic-bacteria-be-the-next-generation-of-microbots/).
+También como almacenamiento de información o incluso como
+[procesadores biológicos](https://www.sngular.com/es/microbiologia-bacterias-futuro-tecnologia/).
 
 ## Simplicidad
 
 Los virus son mucho más sencillos que las bacterias:
 como hemos visto, por el tamaño de ROM son equivalentes a un ordenador de 8 bits.
-Para empezar no se pueden reproducir por sí solos.
+Para empezar no se pueden reproducir por sí solos,
+sino que dependen completamente de la maquinaria de las células que invaden.
 Pero siguen siendo máquinas muy efectivas.
 
 Al ser más sencillos también son más fáciles de modelar.
