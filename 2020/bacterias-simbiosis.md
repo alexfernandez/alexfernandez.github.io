@@ -69,6 +69,10 @@ pero cuando están metidas en frascos resulta muy ventajoso aprovechar el medio 
 
 ## Control bacteriano
 
+No hay mejor forma de controlar el nivel de bacterias que el jabón:
+hace 150 años que Semmelweis insistió en que los médicos se lavaran las manos
+después de hacer necropsias y antes de traer bebés al mundo,
+[reduciendo la mortalidad por sepsis del 22% al 3%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1115132/).
 Seguro que has visto jabones anunciados que
 [matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
 Suena bien, ¿no?
