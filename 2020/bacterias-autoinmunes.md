@@ -242,7 +242,7 @@ Esas pruebas
 La opinión de consenso es que al menos
 [merece la pena investigarlo](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
 
-# Terapia antibiótica anti-MAP
+## Terapia antibiótica anti-MAP
 
 La nueva droga se llama
 [RHB-104](https://www.redhillbio.com/rhb-104).
