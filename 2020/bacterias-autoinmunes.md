@@ -5,7 +5,7 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Células asesinas, parte del sistema inmune. Su función es localizar y eliminar células infectadas o cancerígenas. [Fuente original](https://commons.wikimedia.org/wiki/File:Natural_Killer_Cell_(30439199790).jpg).](pics/bacterias-natural-killer-cells.jpg "Se muestra un dibujo de una célula atacando a otra; el título es 'Natural Killer Cell', a lo que se ha añadido 'BORN' en rojo sangre de forma cruda.")
+![Células asesinas, parte del sistema inmune. Su función es localizar y eliminar células infectadas o cancerígenas. [Fuente original](https://commons.wikimedia.org/wiki/File:Natural_Killer_Cell_(30439199790).jpg).](pics/bacterias-natural-killer-cell.jpg "Se muestra un dibujo de una célula atacando a otra; el título es 'Natural Killer Cell', a lo que se ha añadido 'BORN' en rojo sangre de forma cruda.")
 
 Vamos a ver ahora un asunto controvertido.
 La relación con las bacterias no será inmediatamente evidente,
