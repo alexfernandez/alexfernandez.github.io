@@ -218,9 +218,38 @@ Por otra parte
 ataca a los macrófagos que albergan esta bacteria.
 Es de esperar que otros medicamentos tengan un efecto similar.
 
+## Terapias anti-MAP
+
+Pero la prueba definitiva que puede convencer a la comunidad científica es un
+[ensayo clínico de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326).
+El nuevo medicamento se llama
+[RHB-104](https://www.redhillbio.com/rhb-104):
+una combinación de antibióticos que
+ha mostrado su actividad _in vitro_
+[contra la bacteria MAP](https://gutpathogens.biomedcentral.com/articles/10.1186/s13099-016-0115-3).
+Tras el ensayo clínico se ha comprobado su eficacia en el
+[tratamiento de la enfermedad de Crohn](https://www.medpagetoday.com/meetingcoverage/acg/83055?fbclid=IwAR3n_8ds0-LnxeTt9u4oNYQfxzLJDuncGul6sDBdxO-mWb_vfct_EUfougY).
+
+¿A quién encontramos tras esta terapia antibiótica?
+Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
+el mismo de la formulación triple contra _H. pylori_.
+
+Todavía hay mucho que mejorar:
+el RHB-104 sólo ha ayudado a la remisión en el 20% de los pacientes en un año.
+Habrá que ver si alargar los tratamientos
+(probablemente varios años más) aumenta ese porcentaje.
+Pero la postura por defecto ya no puede ser "autoinmune":
+el éxito de los antibióticos es difícil de explicar sin cambiar de paradigma.
+
+No es el único tratamiento en marcha.
+Ahora mismo las únicas vacunas existentes son
+[para ganado](https://www.researchgate.net/profile/Kris_Huygen2/publication/23136233_Vaccination_against_paratuberculosis/links/56ed7b3308aed17d09f7262a.pdf).
 El profesor Hermon-Taylor está trabajando en
-[una vacuna contra la MAP](),
+[una vacuna contra la MAP en humanos](http://www.crohnsmapvaccine.com/vaccine/),
 que está ahora en ensayos clínicos de fase II.
+¡Crucemos los dedos!
+
+## Escepticismo al escepticismo
 
 Llegados a este punto,
 y si fuéramos médicos o científicos de algún rigor,
@@ -231,24 +260,10 @@ o [está directamente en contra](https://www.zora.uzh.ch/id/eprint/92821/1/92821
 Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
-Esas pruebas
-[existen hoy día](http://centaur.vri.cz/docs/2018/HRUSKA_CEPICA.pdf).
+
 La opinión de consenso es que al menos
-[merece la pena investigarlo](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
-
-## Terapia antibiótica anti-MAP
-
-La nueva droga se llama
-[RHB-104](https://www.redhillbio.com/rhb-104).
-Ha mostrado su actividad _in vitro_
-[contra la bacteria MAP](https://gutpathogens.biomedcentral.com/articles/10.1186/s13099-016-0115-3).
-En [ensayos clínicos de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326)
-se ha comprobado su eficacia en el
-[tratamiento de la enfermedad de Crohn](https://www.medpagetoday.com/meetingcoverage/acg/83055?fbclid=IwAR3n_8ds0-LnxeTt9u4oNYQfxzLJDuncGul6sDBdxO-mWb_vfct_EUfougY).
-
-¿A quién encontramos tras esta terapia antibiótica?
-Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
-el mismo de la formulación triple contra _H. pylori_.
+[merece la pena investigar este asunto](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
+Es conocida 
 
 # Otras enfermedades autoinmunes
 
