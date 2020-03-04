@@ -140,6 +140,8 @@ Entre los dos localizaron a _Helicobacter pylori_ como el agente sospechoso de c
 Nadie les creía,
 y en 1983 les rechazaron varias publicaciones.
 
+![Marshall se bebe un caldo apestoso con _H. pylori_. _Spoiler alert_: En lugar de cobrar superpoderes, se agarra una úlcera inmediatamente. [Fuente](https://twitter.com/nobelprize/status/1110074840562745345).](pics/bacterias-marshall-comic.jpg "Mientras otro doctor le grita '¡Estás loco, Barry!', Marshall sostiene un caldo verdoso y responde: '¡No hay otra forma!'. A continuación se bebe el caldo: '¡Arrgh!, sabe a agua de pantano'. Por último lanza a cámara una mirada vidriosa: 'Está hecho'.")
+
 En 1984 Marshall
 [se bebió una preparación de _H. pylori_](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
 En seguida empezó a notar los síntomas de una úlcera gástrica.
@@ -148,13 +150,11 @@ bismuto y metronidazol.
 Este dramático gesto fue lo que finalmente inclinó la balanza
 y convenció a la comunidad médica para empezar a mirar el asunto.
 
-![Marshall se bebe un caldo asqueroso con _H. pylori_. En lugar de cobrar superpoderes, se agarró una úlcera inmediatamente. [Fuente](https://twitter.com/nobelprize/status/1110074840562745345).](pics/bacterias-marshall-comic.jpg "Mientras otro doctor le grita '¡Estás loco, Barry!', Marshall sostiene un caldo verdoso y responde: '¡No hay otra forma!'. A continuación se bebe el caldo: '¡Arrgh!, sabe a agua de pantano'. Por último lanza a cámara una mirada vidriosa: 'Está hecho'.")
-
 Hay que tener en cuenta que la resistencia era lógica:
 la úlcera se conocía desde la antigüedad,
 y achacarla a un agente bacteriano era un cambio de paradigma:
 ¿por qué nadie lo había encontrado antes?
-Pero también había una industria detrás de tres mil millones de dólares.
+Pero también había una industria detrás de
 [tres mil millones de dólares](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
 Y no sólo en antiácidos:
 los gastroenterólogos tenían las consultas llenas de pacientes sospechosos de tener úlceras.
@@ -199,19 +199,13 @@ No es raro porque es un
 [método optimizado para _M. tuberculosis_](https://humanpara.org/wp-content/uploads/2019/12/2019-A-revaluation-of-the-Ziehl-Neelsen-stain.pdf).
 Con los métodos adecuados sí se detecta, sin embargo, en muestras de sangre de
 [pacientes de Crohn](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).
-
-![Cultivo de _M. avium ssp. paratuberculosis_ procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.").
-
-El profesor ? [lo expresa magníficamente]():
-
-> Ya sabíamos cómo identificar la forma desnuda de la MAP,
-> pero en algún momento se nos olvidó.
-
-Hay que decir que estos cultivos tardaron 18 meses en dar resultados.
+Hay que decir que los cultivos tardaron 18 meses en dar resultados.
 Es una técnica demasiado lenta.
 Varios equipos de todo el mundo están trabajando en
 [múltiples formas de identificar la MAP](https://humanpara.org/map-testing/)
 basadas en tests genéticos.
+
+![Cultivo de _M. avium ssp. paratuberculosis_ procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.").
 
 ¿Qué ocurre con la medicación inmunosupresora,
 o inmunomoduladora como se llama ahora?
