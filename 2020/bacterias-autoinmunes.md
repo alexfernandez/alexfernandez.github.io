@@ -273,6 +273,8 @@ cada revolución lleva asociado un cambio de paradigma.
 La opinión de consenso es que al menos
 [merece la pena investigar este asunto](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
 
+![El ciclo de Kuhn muestra cómo la ciencia normal suele llevar a una crisis, luego a una revolución y por fin a un cambio de paradigma, que empieza el siguiente ciclo. Descrito en 'The Structure of Scientific Revolutions' (1962). [Fuente](https://thedailyomnivore.net/2012/11/03/paradigm-shift/).](pics/bacterias-kuhn-cycle.png "Paso cero: preciencia, fuera del ciclo. Ciencia normal → Deriva de modelo → Crisis de modelo → Revolución de modelo → Cambio de paradigma → Ciencia normal, cerrando el ciclo.")
+
 # Otras enfermedades autoinmunes
 
 El sistema inmune humano es muy complejo,
