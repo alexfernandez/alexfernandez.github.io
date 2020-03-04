@@ -275,14 +275,17 @@ La opinión de consenso es que al menos
 El sistema inmune humano es muy complejo,
 y todo sistema complejo tiende a fallar de formas enrevesadas.
 
+## Más MAP
+
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
 [ataca y destruye los islotes pacreáticos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675247/).
 ¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
 Hay estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
-[En Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1).
-[más info](https://humanpara.org/map-and-type-1-diabetes/).
+El caso más claro es un estudio
+[en Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1)
+un sitio con alta incidencia de esta enfermedad.
 
 El mecanismo del que se sospecha es
 [mímica molecular (_molecular mimicry_)](https://www.researchgate.net/profile/Leonardo_Sechi2/publication/221920318_Environmental_Triggers_of_Type_1_Diabetes_Mellitus_Mycobacterium_Avium_Subspecies_Paratuberculosis/links/0fcfd50ab662b009fd000000.pdf):
@@ -291,16 +294,21 @@ se parece mucho a la molécula pancreática humana glutamato descarboxilasa
 (_glutamic acid decarboxylase_),
 por lo que el sistema inmune las confunde y destruye el páncreas.
 
-Hay múltiples micobacterias que pueden causar enfermedades muy variadas.
+Se sospecha que la bacteria MAP puede estar implicada en otras enfermedades.
 Los resultados del RHB-104 contra la esclerosis múltiple
-[son esperanzadores](https://www.redhillbio.com/multiple-sclerosis).
-[sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
-[tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/).
+[son esperanzadores](https://www.redhillbio.com/multiple-sclerosis),
+lo que indicaría un origen micobacteriano claro.
+También hay estudios que relacionan otras micobacterias con la [sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
+y con la [tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
+aunque de forma más tangencial.
 
-Casos previos:
-el [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
+## Más bacterias y algún virus
+
+Aún hay más.
+El [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
 terminó siendo una tuberculosis cutánea.
 El otro tipo de lupus, lupus eritematoso sistémico,
+se considera autoinmune;
 se ha vinculado a
 [biofilms generados por bacterias](https://www.niams.nih.gov/newsroom/spotlight-on-research/bacterial-biofilms-may-trigger-lupus)
 y a [la infiltración de bacterias intestinales](https://www.sciencedaily.com/releases/2019/02/190219080742.htm).
@@ -321,7 +329,7 @@ tiene un sospechoso infeccioso:
 en este caso se trata de
 [un enterovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857577/).
 
-La cosa no queda aquí:
+Podríamos seguir toda la tarde:
 ¿habrá que incluir en el grupo de enfermedades infecciosas otras dolencias
 que hasta ahora se clasifican en otras categorías?
 Está demostrado que sufrir infecciones en el últero aumenta al doble el riesgo de
@@ -343,7 +351,7 @@ me atrevo a lanzar la siguiente predicción:
 > que confunden al sistema inmune.
 
 La idea general es la misma mímica molecular que en la diabetes tipo I,
-pero con víctimas diversas:
+pero contra tejidos diversos:
 una infección ataca el organismo,
 que se apresta a preparar anticuerpos.
 Por desgracia algunos de estos anticuerpos
