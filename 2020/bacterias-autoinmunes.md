@@ -148,6 +148,8 @@ bismuto y metronidazol.
 Este dramático gesto fue lo que finalmente inclinó la balanza
 y convenció a la comunidad médica para empezar a mirar el asunto.
 
+![Marshall se bebe un caldo asqueroso con _H. pylori_. En lugar de cobrar superpoderes, se agarró una úlcera inmediatamente. [Fuente](https://twitter.com/nobelprize/status/1110074840562745345).](pics/bacterias-marshall-comic.jpg "Mientras otro doctor le grita '¡Estás loco, Barry!', Marshall sostiene un caldo verdoso y responde: '¡No hay otra forma!'. A continuación se bebe el caldo: '¡Arrgh!, sabe a agua de pantano'. Por último lanza a cámara una mirada vidriosa: 'Está hecho'.")
+
 Hay que tener en cuenta que la resistencia era lógica:
 la úlcera se conocía desde la antigüedad,
 y achacarla a un agente bacteriano era un cambio de paradigma:
@@ -172,6 +174,9 @@ en España se estima [un 54% de población infectada](https://www.gastrojournal.
 En su mayoría la gente que da positivo permanece asintomática durante toda su vida;
 los que desarrollan úlcera se tratan con éxito
 con distintas combinaciones de antibióticos según la resistencia de la cepa.
+Y no falta gente que
+[echa de menos a la bacteria](https://www.sciencefriday.com/articles/the-bacterium-disappearing-from-our-stomachs/),
+ya que su ausencia supuestamente aumenta algunas patologías como asma o enfermedades del esófago.
 
 # Uniendo los puntos
 
