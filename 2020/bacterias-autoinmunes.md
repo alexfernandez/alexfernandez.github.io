@@ -233,6 +233,8 @@ ha mostrado su actividad _in vitro_
 Tras el ensayo clínico se ha comprobado su eficacia en el
 [tratamiento de la enfermedad de Crohn](https://www.medpagetoday.com/meetingcoverage/acg/83055?fbclid=IwAR3n_8ds0-LnxeTt9u4oNYQfxzLJDuncGul6sDBdxO-mWb_vfct_EUfougY).
 
+![RHB-104: una combinación de antibióticos potente contra la micobacteria MAP. [Fuente](http://bionapcfa.com/2016/07/redhills-phase-3-crohns-drug-is.html).](pics/bacterias-rhb-104.jpg "La combinación patentada es claritromicina: 0.63 µg/ml, rifabutina: 0.3 µg/ml, y clofazimina: 0.3 µg/ml.")
+
 ¿A quién encontramos tras esta terapia antibiótica?
 Al [doctor Borody](https://www.sciencedirect.com/science/article/abs/pii/S1590865802800561),
 el mismo de la formulación triple contra _H. pylori_.
@@ -246,7 +248,8 @@ el éxito de los antibióticos es difícil de explicar sin cambiar de paradigma.
 
 No es el único tratamiento en marcha.
 Ahora mismo las únicas vacunas existentes son
-[para ganado](https://www.researchgate.net/profile/Kris_Huygen2/publication/23136233_Vaccination_against_paratuberculosis/links/56ed7b3308aed17d09f7262a.pdf).
+[para ganado](https://www.researchgate.net/profile/Kris_Huygen2/publication/23136233_Vaccination_against_paratuberculosis/links/56ed7b3308aed17d09f7262a.pdf),
+y no muy eficaces.
 El profesor Hermon-Taylor está trabajando en
 [una vacuna contra la MAP en humanos](http://www.crohnsmapvaccine.com/vaccine/),
 que está ahora en ensayos clínicos de fase II.
