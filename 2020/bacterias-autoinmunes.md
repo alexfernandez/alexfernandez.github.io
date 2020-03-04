@@ -126,12 +126,15 @@ no se hace una idea de su magnitud.
 Por poner un ejemplo,
 en Estados Unidos más del 1% de las hospitalizaciones
 [eran debidas a úlcera gástrica](https://www.niddk.nih.gov/-/media/Files/Strategic-Plans/burden-digestive-diseases/BurdenDD_ch15_Jan2009.pdf?la=en&hash=79746549BD74034BC85178EF6D338E51).
+[Un 10% de la población](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1600-065X.2008.00677.x)
+desarrollaba esta enfermedad incurable e intratable.
 Era habitual conocer a alguien que padecía esta enfermedad,
-que los médicos achacaban al exceso de ácidos gástricos y al estrés.
+que los médicos achacaban al
+[exceso de ácidos gástricos, al estrés o a factores psicosomáticos](http://garfield.library.upenn.edu/essays/v4p666y1979-80.pdf).
 La recomendación:
 beber leche y tomar antiácidos,
 que representaban un
-[negocio importante para las farmacéuticas]().
+[negocio importante para las farmacéuticas](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
 
 En 1981 un joven doctor llamado Barry Marshall
 [empezó a colaborar con otro médico, Robin Warren](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)67587-3/fulltext?fbclid=IwAR0AK0FjVEIEwfEMGiUPN87gHqIYL9nFKLwPpq2Ie1Un9E3lmWUGD0KR9OE),
@@ -323,7 +326,8 @@ La cosa no queda aquí:
 que hasta ahora se clasifican en otras categorías?
 Está demostrado que sufrir infecciones en el últero aumenta al doble el riesgo de
 [autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
-También sabemos que hay [multitud de cánceres causados por infecciones]().
+También sabemos que hay
+[multitud de cánceres causados por infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3291059/).
 Por ultimo,
 hace unos dias se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
