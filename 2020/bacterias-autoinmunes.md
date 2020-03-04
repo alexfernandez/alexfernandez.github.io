@@ -299,6 +299,8 @@ se parece mucho a la molécula pancreática humana glutamato descarboxilasa
 (_glutamic acid decarboxylase_),
 por lo que el sistema inmune las confunde y destruye el páncreas.
 
+![Mímica molecular. Un patógeno se presenta a células inmunes B y T, que comienzan una reacción inmune. Las células B reactivas generan anticuerpos que atacan no sólo a los patógenos, sino también a tejidos del anfitrión. [Fuente](https://www.intechopen.com/books/oral-microbiology-in-periodontitis/trojans-in-oral-environments-evidence-of-molecular-mimicry-in-oral-immunity).](pics/bacterias-molecular-mimicry.jpg "Una APC o _antigen-presenting cell_ presenta los patógenos a las células B y T. La célula B reactiva es la que genera los anticuerpos.")
+
 Se sospecha que la bacteria MAP puede estar implicada en otras enfermedades.
 Los resultados del RHB-104 contra la esclerosis múltiple
 [son esperanzadores](https://www.redhillbio.com/multiple-sclerosis),
