@@ -261,9 +261,11 @@ Eso no quiere decir que estén equivocados,
 pero tampoco que tengan razón;
 sólo que hacen falta pruebas más contundentes para convencerles.
 
+Según la [estructura de las revoluciones científicas de Kuhn](https://plato.stanford.edu/entries/scientific-revolutions/),
+cada revolución lleva asociado un cambio de paradigma.
+¿Estamos en esa fase ahora?
 La opinión de consenso es que al menos
 [merece la pena investigar este asunto](https://www.tandfonline.com/doi/full/10.1080/17474124.2017.1300529?src=recsys).
-Es conocida 
 
 # Otras enfermedades autoinmunes
 
@@ -274,9 +276,7 @@ La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
 [ataca y destruye los islotes pacreáticos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675247/).
 ¿Qué puede engañar de esta forma a nuestra complejísima maquinaria inmune?
-Se han documentado casos de pacientes de diabetes tipo I
-[que se han curado espontáneamente al administrarles la vacuna de la tuberculosis]().
-Hay también estudios que relacionan a
+Hay estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
 [En Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1).
 [más info](https://humanpara.org/map-and-type-1-diabetes/).
@@ -315,6 +315,7 @@ Esto podría explicar la enfermedad.
 Incluso la esclerosis lateral amiotrófica (ELA),
 la enfermedad de Stephen Hawking,
 tiene un sospechoso infeccioso:
+en este caso se trata de
 [un enterovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857577/).
 
 La cosa no queda aquí:
@@ -337,24 +338,26 @@ me atrevo a lanzar la siguiente predicción:
 > están causadas en realidad por infecciones bacterianas o víricas,
 > que confunden al sistema inmune.
 
-La idea general es:
+La idea general es la misma mímica molecular que en la diabetes tipo I,
+pero con víctimas diversas:
 una infección ataca el organismo,
 que se apresta a preparar anticuerpos.
 Por desgracia algunos de estos anticuerpos
 [atacan a las moléculas del propio organismo](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full),
 por ser parecidas a las de los invasores.
 
-Lo mismo ocurrió con
+Es algo similar a lo que ocurrió con
 [la gripe española](https://www.sciencedaily.com/releases/2006/09/060927201707.htm):
 el virus activaba las reacciones inmunes de los enfermos,
 motivo por el cual esta enfermedad se cebaba en la población más sana
 en lugar de ser más mortífera en infancia y vejez,
 como la gripe normal.
+Pero nadie califica esta enfermedad como "autoinmune".
 
 Por ahora sólo queda esperar que las investigaciones continúen,
 tanto en Crohn como en el resto de enfermedades autoinmunes.
 Por desgracia
-[curar enfermedades no es negocio]();
+[curar enfermedades no es negocio](https://www.cnbc.com/2018/04/11/goldman-asks-is-curing-patients-a-sustainable-business-model.html);
 tratar enfermos crónicos sí.
 Es mi sincera esperanza que la sociedad recupere el espíritu curativo
 y se enfrente a este gran desafío que tenemos por delante.
