@@ -87,8 +87,10 @@ una cepa podría aguantar un día completo dentro del vaso de contención.
 
 Con radiación es posible conseguir _E. coli_ que aguanta
 [2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
+[Tardígrado: hasta 1 kGy siendo fértil](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
+LD50: 5 kGy. D10: ~5 kGy.
 
-![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.png "Con la irradiación la resistencia sube.")
+![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
 
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
