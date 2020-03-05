@@ -65,10 +65,17 @@ la astrobiología,
 dedicada a encontrarla.
 
 Se ha sugerido que las bacterias más resistentes que conocemos,
-_Deinococus  radiodurance_,
+_Deinococcus radiodurans_,
 tienen su
 [origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+
+Hay una arquea que resiste más:
+[_Thermococcus gammatolerans_]().
+Resistiría 30 kGy; hasta
+[15 segundos en el muro del reactor ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf).
+
+![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
 
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
