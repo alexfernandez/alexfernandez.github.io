@@ -134,7 +134,7 @@ una gráfica con cinco puntos y una regresión no es suficiente.
 (El artículo de Sharov en general es muy cuestionable,
 y las objeciones de los revisores no tienen desperdicio.)
 
-![Tamaño de genoma para algunos grandes grupos de animales. Nótese que la gráfica es logarítmica, por lo que la recta de regresión sería en realidad exponencial: la evolución se iría acelerando según aumenta el tamaño del genoma. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/).](pics/bacterias-sharov-genome.png "En la gráfica se muestran los genomas de procariotas, eucariotas, gusanos, peces y mamíferos. Los valores aparentan estar aproximadamente sobre una línea recta en una gráfica logarítmica. Se distingue entre genoma completo y genoma funcional no redundante. La recta de regresión exponencial cruzaría el origen hace unos diez mil millones de años.")
+![Tamaño de genoma para algunos grandes grupos de animales. Nótese que la gráfica es logarítmica, por lo que la recta de regresión sería en realidad exponencial: la evolución se iría acelerando según aumenta el tamaño del genoma. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/).](pics/bacterias-sharov-genome.jpg "En la gráfica se muestran los genomas de procariotas, eucariotas, gusanos, peces y mamíferos. Los valores aparentan estar aproximadamente sobre una línea recta en una gráfica logarítmica. Se distingue entre genoma completo y genoma funcional no redundante. La recta de regresión exponencial cruzaría el origen hace unos diez mil millones de años.")
 
 # ¿El origen del sol?
 
