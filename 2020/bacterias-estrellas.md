@@ -73,7 +73,8 @@ ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación 
 Hay una arquea que resiste más:
 [_Thermococcus gammatolerans_]().
 Resistiría 30 kGy; hasta
-[15 segundos en el muro del reactor ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf).
+[15 segundos en el muro del reactor ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
+en plena operación.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
 
