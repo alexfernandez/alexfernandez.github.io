@@ -65,18 +65,30 @@ la astrobiología,
 dedicada a encontrarla.
 
 Se ha sugerido que las bacterias más resistentes que conocemos,
-_Deinococcus radiodurans_,
+_Deinococcus radiodurans_ (10 kGy),
 tienen su
 [origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+Similar a
+[_Rubrobacter radiotolerans_: 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
+D10: 11 kGy.
+[_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
+D10: > 5 kGy.
 
 Hay una arquea que resiste más:
-[_Thermococcus gammatolerans_]().
-Resistiría 30 kGy; hasta
-[15 segundos en el muro del reactor ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
-en plena operación.
+[_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
+Resistiría 30 kGy; unos
+[15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
+el reactor de fusión más potente del mundo en plena operación.
+En [un incidente tipo Fukushima con fusión del núcleo](https://www-pub.iaea.org/MTCD/Publications/PDF/TE-1818_web.pdf)
+una cepa podría aguantar un día completo dentro del vaso de contención.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
+
+Con radiación es posible conseguir _E. coli_ que aguanta
+[2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
+
+![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.png "Con la irradiación la resistencia sube.")
 
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
