@@ -109,6 +109,18 @@ aunque probablemente el número real
 El total de bacterias se calcula en 4×10<sup>13</sup>,
 similar al número de células.
 
+![El intestino es un clásico: alberga grandes cantidades de especies de bacterias. [Fuente](https://xkcd.com/1543/).](pics/bacterias-team-effort-xkcd.png "Una mujer recibiendo un premio habla. 'Me gustaría agradecer a mi director, amigos y familia, y por supuesto las masas ondulantes de bacterias intestinales que albergo. O sea, llevo una o dos pintas de ellas dentro: ¡más células suyas que mías! En fin, que ha sido un auténtico logro de equipo.'")
+
+Seguro que sabes que hay un montonaco de bacterias
+[en el intestino](https://iai.asm.org/content/76/8/3360)
+donde cubren multitud de funciones: nos ayudan a alimentarnos
+y nos protegen de peligros.
+Pero puede que no sepas que el intestino también alberga grandes cantidades de arqueas.
+Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
+por ejemplo de
+[generar metano](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf).
+Así que efectivamente están también en nuestro intestino y el de muchos otros animales.
+
 ![Las partes privadas de una señora. [Captura de Monty Python's Flying Circus s02e09](https://www.imdb.com/title/tt0650976/).](pics/bacterias-naughty-bits-lady.jpg "Una mujer en ropa interior, con una flecha apuntando a su mitad inferior.")
 
 Es sabido que hay flora bacteriana en la vagina,
@@ -159,16 +171,8 @@ recientemente se han encontrado
 
 ![El intestino es un clásico: alberga grandes cantidades de especies de bacterias. [Fuente](https://microbiollogy.blogspot.com/2014/04/microbial-infections-of-humanshuman.html).](pics/bacterias-human-microbiome-project.jpg "El proyecto del microbioma humano: 1000 especies en la piel, 600+ especies en boca y pulmones, 500-1000 en el intestino, 60 en el tracto genito-urinario, 25 en el estómago.")
 
-Seguro que sabes que hay un montonaco de bacterias
-[en el intestino](https://iai.asm.org/content/76/8/3360)
-donde cubren multitud de funciones: nos ayudan a alimentarnos
-y nos protegen de peligros.
-Pero puede que no sepas que el intestino también alberga grandes cantidades de arqueas.
-Son las únicas criaturas capaces de hacer ciertos procesos en nuestro planeta,
-por ejemplo de
-[generar metano](https://www.researchgate.net/profile/Henning_Seedorf/publication/5267356_Thauer_RK_Kaster_A-K_Seedorf_H_Buckel_W_Hedderich_R_Methanogenic_archaea_ecologically_relevant_differences_in_energy_conservation_Nat_Rev_Micro_6_579-591/links/53e3e4b80cf21cc29fc66298.pdf).
-Así que efectivamente están también en nuestro intestino y el de muchos otros animales.
-
+Se han detectado de momento más de 2000 especies de bacterias,
+y estamos sólo al principio.
 Personalmente creo que estamos en el inicio de una nueva era de descubrimientos,
 y que encontraremos que bacterias y arqueas están en todo nuestro cuerpo,
 unas cumpliendo funciones vitales y otras simplemente sobreviviendo.
