@@ -164,12 +164,18 @@ Los elementos que componen la Tierra se fraguaron
 [en supernovas](https://blogs.scientificamerican.com/basic-space/httpblogsscientificamericancombasic-space20110802on-the-origin-of-chemical-elements/)
 y
 [en estrellas de neutrones](https://www.ligo.org/science/Publication-GW170817Kilonova/flyer.pdf).
-Está claro que venimos de un medio estelar muy rico en historia.
+En palabras de [Carl Sagan](https://www.universetoday.com/119541/as-it-turns-out-we-really-are-all-starstuff/):
+
+> El nitrógeno en nuestro ADN, el calcio de nuestros dientes,
+> el hierro en nuestra sangre, el carbono en nuestras tartas se forjaron en el interior de estrellas colapsándose.
+> Estamos hechos de estrellas.
 
 ![Tabla periódica de los elementos, indicando el origen de cada uno según las últimas teorías. Las fusiones de estrellas de neutrones han cobrado fuerza tras las detecciones del proyecto LIGO. [Fuente](https://commons.wikimedia.org/wiki/File:Nucleosynthesis_periodic_table.svg).](pics/bacterias-periodic-table-nucleosynthesis.svg "Los elementos con número atómico 1 al 3 se generaron en el Big Bang; del 3 al 5 por rayos cósmicos; del 6 al 40 en supernovas; y del 41 al 94 en fusiones de estrellas de neutrones. Además hay contribuciones relevantes de estrellas poco masivas moribundas: 3, 6 y 7, 38-82; y de explosiones de enanas blancas: 14-30.")
 
+Está claro que venimos de un medio estelar muy rico en historia.
 Siempre me ha llamado la atención que no se dedique más atención a estudiar
 cuáles son nuestros ancestros estelares.
+
 A 3000 años luz del sol se encuentra el
 [clúster abierto M67](https://freestarcharts.com/messier-67).
 Contiene unas 200 estrellas con edad y composición
