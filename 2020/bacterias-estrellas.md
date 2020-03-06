@@ -11,11 +11,27 @@ En esta última parte vamos a explorar el origen mismo de las bacterias.
 
 # ¿Hasta dónde llega la biosfera?
 
+Ya hemos visto en la
+[parte 1](bacterias-bonita#en-el-medio-ambiente)
+que hay abundantes bacterias en las nubes.
+Vamos a seguir subiendo a ver qué nos encontramos.
+
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
-correspondientes a bacterias terrestres.
+correspondiente a organismos terrestres.
 
-## Radiación
+## Resistencia a la radiación
+
+También vimos en la
+[parte 1](bacterias-bonita#los-extremófilos-no-se-tocan)
+que hay bacterias que resisten el vacío del espacio.
+Las esporas de la humilde _Bacillus subtilis_
+[sobreviven sin problemas al vacío y a la radiación ultravioleta](https://www.ncbi.nlm.nih.gov/pubmed/11542695).
+Pero en el espacio hay problemas más grandes:
+[radiación ionizante](https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters),
+de rayos X en adelante.
+En el momento en el que pasamos la baja órbita terrestre cruzamos los cinturones de Van Allen;
+la exposición es constante y significativa.
 
 Se ha sugerido que las bacterias más resistentes que conocemos,
 _Deinococcus radiodurans_ (10 kGy),
