@@ -169,7 +169,7 @@ Al parecer no:
 recientemente se han encontrado
 [colonias bacterianas en cerebros de pacientes sanos](https://www.abstractsonline.com/pp8/#!/4649/presentation/32057).
 
-![El intestino es un clásico: alberga grandes cantidades de especies de bacterias. [Fuente](https://microbiollogy.blogspot.com/2014/04/microbial-infections-of-humanshuman.html).](pics/bacterias-human-microbiome-project.jpg "El proyecto del microbioma humano: 1000 especies en la piel, 600+ especies en boca y pulmones, 500-1000 en el intestino, 60 en el tracto genito-urinario, 25 en el estómago.")
+![El proyecto del microbioma humano: 1000 especies en la piel, 600+ especies en boca y pulmones, 500-1000 en el intestino, 60 en el tracto genito-urinario, 25 en el estómago. [Fuente](https://microbiollogy.blogspot.com/2014/04/microbial-infections-of-humanshuman.html).](pics/bacterias-human-microbiome-project.jpg "Una figura del cuerpo humano con la distribución de especies por región del cuerpo.")
 
 Se han detectado de momento más de 2000 especies de bacterias,
 y estamos sólo al principio.
