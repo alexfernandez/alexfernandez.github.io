@@ -84,6 +84,8 @@ Tenemos las manos sucias y nos las lavamos con jabón que elimina el 99.9% de la
 Fácil: unas 10 horas.
 O dicho de otra forma, ni una noche entera.
 
+![El problema de las bacterias es que hay muchas. Aunque mates el 99.99% de las que hay por ahí, seguirás teniendo un montonaco. [Fuente](https://xkcd.com/1161/).](pics/bacterias-hand-sanitizer-xkcd.png "Una gota invisible de estornudo contiene 200 millones de gérmenes. El desinfectante de manos mata el 99.99% de las bacterias. Si haces las cuentas, 200000000 * 0.0001 = ¡Biij")
+
 Seguir añadiendo nueves no nos protege demasiado más:
 cada nuevo nueve sólo añade tres horas y veinte minutos.
 Incluso un jabón que elimine
