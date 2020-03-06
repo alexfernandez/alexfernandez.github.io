@@ -16,6 +16,24 @@ Ya hemos visto en la
 que hay abundantes bacterias en las nubes.
 Vamos a seguir subiendo a ver qué nos encontramos.
 
+## Alta atmósfera
+
+A unos 10 km de altura (donde vuelan los aviones comerciales)
+se encuentra la tropopausa;
+a partir de aquí empieza la estratosfera.
+Y a 12 km sigue habiendo
+[abundantes bacterias](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6102410/).
+
+![Un avión experimental de la NASA sobrevuela California en 2018. En un par de ocasiones la concentración de partículas no disminuye entre 5 y 12 km. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6102410/).](pics/bacterias-stratosphere-density.jpg "La concentración inicial a unos pocos km de altura es de 15 µg/m<sup>3</sup>. A 5 km de altura baja a 0.20 µg/m<sup>3</sup>, y se queda ahí hasta los 12 km.")
+
+Seguimos subiendo: entre 20 y 40 km
+necesitamos un globo aerostático.
+También [sigue habiendo bacterias](https://www.sciencedaily.com/releases/2009/03/090318094642.htm).
+A partir de aquí vamos en cohete meteorológico,
+y [encontramos microbios hasta 77 km de altura](https://aem.asm.org/content/aem/35/1/1.full.pdf).
+
+![En 1976 la URSS envió varios cohetes meteorológicos a recolectar muestras entre 48 y 85 km de altura. Se encontraron colonias de bacterias hasta 77 km de altura. [Fuente](https://aem.asm.org/content/aem/35/1/1.full.pdf).](pics/bacterias-cohete-ruso.jpg "Bahía de instrumentos a la izquierda mostrando bolsas de recogida. Cono separable a la derecha.")
+
 Se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
 correspondiente a organismos terrestres.
@@ -28,8 +46,9 @@ que hay bacterias que resisten el vacío del espacio.
 Las esporas de la humilde _Bacillus subtilis_
 [sobreviven sin problemas al vacío y a la radiación ultravioleta](https://www.ncbi.nlm.nih.gov/pubmed/11542695).
 Pero en el espacio hay problemas más grandes:
-[radiación ionizante](https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters),
-de rayos X en adelante.
+la [radiación ionizante](https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters)
+consiste en rayos X, rayos Gamma (más energéticos todavía)
+y partículas que pueden causar daños celulares.
 En el momento en el que pasamos la baja órbita terrestre cruzamos los cinturones de Van Allen;
 la exposición es constante y significativa.
 
@@ -69,7 +88,13 @@ No en vano hay toda una disciplina,
 la astrobiología,
 dedicada a encontrarla.
 
-# ¿Vida en Marte?
+## En la Luna
+
+Todos sabemos que no hay vida en la luna.
+Pero, ¿pueden sobrevivir las bacterias terrestres?
+[ejemplares de _Streptococcus mitis_](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf).
+
+## ¿Vida en Marte?
 
 ¿Qué pensaríais que pasaría si una misión al planeta rojo detectara vida?
 Grandes titulares y multitud de planes para expandir los descubrimientos, como mínimo.
@@ -116,6 +141,9 @@ Catharine "Cassie" Conley.
 
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
+
+Parece que las esporas bacterianas
+[sobreviven sin problemas a la transferencia entre planetas](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf).
 
 Y ¿qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
