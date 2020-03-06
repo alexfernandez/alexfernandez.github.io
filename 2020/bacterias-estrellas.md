@@ -7,8 +7,51 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-En esta última parte vamos a explorar el origen mismo de las bacterias,
-y para la ocasión vamos a salirnos de nuestro planeta.
+En esta última parte vamos a explorar el origen mismo de las bacterias.
+
+# ¿Hasta dónde llega la biosfera?
+
+Se ha encontrado material genético bacteriano
+[en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
+correspondientes a bacterias terrestres.
+
+## Radiación
+
+Se ha sugerido que las bacterias más resistentes que conocemos,
+_Deinococcus radiodurans_ (10 kGy),
+tienen su
+[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
+ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+Similar a
+[_Rubrobacter radiotolerans_: 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
+D10: 11 kGy.
+[_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
+D10: > 5 kGy.
+
+Hay una arquea que resiste más:
+[_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
+Resistiría 30 kGy; unos
+[15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
+el reactor de fusión más potente del mundo en plena operación.
+En [un incidente tipo Fukushima con fusión del núcleo](https://www-pub.iaea.org/MTCD/Publications/PDF/TE-1818_web.pdf)
+una cepa podría aguantar un día completo dentro del vaso de contención.
+
+![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
+
+Con radiación es posible conseguir _E. coli_ que aguanta
+[2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
+[Tardígrado: hasta 1 kGy siendo fértil](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
+LD50: 5 kGy. D10: ~5 kGy.
+
+![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
+
+# ¿Vida en el sistema solar?
+
+En esta ocasión vamos a salirnos de nuestro planeta.
+
+No en vano hay toda una disciplina,
+la astrobiología,
+dedicada a encontrarla.
 
 # ¿Vida en Marte?
 
@@ -57,44 +100,6 @@ Catharine "Cassie" Conley.
 
 De vez en cuando
 [ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
-
-# ¿Vida en el sistema solar?
-
-No en vano hay toda una disciplina,
-la astrobiología,
-dedicada a encontrarla.
-
-Se ha sugerido que las bacterias más resistentes que conocemos,
-_Deinococcus radiodurans_ (10 kGy),
-tienen su
-[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
-ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
-Similar a
-[_Rubrobacter radiotolerans_: 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
-D10: 11 kGy.
-[_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
-D10: > 5 kGy.
-
-Hay una arquea que resiste más:
-[_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
-Resistiría 30 kGy; unos
-[15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
-el reactor de fusión más potente del mundo en plena operación.
-En [un incidente tipo Fukushima con fusión del núcleo](https://www-pub.iaea.org/MTCD/Publications/PDF/TE-1818_web.pdf)
-una cepa podría aguantar un día completo dentro del vaso de contención.
-
-![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
-
-Con radiación es posible conseguir _E. coli_ que aguanta
-[2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
-[Tardígrado: hasta 1 kGy siendo fértil](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
-LD50: 5 kGy. D10: ~5 kGy.
-
-![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
-
-Se ha encontrado material genético bacteriano
-[en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
-correspondientes a bacterias terrestres.
 
 Y ¿qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
