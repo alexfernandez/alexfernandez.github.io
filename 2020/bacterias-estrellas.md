@@ -96,13 +96,12 @@ D10: 11 kGy.
 [_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
 D10: > 5 kGy.
 
-Hay una arquea que resiste más:
+Hay una arquea que resiste hasta 30 kGy:
 [_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
-Resistiría 30 kGy; unos
-[15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
+Podría aguantar [hasta 15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
 el reactor de fusión más potente del mundo en plena operación.
 En [un incidente tipo Fukushima con fusión del núcleo](https://www-pub.iaea.org/MTCD/Publications/PDF/TE-1818_web.pdf)
-una cepa podría aguantar un día completo dentro del vaso de contención.
+una cepa podría sobrevivir un día completo dentro del vaso de contención contaminado.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
 
