@@ -105,11 +105,11 @@ D10: 2 kGy.
 Podemos establecer un ranking basándonos en el valor D<sub>10</sub>:
 la dosis que mata al 90% de los ejemplares.
 
-|Image|Species|D<sub>10</sub>|
+|Foto carné|Especie|D<sub>10</sub>|
 |---|---|---|
 |![](pics/bacterias-radiación-lady.png)|_Homo sapiens_|5 Gy|
 |![](pics/bacterias-radiación-cucaracha.png)|_Blatella germanica_|900 Gy|
-|![](pics/bacterias-radiación-e-coli.png)|_E. coli_ (hardened)|2 kGy|
+|![](pics/bacterias-radiación-e-coli.png)|_E. coli_ (hardening)|2 kGy|
 |![](pics/bacterias-radiación-tardígrado.png)|_Milnesium tardigradum_|5 kGy|
 |![](pics/bacterias-radiación-deinococcus.png)|_Deinococcus radiodurans_|10 kGy|
 |![](pics/bacterias-radiación-thermococcus.png)|_Thermococcus gammatolerans_|30 kGy|
