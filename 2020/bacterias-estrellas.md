@@ -186,8 +186,7 @@ se resignaron a aceptar que se habían detectado mecanismos inorgánicos que sim
 De vuelta en la Tierra se ha demostrado que
 [la presencia de perclorato en el suelo marciano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3691774/)
 puede haber provocado el falso negativo.
-
-¿Por qué negar el hallazgo de vida en Marte pues?
+¿Por qué dudar del hallazgo de vida en Marte pues?
 ¿Acaso los hombrecillos verdes controlan las instituciones terráqueas?
 No es necesario buscar conspiraciones:
 el principio de prudencia se debe aplicar mientras no haya resultados concluyentes.
@@ -221,6 +220,10 @@ Si es así, sería complicado explicar su ausencia tras 4000 mil millones de añ
 "intercambiando babas",
 como dijo el científico de la NASA
 [Chris McKay](https://blogs.scientificamerican.com/observations/im-convinced-we-found-evidence-of-life-on-mars-in-the-1970s/).
+
+Lo que es bastante incomprensible es que no se envíen nuevas misiones a Marte
+con la capacidad de localizar vida,
+según lo que hoy sabemos.
 
 ## Otros planetas
 
