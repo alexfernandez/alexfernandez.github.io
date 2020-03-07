@@ -250,9 +250,12 @@ puede darnos más pistas.
 
 # Panspermia
 
-Es [bastante común](http://checktheevidencecom.ipage.com/checktheevidence.com/pdf/Directed%20Panspermia%20F.%20H.%20C.%20CRICK%20AND%20L.%20E.%20Orgel.pdf)
+[Anaxágoras de Clazómene](https://cosmosmagazine.com/biology/over-our-heads-a-brief-history-of-panspermia)
+habla de "semillas recorriendo el cosmos".
+Sin embargo, es
+[bastante común](http://checktheevidencecom.ipage.com/checktheevidence.com/pdf/Directed%20Panspermia%20F.%20H.%20C.%20CRICK%20AND%20L.%20E.%20Orgel.pdf)
 atribuir la idea de panspermia a Arrhenius.
-Sin embargo, él mismo cita a científicos anteriores en su
+Él mismo cita a científicos anteriores en su
 ["Worlds in the Making: The Evolution of the Universe" (1908)](https://archive.org/details/worldsinmakingev00arrhrich/page/226/mode/2up).
 En cualquier caso su visión es muy enriquecedora:
 
