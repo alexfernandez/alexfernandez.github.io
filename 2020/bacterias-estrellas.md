@@ -348,6 +348,10 @@ y las objeciones de los revisores no tienen desperdicio.)
 
 ![Tamaño de genoma para algunos grandes grupos de animales. Nótese que la gráfica es logarítmica, por lo que la recta de regresión sería en realidad exponencial: la evolución se iría acelerando según aumenta el tamaño del genoma. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/).](pics/bacterias-sharov-genome.jpg "En la gráfica se muestran los genomas de procariotas, eucariotas, gusanos, peces y mamíferos. Los valores aparentan estar aproximadamente sobre una línea recta en una gráfica logarítmica. Se distingue entre genoma completo y genoma funcional no redundante. La recta de regresión exponencial cruzaría el origen hace unos diez mil millones de años.")
 
+Es una lástima que haya tanto charlatán en un campo tan intrigante.
+Por suerte cada vez hay más científicos serios,
+como [Gerda Horneck](https://www.astrobio.net/extreme-life/the-lessons-of-exposure/).
+
 # ¿El origen del sol?
 
 Los elementos que componen la Tierra se fraguaron
@@ -396,7 +400,10 @@ lo que para muchos volvió a confirmar la paternidad de M67.
 
 Combinando la teoría de la panspermia estelar con este descubrimiento,
 podríamos pensar que el origen de la vida debería de buscarse en este cluster.
-Incluso que serían buenos candidatos para buscar seres vivos.
+Incluso que serían buenos candidatos para buscar seres vivos,
+o incluso civilizaciones avanzadas.
+Están un poco lejos para ir a visitarlos,
+y a ellos les quedan unos 2900 años para recibir nuestras primeras emisiones de radio.
 
 ![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
 
