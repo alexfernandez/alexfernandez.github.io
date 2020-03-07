@@ -53,7 +53,7 @@ En el momento en el que vamos más allá de la baja órbita terrestre
 (unos 2000 km) cruzamos los cinturones de Van Allen;
 a partir de aquí la exposición es constante y nociva.
 
-![Cinturones de Van Allen y diversas órbitas. [Fuente](https://commons.wikimedia.org/wiki/File:Comparison_satellite_navigation_orbits-es.svg).](pics/bacterias-orbitas-satelites.jpg "El cinturón de Van Allen interior está entre 500 y 5000 km de altura; el exterior entre 15000 y 38000 km. La baja órbita terrestre llega a unos 2000 km.")
+![Cinturones de Van Allen y diversas órbitas. [Fuente](https://commons.wikimedia.org/wiki/File:Comparison_satellite_navigation_orbits-es.svg).](pics/bacterias-orbitas-satelites.svg "El cinturón de Van Allen interior está entre 500 y 5000 km de altura; el exterior entre 15000 y 38000 km. La baja órbita terrestre llega a unos 2000 km.")
 
 En los años 50 
 
