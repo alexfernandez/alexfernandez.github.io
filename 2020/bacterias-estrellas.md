@@ -139,12 +139,20 @@ dedicada a encontrarla.
 
 ## En la Luna
 
-Todos sabemos que no hay vida en la luna.
+En primer lugar vamos a hacer una visita rápida a la Luna.
+Tras múltiples misiones tripuladas se sabe que por allí no hay vida,
+ni las condiciones adecuadas para que se dé.
 Pero, ¿pueden sobrevivir las bacterias terrestres?
-[ejemplares de _Streptococcus mitis_](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf).
+Todo indica que sí.
+En 1972 los astronautas de la misión Apollo 12
+recogieron la sonda _Surveyor 3_,
+y a bordo encontraron
+[ejemplares vivos de _Streptococcus mitis_](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf)
+en el interior de una cámara.
 
 ## ¿Vida en Marte?
 
+Vamos a seguir al que parece el candidato más viable: Marte.
 ¿Qué pensaríais que pasaría si una misión al planeta rojo detectara vida?
 Grandes titulares y multitud de planes para expandir los descubrimientos, como mínimo.
 La realidad es (o fue) mucho más modesta.
@@ -182,19 +190,36 @@ Además se encuentra O<sub>2</sub> que no puede explicarse sólo por fuentes ino
 y que [aumenta en primavera y verano](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006175).
 ¿Qué nos falta pues?
 
+![Estaciones en Marte. [Fuente](https://www.twoplanetsteel.com/news/May22.2016.html).](pics/bacterias-marte-estaciones.jpg "A la izquierda Marte a comienzos de primavera, en el centro a finales de primavera: en ambos casos un casco polar visible. A la derecha vista de finales del verano: menos gases, no hay casco polar. Imágenes del Hubble, tomadas en 1996, 1995 y 2016 respectivamente.")
+
 ¿Es posible que hayamos llevado nosotros esas bacterias?
 En la NASA tienen una "oficial de protección planetaria",
 Catharine "Cassie" Conley.
 
 ![Representación artística de la Planetary Protection Officer, según xkcd. [Fuente](https://what-if.xkcd.com/imgs/a/117/officer.png).](pics/bacterias-planetary-protection-officer.png "Cómic de una señora molona con espada rodeada de planetas.")
 
-De vez en cuando
-[ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html).
+Sin embargo, de vez en cuando
+[ocurren accidentes](https://www.space.com/13783-nasa-msl-curiosity-mars-rover-planetary-protection.html)
+y se cuelan esporas terrestres.
+Será complicado asegurarse de que las bacterias que encontremos no procedan de alguna misión espacial.
 
 Parece que las esporas bacterianas
 [sobreviven sin problemas a la transferencia entre planetas](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf).
+No parece muy descabellado pensar que unas criaturas tan adaptables
+que sean capaces de proliferar en nuestro planeta vecino.
+Si es así, sería complicado explicar su ausencia tras 4000 mil millones de años
+"intercambiando saliva",
+como dijo el científico de la NASA
+[Chris McKay](https://blogs.scientificamerican.com/observations/im-convinced-we-found-evidence-of-life-on-mars-in-the-1970s/).
 
-Y ¿qué pasa con esa
+## Otros planetas
+
+Por desgracia, los planetas interiores están demasiado calientes.
+En marte la temperatura media es de
+[467 C](https://www.space.com/18526-venus-temperature.html),
+haciéndolo estériles al menos por lo que sabemos hoy día.
+
+Pero ¿qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
 Desde luego parece que merece más estudio,
 al menos para descartar que provenga de arqueas
