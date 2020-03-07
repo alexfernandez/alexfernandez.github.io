@@ -100,7 +100,7 @@ Los tardígrados soportan
 [unos 5 kGy](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
 aunque en realidad a partir de 1 kGy dejan de ser fértiles.
 
-![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
+![Hardening de _E. coli_. La imagen es de 2019; este experimento sigue en marcha así que es posible que la resistencia siga aumentando. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
 
 Podemos establecer un ranking basándonos en el valor D<sub>10</sub>:
 la dosis que mata al 90% de los ejemplares.
