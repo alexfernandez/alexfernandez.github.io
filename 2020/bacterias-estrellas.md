@@ -214,17 +214,35 @@ como dijo el científico de la NASA
 ## Otros planetas
 
 Por desgracia, los planetas interiores están demasiado calientes.
-En marte la temperatura media es de
+En Venus la temperatura media es de
 [467 C](https://www.space.com/18526-venus-temperature.html),
-haciéndolo estériles al menos por lo que sabemos hoy día.
+haciéndolo estéril (al menos por lo que sabemos hoy día).
 
-Pero ¿qué pasa con esa
+Los planetas gaseosos son un misterio,
+y los satélites de Júpiter son particularmente prometedores.
+¿Qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
 Desde luego parece que merece más estudio,
 al menos para descartar que provenga de arqueas
 (o sus equivalentes jovianas).
 
 # Panspermia
+
+Es [bastante común](http://checktheevidencecom.ipage.com/checktheevidence.com/pdf/Directed%20Panspermia%20F.%20H.%20C.%20CRICK%20AND%20L.%20E.%20Orgel.pdf)
+atribuir la idea de panspermia a Arrhenius.
+Sin embargo, él mismo cita a científicos anteriores en su
+["Worlds in the Making: The Evolution of the Universe" (1908)](https://archive.org/details/worldsinmakingev00arrhrich/page/226/mode/2up).
+En cualquier caso su visión es muy enriquecedora:
+
+> Es por tanto probable que gérmenes de los organismos más bajos que conocemos
+> se arrastren continuamente desdde la Tierra y de los otros planetas en los que existan.
+> Como semillas que son, es seguro que la mayoría de estas esporas,
+> arrastradas de esta forma,
+> encuentrarán la muerte en el frío espacio infinito del Universo.
+> Pero un pequeño número de esporas caerá en otro mundo,
+> y pueden ser capaces de dispersar la vida allí si las condiciones fueran favorables.
+
+## Ecosistema solar
 
 La primera vez que me encontré con esta idea de que la vida se había originado en otro planeta,
 o incluso en otro sistema solar,
@@ -239,9 +257,17 @@ Si todo nuestro sistema solar está lleno de bacterias
 esto nos permitiría contemplar un ecosistema gigante,
 con bacterias evolucionando en otros cuerpos celestes
 y volviendo a la Tierra como nuevas especies que enriquecen (o alteran) nuestros ecosistemas.
-En particular, Fred Hoyle propuso que
-[las enfermedades pueden tener su origen extraterrestre](https://www.hoyle.org.uk/resources/virusesfromspacecompressed.pdf),
-aunque la especifidad de los ataques contra nuestras células siembra serias dudas.
+
+El propio Sagan, citado por nuestro
+[viejo amigo Crick](bacterias-tecnologia),
+expuso
+[serias dudas](http://checktheevidencecom.ipage.com/checktheevidence.com/pdf/Directed%20Panspermia%20F.%20H.%20C.%20CRICK%20AND%20L.%20E.%20Orgel.pdf);
+la más grave era la radiación que recibirían las esporas _en route_
+entre planetas.
+Ya hemos visto cómo las procariotas pueden superar este obstáculo sin problemas,
+y más todavía si están insertas en rocas.
+
+## Ecosistema galáctico
 
 Abriendo un poco más los ojos,
 y ampliando los periodos de tiempo considerados,
@@ -250,14 +276,17 @@ Al fin y al cabo,
 todo parece indicar que ya había abundante vida en la Tierra
 [hace 3700 millones de años](https://www.researchgate.net/profile/Takeshi_Kakegawa/publication/262981831_Evidence_for_biogenic_graphite_in_early_Archaean_Isua_metasedimentary_rocks/links/0046352fdb80b2cbf2000000.pdf),
 poco después de que se enfriara el planeta.
-¿No puede ser que se originara en otra estrella que luego explotara,
-y que por tanto la vida ya estuviera en el sistema solar desde su formación?
+
+¿No puede ser que la vida se originara en otra estrella que luego explotara,
+y que por tanto ya estuviera en el sistema solar desde su formación?
 En este caso podríamos ver nuestro entorno galáctico
 como un caldo de cultivo de vida,
 con [estrellas que se contaminan unas a otras](https://iopscience.iop.org/article/10.3847/2041-8213/aaef2d)
 intercambiando cometas y asteroides.
 
-Hay que tener mucho cuidado con estas ideas.
+## Teorías desde el borde
+
+Según vamos ampliando horizontes hay que tener mucho cuidado con estas ideas.
 A veces vienen de científicos reputados como
 [Stephen Hawking](https://web.archive.org/web/20110724233755/http://www.statepress.com/archive/node/5745):
 
@@ -269,6 +298,13 @@ Pero también hay propuestas de gente más _fringe_ como las del
 que es, digamos,
 [poco](https://scienceblogs.com/pharyngula/2011/03/06/did-scientists-discover-bacter)
 [escrupuloso](https://www.discovermagazine.com/the-sciences/followup-thoughts-on-the-meteorite-fossils-claim).
+
+En particular, el astrónomo Fred Hoyle propuso que
+[muchas enfermedades pueden tener su origen extraterrestre](https://www.hoyle.org.uk/resources/virusesfromspacecompressed.pdf),
+incluyendo el SIDA.
+Ya [hemos visto](bacterias-tecnologia)
+la especifidad de los ataques contra nuestras células,
+lo que siembra serias dudas en esta teoría.
 
 La intrigante idea de Sharov de que
 [la vida se originó hace diez mil millones de años](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526419/)
