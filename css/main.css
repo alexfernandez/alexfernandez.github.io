@@ -2262,6 +2262,7 @@
 
 		table td {
 			padding: 0.25em 0.25em;
+			vertical-align: middle;
 		}
 
 		table th {
