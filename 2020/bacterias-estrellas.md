@@ -48,14 +48,14 @@ Las esporas de la humilde _Bacillus subtilis_
 Pero en el espacio hay problemas más grandes:
 la [radiación ionizante](https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters)
 consiste en rayos X, rayos Gamma (más energéticos todavía)
-y partículas que pueden causar daños celulares.
+y otras partículas que pueden causar daños celulares.
 En el momento en el que vamos más allá de la baja órbita terrestre
 (unos 2000 km) cruzamos los cinturones de Van Allen;
 a partir de aquí la exposición es constante y nociva.
 
 ![Cinturones de Van Allen y diversas órbitas. [Fuente](https://commons.wikimedia.org/wiki/File:Comparison_satellite_navigation_orbits-es.svg).](pics/bacterias-orbitas-satelites.svg "El cinturón de Van Allen interior está entre 500 y 5000 km de altura; el exterior entre 15000 y 38000 km. La baja órbita terrestre llega a unos 2000 km.")
 
-Vamos a investigar más en detalle la resistencia a esta radiación ionizante.
+Vamos a investigar más en detalle qué hace falta para abandonar la Tierra con garantías.
 En 1956 A. W. Anderson y su equipo intentaban esterilizar carne picada con radiación.
 Incluso con dosis masivas de 10 kGy la carne se echaba a perder.
 Por comparar, 5 Gray (la unidad de irradiación) son letales para un humano,
@@ -65,14 +65,15 @@ una criatura notable por su resistencia a la radiación.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/S-6cIy_s8pQ?start=84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Al investigar qué podía estar creciendo con estos niveles de radiación ionizante,
-Descubrieron la bacteria
+Al investigar qué podía estar creciendo con estos niveles de radiación ionizante
+descubrieron la bacteria
 [_Micrococcus Radiodurans_](https://biochem.wisc.edu/sites/default/files/labs/cox/pdfs/38.pdf),
 más tarde renombrada a _Deinococcus Radiodurans_:
-el primer extremófilo que se descubrió en esta nueva categoría de
-resistencia a la radiación.
-Similar a
-[_Rubrobacter radiotolerans_: 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
+el primer extremófilo en esta nueva categoría.
+
+A partir de entonces se descubrieron otras bacterias que también resistían tremendas dosis de radiación,
+con nombres cada vez más fantásticos:
+[_Rubrobacter radiotolerans_ llegaba a 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
 D10: 11 kGy.
 [_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
 D10: > 5 kGy.
@@ -99,12 +100,17 @@ Con radiación es posible conseguir _E. coli_ que aguanta
 LD50: 5 kGy. D10: ~5 kGy.
 
 ![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
+D10: 2 kGy.
+
+Podemos establecer un ranking basándonos en el valor D<sub>10</sub>:
+la dosis que mata al 90% de los ejemplares.
 
 # ¿Vida en el sistema solar?
 
-En esta ocasión vamos a salirnos de nuestro planeta.
-
-No en vano hay toda una disciplina,
+Una vez que aguantamos dosis masivas de radiación ionizante,
+no hay razón para quedarnos en nuestro planeta.
+¿Hay vida en otros puntos de nuestro sistema solar?
+Hay toda una disciplina,
 la astrobiología,
 dedicada a encontrarla.
 
