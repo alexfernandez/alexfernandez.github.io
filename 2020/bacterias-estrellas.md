@@ -67,8 +67,8 @@ una criatura notable por su resistencia a la radiación.
 
 Al investigar qué podía estar creciendo con estos niveles de radiación ionizante
 descubrieron la bacteria
-[_Micrococcus Radiodurans_](https://biochem.wisc.edu/sites/default/files/labs/cox/pdfs/38.pdf),
-más tarde renombrada a _Deinococcus Radiodurans_:
+[_Deinococcus radiodurans_](https://biochem.wisc.edu/sites/default/files/labs/cox/pdfs/38.pdf),
+originalmente nombrada _Micrococcus radiodurans_:
 el primer extremófilo en esta nueva categoría.
 
 A partir de entonces se descubrieron otras bacterias que también resistían tremendas dosis de radiación,
