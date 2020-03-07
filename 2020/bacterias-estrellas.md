@@ -55,13 +55,22 @@ a partir de aquí la exposición es constante y nociva.
 
 ![Cinturones de Van Allen y diversas órbitas. [Fuente](https://commons.wikimedia.org/wiki/File:Comparison_satellite_navigation_orbits-es.svg).](pics/bacterias-orbitas-satelites.svg "El cinturón de Van Allen interior está entre 500 y 5000 km de altura; el exterior entre 15000 y 38000 km. La baja órbita terrestre llega a unos 2000 km.")
 
-En los años 50 
+Vamos a investigar más en detalle la resistencia a esta radiación ionizante.
+En 1956 A. W. Anderson y su equipo intentaban esterilizar carne picada con radiación.
+Incluso con dosis masivas de 10 kGy la carne se echaba a perder.
+Por comparar, 5 Gray (la unidad de irradiación) son letales para un humano,
+las famosas cucarachas [no llegan al kGy](http://morgana249.blogspot.com/2014/08/6-organisms-that-can-survive-fallout.html),
+y 5 kGy fríen a un tardígrado (osito de agua),
+una criatura notable por su resistencia a la radiación.
 
-Se ha sugerido que las bacterias más resistentes que conocemos,
-_Deinococcus radiodurans_ (10 kGy),
-tienen su
-[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
-ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/S-6cIy_s8pQ?start=84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Al investigar qué podía estar creciendo con estos niveles de radiación ionizante,
+Descubrieron la bacteria
+[_Micrococcus Radiodurans_](https://biochem.wisc.edu/sites/default/files/labs/cox/pdfs/38.pdf),
+más tarde renombrada a _Deinococcus Radiodurans_:
+el primer extremófilo que se descubrió en esta nueva categoría de
+resistencia a la radiación.
 Similar a
 [_Rubrobacter radiotolerans_: 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
 D10: 11 kGy.
@@ -77,6 +86,12 @@ En [un incidente tipo Fukushima con fusión del núcleo](https://www-pub.iaea.or
 una cepa podría aguantar un día completo dentro del vaso de contención.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
+
+Se ha sugerido que las bacterias más resistentes que conocemos,
+_Deinococcus radiodurans_ (10 kGy),
+tienen su
+[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
+ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
 
 Con radiación es posible conseguir _E. coli_ que aguanta
 [2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
