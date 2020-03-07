@@ -123,7 +123,10 @@ Pero no es única opción.
 Otros estudios apuntan a que la resistencia a la radiación
 usa [los mismos mecanismos](https://jb.asm.org/content/jb/178/3/633.full.pdf)
 que la resistencia a la desecacion.
-No hay por tanto una evidencia concluyente.
+No hay por tanto una evidencia concluyente de que esta resistencia
+se haya adquirido realmente con exposición a la radiación,
+puede ser simplemente una coincidencia,
+afortunada para nuestros propósitos de encontrar vida más allá de la Tierra.
 
 # ¿Vida en el sistema solar?
 
