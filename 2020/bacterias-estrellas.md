@@ -186,7 +186,7 @@ se resignaron a aceptar que se habían detectado mecanismos inorgánicos que sim
 De vuelta en la Tierra se ha demostrado que
 [la presencia de perclorato en el suelo marciano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3691774/)
 puede haber provocado el falso negativo.
-¿Por qué dudar del hallazgo de vida en Marte pues?
+¿Por qué dudar del hallazgo de vida en Marte?
 ¿Acaso los hombrecillos verdes controlan las instituciones terráqueas?
 No es necesario buscar conspiraciones:
 el principio de prudencia se debe aplicar mientras no haya resultados concluyentes.
