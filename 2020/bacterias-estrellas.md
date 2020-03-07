@@ -215,7 +215,7 @@ Será complicado asegurarse de que las bacterias que encontremos no procedan de 
 Parece que las esporas bacterianas
 [sobreviven sin problemas a la transferencia entre planetas](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf).
 No parece muy descabellado pensar que unas criaturas tan adaptables
-que sean capaces de proliferar en nuestro planeta vecino.
+sean capaces de proliferar en nuestro planeta vecino.
 Si es así, sería complicado explicar su ausencia tras 4000 mil millones de años
 "intercambiando babas",
 como dijo el científico de la NASA
