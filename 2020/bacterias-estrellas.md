@@ -94,12 +94,6 @@ una cepa podría aguantar un día completo dentro del vaso de contención.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
 
-Se ha sugerido que estas bacterias tan resistentes tienen su
-[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
-ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
-Pero no es única opción.
-
-
 Con radiación es posible conseguir _E. coli_ que aguanta
 [2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
 Los tardígrados soportan
@@ -120,6 +114,16 @@ la dosis que mata al 90% de los ejemplares.
 |![](pics/bacterias-radiación-tardígrado.png)|_Milnesium tardigradum_|5 kGy|
 |![](pics/bacterias-radiación-deinococcus.png)|_Deinococcus radiodurans_|10 kGy|
 |![](pics/bacterias-radiación-thermococcus.png)|_Thermococcus gammatolerans_|30 kGy|
+
+¿Por qué hay procariotas tan resistentes a la radiación?
+Se ha sugerido que estas bacterias tan resistentes tienen su
+[origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
+ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+Pero no es única opción.
+Otros estudios apuntan a que la resistencia a la radiación
+usa [los mismos mecanismos](https://jb.asm.org/content/jb/178/3/633.full.pdf)
+que la resistencia a la desecacion.
+No hay por tanto una evidencia concluyente.
 
 # ¿Vida en el sistema solar?
 
