@@ -129,8 +129,8 @@ la dosis que mata al 90% de los ejemplares de una cepa.
 Se ha sugerido que estas bacterias tan resistentes tienen su
 [origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
-Pero no es única opción.
-Otros estudios apuntan a que la resistencia a la radiación
+Pero no es la única opción:
+otros estudios apuntan a que la resistencia a la radiación
 usa [los mismos mecanismos](https://jb.asm.org/content/jb/178/3/633.full.pdf)
 que la resistencia a la desecacion.
 No hay por tanto una evidencia concluyente de que esta resistencia
