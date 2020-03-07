@@ -96,7 +96,7 @@ D10: 11 kGy.
 [_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
 D10: > 5 kGy.
 
-Hay una arquea que resiste hasta 30 kGy:
+El récord ahora mismo lo tiene una arquea que resiste hasta 30 kGy:
 [_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
 Podría aguantar [hasta 15 segundos en el muro interior de ITER](https://crppwww.epfl.ch/~weisen/Cours_fichiers/ITER%20DIAGNOSTICS.pdf),
 el reactor de fusión más potente del mundo en plena operación.
