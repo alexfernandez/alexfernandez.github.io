@@ -18,6 +18,18 @@ Vamos a seguir subiendo a ver qué nos encontramos.
 
 ## Alta atmósfera
 
+En primer lugar tengo que citar un
+[apasionante experimento](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5864199/)
+en la Sierra Nevada:
+un equipo liderado por Isabel Reche,
+[profesora de ecología en la Universidad de Granada](http://ecologia.ugr.es/pages/personal/profesorado/i_reche),
+colocó dos cubos estériles a 2.5 y 3 km de altura.
+Cada día recolectaron decenas de millones de bacterias
+y billones de virus por metro cuadrado.
+Parte de ellos llegaron con el aire húmedo,
+pero otros parecían dispersarse desde grandes distancias,
+favoreciendo la idea de que virus y bacterias forman una red global.
+
 A unos 10 km de altura (donde vuelan los aviones comerciales)
 se encuentra la tropopausa;
 a partir de aquí empieza la estratosfera.
