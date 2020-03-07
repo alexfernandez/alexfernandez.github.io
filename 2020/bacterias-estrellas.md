@@ -114,7 +114,7 @@ aunque en realidad a partir de 1 kGy dejan de ser fértiles.
 ![Hardening de _E. coli_. La imagen es de 2019; este experimento sigue en marcha así que es posible que la resistencia siga aumentando. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
 
 Podemos establecer un ranking basándonos en el valor D<sub>10</sub>:
-la dosis que mata al 90% de los ejemplares.
+la dosis que mata al 90% de los ejemplares de una cepa.
 
 |Foto carné|Especie|D<sub>10</sub>|
 |---|---|---|
