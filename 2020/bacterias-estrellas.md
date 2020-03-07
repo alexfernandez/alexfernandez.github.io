@@ -101,7 +101,6 @@ Los tardígrados soportan
 aunque en realidad a partir de 1 kGy dejan de ser fértiles.
 
 ![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
-D10: 2 kGy.
 
 Podemos establecer un ranking basándonos en el valor D<sub>10</sub>:
 la dosis que mata al 90% de los ejemplares.
