@@ -219,7 +219,7 @@ Parece que las esporas bacterianas
 No parece muy descabellado pensar que unas criaturas tan adaptables
 que sean capaces de proliferar en nuestro planeta vecino.
 Si es así, sería complicado explicar su ausencia tras 4000 mil millones de años
-"intercambiando saliva",
+"intercambiando babas",
 como dijo el científico de la NASA
 [Chris McKay](https://blogs.scientificamerican.com/observations/im-convinced-we-found-evidence-of-life-on-mars-in-the-1970s/).
 
@@ -232,11 +232,19 @@ haciéndolo estéril (al menos por lo que sabemos hoy día).
 
 Los planetas gaseosos son un misterio,
 y los satélites de Júpiter son particularmente prometedores.
+Por ejemplo
+[Europa tiene unas grietas bastante sospechosas](https://www.astrobio.net/news-exclusive/evidence-of-bacteria-on-europa/).
 ¿Qué pasa con esa
 [misteriosa fuente de metano en Encélado](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL063013)?
 Desde luego parece que merece más estudio,
 al menos para descartar que provenga de arqueas
 (o sus equivalentes jovianas).
+
+![Chorros de gas en Encélado, con rastros de metano. Imagen: NASA/JPL/SSI. [Fuente](http://www.bbc.com/earth/story/20150326-europa-may-be-home-to-alien-life).](pics/bacterias-enceladus-plumes.jpg "La superficie de Encélado muestra chorros de gas que salen de la superficie.")
+
+La misión [JUICE](http://www.bbc.com/earth/story/20150326-europa-may-be-home-to-alien-life),
+prevista para 2022,
+puede darnos más pistas.
 
 # Panspermia
 
