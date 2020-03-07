@@ -29,12 +29,18 @@ Y a 12 km sigue habiendo
 Seguimos subiendo: entre 20 y 40 km
 necesitamos un globo aerostático.
 También [sigue habiendo bacterias](https://www.sciencedaily.com/releases/2009/03/090318094642.htm).
-A partir de aquí vamos en cohete meteorológico,
+A partir de aquí estamos en la mesosfera;
+hay que ir en cohete meteorológico,
 y [encontramos microbios hasta 77 km de altura](https://aem.asm.org/content/aem/35/1/1.full.pdf).
 
 ![En 1976 la URSS envió varios cohetes meteorológicos a recolectar muestras entre 48 y 85 km de altura. Se encontraron colonias de bacterias hasta 77 km de altura. [Fuente](https://aem.asm.org/content/aem/35/1/1.full.pdf).](pics/bacterias-cohete-ruso.jpg "Bahía de instrumentos a la izquierda mostrando bolsas de recogida. Cono separable a la derecha.")
 
-Se ha encontrado material genético bacteriano
+Sobre la siguiente capa atmosférica,
+la termosfera,
+no hay mucha información.
+Según algunos estudios
+[las procariotas pueden atravesarla sin problemas](https://arxiv.org/pdf/1711.01895.pdf).
+Sabemos seguro que se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
 correspondiente a organismos terrestres.
 
@@ -88,16 +94,17 @@ una cepa podría aguantar un día completo dentro del vaso de contención.
 
 ![Plano del reactor nuclear de fusión ITER. El muro interior aguanta 2000 Grays (2 kGy) por segundo. Una muestra de _Thermococcus gammatolerans_ podría resistir aproximadamente 15 segundos en el muro interior. [Fuente](https://www.flickr.com/photos/oakridgelab/41783636452/).](pics/bacterias-iter-plan.jpg "Plano del interior del reactor de fusión ITER. El muro interior es el que sufre las reacciones termonucleares. Mide unos 6 metros (dos pisos) de alto.")
 
-Se ha sugerido que las bacterias más resistentes que conocemos,
-_Deinococcus radiodurans_ (10 kGy),
-tienen su
+Se ha sugerido que estas bacterias tan resistentes tienen su
 [origen en Marte](https://web.archive.org/web/20081217033629/http://biospace.nw.ru/astrobiology/Articles2002/Astrobio_pavlov_25-34.pdf),
 ya que en la Tierra no es posible que se hayan expuesto a niveles de radiación lo bastante grandes.
+Pero no es única opción.
+
 
 Con radiación es posible conseguir _E. coli_ que aguanta
 [2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
-[Tardígrado: hasta 1 kGy siendo fértil](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
-LD50: 5 kGy. D10: ~5 kGy.
+Los tardígrados soportan
+[unos 5 kGy](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
+aunque en realidad a partir de 1 kGy dejan de ser fértiles.
 
 ![Hardening de _E. coli_. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")
 D10: 2 kGy.
