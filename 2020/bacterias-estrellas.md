@@ -330,15 +330,13 @@ incluyendo el SIDA.
 Ya [hemos visto](bacterias-tecnologia)
 la especifidad de los ataques contra nuestras células,
 lo que siembra serias dudas en esta teoría.
-En 2003 su colaborador Wickramasinghe
-(que tiene una tendencia extraordinaria a citarse a sí mismo)
-publicó un artículo diciendo que el virus SARS
-[tenía su origen en el espacio](https://linkinghub.elsevier.com/retrieve/pii/S014067360313440X),
-que ha
-[sido](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)14039-1/fulltext)
+En 2003 su colaborador Wickramasinghe publicó un artículo diciendo que el virus SARS
+[tenía su origen en el espacio](https://linkinghub.elsevier.com/retrieve/pii/S014067360313440X);
+esta teoría ha [sido](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)14039-1/fulltext)
 [ampliamente](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)14041-X/fulltext)
-[refutado](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)14040-8/fulltext).
+[refutada](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)14040-8/fulltext).
 Espero con ansiedad que Wickramasinghe
+(que tiene una tendencia extraordinaria a citarse a sí mismo)
 postule un origen espacial para COVID-19.
 
 ![Portada de "Diseases from Space", (Hoyle & Wickramasinghe, 1981). En absoluto parece un libro sensacionalista. [Fuente](https://profchandra.org/author/ncwick/).](pics/bacterias-diseases-from-space.jpg "Unos extraños organismos salen de un planeta marronáceo.")
