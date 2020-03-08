@@ -76,21 +76,20 @@ creo también que el campo de la
 [ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
 podría ser muy útil para estudiar las infecciones.
 
-La clave, creo yo,
+# Evolución
+
+Para entender el proceso por el que las bacterias se vuelven patogénicas
+la clave, creo yo,
 está en entender correctamente la idea de "evolución rápida".
-No se trata de un avance imparable hacia un estado ideal,
-o una mejora constante en una carrera de armas muy desigual.
+No se trata de una mejora constante en una carrera de armas muy desigual.
 "Evolución rápida" significa "adaptación rápida al medio".
 ¡Ni más ni menos!
 Las bacterias se adaptan a lo que se encuentran a gran velocidad.
-Su finalidad no es realmente acabar con nosotros,
-sino medrar en el medio donde se encuentren.
-Si usamos antibióticos se adaptarán a ellos,
+Su finalidad es medrar en el medio donde se encuentren.
+Si usamos antibióticos en exceso se adaptarán a ellos,
 y entonces puede que tengamos un problema.
 Pero ellas sólo hacen lo único que saben hacer:
 intentar sobrevivir.
-
-# Evolución
 
 Otra idea clave es que la evolución no ocurre como pensamos muchas veces:
 no es un proceso dirigido hacia una meta.
@@ -98,7 +97,7 @@ En el caso de las bacterias por ejemplo,
 no tienden al exterminio la raza humana.
 Tener muchas bacterias en un sitio evolucionando
 no las convierte en súper-bacterias resistentes a todo;
-sólo significa que se van a adaptar a ese medio cada vez mejor.
+sólo significa que se van a adaptar al medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
 
 # Enfermedades autoinmunes
