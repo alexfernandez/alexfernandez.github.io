@@ -405,7 +405,7 @@ Combinando la teoría de la panspermia estelar con este descubrimiento,
 podríamos pensar que el origen de la vida debería de buscarse en este cluster.
 Incluso que serían buenos candidatos para buscar seres vivos,
 o incluso civilizaciones avanzadas.
-Están un poco lejos para ir a visitarlos,
+Lástima que a 3000 años luz estén un poco lejos para ir a visitarlos,
 y a ellos les quedan unos 2900 años para recibir nuestras primeras emisiones de radio.
 
 ![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
