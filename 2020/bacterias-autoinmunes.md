@@ -371,7 +371,10 @@ el virus activaba las reacciones inmunes de los enfermos,
 motivo por el cual esta enfermedad se cebaba en la población más sana
 en lugar de ser más mortífera en infancia y vejez,
 como la gripe normal.
-Pero nadie califica esta enfermedad como "autoinmune".
+El sistema inmune también parece que
+[agrava la reciente COVID-19](https://www.nationalgeographic.com/science/2020/02/here-is-what-coronavirus-does-to-the-body/),
+aunque por un proceso diferente.
+Pero nadie califica estas enfermedades como "autoinmunes".
 
 Por ahora sólo queda esperar que las investigaciones continúen,
 tanto en Crohn como en el resto de enfermedades autoinmunes.
