@@ -38,7 +38,7 @@ Esta velocidad de replicación implica que las bacterias pueden evolucionar muy 
 Este vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8?start=44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Evolución a largo plazo
 
