@@ -21,7 +21,7 @@ Vamos a seguir subiendo a ver qué nos encontramos.
 
 En primer lugar tengo que citar un
 [apasionante experimento](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5864199/)
-en la Sierra Nevada:
+en Sierra Nevada:
 un equipo liderado por Isabel Reche,
 [profesora de ecología en la Universidad de Granada](http://ecologia.ugr.es/pages/personal/profesorado/i_reche),
 colocó dos cubos estériles a 2.5 y 3 km de altura.
