@@ -160,7 +160,8 @@ igual que las eucariotas,
 [memoria epigenética](https://mmbr.asm.org/content/70/3/830):
 ciertas condiciones del entorno (encontradas localmente o incluso heredadas)
 pueden hacer que se expresen ciertos genes y se supriman otros.
-Esto se consigue marcando químicamente partes del genoma (con grupos metilo).
+Esto se consigue de varias formas,
+entre ellas marcando químicamente partes del genoma (con grupos metilo).
 
 ## Memorias externas
 

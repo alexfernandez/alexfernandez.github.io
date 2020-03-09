@@ -37,7 +37,7 @@ Robert Koch por su parte introdujo sus famosos
 [postulados](https://hekint.org/2017/02/01/the-early-days-of-the-nobel-prize-and-golden-age-of-microbiology/)
 para determinar si una bacteria era la causante de una enfermedad.
 Entre otras innovaciones también introdujo el uso del agar para cultivo de bacterias,
-aunque fue por cierto la asistente e ilustradora
+aunque fue por cierto la asistente e ilustradora científica
 [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf)
 quien le dio la idea.
 
