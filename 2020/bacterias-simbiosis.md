@@ -148,6 +148,8 @@ Cada célula B se genera aleatoriamente de un
 [repertorio de trozos de ADN](https://medicalxpress.com/news/2019-02-mosaic-like-gene-deletion-duplication-pattern.html)
 presente en nuestro genoma.
 
+![La generación de anticuerpos en las células B es un proceso altamente aleatorio. [Fuente](https://www.immunology.org/public-information/bitesized-immunology/immune-development/generation-b-cell-antibody-diversity).](pics/bacterias-b-cell-generation.png "Inicialmente el genoma proporciona segmentos V, D y J. A continuación se recombinan los segmentos D-J, y finalmente ocurre la recombinación V-D-J. A partir de ahí se ensambla la inmunoglobulina.")
+
 Cuando la célula B se encuentra con un antígeno,
 su configuración única de inmunoglobulina
 le da una cierta probabilidad de que lo reconozca como patógeno.
