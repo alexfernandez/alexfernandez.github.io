@@ -7,7 +7,8 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-En esta última parte vamos a explorar el origen mismo de las bacterias.
+En esta última parte vamos a explorar el origen mismo de las bacterias,
+y ya puestos de toda la vida en la Tierra.
 
 # ¿Hasta dónde llega la biosfera?
 

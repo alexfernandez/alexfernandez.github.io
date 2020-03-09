@@ -380,7 +380,7 @@ Esta técnica puede usarse por ejemplo para
 y para [muchas otras aplicaciones](https://europepmc.org/article/PMC/5459481).
 El siguiente vídeo muestra cómo funciona.
 
-<iframe class="video" src="https://player.vimeo.com/video/106957770?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe class="video" src="https://player.vimeo.com/video/106957770?portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Esta técnica es muy prometedora también en
 [la lucha contra las infecciones](https://jcm.asm.org/content/57/4/e01307-18#sec-12),
