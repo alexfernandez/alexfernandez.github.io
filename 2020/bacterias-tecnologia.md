@@ -318,12 +318,13 @@ impensable para
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Las kinesinas son unas maquinitas moleculares que sacan los desperdicios de la célula usando ATP como combustible.
+Las kinesinas y dineínas son maquinitas moleculares que
+meten nutrientes y sacan los desperdicios de la célula usando ATP como combustible.
 Caminan por los microtúbulos,
 una especie de autopistas celulares exclusivas de las eucariotas,
 aunque en 2011 se descubrió [el equivalente bacteriano](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232192/).
 
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/wJyUtbn0O5Y?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/gpjcW-ltOFo?start=152" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 En el futuro es posible que podamos usar bacterias como nanobots,
 por ejemplo con
