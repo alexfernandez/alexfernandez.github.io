@@ -223,10 +223,12 @@ literalmente, nos jugamos la vida.
 
 La atracción en una pareja parece relacionada con el
 complejo mayor de histocompatibilidad (CMH, o MHC en inglés).
-[Preferencias en olor corporal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1688704/pdf/9364787.pdf).
+Se han hecho experimentos para comprobar las
+[preferencias en olor corporal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1688704/pdf/9364787.pdf),
+y se ha comprobado que nos atrae el olor de gente con CMH diferente al nuestro.
 Curiosamente no había diferencias entre hombres y mujeres.
 
-![Lo que sea por la ciencia. [Fuente](https://www.thriftyfun.com/Why-Dont-My-Clothes-Smell-Good.html).](pics/bacterias-olor-ropa.jpg "Una mujer huele una camiseta usada, con bastante desagrado.")
+![En el experimento unos voluntarios olían ropa usada de otros, y se medía la diferencia en CMH. Lo que sea por la ciencia. [Fuente](https://www.thriftyfun.com/Why-Dont-My-Clothes-Smell-Good.html).](pics/bacterias-olor-ropa.jpg "Una mujer huele una camiseta usada, con bastante desagrado.")
 
 De hecho tenemos un órgano especializado sólo para eso en el cuerpo:
 el [órgano vomeronasal](https://www.researchgate.net/profile/Peter_Brennan/publication/8193089_MHC_Class_I_Peptides_as_Chemosensory_Signals_in_the_Vomeronasal_Organ/links/0912f50f139abec104000000/MHC-Class-I-Peptides-as-Chemosensory-Signals-in-the-Vomeronasal-Organ.pdf).
