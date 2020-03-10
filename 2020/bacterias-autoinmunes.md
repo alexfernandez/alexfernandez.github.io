@@ -114,11 +114,13 @@ y también en
 en un ejemplo más de transmisión zoonótica?
 Esta relación se ha buscado durante mucho tiempo,
 y lo cierto es que
-[múltiples intentos de identificarla en enfermos de Crohn han fracasado](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773423/).
-La bacteria no se ha encontrado en
+[múltiples intentos de encontrar MAP en enfermos de Crohn han fracasado](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1773423/).
+La bacteria no se encuentra en biopsias de
 [tejidos afectados por Crohn](http://www.clinmedres.org/content/1/3/217.full).
-Antes de seguir con esta cuestión vamos a ver otro caso,
-en principio no relacionado.
+Qué misterio, ¿no?
+
+Antes de seguir investigando vamos a dar un rodeo por otra enfermedad
+que nos puede dar una pista de por dónde van a ir los tiros.
 
 # Úlceras y bacterias
 
