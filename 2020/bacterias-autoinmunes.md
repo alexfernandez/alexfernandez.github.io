@@ -19,8 +19,8 @@ Muchas de ellas son crónicas, y casi todas incurables a día de hoy.
 
 No se conoce la causa exacta de estas enfermedades;
 probablemente influyan factores ambientales, 
-Se sabe que muchas de ellas están relacionadas entre sí.
-Por ejemplo,
+Se sabe que varias de ellas tienden a ocurrir juntas,
+por ejemplo:
 [vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
 o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
 
