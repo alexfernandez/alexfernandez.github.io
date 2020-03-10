@@ -119,8 +119,8 @@ La bacteria no se encuentra en biopsias de
 [tejidos afectados por Crohn](http://www.clinmedres.org/content/1/3/217.full).
 Qué misterio, ¿no?
 
-Antes de seguir investigando vamos a dar un rodeo por otra enfermedad
-que nos puede dar una pista de por dónde van a ir los tiros.
+Antes de seguir investigando vamos a dar un rodeo por la hemeroteca;
+la historia de la medicina nos puede dar una pista de por dónde pueden ir los tiros.
 
 # Úlceras y bacterias
 
