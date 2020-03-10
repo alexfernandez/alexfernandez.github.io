@@ -29,12 +29,13 @@ o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/artic
 Vamos a enfocarnos de momento en la
 [enfermedad de Crohn](https://www.crohnscolitisfoundation.org/what-is-crohns-disease/overview),
 que me toca muy de cerca por tener a alguien en mi familia que la sufre.
-Se trata de una enfermedad inflamatoria intestinal crónica.
-Causa problemas digestivos severos,
-diarreas y pérdida de peso,
-y puede ser muy grave si no se trata.
+Se trata de una enfermedad inflamatoria intestinal crónica que
+causa problemas digestivos severos,
+diarreas y pérdida de peso;
+puede ser muy grave si no se trata.
 
-El número de casos crece de forma alarmante en todo el mundo.
+El número de casos está creciendo de forma alarmante en todo el mundo:
+se duplican cada diez años.
 Algunos ejemplos:
 [Canadá](https://www.sciencedirect.com/science/article/pii/S0016508519300216),
 [España](https://www.elsevier.es/en-revista-gastroenterologia-hepatologia-14-articulo-incidence-phenotype-at-diagnosis-inflammatory-S0210570515000679)
