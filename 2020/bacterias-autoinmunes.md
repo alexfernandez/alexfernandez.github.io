@@ -119,8 +119,9 @@ La bacteria no se encuentra en biopsias de
 [tejidos afectados por Crohn](http://www.clinmedres.org/content/1/3/217.full).
 Qué misterio, ¿no?
 
-Antes de seguir investigando vamos a dar un rodeo por la hemeroteca;
-la historia de la medicina nos puede dar una pista de por dónde pueden ir los tiros.
+Parece que estamos en un punto muerto.
+Antes de seguir investigando vamos a dar un rodeo por la hemeroteca:
+la historia de la medicina nos puede dar una pista de por dónde continuar.
 
 # Úlceras y bacterias
 
@@ -143,8 +144,10 @@ En 1981 un joven doctor llamado Barry Marshall
 [empezó a colaborar con otro médico, Robin Warren](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)67587-3/fulltext?fbclid=IwAR0AK0FjVEIEwfEMGiUPN87gHqIYL9nFKLwPpq2Ie1Un9E3lmWUGD0KR9OE),
 quien sospechaba de un agente bacteriano.
 Entre los dos localizaron a _Helicobacter pylori_ como el agente sospechoso de causar la úlcera.
-Nadie les creía,
-y en 1983 les rechazaron varias publicaciones.
+Nadie les creía:
+¿cómo podía ser que una enfermedad conocida desde la antigüedad estuviera causada por una bacteria
+que estaba presente en el estómago de un gran porcentaje de individuos sanos?
+En 1983 les rechazaron varias publicaciones.
 
 ![Marshall se bebe un caldo apestoso con _H. pylori_. _Spoiler alert_: En lugar de cobrar superpoderes, se agarra una úlcera inmediatamente. [Fuente](https://twitter.com/nobelprize/status/1110074840562745345).](pics/bacterias-marshall-comic.jpg "Mientras otro doctor le grita '¡Estás loco, Barry!', Marshall sostiene un caldo verdoso y responde: '¡No hay otra forma!'. A continuación se bebe el caldo: '¡Arrgh!, sabe a agua de pantano'. Por último lanza a cámara una mirada vidriosa: 'Está hecho'.")
 
@@ -156,15 +159,15 @@ bismuto y metronidazol.
 Este dramático gesto fue lo que finalmente inclinó la balanza
 y convenció a la comunidad médica para empezar a mirar el asunto.
 
-Hay que tener en cuenta que la resistencia era lógica:
-la úlcera se conocía desde la antigüedad,
-y achacarla a un agente bacteriano era un cambio de paradigma:
-¿por qué nadie lo había encontrado antes?
+Hay que tener en cuenta que la resistencia era lógica.
+Achacar las úlceras gástricas a un agente bacteriano era un cambio de paradigma,
+y ¿por qué nadie lo había encontrado antes?
 Pero también había una industria detrás de
 [tres mil millones de dólares](https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery).
 Y no sólo en antiácidos:
-los gastroenterólogos tenían las consultas llenas de pacientes sospechosos de tener úlceras.
+los gastroenterólogos tenían las consultas llenas de pacientes con sospecha de úlcera.
 
+Pero la evidencia era innegable: la mayoría de pacientes empezaron a curarse.
 En 1989 el doctor Thomas Borody
 [añadió tetraciclina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4939773/)
 a la mezcla de Marshall,
@@ -196,26 +199,25 @@ bacterias en las lesiones de enfermos de Crohn.
 
 Aquí es donde tenemos que investigar a fondo la coartada de la MAP.
 Resulta que esta fastidiosa bacteria tiene dos formas:
-la normal con pared celular normal y una forma alternativa "desnuda"
+la más común con pared celular normal y una forma alternativa "desnuda"
 o [esferoplasto](https://pdfs.semanticscholar.org/3f2c/4d0eef0e42a78c8de67298c414fab4f922a7.pdf),
-En esta segunda forma la bacteria se deshace de esta cubierta,
+En esta segunda forma la bacteria se deshace de su cubierta,
 por lo que resulta
 [imposible de detectar con la tinción estándar Ziehl-Neelsen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2975476/).
 No es raro porque es un
 [método optimizado para _M. tuberculosis_](https://humanpara.org/wp-content/uploads/2019/12/2019-A-revaluation-of-the-Ziehl-Neelsen-stain.pdf).
-Con los métodos adecuados sí se detecta, sin embargo, en muestras de sangre de
+Con los métodos adecuados se detecta MAP en muestras de sangre de
 [pacientes de Crohn](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).
-Hay que decir que los cultivos tardaron 18 meses en dar resultados.
-Es una técnica demasiado lenta.
+Por desgracia el cultivo es una técnica demasiado lenta:
+se tarda hasta 18 meses en dar resultados.
 Varios equipos de todo el mundo están trabajando en
 [múltiples formas de identificar la MAP](https://humanpara.org/map-testing/)
 basadas en tests genéticos.
 
 ![Cultivo de _M. avium ssp. paratuberculosis_ procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.").
 
-¿Qué ocurre con la medicación inmunosupresora,
-o inmunomoduladora como se llama ahora?
-¿Por qué funciona?
+¿Por qué funciona la medicación inmunosupresora,
+o "inmunomoduladora" como se llama ahora?
 Se ha mostrado que
 [el Metotrexate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1779805/)
 es efectivo _in vitro_ contra la bacteria MAP.
