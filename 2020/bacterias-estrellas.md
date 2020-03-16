@@ -76,26 +76,30 @@ a partir de aquí la exposición es constante y nociva.
 
 Vamos a investigar más en detalle qué hace falta para abandonar la Tierra con garantías.
 En 1956 A. W. Anderson y su equipo intentaban esterilizar carne picada con radiación.
-Incluso con dosis masivas de 10 kGy la carne se echaba a perder.
-Por comparar, 5 Gray (la unidad de irradiación) son letales para un humano,
-las famosas cucarachas [no llegan al kGy](http://morgana249.blogspot.com/2014/08/6-organisms-that-can-survive-fallout.html),
-y 5 kGy fríen a un tardígrado (osito de agua),
+Pero no lo conseguían: incluso con dosis masivas la carne se echaba a perder.
+¿De cuánta radiación estamos hablando?
+
+La irradiación en seres vivos se mide en Grays (Gy).
+Por comparar, 5 Gy son letales para un humano.
+Las famosas cucarachas [no llegan a 1000 Grays (1 kGy)](http://morgana249.blogspot.com/2014/08/6-organisms-that-can-survive-fallout.html),
+Con 5 kGy podemos freir a un tardígrado (oso de agua),
 una criatura notable por su resistencia a la radiación.
+Pues bien, Anderson _et al_ estaban usando dosis de **diez mil Grays** (10 kGy).
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/S-6cIy_s8pQ?start=84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Al investigar qué podía estar creciendo con estos niveles de radiación ionizante
-descubrieron la bacteria
+descubrieron a
 [_Deinococcus radiodurans_](https://biochem.wisc.edu/sites/default/files/labs/cox/pdfs/38.pdf),
-originalmente nombrada _Micrococcus radiodurans_:
+la bacteria antes conocida como _Micrococcus radiodurans_:
 el primer extremófilo en esta nueva categoría.
 
 A partir de entonces se descubrieron otras bacterias que también resistían tremendas dosis de radiación,
 con nombres cada vez más fantásticos:
 [_Rubrobacter radiotolerans_ llegaba a 11 kGy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148983/).
-D10: 11 kGy.
+La magnífica
 [_Truepera radiovictrix_](https://academic.oup.com/femsle/article/247/2/161/490993)
-D10: > 5 kGy.
+soportaba algo menos: 5 kGy.
 
 El récord ahora mismo lo tiene una arquea que resiste hasta 30 kGy:
 [_Thermococcus gammatolerans_](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02503-0).
@@ -108,8 +112,8 @@ una cepa podría sobrevivir un día completo dentro del vaso de contención cont
 
 Con radiación es posible conseguir _E. coli_ que aguanta
 [2.5 kGy](https://jb.asm.org/content/201/8/e00784-18).
-Los tardígrados soportan
-[unos 5 kGy](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
+Como ya hemos visto, los tardígrados soportan
+[hasta 5 kGy](https://www.researchgate.net/profile/Takahiro_Kikawada/publication/6620865_Radiation_tolerance_in_the_tardigrade_Milnesium_tardigradum/links/547fc19e0cf25b80dd703913/Radiation-tolerance-in-the-tardigrade-Milnesium-tardigradum.pdf),
 aunque en realidad a partir de 1 kGy dejan de ser fértiles.
 
 ![Hardening de _E. coli_. La imagen es de 2019; este experimento sigue en marcha así que es posible que la resistencia siga aumentando. [Fuente](https://jb.asm.org/content/jb/201/8/e00784-18.full.pdf).](pics/bacterias-radiation-e-coli.gif "Con la irradiación la resistencia sube.")

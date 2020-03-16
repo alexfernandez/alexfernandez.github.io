@@ -125,7 +125,7 @@ la historia de la medicina nos puede dar una pista de por dónde continuar.
 
 # Úlceras y bacterias
 
-La gente que no han vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
+La gente que no ha vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
 no se hace una idea de su magnitud.
 Por poner un ejemplo,
 en Estados Unidos más del 1% de las hospitalizaciones
