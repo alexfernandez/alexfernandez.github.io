@@ -408,7 +408,18 @@ Tampoco les interesa realmente dañar los tejidos en los que se alojan.
 
 Los virus no pueden reproducirse por sí solos:
 necesitan maquinaria celular de la que carecen.
-Lo mismo les pasa a
+En palabras del virólogo español
+[Luis Enjuanes](https://www.agenciasinc.es/Entrevistas/Es-muy-probable-que-el-SARS-COV-2-se-atenue-y-vuelva-cada-invierno-como-la-gripe)
+a propósito del famoso SARS-CoV-2:
+
+> lo usual con este tipo de virus es que evolucionen y se seleccionen muy positivamente aquellos que están más atenuados.
+> Esto ocurre por una razón muy sencilla.
+> Si un virus es muy mortal, mata pronto al paciente y se quita de la circulación.
+> En el lado contrario, si un virus está amortiguado e infecta al paciente pero no provoca síntomas clínicos,
+> este sigue con su vida normal y disemina el virus.
+> Así se facilita que sea este el que se imponga, claro.
+
+Tampoco pueden reproducirse por sí solas
 [algunas bacterias](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3129005/),
 que usan los mecanismos de las celulas que infectan;
 ya hemos visto el caso de
