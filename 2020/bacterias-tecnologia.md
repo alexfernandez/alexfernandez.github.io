@@ -332,6 +332,15 @@ por ejemplo con
 También como almacenamiento de información o incluso como
 [procesadores biológicos](https://www.sngular.com/es/microbiologia-bacterias-futuro-tecnologia/).
 
+## PCR
+
+Puede ser interesante ver una herramienta bacteriana muy usada,
+por ejemplo en el [test que detecta el coronavirus]().
+
+En agosto de 2019
+[Mullins murió de neumonía](https://mynewsla.com/education/2019/08/08/nobel-winner-kary-banks-mullis-who-revolutionized-dna-research-dies-in-o-c/).
+¿Es posible que finalmente las bacterias tuvieran su revancha?
+
 ## Simplicidad
 
 Los virus son mucho más sencillos que las bacterias:
