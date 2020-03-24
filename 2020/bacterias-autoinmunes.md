@@ -280,6 +280,12 @@ La opinión de consenso es que al menos
 
 ![El ciclo de Kuhn muestra cómo la ciencia normal suele llevar a una crisis, luego a una revolución y por fin a un cambio de paradigma, que empieza el siguiente ciclo. Descrito en 'The Structure of Scientific Revolutions' (1962). [Fuente](https://thedailyomnivore.net/2012/11/03/paradigm-shift/).](pics/bacterias-kuhn-cycle.png "Paso cero: preciencia, fuera del ciclo. Ciencia normal → Deriva de modelo → Crisis de modelo → Revolución de modelo → Cambio de paradigma → Ciencia normal, cerrando el ciclo.")
 
+Es interesante recordar en este punto que
+el descubrimiento del bacilo de la tuberculosis también
+[resultó en escepticismo generalizado](https://humanpara.org/john-aitken-the-night-the-world-changed/),
+y Koch tuvo que luchar para convencer al _establishment_
+de que la tuberculosis era una enfermedad infecciosa.
+
 # Otras enfermedades autoinmunes
 
 El sistema inmune humano es muy complejo,
