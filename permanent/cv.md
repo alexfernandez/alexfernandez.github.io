@@ -62,18 +62,19 @@ every second we processed a million requests,
 decided which ones are useful for our customers
 and responded to all of them.
 
-I have worked with a great team and we did great things together,
+I led the backend team,
+and we did great things together,
 successfully competing at an international level.
 We have tortured the V8 engine
 in ways that I could not even dream before joining.
 I have also learned a bit of Erlang and Go for certain subsystems.
 Some of my Go code has been in production for years without issues.
 
-My job included math puzzles and equations,
-and we processed huge amounts of data.
-I also did lots of other things such as backend development
-and DevOps.
-I also designed the selection process,
+We processed huge amounts of data
+and had to solve complex scalability issues.
+As this was a small startup I also did lots of other things:
+created a whole DevOps infrastructure,
+designed the selection process,
 and actively participated in the selection of everyone in the dev team.
 
 ### 2012-08 to 2012-12: Freelancer
