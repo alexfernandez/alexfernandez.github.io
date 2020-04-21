@@ -19,7 +19,7 @@ format: 2016-08 is August 2016.
 
 ### 2019-04 to 2019-12: Influencity
 
-I was CTO of [Influencity](https://www.influencity.com/),
+I worked as CTO of [Influencity](https://www.influencity.com/),
 a company in the field of influencer marketing.
 I led a team of talented developers
 and helped them build the best platform for influencer marketing,
