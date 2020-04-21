@@ -7,8 +7,8 @@ footer: Enjoy!
 I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito).
 
 Here on my blog I like to write about my job in software engineering, in articles marked with the tag **#SoftEng**.
-I also write about other things I'm interested in like space launchers or linguistics **#OT**.
-Some articles are in Spanish **#ES**.
+I also write about other things I'm interested in: **#OT**, like space launchers or linguistics.
+Some articles are in Spanish: **#ES**.
 
 ## Posts
 
