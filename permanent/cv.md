@@ -41,7 +41,6 @@ as a senior software engineer.
 I worked in the data ingestion team.
 Our system reached peaks of 3.5 million events per second,
 which it ingested flawlessly.
-
 I made my [first contribution to the Node.js core](https://github.com/nodejs/node/pull/20344) while there:
 a benchmark demonstrating a performance issue with TLS and short-lived connections.
 Hopefully not the last!
@@ -77,15 +76,15 @@ created a whole DevOps infrastructure,
 designed the selection process,
 and actively participated in the selection of everyone in the dev team.
 
-### 2012-08 to 2012-12: Freelancer
+### 2012-08 to present: Freelancer
 
-I worked as a freelancer for Kimia
+For a few months in 2012 I worked as a freelancer for Kimia
 writing a PHP backend and an Android app.
 
 I have not stopped taking freelance engagements,
 since they help me stay sharp and learn new things.
 In fact I have worked for several large companies:
-here is [one recent story](/2016/stridercd).
+here is [one more recent story](/2016/stridercd).
 
 Other customers over time include:
 [Grupo Inditex](https://www.inditex.com/),
