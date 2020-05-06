@@ -4,7 +4,11 @@ subtitle: 'You have found the secret lair of Alex Fernández.'
 footer: Enjoy!
 ---
 
-I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito).
+I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito),
+and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
+Sometimes I do live coding in Spanish on [twitch](https://twitch.tv/pinchitocoder),
+and upload it to [YouTube](https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg).
+
 
 Here on my blog I like to write about my job in software engineering, in articles marked with the tag **#SoftEng**.
 I also write about other things I'm interested in, like space launchers or linguistics: **#OT**.
@@ -14,18 +18,32 @@ Some articles are in Spanish: **#ES**.
 
 Latest articles first.
 
+### 2020
+
 * 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices) #OT
 * 2020-01-02: [Repaso de 2019 y propósitos para 2020](2020/repaso-propositos) #OT #ES
+
+### 2019
+
 * 2019-12-31: [Continuous Deployment on the Cheap](2019/devops-on-the-cheap) #SoftEng
 * 2019-06-08: [A Guide to High Speeds](2019/high-speeds) #OT
 * 2019-06-01: [Curso de Unix](2019/curso-unix) #SoftEng #ES
+
+### 2018
+
 * 2018-12-01: [Has Anyone Else Seen Your Code](2018/has-anyone-else-seen-your-code) #SoftEng
 * 2018-05-28: [More Adventures in the Land of Go](2018/more-golang-adventures) #SoftEng
 * 2018-03-04: [Building a Space Launcher](2018/building-space-launcher) #OT
+
+### 2017
+
 * 2017-09-17: [The Origins Of Language](2017/origins-language) #OT
 * 2017-07-11: [Build Your Own DevOps Infrastructure](2017/build-your-own-devops-infrastructure) #SoftEng
 * 2017-06-24: [How Much Did JSDayES 2017 Cost?](2017/jsdayes-2017-cost) #OT
 * 2017-06-15: [Polémica sobre la diversidad en tecnología](2017/diversidad-tecnologia) #OT #ES
+
+### 2016
+
 * 2016-12-11: [The Amazing Mind](2016/the-amazing-mind) #OT
 * 2016-10-26: [Becoming a Better Developer](2016/becoming-a-better-developer) #SoftEng
 * 2016-10-26: [Becoming A Better Developer, Part 4: Top Of The Cream Of The Crop](2016/top-of-the-cream-of-the-crop) #SoftEng
@@ -41,17 +59,26 @@ Latest articles first.
 * 2016-02-22: [Adventures in the Land of Go](2016/golang-adventures) #SoftEng
 * 2016-01-10: [Increasing Event Attendance](2016/event-attendance) #OT
 * 2016-01-08: [The Case Against Software Craftsmanship](2016/against-craftsmanship) #SoftEng
+
+### 2015
+
 * 2015-12-28: [La arquitectura fluida 2: estrategias de migración](2015/arquitectura-fluida-2-estrategias-migracion) #SoftEng #ES
 * 2015-12-27: [Ofertas de trabajo y salarios](2015/ofertas-salarios) #OT #ES
 * 2015-11-09: [La arquitectura fluida 1: tras la arquitectura perfecta](2015/arquitectura-fluida-1-arquitectura-perfecta) #SoftEng #ES
 * 2015-11-08: [Entrevista en DevUse](2015/entrevista-devuse) #SoftEng #ES
 * 2015-10-17: [Walk Through My Code](2015/walk-through-my-code) #SoftEng
+
+### 2013
+
 * 2013-11-24: [Optimizando sockets con node.js](2013/optimizando-sockets) #SoftEng #ES
 * 2013-11-12: [Node.js: ¿rápido como el rayo?](2013/nodejs-rapido-como-el-rayo) #SoftEng #ES
 * 2013-08-27: [Pruebas de carga](2013/pruebas-de-carga) #SoftEng #ES
 * 2013-07-27: [Modo cluster para node.js](2013/modo-cluster) #SoftEng #ES
 * 2013-07-11: [Pruebas asíncronas en node.js](2013/pruebas-asincronas) #SoftEng #ES
 * 2013-06-07: [The Human Body as a Well-Engineered System](2013/human-body-engineered-system) #OT
+
+### 2012
+
 * 2012-12-18: [Reporting Problems, Part 2: Tooling](2012/reporting-problems-part-2) #SoftEng
 * 2012-08-23: [Reporting Problems, Part 1: Process](2012/reporting-problems-part-1) #SoftEng
 * 2012-07-25: [Iterative Evolution](2012/iterative-evolution) #SoftEng
@@ -67,6 +94,19 @@ Latest articles first.
 * 2012-04-12: [Automating the Automation](2012/automating-the-automation) #SoftEng
 * 2012-04-10: [Continuous Deployment](2012/continuous-deployment) #SoftEng
 * 2012-03-30: [Developer Discipline](2012/developer-discipline) #SoftEng
+
+## CV
+
+In case you are interested about my past experience,
+[here you go](/cv).
+I sometimes work as a freelancer for short-term engagements
+such as teaching courses,
+giving private talks
+or working on an interesting project for a few days.
+If you have a proposal
+[let me know](mailto:alexfernandeznpm@gmail.com).
+**Note to recruiters:**
+I am looking for freelancer gigs right now.
 
 ## Public Talks
 
@@ -84,23 +124,6 @@ You can also see my full
 [speaker profile](/permanent/speaker).
 I have spoken at a few more events over the years,
 but the talks have not always been recorded or published.
-
-## CV
-
-In case you are interested about my past experience,
-[here you go](/cv).
-I sometimes work as a freelancer for short-term engagements
-such as teaching courses,
-giving private talks
-or working on an interesting project for a few days.
-If you have a proposal
-[let me know](mailto:alexfernandeznpm@gmail.com).
-**Note to recruiters:**
-I am **not** looking for a job right now.
-
-## And Now for Something Completely Different
-
-Please browse my [other projects](https://github.com/alexfernandez/).
 
 ## Credits
 
