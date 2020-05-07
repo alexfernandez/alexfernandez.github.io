@@ -3,7 +3,7 @@ title: Curriculum Vitae of Alex Fernández
 footer: Last edited on 2020-01-11.
 ---
 
-Developer with 20 years of experience specialized in scalability and DevOps.
+Developer with 20+ years of experience specialized in scalability and DevOps.
 
 ## Job History
 
