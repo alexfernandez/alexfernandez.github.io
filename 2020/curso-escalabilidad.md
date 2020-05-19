@@ -7,13 +7,13 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
 
 ![[Fuente: Wikipedia](https://commons.wikimedia.org/wiki/File:Sea-Dragon.jpg).](pics/escalabilidad-sea-dragon.jpg "Concepto de cohete Sea Dragon, con despegue acuático.")
 
-# Curso remoto de escalabilidad
+# Curso online de escalabilidad
 
 En este curso 100% remoto veremos principios y prácticas de escalabilidad de sitios web.
 Estudiaremos cómo trabajan los gigantes de Internet (Google, Facebook),
 y cómo adaptar sus prácticas a entornos de startup.
 El curso está orientado a desarrolladores que quieran producir código escalable,
-y de SREs (_site reliability engineers_) que gestionen entornos de producción.
+y a SREs (_site reliability engineers_) que gestionen entornos de producción.
 
 Seguiremos una orientación práctica:
 cada exposición irá acompañada de ejercicios para los alumnos,
