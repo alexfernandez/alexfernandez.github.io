@@ -64,7 +64,7 @@ Día 4: Investigación de incidencias.
 
 * Investigación de causa raíz. Los cinco porqués.
 * Postmortems sin culpa.
-* Tareas post-incidente. Características operacionales.
+* Tareas post-incidente.
 * Actitudes y expectativas. Liderazgo.
 
 ## Requisitos y herramientas
@@ -77,7 +77,7 @@ el contenido es siempre aplicable a otros entornos.
 ## Precio
 
 El precio será de **250€ + IVA**;
-con descuento por _early bird_ (190€ + IVA) y _super early bird_ (150€ + IVA).
+con descuentos por _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
 El número máximo de asistentes será de 30.
