@@ -86,7 +86,17 @@ Recibirás **diploma de asistencia**.
 
 ## Testimonios
 
-> 
+> Alex logró convertir la escalabilidad en algo fácil y divertido,
+> explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario.
+
+Juan Gaitán, ingeniero de datos en ChaserHQ.
+
+> Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
+> consigue que aprender sea muy ameno y fácil.
+
+Fernando Moreno.
+
+
 
 # Agradecimientos
 
