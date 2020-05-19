@@ -19,7 +19,7 @@ y a SREs (_site reliability engineers_) en **entornos de producción escalables*
 * <a href="#precio">Precio</a>
 * <a href="#testimonios">Testimonios</a>
 
-Aprenderás buenas prácticas de grandes empresas (Google, Facebook, Yahoo…)
+Aprenderás buenas prácticas de grandes empresas (Google, Amazon, Yahoo…)
 y cómo adaptarlas a tu entorno.
 Seguiremos una una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
