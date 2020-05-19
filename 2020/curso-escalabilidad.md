@@ -86,15 +86,23 @@ Recibirás **diploma de asistencia**.
 
 ## Testimonios
 
-> Alex logró convertir la escalabilidad en algo fácil y divertido,
-> explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario.
+<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0.5em;" />
 
-![](pics/escalabilidad-juan.jpg "Juan Gaitán") Juan Gaitán, ingeniero de datos en ChaserHQ.
+_Alex logró convertir la escalabilidad en algo fácil y divertido,
+explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario._
 
-> Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
-> consigue que aprender sea muy ameno y fácil.
+\> Juan Gaitán, ingeniero de datos en ChaserHQ.
 
-![](pics/escalabilidad-fernando.jpg "Fernando Moreno") Fernando Moreno, JavaScript fullstack developer en Gravity.
+<p style="clear: both;"></p>
+
+<img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0.5em;" />
+
+_Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
+consigue que aprender sea muy ameno y fácil._
+
+\> Fernando Moreno, JavaScript fullstack developer en Gravity.
+
+<p style="clear: both;"></p>
 
 # Agradecimientos
 
