@@ -10,29 +10,30 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
 # Curso remoto de escalabilidad
 
 En este curso 100% remoto veremos principios y prácticas de escalabilidad de sitios web.
-Estudiaremos cómo trabajan los gigantes de Internet (Google, Facebook).
-Se contemplarán los puntos de vista de desarrolladores para producir código escalable,
-y de SREs (_site reliability engineers_) para gestionar entornos de producción.
+Estudiaremos cómo trabajan los gigantes de Internet (Google, Facebook),
+y cómo adaptar sus prácticas a entornos de startup.
+El curso está orientado a desarrolladores que quieran producir código escalable,
+y de SREs (_site reliability engineers_) que gestionen entornos de producción.
 
 Seguiremos una orientación práctica:
 cada exposición irá acompañada de ejercicios para los alumnos,
 que se corregirán en grupos de trabajo.
 
-El curso lo impartirá Alejandro Fernández,
+Imparte el curso Alejandro Fernández,
 ingeniero de software con [20+ años de experiencia](/cv).
 Alejandro ha sido líder de desarrollo backend en mediasmart,
 donde acompañó a la empresa desde sus inicios
 hasta facturar 10 millones de euros anuales.
 También ha trabajado como ingeniero de software en Devo,
-una de las startups tecnológicas con más proyección internacional.
+una de las startups tecnológicas fundadas en España con más proyección internacional.
 Es el autor principal del paquete [`loadtest`](https://www.npmjs.com/package/loadtest) para Node.js,
 uno de los más usados para pruebas de carga a nivel mundial.
-Su código procesa de forma rutinaria cientos de miles de peticiones por segundo a día de hoy.
+Su código procesa de forma rutinaria millones de peticiones por segundo.
 
 ## Duración y horario
 
 El curso se impartirá en cuatro bloques de cuatro horas,
-con un total de 16 horas.
+para un total de 16 horas.
 El horario será en viernes de 15h a 19h,
 y en sábado de 9h a 13h.
 Las fechas previstas son:
@@ -41,23 +42,30 @@ Las fechas previstas son:
 
 ## Temario
 
-* Día 1: Pruebas de carga.
-    * Uso de herramientas. `loadtest`. `ab`, `wrk`.
-    * Presupuesto de milisegundos. Ley de Amdahl aplicada al rendimiento.
-    * Variabilidad y percentiles.
-* Día 2: Uso de métricas.
-    * Métricas principales: peticiones, eventos, 
-    * Objetivo de _uptime_. Presupuesto de incidencias.
-    * Características operacionales.
-    * Incógnitas incógnitas (_unknown unknowns_).
-* Día 3: Monitorización y observabilidad.
-    * Monitorización.
-    * Alertas en producción.
-    * Observabilidad.
-* Día 4: Investigación de incidencias.
-    * Investigación de causas raíz. Los cinco porqués.
-    * Postmortems sin culpa.
-    * Actitudes y expectativas. Liderazgo.
+Día 1: Pruebas de carga
+
+* Uso de herramientas. `loadtest`, `ab`, `wrk`.
+* Presupuesto de milisegundos. Leyes de Pareto y Amdahl aplicadas al rendimiento.
+* Variabilidad y percentiles.
+
+Día 2: Uso de métricas
+
+* Métricas principales: peticiones, eventos, 
+* Objetivo de _uptime_. Presupuesto de incidencias.
+* Sistemas distribuidos. Características operacionales.
+* Incógnitas incógnitas (_unknown unknowns_).
+
+Día 3: Monitorización y observabilidad.
+
+* Monitorización. Alertas en producción.
+* Guardias. Automatización.
+* Observabilidad.
+
+Día 4: Investigación de incidencias.
+
+* Investigación de causa raíz. Los cinco porqués.
+* Postmortems sin culpa.
+* Actitudes y expectativas. Liderazgo.
 
 ## Requisitos y herramientas
 
@@ -77,7 +85,8 @@ la corrección de ejercicios y un consultorio de dudas durante dos meses.
 El número máximo de asistentes será de 30.
 
 Un curso similar presencial puede costar miles de euros.
-Se puede ofrecer este precio gracias a 
+Se puede ofrecer este precio gracias a que se organiza directamente por el formador
+y a la asistencia remota.
 
 Se entrega diploma de asistencia.
 
