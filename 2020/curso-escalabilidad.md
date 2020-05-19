@@ -11,7 +11,13 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
 
 En este **curso 100% remoto** aprenderás principios y prácticas de escalabilidad de sitios web.
 El curso está orientado a desarrolladores y desarrolladoras que quieran producir **código escalable**,
-y a SREs (_site reliability engineers_) que trabajen en **entornos de producción**.
+y a SREs (_site reliability engineers_) en **entornos de producción escalables**.
+
+* <a href="#duración-y-horario">Duración y horario</a>
+* <a href="#temario">Temario</a>
+* <a href="#requisitos-y-herramientas">Requisitos y herramientas</a>
+* <a href="#precio">Precio</a>
+* <a href="#testimonios">Testimonios</a>
 
 Aprenderás buenas prácticas de grandes empresas (Google, Facebook, Yahoo…)
 y cómo adaptarlas a tu entorno.
