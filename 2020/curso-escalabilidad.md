@@ -26,7 +26,7 @@ cada exposición va acompañada de ejercicios para corregir en grupos de trabajo
 
 Imparte el curso Alejandro Fernández,
 ingeniero de software con [20+ años de experiencia](/cv).
-Alejandro ha trabajado en **entornos de alto rendimiento** para empresas como mediasmart y Devo.
+Alex ha trabajado en **entornos de alto rendimiento** para empresas como mediasmart y Devo.
 Es el autor principal del paquete [`loadtest`](https://www.npmjs.com/package/loadtest) para Node.js,
 uno de los más usados para pruebas de carga a nivel mundial.
 Su código procesa de forma rutinaria millones de peticiones por segundo.
