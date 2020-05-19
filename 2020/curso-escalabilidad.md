@@ -1,6 +1,6 @@
 ---
-title: 'Curso de escalabilidad'
-subtitle: 'Para SREs y desarrolladores, 100% remoto'
+title: 'Curso online de escalabilidad'
+subtitle: 'Para desarrolladores y SREs'
 footer: Publicado el 2020-05-19, modificado el 2020-05-19.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -9,7 +9,7 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
 
 # Curso online de escalabilidad
 
-En este **curso 100% remoto** aprenderás principios y prácticas de escalabilidad de sitios web.
+En este **curso 100% online** aprenderás principios y prácticas de escalabilidad de sitios web.
 El curso está orientado a desarrolladores y desarrolladoras que quieran producir **código escalable**,
 y a SREs (_site reliability engineers_) en **entornos de producción escalables**.
 
@@ -78,7 +78,7 @@ el contenido es siempre aplicable a otros entornos.
 
 El precio será de **250€ + IVA**;
 con descuento por _early bird_ (190€ + IVA) y _super early bird_ (150€ + IVA).
-Cubre la asistencia en remoto (por Zoom o similar),
+Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
 El número máximo de asistentes será de 30.
 
