@@ -17,7 +17,7 @@ y de SREs (_site reliability engineers_) que gestionen entornos de producción.
 
 Seguiremos una orientación práctica:
 cada exposición irá acompañada de ejercicios para los alumnos,
-que se corregirán en grupos de trabajo.
+que se corregirán en grupos de trabajo supervisados.
 
 Imparte el curso Alejandro Fernández,
 ingeniero de software con [20+ años de experiencia](/cv).
@@ -42,29 +42,32 @@ Las fechas previstas son:
 
 ## Temario
 
-Día 1: Pruebas de carga
+Día 1: Introduccion y pruebas de carga
 
+* Introducción: qué es escalabilidad.
 * Uso de herramientas. `loadtest`, `ab`, `wrk`.
 * Presupuesto de milisegundos. Leyes de Pareto y Amdahl aplicadas al rendimiento.
 * Variabilidad y percentiles.
 
 Día 2: Uso de métricas
 
-* Métricas principales: peticiones, eventos, 
+* Métricas principales: peticiones, eventos, SLxs.
 * Objetivo de _uptime_. Presupuesto de incidencias.
 * Sistemas distribuidos. Características operacionales.
 * Incógnitas incógnitas (_unknown unknowns_).
 
 Día 3: Monitorización y observabilidad.
 
-* Monitorización. Alertas en producción.
-* Guardias. Automatización.
+* Monitorización.
+* Alertas en producción.
 * Observabilidad.
+* Guardias. Automatización.
 
 Día 4: Investigación de incidencias.
 
 * Investigación de causa raíz. Los cinco porqués.
 * Postmortems sin culpa.
+* Tareas post-incidente. Características operacionales.
 * Actitudes y expectativas. Liderazgo.
 
 ## Requisitos y herramientas
