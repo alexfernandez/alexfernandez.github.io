@@ -107,6 +107,6 @@ consigue que aprender sea muy ameno y fácil._
 
 # Agradecimientos
 
-Muchas gracias a Carlos Ble por su ayuda.
-Gracias a [Koliseo](https://www.koliseo.com/) por poner su plataforma a disposición.
+Muchas gracias a Carlos Ble y Pablo Almunia por su ayuda.
+Gracias también a [Koliseo](https://www.koliseo.com/) por su soporte infatigable.
 
