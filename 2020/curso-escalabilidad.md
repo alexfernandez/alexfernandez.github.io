@@ -10,10 +10,10 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
 # Curso online de escalabilidad
 
 En este **curso 100% remoto** aprenderás principios y prácticas de escalabilidad de sitios web.
-El curso está orientado a desarrolladores y desarrolladoras que quieran producir código escalable,
-y a SREs (_site reliability engineers_) que trabajen en entornos de producción.
+El curso está orientado a desarrolladores y desarrolladoras que quieran producir **código escalable**,
+y a SREs (_site reliability engineers_) que trabajen en **entornos de producción**.
 
-Aprenderás buenas prácticas de grandes empresas (Google, Facebook, Yahoo)
+Aprenderás buenas prácticas de grandes empresas (Google, Facebook, Yahoo…)
 y cómo adaptarlas a tu entorno.
 Seguiremos una una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
@@ -71,7 +71,7 @@ el contenido es siempre aplicable a otros entornos.
 ## Precio
 
 El precio será de **250€ + IVA**;
-tienes descuento por _early bird_ (190€ + IVA) y _super early bird_ (150€ + IVA).
+con descuento por _early bird_ (190€ + IVA) y _super early bird_ (150€ + IVA).
 Cubre la asistencia en remoto (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
 El número máximo de asistentes será de 30.
