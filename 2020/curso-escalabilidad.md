@@ -21,7 +21,7 @@ y a SREs (_site reliability engineers_) en **entornos de producción escalables*
 
 Aprenderás buenas prácticas de grandes empresas (Google, Amazon, Yahoo…)
 y cómo adaptarlas a tu entorno.
-Seguiremos una una **orientación práctica**:
+Todo ello con una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
 
 Imparte el curso Alejandro Fernández,
@@ -30,6 +30,7 @@ Alex ha trabajado en **entornos de alto rendimiento** para empresas como mediasm
 Es el autor principal del paquete [`loadtest`](https://www.npmjs.com/package/loadtest) para Node.js,
 uno de los más usados para pruebas de carga a nivel mundial.
 Su código procesa de forma rutinaria millones de peticiones por segundo.
+También imparte formación en múltiples empresas y bootcamps.
 
 ## Duración y horario
 
@@ -86,7 +87,7 @@ Recibirás **diploma de asistencia**.
 
 ## Testimonios
 
-<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0.5em;" />
+<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0 0.5em;" />
 
 _Alex logró convertir la escalabilidad en algo fácil y divertido,
 explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario._
@@ -95,7 +96,7 @@ explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder 
 
 <p style="clear: both;"></p>
 
-<img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0.5em;" />
+<img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0 0.5em;" />
 
 _Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
 consigue que aprender sea muy ameno y fácil._
