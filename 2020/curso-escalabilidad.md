@@ -98,6 +98,6 @@ Recibirás **diploma de asistencia**.
 
 # Agradecimientos
 
-Muchas gracias a Carlos Ble por su colaboración en la preparación del temario.
+Muchas gracias a Carlos Ble por su ayuda.
 Gracias a [Koliseo](https://www.koliseo.com/) por poner su plataforma a disposición.
 
