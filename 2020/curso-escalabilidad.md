@@ -1,17 +1,16 @@
 ---
-title: 'Curso online de escalabilidad'
-subtitle: 'Para desarrolladores y SREs'
+title: 'Agile Performance and Scalability'
+subtitle: 'Curso online para desarrolladores y SREs'
 footer: Publicado el 2020-05-19, modificado el 2020-05-19.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![[Fuente: Wikipedia](https://commons.wikimedia.org/wiki/File:Sea-Dragon.jpg).](pics/escalabilidad-sea-dragon.jpg "Concepto de cohete Sea Dragon, con despegue acuático.")
 
-# Curso online de escalabilidad
+# Agile Performance and Scalability
 
-En este **curso 100% online** aprenderás principios y prácticas de escalabilidad de sitios web.
-El curso está orientado a desarrolladores y desarrolladoras que quieran producir **código escalable**,
-y a SREs (_site reliability engineers_) en **entornos de producción escalables**.
+No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de rendimiento y escalabilidad.
+En este **curso 100% online** te explicamos cómo.
 
 * <a href="#duración-y-horario">Duración y horario</a>
 * <a href="#temario">Temario</a>
@@ -19,18 +18,23 @@ y a SREs (_site reliability engineers_) en **entornos de producción escalables*
 * <a href="#precio">Precio</a>
 * <a href="#testimonios">Testimonios</a>
 
-Aprenderás buenas prácticas de grandes empresas (Google, Amazon, Yahoo…)
+Si te dedicas al desarrollo de software y quieres producir **código escalable**,
+o eres SRE (_site reliability engineer_) en **entornos de producción de alto rendimiento**,
+este curso está pensado para ti.
+
+Aprenderás principios y prácticas de escalabilidad de sitios web.
+Verás metodologías basadas en la experiencia de grandes empresas (Google, Amazon, Yahoo…),
 y cómo adaptarlas a tu entorno.
 Todo ello con una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
 
 Imparte el curso Alejandro Fernández,
 ingeniero de software con [20+ años de experiencia](/cv).
-Alex ha trabajado en **entornos de alto rendimiento** para empresas como mediasmart y Devo.
+Alex ha trabajado en **sistemas de alto rendimiento** para empresas como mediasmart y Devo.
 Es el autor principal del paquete [`loadtest`](https://www.npmjs.com/package/loadtest) para Node.js,
 uno de los más usados para pruebas de carga a nivel mundial.
 Su código procesa de forma rutinaria millones de peticiones por segundo.
-También imparte formación en múltiples empresas y bootcamps.
+También ha impartido formación para múltiples empresas y bootcamps.
 
 ## Duración y horario
 
@@ -84,7 +88,7 @@ el contenido es siempre aplicable a otros entornos.
 
 ## Precio
 
-El precio será de **250€ + IVA**;
+El precio es de **250€ + IVA**;
 con descuentos por _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
