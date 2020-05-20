@@ -34,31 +34,38 @@ También imparte formación en múltiples empresas y bootcamps.
 
 ## Duración y horario
 
-Este curso de 16h se impartirá en cuatro bloques de cuatro horas
-los días 12, 13, 19 y 20 de junio.
+Este curso de 20h se impartirá en cinco bloques de cuatro horas
+los días 12, 13, 19, 20 y 26 de junio.
 El horario es **viernes de 15h a 19h y sábados de 10h a 14h**.
 
 ## Temario
 
-Día 1: Introduccion y pruebas de carga
+Día 1: Sistemas distribuidos
 
 * Introducción: qué es escalabilidad.
-* Uso de herramientas: `ab`, `wrk`, `loadtest`. Herramientas a medida.
+* Escalado vertical y horizontal. Estrategias.
+* Sistemas distribuidos. Características operacionales.
+* Replicación de servidores. Contenedores y alternativas _serverless_.
+
+Día 2: Pruebas de carga
+
+* Uso de herramientas: `ab`, `wrk`, `loadtest`.
+* Herramientas a medida.
 * Optimización de rendimiento. Leyes de Pareto y Amdahl aplicadas al rendimiento.
-* Variabilidad y percentiles.
+* Variabilidad y percentiles. Incertidumbre y error.
 
 Día 2: Uso de métricas
 
-* Métricas principales: peticiones, eventos, SLOs, SLEs, SLAs.
+* Métricas principales: peticiones, eventos, rendimiento, aprovechamiento.
+* Métricas comerciales: SLOs, SLEs, SLAs.
 * Objetivo de _uptime_. Presupuesto de incidencias.
-* Sistemas distribuidos. Características operacionales.
 * Incógnitas incógnitas (_unknown unknowns_).
 
 Día 3: Monitorización y observabilidad.
 
-* Monitorización.
+* Monitorización. Métricas en AWS.
 * Alertas en producción.
-* Observabilidad.
+* Observabilidad. Granularidad de eventos.
 * Guardias. Automatización.
 
 Día 4: Investigación de incidencias.
