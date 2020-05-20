@@ -104,7 +104,7 @@ Reserva ya en
 
 ## Testimonios
 
-<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0 0.5em;" />
+<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0.2em 0.5em;" />
 
 _Alex logró convertir la escalabilidad en algo fácil y divertido,
 explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario._
@@ -113,12 +113,20 @@ explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder 
 
 <p style="clear: both;"></p>
 
-<img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0 0.5em;" />
+<img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0.2em 0.5em;" />
 
 _Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
 consigue que aprender sea muy ameno y fácil._
 
 \> Fernando Moreno, JavaScript fullstack developer en Gravity.
+
+<p style="clear: both;"></p>
+
+<img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
+
+_La facilidad y ganas de compartir conocimientos de Alex hicieron que asentara unas buenas bases que hoy en día me son de gran ayuda._
+
+\> Rafa Tejado, CTO en Billin.
 
 <p style="clear: both;"></p>
 
