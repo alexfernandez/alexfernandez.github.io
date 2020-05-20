@@ -23,7 +23,7 @@ o eres SRE (_site reliability engineer_) en **entornos de producción de alto re
 este curso está pensado para ti.
 
 Aprenderás principios y prácticas de escalabilidad de sitios web.
-Verás metodologías basadas en la experiencia de grandes empresas (Google, Amazon, Yahoo…),
+Verás metodologías ágiles basadas en la experiencia de grandes empresas (Google, Amazon, Yahoo…),
 y cómo adaptarlas a tu entorno.
 Todo ello con una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
@@ -72,7 +72,7 @@ Día 4: Monitorización y observabilidad.
 * Observabilidad. Granularidad de eventos.
 * Guardias. Automatización.
 
-Día 5: Investigación de incidencias.
+Día 5: Resolución de incidencias.
 
 * Investigación de causa raíz. Los cinco porqués.
 * Postmortems sin culpa.
