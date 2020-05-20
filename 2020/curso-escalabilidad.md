@@ -56,8 +56,8 @@ Día 2: Pruebas de carga
 
 Día 2: Uso de métricas
 
-* Métricas principales: peticiones, eventos, rendimiento, aprovechamiento.
-* Métricas comerciales: SLOs, SLEs, SLAs.
+* Métricas principales: peticiones, eventos, latencia, aprovechamiento.
+* Métricas comerciales: SLOs, SLEs, SLAs; uptime, % error.
 * Objetivo de _uptime_. Presupuesto de incidencias.
 * Incógnitas incógnitas (_unknown unknowns_).
 
