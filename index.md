@@ -6,8 +6,6 @@ footer: Enjoy!
 
 I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito),
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
-Sometimes I do live coding in Spanish on [twitch](https://twitch.tv/pinchitocoder),
-and upload it to [YouTube](https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg).
 
 Here on my blog I like to write about my job in software engineering, in articles marked with the tag **#SoftEng**.
 I also write about other things I'm interested in, like space launchers or linguistics: **#OT**.
