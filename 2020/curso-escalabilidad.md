@@ -5,9 +5,9 @@ footer: Publicado el 2020-05-19, modificado el 2020-05-19.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![[Fuente: Wikipedia](https://commons.wikimedia.org/wiki/File:Sea-Dragon.jpg).](pics/escalabilidad-sea-dragon.jpg "Concepto de cohete Sea Dragon, con despegue acuático.")
+![Alex Fernández, profesor principal del curso.](pics/escalabilidad-alex.jpg "Alex Fernández, también conocido como Pinchito.")
 
-# Agile Performance and Scalability
+# 🚀Agile Performance and Scalability🚀
 
 No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de rendimiento y escalabilidad.
 En este **curso 100% online** te explicamos cómo.
