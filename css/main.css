@@ -2626,15 +2626,27 @@
 
 /* One */
 
-	#one:before {
+	#zero {
 		background-image: url("/pics/banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
-		content: '';
 		display: block;
+		font-family: "Source Code Pro", monospace;
+		color: white;
 		height: 9em;
 		width: 100%;
+	}
+
+	.home {
+		padding: 0.8em;
+	}
+
+	#home {
+		border-bottom: none;
+		color: white;
+		text-decoration: none;
+		font-size: 0.9rem;
 	}
 
 /* Footer */
@@ -2811,7 +2823,7 @@
 
 		/* One */
 
-			#one:before {
+			#zero {
 				height: 10em;
 			}
 
@@ -3023,7 +3035,7 @@
 
 		/* One */
 
-			#one:before {
+			#zero {
 				height: 7em;
 			}
 
