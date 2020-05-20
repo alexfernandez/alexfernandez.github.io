@@ -92,9 +92,15 @@ El precio es de **250€ + IVA**;
 con descuentos por _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
-El número máximo de asistentes será de 30.
 
+El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
+
+<div class="calltoaction">
+¡Plazas abiertas!
+Reserva ya en
+[Koliseo](https://www.koliseo.com/alexfernandeznpm/curso-de-escalabilidad).
+</div>
 
 ## Testimonios
 

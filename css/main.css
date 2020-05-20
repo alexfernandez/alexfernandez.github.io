@@ -85,6 +85,17 @@
 		width: 45em;
 	}
 
+	.calltoaction {
+		padding: 0.8em;
+		font-size: 1.1rem;
+		background-color: #fff5f0;
+		border: #ccc solid thin;
+	}
+
+	.calltoaction p {
+		margin: 0em;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
