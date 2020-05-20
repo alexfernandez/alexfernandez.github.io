@@ -1,7 +1,7 @@
 ---
 title: 'Agile Performance and Scalability'
 subtitle: 'Curso online para equipos de desarrollo y SREs'
-footer: Publicado el 2020-05-19, modificado el 2020-05-19.
+footer: Publicado el 2020-05-20, modificado el 2020-05-20.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
 
