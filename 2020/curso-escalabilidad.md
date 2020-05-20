@@ -102,7 +102,7 @@ Reserva ya en
 [Koliseo](https://www.koliseo.com/alexfernandeznpm/curso-de-escalabilidad).
 </div>
 
-## Testimonios
+## Los alumnos hablan
 
 <img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0.2em 0.5em;" />
 
@@ -130,8 +130,16 @@ _La facilidad y ganas de compartir conocimientos de Alex hicieron que asentara u
 
 <p style="clear: both;"></p>
 
+<img src="pics/escalabilidad-marta.jpg" title="Marta Fonda" style="float: left; margin: 0.2em 0.5em;" />
+
+_Desde que Alex me dio la primera clase en 2013, no he dejado de contar con él para formaciones en todas las empresas en las que he trabajado.
+¡Aprendes de una forma increíblemente entretenida y didáctica!_
+
+\> Marta Fonda, _Engineering Manager_ en Handshake.
+
+<p style="clear: both;"></p>
+
 # Agradecimientos
 
 Muchas gracias a Carlos Ble y Pablo Almunia por su ayuda.
 Gracias también a [Koliseo](https://www.koliseo.com/) por su soporte infatigable.
-
