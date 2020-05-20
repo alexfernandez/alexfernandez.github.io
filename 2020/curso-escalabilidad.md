@@ -143,3 +143,10 @@ _Desde que Alex me dio la primera clase en 2013, no he dejado de contar con él 
 
 Muchas gracias a Carlos Ble y Pablo Almunia por su ayuda.
 Gracias también a [Koliseo](https://www.koliseo.com/) por su soporte infatigable.
+
+<style type="text/css">
+header {
+	display: none;
+}
+</style>
+
