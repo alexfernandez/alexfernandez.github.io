@@ -54,21 +54,21 @@ Día 2: Pruebas de carga
 * Optimización de rendimiento. Leyes de Pareto y Amdahl aplicadas al rendimiento.
 * Variabilidad y percentiles. Incertidumbre y error.
 
-Día 2: Uso de métricas
+Día 3: Uso de métricas
 
 * Métricas principales: peticiones, eventos, latencia, aprovechamiento.
 * Métricas comerciales: SLOs, SLEs, SLAs; uptime, % error.
 * Objetivo de _uptime_. Presupuesto de incidencias.
 * Incógnitas incógnitas (_unknown unknowns_).
 
-Día 3: Monitorización y observabilidad.
+Día 4: Monitorización y observabilidad.
 
 * Monitorización. Métricas en AWS.
 * Alertas en producción.
 * Observabilidad. Granularidad de eventos.
 * Guardias. Automatización.
 
-Día 4: Investigación de incidencias.
+Día 5: Investigación de incidencias.
 
 * Investigación de causa raíz. Los cinco porqués.
 * Postmortems sin culpa.
