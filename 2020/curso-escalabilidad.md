@@ -18,8 +18,14 @@ En este **curso 100% online** te explicamos cómo.
 * <a href="#precio">Precio</a>
 * <a href="#testimonios">Testimonios</a>
 
-Si te dedicas al desarrollo de software y quieres producir **código escalable**,
-o eres SRE (_site reliability engineer_) en **entornos de producción de alto rendimiento**,
+¿Tienes problemas de rendimiento?
+¿Se quejan tus clientes de falta de estabilidad?
+¿El coste de máquinas te da dolor de cabeza?
+¿Quieres saber cómo es el trabajo de SRE (_site reliability engineer_)
+en **entornos de producción de alto rendimiento**?
+Si quieres producir **código escalable**,
+mejorar de forma ágil la **estabilidad de tus sistemas**,
+o enfrentarte a caídas inesperadas,
 este curso está pensado para ti.
 
 Aprenderás principios y prácticas de escalabilidad de sitios web.
@@ -81,14 +87,13 @@ Día 5: Resolución de incidencias.
 
 ## Requisitos y herramientas
 
-Se espera que tengas un conocimiento somero de programación en algún lenguaje
-como JavaScript, Python o Java.
-Usarás como herramientas principales **Node.js y AWS** (Amazon Web Services);
-el contenido es siempre aplicable a otros entornos.
+Se espera que tengas algún conocimiento básico de programación.
+Usarás como servicio cloud (Amazon Web Services) para los ejemplos;
+aunque el contenido es siempre aplicable a otros entornos.
 
 ## Precio
 
-El precio es de **250€ + IVA**;
+El precio es de **250€ + IVA**,
 con descuentos por _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
