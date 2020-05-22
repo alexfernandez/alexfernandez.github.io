@@ -87,7 +87,8 @@ Día 5: Resolución de incidencias.
 
 ## Requisitos y herramientas
 
-Se espera que tengas algún conocimiento básico de programación.
+Se espera que tengas algún conocimiento básico de programación,
+y un manejo básico de la consola Unix.
 Usarás como servicio cloud (Amazon Web Services) para los ejemplos;
 aunque el contenido es siempre aplicable a otros entornos.
 
