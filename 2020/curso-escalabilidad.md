@@ -16,7 +16,7 @@ En este **curso 100% online** te explicamos cómo.
 * <a href="#temario">Temario</a>
 * <a href="#requisitos-y-herramientas">Requisitos y herramientas</a>
 * <a href="#precio">Precio</a>
-* <a href="#testimonios">Testimonios</a>
+* <a href="#los-alumnos-hablan">Los alumnos hablan</a>
 
 ¿Tienes problemas de rendimiento?
 ¿Se quejan tus clientes de falta de estabilidad?
