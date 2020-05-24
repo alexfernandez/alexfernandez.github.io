@@ -94,7 +94,7 @@ aunque el contenido es siempre aplicable a otros entornos.
 
 ## Precio
 
-El precio es de **250€ + IVA**,
+El precio es de **250€ IVA incluido**,
 con descuentos por _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
