@@ -17,9 +17,9 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2019-04 to 2019-12: Influencity
+### 2019-04 to 2019-12: CTO at Influencity
 
-I worked as CTO of [Influencity](https://www.influencity.com/),
+I joined [Influencity](https://www.influencity.com/),
 a company in the field of influencer marketing.
 I led a team of talented developers
 and helped them build the best platform for influencer marketing,
@@ -29,7 +29,7 @@ While there I helped improve the architecture,
 hired two new engineers (for a total of 6 people)
 and led the team during a complete revamping of critical modules.
 
-### 2017-10 to 2019-03: Devo (Formerly Logtrust)
+### 2017-10 to 2019-03: Senior Developer at Devo (Formerly Logtrust)
 
 [Devo](https://www.devo.com/) is
 a thriving Spanish company that collects huge amounts of data
@@ -48,7 +48,7 @@ Hopefully not the last!
 I was telecommuting most of the time,
 and going to the office one day per week.
 
-### 2013-01 to 2017-09: mediasmart.io
+### 2013-01 to 2017-09: Backend Lead at mediasmart.io
 
 I worked for more than four years
 at [mediasmart.io](http://mediasmart.io/),
