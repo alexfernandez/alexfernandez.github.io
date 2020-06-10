@@ -95,7 +95,7 @@ La situación es la de la siguiente gráfica: tenemos un montón de “espacio d
 
 Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.
 
-![CPUs con Node.js](pics/optimizando-sockets-cpu-nodejs.png "CPUs con node.js")
+![CPUs con Node.js](pics/optimizando-sockets-cpu-node.png "CPUs con node.js")
 
 Mientras que memcached es mucho más glotón y satura completamente las dos CPUs.
 
