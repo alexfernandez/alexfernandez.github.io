@@ -409,7 +409,7 @@ Requests: 100000, mean time: 3.1032178 µs
 Requests: 100000, mean time: 2.84020157 µs
 ```
 
-Quitando el µs de medida, serían 1.8~2.1 µs ahora, contra 1+(1~1.5)=2~2.5 µs antes. Un ahorro bastante modesto que no está claro que compense la complejidad adicional del código, pero algo es algo. Además dejamos el procesamiento interno en 6 µs, quitando las transformaciones de cadena iniciales.
+Quitando el µs de medida, serían 1.8~2.1 µs ahora, contra 1+1.5=2.5 µs antes. Un ahorro bastante modesto que no está claro que compense la complejidad adicional del código, pero algo es algo. Además dejamos el procesamiento interno en 6 µs, quitando las transformaciones de cadena iniciales.
 
 ### Escritura de datos
 
