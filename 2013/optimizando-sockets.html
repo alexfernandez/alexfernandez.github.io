@@ -146,9 +146,13 @@
 <img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" /><figcaption>Rendimiento inicial</figcaption>
 </figure>
 <p>Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.</p>
-<p>!(pics/optimizando-sockets-cpu-nodejs.png “CPUs con node.js”)</p>
+<figure>
+<img src="pics/optimizando-sockets-cpu-nodejs.png" title="CPUs con node.js" alt="CPUs con Node.js" /><figcaption>CPUs con Node.js</figcaption>
+</figure>
 <p>Mientras que memcached es mucho más glotón y satura completamente las dos CPUs.</p>
-<p>!(pics/optimizando-sockets-cpu-memcached.png “CPUs con memcached”)</p>
+<figure>
+<img src="pics/optimizando-sockets-cpu-memcached.png" title="CPUs con memcached" alt="CPUs con memcached" /><figcaption>CPUs con memcached</figcaption>
+</figure>
 <h3 id="buffers-y-strings">Buffers y Strings</h3>
 <p>Uno de los consejos que aparecen bastante al optimizar node.js es evitar las conversiones de <a href="http://nodejs.org/api/buffer.html">Buffer</a> a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, ya que pueden llevar mucho tiempo. ¿Cuánto exactamente? Vamos a verlo.</p>
 <p>En nuestro código tenemos la siguiente línea en <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js"><code>lib/server.js</code></a> (en negrita):</p>
