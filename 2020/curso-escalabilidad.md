@@ -6,6 +6,7 @@ footer: Publicado el 2020-05-20, modificado el 2020-05-20.
 ---
 
 ![Alex Fernández, profesor principal del curso.](pics/escalabilidad-alex.jpg "Alex Fernández, también conocido como Pinchito.")
+![Alfredo López Moltó, profesor asociado.](pics/escalabilidad-alfredo.jpg "Alfredo López Moltó, también conocido como xgalen.")
 
 # 🚀Agile Performance and Scalability🚀
 
@@ -69,7 +70,7 @@ Día 3: Uso de métricas
 * Métricas principales: peticiones, eventos, latencia, aprovechamiento.
 * Métricas comerciales: SLOs, SLEs, SLAs; uptime, % error.
 * Objetivo de _uptime_. Presupuesto de incidencias.
-* Incógnitas incógnitas (_unknown unknowns_).
+* Incógnitas desconocidas (_unknown unknowns_).
 
 Día 4: Monitorización y observabilidad.
 
