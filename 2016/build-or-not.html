@@ -74,14 +74,15 @@
 										<h1>Should I Build or Should I Not</h1>
 										<p>Or Pondering the Merits of Custom DevOps Tools<p>
 									</header>
-																				<figure>
-<img src="pics/build-or-not.jpg" title="Isaac Peral&#39;s first submarine" alt="The first electric submarine, built by Isaac Peral (Image source)" /><figcaption>The first electric submarine, built by Isaac Peral <a href="https://delamarylosbarcos.wordpress.com/tag/isaac-peral/">(Image source)</a></figcaption>
-</figure>
+																				<div class="figure">
+<img src="pics/build-or-not.jpg" title="Isaac Peral&#39;s first submarine" alt="The first electric submarine, built by Isaac Peral (Image source)" />
+<p class="caption">The first electric submarine, built by Isaac Peral <a href="https://delamarylosbarcos.wordpress.com/tag/isaac-peral/">(Image source)</a></p>
+</div>
 <h2 id="a-story-for-builders">A Story for Builders</h2>
 <p>Before we start, let us clear the air. This is a story for builders, not for decisions makers. Therefore it may only be of interest to people in organizations where there is not a large divide between the two, or where the divide can at least be breached somehow. If that is not your case, I am not sure I can help you.</p>
 <p>For decision makers, I should probably show you some cold and rational bullet points to help you decide if you want to build a custom solution or not. The problem here is that things are not as cold and rational as you would probably like.</p>
 <p>Just run a detailed Total Cost of Ownership comparison. And then throw it away, because you will probably have left out some of the most important factors in the equation. In this article I will go over some of these so you can go back to ignoring them if you want.</p>
-<p>Instead, I will start with a few case studies of my own, then try to debunk what many people take as “rational” arguments, and offer some emotional points which are really the best that I can offer you. After that we will see a third way which should hopefully act as a synthesis of previous arguments, and finally offer some conclusions.</p>
+<p>Instead, I will start with a few case studies of my own, then try to debunk what many people take as &quot;rational&quot; arguments, and offer some emotional points which are really the best that I can offer you. After that we will see a third way which should hopefully act as a synthesis of previous arguments, and finally offer some conclusions.</p>
 <h2 id="some-case-studies">Some Case Studies</h2>
 <p>I will now present a few examples that have happened in our daily practice at MediaSmart Mobile, the mobile adtech company I work at.</p>
 <h3 id="continuous-deployment">Continuous Deployment</h3>
@@ -108,7 +109,7 @@
 <p>It had all of the rough edges of a custom tool: it was command-line only, had to be set up (with webhooks to GitHub) manually each time, had to be started up using Upstart tasks for Ubuntu. After three years I got tired of setting up deployment servers, and the whole infrastructure was becoming unwieldy. So we started looking for alternatives.</p>
 <h4 id="stridercd">StriderCD</h4>
 <p>Luckily <a href="https://twitter.com/CarlosCondor">Juan Carlos Delgado</a>, CTO at <a href="http://llollo.com/">llollo.com</a>, had told me about a new alternative written in Node.js in a private conversation.</p>
-<p>Excited, I tried StriderCD for a <a href="/2016/stridercd">freelancing gig</a> I did the following month: it is a very nice Node.js solution which has a graphical interface, similar to Travis-CI. It automatically sets up webhooks, and even allows testing all PRs. Best of all, it has “continuous deployment” right in the title, which automatically won my heart.</p>
+<p>Excited, I tried StriderCD for a <a href="/2016/stridercd">freelancing gig</a> I did the following month: it is a very nice Node.js solution which has a graphical interface, similar to Travis-CI. It automatically sets up webhooks, and even allows testing all PRs. Best of all, it has &quot;continuous deployment&quot; right in the title, which automatically won my heart.</p>
 <p>Lead by our latest recruit Alfredo López, in a few weeks we had migrated almost all of our infrastructure to StriderCD, and it was a most interesting project. At this point we are still refining our continuous deployment, and are missing a few things, like the ability to send a diff of the deployed changes by email after each deployment. But mostly it has been a success.</p>
 <h3 id="elb-balancer">ELB Balancer</h3>
 <p>Now let us see the reverse situation: going from a standard product to a custom solution. A month ago I published an <a href="/2016/nginx-balancer">article about this migration</a> which contains far more detail than this summary.</p>
@@ -123,16 +124,17 @@
 <h4 id="lua-logging">Lua Logging</h4>
 <p>At this point we were still missing out on an important piece: logging and reporting. ELBs come with shiny graphs, and we did not want to lose those; if anything, we wanted to improve them.</p>
 <p>So we hacked together a custom logging solution in Lua, the language that Nginx supports. It is super-fast and has caused zero problems in the months that it has been deployed. And unlike ELB reporting we can see different HTTP codes separately, which has allowed us to improve our response to problems.</p>
-<figure>
-<img src="pics/daily-traffic.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows HTTP responses separated by code." /><figcaption>Traffic dashboard shows HTTP responses separated by code.</figcaption>
-</figure>
+<div class="figure">
+<img src="pics/daily-traffic.png" title="This is the kind of dashboard that you show in a big screen in the office." alt="Traffic dashboard shows HTTP responses separated by code." />
+<p class="caption">Traffic dashboard shows HTTP responses separated by code.</p>
+</div>
 <p>To this day I have a server which has processed about 40 billion requests without skipping a beat. And more importantly, we have reduced our AWS costs from about 10% to 8% of our revenue.</p>
 <h3 id="monitoring">Monitoring</h3>
 <p>Now let us see a mixed example, with standard and custom solutions.</p>
 <p>We have several monitoring tools in place, which act as our eyes. We also have alerting systems, which are like our pain receptors.</p>
 <p>We use Cloudwatch for basic systems monitoring and alerting. But it falls short of our needs in many respects, since it only reports CPU usage.</p>
 <p>Early on we started building our infrastructure using Node.js: very basic alerts for disk space, memory and so on. Then we expanded on it with Redis usage alerts. Gradually it became more complex, reporting on site up / site down, log errors and so on.</p>
-<p>Our CEO, Noelia Amoedo, has amazing attention to detail. So every once in a while she would come to us with questions like: why has the CTR on this particular exchange fallen so much? At other times it would be our business analyst, Tiago, who would alert us on small revenue or no conversions. Since we wanted to learn of problems before they told us, and realizing that checking business parameters must be a huge burden for them, we created Business Alerts, nicknamed the “Automatic Noelia”: a periodic check of business parameters, which would alert us when they differed too much from the previous day and the previous hour.</p>
+<p>Our CEO, Noelia Amoedo, has amazing attention to detail. So every once in a while she would come to us with questions like: why has the CTR on this particular exchange fallen so much? At other times it would be our business analyst, Tiago, who would alert us on small revenue or no conversions. Since we wanted to learn of problems before they told us, and realizing that checking business parameters must be a huge burden for them, we created Business Alerts, nicknamed the &quot;Automatic Noelia&quot;: a periodic check of business parameters, which would alert us when they differed too much from the previous day and the previous hour.</p>
 <p>We might use a standard solution such as Nagios or Icinga for the middle monitoring layer. There is however no commercial or open source solution for our particular business case, so for business alerts there was only one option: build a custom solution.</p>
 <h3 id="business-partners">Business Partners</h3>
 <p>Our company, MediaSmart Mobile, has been in talks with many other companies to create partnerships. Some of them do not like it too much when they learn that so much of our infrastructure is custom-made, instead of marvelling at our inventive.</p>
@@ -150,14 +152,14 @@
 <p>Except for that time when your vendor stops supporting your product and forces you to upgrade, just because they want to make more money off you.</p>
 <h3 id="technical-debt">Technical Debt</h3>
 <p>Once you start a software project, you start accruing <a href="http://martinfowler.com/bliki/TechnicalDebt.html">technical debt</a>. It is almost inevitable. Infrastructure projects are usually the worst, so by the time that your DevOps infrastructure is functional it is an iceberg of debt waiting to fall on you.</p>
-<p>Here we are gleefully ignoring the technical debt that actually exists in third party projects, just because we cannot see it. If your dev team is worse than the vendor this argument may carry some weight, so the moral should not be “do not build anything”; rather, “get a good dev team”.</p>
+<p>Here we are gleefully ignoring the technical debt that actually exists in third party projects, just because we cannot see it. If your dev team is worse than the vendor this argument may carry some weight, so the moral should not be &quot;do not build anything&quot;; rather, &quot;get a good dev team&quot;.</p>
 <h2 id="emotional-arguments">Emotional Arguments</h2>
 <p>There is only so much that can be explained rationally. Many of our best impulses are led more by intuition than by an explicit mental process, and are only rationalized after the fact.</p>
 <p>A discussion of emotional arguments should allow us to recognize our unconscious biases, and hopefully to offset them. These items are even more contentious than the rational ones, so do not expect any definitive answers here; at most, some uncomfortable questions.</p>
 <h3 id="the-joy-of-building-things">The Joy of Building Things</h3>
 <p>In his excellent book <a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">The Existential Pleasures of Engineering</a>, Florman argues that people build things just because they love to. He goes back to the wonderful Iliad searching for proofs:</p>
 <blockquote>
-<p>Homer insists on telling us how each object is made. […] In more than 130 lines of poetry the fabrication and decoration of the fabulous shield is described. At other points in the story we are told in detail about the manufacture of Pandora’s bow, Hera’s chariot, Odysseus’ bed, and Achylles’ shelter.</p>
+<p>Homer insists on telling us how each object is made. [...] In more than 130 lines of poetry the fabrication and decoration of the fabulous shield is described. At other points in the story we are told in detail about the manufacture of Pandora's bow, Hera's chariot, Odysseus' bed, and Achylles' shelter.</p>
 </blockquote>
 <p>This pleasure can still be felt in our veins each time we start a green field project: open a new blank document, initialize a git repo or just start sketching on a napkin in a coffee shop.</p>
 <p>Over at the YouTube channel <a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA">Primitive Technology</a>, with almost 1.5 million subscribers, a mysterious <a href="https://primitivetechnology.wordpress.com/about/">Australian guy</a> builds all kinds of things just using natural elements: <a href="https://www.youtube.com/watch?v=kiHojsMTBeA">baskets and stone hatchet</a>, <a href="https://www.youtube.com/watch?v=SLoukoBs8TE">bow and arrow</a>, or <a href="https://www.youtube.com/watch?v=P73REgj-3UE">a complete hut</a>. This last video has over 8 million visualizations; we can only presume that most of them do not come from survivalists intent on imitating him, but just people that watch his handicrafts out of pure pleasure.</p>
@@ -166,20 +168,20 @@
 <p>The <a href="http://www.developer.com/java/other/article.php/3338791">Not-Invented-Here Syndrome</a> is the vilification of a tendency to distrust products offered by third parties.</p>
 <p>There is a lively discussion at <a href="http://c2.com/cgi/wiki?NotInventedHere">the c2.com wiki</a> with pros and cons. Joel Spolsky, cofounder of Trello and Stack Overflow, <a href="http://www.joelonsoftware.com/articles/fog0000000007.html">summarizes it thus</a>:</p>
 <blockquote>
-<p>If it is a core business function – do it yourself, no matter what.</p>
+<p>If it is a core business function -- do it yourself, no matter what.</p>
 </blockquote>
 <p>I worked for 6 years in the banking sector. At the time, most banks in Spain insisted on outsourcing their IT competencies, since they are not technology companies. But are they not? I contend that, in this day and age, banks are just purveyors of information: handling physical money is anecdotal and incidental to their business. Bank accounts and most financial products are just bits that move around. So, why should not banks embrace information technology?</p>
 <p>Right now in the sector there is an opposite tendency to do IT in-house, and a good thing it is too. As <a href="https://en.wikipedia.org/wiki/Financial_technology">FinTech</a> becomes both a hot trend and a buzzword, it is becoming apparent that traditional banks can and should do more with technology, or they risk going the way of CD stores and Symbian phones. Time to market is starting to be critical even for mastodontic banks.</p>
-<p>What constitutes a “core business function” is not so obvious. Is providing Internet connectivity <a href="https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg">a core function for Facebook</a>? Are <a href="https://www.google.com/selfdrivingcar/">self-driving cars core for Google</a>? Is Apple a <a href="http://www.apple.com/watch/">watch company</a>? What would you think if these companies outsourced those efforts?</p>
+<p>What constitutes a &quot;core business function&quot; is not so obvious. Is providing Internet connectivity <a href="https://www.theguardian.com/technology/2016/may/12/facebook-free-basics-india-zuckerberg">a core function for Facebook</a>? Are <a href="https://www.google.com/selfdrivingcar/">self-driving cars core for Google</a>? Is Apple a <a href="http://www.apple.com/watch/">watch company</a>? What would you think if these companies outsourced those efforts?</p>
 <h3 id="reinventing-the-wheel">Reinventing the Wheel</h3>
 <p>You are probably thinking that this way of reasoning leads straight to constant reinvention of basic tools.</p>
-<p>Wheels come in many shapes and colors. Tesla gives the option of upgrading the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21’’ Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to “reinvent the wheel”.</p>
+<p>Wheels come in many shapes and colors. Tesla gives the option of upgrading the model S with <a href="http://shop.teslamotors.com/collections/model-s-wheels-tires-and-tire-covers/products/21-arachnid-wheel-and-tire-package">four 21'' Arachnid Wheels</a> priced at $7,600; for that money you can buy a small car. I cannot imagine that when their engineers set to build an outstanding set of wheels, their manager told them not to &quot;reinvent the wheel&quot;.</p>
 <p>So reinventing the wheel is not a valid rational argument, although it may reach the pit of your stomach since it is a highly emotional subject.</p>
-<p>Another popular formulation is: “does the world really need another testing library?”. The correct answer is of course: I do not know what the world needs, but if I ever need a new testing tool I will surely build it.</p>
+<p>Another popular formulation is: &quot;does the world really need another testing library?&quot;. The correct answer is of course: I do not know what the world needs, but if I ever need a new testing tool I will surely build it.</p>
 <h3 id="learning-the-easy-way">Learning the Easy Way</h3>
-<p>There is a reason why people that start programming write their very own implementation of “Hello, world”: to learn how things work. My favorite didactic tool is by far “learn by building”.</p>
-<p>I have too often seen purported “DevOps engineers” which are just recycled sysadmins: they know how to install Jenkins or set up a Maven repository, they can hack up a few Bash scripts or even venture with some Python, but mostly they are unable to develop good, solid code. So I ask myself: where do they think that the “Dev” in “DevOps” comes from? For me, DevOps is about making your sysadmin infrastructure a first-class citizen, and treating it as one of your products.</p>
-<p>If our infrastructure is itself going to be coded, and live in repositories, then we need a little bit more dedication. That is what I understand as “DevOps”. And as it happens, the best way to learn to do this is to create the tools from scratch. Perhaps you do not need to recreate everything for every project, but at least you should have done it once. Otherwise, how can you know that a PHP script invoking <code>rsync</code> can be as effective as a sophisticated Jenkins pipeline?</p>
+<p>There is a reason why people that start programming write their very own implementation of &quot;Hello, world&quot;: to learn how things work. My favorite didactic tool is by far &quot;learn by building&quot;.</p>
+<p>I have too often seen purported &quot;DevOps engineers&quot; which are just recycled sysadmins: they know how to install Jenkins or set up a Maven repository, they can hack up a few Bash scripts or even venture with some Python, but mostly they are unable to develop good, solid code. So I ask myself: where do they think that the &quot;Dev&quot; in &quot;DevOps&quot; comes from? For me, DevOps is about making your sysadmin infrastructure a first-class citizen, and treating it as one of your products.</p>
+<p>If our infrastructure is itself going to be coded, and live in repositories, then we need a little bit more dedication. That is what I understand as &quot;DevOps&quot;. And as it happens, the best way to learn to do this is to create the tools from scratch. Perhaps you do not need to recreate everything for every project, but at least you should have done it once. Otherwise, how can you know that a PHP script invoking <code>rsync</code> can be as effective as a sophisticated Jenkins pipeline?</p>
 <p>And once you have learned how to do something, a nice bonus is that installing an external package is made easier: after all you know the mechanics pretty well. Sometimes, switching from custom code to external package is not a big deal.</p>
 <h3 id="against-craftmanship">Against Craftmanship</h3>
 <p>Too much <a href="/2016/against-craftsmanship">craftmanship</a> is not good either.</p>
@@ -190,10 +192,10 @@
 <p>Are we stuck in an endless loop of emotional arguments, with no rational way out? Maybe we can find a compromise between building a custom solution and deploying a third party product, and maybe we can even make it work.</p>
 <h3 id="customizable-solutions">Customizable Solutions</h3>
 <p>There is a middle ground between building a new product and just installing a third party tool.</p>
-<p>SAP offers a complete solution for enterprise software, which is highly customizable – and in fact usually requires lots of adaptations before it is at all usable.</p>
+<p>SAP offers a complete solution for enterprise software, which is highly customizable -- and in fact usually requires lots of adaptations before it is at all usable.</p>
 <h3 id="open-source-software">Open Source Software</h3>
 <p>Usually you can only extend commercial software in ways specified by the vendor. But with open source software you have access to the source code; you can extend it to do what you need.</p>
-<p>Due to a long membership to the FSFE, and out of respect for the great Richard Stallman, I have long resisted using the term <a href="https://opensource.org/">“open source”</a>. But <a href="http://www.gnu.org/philosophy/free-sw.en.html">“free software”</a> is still not accepted industry wide, and the English language still has this unfortunate conflation of “gratis” and “libre”. Furthermore, “open source” is more often associated with a community of developers improving the software.</p>
+<p>Due to a long membership to the FSFE, and out of respect for the great Richard Stallman, I have long resisted using the term <a href="https://opensource.org/">&quot;open source&quot;</a>. But <a href="http://www.gnu.org/philosophy/free-sw.en.html">&quot;free software&quot;</a> is still not accepted industry wide, and the English language still has this unfortunate conflation of &quot;gratis&quot; and &quot;libre&quot;. Furthermore, &quot;open source&quot; is more often associated with a community of developers improving the software.</p>
 <p>Anyway, the idea is that once you modify the software you can send back your contributions. It even adds a certain kind of karma to your reputation, so everyone benefits.</p>
 <p>I have received a number of contributions for my DevOps packages, particularly for <a href="https://www.npmjs.com/package/loadtest"><code>loadtest</code></a> which has already got <a href="https://github.com/alexfernandez/loadtest/pulls?q=is%3Apr+is%3Aclosed">40 pull requests</a>.</p>
 <p>Remember our shiny new continuous deployment system built with StriderCD? We are planning on extending it for including a diff of the changes it has deployed in the notification email, and to send the contribution upstream so that everyone can use this new feature.</p>
@@ -210,9 +212,9 @@
 <p>We mostly take all these pieces for granted, until they fail. A monolithic environment can provide for all of them, but you would be very lucky if all bits are ideally suited for your environment. Alternatively, each of these can be provided by different packages, which integrate together with some glue to provide the final platform.</p>
 <p>In essence, sysadmins have long known how to make lots of pieces work together, particularly in Unix environments: having well-defined universal interfaces.</p>
 <h2 id="conclusions">Conclusions</h2>
-<p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance. And there is not a single answer to this complex problem: build or not. Paraphrasing <span class="citation" data-cites="msanjuan">[@msanjuan]</span>(https://twitter.com/pinchito/status/735506866558623745):</p>
+<p>There is not a universal path that leads to all destinations. There is not even an optimal means of transportation for any distance. And there is not a single answer to this complex problem: build or not. Paraphrasing <span class="citation">[@msanjuan]</span>(https://twitter.com/pinchito/status/735506866558623745):</p>
 <blockquote>
-<p>The answer to every interesting yes/no question is: “it depends”.</p>
+<p>The answer to every interesting yes/no question is: &quot;it depends&quot;.</p>
 </blockquote>
 <p>That said, there are many questions to consider that may help, among them:</p>
 <ul>
@@ -230,7 +232,7 @@
 <ul>
 <li><p>Cyril Field: <a href="https://archive.org/stream/storyofsubmarine00fielrich#page/144/mode/2up/search/peral">The story of the submarine from the earliest ages to the present day</a>, 1908. A very interesting book about the history of submarines, although it thrashes Peral needlessly (and quite unfairly too).</p></li>
 <li><p>John Allspaw, Jesse Robbins: <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a>, 2010. An excellent introduction to some of the topics of what is now called DevOps.</p></li>
-<li><p><a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">S C Florman: “The Existential Pleasures of Engineering” 2nd Edition</a>, 1996.</p></li>
+<li><p><a href="https://books.google.es/books/about/The_Existential_Pleasures_of_Engineering.html?id=V9u7GUIS0X8C&amp;redir_esc=y">S C Florman: &quot;The Existential Pleasures of Engineering&quot; 2nd Edition</a>, 1996.</p></li>
 </ul>
 								</div>
 							</section>
