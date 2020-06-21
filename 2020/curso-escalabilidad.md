@@ -6,6 +6,7 @@ footer: Publicado el 2020-05-20, modificado el 2020-05-20.
 ---
 
 ![Alex Fernández, profesor principal del curso.](pics/escalabilidad-alex.jpg "Alex Fernández, también conocido como Pinchito.")
+
 ![Alfredo López Moltó, profesor asociado.](pics/escalabilidad-alfredo.jpg "Alfredo López Moltó, también conocido como xgalen.")
 
 # 🚀Agile Performance and Scalability🚀
