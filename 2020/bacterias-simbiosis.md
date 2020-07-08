@@ -129,6 +129,15 @@ Al parecer la reciente infección de coronavirus
 Es interesante señalar que a menudo las enfermedades zoonóticas
 [no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
+Durante la conquista de América, los españoles e ingleses jugaron a su favor con enfermedades como la viruela,
+que causaron una mortalidad de [más del 90%](?).
+Hay [múltiples informes](?) de infecciones premeditadas.
+Los europeos contaban con inmunidad adquirida durante muchos siglos,
+mientras que los americanos no.
+Podemos preguntarnos por qué más del 90% de la población murió,
+pero una pregunta más interesante a mi parecer es:
+¿por qué sobrevivió el 10% restante?
+
 ## Jugando a los dados
 
 ¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
