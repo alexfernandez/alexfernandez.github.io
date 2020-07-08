@@ -74,10 +74,9 @@
 										<h1>Tras la arquitectura perfecta</h1>
 										<p>La arquitectura fluida, parte 1<p>
 									</header>
-																				<div class="figure">
-<img src="pics/arquitectura-fluida-1.jpg" title="Deep Blue Dolphin Love" alt="Imagen: © Patrik Jones" />
-<p class="caption">Imagen: <a href="https://creativecommons.org/licenses/by/2.0/">©</a> <a href="https://www.flickr.com/photos/laprimadonna/4881676285">Patrik Jones</a></p>
-</div>
+																				<figure>
+<img src="pics/arquitectura-fluida-1.jpg" title="Deep Blue Dolphin Love" alt="Imagen: © Patrik Jones" /><figcaption>Imagen: <a href="https://creativecommons.org/licenses/by/2.0/">©</a> <a href="https://www.flickr.com/photos/laprimadonna/4881676285">Patrik Jones</a></figcaption>
+</figure>
 <p>En muchas empresas hay departamentos de arquitectura cuya misión es decidir cómo se va a organizar cada proyecto de software. Deciden el diseño a alto nivel, en cuántas capas se dividirá, qué base de datos usar y otros detalles importantes.</p>
 <p>¿Por qué cambiar la base de datos en cada proyecto? ¿Por qué no se usa siempre la misma? Para construir edificios no existe un material perfecto: a veces es mejor la piedra, otras el ladrillo y otras incluso el acero. Tampoco hay una forma perfecta para todos los edificios: cuadrados, rectángulos, cilindros y semiesferas se comportan de forma distinta bajo la carga. Lo mismo ocurre con los programas de software: cada uno tiene unas restricciones operacionales diferentes, y se comporta mejor en ciertas circunstancias.</p>
 <h1 id="qué-es-la-arquitectura">Qué es la arquitectura</h1>
@@ -114,10 +113,9 @@
 <p>¿Cómo predecir el tráfico que tendremos, no ya al final de un año, sino sólo dentro de un mes? Respuesta: no podemos. Sólo podemos intentar ir un paso por delante del tráfico, responder rápido a los cambios y no adelantar demasiado los acontecimientos.</p>
 <blockquote>
 <h4 id="caso-práctico-mediasmart-mobile">Caso práctico: MediaSmart Mobile</h4>
-<div class="figure">
-<img src="pics/mediasmart-krps.jpg" alt="Peticiones por segundo en MediaSmart Mobile" />
-<p class="caption">Peticiones por segundo en MediaSmart Mobile</p>
-</div>
+<figure>
+<img src="pics/mediasmart-krps.jpg" alt="Peticiones por segundo en MediaSmart Mobile" /><figcaption>Peticiones por segundo en MediaSmart Mobile</figcaption>
+</figure>
 <p>Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps (miles de peticiones por segundo). A principios de 2014 pasó algo curioso: el ritmo se aceleró, y pasamos de 15 a 100 krps a finales de año. Pero en 2015 el ritmo está decelerando de nuevo: apenas pasaremos de 210 krps antes de final de año.</p>
 <p>Si a principios 2014 hubiéramos pintado una línea recta para predecir el tráfico del año, habríamos calculado alrededor de 25 krps (definitivamente por debajo de 30 krps); a final de año teníamos 100 krps. Por otra parte, si hubiéramos seguido la curva exponencial para 2015, a final de año habríamos andado por 600 krps; la cifra real anda cerca de las 200 krps.</p>
 </blockquote>
@@ -134,10 +132,9 @@
 <p>Por último, pero no menos importante, tenemos los costes de operación del sistema. Alquilar servidores en la nube no sale barato; si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.</p>
 <blockquote>
 <h4 id="caso-práctico-mediasmart-mobile-1">Caso práctico: MediaSmart Mobile</h4>
-<div class="figure">
-<img src="pics/mediasmart-daily-traffic.png" alt="Tráfico diario en MediaSmart Mobile" />
-<p class="caption">Tráfico diario en MediaSmart Mobile</p>
-</div>
+<figure>
+<img src="pics/mediasmart-daily-traffic.png" alt="Tráfico diario en MediaSmart Mobile" /><figcaption>Tráfico diario en MediaSmart Mobile</figcaption>
+</figure>
 <p>En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario: en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto, frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde). <em>Nota</em>: Amazon AWS mide las peticiones <em>por minuto</em>, en lugar de las peticiones <em>por segundo</em> que hemos visto arriba. 6M por minuto equivale a 100 krps.</p>
 <p>Mantener arrancados los servidores todo el día suponía desperdiciar gran parte de la capacidad, y como en Amazon se paga por hora de servidor los costes eran astronómicos. Es esencial poder usar un número variable de servidores, y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.</p>
 </blockquote>

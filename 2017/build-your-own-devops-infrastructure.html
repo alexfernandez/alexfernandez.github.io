@@ -74,11 +74,10 @@
 										<h1>Build Your Own DevOps Infrastructure</h1>
 										<p>Talk for FullStack London 2017<p>
 									</header>
-																				<div class="figure">
-<img src="pics/build-otomo.jpg" title="Katsuhiro Otomo with a replica of the Akira motorbike." alt="Build your own Akira motorbike. Source." />
-<p class="caption">Build your own Akira motorbike. <a href="https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg">Source</a>.</p>
-</div>
-<p>Your company is using cloud services. You want to do DevOps because you think it's cool, so you install Jenkins somewhere and... What now exactly?</p>
+																				<figure>
+<img src="pics/build-otomo.jpg" title="Katsuhiro Otomo with a replica of the Akira motorbike." alt="Build your own Akira motorbike. Source." /><figcaption>Build your own Akira motorbike. <a href="https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg">Source</a>.</figcaption>
+</figure>
+<p>Your company is using cloud services. You want to do DevOps because you think it’s cool, so you install Jenkins somewhere and… What now exactly?</p>
 <p>Come with us to <a href="https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things#program">FullStack 2017</a>, where you will learn how to build your own DevOps infrastructure. In the talk we will build our own simplified infrastructure. A more complete example resides in the GitHub repo <a href="https://github.com/alexfernandez/infra">infra</a>. In my day job at <a href="http://mediasmart.io/">mediasmart.io</a>, a Spanish adTech company, we use an even more sophisticated version of this code, based on the same principles. In fact we started with something similar to what we are going to see, and built from there.</p>
 <p>If you are attending FullStack London this companion post should whet your appetite, and help you make the most of the talk. And if you could not attend you will get an overview of the main ideas.</p>
 <h3 id="requirements">Requirements</h3>
@@ -180,7 +179,7 @@ setInterval(exports.check, 60000);</code></pre>
 </ul>
 <p>The <a href="https://github.com/alexfernandez/infra/blob/master/lib/monitor.js">final code</a> contains all improvements, in 74 lines of code.</p>
 <h3 id="aws">AWS</h3>
-<p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let's say, somewhat quirky interface. Also, writing an adapter library will allow us to replace it with a different cloud provider just by building another library with the same interface, and modifying the <code>require()</code> in a one-line change.</p>
+<p>The second helper library is an adapter for the official <code>aws-sdk</code> library from Amazon, which has a, let’s say, somewhat quirky interface. Also, writing an adapter library will allow us to replace it with a different cloud provider just by building another library with the same interface, and modifying the <code>require()</code> in a one-line change.</p>
 <p>Our adapter library <a href="https://github.com/alexfernandez/infra/blob/master/lib/aws.js"><code>lib/aws.js</code></a> has functions to:</p>
 <ul>
 <li>find out instance ids for a number of servers,</li>
@@ -195,7 +194,7 @@ setInterval(exports.check, 60000);</code></pre>
 <ul>
 <li>It orchestrates based on the CPU load of existing servers, not on the CPU load that will result if we remove one.</li>
 <li>It uses average CPU load, not median which is more robust.</li>
-<li>It only works with Amazon's own balancers (ELB or ALB), not with custom solutions.</li>
+<li>It only works with Amazon’s own balancers (ELB or ALB), not with custom solutions.</li>
 <li>It only takes CPU load into account, not memory use or latency.</li>
 </ul>
 <p>They are explained in detail <a href="../2016/nginx-balancer.html#orchestration">here</a>. Our custom orchestrator can be fine-tuned as we see fit. No longer do we have to set the low CPU load at 40%; we can set a narrower range such as 80-90% so we make better use of our servers, or use other parameters.</p>
@@ -222,12 +221,12 @@ getInstanceLoads((error, loads) =&gt; {
     [...]
 });</code></pre>
 <p>Now with <code>medianLoad</code> we can determine if we need to create or destroy servers: create above 90%, destroy below 80%.</p>
-<div class="sourceCode"><pre class="sourceCode js"><code class="sourceCode javascript">    [...]
-    <span class="cf">if</span> (medianLoad <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">{</span>
-        <span class="at">createInstance</span>()<span class="op">;</span>
-    <span class="op">}</span> <span class="cf">else</span> <span class="cf">if</span> (medianLoad <span class="op">&lt;</span> <span class="dv">80</span>) <span class="op">{</span>
-        <span class="at">terminateInstance</span>()<span class="op">;</span>
-    <span class="op">}</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><a class="sourceLine" id="cb11-1" title="1">    [...]</a>
+<a class="sourceLine" id="cb11-2" title="2">    <span class="cf">if</span> (medianLoad <span class="op">&gt;</span> <span class="dv">90</span>) <span class="op">{</span></a>
+<a class="sourceLine" id="cb11-3" title="3">        <span class="at">createInstance</span>()<span class="op">;</span></a>
+<a class="sourceLine" id="cb11-4" title="4">    <span class="op">}</span> <span class="cf">else</span> <span class="cf">if</span> (medianLoad <span class="op">&lt;</span> <span class="dv">80</span>) <span class="op">{</span></a>
+<a class="sourceLine" id="cb11-5" title="5">        <span class="at">terminateInstance</span>()<span class="op">;</span></a>
+<a class="sourceLine" id="cb11-6" title="6">    <span class="op">}</span></a></code></pre></div>
 <p>The function to create an instance is very simple:</p>
 <pre><code>function createInstance() {
     const name = &#39;server&#39; + (loads.length + 1)
@@ -247,7 +246,7 @@ getInstanceLoads((error, loads) =&gt; {
 <h4 id="remaining-cpu-load">Remaining CPU Load</h4>
 <p>Removing instances when median load is below 80% might get us to a situation where the remaining instances cannot handle the load.</p>
 <p>Imagine we have two instances at 75%; assuming that server load is linear, removing one will leave one server at 150% of CPU capacity. This creates an unstable system that ping-pongs between one and two servers, with degraded performance. We have to choose a minimum load of 40%, so that two loads concentrated into one server still get us to 80%.</p>
-<p>This is the point where we can trivially do better than Amazon's Auto Scaling Groups. We just need to predict the remaining load, by sharing the median load among the remaining instances.</p>
+<p>This is the point where we can trivially do better than Amazon’s Auto Scaling Groups. We just need to predict the remaining load, by sharing the median load among the remaining instances.</p>
 <pre><code>const predictedLoad = medianLoad * loads.length / (loads.length - 1)
 if (predictedLoad &lt; 80%) {
     [...]

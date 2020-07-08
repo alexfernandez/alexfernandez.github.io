@@ -74,10 +74,9 @@
 										<h1>Pruebas asíncronas en node.js</h1>
 										<p><p>
 									</header>
-																				<div class="figure">
-<img src="pics/pruebas-asincronas.jpg" title="Filas de técnicos en uniforme aséptico miran en microscopios." alt="Laboratorio de pruebas." />
-<p class="caption">Laboratorio de pruebas.</p>
-</div>
+																				<figure>
+<img src="pics/pruebas-asincronas.jpg" title="Filas de técnicos en uniforme aséptico miran en microscopios." alt="Laboratorio de pruebas." /><figcaption>Laboratorio de pruebas.</figcaption>
+</figure>
 <p>node.js está muy orientado al desarrollo de software asíncrono: en lugar de ejecutar código y mantenernos ocupados mientras llega la respuesta, se suele liberar el hilo de ejecución para que corran otras tareas mientras esperamos.</p>
 <p>Las pruebas asíncronas suelen ser bastante complejas: primero hay que hacer una llamada, esperar, y luego comprobar que el resultado devuelto es el esperado. En este post (mi primero en este blog) explicaré cómo usar una nueva librería de pruebas (llamada, en un alarde de imaginación, testing) pensada especialmente para facilitar pruebas asíncronas.</p>
 <h2 id="instalación">Instalación</h2>
@@ -151,7 +150,7 @@
 }</code></pre>
 <p>El primer parámetro es un objeto que contiene por cada atributo una función de prueba; por ahora no necesitamos más.</p>
 <h2 id="pruebas-asíncronas">Pruebas asíncronas</h2>
-<p>Supongamos que nuestra prueba es algo más compleja: queremos leer el fichero <code>pepito.txt</code> y comprobar que contiene el valor esperado, <code>&quot;pepito&quot;</code>. Sería algo así:</p>
+<p>Supongamos que nuestra prueba es algo más compleja: queremos leer el fichero <code>pepito.txt</code> y comprobar que contiene el valor esperado, <code>"pepito"</code>. Sería algo así:</p>
 <pre><code>function testFile()
 {
   fs.readFile(&#39;pepito.txt&#39;, function(error, result)
