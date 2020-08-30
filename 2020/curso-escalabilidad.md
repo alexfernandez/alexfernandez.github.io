@@ -109,9 +109,7 @@ El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
-¡Plazas abiertas!
-Reserva ya en
-[Koliseo](https://www.koliseo.com/alexfernandeznpm/curso-de-escalabilidad).
+Curso cerrado.
 </div>
 
 ## Los alumnos hablan
