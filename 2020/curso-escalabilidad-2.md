@@ -179,7 +179,7 @@ _Te escala las perspectivas de tal manera que tu performance como backend se ve 
 Gracias a profes y companerxs es un espacio donde aprender bastante,
 tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
 
-\> Beatriz Almagro, _Node.js backend_ en Zooplus
+\> Beatriz Almagro, Node.js backend en Zooplus
 
 <p style="clear: both;"></p>
 
