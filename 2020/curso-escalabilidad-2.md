@@ -157,9 +157,9 @@ Recibirás **diploma de asistencia**.
 
 <img src="pics/escalabilidad-cata.jpg" title="Catalina Oyaneder" style="float: left; margin: 0.2em 0.5em;" />
 
-"El curso ha sido brillante en contenido y ritmo. Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado. Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto. Las herramientas utilizadas han sido apropiadas y todas nuestras recomendaciones fueron tomadas en cuenta haciendo que la dinámica se adaptara a las circunstancias."
-
-_El curso ha sido brillante en contenido y ritmo. Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado. Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto._
+_El curso ha sido brillante en contenido y ritmo.
+Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado.
+Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto._
 
 \> Catalina Oyaneder, ingeniera en DAZN.
 
@@ -175,7 +175,9 @@ _La facilidad y ganas de compartir conocimientos de Alex durante el curso me han
 
 <img src="pics/escalabilidad-btrz.jpg" title="Beatriz Almagro" style="float: left; margin: 0.2em 0.5em;" />
 
-_Te escala las perspectivas de tal manera que tu performance como backend se ve bastante optimizada. Gracias a profes y companerxs es un espacio donde aprender bastante, tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
+_Te escala las perspectivas de tal manera que tu performance como backend se ve bastante optimizada.
+Gracias a profes y companerxs es un espacio donde aprender bastante,
+tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
 
 \> Beatriz Almagro, _Node.js backend_ en Zooplus
 
