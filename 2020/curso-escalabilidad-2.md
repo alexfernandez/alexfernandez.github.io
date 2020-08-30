@@ -1,5 +1,5 @@
 ---
-title: 'Curso de Escalabilidad'
+title: '🚀Curso de Escalabilidad🚀'
 subtitle: 'Segunda edición online para equipos de desarrollo y SREs'
 footer: Publicado el 2020-08-30, modificado el 2020-08-30.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
@@ -9,7 +9,7 @@ footer: Publicado el 2020-08-30, modificado el 2020-08-30.
 
 ![Alfredo López Moltó, profesor asociado.](pics/escalabilidad-alfredo.jpg "Alfredo López Moltó, también conocido como xgalen.")
 
-# 🚀Curso de escalabilidad, 2a edición🚀
+# 🚀Curso de escalabilidad🚀, 🔥2a edición🔥
 
 No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de rendimiento y escalabilidad.
 En este **curso 100% online** te explicamos cómo.
