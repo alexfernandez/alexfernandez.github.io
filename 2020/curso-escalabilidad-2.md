@@ -153,14 +153,31 @@ Recibirás **diploma de asistencia**.
 <!--End mc_embed_signup-->
 </div>
 
-## Los alumnos hablan
+## Los alumnos de la primera edición hablan
 
-<img src="pics/escalabilidad-juan.jpg" title="Juan Gaitán" style="float: left; margin: 0.2em 0.5em;" />
+<img src="pics/escalabilidad-cata.jpg" title="Catalina Oyaneder" style="float: left; margin: 0.2em 0.5em;" />
 
-_Alex logró convertir la escalabilidad en algo fácil y divertido,
-explicando conceptos abstractos con ejemplos sencillos y entendibles sin perder el foco del temario._
+"El curso ha sido brillante en contenido y ritmo. Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado. Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto. Las herramientas utilizadas han sido apropiadas y todas nuestras recomendaciones fueron tomadas en cuenta haciendo que la dinámica se adaptara a las circunstancias."
 
-\> Juan Gaitán, ingeniero de datos en ChaserHQ.
+_El curso ha sido brillante en contenido y ritmo. Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado. Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto._
+
+\> Catalina Oyaneder, ingeniera en DAZN.
+
+<p style="clear: both;"></p>
+
+<img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
+
+_La facilidad y ganas de compartir conocimientos de Alex durante el curso me han dado soluciones aplicables a los problemas de escalabilidad que afrontamos en nuestra plataforma._
+
+\> Rafa Tejado, CTO en Billin.
+
+<p style="clear: both;"></p>
+
+<img src="pics/escalabilidad-btrz.jpg" title="Beatriz Almagro" style="float: left; margin: 0.2em 0.5em;" />
+
+_Te escala las perspectivas de tal manera que tu performance como backend se ve bastante optimizada. Gracias a profes y companerxs es un espacio donde aprender bastante, tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
+
+\> Beatriz Almagro, _Node.js backend_ en Zooplus
 
 <p style="clear: both;"></p>
 
@@ -170,23 +187,6 @@ _Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de A
 consigue que aprender sea muy ameno y fácil._
 
 \> Fernando Moreno, JavaScript fullstack developer en Gravity.
-
-<p style="clear: both;"></p>
-
-<img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
-
-_La facilidad y ganas de compartir conocimientos de Alex hicieron que asentara unas buenas bases que hoy en día me son de gran ayuda._
-
-\> Rafa Tejado, CTO en Billin.
-
-<p style="clear: both;"></p>
-
-<img src="pics/escalabilidad-marta.jpg" title="Marta Fonda" style="float: left; margin: 0.2em 0.5em;" />
-
-_Desde que Alex me dio la primera clase en 2013, no he dejado de contar con él para formaciones en todas las empresas en las que he trabajado.
-¡Aprendes de una forma increíblemente entretenida y didáctica!_
-
-\> Marta Fonda, _Engineering Manager_ en Handshake.
 
 <p style="clear: both;"></p>
 
