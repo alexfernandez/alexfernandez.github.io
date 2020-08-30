@@ -1,13 +1,17 @@
----
+:--
 title: 'Agile Performance and Scalability'
 subtitle: 'Curso online para equipos de desarrollo y SREs'
-footer: Publicado el 2020-05-20, modificado el 2020-05-20.
+footer: Publicado el 2020-05-20, modificado el 2020-08-30.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![Alex Fernández, profesor principal del curso.](pics/escalabilidad-alex.jpg "Alex Fernández, también conocido como Pinchito.")
 
 ![Alfredo López Moltó, profesor asociado.](pics/escalabilidad-alfredo.jpg "Alfredo López Moltó, también conocido como xgalen.")
+
+**Nota importante:**
+Este curso se impartió en junio de 2020.
+Esta página se mantiene por motivos de archivo.
 
 # 🚀Agile Performance and Scalability🚀
 
