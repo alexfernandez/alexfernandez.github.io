@@ -12,7 +12,7 @@ footer: Publicado el 2020-08-30, modificado el 2020-08-30.
 # 🚀Curso de escalabilidad🚀, 2a edición
 
 No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de rendimiento y escalabilidad.
-En este **curso 100% online** te explicamos cómo.
+En esta nueva edición del **curso 100% online** te explicamos cómo.
 
 * <a href="#duración-y-horario">Duración y horario</a>
 * <a href="#temario">Temario</a>
@@ -153,7 +153,7 @@ Recibirás **diploma de asistencia**.
 <!--End mc_embed_signup-->
 </div>
 
-## Los alumnos de la primera edición hablan
+## Los alumnos hablan
 
 <img src="pics/escalabilidad-cata.jpg" title="Catalina Oyaneder" style="float: left; margin: 0.2em 0.5em;" />
 
@@ -161,17 +161,17 @@ _El curso ha sido brillante en contenido y ritmo.
 Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado.
 Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto._
 
-<p style="clear: both;"></p>
-
+<pre style="clear: both;">
 \> Catalina Oyaneder, ingeniera en DAZN.
+</pre>
 
 <img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
 
 _La facilidad y ganas de compartir conocimientos de Alex durante el curso me han dado soluciones aplicables a los problemas de escalabilidad que afrontamos en nuestra plataforma._
 
-<p style="clear: both;"></p>
-
+<pre style="clear: both;">
 \> Rafa Tejado, CTO en Billin.
+</pre>
 
 <img src="pics/escalabilidad-btrz.jpg" title="Beatriz Almagro" style="float: left; margin: 0.2em 0.5em;" />
 
@@ -179,18 +179,18 @@ _Te escala las perspectivas de tal manera que tu performance como backend se ve 
 Gracias a profes y compañerxs es un espacio donde aprender bastante,
 tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
 
-<p style="clear: both;"></p>
-
+<pre style="clear: both;">
 \> Beatriz Almagro, Node.js backend en Zooplus
+</pre>
 
 <img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0.2em 0.5em;" />
 
 _Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
 consigue que aprender sea muy ameno y fácil._
 
-<p style="clear: both;"></p>
-
+<pre style="clear: both;">
 \> Fernando Moreno, JavaScript fullstack developer en Gravity.
+</pre>
 
 # Agradecimientos
 
