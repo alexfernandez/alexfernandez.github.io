@@ -92,17 +92,21 @@ Día 5: Resolución de incidencias.
 * Tareas post-incidente.
 * Actitudes y expectativas. Liderazgo.
 
+Día 6: Proyecto.
+
+Para finalizar el curso los alumnos harán un proyecto
+que ponga en práctica todo lo aprendido.
+
 ## Requisitos y herramientas
 
 Se espera que tengas algún conocimiento básico de programación,
 y un manejo básico de la consola Unix.
-Usarás como servicio cloud (Amazon Web Services) para los ejemplos;
-aunque el contenido es siempre aplicable a otros entornos.
+Se usarán para los ejemplos Node.js y Amazon Web Services.
+Se ha puesto especial cuidado en que el contenido sea siempre trasladable a otros entornos.
 
 ## Precio
 
-El precio está por determinar,
-con descuentos por _early bird_.
+El precio está por determinar.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
 
