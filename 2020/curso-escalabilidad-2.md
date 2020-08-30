@@ -176,7 +176,7 @@ _La facilidad y ganas de compartir conocimientos de Alex durante el curso me han
 <img src="pics/escalabilidad-btrz.jpg" title="Beatriz Almagro" style="float: left; margin: 0.2em 0.5em;" />
 
 _Te escala las perspectivas de tal manera que tu performance como backend se ve bastante optimizada.
-Gracias a profes y companerxs es un espacio donde aprender bastante,
+Gracias a profes y compañerxs es un espacio donde aprender bastante,
 tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
 
 \> Beatriz Almagro, Node.js backend en Zooplus
