@@ -136,7 +136,7 @@ Recibirás **diploma de asistencia**.
 <p>Puede desuscribirse en cualquier momento haciendo clic en el enlace que aparece en el pie de página de nuestros correos electrónicos. Para obtener información sobre nuestras prácticas de privacidad, visite nuestro sitio web.</p>
 </div>
 <div class="content__gdprLegal">
-<p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+<p>Este formulario usa Mailchimp como plataforma de marketing. Al pulsar en "Apúntate" aceptas que tu información se transfiera a Mailchimp. <a href="https://mailchimp.com/legal/" target="_blank">Más info</a></p>
 </div>
 </div>
 <div id="mce-responses" class="clear">
@@ -144,7 +144,7 @@ Recibirás **diploma de asistencia**.
 <div class="response" id="mce-success-response" style="display:none"></div>
 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e9283fddf717617d9d2cf1c28_5c26e59896" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+<div class="clear"><input type="submit" value="Apúntate" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </div>
 </form>
 </div>
