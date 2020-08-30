@@ -161,17 +161,17 @@ _El curso ha sido brillante en contenido y ritmo.
 Me ha encantado la cantidad de ejemplos reales con los que hemos trabajado.
 Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones en la arquitectura de un proyecto._
 
-\> Catalina Oyaneder, ingeniera en DAZN.
-
 <p style="clear: both;"></p>
+
+\> Catalina Oyaneder, ingeniera en DAZN.
 
 <img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
 
 _La facilidad y ganas de compartir conocimientos de Alex durante el curso me han dado soluciones aplicables a los problemas de escalabilidad que afrontamos en nuestra plataforma._
 
-\> Rafa Tejado, CTO en Billin.
-
 <p style="clear: both;"></p>
+
+\> Rafa Tejado, CTO en Billin.
 
 <img src="pics/escalabilidad-btrz.jpg" title="Beatriz Almagro" style="float: left; margin: 0.2em 0.5em;" />
 
@@ -179,18 +179,18 @@ _Te escala las perspectivas de tal manera que tu performance como backend se ve 
 Gracias a profes y compañerxs es un espacio donde aprender bastante,
 tanto si vas con nociones ultra básicas como si el tema del curso es tu día a día._
 
-\> Beatriz Almagro, Node.js backend en Zooplus
-
 <p style="clear: both;"></p>
+
+\> Beatriz Almagro, Node.js backend en Zooplus
 
 <img src="pics/escalabilidad-fernando.jpg" title="Fernando Moreno" style="float: left; margin: 0.2em 0.5em;" />
 
 _Desde la primera edición de Ironhack en el 2013 sigo los cursos y charlas de Alex por su forma divertida de transmitir:
 consigue que aprender sea muy ameno y fácil._
 
-\> Fernando Moreno, JavaScript fullstack developer en Gravity.
-
 <p style="clear: both;"></p>
+
+\> Fernando Moreno, JavaScript fullstack developer en Gravity.
 
 # Agradecimientos
 
