@@ -7,7 +7,7 @@ footer: Publicado el 2020-08-30, modificado el 2020-08-30.
 
 # 🚀Curso de escalabilidad🚀, 2a edición
 
-No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de rendimiento y escalabilidad.
+No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de escalabilidad.
 En esta nueva edición del **curso 100% online** te explicamos cómo.
 
 ![Alex Fernández, profesor principal del curso.](pics/escalabilidad-alex.jpg "Alex Fernández, también conocido como Pinchito.")
@@ -194,7 +194,8 @@ consigue que aprender sea muy ameno y fácil._
 
 # Agradecimientos
 
-Muchas gracias a Carlos Ble y Pablo Almunia por su ayuda.
+La idea y el apoyo de Carlos Ble han hecho posible este curso.
+Que por otra parte no sería el que es sin la ayuda de Pablo Almunia en la revisión de materiales y temario.
 
 <style type="text/css">
 header {
