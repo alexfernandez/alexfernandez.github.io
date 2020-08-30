@@ -127,14 +127,6 @@ Recibirás **diploma de asistencia**.
 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
-<div class="content__gdpr">
-<label>Permisos de promoción</label>
-<p>Seleccione todas las formas en que le gustaría recibir noticias del </p>
-<fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-<label class="checkbox subfield" for="gdpr_41468"><input type="checkbox" id="gdpr_41468" name="gdpr[41468]" value="Y" class="av-checkbox gdpr"><span>Correo electrónico</span> </label>
-</fieldset>
-<p>Puede desuscribirse en cualquier momento haciendo clic en el enlace que aparece en el pie de página de nuestros correos electrónicos. Para obtener información sobre nuestras prácticas de privacidad, visite nuestro sitio web.</p>
-</div>
 <div class="content__gdprLegal">
 <p>Este formulario usa Mailchimp como plataforma de marketing. Al pulsar en "Apúntate" aceptas que tu información se transfiera a Mailchimp. <a href="https://mailchimp.com/legal/" target="_blank">Más info</a></p>
 </div>
@@ -142,7 +134,7 @@ Recibirás **diploma de asistencia**.
 <div id="mce-responses" class="clear">
 <div class="response" id="mce-error-response" style="display:none"></div>
 <div class="response" id="mce-success-response" style="display:none"></div>
-</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+</div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e9283fddf717617d9d2cf1c28_5c26e59896" tabindex="-1" value=""></div>
 <div class="clear"><input type="submit" value="Apúntate" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </div>
