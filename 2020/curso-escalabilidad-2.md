@@ -36,13 +36,18 @@ y cómo adaptarlas a tu entorno.
 Todo ello con una **orientación práctica**:
 cada exposición va acompañada de ejercicios para corregir en grupos de trabajo supervisados.
 
-Imparte el curso Alejandro Fernández,
+Imparten el curso:
+
+* Alejandro Fernández,
 ingeniero de software con [20+ años de experiencia](/cv).
 Alex ha trabajado en **sistemas de alto rendimiento** para empresas como mediasmart y Devo.
 Es el autor principal del paquete [`loadtest`](https://www.npmjs.com/package/loadtest) para Node.js,
 uno de los más usados para pruebas de carga a nivel mundial.
 Su código procesa de forma rutinaria millones de peticiones por segundo.
 También ha impartido formación para múltiples empresas y bootcamps.
+
+* Alfredo López Moltó,
+ingeniero de software.
 
 ## Duración y horario
 
