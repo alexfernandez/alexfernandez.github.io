@@ -165,6 +165,16 @@ Cada sesión me ha inspirado y me ha hecho ser más consciente de mis decisiones
 > Catalina Oyaneder, ingeniera en DAZN.
 </pre>
 
+<img src="pics/escalabilidad-mica.jpg" title="Micael Gallego" style="float: left; margin: 0.2em 0.5em;" />
+
+_Un curso muy recomendable sobre rendimiento y escalabilidad.
+Un temario muy completo y una metodología participativa.
+Pero lo mejor, sin duda, es la experiencia real y las anécdotas de Alex._
+
+<pre style="white-space: pre-wrap; clear: both;">
+> Micael Gallego, director del Master en Cloud Apps de la URJC.
+</pre>
+
 <img src="pics/escalabilidad-rafa.jpg" title="Rafa Tejado" style="float: left; margin: 0.2em 0.5em;" />
 
 _La facilidad y ganas de compartir conocimientos de Alex durante el curso me han dado soluciones aplicables a los problemas de escalabilidad que afrontamos en nuestra plataforma._
@@ -181,16 +191,6 @@ tanto si vas con nociones ultra básicas como si el tema del curso es tu día a 
 
 <pre style="white-space: pre-wrap; clear: both;">
 > Beatriz Almagro, Node.js backend en Zooplus.
-</pre>
-
-<img src="pics/escalabilidad-mica.jpg" title="Micael Gallego" style="float: left; margin: 0.2em 0.5em;" />
-
-_Un curso muy recomendable sobre rendimiento y escalabilidad.
-Un temario muy completo y una metodología participativa.
-Pero lo mejor, sin duda, es la experiencia real y las anécdotas de Alex._
-
-<pre style="white-space: pre-wrap; clear: both;">
-> Micael Gallego, director del Master en Cloud Apps de la URJC.
 </pre>
 
 # Agradecimientos
