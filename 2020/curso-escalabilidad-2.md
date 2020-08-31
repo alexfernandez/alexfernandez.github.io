@@ -199,7 +199,8 @@ tanto si vas con nociones ultra básicas como si el tema del curso es tu día a 
 # Agradecimientos
 
 La idea y el apoyo de Carlos Ble han hecho posible este curso.
-Que por otra parte no sería el que es sin la ayuda de Pablo Almunia en la revisión de materiales y temario.
+La colaboración de Pablo Almunia en la revisión de materiales y temario ha sido crucial,
+y también en impartir [la primera edición](https://pinchito.es/2020/curso-escalabilidad).
 
 <style type="text/css">
 header {
