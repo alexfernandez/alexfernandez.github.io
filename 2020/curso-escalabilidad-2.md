@@ -190,7 +190,7 @@ Un temario muy completo y una metodología participativa.
 Pero lo mejor, sin duda, es la experiencia real y las anécdotas de Alex._
 
 <pre style="white-space: pre-wrap; clear: both;">
-> Micael Gallego, profesor universitario.
+> Micael Gallego, director del Master en Cloud Apps de la URJC.
 </pre>
 
 # Agradecimientos
