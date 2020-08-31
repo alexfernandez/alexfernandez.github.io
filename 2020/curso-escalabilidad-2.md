@@ -46,8 +46,11 @@ uno de los más usados para pruebas de carga a nivel mundial.
 Su código procesa de forma rutinaria millones de peticiones por segundo.
 También ha impartido formación para múltiples empresas y bootcamps.
 
-* Alfredo López Moltó,
-ingeniero de software.
+* Alfredo López Moltó, ingeniero de software con 8+ años de experiencia.
+Alfredo ha trabajado para empresas como mediasmart y Hdiv Security,
+especializándose en DevOps y seguridad.
+Ha contribuido al proyecto open-source StriderCD.
+También es creador del meetup Benidorm Tech.
 
 ## Duración y horario
 
