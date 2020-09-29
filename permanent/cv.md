@@ -17,6 +17,25 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
+### 2020-02 to Present: Freelancer
+
+Since April I have been working full time as a freelancer.
+I work mostly doing backend development in Node.js,
+and have specialized in the areas of DevOps and scalability.
+If you have a cool project for me
+[let me know!](mailto:alexfernandeznpm@gmail.com)
+
+I have actually been working as a freelancer since 2012.
+At that time I did a few months for Kimia writing an Android app.
+I have not stopped taking sporadic freelance engagements since then.
+My clients include several large companies:
+here is [one more recent story](/2016/stridercd).
+Other engagements include:
+[Grupo Inditex](https://www.inditex.com/),
+[M&C Saatchi](http://www.mcsaatchimadrid.com/),
+[TUI Group](https://www.tuigroup.com/en-en),
+and a few other smaller companies.
+
 ### 2019-04 to 2019-12: CTO at Influencity
 
 I joined [Influencity](https://www.influencity.com/),
@@ -75,22 +94,6 @@ As this was a small startup I also did lots of other things:
 created a whole DevOps infrastructure,
 designed the selection process,
 and actively participated in the selection of everyone in the dev team.
-
-### 2012-08 to present: Freelancer
-
-For a few months in 2012 I worked as a freelancer for Kimia
-writing a PHP backend and an Android app.
-
-I have not stopped taking freelance engagements,
-since they help me stay sharp and learn new things.
-In fact I have worked for several large companies:
-here is [one more recent story](/2016/stridercd).
-
-Other customers over time include:
-[Grupo Inditex](https://www.inditex.com/),
-[M&C Saatchi](http://www.mcsaatchimadrid.com/),
-[TUI Group](https://www.tuigroup.com/en-en),
-and a few other smaller companies.
 
 ### 2011-08 to 2012-08: CTO at MoveinBlue
 
