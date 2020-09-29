@@ -1,5 +1,5 @@
 ---
-title: '🚀Curso de Escalabilidad🚀'
+title: '🚀Curso de Escalabilidad v2🚀'
 subtitle: 'Segunda edición online para equipos de desarrollo y SREs'
 footer: Publicado el 2020-08-30, modificado el 2020-08-30.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
