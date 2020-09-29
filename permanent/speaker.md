@@ -240,8 +240,9 @@ Brescia, Italy
 I have spoken at a number of local Meetups about many topics:
 Node.js, JavaScript, Scalability, DevOps, even Wordpress.
 Below you can find a few videos of those interventions,
-all in Spanish.
+most in Spanish.
 
+* 2020-09-23: [Incident Analysis](https://www.youtube.com/watch?v=g274h7w0TTk)
 * 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
 * 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
 * 2014-04-23: [node.js: ¿rápido como el rayo?](http://medialab-prado.es/article/nodejs)
