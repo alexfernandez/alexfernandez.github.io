@@ -5,7 +5,7 @@ footer: Publicado el 2020-08-30, modificado el 2020-08-30.
   [¿Dudas?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-# 🚀Curso de escalabilidad🚀, 2a edición
+# 🚀Curso de escalabilidad v2🚀
 
 No esperes a que el rendimiento de tu sistema afecte a tus clientes: actúa rápido frente a problemas de escalabilidad.
 En esta nueva edición del **curso 100% online** te explicamos cómo.
@@ -200,7 +200,7 @@ tanto si vas con nociones ultra básicas como si el tema del curso es tu día a 
 
 La idea y el apoyo de Carlos Ble han hecho posible este curso.
 La colaboración de Pablo Almunia en la revisión de materiales y temario ha sido crucial,
-y también en impartir [la primera edición](https://pinchito.es/2020/curso-escalabilidad).
+así como su ayuda para impartir [la primera edición](https://pinchito.es/2020/curso-escalabilidad).
 
 <style type="text/css">
 header {
