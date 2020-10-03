@@ -109,7 +109,7 @@ El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
-Curso cerrado.
+Ya puedes apuntarte a la [v2](curso-escalabilidad-2).
 </div>
 
 ## Los alumnos hablan
