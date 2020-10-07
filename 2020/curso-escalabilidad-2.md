@@ -109,7 +109,7 @@ Se ha puesto especial cuidado en que el contenido sea siempre trasladable a otro
 
 ## Precio
 
-El precio está por determinar.
+El precio es de €395, €295 _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
 
@@ -117,7 +117,11 @@ El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
+Plazas abiertas en
+[TrainingIT](http://trainingit.es/curso-sre-escalabilidad.php).
+
 <!-- Begin Mailchimp Signup Form -->
+<!-- Form disabled
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -152,7 +156,7 @@ Recibirás **diploma de asistencia**.
 </div>
 </form>
 </div>
-
+-->
 <!--End mc_embed_signup-->
 </div>
 
