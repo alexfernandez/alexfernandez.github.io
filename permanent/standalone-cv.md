@@ -11,6 +11,14 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
 I have also held several management positions.
 
+### 2020-04 to Present: Freelancer
+
+Since April I have been working full time as a freelancer.
+I work mostly doing backend development in Node.js,
+and have specialized in the areas of DevOps and scalability.
+If you have a cool project for me
+[let me know!](mailto:alexfernandeznpm@gmail.com)
+
 ### 2019-04 to 2019-12: Influencity
 
 My latest position was CTO of [Influencity](https://www.influencity.com/),

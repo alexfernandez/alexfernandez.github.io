@@ -17,7 +17,7 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2020-02 to Present: Freelancer
+### 2020-04 to Present: Freelancer
 
 Since April I have been working full time as a freelancer.
 I work mostly doing backend development in Node.js,
