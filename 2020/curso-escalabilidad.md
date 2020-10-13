@@ -11,6 +11,7 @@ footer: Publicado el 2020-05-20, modificado el 2020-08-30.
 
 **Nota importante:**
 Este curso se impartió en junio de 2020.
+Ahora disponible [la segunda edición](https://pinchito.es/2020/curso-escalabilidad-2).
 Esta página se mantiene por motivos de archivo.
 
 # 🚀Agile Performance and Scalability🚀
