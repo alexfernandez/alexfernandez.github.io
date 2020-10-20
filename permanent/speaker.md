@@ -242,6 +242,7 @@ Node.js, JavaScript, Scalability, DevOps, even Wordpress.
 Below you can find a few videos of those interventions,
 most in Spanish.
 
+* 2020-09-30: [Análisis de incidencias](https://www.youtube.com/watch?v=CTcKuZ2gcHQ)
 * 2020-09-23: [Incident Analysis](https://www.youtube.com/watch?v=g274h7w0TTk)
 * 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
 * 2014-12-16: [Números aleatorios con Node.js](https://www.youtube.com/watch?v=_0m8mqEiLmc)
