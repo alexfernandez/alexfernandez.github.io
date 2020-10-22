@@ -112,11 +112,14 @@ Se ha puesto especial cuidado en que el contenido sea siempre trasladable a otro
 El precio es de €395, €295 _early bird_.
 Cubre la asistencia online (por Zoom o similar),
 corrección de ejercicios y un consultorio de dudas durante dos meses.
+Todas las sesiones quedarán grabadas para su consulta posterior.
 
 El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
+Próxima edición del 6 al 21 de noviembre,
+viernes de 15h a 19h y sábados de 10h a 14h.
 Plazas abiertas en
 [TrainingIT](http://trainingit.es/curso-sre-escalabilidad.php).
 
