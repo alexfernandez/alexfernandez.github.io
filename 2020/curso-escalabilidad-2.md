@@ -120,8 +120,8 @@ Recibirás **diploma de asistencia**.
 <div class="calltoaction">
 Próxima edición del 6 al 21 de noviembre,
 viernes de 15h a 19h y sábados de 10h a 14h.
-Plazas abiertas en
-[TrainingIT](http://trainingit.es/curso-sre-escalabilidad.php).
+Plazas abiertas en TrainingIT,
+reserva ahora con un [**10% de descuento**](https://trainingit.es/curso-sre-escalabilidad.php?af=pinchito&promo=alex10).
 
 <!-- Begin Mailchimp Signup Form -->
 <!-- Form disabled
