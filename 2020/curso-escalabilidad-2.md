@@ -55,7 +55,7 @@ También es creador del meetup Benidorm Tech.
 ## Duración y horario
 
 Este curso de 24h se impartirá en seis bloques de cuatro horas
-en fechas por determinar.
+del 6 al 21 de noviembre.
 El horario es **viernes de 15h a 19h y sábados de 10h a 14h**.
 
 ## Temario
@@ -118,8 +118,6 @@ El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
-Próxima edición del 6 al 21 de noviembre,
-viernes de 15h a 19h y sábados de 10h a 14h.
 Plazas abiertas en TrainingIT,
 reserva ahora con un [**10% de descuento**](https://trainingit.es/curso-sre-escalabilidad.php?af=pinchito&promo=alex10).
 
