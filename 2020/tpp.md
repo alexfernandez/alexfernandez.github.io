@@ -1,8 +1,8 @@
 ---
 title: 'La metodología TPP'
 subtitle: 'Todo Para Producción v1'
-footer: Published on 2020-11-01, last modified on 2020-11-01.
-  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+footer: Publicado el 2020-11-01, modificado el 2020-11-01.
+  [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![Crea rama, añade cambios, revisa, mezcla, crea _tag_, despliega.](pics/tpp-ramas.png "Ejemplo de organización de ramas en TPP. Fuente: elaboración propia.")
