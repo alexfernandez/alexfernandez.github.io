@@ -111,7 +111,7 @@ En esta metodología
 se trabaja de forma similar:
 se crea rama, se añaden cambios, se revisan y se mezclan.
 
-![GitHub Flow: cuando pasan los tests desplegamos el contenido de la rama, en lugar de _main_.](pics/tpp-estable.png "Ejemplo de organización con rama estable para sistemas online. https://guides.github.com/introduction/flow/.")
+![GitHub Flow: cuando pasan los tests desplegamos el contenido de la rama, en lugar de _main_.](pics/tpp-github-flow.png "Rama con GitHub Flow: Crea rama, añade cambios, revisa, testea, despliega _y luego_ mezcla. Fuente: https://guides.github.com/introduction/flow/.")
 
 Podemos ver en
 [la guía gráfica](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow)
