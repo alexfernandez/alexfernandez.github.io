@@ -29,7 +29,7 @@ en la que se mantienen múltiples ramas para diferentes versiones.
 Más abajo la veremos más en detalle.
 
 Me atrevo a proponer públicamente TPPv1:
-Todo Para Producción v1, o _ToPaProd_ para los amigos.
+Todo Para Producción v1, o _ToPaProd_ para amiguis y coleguis.
 Es una simplificación radical apta tanto para servicios online como para librerías.
 
 
