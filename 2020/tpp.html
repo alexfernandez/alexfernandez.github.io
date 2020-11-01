@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	https://pinchito.es/ | @pinchito
+-->
+<html>
+	<head>
+		<title>La metodología TPP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="canonical" href="https://pinchito.es/2020/tpp" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<script>
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-UA-75898530-1';
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			  window[disableStr] = true;
+		}
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-75898530-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="/"><img src="/pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="/">Alex Fernández</a></h1>
+					<p>
+					I am a developer known on Twitter as
+					<a id="follower" href="https://twitter.com/intent/follow?screen_name=pinchito" target="_blank"><i id="birdie"></i> @pinchito</a>.
+					You can find me on
+					<a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">GitHub</a>,
+					<a href="https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg">YouTube</a>.
+					<p>
+					This site uses (gasp!) cookies for gathering statistics.
+					You can
+						<a href="javascript:gaOptout()">disable them</a>.
+					</p>
+				</header>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<section id="zero">
+							<p class="home"><a id="home" href="/">pinchito.es</a></p>
+						</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>La metodología TPP</h1>
+										<p>Todo Para Producción, v1<p>
+									</header>
+																				<figure>
+<img src="pics/tpp-ramas.png" title="Ejemplo de organización de ramas en TPP. Fuente: elaboración propia." alt="Crea rama, haz merge, crea tag, despliega." /><figcaption>Crea rama, haz <em>merge</em>, crea <em>tag</em>, despliega.</figcaption>
+</figure>
+<p>En esta sencilla metodología mantenemos sólo una rama activa, llámese <em>master</em> o <a href="https://github.com/github/renaming"><em>main</em></a>.</p>
+<ul>
+<li>Sacamos una rama para hacer un arreglo (<em>fix</em>) o una nueva funcionalidad (<em>feature</em>).</li>
+<li>Añadimos cambios (<em>commits</em>) a la rama.</li>
+<li>Cuando estamos listos, De ella sacamos ramas para arreglos o</li>
+</ul>
+<h2 id="de-dónde-viene-tpp">¿De dónde viene TPP?</h2>
+<p>Durante mis muchos años como desarrollador me he encontrado con muchas “metodologías” de desarrollo. Una de las más perniciosas últimamente es <a href="https://nvie.com/posts/a-successful-git-branching-model/">git-flow</a>. Me atrevo a proponer públicamente TPPv1: una simplificación radical</p>
+<h2 id="comparación-con-otras-metodologías-de-desarrollo">Comparación con otras metodologías de desarrollo</h2>
+<p>El sentido de metodología se ha ido refinando a “forma de organizar los cambios en el código”.</p>
+<h3 id="github-flow">GitHub Flow</h3>
+<p>En esta metodología <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">propuesta por GitHub</a></p>
+<p>Podemos ver en <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">la guía gráfica</a> la diferencia más radical con TPP: en GitHub Flow se hacen los despliegues desde</p>
+<h2 id="conclusiones">Conclusiones</h2>
+<p>Si quieres desplegar código de forma sencilla, mantener sólo una versión, y optimizar los esfuerzos del equipo, ¡pásate a TPP!</p>
+<h3 id="agradecimientos">Agradecimientos</h3>
+<p>Gracias a mis compañeros en diversas empresas: <a href="https://mediasmart.io/">mediasmart.io</a>, <a href="https://www.devo.com/">Devo</a>, <a href="https://influencity.com/">Influencity</a> y últimamente <a href="https://leanmind.es/">LeanMind</a> por ayudarme a probar diversas formas de desplegar código. Gracias a todos los alumnos del <a href="/2020/curso-escalabilidad">curso de escalabilidad</a> por ayudarme a refinar la metodología.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Published on 2020-11-01, last modified on 2020-11-01. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									</p>
+									<p>
+									Back to the <a href="/">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>
+									© <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>.
+									<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+								</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
