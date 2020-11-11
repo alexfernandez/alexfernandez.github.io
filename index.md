@@ -17,6 +17,7 @@ Latest articles first.
 
 ### 2020
 
+* 2020-11-01: [La metodología TPP](2020/tpp) #SoftEng #ES
 * 2020-08-31: [🚀Curso de escalabilidad v2🚀](2020/curso-escalabilidad-2) #ES
 * 2020-05-20: [🚀Agile Performance and Scalability🚀](2020/curso-escalabilidad) #ES
 * 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices) #OT
