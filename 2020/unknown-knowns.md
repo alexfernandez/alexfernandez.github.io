@@ -1,6 +1,6 @@
 ---
 title: 'Unknown Knowns'
-subtitle: 'Things We Don't Know We Know'
+subtitle: 'Things We Do not Know We Know'
 footer: Published on 2020-12-21, last modified on 2020-12-21.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
