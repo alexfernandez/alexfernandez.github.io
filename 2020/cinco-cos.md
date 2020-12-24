@@ -101,6 +101,14 @@ los añadiremos a la especificación.
 
 ## Confianza
 
+En este segundo punto vamos a revisar cómo conseguir que un equipo trabaje con confianza mutua.
+
+### Confianza del cliente
+
+La primera parte es lógicamente la confianza del cliente.
+
+### Confianza en el proceso
+
 ## Conflicto
 
 Este punto puede ser algo más sorprendente que los anteriores.
@@ -122,21 +130,35 @@ Esto llevará inevitablemente a que los problemas se encaren de forma diferente.
 Muy a menudo hay soluciones (por ejemplo partes del código)
 que no convencen a parte del equipo,
 que puede proponer otras soluciones alternativas.
-Ya tenemos el conflicto planteado:
-¿elegimos la solución A que convence a una parte del equipo,
-o la solución B que convence a otra parte?
 
 ### Solución C
 
+Ya tenemos el conflicto planteado:
+¿elegimos la solución A que convence a una parte del equipo,
+o la solución B que convence a otra parte?
 Sigamos buceando en el problema.
+Si rascamos un poco veremos que seguramente la solución A
+**tampoco convence del todo** a los proponentes,
+y lo mismo ocurre con la solución B.
+Y es lógico: en general los miembros del equipo saben de lo que hablan.
+Los inconvenientes de cada solución son también visibles para quienes la ven como la mejor,
+aunque consideren que la otra solución es peor.
+
+Así que sigamos buscando.
+Es posible que encontremos una solución C sin los inconvenientes de A ni los de B.
 
 ### Mediación
+
+También es posible que no exista solución buena,
+o al menos que no sepamos encontrarla.
+¿Qué hacemos en este caso?
 
 En situaciones de conflicto,
 contar con una figura de mediación externa al problema puede ser muy interesante.
 Al no estar implicada directamente,
-esta persona puede actuar de juez imparcial y ayudar a transitar el camino hacia la solución que satisface a todo el mundo;
-o al menos hacer entender por qué se adopta una solución concreta.
+esta persona puede actuar de juez imparcial
+y acompañarnos por el camino hacia la solución que satisface a todo el mundo;
+en otros casos nos puede ayudar a entender por qué se adopta una solución concreta.
 
 También puede ayudar a investigar el coste de pasar de una solución a otra
 cuando las circunstancias cambien.
