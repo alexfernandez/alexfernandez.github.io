@@ -5,7 +5,7 @@ footer: Publicado el 2020-12-24, modificado el 2020-12-24.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Crea rama, añade cambios, revisa, mezcla, crea _tag_, despliega.](pics/tpp-ramas.png "Ejemplo de organización de ramas en TPP. Fuente: elaboración propia.")
+![Los cinco "Co"s.](pics/cinco-cos-intro.png "Comunicación, Compatibilidad, Constructividad, Conflicto, todos llevan a Confianza. Fuente: elaboración propia.")
 
 Durante los últimos seis meses he participado con LeanMind en un proyecto para Alterna Energética.
 Ha sido un auténtico placer trabajar con tantos buenos profesionales
