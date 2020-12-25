@@ -291,6 +291,8 @@ ya tenemos la solución buena en marcha.
 
 ## Constructividad
 
+![Equipo siendo constructivo.](pics/cinco-cos-constructividad.png "Una persona ayuda a construir, la otra está muy atenta. Fuente: elaboración propia.")
+
 Cuando hay un incidente,
 y siempre habrá incidentes,
 es muy importante tomárselo en serio.
@@ -332,6 +334,8 @@ También es más fácil tomarse un fallo en integración como un éxito más que
 al fin y al cabo hemos conseguido evitar que el problema llegue a producción.
 
 ## Confianza
+
+![Equipo aportando conflianza.](pics/cinco-cos-constructividad.png "Una persona construye, otra aporta, una tercera está muy atenta. Fuente: elaboración propia.")
 
 Dejamos para el final esta "Co" que se destila de los anteriores.
 La confianza no se puede conseguir por sí sola;
