@@ -346,11 +346,23 @@ que un equipo trabaje con confianza.
 
 ### Confianza del cliente
 
-La primera parte es lógicamente la confianza del cliente.
+La primera parte es lógicamente la confianza del cliente,
+que se gana a lo largo de años de trabajo.
+En nuestro caso teníamos la suerte de que LeanMind ya había trabajado anteriormente con Alterna,
+y con su buen hacer se habían ganado su confianza.
+
+Quien dice "cliente" dice "jefes".
+En este caso es también necesario 
+
+En este proyecto he aprendido que 
 
 ### Confianza en el proceso
 
 ### Despliegue continuo
+
+La prueba última de la confianza en la tecnología
+es dejar que ésta se encargue de los despliegues en producción,
+sin supervisión humana.
 
 Llevo unos ocho años siendo un gran fan del
 [despliegue continuo](https://pinchito.es/2012/continuous-deployment).
