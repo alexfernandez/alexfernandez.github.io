@@ -1,6 +1,6 @@
 ---
 title: 'Los cinco "Co"s'
-subtitle: 'Cinco _soft skills_ esenciales'
+subtitle: 'Cinco soft skills esenciales'
 footer: Publicado el 2020-12-24, modificado el 2020-12-24.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -354,9 +354,11 @@ y con su buen hacer se habían ganado su confianza.
 Quien dice "cliente" dice "jefes".
 En este caso es también necesario 
 
-En este proyecto he aprendido que 
+En este proyecto he aprendido que hay que tirar siempre 
 
-### Confianza en el proceso
+### Confianza en el equipo
+
+Tengo que reconocer que no siempre he conseguido ganarme la confianza del equipo
 
 ### Despliegue continuo
 
