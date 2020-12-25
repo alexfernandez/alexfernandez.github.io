@@ -1,6 +1,6 @@
 ---
 title: 'Los cinco "Co"s'
-subtitle: 'Construye tu camino al éxito en cinco puntos'
+subtitle: 'Cinco _soft skills_ esenciales'
 footer: Publicado el 2020-12-24, modificado el 2020-12-24.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -13,17 +13,21 @@ Ha sido un auténtico placer trabajar con tantos buenos profesionales
 y los resultados han sido bastante satisfactorios para todos,
 incluyendo el cliente que es lo más importante.
 
-Es muy habitual ver artículos sobre detalles técnicos de un proyecto.
-En este caso vamos a centrarnos en _soft skills_ o "habilidades blandas":
-aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos,
-y en algunos casos a plantear las tareas de la forma más apropiada.
-
 En la última retrospectiva hemos identificado cinco puntos que han sido cruciales
 para el éxito del proyecto.
 Como todos empiezan por "co" vamos a usarlo como regla nemotécnica para acordarnos mejor.
+Es muy habitual ver artículos sobre detalles técnicos de un proyecto.
+En este caso vamos a centrarnos en _soft skills_ o "habilidades blandas":
+aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos.
+
+A estas alturas un artículo que simplemente dijera "tal y tal cosa son importantes"
+tendría una utilidad muy limitada,
+así que para cada uno veremos unas cuantas técnicas concretas que nos ayuden a aplicar estas habilidades.
 Sin más dilación os dejo con los cinco (más uno) "Co"s.
 
 ## Comunicación
+
+![Equipo comunicándose.](pics/cinco-cos-comunicacion.png "Dos personas observan a una tercera persona tecleando. Fuente: elaboración propia.")
 
 Con la primera "Co" empezamos sobre seguro.
 La elección no os descubrirá nada nuevo:
@@ -205,6 +209,8 @@ Cada una
 
 ## Conflicto
 
+![Equipo en conflicto.](pics/cinco-cos-conflicto.png "Dos personas tienen diferentes ideas, ¿cómo reconciliarlas? Fuente: elaboración propia.")
+
 Este punto puede ser algo más sorprendente que los anteriores.
 El conflicto (y cómo manejarlo) es crucial para el éxito de un proyecto.
 
@@ -325,17 +331,43 @@ al fin y al cabo hemos conseguido evitar que el problema llegue a producción.
 
 ## Confianza
 
-Dejamos para el final esta "Co" que es 
+Dejamos para el final esta "Co" que se destila de los anteriores.
 La confianza no se puede conseguir por sí sola;
-es consecuencia de trabajar en todos los puntos anteriores.
+es consecuencia de trabajar sin descanso.
 
-A continuación vamos a revisar cómo conseguir que un equipo trabaje con confianza mutua.
+A continuación vamos a revisar algunas técnicas que ayudan a conseguir
+que un equipo trabaje con confianza.
 
 ### Confianza del cliente
 
 La primera parte es lógicamente la confianza del cliente.
 
 ### Confianza en el proceso
+
+### Despliegue continuo
+
+Llevo unos ocho años siendo un gran fan del
+[despliegue continuo](https://pinchito.es/2012/continuous-deployment).
+En este tiempo he usado una decena de sistemas diferentes,
+la mayoría orientados a la integración continua.
+En contadas ocasiones hemos tenido la suficiente confianza en la tecnología
+como para hacer [despliegue continuo de verdad](https://pinchito.es/2016/stridercd):
+cada cambio hecho en la rama principal del repo se prueba y llega a producción en unos pocos minutos.
+
+En [nuestra última aventura](https://pinchito.es/2019/devops-on-the-cheap)
+vimos cómo hacer despliegue continuo en 600 líneas de código.
+Ahora, gracias a las
+[Bitbucket _pipelines_](https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/)
+es perfectamente posible hacer integración continua con un script en Bash de 30 líneas,
+más 10 líneas de YAML.
+(Lo mismo se puede hacer con
+[GitHub Actions](https://github.com/features/actions)
+o con [GitLab Pipelines](https://docs.gitlab.com/ee/ci/pipelines/)).
+
+En nuestro proyecto no hemos llegado al despliegue continuo;
+al ser en su mayoría una serie de procesos _batch_
+tampoco tiene el mismo sentido que en una aplicación web.
+Pero está todo preparado y es cuestión de seguir en la misma línea.
 
 ## Conclusión
 
@@ -354,4 +386,6 @@ Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor 
 
 Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado,
 y haber estado abierto a sugerencias y cambios.
+
+Gráficos elaborados con [Excalidraw](https://excalidraw.com/).
 

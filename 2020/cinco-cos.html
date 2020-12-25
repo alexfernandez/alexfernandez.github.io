@@ -72,15 +72,18 @@
 								<div class="container">
 									<header class="major">
 										<h1>Los cinco “Co”s</h1>
-										<p>Construye tu camino al éxito en cinco puntos<p>
+										<p>Cinco <em>soft skills</em> esenciales<p>
 									</header>
 																				<figure>
 <img src="pics/cinco-cos-intro.png" title="Comunicación, Compatibilidad, Constructividad, Conflicto, todos llevan a Confianza. Fuente: elaboración propia." alt="Los cinco “Co”s." /><figcaption>Los cinco “Co”s.</figcaption>
 </figure>
 <p>Durante los últimos seis meses he participado con LeanMind en un proyecto para Alterna Energética. Ha sido un auténtico placer trabajar con tantos buenos profesionales (incluyendo por supuesto estupendas profesionales), y los resultados han sido bastante satisfactorios para todos, incluyendo el cliente que es lo más importante.</p>
-<p>Es muy habitual ver artículos sobre detalles técnicos de un proyecto. En este caso vamos a centrarnos en <em>soft skills</em> o “habilidades blandas”: aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos, y en algunos casos a plantear las tareas de la forma más apropiada.</p>
-<p>En la última retrospectiva hemos identificado cinco puntos que han sido cruciales para el éxito del proyecto. Como todos empiezan por “co” vamos a usarlo como regla nemotécnica para acordarnos mejor. Sin más dilación os dejo con los cinco (más uno) “Co”s.</p>
+<p>En la última retrospectiva hemos identificado cinco puntos que han sido cruciales para el éxito del proyecto. Como todos empiezan por “co” vamos a usarlo como regla nemotécnica para acordarnos mejor. Es muy habitual ver artículos sobre detalles técnicos de un proyecto. En este caso vamos a centrarnos en <em>soft skills</em> o “habilidades blandas”: aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos.</p>
+<p>A estas alturas un artículo que simplemente dijera “tal y tal cosa son importantes” tendría una utilidad muy limitada, así que para cada uno veremos unas cuantas técnicas concretas que nos ayuden a aplicar estas habilidades. Sin más dilación os dejo con los cinco (más uno) “Co”s.</p>
 <h2 id="comunicación">Comunicación</h2>
+<figure>
+<img src="pics/cinco-cos-comunicacion.png" title="Dos personas observan a una tercera persona tecleando. Fuente: elaboración propia." alt="Equipo comunicándose." /><figcaption>Equipo comunicándose.</figcaption>
+</figure>
 <p>Con la primera “Co” empezamos sobre seguro. La elección no os descubrirá nada nuevo: obviamente la comunicación es importante para cualquier proyecto, sea de software o no. Lo que sí es decisivo es la forma de comunicarse.</p>
 <h3 id="mob-programming"><em>Mob Programming</em></h3>
 <p>Una técnica nueva para mí y que me ha sorprendido es el <em>mob programming</em>. Si pensabas que la programación en pareja o <em>pair programming</em> era poco productiva, espera a que te cuente cómo funciona la programación en grupo: todo o parte del equipo se reúne para escribir código. Una persona toma el teclado, el <em>driver</em> o conductor. El resto hacen de <em>navigators</em> o copilotos, y van mapeando el terreno:</p>
@@ -118,6 +121,9 @@
 <h3 id="reemplazo-parcial">Reemplazo parcial</h3>
 <p>En lugar de tener que reemplazar todas las piezas del sistema, podemos ir reemplazando una a una. Cada una</p>
 <h2 id="conflicto">Conflicto</h2>
+<figure>
+<img src="pics/cinco-cos-conflicto.png" title="Dos personas tienen diferentes ideas, ¿cómo reconciliarlas? Fuente: elaboración propia." alt="Equipo en conflicto." /><figcaption>Equipo en conflicto.</figcaption>
+</figure>
 <p>Este punto puede ser algo más sorprendente que los anteriores. El conflicto (y cómo manejarlo) es crucial para el éxito de un proyecto.</p>
 <p>Es posible que pienses:</p>
 <blockquote>
@@ -148,17 +154,22 @@
 <p>Una técnica que hemos explorado en este proyecto, y que en cierta manera es original (o al menos yo no la he visto descrita) es hacer análisis de incidencias que ni siquiera llegan a producción. Analizar los fallos de nuestro proceso de desarrollo en integración nos permite refinarlos y aprender sin necesidad de darnos un batacazo en producción.</p>
 <p>Es mucho más fácil actuar de forma constructiva cuando las apuestas no son tan altas: un fallo en un entorno de integración es a lo sumo una molestia, y es casi imposible que afecte a clientes o a las cuentas de la empresa más allá de lo que cueste arreglarla. También es más fácil tomarse un fallo en integración como un éxito más que como un fracaso: al fin y al cabo hemos conseguido evitar que el problema llegue a producción.</p>
 <h2 id="confianza">Confianza</h2>
-<p>Dejamos para el final esta “Co” que es La confianza no se puede conseguir por sí sola; es consecuencia de trabajar en todos los puntos anteriores.</p>
-<p>A continuación vamos a revisar cómo conseguir que un equipo trabaje con confianza mutua.</p>
+<p>Dejamos para el final esta “Co” que se destila de los anteriores. La confianza no se puede conseguir por sí sola; es consecuencia de trabajar sin descanso.</p>
+<p>A continuación vamos a revisar algunas técnicas que ayudan a conseguir que un equipo trabaje con confianza.</p>
 <h3 id="confianza-del-cliente">Confianza del cliente</h3>
 <p>La primera parte es lógicamente la confianza del cliente.</p>
 <h3 id="confianza-en-el-proceso">Confianza en el proceso</h3>
+<h3 id="despliegue-continuo">Despliegue continuo</h3>
+<p>Llevo unos ocho años siendo un gran fan del <a href="https://pinchito.es/2012/continuous-deployment">despliegue continuo</a>. En este tiempo he usado una decena de sistemas diferentes, la mayoría orientados a la integración continua. En contadas ocasiones hemos tenido la suficiente confianza en la tecnología como para hacer <a href="https://pinchito.es/2016/stridercd">despliegue continuo de verdad</a>: cada cambio hecho en la rama principal del repo se prueba y llega a producción en unos pocos minutos.</p>
+<p>En <a href="https://pinchito.es/2019/devops-on-the-cheap">nuestra última aventura</a> vimos cómo hacer despliegue continuo en 600 líneas de código. Ahora, gracias a las <a href="https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/">Bitbucket <em>pipelines</em></a> es perfectamente posible hacer integración continua con un script en Bash de 30 líneas, más 10 líneas de YAML. (Lo mismo se puede hacer con <a href="https://github.com/features/actions">GitHub Actions</a> o con <a href="https://docs.gitlab.com/ee/ci/pipelines/">GitLab Pipelines</a>).</p>
+<p>En nuestro proyecto no hemos llegado al despliegue continuo; al ser en su mayoría una serie de procesos <em>batch</em> tampoco tiene el mismo sentido que en una aplicación web. Pero está todo preparado y es cuestión de seguir en la misma línea.</p>
 <h2 id="conclusión">Conclusión</h2>
 <p>En esta sexta “Co” de regalo, resumimos los puntos que han ayudado a llevar un proyecto fluido.</p>
 <p>El proyecto sigue, con un equipazo que estoy seguro que va a hacer un trabajo estupendo. Además la forma de trabajo.</p>
 <h3 id="agradecimientos">Agradecimientos</h3>
 <p>Muchas gracias a Carlos Blé de LeanMind, por haber hecho posible este gran proyecto con este gran cliente. Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor a la que acudir.</p>
 <p>Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado, y haber estado abierto a sugerencias y cambios.</p>
+<p>Gráficos elaborados con <a href="https://excalidraw.com/">Excalidraw</a>.</p>
 								</div>
 							</section>
 							<section id="last">
