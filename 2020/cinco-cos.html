@@ -81,13 +81,23 @@
 <p>Es muy habitual ver artículos sobre detalles técnicos de un proyecto. En este caso vamos a centrarnos en <em>soft skills</em> o “habilidades blandas”: aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos, y en algunos casos a plantear las tareas de la forma más apropiada.</p>
 <p>En la última retrospectiva hemos identificado cinco puntos que han sido cruciales para el éxito del proyecto. Como todos empiezan por “co” vamos a usarlo como regla nemotécnica para acordarnos mejor. Sin más dilación os dejo con los cinco (más uno) “Co”s.</p>
 <h2 id="comunicación">Comunicación</h2>
-<p>Empezamos sobre seguro. El primer punto no os descubrirá nada nuevo: obviamente la comunicación es importante para cualquier proyecto, sea de software o no. Lo que sí es decisivo es la forma de comunicarse.</p>
+<p>Con la primera “Co” empezamos sobre seguro. La elección no os descubrirá nada nuevo: obviamente la comunicación es importante para cualquier proyecto, sea de software o no. Lo que sí es decisivo es la forma de comunicarse.</p>
+<h3 id="mob-programming"><em>Mob Programming</em></h3>
+<p>Una técnica nueva para mí y que me ha sorprendido es el <em>mob programming</em>. Si pensabas que la programación en pareja o <em>pair programming</em> era poco productiva, espera a que te cuente cómo funciona la programación en grupo: todo o parte del equipo se reúne para escribir código. Una persona toma el teclado, el <em>driver</em> o conductor. El resto hacen de <em>navigators</em> o copilotos, y van mapeando el terreno:</p>
+<blockquote>
+<p>A ras, a ras, ojo nieve, ojo curva. ¡Arranca, Carlos, por Dios!</p>
+</blockquote>
+<p>Programar de esta manera es sorprendentemente efectivo, sobre todo para conseguir que el conocimiento se difunda en el equipo. También hemos probado a hacer <em>mob programming</em> con gente del cliente, lo que les ha servido para comprobar en directo cómo trabajamos e incluso para adoptar ciertas prácticas de desarrollo en sus proyectos propios.</p>
+<p>Es cierto que se consume mucho tiempo programando así, pero también se ahorra después en formación, explicaciones y revisión de código. Es más, la dinámica del <a href="https://pinchito.es/2018/has-anyone-else-seen-your-code">proceso de revisión</a> cambia completamente: ya no es necesario lanzar <em>pull request</em>, revisar, aprobar y mezclar. Ahora podemos directamente mezclar el código que se ha programado y revisado en directo.</p>
+<p>Eso sí, yo sigo pensando que parte del trabajo debe hacerse en privado, que es mucho más productiva en aspectos más mecánicos.</p>
 <h3 id="comunicación-escrita">Comunicación escrita</h3>
 <p>En estos tiempos de pandemia lo que antes era crucial ahora es indispensable: todo lo que se hable debe quedar reflejado por escrito y estar publicado para que todo el equipo sepa a qué atenerse</p>
 <p>En un proyecto en remoto tendemos a comunicarnos muy a menudo por escrito, pero en medios conversacionales (Slack, Whatsapp) donde cada elemento queda enterrado entre conversaciones cruzadas. No vale con eso; tenemos que elaborar documentos que destilen el conocimiento adquirido en forma que sea fácil de digerir por cualquier persona ajena al equipo.</p>
-<h3 id="línea-base">Línea base</h3>
-<p>El documento escrito forma la base sobre la que se desarrollará el conocimiento del equipo. Debe estar todo detallado.</p>
-<p>Tengo pendiente escribir un artículo sobre conocimientos desconocidos. Por ahora baste con reflejar que la información asimétrica (lo que sólo conoce parte del equipo) puede llevar a serios problemas en el desarrollo. El documento escrito y público permite que todo el mundo adquiera y contraste su conocimiento con</p>
+<h3 id="líneas-base">Líneas base</h3>
+<p>Tengo pendiente escribir un artículo sobre conocimientos desconocidos. Por ahora baste con reflejar que la información asimétrica (lo que sólo conoce parte del equipo) puede llevar a serios problemas en el desarrollo. El documento escrito y público permite que todo el mundo adquiera, compare y contraste su conocimiento con el del resto del equipo.</p>
+<p>Hace más de veinte años recibí un estupendo curso de <a href="https://www.linkedin.com/in/kyle-rone-3545451/">Kyle Rone</a>, un manager de IBM que trabajó en el proyecto del transbordador espacial. Insistía mucho en lo de tener una o varias <em>baseline</em>, que el equipo en el que estaba interpretaba de forma jocosa como “vaseline”. A decir verdad yo tampoco entendía bien a qué se refería, pero creo que ahora tengo alguna idea de por qué tener líneas base es tan importante.</p>
+<p>El documento escrito forma la base sobre la que se desarrollará el conocimiento del equipo. Debe estar todo detallado y especificado hasta el nivel de detalle que sea necesario, como vamos a ver en el siguiente apartado.</p>
+<p>Cuando se avanza en el conocimiento se vuelve a elaborar una nueva línea base, que se verá reflejada en un nuevo documento. De esta forma mantenemos siempre actualizado el conocimiento del equipo. Es muy fácil (y más hoy día) mantener una base de conocimiento o <em>knowledge base</em> que nos sirva de referencia. Es cierto que la mayoría de gestores documentales son laberínticos y no ayudan demasiado a organizar la información; en nuestro caso tenemos una cuenta en Confluence con una mínima estructura para ayudarnos a organizar los documentos.</p>
 <h3 id="el-arte-de-la-especificación-técnica">El arte de la especificación técnica</h3>
 <p>Para cada elemento del sistema que tenga sentido por sí solo (subsistema, script, pestaña de la web…) elaboraremos un documento maestro que recoja todos los detalles de la implementación. No podemos esperar que otra persona nos saque las castañas del fuego: en lugar de esperar a que el cliente elabore los requisitos, los obtendremos en forma de entrevistas y los escribiremos dentro del propio equipo.</p>
 <p>Siempre tendemos a dar por supuestas ciertas ideas que parecen obvias. Mal; en un documento técnico tenemos que explicarlo todo desde cero. El objetivo debe ser que una persona inteligente totalmente ajena a nuestro proyecto pueda entenderlo todo sólo leyendo la especificación.</p>
@@ -95,11 +105,18 @@
 <p>En un documento técnico tendremos que cambiar el hábito: no temas repetirte las veces que haga falta para evitar ambigüedades. Es importante que cada párrafo sea autocontenido: no siempre tendrás el lujo de que tus lectoras empiecen por el principio y terminen por el final. Así el documento será valioso como referencia técnica, que se pueda consultar para averiguar cómo debe funcionar un aspecto dado de la implementación.</p>
 <p>El mayor valor de una especificación suele ser encontrar los casos raros o <em>corner cases</em>: esos pequeños detalles que afectan sólo a algunos clientes, en condiciones inusuales, cuando hay tormenta. Pregúntate siempre si estás listo para lo peor: ¿hemos contemplado el día de cambio de hora? ¿Qué pasa si un cliente no tiene datos un día, o un mes? ¿Sabemos cómo tratar esos contratos <em>legacy</em> que siempre se nos olvidan?</p>
 <p>Finalmente, la especificación debe ser lo suficientemente completa como para que el equipo pueda usarla de <em>checklist</em>: una vez que se cumplan todos los requisitos marcados el trabajo estará listo. Si encontramos nuevos casos raros (<em>corner cases</em>) no contemplados, los añadiremos a la especificación.</p>
-<h2 id="confianza">Confianza</h2>
-<p>En este segundo punto vamos a revisar cómo conseguir que un equipo trabaje con confianza mutua.</p>
-<h3 id="confianza-del-cliente">Confianza del cliente</h3>
-<p>La primera parte es lógicamente la confianza del cliente.</p>
-<h3 id="confianza-en-el-proceso">Confianza en el proceso</h3>
+<h2 id="compatibilidad-hacia-atrás">Compatibilidad hacia atrás</h2>
+<p>Para la segunda “Co” vamos a arriesgar algo más. Un proyecto desde cero siempre es agradable porque no hay ninguna herencia (el temible <em>legacy</em>) que mantener. En nuestro caso teníamos que construir un sistema nuevo, pero lidiando con una MySQL ya creada, con las peculiaridades habituales de cualquier base de datos creada por agregación: datos repetidos, inconsistencias, estructuras duplicadas.</p>
+<h3 id="resistiendo-la-tentación">Resistiendo la tentación</h3>
+<p>Es muy tentador querer mezclar nuestro proyecto con mejoras en los sistemas heredados, en nuestro caso la base de datos. ¿Y si añadimos este campo a esta tabla, o unificamos estas dos tablas? Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.</p>
+<p>Pero nos encontraríamos con un pequeño problema: habrá que cambiar también el código <em>legacy</em> para que acceda al nuevo campo o la nueva tabla. Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos, complicando el proyecto exponencialmente.</p>
+<p>Así que optamos por simplemente considerar la base de datos como inmutable, y trabajar con lo que teníamos. De esta forma evitamos la tentación de meternos en guerras con varios frentes. La compatibilidad hacia atrás se vuelve extremadamente importante: ¿cómo hacía cada proceso el sistema existente?</p>
+<p>A cambio las mejoras en el proceso han valido la pena.</p>
+<h3 id="chequeo-de-datos">Chequeo de datos</h3>
+<p>Como parte de nuestras pruebas, y para comprobar que estamos obteniendo los resultados correctos, podemos recorrer el histórico en la base de datos e intentar replicar los resultados existentes. Así hemos podido ir mejorando nuestro proceso, calculando el tanto por ciento de resultados iguales: primero un 5%, luego un 80%, después un 95.5%, un 98%… hasta llegar al ansiado 100%.</p>
+<p>En realidad siempre nos han quedado unos pocos registros que se nos resistían, en algunos casos por haber identificado resultados mal calculados por el sistema <em>legacy</em>. Pero no hay problema mientras seamos capaces de explicar hasta la última discrepancia.</p>
+<h3 id="reemplazo-parcial">Reemplazo parcial</h3>
+<p>En lugar de tener que reemplazar todas las piezas del sistema, podemos ir reemplazando una a una. Cada una</p>
 <h2 id="conflicto">Conflicto</h2>
 <p>Este punto puede ser algo más sorprendente que los anteriores. El conflicto (y cómo manejarlo) es crucial para el éxito de un proyecto.</p>
 <p>Es posible que pienses:</p>
@@ -107,6 +124,7 @@
 <p>Pero, Pinchito, ¿insinúas que los conflictos son esenciales para el éxito de un proyecto? Resolverlos cuando aparecen, claro que sí, pero ¿la propia existencia del conflicto es necesaria? ¿No será mejor que no haya conflictos?</p>
 </blockquote>
 <p>Realmente el conflicto es importante. En un equipo ideal hay diversidad de experiencias, de capacidades, y también de trasfondo sociocultural: edad, sexo, educación, procedencia. Esto llevará inevitablemente a que los problemas se encaren de forma diferente. Muy a menudo hay soluciones (por ejemplo partes del código) que no convencen a parte del equipo, que puede proponer otras soluciones alternativas.</p>
+<p>El conflicto nos ayuda a aflorar estas discrepancias, estos puntos débiles del código que no terminan de convencernos.</p>
 <h3 id="solución-c">Solución C</h3>
 <p>Ya tenemos el conflicto planteado: ¿elegimos la solución A que convence a una parte del equipo, o la solución B que convence a otra parte? Sigamos buceando en el problema. Si rascamos un poco veremos que seguramente la solución A <strong>tampoco convence del todo</strong> a los proponentes, y lo mismo ocurre con la solución B. Y es lógico: en general los miembros del equipo saben de lo que hablan. Los inconvenientes de cada solución son también visibles para quienes la ven como la mejor, aunque consideren que la otra solución es peor.</p>
 <p>Así que sigamos buscando. Es posible que encontremos una solución C sin los inconvenientes de A ni los de B.</p>
@@ -120,20 +138,21 @@
 <p>Hay que darse cuenta de que la diferencia crucial entre una decisión gorda y una pequeña es que puedas cambiar de decisión más adelante. Cualquier decisión puede hacerse pequeña si te aseguras de que si te equivocas (y te vas a equivocar <em>seguro</em>), siempre puedes deshacer el daño más tarde volviendo sobre tus pasos. De repente, eres el doble de gestor por tomar <em>dos</em> decisiones sin importancia: la errónea <em>y</em> la correcta.</p>
 </blockquote>
 <p>Una buena forma de minimizar el daño de una decisión subóptima es asegurarte de que puedes corregirla sin demasiado problema. En este sentido el desarrollo de software es una gran disciplina: normalmente basta con realizar un cambio de código <em>et voilà!</em>, ya tenemos la solución buena en marcha.</p>
-<h2 id="compatibilidad-hacia-atrás">Compatibilidad hacia atrás</h2>
-<p>Un proyecto desde cero siempre es agradable porque no hay ninguna herencia (el temible <em>legacy</em>) que mantener. En nuestro caso teníamos que construir un sistema nuevo, pero lidiando con una MySQL ya creada, con las peculiaridades habituales de cualquier base de datos creada por agregación: datos repetidos, inconsistencias, estructuras duplicadas.</p>
-<p>Es muy tentador querer mezclar nuestro proyecto con mejoras en los sistemas heredados, en nuestro caso la base de datos. ¿Y si añadimos este campo a esta tabla, o unificamos estas dos tablas? Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.</p>
-<p>Pero nos encontraríamos con un pequeño problema: habrá que cambiar también el código <em>legacy</em> para que acceda al nuevo campo o la nueva tabla. Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos, complicando el proyecto exponencialmente.</p>
-<p>Así que optamos por simplemente considerar la base de datos como inmutable, y trabajar con lo que teníamos. De esta forma evitamos la tentación de meternos en guerras con varios frentes. La compatibilidad hacia atrás se vuelve extremadamente importante: ¿cómo hacía cada proceso el sistema existente?</p>
-<p>A cambio las mejoras en el proceso han valido la pena.</p>
-<h3 id="chequeo-de-datos">Chequeo de datos</h3>
-<p>Como parte de nuestras pruebas, y para comprobar que estamos obteniendo los resultados correctos, podemos recorrer el histórico en la base de datos e intentar replicar los resultados existentes. Así hemos podido ir mejorando nuestro proceso, calculando el tanto por ciento de resultados iguales: primero un 5%, luego un 80%, después un 95.5%, un 98%… hasta llegar al ansiado 100%.</p>
-<p>En realidad siempre nos han quedado unos pocos registros que se nos resistían, en algunos casos por haber identificado resultados mal calculados por el sistema <em>legacy</em>. Pero no hay problema mientras seamos capaces de explicar hasta la última discrepancia.</p>
-<h3 id="reemplazo-parcial">Reemplazo parcial</h3>
-<p>En lugar de tener que reemplazar todas las piezas del sistema, podemos ir reemplazando una a una. Cada una</p>
 <h2 id="constructividad">Constructividad</h2>
-<p>Cuando hay un problema, y siempre habrá problemas, es muy importante tomárselo en serio. Las críticas deben ser siempre constructivas.</p>
-<p>Si os interesa el tema, este año he dado un par de charlas sobre análisis de incidencias, en <a href="https://www.youtube.com/watch?v=g274h7w0TTk">madScalability</a> y en <a href="https://www.youtube.com/watch?v=CTcKuZ2gcHQ">Benidorm Tech</a>, y una específicamente sobre <a href="https://www.youtube.com/watch?v=nQksMZRqvRw">la catástrofe de Chernóbil</a>.</p>
+<p>Cuando hay un incidente, y siempre habrá incidentes, es muy importante tomárselo en serio. Las críticas deben ser siempre constructivas.</p>
+<h3 id="postmortem-sin-culpa">Postmortem sin culpa</h3>
+<p>Si os interesa el tema, este año he dado un par de charlas sobre análisis de incidencias, en <a href="https://www.youtube.com/watch?v=g274h7w0TTk">madScalability</a> y en <a href="https://www.youtube.com/watch?v=CTcKuZ2gcHQ">Benidorm Tech</a>, y una específicamente sobre <a href="https://www.youtube.com/watch?v=nQksMZRqvRw">la catástrofe de Chernóbil</a>. Para nuestros propósitos actuales nos centraremos en el <strong>postmortem sin culpa</strong> o <em>blameless postmortem</em>.</p>
+<h3 id="empatía">Empatía</h3>
+<p>También como parte del análisis de incidencias tenemos que alejarnos de actitudes poco productivas como buscar el error humano, y acercarnos más a entender a la otra persona. ¿Por qué en su momento pensamos que era buena idea hacer lo que hicimos, aunque terminara siendo un problema en producción?</p>
+<h3 id="el-postmortem-en-integración">El postmortem en integración</h3>
+<p>Una técnica que hemos explorado en este proyecto, y que en cierta manera es original (o al menos yo no la he visto descrita) es hacer análisis de incidencias que ni siquiera llegan a producción. Analizar los fallos de nuestro proceso de desarrollo en integración nos permite refinarlos y aprender sin necesidad de darnos un batacazo en producción.</p>
+<p>Es mucho más fácil actuar de forma constructiva cuando las apuestas no son tan altas: un fallo en un entorno de integración es a lo sumo una molestia, y es casi imposible que afecte a clientes o a las cuentas de la empresa más allá de lo que cueste arreglarla. También es más fácil tomarse un fallo en integración como un éxito más que como un fracaso: al fin y al cabo hemos conseguido evitar que el problema llegue a producción.</p>
+<h2 id="confianza">Confianza</h2>
+<p>Dejamos para el final esta “Co” que es La confianza no se puede conseguir por sí sola; es consecuencia de trabajar en todos los puntos anteriores.</p>
+<p>A continuación vamos a revisar cómo conseguir que un equipo trabaje con confianza mutua.</p>
+<h3 id="confianza-del-cliente">Confianza del cliente</h3>
+<p>La primera parte es lógicamente la confianza del cliente.</p>
+<h3 id="confianza-en-el-proceso">Confianza en el proceso</h3>
 <h2 id="conclusión">Conclusión</h2>
 <p>En esta sexta “Co” de regalo, resumimos los puntos que han ayudado a llevar un proyecto fluido.</p>
 <p>El proyecto sigue, con un equipazo que estoy seguro que va a hacer un trabajo estupendo. Además la forma de trabajo.</p>
