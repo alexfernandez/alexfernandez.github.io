@@ -335,7 +335,7 @@ al fin y al cabo hemos conseguido evitar que el problema llegue a producción.
 
 ## Confianza
 
-![Equipo aportando conflianza.](pics/cinco-cos-constructividad.png "Una persona construye, otra aporta, una tercera está muy atenta. Fuente: elaboración propia.")
+![Equipo aportando conflianza.](pics/cinco-cos-confianza.png "Una persona se cae, otras dos acuden a sostenerla. Fuente: elaboración propia.")
 
 Dejamos para el final esta "Co" que se destila de los anteriores.
 La confianza no se puede conseguir por sí sola;
