@@ -109,6 +109,9 @@
 <p>El mayor valor de una especificación suele ser encontrar los casos raros o <em>corner cases</em>: esos pequeños detalles que afectan sólo a algunos clientes, en condiciones inusuales, cuando hay tormenta. Pregúntate siempre si estás listo para lo peor: ¿hemos contemplado el día de cambio de hora? ¿Qué pasa si un cliente no tiene datos un día, o un mes? ¿Sabemos cómo tratar esos contratos <em>legacy</em> que siempre se nos olvidan?</p>
 <p>Finalmente, la especificación debe ser lo suficientemente completa como para que el equipo pueda usarla de <em>checklist</em>: una vez que se cumplan todos los requisitos marcados el trabajo estará listo. Si encontramos nuevos casos raros (<em>corner cases</em>) no contemplados, los añadiremos a la especificación.</p>
 <h2 id="compatibilidad-hacia-atrás">Compatibilidad hacia atrás</h2>
+<figure>
+<img src="pics/cinco-cos-compatibilidad.png" title="Dos versiones diferentes de una misma idea, una única interfaz. Fuente: elaboración propia." alt="Manteniendo la compatibilidad." /><figcaption>Manteniendo la compatibilidad.</figcaption>
+</figure>
 <p>Para la segunda “Co” vamos a arriesgar algo más. Un proyecto desde cero siempre es agradable porque no hay ninguna herencia (el temible <em>legacy</em>) que mantener. En nuestro caso teníamos que construir un sistema nuevo, pero lidiando con una MySQL ya creada, con las peculiaridades habituales de cualquier base de datos creada por agregación: datos repetidos, inconsistencias, estructuras duplicadas.</p>
 <h3 id="resistiendo-la-tentación">Resistiendo la tentación</h3>
 <p>Es muy tentador querer mezclar nuestro proyecto con mejoras en los sistemas heredados, en nuestro caso la base de datos. ¿Y si añadimos este campo a esta tabla, o unificamos estas dos tablas? Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.</p>

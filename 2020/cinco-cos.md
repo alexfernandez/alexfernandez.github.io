@@ -155,6 +155,8 @@ los añadiremos a la especificación.
 
 ## Compatibilidad hacia atrás
 
+![Manteniendo la compatibilidad.](pics/cinco-cos-compatibilidad.png "Dos versiones diferentes de una misma idea, una única interfaz. Fuente: elaboración propia.")
+
 Para la segunda "Co" vamos a arriesgar algo más.
 Un proyecto desde cero siempre es agradable porque no hay
 ninguna herencia (el temible _legacy_) que mantener.
