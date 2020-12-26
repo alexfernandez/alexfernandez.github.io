@@ -1,0 +1,1194 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "O2kDcBrAubcN7EsiJJT3i",
+      "type": "ellipse",
+      "x": 981.272705078125,
+      "y": 93.09092712402344,
+      "width": 45.81817626953125,
+      "height": 45.81819152832031,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 275607006,
+      "version": 166,
+      "versionNonce": 1997384862,
+      "isDeleted": false,
+      "boundElementIds": null
+    },
+    {
+      "id": "6szaCh0_fnr3Iaf7NW7lG",
+      "type": "draw",
+      "x": 1005.2727661132812,
+      "y": 139.6363983154297,
+      "width": 23.99993896484375,
+      "height": 253.81809997558594,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 191329346,
+      "version": 311,
+      "versionNonce": 1737384670,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10.18182373046875,
+          106.90907287597656
+        ],
+        [
+          22.54547119140625,
+          173.0908966064453
+        ],
+        [
+          23.99993896484375,
+          210.1818389892578
+        ],
+        [
+          13.09088134765625,
+          253.81809997558594
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "c4DGS4du83jzlMU919tk8",
+      "type": "draw",
+      "x": 1018.3636474609375,
+      "y": 252.3636474609375,
+      "width": 60.363525390625,
+      "height": 138.90914916992188,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 329203230,
+      "version": 83,
+      "versionNonce": 206050398,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.7271728515625,
+          3.6363525390625
+        ],
+        [
+          21.81817626953125,
+          30.545440673828125
+        ],
+        [
+          32,
+          37.81817626953125
+        ],
+        [
+          34.18182373046875,
+          37.81817626953125
+        ],
+        [
+          57.45465087890625,
+          64
+        ],
+        [
+          59.6363525390625,
+          102.54550170898438
+        ],
+        [
+          56,
+          125.81817626953125
+        ],
+        [
+          51.6363525390625,
+          138.90914916992188
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "mWGOrjgggg0q9wPxJgcI3",
+      "type": "draw",
+      "x": 1010.3635864257812,
+      "y": 200.08888334900595,
+      "width": 79.272705078125,
+      "height": 117.64085761814098,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1763983874,
+      "version": 207,
+      "versionNonce": 1876672578,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          -15.812344188435217
+        ],
+        [
+          -6.54547119140625,
+          -14.605089616821882
+        ],
+        [
+          -13.81817626953125,
+          -20.037741521390153
+        ],
+        [
+          -40.727294921875,
+          -49.615484858225145
+        ],
+        [
+          -48,
+          -59.87716771386331
+        ],
+        [
+          -50.18182373046875,
+          -61.084434950093176
+        ],
+        [
+          -71.272705078125,
+          -94.88760094911618
+        ],
+        [
+          -79.272705078125,
+          -111.99264779221636
+        ],
+        [
+          -78.54547119140625,
+          -132.24594723496287
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "eHOSCRG40uT0P79GyUajH",
+      "type": "draw",
+      "x": 1010.3636474609375,
+      "y": 178.9091033935547,
+      "width": 61.0909423828125,
+      "height": 96.72727966308594,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 904056962,
+      "version": 41,
+      "versionNonce": 1512913794,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          7.2728271484375,
+          18.181808471679688
+        ],
+        [
+          58.90911865234375,
+          90.90910339355469
+        ],
+        [
+          61.0909423828125,
+          96.72727966308594
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "YTxnAlU8YfJkbVWSsHGAS",
+      "type": "ellipse",
+      "x": 700.5454711914062,
+      "y": 82.18182373046875,
+      "width": 46.54547119140625,
+      "height": 45.09092712402344,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 385332638,
+      "version": 25,
+      "versionNonce": 1774319774,
+      "isDeleted": false,
+      "boundElementIds": null
+    },
+    {
+      "id": "6KZTVJp4CrZyMfnomyq-M",
+      "type": "draw",
+      "x": 727.45458984375,
+      "y": 130.18182373046875,
+      "width": 18.9090576171875,
+      "height": 234.18182373046875,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 99477570,
+      "version": 101,
+      "versionNonce": 1177285570,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.727294921875,
+          38.54547119140625
+        ],
+        [
+          4.36358642578125,
+          59.63636779785156
+        ],
+        [
+          5.09088134765625,
+          128
+        ],
+        [
+          13.81817626953125,
+          147.63638305664062
+        ],
+        [
+          18.1817626953125,
+          234.18182373046875
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "oUs2viyCeKKVr7Ya2jfP0",
+      "type": "draw",
+      "x": 734,
+      "y": 234.18182373046875,
+      "width": 17.45452880859375,
+      "height": 143.27273559570312,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 2039456094,
+      "version": 51,
+      "versionNonce": 847760286,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -2.9090576171875,
+          13.090911865234375
+        ],
+        [
+          -5.0908203125,
+          92.3636474609375
+        ],
+        [
+          -17.45452880859375,
+          143.27273559570312
+        ],
+        [
+          -16.72723388671875,
+          143.27273559570312
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "0ZD5uxSCZ4l5UeDRhz_y5",
+      "type": "draw",
+      "x": 730.3636474609375,
+      "y": 176.727294921875,
+      "width": 39.272705078125,
+      "height": 66.90908813476562,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1935852866,
+      "version": 41,
+      "versionNonce": 546000962,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          19.6363525390625,
+          21.818191528320312
+        ],
+        [
+          39.272705078125,
+          66.90908813476562
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "DCnFuWiZ1WbZ6CcnBfc02",
+      "type": "draw",
+      "x": 726.727294921875,
+      "y": 165.81820678710938,
+      "width": 17.45458984375,
+      "height": 85.09089660644531,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 2093108446,
+      "version": 53,
+      "versionNonce": 794941342,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.727294921875,
+          -0.7272491455078125
+        ],
+        [
+          -1.45458984375,
+          0
+        ],
+        [
+          -2.90911865234375,
+          56
+        ],
+        [
+          -6.54547119140625,
+          64
+        ],
+        [
+          -6.54547119140625,
+          67.6363525390625
+        ],
+        [
+          -17.45458984375,
+          84.3636474609375
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "QLBHklpSOwo7xt9BiPD_u",
+      "type": "ellipse",
+      "x": 626.3636474609375,
+      "y": 88.727294921875,
+      "width": 43.6363525390625,
+      "height": 44.363616943359375,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 1791046622,
+      "version": 40,
+      "versionNonce": 189137986,
+      "isDeleted": false,
+      "boundElementIds": null
+    },
+    {
+      "id": "4OkFy9pvZR5RPBnsGkqTW",
+      "type": "draw",
+      "x": 645.2727355957031,
+      "y": 135.27273559570312,
+      "width": 10.181854248046875,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 926734558,
+      "version": 104,
+      "versionNonce": 1865516866,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          20.363662719726562
+        ],
+        [
+          3.63641357421875,
+          33.454559326171875
+        ],
+        [
+          3.63641357421875,
+          65.45455932617188
+        ],
+        [
+          5.090911865234375,
+          66.90908813476562
+        ],
+        [
+          6.545501708984375,
+          186.18182373046875
+        ],
+        [
+          5.090911865234375,
+          187.63641357421875
+        ],
+        [
+          -3.6363525390625,
+          229.81817626953125
+        ],
+        [
+          -1.454498291015625,
+          232
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "3x7IViN053PD0ITiWbRBQ",
+      "type": "draw",
+      "x": 648.9091491699219,
+      "y": 234.18182373046875,
+      "width": 19.636322021484375,
+      "height": 135.27273559570312,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 2080310750,
+      "version": 32,
+      "versionNonce": 278512450,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          9.454498291015625,
+          14.54547119140625
+        ],
+        [
+          13.090850830078125,
+          26.909088134765625
+        ],
+        [
+          14.54541015625,
+          90.90908813476562
+        ],
+        [
+          19.636322021484375,
+          135.27273559570312
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "Xf2oQUQwdyCNebyQIgggI",
+      "type": "draw",
+      "x": 649.6364135742188,
+      "y": 168.72731018066406,
+      "width": 42.18182373046875,
+      "height": 90.18183898925781,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 826837470,
+      "version": 72,
+      "versionNonce": 1565831902,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          -16.000015258789062
+        ],
+        [
+          35.63641357421875,
+          -48.00001525878906
+        ],
+        [
+          42.18182373046875,
+          -90.18183898925781
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "ejCg3bb0puGDwbAP10YQZ",
+      "type": "draw",
+      "x": 649.6363830566406,
+      "y": 162.18182373046875,
+      "width": 45.090911865234375,
+      "height": 113.45455932617188,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1437266434,
+      "version": 24,
+      "versionNonce": 1878332894,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -1.454559326171875,
+          0.7272796630859375
+        ],
+        [
+          -12.3636474609375,
+          24
+        ],
+        [
+          -16.72723388671875,
+          30.54547119140625
+        ],
+        [
+          -26.18182373046875,
+          58.18182373046875
+        ],
+        [
+          -35.636383056640625,
+          75.63638305664062
+        ],
+        [
+          -38.54547119140625,
+          88
+        ],
+        [
+          -42.909088134765625,
+          94.54547119140625
+        ],
+        [
+          -45.090911865234375,
+          113.45455932617188
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "4MwP5fGZjWh0d_uuSV3rs",
+      "type": "ellipse",
+      "x": 755.0910034179688,
+      "y": 108.3636474609375,
+      "width": 39.272705078125,
+      "height": 42.90910339355469,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 100024066,
+      "version": 52,
+      "versionNonce": 1927643266,
+      "isDeleted": false,
+      "boundElementIds": null
+    },
+    {
+      "id": "10DJ2W-PG8kdR1jQFYbhp",
+      "type": "draw",
+      "x": 776.181884765625,
+      "y": 151.2727508544922,
+      "width": 10.9090576171875,
+      "height": 214.5454559326172,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 949108894,
+      "version": 128,
+      "versionNonce": 1104302238,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10.9090576171875,
+          198.5454559326172
+        ],
+        [
+          8,
+          214.5454559326172
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "e5UllrZUE-0mdJ7Bnd6UF",
+      "type": "draw",
+      "x": 782.727294921875,
+      "y": 248.727294921875,
+      "width": 17.45452880859375,
+      "height": 141.09091186523438,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 934219842,
+      "version": 46,
+      "versionNonce": 1249333854,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -7.272705078125,
+          112
+        ],
+        [
+          -16,
+          140.36367797851562
+        ],
+        [
+          -17.45452880859375,
+          141.09091186523438
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "oG1le5q9bruwMiDY6Pa2V",
+      "type": "draw",
+      "x": 777.6363525390625,
+      "y": 173.81817626953125,
+      "width": 33.45452880859375,
+      "height": 79.27273559570312,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 958663298,
+      "version": 46,
+      "versionNonce": 81756802,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          24,
+          41.45458984375
+        ],
+        [
+          29.09088134765625,
+          48
+        ],
+        [
+          33.45452880859375,
+          79.27273559570312
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "ialevXT02djN5I5TscBMh",
+      "type": "draw",
+      "x": 776.1818237304688,
+      "y": 174.5454864501953,
+      "width": 49.45452880859375,
+      "height": 74.18183898925781,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1352564162,
+      "version": 18,
+      "versionNonce": 491714910,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          19.6363525390625,
+          -16.727294921875
+        ],
+        [
+          34.18182373046875,
+          -36.36366271972656
+        ],
+        [
+          45.0909423828125,
+          -58.18183898925781
+        ],
+        [
+          47.27276611328125,
+          -70.54548645019531
+        ],
+        [
+          49.45452880859375,
+          -74.18183898925781
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "_LTmP8dJdGE-6nwcY7CpB",
+      "type": "ellipse",
+      "x": 673.6364135742188,
+      "y": 111.272705078125,
+      "width": 35.6363525390625,
+      "height": 41.45454406738281,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 2020500638,
+      "version": 49,
+      "versionNonce": 505321026,
+      "isDeleted": false,
+      "boundElementIds": null
+    },
+    {
+      "id": "VZ6WkR9D4PUR1T_DnWBxi",
+      "type": "draw",
+      "x": 692.5454711914062,
+      "y": 151.27273559570312,
+      "width": 16,
+      "height": 220.3636474609375,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1573671938,
+      "version": 87,
+      "versionNonce": 1763021122,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          2.18182373046875,
+          2.1818389892578125
+        ],
+        [
+          8,
+          18.909088134765625
+        ],
+        [
+          11.6363525390625,
+          92.3636474609375
+        ],
+        [
+          4.36370849609375,
+          152
+        ],
+        [
+          2.18182373046875,
+          154.18185424804688
+        ],
+        [
+          -4.3636474609375,
+          216
+        ],
+        [
+          -1.45452880859375,
+          220.3636474609375
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "ZY6vXCDfdNj7144j9O84O",
+      "type": "draw",
+      "x": 706.3636474609375,
+      "y": 257.45458984375,
+      "width": 10.90911865234375,
+      "height": 127.272705078125,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 163093470,
+      "version": 34,
+      "versionNonce": 1573049602,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          11.636322021484375
+        ],
+        [
+          10.90911865234375,
+          98.9090576171875
+        ],
+        [
+          0,
+          127.272705078125
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "Um0fErM9TpPvmT-bY9lbP",
+      "type": "draw",
+      "x": 702,
+      "y": 170.18182373046875,
+      "width": 31.272735595703125,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1950512158,
+      "version": 32,
+      "versionNonce": 1811386626,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.727294921875,
+          0
+        ],
+        [
+          -7.272705078125,
+          15.272750854492188
+        ],
+        [
+          -21.090850830078125,
+          75.63638305664062
+        ],
+        [
+          -25.45452880859375,
+          84.3636474609375
+        ],
+        [
+          -30.545440673828125,
+          104
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "JwykTZmt-ZEmP33BfefSH",
+      "type": "draw",
+      "x": 705.6363525390625,
+      "y": 171.6363983154297,
+      "width": 48,
+      "height": 56.727294921875,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1534658818,
+      "version": 25,
+      "versionNonce": 1597625858,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          12.3636474609375,
+          -10.909103393554688
+        ],
+        [
+          17.45458984375,
+          -13.090911865234375
+        ],
+        [
+          23.2728271484375,
+          -20.363662719726562
+        ],
+        [
+          31.2728271484375,
+          -26.18182373046875
+        ],
+        [
+          43.63641357421875,
+          -38.54548645019531
+        ],
+        [
+          48,
+          -56.727294921875
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

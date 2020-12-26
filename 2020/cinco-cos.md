@@ -416,6 +416,8 @@ y por el camino se reforzará la confianza del equipo.
 
 ## Conclusión
 
+![Despidiéndose del equipo.](pics/cinco-cos-conclusión.png "Una persona dice adiós mientras se aleja, el resto del grupo se despide. Fuente: elaboración propia.")
+
 Esta sexta "Co" va por cuenta de la casa.
 Es muy fácil dejarse llevar por la inercia tan común en nuestro gremio
 y considerar que todo lo que no sea programar es _bullshit_.
