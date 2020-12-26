@@ -213,7 +213,7 @@ Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.
 
 Pero nos encontraríamos con un pequeño gran problema:
 habrá que cambiar también el código _legacy_ para que acceda al nuevo campo o la nueva tabla.
-Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos,
+Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos y el sistema heredado,
 complicando el proyecto exponencialmente.
 
 Así que optamos por simplemente **considerar la base de datos como inmutable**,
@@ -264,24 +264,26 @@ Tendremos que reemplazar todo el proceso de cabo a rabo antes de poder usarlo en
 Si las facturas son idénticas a las existentes,
 podemos reemplazar el primer paso dejando el resto del sistema existente.
 O mejor todavía:
-trabajar primero en el paso que más guerra nos esté dando.
+**trabajar primero en el paso que más guerra nos esté dando**.
 Así nos aseguramos un proceso más continuo y con menos dramas.
 
 ## Conflicto
 
 ![Equipo en conflicto.](pics/cinco-cos-conflicto.png "Dos personas tienen diferentes ideas, ¿cómo reconciliarlas? Fuente: elaboración propia.")
 
-Este punto puede ser algo más sorprendente que los anteriores.
-El conflicto (y cómo manejarlo) es crucial para el éxito de un proyecto.
+Este punto puede ser algo más sorprendente que los anteriores,
+así que vamos a expresarlo de la forma más llamativa posible:
+
+**El conflicto es crucial para el éxito de un proyecto**.
 
 Es posible que pienses:
 
-> Pero, Pinchito, ¿insinúas que los conflictos son esenciales para el éxito de un proyecto?
+> Pero, Pinchito, ¿por qué nos dices que los conflictos son esenciales para el éxito de un proyecto?
 > Resolverlos cuando aparecen, claro que sí, pero
 > ¿la propia existencia del conflicto es necesaria?
-> ¿No será mejor que no haya conflictos?
+> ¿No será mejor que en el proyecto no haya conflictos?
 
-Pero el conflicto tiene mucho que enseñarnos.
+El conflicto tiene mucho que enseñarnos.
 En un equipo ideal hay diversidad de experiencias,
 de capacidades,
 y también de trasfondo sociocultural:

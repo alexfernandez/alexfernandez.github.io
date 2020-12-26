@@ -123,7 +123,7 @@
 <p>Para la segunda “Co” vamos a arriesgar algo más. Un proyecto desde cero siempre es agradable porque no hay ninguna herencia (el temible <em>legacy</em>) que mantener. En nuestro caso teníamos que construir un sistema nuevo, pero lidiando con una MySQL ya creada, con las peculiaridades habituales de cualquier base de datos creada por agregación: datos repetidos, inconsistencias, estructuras duplicadas.</p>
 <h3 id="resistiendo-la-tentación">Resistiendo la tentación</h3>
 <p>Es muy tentador querer mezclar nuestro proyecto con <strong>mejoras en los sistemas heredados</strong>, en nuestro caso la base de datos. ¿Y si añadimos este campo a esta tabla, o unificamos estas dos tablas? Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.</p>
-<p>Pero nos encontraríamos con un pequeño gran problema: habrá que cambiar también el código <em>legacy</em> para que acceda al nuevo campo o la nueva tabla. Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos, complicando el proyecto exponencialmente.</p>
+<p>Pero nos encontraríamos con un pequeño gran problema: habrá que cambiar también el código <em>legacy</em> para que acceda al nuevo campo o la nueva tabla. Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos y el sistema heredado, complicando el proyecto exponencialmente.</p>
 <p>Así que optamos por simplemente <strong>considerar la base de datos como inmutable</strong>, y trabajar con lo que teníamos. De esta forma evitamos la tentación de meternos en guerras con varios frentes. La compatibilidad hacia atrás se vuelve extremadamente importante: ¿cómo hacía cada proceso el sistema existente?</p>
 <p>A cambio las mejoras en el proceso han valido la pena.</p>
 <h3 id="chequeo-de-datos">Chequeo de datos</h3>
@@ -140,17 +140,18 @@
 <li>pasar cargos al banco…</li>
 </ul>
 <p>La tentación inmediata es crear unas facturas hipervitaminadas que incorporen todas esas mejoras que el cliente ha pensado durante años. ¡Craso error! Tendremos que reemplazar todo el proceso de cabo a rabo antes de poder usarlo en producción.</p>
-<p>Si las facturas son idénticas a las existentes, podemos reemplazar el primer paso dejando el resto del sistema existente. O mejor todavía: trabajar primero en el paso que más guerra nos esté dando. Así nos aseguramos un proceso más continuo y con menos dramas.</p>
+<p>Si las facturas son idénticas a las existentes, podemos reemplazar el primer paso dejando el resto del sistema existente. O mejor todavía: <strong>trabajar primero en el paso que más guerra nos esté dando</strong>. Así nos aseguramos un proceso más continuo y con menos dramas.</p>
 <h2 id="conflicto">Conflicto</h2>
 <figure>
 <img src="pics/cinco-cos-conflicto.png" title="Dos personas tienen diferentes ideas, ¿cómo reconciliarlas? Fuente: elaboración propia." alt="Equipo en conflicto." /><figcaption>Equipo en conflicto.</figcaption>
 </figure>
-<p>Este punto puede ser algo más sorprendente que los anteriores. El conflicto (y cómo manejarlo) es crucial para el éxito de un proyecto.</p>
+<p>Este punto puede ser algo más sorprendente que los anteriores, así que vamos a expresarlo de la forma más llamativa posible:</p>
+<p><strong>El conflicto es crucial para el éxito de un proyecto</strong>.</p>
 <p>Es posible que pienses:</p>
 <blockquote>
-<p>Pero, Pinchito, ¿insinúas que los conflictos son esenciales para el éxito de un proyecto? Resolverlos cuando aparecen, claro que sí, pero ¿la propia existencia del conflicto es necesaria? ¿No será mejor que no haya conflictos?</p>
+<p>Pero, Pinchito, ¿por qué nos dices que los conflictos son esenciales para el éxito de un proyecto? Resolverlos cuando aparecen, claro que sí, pero ¿la propia existencia del conflicto es necesaria? ¿No será mejor que en el proyecto no haya conflictos?</p>
 </blockquote>
-<p>Pero el conflicto tiene mucho que enseñarnos. En un equipo ideal hay diversidad de experiencias, de capacidades, y también de trasfondo sociocultural: edad, sexo, educación, procedencia. Esto llevará inevitablemente a que los problemas se encaren de forma diferente. Muy a menudo hay soluciones (por ejemplo partes del código) que no convencen a parte del equipo, que puede proponer otras soluciones alternativas.</p>
+<p>El conflicto tiene mucho que enseñarnos. En un equipo ideal hay diversidad de experiencias, de capacidades, y también de trasfondo sociocultural: edad, sexo, educación, procedencia. Esto llevará inevitablemente a que los problemas se encaren de forma diferente. Muy a menudo hay soluciones (por ejemplo partes del código) que no convencen a parte del equipo, que puede proponer otras soluciones alternativas.</p>
 <p>El conflicto nos ayuda a aflorar estas discrepancias, estos puntos débiles del código que no terminan de convencernos.</p>
 <h3 id="solución-c">Solución C</h3>
 <p>Ya tenemos el conflicto planteado: ¿elegimos la solución A que convence a una parte del equipo, o la solución B que convence a otra parte? Sigamos buceando en el problema. Si rascamos un poco veremos que seguramente la solución A <strong>tampoco convence del todo</strong> a los proponentes, y lo mismo ocurre con la solución B. Y es lógico: en general los miembros del equipo saben de lo que hablan. Los inconvenientes de cada solución son también visibles para quienes la ven como la mejor, aunque consideren que la otra solución es peor.</p>
