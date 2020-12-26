@@ -86,7 +86,8 @@ Es más, la dinámica del [proceso de revisión](https://pinchito.es/2018/has-an
 cambia completamente:
 ya no es necesario lanzar _pull request_,
 revisar, aprobar y mezclar.
-Ahora podemos directamente mezclar el código que se ha programado y revisado en directo.
+Ahora podemos directamente revisar el código que se ha programado en directo
+y mezclarlo directamente.
 
 Eso sí,
 yo sigo pensando que parte del trabajo debe hacerse en privado,
@@ -143,10 +144,11 @@ en lugar de esperar a que el cliente elabore los requisitos,
 los obtendremos en forma de entrevistas y los escribiremos dentro del propio equipo.
 
 Siempre tendemos a dar por supuestas ciertas ideas que parecen obvias.
-Mal; en un documento técnico tenemos que explicarlo todo desde cero.
+En este caso es mal; en un documento técnico tenemos que **explicarlo todo desde cero**.
 El objetivo debe ser que una persona inteligente totalmente ajena a nuestro proyecto
 pueda entenderlo todo sólo leyendo la especificación.
 
+Hay más hábitos que cambiar.
 En un texto literario
 (una novela, una égloga, o incluso una entrada de blog como ésta)
 la repetición es veneno:
@@ -154,7 +156,7 @@ usar la misma palabra varias veces en una frase o un párrafo
 demuestra falta de estilo y aturde al lector.
 No digamos ya usar la misma frase varias veces.
 
-En un documento técnico tendremos que cambiar el hábito:
+En un documento técnico tendremos que cambiar nuestra programación:
 no temas repetirte las veces que haga falta para evitar ambigüedades.
 Es importante que cada párrafo sea autocontenido:
 no siempre tendrás el lujo de que tus lectoras empiecen por el principio y terminen por el final.
