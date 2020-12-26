@@ -374,7 +374,13 @@ Y lo mismo si tenemos una solución de compromiso C.
 Cuando hay un incidente,
 y siempre habrá incidentes,
 es muy importante tomárselo en serio.
-Las críticas deben ser siempre constructivas.
+Las críticas deben ser siempre constructivas y orientadas a la mejora;
+nunca para apuntar dedos.
+Si queremos reforzar el espíritu de mejora
+es esencial que se puedan abordar los cambios sin temor.
+De otra forma adoptaremos siempre la solución más conservadora,
+evitaremos mejorar el sistema una vez que esté más o menos listo,
+y llegaremos a un software rígido y difícil de cambiar.
 
 ### Postmortem sin culpa
 
