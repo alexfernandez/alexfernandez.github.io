@@ -7,23 +7,25 @@ footer: Publicado el 2020-12-24, modificado el 2020-12-24.
 
 ![Los cinco "Co"s.](pics/cinco-cos-intro.png "Comunicación, Compatibilidad, Constructividad, Conflicto, todos llevan a Confianza. Fuente: elaboración propia.")
 
-Durante los últimos seis meses he participado con LeanMind en un proyecto para Alterna Energética.
+Durante los últimos seis meses he participado con [LeanMind](https://leanmind.es/)
+en un proyecto para [Alterna](https://alternaonline.es/),
+una comercializadora de electricidad y otros suministros domésticos.
 Ha sido un auténtico placer trabajar con tantos buenos profesionales
-(incluyendo por supuesto estupendas profesionales),
-y los resultados han sido bastante satisfactorios para todos,
-incluyendo el cliente que es lo más importante.
+(incluyendo por supuesto estupendas profesionales).
+Los resultados han sido bastante satisfactorios para todos,
+y también para el cliente que es lo más importante.
 
-En la última retrospectiva hemos identificado cinco puntos que han sido cruciales
-para el éxito del proyecto.
-Como todos empiezan por "co" vamos a usarlo como regla nemotécnica para acordarnos mejor.
 Es muy habitual ver artículos sobre detalles técnicos de un proyecto.
-En este caso vamos a centrarnos en _soft skills_ o "habilidades blandas":
+Para variar hoy vamos a centrarnos en _soft skills_ o "habilidades blandas":
 aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos.
+En la última retrospectiva hemos identificado cinco de estas habilidades
+que han sido cruciales para el éxito del proyecto.
+Como todos empiezan por "co" vamos a usarlo como regla nemotécnica para acordarnos mejor.
 
 A estas alturas un artículo que simplemente dijera "tal y tal cosa son importantes"
 tendría una utilidad muy limitada,
 así que para cada uno veremos unas cuantas técnicas concretas que nos ayuden a aplicar estas habilidades.
-Sin más dilación os dejo con los cinco (más uno) "Co"s.
+Sin más dilación os dejo con los cinco "Co"s (más una de propina).
 
 ## Comunicación
 
@@ -476,7 +478,7 @@ aportar a la cultura de una empresa joven como Alterna.
 
 ### Agradecimientos
 
-Muchas gracias a Carlos Blé de LeanMind
+Muchas gracias a Carlos Blé, fundador de [LeanMind](https://leanmind.es/),
 por haber hecho posible este gran proyecto con este gran cliente.
 Si tienes un proyecto de software y necesitas una ayuda hay poca gente mejor a la que acudir.
 
