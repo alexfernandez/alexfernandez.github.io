@@ -16,15 +16,14 @@ Los resultados han sido bastante satisfactorios para todos,
 y también para el cliente que es lo más importante.
 
 Es muy habitual ver artículos sobre detalles técnicos de un proyecto.
-Para variar hoy vamos a centrarnos en _soft skills_ o "habilidades blandas":
-aspectos menos técnicos y más humanos que nos ayudan a trabajar juntos.
-En la última retrospectiva hemos identificado cinco de estas habilidades
-que han sido cruciales para el éxito del proyecto.
+Para variar hoy vamos a centrarnos en _soft skills_ o "habilidades blandas".
+En la última retrospectiva hemos identificado cinco de estas **habilidades
+menos técnicas y más humanas** que nos han ayudado a trabajar juntos.
 Como todos empiezan por "co" vamos a usarlo como regla nemotécnica para acordarnos mejor.
 
 A estas alturas un artículo que simplemente dijera "tal y tal cosa son importantes"
 tendría una utilidad muy limitada,
-así que para cada uno veremos unas cuantas técnicas concretas que nos ayuden a aplicar estas habilidades.
+así que para cada uno veremos unas cuantas **técnicas concretas** que nos ayudan a aplicar estas habilidades.
 Sin más dilación os dejo con los cinco "Co"s (más una de propina).
 
 ## Comunicación
@@ -33,38 +32,39 @@ Sin más dilación os dejo con los cinco "Co"s (más una de propina).
 
 Con la primera "Co" empezamos sobre seguro.
 La elección no os descubrirá nada nuevo:
-obviamente la comunicación es importante para cualquier proyecto,
+obviamente la comunicación es crucial para cualquier proyecto,
 sea de software o no.
-Lo que sí es decisivo es la forma de comunicarse.
+Vamos a centrarnos en algunas técnicas para mejorar nuestra forma de comunicarnos.
 
 ### _Daily meeting_
 
 Muchos equipos han hecho de la _daily meeting_ o reunión diaria una religión.
-He presenciado cómo estas _dailies_ se prolongan durante una hora o más,
+En el pasado he visto cómo estas _dailies_ se prolongan durante una hora o más,
 quitando un 12% de la jornada de trabajo.
 De ahí que me produjeran angustia vital.
 
-En este proyecto hemos tomado como costumbre reunirnos a diario,
-pero sólo cuando era realmente necesario.
+En este proyecto hemos tomado como costumbre reunirnos a diario con el equipo de Alterna a una hora fija,
+pero **sólo cuando teníamos algo de qué hablar**.
 A menudo nos las hemos saltado cuando parte del equipo tenía qué hacer,
 las hemos eliminado los viernes,
-y en general si no teníamos qué hablar.
+y otras veces en que no teníamos qué hablar han durado cinco minutos.
 
-Por otra parte,
-tener este punto de contacto diario con Alterna nos ha permitido resolver dudas rápidamente.
+Cuando nos ha hecho falta han sido muy útiles.
+Tener este punto de contacto diario con Alterna nos ha permitido resolver dudas de un día para otro.
 Hemos podido rectificar rápidamente cuando han cambiado las prioridades,
 y en general han sido muy positivas.
 
 Tampoco podemos despreciar el contacto humano,
 que en estos tiempos de pandemia son esenciales para nuestra salud mental:
-así nos obligamos a recordar que trabajamos con gente, y no sólo con máquinas.
+así nos obligamos a recordar que **trabajamos con gente y no sólo con máquinas**.
+Yo considero que dedicar al menos cinco o diez minutos al día a "charla de café" es muy positivo.
 
 ### _Mob Programming_
 
 Una técnica nueva para mí y que me ha sorprendido es el _mob programming_.
 Si pensabas que la programación en pareja o _pair programming_ era poco productiva,
-espera a que te cuente cómo funciona la programación en grupo:
-todo o parte del equipo se reúne para escribir código.
+espera a que te cuente cómo funciona la **programación en grupo**:
+todo o parte del equipo [se reúne para escribir código](https://podcast.carlosble.com/podcast/e9-mob-programming/).
 Una persona toma el teclado, el _driver_ o conductor.
 El resto hacen de _navigators_ o copilotos,
 y van mapeando el terreno,
@@ -84,6 +84,7 @@ e incluso para adoptar ciertas prácticas de desarrollo en sus proyectos propios
 Es cierto que se consume mucho tiempo programando así,
 pero también se ahorra después en formación, explicaciones
 y revisión de código.
+El resultado suele ser bastante más robusto que la programación en solitario.
 Es más, la dinámica del [proceso de revisión](https://pinchito.es/2018/has-anyone-else-seen-your-code)
 cambia completamente:
 ya no es necesario lanzar _pull request_,
@@ -94,26 +95,35 @@ y mezclarlo directamente.
 Eso sí,
 yo sigo pensando que parte del trabajo debe hacerse en privado,
 que es mucho más productiva en aspectos más mecánicos.
+Pero una sesión al día de _mob programming_ es una práctica excelente.
 
 ### Comunicación escrita
 
 En estos tiempos de pandemia lo que antes era crucial ahora es indispensable:
-todo lo que se hable debe quedar reflejado por escrito
-y estar publicado para que todo el equipo sepa a qué atenerse
+**todo lo que se hable debe quedar reflejado por escrito**
+y estar publicado para que todo el equipo sepa a qué atenerse.
 
 En un proyecto en remoto tendemos a comunicarnos muy a menudo por escrito,
-pero en medios conversacionales (Slack, Whatsapp)
+pero usamos medios conversacionales (Slack, Whatsapp)
 donde cada elemento queda enterrado entre conversaciones cruzadas.
-No vale con eso; tenemos que elaborar documentos que destilen el conocimiento adquirido
+
+Puede que sintamos la tentación de escribir minutas para cada reunión,
+elaborar listas de features,
+y demás tareas ingratas y muy trabajosas.
+No vale con eso; tenemos que elaborar **documentos que destilen el conocimiento adquirido**
 en forma que sea fácil de digerir por cualquier persona ajena al equipo.
 
-### Líneas base
+Es cierto que la mayoría de gestores documentales son laberínticos
+y no ayudan demasiado a organizar la información;
+en nuestro caso tenemos una cuenta en Confluence con una mínima estructura para ayudarnos a organizar los documentos.
+
+### Línea base
 
 Tengo pendiente escribir un artículo sobre conocimientos desconocidos.
 Por ahora baste con reflejar que la información asimétrica
 (lo que sólo conoce parte del equipo)
 puede llevar a serios problemas en el desarrollo.
-El documento escrito y público permite que todo el mundo adquiera,
+El **documento escrito y público** permite que todo el mundo adquiera,
 compare y contraste su conocimiento con el del resto del equipo.
 
 Hace más de veinte años recibí un estupendo curso de [Kyle Rone](https://www.linkedin.com/in/kyle-rone-3545451/),
@@ -123,24 +133,21 @@ que el equipo en el que estaba interpretaba de forma jocosa como "vaseline".
 A decir verdad yo tampoco entendía bien a qué se refería,
 pero creo que ahora tengo alguna idea de por qué tener líneas base es tan importante.
 
-El documento escrito forma la base sobre la que se desarrollará el conocimiento del equipo.
+El documento escrito forma la **base sobre la que se desarrollará el conocimiento del equipo**.
 Debe estar todo detallado y especificado hasta el nivel de detalle que sea necesario,
 como vamos a ver en el siguiente apartado.
 
 Cuando se avanza en el conocimiento se vuelve a elaborar una nueva línea base,
 que se verá reflejada en un nuevo documento.
 De esta forma mantenemos siempre actualizado el conocimiento del equipo.
-Es muy fácil (y más hoy día) mantener una base de conocimiento
+De esta forma vamos elaborando una base de conocimiento
 o _knowledge base_ que nos sirva de referencia.
-Es cierto que la mayoría de gestores documentales son laberínticos
-y no ayudan demasiado a organizar la información;
-en nuestro caso tenemos una cuenta en Confluence con una mínima estructura para ayudarnos a organizar los documentos.
 
 ### El arte de la especificación técnica
 
 Para cada elemento del sistema que tenga sentido por sí solo
 (subsistema, script, pestaña de la web…)
-elaboraremos un documento maestro que recoja todos los detalles de la implementación.
+elaboraremos un **documento maestro** que recoja todos los detalles de la implementación.
 No podemos esperar que otra persona nos saque las castañas del fuego:
 en lugar de esperar a que el cliente elabore los requisitos,
 los obtendremos en forma de entrevistas y los escribiremos dentro del propio equipo.
@@ -158,14 +165,14 @@ usar la misma palabra varias veces en una frase o un párrafo
 demuestra falta de estilo y aturde al lector.
 No digamos ya usar la misma frase varias veces.
 
-En un documento técnico tendremos que cambiar nuestra programación:
-no temas repetirte las veces que haga falta para evitar ambigüedades.
+En un documento técnico tendremos que ir contra esta educación:
+**no temas repetirte las veces que haga falta** para evitar ambigüedades.
 Es importante que cada párrafo sea autocontenido:
 no siempre tendrás el lujo de que tus lectoras empiecen por el principio y terminen por el final.
 Así el documento será valioso como referencia técnica,
 que se pueda consultar para averiguar cómo debe funcionar un aspecto dado de la implementación.
 
-El mayor valor de una especificación suele ser encontrar los casos raros
+El mayor valor de una especificación suele ser encontrar los **casos raros**
 o _corner cases_:
 esos pequeños detalles que afectan sólo a algunos clientes,
 en condiciones inusuales,
@@ -175,9 +182,10 @@ Pregúntate siempre si estás listo para lo peor:
 ¿Qué pasa si un cliente no tiene datos un día, o un mes?
 ¿Sabemos cómo tratar esos contratos _legacy_ que siempre se nos olvidan?
 
-Finalmente, la especificación debe ser lo suficientemente completa
+Finalmente, **la especificación debe ser lo suficientemente completa**
 como para que el equipo pueda usarla de _checklist_:
 una vez que se cumplan todos los requisitos marcados el trabajo estará listo.
+No olvides actualizar la especificación cada vez que cambie la implementación.
 Si encontramos nuevos casos raros (_corner cases_) no contemplados,
 los añadiremos a la especificación.
 
@@ -197,18 +205,18 @@ estructuras duplicadas.
 
 ### Resistiendo la tentación
 
-Es muy tentador querer mezclar nuestro proyecto con mejoras en los sistemas heredados,
+Es muy tentador querer mezclar nuestro proyecto con **mejoras en los sistemas heredados**,
 en nuestro caso la base de datos.
 ¿Y si añadimos este campo a esta tabla,
 o unificamos estas dos tablas?
 Así simplificamos el desarrollo porque podemos hacerlo todo más eficiente.
 
-Pero nos encontraríamos con un pequeño problema:
+Pero nos encontraríamos con un pequeño gran problema:
 habrá que cambiar también el código _legacy_ para que acceda al nuevo campo o la nueva tabla.
 Y peor todavía, tendríamos que sincronizar nuestras mejoras con las de la base de datos,
 complicando el proyecto exponencialmente.
 
-Así que optamos por simplemente considerar la base de datos como inmutable,
+Así que optamos por simplemente **considerar la base de datos como inmutable**,
 y trabajar con lo que teníamos.
 De esta forma evitamos la tentación de meternos en guerras con varios frentes.
 La compatibilidad hacia atrás se vuelve extremadamente importante:
@@ -221,7 +229,7 @@ A cambio las mejoras en el proceso han valido la pena.
 Como parte de nuestras pruebas,
 y para comprobar que estamos obteniendo los resultados correctos,
 podemos recorrer el histórico en la base de datos e intentar replicar los resultados existentes.
-Así hemos podido ir mejorando nuestro proceso,
+Así hemos podido calcular la mejora nuestro proceso,
 calculando el tanto por ciento de resultados iguales:
 primero un 5%, luego un 80%,
 después un 95.5%, un 98%…
@@ -229,13 +237,35 @@ hasta llegar al ansiado 100%.
 
 En realidad siempre nos han quedado unos pocos registros que se nos resistían,
 en algunos casos por haber identificado resultados mal calculados por el sistema _legacy_.
-Pero no hay problema mientras seamos capaces de explicar hasta la última discrepancia.
+Pero no hay problema mientras seamos capaces de explicar **hasta la última discrepancia**.
+El trabajo que parece ingrato de ir persiguiendo casos raros
+se nos devolverá mil veces cuando nos evitemos incidencias en producción con estos mismos casos raros.
 
 ### Reemplazo parcial
 
-En lugar de tener que reemplazar todas las piezas del sistema,
-podemos ir reemplazando una a una.
-Cada una 
+Otra gran ventaja de mantener la compatibilidad hacia atrás
+es que no tenemos que reemplazar todas las piezas del sistema a la vez:
+podemos ir cambiándolas una a una,
+manteniendo el resto del sistema _legacy_.
+
+Supongamos un proceso de facturación con unos cuantos pasos:
+
+* crear factura,
+* calcular costes,
+* agregar costes en la factura,
+* generar PDF,
+* pasar cargos al banco…
+
+La tentación inmediata es crear unas facturas hipervitaminadas
+que incorporen todas esas mejoras que el cliente ha pensado durante años.
+¡Craso error!
+Tendremos que reemplazar todo el proceso de cabo a rabo antes de poder usarlo en producción.
+
+Si las facturas son idénticas a las existentes,
+podemos reemplazar el primer paso dejando el resto del sistema existente.
+O mejor todavía:
+trabajar primero en el paso que más guerra nos esté dando.
+Así nos aseguramos un proceso más continuo y con menos dramas.
 
 ## Conflicto
 
