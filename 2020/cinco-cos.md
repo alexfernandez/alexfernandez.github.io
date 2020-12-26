@@ -429,7 +429,8 @@ Me voy con la tranquilidad de dejar una base de código bien trabajada y sin mag
 una documentación bastante completa
 y un equipazo que estoy seguro de que va a hacer un trabajo estupendo.
 
-Ahora el proyecto sigue a toda máquina.
+Ahora el proyecto sigue a toda máquina,
+y aunque tienen muchos retos por delante también tienen las herramientas para afrontarlos.
 Además la forma de trabajo ha calado en el equipo del cliente,
 que están empezando a usarla en sus proyectos propios.
 Eso es, en cierto sentido, el mejor resultado posible del proyecto:
