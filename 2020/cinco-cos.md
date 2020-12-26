@@ -35,6 +35,28 @@ obviamente la comunicación es importante para cualquier proyecto,
 sea de software o no.
 Lo que sí es decisivo es la forma de comunicarse.
 
+### _Daily meeting_
+
+Muchos equipos han hecho de la _daily meeting_ o reunión diaria una religión.
+He presenciado cómo estas _dailies_ se prolongan durante una hora o más,
+quitando un 12% de la jornada de trabajo.
+De ahí que me produjeran angustia vital.
+
+En este proyecto hemos tomado como costumbre reunirnos a diario,
+pero sólo cuando era realmente necesario.
+A menudo nos las hemos saltado cuando parte del equipo tenía qué hacer,
+las hemos eliminado los viernes,
+y en general si no teníamos qué hablar.
+
+Por otra parte,
+tener este punto de contacto diario con Alterna nos ha permitido resolver dudas rápidamente.
+Hemos podido rectificar rápidamente cuando han cambiado las prioridades,
+y en general han sido muy positivas.
+
+Tampoco podemos despreciar el contacto humano,
+que en estos tiempos de pandemia son esenciales para nuestra salud mental:
+así nos obligamos a recordar que trabajamos con gente, y no sólo con máquinas.
+
 ### _Mob Programming_
 
 Una técnica nueva para mí y que me ha sorprendido es el _mob programming_.
@@ -43,11 +65,13 @@ espera a que te cuente cómo funciona la programación en grupo:
 todo o parte del equipo se reúne para escribir código.
 Una persona toma el teclado, el _driver_ o conductor.
 El resto hacen de _navigators_ o copilotos,
-y van mapeando el terreno:
+y van mapeando el terreno,
+cual [Luis Moya a Carlos Sáinz](https://youtu.be/bbtUJ4CpybA?t=298),
+los legendarios pilotos de _rally_ españoles:
 
-> A ras, a ras,
-> ojo nieve, ojo curva.
-> ¡Arranca, Carlos, por Dios!
+> Ojo nieve, a ras, a ras.
+> Ojo curva.
+> [Carlos, ¡Trata de arrancarlo, por Dios!](https://www.youtube.com/watch?v=Sd_gj-3kz7A)
 
 Programar de esta manera es sorprendentemente efectivo,
 sobre todo para conseguir que el conocimiento se difunda en el equipo.
