@@ -416,20 +416,28 @@ y por el camino se reforzará la confianza del equipo.
 
 ## Conclusión
 
-En esta sexta "Co" de regalo resumimos los puntos que han ayudado a llevar un proyecto fluido.
+Esta sexta "Co" va por cuenta de la casa.
+Es muy fácil dejarse llevar por la inercia tan común en nuestro gremio
+y considerar que todo lo que no sea programar es _bullshit_.
+Es también un error garrafal.
+Más allá de los aspectos técnicos de un proyecto hay que considerar elementos más "blanditos",
+pero que también pueden mejorarse adoptando técnicas sencillas.
 
-El proyecto sigue,
-con un equipazo que estoy seguro que va a hacer un trabajo estupendo.
+Me voy con la tranquilidad de dejar una base de código bien trabajada y sin magia oscura,
+una documentación bastante completa
+y un equipazo que estoy seguro de que va a hacer un trabajo estupendo.
+
+Ahora el proyecto sigue a toda máquina.
 Además la forma de trabajo ha calado en el equipo del cliente,
 que están empezando a usarla en sus proyectos propios.
-Eso es, en parte, el mejor resultado posible del proyecto:
+Eso es, en cierto sentido, el mejor resultado posible del proyecto:
 aportar a la cultura de una empresa joven como Alterna.
 
 ### Agradecimientos
 
 Muchas gracias a Carlos Blé de LeanMind
 por haber hecho posible este gran proyecto con este gran cliente.
-Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor a la que acudir.
+Si tienes un proyecto de software y necesitas una ayuda hay poca gente mejor a la que acudir.
 
 Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado,
 y haber estado abierto a sugerencias y cambios.
