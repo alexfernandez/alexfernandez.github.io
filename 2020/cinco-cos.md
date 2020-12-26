@@ -422,8 +422,20 @@ Esta sexta "Co" va por cuenta de la casa.
 Es muy fácil dejarse llevar por la inercia tan común en nuestro gremio
 y considerar que todo lo que no sea programar es _bullshit_.
 Es también un error garrafal.
-Más allá de los aspectos técnicos de un proyecto hay que considerar elementos más "blanditos",
-pero que también pueden mejorarse adoptando técnicas sencillas.
+Más allá de los aspectos técnicos de un proyecto hay todo un mundo de elementos más "blanditos",
+pero que son muy importantes y que pueden trabajarse.
+
+Para ver la importancia real sólo hay que imaginarse un proyecto donde falten estos cinco "Co"s.
+¿Qué te parecería trabajar en un equipo con mala comunicación,
+donde no se respete la compatibilidad hacia atrás,
+donde el conflicto no se maneje bien,
+donde las críticas no constructivas sean la norma,
+y donde no exista la confianza?
+
+Si bien hay gente que consigue las _soft skills_ de forma intuitiva y sin esforzarse,
+para el resto he expuesto unas cuantas técnicas sencillas que nos permiten mejorar nuestras habilidades.
+
+### Viento en popa a toda vela
 
 Me voy con la tranquilidad de dejar una base de código bien trabajada y sin magia oscura,
 una documentación bastante completa
