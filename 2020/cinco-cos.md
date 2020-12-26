@@ -331,7 +331,7 @@ esta persona puede actuar de juez imparcial
 y acompañarnos por el camino hacia la solución que satisface a todo el mundo;
 en otros casos nos puede ayudar a entender por qué se adopta una solución concreta.
 
-También puede ayudar a investigar el coste de pasar de una solución a otra
+También la figura de mediación puede ayudar a investigar el coste de pasar de una solución a otra
 cuando las circunstancias cambien.
 Esto nos lleva directamente al siguiente punto.
 
@@ -354,6 +354,18 @@ asegurarte de que puedes corregirla sin demasiado problema.
 En este sentido el desarrollo de software es una gran disciplina:
 normalmente basta con realizar un cambio de código _et voilà!_,
 ya tenemos la solución buena en marcha.
+
+Por tanto al investigar varias soluciones al problema nos interesa también estudiar
+el coste de pasar de una a otra.
+Es posible que la solución A sea más legible, y la solución B aporte mejor rendimiento;
+sería interesante adoptar A ahora mismo pero poder migrar a B
+cuando el tráfico llegue a cierto volumen.
+¿Cuál es el coste de migrar de A a B?
+¿Tenemos identificados todos los puntos del código donde tendremos que tocar?
+En ese caso es posible que nos interese adoptar ahora mismo A y dejar anotado cómo migrar a B;
+en caso contrario, y según nuestras previsiones de tráfico,
+es posible que prefiramos directamente adoptar la solución B.
+Y lo mismo si tenemos una solución de compromiso C.
 
 ## Constructividad
 
