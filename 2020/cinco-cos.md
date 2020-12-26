@@ -293,8 +293,9 @@ Muy a menudo hay soluciones (por ejemplo partes del código)
 que no convencen a parte del equipo,
 que puede proponer otras soluciones alternativas.
 
-El conflicto nos ayuda a aflorar estas discrepancias,
+El conflicto hace aflorar estas discrepancias,
 estos puntos débiles del código que no terminan de convencernos.
+En resumen, **el conflicto nos ayuda a guiar las mejoras del sistema**.
 
 ### Solución C
 
@@ -310,7 +311,12 @@ Los inconvenientes de cada solución son también visibles para quienes la ven c
 aunque consideren que la otra solución es peor.
 
 Así que sigamos buscando.
-Es posible que encontremos una solución C sin los inconvenientes de A ni los de B.
+Nuestro objetivo debe ser encontrar una solución C sin los inconvenientes de A ni los de B.
+En mi experiencia vale la pena dedicar cierto tiempo a explorar esta solución alternativa.
+Como mínimo podremos justificar con razones por qué las posibles soluciones no nos valen.
+
+Es buena idea detallar estas decisiones de diseño en la especificación técnica,
+en forma de **nota técnica**.
 
 ### Mediación
 
