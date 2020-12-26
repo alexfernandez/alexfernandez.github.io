@@ -325,7 +325,7 @@ o al menos que no sepamos encontrarla.
 ¿Qué hacemos en este caso?
 
 En situaciones de conflicto,
-contar con una figura de mediación externa al problema puede ser muy interesante.
+contar con una **figura de mediación externa al problema** puede ser muy interesante.
 Al no estar implicada directamente,
 esta persona puede actuar de juez imparcial
 y acompañarnos por el camino hacia la solución que satisface a todo el mundo;
