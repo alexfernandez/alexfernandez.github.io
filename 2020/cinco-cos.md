@@ -488,7 +488,8 @@ Pero está todo preparado y es cuestión de seguir en la misma línea.
 
 ### Confianza en el equipo
 
-En un equipo la cosa debe ir más allá de simplemente confiar en el trabajo ajeno.
+En un equipo la cosa debe ir más allá de simplemente confiar en el trabajo ajeno
+o en la tecnología.
 Algo más importante todavía es que cualquiera pueda contar los problemas que ve,
 y que puedan comentarlos en grupo.
 
