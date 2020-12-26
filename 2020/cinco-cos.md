@@ -524,14 +524,16 @@ Más allá de los aspectos técnicos de un proyecto hay todo un mundo de element
 pero que son muy importantes y que pueden trabajarse.
 
 Para ver la importancia real sólo hay que imaginarse un proyecto donde falten estos cinco "Co"s.
-¿Qué te parecería trabajar en un equipo con mala comunicación,
-donde no se respete la compatibilidad hacia atrás,
-donde el conflicto no se maneje bien,
-donde las críticas no constructivas sean la norma,
-y donde no exista la confianza?
+¿Qué te parecería trabajar en un equipo:
+
+* con mala comunicación,
+* donde no se respete la compatibilidad hacia atrás,
+* donde el conflicto no se maneje bien,
+* donde las críticas no constructivas sean la norma,
+* y donde no exista la confianza?
 
 Si bien hay gente que consigue las _soft skills_ de forma intuitiva y sin esforzarse,
-para el resto he expuesto unas cuantas técnicas sencillas que nos permiten mejorar nuestras habilidades.
+para el resto de nosotros he expuesto unas cuantas técnicas sencillas que nos permiten mejorar nuestras habilidades.
 
 ### Viento en popa a toda vela
 
