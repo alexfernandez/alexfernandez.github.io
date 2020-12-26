@@ -373,8 +373,7 @@ Y lo mismo si tenemos una solución de compromiso C.
 
 Cuando hay un incidente,
 y siempre habrá incidentes,
-es muy importante tomárselo en serio.
-Las críticas deben ser siempre constructivas y orientadas a la mejora;
+es muy importante que las críticas sean siempre constructivas y orientadas a la mejora;
 nunca para apuntar dedos.
 Si queremos reforzar el espíritu de mejora
 es esencial que se puedan abordar los cambios sin temor.
@@ -384,14 +383,24 @@ y llegaremos a un software rígido y difícil de cambiar.
 
 ### Postmortem sin culpa
 
+Un _postmortem_ es un análisis realizado tras un incidente.
+Aunque suene macabro es el término estándar que se usa para el informe final.
+Una incidencia es el momento perfecto para analizar causas
+y llegar al fondo que ha permitido que ocurra un error en producción.
+
 Si os interesa el tema,
 este año he dado un par de charlas sobre análisis de incidencias,
 en [madScalability](https://www.youtube.com/watch?v=g274h7w0TTk)
 y en [Benidorm Tech](https://www.youtube.com/watch?v=CTcKuZ2gcHQ),
 y una específicamente sobre
 [la catástrofe de Chernóbil](https://www.youtube.com/watch?v=nQksMZRqvRw).
+
 Para nuestros propósitos actuales nos centraremos en el
-**postmortem sin culpa** o _blameless postmortem_.
+**_postmortem_ sin culpa** o
+[_blameless postmortem_](https://codeascraft.com/2012/05/22/blameless-postmortems/).
+Se trata de una técnica que se basa en abandonar el error humano como causa del error;
+en su lugar, investigar qué conjunción de circunstancias ha permitido
+que una persona pueda tener la responsabilidad sobre sus hombros.
 
 También como parte del análisis de incidencias
 tenemos que alejarnos de actitudes poco productivas
@@ -400,7 +409,11 @@ y acercarnos más a entender a la otra persona.
 ¿Por qué en su momento pensamos que era buena idea hacer lo que hicimos,
 aunque terminara siendo un problema en producción?
 
-### El postmortem en integración
+El informe final debe estar centrado las recomendaciones
+para evitar incidentes similares en el futuro,
+y el equipo debe tener muy en cuenta estas recomendaciones en el futuro.
+
+### El _postmortem_ en integración
 
 Una técnica que hemos explorado en este proyecto,
 y que en cierta manera es original (o al menos yo no la he visto descrita)
