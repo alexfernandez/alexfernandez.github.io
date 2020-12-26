@@ -223,7 +223,7 @@ Es posible que pienses:
 > ¿la propia existencia del conflicto es necesaria?
 > ¿No será mejor que no haya conflictos?
 
-Realmente el conflicto es importante.
+Pero el conflicto tiene mucho que enseñarnos.
 En un equipo ideal hay diversidad de experiencias,
 de capacidades,
 y también de trasfondo sociocultural:
@@ -309,8 +309,6 @@ y una específicamente sobre
 Para nuestros propósitos actuales nos centraremos en el
 **postmortem sin culpa** o _blameless postmortem_.
 
-### Empatía
-
 También como parte del análisis de incidencias
 tenemos que alejarnos de actitudes poco productivas
 como buscar el error humano,
@@ -339,7 +337,8 @@ al fin y al cabo hemos conseguido evitar que el problema llegue a producción.
 
 Dejamos para el final esta "Co" que se destila de los anteriores.
 La confianza no se puede conseguir por sí sola;
-es consecuencia de trabajar sin descanso.
+es consecuencia del trabajo continuado.
+Pero también se puede mejorar deliberadamente.
 
 A continuación vamos a revisar algunas técnicas que ayudan a conseguir
 que un equipo trabaje con confianza.
@@ -348,17 +347,18 @@ que un equipo trabaje con confianza.
 
 La primera parte es lógicamente la confianza del cliente,
 que se gana a lo largo de años de trabajo.
-En nuestro caso teníamos la suerte de que LeanMind ya había trabajado anteriormente con Alterna,
+En nuestro caso teníamos la suerte de que Carlos Blé ya había trabajado anteriormente con Alterna,
 y con su buen hacer se habían ganado su confianza.
 
-Quien dice "cliente" dice "jefes".
-En este caso es también necesario 
+En este proyecto he aprendido que hay que mirar en el interés del cliente,
+pero no en un sentido estricto sino con cierta amplitud de miras.
+En mi caso la cosa se podría haber complicado por trabajar con LeanMind a un lado y a Alterna a otro,
+lo que podría causar conflictos.
+La clave para desenredar este problema a tres bandas fue tener como objetivo
+mejorar la relación mutua entre LeanMind y Alterna.
 
-En este proyecto he aprendido que hay que tirar siempre 
-
-### Confianza en el equipo
-
-Tengo que reconocer que no siempre he conseguido ganarme la confianza del equipo
+En general puede ser importante localizar los puntos de beneficio mutuo y trabajar sobre ellos,
+y no ahondar en los que suponen sólo beneficio para una de las partes.
 
 ### Despliegue continuo
 
@@ -389,18 +389,45 @@ al ser en su mayoría una serie de procesos _batch_
 tampoco tiene el mismo sentido que en una aplicación web.
 Pero está todo preparado y es cuestión de seguir en la misma línea.
 
+### Confianza en el equipo
+
+En un equipo la cosa debe ir más allá de simplemente confiar en el trabajo ajeno.
+Algo más importante todavía es que cualquiera pueda contar los problemas que ve,
+y que puedan comentarlos en grupo.
+
+Tengo que reconocer que en alguna ocasión no he sabido entender las preocupaciones del equipo,
+sobre todo a la hora de rematar el trabajo.
+Pero gracias a la mediación de Carlos Blé hemos podido hablarlo en grupo
+y llegar a un acuerdo satisfactorio para todos.
+
+Otro aspecto en el que he trabajado pero donde tengo que mejorar todavía
+(y esto lo anoto aquí como reto personal)
+es dejar que el equipo cometa errores.
+Como Blé me ha contado,
+a veces es necesario dejar que el equipo siga un rumbo distinto al que nos gusta,
+pese a que tengamos claro que sea un error.
+Para empezar todo el mundo tiene que poder aprender de sus errores.
+Y para seguir,
+es posible que en ocasiones
+(como me ha pasado a mí repetidamente)
+los miembros con menos experiencia tengan razón.
+En cualquier caso el equipo aprenderá algo,
+y por el camino se reforzará la confianza del equipo.
+
 ## Conclusión
 
-En esta sexta "Co" de regalo,
-resumimos los puntos que han ayudado a llevar un proyecto fluido.
+En esta sexta "Co" de regalo resumimos los puntos que han ayudado a llevar un proyecto fluido.
 
 El proyecto sigue,
 con un equipazo que estoy seguro que va a hacer un trabajo estupendo.
-Además la forma de trabajo.
+Además la forma de trabajo ha calado en el equipo del cliente,
+que están empezando a usarla en sus proyectos propios.
+Eso es, en parte, el mejor resultado posible del proyecto:
+aportar a la cultura de una empresa joven como Alterna.
 
 ### Agradecimientos
 
-Muchas gracias a Carlos Blé de LeanMind,
+Muchas gracias a Carlos Blé de LeanMind
 por haber hecho posible este gran proyecto con este gran cliente.
 Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor a la que acudir.
 

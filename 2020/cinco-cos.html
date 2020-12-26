@@ -133,7 +133,7 @@
 <blockquote>
 <p>Pero, Pinchito, ¿insinúas que los conflictos son esenciales para el éxito de un proyecto? Resolverlos cuando aparecen, claro que sí, pero ¿la propia existencia del conflicto es necesaria? ¿No será mejor que no haya conflictos?</p>
 </blockquote>
-<p>Realmente el conflicto es importante. En un equipo ideal hay diversidad de experiencias, de capacidades, y también de trasfondo sociocultural: edad, sexo, educación, procedencia. Esto llevará inevitablemente a que los problemas se encaren de forma diferente. Muy a menudo hay soluciones (por ejemplo partes del código) que no convencen a parte del equipo, que puede proponer otras soluciones alternativas.</p>
+<p>Pero el conflicto tiene mucho que enseñarnos. En un equipo ideal hay diversidad de experiencias, de capacidades, y también de trasfondo sociocultural: edad, sexo, educación, procedencia. Esto llevará inevitablemente a que los problemas se encaren de forma diferente. Muy a menudo hay soluciones (por ejemplo partes del código) que no convencen a parte del equipo, que puede proponer otras soluciones alternativas.</p>
 <p>El conflicto nos ayuda a aflorar estas discrepancias, estos puntos débiles del código que no terminan de convencernos.</p>
 <h3 id="solución-c">Solución C</h3>
 <p>Ya tenemos el conflicto planteado: ¿elegimos la solución A que convence a una parte del equipo, o la solución B que convence a otra parte? Sigamos buceando en el problema. Si rascamos un poco veremos que seguramente la solución A <strong>tampoco convence del todo</strong> a los proponentes, y lo mismo ocurre con la solución B. Y es lógico: en general los miembros del equipo saben de lo que hablan. Los inconvenientes de cada solución son también visibles para quienes la ven como la mejor, aunque consideren que la otra solución es peor.</p>
@@ -155,7 +155,6 @@
 <p>Cuando hay un incidente, y siempre habrá incidentes, es muy importante tomárselo en serio. Las críticas deben ser siempre constructivas.</p>
 <h3 id="postmortem-sin-culpa">Postmortem sin culpa</h3>
 <p>Si os interesa el tema, este año he dado un par de charlas sobre análisis de incidencias, en <a href="https://www.youtube.com/watch?v=g274h7w0TTk">madScalability</a> y en <a href="https://www.youtube.com/watch?v=CTcKuZ2gcHQ">Benidorm Tech</a>, y una específicamente sobre <a href="https://www.youtube.com/watch?v=nQksMZRqvRw">la catástrofe de Chernóbil</a>. Para nuestros propósitos actuales nos centraremos en el <strong>postmortem sin culpa</strong> o <em>blameless postmortem</em>.</p>
-<h3 id="empatía">Empatía</h3>
 <p>También como parte del análisis de incidencias tenemos que alejarnos de actitudes poco productivas como buscar el error humano, y acercarnos más a entender a la otra persona. ¿Por qué en su momento pensamos que era buena idea hacer lo que hicimos, aunque terminara siendo un problema en producción?</p>
 <h3 id="el-postmortem-en-integración">El postmortem en integración</h3>
 <p>Una técnica que hemos explorado en este proyecto, y que en cierta manera es original (o al menos yo no la he visto descrita) es hacer análisis de incidencias que ni siquiera llegan a producción. Analizar los fallos de nuestro proceso de desarrollo en integración nos permite refinarlos y aprender sin necesidad de darnos un batacazo en producción.</p>
@@ -164,24 +163,26 @@
 <figure>
 <img src="pics/cinco-cos-confianza.png" title="Una persona se cae, otras dos acuden a sostenerla. Fuente: elaboración propia." alt="Equipo aportando conflianza." /><figcaption>Equipo aportando conflianza.</figcaption>
 </figure>
-<p>Dejamos para el final esta “Co” que se destila de los anteriores. La confianza no se puede conseguir por sí sola; es consecuencia de trabajar sin descanso.</p>
+<p>Dejamos para el final esta “Co” que se destila de los anteriores. La confianza no se puede conseguir por sí sola; es consecuencia del trabajo continuado. Pero también se puede mejorar deliberadamente.</p>
 <p>A continuación vamos a revisar algunas técnicas que ayudan a conseguir que un equipo trabaje con confianza.</p>
 <h3 id="confianza-del-cliente">Confianza del cliente</h3>
-<p>La primera parte es lógicamente la confianza del cliente, que se gana a lo largo de años de trabajo. En nuestro caso teníamos la suerte de que LeanMind ya había trabajado anteriormente con Alterna, y con su buen hacer se habían ganado su confianza.</p>
-<p>Quien dice “cliente” dice “jefes”. En este caso es también necesario</p>
-<p>En este proyecto he aprendido que hay que tirar siempre</p>
-<h3 id="confianza-en-el-equipo">Confianza en el equipo</h3>
-<p>Tengo que reconocer que no siempre he conseguido ganarme la confianza del equipo</p>
+<p>La primera parte es lógicamente la confianza del cliente, que se gana a lo largo de años de trabajo. En nuestro caso teníamos la suerte de que Carlos Blé ya había trabajado anteriormente con Alterna, y con su buen hacer se habían ganado su confianza.</p>
+<p>En este proyecto he aprendido que hay que mirar en el interés del cliente, pero no en un sentido estricto sino con cierta amplitud de miras. En mi caso la cosa se podría haber complicado por trabajar con LeanMind a un lado y a Alterna a otro, lo que podría causar conflictos. La clave para desenredar este problema a tres bandas fue tener como objetivo mejorar la relación mutua entre LeanMind y Alterna.</p>
+<p>En general puede ser importante localizar los puntos de beneficio mutuo y trabajar sobre ellos, y no ahondar en los que suponen sólo beneficio para una de las partes.</p>
 <h3 id="despliegue-continuo">Despliegue continuo</h3>
 <p>La prueba última de la confianza en la tecnología es dejar que ésta se encargue de los despliegues en producción, sin supervisión humana.</p>
 <p>Llevo unos ocho años siendo un gran fan del <a href="https://pinchito.es/2012/continuous-deployment">despliegue continuo</a>. En este tiempo he usado una decena de sistemas diferentes, la mayoría orientados a la integración continua. En contadas ocasiones hemos tenido la suficiente confianza en la tecnología como para hacer <a href="https://pinchito.es/2016/stridercd">despliegue continuo de verdad</a>: cada cambio hecho en la rama principal del repo se prueba y llega a producción en unos pocos minutos.</p>
 <p>En <a href="https://pinchito.es/2019/devops-on-the-cheap">nuestra última aventura</a> vimos cómo hacer despliegue continuo en 600 líneas de código. Ahora, gracias a las <a href="https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/">Bitbucket <em>pipelines</em></a> es perfectamente posible hacer integración continua con un script en Bash de 30 líneas, más 10 líneas de YAML. (Lo mismo se puede hacer con <a href="https://github.com/features/actions">GitHub Actions</a> o con <a href="https://docs.gitlab.com/ee/ci/pipelines/">GitLab Pipelines</a>).</p>
 <p>En nuestro proyecto no hemos llegado al despliegue continuo; al ser en su mayoría una serie de procesos <em>batch</em> tampoco tiene el mismo sentido que en una aplicación web. Pero está todo preparado y es cuestión de seguir en la misma línea.</p>
+<h3 id="confianza-en-el-equipo">Confianza en el equipo</h3>
+<p>En un equipo la cosa debe ir más allá de simplemente confiar en el trabajo ajeno. Algo más importante todavía es que cualquiera pueda contar los problemas que ve, y que puedan comentarlos en grupo.</p>
+<p>Tengo que reconocer que en alguna ocasión no he sabido entender las preocupaciones del equipo, sobre todo a la hora de rematar el trabajo. Pero gracias a la mediación de Carlos Blé hemos podido hablarlo en grupo y llegar a un acuerdo satisfactorio para todos.</p>
+<p>Otro aspecto en el que he trabajado pero donde tengo que mejorar todavía (y esto lo anoto aquí como reto personal) es dejar que el equipo cometa errores. Como Blé me ha contado, a veces es necesario dejar que el equipo siga un rumbo distinto al que nos gusta, pese a que tengamos claro que sea un error. Para empezar todo el mundo tiene que poder aprender de sus errores. Y para seguir, es posible que en ocasiones (como me ha pasado a mí repetidamente) los miembros con menos experiencia tengan razón. En cualquier caso el equipo aprenderá algo, y por el camino se reforzará la confianza del equipo.</p>
 <h2 id="conclusión">Conclusión</h2>
-<p>En esta sexta “Co” de regalo, resumimos los puntos que han ayudado a llevar un proyecto fluido.</p>
-<p>El proyecto sigue, con un equipazo que estoy seguro que va a hacer un trabajo estupendo. Además la forma de trabajo.</p>
+<p>En esta sexta “Co” de regalo resumimos los puntos que han ayudado a llevar un proyecto fluido.</p>
+<p>El proyecto sigue, con un equipazo que estoy seguro que va a hacer un trabajo estupendo. Además la forma de trabajo ha calado en el equipo del cliente, que están empezando a usarla en sus proyectos propios. Eso es, en parte, el mejor resultado posible del proyecto: aportar a la cultura de una empresa joven como Alterna.</p>
 <h3 id="agradecimientos">Agradecimientos</h3>
-<p>Muchas gracias a Carlos Blé de LeanMind, por haber hecho posible este gran proyecto con este gran cliente. Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor a la que acudir.</p>
+<p>Muchas gracias a Carlos Blé de LeanMind por haber hecho posible este gran proyecto con este gran cliente. Si tenéis un proyecto de software y necesitáis una ayuda hay poca gente mejor a la que acudir.</p>
 <p>Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado, y haber estado abierto a sugerencias y cambios.</p>
 <p>Gráficos elaborados con <a href="https://excalidraw.com/">Excalidraw</a>.</p>
 								</div>
