@@ -15,7 +15,7 @@ Ha sido un auténtico placer trabajar con tantos buenos profesionales
 y estar en un equipo con gente como
 Carlos Blé,
 [Ulises Santana](https://twitter.com/ulisesantana)
-o [Sam de Vega](https://twitter.com/SamdeVega)
+o [Sam de Vega](https://twitter.com/SamdeVega).
 Los resultados han sido bastante satisfactorios para todos,
 y también para el cliente que es lo más importante.
 
