@@ -457,6 +457,41 @@ mejorar la relación mutua entre LeanMind y Alterna.
 En general puede ser importante localizar los puntos de beneficio mutuo y trabajar sobre ellos,
 y no ahondar en los que suponen sólo beneficio para una de las partes.
 
+### TDD
+
+La tecnología puede ayudarnos a tener confianza en nuestro trabajo,
+y en nuestro trabajo es obviamente muy importante.
+Conseguir esta confianza suele requerir aportar nosotros confianza en la tecnología,
+que se nos devolverá en forma de confianza en el equipo.
+
+Los tests nos aportan confianza en nuestro código:
+con su ayuda podemos encarar cualquier
+[refactorización](https://podcast.carlosble.com/podcast/e14-refactoring/)
+sin tener que hacer pruebas manuales exhaustivas.
+Hace ya dos décadas que vengo haciendo tests extensivos en el código.
+
+El desarrollo guiado por tests, o
+[_test-driven development_](https://podcast.carlosble.com/podcast/e16-una-decada-de-tdd/),
+es una técnica bastante conocida:
+empezar a escribir tests antes de tirar una línea de código.
+La he probado de vez en cuando en mis propios proyectos,
+pero nunca me ha convencido.
+Ahora en el equipo había varios proponentes de la técnica,
+por lo que era el momento de volver a intentarlo.
+
+A decir verdad no lo hemos aplicado a rajatabla;
+a veces hemos empezado por escribir código,
+a veces por escribir tests.
+Los resultados para mí no han sido concluyentes.
+Desde luego no estoy de acuerdo con el principio de
+[escribir el código mínimo que pasa el test](http://wiki.c2.com/?CodeUnitTestFirst),
+porque nos puede llevar a hacernos trampa a nosotros mismos.
+
+Creo que escribir tests a posteriori puede ser tan válido como escribirlos antes.
+Pero si te ayuda a escribir más tests, ¡aplica TDD!
+Lo importante es llegar a tener confianza en la tecnología
+que el propio equipo está creando.
+
 ### Despliegue continuo
 
 La prueba última de la confianza en la tecnología
@@ -485,6 +520,12 @@ En nuestro proyecto no hemos llegado al despliegue continuo;
 al ser en su mayoría una serie de procesos _batch_
 tampoco tiene el mismo sentido que en una aplicación web.
 Pero está todo preparado y es cuestión de seguir en la misma línea.
+Ya usamos la [metodología TPP](https://pinchito.es/2020/tpp)
+así que en los procesos batch sólo necesitamos correr un par de comandos antes de lanzarlos:
+
+    $ git pull && npm install && ...
+
+En el servidor es un poco más involucrado, pero las piezas están ahí.
 
 ### Confianza en el equipo
 
