@@ -11,7 +11,11 @@ Durante los últimos seis meses he participado con [LeanMind](https://leanmind.e
 en un proyecto para [Alterna](https://alternaonline.es/),
 una comercializadora de electricidad y otros suministros domésticos.
 Ha sido un auténtico placer trabajar con tantos buenos profesionales
-(incluyendo por supuesto estupendas profesionales).
+(incluyendo por supuesto estupendas profesionales)
+y estar en un equipo con gente como
+Carlos Blé,
+[Ulises Santana](https://twitter.com/ulisesantana)
+o [Sam de Vega](https://twitter.com/SamdeVega)
 Los resultados han sido bastante satisfactorios para todos,
 y también para el cliente que es lo más importante.
 
