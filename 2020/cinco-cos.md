@@ -572,7 +572,7 @@ Es muy fácil dejarse llevar por la inercia tan común en nuestro gremio
 y considerar que todo lo que no sea programar es _bullshit_.
 Es también un error garrafal.
 Más allá de los aspectos técnicos de un proyecto hay todo un mundo de elementos más "blanditos",
-pero que son muy importantes y que pueden trabajarse.
+pero que son cruciales para el éxito y que pueden trabajarse.
 
 Para ver la importancia real sólo hay que imaginarse un proyecto donde falten estos cinco "Co"s.
 ¿Qué te parecería trabajar en un equipo:
