@@ -485,7 +485,7 @@ sin tener que hacer pruebas manuales exhaustivas.
 Hace ya dos décadas que vengo haciendo tests extensivos en el código.
 
 El desarrollo guiado por tests, o
-[_test-driven development_](https://podcast.carlosble.com/podcast/e16-una-decada-de-tdd/),
+[_test-driven development_](http://wiki.c2.com/?TestDrivenDevelopment),
 es una técnica bastante conocida:
 empezar a escribir tests antes de tirar una línea de código.
 La he probado de vez en cuando en mis propios proyectos,
