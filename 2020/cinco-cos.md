@@ -267,6 +267,16 @@ O mejor todavía:
 **trabajar primero en el paso que más guerra nos esté dando**.
 Así nos aseguramos un proceso más continuo y con menos dramas.
 
+Esta técnica resulta que tiene un nombre:
+la [aplicación del árbol estrangulador](https://martinfowler.com/bliki/StranglerFigApplication.html),
+como podemos leer en el blog de Martin Fowler.
+Vamos reemplazando un sistema pieza a pieza
+hasta que al final podamos dejar morir el sistema principal por falta de uso.
+¡Muy recomendable!
+El único problema que le veo al artículo de Fowler es que
+no pone el suficiente énfasis en la compatibilidad hacia atrás,
+que tendremos que mantener a rajatabla.
+
 ## Conflicto
 
 ![Equipo en conflicto.](pics/cinco-cos-conflicto.png "Dos personas tienen diferentes ideas, ¿cómo reconciliarlas? Fuente: elaboración propia.")
