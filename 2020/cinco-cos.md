@@ -608,9 +608,11 @@ aportar a la cultura de una empresa joven como Alterna.
 Muchas gracias a Carlos Blé, fundador de [LeanMind](https://leanmind.es/),
 por haber hecho posible este gran proyecto con este gran cliente.
 Si tienes un proyecto de software y necesitas una ayuda hay poca gente mejor a la que acudir.
+Gracias a todo el equipo de LeanMind incluyendo de forma especial a Ulises y Sam.
 
 Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado,
 y haber estado abierto a sugerencias y cambios.
+Gracias también a todo el equipo de Alterna por haber participado con nosotros.
 
 Gráficos elaborados con [Excalidraw](https://excalidraw.com/).
 
