@@ -19,7 +19,7 @@ o [Sam de Vega](https://twitter.com/SamdeVega).
 Los resultados han sido bastante satisfactorios para todos,
 y también para el cliente que es lo más importante.
 
-Es muy habitual ver artículos sobre detalles técnicos de un proyecto.
+Es bastante habitual ver artículos sobre detalles técnicos de un proyecto.
 Para variar hoy vamos a centrarnos en _soft skills_ o "habilidades blandas".
 En la última retrospectiva hemos identificado cinco de estas **habilidades
 menos técnicas y más humanas** que nos han ayudado a trabajar juntos.
@@ -210,6 +210,7 @@ estructuras duplicadas.
 ### Resistiendo la tentación
 
 Es muy tentador querer mezclar nuestro proyecto con **mejoras en los sistemas heredados**,
+también llamados "legados" o _legacy_,
 en nuestro caso la base de datos.
 ¿Y si añadimos este campo a esta tabla,
 o unificamos estas dos tablas?
