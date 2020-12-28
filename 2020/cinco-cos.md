@@ -390,7 +390,7 @@ Cuando hay un incidente,
 y siempre habrá incidentes,
 es muy importante que las críticas sean siempre **orientadas a la mejora**;
 nunca para apuntar dedos.
-Si queremos reforzar el espíritu de mejora
+Si queremos reforzar el espíritu de mejora continua
 es esencial que se puedan abordar los cambios sin temor.
 De otra forma adoptaremos siempre la solución más conservadora,
 evitaremos mejorar el sistema una vez que esté más o menos listo,
@@ -424,16 +424,18 @@ y acercarnos más a entender a la otra persona.
 ¿Por qué en su momento pensamos que era buena idea hacer lo que hicimos,
 aunque terminara siendo un problema en producción?
 
-El informe final debe estar centrado las recomendaciones
-para evitar incidentes similares en el futuro,
-y el equipo debe tener muy en cuenta estas recomendaciones en el futuro.
+El informe final debe estar **centrado las recomendaciones
+para evitar incidentes similares** en el futuro,
+y el equipo debe tener muy en cuenta estas recomendaciones.
+Idealmente se debe publicar a los clientes afectados,
+lo que les ayudará a confiar en que nos tomamos los problemas en serio.
 
 ### El _postmortem_ en integración
 
 Una técnica que hemos explorado en este proyecto,
 y que en cierta manera es original (o al menos yo no la he visto descrita)
-es hacer análisis de incidencias que ni siquiera llegan a producción.
-Analizar los fallos de nuestro proceso de desarrollo en integración nos permite refinarlos y aprender
+es hacer **análisis de fallos que ni siquiera llegan a producción**.
+Analizar los problemas de nuestro proceso de desarrollo en integración nos permite refinarlos y aprender
 sin necesidad de darnos un batacazo en producción.
 
 Es mucho más fácil actuar de forma constructiva cuando las apuestas no son tan altas:
@@ -462,7 +464,7 @@ que se gana a lo largo de años de trabajo.
 En nuestro caso teníamos la suerte de que Carlos Blé ya había trabajado anteriormente con Alterna,
 y con su buen hacer se habían ganado su confianza.
 
-En este proyecto he aprendido que hay que mirar en el interés del cliente,
+En este proyecto he aprendido que **hay que mirar en el interés del cliente**,
 pero no en un sentido estricto sino con cierta amplitud de miras.
 En mi caso la cosa se podría haber complicado por trabajar con LeanMind a un lado y a Alterna a otro,
 lo que podría causar conflictos.
@@ -504,16 +506,16 @@ porque nos puede llevar a hacernos trampa a nosotros mismos.
 
 Creo que escribir tests a posteriori puede ser tan válido como escribirlos antes.
 Pero si te ayuda a escribir más tests, ¡aplica TDD!
-Lo importante es llegar a tener confianza en la tecnología
+Lo importante es llegar a tener **confianza en la tecnología**
 que el propio equipo está creando.
 
 ### Despliegue continuo
 
 La prueba última de la confianza en la tecnología
-es dejar que ésta se encargue de los despliegues en producción,
+es dejar que ésta se encargue de los **despliegues en producción**,
 sin supervisión humana.
 
-Llevo unos ocho años siendo un gran fan del
+Llevo bastantes años siendo un gran fan del
 [despliegue continuo](https://pinchito.es/2012/continuous-deployment).
 En este tiempo he usado una decena de sistemas diferentes,
 la mayoría orientados a la integración continua.
@@ -540,7 +542,7 @@ así que en los procesos batch sólo necesitamos correr un par de comandos antes
 
     $ git pull && npm install && ...
 
-En el servidor es un poco más involucrado, pero las piezas están ahí.
+En un proceso de servidor es un poco más involucrado, pero las piezas están ahí.
 
 ### Confianza en el equipo
 
@@ -549,14 +551,14 @@ o en la tecnología.
 Algo más importante todavía es que cualquiera pueda contar los problemas que ve,
 y que puedan comentarlos en grupo.
 
-Tengo que reconocer que en alguna ocasión no he sabido entender las preocupaciones del equipo,
+Tengo que reconocer que en alguna ocasión no he sabido **entender las preocupaciones del equipo**,
 sobre todo a la hora de rematar el trabajo.
 Pero gracias a la mediación de Carlos Blé hemos podido hablarlo en grupo
 y llegar a un acuerdo satisfactorio para todos.
 
 Otro aspecto en el que he trabajado pero donde tengo que mejorar todavía
 (y esto lo anoto aquí como reto personal)
-es dejar que el equipo cometa errores.
+es **dejar que el equipo cometa errores**.
 Como Blé me ha contado,
 a veces es necesario dejar que el equipo siga un rumbo distinto al que nos gusta,
 pese a que tengamos claro que sea un error.
@@ -577,7 +579,7 @@ Es muy fácil dejarse llevar por la inercia tan común en nuestro gremio
 y considerar que todo lo que no sea programar es _bullshit_.
 Es también un error garrafal.
 Más allá de los aspectos técnicos de un proyecto hay todo un mundo de elementos más "blanditos",
-pero que son cruciales para el éxito y que pueden trabajarse.
+pero que son cruciales para el éxito y que además **pueden trabajarse**.
 
 Para ver la importancia real sólo hay que imaginarse un proyecto donde falten estos cinco "Co"s.
 ¿Qué te parecería trabajar en un equipo:
@@ -589,11 +591,15 @@ Para ver la importancia real sólo hay que imaginarse un proyecto donde falten e
 * y donde no exista la confianza?
 
 Si bien hay gente que consigue las _soft skills_ de forma intuitiva y sin esforzarse,
-para el resto de nosotros he expuesto unas cuantas técnicas sencillas que nos permiten mejorar nuestras habilidades.
+para el resto de nosotros hemos visto unas cuantas técnicas sencillas que nos permiten mejorar nuestras habilidades.
+Si tienes otras técnicas pásamelas
+[por correo](mailto:alexfernandeznpm@gmail.com)
+o [por Twitter](https://twitter.com/pinchito)
+para añadirlas.
 
 ### Viento en popa a toda vela
 
-Me voy con la tranquilidad de dejar una base de código bien trabajada y sin magia oscura,
+Me voy con la tranquilidad de dejar una base de código bien trabajada y **sin magia oscura**,
 una documentación bastante completa
 y un equipazo que estoy seguro de que va a hacer un trabajo estupendo.
 
@@ -602,7 +608,7 @@ y aunque tienen muchos retos por delante también tienen las herramientas para a
 Además la forma de trabajo ha calado en el equipo del cliente,
 que están empezando a usarla en sus proyectos propios.
 Eso es, en cierto sentido, el mejor resultado posible del proyecto:
-aportar a la cultura de una empresa joven como Alterna.
+**aportar a la cultura de una empresa** joven como Alterna.
 
 ### Agradecimientos
 
