@@ -1,7 +1,7 @@
 ---
 title: 'Los cinco "Co"s'
 subtitle: 'Cinco soft skills esenciales'
-footer: Publicado el 2020-12-24, modificado el 2020-12-24.
+footer: Publicado el 2020-12-28, modificado el 2020-12-28.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 

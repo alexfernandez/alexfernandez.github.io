@@ -17,9 +17,10 @@ Latest articles first.
 
 ### 2020
 
+* 2020-12-28: [Los cinco “Co”s: cinco soft skills esenciales](2020/cinco-cos) #SoftEng #ES
 * 2020-11-01: [La metodología TPP](2020/tpp) #SoftEng #ES
-* 2020-08-31: [🚀Curso de escalabilidad v2🚀](2020/curso-escalabilidad-2) #ES
-* 2020-05-20: [🚀Agile Performance and Scalability🚀](2020/curso-escalabilidad) #ES
+* 2020-08-31: [🚀Curso de escalabilidad v2🚀](2020/curso-escalabilidad-2) #SoftEng #ES
+* 2020-05-20: [🚀Agile Performance and Scalability🚀](2020/curso-escalabilidad) #SoftEng #ES
 * 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices) #OT
 * 2020-01-02: [Repaso de 2019 y propósitos para 2020](2020/repaso-propositos) #OT #ES
 
