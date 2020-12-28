@@ -365,7 +365,7 @@ Linus Torvalds nos cuenta cómo alcanzar la solución ideal:
 > correcta.
 
 Una buena forma de minimizar el daño de una decisión subóptima es
-asegurarte de que puedes corregirla sin demasiado problema.
+asegurarte de que puedes **corregirla sin demasiado problema**.
 En este sentido el desarrollo de software es una gran disciplina:
 normalmente basta con realizar un cambio de código _et voilà!_,
 ya tenemos la solución buena en marcha.
@@ -388,7 +388,7 @@ Y lo mismo si tenemos una solución de compromiso C.
 
 Cuando hay un incidente,
 y siempre habrá incidentes,
-es muy importante que las críticas sean siempre constructivas y orientadas a la mejora;
+es muy importante que las críticas sean siempre **orientadas a la mejora**;
 nunca para apuntar dedos.
 Si queremos reforzar el espíritu de mejora
 es esencial que se puedan abordar los cambios sin temor.

@@ -16,6 +16,10 @@ Los propósitos en sí los he indicado **en negrita**.
 
 Empezamos por un repaso del año y de los
 [objetivos que me marqué](/2020/repaso-propositos).
+Además de las categorías habituales de
+"éxito" y "fracaso" añadiremos este año
+"éxito pandémico" y "fracaso pandémico",
+para contar con las circunstancias impuestas por la pandemia de COVID-19.
 
 ### Trabajo sostenible
 
@@ -74,6 +78,17 @@ pero la pandemia paró la cosa.
 > No pido mucho realmente, basta con un tweet o un mail convocándome.
 
 **Éxito pandémico**:
+este año he dado charlas en
+en [madScalability](https://www.youtube.com/watch?v=g274h7w0TTk)
+en [Benidorm Tech](https://www.youtube.com/watch?v=CTcKuZ2gcHQ),
+y en [Madrid DevOps](https://www.youtube.com/watch?v=nQksMZRqvRw).
+Todas sobre análisis de incidencias.
+
+Después de preparar una presentación y varios artículos sobre
+"Bacterias: micromáquinas que dominan el universo"
+se canceló [t3chfest 2020](https://t3chfest.es/2020/en/).
+Lo tengo todo en la recámara,
+¡no os libraréis!
 
 ### Organizaciones
 
