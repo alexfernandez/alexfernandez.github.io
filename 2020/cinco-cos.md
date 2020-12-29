@@ -1,7 +1,7 @@
 ---
 title: 'Los cinco "Co"s'
 subtitle: 'Cinco soft skills esenciales'
-footer: Publicado el 2020-12-28, modificado el 2020-12-28.
+footer: Publicado el 2020-12-28, modificado el 2020-12-29.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -499,7 +499,8 @@ por lo que era el momento de volver a intentarlo.
 A decir verdad no lo hemos aplicado a rajatabla;
 a veces hemos empezado por escribir código,
 a veces por escribir tests.
-Los resultados para mí no han sido concluyentes.
+Los resultados para mí no han sido concluyentes,
+aunque a Ulises y Sam sí les convence.
 Desde luego no estoy de acuerdo con el principio de
 [escribir el código mínimo que pasa el test](http://wiki.c2.com/?CodeUnitTestFirst),
 porque nos puede llevar a hacernos trampa a nosotros mismos.
@@ -616,6 +617,7 @@ Muchas gracias a Carlos Blé, fundador de [LeanMind](https://leanmind.es/),
 por haber hecho posible este gran proyecto con este gran cliente.
 Si tienes un proyecto de software y necesitas una ayuda hay poca gente mejor a la que acudir.
 Gracias a todo el equipo de LeanMind incluyendo de forma especial a Ulises y Sam.
+Gracias a Ulises por sus comentarios.
 
 Muchas gracias a Antonio Peral de Alterna por habernos proporcionado todo lo que hemos necesitado,
 y haber estado abierto a sugerencias y cambios.
