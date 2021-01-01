@@ -273,7 +273,8 @@ al parecer durante este año se han hecho unas cuantas acusaciones de mi pésimo
 aunque como me han llegado por terceras partes no tengo demasiados detalles.
 
 (El título es un vano intento por equipararme con
-[el gran Feynman](http://castracastro.blogspot.com/2014/10/invitados-8-richard-feynman-feynman.html).)
+[el gran Feynman](http://castracastro.blogspot.com/2014/10/invitados-8-richard-feynman-feynman.html).
+La situación no tiene por supuesto nada que ver.)
 
 Ofrezco como redención (nunca como excusa) la posibilidad de que yo sea simplemente
 un ser humano imperfecto, como todos.
