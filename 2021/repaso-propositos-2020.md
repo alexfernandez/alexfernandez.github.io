@@ -294,6 +294,8 @@ Se admiten sugerencias.
 
 ### Personal
 
+Vamos a terminar en un terreno más íntimo.
+
 Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
 actividad que me llena de satisfacción.
@@ -303,7 +305,7 @@ actividad que me llena de satisfacción.
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
 como están haciendo muchos trabajadores remotos.
-Al menos nos gustaría explorar qué opciones tenemos.
+Al menos nos gustaría enterarnos de qué hay por ahí.
 ¡Seguiremos informando!
 
 ## Conclusiones
