@@ -92,8 +92,10 @@ Lo tengo todo en la recámara,
 
 <span style="color:red">Fracaso</span>:
 este año Codemotion dejó de quererme en su comité de programa.
-Sigo siendo presidente de Aprodeweb,
-pero tampoco hemos podido organizar nada este año.
+Sigo siendo presidente de Aprodeweb
+(Asociación para la promoción del desarrollo web),
+donde ayudo a organizar conferencias y otras actividades.
+Pero tampoco hemos podido organizar nada este año.
 
 > Estoy muy interesado en subir el nivel de las charlas que dé.
 
