@@ -171,7 +171,7 @@ También lo intenté en [Toptal](https://www.toptal.com/).
 Tras pasar las fases más duras de su
 [supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
 me echaron atrás en el "Test Project",
-donde en teoría cae menos de un 10% de los candidatos.
+donde en teoría cae menos de un 10% de los candidatos restantes.
 Pues bien, yo fui uno de esos pringados 😅.
 Volví a probar hace poco y de nuevo me tiraron para atrás.
 No puedo revelar ningún detalle de las pruebas,
@@ -263,6 +263,9 @@ Para los que os habéis perdido todo el drama,
 al parecer durante este año se han hecho unas cuantas acusaciones de mi pésimo comportamiento machista en el pasado,
 aunque como me han llegado por terceras partes no tengo demasiados detalles.
 
+(El título es un vano intento por equipararme con
+[el gran Feynman](http://castracastro.blogspot.com/2014/10/invitados-8-richard-feynman-feynman.html).)
+
 Ofrezco como redención la posibilidad de que yo sea simplemente
 un ser humano imperfecto, como todos.
 Mi mejor jefe ha sido una mujer: la gran Noelia Amoedo que lidera
@@ -278,7 +281,8 @@ En resumen, y como dicen en las películas americanas,
 
 Sólo puedo elucubrar sobre mis pecados machistas.
 Es muy posible que haya cometido errores tanto con hombres como con mujeres,
-pero también es muy probable que haya creado un clima hostil para compañeras y miembros femeninos de la comunidad.
+pero también es muy probable que haya creado un clima hostil
+para algunas compañeras y miembros femeninos de la comunidad.
 En este momento no estoy implicado en comunidades a las que pueda dañar con mi reputación.
 Lo único que puedo hacer es pedir perdón por cualquier comentario o actuación desafortunados,
 y prometer que **intentaré mejorar en lo que pueda**,
