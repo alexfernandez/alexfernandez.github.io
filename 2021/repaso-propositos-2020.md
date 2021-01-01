@@ -125,8 +125,7 @@ y estoy muy contento con él.
 > como el trazo o la composición.
 
 <span style="color:green">Éxito parcial</span>:
-estoy bastante contento con las mejoras técnicas,
-aunque ahora mismo estoy en un parón creativo.
+estoy bastante contento con las mejoras técnicas.
 
 > Espero poder repetir el _portrait challenge_,
 > tanto este inicio de año como en verano.
@@ -308,7 +307,7 @@ Vamos a terminar en un terreno más íntimo.
 Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
 actividad que me llena de satisfacción.
-
+Puedes ver al principio del artículo un ejemplo reciente.
 
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
