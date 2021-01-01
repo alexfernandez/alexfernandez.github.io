@@ -15,6 +15,10 @@ Some articles are in Spanish: **#ES**.
 
 Latest articles first.
 
+### 2021
+
+* 2021-01-01: [Repaso de 2020 y propósitos para 2021](2021/repaso-propositos) #OT #ES
+
 ### 2020
 
 * 2020-12-28: [Los cinco “Co”s: cinco soft skills esenciales](2020/cinco-cos) #SoftEng #ES
