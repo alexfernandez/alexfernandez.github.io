@@ -269,7 +269,8 @@ aunque como me han llegado por terceras partes no tengo demasiados detalles.
 
 Ofrezco como redención la posibilidad de que yo sea simplemente
 un ser humano imperfecto, como todos.
-Mi mejor jefe ha sido una mujer: la gran Noelia Amoedo que lidera
+Mi mejor jefe ha sido una mujer: la gran Noelia Amoedo,
+que lidera con éxito
 [mediasmart.io](https://mediasmart.io/).
 En 20+ años he tenido numerosas compañeras a las que siempre he visto
 igual de capaces que mis compañeros hombres.
@@ -308,8 +309,7 @@ Al menos nos gustaría saber qué opciones tenemos.
 
 Pues ahí están mis siete objetivos para este 2021.
 ¿Cuántos cumpliré, y cuántos no?
-¡Nos vemos en 2022 para !
-¡El año que viene tendremos la respuesta!
+¡Nos vemos en 2022 para contrastarlos!
 
 ### Agradecimientos
 
