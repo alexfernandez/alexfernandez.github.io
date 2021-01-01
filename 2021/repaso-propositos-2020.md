@@ -302,7 +302,7 @@ actividad que me llena de satisfacción.
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
 como están haciendo muchos trabajadores remotos.
-Al menos nos gustaría saber qué opciones tenemos.
+Al menos nos gustaría explorar qué opciones tenemos.
 ¡Seguiremos informando!
 
 ## Conclusiones
