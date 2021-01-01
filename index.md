@@ -17,7 +17,7 @@ Latest articles first.
 
 ### 2021
 
-* 2021-01-01: [Repaso de 2020 y propósitos para 2021](2021/repaso-propositos) #OT #ES
+* 2021-01-01: [Repaso de 2020 y propósitos para 2021](2021/repaso-propositos-2020) #OT #ES
 
 ### 2020
 

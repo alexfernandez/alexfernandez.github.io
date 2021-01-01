@@ -3,9 +3,13 @@ title: 'Repaso de 2020 y propósitos para 2021'
 subtitle: '🎶 A mis cuarenta y pocos años, ya ves tú 🎶'
 footer: Publicado el 2021-01-02, modificado el 2021-01-02.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  En este inicio de año voy a hacer públicas algunas reflexiones.
+  Los resultados y los nuevos propósitos los he indicado **en negrita**.
+image: https://pinchito.es/
 ---
 
-![El año de la COVID-19.](pics/repaso-mask.jpg "Mujer con una máscara quirúrgica extiende el brazo y abre la mano, en ademán de parar. Fuente: https://commons.wikimedia.org/wiki/File:Stop_Coronavirus_COVID-19_in_Russia.jpg")
+![Ulises Santana en conferencia, lápiz y tinta china sobre papel.](pics/repaso-ulises.jpg "Retrato de mi compañero en LeanMind Ulises Santana. Fuente: elaboración propia")
 
 En este inicio de año voy a hacer públicas algunas reflexiones,
 a ver si consigo que se publiquen en la página de objetivos de
@@ -300,7 +304,6 @@ Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
 actividad que me llena de satisfacción.
 
-![Ulises Santana en conferencia, lápiz y tinta china sobre papel.](pics/repaso-ulises.jpg "Retrato de mi compañero en LeanMind Ulises Santana. Fuente: elaboración propia")
 
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
