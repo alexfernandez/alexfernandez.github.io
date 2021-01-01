@@ -154,10 +154,11 @@ Siete éxitos, tres de ellos pandémicos,
 y cinco fracasos, de los que dos pandémicos.
 ¡No está tan mal!, ¿no?
 
-## Objetivos 2021
+## Objetivos para 2021
 
-Es hora de mojarse y elaborar los objetivos para 2021.
-Este año me pondré sólo seis objetivos.
+Es hora de mojarse y elucubrar sobre el 2021.
+Este año voy a ponerme menos objetivos,
+visto lo visto.
 
 ### Laboral
 
@@ -189,7 +190,7 @@ Amazon,
 o [Auth0](https://auth0.com/).
 No hubo suerte en ninguna.
 Eso sí, me puse al día en algorítmica y preguntas de entrevista,
-que nunca viene bien.
+que tampoco viene mal.
 
 Siguiendo con el tema del privilegio que tenemos en nuestro sector,
 por suerte no me han faltado ofertas de trabajo en empresas patrias.
@@ -305,7 +306,7 @@ Al menos nos gustaría saber qué opciones tenemos.
 
 ## Conclusiones
 
-Pues ahí están mis seis objetivos para este 2021.
+Pues ahí están mis siete objetivos para este 2021.
 ¿Cuántos cumpliré, y cuántos no?
 ¡Nos vemos en 2022 para !
 ¡El año que viene tendremos la respuesta!
