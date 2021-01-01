@@ -157,18 +157,64 @@ y cinco fracasos, de los que dos pandémicos.
 ## Objetivos 2021
 
 Es hora de mojarse y elaborar los objetivos para 2021.
-Este año seré muy breve.
+Este año me pondré sólo seis objetivos.
 
 ### Laboral
 
-En 2020 me apunté a un montón de plataformas de _freelancing_,
+Tras quedarme en paro en abril me apunté a todas las plataformas de _freelancing_ que encontré:
+[arc.dev](https://arc.dev/),
+[gun.io](http://gun.io/),
+[malt.es](https://www.malt.es/),
 con escaso éxito.
-Pero por suerte no me han faltado ofertas de trabajo.
 
-Para el año que viene repetimos objetivo:
-buscar un **trabajo sostenible** para desarrollar mi carrera durante cinco o diez años.
-En enero empiezo a trabajar como CTO de una empresa francesa,
-a ver si en esta ocasión dura algo más.
+También lo intenté en [Toptal](https://www.toptal.com/).
+Tras pasar las fases más duras de su
+[supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
+me echaron atrás en el "Test Project",
+donde en teoría cae menos de un 10% de los candidatos.
+Pues bien, yo fui uno de esos pringados 😅.
+Volví a probar hace poco y de nuevo me tiraron para atrás.
+No puedo revelar ningún detalle de las pruebas,
+pero me da la impresión de que se valora más la ejecución mecánica
+que el buen hacer ingenieril.
+No puedo tampoco decir que me sorprenda.
+Os lo podéis tomar como mi
+["las uvas estaban verdes"](https://es.wikisource.org/wiki/La_zorra_y_las_uvas_(Esopo))
+particular.
+
+Además lo intenté en otras empresas de USA:
+Amazon,
+[el buscador DuckDuckGo](https://duckduckgo.com/)
+o [Auth0](https://auth0.com/)
+No hubo suerte en ninguna.
+Eso sí, me puse al día en algorítmica y preguntas de entrevista,
+que nunca viene bien.
+
+Siguiendo con el tema del privilegio que tenemos en nuestro sector,
+por suerte no me han faltado ofertas de trabajo en empresas patrias.
+Estos últimos seis meses he estado trabajando con LeanMind
+en un [proyecto para Alterna Online](/2020/cinco-cos),
+y ha sido una experiencia magnífica.
+Pero una vez más mi carrera como _freelancer_ no iba a durar demasiado.
+
+Os anuncio en primicia que en enero empiezo a trabajar como CTO de
+[Hivency](https://www.hivency.com/),
+una empresa de marketing de influencers francesa.
+Aquí es donde entra el coro:
+
+> Pero, Pinchito,
+> CTO de una empresa de influencers…
+> ¿Es que no aprendes?
+
+Las circunstancias son diferentes, espero:
+se trata de una empresa solvente,
+en rápido crecimiento.
+Voy a liderar un equipo de 15 personas que seguramente se doble a final de año.
+
+Mi objetivo este año es
+**estar a la altura del reto**,
+para poder desarrollar mi carrera durante cinco o diez años.
+A ver si en esta ocasión me dura el trabajo algo más.
 ¡Deseadme suerte! 😁
 
 También quiero hacer **alguna edición más** del
@@ -181,7 +227,7 @@ La verdad es que me pica el gusanillo de organizar algún evento.
 Pero el formato online es sumamente aburrido.
 Ignoro si la Tarugoconf ha conseguido saltar la barrera online
 manteniendo la calidad.
-Pero, si la pandemia lo permite,
+Si la pandemia lo permite,
 me gustaría
 **organizar algún tipo de evento de un día**
 para vernos las caras con gente del mundillo.

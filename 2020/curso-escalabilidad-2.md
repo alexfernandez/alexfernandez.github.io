@@ -118,11 +118,12 @@ El número máximo de asistentes será de 30.
 Recibirás **diploma de asistencia**.
 
 <div class="calltoaction">
+<!-- Curso cerrado
 Plazas abiertas en TrainingIT,
 reserva ahora con un [**10% de descuento**](https://trainingit.es/curso-sre-escalabilidad.php?af=pinchito&promo=alex10).
+-->
 
 <!-- Begin Mailchimp Signup Form -->
-<!-- Form disabled
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -152,13 +153,11 @@ reserva ahora con un [**10% de descuento**](https://trainingit.es/curso-sre-esca
 <div class="response" id="mce-error-response" style="display:none"></div>
 <div class="response" id="mce-success-response" style="display:none"></div>
 </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<!--
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e9283fddf717617d9d2cf1c28_5c26e59896" tabindex="-1" value=""></div>
 <div class="clear"><input type="submit" value="Apúntate" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </div>
 </form>
 </div>
--->
 <!--End mc_embed_signup-->
 </div>
 
