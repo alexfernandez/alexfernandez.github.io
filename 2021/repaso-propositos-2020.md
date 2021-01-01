@@ -150,25 +150,58 @@ muy interesantes.
 
 ### Resumen
 
-Cuatro éxitos, tres éxitos pandémicos,
-dos fracasos pandémicos,
-y tres fracasos sin paliativos.
+Siete éxitos, tres de ellos pandémicos,
+y cinco fracasos, de los que dos pandémicos.
 ¡No está tan mal!, ¿no?
 
 ## Objetivos 2021
 
 Es hora de mojarse y elaborar los objetivos para 2021.
+Este año seré muy breve.
 
 ### Laboral
 
+En 2020 me apunté a un montón de plataformas de _freelancing_,
+con escaso éxito.
+Pero por suerte no me han faltado ofertas de trabajo.
+
+Para el año que viene repetimos objetivo:
+buscar un **trabajo sostenible** para desarrollar mi carrera durante cinco o diez años.
+En enero empiezo a trabajar como CTO de una empresa francesa,
+a ver si en esta ocasión dura algo más.
+¡Deseadme suerte! 😁
+
+También quiero hacer **alguna edición más** del
+[curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad),
+según demanda.
+
 ### Comunidad
+
+La verdad es que me pica el gusanillo de organizar algún evento.
+Pero el formato online es sumamente aburrido.
+Ignoro si la Tarugoconf ha conseguido saltar la barrera online
+manteniendo la calidad.
+Pero, si la pandemia lo permite,
+me gustaría
+**organizar algún tipo de evento de un día**
+para vernos las caras con gente del mundillo.
+¿Os apuntáis?
 
 ### Personal
 
+Quiero **seguir dibujando** con mi profesor
+[Arturo Martín Burgos](http://www.arturomartinburgos.com/),
+actividad que me llena de satisfacción.
+
+Con mi familia vamos a explorar opciones para
+**vivir fuera de Madrid**,
+
+
 ## Conclusiones
 
-¿Cuántos cumpliré?
-¿Cuántos quedarán en agua de borrajas?
+Pues ahí están mis seis objetivos para este 2021.
+¿Cuántos cumpliré, y cuántos no?
+¡Nos vemos en 2022 para !
 ¡El año que viene tendremos la respuesta!
 
 ### Agradecimientos
