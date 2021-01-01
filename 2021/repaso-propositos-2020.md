@@ -286,7 +286,7 @@ igual de capaces que mis compañeros hombres.
 Algunos de mis referentes técnicos más importantes son mujeres,
 como [Charity Majors](https://twitter.com/mipsytipsy).
 Paso los veranos acompañado de [ocho mujeres](https://es.wikipedia.org/wiki/8_mujeres),
-y creo que la igualdad entre hombres y mujeres debe ser
+y creo que la igualdad entre sexos debe ser
 un objetivo principal de cualquier sociedad civilizada.
 En resumen, y como dicen en las películas americanas,
 "muchos de mis mejores amigos son mujeres".
