@@ -6,7 +6,7 @@ footer: Publicado el 2021-01-02, modificado el 2021-01-02.
 abstract:
   En este inicio de año voy a hacer públicas algunas reflexiones.
   Los resultados y los nuevos propósitos los he indicado **en negrita**.
-image: https://pinchito.es/
+image: https://pinchito.es/2021/pics/repaso-ulises.jpg
 ---
 
 ![Ulises Santana en conferencia, lápiz y tinta china sobre papel.](pics/repaso-ulises.jpg "Retrato de mi compañero en LeanMind Ulises Santana. Fuente: elaboración propia")
