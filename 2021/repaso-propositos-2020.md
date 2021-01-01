@@ -305,6 +305,8 @@ actividad que me llena de satisfacción.
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
 como están haciendo muchos trabajadores remotos.
+La pandemia ha servido de fuerza centrífuga,
+cosa que está muy bien en este país vaciado.
 Al menos nos gustaría enterarnos de qué hay por ahí.
 ¡Seguiremos informando!
 
