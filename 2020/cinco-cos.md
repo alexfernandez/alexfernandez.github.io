@@ -1,8 +1,12 @@
 ---
 title: 'Los cinco "Co"s'
 subtitle: 'Cinco soft skills esenciales'
-footer: Publicado el 2020-12-28, modificado el 2020-12-29.
+footer: Publicado el 2020-12-28, modificado el 2021-12-29.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  Es bastante habitual ver artículos sobre detalles técnicos de un proyecto.
+  Para variar hoy vamos a centrarnos en soft skills o "habilidades blandas".
+image: https://pinchito.es/2020/pics/cinco-cos-intro.png
 ---
 
 ![Los cinco "Co"s.](pics/cinco-cos-intro.png "Comunicación, Compatibilidad, Constructividad, Conflicto, todos llevan a Confianza. Fuente: elaboración propia.")
