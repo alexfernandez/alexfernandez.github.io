@@ -5,7 +5,7 @@ footer: Publicado el 2021-01-02, modificado el 2021-01-02.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   En este inicio de año voy a hacer públicas algunas reflexiones.
-  Los resultados y los nuevos propósitos los he indicado **en negrita**.
+  Los nuevos propósitos los he indicado **en negrita**.
 image: https://pinchito.es/2021/pics/repaso-ulises.jpg
 ---
 
@@ -14,15 +14,15 @@ image: https://pinchito.es/2021/pics/repaso-ulises.jpg
 En este inicio de año voy a hacer públicas algunas reflexiones,
 a ver si consigo que se publiquen en la página de objetivos de
 [David Bonilla](https://bonillaware.com/objetivos-para-2021).
-Los resultados y los nuevos propósitos los he indicado **en negrita**.
+Los nuevos propósitos los he indicado **en negrita**.
 
 ## Repaso de 2020
 
 Empezamos por un repaso del año 2020 y de los
 [objetivos que me marqué](/2020/repaso-propositos).
 Además de las categorías habituales de
-"éxito" y "fracaso" añadiremos este año
-"éxito pandémico" y "fracaso pandémico",
+<span style="color:green">éxito</span> y <span style="color:red">fracaso</span> añadiremos este año
+<span style="color:darkgreen">éxito pandémico</span> y <span style="color:darkred">fracaso pandémico</span>,
 para contar con las circunstancias impuestas por la pandemia de COVID-19.
 
 ### Laboral
@@ -31,7 +31,7 @@ El primer objetivo era:
 
 > Buscar un trabajo sostenible para desarrollar mi carrera durante cinco o diez años.
 
-**Fracaso total y absoluto**. En febrero encontré un trabajo en teoría estable,
+<span style="color:red">Fracaso total y absoluto</span>. En febrero encontré un trabajo en teoría estable,
 pero me duró… tres meses.
 No tengo libertad para divulgar las circunstancias exactas;
 baste decir que no fue buena elección por ninguna de las dos partes.
@@ -45,7 +45,7 @@ así que no voy a quejarme demasiado.
 
 > También me gustaría dar algún curso técnico.
 
-**Éxito**:
+<span style="color:green">Éxito</span>:
 en junio di un
 [curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad)
 que ha sido bastante bien valorado,
@@ -67,13 +67,13 @@ He tenido la oportunidad de conocer algo mejor a dos remesas de grandes profesio
 > [ViennaJS](https://viennajs.org/)
 > para ver qué se cuece por allí.
 
-**Éxito pandémico**: me pasé un par de veces
+<span style="color:darkgreen">Éxito pandémico</span>: me pasé un par de veces
 y conocí a algunas personas de la comunidad,
 pero la pandemia paró la cosa.
 
 > Quiero seguir dando charlas ocasionales.
 
-**Éxito pandémico**:
+<span style="color:darkgreen">Éxito pandémico</span>:
 este año he dado charlas en
 en [madScalability](https://www.youtube.com/watch?v=g274h7w0TTk)
 en [Benidorm Tech](https://www.youtube.com/watch?v=CTcKuZ2gcHQ),
@@ -90,14 +90,14 @@ Lo tengo todo en la recámara,
 > Y por supuesto me interesa seguir colaborando con cualquier organización que me necesite,
 > empezando por Codemotion (si me quieren).
 
-**Fracaso**:
+<span style="color:red">Fracaso</span>:
 este año Codemotion dejó de quererme en su comité de programa.
 Sigo siendo presidente de Aprodeweb,
 pero tampoco hemos podido organizar nada este año.
 
 > Estoy muy interesado en subir el nivel de las charlas que dé.
 
-**Éxito pandémico**:
+<span style="color:darkgreen">Éxito pandémico</span>:
 creo que las charlas de este año han salido relativamente bien,
 pero en remoto pierden gran parte de la gracia.
 También intenté hacer directos en Twitch,
@@ -106,56 +106,56 @@ pero no terminaron de cuajar.
 > También pretendo colaborar con charlas de otra gente
 > y aprovechar para aprender de ellos.
 
-**Fracaso pandémico**:
+<span style="color:darkred">Fracaso pandémico</span>:
 en t3chfest me rechazaron todas las charlas en colaboración,
 y no he presentado más realmente.
 
 ### Personal
 
-> Mi propósito general es **usar mucho menos el móvil**.
+> Mi propósito general es usar mucho menos el móvil.
 
-**Fracaso**:
+<span style="color:red">Fracaso</span>:
 me compré un
 [Ulefone Armor 9](https://ulefone.es/producto/armor-9)
 y estoy muy contento con él.
 
-> En el área más artística me gustaría **perfeccionar varias áreas del dibujo**
+> En el área más artística me gustaría perfeccionar varias áreas del dibujo
 > como el trazo o la composición.
 
-**Éxito parcial**:
+<span style="color:green">Éxito parcial</span>:
 estoy bastante contento con las mejoras técnicas,
 aunque ahora mismo estoy en un parón creativo.
 
 > Espero poder repetir el _portrait challenge_,
 > tanto este inicio de año como en verano.
 
-**Fracaso pandémico**:
+<span style="color:darkred">Fracaso pandémico</span>:
 a principio de año me dio perezón salir a la calle,
 y ya no he vuelto a hacerlo.
 
-> Tengo interés desde hace tiempo en empezar a **publicar mis dibujos**,
+> Tengo interés desde hace tiempo en empezar a publicar mis dibujos,
 > por ejemplo en Instagram,
 > aunque me da bastante reparo su política de uso.
 
-**Éxito relativo**:
+<span style="color:green">Éxito relativo</span>:
 en [Instagram](https://www.instagram.com/pinchitocorners/)
 no he tenido demasiadas visitas,
 pero algún dibujo que he publicado en Twitter
 [ha tenido buena acogida](https://twitter.com/pinchito/status/1320347534183796737).
 
 
-> Por último tengo pendiente **publicar el curso de dibujo en remoto** de mi profesor Arturo,
+> Por último tengo pendiente publicar el curso de dibujo en remoto de mi profesor Arturo,
 > basado en los ejercicios que me envía.
 
-**Éxito**:
+<span style="color:green">Éxito</span>:
 He publicado varios capítulos en vídeo del
 [curso de pintura abstracta](https://www.youtube.com/playlist?list=PLxT_deCr7Em-s7th-ctJATqvumSxfJM-l)
 muy interesantes.
 
 ### Resumen
 
-Siete éxitos, tres de ellos pandémicos,
-y cinco fracasos, de los que dos pandémicos.
+Siete <span style="color:green">éxitos</span>, tres de ellos <span style="color:darkgreen">pandémicos</span>,
+y cinco <span style="color:red">fracasos</span>, de los que dos <span style="color:darkred">pandémicos</span>.
 ¡No está tan mal!, ¿no?
 
 ## Objetivos para 2021
