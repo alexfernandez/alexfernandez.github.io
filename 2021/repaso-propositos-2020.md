@@ -202,7 +202,9 @@ Estos últimos seis meses he estado trabajando con LeanMind
 en un [proyecto para Alterna Online](/2020/cinco-cos),
 y ha sido una experiencia magnífica.
 Mi mejor decisión del año ha sido reducir la jornada a 30 horas semanales:
-me ha permitido 
+me ha permitido aumentar mi productividad por hora,
+concentrar mi actividad laboral
+y llevar una vida más cerca de mi familia.
 Pero una vez más mi carrera como _freelancer_ no estaba destinada a durar demasiado.
 
 Os anuncio en primicia que en enero empiezo a trabajar como CTO de
