@@ -5,7 +5,7 @@ footer: Publicado el 2021-01-02, modificado el 2021-01-02.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![El año de la COVID-19.](pics/repaso-propositos-mask.jpg "Mujer con una máscara quirúrgica extiende el brazo y abre la mano, en ademán de parar. Fuente: https://commons.wikimedia.org/wiki/File:Stop_Coronavirus_COVID-19_in_Russia.jpg")
+![El año de la COVID-19.](pics/repaso-mask.jpg "Mujer con una máscara quirúrgica extiende el brazo y abre la mano, en ademán de parar. Fuente: https://commons.wikimedia.org/wiki/File:Stop_Coronavirus_COVID-19_in_Russia.jpg")
 
 En este inicio de año voy a hacer públicas algunas reflexiones,
 a ver si consigo que se publiquen en la página de objetivos de
@@ -186,7 +186,7 @@ Además lo intenté en otras empresas de USA:
 Amazon,
 [el buscador DuckDuckGo](https://duckduckgo.com/),
 [Automattic](https://automattic.com/)
-o [Auth0](https://auth0.com/)
+o [Auth0](https://auth0.com/).
 No hubo suerte en ninguna.
 Eso sí, me puse al día en algorítmica y preguntas de entrevista,
 que nunca viene bien.
@@ -196,7 +196,9 @@ por suerte no me han faltado ofertas de trabajo en empresas patrias.
 Estos últimos seis meses he estado trabajando con LeanMind
 en un [proyecto para Alterna Online](/2020/cinco-cos),
 y ha sido una experiencia magnífica.
-Pero una vez más mi carrera como _freelancer_ no iba a durar demasiado.
+Mi mejor decisión del año ha sido reducir la jornada a 30 horas semanales:
+me ha permitido 
+Pero una vez más mi carrera como _freelancer_ no estaba destinada a durar demasiado.
 
 Os anuncio en primicia que en enero empiezo a trabajar como CTO de
 [Hivency](https://www.hivency.com/),
@@ -225,6 +227,10 @@ Puedes apuntarte a la lista de correo para expresar interés.
 
 ### Comunidad
 
+En el terreno de la comunidad hay bastante que hacer.
+
+#### Charlas
+
 Me gustaría **seguir dando charlas**
 sobre asuntos que me interesen.
 Creo que es la mejor forma de aprender en profundidad sobre un tema,
@@ -233,6 +239,8 @@ Como leí una vez en algún sitio:
 
 > No das charlas porque seas experto o experta en algo.
 > Te haces experto o experta dando charlas.
+
+#### Eventos online
 
 La verdad es que me pica el gusanillo de organizar algún evento.
 Pero el formato online es sumamente aburrido.
@@ -245,11 +253,33 @@ me gustaría
 para vernos las caras con gente del mundillo.
 ¿Os apuntáis?
 
+#### Pinchito, cerdo machista
+
 Finalmente,
 me ha llegado por varios sitios que muchas personas de la comunidad de desarrollo
 me consideran un machista misógino redomado,
 sin duda con toda la razón.
-En este momento no estoy implicado en comunidades a las que pueda dañar mi reputación.
+Para los que os habéis perdido todo el drama,
+al parecer durante este año se han hecho unas cuantas acusaciones de mi pésimo comportamiento machista en el pasado,
+aunque como me han llegado por terceras partes no tengo demasiados detalles.
+
+Ofrezco como redención la posibilidad de que yo sea simplemente
+un ser humano imperfecto, como todos.
+Mi mejor jefe ha sido una mujer: la gran Noelia Amoedo que lidera
+[mediasmart.io](https://mediasmart.io/).
+En 20+ años he tenido numerosas compañeras a las que siempre he visto
+igual de capaces que mis compañeros hombres.
+Algunos de mis referentes técnicos más importantes son mujeres,
+como [Charity Majors](https://twitter.com/mipsytipsy).
+Paso los veranos acompañado de [ocho mujeres](https://es.wikipedia.org/wiki/8_mujeres),
+y creo que la igualdad entre hombres y mujeres debe ser un objetivo de cualquier sociedad civilizada.
+En resumen, y como dicen en las películas americanas,
+"muchos de mis mejores amigos son mujeres".
+
+Sólo puedo elucubrar sobre mis pecados machistas.
+Es muy posible que haya cometido errores tanto con hombres como con mujeres,
+pero también es muy probable que haya creado un clima hostil para compañeras y miembros femeninos de la comunidad.
+En este momento no estoy implicado en comunidades a las que pueda dañar con mi reputación.
 Lo único que puedo hacer es pedir perdón por cualquier comentario o actuación desafortunados,
 y prometer que **intentaré mejorar en lo que pueda**,
 que no sé si es mucho.
@@ -261,10 +291,13 @@ Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
 actividad que me llena de satisfacción.
 
+![Ulises Santana en conferencia, lápiz y tinta china sobre papel.](pics/repaso-ulises.jpg "Retrato de mi compañero en LeanMind Ulises Santana. Fuente: elaboración propia")
+
 También estoy explorando opciones para
 **vivir fuera de Madrid**,
 como están haciendo muchos trabajadores remotos.
-Aunque 
+Al menos nos gustaría saber qué opciones tenemos.
+¡Seguiremos informando!
 
 ## Conclusiones
 
