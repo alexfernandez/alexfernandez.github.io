@@ -184,7 +184,8 @@ particular.
 
 Además lo intenté en otras empresas de USA:
 Amazon,
-[el buscador DuckDuckGo](https://duckduckgo.com/)
+[el buscador DuckDuckGo](https://duckduckgo.com/),
+[Automattic](https://automattic.com/)
 o [Auth0](https://auth0.com/)
 No hubo suerte en ninguna.
 Eso sí, me puse al día en algorítmica y preguntas de entrevista,
@@ -218,20 +219,41 @@ A ver si en esta ocasión me dura el trabajo algo más.
 ¡Deseadme suerte! 😁
 
 También quiero hacer **alguna edición más** del
-[curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad),
+[curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad-2),
 según demanda.
+Puedes apuntarte a la lista de correo para expresar interés.
 
 ### Comunidad
 
+Me gustaría **seguir dando charlas**
+sobre asuntos que me interesen.
+Creo que es la mejor forma de aprender en profundidad sobre un tema,
+y os recomiendo encarecidamente que lo intentéis.
+Como leí una vez en algún sitio:
+
+> No das charlas porque seas experto o experta en algo.
+> Te haces experto o experta dando charlas.
+
 La verdad es que me pica el gusanillo de organizar algún evento.
 Pero el formato online es sumamente aburrido.
-Ignoro si la Tarugoconf ha conseguido saltar la barrera online
-manteniendo la calidad.
+Ignoro si la Tarugoconf ha conseguido saltar la barrera online manteniendo la calidad,
+aunque la verdad es que un programa de TV de seis horas no me termina de apetecer.
+
 Si la pandemia lo permite,
 me gustaría
 **organizar algún tipo de evento de un día**
 para vernos las caras con gente del mundillo.
 ¿Os apuntáis?
+
+Finalmente,
+me ha llegado por varios sitios que muchas personas de la comunidad de desarrollo
+me consideran un machista misógino redomado,
+sin duda con toda la razón.
+En este momento no estoy implicado en comunidades a las que pueda dañar mi reputación.
+Lo único que puedo hacer es pedir perdón por cualquier comentario o actuación desafortunados,
+y prometer que **intentaré mejorar en lo que pueda**,
+que no sé si es mucho.
+Se admiten sugerencias.
 
 ### Personal
 
@@ -239,9 +261,10 @@ Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
 actividad que me llena de satisfacción.
 
-Con mi familia vamos a explorar opciones para
+También estoy explorando opciones para
 **vivir fuera de Madrid**,
-
+como están haciendo muchos trabajadores remotos.
+Aunque 
 
 ## Conclusiones
 
