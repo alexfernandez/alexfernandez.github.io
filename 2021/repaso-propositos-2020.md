@@ -75,7 +75,7 @@ pero la pandemia paró la cosa.
 
 <span style="color:darkgreen">Éxito pandémico</span>:
 este año he dado charlas en
-en [madScalability](https://www.youtube.com/watch?v=g274h7w0TTk)
+en [madScalability](https://www.youtube.com/watch?v=g274h7w0TTk),
 en [Benidorm Tech](https://www.youtube.com/watch?v=CTcKuZ2gcHQ),
 y en [Madrid DevOps](https://www.youtube.com/watch?v=nQksMZRqvRw).
 Todas sobre análisis de incidencias,
