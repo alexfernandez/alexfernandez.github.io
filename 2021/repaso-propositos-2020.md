@@ -1,7 +1,7 @@
 ---
 title: 'Repaso de 2020 y propósitos para 2021'
 subtitle: '🎶 A mis cuarenta y pocos años, ya ves tú 🎶'
-footer: Publicado el 2021-01-02, modificado el 2021-01-02.
+footer: Publicado el 2021-01-01, modificado el 2021-01-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   En este inicio de año voy a hacer públicas algunas reflexiones.
