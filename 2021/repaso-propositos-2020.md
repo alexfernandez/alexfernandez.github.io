@@ -1,7 +1,7 @@
 ---
 title: 'Repaso de 2020 y propósitos para 2021'
 subtitle: '🎶 A mis cuarenta y pocos años, ya ves tú 🎶'
-footer: Publicado el 2021-01-01, modificado el 2021-01-01.
+footer: Publicado el 2021-01-01, modificado el 2021-01-03.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   En este inicio de año voy a hacer públicas algunas reflexiones.
@@ -283,7 +283,8 @@ que lidera con éxito
 En 20+ años he tenido numerosas compañeras a las que siempre he visto
 igual de capaces que mis compañeros hombres.
 Algunos de mis referentes técnicos más importantes son mujeres,
-como [Charity Majors](https://twitter.com/mipsytipsy).
+como [Grace Hopper]https://es.wikipedia.org/wiki/Grace_Murray_Hopper)
+o [Charity Majors](https://twitter.com/mipsytipsy).
 Paso los veranos acompañado de [ocho mujeres](https://es.wikipedia.org/wiki/8_mujeres),
 y creo que la igualdad entre sexos debe ser
 un objetivo principal de cualquier sociedad civilizada.
