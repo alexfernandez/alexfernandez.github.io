@@ -282,7 +282,7 @@ que lidera con éxito
 En 20+ años he tenido numerosas compañeras a las que siempre he visto
 igual de capaces que mis compañeros hombres.
 Algunos de mis referentes técnicos más importantes son mujeres,
-como [Grace Hopper]https://es.wikipedia.org/wiki/Grace_Murray_Hopper)
+como [Grace Hopper](https://es.wikipedia.org/wiki/Grace_Murray_Hopper)
 o [Charity Majors](https://twitter.com/mipsytipsy).
 Paso los veranos acompañado de [ocho mujeres](https://es.wikipedia.org/wiki/8_mujeres),
 y creo que la igualdad entre sexos debe ser
