@@ -43,6 +43,36 @@ Sé que mucha gente lo ha pasado muy mal
 y muchos habéis perdido a seres queridos,
 así que no voy a quejarme demasiado.
 
+Tras quedarme en paro me apunté a todas las plataformas de _freelancing_ que encontré:
+[arc.dev](https://arc.dev/),
+[gun.io](http://gun.io/),
+[malt.es](https://www.malt.es/),
+con escaso éxito.
+
+También lo intenté en [Toptal](https://www.toptal.com/).
+Tras pasar las fases más duras de su
+[supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
+me echaron atrás en el "Test Project",
+donde en teoría cae menos de un 10% de los candidatos restantes.
+Pues bien, yo fui uno de esos pringados 😅.
+Volví a probar hace poco y de nuevo me tiraron para atrás.
+No puedo revelar ningún detalle de las pruebas,
+pero me da la impresión de que se valora más la ejecución mecánica
+que el buen hacer ingenieril.
+No puedo tampoco decir que me sorprenda.
+Os lo podéis tomar como mi
+["las uvas estaban verdes"](https://es.wikisource.org/wiki/La_zorra_y_las_uvas_(Esopo))
+particular.
+
+Además lo intenté en otras empresas de USA:
+Amazon,
+[el buscador DuckDuckGo](https://duckduckgo.com/),
+[Automattic](https://automattic.com/)
+o [Auth0](https://auth0.com/).
+No hubo suerte en ninguna.
+Eso sí, me puse al día en algorítmica y preguntas de entrevista,
+que tampoco viene mal.
+
 > También me gustaría dar algún curso técnico.
 
 <span style="color:green">Éxito</span>:
@@ -165,36 +195,6 @@ Es hora de mojarse y elucubrar sobre el año entrante.
 Visto lo visto voy a ponerme menos objetivos.
 
 ### Laboral
-
-Tras quedarme en paro en abril me apunté a todas las plataformas de _freelancing_ que encontré:
-[arc.dev](https://arc.dev/),
-[gun.io](http://gun.io/),
-[malt.es](https://www.malt.es/),
-con escaso éxito.
-
-También lo intenté en [Toptal](https://www.toptal.com/).
-Tras pasar las fases más duras de su
-[supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
-me echaron atrás en el "Test Project",
-donde en teoría cae menos de un 10% de los candidatos restantes.
-Pues bien, yo fui uno de esos pringados 😅.
-Volví a probar hace poco y de nuevo me tiraron para atrás.
-No puedo revelar ningún detalle de las pruebas,
-pero me da la impresión de que se valora más la ejecución mecánica
-que el buen hacer ingenieril.
-No puedo tampoco decir que me sorprenda.
-Os lo podéis tomar como mi
-["las uvas estaban verdes"](https://es.wikisource.org/wiki/La_zorra_y_las_uvas_(Esopo))
-particular.
-
-Además lo intenté en otras empresas de USA:
-Amazon,
-[el buscador DuckDuckGo](https://duckduckgo.com/),
-[Automattic](https://automattic.com/)
-o [Auth0](https://auth0.com/).
-No hubo suerte en ninguna.
-Eso sí, me puse al día en algorítmica y preguntas de entrevista,
-que tampoco viene mal.
 
 Siguiendo con el tema del privilegio que tenemos en nuestro sector,
 por suerte no me han faltado ofertas de trabajo en empresas patrias.
