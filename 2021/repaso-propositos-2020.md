@@ -1,7 +1,7 @@
 ---
 title: 'Repaso de 2020 y propósitos para 2021'
 subtitle: '🎶 A mis cuarenta y pocos años, ya ves tú 🎶'
-footer: Publicado el 2021-01-01, modificado el 2021-01-03.
+footer: Publicado el 2021-01-01, modificado el 2021-01-04.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   En este inicio de año voy a hacer públicas algunas reflexiones.
@@ -157,7 +157,7 @@ muy interesantes.
 
 Siete <span style="color:green">éxitos</span>, tres de ellos <span style="color:darkgreen">pandémicos</span>,
 y cinco <span style="color:red">fracasos</span>, de los que dos <span style="color:darkred">pandémicos</span>.
-¡No está tan mal!, ¿no?
+¡No está tan mal para 2020!, ¿no?
 
 ## Objetivos para 2021
 
