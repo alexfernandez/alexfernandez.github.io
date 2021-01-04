@@ -47,7 +47,8 @@ Tras quedarme en paro me apunté a todas las plataformas de _freelancing_ que en
 [arc.dev](https://arc.dev/),
 [gun.io](http://gun.io/),
 [malt.es](https://www.malt.es/),
-con escaso éxito.
+con escaso éxito:
+ninguna tenía un proyecto interesante en esos momentos.
 También lo intenté en [Toptal](https://www.toptal.com/).
 Tras pasar las fases más duras de su
 [supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
