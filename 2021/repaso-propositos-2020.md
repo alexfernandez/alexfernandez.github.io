@@ -302,7 +302,7 @@ Se admiten sugerencias.
 
 ### Personal
 
-Vamos a terminar en un terreno más íntimo.
+Vamos a terminar en el terreno más íntimo.
 
 Quiero **seguir dibujando** con mi profesor
 [Arturo Martín Burgos](http://www.arturomartinburgos.com/),
