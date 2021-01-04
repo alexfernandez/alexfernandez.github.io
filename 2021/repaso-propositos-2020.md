@@ -48,7 +48,6 @@ Tras quedarme en paro me apunté a todas las plataformas de _freelancing_ que en
 [gun.io](http://gun.io/),
 [malt.es](https://www.malt.es/),
 con escaso éxito.
-
 También lo intenté en [Toptal](https://www.toptal.com/).
 Tras pasar las fases más duras de su
 [supuestamente durísimo proceso de selección](https://www.toptal.com/top-3-percent)
