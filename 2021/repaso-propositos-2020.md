@@ -244,8 +244,8 @@ Creo que es la mejor forma de aprender en profundidad sobre un tema,
 y os recomiendo encarecidamente que lo intentéis.
 Como leí una vez en algún sitio:
 
-> No das charlas porque seas experto o experta en algo.
-> Te haces experto o experta dando charlas.
+> No das charlas porque sepas mucho de algo.
+> Aprendes mucho de algo dando charlas.
 
 #### Eventos online
 
