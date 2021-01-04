@@ -161,9 +161,8 @@ y cinco <span style="color:red">fracasos</span>, de los que dos <span style="col
 
 ## Objetivos para 2021
 
-Es hora de mojarse y elucubrar sobre el 2021.
-Este año voy a ponerme menos objetivos,
-visto lo visto.
+Es hora de mojarse y elucubrar sobre el año entrante.
+Visto lo visto voy a ponerme menos objetivos.
 
 ### Laboral
 
