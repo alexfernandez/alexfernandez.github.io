@@ -4,16 +4,16 @@ subtitle: 'Through To Production v1'
 footer: Published on 2021-01-23, modified on 2021-01-23.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  The TTP is a simplified development methodology
+  TTP is a simplified development methodology
   suitable for libraries and online systems.
   It keeps a single active branch with temporary feature or fix branches.
 image: https://pinchito.es/2021/pics/ttp-branches.png
 ---
 
-![Create branch, add changes, review, mix, deploy, tag.](pics/ttp-branches.png "Example of branch organization in TTP: a single master branch with multiple feature or fix branches. Source: the author.")
+![Create branch, add changes, review, mix, deploy, tag.](pics/ttp-branches.png "Example of branch organization in TTP: a single `main` branch with multiple feature or fix branches. Source: the author.")
 
 In this simplified methodology we keep a single active branch,
-called `master` or [`main`](https://github.com/github/renaming).
+which used to be `master` but is usually now called [`main`](https://github.com/github/renaming).
 To add modifications:
 
 * Create a branch for a fix or a feature.
@@ -71,7 +71,7 @@ and then the library is published with that same version number.
 ### TTP for Online Systems
 
 In online systems we don't really need to maintain multiple versions:
-it is enough to keep a single live version, which resides in the `master` branch.
+it is enough to keep a single live version, which resides in the `main` branch.
 
 A relevant variation in this case is to keep an additional stable branch,
 where code is mixed only after it has passed all of our tests.
@@ -84,9 +84,9 @@ In this case labels or tags are less important and can even be omitted.
 To deploy we simply do a `git pull` in production,
 possibly followed by a system build and/or a process restart.
 
-### Tests on `master` are not passing!
+### Tests on `main` are not passing!
 
-**The `master` branch must always be deployable.**
+**The `main` branch must always be deployable.**
 If tests fail after merging the latest changes,
 fixing the tests will be treated with maximum priority,
 only slightly below a production issue.
@@ -121,10 +121,10 @@ It combines:
 * feature branches for each new feature,
 * release branches (one for each version),
 * a `develop` branch for development,
-* a `master` branch for definitive versions,
+* a `main` branch for definitive versions,
 * and a `hotfixes` for urgent fixes.
 
-![GitFlow, or how to keep many live branches.](pics/ttp-gitflow.png "The classical GitFlow graph, with many feature branches, a few version branches, `master` and `develop` branches. Source: https://nvie.com/posts/a-successful-git-branching-model/.")
+![GitFlow, or how to keep many live branches.](pics/ttp-gitflow.png "The classical GitFlow graph, with many feature branches, a few version branches, `main` and `develop` branches. Source: https://nvie.com/posts/a-successful-git-branching-model/.")
 
 The effort to keep so many branches is only feasible for large organizations with plenty of resources.
 The author clarifies [at the top of the page](https://nvie.com/posts/a-successful-git-branching-model/):

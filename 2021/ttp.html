@@ -16,7 +16,7 @@
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
 		<meta name="twitter:title" content="The TTP Methodology — Through To Production v1" />
-		<meta name="twitter:description" content="The TTP is a simplified development methodology suitable for libraries and online systems. It keeps a single active branch with temporary feature or fix branches." />
+		<meta name="twitter:description" content="TTP is a simplified development methodology suitable for libraries and online systems. It keeps a single active branch with temporary feature or fix branches." />
 		<meta name="twitter:image" content="https://pinchito.es/2021/pics/ttp-branches.png" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="canonical" href="https://pinchito.es/2021/ttp" />
@@ -81,9 +81,9 @@
 										<p>Through To Production v1<p>
 									</header>
 																				<figure>
-<img src="pics/ttp-branches.png" title="Example of branch organization in TTP: a single master branch with multiple feature or fix branches. Source: the author." alt="Create branch, add changes, review, mix, deploy, tag." /><figcaption>Create branch, add changes, review, mix, deploy, tag.</figcaption>
+<img src="pics/ttp-branches.png" title="Example of branch organization in TTP: a single `main` branch with multiple feature or fix branches. Source: the author." alt="Create branch, add changes, review, mix, deploy, tag." /><figcaption>Create branch, add changes, review, mix, deploy, tag.</figcaption>
 </figure>
-<p>In this simplified methodology we keep a single active branch, called <code>master</code> or <a href="https://github.com/github/renaming"><code>main</code></a>. To add modifications:</p>
+<p>In this simplified methodology we keep a single active branch, which used to be <code>master</code> but is usually now called <a href="https://github.com/github/renaming"><code>main</code></a>. To add modifications:</p>
 <ul>
 <li>Create a branch for a fix or a feature.</li>
 <li>Add changes (commits) to the branch.</li>
@@ -110,14 +110,14 @@
 <p>If there is a failure it is trivial to roll back to the last version: just point production to the latest valid label.</p>
 <p>In TTP we use <code>git</code> tags as labels: each version is first tagged in git with a version number <code>x.y.z</code>, and then the library is published with that same version number.</p>
 <h3 id="ttp-for-online-systems">TTP for Online Systems</h3>
-<p>In online systems we don’t really need to maintain multiple versions: it is enough to keep a single live version, which resides in the <code>master</code> branch.</p>
+<p>In online systems we don’t really need to maintain multiple versions: it is enough to keep a single live version, which resides in the <code>main</code> branch.</p>
 <p>A relevant variation in this case is to keep an additional stable branch, where code is mixed only after it has passed all of our tests. This branch can be called <code>stable</code>, <code>prod</code> or similar. In this case we will deploy to production always from the stable branch.</p>
 <figure>
 <img src="pics/ttp-stable.png" title="Example of organization with stable branch for online systems. Source: the author." alt="Stable branch: after mixing in main, and only when tests pass, we merge into stable and deploy from there." /><figcaption>Stable branch: after mixing in <code>main</code>, and only when tests pass, we merge into <code>stable</code> and deploy from there.</figcaption>
 </figure>
 <p>In this case labels or tags are less important and can even be omitted. To deploy we simply do a <code>git pull</code> in production, possibly followed by a system build and/or a process restart.</p>
-<h3 id="tests-on-master-are-not-passing">Tests on <code>master</code> are not passing!</h3>
-<p><strong>The <code>master</code> branch must always be deployable.</strong> If tests fail after merging the latest changes, fixing the tests will be treated with maximum priority, only slightly below a production issue. It is true that a version that does not pass all tests will not be tagged or deployed, but we will be blocking the work of other teams that want to merge and deploy.</p>
+<h3 id="tests-on-main-are-not-passing">Tests on <code>main</code> are not passing!</h3>
+<p><strong>The <code>main</code> branch must always be deployable.</strong> If tests fail after merging the latest changes, fixing the tests will be treated with maximum priority, only slightly below a production issue. It is true that a version that does not pass all tests will not be tagged or deployed, but we will be blocking the work of other teams that want to merge and deploy.</p>
 <h3 id="code-reviews">Code Reviews</h3>
 <p>Code review is a crucial part of software development. I have <a href="http://alexfernandez/2018/has-anyone-else-seen-your-code">written at length about it</a>, so I will include here just a brief summary.</p>
 <p>Make sure to have at least two documented review processes. The regular process should require at least two reviews from other team members. The speedy process (for emergencies and one-liners) can only require a single review. Ideally everyone from the team should participate in reviews, not only senior developers.</p>
@@ -129,11 +129,11 @@
 <li>feature branches for each new feature,</li>
 <li>release branches (one for each version),</li>
 <li>a <code>develop</code> branch for development,</li>
-<li>a <code>master</code> branch for definitive versions,</li>
+<li>a <code>main</code> branch for definitive versions,</li>
 <li>and a <code>hotfixes</code> for urgent fixes.</li>
 </ul>
 <figure>
-<img src="pics/ttp-gitflow.png" title="The classical GitFlow graph, with many feature branches, a few version branches, `master` and `develop` branches. Source: https://nvie.com/posts/a-successful-git-branching-model/." alt="GitFlow, or how to keep many live branches." /><figcaption>GitFlow, or how to keep many live branches.</figcaption>
+<img src="pics/ttp-gitflow.png" title="The classical GitFlow graph, with many feature branches, a few version branches, `main` and `develop` branches. Source: https://nvie.com/posts/a-successful-git-branching-model/." alt="GitFlow, or how to keep many live branches." /><figcaption>GitFlow, or how to keep many live branches.</figcaption>
 </figure>
 <p>The effort to keep so many branches is only feasible for large organizations with plenty of resources. The author clarifies <a href="https://nvie.com/posts/a-successful-git-branching-model/">at the top of the page</a>:</p>
 <blockquote>
