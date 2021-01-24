@@ -13,7 +13,8 @@ image: https://pinchito.es/2021/pics/ttp-branches.png
 ![Create branch, add changes, review, mix, deploy, tag.](pics/ttp-branches.png "Example of branch organization in TTP: a single `main` branch with multiple feature or fix branches. Source: the author.")
 
 In this simplified methodology we keep a single active branch,
-which used to be `master` but is usually now called [`main`](https://github.com/github/renaming).
+which used to be `master` but is now usually called
+[`main`](https://github.com/github/renaming).
 To add modifications:
 
 * Create a branch for a fix or a feature.
@@ -172,7 +173,7 @@ Thanks to my team mates at these companies:
 [Influencity](https://influencity.com/)
 and lately [LeanMind](https://leanmind.es/)
 for helping me test different ways of deploying code.
-Thanks to students of the
+Thanks to my students of the
 [scalability course](/2020/curso-escalabilidad)
 for helping me formalize the methodology.
 
