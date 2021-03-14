@@ -1,7 +1,7 @@
 ---
 title: 'Has Anyone Else Seen your Code?'
 subtitle: 'Code review in the age of GitHub'
-footer: Published on 2018-12-03, last modified on 2019-07-24
+footer: Published on 2018-12-03, last modified on 2021-03-14
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -19,7 +19,7 @@ will display his formidable ignorance in this matter as well as in many others.
 
 ## Why Bad Code Will Eventually Kill You
 
-It may surprise you to find out that there are fashions even in the dying industry.
+It may surprise you to find out that there are fashions even in the ancient art of dying.
 Not long ago being eaten by lions was a noble death,
 while now it is seen as frivolous and vulgar.
 The future probably holds some very interesting trends worth looking into.
