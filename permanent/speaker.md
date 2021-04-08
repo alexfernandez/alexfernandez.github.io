@@ -1,6 +1,6 @@
 ---
 title: Speaker Profile 
-subtitle: 'Alex Fernández @pinchito'
+subtitle: Alex Fernández @pinchito
 footer: Published on 2018-02-12, last edited on 2018-12-05.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com)
 ---
