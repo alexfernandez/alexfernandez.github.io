@@ -47,15 +47,15 @@ then several strokes, and finally a fudge of varying intensity.
 This information is not something abstract;
 it can be easily measured.
 
-![The first dot saved as PNG "weighs" 2.1 KB.](pics/understanding-quantum-dot.jpg "Round dot")
+![The first dot saved as PNG "weighs" 2.1 KB.](pics/understanding-quantum-dot.png "Round dot")
 
-![A well-defined stain weighs 2.7 KB.](pics/understanding-quantum-stain.jpg "Irregular stain")
+![A well-defined stain weighs 2.7 KB.](pics/understanding-quantum-stain.png "Irregular stain")
 
-![A wider blot is at 5.2 KB.](pics/understanding-quantum-blot.jpg "Wider blot")
+![A wider blot is at 5.2 KB.](pics/understanding-quantum-blot.png "Wider blot")
 
-![A fuzzy stain is now 18 KB.](pics/understanding-quantum-fuzzy.jpg "Fuzzy stain")
+![A fuzzy stain is now 18 KB.](pics/understanding-quantum-fuzzy.png "Fuzzy stain")
 
-![Finally, a large splotch (which merges with its surroundings) is 20.9 KB.](pics/understanding-quantum-splotch.jpg "Merging splotch")
+![Finally, a large splotch (which merges with its surroundings) is 20.9 KB.](pics/understanding-quantum-splotch.png "Merging splotch")
 
 This sequence is an artist's representation and is just meant to illustrate how entropy works.
 Still, physical systems often follow the same pattern:
