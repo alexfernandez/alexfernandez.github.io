@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	https://pinchito.es/ | @pinchito
+-->
+<html>
+	<head>
+		<title>Understanding Quantum Entropy</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Understanding Quantum Entropy — Understanding Things, Volume 1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@pinchito" />
+		<meta name="twitter:title" content="Understanding Quantum Entropy — Understanding Things, Volume 1" />
+		<meta name="twitter:description" content="Entropy is easily the most feared and misunderstood of all physic magnitudes. No wonder, for it is also one of the most abstract! Fear no more; in this article we will try to understand what it is and why it matters." />
+		<meta name="twitter:image" content="https://pinchito.es/2021/pics/understanding-quantum-drawing.jpg" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="canonical" href="https://pinchito.es/2021/understanding-quantum-entropy" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<script>
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-UA-75898530-1';
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			  window[disableStr] = true;
+		}
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-75898530-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="/"><img src="/pics/avatar.jpg" alt="Avatar" /></a></span>
+					<h1 id="logo"><a href="/">Alex Fernández</a></h1>
+					<p>
+					I am a developer known on Twitter as
+					<a id="follower" href="https://twitter.com/intent/follow?screen_name=pinchito" target="_blank"><i id="birdie"></i> @pinchito</a>.
+					You can find me on
+					<a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">GitHub</a>,
+					<a href="https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg">YouTube</a>.
+					<p>
+					This site uses (gasp!) cookies for gathering statistics.
+					You can
+						<a href="javascript:gaOptout()">disable them</a>.
+					</p>
+				</header>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<section id="zero">
+							<p class="home"><a id="home" href="/">pinchito.es</a></p>
+						</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>Understanding Quantum Entropy</h1>
+										<p>Understanding Things, Volume 1<p>
+									</header>
+																				<figure>
+<img src="pics/understanding-quantum-drawing.jpg" title="A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author." alt="An image with increasing entropy, from top left to bottom right." /><figcaption>An image with increasing entropy, from top left to bottom right.</figcaption>
+</figure>
+<h2 id="introduction">Introduction</h2>
+<p>In Philosophy there has always been a tradition of people just trying to understand the things we see around us. The study of the physical world, then called Natural Philosophy, was no exception. But a few centuries ago Physics became the realm of specialists, with increasingly complex Maths that needed to be understood in depth before reaching any conclusions.</p>
+<p>I graduated in Physics many years ago, and got a glimpse of the delights of modern sciences. Now I think that understanding Nature (the pleasure of finding things out, as Feynman used to say) should not be exclusive to specialists: even the lay(wo)man can think rigorously and without too much handwaving.</p>
+<p>One very interesting aspect of quantum theory is how entropy arises. It has been thoroughly studied, and is thought to be well understood.</p>
+<h2 id="the-feared-e-word">The Feared E-word</h2>
+<p>Let us start at the point which baffles many people: what exactly is entropy, and how can it be defined? Forget about thinking of entropy as “disorder”; entropy is easily defined as “information” in the Shannon sense.</p>
+<p>As a system evolves we need more and more information to describe it. If you look at the picture that introduces the article you can get a sense of it: at the top left corner we have a dot which is very easy to describe, just by its center and radius. The increasingly fuzzy stains as we move bottom and right need more info: first they have a defined irregular shape, then several strokes, and finally a fudge of varying intensity.</p>
+<p>This information is not something abstract; it can be easily measured.</p>
+<figure>
+<img src="pics/understanding-quantum-dot.jpg" title="Round dot" alt="The first dot saved as PNG “weighs” 2.1 KB." /><figcaption>The first dot saved as PNG “weighs” 2.1 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-quantum-stain.jpg" title="Irregular stain" alt="A well-defined stain weighs 2.7 KB." /><figcaption>A well-defined stain weighs 2.7 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-quantum-blot.jpg" title="Wider blot" alt="A wider blot is at 5.2 KB." /><figcaption>A wider blot is at 5.2 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-quantum-fuzzy.jpg" title="Fuzzy stain" alt="A fuzzy stain is now 18 KB." /><figcaption>A fuzzy stain is now 18 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-quantum-splotch.jpg" title="Merging splotch" alt="Finally, a large splotch (which merges with its surroundings) is 20.9 KB." /><figcaption>Finally, a large splotch (which merges with its surroundings) is 20.9 KB.</figcaption>
+</figure>
+<p>This sequence is an artist’s representation and is just meant to illustrate how entropy works. Still, physical systems often follow the same pattern: a classical example of growing entropy is two different fluids of the same density mixing in a larger tank.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>The quantum world</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to my team mates at these companies: <a href="https://mediasmart.io/">mediasmart.io</a>, <a href="https://www.devo.com/">Devo</a>, <a href="https://influencity.com/">Influencity</a> and lately <a href="https://leanmind.es/">LeanMind</a> for helping me test different ways of deploying code. Thanks to my students of the <a href="/2020/curso-escalabilidad">scalability course</a> for helping me formalize the methodology.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Published on 2021-05-16, modified on 2021-05-16. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									</p>
+									<p>
+									Back to the <a href="/">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>
+									© <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>.
+									<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+								</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
