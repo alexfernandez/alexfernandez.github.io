@@ -26,8 +26,11 @@ Now I think that understanding Nature
 should not be exclusive to specialists:
 even the lay(wo)man can think rigorously and without too much handwaving.
 
-One very interesting aspect of quantum theory is how entropy arises.
-It has been thoroughly studied, and is thought to be well understood.
+So I thought, why not start with something simple, such as quantum entropy?
+No, really.
+It is very interesting to imagine how entropy arises.
+It has been thoroughly studied, and is thought to be well understood;
+but it leaves however much to be desired as an explanation of the physical world.
 
 ## The Feared E-word
 
