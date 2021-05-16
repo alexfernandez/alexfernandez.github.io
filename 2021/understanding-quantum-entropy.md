@@ -47,7 +47,7 @@ The increasingly fuzzy stains as we move bottom and right need more info:
 first they have a defined irregular shape,
 then several strokes, and finally a fudge of varying intensity.
 
-This information is not something abstract;
+The information content of each spot is not something abstract;
 it can be easily measured.
 
 ![The first dot saved as PNG "weighs" 2.1 KB.](pics/understanding-quantum-dot.png "Round dot")
@@ -62,7 +62,35 @@ it can be easily measured.
 
 This sequence is an artist's representation and is just meant to illustrate how entropy works.
 Still, physical systems often follow the same pattern:
-a classical example of growing entropy is two different fluids of the same density mixing in a larger tank.
+a classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank.
+
+So, in short: entropy is just information.
+As systems evolve, their entropy always grows,
+and the amount of information needed to describe them also grows.
+
+As you may know already, Newton's classical equations of movement are symmetric in time:
+when time is reversed they work perfectly well.
+So how come entropy is generated only in one direction,
+and is reduced in the opposite?
+In a classical system this effect comes down to particles moving from places with high densities
+where particles move fast (what we usually call "hot")
+to other places with low densities and slow particles ("cold"),
+generating a high entropy mix.
+
+## Quantum Entropy
+
+The next step is to understand how entropy is generated in a quantum system.
+Schrödinger's equation governs how particles move;
+and again it is symmetric in time.
+But here we have a new effect:
+every time we measure something in a system we cause the collapse of the wave equation,
+and the system gains entropy.
+
+## The Measurement Problem
+
+## Schrodinger's Cat
+
+This most famous of scientific cats is a mental experiment designed to test how large systems work.
 
 ## Conclusions
 
