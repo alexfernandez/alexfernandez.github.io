@@ -104,7 +104,6 @@ The following
 <h1>Diffusion simulator</h1>
 <canvas id="canvas" width="768" height="576"></canvas>
 <div id="form">
-<h3>Tunable parameters</h3>
 <form id="params">
 <input style="display: none;" type="number" id="particles" value="10000">
 <input style="display: none;" type="number" id="speed" value="10">
@@ -113,7 +112,7 @@ The following
 <br>
 <button id="run" type="button">run</button>
 <button id="pause" type="button">pause</button>
-<button id="stop" type="button">stop</button>
+<button id="reset" type="button">reset</button>
 </form>
 </div>
 
