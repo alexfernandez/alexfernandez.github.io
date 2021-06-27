@@ -21,8 +21,7 @@ and then we will check if rigorous, modern Physics agrees with our conclusions.
 We will start our travel with something already abstract enough:
 **entropy**.
 What is it, and why does it matter?
-
-Let's go!
+Let's go into it!
 
 ## Introduction
 
@@ -99,6 +98,29 @@ Because, remember, they are one and the same!
 
 Now it's a good time to build a simplistic model of a system,
 and to see how it evolves with time.
+The following 
+
+<script src="diffusion.js"></script>
+<h1>Diffusion simulator</h1>
+<canvas id="canvas" width="1024" height="768"></canvas>
+<div id="form">
+<h3>Tunable parameters</h3>
+<form id="params">
+<label for="particles">Particles</label>
+<input type="number" id="particles" value="10000">
+<br>
+<label for="speed">Speed</label>
+<input type="number" id="speed" value="10">
+<br>
+<label for="visited">Visited</label>
+<input type="checkbox" id="visited" value="false">
+<br>
+<button id="run" type="button">run</button>
+<button id="pause" type="button">pause</button>
+<button id="stop" type="button">stop</button>
+</form>
+</div>
+
 
 ## Conclusion
 

@@ -84,8 +84,7 @@
 <img src="pics/understanding-entropy-drawing.jpg" title="A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author." alt="An image with increasing entropy, from top left to bottom right." /><figcaption>An image with increasing entropy, from top left to bottom right.</figcaption>
 </figure>
 <p>Come with me for this wondeful journey, where we will reason together about the deepest problems known to mankind in easy to follow terms. In the process we will try to guess the (possible) future of computing, look into the nature of time itself, and then we will check if rigorous, modern Physics agrees with our conclusions.</p>
-<p>We will start our travel with something already abstract enough: <strong>entropy</strong>. What is it, and why does it matter?</p>
-<p>Let’s go!</p>
+<p>We will start our travel with something already abstract enough: <strong>entropy</strong>. What is it, and why does it matter? Let’s go into it!</p>
 <h2 id="introduction">Introduction</h2>
 <p>In Philosophy there has always been a tradition of people just trying to understand the things we see around us. The study of the physical world, then called Natural Philosophy, was no exception. But a few centuries ago Physics became the realm of specialists, with increasingly complex Maths that needed to be understood in depth before reaching any conclusions. Still, there has always been a current of people just trying to understand the world, even if their conclusions need to be validated rigorously before they can be taken seriously.</p>
 <p>I graduated in Physics many years ago, and got a glimpse of the delights of modern sciences. Now I think that understanding Nature (“the pleasure of finding things out”, as Feynman used to say) should not be exclusive to specialists: even the lay(wo)man can think with certain precision and without too much handwaving.</p>
@@ -114,7 +113,21 @@
 <p>This sequence is an artistic illustration of how entropy works. And yet physical systems often follow the same pattern. A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank. The drop is gradually smeared until it is completely mixed into the containing fluid, which is when the entropy of the combined system drop + fluid is maximized.</p>
 <p>As systems evolve, their entropy always grows, and the amount of information needed to describe them also grows. Because, remember, they are one and the same!</p>
 <h2 id="simulation-time">Simulation Time</h2>
-<p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time.</p>
+<p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time. The following</p>
+<script src="diffusion.js"></script>
+<h1>
+Diffusion simulator
+</h1>
+<canvas id="canvas" width="1024" height="768">
+</canvas>
+<div id="form">
+<h3>
+Tunable parameters
+</h3>
+<form id="params">
+<label for="particles">Particles</label> <input type="number" id="particles" value="10000"> <br> <label for="speed">Speed</label> <input type="number" id="speed" value="10"> <br> <label for="visited">Visited</label> <input type="checkbox" id="visited" value="false"> <br> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="stop" type="button">stop</button>
+</form>
+</div>
 <h2 id="conclusion">Conclusion</h2>
 <p>So, in short: <strong>entropy is just another name for information</strong>.</p>
 <p>The quantum world is weird, everyone is saying it. Now you have a little glimpse into what makes it weird.</p>
