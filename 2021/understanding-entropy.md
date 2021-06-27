@@ -102,17 +102,14 @@ The following
 
 <script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <h1>Diffusion simulator</h1>
-<canvas id="canvas" width="768" height="300"></canvas>
+<canvas id="canvas" width="768" height="576"></canvas>
 <div id="form">
 <h3>Tunable parameters</h3>
 <form id="params">
-<label for="particles">Particles</label>
-<input type="number" id="particles" value="10000">
+<input type="number" id="particles" value="10000" disabled>
 <br>
-<label for="speed">Speed</label>
 <input type="number" id="speed" value="10">
 <br>
-<label for="visited">Visited</label>
 <input type="checkbox" id="visited" value="false">
 <br>
 <button id="run" type="button">run</button>
