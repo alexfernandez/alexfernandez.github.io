@@ -102,7 +102,7 @@ The following
 
 <script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <h1>Diffusion simulator</h1>
-<canvas id="canvas" width="1024" height="768"></canvas>
+<canvas id="canvas" width="768" height="300"></canvas>
 <div id="form">
 <h3>Tunable parameters</h3>
 <form id="params">
