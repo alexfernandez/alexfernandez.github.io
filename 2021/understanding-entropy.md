@@ -106,11 +106,10 @@ The following
 <div id="form">
 <h3>Tunable parameters</h3>
 <form id="params">
-<input type="number" id="particles" value="10000" disabled>
-<br>
-<input type="number" id="speed" value="10">
-<br>
-<input type="checkbox" id="visited" value="false">
+<input style="display: none;" type="number" id="particles" value="10000">
+<input style="display: none;" type="number" id="speed" value="10">
+<input style="display: none;" type="checkbox" id="visited">
+<input style="display: none;" type="checkbox" id="autorun">
 <br>
 <button id="run" type="button">run</button>
 <button id="pause" type="button">pause</button>
