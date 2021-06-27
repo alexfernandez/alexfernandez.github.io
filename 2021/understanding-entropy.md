@@ -110,7 +110,6 @@ and there is a primitive collision detection.
 <input style="display: none;" type="number" id="speed" value="10">
 <input style="display: none;" type="checkbox" id="visited">
 <input style="display: none;" type="checkbox" id="autorun">
-<br>
 <button id="run" type="button">run</button>
 <button id="pause" type="button">pause</button>
 <button id="reset" type="button">reset</button>
