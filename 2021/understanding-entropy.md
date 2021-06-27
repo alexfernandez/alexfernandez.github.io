@@ -102,7 +102,7 @@ The following
 
 <script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <h1>Diffusion simulator</h1>
-<canvas id="canvas" width="768" height="576"></canvas>
+<canvas id="canvas" width="768" height="576" style="border: solid black 1px;"></canvas>
 <div id="form">
 <form id="params">
 <input style="display: none;" type="number" id="particles" value="10000">
