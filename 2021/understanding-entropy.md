@@ -100,7 +100,7 @@ Now it's a good time to build a simplistic model of a system,
 and to see how it evolves with time.
 The following 
 
-<script src="diffusion.js"></script>
+<script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <h1>Diffusion simulator</h1>
 <canvas id="canvas" width="1024" height="768"></canvas>
 <div id="form">
