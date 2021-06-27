@@ -112,7 +112,7 @@
 </figure>
 <p>This sequence is an artistic illustration of how entropy works. And yet physical systems often follow the same pattern. A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank. The drop is gradually smeared until it is completely mixed into the containing fluid, which is when the entropy of the combined system drop + fluid is maximized.</p>
 <p>As systems evolve, their entropy always grows, and the amount of information needed to describe them also grows. Because, remember, they are one and the same!</p>
-<h2 id="simulation-time">Simulation Time</h2>
+<h2 id="diffusion-simulator">Diffusion Simulator</h2>
 <p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time. The following script will show a 2D simulation of diffusion, where each black particle follows a random walk, and there is a primitive collision detection.</p>
 <script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
@@ -122,7 +122,7 @@
 <input style="display: none;" type="number" id="particles" value="10000"> <input style="display: none;" type="number" id="speed" value="10"> <input style="display: none;" type="checkbox" id="visited"> <input style="display: none;" type="checkbox" id="autorun"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
 </form>
 </div>
-<p>Let us see if we can measure the information content at several steps. At the beginning we have a mostly round shape: points are placed near the center with a certain initial drift.</p>
+<p>Let us see if we can measure the information content at several steps. At the beginning we have a mostly round shape: points are placed near the center with a certain initial drift. Then each point slowly moves away every 0.1 seconds, in a random direction each time.</p>
 <figure>
 <img src="pics/understanding-entropy-diffusion1.png" title="10k points in a mostly round shape" alt="At the start the PNG weighs 9.2 KB." /><figcaption>At the start the PNG weighs 9.2 KB.</figcaption>
 </figure>
@@ -135,10 +135,13 @@
 <figure>
 <img src="pics/understanding-entropy-diffusion4.png" title="A nebulous cloud of dots" alt="At 25 seconds we have 26.7 KB." /><figcaption>At 25 seconds we have 26.7 KB.</figcaption>
 </figure>
+<p>Images are stored using the lossless format PNG, but this does not mean that it is an accurate measurement of the information! PNG is notoriously poor at encoding random images. If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB. Any file format will be an upper limit on the real content of information, since someone can come with an even better compression at any time.</p>
 <p>You can play with the simulation <a href="https://pinchito.es/diffusion-simulator/">here</a>.</p>
+<h2 id="the-real-world">The Real World</h2>
+<p>How can we measure the entropy of a real system? In this <a href="https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093">Getty image</a> we can see a sequence of diffusion in a liquid. Let us try our previous method to measure information: if we divide each step and weigh the resulting PNG images we get 44.2, 56.2 and 65.7 KB. This rude and completely unscientific data point shows that we are on the right path. Of course the real entropy will be 3D and depend on the positions of all molecules, and will therefore be astronomically higher.</p>
+<p>There is an interesting approach that needs to be mentioned, which comes from statistical mechanics. Entropy is now defined as the logarithm of the possible numbers of See the Wikipedia page for [Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics) for more information.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>So, in short: <strong>entropy is just another name for information</strong>.</p>
-<p>The quantum world is weird, everyone is saying it. Now you have a little glimpse into what makes it weird.</p>
+<p>In short: <strong>entropy is just another name for information</strong>.</p>
 								</div>
 							</section>
 							<section id="last">

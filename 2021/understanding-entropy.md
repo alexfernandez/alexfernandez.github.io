@@ -94,7 +94,7 @@ As systems evolve, their entropy always grows,
 and the amount of information needed to describe them also grows.
 Because, remember, they are one and the same!
 
-## Simulation Time
+## Diffusion Simulator
 
 Now it's a good time to build a simplistic model of a system,
 and to see how it evolves with time.
@@ -119,6 +119,8 @@ and there is a primitive collision detection.
 Let us see if we can measure the information content at several steps.
 At the beginning we have a mostly round shape:
 points are placed near the center with a certain initial drift.
+Then each point slowly moves away every 0.1 seconds,
+in a random direction each time.
 
 ![At the start the PNG weighs 9.2 KB.](pics/understanding-entropy-diffusion1.png "10k points in a mostly round shape")
 
@@ -128,14 +130,37 @@ points are placed near the center with a certain initial drift.
 
 ![At 25 seconds we have 26.7 KB.](pics/understanding-entropy-diffusion4.png "A nebulous cloud of dots")
 
+Images are stored using the lossless format PNG,
+but this does not mean that it is an accurate measurement of the information!
+PNG is notoriously poor at encoding random images.
+If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.
+Any file format will be an upper limit on the real content of information,
+since someone can come with an even better compression at any time.
+
 You can play with the simulation
 [here](https://pinchito.es/diffusion-simulator/).
 
+## The Real World
+
+How can we measure the entropy of a real system?
+In this
+[Getty image](https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093)
+we can see a sequence of diffusion in a liquid.
+Let us try our previous method to measure information:
+if we divide each step and weigh the resulting PNG images we get
+44.2, 56.2 and 65.7 KB.
+This rude and completely unscientific data point shows that we are on the right path.
+Of course the real entropy will be 3D and depend on the positions of all molecules,
+and will therefore be astronomically higher.
+
+There is an interesting approach that needs to be mentioned,
+which comes from statistical mechanics.
+Entropy is now defined as the logarithm of the possible numbers of 
+See the Wikipedia page for
+[Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
+for more information.
+
 ## Conclusion
 
-So, in short: **entropy is just another name for information**.
-
-The quantum world is weird,
-everyone is saying it.
-Now you have a little glimpse into what makes it weird.
+In short: **entropy is just another name for information**.
 
