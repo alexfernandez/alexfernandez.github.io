@@ -116,6 +116,20 @@ and there is a primitive collision detection.
 </form>
 </div>
 
+Let us see if we can measure the information content at several steps.
+At the beginning we have a mostly round shape:
+points are placed near the center with a certain initial drift.
+
+![At the start the PNG weighs 9.2 KB.](pics/understanding-entropy-diffusion1.png "10k points in a mostly round shape")
+
+![At 2.4 seconds the PNG has increased to 15.7 KB.](pics/understanding-entropy-diffusion2.png "Most points are slowly drifting, the center circle still clearly visible")
+
+![Right before 10 seconds the file is already at 21.9 KB.](pics/understanding-entropy-diffusion3.png "Now the image is mostly a blur at the center")
+
+![At 25 seconds we have 26.7 KB.](pics/understanding-entropy-diffusion4.png "A nebulous cloud of dots")
+
+You can play with the simulation
+[here](https://pinchito.es/diffusion-simulator/).
 
 ## Conclusion
 

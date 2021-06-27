@@ -122,6 +122,20 @@
 <input style="display: none;" type="number" id="particles" value="10000"> <input style="display: none;" type="number" id="speed" value="10"> <input style="display: none;" type="checkbox" id="visited"> <input style="display: none;" type="checkbox" id="autorun"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
 </form>
 </div>
+<p>Let us see if we can measure the information content at several steps. At the beginning we have a mostly round shape: points are placed near the center with a certain initial drift.</p>
+<figure>
+<img src="pics/understanding-entropy-diffusion1.png" title="10k points in a mostly round shape" alt="At the start the PNG weighs 9.2 KB." /><figcaption>At the start the PNG weighs 9.2 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-entropy-diffusion2.png" title="Most points are slowly drifting, the center circle still clearly visible" alt="At 2.4 seconds the PNG has increased to 15.7 KB." /><figcaption>At 2.4 seconds the PNG has increased to 15.7 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-entropy-diffusion3.png" title="Now the image is mostly a blur at the center" alt="Right before 10 seconds the file is already at 21.9 KB." /><figcaption>Right before 10 seconds the file is already at 21.9 KB.</figcaption>
+</figure>
+<figure>
+<img src="pics/understanding-entropy-diffusion4.png" title="A nebulous cloud of dots" alt="At 25 seconds we have 26.7 KB." /><figcaption>At 25 seconds we have 26.7 KB.</figcaption>
+</figure>
+<p>You can play with the simulation <a href="https://pinchito.es/diffusion-simulator/">here</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>So, in short: <strong>entropy is just another name for information</strong>.</p>
 <p>The quantum world is weird, everyone is saying it. Now you have a little glimpse into what makes it weird.</p>
