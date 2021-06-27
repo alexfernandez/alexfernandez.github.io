@@ -4,8 +4,9 @@ subtitle: 'Understanding Things, Volume 1'
 footer: Published on 2021-05-16, modified on 2021-05-16.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  Entropy is easily the most feared and misunderstood of all physic magnitudes.
+  Entropy is easily the most misunderstood of all physic magnitudes.
   No wonder, for it is also one of the most abstract!
+  So Quantum Entropy must be really fearsome!
   Fear no more; in this article we will try to understand what it is and why it matters.
 image: https://pinchito.es/2021/pics/understanding-quantum-drawing.jpg
 ---
@@ -26,26 +27,30 @@ In Philosophy there has always been a tradition of people just trying to underst
 The study of the physical world, then called Natural Philosophy, was no exception.
 But a few centuries ago Physics became the realm of specialists,
 with increasingly complex Maths that needed to be understood in depth before reaching any conclusions.
+Still, there has always been a current of people just trying to understand the world,
+even if their conclusions need to be validated rigorously before they can be taken seriously.
 
 I graduated in Physics many years ago,
 and got a glimpse of the delights of modern sciences.
 Now I think that understanding Nature
-(the pleasure of finding things out, as Feynman used to say)
+("the pleasure of finding things out", as Feynman used to say)
 should not be exclusive to specialists:
-even the lay(wo)man can think rigorously and without too much handwaving.
+even the lay(wo)man can think with certain precision and without too much handwaving.
 
 So I thought, why not start with something simple, such as quantum entropy?
-No, really.
+No, really, we are doing it.
 It is very interesting to imagine how entropy arises in the quantum world.
-It has been thoroughly studied, and is thought to be well understood;
-but the classical view leaves however much to be desired as an explanation of the physical world.
+The classical version has been thoroughly studied, and is thought to be well understood;
+but it leaves much to be desired as an explanation of the physical world,
+when seen with quantum eyes.
 
 ## The Feared E-word
 
-Let us start at the point which baffles many people:
+Let us start at a point which baffles many people:
 what exactly is entropy, and how can it be defined?
 Forget about thinking of entropy as "disorder";
 entropy is easily defined as "information" in the Shannon sense.
+In short: information always grows.
 
 As a system evolves we need more and more information to describe it.
 If you look at the picture that introduces the article you can get a sense of it:
@@ -56,7 +61,7 @@ first they have a defined irregular shape,
 then several strokes, and finally a fudge of varying intensity.
 
 The information content of each spot is not something abstract;
-it can be easily measured.
+it can be easily measured in kilobytes (KB).
 
 ![The first dot saved as PNG "weighs" 2.1 KB.](pics/understanding-quantum-dot.png "Round dot")
 
@@ -69,14 +74,16 @@ it can be easily measured.
 ![Finally, a large splotch (which merges with its surroundings) is 20.9 KB.](pics/understanding-quantum-splotch.png "Merging splotch")
 
 This sequence is an artistic illustration of how entropy works.
-And yet physical systems often follow the same pattern:
-a classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank.
+And yet physical systems often follow the same pattern.
+A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank.
 The drop is smeared until it is diffused into the containing fluid,
-which is when entropy is maximized.
+which is when the entropy of the combined system drop + fluid is maximized.
 
 So, in short: entropy is just information.
 As systems evolve, their entropy always grows,
 and the amount of information needed to describe them also grows.
+
+## Quantum Entropy
 
 As you may know already, Newton's classical equations of movement are symmetric in time:
 when time is reversed they work perfectly well.
@@ -86,8 +93,8 @@ In a classical system this effect comes down to particles moving from places wit
 where particles move fast (what we usually call "hot")
 to other places with low densities and slow particles ("cold"),
 generating a high entropy mix.
-
-## Quantum Entropy
+This is what physicists usually call "boundary conditions":
+how a system is organized when we start looking at it.
 
 The next step is to understand how entropy is generated in a quantum system.
 Schrödinger's equation governs how particles move;
@@ -95,17 +102,29 @@ and again it is symmetric in time.
 But here we have a new effect:
 every time we measure something in a system we cause the collapse of the wave equation,
 and as a consequence the system gains entropy.
-Johnny von Neumann (one of the 20th century greatest mathematicians) had a nice formula to compute it,
-but it doesn't really matter how, for now.
-What we would like to know is,
+One of the greatest mathematicians of the 20th century, Johnny von Neumann,
+had a nice formula to compute quantum entropy,
+but for now it doesn't really matter what he came up with.
+What we would like to know is:
 how does that affect what happens to the Universe as a whole?
 
 Well, information is generated!
-Or to be more precise, more information is needed to describe our system;
-the effect is the same.
+Or to be more precise, more information is needed to describe our system,
+which is in effect the same.
+So there we have it: each time something is measured entropy grows.
+Problem solved: quantum entropy grows with measurements!
+Right?
+
+Not so fast: it's a promising start,
+but we still need to go deeper.
+For starters, _who_ is measuring _what_?
+Does quantum entropy not grow when nobody is measuring?
+It should grow all the time, not only when there are people around!
+So the answer must be a bit more complex.
 
 ### Entanglement
 
+Let us look at a very interesting concept which is exclusive to quantum mechanics.
 Whenever two quantum particles interact, they become _entangled_:
 their properties are correlated for a while.
 
@@ -115,35 +134,89 @@ The photon has spin 0, and spin is conserved in the generation process;
 therefore one of the particles must have positive spin (+)
 and the other negative spin (-).
 Which is which?
+There is no way to know until we measure them!
+But the funny thing is that we don't need to measure both:
+once we measure the spin of one of the particles,
+we know the spin of the other without having to look at it,
+since it must be the opposite.
+That is, for people not following closely:
+if the first particle has spin (+) the second one has spin (-),
+and viceversa.
 
-There is no way to know!
-However, once we measure the spin of one of the particles,
-we know the spin of the other without having to look at it.
 We say that both particles are entangled because their properties are correlated.
-
-In the classical world we would think that both particles have a _hidden variable_
-which determines the spin of each particle before we look at it.
+In the classical world we would think that both particles have a _hidden variable_:
+some kind of internal mechanism which cannot be measured,
+but which determines the spin of each particle before we look at it.
 In the quantum world we can verify in an experiment that the spin is completely random
 until we measure it.
+This experiment is called the EPR inequality, by the way,
+and it was proposed by none other than the great Albert Einstein
+(with the help from colleagues Podolsky and Rosen).
 
 ### Interference
 
 Entanglement is the most popular quantum effect nowadays,
 but it is by no means the only one.
 In fact single particles can also display quantum effects.
-Consider the traditional double-slit experiment:
+Consider the famous double slit experiment:
 an electron is fired into two close slits.
-In the classical world it will either bounce back,
+In the classical world it will either bounce back
 or go through one of the slits and into the wall beyond.
 We would expect a smooth distribution of hits on the wall.
 
+[double slit]
+
 But in the quantum realm the density of impacts will display valleys and peaks,
 very similar to the diffraction of waves going through two slits.
-It is as if the electron interferes with itself!
+It is as if the electron interferes with itself.
+And that is exactly what is happening!
+To be precise, physicists will say that the wave function is creating interferences,
+where the wave function is a value used to determine the probability of findind an electron at some point.
+The result is very similar to what you would get with a fluid passing those same slits.
+
+[waves passing slits]
+
+But wait, it gets weirder.
+We may try to peek into the process,
+and install a detector to see which slit the electron is passing through.
+If you do this,
+interference is destroyed and you get a classical smooth distribution of hits.
+Nature does not like peeking!
+
+[detector and smooth distribution]
+
+There is an extended and much better description of this phenomenon in
+[Feynman's Lectures on Physics]().
+In short, we do not need entanglement to get quantum effect,
+and this has been known since the beginning of quantum mechanics.
 
 ### Decoherence
 
-The phenomenon by which 
+So, how come quantum effects are so easily destroyed?
+The phenomenon by which quantum entanglement is destroyed is called _decoherence_:
+a previously coherent wave function is collapsed into a classical system by a measurement.
+The same phenomenon happens with the detector in the double slit experiment:
+in that case decoherence applies to the wave function of the single electron.
+
+This decoherence business is modern stuff.
+Most of quantum mechanics was discovered and formalized in the 1920s by a bunch of (mostly German) physicists,
+many of which emigrated to the United States in the 1930s.
+Between 1940 and 1970 the remaining foundations were discovered,
+mostly in the US but some of it in Europe and elsewhere;
+after a while it seemed that only boring details needed to be worked out,
+but nothing of substance else would be found.
+Yes, there is a Higgs boson here and a neutrino with mass there,
+but the foundations were laid out.
+In fact many of the hardest problems remain unsolved:
+Quantum Gravity is still as murky as it was,
+and String Theory has brought nothing useful yet.
+So, was nothing useful done after 1980?
+
+To my delight,
+I recently discovered that a bunch of intrepid physicists
+have been working on these most fundamental of questions from the 1980s until now:
+How and why does the wave function collapse?
+Or what is essentially the same: how and why does a quantum system decohere?
 
 ### The Measurement Problem
 
@@ -175,17 +248,7 @@ were thinking [much the same things during the 50s](https://arxiv.org/pdf/0804.3
 
 ## Conclusions
 
-The quantum world 
-
-### Acknowledgements
-
-Thanks to my team mates at these companies:
-[mediasmart.io](https://mediasmart.io/),
-[Devo](https://www.devo.com/),
-[Influencity](https://influencity.com/)
-and lately [LeanMind](https://leanmind.es/)
-for helping me test different ways of deploying code.
-Thanks to my students of the
-[scalability course](/2020/curso-escalabilidad)
-for helping me formalize the methodology.
+The quantum world is weird,
+everyone is saying it.
+Now you have a little glimpse into what makes it weird.
 
