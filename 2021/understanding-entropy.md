@@ -189,7 +189,7 @@ ordered images take less information to encode.
 In fact, lossless encoding like PNG works by finding patterns in the image,
 which helps save those valuable bytes.
 
-![Three different solid arrangements; crystals can be described quite efficiently.](pics/understanding-entropy-crystal.png "Crystalline structure is very regular; while a policrystalline arrangement is composed of crystaline bits merged together, and amorphous substances have just molecules piled up. Source: https://en.wikipedia.org/wiki/Crystal#/media/File:Crystalline_polycrystalline_amorphous2.svg")
+![Three different solid arrangements; crystals can be described quite efficiently.](pics/understanding-entropy-crystal.svg "Crystalline structure is very regular; while a policrystalline arrangement is composed of crystaline bits merged together, and amorphous substances have just molecules piled up. Source: https://en.wikipedia.org/wiki/Crystal#/media/File:Crystalline_polycrystalline_amorphous2.svg")
 
 Similarly, it is easy to describe a
 [crystal](https://en.wikipedia.org/wiki/Crystal)
