@@ -66,7 +66,7 @@ but it can be stated in a simple way:
 
 > Information always grows.
 
-To start with: the information needed to fully describe a system always grows.
+Or more precisely: the information needed to fully describe a system always grows.
 As a system evolves we need more and more information to describe it.
 Therefore information behaves exactly like entropy,
 and both in fact they are equivalent.
