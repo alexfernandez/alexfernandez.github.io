@@ -12,7 +12,7 @@ image: https://pinchito.es/2021/pics/understanding-entropy-drawing.jpg
 
 ![An image with increasing entropy, from top left to bottom right.](pics/understanding-entropy-drawing.jpg "A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author.")
 
-Come with me for this wondeful journey,
+Come with me on this wondeful journey,
 where we will reason together about the deepest problems known to mankind in easy to follow terms.
 In the process we will try to guess the (possible) future of computing,
 look into the nature of time itself,
@@ -195,14 +195,15 @@ can be described more efficiently as a resting place + a displacement.
 
 There is another interesting approach that needs to be mentioned,
 which comes from statistical mechanics and was pioneered by Boltzmann.
+See the Wikipedia page for
+[Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
+for more information.
+**Warning: some maths ahead!**
+
 Entropy is now defined as the logarithm of the number of possible states for a system Ω,
 multiplid by a constant.
 
 > _S_ = _k_<sub>B</sub> ln Ω
-
-See the Wikipedia page for
-[Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
-for more information.
 
 How do we understand the logarithm now?
 Again, it is quite simple if we go back just to information.
