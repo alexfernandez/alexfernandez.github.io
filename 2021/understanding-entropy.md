@@ -99,8 +99,8 @@ For a quick test we will save each image as PNG and see how much information it 
 
 ![Finally, a large splotch (which merges with its surroundings) is 20.9 KB.](pics/understanding-entropy-splotch.png "Merging splotch")
 
-This sequence is an artistic illustration of how entropy works.
-And yet physical systems often follow the same pattern.
+This sequence is an artistic illustration of how entropy works;
+physical systems often follow the same pattern.
 A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank.
 The drop is gradually smeared until it is completely mixed into the containing fluid,
 which is when the entropy of the combined system drop + fluid is maximized.
