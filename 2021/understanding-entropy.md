@@ -1,7 +1,7 @@
 ---
 title: 'Understanding Entropy'
 subtitle: 'Understanding Quantum Entropy, Volume 1'
-footer: Published on 2021-05-16, modified on 2021-05-16.
+footer: Published on 2021-07-10, modified on 2021-07-10.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Entropy is easily the most misunderstood of all physic magnitudes.
@@ -69,7 +69,7 @@ but it can be stated in a simple way:
 Or more precisely: the information needed to fully describe a system always grows.
 As a system evolves we need more and more information to describe it.
 Therefore information behaves exactly like entropy,
-and both in fact they are equivalent.
+and in fact both are equivalent.
 In this article I will try to give you a sense of what this principle means.
 
 ### A Graphical Glimpse
