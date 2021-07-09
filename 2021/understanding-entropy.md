@@ -105,6 +105,8 @@ A classical example of growing entropy is a drop of fluid diffusing in another f
 The drop is gradually smeared until it is completely mixed into the containing fluid,
 which is when the entropy of the combined system drop + fluid is maximized.
 
+![Three-dimensional rendering of diffusion of purple dye in water.](pics/understanding-entropy-diffusion.png "A drop of dye diffuses into water, the drop becomes a blotch, until water turns purplish. Source: https://en.wikipedia.org/wiki/Diffusion#/media/File:Blausen_0315_Diffusion.png")
+
 As systems evolve, their entropy always grows,
 and the amount of information needed to describe them also grows.
 Because, remember, they are one and the same!
