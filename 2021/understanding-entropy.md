@@ -217,7 +217,7 @@ multiplied by a constant:
 How do we understand the logarithm?
 Again, it is quite simple if we go back just to information.
 The information required to store a number _N_ can be easily defined as the number of bits of _N_,
-which can be computd as the logarithm in base two of the number:
+which is computed as the logarithm in base two of _N_:
 
 > _I_ = log<sub>2</sub>(_N_)
 
