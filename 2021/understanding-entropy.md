@@ -205,7 +205,7 @@ can be described more efficiently as a resting place + a displacement.
 There is another interesting approach that needs to be mentioned,
 which comes from statistical mechanics and was pioneered by Boltzmann.
 See the Wikipedia page for
-[Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
+[Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_%28statistical_thermodynamics%29)
 for more information.
 **Warning: some maths ahead!**
 
