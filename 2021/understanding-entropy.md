@@ -46,7 +46,7 @@ but there is always a fresh way to look at things.
 
 ## The Feared E-word
 
-The starting point already baffles many people:
+The starting point already baffles many people _including physicists_:
 what exactly is entropy, and how can it be defined?
 Forget about thinking of entropy as "disorder";
 this approach is highly confusing as can be seen in the Wikipedia article for
@@ -244,6 +244,15 @@ the book
 [The Physical Basis of The Direction of Time](https://www.springer.com/gp/book/9783540680000)
 will give you endless pleasure.
 Warning: full of complex equations and not for the faint of heart.
+
+I cannot resist linking to the [supposed advice](http://www.eoht.info/page/Neumann-Shannon%20anecdote)
+of von Neumann,
+one of the greatest physicists and mathematicians of the 20th century,
+to Shannon, the father of Information Theory:
+
+> You should call [your measure of information] entropy:
+> [...] nobody knows what entropy is,
+> so in a debate you will always have the advantage.
 
 ### Acknowledgements
 
