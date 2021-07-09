@@ -117,7 +117,7 @@ Now it's a good time to build a simplistic model of a system,
 and to see how it evolves with time.
 The following script will show a 2D simulation of diffusion,
 where each black particle follows a random walk,
-and there is a primitive collision detection.
+plus a primitive collision detection.
 
 <script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
 <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
