@@ -209,8 +209,8 @@ See the Wikipedia page for
 for more information.
 **Warning: some maths ahead!**
 
-Entropy is now defined as the logarithm of the number of possible states for a system Ω,
-multiplid by a constant.
+Entropy is now defined as the logarithm of the number Ω of possible states for a system,
+multiplied by a constant:
 
 > _S_ = _k_<sub>B</sub> ln Ω
 
