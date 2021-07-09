@@ -154,8 +154,9 @@ In fact PNG is notoriously poor at encoding random images.
 If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.
 Any file format will be an upper limit on the real content of information,
 since someone can come with an even better compression at any time;
-as long as it is lossless (i.e. not losing in details),
-this new file would be proof that the information content was actually smaller than any previous formats.
+as long as it is lossless
+(so the original image can be reproduced without any detail loss),
+this new file would be proof that the information content was at most its new file size.
 
 By the way, you can play with the simulation
 [here](https://pinchito.es/diffusion-simulator/).
