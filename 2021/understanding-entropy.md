@@ -48,25 +48,28 @@ but there is always a fresh way to look at things.
 
 The starting point already baffles many people _including physicists_:
 what exactly is entropy, and how can it be defined?
-Forget about thinking of entropy as "disorder";
+It is unlike any other physical magnitudes.
+Its most striking property is that in a closed system it always grows with time,
+or at most stays constant.
+
+Many people will tell you that entropy is "a measure of disorder".
+Please forget about it;
 this approach is highly confusing as can be seen in the Wikipedia article for
 [Entropy (order and disorder)](https://en.wikipedia.org/wiki/Entropy_(order_and_disorder)).
 
-Entropy is unlike any other physical magnitudes.
-Its most striking property is that it always grows in a closed system,
-or at most stays constant.
-
-Entropy is easily defined as "information" in the Shannon sense.
+Luckily there is a more fruitful approach:
+entropy can also be defined as "information" in the Shannon sense.
 The Wikipedia article for
 [Entropy (information theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
-has a long and erudite explanation.
-Here we are going to give a sense of what it means.
+has a long and erudite explanation,
+but it can be stated in a simple way.
 
-> In short: information always grows.
+> Information always grows.
 
-The information needed to fully describe a system always grows.
-Just like entropy.
+Or more precisely: the information needed to fully describe a system always grows.
+In this article we will try to give you a sense of what this sentence means.
 As a system evolves we need more and more information to describe it.
+Therefore information behaves exactly like entropy.
 
 ### A Graphical Glimpse
 
