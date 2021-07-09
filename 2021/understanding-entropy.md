@@ -214,7 +214,7 @@ multiplied by a constant:
 
 > _S_ = _k_<sub>B</sub> ln Ω
 
-How do we understand the logarithm now?
+How do we understand the logarithm?
 Again, it is quite simple if we go back just to information.
 The information required to store a number _N_ can be easily defined as the number of bits of _N_,
 which can be computd as the logarithm in base two of the number:
