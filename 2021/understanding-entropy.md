@@ -247,7 +247,7 @@ Warning: full of complex equations and not for the faint of heart.
 
 I cannot resist linking to the [supposed advice](http://www.eoht.info/page/Neumann-Shannon%20anecdote)
 of von Neumann,
-one of the greatest physicists and mathematicians of the 20th century,
+one of the greatest mathematicians of the 20th century,
 to Shannon, the father of Information Theory:
 
 > You should call [your measure of information] entropy:
