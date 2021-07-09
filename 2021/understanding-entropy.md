@@ -62,14 +62,15 @@ entropy can also be defined as "information" in the Shannon sense.
 The Wikipedia article for
 [Entropy (information theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 has a long and erudite explanation,
-but it can be stated in a simple way.
+but it can be stated in a simple way:
 
 > Information always grows.
 
-Or more precisely: the information needed to fully describe a system always grows.
-In this article we will try to give you a sense of what this sentence means.
+To start with: the information needed to fully describe a system always grows.
 As a system evolves we need more and more information to describe it.
-Therefore information behaves exactly like entropy.
+Therefore information behaves exactly like entropy,
+and both in fact they are equivalent.
+In this article I will try to give you a sense of what this principle means.
 
 ### A Graphical Glimpse
 
