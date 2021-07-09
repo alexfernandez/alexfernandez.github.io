@@ -39,31 +39,40 @@ Now I think that understanding Nature
 should not be exclusive to specialists:
 even the lay(wo)man can think with certain precision and without too much handwaving.
 
-So I thought, why not start with something simple, such as quantum entropy?
-No, really, we are doing it.
-It is very interesting to imagine how entropy arises in the quantum world.
-The classical version has been thoroughly studied, and is thought to be well understood;
-but it leaves much to be desired as an explanation of the physical world,
-when seen with quantum eyes.
+So I thought, why not start with something simple, such as entropy?
+No, really, we are doing that.
+The classical version of entropy has been thoroughly studied, and is thought to be well understood;
+but there is always a fresh way to look at things.
 
 ## The Feared E-word
 
-Let us start at a point which baffles many people:
+The starting point already baffles many people:
 what exactly is entropy, and how can it be defined?
 Forget about thinking of entropy as "disorder";
 this approach is highly confusing as can be seen in the Wikipedia article for
 [Entropy (order and disorder)](https://en.wikipedia.org/wiki/Entropy_(order_and_disorder)).
 
-The most striking property of entropy is that it always grows in a closed system.
+Entropy is unlike any other physical magnitudes.
+Its most striking property is that it always grows in a closed system,
+or at most stays constant.
 
 Entropy is easily defined as "information" in the Shannon sense.
 The Wikipedia article for
 [Entropy (information theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 has a long and erudite explanation.
 Here we are going to give a sense of what it means.
-In short: information always grows.
 
+> In short: information always grows.
+
+The information needed to fully describe a system always grows.
+Just like entropy.
 As a system evolves we need more and more information to describe it.
+
+### A Graphical Glimpse
+
+Talk is cheap, while images feed our intuition.
+Is there any way to see this information growth?
+
 If you look at the picture that introduces the article you can get a sense of it:
 at the top left corner we have a dot which is very easy to describe,
 just by its center and radius.
@@ -73,6 +82,8 @@ then several strokes, and finally a fudge of varying intensity.
 
 The information content of each spot is not something abstract;
 it can be easily measured in kilobytes (KB).
+For a quick test we will save each image as PNG and see how much information it contains
+(that is, simply how big each file is).
 
 ![The first dot saved as PNG "weighs" 2.1 KB.](pics/understanding-entropy-dot.png "Round dot")
 
@@ -94,7 +105,7 @@ As systems evolve, their entropy always grows,
 and the amount of information needed to describe them also grows.
 Because, remember, they are one and the same!
 
-## Diffusion Simulator
+### Diffusion Simulator
 
 Now it's a good time to build a simplistic model of a system,
 and to see how it evolves with time.
@@ -121,6 +132,7 @@ At the beginning we have a mostly round shape:
 points are placed near the center with a certain initial drift.
 Then each point slowly moves away every 0.1 seconds,
 in a random direction each time.
+As before, we take a snapshot and save it.
 
 ![At the start the PNG weighs 9.2 KB.](pics/understanding-entropy-diffusion1.png "10k points in a mostly round shape")
 
@@ -140,27 +152,100 @@ since someone can come with an even better compression at any time.
 You can play with the simulation
 [here](https://pinchito.es/diffusion-simulator/).
 
-## The Real World
+### The Real World
 
-How can we measure the entropy of a real system?
+Is it possible to see also this growth of information on a real system?
+Let us first do a rough approximation.
+How can we measure the information of a real system?
 In this
 [Getty image](https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093)
 we can see a sequence of diffusion in a liquid.
 Let us try our previous method to measure information:
 if we divide each step and weigh the resulting PNG images we get
 44.2, 56.2 and 65.7 KB.
-This rude and completely unscientific data point shows that we are on the right path.
+
+This is a coarse method, no doubt,
+but it is useful to show that we are on the right path.
 Of course the real entropy will be 3D and depend on the positions of all molecules,
 and will therefore be astronomically higher.
+But in fact our silly method is not so far from real measures of entropy:
+a common technique to compute entropy is to do boxing of the system
+with a finer and finer grid until all the relevant information has been captured.
 
-There is an interesting approach that needs to be mentioned,
-which comes from statistical mechanics.
-Entropy is now defined as the logarithm of the possible numbers of 
+## So What About Order?
+
+Why is disorder so commonly associated to entropy?
+It is easy to see with our image encoding examples:
+ordered images take less information to encode.
+In fact, lossless encoding like PNG works by finding patterns in the image,
+which helps save those valuable bytes.
+
+![Three different solid arrangements; crystals can be described quite efficiently.](pics/understanding-entropy-diffusion1.png "Crystalline structure is very regular; while a policrystalline arrangement is composed of crystaline bits merged together, and amorphous substances have just molecules piled up. Source: https://en.wikipedia.org/wiki/Crystal#/media/File:Crystalline_polycrystalline_amorphous2.svg")
+
+Similarly, it is easy to describe a
+[crystal](https://en.wikipedia.org/wiki/Crystal)
+(a very ordered way of storing matter in a lattice)
+as a group of atoms at regular positions in space.
+Each imperfection, each atom out of place
+will need to be described separately.
+Even thermal movement (molecules wiggling around their places in the lattice)
+can be described more efficiently as a resting place + a displacement.
+
+## Statistical Entropy
+
+There is another interesting approach that needs to be mentioned,
+which comes from statistical mechanics and was pioneered by Boltzmann.
+Entropy is now defined as the logarithm of the number of possible states for a system Ω,
+multiplid by a constant.
+
+> _S_ = _k_<sub>B</sub> ln Ω
+
 See the Wikipedia page for
 [Entropy (statistical thermodynamics)](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
 for more information.
 
+How do we understand the logarithm now?
+Again, it is quite simple if we go back just to information.
+The information required to store a number _N_ can be easily defined as the number of bits of _N_,
+which can be computd as the logarithm in base two of the number:
+
+> _I_ = log<sub>2</sub>(_N_)
+
+Since changing logarithm base is equivalent to multiplying by a constant,
+we only need to change constants to reach the information content:
+
+> _S_ ∝ _I_
+
+This last equation means that entropy is proportional to information.
+Why? Easy!
+If we have _N_ possible states for a system,
+then to completely describe this system we can just number all states,
+and then supply the number of the state where the system is at.
+So, again, an increase in entropy is just another way of saying that
+the information required to describe a system has grown.
+
 ## Conclusion
 
 In short: **entropy is just another name for information**.
+And we live in the information era,
+so it is no wonder that we live in turbulent times.
+
+We will soon continue our journey exploring quantum entropy.
+
+### References
+
+The book
+[The Information: A History, a Theory, a Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood)
+is a gentle introduction to the subject of information for everyone.
+
+If you like reading about hard-core Physics,
+the book
+[The Physical Basis of The Direction of Time](https://www.springer.com/gp/book/9783540680000)
+will give you endless pleasure.
+Warning: full of complex equations and not for the faint of heart.
+
+### Acknowledgements
+
+Your name could be here!
+Just send a comment or suggestion to the address given below.
 
