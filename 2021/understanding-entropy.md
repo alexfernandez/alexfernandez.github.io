@@ -37,10 +37,10 @@ and got a glimpse of the delights of modern sciences.
 Now I think that understanding Nature
 ("the pleasure of finding things out", as Feynman used to say)
 should not be exclusive to specialists:
-even the lay(wo)man can think with certain precision and without too much handwaving.
+even the layperson can think with certain precision and without too much handwaving.
 
 So I thought, why not start with something simple, such as entropy?
-No, really, we are doing that.
+No, really, we are going there.
 The classical version of entropy has been thoroughly studied, and is thought to be well understood;
 but there is always a fresh way to look at things.
 
