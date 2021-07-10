@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Entropy'
-subtitle: 'Understanding Quantum Entropy, Volume 1'
+subtitle: 'On the Road to Quantum Entropy, Part 1'
 footer: Published on 2021-07-10, modified on 2021-07-10.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
