@@ -4,7 +4,7 @@ subtitle: 'On the Road to Quantum Entropy, Part 1'
 footer: Published on 2021-07-10, modified on 2021-07-10.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  Entropy is easily the most misunderstood of all physic magnitudes.
+  Entropy is easily the most misunderstood of all physical magnitudes.
   No wonder, for it is also one of the most abstract!
   Fear no more; in this article we will try to understand what it is and why it matters.
 image: https://pinchito.es/2021/pics/understanding-entropy-drawing.jpg
