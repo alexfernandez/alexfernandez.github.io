@@ -169,7 +169,8 @@ Is it possible to see also this growth of information on a real system?
 Let us first do a rough approximation.
 How can we measure the information of a real system?
 In this
-[Getty image](https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093)
+[Getty image](https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093),
+similar to the one above,
 we can see a sequence of diffusion in a liquid.
 Let us try our previous method to measure information:
 if we divide each step and weigh the resulting PNG images we get
