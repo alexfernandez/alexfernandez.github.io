@@ -21,7 +21,7 @@ and then we will check if rigorous, modern Physics agrees with our conclusions.
 We will start our travel with something already abstract enough:
 **entropy**.
 What is it, and why does it matter?
-Let's go into it!
+Let's go right into it!
 
 ## Introduction
 
@@ -237,7 +237,8 @@ the information required to describe a system has grown.
 ## Conclusion
 
 In short: **entropy is just another name for information**.
-And we live in the information era,
+If you will allow me to finish with a cheesy metaphor,
+we live in the information era,
 so it is no wonder that we live in turbulent times.
 
 We will soon continue our journey exploring quantum entropy.
