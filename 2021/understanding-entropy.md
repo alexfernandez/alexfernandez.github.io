@@ -148,15 +148,17 @@ As before, we take a snapshot and save it.
 
 ![At 25 seconds we have 26.7 KB.](pics/understanding-entropy-diffusion4.png "A nebulous cloud of dots")
 
-Images are stored using the lossless format PNG,
+At this point more or less information stops growing. Why?
+These images are stored using the lossless format PNG,
 which is not really an accurate measurement of the information content!
 In fact PNG is notoriously poor at encoding random images.
 If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.
+
 Any file format will be an upper limit on the real content of information,
-since someone can come with an even better compression at any time;
-as long as it is lossless
+since someone can come with an even better compression at any time.
+As long as a compression algorithm is lossless
 (so the original image can be reproduced without any detail loss),
-this new file would be proof that the information content was at most its new file size.
+the resulting file will be proof that the information content was at most its new file size.
 
 By the way, you can play with the simulation
 [here](https://pinchito.es/diffusion-simulator/).
