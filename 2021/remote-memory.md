@@ -11,9 +11,15 @@ abstract:
 image: https://pinchito.es/2021/pics/remote-memory-hivency.jpg
 ---
 
-![Map of meetings at the Hivency office in Paris](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: https://zoom.earth/#view=48.858296,2.349495,20z.")
+![Map of selected meetings at the Hivency office in Paris](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: https://zoom.earth/#view=48.858296,2.349495,20z.")
+
+## The Method of Loci
+
+This technique is often called "the memory palace".
 
 ![The memory palace](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the _method of loci_ does not actually require imagining a palace. Source: https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
+
+[Wikipedia page](https://en.wikipedia.org/wiki/Method_of_loci).
 
 that memory works better when it refers to places, and working always from home messes with it.
 In an office you are moving constantly, meeting with people in different places, and this helps remember what people said and when.
