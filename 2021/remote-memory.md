@@ -41,7 +41,7 @@ and as "Papucho" by my daughter.
 I have worked mostly remotely since 2011,
 so I should know what I'm speaking about!
 (In fact most of the time I don't,
-but this will be our little secret :wink:)
+but this will be our little secret 😉)
 
 ## Remote Meetings
 
@@ -59,7 +59,7 @@ the kind that you do alone like read a report or write a document.
 But not so much for interacting with people:
 we really enjoy changing settings from time to time!
 
-![Online meeting and the changing faces effect.](pics/remote-memory-changing?.jpg "Changing faces in an online conference. Source: the author.")
+![Online meeting and the changing faces effect.](pics/remote-memory-changing.jpg "Faces changing places in an online conference. Source: the author.")
 
 Videoconferencing tools do not help either:
 faces appear at seemingly random positions on the screen,
