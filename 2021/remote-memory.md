@@ -112,7 +112,7 @@ or the
 [method of _loci_](https://en.wikipedia.org/wiki/Method_of_loci)
 if you want to show off your Latin.
 
-![The memory palace](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the _method of loci_ does not actually require imagining a palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
+![Sort-of-artistic depiction of the memory palace.](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the _method of loci_ does not actually require imagining a palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
 
 This is in fact the most widely used technique [ref](?) by memory champions,
 and mentioned by no less than our fictional friends
@@ -152,22 +152,22 @@ why not use it to our advantage?
 ## What Can We Do About It?
 
 Now it's the time for me to suggest improvements.
-Can we do something about having more memorable remote meetings in these pandemic times?
+Can we do something to improve the memorability of our meetings in these pandemic times?
 
 ### Back to the Office
 
 A first obvious suggestion is to go to the office once in a while to have meetings with people.
-This can not be really workable if:
+This may not be really workable if:
 * you work for a company on the other side of the world,
-* you are quarantined,
+* your company sold off their office space,
 * you reject societal norms including basic personal hygiene,
 * or you have some other condition that prevents you from going to the office.
 
 For the rest of us it can be really helpful
 to get our wet chassis to the office every once in a while.
-As seen at the top of the article,
-reproduced here for your convenience,
-I had a really fruitful visit to Paris in June 2021:
+In June 2021 I had a really fruitful visit to the lovely Hivency office in Paris,
+as seen at the top of the article;
+reposted here for your convenience:
 
 ![Map of selected meetings at the Hivency office in Paris.](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
 
@@ -175,22 +175,26 @@ For me it's quite easy to recall these conversations
 because I can remember where they happened,
 and this transports me to that moment.
 
-By the way, Paris is so lovely,
+By the way, Paris is still wonderful,
 and even better without tourists.
 So hurry and pay a visit!
 
 ### Move Around
 
 Suppose you can't or won't go to the office,
-no matter how many free amenities we set up there to entrap you.
+no matter how many free amenities the company sets up there to entice you.
 Well, there is a poor person's alternative:
 at least change settings for important meetings.
 If at all possible move to another room or even go to the park:
-I have done a lot of fruitful meetings from a public park bench or table.
+I have done a lot of fruitful meetings from a public park bench or table,
+and sometimes I didn't even have to fight with families or other
+[hobos](https://en.wikipedia.org/wiki/Hobo)
+to get a good picnic table.
 
 You can also just walk around.
 Just be careful not to get your interlocutors dizzy with a walking camera panorama;
 if you are on the move maybe it's better to switch off the camera.
+By the way, did you know that the mobile network is still working OK in most countries?
 
 ### The Notebook
 
