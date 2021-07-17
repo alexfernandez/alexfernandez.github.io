@@ -36,7 +36,7 @@ I am known as
 [pinchito on Twitter](?),
 and as "Papucho" by my daughter.
 
-![Papucho.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
+![This is Papucho.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
 
 I have worked mostly remotely since 2011,
 so I should know what I'm speaking about!
@@ -112,14 +112,15 @@ or the
 [method of _loci_](https://en.wikipedia.org/wiki/Method_of_loci)
 if you want to show off your Latin.
 
-![Sort-of-artistic depiction of the memory palace.](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the _method of loci_ does not actually require imagining a palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
+![Sort-of-artistic depiction of the memory palace.](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the method of _loci_ does not actually require imagining a palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
 
-This is in fact the most widely used technique [ref](?) by memory champions,
+This is in fact the most widely used technique by
+[memory champions](https://www.smithsonianmag.com/science-nature/why-you-can-train-your-brain-memory-champion-still-forget-your-car-keys-180962496/),
 and mentioned by no less than our fictional friends
-[Sherlock Holmes](?)
+[Sherlock Holmes](https://www.pastemagazine.com/science/memory/a-look-inside-a-memory-champions-mind-palace/)
 and
-[Sheldon Cooper](?).
-It is the best for counting cards at casinos! :sunglasses:
+[Hannibal Lecter](https://blogs.scientificamerican.com/illusion-chasers/hannibal-lecter/).
+Plus, it is the best for counting cards and getting banned at casinos! 😎
 
 Does it also work for most of us normal people?
 Well, you probably use a variation of the same technique when visiting the supermarket:
@@ -218,9 +219,18 @@ Together they create a crumb trail that may help you trace back your thoughts la
 
 ## Conclusions
 
-Memory works better when it has spatial aids.
+Memory works best when it has spatial aids.
+Online meetings remove many of the location cues that
+help us have memorable conversations,
+but we can still supplement them to help our poor brains.
 
 ### Remote Work at Hivency
+
+At Hivency permanent employees have the option to work remotely,
+and the company pays for a trip to the office every month to see our colleagues.
+This helps immensely to cement relationships and make our meetings memorable.
+Oh, and did I tell you that
+[we are hiring](https://www.welcometothejungle.com/es/companies/hivency)?
 
 ### Acknowledgements
 
