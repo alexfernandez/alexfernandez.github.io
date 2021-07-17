@@ -159,6 +159,7 @@ Can we do something to improve the memorability of our meetings in these pandemi
 
 A first obvious suggestion is to go to the office once in a while to have meetings with people.
 This may not be really workable if:
+
 * you work for a company on the other side of the world,
 * your company sold off their office space,
 * you reject societal norms including basic personal hygiene,
