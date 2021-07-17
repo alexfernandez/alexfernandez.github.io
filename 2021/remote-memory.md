@@ -34,9 +34,9 @@ which means that I'm super-old!
 
 I am known as
 [pinchito on Twitter](?),
-and as "Papucho" by my 12-year-old daughter.
+and as "Papucho" by my daughter.
 
-![Papucho.](pics/remote-memory-papucho?.jpg "A gorgeous drawing in pencil and charcoal by my daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
+![Papucho.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
 
 I have worked mostly remotely since 2011,
 so I should know what I'm speaking about!
