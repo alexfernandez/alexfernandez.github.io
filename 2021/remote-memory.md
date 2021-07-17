@@ -59,7 +59,7 @@ the kind that you do alone like read a report or write a document.
 But not so much for interacting with people:
 we really enjoy changing settings from time to time!
 
-![Online meeting and the changing faces effect.](pics/remote-memory-changing.jpg "Faces changing places in an online conference. Source: the author.")
+![Online meeting and the changing faces effect.](pics/remote-memory-changing.jpg "Faces changing places in an online conference. Source: adapted from https://disney.fandom.com/wiki/Category:Dwarfs.")
 
 Videoconferencing tools do not help either:
 faces appear at seemingly random positions on the screen,
@@ -126,9 +126,9 @@ Does it also work for most of us normal people?
 Well, you probably use a variation of the same technique when visiting the supermarket:
 you go over the same path and remember to buy your favorite products at the same places.
 You may have noticed that some supermarkets play with our feelings
-by changing products often so that we discover new products.
-[ref](?)
-I hate you, Mercadona! :sweat:
+by changing products often so that
+[we buy new products](https://bettermarketing.pub/the-secret-brilliant-and-questionable-strategy-supermarkets-use-to-make-you-spend-more-ca553c3c6135?gi=efd9d02be71d).
+I hate you, Mercadona! 😰
 
 ### Inevitable Evolutionary Argument
 
@@ -139,7 +139,7 @@ and...
 
 Nah, not really.
 If you have ever owned a cat
-(and we love cats in Hivency tech :happy-cat:)
+(and we love cats at Hivency Tech 😸)
 you know that they are _very_ aware of their surroundings.
 In fact, all kinds of animals have some kind of
 [spatial cognitiion](https://en.wikipedia.org/wiki/Spatial_cognition),
