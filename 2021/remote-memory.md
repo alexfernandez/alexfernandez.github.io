@@ -176,6 +176,8 @@ reposted here for your convenience:
 
 ![Map of selected meetings at the Hivency office in Paris.](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
 
+I was lucky because many of my colleagues also went to the office that week,
+and I tried to meet as many of them as possible.
 For me it's quite easy to recall these conversations
 because I can remember where they happened,
 and then I get more easily to what was spoken.
