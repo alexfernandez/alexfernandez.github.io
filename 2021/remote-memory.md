@@ -210,7 +210,8 @@ Perhaps you really, really cannot move at all:
 you are confined to the one table you use,
 or it disrupts your workflow.
 Well, we are not here to judge.
-There is another visual aid that will be there to help you:
+There is still hope for you!
+There is another visual aid that will be there to help us:
 _The Notebook_.
 
 ![I really like these notebooks (sadly, not a sponsor).](pics/remote-memory-notebook?.jpg "A few notebooks piled up. Source: the author.")
@@ -228,7 +229,13 @@ Together they create a crumb trail that may help you trace back your thoughts la
 Memory works best when it has spatial aids.
 Online meetings remove many of the location cues that
 help us have memorable conversations,
-but we can still supplement them to help our poor brains.
+but we can still supplement them to help our poor brains:
+
+* going to the office every once in a while,
+* changing location to another room or even an open space,
+* or writing things down on a notebook.
+
+Hope these tips help!
 
 ### Remote Work at Hivency
 
