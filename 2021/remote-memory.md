@@ -209,8 +209,7 @@ Enjoy a good old _vintage_ conversation on your cellphone like our grandparents 
 Perhaps you really, really cannot move at all:
 you are confined to the one table you use,
 or it disrupts your workflow.
-Well, we are not here to judge.
-There is still hope for you!
+Well, we are not here to judge, and there is still hope for you!
 There is another visual aid that will be there to help us:
 _The Notebook_.
 
