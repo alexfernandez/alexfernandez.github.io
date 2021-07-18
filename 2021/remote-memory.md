@@ -81,7 +81,7 @@ As to the handwaving when remembering meetings,
 there must be a deeply hidden reason for this.
 So I started to pull the thread.
 What I found will surprise you! Or not,
-but it did in fact make me write this article.
+but it did in fact make me write this article so `¯\_(ツ)_/¯`
 
 ## Spatial Memory
 
