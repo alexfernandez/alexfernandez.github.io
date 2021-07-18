@@ -220,7 +220,7 @@ but after all the objective is to make your meetings memorable.
 Writing stuff down has been proven in the last 5000 years or so to help people remember things.
 Plus, there is also a spatial component to writing things down in a notebook,
 which a text file on a computer does not have:
-position in the page, and page in the notebook.
+position in the page and page in the notebook.
 Together they create a crumb trail that may help you trace back your thoughts later.
 
 ## Conclusions
