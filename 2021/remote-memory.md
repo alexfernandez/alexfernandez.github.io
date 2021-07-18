@@ -31,9 +31,8 @@ I am Alex Fernández,
 I have been CTO at Hivency since January 2021.
 And I have been working for 23 years already,
 which means that I'm super-old!
-
 I am known as
-[pinchito on Twitter](?),
+[pinchito on Twitter](https://twitter.com/pinchito),
 and as "Papucho" by my daughter.
 
 ![This is Papucho.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
@@ -100,7 +99,7 @@ In old US movies everyone remembers where they were when they heard about the as
 in my generation something similar happens with the World Trade Center attacks.
 I'm sure that millennials will have their own defining event,
 like the unveiling of a new Pokemon or something.
-(Damn kids! Get off my lawn by the way!)
+(Those damn kids should get off my lawn, by the way!)
 
 ### The Method of Loci
 
@@ -175,7 +174,7 @@ reposted here for your convenience:
 
 For me it's quite easy to recall these conversations
 because I can remember where they happened,
-and this transports me to that moment.
+and then I get more easily to what was spoken.
 
 By the way, Paris is still wonderful,
 and even better without tourists.
@@ -207,13 +206,12 @@ Well, we are not here to judge.
 There is another visual aid that will be there to help you:
 _The Notebook_.
 
-![I really like these notebooks (not a sponsor).](pics/remote-memory-notebook?.jpg "A few notebooks piled up. Source: the author.")
+![I really like these notebooks (sadly, not a sponsor).](pics/remote-memory-notebook?.jpg "A few notebooks piled up. Source: the author.")
 
-it may seem a bit stupid to mention notebooks in a rant about spatial memory,
+It may seem a bit stupid to mention notebooks in a rant about spatial memory,
 but after all the objective is to make your meetings memorable.
 Writing stuff down has been proven in the last 5000 years or so to help people remember things.
-
-But there is also a spatial component to writing things down in a notebook,
+Plus, there is also a spatial component to writing things down in a notebook,
 which a text file on a computer does not have:
 position in the page, and page in the notebook.
 Together they create a crumb trail that may help you trace back your thoughts later.
