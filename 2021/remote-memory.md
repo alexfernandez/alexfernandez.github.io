@@ -75,9 +75,13 @@ pointing to the imaginary locations where they were standing for each encounter.
 
 What is going on?
 And why this extemporaneous cultural stereotype?
-For the last part I can be excused because I'm from Southern Europe myself;
+For the second question I can be excused because I'm from Southern Europe myself;
 in fact, many of my best friends are from Southern Europe.
-As to the handwaving itself, there must be a deeply hidden reason for this.
+As to the handwaving when remembering meetings,
+there must be a deeply hidden reason for this.
+So I started to pull the thread.
+What I found will surprise you! Or not,
+but it did in fact make me write this article.
 
 ## Spatial Memory
 
