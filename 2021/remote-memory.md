@@ -69,7 +69,7 @@ which can even change in the middle of a conversation!
 So why is it so hard to have memorable conversations online?
 A first clue appears when you go back to the office,
 and start talking to people about meetings they have had.
-If they are from Southern Europe they will immediately start waving their hands,
+If they come from Southern Europe they will immediately start waving their hands,
 pointing to the imaginary locations where they were standing for each encounter.
 (Yes, many other cultures also do the same.)
 
