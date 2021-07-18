@@ -238,7 +238,7 @@ Hope these tips help!
 
 ### Remote Work at Hivency
 
-At Hivency permanent employees have the option to work remotely,
+At Hivency most employees have the option to work remotely,
 and the company pays for a trip to the office every month to see our colleagues.
 This helps immensely to cement relationships and make our meetings memorable.
 Oh, and did I tell you that
