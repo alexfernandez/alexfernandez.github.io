@@ -202,6 +202,7 @@ You can also just walk around.
 Just be careful not to get your interlocutors dizzy with a walking camera panorama;
 if you are on the move maybe it's better to switch off the camera.
 By the way, did you know that the mobile network is still working OK in most countries?
+Enjoy a good old _vintage_ conversation on your cellphone like our grandparents used to do!
 
 ### The Notebook
 
