@@ -169,7 +169,7 @@ In June 2021 I had a really fruitful visit to the lovely Hivency office in Paris
 as seen at the top of the article;
 reposted here for your convenience:
 
-![Map of selected meetings at the Hivency office in Paris.](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
+![Repost: Map of selected meetings.](pics/remote-memory-hivency.jpg "Same map of the Hivency map with selected meetings. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
 
 I was lucky because many of my colleagues also went to the office that week,
 and I tried to meet as many of them as possible.
