@@ -145,7 +145,7 @@ If you have ever owned a cat
 (and we love cats at Hivency Tech 😸)
 you know that they are _very_ aware of their surroundings.
 In fact, all kinds of animals have some kind of
-[spatial cognitiion](https://en.wikipedia.org/wiki/Spatial_cognition),
+[spatial cognition](https://en.wikipedia.org/wiki/Spatial_cognition),
 from birds to cuttlefish.
 It is no wonder that our memory has adapted to remembering places,
 landmarks and routes.
@@ -155,7 +155,7 @@ why not use it to our advantage?
 
 ## What Can We Do About It?
 
-Now it's the time for me to suggest improvements.
+Now it's time to suggest improvements.
 Can we do something to improve the memorability of our meetings in these pandemic times?
 
 ### Back to the Office
