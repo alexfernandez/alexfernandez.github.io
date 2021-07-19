@@ -20,9 +20,9 @@ some _magic_ that happened at the office.
 And I'm not speaking just about the free coffee and all the water cooler bad jokes.
 (Which you are also allowed to miss by the way.)
 
-So, what is it that we are missing,
+So, what is it that we are lacking,
 and what can we do about it?
-Let's delve in!
+Let's dive in!
 
 ### About the Author
 
@@ -123,7 +123,7 @@ and mentioned by no less than our fictional friends
 [Sherlock Holmes](https://www.pastemagazine.com/science/memory/a-look-inside-a-memory-champions-mind-palace/)
 and
 [Hannibal Lecter](https://blogs.scientificamerican.com/illusion-chasers/hannibal-lecter/).
-Plus, it is the best for counting cards and getting banned at casinos! 😎
+Plus, it is a good way to count cards and get banned at casinos! 😎
 
 Does it also work for most of us normal people?
 Well, you probably use a variation of the same technique when visiting the supermarket:
