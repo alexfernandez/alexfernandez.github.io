@@ -71,17 +71,13 @@ A first clue appears when you go back to the office,
 and start talking to people about meetings they have had.
 If they come from Southern Europe they will immediately start waving their hands,
 pointing to the imaginary locations where they were standing for each encounter.
-(Yes, many other cultures also do the same.)
+(And yes, many other cultures also gesture a lot.)
 
 What is going on?
-And why this extemporaneous cultural stereotype?
-For the second question I can be excused because I'm from Southern Europe myself;
-in fact, many of my best friends are Southern Europeans.
-As to the gesturing when remembering meetings,
-there must be a deeply hidden reason for this.
-So I started to pull the thread.
-What I found will surprise you! Or not,
-but it did in fact make me write this article so `¯\_(ツ)_/¯`
+When gesturing people follow their minds,
+so there must be a deeply hidden reason for this.
+This is what made me start to pull the thread.
+What I found will perhaps surprise you!
 
 ## Spatial Memory
 
@@ -103,7 +99,6 @@ In old US movies everyone remembers where they were when they heard about the as
 in my generation something similar happens with the World Trade Center attacks.
 I'm sure that millennials will have their own defining event,
 like the unveiling of a new Pokemon or something.
-(Those damn kids should get off my lawn, by the way!)
 
 ### The Method of Loci
 
@@ -155,7 +150,7 @@ why not use it to our advantage?
 
 ## What Can We Do About It?
 
-Now it's time to suggest improvements.
+Now it's time to suggest some improvements.
 Can we do something to improve the memorability of our meetings in these pandemic times?
 
 ### Back to the Office
