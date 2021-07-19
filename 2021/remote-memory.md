@@ -54,7 +54,7 @@ If you think about the situation, it is no mystery:
 this is a very monotonous situation for the mind.
 Sitting in the same place all day with little distractions
 is great for deep work,
-the kind that you do alone like read a report or write a document.
+the kind that you do alone like reading a report or writing code.
 But not so much for interacting with people:
 we really enjoy changing settings from time to time!
 
@@ -76,8 +76,8 @@ pointing to the imaginary locations where they were standing for each encounter.
 What is going on?
 And why this extemporaneous cultural stereotype?
 For the second question I can be excused because I'm from Southern Europe myself;
-in fact, many of my best friends are from Southern Europe.
-As to the handwaving when remembering meetings,
+in fact, many of my best friends are Southern Europeans.
+As to the gesturing when remembering meetings,
 there must be a deeply hidden reason for this.
 So I started to pull the thread.
 What I found will surprise you! Or not,
