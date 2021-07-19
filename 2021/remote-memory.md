@@ -17,7 +17,7 @@ Maybe it has happened to you:
 since working remotely, your day is a blurry continuum of online meetings.
 There is something missing,
 some _magic_ that happened at the office.
-And I'm not speaking just about the free coffee and all the water cooler bad jokes.
+And I'm not just speaking about the free coffee and all the water cooler bad jokes.
 (Which you are also allowed to miss by the way.)
 
 So, what is it that we are lacking,
@@ -246,6 +246,6 @@ Oh, and did I tell you that
 
 ### Acknowledgements
 
-Thanks for Hivency for providing the opportunity to write this article.
+Thanks to Hivency for providing the opportunity to write this article.
 Special thanks to Joël and Elise for their blog writing tips!
 
