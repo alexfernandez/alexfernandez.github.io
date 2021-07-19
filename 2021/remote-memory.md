@@ -208,7 +208,7 @@ Well, we are not here to judge, and there is still hope for you!
 There is another visual aid that will be there to help us:
 _The Notebook_.
 
-![I really like these notebooks (sadly, not a sponsor).](pics/remote-memory-notebook?.jpg "A few notebooks piled up. Source: the author.")
+![I really like these notebooks (sadly, not a sponsor).](pics/remote-memory-notebooks.jpg "A few notebooks piled up. Source: the author.")
 
 It may seem a bit stupid to mention notebooks in a rant about spatial memory,
 but after all the objective is to make your meetings memorable.
