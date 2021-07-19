@@ -93,7 +93,7 @@ and this helps remember what everyone said and when.
 
 ### Memorable Events
 
-Conversations seem to be mentally affixed to the location where they took place.
+Each conversation seems to be mentally affixed to the location where it takes place.
 In fact, people are transported in their imagination to the _place and time_ where it happened.
 When we are online we lose these valuable cues,
 and can only turn back to a rough idea of the time when something happened.
