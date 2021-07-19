@@ -86,10 +86,10 @@ but it did in fact make me write this article so `¯\_(ツ)_/¯`
 ## Spatial Memory
 
 It is a well known fact that memory works very well when it refers to places.
-Working always from home messes with it.
+Working always from home messes with that.
 In an office you are moving constantly,
-meeting with people in different places,
-and this helps remember what people said and when.
+meeting people in different places,
+and this helps remember what everyone said and when.
 
 ### Memorable Events
 
