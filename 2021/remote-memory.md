@@ -39,7 +39,7 @@ and as "Papucho" by my daughter.
 
 I have worked mostly remotely since 2011,
 so I should know what I'm speaking about!
-(In fact most of the time I don't,
+(In fact most of the time I don't know anything,
 but this will be our little secret 😉)
 
 ## Remote Meetings
@@ -51,7 +51,7 @@ You have one online meeting after the other,
 and after a while they start to blur into one another.
 
 If you think about the situation, it is no mystery:
-it is a very monotonous situation for the mind.
+this is a very monotonous situation for the mind.
 Sitting in the same place all day with little distractions
 is great for deep work,
 the kind that you do alone like read a report or write a document.
