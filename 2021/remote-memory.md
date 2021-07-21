@@ -11,12 +11,12 @@ abstract:
 image: https://pinchito.es/2021/pics/remote-memory-hivency.jpg
 ---
 
-![Map of selected meetings at the Hivency office in Paris.](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
+![Map of selected meetings at the Hivency office in Paris. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.](pics/remote-memory-hivency.jpg "A map of the location of the Hivency office, with notes about where meetings happened and with whom.")
 
 Maybe it has happened to you:
 since working remotely, your day is a blurry continuum of online meetings.
 There is something missing,
-some _magic_ that happened at the office.
+some **magic** that happened at the office.
 And I'm not just speaking about the free coffee and all the water cooler bad jokes.
 (Which you are also allowed to miss by the way.)
 
@@ -35,7 +35,7 @@ I am known as
 [pinchito on Twitter](https://twitter.com/pinchito),
 and as "Papucho" by my daughter.
 
-![This is Papucho.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself. Source: the author.")
+![This is Papucho. Source: the author.](pics/remote-memory-papucho.jpg "A gorgeous drawing in pencil and charcoal by my 12-yo daughter, depicting a bearded guy that suspiciously resembles myself.")
 
 I have worked mostly remotely since 2011,
 so I should know what I'm speaking about!
@@ -58,13 +58,13 @@ the kind that you do alone like reading a report or writing code.
 But not so much for interacting with people:
 we really enjoy changing settings from time to time!
 
-![Online meeting and the changing faces effect.](pics/remote-memory-changing.jpg "Faces changing places in an online conference. Source: adapted from https://disney.fandom.com/wiki/Category:Dwarfs.")
+![Online meeting and the changing faces effect. Source: adapted from https://disney.fandom.com/wiki/Category:Dwarfs.](pics/remote-memory-changing.jpg "Faces changing places in an online conference.")
 
 Videoconferencing tools do not help either:
 faces appear at seemingly random positions on the screen,
 which can even change in the middle of a conversation!
 
-### Some Clues
+### Some Memorable Clues
 
 So why is it so hard to have memorable conversations online?
 A first clue appears when you go back to the office,
@@ -81,11 +81,11 @@ What I found will perhaps surprise you!
 
 ## Spatial Memory
 
-It is a well known fact that memory works very well when it refers to places.
-Working always from home messes with that.
+It is a well-known fact that memory works very well when associated with particulart  places.
 In an office you are moving constantly,
 meeting people in different places,
 and this helps remember what everyone said and when.
+Working always from home messes with all this.
 
 ### Memorable Events
 
@@ -110,7 +110,7 @@ or the
 [method of _loci_](https://en.wikipedia.org/wiki/Method_of_loci)
 if you want to show off your Latin.
 
-![Sort-of-artistic depiction of the memory palace.](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the method of _loci_ does not actually require imagining a palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.")
+![Sort-of-artistic depiction of the memory palace. Source: adapted from https://commons.wikimedia.org/wiki/File:Meeting_Room_Niavaran_Palace.JPG.](pics/remote-memory-palace.jpg "A palace room with lots of notes; note that the method of _loci_ does not actually require imagining a palace.")
 
 This is in fact the most widely used technique by
 [memory champions](https://www.smithsonianmag.com/science-nature/why-you-can-train-your-brain-memory-champion-still-forget-your-car-keys-180962496/),
@@ -169,7 +169,7 @@ In June 2021 I had a really fruitful visit to the lovely Hivency office in Paris
 as seen at the top of the article;
 reposted here for your convenience:
 
-![Repost: Map of selected meetings.](pics/remote-memory-hivency.jpg "Same map of the Hivency map with selected meetings. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.")
+![Repost: Map of selected meetings. Source: adapted from https://zoom.earth/#view=48.858296,2.349495,20z.](pics/remote-memory-hivency.jpg "Same map of the Hivency map with selected meetings.")
 
 I was lucky because many of my colleagues also went to the office that week,
 and I tried to meet as many of them as possible.
@@ -208,7 +208,7 @@ Well, we are not here to judge, and there is still hope for you!
 There is another visual aid that will be there to help us:
 _The Notebook_.
 
-![I really like these notebooks (sadly, not a sponsor).](pics/remote-memory-notebooks.jpg "A few notebooks piled up. Source: the author.")
+![I really like these notebooks (sadly, not a sponsor). Source: the author.](pics/remote-memory-notebooks.jpg "A few notebooks piled up.")
 
 It may seem a bit stupid to mention notebooks in a rant about spatial memory,
 but after all the objective is to make your meetings memorable.
