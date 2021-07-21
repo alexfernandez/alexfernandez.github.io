@@ -156,6 +156,7 @@ Verona, Italy
 Charla motivacional:
 [slides](https://slides.com/alexfernandez/motivational-talk-jsdayes/),
 [video](https://www.youtube.com/watch?v=uGtlyDmttq0).
+<br>
 <img height="15" src="/pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
 <br>
