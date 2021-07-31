@@ -9,7 +9,6 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh 2021/understanding-entropy
 ./generate.sh 2021/ttp
 ./generate.sh 2021/repaso-propositos-2020
-./generate.sh 2020/unknown-knowns
 ./generate.sh 2020/cinco-cos
 ./generate.sh 2020/tpp
 ./generate.sh 2020/curso-escalabilidad-2
