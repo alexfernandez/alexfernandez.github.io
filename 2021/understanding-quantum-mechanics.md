@@ -1,11 +1,12 @@
 ---
-title: 'Understanding Entropy'
-subtitle: 'On the Road to Quantum Entropy, Part 1'
-footer: Published on 2021-07-10, modified on 2021-07-10.
+title: 'Understanding Quantum Mechanics'
+subtitle: 'On the Road to Quantum Entropy, Part 2'
+footer: Published on 2021-07-31, modified on 2021-07-31.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  Entropy is easily the most misunderstood of all physical magnitudes.
-  No wonder, for it is also one of the most abstract!
+  Quantum Mechanics is by far the most misunderstood of all physical theories.
+  It has many formulations and interpretations,
+  and it is misused regularly by both scientists and the general public.
   Fear no more; in this article we will try to understand what it is and why it matters.
 image: https://pinchito.es/2021/pics/understanding-entropy-drawing.jpg
 ---
@@ -119,7 +120,7 @@ The following script will show a 2D simulation of diffusion,
 where each black particle follows a random walk,
 plus a primitive collision detection.
 
-<script src="https://pinchito.es/physics-simulation/diffusion/diffusion.js"></script>
+<script src="https://pinchito.es/wave-simulator/wave.js"></script>
 <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
@@ -133,35 +134,12 @@ plus a primitive collision detection.
 </form>
 </div>
 
-Let us see if we can measure the information content at several steps.
-At the beginning we have a mostly round shape:
-points are placed near the center with a certain initial drift.
-Then each point slowly moves away every 0.1 seconds,
-in a random direction each time.
-As before, we take a snapshot and save it.
-
-![At the start the PNG weighs 9.2 KB.](pics/understanding-entropy-diffusion1.png "10k points in a mostly round shape")
-
-![At 2.4 seconds the PNG has increased to 15.7 KB.](pics/understanding-entropy-diffusion2.png "Most points are slowly drifting, the center circle still clearly visible")
-
-![Right before 10 seconds the file is already at 21.9 KB.](pics/understanding-entropy-diffusion3.png "Now the image is mostly a blur at the center")
-
-![At 25 seconds we have 26.7 KB.](pics/understanding-entropy-diffusion4.png "A nebulous cloud of dots")
-
-At this point more or less information stops growing. Why?
-These images are stored using the lossless format PNG,
-which is not really an accurate measurement of the information content!
-In fact PNG is notoriously poor at encoding random images.
-If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.
-
-Any file format will be an upper limit on the real content of information,
-since someone can come with an even better compression at any time.
-As long as a compression algorithm is lossless
-(so the original image can be reproduced without any detail loss),
-the resulting file will be proof that the information content was at most its new file size.
+Veritasium has done a
+[nice experiment](https://www.youtube.com/watch?v=Iuv6hY6zsd0)
+for the classical experiment.
 
 By the way, you can play with the simulation
-[here](https://pinchito.es/physics-simulation/diffusion/).
+[here](https://pinchito.es/diffusion-simulator/).
 
 ### The Real World
 

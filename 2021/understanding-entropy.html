@@ -123,7 +123,7 @@
 <p>As systems evolve, their entropy always grows, and the amount of information needed to describe them also grows. Because, remember, they are one and the same!</p>
 <h3 id="diffusion-simulator">Diffusion Simulator</h3>
 <p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time. The following script will show a 2D simulation of diffusion, where each black particle follows a random walk, plus a primitive collision detection.</p>
-<script src="https://pinchito.es/diffusion-simulator/diffusion.js"></script>
+<script src="https://pinchito.es/physics-simulation/diffusion/diffusion.js"></script>
 <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
 </canvas>
 <div id="form">
@@ -146,7 +146,7 @@
 </figure>
 <p>At this point more or less information stops growing. Why? These images are stored using the lossless format PNG, which is not really an accurate measurement of the information content! In fact PNG is notoriously poor at encoding random images. If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.</p>
 <p>Any file format will be an upper limit on the real content of information, since someone can come with an even better compression at any time. As long as a compression algorithm is lossless (so the original image can be reproduced without any detail loss), the resulting file will be proof that the information content was at most its new file size.</p>
-<p>By the way, you can play with the simulation <a href="https://pinchito.es/diffusion-simulator/">here</a>.</p>
+<p>By the way, you can play with the simulation <a href="https://pinchito.es/physics-simulation/diffusion/">here</a>.</p>
 <h3 id="the-real-world">The Real World</h3>
 <p>Is it possible to see also this growth of information on a real system? Let us first do a rough approximation. How can we measure the information of a real system? In this <a href="https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093">Getty image</a>, similar to the one above, we can see a sequence of diffusion in a liquid. Let us try our previous method to measure information: if we divide each step and weigh the resulting PNG images we get 44.2, 56.2 and 65.7 KB.</p>
 <p>This is a coarse method, no doubt, but it is useful to show that we are on the right path. Of course the real entropy will be 3D and depend on the positions of all molecules, and will therefore be astronomically higher. But in fact our silly method is not so far from real measures of entropy: a common technique to compute entropy is to do boxing of the system with a finer and finer grid until all the relevant information has been captured.</p>
