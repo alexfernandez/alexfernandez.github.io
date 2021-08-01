@@ -120,7 +120,7 @@ The following script will show a 2D simulation of diffusion,
 where each black particle follows a random walk,
 plus a primitive collision detection.
 
-<script src="https://pinchito.es/wave-simulator/wave.js"></script>
+<script src="https://pinchito.es/physics-simulation/wave/wave.js"></script>
 <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
