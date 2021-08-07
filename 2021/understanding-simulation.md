@@ -11,7 +11,7 @@ abstract:
 image: https://pinchito.es/2021/pics/understanding-simulation-simulators.jpg
 ---
 
-![An image with increasing entropy, from top left to bottom right.](pics/understanding-entropy-drawing.jpg "A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author.")
+![The Simulators, 2021, pastels on paper.](pics/understanding-simulation-simulators.jpg "A couple of creatures look upon a simulation of two humans in a field of grass besides a tree. Source: the author.")
 
 Come with me on this wondeful journey,
 where we will reason together about the deepest problems known to mankind in easy to follow terms.
