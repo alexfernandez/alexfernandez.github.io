@@ -190,6 +190,11 @@ The [Sagan standard](https://en.wikipedia.org/wiki/Sagan_standard):
 
 > For a theory to be considered scientific, it must be falsifiable.
 
+[Russell's teapot](https://en.wikipedia.org/wiki/Russell%27s_teapot):
+
+> Nobody can prove that there is not between the Earth and Mars a china teapot revolving in an elliptical orbit,
+but nobody thinks this sufficiently likely to be taken into account in practice.
+
 And of course their most venerable ancestor of them all, Occam's razor:
 
 > Entities should not be multiplied beyond necessity.
@@ -198,6 +203,8 @@ To be honest we might have started with any of these razors and be done with,
 but at this point they apply beautifully:
 we have shown that simulating a complete universe requires at least infinite computers,
 and then probably exotic universes.
+We may as well postulate that our universe is the dream of an elf living in the forests of Lothlórien,
+and we will have exactly the same proof (or even logic behind it).
 
 ## What Is in a Simulation?
 
@@ -223,10 +230,10 @@ like (let's use our imagination here):
 > If we change the fine structure constant from the _real_ 1/138 to 1/137,
 > do stellar clusters arise?
 
-They are not even that interested in intelligent life forms such as our own,
+They may not even be that interested in intelligent life forms such as our own,
 because they have probably seen it all by now.
 Almost by definition their intelligence is much higher than our own,
-so we will look like funny artifacts to their eyes.
+so we will look like funny toys or artifacts to their eyes.
 
 But wait! Perhaps the simulators are watching closely how civilizations evolve around the universe,
 to settle some refined bet in a gentleman's club not unlike that one where Phileas Fogg sat with his pals,
@@ -244,18 +251,53 @@ What if their computing power runs off at this most exciting point?
 Will our intrepid betters see all of their efforts blow up in a puff of air
 as their galactic credits run out to run the simulation any further?
 
-It is a sad fact of Nature that 
+It is a sad fact of Nature that the Simulators cannot just continue simulating those parts they find interesting,
+while lowering the resolution (or even neglecting) other less interesting parts.
+Our universe is interconnected:
+we can gaze into the skies to see galaxy clusters millions of light-years from our own,
+we are pierced every second by neutrinos that come from the wildest corners of the sky,
+and instruments like LIGO can detect neutron star mergers where we barely see anything at all.
 
 Again, since we are just entertaining wild speculations,
 we can imagine the situation we prefer.
 But simulations are not cheap:
-in the current state of our technology we can hardly simulat even 
+in the current state of our technology we can hardly simulate even
+[one molecule of protein](https://en.wikipedia.org/wiki/Protein_folding#Computational_studies_of_protein_folding)
+with sufficient precision as to know its final shape.
+Venturing that some advanced civilization can simulate a complete universe
+from start to any random point in the future more advanced than our own age
+is again going too far with zero evidence.
 
 ### Quantum Computing
 
 By now at least half of my remaining readership is probably screaming at the top of their lungs:
 
 > But it's a **quantum computer**!
+
+When there is a far-fetched hypothesis,
+mixing it with a far-fetched technology usually solves the ticket trivially.
+After all, qubits (short for quantum bits) are supposed to store much more information than regular bits, right?
+
+We are getting a bit ahead of ourselves in this series,
+since I would like to do an entry about quantum computing.
+But besides the difficulties with having many qubits running at the same time,
+the biggest issue is that the universe is also quantum.
+We get no huge boost from using qubits to solve classical problems.
+The number of qubits required to simulate our universe would be the number of qubits in it,
+and this number is still growing all the time (remember our Second Law).
+
+There is an intriguing (and very remote) possibility:
+that decoherence forces our universe to be mostly classical,
+and that quantum computing can be applied to accelerate computations of these classical interactions.
+The harsh reality is probably that the same conditions that force decoherence in the real world
+will force decoherence of our qubits,
+so it's a zero sum game.
+
+We are back to making far-fetched suppositions:
+that a new computing paradigm will store many qubits in one qubit,
+or that the simulators can compress qubits by a factor of a googolplex.
+It is still nonsense and should be discarded by our
+[philosophical swiss knife](https://en.wikipedia.org/wiki/Philosophical_razor).
 
 ### Enter The Matrix
 
