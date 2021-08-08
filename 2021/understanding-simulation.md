@@ -205,7 +205,7 @@ we have shown that simulating a complete universe requires at least infinite com
 and then probably exotic universes.
 We may as well postulate that our universe is the
 [dream of a butterfly](https://en.wikipedia.org/wiki/Zhuangzi_(book)#.22The_Butterfly_Dream.22),
-and we will have exactly the same proof (or even logic behind it).
+and we will have exactly the same proof (or indeed logic behind it).
 
 ## What Is in a Simulation?
 
