@@ -29,10 +29,10 @@ Elon Musk,
 Neil Degrasse Tyson.
 
 At some points some scientists advanced this wonderful argument:
-there can only be one real Universe,
+there can only be one real universe,
 but inside it there can be any number of life-like simulations.
 Therefore it is much more likely that we are in one of those simulations
-than inside the real Universe,
+than inside the real universe,
 just because of probabilities.
 After all,
 if there are many tickets but only one gets the price,
@@ -57,7 +57,7 @@ As we saw in the
 entropy is just another name for information to describe a system.
 
 > If information is always increasing,
-> there is no way that a computer can simulate the whole Universe.
+> there is no way that a computer can simulate the whole universe.
 > No matter how big it is made,
 > **at some point any computer will run out of information storage**.
 
@@ -71,7 +71,7 @@ but what happens to an open system?
 Its entropy can decrease as long as it is transferred to another open system.
 All in all, entropy for the combination of both systems cannot decrease.
 The same idea applies recursively to any combination of systems
-until we reach the whole Universe.
+until we reach the whole universe.
 
 Next, we may ask ourselves:
 what if the entropy of the closed system stays constant,
@@ -96,7 +96,7 @@ Sir Arthur Eddington [stated](https://en.wikipedia.org/wiki/Second_law_of_thermo
 
 The second law has also been shown to
 [hold at cosmic scales](https://www.uab.cat/web/news-detail/does-the-second-law-hold-at-cosmic-scales-1345680342044.html?noticiaid=1345794120443),
-that is, to the whole Universe.
+that is, to the whole universe.
 
 ## What Is a Computer?
 
@@ -140,7 +140,7 @@ at some point they will run out of memory.
 
 One popular trick is to postulate that the Simulators live in a higher dimensional space than us,
 the Simulated.
-Our whole Universe would just be a lower dimensional slice of their Universe,
+Our whole universe would just be a lower dimensional slice of their (much cooler) universe,
 as an infinite plane would be to us.
 It's popular maybe because it sounds cool and it is just hard to disprove.
 On the other hand, information will run out in any higher dimension anyway.
@@ -160,7 +160,7 @@ In this case information does not accumulate by necessity either,
 which means that we can lose information spontaneously,
 so it would not help as much as we may think in the beginning.
 
-### Simulating Universe
+### Universe Simulates Universe
 
 So what if the whole universe of the Simulators is dedicated to simulating our own?
 We are getting way more exotic than in the begging.
@@ -244,13 +244,22 @@ What if their computing power runs off at this most exciting point?
 Will our intrepid betters see all of their efforts blow up in a puff of air
 as their galactic credits run out to run the simulation any further?
 
+It is a sad fact of Nature that 
+
 Again, since we are just entertaining wild speculations,
 we can imagine the situation we prefer.
 But simulations are not cheap:
+in the current state of our technology we can hardly simulat even 
+
+### Quantum Computing
+
+By now at least half of my remaining readership is probably screaming at the top of their lungs:
+
+> But it's a **quantum computer**!
 
 ### Enter The Matrix
 
-If it's impossible to simulate a complete working Universe,
+If it's impossible to simulate a complete working universe,
 is it possible that we live in a Matrix-like simulation?
 In the 1999 film
 [The Matrix](https://en.wikipedia.org/wiki/The_Matrix)
@@ -263,7 +272,7 @@ if it is restarted whenever the person in it dies.
 There is nothing unlimited in the life of a person,
 so in theory it _could_ be successfully simulated in a limited computer.
 But note that this is a much more solipsistic version of the idea.
-It is not a simulation of our whole Universe;
+It is not a simulation of our whole universe;
 just of the life of a person.
 In fact every person would have to live in separate universes.
 
@@ -281,11 +290,11 @@ that happen whenever the system needs to erase information to make room for new 
 but they would be noticeable to the inhabitants.
 
 Even if we limit ourselves to one generation,
-keeping information about the external world coherent would require us to simulate the whole Universe.
+keeping information about the external world coherent would require us to simulate the whole universe.
 After all, anyone in the Matrix can take a picture of the galaxies in a certain portion of the sky,
 store it somewhere,
 then take another a few years later with another telescope and check if they are the same.
-It would take a very clever computer to maintain all the relevant information of the Universe
+It would take a very clever computer to maintain all the relevant information of the universe
 so that both pictures are coherent with all physical laws:
 they should be mostly the same,
 except for the moving of the stars inside and the occasional supernovae.
@@ -304,7 +313,7 @@ Some researchers have indeed looked for clues of such a simulation,
 finding none.
 
 But the Matrix argument falls short of the Simulation Hypothesis:
-we are not simulating a complete Universe with people in it,
+we are not simulating a complete universe with people in it,
 but instead we need a bunch of living human bodies to plug them in the Matrix.
 
 ## Why a Simulation?
@@ -323,7 +332,7 @@ It is not so different from the mechanism that makes some religions comforting:
 this world is but a test of our spirits,
 the real life will come later in Heaven.
 
-Well, I think it is important to confront the Universe
+Well, I think it is important to confront the universe
 with all its marvel and misery.
 
 ### A Mythological Explanation
@@ -341,7 +350,7 @@ referring to Wolfram Physics:
 ## Conclusion
 
 The simplistic idea that we live in a computer simulation is plainly wrong:
-there is no sane definition of "computer" and "simulation" where our Universe can reside.
+there is no sane definition of "computer" and "simulation" where our universe can reside.
 
 We will soon continue our journey exploring quantum entropy.
 
