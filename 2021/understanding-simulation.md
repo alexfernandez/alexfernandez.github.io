@@ -58,7 +58,7 @@ If information is always increasing,
 there is no way that a computer can simulate the whole Universe:
 no matter how big the computer is,
 at some point it will run out of information storage.
-This is the basic idea 
+This is the basic idea that proves we are not living in a computer simulation.
 
 ### Thermo Tricks
 
@@ -95,16 +95,64 @@ The second law has also been shown to
 [hold at cosmic scales](https://www.uab.cat/web/news-detail/does-the-second-law-hold-at-cosmic-scales-1345680342044.html?noticiaid=1345794120443),
 that is, to the whole Universe.
 
-### What Is A Computer?
+## What Is A Computer?
 
-## Enter The Matrix
+So our next line of attack will probably be to redefine what a "computer" is,
+so that it can accommodate an always-increasing simulation.
 
-Is it possible that we live in a Matrix-like simulation?
-That is,
-a Universe created just for us,
+### Many Dimensions
+
+### Enter The Matrix
+
+If it's impossible to simulate a complete working Universe,
+is it possible that we live in a Matrix-like simulation?
+In the 1999 film
+[The Matrix](https://en.wikipedia.org/wiki/The_Matrix)
+there is a simulation created just for us,
 limited human creatures,
-to live our little lives in a certain portion of time?
-This simulation can be thought to 
+to live our little lives in a certain portion of time.
+
+A certain version of the computer simulation _could_ be possible:
+if it is restarted whenever the person in it dies.
+There is nothing unlimited in the life of a person,
+so in theory it _could_ be successfully simulated in a limited computer.
+But note that this is a much more solipsistic version of the idea.
+It is not a simulation of our whole Universe;
+just of the life of a person.
+In fact every person would have to live in separate universes.
+
+The thing starts to complicate if everyone in the Matrix shares the same simulation,
+as depicted in the movie.
+In this case information starts to accumulate again:
+even if one person dies and their information is removed,
+some of that information needs to be kept around because other people will remember it.
+We will have artifacts from long dead people,
+word of mouth or even recordings, that need to be kept around.
+Again, information grows uncontrollably,
+and after a few generations the system will be expected to collapse.
+We can postulate "glitches in the Matrix"
+that happen whenever the system needs to erase information to make room for new experiences,
+but they would be noticeable to the inhabitants.
+
+Even if we limit ourselves to one generation,
+keeping information about the external world coherent would require us to simulate the whole Universe.
+After all, anyone in the Matrix can take a picture of the galaxies in a certain portion of the sky,
+store it somewhere,
+then take another a few years later with another telescope and check if they are the same.
+It would take a very clever computer to maintain all the relevant information of the Universe
+so that both pictures are mostly the same,
+except for the occasional supernovae.
+
+Another argument against such a simulation is that it is impossible to do a perfectly coherent simulation:
+the simulated laws of Physics are always short of the real deal.
+One example is anisotropy:
+if we measure the laws of movement in all directions we should be able to tell how the building blocks are aligned,
+that is, where the axes of coordinates are.
+
+Then there's the whole plot gap that it is impossible to use humans as batteries:
+we will always consume more energy than we produce,
+also a consequence of the Second Law by the way.
+But let's keep to the simulation aspects of the movie.
 
 ## Why a Simulation?
 
