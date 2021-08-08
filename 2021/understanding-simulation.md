@@ -42,7 +42,8 @@ As we will see,
 all things are not equal.
 
 For the purpose of this article,
-the Simulators are hypothetical creatures that are running the simulation where we supposedly reside.
+the Simulation Hypothesis is the idea that we are living inside a computer simulation,
+and the Simulators are hypothetical creatures that are running the simulation where we supposedly reside.
 
 ## A Thermodynamical Argument
 
@@ -54,10 +55,12 @@ The Second Law of Thermodynamics states that:
 As we saw in the 
 [first part](/2021/understanding-entropy),
 entropy is just another name for information to describe a system.
-If information is always increasing,
-there is no way that a computer can simulate the whole Universe:
-no matter how big the computer is,
-at some point it will run out of information storage.
+
+> If information is always increasing,
+> there is no way that a computer can simulate the whole Universe.
+> No matter how big it is made,
+> **at some point any computer will run out of information storage**.
+
 This is the basic idea that proves we are not living in a computer simulation.
 
 ### Thermo Tricks
@@ -95,12 +98,155 @@ The second law has also been shown to
 [hold at cosmic scales](https://www.uab.cat/web/news-detail/does-the-second-law-hold-at-cosmic-scales-1345680342044.html?noticiaid=1345794120443),
 that is, to the whole Universe.
 
-## What Is A Computer?
+## What Is a Computer?
 
 So our next line of attack will probably be to redefine what a "computer" is,
 so that it can accommodate an always-increasing simulation.
 
-### Many Dimensions
+### Turing Machines
+
+When Alan Turing started studying how computers worked in practice,
+he came up with an idealized version:
+a reading / writing head that could move in either direction
+over an infinite roll of tape with 0s and 1s.
+Such a machine could store infinite information
+so our little Second Law limitation would not be an issue.
+
+The Turing Machine is a brilliant construct for exploring the theoretical limitations of computers:
+anything that it cannot do will never be possible on a real computer,
+no matter how many exabytes of memory we attach to it.
+But the opposite is not true:
+Turing Machines can perform infinite computations
+and run for as long as we desire,
+something that real computers cannot do.
+
+A real computer is by necessity a machine with fixed bounds.
+Even if we go to the mythical cloud for our computing needs,
+it is still not infinite:
+even if we use the total computing power of the world
+at [around 4E+15 MIPS](https://incoherency.co.uk/blog/stories/world-computing-power.html),
+all the datacenters in the world will be exhausted at some point.
+Even a fictional
+[Matrioshka brain](https://en.wikipedia.org/wiki/Matrioshka_brain),
+powered by the entire energy output of our Sun,
+will be exhausted at some point.
+
+We can imagine that the Simulators attach new memory banks to their simulating contraption as needed,
+perhaps even as their sole dedication.
+Doesn't matter:
+at some point they will run out of memory.
+
+### More Powerful Universes
+
+One popular trick is to postulate that the Simulators live in a higher dimensional space than us,
+the Simulated.
+Our whole Universe would just be a lower dimensional slice of their Universe,
+as an infinite plane would be to us.
+It's popular maybe because it sounds cool and it is just hard to disprove.
+On the other hand, information will run out in any higher dimension anyway.
+
+As the next step,
+we may postulate that the universe of the Simulators
+is much more powerful than our own.
+As a starter, maybe it has a higher speed of light,
+or smaller Planck constant.
+Perhaps the fine structure constant there is not 1/137,
+but more like 1/1370, or 1/13.
+It remains to be seen if such a universe is even possible,
+as the constants of our own universe seem perfectly adjusted to make our existence possible.
+
+And maybe the Second Law does not apply there?
+In this case information does not accumulate by necessity either,
+which means that we can lose information spontaneously,
+so it would not help as much as we may think in the beginning.
+
+### Simulating Universe
+
+So what if the whole universe of the Simulators is dedicated to simulating our own?
+We are getting way more exotic than in the begging.
+Notice that we are moving further and further from the naïve argument
+of probability of living in a simulation,
+which is that there are more simulated universes than real.
+Exotic universes are perhaps possible,
+who knows?
+Now we have to imagine universes dedicated to simulating other universes.
+
+At this point we may as well wield any of a number of philosophical instruments.
+We can start with
+[Hitchens's razor](https://en.wikipedia.org/wiki/Hitchens%27s_razor):
+
+> What can be asserted without evidence can also be dismissed without evidence.
+
+Alder's razor,
+also known as [Newton's Flaming Laser Sword](https://en.wikipedia.org/wiki/Mike_Alder#Newton's_Flaming_Laser_Sword):
+
+> We should not dispute propositions unless they can be shown by precise logic and/or mathematics to have observable consequences.
+
+The [Sagan standard](https://en.wikipedia.org/wiki/Sagan_standard):
+
+> Extraordinary claims require extraordinary evidence.
+
+[Popper's falsifiability principle](https://en.wikipedia.org/wiki/Falsifiability):
+
+> For a theory to be considered scientific, it must be falsifiable.
+
+And of course their most venerable ancestor of them all, Occam's razor:
+
+> Entities should not be multiplied beyond necessity.
+
+To be honest we might have started with any of these razors and be done with,
+but at this point they apply beautifully:
+we have shown that simulating a complete universe requires at least infinite computers,
+and then probably exotic universes.
+
+## What Is in a Simulation?
+
+Our celebrity interlocutor who is a fan of the Simulation Hypothesis,
+being clever and charismatic,
+will now turn their celebrated eyes to the other side of the equation:
+to bend the concept of simulation so that it fits what an imaginary computer can do.
+
+### Limited Simulation
+
+The first obvious tweaking of the Simulation Hypothesis is that the Simulators may not want to simulate our universe
+till we reach the heat death reach their computing limitations at some point:
+they just want to get to the interesting parts,
+which for us humans is exactly our own period.
+
+This leaves us in an uncomfortable position:
+maybe the Simulators think that the really good part was
+[the emergence of large structure](https://en.wikipedia.org/wiki/Chronology_of_the_universe#The_Dark_Ages_and_large-scale_structure_emergence)
+and they are about to switch our universe off at any moment.
+It could well be that they are running a few extra eons just to prove some fine point in their cosmological simulations,
+like (let's use our imagination here):
+
+> If we change the fine structure constant from the _real_ 1/138 to 1/137,
+> do stellar clusters arise?
+
+They are not even that interested in intelligent life forms such as our own,
+because they have probably seen it all by now.
+Almost by definition their intelligence is much higher than our own,
+so we will look like funny artifacts to their eyes.
+
+But wait! Perhaps the simulators are watching closely how civilizations evolve around the universe,
+to settle some refined bet in a gentleman's club not unlike that one where Phileas Fogg sat with his pals,
+only with mixed-gender attendance and much more advanced in all other respects.
+They rented some hyper-computing instances on a galactic cloud
+and are waiting to see advanced civilizations.
+Problem is,
+the universe is almost 14 billion years old at this point,
+and we are still at the beginning!
+
+Who can tell what wonders may arise in some particularly stable white dwarf
+with a planet right in the habitable zone,
+which will be there for more than a trillion years?
+What if their computing power runs off at this most exciting point?
+Will our intrepid betters see all of their efforts blow up in a puff of air
+as their galactic credits run out to run the simulation any further?
+
+Again, since we are just entertaining wild speculations,
+we can imagine the situation we prefer.
+But simulations are not cheap:
 
 ### Enter The Matrix
 
@@ -140,19 +286,26 @@ After all, anyone in the Matrix can take a picture of the galaxies in a certain 
 store it somewhere,
 then take another a few years later with another telescope and check if they are the same.
 It would take a very clever computer to maintain all the relevant information of the Universe
-so that both pictures are mostly the same,
-except for the occasional supernovae.
+so that both pictures are coherent with all physical laws:
+they should be mostly the same,
+except for the moving of the stars inside and the occasional supernovae.
+
+Then there's the whole plot gap that it is impossible to use humans as batteries:
+we will always consume more energy than we generate,
+also a consequence of the Second Law by the way.
+But let's keep to the simulation aspects of the movie.
 
 Another argument against such a simulation is that it is impossible to do a perfectly coherent simulation:
-the simulated laws of Physics are always short of the real deal.
+any simulated laws of Physics are always short of the real deal.
 One example is anisotropy:
 if we measure the laws of movement in all directions we should be able to tell how the building blocks are aligned,
 that is, where the axes of coordinates are.
+Some researchers have indeed looked for clues of such a simulation,
+finding none.
 
-Then there's the whole plot gap that it is impossible to use humans as batteries:
-we will always consume more energy than we produce,
-also a consequence of the Second Law by the way.
-But let's keep to the simulation aspects of the movie.
+But the Matrix argument falls short of the Simulation Hypothesis:
+we are not simulating a complete Universe with people in it,
+but instead we need a bunch of living human bodies to plug them in the Matrix.
 
 ## Why a Simulation?
 
@@ -177,7 +330,7 @@ with all its marvel and misery.
 
 According to the developer
 [Marius Gundersen](https://twitter.com/GundersenMarius/status/1250186936779706375),
-tweeting about Wolfram Physics:
+referring to Wolfram Physics:
 
 > It follows the millennium old pattern of us explaining our existence using our most advanced technology.
 > Ancient people (many places) believed we were created from clay, their most advanced technology
