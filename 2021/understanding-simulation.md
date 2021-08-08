@@ -203,7 +203,8 @@ To be honest we might have started with any of these razors and be done with,
 but at this point they apply beautifully:
 we have shown that simulating a complete universe requires at least infinite computers,
 and then probably exotic universes.
-We may as well postulate that our universe is the dream of an elf living in the forests of Lothlórien,
+We may as well postulate that our universe is the
+[dream of a butterfly](https://en.wikipedia.org/wiki/Zhuangzi_(book)#.22The_Butterfly_Dream.22),
 and we will have exactly the same proof (or even logic behind it).
 
 ## What Is in a Simulation?
