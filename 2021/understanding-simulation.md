@@ -158,9 +158,9 @@ It remains to be seen if such a universe is even possible,
 as the constants of our own universe seem perfectly adjusted to make our existence possible.
 
 And maybe the Second Law does not apply there?
-In this case information does not accumulate by necessity either,
-which means that we can lose information spontaneously,
-so it would not help as much as we may think in the beginning.
+In this case information does not accumulate by necessity either:
+therefore data can be lost spontaneously,
+which would not help as much as we may think in the beginning.
 
 ### Universe Simulates Universe
 
@@ -360,6 +360,19 @@ finding none.
 But the Matrix argument falls short of the Simulation Hypothesis:
 we are not simulating a complete universe with people in it,
 but instead we need a bunch of living human bodies to plug them in the Matrix.
+
+### Finally, Bostrom's Simulation
+
+Remember Nick Bostrom,
+who postulated the Simulation Hypothesis?
+After much meandering we arrive to the core of his argument:
+paraphrased from
+[his website](https://www.simulation-argument.com/faq.html).
+
+> Either there is a significant chance that we will one day become posthumans who run ancestor-simulations,
+> or we are currently living in a simulation.
+
+
 
 ## Why a Simulation?
 
