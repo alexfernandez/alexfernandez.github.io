@@ -5,7 +5,7 @@ footer: Published on 2021-08-07, modified on 2021-08-07.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Are we living inside a computer simulation?
-  Many celebrities and even reputed scientists think we are.
+  Celebrities and even reputed scientists think we are.
   Armed with a little basic science,
   I will try to refute those ideas in this article.
 image: https://pinchito.es/2021/pics/understanding-simulation-simulators.jpg
@@ -28,7 +28,8 @@ Among them:
 Elon Musk,
 Neil Degrasse Tyson.
 
-At some points some scientists advanced this wonderful argument:
+The philosopher [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom)
+advanced this wonderful argument:
 there can only be one real universe,
 but inside it there can be any number of life-like simulations.
 Therefore it is much more likely that we are in one of those simulations
@@ -38,11 +39,12 @@ After all,
 if there are many tickets but only one gets the price,
 all things being equal it is much more likely that we don't win the price.
 Isn't it just common sense?
-As we will see,
-all things are not equal.
+Well of course, _provided all things are equal_.
+They seldom are.
 
 For the purpose of this article,
-the Simulation Hypothesis is the idea that we are living inside a computer simulation,
+the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis)
+is the idea that we are living inside a computer simulation,
 and the Simulators are hypothetical creatures that are running the simulation where we supposedly reside.
 
 ## A Thermodynamical Argument
