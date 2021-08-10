@@ -147,7 +147,7 @@ One interesting trick is to postulate that the Simulators live in a higher dimen
 the Simulated.
 Our whole universe would just be a lower dimensional slice of their (much cooler) universe,
 as an infinite plane would be to us.
-It's popular maybe because it sounds cool and it is just hard to disprove.
+This possibility sounds cool and is hard to disprove.
 On the other hand, information will run out in any higher dimension anyway.
 
 As the next step,
