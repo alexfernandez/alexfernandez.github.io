@@ -98,7 +98,7 @@ Sir Arthur Eddington [stated](https://en.wikipedia.org/wiki/Second_law_of_thermo
 > But if your theory is found to be against the second law of thermodynamics I can give you no hope;
 > there is nothing for it but to collapse in deepest humiliation.
 
-The second law has also been shown to
+It has also been shown to
 [hold at cosmic scales](https://www.uab.cat/web/news-detail/does-the-second-law-hold-at-cosmic-scales-1345680342044.html?noticiaid=1345794120443),
 that is, to the whole universe.
 
