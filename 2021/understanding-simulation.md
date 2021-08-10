@@ -219,7 +219,8 @@ and we will have exactly the same proof (or indeed logic behind it).
 Our celebrity interlocutor who is a fan of the Simulation Hypothesis,
 being clever and charismatic,
 will now turn their celebrated eyes to the other side of the equation:
-to bend the concept of simulation so that it fits what an imaginary computer can do.
+to bend the concept of simulation so that it fits what their imaginary almost unimaginable
+but finite computer can do.
 
 ### Limited Simulation
 
