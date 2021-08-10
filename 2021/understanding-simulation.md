@@ -126,11 +126,11 @@ and run for as long as we desire,
 something that real computers cannot do.
 
 A real computer is by necessity a machine with fixed bounds.
-Even if we go to the mythical cloud for our computing needs,
-it is still not infinite:
-even if we use the total computing power of the world
-at [around 4E+15 MIPS](https://incoherency.co.uk/blog/stories/world-computing-power.html),
-all the datacenters in the world will be exhausted at some point.
+Even the [mythical cloud](https://en.wikipedia.org/wiki/Cloud_computing)
+is large but not infinite:
+the total computing power of the world can be clocked at
+[around 4E+15 MIPS](https://incoherency.co.uk/blog/stories/world-computing-power.html).
+All the datacenters in the world will be exhausted at some point.
 Even a fictional
 [Matrioshka brain](https://en.wikipedia.org/wiki/Matrioshka_brain),
 powered by the entire energy output of our Sun,
