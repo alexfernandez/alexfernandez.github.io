@@ -16,7 +16,8 @@ image: https://pinchito.es/2021/pics/understanding-simulation-simulators.jpg
 This is the second part of our journey to understand quantum entropy.
 In the [first part](/2021/understanding-entropy)
 we saw that the physical concept of entropy is basically another name for
-"information required to describe a system".
+"information required to describe a system",
+and that both always grow as time passes.
 This basic result will be useful in what follows.
 
 ## Living Inside a Computer
