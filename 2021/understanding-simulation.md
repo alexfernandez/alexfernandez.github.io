@@ -49,7 +49,9 @@ and the Simulators are the hypothetical creatures that are running the simulatio
 
 ## A Thermodynamical Argument
 
-The Second Law of Thermodynamics states that:
+The
+[Second Law of Thermodynamics](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics)
+states that:
 
 > The entropy of an isolated system cannot decrease;
 > it will either stay constant or increase.
