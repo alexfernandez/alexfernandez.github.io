@@ -167,10 +167,12 @@ which would not help as much as we may think in the beginning.
 
 ### Universe Simulates Universe
 
-So what if the whole universe of the Simulators is dedicated to simulating our own?
-We are getting way more exotic than in the begging.
-Notice that we are moving further and further from the naïve argument
-of probability of living in a simulation,
+Information will also accumulate in the universe of the Simulators.
+So what if they take advantage of this fact?
+Maybe the whole universe of the Simulators is dedicated to simulating our own.
+
+Notice that we are getting way more exotic than in the begging.
+We are moving further and further from the naïve argument of the probability of living in a simulation,
 which is that there are more simulated universes than real.
 Exotic universes are perhaps possible,
 who knows?
