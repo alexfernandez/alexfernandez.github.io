@@ -226,7 +226,8 @@ and yet finite computer can do.
 ### Limited Simulation
 
 The first obvious tweaking of the Simulation Hypothesis is that the Simulators may not want to simulate our universe
-till we reach the heat death reach their computing limitations at some point:
+till it reaches the heat death.
+Since their computer will reach their computing limitations at some point,
 they just want to get to the interesting parts,
 which for us humans is exactly our own period.
 
@@ -237,8 +238,8 @@ and they are about to switch our universe off at any moment.
 It could well be that they are running a few extra eons just to prove some fine point in their cosmological simulations,
 like (let's use our imagination here):
 
-> If we change the fine structure constant from the _real_ 1/138 to 1/137,
-> do stellar clusters arise?
+> If we change the fine structure constant from the _actual value_ (for them) 1/138 to 1/137 (our own),
+> do stellar clusters still arise?
 
 They may not even be that interested in intelligent life forms such as our own,
 because they have probably seen it all by now.
