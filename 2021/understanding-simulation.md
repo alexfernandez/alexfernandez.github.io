@@ -376,12 +376,12 @@ finding none.
 It may be worth your time reading
 [Bostrom's original piece](https://www.simulation-argument.com/simulation.html),
 if only because it is thought-provoking.
-Right in the abstract he states his trilemma (dilemma with three possibilities):
+Right in the abstract he states his trilemma (dilemma with three possibilities),
+where one of the options **must** be true:
 
-> at least one of the following propositions is true:
-> 1. the human species is very likely to go extinct before reaching a “posthuman” stage;
-> 2. any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof);
-> 3. we are almost certainly living in a computer simulation.
+1. the human species is very likely to go extinct before reaching a “posthuman” stage;
+2. any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof);
+3. we are almost certainly living in a computer simulation.
 
 * pepito
 * manolito
