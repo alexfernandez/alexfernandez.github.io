@@ -116,7 +116,8 @@ over an infinite roll of tape with 0s and 1s.
 Such a machine could store infinite information
 so our little Second Law limitation would not be an issue.
 
-The Turing Machine is a brilliant construct for exploring the theoretical limitations of computers:
+The [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+is a brilliant construct for exploring the theoretical limitations of computers:
 anything that it cannot do will never be possible on a real computer,
 no matter how many exabytes of memory we attach to it.
 But the opposite is not true:
