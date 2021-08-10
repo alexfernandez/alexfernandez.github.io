@@ -40,7 +40,6 @@ if there are many tickets but only one gets the price,
 all things being equal it is much more likely that we don't win the price.
 Isn't it just common sense?
 Well of course, _provided all things are equal_.
-They seldom are.
 
 For the purpose of this article,
 the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis)
@@ -225,7 +224,7 @@ which for us humans is exactly our own period.
 
 This leaves us in an uncomfortable position:
 maybe the Simulators think that the really good part was
-[the emergence of large structure](https://en.wikipedia.org/wiki/Chronology_of_the_universe#The_Dark_Ages_and_large-scale_structure_emergence)
+[the emergence of large-scale structure](https://en.wikipedia.org/wiki/Chronology_of_the_universe#The_Dark_Ages_and_large-scale_structure_emergence)
 and they are about to switch our universe off at any moment.
 It could well be that they are running a few extra eons just to prove some fine point in their cosmological simulations,
 like (let's use our imagination here):
@@ -312,6 +311,26 @@ there is a simulation created just for us,
 limited human creatures,
 to live our little lives in a certain portion of time.
 
+The plot of The Matrix falls short of the Simulation Hypothesis:
+we are not simulating a complete universe with people in it,
+but instead we need a bunch of living human bodies to plug them in the Matrix.
+
+Then there's the whole plot gap that it is impossible to use humans as batteries:
+we will always consume more energy than we generate,
+also a consequence of the Second Law by the way.
+But what about the simulation aspects of the movie?
+
+### Finally, Bostrom's Simulation
+
+Remember Nick Bostrom,
+who postulated the Simulation Hypothesis?
+After much meandering we arrive to the core of his argument,
+paraphrased from
+[his website](https://www.simulation-argument.com/faq.html):
+
+> Either there is a significant chance that we will one day become posthumans who run ancestor-simulations,
+> or we are currently living in a simulation.
+
 A certain version of the computer simulation _could_ be possible:
 if it is restarted whenever the person in it dies.
 There is nothing unlimited in the life of a person,
@@ -344,11 +363,6 @@ so that both pictures are coherent with all physical laws:
 they should be mostly the same,
 except for the moving of the stars inside and the occasional supernovae.
 
-Then there's the whole plot gap that it is impossible to use humans as batteries:
-we will always consume more energy than we generate,
-also a consequence of the Second Law by the way.
-But let's keep to the simulation aspects of the movie.
-
 Another argument against such a simulation is that it is impossible to do a perfectly coherent simulation:
 any simulated laws of Physics are always short of the real deal.
 One example is anisotropy:
@@ -357,22 +371,21 @@ that is, where the axes of coordinates are.
 Some researchers have indeed looked for clues of such a simulation,
 finding none.
 
-But the Matrix argument falls short of the Simulation Hypothesis:
-we are not simulating a complete universe with people in it,
-but instead we need a bunch of living human bodies to plug them in the Matrix.
+### Bostrom's Trilemma
 
-### Finally, Bostrom's Simulation
+It may be worth your time reading
+[Bostrom's original piece](https://www.simulation-argument.com/simulation.html),
+if only because it is thought-provoking.
+Right in the abstract he states his trilemma (dilemma with three possibilities):
 
-Remember Nick Bostrom,
-who postulated the Simulation Hypothesis?
-After much meandering we arrive to the core of his argument:
-paraphrased from
-[his website](https://www.simulation-argument.com/faq.html).
+> at least one of the following propositions is true:
+> (1) the human species is very likely to go extinct before reaching a “posthuman” stage; (2) any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof); (3) we are almost certainly living in a computer simulation.
 
-> Either there is a significant chance that we will one day become posthumans who run ancestor-simulations,
-> or we are currently living in a simulation.
+* pepito
+* manolito
 
-
+1: manolito
+2: pepito
 
 ## Why a Simulation?
 
