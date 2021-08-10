@@ -379,13 +379,21 @@ if only because it is thought-provoking.
 Right in the abstract he states his trilemma (dilemma with three possibilities):
 
 > at least one of the following propositions is true:
-> (1) the human species is very likely to go extinct before reaching a “posthuman” stage; (2) any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof); (3) we are almost certainly living in a computer simulation.
+> 1. the human species is very likely to go extinct before reaching a “posthuman” stage;
+> 2. any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof);
+> 3. we are almost certainly living in a computer simulation.
 
 * pepito
 * manolito
 
 1: manolito
 2: pepito
+
+Bostrom seems to think that (2) will be true _unless_ the posthumans don't want to simulate 
+
+As physicist Sean Carroll
+[says](http://www.preposterousuniverse.com/blog/2016/08/22/maybe-we-do-not-live-in-a-simulation-the-resolution-conundrum/),
+maybe it's not that easy to run an "ancestor simulation".
 
 ## Why a Simulation?
 
