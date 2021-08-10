@@ -68,7 +68,7 @@ This is the basic idea that proves we are not living in a computer simulation.
 
 ### Thermo Tricks
 
-There are many tricks in the simple formulation above of the Second Law.
+There are many tricks in our simple formulation of the Second Law.
 First, it may apply to an isolated system,
 but what happens to an open system?
 Its entropy can decrease as long as it is transferred to another open system.
