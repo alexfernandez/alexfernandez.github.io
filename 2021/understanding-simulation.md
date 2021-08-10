@@ -320,17 +320,6 @@ we will always consume more energy than we generate,
 also a consequence of the Second Law by the way.
 But what about the simulation aspects of the movie?
 
-### Finally, Bostrom's Simulation
-
-Remember Nick Bostrom,
-who postulated the Simulation Hypothesis?
-After much meandering we arrive to the core of his argument,
-paraphrased from
-[his website](https://www.simulation-argument.com/faq.html):
-
-> Either there is a significant chance that we will one day become posthumans who run ancestor-simulations,
-> or we are currently living in a simulation.
-
 A certain version of the computer simulation _could_ be possible:
 if it is restarted whenever the person in it dies.
 There is nothing unlimited in the life of a person,
@@ -345,10 +334,10 @@ as depicted in the movie.
 In this case information starts to accumulate again:
 even if one person dies and their information is removed,
 some of that information needs to be kept around because other people will remember it.
-We will have artifacts from long dead people,
-word of mouth or even recordings, that need to be kept around.
-Again, information grows uncontrollably,
-and after a few generations the system will be expected to collapse.
+Even in this limited scenario information grows uncontrollably:
+we will have artifacts from long dead people,
+word of mouth and after a while even recordings that need to be kept around.
+After a few generations the system would be expected to collapse.
 We can postulate "glitches in the Matrix"
 that happen whenever the system needs to erase information to make room for new experiences,
 but they would be noticeable to the inhabitants.
@@ -363,37 +352,89 @@ so that both pictures are coherent with all physical laws:
 they should be mostly the same,
 except for the moving of the stars inside and the occasional supernovae.
 
-Another argument against such a simulation is that it is impossible to do a perfectly coherent simulation:
+It is impossible to do a perfectly coherent simulation:
 any simulated laws of Physics are always short of the real deal.
 One example is anisotropy:
 if we measure the laws of movement in all directions we should be able to tell how the building blocks are aligned,
 that is, where the axes of coordinates are.
-Some researchers have indeed looked for clues of such a simulation,
+Some researchers have proposed looking for clues of such a simulation.
 finding none.
 
-### Bostrom's Trilemma
+### Finally, Bostrom's Simulation
 
+Remember Nick Bostrom,
+who postulated the Simulation Hypothesis?
+After much meandering we arrive to the core of his argument.
 It may be worth your time reading
 [Bostrom's original piece](https://www.simulation-argument.com/simulation.html),
 if only because it is thought-provoking.
-Right in the abstract he states his trilemma (dilemma with three possibilities),
-where one of the options **must** be true:
+Right in the abstract he states his "trilemma" (dilemma with three possibilities),
+where one of the following options **must** be true:
 
 1. the human species is very likely to go extinct before reaching a “posthuman” stage;
 2. any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof);
 3. we are almost certainly living in a computer simulation.
 
-* pepito
-* manolito
+He calls this kind of simulation of your own evolutionary history an "ancestor simulation".
+Then he shows a bunch of huge figures showing that running this ancestor simulation will be possible in less than a second,
+on some kind of futuristic planetary computer not unlike the
+[Matrioshka brain](https://en.wikipedia.org/wiki/Matrioshka_brain)
+mentioned above.
 
-1: manolito
-2: pepito
+His conclusion is, as paraphrased from
+[his website](https://www.simulation-argument.com/faq.html):
 
-Bostrom seems to think that (2) will be true _unless_ the posthumans don't want to simulate 
+> Either there is a significant chance that we will one day become posthumans who run ancestor-simulations,
+> or we are currently living in a simulation.
 
-As physicist Sean Carroll
+And herein likes the problem.
+Bostrom seems to think that posthumans will necessarily run these ancestor simulations (option 2 above),
+unless they don't want to.
+Well, as physicist Sean Carroll
 [says](http://www.preposterousuniverse.com/blog/2016/08/22/maybe-we-do-not-live-in-a-simulation-the-resolution-conundrum/),
-maybe it's not that easy to run an "ancestor simulation".
+maybe it's not that easy to run an ancestor simulation.
+
+Bostrom speaks about simulating our ancestors' brains and their input,
+but in a quite fragile way.
+Apparently it should be easy to simulate a human brain with a digital computer,
+just by digitizing brain cells.
+Imagine running a Matrix-like simulation,
+but also having to simulate the brains for many generations of a species.
+This is not like running Conway's game of life on a big board:
+I doubt it is even possible to replicate human brains with a crude simulation that just has zeros and ones,
+and still get conscious creatures.
+But let's suppose for a moment it can be done.
+
+How can the simulation be kept reasonably coherent?
+Anyone who has played games for a while quickly starts to get patterns,
+repetitions and inconsistencies.
+For instance, if in my world I get an EEG,
+would it reflect my real brain waves,
+or just be some standard (or randomized) graph?
+What about an MRI?
+What about a technology which hasn't even been invented in the Simulators' universe,
+like
+[deep brain stimulation](https://en.wikipedia.org/wiki/Deep_brain_stimulation)?
+
+Bostrom's feeble defense for such issues is:
+
+> Should any error occur,
+> the director could easily edit the states of any brains that have become aware of an anomaly before it spoils the simulation.
+> Alternatively, the director could skip back a few seconds and rerun the simulation in a way that avoids the problem.
+
+Both scenarios sound anything but easy to me:
+editing brain states to avoid inconsistencies is probably
+[NP complete](https://en.wikipedia.org/wiki/NP-completeness),
+and rewinding the world would very likely run into many other inconsistencies,
+until the whole thing was just endlessly rewinding.
+As a trivial counterexample,
+my brain has become aware of many anomalies in the world before,
+like _deja vus_,
+and it was neither edited nor rewinded.
+Does this prove that I'm not living in a simulation?
+
+Again we go back to simulating the whole universe,
+which even Bostrom acknowledges is an impossible task.
 
 ## Why a Simulation?
 
