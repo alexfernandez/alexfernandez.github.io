@@ -145,7 +145,7 @@ at some point they will run out of memory.
 
 One interesting trick is to postulate that the Simulators live in a higher dimensional space than us,
 the Simulated.
-Our whole universe would just be a lower dimensional slice of their (much cooler) universe,
+Our whole universe would just be a lower dimensional slice of their awesome universe,
 as an infinite plane would be to us.
 This possibility sounds cool and is hard to disprove.
 On the other hand, information will run out in any higher dimension anyway.
