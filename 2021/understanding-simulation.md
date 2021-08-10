@@ -45,7 +45,7 @@ Well of course, _provided all things are equal_.
 For the purpose of this article,
 the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis)
 is the idea that we are living inside a computer simulation,
-and the Simulators are hypothetical creatures that are running the simulation where we supposedly reside.
+and the Simulators are the hypothetical creatures that are running the simulation where we supposedly reside.
 
 ## A Thermodynamical Argument
 
