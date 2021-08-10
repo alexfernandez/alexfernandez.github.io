@@ -59,11 +59,10 @@ states that:
 As we saw in the 
 [first part](/2021/understanding-entropy),
 entropy is just another name for information to describe a system.
-
-> If information is always increasing,
-> there is no way that a computer can simulate the whole universe.
-> No matter how big it is made,
-> **at some point any computer will run out of information storage**.
+If information is always increasing,
+there is no way that a computer can simulate the whole universe.
+No matter how big it is made,
+**at some point any computer will run out of information storage**.
 
 This is the basic idea that proves we are not living in a computer simulation.
 
