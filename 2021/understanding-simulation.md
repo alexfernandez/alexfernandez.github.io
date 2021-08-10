@@ -86,6 +86,7 @@ only theoretical, infinitely slow processes can be reversible.
 
 ### Robustness
 
+Is there any way to scape that Second Law?
 Sir Arthur Eddington [stated](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Quotations):
 
 > The law that entropy always increases holds,
