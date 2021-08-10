@@ -143,7 +143,7 @@ at some point they will run out of memory.
 
 ### More Powerful Universes
 
-One popular trick is to postulate that the Simulators live in a higher dimensional space than us,
+One interesting trick is to postulate that the Simulators live in a higher dimensional space than us,
 the Simulated.
 Our whole universe would just be a lower dimensional slice of their (much cooler) universe,
 as an infinite plane would be to us.
