@@ -56,7 +56,7 @@ states that:
 > The entropy of an isolated system cannot decrease;
 > it will either stay constant or increase.
 
-![You see a steam engine, I see information being generated.](pics/understanding-simulation-steam.jpg "A classical steam engine animation: two chambers exchange heat, the separation moves a piston which in turn rotates a large wheel. Source: https://en.wikipedia.org/wiki/File:Steam_engine_in_action.gif.")
+![You see a steam engine, I see information being generated.](pics/understanding-simulation-steam.gif "A classical steam engine animation: two chambers exchange heat, the separation moves a piston which in turn rotates a large wheel. Source: https://en.wikipedia.org/wiki/File:Steam_engine_in_action.gif.")
 
 As we saw in the 
 [first part](/2021/understanding-entropy),
