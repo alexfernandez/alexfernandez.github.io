@@ -293,15 +293,17 @@ is again going too far with zero evidence.
 
 By now at least half of my remaining readership is probably screaming at the top of their lungs:
 
-> But it's a **quantum computer**!
+> But it's a **quantum computer**, you silly person!
 
 When there is a far-fetched hypothesis,
-mixing it with a far-fetched technology usually solves the ticket trivially.
+mixing it with a far-fetched technology is usually good to win the discussion.
 After all, qubits (short for quantum bits) are supposed to store much more information than regular bits, right?
+
+![This is a quantum computer. It is pretty.](pics/understanding-simulation-qubits.jpg "A quantum computer consisting of a series of interconnected golden tubes with cables underneath. Source: https://www.flickr.com/photos/ibm_research_zurich/50252942522.")
 
 We are getting a bit ahead of ourselves in this series,
 since I would like to do an entry about quantum computing.
-But besides the difficulties with having many qubits running at the same time,
+But besides the well-known difficulties with having many qubits running at the same time,
 the biggest issue is that the universe is also quantum.
 We get no huge boost from using qubits to solve classical problems.
 The number of qubits required to simulate our universe would be the number of qubits in it,
@@ -311,7 +313,7 @@ There is an intriguing (and very remote) possibility:
 that decoherence forces our universe to be mostly classical,
 and that quantum computing can be applied to accelerate computations of these classical interactions.
 The harsh reality is probably that the same conditions that force decoherence in the real world
-will force decoherence of our qubits,
+will decohere our qubits,
 so it's a zero sum game.
 
 We are back to making far-fetched suppositions:
@@ -346,7 +348,7 @@ so in theory it _could_ be successfully simulated in a limited computer.
 But note that this is a much more solipsistic version of the idea.
 It is not a simulation of our whole universe;
 just of the life of a person.
-In fact every person would have to live in separate universes.
+In fact every person would have to live in a separate universe.
 
 The thing starts to complicate if everyone in the Matrix shares the same simulation,
 as depicted in the movie.
