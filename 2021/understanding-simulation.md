@@ -210,6 +210,8 @@ And of course their most venerable ancestor of them all, Occam's razor:
 
 > Entities should not be multiplied beyond necessity.
 
+![We would need a Swiss Army knife to hold these many razors, plus a nail to hang the teapot.](pics/understanding-simulation-knife.jpg "A Swiss Army knife with several small blades attached, plus screwdriver, scissors and bottle openers. Source: https://en.wikipedia.org/wiki/File:Wenger_EvoGrip_S17.JPG.")
+
 To be honest we might have started with any of these razors and be done with,
 but at this point they apply beautifully:
 we have shown that simulating a complete universe requires at least infinite computers,
@@ -316,7 +318,7 @@ We are back to making far-fetched suppositions:
 that a new computing paradigm will store many qubits in one qubit,
 or that the simulators can compress qubits by a factor of a googolplex.
 It is still nonsense and should be discarded by our
-[philosophical swiss knife](https://en.wikipedia.org/wiki/Philosophical_razor).
+[philosophical Swiss Army knife](https://en.wikipedia.org/wiki/Philosophical_razor).
 
 ### Enter The Matrix
 
