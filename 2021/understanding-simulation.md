@@ -118,6 +118,8 @@ over an infinite roll of tape with 0s and 1s.
 Such a machine could store infinite information
 so our little Second Law limitation would not be an issue.
 
+![This, only with infinite tape.](pics/understanding-simulation-turing.jpg "A device with two rolls of white tape at each side and a mechanical head in the middle which can supposedly write information to the tape. Source: https://en.wikipedia.org/wiki/File:Turing_Machine_Model_Davey_2012.jpg.")
+
 The [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 is a brilliant construct for exploring the theoretical limitations of computers:
 anything that it cannot do will never be possible on a real computer,
