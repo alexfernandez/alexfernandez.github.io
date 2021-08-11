@@ -474,7 +474,7 @@ which even Bostrom acknowledges is an impossible task.
 
 If it's so clear that we cannot live in a computer simulation
 that any Internet rando with a blog and an elementary grasp of Physics can disprove it,
-So why do so many clever people insist that we **must surely live in a simulation**?
+why do so many clever people insist that we **must surely live in a simulation**?
 
 I think it is psychologically comforting for people to downplay their existence:
 inside a computer simulation it is not so important that our world is cruel,
