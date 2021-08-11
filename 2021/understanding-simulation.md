@@ -376,7 +376,7 @@ finding none.
 ### Finally, Bostrom's Simulation
 
 Remember Nick Bostrom,
-who postulated the Simulation Hypothesis?
+who postulated the Simulation Hypothesis in its latest incarnation?
 After much meandering we arrive to the core of his argument.
 It may be worth your time reading
 [Bostrom's original piece](https://www.simulation-argument.com/simulation.html),
@@ -388,7 +388,7 @@ where one of the following options **must** be true:
 2. any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof);
 3. we are almost certainly living in a computer simulation.
 
-He calls this kind of simulation of your own evolutionary history an "ancestor simulation".
+He calls this kind of simulation of our ancestors for prolonged periods of time an "ancestor simulation".
 Then he shows a bunch of huge figures showing that running this ancestor simulation will be possible in less than a second,
 on some kind of futuristic planetary computer not unlike the
 [Matrioshka brain](https://en.wikipedia.org/wiki/Matrioshka_brain)
@@ -429,8 +429,17 @@ What about a technology which hasn't even been invented in the Simulators' unive
 like
 [deep brain stimulation](https://en.wikipedia.org/wiki/Deep_brain_stimulation)?
 
-Bostrom's feeble defense for such issues is:
+Bostrom centers on the amount of computing power, 
+but he disregards information storage which is the real issue.
+Keeping a coherent view of the universe for one person is hard enough,
+but storing the world for a civilization of advanced beings
+that perform all kinds of low-level experiments and can look into quantum states of the matter at will
+is impossible without a very detailed state of the universe.
 
+In the article we find the following feeble defense:
+
+> Therefore, when it saw that a human was about to make an observation of the microscopic world,
+> it could fill in sufficient detail in the simulation in the appropriate domain on an as-needed basis.
 > Should any error occur,
 > the director could easily edit the states of any brains that have become aware of an anomaly before it spoils the simulation.
 > Alternatively, the director could skip back a few seconds and rerun the simulation in a way that avoids the problem.
@@ -446,7 +455,7 @@ like _deja vus_,
 and it was neither edited nor rewinded.
 Does this prove that I'm not living in a simulation?
 
-Again we go back to simulating the whole universe,
+Again we are back to simulating the whole universe,
 which even Bostrom acknowledges is an impossible task.
 
 ## Why a Simulation?
