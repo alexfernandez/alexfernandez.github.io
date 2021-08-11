@@ -430,7 +430,7 @@ But suppose for a moment that it can be done.
 How can the simulation be kept reasonably coherent?
 Anyone who has played games for a while quickly starts to get patterns,
 repetitions and inconsistencies.
-In this situation the simulated characters get unlimited freedom to do what they like.
+Under the Simulation Hypothesis the simulated characters get unlimited freedom to do what they like.
 For instance, if in my world I get an EEG,
 would it reflect my real brain waves,
 or just be some standard (or randomized) graph?
