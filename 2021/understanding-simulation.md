@@ -380,8 +380,7 @@ any simulated laws of Physics are always short of the real deal.
 One example is anisotropy:
 if we measure the laws of movement in all directions we should be able to tell how the building blocks are aligned,
 that is, where the axes of coordinates are.
-Some researchers have proposed looking for clues of such a simulation.
-finding none.
+Some researchers have even proposed looking for the telling signs of such a simulation in our world.
 
 ### Finally, Bostrom's Simulation
 
@@ -426,18 +425,20 @@ but also having to simulate the brains for many generations of a species.
 This is not like running Conway's game of life on a big board:
 I doubt it is even possible to replicate human brains with a crude simulation that just has zeros and ones,
 and still get conscious creatures.
-But let's suppose for a moment it can be done.
+But suppose for a moment that it can be done.
 
 How can the simulation be kept reasonably coherent?
 Anyone who has played games for a while quickly starts to get patterns,
 repetitions and inconsistencies.
+In this situation the simulated characters get unlimited freedom to do what they like.
 For instance, if in my world I get an EEG,
 would it reflect my real brain waves,
 or just be some standard (or randomized) graph?
 What about an MRI?
 What about a technology which hasn't even been invented in the Simulators' universe,
-like
+like perhaps
 [deep brain stimulation](https://en.wikipedia.org/wiki/Deep_brain_stimulation)?
+Should it do anything to the simulated brains?
 
 Bostrom centers on the amount of computing power, 
 but he disregards information storage which is the real issue.
