@@ -467,7 +467,7 @@ like _deja vus_,
 and it was neither edited nor rewinded.
 Does this prove that I'm not living in a simulation?
 
-Again we are back to simulating the whole universe,
+Again we are back to simulating the whole universe as the only sensible scenario,
 which even Bostrom acknowledges is an impossible task.
 
 ## Why a Simulation?
