@@ -332,6 +332,8 @@ there is a simulation created just for us,
 limited human creatures,
 to live our little lives in a certain portion of time.
 
+![Living in The Matrix would be kind of cool, pastels on paper 2021.](pics/understanding-simulation-matrix.jpg "A girl holds a gun in an image covered with green letters, simulating the Matrix look. Source: the author.")
+
 The plot of The Matrix falls short of the Simulation Hypothesis:
 we are not simulating a complete universe with people in it,
 but instead we need a bunch of living human bodies to plug them in the Matrix.
