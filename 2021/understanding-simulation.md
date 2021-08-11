@@ -56,6 +56,8 @@ states that:
 > The entropy of an isolated system cannot decrease;
 > it will either stay constant or increase.
 
+![You see a steam engine, I see information being generated.](pics/understanding-simulation-steam.jpg "A classical steam engine animation: two chambers exchange heat, the separation moves a piston which in turn rotates a large wheel. Source: https://en.wikipedia.org/wiki/File:Steam_engine_in_action.gif.")
+
 As we saw in the 
 [first part](/2021/understanding-entropy),
 entropy is just another name for information to describe a system.
@@ -435,6 +437,7 @@ Keeping a coherent view of the universe for one person is hard enough,
 but storing the world for a civilization of advanced beings
 that perform all kinds of low-level experiments and can look into quantum states of the matter at will
 is impossible without a very detailed state of the universe.
+As always, **the information required will grow without bounds**.
 
 In the article we find the following feeble defense:
 
@@ -447,8 +450,8 @@ In the article we find the following feeble defense:
 Both scenarios sound anything but easy to me:
 editing brain states to avoid inconsistencies is probably
 [NP complete](https://en.wikipedia.org/wiki/NP-completeness),
-and rewinding the world would very likely run into many other inconsistencies,
-until the whole thing was just endlessly rewinding.
+and rewinding the world will very likely run into many other inconsistencies,
+until the whole thing is just endlessly rewinding.
 As a trivial counterexample,
 my brain has become aware of many anomalies in the world before,
 like _deja vus_,
