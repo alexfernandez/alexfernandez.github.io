@@ -362,7 +362,8 @@ word of mouth and after a while even recordings that need to be kept around.
 After a few generations the system would be expected to collapse.
 We can postulate "glitches in the Matrix"
 that happen whenever the system needs to erase information to make room for new experiences,
-but they would be noticeable to the inhabitants.
+but they would be noticeable to the inhabitants,
+like the infamous _deja vus_ that the characters experience at some point.
 
 Even if we limit ourselves to one generation,
 keeping information about the external world coherent would require us to simulate the whole universe.
