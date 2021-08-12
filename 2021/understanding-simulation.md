@@ -382,7 +382,7 @@ if we measure the laws of movement in all directions we should be able to tell h
 that is, where the axes of coordinates are.
 Some researchers have even proposed looking for the telling signs of such a simulation in our world.
 
-### Finally, Bostrom's Simulation
+### Bostrom's Simulation, Finally
 
 Remember Nick Bostrom,
 who postulated the Simulation Hypothesis in its latest incarnation?
