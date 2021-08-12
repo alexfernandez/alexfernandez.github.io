@@ -479,18 +479,15 @@ why do so many clever people insist that **we must certainly be living in a simu
 I think it is psychologically comforting for people to downplay their existence:
 inside a computer simulation it is not so important that our world is cruel,
 or unfair,
-or just plain weird.
-Those are just settings that the Simulators are playing with.
-
+or just plain weird;
+those are just settings that the Simulators are playing with.
 It is not so different from the mechanism that makes some religions comforting:
 this world is but a test of our spirits,
 the real life will come later in Heaven.
 
-Well, I think it is important to confront the universe
-with all its marvel and misery.
-
 ### A Mythological Explanation
 
+There is another possible explanation.
 According to the developer
 [Marius Gundersen](https://twitter.com/GundersenMarius/status/1250186936779706375),
 referring to Wolfram Physics:
@@ -501,12 +498,29 @@ referring to Wolfram Physics:
 > Everytime between people have attempted to explain the world using their most advanced models or metaphors.
 > And so will we in the future.
 
+We have been inventing myths since we had the words to do it,
+and we will probably continue doing so in increasingly sophisticated ways.
+So be it.
+
 ## Conclusion
 
-The simplistic idea that we live in a computer simulation is plainly wrong:
-there is no sane definition of "computer" and "simulation" where our universe can reside.
+The simplistic idea that we live in a computer simulation is plainly wrong.
+There is no sane definition of "computer" and "simulation" where our universe,
+or even our species, can reside.
+The Second Law of Thermodynamics with its ever-increasing information has most of the blame.
+
+### Moral of the Story
+
+I believe it is important to confront the universe with all its marvel and misery.
+It is the only way to not evade our moral responsibilities,
+since there is nothing else:
+no other world where all wrongs will be righted,
+no further simulations to correct the incorrections in our universe.
+We need to do here and now the best we can to improve our existence
+and that of our fellow people.
 
 We will soon continue our journey exploring quantum entropy.
+Stay tuned!
 
 ### Acknowledgements
 
