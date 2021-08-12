@@ -411,7 +411,7 @@ His conclusion is, as paraphrased from
 
 And herein likes the problem.
 Bostrom seems to think that posthumans will necessarily run these ancestor simulations (option 2 above),
-unless they don't want to.
+unless they don't want to for some unfathomable reason.
 Well, as physicist Sean Carroll
 [says](http://www.preposterousuniverse.com/blog/2016/08/22/maybe-we-do-not-live-in-a-simulation-the-resolution-conundrum/),
 maybe it's not that easy to run an ancestor simulation.
