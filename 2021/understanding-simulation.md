@@ -348,7 +348,7 @@ There is nothing unlimited in the life of a person,
 so in theory it _could_ be successfully simulated in a limited computer.
 But note that this is a much more solipsistic version of the idea.
 It is not a simulation of our whole universe;
-just of the life of a person.
+just of the life and experiences of a person.
 In fact every person would have to live in a separate universe.
 
 The thing starts to complicate if everyone in the Matrix shares the same simulation,
