@@ -337,7 +337,6 @@ to live our little lives in a certain portion of time.
 The plot of The Matrix falls short of the Simulation Hypothesis:
 we are not simulating a complete universe with people in it,
 but instead we need a bunch of living human bodies to plug them in the Matrix.
-
 Then there's the whole plot gap that it is impossible to use humans as batteries:
 we will always consume more energy than we generate,
 also a consequence of the Second Law by the way.
