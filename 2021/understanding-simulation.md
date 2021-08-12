@@ -1,7 +1,7 @@
 ---
 title: 'We Are Not Living in a Computer Simulation'
 subtitle: 'On the Road to Quantum Entropy, Part 2'
-footer: Published on 2021-08-07, modified on 2021-08-07.
+footer: Published on 2021-08-12, modified on 2021-08-12.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Are we living inside a computer simulation?
@@ -430,7 +430,8 @@ But suppose for a moment that it can be done.
 How can the simulation be kept reasonably coherent?
 Anyone who has played games for a while quickly starts to get patterns,
 repetitions and inconsistencies.
-Under the Simulation Hypothesis the simulated characters get unlimited freedom to do what they like.
+Under the Simulation Hypothesis,
+all simulated entities get unlimited freedom to do what they like.
 For instance, if in my world I get an EEG,
 would it reflect my real brain waves,
 or just be some standard (or randomized) graph?
@@ -438,7 +439,8 @@ What about an MRI?
 What about a technology which hasn't even been invented in the Simulators' universe,
 like perhaps
 [deep brain stimulation](https://en.wikipedia.org/wiki/Deep_brain_stimulation)?
-Should it do anything to the simulated brains?
+Should this technique do anything to the simulated brains?
+Does the simulation need to be prepared for anything?
 
 Bostrom centers on the amount of computing power, 
 but he disregards information storage which is the real issue.
@@ -446,7 +448,7 @@ Keeping a coherent view of the universe for one person is hard enough,
 but storing the world for a civilization of advanced beings
 that perform all kinds of low-level experiments and can look into quantum states of the matter at will
 is impossible without a very detailed state of the universe.
-As always, **the information required will grow without bounds**.
+As always, **the amount of information required will grow without bounds**.
 
 In the article we find the following feeble defense:
 
