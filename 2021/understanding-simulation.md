@@ -299,7 +299,7 @@ When there is a far-fetched hypothesis,
 mixing it with a far-fetched technology is usually good to win the discussion.
 After all, qubits (short for quantum bits) are supposed to store much more information than regular bits, right?
 
-![This is a quantum computer. It is pretty.](pics/understanding-simulation-qubits.jpg "A quantum computer consisting of a series of interconnected golden tubes with cables underneath. Source: https://www.flickr.com/photos/ibm_research_zurich/50252942522.")
+![This is a quantum computer. It is pretty, and perhaps useful!](pics/understanding-simulation-qubits.jpg "A quantum computer consisting of a series of interconnected golden tubes with cables underneath. Source: https://www.flickr.com/photos/ibm_research_zurich/50252942522.")
 
 We are getting a bit ahead of ourselves in this series,
 since I would like to do an entry about quantum computing.
