@@ -252,7 +252,7 @@ because they have probably seen it all by now.
 Almost by definition their intelligence is much higher than our own,
 so we will look like funny toys or artifacts to their eyes.
 
-![Phileas Fogg about to bet on a voyage around the world.](pics/understanding-simulation-fogg.jpg "A gentleman drawn in ink in 19th century style. Source: https://en.wikipedia.org/wiki/File:%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_04.jpg.")
+![Phileas Fogg about to bet on a certain time-boxed voyage around the world.](pics/understanding-simulation-fogg.jpg "A gentleman drawn in ink in 19th century style. Source: https://en.wikipedia.org/wiki/File:%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_04.jpg.")
 
 But wait! Perhaps the simulators are watching closely how civilizations evolve around the universe,
 to settle some refined bet in a gentleman's club not unlike that one where
