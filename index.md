@@ -7,10 +7,12 @@ footer: Enjoy!
 I am a developer (little) known on Twitter as [pinchito](https://twitter.com/pinchito),
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
-Here on my blog I like to write about my job in software engineering, in articles marked with the emoji 🧑‍💻.
-There are also some articles related to Physics: ⚛️.
-I also write about other things I'm interested in, like linguistics or event organization: 🗣️.
-Some articles are in Spanish: 🇪🇸, rest in English: 🇮🇪.
+🧑<200d>💻 Here on my blog I like to write about my job in software engineering.
+⚛️There are also some articles related to Physics.
+🗣️ I also write about other things I'm interested in, like linguistics or event organization.
+
+🇪 🇸Some articles are in Spanish.
+🇮 🇪 The rrest in English.
 
 ## Posts
 
