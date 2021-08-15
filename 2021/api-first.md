@@ -38,8 +38,8 @@ All this without having the slightest idea about what database Matt used,
 or in which programming language was Telegram built.
 
 Now that even David's mother knows what an API is,
-what we need to explain is
-**what are the benefits and advantages when our applications offer one**.
+we need to explain
+**the benefits and advantages when our applications offer one**.
 
 ![© Original illustration by [Hugo Tobio](https://twitter.com/HugoTobio), _tarugo_ and professional illustrator from Bilbao, Spain.](pics/api-first-lead.jpg "Several people with their heads replaced by giant power plugs and sockets walk around on a red background.")
 
