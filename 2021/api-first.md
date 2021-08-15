@@ -41,7 +41,7 @@ Now that even David's mother knows what an API is,
 what we need to explain is
 **what are the benefits and advantages when our applications offer one**.
 
-![© Original illustration by [Hugo Tobio](https://twitter.com/HugoTobio), _tarugo_ and professional illustrator from Bilbao, Spain.](pics/api-first-lead.jpg "Several people with their heads replaced by giant electrical plugs walk around on a red background.")
+![© Original illustration by [Hugo Tobio](https://twitter.com/HugoTobio), _tarugo_ and professional illustrator from Bilbao, Spain.](pics/api-first-lead.jpg "Several people with their heads replaced by giant power plugs and sockets walk around on a red background.")
 
 The main reason for not wanting to implement an API is to believe that nobody will use it:
 who would want to connect to our software, and why?
