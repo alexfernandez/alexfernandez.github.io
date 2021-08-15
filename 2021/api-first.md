@@ -52,7 +52,7 @@ before they consider actually doing it**.
 During a dinner a few weeks ago,
 my friend Claudia suggested the possibility to republish
 all Manfred job offers related to project management and agile methodologies
-over at her portal CertificaciónPM.com,
+over at her portal [CertificaciónPM.com](https://certificacionpm.com/),
 something that would report benefits to us both:
 she would offer relevant job offers to her pupils,
 and I would have my offers reach a broader audience.
