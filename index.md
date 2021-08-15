@@ -90,7 +90,7 @@ Latest articles first.
 ### 2012
 
 🧑‍💻 🇮🇪 2012-12-18: [Reporting Problems, Part 2: Tooling](2012/reporting-problems-part-2)  
-🧑‍💻 🇮🇪 2012-08-23: [Reporting Problems, Part 1: Process](2012/reporting-problems-part-1) 
+🧑‍💻 🇮🇪 2012-08-23: [Reporting Problems, Part 1: Process](2012/reporting-problems-part-1)  
 🧑‍💻 🇮🇪 2012-07-25: [Iterative Evolution](2012/iterative-evolution)  
 🧑‍💻 🇮🇪 2012-06-11: [Sources of Irreversibility](2012/sources-of-irreversibility)  
 🧑‍💻 🇮🇪 2012-06-09: [How to Fake the Performance Review](2012/performance-review)  
@@ -101,8 +101,8 @@ Latest articles first.
 🧑‍💻 🇮🇪 2012-05-11: [Reversible Engineering Part 2: DevOps](2012/reversible-engineering-part-2)  
 🧑‍💻 🇮🇪 2012-05-09: [Reversible Engineering Part 1: Software Development](2012/reversible-engineering-part-1)  
 🧑‍💻 🇮🇪 2012-04-18: [Locked to the Cloud](2012/locked-to-the-cloud)  
-🧑‍💻 🇮🇪 2012-04-12: [Automating the Automation](2012/automating-the-automation) 
-🧑‍💻 🇮🇪 2012-04-10: [Continuous Deployment](2012/continuous-deployment) 
+🧑‍💻 🇮🇪 2012-04-12: [Automating the Automation](2012/automating-the-automation)  
+🧑‍💻 🇮🇪 2012-04-10: [Continuous Deployment](2012/continuous-deployment)  
 🧑‍💻 🇮🇪 2012-03-30: [Developer Discipline](2012/developer-discipline)  
 
 ## CV
