@@ -58,8 +58,8 @@ she would offer relevant jobs to her pupils,
 and my offers would reach a broader audience.
  
 I asked Claudia if she had an open API,
-because we had not het partitioned and opened ours,
-but sadly she did not have it;
+because we had not yet partitioned and opened ours,
+but sadly she did not;
 so this particular integration will need to wait.
 How many similar opportunities are we missing?
  
