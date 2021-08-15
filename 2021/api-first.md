@@ -21,7 +21,7 @@ so that this _mobile first_ should be centered on consumer (or B2C) websites.
 What nobody debates is that, whatever our software does,
 **we will have a competitive advantage if we design our applications to be _API first_**.
 
-Any professional that has been in our line of business more than five minutes knows what an API is,
+Any professional that has been in our line of business for longer than five minutes knows what an API is,
 although not many would be able to explain it to a 'muggle' without programming superpowers.
 An API is **a formal specification that defines how to interact with a software application**,
 and abstracts away the details of how it is implemented.
