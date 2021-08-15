@@ -114,10 +114,10 @@ allowing us to develop our applications without having to start from zero or rei
 This supply chain can evidently fail:
 any provider can go broke or leave us up and dry,
 just as in any other industry.
-This fear should not paralize us,
-just like Citroën doesn't start manufacturing safety belts or the electronic in their cars
-just in case any of their providers fails or disappears;
-but have alternatives ready in case the unexpected happens.
+This fear should not paralize us:
+Citroën doesn't start manufacturing safety belts or the electronic in their cars
+because it fears that any of their providers can fail or disappear;
+instead they keep alternatives ready should anything unexpected happen.
 For those who are not lucky enough to count with infinite means,
 it's well worth the risk.
 
