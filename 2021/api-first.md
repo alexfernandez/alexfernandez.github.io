@@ -65,7 +65,7 @@ How many similar opportunities are we missing?
  
 After all, a public API can have an immense influence in the strategy of a company
 and even its work philosophy,
-making them be more open to integrate and cooperate with third parties.
+making them more open to integrate and cooperate with third parties.
 Something that seems **essential for companies that base their business models on the creation and management of a Community**,
 such as any marketplace.
 
