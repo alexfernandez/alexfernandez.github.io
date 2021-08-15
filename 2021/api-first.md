@@ -7,7 +7,7 @@ footer: Published on 2021-08-15, modified on 2021-08-15.
 abstract:
   It's still hard to get into our heads that these days Internet use is mostly mobile,
   and that our web applications should therefore be mobile first.
-image: https://pinchito.es/2021/pics/api-first-lead.png
+image: https://pinchito.es/2021/pics/api-first-lead.jpg
 ---
 
 > It's still hard to get into our heads that these days
