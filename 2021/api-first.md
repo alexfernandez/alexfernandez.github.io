@@ -5,30 +5,30 @@ footer: Published on 2021-08-15, modified on 2021-08-15.
   Translated from the Spanish [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541).
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  It's still hard to get into our heads that these days Internet use is mostly mobile,
+  It's still hard to get into our heads that Internet use is mostly mobile,
   and that our web applications should therefore be mobile first.
 image: https://pinchito.es/2021/pics/api-first-lead.jpg
 ---
 
-> It's still hard to get into our heads that these days
+> It's still hard to get into our heads that
 > [Internet use is mostly mobile](https://www.oberlo.com/statistics/mobile-internet-traffic),
 > and that our web applications should therefore be _mobile first_.
 
 Lovers of king-sized monitors may argue that most of that mobile traffic is personal or recreational,
 so that this _mobile first_ should be centered on consumer (or B2C) websites.
 What nobody debates is that, whatever our software does,
-we will have a competitive advantage if we design our applications to be _API first_.
+**we will have a competitive advantage if we design our applications to be _API first_**.
 
 Any professional that has been in our line of business more than five minutes knows what an API is,
-although not many would be able to explain it to a muggle without programming superpowers.
-An API is a formal specification that defines how to interact with a software application,
-and allows us to abstract away how it is implemented.
+although not many would be able to explain it to a 'muggle' without programming superpowers.
+An API is **a formal specification that defines how to interact with a software application**,
+and abstracts away the details of how it is implemented.
 
 I suppose that the best way for the keenest reader of the Bonilista (David's mother)
 to understand the concept is by way of demonstration.
 Matt Chilling has published an
 [API to obtain Chuck Norris jokes](https://api.chucknorris.io/).
-Using it and Telegram's own API, for instance,
+Combining it with Telegram's API, for instance,
 I could develop in less than an hour a little program to publish every day at 7 AM
 a Chuck Norris joke on my school mates group...
 or even [six job offers](https://www.getmanfred.com/manfred-daily-html/).
