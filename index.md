@@ -22,28 +22,28 @@ Latest articles first.
 ⚛️ 🇮🇪 2021-08-12: [We Are Not Living in a Computer Simulation](2021/understanding-simulation)  
 ⚛️ 🇮🇪 2021-07-10: [Understanding Entropy](2021/understanding-entropy)  
 🧑‍💻 🇮🇪 2021-01-23: [The TTP Methodology](2021/ttp)  
-🗣️ 🇪🇸  2021-01-01: [Repaso de 2020 y propósitos para 2021](2021/repaso-propositos-2020)  
+🗣️ 🇪🇸 2021-01-01: [Repaso de 2020 y propósitos para 2021](2021/repaso-propositos-2020)  
 
 ### 2020
 
-* 2020-12-28: [Los cinco “Co”s: cinco soft skills esenciales](2020/cinco-cos) 🧑‍💻 🇪🇸
-* 2020-11-01: [La metodología TPP](2020/tpp) 🧑‍💻 🇪🇸
-* 2020-08-31: [🚀Curso de escalabilidad v2🚀](2020/curso-escalabilidad-2) 🧑‍💻 🇪🇸
-* 2020-05-20: [🚀Agile Performance and Scalability🚀](2020/curso-escalabilidad) 🧑‍💻 🇪🇸
-* 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices) 🗣️ 🇮🇪
-* 2020-01-02: [Repaso de 2019 y propósitos para 2020](2020/repaso-propositos) 🗣️ 🇪🇸
+🧑‍💻 🇪🇸 2020-12-28: [Los cinco “Co”s: cinco soft skills esenciales](2020/cinco-cos)  
+🧑‍💻 🇪🇸 2020-11-01: [La metodología TPP](2020/tpp)  
+🧑‍💻 🇪🇸 2020-08-31: [🚀Curso de escalabilidad v2🚀](2020/curso-escalabilidad-2)  
+🧑‍💻 🇪🇸 2020-05-20: [🚀Agile Performance and Scalability🚀](2020/curso-escalabilidad)  
+🗣️ 🇮🇪 2020-01-13: [Insane Plane Ticket Prices](2020/insane-plane-prices)  
+🗣️ 🇪🇸 2020-01-02: [Repaso de 2019 y propósitos para 2020](2020/repaso-propositos)  
 
 ### 2019
 
-* 2019-12-31: [Continuous Deployment on the Cheap](2019/devops-on-the-cheap) 🧑‍💻 🇮🇪
-* 2019-06-08: [A Guide to High Speeds](2019/high-speeds) ⚛️ 🇮🇪
-* 2019-06-01: [Curso de Unix](2019/curso-unix) 🧑‍💻 🇪🇸
+🧑‍💻 🇮🇪 2019-12-31: [Continuous Deployment on the Cheap](2019/devops-on-the-cheap)  
+⚛️ 🇮🇪 2019-06-08: [A Guide to High Speeds](2019/high-speeds)  
+🧑‍💻 🇪🇸 2019-06-01: [Curso de Unix](2019/curso-unix)  
 
 ### 2018
 
-* 2018-12-01: [Has Anyone Else Seen Your Code](2018/has-anyone-else-seen-your-code) 🧑‍💻 🇮🇪
-* 2018-05-28: [More Adventures in the Land of Go](2018/more-golang-adventures) 🧑‍💻 🇮🇪
-* 2018-03-04: [Building a Space Launcher](2018/building-space-launcher) ⚛️ 🇮🇪
+🧑‍💻 🇮🇪 2018-12-01: [Has Anyone Else Seen Your Code](2018/has-anyone-else-seen-your-code)  
+🧑‍💻 🇮🇪 2018-05-28: [More Adventures in the Land of Go](2018/more-golang-adventures)  
+⚛️ 🇮🇪 2018-03-04: [Building a Space Launcher](2018/building-space-launcher)  
 
 ### 2017
 
