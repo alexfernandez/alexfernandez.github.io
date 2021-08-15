@@ -79,9 +79,8 @@ recording who, when and how has read or modified anything.
 
 For the rest,
 you can create a second API
-— much more accessible,
-but also with restricted access,
-for instance for job offer reads —
+— a lot more open but still with restricted access,
+for instance to read job offers —
 that limits the damage caused by a potential security breach.
 Today we may be the only consumers from
 [our own website](https://www.getmanfred.com/ofertas-empleo),
