@@ -10,9 +10,11 @@ abstract:
 image: https://pinchito.es/2021/pics/api-first-lead.jpg
 ---
 
-> It's still hard to get into our heads that
-> [Internet use is mostly mobile](https://www.oberlo.com/statistics/mobile-internet-traffic),
-> and that our web applications should therefore be _mobile first_.
+<div class="calltoaction">
+It's still hard to get into our heads that
+[Internet use is mostly mobile](https://www.oberlo.com/statistics/mobile-internet-traffic),
+and that our web applications should therefore be _mobile first_.
+</div>
 
 Lovers of king-sized monitors may argue that most of that mobile traffic is personal or recreational,
 so that this _mobile first_ should be centered on consumer (or B2C) websites.
@@ -135,9 +137,17 @@ that was once featured prominently in the dreams of the parents of the Internet.
 
 — Tim Berners-Lee (1999)
 
+### Are You Interested In This Issue?
+
+David shares links with
+[all data and information referenced in the article](https://gist.github.com/dbonillaf/922e66d61616f442584be09adec2f580),
+compiled in a Gist (in Spanish).
+
 ### Acknowledgements
 
-Thanks to David Bonilla
-and Hugo Tobio
-for their kind permission to translate the article.
+Thanks to [David Bonilla](https://twitter.com/david_bonilla)
+for his kind permission to translate and publish
+[the original Spanish newsletter](https://mailchi.mp/bonillaware/api-first?e=e8078d2541),
+and [Hugo Tobio](https://twitter.com/HugoTobio)
+for his kind permission to reuse his original image.
 
