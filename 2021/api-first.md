@@ -90,7 +90,7 @@ or finally allow a third party such as CertificaciónPM to use it
 without having to modify our code.
 
 All this is evidently not free.
-**An API is just a contract** where we commit to maintaining certain software services
+**An API is essentially a contract** where we commit to maintaining certain software services
 that will be consumed by third parties to construct their own.
 If these services are interrupted,
 or modified without warning,
