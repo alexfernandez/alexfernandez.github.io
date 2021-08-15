@@ -55,7 +55,7 @@ all Manfred job offers related to project management and agile methodologies
 over at her portal [CertificaciónPM.com](https://certificacionpm.com/),
 something that would report benefits to us both:
 she would offer relevant jobs to her pupils,
-and I would have my offers reach a broader audience.
+and my offers would reach a broader audience.
  
 I asked Claudia if she had an open API,
 because we had not het partitioned and opened ours,
