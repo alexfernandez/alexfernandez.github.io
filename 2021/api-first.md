@@ -106,10 +106,9 @@ What Naval says may well be true,
 but it's also true that the age of absolute monarchies is luckily behind us.
 30 years ago there were very few software companies,
 and it was usual for them to develop internally every line of code for their products.
-Our industry has matured during this time and
-it has generated
-— as any other mature industry —
-its own supply chain as API providers that have lowered the barrier of entry,
+Our industry has matured during this time and it has generated
+— like any other mature industry —
+its own supply chain in the form of API providers that have lowered the barrier of entry,
 allowing us to develop our applications without having to start from zero or reinvent the wheel.
 
 This supply chain can evidently fail:
