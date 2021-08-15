@@ -114,8 +114,8 @@ allowing us to develop our applications without having to start from zero or rei
 This supply chain can evidently fail:
 any provider can go broke or leave us up and dry,
 just as in any other industry.
-This fear should not paralize us:
-Citroën doesn't start manufacturing safety belts or the electronic in their cars
+This possibility should not paralize us:
+Citroën doesn't start manufacturing safety belts or electronics for their cars
 because it fears that any of their providers can fail or disappear;
 instead they keep alternatives ready should anything unexpected happen.
 For those who are not lucky enough to count with infinite means,
@@ -127,8 +127,8 @@ but also ideological**.
 Opening our application
 (however modest it may be) for others to use it,
 we contribute to democratize software development,
-but also to the ideal of egalitarian, interconnected and collaborative Network
-that was once featured prominently in the dreams of the parents of the Internet.
+and also to the ideal of an egalitarian, interconnected and collaborative Network
+that was once featured prominently in the dreams of the creators of the Internet.
  
 > We should be able not only to interact with other people,
 > but to **create** with other people.
