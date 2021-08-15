@@ -71,7 +71,7 @@ such as any marketplace.
 
 And even if you don't want to open your software to the world,
 implementing an API is still a good idea.
-We work with personal data from our users that need to be especially protected,
+We work with personal data from our users that requires special protections,
 and it makes sense that **nobody** should be able to directly access the data,
 not even us;
 only through a private API, carefully secured and with restricted access,
