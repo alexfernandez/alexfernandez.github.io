@@ -29,31 +29,31 @@ to understand the concept is by way of demonstration.
 Matt Chilling has published an
 [API to obtain Chuck Norris jokes](https://api.chucknorris.io/).
 Combining it with Telegram's API, for instance,
-I could develop in less than an hour a little program to publish every day at 7 AM
-a Chuck Norris joke on my school mates group...
-or even [six job offers](https://www.getmanfred.com/manfred-daily-html/).
+I could develop a little program in less than an hour to publish
+a Chuck Norris joke every day at 7 AM on my school mates group...
+and also [six job offers](https://www.getmanfred.com/manfred-daily-html/).
 All this without having the slightest idea about what database Matt used,
-or which programming language is used for Telegram.
+or in which programming language was Telegram built.
 
 Now that even David's mother knows what an API is,
-what we need to know is
-**what will be our benefits and advantages be if our applications offer an API**.
+what we need to explain is
+**what are the benefits and advantages when our applications offer one**.
 
 ![© Original illustration by [Hugo Tobio](https://twitter.com/HugoTobio), _tarugo_ and professional illustrator from Bilbao, Spain.](pics/api-first-lead.jpg "Several people with their heads replaced by giant electrical plugs walk around on a red background.")
 
-The main reason to not implement an API is to believe that nobody will use it:
+The main reason for not wanting to implement an API is to believe that nobody will use it:
 who would want to connect to our software, and why?
 But we can also counter-argue that
-**to make people think about connecting to our software,
-they need to know first that they can**.
+**people need to know that they can connect with our software
+before they consider actually doing it**.
 
 During a dinner a few weeks ago,
 my friend Claudia suggested the possibility to republish
 all Manfred job offers related to project management and agile methodologies
-in her portal CertificaciónPM.com,
+over at her portal CertificaciónPM.com,
 something that would report benefits to us both:
 she would offer relevant job offers to her pupils,
-and I would have my offers reach a broadest audience.
+and I would have my offers reach a broader audience.
  
 I asked Claudia if she had an open API,
 because we had not het partitioned and opened ours,
@@ -64,7 +64,7 @@ How many similar opportunities are we missing?
 After all, a public API can have an immense influence in the strategy of a company
 and even its work philosophy,
 making them be more open to integrate and cooperate with third parties.
-Something that seems essential for companies that base their business models on the creation and management of a Community,
+Something that seems **essential for companies that base their business models on the creation and management of a Community**,
 such as any marketplace.
 
 And even if you don't want to open your software to the world,
@@ -81,14 +81,15 @@ you can create a second API
 but also with restricted access,
 for instance for job offer reads —
 that limits the damage caused by a potential security breach.
-Today we may be the only consumers from our own web,
+Today we may be the only consumers from
+[our own website](https://www.getmanfred.com/ofertas-empleo),
 but tomorrow we might be using it for a mobile application,
 a new product,
 or finally allow a third party such as CertificaciónPM to use it
 without having to modify our code.
 
 All this is evidently not free.
-An API is just a contract where we commit to maintaining certain software services
+**An API is just a contract** where we commit to maintaining certain software services
 that will be consumed by third parties to construct their own.
 If these services are interrupted,
 or modified without warning,
@@ -121,8 +122,8 @@ For those who are not lucky enough to count with infinite means,
 it's well worth the risk.
 
 At this point I have to confess that, for me,
-implementation of an API is not just a technical or business factor,
-but also ideological.
+**implementation of an API is not just a technical or business factor,
+but also ideological**.
 Opening our application
 (however modest it may be) for others to use it,
 we contribute to democratize software development,
