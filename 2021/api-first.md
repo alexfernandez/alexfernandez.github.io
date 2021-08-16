@@ -1,7 +1,7 @@
 ---
 title: 'API First'
 subtitle: 'Or Why We Should Design Our Web Applications Around An API'
-footer: Published on 2021-08-15, modified on 2021-08-15.
+footer: Published on 2021-08-16, modified on 2021-08-16.
   Translated from the Spanish [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541).
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
