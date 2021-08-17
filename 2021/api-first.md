@@ -1,6 +1,6 @@
 ---
 title: 'API First'
-subtitle: 'Translated from the [Bonilista #536](https://mailchi.mp/bonillaware/api-first?e=e8078d2541)'
+subtitle: 'By David Bonilla, translated from the Bonilista #536'
 footer: Published on 2021-08-16, modified on 2021-08-16.
   Translated from the Spanish [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541).
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
