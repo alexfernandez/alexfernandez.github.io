@@ -1,8 +1,10 @@
 ---
 title: 'API First'
-subtitle: 'Translated from the Bonilista #536 by David Bonilla'
-footer: Published on 2021-08-16, modified on 2021-08-16.
-  Translated from the Spanish [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541).
+subtitle: 'Written by David Bonilla, translated by Alex Fernández'
+footer: Published on 2021-08-18, modified on 2021-08-16.
+  Translated by Alex Fernández from the original Spanish neswletter
+  [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541),
+  by David Bonilla.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   It's still hard to get into our heads that Internet use is mostly mobile,
