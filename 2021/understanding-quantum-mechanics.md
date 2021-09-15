@@ -71,10 +71,13 @@ in two dimensions.
 <canvas id="wave-canvas" width="200" height="500" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
-<input style="display: none;" type="number" id="particles" value="10000">
-<input style="display: none;" type="number" id="speed" value="10">
-<input style="display: none;" type="checkbox" id="visited">
+<input style="display: none;" type="number" id="speed" value="2">
+<input style="display: none;" type="number" id="damping" value="0">
+<input style="display: none;" type="number" id="periods" value="0">
 <input style="display: none;" type="checkbox" id="autorun">
+<input style="display: none;" type="checkbox" id="maxspeed">
+<input style="display: none;" type="checkbox" id="close1">
+<input style="display: none;" type="checkbox" id="close2">
 <button id="run" type="button">run</button>
 <button id="pause" type="button">pause</button>
 <button id="reset" type="button">reset</button>
