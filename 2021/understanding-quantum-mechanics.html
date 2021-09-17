@@ -84,26 +84,35 @@
 <img src="pics/understanding-quantum-mechanics-waves.png" title="A wave travels first past a wall with one slit and then past a second wall with two slits, causing interference. Source: the author." alt="An image with increasing entropy, from top left to bottom right." /><figcaption>An image with increasing entropy, from top left to bottom right.</figcaption>
 </figure>
 <p>After visiting <a href="understanding-entropy">entropy</a> and a detour through <a href="understanding-simulation">simulated worlds</a>, we continue our journey of understanding Physics with a puzzling theory: <strong>quantum mechanics</strong>. What is it, and why does it matter? We will now see a gentle introduction without excessive maths, and also without sacrificing rigorous thinking.</p>
-<h2 id="introduction">Introduction</h2>
-<p>The magnificent building of Classical Physics was founded by Galileo Galilei, raised by Isaac Newton and perfected by other giants in the following two centuries. It is now the stuff of legends how at the end of the 19th century it started showing cracks in the very foundations, first with the <a href="https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment">Michelson–Morley experiment</a> and then by <a href="https://en.wikipedia.org/wiki/Black-body_radiation">black body radiation</a>.</p>
-<p>In 1900 Max Planck proposed his <a href="https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation">quantisation of radiation</a> to solve the enigma poised by radiation of hot chambers, and in 1905 Albert Einstein used quantisation again to explain the <a href="https://en.wikipedia.org/wiki/Photoelectric_effect">photoelectric effect</a>. Apparently they were onto something.</p>
-<p>In the coming years a few pioneers would formalize what is now known as quantum mechanics. In essence they were just answering the same question that had been poised by <a href="https://en.wikipedia.org/wiki/Democritus">Democritos of Abdera</a> some 2300 years earlier: what are the smallest constituents of reality? But now they had very precise measurements of how all these particles behaved, and it was really different than everything we knew until then.</p>
 <h2 id="the-double-slit-experient">The Double Slit Experient</h2>
 <p>To study the properties of quantum particles we will explore the following situation, proposed by Richard Feynman: a source of particles coming out of hole propagate towards two slits in a wall, with a mostly random direction. After the two slits there is a solid wall. Each particle can only go through one slit at a time, and will be detected once it reaches the wall at the end.</p>
+<h3 id="particles">Particles</h3>
+<p>First we will consider that</p>
+<script src="https://pinchito.es/physics-simulation/double-slit/particle.js"></script>
+<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
+</canvas>
+<div id="form">
+<form id="params">
+<input style="display: none;" type="number" id="speed" value="1"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
+</form>
+</div>
+<p>By the way, you can play with the simulation <a href="https://pinchito.es/double-slit/">here</a>.</p>
 <h3 id="waves">Waves</h3>
+<p>Let us first</p>
 <p>We are now going to use a simple model of wave propagation: a simulation of the <a href="https://en.wikipedia.org/wiki/Wave_equation">wave equation</a> in two dimensions.</p>
 <script src="https://pinchito.es/physics-simulation/double-slit/wave.js"></script>
 <canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
 </canvas>
 <div id="form">
 <form id="params">
-<input style="display: none;" type="number" id="speed" value="2"> <input style="display: none;" type="number" id="damping" value="0"> <input style="display: none;" type="number" id="periods" value="0"> <input style="display: none;" type="checkbox" id="autorun"> <input style="display: none;" type="checkbox" id="maxspeed"> <input style="display: none;" type="checkbox" id="close1"> <input style="display: none;" type="checkbox" id="close2"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
+<input style="display: none;" type="number" id="speed" value="2"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
 </form>
 </div>
 <p>By the way, you can play with the simulation <a href="https://pinchito.es/double-slit/">here</a>.</p>
-<h3 id="the-real-world">The Real World</h3>
-<h2 id="so-what-about-order">So What About Order?</h2>
-<h2 id="statistical-entropy">Statistical Entropy</h2>
+<h2 id="some-background">Some Background</h2>
+<p>The magnificent building of Classical Physics was founded by Galileo Galilei, raised by Isaac Newton and perfected by other giants in the following two centuries. It is now the stuff of legends how at the end of the 19th century it started showing cracks in the very foundations, first with the <a href="https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment">Michelson–Morley experiment</a> and then by <a href="https://en.wikipedia.org/wiki/Black-body_radiation">black body radiation</a>.</p>
+<p>In 1900 Max Planck proposed his <a href="https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation">quantisation of radiation</a> to solve the enigma poised by radiation of hot chambers, and in 1905 Albert Einstein used quantisation again to explain the <a href="https://en.wikipedia.org/wiki/Photoelectric_effect">photoelectric effect</a>. Apparently they were onto something.</p>
+<p>In the coming years some brave pioneers would formalize what is now known as quantum mechanics. In essence they were just answering the same question that had been poised by <a href="https://en.wikipedia.org/wiki/Democritus">Democritos of Abdera</a> some 2300 years earlier: what are the smallest constituents of reality? But now they had very precise measurements of how all these particles behaved, and it was really different than everything we knew until then.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Quantum mechanics explains reality using particles that are described by a wave, but which can still be found in just one place at a time.</p>
 <p>We will soon continue our journey exploring quantum entropy.</p>

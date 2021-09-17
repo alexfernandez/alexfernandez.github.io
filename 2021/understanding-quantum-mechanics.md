@@ -23,7 +23,57 @@ What is it, and why does it matter?
 We will now see a gentle introduction without excessive maths,
 and also without sacrificing rigorous thinking.
 
-## Introduction
+## The Double Slit Experient
+
+To study the properties of quantum particles we will explore the following situation,
+proposed by Richard Feynman:
+a source of particles coming out of hole propagate towards two slits in a wall,
+with a mostly random direction.
+After the two slits there is a solid wall.
+Each particle can only go through one slit at a time,
+and will be detected once it reaches the wall at the end.
+
+### Particles
+
+First we will consider that 
+
+<script src="https://pinchito.es/physics-simulation/double-slit/particle.js"></script>
+<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
+<div id="form">
+<form id="params">
+<input style="display: none;" type="number" id="speed" value="1">
+<button id="run" type="button">run</button>
+<button id="pause" type="button">pause</button>
+<button id="reset" type="button">reset</button>
+</form>
+</div>
+
+By the way, you can play with the simulation
+[here](https://pinchito.es/double-slit/).
+
+### Waves
+
+Let us first 
+
+We are now going to use a simple model of wave propagation:
+a simulation of the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
+in two dimensions.
+
+<script src="https://pinchito.es/physics-simulation/double-slit/wave.js"></script>
+<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
+<div id="form">
+<form id="params">
+<input style="display: none;" type="number" id="speed" value="2">
+<button id="run" type="button">run</button>
+<button id="pause" type="button">pause</button>
+<button id="reset" type="button">reset</button>
+</form>
+</div>
+
+By the way, you can play with the simulation
+[here](https://pinchito.es/double-slit/).
+
+## Some Background
 
 The magnificent building of Classical Physics
 was founded by Galileo Galilei, raised by Isaac Newton
@@ -42,7 +92,7 @@ and in 1905 Albert Einstein used quantisation again to explain the
 [photoelectric effect](https://en.wikipedia.org/wiki/Photoelectric_effect).
 Apparently they were onto something.
 
-In the coming years a few pioneers would formalize what is now known as
+In the coming years some brave pioneers would formalize what is now known as
 quantum mechanics.
 In essence they were just answering the same question that had been poised by
 [Democritos of Abdera](https://en.wikipedia.org/wiki/Democritus)
@@ -50,51 +100,6 @@ some 2300 years earlier:
 what are the smallest constituents of reality?
 But now they had very precise measurements of how all these particles behaved,
 and it was really different than everything we knew until then.
-
-## The Double Slit Experient
-
-To study the properties of quantum particles we will explore the following situation,
-proposed by Richard Feynman:
-a source of particles coming out of hole propagate towards two slits in a wall,
-with a mostly random direction.
-After the two slits there is a solid wall.
-Each particle can only go through one slit at a time,
-and will be detected once it reaches the wall at the end.
-
-### Waves
-
-We are now going to use a simple model of wave propagation:
-a simulation of the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
-in two dimensions.
-
-<script src="https://pinchito.es/physics-simulation/double-slit/wave.js"></script>
-<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
-<div id="form">
-<form id="params">
-<input style="display: none;" type="number" id="speed" value="2">
-<input style="display: none;" type="number" id="damping" value="0">
-<input style="display: none;" type="number" id="periods" value="0">
-<input style="display: none;" type="checkbox" id="autorun">
-<input style="display: none;" type="checkbox" id="maxspeed">
-<input style="display: none;" type="checkbox" id="close1">
-<input style="display: none;" type="checkbox" id="close2">
-<button id="run" type="button">run</button>
-<button id="pause" type="button">pause</button>
-<button id="reset" type="button">reset</button>
-</form>
-</div>
-
-
-By the way, you can play with the simulation
-[here](https://pinchito.es/double-slit/).
-
-### The Real World
-
-
-## So What About Order?
-
-
-## Statistical Entropy
 
 
 ## Conclusion
