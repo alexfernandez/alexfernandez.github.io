@@ -37,6 +37,7 @@ and will be detected once it reaches the wall at the end.
 
 First we will consider that 
 
+<script src="/physics-simulation/double-slit/controller.js"></script>
 <script src="/physics-simulation/double-slit/particle.js"></script>
 <canvas id="particle-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div>
