@@ -68,7 +68,7 @@ a simulation of the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
 in two dimensions.
 
 <script src="https://pinchito.es/physics-simulation/double-slit/wave.js"></script>
-<canvas id="wave-canvas" width="200" height="500" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
+<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
 <input style="display: none;" type="number" id="speed" value="2">
