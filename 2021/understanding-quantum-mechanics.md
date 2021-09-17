@@ -39,12 +39,12 @@ First we will consider that
 
 <script src="/physics-simulation/double-slit/particle.js"></script>
 <canvas id="particle-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
-<div id="form">
-<form id="params">
-<input style="display: none;" type="number" id="speed" value="1">
-<button id="run" type="button">run</button>
-<button id="pause" type="button">pause</button>
-<button id="reset" type="button">reset</button>
+<div>
+<form>
+<input id="particle-speed" style="display: none;" type="number" value="1">
+<button id="particle-run" type="button">run</button>
+<button id="particle-pause" type="button">pause</button>
+<button id="particle-reset" type="button">reset</button>
 </form>
 </div>
 
@@ -61,12 +61,12 @@ in two dimensions.
 
 <script src="/physics-simulation/double-slit/wave.js"></script>
 <canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
-<div id="form">
-<form id="params">
-<input style="display: none;" type="number" id="speed" value="2">
-<button id="run" type="button">run</button>
-<button id="pause" type="button">pause</button>
-<button id="reset" type="button">reset</button>
+<div>
+<form>
+<input id="wave-speed" style="display: none;" type="number" value="2">
+<button id="wave-run" type="button">run</button>
+<button id="wave-pause" type="button">pause</button>
+<button id="wave-reset" type="button">reset</button>
 </form>
 </div>
 
