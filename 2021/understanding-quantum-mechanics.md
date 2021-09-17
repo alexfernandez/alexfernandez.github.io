@@ -38,7 +38,7 @@ and will be detected once it reaches the wall at the end.
 First we will consider that 
 
 <script src="https://pinchito.es/physics-simulation/double-slit/particle.js"></script>
-<canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
+<canvas id="particle-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
 <input style="display: none;" type="number" id="speed" value="1">
