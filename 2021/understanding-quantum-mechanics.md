@@ -37,7 +37,7 @@ and will be detected once it reaches the wall at the end.
 
 First we will consider that 
 
-<script src="https://pinchito.es/physics-simulation/double-slit/particle.js"></script>
+<script src="/physics-simulation/double-slit/particle.js"></script>
 <canvas id="particle-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
@@ -59,7 +59,7 @@ We are now going to use a simple model of wave propagation:
 a simulation of the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
 in two dimensions.
 
-<script src="https://pinchito.es/physics-simulation/double-slit/wave.js"></script>
+<script src="/physics-simulation/double-slit/wave.js"></script>
 <canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
 <div id="form">
 <form id="params">
