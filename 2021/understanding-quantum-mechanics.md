@@ -11,7 +11,7 @@ abstract:
 image: https://pinchito.es/2021/pics/understanding-quantum-mechanics-waves.png
 ---
 
-![An image with increasing entropy, from top left to bottom right.](pics/understanding-quantum-mechanics-waves.png "A wave travels first past a wall with one slit and then past a second wall with two slits, causing interference. Source: the author.")
+![The double-slit experiment with waves.](pics/understanding-quantum-mechanics-waves.png "A wave travels first past a wall with one slit and then past a second wall with two slits, causing interference. Source: the author.")
 
 After visiting
 [entropy](understanding-entropy)
