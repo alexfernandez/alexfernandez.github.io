@@ -27,15 +27,18 @@ and also without sacrificing rigorous thinking.
 
 To study the properties of quantum particles we will explore the following situation,
 proposed by Richard Feynman:
-a source of particles coming out of hole propagate towards two slits in a wall,
+some particles coming out of hole propagate towards two slits in a wall,
 with a mostly random direction.
-After the two slits there is a solid wall.
-Each particle can only go through one slit at a time,
-and will be detected once it reaches the wall at the end.
+After the two slits there is a solid wall with detectors,
+so each particle will be detected once it reaches the wall at the end.
+
+![The double-slit experiment setup.](pics/understanding-quantum-mechanics-setup.svg "A source of particles point downwards towards two slits, with some going through each; at the bottom a wall of detectors is waiting to catch them, with a click! Source: the author.")
 
 ### Particles
 
 First we will consider that 
+Each particle can only go through one slit at a time,
+and will be detected once it reaches the wall at the end.
 
 <script src="/physics-simulation/double-slit/controller.js"></script>
 <script src="/physics-simulation/double-slit/particle.js"></script>
