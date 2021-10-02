@@ -78,7 +78,7 @@ Again, what would you expect to see?
 We can use a simple model of wave propagation to simulate
 the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
 in two dimensions.
-What we accumulate at the bottom is not particle counts,
+What we accumulate at the bottom graph is not now particle counts,
 but the square of the amplitude which represents the energy of the oscillation at that point.
 
 <script src="/physics-simulation/double-slit/wave.js"></script>
@@ -92,7 +92,7 @@ but the square of the amplitude which represents the energy of the oscillation a
 </form>
 </div>
 
-This simulation is also available
+This simulation is also available to play with
 [here](https://pinchito.es/double-slit/).
 It is interesting to note that now there are some places in the wall
 where we get no waves at all.
@@ -123,16 +123,42 @@ At this point you are probably thinking:
 > so there can be no double sources to interfere at the bottom!
 
 Well, you'd be surprised.
-This debate had already happened before with light,
+
+### The Light Debate
+
+The debate between waves and particles had already happened before with light,
 where people had discussed for centuries whether it was made of particles
 or it was a kind of wave,
 an oscillation in some unknown media.
 
-### The Light Debate
+The field of optics has been studied since antiquity.
+Epicurus already established that the speed of light ("images")
+is the fastest possible in the universe in
+[this wonderful paragraph](http://www.attalus.org/old/diogenes10b.html):
 
-It was first Newton who studied the field of 
+> It is useful, also, to retain this principle, and to know that the images have an incomparable thinness;
+> which fact indeed is in no respect contradicted by sensible appearances.
+> From which it follows that **their rapidity also is incomparable**;
+> for they find everywhere an easy passage, and besides,
+> their minuteness causes them to experience no shock,
+> or at all events to experience but a very slight one,
+> while a multitude of elements very soon encounter some resistance.
 
-### Some Background
+Around 1650 many giants were
+[studying the field](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality#Classical_particle_and_wave_theories_of_light):
+Huygens and Hooke formulated a wave theory,
+while Newton argued for particles.
+Given the tremendous weight of Newton in early Physics,
+his point of view could counteract the multitude of phenomena well explained by waves,
+such as diffraction.
+
+This debate was not settled until 1801, when Young came up with a similar
+[double-slit experiment](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
+that clearly showed interference,
+convincing physicists that light was indeed a wave.
+But this situation would not last much.
+
+### Cracks in the Foundation
 
 The magnificent building of Classical Physics
 was founded by Galileo Galilei, raised by Isaac Newton
@@ -143,6 +169,12 @@ first with the
 [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
 and then by
 [black body radiation](https://en.wikipedia.org/wiki/Black-body_radiation).
+Both are very relevant to our debate.
+
+Michelson and Morley were trying to find signs of the existence of
+[ether](https://en.wikipedia.org/wiki/Luminiferous_aether),
+which was supposed to be the transparent and intangible medium where waves of light propagated.
+Their reasoning was that .
 
 In 1900 Max Planck proposed his
 [quantisation of radiation](https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation)
