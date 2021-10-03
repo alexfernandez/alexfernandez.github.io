@@ -84,7 +84,7 @@ first you will see spikes where you would expect them for particles that go stra
 Then there are a smaller number of particles that have bounced off the slits
 and go in different directions.
 By the way, you can play with the simulation
-[here](https://pinchito.es/double-slit/).
+[here](https://pinchito.es/physics-simulation/double-slit/particle).
 
 ### Waves
 
@@ -113,7 +113,7 @@ which by the way represents the energy of the oscillation at that point.
 </div>
 
 This simulation is also available to play with
-[here](https://pinchito.es/double-slit/).
+[here](https://pinchito.es/physics-simulation/double-slit/wave).
 It is interesting to note that now there are some places in the wall
 where we get no waves at all.
 Correspondingly, the graph shows no energy accumulating there.
@@ -216,14 +216,8 @@ So, the situation seems to be:
 * One detector → no interference.
 * Weak detectors → little interference.
 
-### Measurements
-
-There are two complementary viewpoints which are related that can help us explain the apparent paradox.
-First, the famous "the act of measurement affects the result":
-photons are disturbing the electrons .
-
-The second viewpoint is that adding a detector causes an effect called _decoherence_:
-the wave function is disturbed and deeper and will be studied in a separate article.
+This is, simply put, how Nature behaves.
+Now we have all the information we need to delve into quantum mechanics.
 
 ### Quantum Wave Function
 
@@ -248,6 +242,36 @@ As you can see below, a more realistic simulation based on Schrödinger's equati
 after passing a double slit.
 
 ![A more precise simulation of a wave packet passing a double slit.](pics/understanding-quantum-mechanics-simulation.webm "A round blob approaches a double slit; after reaching it some waves bounce back, while others pass through showing interference. Source:  https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm.")
+
+As a footnote, I spent many days trying to make a precise quantum simulation but with no success;
+luckily some can be found lying around,
+such as
+
+
+### Measurements
+
+Now we need to explain the effects that we are seeing in the double-slit experiment.
+There are three complementary viewpoints which can be useful.
+First, there's the famous "the act of measurement affects the result":
+when there are no detectors in the slits the wave function is crossing through the 
+when we add detectors in the slits,
+the emitted photons are disturbing our electrons and causing changes in the experiment.
+
+The second viewpoint is that
+This is usually called
+"the collapse of the wave function":
+the wave function is disturbed and the result is a measurement.
+
+adding a detector causes an effect called _decoherence_:
+This explanation is quite deep,
+and will be studied in a separate article.
+
+## History of Quantum Mechanics
+
+Let us now explore some of the history of quantum mechanics,
+which can be useful to understand how it came to be.
+This section is going to be be quite different than the usual treatment,
+so it may give you some food for thought even if you are familiar with it.
 
 ## The Light Debate
 
