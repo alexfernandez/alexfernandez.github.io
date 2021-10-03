@@ -243,11 +243,11 @@ the probability of finding the particle at each point in space.
 
 It is this wave function that is passing through both slits at the same time,
 and which causes bands to appear in the detectors.
+Note: the wave simulation that we saw at the beginning is not exact for quantum wave functions.
+As you can see below, a more realistic simulation based on Schrödinger's equation still shows interference
+after passing a double slit.
 
 ![A more precise simulation of a wave packet passing a double slit.](pics/understanding-quantum-mechanics-simulation.webm "A round blob approaches a double slit; after reaching it some waves bounce back, while others pass through showing interference. Source:  https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm.")
-
-Note: the wave simulation that we saw at the beginning is not exact for quantum wave functions.
-As we see above, a refined version still shows interference in the wave function.
 
 ## The Light Debate
 
