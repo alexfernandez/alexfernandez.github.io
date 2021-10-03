@@ -279,7 +279,7 @@ That is why our measurements show interference:
 the wave propagated through one slit interfere with that propagated through the other.
 
 Things complicate a little bit when we add the detectors at the slits.
-Why do we suddenly lose the interference?
+Why do we suddenly lose any interference?
 There are three complementary explanations which can be enlightening.
 First, there's the famous "the act of measurement affects the result":
 when we add detectors in the slits,
@@ -319,6 +319,8 @@ Say that a particle is approaching an obstacle which is impenetrable:
 it simply doesn't have enough energy to cross it.
 In quantum mechanics there is a small but finite probability that the particle will pass the obstacle.
 There is no way to predict what will happen exactly though.
+
+![Quantum tunneling through a barrier. At the origin (x=0), there is a very high, but narrow potential barrier. A significant tunneling effect can be seen.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches a . Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
 
 Having probability as the basis of quantum mechanics is what led Einstein to reject it,
 famously saying that
