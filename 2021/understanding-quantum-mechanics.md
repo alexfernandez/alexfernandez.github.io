@@ -175,6 +175,7 @@ shows the results.
 
 There is a very nice summary of the history of the experiment in
 [John Steeds et al 2003 Phys. World **16** (5) 20](https://iopscience.iop.org/article/10.1088/2058-7058/16/5/24/pdf).
+Interference for a single electron going through a double slit is well tested experimentally.
 
 ### 🔎 Which Slit?
 
