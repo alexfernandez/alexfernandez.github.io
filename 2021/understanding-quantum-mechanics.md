@@ -303,7 +303,7 @@ the wave function is reset as a result of a measurement.
 
 The third viewpoint is more technical:
 adding a detector causes an effect called _decoherence_.
-This explanation is quite deep and will be studied in a separate article.
+This phenomenon is quite deep and will be studied in a separate article.
 
 ### 🎲 Playing Dice
 
