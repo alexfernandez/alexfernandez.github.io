@@ -1,7 +1,7 @@
 ---
 title: 'Understanding Quantum Mechanics'
 subtitle: 'On the Road to Quantum Entropy, Part 3'
-footer: Published on 2021-10-03, modified on 2021-10-03.
+footer: Published on 2021-10-03, modified on 2021-10-04.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Quantum Mechanics is by far the most misunderstood of all fundamental physical theories.
