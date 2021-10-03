@@ -371,5 +371,5 @@ and the
 I have gone through a lot of literature to make sense of the double-slit experiment.
 I want to thank
 [all the Wikipedia editors](https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&action=history)
-in that and other articles that have helped me understand the subject and track deeper references.
+in this and other articles that have helped me understand the subject and track deeper references.
 
