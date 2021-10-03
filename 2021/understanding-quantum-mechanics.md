@@ -219,11 +219,14 @@ So, the situation seems to be:
 This is, simply put, how Nature behaves.
 Now we have all the information we need to delve into quantum mechanics.
 
-### Quantum Wave Function
+## The Quantum Way
 
 When physicists were confronted with this state of affairs they had to make a difficult choice:
 do we want to keep speaking about particles,
 or do we describe everything as waves?
+
+### Quantum Wave Function
+
 Moved by their experience with values defined in space like magnetic fields,
 some like Schrödinger (yes, the guy that gave name to the famous cat)
 had no reservations in defining a new quantity
@@ -237,119 +240,82 @@ the probability of finding the particle at each point in space.
 
 It is this wave function that is passing through both slits at the same time,
 and which causes bands to appear in the detectors.
-Note: the wave simulation that we saw at the beginning is not exact for quantum wave functions.
+This is the famous _wave-particle duality_ which causes quantum objects to behave
+"sometimes like particles, sometimes like waves":
+**a particle is described by a wave function that determines its possible positions**.
+Propagate like a wave, be detected as a single particle.
+
+### Precise Simulation
+
+The wave simulation that we saw at the beginning is not exact for quantum wave functions.
 As you can see below, a more realistic simulation based on Schrödinger's equation still shows interference
 after passing a double slit.
 
 ![A more precise simulation of a wave packet passing a double slit.](pics/understanding-quantum-mechanics-simulation.webm "A round blob approaches a double slit; after reaching it some waves bounce back, while others pass through showing interference. Source:  https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm.")
 
-As a footnote, I spent many days trying to make a precise quantum simulation but with no success;
+As a footnote, I spent many days trying to make a precise quantum simulation but with little success;
 luckily some can be found lying around,
 such as
+[this one from Arturo Mena](https://github.com/artmenlope/double-slit-2d-schrodinger).
 
+### Explanations
 
-### Measurements
+Now we are ready to explain the effects that we are seeing in the double-slit experiment.
+In the original experiment we have a particle moving through a first slit with a random direction,
+and then through two slits which causes interference.
+Our explanation is that the wave function is crossing through the slits,
+and then when reaching the end wall the particle is detected at some point
+that depends on how the waves have propagated through space.
+That is why our measurements show interference:
+the wave propagated through one slit interfere with that propagated through the other.
 
-Now we need to explain the effects that we are seeing in the double-slit experiment.
-There are three complementary viewpoints which can be useful.
+Things complicate a little bit when we add the detectors at the slits.
+Why do we suddenly lose the interference?
+There are three complementary explanations which can be enlightening.
 First, there's the famous "the act of measurement affects the result":
-when there are no detectors in the slits the wave function is crossing through the 
 when we add detectors in the slits,
-the emitted photons are disturbing our electrons and causing changes in the experiment.
+the emitted photons are disturbing our electrons and causing changes in the results.
 
-The second viewpoint is that
-This is usually called
-"the collapse of the wave function":
-the wave function is disturbed and the result is a measurement.
+The second viewpoint adds a bit more detail.
+When a particle is detected at one of the slits,
+the old wave function disappears and is replaced by a new wave function,
+in this case propagating from a single slit.
+This is usually called the _collapse of the wave function_:
+the wave function collapses as a result of a measurement.
 
-adding a detector causes an effect called _decoherence_:
-This explanation is quite deep,
-and will be studied in a separate article.
+The third viewpoint is more technical:
+adding a detector causes an effect called _decoherence_.
+This explanation is quite deep and will be studied in a separate article.
 
-## History of Quantum Mechanics
+### Playing Dice
 
-Let us now explore some of the history of quantum mechanics,
-which can be useful to understand how it came to be.
-This section is going to be be quite different than the usual treatment,
-so it may give you some food for thought even if you are familiar with it.
+With the quantum description we have suddenly introduced a subtle but important effect:
+suddenly we are not calculating the position of a particle,
+but computing a _probability_ of where the particle will be.
+Same is true about the particle speed:
+we get a range of probabilities that the particle will have a certain speed when measured.
 
-## The Light Debate
+Does this mean that we cannot know with precision the position or speed of a particle?
+In short, yes.
+The wave function fills all space:
+some positions will be more likely than others,
+but in principle the particle can be detected _anywhere_.
+In practice the wave function only has significant values in a limited range.
 
-A debate between waves and particles has already happened before with light,
-where scientists have discussed for centuries whether it was made of particles
-or it was some kind of wave or oscillation.
-It can be instructive to look at it from our privileged perspective.
+This ambiguity leads to all kinds of funny phenomena,
+like the
+[tunneling effect](https://en.wikipedia.org/wiki/Quantum_tunnelling):
+a quantum particle can be found even in places where it would be impossible according to classical mechanics.
+Say that a particle is approaching an obstacle which is impenetrable:
+it simply doesn't have enough energy to cross it.
+In quantum mechanics there is a small but finite probability that the particle will pass the obstacle.
+There is no way to predict what will happen exactly though.
 
-The field of optics has been studied since antiquity.
-Epicurus already established that the speed of light ("images")
-is the fastest possible in the universe in
-[this wonderful paragraph](http://www.attalus.org/old/diogenes10b.html):
-
-> It is useful, also, to retain this principle, and to know that the images have an incomparable thinness;
-> which fact indeed is in no respect contradicted by sensible appearances.
-> From which it follows that **their rapidity also is incomparable**;
-> for they find everywhere an easy passage, and besides,
-> their minuteness causes them to experience no shock,
-> or at all events to experience but a very slight one,
-> while a multitude of elements very soon encounter some resistance.
-
-Around 1650 many giants were
-[studying the field](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality#Classical_particle_and_wave_theories_of_light)
-with a more mathematically-oriented approach:
-Huygens and Hooke formulated a wave theory,
-while Newton argued for particles.
-Given the tremendous weight of Newton in early Physics,
-his opinion could counteract the multitude of phenomena well explained by waves.
-One interesting effect in waves is
-[diffraction](https://en.wikipedia.org/wiki/Diffraction):
-as we saw in our little simulator, waves can change direction when passing through a narrow opening,
-and so does light, although its wavelength is so small that the effect is only appreciable at short distances.
-
-The debate was not settled until 1801, when Young came up with a similar
-[double-slit experiment](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
-that clearly showed interference,
-convincing physicists that light was indeed a wave.
-But this situation would not last much.
-
-## Cracks in the Foundation
-
-The magnificent building of Classical Physics
-founded by Galileo Galilei, raised by Isaac Newton
-and perfected by other giants in the following two centuries
-started showing cracks in the very foundations at the end of the 19th century,
-first with the
-[Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
-and then by
-[black body radiation](https://en.wikipedia.org/wiki/Black-body_radiation).
-Both are very relevant to our debate.
-
-### In Search of Ether
-
-In 1887 Michelson and Morley were trying to find signs of the existence of
-[ether](https://en.wikipedia.org/wiki/Luminiferous_aether),
-which was supposed to be the intangible medium where waves of light propagated.
-Their reasoning was that, since light was a wave,
-something had to be oscillating;
-this transparent substance had to permeate the whole of space so that light could propagate in the vacuum.
-And since our Earth was moving through space around the sun,
-they should be able to measure a different speed of light in different directions.
-The experiment had to be repeated multiple times,
-if by any chance our planet was moving exactly along the ether at the moment of the first measurement.
-
-Of course their very precise measurements found none of that nonsense:
-light seemed to travel at _exactly_ the same speed at all times and in all directions.
-There was no ether to be found anywhere.
-
-### Light as Particles
-
-There was more:
-
-In 1900 Max Planck proposed his
-[quantisation of radiation](https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation)
-to solve the enigma poised by radiation of hot chambers,
-and in 1905 Albert Einstein used quantisation again to explain the
-[photoelectric effect](https://en.wikipedia.org/wiki/Photoelectric_effect).
-Apparently they were onto something.
+Having probability as the basis of quantum mechanics is what led Einstein to reject it,
+famously saying that
+[God does not play dice with the universe](https://en.wikipedia.org/wiki/Religious_and_philosophical_views_of_Albert_Einstein#Free_will).
+Nowadays most physicists have accepted it without questioning,
+since experiments have failed to find any hidden theories that may give us a more deterministic picture.
 
 ## Conclusion
 
