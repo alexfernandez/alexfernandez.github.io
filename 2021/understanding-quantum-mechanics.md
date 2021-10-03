@@ -325,6 +325,11 @@ which will be approximately reached if we repeat the same experiment many times.
 
 ![Quantum tunneling through a barrier with a very high, but narrow potential barrier at the origin (x=0). There is equal probability that a particle will be reflected or pass the barrier.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches from the left a thin barrier at the origin of coordinates. After reaching the barrier there are two waves of approximately the same height: one reflected going back, and one that has skipped the barrier. Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
 
+This tunneling effect is not just a theoretical curiosity;
+it has multiple applications in today's technology such as transistors,
+nuclear fission or the
+[scanning tunneling microscope](https://en.wikipedia.org/wiki/Scanning_tunnelling_microscope).
+
 Having probability as the basis of quantum mechanics is what led Einstein to reject it,
 famously saying that
 [God does not play dice with the universe](https://en.wikipedia.org/wiki/Religious_and_philosophical_views_of_Albert_Einstein#Free_will).
