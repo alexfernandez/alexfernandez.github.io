@@ -328,14 +328,19 @@ since experiments have failed to find any hidden theories that may give us a mor
 
 ## Conclusion
 
-Quantum mechanics explains reality using particles that are described by a wave,
+Quantum mechanics explains reality with particles that are described by a wave,
 but which can still be found in just one place at a time.
+The double-slit experiment is a particularly good interesting illustration of this pesky behaviour.
 
 We will soon continue our journey exploring quantum entropy.
+One question that we may make ourselves is:
+but aren't photons also particles?
+How come they are described as electromagnetic waves?
+And the answer will require a deep dive in the history of quantum mechanics.
 
-### References
-
-* Don't miss [Feynman's Lectures on Physics: Quantum Behavior](https://www.feynmanlectures.caltech.edu/III_01.html).
+Meanwhile don't miss [Feynman's Lectures on Physics: Quantum Behavior](https://www.feynmanlectures.caltech.edu/III_01.html),
+and the
+[extraordinary video of the lecture](https://www.youtube.com/watch?v=Ja0HSFj8Imc).
 
 ### Acknowledgements
 
