@@ -162,10 +162,11 @@ So, what if I tell you that electrons show interference?
 actually did the experiment with electrons in 1973.
 Guess what: he got peaks and valleys,
 the true sign of interference.
-Some scientists were not happy:
-in an electron beam there can be multiple electrons going through each slit at the same time.
 
-The only way to check if there is interference for a single electron is to send them one at a time.
+Some scientists were not yet happy:
+in an electron beam there can be multiple electrons going through each slit at the same time,
+so they suggested that electrons going through different slits could interfere with each other.
+The only way to check if there is **interference for a single electron** is to send them one at a time.
 And that is exactly what an Italian team did in 1974:
 [P G Merli, G F Missiroli and G Pozzi 1976 Am. J. Phys. **44** 306–7](https://www.fisica.unam.mx/personales/romero/IFC2015/Merli-Mizziroli-Pozzi-AJP-1976.pdf).
 Again, lots of interference!
