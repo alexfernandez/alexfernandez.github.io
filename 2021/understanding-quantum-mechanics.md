@@ -172,7 +172,7 @@ shows the results.
 There is a very nice summary of the history of the experiment in
 [John Steeds et al 2003 Phys. World **16** (5) 20](https://iopscience.iop.org/article/10.1088/2058-7058/16/5/24/pdf).
 
-### 🔬 Which Slit?
+### 🔎 Which Slit?
 
 We can make a perfectly reasonable question:
 which slit does each electron go through?
@@ -234,7 +234,7 @@ When physicists were confronted with this state of affairs they had to make a di
 do we want to keep speaking about particles,
 or do we describe everything as waves?
 
-### Quantum Wave Function
+### 〰️ Quantum Wave Function
 
 Moved by their experience with values defined in space like magnetic fields,
 some like Schrödinger (yes, the guy that gave name to the famous cat)
@@ -267,7 +267,7 @@ luckily some can be found lying around,
 such as
 [this one from Arturo Mena](https://github.com/artmenlope/double-slit-2d-schrodinger).
 
-### Explanations
+### 🗣️ Explanations
 
 Now we are ready to explain the effects that we are seeing in the double-slit experiment.
 In the original experiment we have a particle moving through a first slit with a random direction,
@@ -296,7 +296,7 @@ The third viewpoint is more technical:
 adding a detector causes an effect called _decoherence_.
 This explanation is quite deep and will be studied in a separate article.
 
-### Playing Dice
+### 🎲 Playing Dice
 
 With the quantum description we have suddenly introduced a subtle but important effect:
 suddenly we are not calculating the position of a particle,
@@ -331,7 +331,7 @@ famously saying that
 Nowadays most physicists have accepted it without questioning,
 since experiments have failed to find any hidden theories that may give us a more deterministic picture.
 
-## Conclusion
+## ⌛ Conclusion
 
 Quantum mechanics explains reality with particles that are described by a wave,
 but which can still be found in just one place at a time.
@@ -347,7 +347,7 @@ Meanwhile don't miss [Feynman's Lectures on Physics: Quantum Behavior](https://w
 and the
 [extraordinary video of the lecture](https://www.youtube.com/watch?v=Ja0HSFj8Imc).
 
-### Acknowledgements
+### 🙏 Acknowledgements
 
 I have gone through a lot of literature to make sense of the double-slit experiment.
 I want to thank
