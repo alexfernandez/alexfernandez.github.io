@@ -19,7 +19,8 @@ Latest articles first.
 
 ### 2021
 
-🧑‍💻 🇮🇪 2021-08-16: [API First](2021/api-first)  
+⚛️ 🇮🇪 2021-10-03: [Understanding Quantum Mechanics](2021/understanding-quantum-mechanics)  
+🧑‍💻 🇮🇪 2021-08-16: [API First](2021/api-first) 
 ⚛️ 🇮🇪 2021-08-12: [We Are Not Living in a Computer Simulation](2021/understanding-simulation)  
 ⚛️ 🇮🇪 2021-07-10: [Understanding Entropy](2021/understanding-entropy)  
 🧑‍💻 🇮🇪 2021-01-23: [The TTP Methodology](2021/ttp)  
