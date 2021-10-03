@@ -24,7 +24,7 @@ What is it, and why does it matter?
 We will now see a gentle introduction without excessive maths,
 and also without sacrificing rigorous thinking.
 In the process we will explore some very fundamental questions in Physics
-like "what is light?" or "can we predict how things behave?".
+like "what is a particle?" or "can we predict how things behave?".
 
 ## ❓ The Basic Question
 
@@ -318,10 +318,6 @@ a quantum particle can be found even in places where it would be impossible acco
 Say that a particle is approaching an obstacle which is impenetrable:
 it simply doesn't have enough energy to cross it.
 In quantum mechanics there is a small but finite probability that the particle will pass the obstacle.
-In any concrete situation, will the particle be reflected or will it continue its way?
-There is no way to predict what will happen exactly;
-we can only compute the probabilities of each event,
-which will be approximately reached if we repeat the same experiment many times.
 
 ![Quantum tunneling through a barrier with a very high, but narrow potential barrier at the origin (x=0). There is equal probability that a particle will be reflected or pass the barrier.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches from the left a thin barrier at the origin of coordinates. After reaching the barrier there are two waves of approximately the same height: one reflected going back, and one that has skipped the barrier. Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
 
@@ -329,6 +325,15 @@ This tunneling effect is not just a theoretical curiosity;
 it has multiple applications in today's technology such as transistors,
 nuclear fission or the
 [scanning tunneling microscope](https://en.wikipedia.org/wiki/Scanning_tunnelling_microscope).
+
+In any concrete situation, will the particle be reflected or will it continue its way?
+There is no way to predict what will happen exactly;
+we can only compute the probabilities of each event,
+which will be approximately reached if we repeat the same experiment many times.
+On large scales probabilities will tend to average so we can have a pretty good idea of how things will behave;
+that is why in our common world we don't need to worry too much about probability densities.
+But once things start getting sufficiently small,
+wave functions are the only description that makes sense.
 
 Having probability as the basis of quantum mechanics is what led Einstein to reject it,
 famously saying that
