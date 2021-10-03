@@ -320,7 +320,7 @@ it simply doesn't have enough energy to cross it.
 In quantum mechanics there is a small but finite probability that the particle will pass the obstacle.
 There is no way to predict what will happen exactly though.
 
-![Quantum tunneling through a barrier. At the origin (x=0), there is a very high, but narrow potential barrier. A significant tunneling effect can be seen.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches a . Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
+![Quantum tunneling through a barrier. At the origin (x=0), there is a very high, but narrow potential barrier. A significant tunneling effect can be seen.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches from the left a thin barrier at the origin of coordinates. After reaching the barrier there are two waves of approximately the same height: one reflected going back, and one that has skipped the barrier. Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
 
 Having probability as the basis of quantum mechanics is what led Einstein to reject it,
 famously saying that
