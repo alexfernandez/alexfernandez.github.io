@@ -242,14 +242,14 @@ or do we describe everything as waves?
 ### 〰️ Quantum Wave Function
 
 Moved by their experience with values defined in space like magnetic fields,
-some like Schrödinger (yes, the guy that gave name to the famous cat)
+some scientists like Schrödinger (yes, the guy that gave name to the famous cat)
 had no reservations in defining a new quantity
-(a _wave function_) that had a value in each point of space.
-This is the famous
+(a _wave function_) that had a value for each point of space.
+The result was the famous
 [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation).
 The [Wikipedia article](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation#History)
 helpfully clarifies that it was Max Born who first interpreted the quantum wave function
-as a _probability amplitude_, which squared would give the _probability density_:
+as a _probability amplitude_, which when squared would give the _probability density_:
 the probability of finding the particle at each point in space.
 
 It is this wave function that is passing through both slits at the same time,
