@@ -20,15 +20,34 @@ and a detour through
 we continue our journey of understanding Physics with a puzzling theory:
 **quantum mechanics**.
 What is it, and why does it matter?
+
 We will now see a gentle introduction without excessive maths,
 and also without sacrificing rigorous thinking.
+In the process we will explore some very fundamental questions in Physics
+like "what is light?" or "can we predict how things behave?".
+
+## The Basic Question
+
+Since antiquity philosophers have been trying to answer the question that had been poised by
+[Democritos of Abdera](https://en.wikipedia.org/wiki/Democritus)
+some 2400 years ago:
+what are the smallest constituents of reality?
+The goal posts have moved a lot since then:
+early attempts were just educated guesses and broad descriptions.
+
+By the early 1900s scientists had very precise measurements of how particles behaved,
+and it was really different than everything we knew until then.
+In the coming years some brave pioneers would formalize what is now known as
+quantum mechanics.
 
 ## The Double Slit Experient
 
-To study the properties of quantum particles we will explore the following situation,
-proposed by Richard Feynman:
-some particles coming out of hole propagate towards two slits in a wall,
-with a mostly random direction.
+We don't want to study the formalism,
+but to get an idea of what's so different about subatomic particles.
+We will explore the following situation
+[proposed by Richard Feynman](https://www.youtube.com/watch?v=Ja0HSFj8Imc):
+a stream of particles coming out of a hole in a somewhat random direction
+propagate towards two slits in a wall.
 After the two slits there is a solid wall with detectors,
 so each particle will be detected once it reaches the wall at the end.
 
@@ -39,12 +58,12 @@ What do you expect we should see?
 
 ### Particles
 
-First we will consider that we are dealing with particles as we usually know them.
-A good way of creating a particle source is to set a wall with a single slit after a source with random directions.
+First we will consider that we are dealing with particles as we usually imagine them:
+little balls that bounce off walls.
 Each particle can only go through one slit at a time,
 and will be detected only once at the end.
-Keep in mind that particles can bounce off the separations,
-which by the way are not perfectly smooth so they can take unexpected directions.
+Keep in mind that particles can also bounce off the separations,
+which by the way are not perfectly smooth so the particles can take unexpected directions.
 Below you can find a gross simulation of how the experiment might go.
 
 <script src="/physics-simulation/double-slit/controller.js"></script>
@@ -59,9 +78,9 @@ Below you can find a gross simulation of how the experiment might go.
 </form>
 </div>
 
-If you click on "run" you will see that particles tend to follow a smooth pattern:
-they are detected along the whole wall.
-First you will see spikes where you would expect them for particles that go straight through both holes.
+If you click on "run" you will see that particles are detected along the whole wall.
+They tend to follow a smooth pattern:
+first you will see spikes where you would expect them for particles that go straight through both holes.
 Then there are a smaller number of particles that have bounced off the slits
 and go in different directions.
 By the way, you can play with the simulation
@@ -69,17 +88,18 @@ By the way, you can play with the simulation
 
 ### Waves
 
-What would happen if instead of particles we had waves?
+Just for fun, what would happen if instead of particles we had waves?
 Imagine we have a pool of water with a few partitions reproducing our experiemental setup,
-and the source is now a perturbation in the water causing waves at the top.
-We will see the water oscillating at every point with a different amplitude.
+and the source is now a perturbation in the water causing waves at the top of our diagram.
+We will see the water oscillating with a different amplitude at each point.
 Again, what would you expect to see?
 
 We can use a simple model of wave propagation to simulate
 the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
 in two dimensions.
-What we accumulate at the bottom graph is not now particle counts,
-but the square of the amplitude which represents the energy of the oscillation at that point.
+We cannot count particles at the bottom graph now,
+but we can accumulate instead the square of the wave amplitude,
+which by the way represents the energy of the oscillation at that point.
 
 <script src="/physics-simulation/double-slit/wave.js"></script>
 <canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
@@ -107,7 +127,7 @@ In some places the ridges of one wave matches exactly with the valleys of the ot
 so the net effect is perfectly calm water.
 At other places both waves are perfectly synchronized so the net effect is a bigger oscillation.
 
-## Particles or Waves
+### Particles or Waves
 
 Now we have seen both versions.
 How would you expect a beam of electrons to behave,
@@ -120,16 +140,24 @@ At this point you are probably thinking:
 > Electrons are particles,
 > and they will behave like such!
 > They can only pass through one hole,
-> so there can be no double sources to interfere at the bottom!
+> so there can be no interference between both slits at the bottom!
 
 Well, you'd be surprised.
+A debate between waves and particles has already happened before with light,
+where scientists have discussed for centuries whether it was made of particles
+or it was some kind of wave or oscillation.
+We will see it in detail below,
+in case you are interested.
 
-### The Light Debate
+## The Double Slit in Practice
 
-The debate between waves and particles had already happened before with light,
-where people had discussed for centuries whether it was made of particles
-or it was a kind of wave,
-an oscillation in some unknown media.
+Going back to our double slit:
+what does really happen if you do this experiment with electrons?
+Well, guess what:
+you get peaks and valleys,
+the true sign of interference.
+
+## The Light Debate
 
 The field of optics has been studied since antiquity.
 Epicurus already established that the speed of light ("images")
@@ -145,36 +173,55 @@ is the fastest possible in the universe in
 > while a multitude of elements very soon encounter some resistance.
 
 Around 1650 many giants were
-[studying the field](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality#Classical_particle_and_wave_theories_of_light):
+[studying the field](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality#Classical_particle_and_wave_theories_of_light)
+with a more mathematically-oriented approach:
 Huygens and Hooke formulated a wave theory,
 while Newton argued for particles.
 Given the tremendous weight of Newton in early Physics,
-his point of view could counteract the multitude of phenomena well explained by waves,
-such as diffraction.
+his opinion could counteract the multitude of phenomena well explained by waves.
+One interesting effect in waves is
+[diffraction](https://en.wikipedia.org/wiki/Diffraction):
+as we saw in our little simulator, waves can change direction when passing through a narrow opening,
+and so does light, although its wavelength is so small that the effect is only appreciable at short distances.
 
-This debate was not settled until 1801, when Young came up with a similar
+The debate was not settled until 1801, when Young came up with a similar
 [double-slit experiment](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
 that clearly showed interference,
 convincing physicists that light was indeed a wave.
 But this situation would not last much.
 
-### Cracks in the Foundation
+## Cracks in the Foundation
 
 The magnificent building of Classical Physics
-was founded by Galileo Galilei, raised by Isaac Newton
-and perfected by other giants in the following two centuries.
-It is now the stuff of legends how at the end of the 19th century it
-started showing cracks in the very foundations,
+founded by Galileo Galilei, raised by Isaac Newton
+and perfected by other giants in the following two centuries
+started showing cracks in the very foundations at the end of the 19th century,
 first with the
 [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
 and then by
 [black body radiation](https://en.wikipedia.org/wiki/Black-body_radiation).
 Both are very relevant to our debate.
 
-Michelson and Morley were trying to find signs of the existence of
+### In Search of Ether
+
+In 1887 Michelson and Morley were trying to find signs of the existence of
 [ether](https://en.wikipedia.org/wiki/Luminiferous_aether),
-which was supposed to be the transparent and intangible medium where waves of light propagated.
-Their reasoning was that .
+which was supposed to be the intangible medium where waves of light propagated.
+Their reasoning was that, since light was a wave,
+something had to be oscillating;
+this transparent substance had to permeate the whole of space so that light could propagate in the vacuum.
+And since our Earth was moving through space around the sun,
+they should be able to measure a different speed of light in different directions.
+The experiment had to be repeated multiple times,
+if by any chance our planet was moving exactly along the ether at the moment of the first measurement.
+
+Of course their very precise measurements found none of that nonsense:
+light seemed to travel at _exactly_ the same speed at all times and in all directions.
+There was no ether to be found anywhere.
+
+### Light as Particles
+
+There was more:
 
 In 1900 Max Planck proposed his
 [quantisation of radiation](https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation)
@@ -182,15 +229,6 @@ to solve the enigma poised by radiation of hot chambers,
 and in 1905 Albert Einstein used quantisation again to explain the
 [photoelectric effect](https://en.wikipedia.org/wiki/Photoelectric_effect).
 Apparently they were onto something.
-
-In the coming years some brave pioneers would formalize what is now known as
-quantum mechanics.
-In essence they were just answering the same question that had been poised by
-[Democritos of Abdera](https://en.wikipedia.org/wiki/Democritus)
-some 2300 years earlier:
-what are the smallest constituents of reality?
-But now they had very precise measurements of how all these particles behaved,
-and it was really different than everything we knew until then.
 
 ## Conclusion
 
