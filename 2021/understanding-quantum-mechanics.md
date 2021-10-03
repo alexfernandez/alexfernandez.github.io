@@ -28,13 +28,14 @@ like "what is a particle?" or "can we predict how things behave?".
 
 ## ❓ The Basic Question
 
-Since antiquity philosophers have been trying to answer the question that had been poised by
+Since antiquity philosophers have been trying to answer the question poised by
 [Democritos of Abdera](https://en.wikipedia.org/wiki/Democritus)
 some 2400 years ago:
 what are the smallest constituents of reality?
-The goal posts have moved a lot since then:
-early attempts were just educated guesses and broad descriptions.
+The goal posts have moved a lot since then.
 
+Early attempts were just educated guesses and broad descriptions:
+there simply was no way to gather observations that were accurate enough.
 By the early 1900s scientists had very precise measurements of how particles behaved,
 and it was really different than everything we knew until then.
 In the coming years some brave pioneers would formalize what is now known as
@@ -42,9 +43,9 @@ quantum mechanics.
 
 ## 𝌂 The Double Slit Experient
 
-We don't want to study the formalism,
-but to get an idea of what's so different about subatomic particles.
-We will explore the following situation
+We are not going to study the formalism of quantum mechanics,
+but we will try to get an idea of what's so different about subatomic particles.
+To that end we will explore the following situation
 [proposed by Richard Feynman](https://www.youtube.com/watch?v=Ja0HSFj8Imc):
 a stream of particles coming out of a hole in a somewhat random direction
 propagate towards two slits in a wall.
@@ -65,6 +66,7 @@ and will be detected only once at the end.
 Keep in mind that particles can also bounce off the separations,
 which by the way are not perfectly smooth so the particles can take unexpected directions.
 Below you can find a gross simulation of how the experiment might go.
+The first slit at the top is just a way to focus the stream of the particles.
 
 <script src="/physics-simulation/double-slit/controller.js"></script>
 <script src="/physics-simulation/double-slit/particle.js"></script>
@@ -101,6 +103,7 @@ in two dimensions.
 We cannot count particles at the bottom graph now,
 but we can accumulate instead the square of the wave amplitude,
 which by the way represents the energy of the oscillation at that point.
+As before, the first slit at the top is just a way to focus the initial circular wave.
 
 <script src="/physics-simulation/double-slit/wave.js"></script>
 <canvas id="wave-canvas" width="200" height="532" style="border: solid black 1px; max-width: 100%; max-height: 100%;"></canvas>
