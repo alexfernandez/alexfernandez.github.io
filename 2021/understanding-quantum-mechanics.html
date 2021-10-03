@@ -11,11 +11,11 @@
 	<head>
 		<title>Understanding Quantum Mechanics</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="Understanding Quantum Mechanics — On the Road to Quantum Entropy, Part 2" />
+		<meta name="description" content="Understanding Quantum Mechanics — On the Road to Quantum Entropy, Part 3" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="Understanding Quantum Mechanics — On the Road to Quantum Entropy, Part 2" />
+		<meta name="twitter:title" content="Understanding Quantum Mechanics — On the Road to Quantum Entropy, Part 3" />
 		<meta name="twitter:description" content="Quantum Mechanics is by far the most misunderstood of all physical theories. It has many formulations and interpretations, and it is misused regularly by both scientists and the general public. Fear no more; in this article we will try to understand what it is and why it matters." />
 		<meta name="twitter:image" content="https://pinchito.es/2021/pics/understanding-quantum-mechanics-waves.png" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -78,7 +78,7 @@
 								<div class="container">
 									<header class="major">
 										<h1>Understanding Quantum Mechanics</h1>
-										<p>On the Road to Quantum Entropy, Part 2<p>
+										<p>On the Road to Quantum Entropy, Part 3<p>
 									</header>
 																				<figure>
 <img src="pics/understanding-quantum-mechanics-waves.png" title="A wave travels first past a wall with one slit and then past a second wall with two slits, causing interference. Source: the author." alt="The double-slit experiment with waves." /><figcaption>The double-slit experiment with waves.</figcaption>
@@ -105,7 +105,7 @@
 <input id="particle-speed" style="display: none;" type="number" value="1"> <button id="particle-run" type="button">run</button> <button id="particle-pause" type="button">pause</button> <button id="particle-reset" type="button">reset</button>
 </form>
 </div>
-<p>If you click on “run” you will see that particles are detected along the whole wall. They tend to follow a smooth pattern: first you will see spikes where you would expect them for particles that go straight through both holes. Then there are a smaller number of particles that have bounced off the slits and go in different directions. By the way, you can play with the simulation <a href="https://pinchito.es/physics-simulation/double-slit/particle">here</a>.</p>
+<p>If you click on “run” you will see that particles are detected along the whole wall, due to random reflections. They tend to follow a smooth pattern: first you will see spikes where you would expect them for particles that go straight through both holes. Then there are a smaller number of particles that have bounced off the slits and go in different directions. By the way, you can play with the simulation <a href="https://pinchito.es/physics-simulation/double-slit/particle">here</a>.</p>
 <h3 id="waves">Waves</h3>
 <p>Just for fun, what would happen if instead of particles we had waves? Imagine we have a pool of water with a few partitions reproducing our experiemental setup, and the source is now a perturbation in the water causing waves at the top of our diagram. We will see the water oscillating with a different amplitude at each point. Again, what would you expect to see?</p>
 <p>We can use a simple model of wave propagation to simulate the <a href="https://en.wikipedia.org/wiki/Wave_equation">wave equation</a> in two dimensions. We cannot count particles at the bottom graph now, but we can accumulate instead the square of the wave amplitude, which by the way represents the energy of the oscillation at that point.</p>
@@ -117,7 +117,8 @@
 <input id="wave-speed" style="display: none;" type="number" value="2"> <button id="wave-run" type="button">run</button> <button id="wave-pause" type="button">pause</button> <button id="wave-reset" type="button">reset</button>
 </form>
 </div>
-<p>This simulation is also available to play with <a href="https://pinchito.es/physics-simulation/double-slit/wave">here</a>. It is interesting to note that now there are some places in the wall where we get no waves at all. Correspondingly, the graph shows no energy accumulating there. What is happening?</p>
+<p>Again clicking on “run” will show you how waves propagate, first through the top slit and then through the two slits. This simulation is also available to play with <a href="https://pinchito.es/physics-simulation/double-slit/wave">here</a>.</p>
+<p>It is interesting to note that now there are some places in the wall where we get no waves at all. Correspondingly, the graph shows no energy accumulating there. What is happening?</p>
 <p>What we see here is <a href="https://en.wikipedia.org/wiki/Wave_interference">interference</a>. Each of the slits acts as a new source of waves, so what reaches the bottom is the sum of both oscillations. In some places the ridges of one wave matches exactly with the valleys of the other, so the net effect is perfectly calm water. At other places both waves are perfectly synchronized so the net effect is a bigger oscillation.</p>
 <h3 id="particles-or-waves">Particles or Waves</h3>
 <p>Now we have seen both versions. How would you expect a beam of electrons to behave, like particles or like waves?</p>
@@ -126,7 +127,7 @@
 <p>But pinchito, what kind of nonsense is this? Electrons are particles, and they will behave like such! They can only pass through one hole, so there can be no interference between both slits at the bottom!</p>
 </blockquote>
 <p>Well, you’d be surprised.</p>
-<h2 id="the-double-slit-in-practice">The Double Slit in Practice</h2>
+<h2 id="double-slits-in-practice">Double Slits in Practice</h2>
 <p>The best to settle the debate is probably to do the experiment. So, what if I tell you that electrons show interference?</p>
 <figure>
 <img src="pics/understanding-quantum-mechanics-jonsson.png" title="A series of bands extends from the center (stronger) to the sides (dimmer). Source: Claus Jönsson, &quot;Electron Diffraction at Multiple Slits&quot;, American Journal of Physics 42, 4-11 (1974) https://doi.org/10.1119/1.1987592." alt="Jönsson’s results for the double-slit experiment." /><figcaption>Jönsson’s results for the double-slit experiment.</figcaption>
@@ -135,12 +136,21 @@
 <p>The only way to check if there is interference for a single electron is to send them one at a time. And that is exactly what an Italian team did in 1974: <a href="https://www.fisica.unam.mx/personales/romero/IFC2015/Merli-Mizziroli-Pozzi-AJP-1976.pdf">P G Merli, G F Missiroli and G Pozzi 1976 Am. J. Phys. <strong>44</strong> 306–7</a>. Again, lots of interference! <a href="https://www.youtube.com/watch?v=zc-iyjpzzGQ">This delicious film</a> shows the results.</p>
 <p>There is a very nice summary of the history of the experiment in <a href="https://iopscience.iop.org/article/10.1088/2058-7058/16/5/24/pdf">John Steeds et al 2003 Phys. World <strong>16</strong> (5) 20</a>.</p>
 <h3 id="which-slit">Which Slit?</h3>
-<p>We can make a perfectly reasonable question: which slit does each electron go through? Since the electron is detected only once at the bottom, we can deduce that it must have gone through only one slit. To settle the debate we can install detectors at each slit: just a constant beam of photons that will flicker whenever an electron passes through.</p>
+<p>We can make a perfectly reasonable question: which slit does each electron go through? Since the electron is detected only once at the bottom, we can deduce that it must have gone through only one slit. To settle the debate we can install detectors at each slit, that will tell us which path each electron takes.</p>
 <p>So we do this in our mental experiment, and find out that we can reliably detect electrons passing through the slits. Now that we know which slit each electron went through, we will settle the debate!</p>
 <p>Next we check the pattern at the bottom: we find <strong>no interference</strong>. The resulting graph will be more similar to the curve we generated above for particles, smooth and without the typical bands generated by interference. How can this be?</p>
 <p>Since we are sending the electrons one at a time, we can even correlate the slits with the clicks detected at the bottom of our graph. Particles that went through the left slit will generate a pattern exactly as if the right slit was closed, and viceversa. We can try to detect particles only in one slit. The result will be, again: <strong>no interference</strong>. Apparently interference is so shy that just trying to pinpoint it makes it disappear.</p>
-<p>We can also try to use a dimmer detector: a beam with less photons. The result will be curious: some electrons will go undetected, generating interference, while those that are detected generate a smooth curve. We can also try to use a detector with red light, which is just a source of photons with less energy per particle. The result will probably be even more curious: when electrons are unambiguously detected the resulting curve will show interference, but when electrons go unnoticed by the red light there will be no bands.</p>
-<p>So, the situation seems to be: * No detectors → interference. * Detectors → no interference. * One detector → no interference. * Weak detectors → little interference.</p>
+<figure>
+<img src="pics/understanding-quantum-mechanics-detector.svg" title="A light source shines towards the slit; whenever a particle comes through, it deflects some of the photons that will reach a detector. Source: the author." alt="A detector is made with a source of light that crosses the slit, and a sensor activated when the light is deflected by a passing particle." /><figcaption>A detector is made with a source of light that crosses the slit, and a sensor activated when the light is deflected by a passing particle.</figcaption>
+</figure>
+<p>We can also try to use a dimmer detector: just a constant beam of photons that will flicker whenever an electron passes through. a beam with less photons. The result will be curious: some electrons will go undetected, generating interference, while those that are detected generate a smooth curve. We can also try to use a detector with red light, which is just a source of photons with less energy per particle. The result will probably be even more curious: when electrons are unambiguously detected the resulting curve will show interference, but when electrons go unnoticed by the red light there will be no bands.</p>
+<p>So, the situation seems to be:</p>
+<ul>
+<li>No detectors → interference.</li>
+<li>Detectors → no interference.</li>
+<li>One detector → no interference.</li>
+<li>Weak detectors → little interference.</li>
+</ul>
 <p>This is, simply put, how Nature behaves. Now we have all the information we need to delve into quantum mechanics.</p>
 <h2 id="the-quantum-way">The Quantum Way</h2>
 <p>When physicists were confronted with this state of affairs they had to make a difficult choice: do we want to keep speaking about particles, or do we describe everything as waves?</p>
@@ -167,14 +177,17 @@
 <p>Quantum mechanics explains reality using particles that are described by a wave, but which can still be found in just one place at a time.</p>
 <p>We will soon continue our journey exploring quantum entropy.</p>
 <h3 id="references">References</h3>
+<ul>
+<li>Don’t miss <a href="https://www.feynmanlectures.caltech.edu/III_01.html">Feynman’s Lectures on Physics: Quantum Behavior</a>.</li>
+</ul>
 <h3 id="acknowledgements">Acknowledgements</h3>
-<p>Your name could be here! Just send a comment or suggestion to the address below.</p>
+<p>I have gone through a lot of literature to make sense of the double-slit experiment. I want to thank <a href="https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&amp;action=history">all the Wikipedia editors</a> in that and other articles that have helped me understand the subject and track deeper references.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2021-07-31, modified on 2021-07-31. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2021-10-03, modified on 2021-10-03. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.

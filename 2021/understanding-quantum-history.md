@@ -105,6 +105,7 @@ There was more:
 In 1900 Max Planck proposed his
 [quantisation of radiation](https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation)
 to solve the enigma poised by radiation of hot chambers,
+[ultraviolet catastrophe](https://en.wikipedia.org/wiki/Ultraviolet_catastrophe).
 and in 1905 Albert Einstein used quantisation again to explain the
 [photoelectric effect](https://en.wikipedia.org/wiki/Photoelectric_effect).
 Apparently they were onto something.

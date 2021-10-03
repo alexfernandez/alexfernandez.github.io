@@ -1,7 +1,7 @@
 ---
 title: 'Understanding Quantum Mechanics'
-subtitle: 'On the Road to Quantum Entropy, Part 2'
-footer: Published on 2021-07-31, modified on 2021-07-31.
+subtitle: 'On the Road to Quantum Entropy, Part 3'
+footer: Published on 2021-10-03, modified on 2021-10-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Quantum Mechanics is by far the most misunderstood of all physical theories.
@@ -78,7 +78,8 @@ Below you can find a gross simulation of how the experiment might go.
 </form>
 </div>
 
-If you click on "run" you will see that particles are detected along the whole wall.
+If you click on "run" you will see that particles are detected along the whole wall,
+due to random reflections.
 They tend to follow a smooth pattern:
 first you will see spikes where you would expect them for particles that go straight through both holes.
 Then there are a smaller number of particles that have bounced off the slits
@@ -112,8 +113,11 @@ which by the way represents the energy of the oscillation at that point.
 </form>
 </div>
 
+Again clicking on "run" will show you how waves propagate,
+first through the top slit and then through the two slits.
 This simulation is also available to play with
 [here](https://pinchito.es/physics-simulation/double-slit/wave).
+
 It is interesting to note that now there are some places in the wall
 where we get no waves at all.
 Correspondingly, the graph shows no energy accumulating there.
@@ -144,7 +148,7 @@ At this point you are probably thinking:
 
 Well, you'd be surprised.
 
-## The Double Slit in Practice
+## Double Slits in Practice
 
 The best to settle the debate is probably to do the experiment.
 So, what if I tell you that electrons show interference?
@@ -174,8 +178,8 @@ We can make a perfectly reasonable question:
 which slit does each electron go through?
 Since the electron is detected only once at the bottom,
 we can deduce that it must have gone through only one slit.
-To settle the debate we can install detectors at each slit:
-just a constant beam of photons that will flicker whenever an electron passes through.
+To settle the debate we can install detectors at each slit,
+that will tell us which path each electron takes.
 
 So we do this in our mental experiment,
 and find out that we can reliably detect electrons passing through the slits.
@@ -198,7 +202,10 @@ The result will be, again:
 **no interference**.
 Apparently interference is so shy that just trying to pinpoint it makes it disappear.
 
+![A detector is made with a source of light that crosses the slit, and a sensor activated when the light is deflected by a passing particle.](pics/understanding-quantum-mechanics-detector.svg "A light source shines towards the slit; whenever a particle comes through, it deflects some of the photons that will reach a detector. Source: the author.")
+
 We can also try to use a dimmer detector:
+just a constant beam of photons that will flicker whenever an electron passes through.
 a beam with less photons.
 The result will be curious: 
 some electrons will go undetected,
@@ -211,6 +218,7 @@ when electrons are unambiguously detected the resulting curve will show interfer
 but when electrons go unnoticed by the red light there will be no bands.
 
 So, the situation seems to be:
+
 * No detectors → interference.
 * Detectors → no interference.
 * One detector → no interference.
@@ -326,9 +334,12 @@ We will soon continue our journey exploring quantum entropy.
 
 ### References
 
+* Don't miss [Feynman's Lectures on Physics: Quantum Behavior](https://www.feynmanlectures.caltech.edu/III_01.html).
 
 ### Acknowledgements
 
-Your name could be here!
-Just send a comment or suggestion to the address below.
+I have gone through a lot of literature to make sense of the double-slit experiment.
+I want to thank
+[all the Wikipedia editors](https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&action=history)
+in that and other articles that have helped me understand the subject and track deeper references.
 
