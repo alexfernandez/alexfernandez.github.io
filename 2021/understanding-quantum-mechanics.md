@@ -143,11 +143,13 @@ At this point you are probably thinking:
 > so there can be no interference between both slits at the bottom!
 
 Well, you'd be surprised.
+The best to settle the debate is probably to do the experiment.
+So, what if I tell you that electrons show interference?
+
 A debate between waves and particles has already happened before with light,
 where scientists have discussed for centuries whether it was made of particles
 or it was some kind of wave or oscillation.
-We will see it in detail below,
-in case you are interested.
+We will see it in a separate article in case you are interested.
 
 ## The Double Slit in Practice
 
