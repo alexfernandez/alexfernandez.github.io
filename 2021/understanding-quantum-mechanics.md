@@ -26,7 +26,7 @@ and also without sacrificing rigorous thinking.
 In the process we will explore some very fundamental questions in Physics
 like "what is light?" or "can we predict how things behave?".
 
-## The Basic Question
+## ❓ The Basic Question
 
 Since antiquity philosophers have been trying to answer the question that had been poised by
 [Democritos of Abdera](https://en.wikipedia.org/wiki/Democritus)
@@ -40,7 +40,7 @@ and it was really different than everything we knew until then.
 In the coming years some brave pioneers would formalize what is now known as
 quantum mechanics.
 
-## The Double Slit Experient
+## 𝌂 The Double Slit Experient
 
 We don't want to study the formalism,
 but to get an idea of what's so different about subatomic particles.
@@ -56,7 +56,7 @@ so each particle will be detected once it reaches the wall at the end.
 Then we make a graph of how many particles reach each detector.
 What do you expect we should see?
 
-### Particles
+### 🎱 Particles
 
 First we will consider that we are dealing with particles as we usually imagine them:
 little balls that bounce off walls.
@@ -87,7 +87,7 @@ and go in different directions.
 By the way, you can play with the simulation
 [here](https://pinchito.es/physics-simulation/double-slit/particle).
 
-### Waves
+### 🌊 Waves
 
 Just for fun, what would happen if instead of particles we had waves?
 Imagine we have a pool of water with a few partitions reproducing our experiemental setup,
@@ -131,7 +131,7 @@ In some places the ridges of one wave matches exactly with the valleys of the ot
 so the net effect is perfectly calm water.
 At other places both waves are perfectly synchronized so the net effect is a bigger oscillation.
 
-### Particles or Waves
+### 🕵️ Particles or Waves
 
 Now we have seen both versions.
 How would you expect a beam of electrons to behave,
@@ -148,7 +148,7 @@ At this point you are probably thinking:
 
 Well, you'd be surprised.
 
-## Double Slits in Practice
+## 🔬 Double Slits in Practice
 
 The best to settle the debate is probably to do the experiment.
 So, what if I tell you that electrons show interference?
@@ -172,7 +172,7 @@ shows the results.
 There is a very nice summary of the history of the experiment in
 [John Steeds et al 2003 Phys. World **16** (5) 20](https://iopscience.iop.org/article/10.1088/2058-7058/16/5/24/pdf).
 
-### Which Slit?
+### 🔬 Which Slit?
 
 We can make a perfectly reasonable question:
 which slit does each electron go through?
@@ -228,7 +228,7 @@ So, the situation seems to be:
 This is, simply put, how Nature behaves.
 Now we have all the information we need to delve into quantum mechanics.
 
-## The Quantum Way
+## ⚛️ The Quantum Way
 
 When physicists were confronted with this state of affairs they had to make a difficult choice:
 do we want to keep speaking about particles,
@@ -254,7 +254,7 @@ This is the famous _wave-particle duality_ which causes quantum objects to behav
 **a particle is described by a wave function that determines its possible positions**.
 Propagate like a wave, be detected as a single particle.
 
-### Precise Simulation
+### 🧑‍🔬 Precise Simulation
 
 The wave simulation that we saw at the beginning is not exact for quantum wave functions.
 As you can see below, a more realistic simulation based on Schrödinger's equation still shows interference
