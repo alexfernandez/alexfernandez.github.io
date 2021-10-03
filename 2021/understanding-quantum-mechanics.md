@@ -285,10 +285,10 @@ Our explanation is that the wave function is crossing through the slits,
 and then when reaching the end wall the particle is detected at some point
 that depends on how the waves have propagated through space.
 That is why our measurements show interference:
-the wave propagated through one slit interfere with that propagated through the other.
+the wave propagated through one slit interferes with the wave propagated through the other.
 
 Things complicate a little bit when we add the detectors at the slits.
-Why do we suddenly lose any interference?
+Why do we suddenly lose all interference?
 There are three complementary explanations which can be enlightening.
 First, there's the famous "the act of measurement affects the result":
 when we add detectors in the slits,
@@ -299,7 +299,7 @@ When a particle is detected at one of the slits,
 the old wave function disappears and is replaced by a new wave function,
 in this case propagating from a single slit.
 This is usually called the _collapse of the wave function_:
-the wave function collapses as a result of a measurement.
+the wave function is reset as a result of a measurement.
 
 The third viewpoint is more technical:
 adding a detector causes an effect called _decoherence_.
