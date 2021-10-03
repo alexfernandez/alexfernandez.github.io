@@ -318,9 +318,12 @@ a quantum particle can be found even in places where it would be impossible acco
 Say that a particle is approaching an obstacle which is impenetrable:
 it simply doesn't have enough energy to cross it.
 In quantum mechanics there is a small but finite probability that the particle will pass the obstacle.
-There is no way to predict what will happen exactly though.
+In any concrete situation, will the particle be reflected or will it continue its way?
+There is no way to predict what will happen exactly;
+we can only compute the probabilities of each event,
+which will be approximately reached if we repeat the same experiment many times.
 
-![Quantum tunneling through a barrier. At the origin (x=0), there is a very high, but narrow potential barrier. A significant tunneling effect can be seen.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches from the left a thin barrier at the origin of coordinates. After reaching the barrier there are two waves of approximately the same height: one reflected going back, and one that has skipped the barrier. Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
+![Quantum tunneling through a barrier with a very high, but narrow potential barrier at the origin (x=0). There is equal probability that a particle will be reflected or pass the barrier.](pics/understanding-quantum-mechanics-tunneling.gif "A wave approaches from the left a thin barrier at the origin of coordinates. After reaching the barrier there are two waves of approximately the same height: one reflected going back, and one that has skipped the barrier. Source: https://en.wikipedia.org/wiki/File:Quantum_Tunnelling_animation.gif.")
 
 Having probability as the basis of quantum mechanics is what led Einstein to reject it,
 famously saying that
