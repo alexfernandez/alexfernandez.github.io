@@ -4,7 +4,7 @@ subtitle: 'On the Road to Quantum Entropy, Part 3'
 footer: Published on 2021-10-03, modified on 2021-10-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  Quantum Mechanics is by far the most misunderstood of all physical theories.
+  Quantum Mechanics is by far the most misunderstood of all fundamental physical theories.
   It has many formulations and interpretations,
   and it is misused regularly by both scientists and the general public.
   Fear no more; in this article we will try to understand what it is and why it matters.
@@ -352,7 +352,7 @@ since experiments have failed to find any hidden theories that may give us a mor
 
 ## ⌛ Conclusion
 
-Quantum mechanics explains reality with particles that are described by a wave,
+The theory of quantum mechanics explains reality with particles that are described by a wave,
 but which can still be found in just one place at a time.
 The double-slit experiment is a particularly good interesting illustration of this pesky behaviour.
 
