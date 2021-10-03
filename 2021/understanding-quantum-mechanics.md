@@ -117,7 +117,7 @@ As before, the first slit at the top is just a way to focus the initial circular
 </div>
 
 Again clicking on "run" will show you how waves propagate,
-first through the top slit and then through the two slits.
+first through the top slit and then through the two slits below.
 This simulation is also available to play with
 [here](https://pinchito.es/physics-simulation/double-slit/wave).
 
