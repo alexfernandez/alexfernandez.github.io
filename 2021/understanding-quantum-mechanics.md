@@ -204,18 +204,19 @@ Apparently interference is so shy that just trying to pinpoint it makes it disap
 
 ![A detector is made with a source of light that crosses the slit, and a sensor activated when the light is deflected by a passing particle.](pics/understanding-quantum-mechanics-detector.svg "A light source shines towards the slit; whenever a particle comes through, it deflects some of the photons that will reach a detector. Source: the author.")
 
-We can also try to use a dimmer detector:
-just a constant beam of photons that will flicker whenever an electron passes through.
-a beam with less photons.
+We can also try to use a more subtle detector that will not disturb our electrons so much.
+After all, the simplest detector is just a constant beam of photons that will flicker whenever an electron passes through.
+So we can try to use a beam with less intensity (and thus shining less photons per second).
 The result will be curious: 
 some electrons will go undetected,
 generating interference,
 while those that are detected generate a smooth curve.
-We can also try to use a detector with red light,
-which is just a source of photons with less energy per particle.
-The result will probably be even more curious:
+
+Why not try a detector that uses red light,
+which is just a source of photons with less energy per particle?
+Again we may be surprised by the results:
 when electrons are unambiguously detected the resulting curve will show interference,
-but when electrons go unnoticed by the red light there will be no bands.
+but when electrons go undisturbed by the red light there will be no bands.
 
 So, the situation seems to be:
 
