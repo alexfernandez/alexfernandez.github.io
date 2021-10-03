@@ -271,8 +271,10 @@ after passing a double slit.
 The particle has a certain probability to be reflected by the double slit,
 and another probability to pass through,
 with a very noticeable interference pattern shown as a number of bands.
-As a footnote, I spent many days trying to make a precise quantum simulation but with little success;
-luckily some can be found lying around,
+As a footnote, I spent many days trying to make a precise quantum simulation but with little success,
+despite finding
+[a promising method](https://scicomp.stackexchange.com/questions/10876/are-there-simple-ways-to-numerically-solve-the-time-dependent-schr%c3%b6dinger-equati/10880#10880).
+Luckily some good simulations can be found lying around,
 such as
 [this Python script from Arturo Mena](https://github.com/artmenlope/double-slit-2d-schrodinger).
 
