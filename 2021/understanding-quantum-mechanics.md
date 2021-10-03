@@ -241,11 +241,12 @@ or do we describe everything as waves?
 
 ### 〰️ Quantum Wave Function
 
-Moved by their experience with values defined in space like magnetic fields,
+Moved by their familiarity with magnitudes such as magnetic fields,
+which have a different value for each point in space,
 some scientists like Schrödinger (yes, the guy that gave name to the famous cat)
-had no reservations in defining a new quantity
-(a _wave function_) that had a value for each point of space.
-The result was the famous
+had no reservations in defining a new type of field to explain this wave-like behaviour:
+a _wave function_.
+This is how the guy that gave name to the famous cat experiment came up with the famous
 [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation).
 The [Wikipedia article](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation#History)
 helpfully clarifies that it was Max Born who first interpreted the quantum wave function
@@ -267,10 +268,13 @@ after passing a double slit.
 
 ![A more precise simulation of a wave packet passing a double slit.](pics/understanding-quantum-mechanics-simulation.webm "A round blob approaches a double slit; after reaching it some waves bounce back, while others pass through showing interference. Source:  https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm.")
 
+The particle has a certain probability to be reflected by the double slit,
+and another probability to pass through,
+with a very noticeable interference pattern shown as a number of bands.
 As a footnote, I spent many days trying to make a precise quantum simulation but with little success;
 luckily some can be found lying around,
 such as
-[this one from Arturo Mena](https://github.com/artmenlope/double-slit-2d-schrodinger).
+[this Python script from Arturo Mena](https://github.com/artmenlope/double-slit-2d-schrodinger).
 
 ### 🗣️ Explanations
 
