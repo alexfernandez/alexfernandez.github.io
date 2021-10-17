@@ -48,10 +48,11 @@ Empieza por la [parte 1: Y las bacterias, bonita](/2021/bacterias-bonita),
 donde daremos un repaso general al panorama bacteriano.
 
 * → Parte 1: [Y las bacterias, bonita](/2021/bacterias-bonita).
-
-#* → Parte 2: [Tecnología bacteriana](/2021/bacterias-tecnologia).
-#* → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
-#* → Parte 4: [Enfermedades autoinmunes](/2021/bacterias-autoinmunes).
-#* → Parte 5: [¿Venimos de las estrellas?](/2021/bacterias-estrellas)
-#* → Parte 6: [Conclusiones](/2021/bacterias-conclusiones).
+<!--
+* → Parte 2: [Tecnología bacteriana](/2021/bacterias-tecnologia).
+* → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
+* → Parte 4: [Enfermedades autoinmunes](/2021/bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](/2021/bacterias-estrellas)
+* → Parte 6: [Conclusiones](/2021/bacterias-conclusiones).
+-->
 
