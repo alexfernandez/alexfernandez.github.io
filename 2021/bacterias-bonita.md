@@ -1,5 +1,5 @@
 ---
-title: '🦠 Y las bacterias, bonita'
+title: 'Y las bacterias, bonita'
 subtitle: 'Parte 1 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
@@ -9,13 +9,16 @@ abstract:
   viven en volcanes y en las profundidades de los mares,
   y han colonizado prácticamente todo nuestro cuerpo.
 image: https://pinchito.es/2021/pics/bacterias-mineralized-iron.jpg
-
 ---
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
-¿verdad?
+En este artículo vamos a investigar el papel que juegan las bacterias en la vida en la tierra.
+Empezaremos viendo cuándo y cómo se descubrieron,
+seguiremos viendo cómo son,
+y terminaremos explorando dónde se encuentran,
+lo que incluye casi todos los rincones de nuestro cuerpo
+y los sitios más extremos del planeta.
 
 # Breve historia
 
@@ -47,6 +50,9 @@ Entre otras innovaciones también introdujo el uso del agar para cultivo de bact
 aunque fue por cierto la asistente e ilustradora científica
 [Angelina Hesse](http://jornades.uab.cat/workshopmrama/sites/jornades.uab.cat.workshopmrama/files/Hesse.pdf)
 quien le dio la idea.
+
+Seguramente en el siglo XXI no quede mucho por descubrir sobre arqueas y bacterias,
+¿verdad?
 
 # Clasificación
 
