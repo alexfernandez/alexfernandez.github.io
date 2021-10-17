@@ -4,10 +4,10 @@ subtitle: 'Parte 1 de la serie «🦠 Bacterias: máquinas que dominan el univer
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  Las bacterias son ubicuas en nuestro planeta:
-  están detrás de la formación de la lluvia y la nieve e incluso de las estalactitas,
+  'Las bacterias son ubicuas en nuestro planeta:
+  han colonizado prácticamente todo nuestro cuerpo,
   viven en volcanes y en las profundidades de los mares,
-  y han colonizado prácticamente todo nuestro cuerpo.
+  y participan en la formación de la lluvia, la nieve e incluso de las estalactitas en las cavernas.'
 image: https://pinchito.es/2021/pics/bacterias-mineralized-iron.jpg
 ---
 
