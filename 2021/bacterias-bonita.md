@@ -1,5 +1,5 @@
 ---
-title: 'Y las bacterias, bonita'
+title: '🦠 Y las bacterias, bonita'
 subtitle: 'Parte 1 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
