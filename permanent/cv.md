@@ -43,7 +43,7 @@ I have actually been working as a freelancer on and off since 2012.
 At that time I did a few months for Kimia writing an Android app.
 I have not stopped taking sporadic freelance engagements since then.
 My clients include several large companies:
-here is [one more recent story](/2016/stridercd).
+here is [one story](/2016/stridercd).
 Other engagements include:
 [Grupo Inditex](https://www.inditex.com/),
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
