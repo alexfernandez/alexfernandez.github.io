@@ -44,10 +44,8 @@ y porque cualquiera puede encontrarla.
 
 # Serie completa
 
-Empieza por la [parte 1: Y las bacterias, bonita](/2021/bacterias-bonita),
+* → Parte 1: Empieza por [🦠 Y las bacterias, bonita](/2021/bacterias-bonita),
 donde daremos un repaso general al panorama bacteriano.
-
-* → Parte 1: [Y las bacterias, bonita](/2021/bacterias-bonita).
 * Continuará.
 <!--
 * → Parte 2: [Tecnología bacteriana](/2021/bacterias-tecnologia).
