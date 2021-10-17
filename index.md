@@ -19,7 +19,7 @@ Latest articles first.
 
 ### 2021
 
-🗣️ 🇪🇸 2021-10-17: [Y las bacterias, bonita](2021/bacterias-bonita)  
+🗣️ 🇪🇸 2021-10-17: [🦠 Y las bacterias, bonita](2021/bacterias-bonita)  
 ⚛️ 🇮🇪 2021-10-03: [Understanding Quantum Mechanics](2021/understanding-quantum-mechanics)  
 🧑‍💻 🇮🇪 2021-08-16: [API First](2021/api-first)  
 ⚛️ 🇮🇪 2021-08-12: [We Are Not Living in a Computer Simulation](2021/understanding-simulation)  

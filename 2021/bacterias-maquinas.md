@@ -1,5 +1,5 @@
 ---
-title: 'Bacterias: máquinas que dominan el universo'
+title: '🦠 Bacterias: máquinas que dominan el universo'
 subtitle: 'Todo lo que siempre has querido saber sobre las bacterias que nos rodean'
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
