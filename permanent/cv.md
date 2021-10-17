@@ -22,8 +22,8 @@ format: 2016-08 is August 2016.
 I am currently working as CTO again at an influencer company,
 leading a wonderful team of French and Spanish professionals
 to create the best solution in influencer marketing worldwide.
-
-I have reorganized the team to work in squads,
+During this time I have reorganized the team to work in squads,
+hired new developers,
 improved internal practices and moved forward in the road to continuous deployment.
 
 Hivency has recently been acquired by the Skeepers group,
