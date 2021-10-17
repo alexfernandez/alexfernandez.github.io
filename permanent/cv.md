@@ -32,11 +32,12 @@ which will give us new energy to conquer new markets.
 
 ### 2020-04 to 2020-12: Freelancer
 
-I worked full time as a freelancer.
-I work mostly doing backend development in Node.js,
+During this period I have worked full time as a freelancer,
+mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
-Since July 2020 I worked with Carlos Ble and his company
-[LeanMind](https://leanmind.es/en/).
+Since July 2020 I have collaborated with Carlos Blé and his company
+[LeanMind](https://leanmind.es/en/),
+where I have learned about new practices like mob programming.
 
 I have actually been working as a freelancer on and off since 2012.
 At that time I did a few months for Kimia writing an Android app.
