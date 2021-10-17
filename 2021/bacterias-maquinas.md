@@ -1,11 +1,11 @@
 ---
 title: 'Bacterias: máquinas que dominan el universo'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+subtitle: 'Todo lo que siempre has querido saber sobre las bacterias que nos rodean'
+footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](/2020/pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
+!["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
 
 Desde las profundidades del océano hasta el límite del espacio,
 desde el hielo de la Antártida hasta nuestros cerebros:
@@ -28,10 +28,9 @@ Para terminar veremos los controvertidos hallazgos fuera de la Tierra y su posib
 
 # Bacterias en T3chFest
 
-Esta serie de artículos sirve como complemento bibliográfico a la
-[charla de T3chFest 2020](https://t3chfest.es/2020/programa/bacterias-maquinas-que-dominan-el-universo)
-del mismo título.
-
+Esta serie de artículos estaba inicialmente ideada como complemento bibliográfico a la
+[charla de T3chFest 2020](https://t3chfest.es/2020/),
+aplazada por la pandemia de COVID-19.
 He intentado que los artículos sean interesantes por su cuenta,
 ampliando las historias y añadiendo material suplementario.
 ¡Ya me contarás si lo he conseguido!
@@ -45,13 +44,15 @@ y porque cualquiera puede encontrarla.
 
 # Serie completa
 
-Empieza por la [parte 1: Y las bacterias, bonita](/2020/bacterias-bonita),
+Empieza por la [parte 1: Y las bacterias, bonita](/2021/bacterias-bonita),
 donde daremos un repaso general al panorama bacteriano.
 
-* → Parte 1: [Y las bacterias, bonita](/2020/bacterias-bonita).
-* → Parte 2: [Tecnología bacteriana](/2020/bacterias-tecnologia).
-* → Parte 3: [El largo camino a la simbiosis](/2020/bacterias-simbiosis).
-* → Parte 4: [Enfermedades autoinmunes](/2020/bacterias-autoinmunes).
-* → Parte 5: [¿Venimos de las estrellas?](/2020/bacterias-estrellas)
-* → Parte 6: [Conclusiones](/2020/bacterias-conclusiones).
+* → Parte 1: [Y las bacterias, bonita](/2021/bacterias-bonita).
+<--
+* → Parte 2: [Tecnología bacteriana](/2021/bacterias-tecnologia).
+* → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
+* → Parte 4: [Enfermedades autoinmunes](/2021/bacterias-autoinmunes).
+* → Parte 5: [¿Venimos de las estrellas?](/2021/bacterias-estrellas)
+* → Parte 6: [Conclusiones](/2021/bacterias-conclusiones).
+-->
 

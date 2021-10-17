@@ -1,7 +1,7 @@
 ---
-title: 'Bacterias (parte 1): Y las bacterias, bonita'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+title: 'Y las bacterias, bonita'
+subtitle: 'Parte 1 de la serie «Bacterias: máquinas que dominan el universo»'
+footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -265,6 +265,7 @@ sino que probablemente aguantarán mucho más.
 
 Este artículo es la primera parte de la
 [serie sobre bacterias](bacterias-maquinas).
+<--
 Sigue a la
 [parte 2: Tecnología bacteriana](bacterias-tecnologia),
 donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
@@ -275,4 +276,5 @@ donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 * → Parte 6: [Conclusiones](bacterias-conclusiones).
+-->
 

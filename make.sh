@@ -5,6 +5,13 @@ date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # Generate all
 pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.html"
+./generate.sh 2021/bacterias-tecnologia
+./generate.sh 2021/bacterias-simbiosis
+./generate.sh 2021/bacterias-autoinmunes
+./generate.sh 2021/bacterias-estrellas
+./generate.sh 2021/bacterias-conclusiones
+./generate.sh 2021/bacterias-bonita
+./generate.sh 2021/bacterias-maquinas
 ./generate.sh 2021/understanding-quantum-mechanics
 ./generate.sh 2021/api-first
 ./generate.sh 2021/remote-memory
@@ -16,14 +23,6 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh 2020/tpp
 ./generate.sh 2020/curso-escalabilidad-2
 ./generate.sh 2020/curso-escalabilidad
-./generate.sh 2020/bacterias-maquinas
-./generate.sh 2020/bacterias-maquinas
-./generate.sh 2020/bacterias-bonita
-./generate.sh 2020/bacterias-tecnologia
-./generate.sh 2020/bacterias-simbiosis
-./generate.sh 2020/bacterias-autoinmunes
-./generate.sh 2020/bacterias-estrellas
-./generate.sh 2020/bacterias-conclusiones
 ./generate.sh 2020/insane-plane-prices
 ./generate.sh 2020/repaso-propositos
 ./generate.sh 2019/high-speeds
