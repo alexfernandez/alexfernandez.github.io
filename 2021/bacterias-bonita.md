@@ -3,6 +3,13 @@ title: '🦠 Y las bacterias, bonita'
 subtitle: 'Parte 1 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  Las bacterias son ubicuas en nuestro planeta:
+  están detrás de la formación de la lluvia y la nieve e incluso de las estalactitas,
+  viven en volcanes y en las profundidades de los mares,
+  y han colonizado prácticamente todo nuestro cuerpo.
+image: https://pinchito.es/2021/pics/bacterias-mineralized-iron.jpg
+
 ---
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/PbFhIQYsVkw?start=337" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -3,6 +3,12 @@ title: '🦠 Bacterias: máquinas que dominan el universo'
 subtitle: 'Todo lo que siempre has querido saber sobre las bacterias que nos rodean'
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  En esta serie de artículos investigaremos a las bacterias desde un punto de vista tecnológico:
+  cómo funcionan por dentro,
+  cómo se programan,
+  y los papeles cruciales que juegan en toda vida sobre la tierra.
+image: https://pinchito.es/2021/pics/bacterias-agar-art-contest.jpg
 ---
 
 !["Latitudes Leaking Longitudes", obra de Tarah Rhoda para el concurso "Agar Art" de la Sociedad Estadounidense de Microbiología. [Fuente](https://www.nationalgeographic.com/science/2019/11/agar-art-contest-winners-create-gorgeous-art-from-live-bacteria/).](pics/bacterias-agar-art-contest.jpg "Placas de agar multicolor dispuestas en forma de globo terráqueo.")
