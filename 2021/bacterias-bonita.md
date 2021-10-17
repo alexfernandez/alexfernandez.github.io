@@ -265,6 +265,7 @@ sino que probablemente aguantarán mucho más.
 
 Este artículo es la primera parte de la
 [serie sobre bacterias](bacterias-maquinas).
+Continuará.
 <!--
 Sigue a la
 [parte 2: Tecnología bacteriana](bacterias-tecnologia),

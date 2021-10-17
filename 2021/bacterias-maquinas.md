@@ -48,6 +48,7 @@ Empieza por la [parte 1: Y las bacterias, bonita](/2021/bacterias-bonita),
 donde daremos un repaso general al panorama bacteriano.
 
 * → Parte 1: [Y las bacterias, bonita](/2021/bacterias-bonita).
+* Continuará.
 <!--
 * → Parte 2: [Tecnología bacteriana](/2021/bacterias-tecnologia).
 * → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
