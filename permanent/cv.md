@@ -19,8 +19,9 @@ format: 2016-08 is August 2016.
 
 ### 2021-01 to Present: CTO at Hivency
 
-I am currently working as CTO again at an influencer company,
-leading a wonderful team of French and Spanish professionals
+I am currently working as CTO at
+[Hivency](https://www.hivency.com/), an influencer marketing company.
+I am leading a wonderful team of French and Spanish professionals
 to create the best solution in influencer marketing worldwide.
 During this time I have reorganized the team to work in squads,
 hired new developers,
