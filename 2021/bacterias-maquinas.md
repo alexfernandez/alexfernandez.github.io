@@ -4,10 +4,10 @@ subtitle: 'Todo lo que siempre has querido saber sobre las bacterias que nos rod
 footer: Publicado el 2021-10-17, modificado el 2021-10-17.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  En esta serie de articulos investigaremos a las bacterias desde un punto de vista tecnologico:
+  'En esta serie de articulos investigaremos a las bacterias desde un punto de vista tecnológico:
   como funcionan por dentro,
   como estan programadas,
-  y los papeles cruciales que juegan en toda vida sobre la tierra.
+  y los papeles cruciales que juegan en toda vida sobre la tierra.'
 image: https://pinchito.es/2021/pics/bacterias-agar-art-contest.jpg
 ---
 
