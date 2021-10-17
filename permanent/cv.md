@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2020-02-15.
+footer: Published on 2016-08-17, last edited on 2021-10-17.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
@@ -17,15 +17,27 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2020-04 to Present: Freelancer
+### 2021-01 to Present: CTO at Hivency
 
-Since April I have been working full time as a freelancer.
+I am currently working as CTO again at an influencer company,
+leading a wonderful team of French and Spanish professionals
+to create the best solution in influencer marketing worldwide.
+
+I have reorganized the team to work in squads,
+improved internal practices and moved forward in the road to continuous deployment.
+
+Hivency has recently been acquired by the Skeepers group,
+which will give us new energy to conquer new markets.
+
+### 2020-04 to 2020-12: Freelancer
+
+I worked full time as a freelancer.
 I work mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
-If you have a cool project for me
-[let me know!](mailto:alexfernandeznpm@gmail.com)
+Since July 2020 I worked with Carlos Ble and his company
+[LeanMind](https://leanmind.es/en/).
 
-I have actually been working as a freelancer since 2012.
+I have actually been working as a freelancer on and off since 2012.
 At that time I did a few months for Kimia writing an Android app.
 I have not stopped taking sporadic freelance engagements since then.
 My clients include several large companies:
@@ -35,6 +47,9 @@ Other engagements include:
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
 [TUI Group](https://www.tuigroup.com/en-en),
 and a few other smaller companies.
+
+If you have a cool project for me
+[let me know!](mailto:alexfernandeznpm@gmail.com)
 
 ### 2019-04 to 2019-12: CTO at Influencity
 
