@@ -13,28 +13,65 @@ image: https://pinchito.es/2021/pics/understanding-quantum-mechanics-waves.png
 
 After visiting
 [entropy](understanding-entropy)
-and a detour through
+and
+[quantum mechanics](understanding-quantum-mechanics),
+with a detour through
 [simulated worlds](understanding-simulation),
-we continue our journey of understanding Physics with a puzzling theory:
-**quantum mechanics**.
-What is it, and why does it matter?
-
-We will now see a gentle introduction without excessive maths,
-and also without sacrificing rigorous thinking.
-In the process we will explore some very fundamental questions in Physics
-like "what is light?" or "can we predict how things behave?".
+we will now change gears with an article about how quantum mechanics came to be.
 
 ## History of Quantum Mechanics
 
 Let us now explore some of the history of quantum mechanics,
-which can be useful to understand how it came to be.
-This section is going to be be quite different than the usual treatment,
+which can be useful to understand it.
+This article is going to be be quite different than the usual treatment,
 so it may give you some food for thought even if you are familiar with it.
 
-## The Light Debate
+## Stuff Made of Stuff
 
-A debate between waves and particles has already happened before with light,
-where scientists have discussed for centuries whether it was made of particles
+Our starting point is going to be the same question that philosophers and wise people
+have been asking since the beginning of time:
+what are things made of?
+
+This question may seem pointless now,
+because everybody has known for centuries that things are made of atoms,
+right?
+Not so fast.
+Hardly a hundred years ago scientists were still debating this issue for regular matter.
+
+### The Debate that Matters
+
+First, what is matter made of?
+It is a simple enough question,
+but quite hard to answer without modern instruments.
+People have been worrying about it since antiquity:
+in Ancient Greece
+proponents of [atomism](https://en.wikipedia.org/wiki/Atomism)
+like Democritus and Epicurus
+thought that matter could not be infinitely divided into pieces,
+so this process had to stop at some point.
+Not everyone agreed,
+most famously [Aristotle](https://en.wikipedia.org/wiki/Aristotle).
+
+In modern times the debate was rekindled,
+with people like Descartes or Galileo as new proponents of atomism.
+This is not a stupid question:
+in time it would lead to the foundation of chemistry
+as the science that studied combination of atoms.
+
+But few people remember that the debate was not really settled until the 20th century,
+and in fact it would be Albert Einstein himself who settled the question:
+in 1905, as part of his
+[_annus mirabilis_ or wonder year](https://en.wikipedia.org/wiki/Annus_Mirabilis_papers),
+he published a [paper on Brownian motion](https://en.wikipedia.org/wiki/%C3%9Cber_die_von_der_molekularkinetischen_Theorie_der_W%C3%A4rme_geforderte_Bewegung_von_in_ruhenden_Fl%C3%BCssigkeiten_suspendierten_Teilchen)
+that explained why little particles of pollen
+seemed to jiggle when viewed through the microscope,
+using a random bombardment of water molecules.
+
+### The Light Debate
+
+Even more interesting is a similar but different debate that happened also since antiquity:
+what is light made of?
+Scientists have discussed for centuries whether light was made of particles
 or it was some kind of wave or oscillation.
 It can be instructive to look at it from our privileged perspective.
 
@@ -60,14 +97,17 @@ Given the tremendous weight of Newton in early Physics,
 his opinion could counteract the multitude of phenomena well explained by waves.
 One interesting effect in waves is
 [diffraction](https://en.wikipedia.org/wiki/Diffraction):
-as we saw in our little simulator, waves can change direction when passing through a narrow opening,
-and so does light, although its wavelength is so small that the effect is only appreciable at short distances.
+as we saw in
+[our little simulator](https://pinchito.es/physics-simulation/double-slit/wave),
+waves can change direction when passing through a narrow opening.
+So does light,
+although its wavelength is so small that the effect is only appreciable at short distances.
 
-The debate was not settled until 1801, when Young came up with a similar
+The debate was not settled until 1801, when Young came up with a wonderful
 [double-slit experiment](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
-that clearly showed interference,
+that clearly showed interference patterns,
 convincing physicists that light was indeed a wave.
-But this situation would not last much.
+But this situation would not last for very long.
 
 ## Cracks in the Foundation
 
