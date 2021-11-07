@@ -154,7 +154,7 @@ Of course its existence would create other problems:
 what was this mysterious ether made of?
 But first it had to be detected.
 
-![The Earth going through the ether during the year.](pics/understanding-einstein-ether.png "A constant medium labeled 'Luminiferous aether' is shown as a series of arrows travelling through the picture. The sun in the center is supposed to move in this 'wind'. The Earth goes round the sun in an ellipse, depicted in two positions: spring and fall. Source: https://commons.wikimedia.org/wiki/File:AetherWind.svg.")
+![The Earth going through the ether during the year.](pics/understanding-einstein-ether.svg "A constant medium labeled 'Luminiferous aether' is shown as a series of arrows travelling through the picture. The sun in the center is supposed to move in this 'wind'. The Earth goes round the sun in an ellipse, depicted in two positions: spring and fall. Source: https://commons.wikimedia.org/wiki/File:AetherWind.svg.")
 
 In 1887 Michelson and Morley were trying to find signs of its existence.
 This transparent substance had to permeate the whole of space so that light could propagate in the vacuum.
