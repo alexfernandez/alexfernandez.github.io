@@ -283,7 +283,6 @@ In essence Einstein counted the number of atoms in matter.
 
 The biggest mystery left was:
 how did gravity work in this new world of constant speed of light?
-
 In 1915 Einstein did it again,
 publishing his theory of
 [general relativity](https://en.wikipedia.org/wiki/General_relativity):
