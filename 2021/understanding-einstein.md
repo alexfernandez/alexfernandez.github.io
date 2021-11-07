@@ -236,6 +236,12 @@ The weird consequences were that:
 * kinetic energy grows fast when approaching the speed of light,
 * and time passes more slowly for fast-moving objects.
 
+All these strange consequences would be completely validated in further experiments.
+The picture that emanated was perfectly coherent
+but very different from our everyday experience with clocks and projectiles.
+The mind-bending ideas behind the theory were revolutionary,
+and it would take many decades for other physicists to study their consequences.
+
 It would be very easy to blow the contributions of Einstein out of all proportion
 by saying that he came up with special relativity all on his own.
 We would thus be ignoring all of the geniuses that had tried to answer the same questions:
@@ -282,34 +288,32 @@ In 1915 Einstein did it again,
 publishing his theory of
 [general relativity](https://en.wikipedia.org/wiki/General_relativity):
 how the presence of energy curves space-time itself,
-made even more interesting because this curvature generated _even more energy_.
+made even more interesting because this curvature generates _even more energy_.
 
-It would be too long to delve into the details of this complex theory.
+It would be too long to delve into the details of this complex theory,
+and I'm not even sure I have the level to understand it.
 Let us just state that general relativity has resisted all efforts of quantization,
 and is therefore the best explanation that we still have for how gravity works,
 despite a few obvious flaws.
 
-Einstein had a long and illustrious career in physics after 1915,
-and his many contributions would reinforce the pillars of quantum mechanics.
-But we have enough for one article!
-
 ## Conclusion
+
+As we have seen,
+Albert Einstein took a classical world and quantized it,
+creating a coherent picture that left out any mysterious substances.
 
 The picture that Einstein left us can be summarized as:
 light and matter are made of particles.
 So how can we make sense of all phenomena that are explained by waves?
-[Quantum mechanics](understanding-quantum-mechanics) helped 
+[Quantum mechanics](understanding-quantum-mechanics) would bring the answers.
 
-Quantum mechanics explains reality using particles that are described by a wave,
-but which can still be found in just one place at a time.
-
+Einstein had a long and illustrious career in physics after 1915,
+and his many contributions would reinforce the pillars of the new physics that he pioneered.
+But we have enough for one article!
 We will soon continue our journey exploring quantum entropy.
-
-### References
-
 
 ### Acknowledgements
 
-Your name could be here!
-Just send a comment or suggestion to the address below.
+Thanks to [Carlos Santisteban](https://twitter.com/zuiko21)
+for the encouragement to write this article.
 
