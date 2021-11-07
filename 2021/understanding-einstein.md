@@ -4,12 +4,12 @@ subtitle: 'On the Road to Quantum Entropy, Part 4'
 footer: Published on 2021-11-07, modified on 2021-11-07.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  The history of Quantum Mechanics is very interesting,
-  as it shows how science works on large scales.
-image: https://pinchito.es/2021/pics/understanding-quantum-mechanics-waves.png
+  Albert Einstein is probably the most famous scientist of the 20th century.
+  Is this fame merited, or is it just another consequence of pop culture?
+image: https://pinchito.es/2021/pics/understanding-einstein-portrait.jpg
 ---
 
-![The double-slit experiment with waves.](pics/understanding-quantum-mechanics-waves.png "A wave travels first past a wall with one slit and then past a second wall with two slits, causing interference. Source: the author.")
+![Albert Einstein relaxed.](pics/understanding-einstein-portrait.jpg "Albert Einstein is depicted in this photograph relaxed, with an arm folded behind his back and looking at the infinite. In the original picture Niels Bohr appears to his left. Source: https://en.wikipedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg.")
 
 After visiting
 [entropy](understanding-entropy)
@@ -17,14 +17,18 @@ and
 [quantum mechanics](understanding-quantum-mechanics),
 with a detour through
 [simulated worlds](understanding-simulation),
-we will now change gears with an article about how quantum mechanics came to be.
+we will now change gears:
+let us explore the work of
+[Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein),
+who is (_spoiler alert_) one of the greatest minds in history of physics.
 
-## History of Quantum Mechanics
-
-Let us now explore some of the history of quantum mechanics,
-which can be useful to understand it.
 This article is going to be be quite different than the usual treatment,
 so it may give you some food for thought even if you are familiar with it.
+
+## Classical Physics
+
+Exploring the history of physics can be useful to understand it.
+Let us first understand what the picture of classical physics was before the time of Einstein.
 
 ## What Is Stuff Made of
 
@@ -150,7 +154,7 @@ Of course its existence would create other problems:
 what was this mysterious ether made of?
 But first it had to be detected.
 
-![The Earth going through the ether during the year.](pics/understanding-quantum-history-ether.png "A constant medium labeled 'Luminiferous aether' is shown as a series of arrows travelling through the picture. The sun in the center is supposed to move in this 'wind'. The Earth goes round the sun in an ellipse, depicted in two positions: spring and fall. Source: https://commons.wikimedia.org/wiki/File:AetherWind.svg.")
+![The Earth going through the ether during the year.](pics/understanding-einstein-ether.png "A constant medium labeled 'Luminiferous aether' is shown as a series of arrows travelling through the picture. The sun in the center is supposed to move in this 'wind'. The Earth goes round the sun in an ellipse, depicted in two positions: spring and fall. Source: https://commons.wikimedia.org/wiki/File:AetherWind.svg.")
 
 In 1887 Michelson and Morley were trying to find signs of its existence.
 This transparent substance had to permeate the whole of space so that light could propagate in the vacuum.
@@ -264,11 +268,12 @@ he explained why little particles of pollen seemed to jiggle when viewed through
 
 The solution was a very elegant derivation of statistical mechanics
 using a random bombardment of water molecules.
-He also computed the number of molecules in matter,
+He also correctly derived the number of molecules in a mole,
 which is called by chemists
 [Avogadro constant](https://en.wikipedia.org/wiki/Avogadro_constant).
+In essence Einstein counted the number of atoms in matter.
 
-### What About Gravity?
+### Later Contributions
 
 The biggest mystery left was:
 how did gravity work in this new world of constant speed of light?
@@ -279,13 +284,21 @@ publishing his theory of
 how the presence of energy curves space-time itself,
 made even more interesting because this curvature generated _even more energy_.
 
-It would be too long to delve into the details of 
+It would be too long to delve into the details of this complex theory.
+Let us just state that general relativity has resisted all efforts of quantization,
+and is therefore the best explanation that we still have for how gravity works,
+despite a few obvious flaws.
+
+Einstein had a long and illustrious career in physics after 1915,
+and his many contributions would reinforce the pillars of quantum mechanics.
+But we have enough for one article!
 
 ## Conclusion
 
 The picture that Einstein left us can be summarized as:
 light and matter are made of particles.
 So how can we make sense of all phenomena that are explained by waves?
+[Quantum mechanics](understanding-quantum-mechanics) helped 
 
 Quantum mechanics explains reality using particles that are described by a wave,
 but which can still be found in just one place at a time.
