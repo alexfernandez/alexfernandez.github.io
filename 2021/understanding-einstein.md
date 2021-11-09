@@ -9,7 +9,7 @@ abstract:
 image: https://pinchito.es/2021/pics/understanding-einstein-portrait.jpg
 ---
 
-![Albert Einstein relaxed.](pics/understanding-einstein-portrait.jpg "Albert Einstein is depicted in this photograph relaxed, with an arm folded behind his back and looking at the infinite. In the original picture Niels Bohr appears to his left. Source: https://en.wikipedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg.")
+![Albert Einstein just chillin'.](pics/understanding-einstein-portrait.jpg "Albert Einstein is depicted in this photograph relaxed, with an arm folded behind his back and looking at the infinite. In the original picture Niels Bohr appears to his left. Source: https://en.wikipedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg.")
 
 After visiting
 [entropy](understanding-entropy)
