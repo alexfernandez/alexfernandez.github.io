@@ -10,7 +10,7 @@ footer: Published on 2016-08-17, last edited on 2021-10-17.
 A developer turned CTO with 20+ years of experience:
 proficient in backend development,
 specialized in scalability and DevOps,
-interested in helping teams become top performers.
+invested in helping teams become top performers.
 
 ## Job History
 
