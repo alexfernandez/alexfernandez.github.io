@@ -227,18 +227,19 @@ In another 1905 paper Einstein introduced to the world the theory of
 [special relativity](https://en.wikipedia.org/wiki/Special_relativity):
 how to understand the propagation of light without an underlying medium.
 First, the speed of light in a vacuum had to be defined as a constant,
-and also to be the maximum speed possible in the universe.
-The weird consequences were that:
-* light is a combination of electric and magnetic fields,
-* projectiles contract in the direction of movement,
-* kinetic energy grows fast when approaching the speed of light,
+and also to be the **maximum speed possible in the universe**
+(as suspected by Epicurus).
+The weird outcomes were that:
+* light is a combination of electric and magnetic fields propagating in a vacuum,
+* moving objects contract in the direction of movement,
+* kinetic energy grows without limit when approaching the speed of light,
 * and time passes more slowly for fast-moving objects.
 
 All these strange consequences would be completely validated in further experiments.
 The picture that emanated was perfectly coherent
-but very different from our everyday experience with clocks and projectiles.
+but very different from our everyday experience with clocks and moving objects.
 The mind-bending ideas behind the theory were revolutionary,
-and it would take many decades for other physicists to study their consequences.
+and it would take many decades for other physicists to study and deeply understand their consequences.
 
 It would be very easy to blow the contributions of Einstein out of all proportion
 by saying that he came up with special relativity all on his own.
