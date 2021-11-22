@@ -157,7 +157,7 @@ And so scientists set about to detect it.
 
 In 1887 Michelson and Morley were trying to find signs of its existence.
 This transparent substance had to permeate the whole of space so that light could propagate in the vacuum.
-And since our Earth was moving through space around the sun,
+And since our Earth is moving through space around the sun,
 it would navigate through the ether at different speeds depending on the time of the year.
 And so the famous 
 [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
