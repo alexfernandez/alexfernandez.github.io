@@ -33,7 +33,7 @@ Let us first understand what the picture of classical physics was before the tim
 
 Our starting point is going to be the same question that philosophers and other curious people
 have been asking since the beginning of time:
-what are things made of?
+**what are things made of?**
 
 This question may seem pointless now,
 because everybody has known for centuries that things are made of small particles,
@@ -72,8 +72,8 @@ Scientists were discovering the laws by which substances could be combined into 
 and during the 18th century this study would lead to the foundation of chemistry.
 Since molecules like water or ammonia were created only in constant proportions,
 John Dalton concluded in 1808 that we were seeing elementary atoms combining always in the same ways.
-But the question was not really settled: many scientists still believed in substances
-that could be infinitely divided.
+But the question was not really settled:
+**many scientists still believed in substances that could be infinitely divided**.
 In 1826 the reputed [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy)
 insisted that the "atomic conjecture" should be ignored.
 During the 19th century both sides continued arguing without definite proof.
@@ -82,7 +82,7 @@ During the 19th century both sides continued arguing without definite proof.
 
 Enough about matter for now.
 Let's go to another question which is even more interesting:
-what is light made of?
+**what is light made of?**
 
 The field of optics has been studied since antiquity.
 Epicurus already established that the speed of light
@@ -110,8 +110,8 @@ his opinion could counteract the multitude of phenomena well explained by waves.
 The debate was not settled until 1801, when Young came up with a wonderful
 [double-slit experiment](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
 that clearly showed interference patterns,
-convincing physicists that light was indeed a wave.
-The crucial effect in waves is
+convincing physicists that **light was indeed a wave**.
+The crucial effect that he measured is
 [diffraction](https://en.wikipedia.org/wiki/Diffraction):
 as we saw in
 [our little simulator](https://pinchito.es/physics-simulation/double-slit/wave),
@@ -120,8 +120,8 @@ So does light,
 although its wavelength is so small that the effect is only appreciable at short distances.
 
 So we reach the 19th century with a more or less clear picture:
-matter seems to be made of atoms,
-light seems to be made of waves.
+**matter was made of atoms**,
+**light was made of waves**.
 
 ## Cracks in the Foundation
 
@@ -144,11 +144,11 @@ then what exactly is waving?
 
 Waves are a very particular phenomenon that happens when there is an oscillation in a substance.
 For instance, waves in water happen because its molecules wiggle up and down.
-If light is a wave,
+If light is a wave and it can propagate even when there is no matter,
 then what is oscillating to create it?
 The answer given by scientists was 
 [ether](https://en.wikipedia.org/wiki/Luminiferous_aether):
-the intangible medium where waves of light were supposed to propagate.
+the **intangible medium** where waves of light were supposed to propagate.
 Of course its existence would create other problems:
 what properties did this mysterious ether have?
 And so scientists set about to detect it.
@@ -163,34 +163,34 @@ And so the famous
 [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)
 was designed.
 By making very precise measurements,
-a different speed of light in different directions should be measured.
+**a different speed of light in different directions should be measured**.
 Also the experiment had to be repeated multiple times,
 if by any chance our planet was moving exactly along the ether at the moment of the first measurement.
 
 Of course their very precise measurements found none of that nonsense:
 light seemed to travel at _exactly_ the same speed at all times and in all directions.
-There was no ether to be found anywhere.
+There was **no ether to be found anywhere**.
 
 ### Radiating Black Body
 
 Another important sign that classical physics was not the whole picture was the investigation of
 [black body radiation](https://en.wikipedia.org/wiki/Black-body_radiation).
 A hot chamber ("black body") was supposed to radiate energy of all frequencies,
-and this energy was supposed to grow without bound according to the classical predictions.
+and the classical theory predicted that this energy was supposed to grow without bounds as the wavelength increased.
 This was called the
 [ultraviolet catastrophe](https://en.wikipedia.org/wiki/Ultraviolet_catastrophe),
 since it would have caused the destruction of the world as we know it.
-The "light as waves" picture was not working.
+**The "light as waves" picture was not working.**
 
 In 1900 Max Planck proposed his
 [quantisation of radiation](https://en.wikipedia.org/wiki/Max_Planck#Black-body_radiation)
 to solve the problem.
 The implication was that light was not a constant vibration of a substance,
 but instead was sent as particles ("packets" or "quanta" in technical talk).
-So in a strange twist of fate, we are back to particles!
+So in a strange twist of fate, we are **back to light as particles**!
 Nobody could make any sense of the situation at this point:
 was light waves, or was it particles?
-What about matter then?
+Remember that the picture for matter wasn't even settled yet.
 
 ## Enter Einstein
 
@@ -200,8 +200,8 @@ published a series of four scientific articles
 that would change Physics forever.
 Not in vain this was called his
 [_annus mirabilis_ or wonder year](https://en.wikipedia.org/wiki/Annus_Mirabilis_papers):
-in essence he solved all of the existing questions,
-and opening many, many more.
+in essence **he solved the most important mysteries in Classical Physics**,
+and opened many, many more questions.
 
 ### Light Particles
 
