@@ -212,8 +212,7 @@ He assumed that light was composed of particles,
 which we now call
 [photons](https://en.wikipedia.org/wiki/Photon#Nomenclature).
 
-Along the way he computed the energy carried by any individual photon,
-and derived the correct energy for each photon to be proportional to its frequency.
+Along the way he derived that the energy carried by any individual photon is proportional to its frequency,
 using the same
 [constant used by Planck](https://en.wikipedia.org/wiki/Planck_constant)
 for the black body.
