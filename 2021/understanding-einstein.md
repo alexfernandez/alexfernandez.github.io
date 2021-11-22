@@ -140,12 +140,12 @@ Both are very relevant to our story.
 
 About light only one question remained:
 if it is a wave,
-then what exactly is oscillating?
+then what exactly is waving?
 
 Waves are a very particular phenomenon that happens when there is an oscillation in a substance.
 For instance, waves in water happen because its molecules wiggle up and down.
 If light is a wave,
-then what is oscillating to create this wave?
+then what is oscillating to create it?
 The answer given by scientists was 
 [ether](https://en.wikipedia.org/wiki/Luminiferous_aether):
 the intangible medium where waves of light were supposed to propagate.
