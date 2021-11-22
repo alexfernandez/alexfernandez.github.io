@@ -139,11 +139,11 @@ Both are very relevant to our story.
 ### In Search of Ether
 
 About light only one question remained:
-if it is a wave, and therefore an oscillation,
+if it is a wave,
 then what exactly is oscillating?
 
 Waves are a very particular phenomenon that happens when there is an oscillation in a substance.
-For instance, waves in water happend because its molecules oscillate.
+For instance, waves in water happen because its molecules wiggle up and down.
 If light is a wave,
 then what is oscillating to create this wave?
 The answer given by scientists was 
