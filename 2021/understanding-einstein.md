@@ -1,7 +1,7 @@
 ---
 title: 'Understanding the Work of Einstein'
 subtitle: 'On the Road to Quantum Entropy, Part 4'
-footer: Published on 2021-11-07, modified on 2021-11-07.
+footer: Published on 2021-11-07, modified on 2021-11-22.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Albert Einstein is probably the most famous scientist of the 20th century.
@@ -23,7 +23,7 @@ let us explore the work of
 who is (_spoiler alert_) one of the greatest minds in history of physics.
 
 This article is going to be be quite different than the usual treatment,
-so it may give you some food for thought even if you are familiar with Einstein.
+so it may give you some food for thought even if you are familiar with his work.
 
 ## Classical Picture
 
@@ -31,7 +31,7 @@ Let us first understand what the picture of classical physics was before the tim
 
 ## What Is Stuff Made of
 
-Our starting point is going to be the same question that philosophers and wise people
+Our starting point is going to be the same question that philosophers and other curious people
 have been asking since the beginning of time:
 what are things made of?
 
@@ -62,7 +62,7 @@ he thought that matter could be infinitely divided in an endless process.
 Since Aristotle's opinions carried a lot of weight,
 the matter was more or less settled during the Middle Ages,
 not without some discordances.
-But we have to remember that most of Aristotle became dogma,
+But we have to remember that most of Aristotle became dogma
 both to Islamic and to Christian authorities,
 and therefore most philosophers stayed within it.
 
