@@ -23,11 +23,10 @@ let us explore the work of
 who is (_spoiler alert_) one of the greatest minds in history of physics.
 
 This article is going to be be quite different than the usual treatment,
-so it may give you some food for thought even if you are familiar with it.
+so it may give you some food for thought even if you are familiar with Einstein.
 
-## Classical Physics
+## Classical Picture
 
-Exploring the history of physics can be useful to understand it.
 Let us first understand what the picture of classical physics was before the time of Einstein.
 
 ## What Is Stuff Made of
