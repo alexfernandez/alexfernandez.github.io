@@ -71,7 +71,7 @@ But this time the debate was more solidly founded.
 Scientists were discovering the laws by which substances could be combined into others,
 and during the 18th century this study would lead to the foundation of chemistry.
 Since molecules like water or ammonia were created only in constant proportions,
-John Dalton concluded in 1808 that elementary atoms always combined in the same ways.
+John Dalton concluded in 1808 that we were seeing elementary atoms combining always in the same ways.
 But the question was not really settled: many scientists still believed in substances
 that could be infinitely divided.
 In 1826 the reputed [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy)
