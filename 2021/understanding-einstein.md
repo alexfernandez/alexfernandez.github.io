@@ -150,7 +150,7 @@ The answer given by scientists was
 [ether](https://en.wikipedia.org/wiki/Luminiferous_aether):
 the intangible medium where waves of light were supposed to propagate.
 Of course its existence would create other problems:
-how did this mysterious ether behave?
+what properties did this mysterious ether have?
 And so scientists set about to detect it.
 
 ![The Earth going through the ether during the year.](pics/understanding-einstein-ether.svg "A constant medium labeled 'Luminiferous aether' is shown as a series of arrows travelling through the picture. The sun in the center is supposed to move in this 'wind'. The Earth goes round the sun in an ellipse, depicted in two positions: spring and fall. Source: https://commons.wikimedia.org/wiki/File:AetherWind.svg.")
