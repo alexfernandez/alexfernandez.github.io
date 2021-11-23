@@ -27,7 +27,8 @@ so it may give you some food for thought even if you are familiar with his work.
 
 ## Classical Picture
 
-Let us first understand what the picture of classical physics was before the time of Einstein.
+First, what was the state of Physics _before_ Einstein?
+Let us try to understand a bit the picture of classical physics.
 
 ## What Is Stuff Made of
 
