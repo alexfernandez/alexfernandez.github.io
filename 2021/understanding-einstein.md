@@ -30,7 +30,7 @@ so it may give you some food for thought even if you are familiar with his work.
 First, what was the state of Physics _before_ Einstein?
 Let us try to understand a bit the picture of classical physics.
 
-## What Is Stuff Made of
+### What Is Stuff Made of
 
 Our starting point is going to be the same question that philosophers and other curious people
 have been asking since the beginning of time:
