@@ -37,7 +37,7 @@ have been asking since the beginning of time:
 **what are things made of?**
 
 This question may seem pointless now,
-because everybody has known for centuries that things are made of small particles,
+because everybody has known for centuries or even millenia that things are made of small particles called _atoms_,
 right?
 Not so fast.
 Hardly a hundred years ago scientists were still debating this issue.
