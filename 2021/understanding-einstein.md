@@ -1,7 +1,7 @@
 ---
 title: 'Understanding the Work of Einstein'
 subtitle: 'On the Road to Quantum Entropy, Part 4'
-footer: Published on 2021-11-07, modified on 2021-11-22.
+footer: Published on 2021-11-07, modified on 2021-12-05.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Albert Einstein is probably the most famous scientist of the 20th century.
@@ -294,10 +294,11 @@ how the presence of energy curves space-time itself,
 made even more interesting because this curvature generates _even more energy_.
 
 It would be too long to delve into the details of this complex theory,
-and I'm not even sure I have the level to understand it.
-Let us just state that general relativity has resisted all efforts of quantization,
-and is therefore the best explanation that we still have for how gravity works,
-despite a few obvious flaws.
+and I'm not even sure I know how to explain it.
+Let us just state that it is essential to understand cosmology and astrophysics.
+General relativity has resisted all efforts of quantization so far,
+and it is the best explanation that we have for how gravity works
+more than a century later.
 
 Einstein had a long and illustrious career in physics after 1915,
 and his many contributions would reinforce the pillars of the new physics that he pioneered.
@@ -320,6 +321,9 @@ But to be honest nobody has succeeded yet in this search.
 As we have seen,
 Albert Einstein took a classical world and quantized it,
 creating a coherent picture that left out any mysterious substances.
+He also helped us understand how such a world made of particles could work,
+doing pioneering work in many branches of Physics
+(and opening up a few others).
 
 We will soon continue our journey exploring quantum entropy.
 
