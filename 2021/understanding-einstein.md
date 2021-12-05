@@ -299,12 +299,21 @@ Let us just state that general relativity has resisted all efforts of quantizati
 and is therefore the best explanation that we still have for how gravity works,
 despite a few obvious flaws.
 
-Einstein helped refine
-[quantum mechanics](/2021/understanding-quantum-mechanics),
-the theory that tried to explain how atoms behaved,
+Einstein had a long and illustrious career in physics after 1915,
+and his many contributions would reinforce the pillars of the new physics that he pioneered.
+The picture that he left us can be summarized as:
+light and matter are made of particles.
+So how can we make sense of all phenomena that are explained by waves?
+[Quantum mechanics](understanding-quantum-mechanics) would bring the answers.
+Einstein helped refine this theory
 through his [multiple criticisms](https://en.wikipedia.org/wiki/Uncertainty_principle#Critical_reactions):
 for instance, he was instrumental in finding out about quantum entanglement
 when he co-created the [Einstein-Podolsky-Rosen paradox](https://en.wikipedia.org/wiki/EPR_paradox).
+
+The great thinker tried and failed to extend his relativistic field equations
+in a [unified field theory](https://www.aps.org/publications/apsnews/200512/history.cfm),
+that also included quantum mechanics.
+But to be honest nobody has succeeded yet in this search.
 
 ## Conclusion
 
@@ -312,14 +321,6 @@ As we have seen,
 Albert Einstein took a classical world and quantized it,
 creating a coherent picture that left out any mysterious substances.
 
-The picture that Einstein left us can be summarized as:
-light and matter are made of particles.
-So how can we make sense of all phenomena that are explained by waves?
-[Quantum mechanics](understanding-quantum-mechanics) would bring the answers.
-
-Einstein had a long and illustrious career in physics after 1915,
-and his many contributions would reinforce the pillars of the new physics that he pioneered.
-But we have enough for one article!
 We will soon continue our journey exploring quantum entropy.
 
 ### Acknowledgements
