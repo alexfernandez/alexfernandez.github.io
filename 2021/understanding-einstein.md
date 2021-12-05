@@ -217,6 +217,8 @@ Along the way he derived that the energy carried by any individual photon is pro
 using the same
 [constant used by Planck](https://en.wikipedia.org/wiki/Planck_constant)
 for the black body.
+This opened the way for quantum mechanics in all its glory:
+it was a valid approach for every day problems.
 
 By the way,
 the explanation of the photoelectric effect is what won Einstein the Nobel prize in 1921,
@@ -269,7 +271,8 @@ which explains the transformation of matter into energy and viceversa.
 
 Not happy with solving these two long-running mysteries,
 Einstein set out in his second 1905 paper to settle the debate on atomism.
-In a [paper on Brownian motion](https://en.wikipedia.org/wiki/%C3%9Cber_die_von_der_molekularkinetischen_Theorie_der_W%C3%A4rme_geforderte_Bewegung_von_in_ruhenden_Fl%C3%BCssigkeiten_suspendierten_Teilchen)
+In a
+[study on Brownian motion](https://en.wikipedia.org/wiki/%C3%9Cber_die_von_der_molekularkinetischen_Theorie_der_W%C3%A4rme_geforderte_Bewegung_von_in_ruhenden_Fl%C3%BCssigkeiten_suspendierten_Teilchen)
 he explained why little particles of pollen seemed to jiggle when viewed through the microscope.
 
 The solution was a very elegant derivation of statistical mechanics
@@ -277,7 +280,8 @@ using a random bombardment of water molecules.
 He also correctly derived the number of molecules in a mole,
 which is called by chemists
 [Avogadro constant](https://en.wikipedia.org/wiki/Avogadro_constant).
-In essence Einstein counted the number of atoms in matter.
+In essence Einstein counted the number of atoms in matter,
+finding out the mass of each atom in the process.
 
 ### Later Contributions
 
@@ -294,6 +298,13 @@ and I'm not even sure I have the level to understand it.
 Let us just state that general relativity has resisted all efforts of quantization,
 and is therefore the best explanation that we still have for how gravity works,
 despite a few obvious flaws.
+
+Einstein helped refine
+[quantum mechanics](/2021/understanding-quantum-mechanics),
+the theory that tried to explain how atoms behaved,
+through his [multiple criticisms](https://en.wikipedia.org/wiki/Uncertainty_principle#Critical_reactions):
+for instance, he was instrumental in finding out about quantum entanglement
+when he co-created the [Einstein-Podolsky-Rosen paradox](https://en.wikipedia.org/wiki/EPR_paradox).
 
 ## Conclusion
 
