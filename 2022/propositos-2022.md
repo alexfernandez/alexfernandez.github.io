@@ -1,6 +1,6 @@
 ---
-title: 'Propósitos para 2022 y repaso de 2021'
-subtitle: ''
+title: '🎯 Propósitos para 2022 y repaso de 2021'
+subtitle: 'Pandemia mediante'
 footer: Publicado el 2022-01-01, modificado el 2021-01-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:

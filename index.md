@@ -19,7 +19,7 @@ Latest articles first.
 
 ### 2022
 
-🗣️ 🇪🇸 2022-01-01: [Propósitos para 2022 y repaso de 2021](2022/propositos-2022)  
+🗣️ 🇪🇸 2022-01-01: [🎯 Propósitos para 2022 y repaso de 2021](2022/propositos-2022)  
 
 ### 2021
 
