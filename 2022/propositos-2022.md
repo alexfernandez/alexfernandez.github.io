@@ -98,7 +98,7 @@ el año pasado.
 De nuevo contaremos con cuatro categorías:
 las dos clásicas de
 <span style="color:green">éxito</span> y <span style="color:red">fracaso</span>,
-y las dos nuevas
+y las dos recientes
 <span style="color:darkgreen">éxito pandémico</span> y <span style="color:darkred">fracaso pandémico</span>
 que tienen en cuenta la inescapable pandemia de COVID-19.
 
