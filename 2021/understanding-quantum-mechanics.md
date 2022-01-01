@@ -375,3 +375,12 @@ I want to thank
 [all the Wikipedia editors](https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&action=history)
 in this and other articles that have helped me understand the subject and track deeper references.
 
+### References
+ 
+* Feynman's double-slit experiment was performed in 1961 by Claus Jönsson,
+in [Jönsson _et al_: Electron Diffraction at Multiple Slits](http://materias.df.uba.ar/f4Aa2012c2/files/2012/08/multiple_slit.pdf),
+American Journal of Physics 42, 4 (1974).
+* It was later repeated with one electron at a time in 2013:
+[Bach _et al_: Controlled double-slit electron diffraction](https://iopscience.iop.org/article/10.1088/1367-2630/15/3/033018/pdf),
+2013 New J. Phys. **15** 033018.
+
