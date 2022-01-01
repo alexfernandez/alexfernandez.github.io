@@ -84,7 +84,7 @@ sobre todo al natural que es donde de verdad se aprende:
 cuando partes de una foto es probable que la cámara ya haya hecho gran parte del trabajo.
 Cualquier excusa es buena para mostrar un ejemplo reciente de mi producción.
 
-![Casa rosa, pastel y lápiz sobre papel.](pics/propositos-casa-rosa.jpg "Casa rosa en el paseo marítimo de Almería. Fuente: elaboración propia")
+![Casa rosa, pastel y lápiz sobre papel.](pics/propositos-casa-rosa.jpg "Casa de color salmón en el paseo marítimo de Almería. Fuente: elaboración propia")
 
 También quiero **presentarme a algún concurso de pintura rápida**:
 ya fui a uno y la experiencia fue muy divertida.
