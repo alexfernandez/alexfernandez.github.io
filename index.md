@@ -17,6 +17,10 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 Latest articles first.
 
+### 2022
+
+🗣️ 🇪🇸 2022-01-01: [Propósitos para 2022 y repaso de 2021](2022/propositos-2022)  
+
 ### 2021
 
 ⚛️ 🇮🇪 2021-11-07: [Understanding the Work of Einstein](2021/understanding-einstein)  
