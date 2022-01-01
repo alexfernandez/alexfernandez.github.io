@@ -55,7 +55,7 @@ aunque sólo dos estén relacionadas con la ingeniería del software.
 Es posible que conozcas
 [JavaScript Beers](https://javascript.beer/),
 la plataforma que creamos en marzo unos cuantos viciosos de las charlas
-para tomarnos unas cervecillas con nuestros héroes del mundo javascripter patrio.
+para tomarnos unas cervecillas con héroes y heroínas del mundo javascripter patrio.
 
 Aquí también vamos a ser modestos,
 visto lo visto:
@@ -68,7 +68,8 @@ También he colaborado en
 [par](https://podcast.carlosble.com/podcast/e21-beneficios-de-escribir-un-blog/)
 de entradas del
 [podcast de Carlos Blé](https://podcast.carlosble.com/).
-Me gust
+Estaría bien **aumentar mi presencia** en otras plataformas,
+aunque pueda resultar complicado.
 
 ### 🎨 Artístico
 
@@ -184,7 +185,7 @@ pero nos hemos mantenido ahí.
 
 ## 🤔 Conclusión
 
-Os dejo con mis cuatro objetivos para este 2022.
+Os dejo con mis seis objetivos para este 2022.
 ¿Cuántos cumpliré, y cuántos no? 😁
 ¡Nos vemos en 2023 para contrastarlos!
 
