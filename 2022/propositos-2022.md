@@ -4,9 +4,8 @@ subtitle: ''
 footer: Publicado el 2022-01-01, modificado el 2021-01-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  En este inicio de año nuevamente voy a establecer algunos propósitos para 2022,
-  y repasar los que establecí para 2021.
-  Los nuevos propósitos los he indicado **en negrita**.
+  En este inicio de año nuevamente voy a establecer algunos objetivos para 2022
+  y repasar los de 2021.
 image: https://pinchito.es/2022/pics/propositos-alfredo.jpg
 ---
 
@@ -16,9 +15,9 @@ Una vez más toca establecer algunas metas para 2022.
 A la vez vamos a repasar qué tal hemos cumplido los que me fijé a principio de 2021.
 Los nuevos propósitos los he indicado **en negrita**.
 
-## Objetivos para 2022
+## 🎯 Objetivos para 2022
 
-Haciendo gala de la gran modestia que nos caracteriza 😉,
+En lugar de hacer gala de mi habitual ambición (o más bien falta de cabeza 😉),
 vamos a marcarnos sólo unos cuantos propósitos importantes.
 
 ### 🧑‍🏭 Laboral
@@ -46,6 +45,11 @@ Vamos a ser modestos.
 Mi objetivo en este caso es **seguir creciendo profesionalmente**
 y no estancarme, sea en Skeepers o en cualquier otro sitio.
 
+También me gustaría **seguir escribiendo artículos en éste mi blog personal**,
+y creo que no voy mal:
+en 2021 he publicado ocho entradas,
+aunque sólo dos estén relacionadas con la ingeniería del software.
+
 ### 👐 Comunidad
 
 Es posible que conozcas
@@ -58,6 +62,13 @@ visto lo visto:
 me conformo con
 **seguir haciendo eventos de vez en cuando**,
 sea online o presencial o lo que se pueda.
+
+También he colaborado en
+[un](https://podcast.carlosble.com/podcast/e22-la-entrevista-de-trabajo/)
+[par](https://podcast.carlosble.com/podcast/e21-beneficios-de-escribir-un-blog/)
+de entradas del
+[podcast de Carlos Blé](https://podcast.carlosble.com/).
+Me gust
 
 ### 🎨 Artístico
 
@@ -78,7 +89,7 @@ También quiero **presentarme a algún concurso de pintura rápida**:
 ya fui a uno y la experiencia fue muy divertida.
 ¡Seguiremos informando!
 
-## Repaso de 2021
+## 📋 Repaso de 2021
 
 Ahora vamos a ver qué tal lo hemos hecho con los
 [objetivos que me marqué](/2021/repaso-propositos-2020)
@@ -164,14 +175,14 @@ no encontramos nada que nos convenciera.
 Como mi hija ha empezado ya en secundaria no parece que ahora sea buen momento de cambiar,
 así que la opción de irse fuera tendrá que esperar seguramente unos añitos.
 
-### Resumen
+### 📊 Resumen
 
 Tres <span style="color:green">éxitos</span>, ninguno de ellos <span style="color:darkgreen">pandémico</span>,
 y cuatro <span style="color:red">fracasos</span>, de los que dos <span style="color:darkred">pandémicos</span>.
 No es que 2021 haya sido un año glorioso,
 pero nos hemos mantenido ahí.
 
-## Conclusiones
+## 🤔 Conclusión
 
 Os dejo con mis cuatro objetivos para este 2022.
 ¿Cuántos cumpliré, y cuántos no? 😁
