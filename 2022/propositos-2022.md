@@ -111,8 +111,8 @@ ya que gracias al apoyo de los fundadores Dorian y Sylvain he sido capaz de dese
 mejorar el ambiente,
 optimizar el trabajo y reducir deuda técnica,
 además de participar en la negociación de la venta de Hivency por una cantidad jugosa.
-También he podido contratar a varios grandes profesionales:
-estoy muy contento de haber contado con Alfredo López,
+También he podido contratar a varios grandes profesionales;
+entre ellos estoy muy contento de haber contado con Alfredo López,
 a quien es posible que recordéis como profesor asociado del
 [curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad-2).
 
