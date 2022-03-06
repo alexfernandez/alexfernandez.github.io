@@ -154,9 +154,12 @@ Así podemos comparar la información que llevan de fábrica nuestros dispositiv
 
 ![Tamaños de ROM de diversos ordenadores, dispositivos móviles y seres vivos. <a href="pics/bacterias-roms.png" target="_blank">🔍 Ampliar</a>. Fuente: elaboración propia. Datos: [ordenadores](rom-sizes/rom-sizes-computers.csv), [móviles](rom-sizes/rom-sizes-mobile.csv), [seres vivos](rom-sizes/rom-sizes-living.csv).](pics/bacterias-roms.png "En la gráfica se muestran los tamaños de ROM de diversos organismos, y una escala temporal de ROMs en ordenadores y dispositivos móviles.")
 
-Un virus tiene la misma ROM que un ZX Spectrum.
-Una bacteria contiene la información equivalente a una PDA Psion Siena.
-La levadura de panadero equivale a una Palm Tugsten T.
+Un virus tiene la misma ROM que un ZX Spectrum,
+legendario ordenador de 8 bits.
+Una bacteria contiene la información equivalente a una PDA Psion Siena,
+una consola de 16 bits.
+La levadura de panadero equivale a una Palm Tugsten T,
+de 32 bits.
 Por su parte, las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.
 El ser humano tiene algo más de información que un CD-Rom,
 y por lo tanto que la distribución de Knoppix en CD;
@@ -240,7 +243,7 @@ una bacteria inyecta un trocito de ADN llamado plásmido en otra.
 ![Diagrama esquemático de la conjugación bacteriana. _Biiij, qué ascazo_. <a href="pics/bacterias-conjugacion.svg" target="_blank">🔍 Ampliar</a>. [Fuente](https://commons.wikimedia.org/wiki/File:Conjugation-es.svg).](pics/bacterias-conjugacion.svg "Conjugación en cuatro fases. 1: la célula donante produce un pilus. 2: el pilus alcanza otra célula, uniéndolas. 3: el plásmido se duplica, y una hebra de ADN se transfiere a la célula receptora. 4: ambas células vuelven a circularizar sus plásmidos, sintetizan una segunda hebra, y reproducen los pelos; ambas células son ahora donantes viables.")
 
 La cosa no queda ahí.
-Las bacterias pueden de hecho tomar plásmidos que están sueltos por ahí en el medio,
+Las bacterias pueden de hecho tomar plásmidos que están sueltos por ahí en el medio
 e integrarlos en su ADN:
 es lo que se llama
 [transformación genética](http://web.biosci.utexas.edu/psaxena/BIO366/articles/050801DNA%20transformation.pdf).
@@ -272,16 +275,18 @@ Al igual que en cualquier desarrollo de software,
 en el genoma se va acumulando código muerto en forma de
 [pseudo-genes](http://downloads.hindawi.com/journals/cfg/2012/424526.pdf):
 vestigios de genes que ya no funcionan.
-Llega el momento en el que es buena idea reducir el tamaño del código generado.
-¿Cómo se hace sin un equipo de desarrolladores a mano?
+Como en cualquier programa informático,
+llega el momento en el que es buena idea limpiar y reducir el tamaño del código generado.
+En un equipo de desarrollo ya es una tarea bastante difícil.
+¿Cómo se hace esto en la Naturaleza?
 
 Puede ser instructivo estudiar
 [el genoma de las aves](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4390078/),
 que es mucho más reducido que el de mamíferos y reptiles.
 Además tiene menos repeticiones y muchas más deleciones
 (pérdidas de secuencias de ADN).
-Cualquier desarrollador que se precie sabe que el código repetido es la pesadilla del buen profesional del software,
-y que se elimina con una buena refactorización.
+Cualquier desarrolladora que se precie sabe que el código repetido es la pesadilla de una buena profesional del software,
+y que se elimina con una costosa refactorización.
 Así que podemos decir con tranquilidad que el genoma de los pájaros
 [está mejor refactorizado](https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-5-12)
 y tiene
@@ -293,8 +298,8 @@ que el de los mamíferos.
 No es descabellado;
 al fin y al cabo el genoma representa
 [el 1% del peso de una célula en mamíferos](http://manalis-lab.mit.edu/publications/delgado_cermak_PLOS_2013.pdf),
-5% si contamos ARN que podemos suponer proporcional.
-Un humano adulto de 70 kg lleva encima una mochilita de 3.5 kg de ADN y ARN.
+o más bien el 5% si contamos ARN que podemos suponer proporcional.
+Un ser humano adulto de 70 kg lleva encima una mochilita de 3.5 kg de ADN y ARN.
 Además esta reducción de genoma se da más a menudo en
 [pájaros y murciélagos](https://www.pnas.org/content/114/8/E1460);
 y el ave con el genoma más grande es el avestruz,
@@ -328,11 +333,14 @@ tiene 3.3 Mbp,
 mientras que su antecesor _M. tuberculosis_ tiene 4.4 Mbp.
 Por el camino _M. leprae_ ha perdido unos 2000 genes;
 ahora depende de las células del anfitrión para multitud de funciones vitales.
+Vemos cómo durante la evolución una bacteria puede eliminar no sólo código genético,
+sino incluso funcionalidades enteras que se podrían considerar esenciales.
 
 # Máquinas
 
-Pero las bacterias no son sólo código;
-los genes codifican unas proteínas que las convierten de forma efectiva en máquinas.
+Hasta ahora hemos revisado el código genético,
+pero en las bacterias hay muchas más cosas.
+Los genes codifican unas proteínas que las convierten de forma efectiva en máquinas.
 Cada proteína es una macromolécula que actúa como una herramienta muy pequeñita,
 con un papel determinado para conseguir sus fines.
 Este vídeo muestra cómo funciona un pelo de bacteria:
@@ -344,7 +352,8 @@ La generación de energía se realiza en la proteína ATP sintasa,
 una especie de motor que funciona con una eficiencia
 [cercana al 100%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1692765/pdf/10836501.pdf),
 impensable para
-[motores industriales](https://www.electricmotorengineering.com/high-efficiency-motors-and-sustainability/):
+[motores industriales](https://www.electricmotorengineering.com/high-efficiency-motors-and-sustainability/).
+A mí me recuerda mucho a un molinillo de café.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/XI8m6o0gXDY?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -364,9 +373,24 @@ También como almacenamiento de información o incluso como
 
 ## PCR
 
-Puede ser interesante ver una herramienta bacteriana muy usada,
-por ejemplo en el [test que detecta el coronavirus]().
+Todo esto está muy bien,
+pero nos sirve de poco al género humano.
+¿Hay algo por ahí que podamos usar nosotros?
+Hablemos de la 
+[polymerase chain reaction](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)
+o PCR, una herramienta bacteriana usada por ejemplo en los famosos tests que detectan el coronavirus.
+Su descubrimiento le valió un premio Nobel a
+[Kary Mullis](https://en.wikipedia.org/wiki/Kary_Mullis)
+en 1993.
+Consiste en usar una polimerasa obtenida de la bacteria
+[_Thermus aquaticus_](https://en.wikipedia.org/wiki/Thermus_aquaticus)
+para amplificar un fragmento de ADN.
+Esto sirve para detectar el código genético de un ser vivo cualquiera,
+por ejemplo un virus patógeno.
+Pero también se puede usar para analizar genes humanos,
+amplificar ADN de fósiles o pruebas de paternidad.
 
+Vamos a terminar esta sección con una nota triste.
 En agosto de 2019
 [Mullins murió de neumonía](https://mynewsla.com/education/2019/08/08/nobel-winner-kary-banks-mullis-who-revolutionized-dna-research-dies-in-o-c/).
 ¿Es posible que finalmente las bacterias tuvieran su revancha?
@@ -386,6 +410,8 @@ de cómo funciona el virus del SIDA.
 Aquí podemos apreciar cómo toda la maquinaria molecular funciona junta:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+En una bacteria 
 
 # Continuará…
 
