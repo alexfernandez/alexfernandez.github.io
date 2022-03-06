@@ -1,13 +1,20 @@
 ---
-title: 'Bacterias (parte 2): Tecnología bacteriana'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+title: '⚙️ Tecnología bacteriana'
+subtitle: 'Parte 2 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
+footer: Publicado el 2022-03-06, modificado el 2022-03-06.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  'Las bacterias son ubicuas en nuestro planeta:
+  han colonizado prácticamente todo nuestro cuerpo,
+  viven en volcanes y en las profundidades de los mares,
+  y participan en la formación de la lluvia, la nieve e incluso de las estalactitas en las cavernas.'
+image: https://pinchito.es/2021/pics/bacterias-mineralized-iron.jpg
+
 ---
 
 ![Esta proteína tan bonita es en realidad una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen, entre otras patologías: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
 
-Como buenos tecnólogos,
+Si eres tecnóloga o tecnólogo,
 la fascinación por estas pequeñas amiguitas sólo puede crecer
 al estudiar la sofisticada tecnología que son capaces de desplegar.
 
@@ -361,6 +368,8 @@ Aquí podemos apreciar cómo toda la maquinaria molecular funciona junta:
 
 Este artículo es la segunda parte de la
 [serie sobre bacterias](bacterias-maquinas).
+Continuará.
+<!--
 Sigue a la
 [parte 3: El largo camino a la simbiosis](bacterias-simbiosis),
 donde estudiaremos el sistema inmune y sus modos de fallo.
@@ -371,4 +380,5 @@ donde estudiaremos el sistema inmune y sus modos de fallo.
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 * → Parte 6: [Conclusiones](bacterias-conclusiones).
+-->
 
