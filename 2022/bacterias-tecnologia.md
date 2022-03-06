@@ -160,7 +160,8 @@ Una bacteria contiene la información equivalente a una PDA Psion Siena,
 una consola de 16 bits.
 La levadura de panadero equivale a una Palm Tugsten T,
 de 32 bits.
-Por su parte, las eucariotas van de un Windows 95 a un Windows Vista, o bien de un Nokia 7650 a una Android 10.
+Por su parte, las eucariotas van de un Windows 95 (32 bits) a un Windows Vista (64 bits),
+o bien de un Nokia 7650 (32 bits) a una Android 10 (64 bits).
 El ser humano tiene algo más de información que un CD-Rom,
 y por lo tanto que la distribución de Knoppix en CD;
 y algo menos que un móvil con Android 8.
@@ -169,7 +170,7 @@ Pero esto es sólo el sistema operativo,
 sin tener en cuenta todavía programas y aplicaciones.
 ¿Cuál sería su equivalente en el genoma?
 
-# Memoria interna
+## Memoria interna
 
 En un organismo vivo es necesario primero transcribir el ADN en ARN.
 El ARN es por tanto similar a la RAM o memoria de lectura y escritura:
@@ -395,7 +396,7 @@ En agosto de 2019
 [Mullins murió de neumonía](https://mynewsla.com/education/2019/08/08/nobel-winner-kary-banks-mullis-who-revolutionized-dna-research-dies-in-o-c/).
 ¿Es posible que finalmente las bacterias tuvieran su revancha?
 
-## Simplicidad
+## Virus y simplicidad
 
 Los virus son mucho más sencillos que las bacterias:
 como hemos visto, por el tamaño de ROM son equivalentes a un ordenador de 8 bits.
@@ -411,7 +412,21 @@ Aquí podemos apreciar cómo toda la maquinaria molecular funciona junta:
 
 <iframe class="video" src="https://player.vimeo.com/video/260291607?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-En una bacteria 
+## Replicación
+
+Una bacteria tiene una maquinaria molecular mucho más compleja y autosuficiente.
+Esto le permite replicarse completamente en
+[tan solo 18 minutos](https://bio.libretexts.org/Bookshelves/Genetics/Book%3A_Working_with_Molecular_Genetics_(Hardison)/Unit_II%3A_Replication_Maintenance_and_Alteration_of_the_Genetic_Material/6._DNA_replication_II%3A_Start%2C_stop_and_control/Replication_in_Bacteria),
+aunque otras bacterias como _M leprae_ (causante de la lepra)
+pueden tardar
+[hasta 14 días](https://varuncnmicro.blogspot.com/2016/09/btb9-bacterial-growth-curve.html).
+Por otra parte, si las condiciones no son óptimas algunas bacterias pueden tardar algo más:
+¿qué tal [diez mil años](https://www.bbc.com/news/science-environment-23855436)?
+
+En el mejor de los casos los seres humanos tardamos décadas en reproducirnos.
+Esto nos da una idea de lo desigual de la evolución en estos ámbitos tan diferentes.
+En el próximo capítulo veremos cómo estos tiempos de replicación son cruciales
+para estudiar las enfermedades causadas por bacterias.
 
 # Continuará…
 
