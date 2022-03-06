@@ -8,7 +8,7 @@ abstract:
   han colonizado prácticamente todo nuestro cuerpo,
   viven en volcanes y en las profundidades de los mares,
   y participan en la formación de la lluvia, la nieve e incluso de las estalactitas en las cavernas.'
-image: https://pinchito.es/2021/pics/bacterias-mineralized-iron.jpg
+image: https://pinchito.es/2022/pics/bacterias-inyector-toxinas.jpg
 
 ---
 
