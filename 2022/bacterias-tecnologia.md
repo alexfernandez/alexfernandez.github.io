@@ -4,10 +4,9 @@ subtitle: 'Parte 2 de la serie «🦠 Bacterias: máquinas que dominan el univer
 footer: Publicado el 2022-03-06, modificado el 2022-03-06.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  'Las bacterias son ubicuas en nuestro planeta:
-  han colonizado prácticamente todo nuestro cuerpo,
-  viven en volcanes y en las profundidades de los mares,
-  y participan en la formación de la lluvia, la nieve e incluso de las estalactitas en las cavernas.'
+  'La tecnología que despliegan las bacterias es impresionante:
+  virus usados como memorias externas, replicación ultrarrápida de código genético
+  o refactorización radical de código duplicado.'
 image: https://pinchito.es/2022/pics/bacterias-inyector-toxinas.jpg
 
 ---
