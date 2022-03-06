@@ -279,11 +279,11 @@ sino que probablemente aguantarán mucho más.
 Este artículo es la primera parte de la
 [serie sobre bacterias](bacterias-maquinas).
 Sigue a la
-[parte 2: Tecnología bacteriana](bacterias-tecnologia),
+[parte 2: Tecnología bacteriana](/2022/bacterias-tecnologia),
 donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
 
 * ↑ Parte 1: Y las bacterias, bonita.
-* → Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
+* → Parte 2: [Tecnología bacteriana](/2022/bacterias-tecnologia).
 <!--
 * → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
