@@ -98,6 +98,7 @@ sobre cuyas funciones todavía no hay consenso;
 ni siquiera sabemos si tienen utilidad o no
 (_spoiler alert_: casi seguro que sí).
 Más abajo veremos algunos detalles más.
+Pero vamos a ver cómo se traducen estos mecanismos a otros que seguramente serán más familiares.
 
 # Memoria
 
@@ -160,7 +161,10 @@ Por su parte, las eucariotas van de un Windows 95 a un Windows Vista, o bien de 
 El ser humano tiene algo más de información que un CD-Rom,
 y por lo tanto que la distribución de Knoppix en CD;
 y algo menos que un móvil con Android 8.
-No tenemos en cuenta todavía programas y aplicaciones.
+
+Pero esto es sólo el sistema operativo,
+sin tener en cuenta todavía programas y aplicaciones.
+¿Cuál sería su equivalente en el genoma?
 
 # Memoria interna
 
@@ -181,7 +185,13 @@ pueden hacer que se expresen ciertos genes y se supriman otros.
 Esto se consigue de varias formas,
 entre ellas marcando químicamente partes del genoma (con grupos metilo).
 
+Toda esta información está dentro de la "memoria de trabajo" de una célula.
+Es así como la célula se adapta al medio en el que trabaja.
+
 ## Memorias externas
+
+¿Hay alguna posibilidad de acceder a más memoria en una célula?
+Por supuesto, hay varios mecanismos bastante sofisticados.
 
 Las bacterias pueden también recibir genes externos a través de virus:
 los bacteriófagos pueden funcionar
@@ -204,7 +214,8 @@ Estos virus servirían pues como discos duros externos:
 se guardan un gen que luego pueden aportar si se deteriora el gen original.
 O incluso servir de librería genética en un momento dado.
 Podemos imaginar este mecanismo como un tipo de _backup_ en la nube.
-Lo que está claro es que hay mucho que investigar en este campo.
+Todavía hay mucho que investigar en este campo,
+y seguro que nos tienen guardadas muchas sorpresas.
 
 ## Red de redes
 
@@ -212,7 +223,8 @@ Hablando de la nube,
 ¿se comunican unas bacterias con otras?
 ¿Pueden intercambiar genes directamente?
 
-Existen mecanismos como los priones
+Existen mecanismos como los
+[priones](https://en.wikipedia.org/wiki/Prion)
 que permiten compartir estos cambios rápidamente entre una población entera de bacterias.
 Se trata de unas proteinas que cambian de forma al entrar en contacto con la forma modificada.
 La enfermedad de las vacas locas (encefalopatía espongiforme bovina)
