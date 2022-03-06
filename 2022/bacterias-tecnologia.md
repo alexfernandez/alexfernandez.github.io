@@ -20,6 +20,9 @@ al estudiar la sofisticada tecnología que son capaces de desplegar.
 
 # La estructura del ADN
 
+Vamos a empezar con una historia fundacional digna de una superheroína como
+[Rosalind Franklin](https://en.wikipedia.org/wiki/Rosalind_Franklin).
+
 Corría el año 1953.
 Varios laboratorios a ambos lados del Atlántico intentaban craquear el código genético.
 El ácido desoxirribonucleico (ADN, o DNA en inglés)
@@ -33,28 +36,36 @@ Watson y Crick por su parte estaban sentando las
 Por caminos oscuros obtuvieron el trabajo de Franklin,
 el más avanzado de la época,
 y lo usaron para descifrar la doble hélice.
-
-Franklin murió en 1958 de cáncer de ovarios,
-posiblemente provocado por
-[su trabajo con rayos X](https://blogs.scientificamerican.com/observations/rosalind-franklin-and-dna-how-wronged-was-she/).
-Watson, Crick y Wilkins,
+Como resultado Watson, Crick y Wilkins,
 éste último compañero de Franklin, recibieron
 [el premio Nobel de medicina en 1962](https://www.nobelprize.org/prizes/medicine/1962/summary/).
+Por su parte, Franklin murió en 1958 de cáncer de ovarios,
+posiblemente provocado por
+[su trabajo con rayos X](https://blogs.scientificamerican.com/observations/rosalind-franklin-and-dna-how-wronged-was-she/).
 
 ![Descubridores de la estructura del ADN: Watson, Crick, Wilkins y Franklin. No por orden de importancia. [Fuente](https://www.researchgate.net/publication/242012620_Ciencia_e_Tecnologia_um_Dialogo_Permanente).](pics/bacterias-watson-crick-wilkins-franklin.jpg "Fotos adjuntas de los cuatro descubridores.")
 
 Esta historia es muy susceptible de interpretarse como la de una mártir feminista heroica,
 traicionada por sus colegas sexistas que le robaron el premio Nobel;
-de hecho es la idea que yo tenía antes de investigar en más detalle.
+de hecho es la idea que yo tenía antes de escribir este artículo.
+Pero siempre es interesante seguir cavando un poco más.
 Su biógrafa Brenda Maddox
 [no está de acuerdo con esta interpretación](https://profiles.nlm.nih.gov/spotlight/kr/feature/biographical),
 y cree que debe ponerse más el foco en su brillante carrera científica.
-La realidad es que dado que el premio Nobel sólo se concede a personas vivas
+Parece que a ella personalmente sólo le preocupó el avance científico y no el reconocimiento,
+y siempre estuvo lejos de ser la figura amargada y hosca que Watson describe en
+[_The Double Helix_](https://en.wikipedia.org/wiki/The_Double_Helix).
+Pero, ¿acaso no fue una injusticia que no se le reconociera en el premio Nobel?
+La realidad es que el premio Nobel sólo se concede a personas vivas
 (salvo rarísimas excepciones),
-no había posibilidad de reconocer el trabajo de Franklin.
-Que cada cual saque sus propias conclusiones.
-Yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
+así que no había posibilidad de reconocer el trabajo de Franklin.
+Podemos ver el nombramiento de Wilkins como un reconocimiento implícito a una gran científica.
+
+Que cada cual saque sus propias conclusiones;
+yo por mi parte tengo claro que Watson y Crick no habrían descubierto nada sin Franklin,
 pero Franklin seguramente habría llegado a la doble hélice por sí sola.
+En cualquier caso este descubrimiento abrió la puerta a un mundo apasionante
+que a día de hoy sigue dándonos sorpresas.
 
 # Material genético
 
@@ -373,9 +384,11 @@ Continuará.
 Sigue a la
 [parte 3: El largo camino a la simbiosis](bacterias-simbiosis),
 donde estudiaremos el sistema inmune y sus modos de fallo.
+-->
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 1: [Y las bacterias, bonita](/2021/bacterias-bonita).
 * ↑ Parte 2: Tecnología bacteriana.
+<!--
 * → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
