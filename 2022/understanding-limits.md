@@ -14,7 +14,7 @@ After studying the most important works of
 [Albert Einstein](/2021/understanding-einstein)
 we can wonder about how well his discoveries apply to the real world.
 This road will prove quite fruitful since it can help us look at
-some of the big mysteries of the Universe under a new light.
+some of the big mysteries of the universe under a new light.
 
 ## What Is a Physical Law
 
@@ -44,28 +44,33 @@ when the temperature difference is large,
 or when there is a lot of radiative heat.
 
 It is also not terribly interesting,
-in that this law does not follow from any intrinsic principles of the Universe,
+in that this law does not follow from any intrinsic principles of the universe,
 or it does not explain any other phenomena outside cooling.
 But it can give us an idea of how things cool in simple conditions,
 as long as temperatures are low enough:
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
 
-### Newton's Eternal Views
+### Newton's Eternal World
 
 After Newton published his laws of motion
 [in 1687](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica),
 so many aspects of the world were suddenly understandable:
 from apples falling from a tree to the orbit of the Moon around the Earth,
 including interesting things like bullets penetrating sandbags.
-There were many interesting developments in Physics,
+
+Newton's vision of the world was consistent with his religious views:
+the universe would be, like God, immutable and eternal.
+Gravity would hold things together in an infinite space.
+
+After Newton there were many interesting developments in Physics,
 like the reformulation as Lagrangians, Hamiltonians
 and later physical fields;
 a proper theory of optics
 and finally the discovery of the laws of electromagnetism.
-
 But, important as they were,
 these advances were just extensions and improvements of Newton's laws.
+
 It was not until the end of the 19th century,
 200 years later,
 that his amazing building started to show cracks in the foundations.
@@ -97,6 +102,20 @@ and the same applies to electronics circuits.
 ### High Speeds and High Masses
 
 This was not all:
+Newton's laws of motion didn't hold water either for large speeds.
+The limit in this instance is clear and well defined:
+there is a maximum speed in the universe,
+and as objects get close to it their mass increases,
+making them harder to accelerate.
+This speed of light is approximately 300000 km/s,
+so relativistic effects are negligible in everyday life.
+
+The philosophical effects were devastating.
+No longer there was an eternal and immutable universe,
+even if Einstein wanted to reinstate it using his cosmological constant.
+
+The jewel of the crown was not safe either:
+Newton's law of gravitation would be the next to be demolished by Einstein.
 
 ## Limits to the New Limits
 
@@ -183,7 +202,38 @@ It is good to have a way to select just one correct alternative for MOND,
 but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
 
+### Speed of Light Unchanged
+
+There is one aspect of the new physics that has been challenged many many times
+but which seems to hold the fort:
+special relativity and its maximum speed of light.
+Every time it comes out victorious and reinforced.
+
+In 2012 a colleague at a previous job asked me what I thought about the discovery
+of a signal that travelled faster than light at CERN.
+Apparently having 99 scientists signing the paper was a guarantee of good science,
+something which I highly doubted.
+And lo and behold,
+some months later the anomaly was correctly diagnosed as a faulty computer connection.
+
+Am I so clever as to have guessed the correct option,
+or too arrogant to recognize that there might be a limit here that will prove wrong too?
+In fact there is a joke among physicists about betting against the speed of light.
+
+Special relativity applies perfectly well to quantum mechanics:
+in 1932? Paul Dirac came out with a new version of Schrödinger's wave equation.
+In fact this new Dirac's equation is much more symmetric and nicer than Schrödinger's,
+but we still use the old one at low speeds because it is simpler.
+Again it's a matter of limits.
+
+Special relativity works also well with all the latest theories,
+at least to those that work.
+
+So, as far as we know right now,
+**special relativity is the only fundamental truth**.
+But this situation might change at any point.
+
 ## Conclusion
 
-We will soon continue our trip to understanding quantum entropy.
+We will soon continue our trip to understand quantum entropy.
 
