@@ -121,31 +121,22 @@ Newton's law of gravitation would be the next to be demolished by Einstein.
 
 Does it make sense to expect that the new laws would apply universally?
 
-### Quantum Limits
-
-On the quantum front there have been many improvements
-to the original crude measurements of the atom,
-like Feynman's quantum electrodynamics
-which was essentially a quantum formulation of the classical laws of electromagnetism.
-Later came quantum chromodynamics to explain
-the terribly intense forces in the interior of the atomic nucleus.
-
-String theory was supposed to explain phenomena at smaller scales,
-and in fact it should be the foundation for quantum mechanics.
-But after many decades it has failed to show any progress in our understanding of the quantum world.
-It is not clear that we need anything beyond what quantum mechanics has to offer
-in the smallest scales.
-At the same time it would be a bit arrogant to expect this theory to be just right
-at all scales.
-Even the known limitations of the Planck length is a bit too optimistic.
-
-### Lack of Coherence
-
-But to me it is much more interesting to explore the frontiers
-between the quantum and classical worlds.
-What happens when a quantum particle becomes classical?
-
 ### Shy Singularities
+
+More than a century after its inception,
+general relativity is still incredibly successful.
+In recent years it has been validated against rival theories a couple of crucial times:
+first it was direct black hole imaging using radiotelescopes,
+and then the detection of gravitational waves
+which had been predicted by Einstein himself
+(and then recanted, but
+[that is another story](https://www.americanscientist.org/article/the-secret-history-of-gravitational-waves).
+
+But it is not perfect.
+For one thing, it predicts singularities:
+weird solutions to the field equations that break space-time,
+with an infinite slope.
+Any such predictions in any other theory would have probably been discarded.
 
 Physicists like taking everything to the extreme,
 and it makes lots of sense because it's the way to check the limits of a law.
@@ -201,6 +192,30 @@ such as being able to explain observations of the cosmic microwave background ra
 It is good to have a way to select just one correct alternative for MOND,
 but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
+
+### Quantum Limits
+
+On the quantum front there have been many improvements
+to the original crude measurements of the atom,
+like Feynman's quantum electrodynamics
+which was essentially a quantum formulation of the classical laws of electromagnetism.
+Later came quantum chromodynamics to explain
+the terribly intense forces in the interior of the atomic nucleus.
+
+String theory was supposed to explain phenomena at smaller scales,
+and in fact it should be the foundation for quantum mechanics.
+But after many decades it has failed to show any progress in our understanding of the quantum world.
+It is not clear that we need anything beyond what quantum mechanics has to offer
+in the smallest scales.
+At the same time it would be a bit arrogant to expect this theory to be just right
+at all scales.
+Even the known limitations of the Planck length is a bit too optimistic.
+
+### Lack of Coherence
+
+But to me it is much more interesting to explore the frontiers
+between the quantum and classical worlds.
+What happens when a quantum particle becomes classical?
 
 ### Speed of Light Unchanged
 
