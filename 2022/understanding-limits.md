@@ -123,9 +123,9 @@ Does it make sense to expect that the new laws would apply universally?
 
 ### Shy Singularities
 
-More than a century after its inception,
-general relativity is still incredibly successful.
-In recent years it has been validated against rival theories a couple of crucial times:
+General relativity has been really successful.
+Even today, more than a century after its inception,
+general relativity continues to be validated against rival theories:
 first it was direct black hole imaging using radiotelescopes,
 and then the detection of gravitational waves
 which had been predicted by Einstein himself
@@ -171,10 +171,11 @@ and admit that we don't know a lot about what happens beyond stellar collapses.
 There is another extreme at which general relativity is not a good fit for observations,
 and you have probably heard about it as the basis for "dark matter"
 or perhaps even "dark energy".
+In fact, Newton's gravitational law does not hold in these circumstances either.
 Gravity at large scales does not behave as we would expect it to:
 instead of being proportional to 1/r^2,
 it suddenly becomes proportional to 1/r.
-In effect it looks as if it was reaching much further than it should.
+In large galaxy clusters it looks as if it was reaching much further than it should.
 
 This is only visible at really large scales,
 bigger than our galaxy.
@@ -183,15 +184,16 @@ After their success it is no wonder that other astronomers invented
 "dark energy" when there was another anomaly in the large structure of the universe.
 
 I think it is much more reasonable to admit that
-general relativity may not apply at large scales.
+general relativity may not apply at the limit of large scales.
 There have been many attempts at creating modified gravity laws that worked at large scales,
 known collectively as MOND.
-
 The dark matter proponents have subjected all these corrections to unreasonable requirements
 such as being able to explain observations of the cosmic microwave background radiation.
-It is good to have a way to select just one correct alternative for MOND,
+
+It would be good to have a way to select just one correct alternative for MOND,
 but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
+It would be even better to have a theoretical background that predicted MOND on its own.
 
 ### Quantum Limits
 
