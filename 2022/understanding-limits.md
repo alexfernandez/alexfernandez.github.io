@@ -13,12 +13,14 @@ image: https://pinchito.es/2021/pics/understanding-einstein-portrait.jpg
 After studying the most important works of
 [Albert Einstein](/2021/understanding-einstein)
 we can wonder about how well his discoveries apply to the real world.
+Is there a limit to the application of special relativity,
+general relativity, quantum mechanics?
 This road will prove quite fruitful since it can help us look at
 some of the big mysteries of the universe under a new light.
 
-## What Is a Physical Law
+## Breaking Physical Laws
 
-Let's start with a few interesting examples of physical laws.
+Let's start with a few interesting examples of physical laws and how they break down.
 
 ### Newton's Less Famous Law
 
@@ -46,8 +48,7 @@ or when there is a lot of radiative heat.
 It is also not terribly interesting,
 in that this law does not follow from any intrinsic principles of the universe,
 or it does not explain any other phenomena outside cooling.
-But it can give us an idea of how things cool in simple conditions,
-as long as temperatures are low enough:
+But **inside its range of application** it can give us an idea of how things cool in simple conditions:
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
 
