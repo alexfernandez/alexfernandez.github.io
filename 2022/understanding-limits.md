@@ -8,7 +8,7 @@ abstract:
 image: https://pinchito.es/2022/pics/understanding-limits-car.jpg
 ---
 
-![Each physical law has its range of validity.](pics/understanding-limits-car.jpg "A car drawn by a horse. Source: https://commons.wikimedia.org/wiki/File:Horse_drawn_US_Mail_car.jpg.")
+![Pushing an invention outside of its range of validity is seldom a good strategy.](pics/understanding-limits-car.jpg "A car drawn by a horse. Source: https://commons.wikimedia.org/wiki/File:Horse_drawn_US_Mail_car.jpg.")
 
 After studying the most important works of
 [Albert Einstein](/2021/understanding-einstein)
