@@ -1,14 +1,14 @@
 ---
-title: 'Understanding the Limits of Physical Laws'
+title: '💫 Understanding the Limits of Physical Laws'
 subtitle: 'On the Road to Quantum Entropy, Part 5'
 footer: Published on 2022-03-12, modified on 2022-03-12.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Each physical law has its applicability range.
-image: https://pinchito.es/2021/pics/understanding-einstein-portrait.jpg
+image: https://pinchito.es/2022/pics/understanding-limits-car.jpg
 ---
 
-![Albert Einstein just chillin'.](pics/understanding-einstein-portrait.jpg "Albert Einstein is depicted in this photograph relaxed, with an arm folded behind his back and looking at the infinite. In the original picture Niels Bohr appears to his left. Source: https://en.wikipedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg.")
+![Each physical law has its range of validity.](pics/understanding-limits-car.jpg "A car drawn by a horse. Source: https://commons.wikimedia.org/wiki/File:Horse_drawn_US_Mail_car.jpg.")
 
 After studying the most important works of
 [Albert Einstein](/2021/understanding-einstein)
@@ -18,11 +18,11 @@ general relativity, quantum mechanics?
 This road will prove quite fruitful since it can help us look at
 some of the big mysteries of the universe under a new light.
 
-## Breaking Physical Laws
+## 🪅 Breaking Physical Laws
 
 Let's start with a few interesting examples of physical laws and how they break down.
 
-### Newton's Less Famous Law
+### 🌡️ Newton's Less Famous Law
 
 Kids at secondary school learn about Newton's laws of motion:
 three very simple principles that explain a lot of things.
