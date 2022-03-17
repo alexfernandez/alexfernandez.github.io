@@ -52,7 +52,7 @@ But **inside its range of application** it can give us an idea of how things coo
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
 
-### Newton's Eternal World
+### 🌌 Newton's Eternal World
 
 After Newton published his laws of motion
 [in 1687](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica),
@@ -79,7 +79,7 @@ Up until this point everyone assumed that Newton's laws applied to everything,
 from the smallest particles to the largest structures in the galaxy.
 Everyone was wrong.
 
-### The New Quantum World
+### ⚛️ The New Quantum World
 
 We have already seen how it was pricipally
 [the works of Albert Einstein](/2021/understanding-einstein)
@@ -100,7 +100,7 @@ but it is at some point above an atom and below a living cell.
 We now know that many of the behaviours of proteins are quantum in nature,
 and the same applies to electronics circuits.
 
-### High Speeds and High Masses
+### ⚡ High Speeds and High Masses
 
 This was not all:
 Newton's laws of motion didn't hold water either for large speeds.
@@ -118,11 +118,11 @@ even if Einstein wanted to reinstate it using his cosmological constant.
 The jewel of the crown was not safe either:
 Newton's law of gravitation would be the next to be demolished by Einstein.
 
-## Limits to the New Limits
+## 🛑 Limits to the New Limits
 
 Does it make sense to expect that the new laws would apply universally?
 
-### Shy Singularities
+### ♾️ Shy Singularities
 
 General relativity has been really successful.
 Even today, more than a century after its inception,
@@ -167,7 +167,7 @@ it is impossible to study a singularity from beyond the event horizon.
 But we should at least show some humility,
 and admit that we don't know a lot about what happens beyond stellar collapses.
 
-### Dark Matters
+### ⚫ Dark Matters
 
 There is another extreme at which general relativity is not a good fit for observations,
 and you have probably heard about it as the basis for "dark matter"
@@ -196,7 +196,7 @@ but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
 It would be even better to have a theoretical background that predicted MOND on its own.
 
-### Quantum Limits
+### 🔬 Quantum Limits
 
 On the quantum front there have been many improvements
 to the original crude measurements of the atom,
@@ -214,13 +214,13 @@ At the same time it would be a bit arrogant to expect this theory to be just rig
 at all scales.
 Even the known limitations of the Planck length is a bit too optimistic.
 
-### Lack of Coherence
+### 🔀 Decoherence
 
 But to me it is much more interesting to explore the frontiers
 between the quantum and classical worlds.
 What happens when a quantum particle becomes classical?
 
-### Speed of Light Unchanged
+### 💨 Speed of Light
 
 There is one aspect of the new physics that has been challenged many many times
 but which seems to hold the fort:
