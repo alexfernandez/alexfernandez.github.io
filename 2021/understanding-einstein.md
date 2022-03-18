@@ -233,6 +233,7 @@ First, the speed of light in a vacuum had to be defined as a constant,
 and also to be the **maximum speed possible in the universe**
 (as suspected by Epicurus).
 The weird outcomes were that:
+
 * light is a combination of electric and magnetic fields propagating in a vacuum,
 * moving objects contract in the direction of movement,
 * kinetic energy grows without limit when approaching the speed of light,

@@ -45,9 +45,9 @@ the Wikipedia article explains a few corrections
 when the temperature difference is large,
 or when there is a lot of radiative heat.
 
-It is also not terribly interesting,
-in that this law does not follow from any intrinsic principles of the universe,
-or it does not explain any other phenomena outside cooling.
+This law is also not terribly interesting,
+in that it does not follow from any intrinsic principles of the universe,
+and it does not explain any other phenomena outside cooling.
 But **inside its range of application** it can give us an idea of how things cool in simple conditions:
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
@@ -104,7 +104,7 @@ and the same applies to electronics circuits.
 
 This was not all:
 Newton's laws of motion didn't hold water either for
-[ever-increasing speeds](http://alexfernandez.local/2019/high-speeds).
+[ever-increasing speeds](/2019/high-speeds).
 The limit in this instance is clear and well defined:
 there is a maximum speed in the universe,
 and as objects get close to it their mass increases,
