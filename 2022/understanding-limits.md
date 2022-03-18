@@ -100,7 +100,7 @@ but it is at some point above an atom and below a living cell.
 We now know that many of the behaviours of proteins are quantum in nature,
 and the same applies to electronics circuits.
 
-### ⚡ High Speeds and High Masses
+### ⚡ High Speeds
 
 This was not all:
 Newton's laws of motion didn't hold water either for large speeds.
@@ -114,6 +114,8 @@ so relativistic effects are negligible in everyday life.
 The philosophical effects were devastating.
 No longer there was an eternal and immutable universe,
 even if Einstein wanted to reinstate it using his cosmological constant.
+
+### 🌞 High Masses
 
 The jewel of the crown was not safe either:
 Newton's law of gravitation would be the next to be demolished by Einstein.
