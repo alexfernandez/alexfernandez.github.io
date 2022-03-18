@@ -103,7 +103,8 @@ and the same applies to electronics circuits.
 ### ⚡ High Speeds
 
 This was not all:
-Newton's laws of motion didn't hold water either for large speeds.
+Newton's laws of motion didn't hold water either for
+[ever-increasing speeds](http://alexfernandez.local/2019/high-speeds).
 The limit in this instance is clear and well defined:
 there is a maximum speed in the universe,
 and as objects get close to it their mass increases,
