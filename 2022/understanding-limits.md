@@ -214,12 +214,6 @@ At the same time it would be a bit arrogant to expect this theory to be just rig
 at all scales.
 Even the known limitations of the Planck length is a bit too optimistic.
 
-### 🔀 Decoherence
-
-But to me it is much more interesting to explore the frontiers
-between the quantum and classical worlds.
-What happens when a quantum particle becomes classical?
-
 ### 🔦 Speed of Light
 
 There is one aspect of the new physics that has been challenged many many times
@@ -249,7 +243,13 @@ at least to those that work.
 
 So, as far as we know right now,
 **special relativity is the only fundamental truth**.
-But this situation might change at any point.
+Of course this situation might change at any point.
+
+### 🔀 Decoherence
+
+But to me it is much more interesting to explore the frontiers
+between the quantum and classical worlds.
+What happens when a quantum particle becomes classical?
 
 ## Conclusion
 
