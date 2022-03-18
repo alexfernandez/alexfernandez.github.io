@@ -217,9 +217,9 @@ Even the known limitations of the Planck length is a bit too optimistic.
 ### 🔦 Speed of Light
 
 There is one aspect of the new physics that has been challenged many many times
-but which seems to hold the fort:
-special relativity and its maximum speed of light.
-Every time it comes out victorious and reinforced.
+but which every time comes out victorious and reinforced:
+the constant speed of light,
+which is also the maximum possible speed in the universe.
 
 In 2012 a colleague at a previous job asked me what I thought about the discovery
 of a signal that travelled faster than light at CERN.
@@ -232,7 +232,7 @@ Am I so clever as to have guessed the correct option,
 or too arrogant to recognize that there might be a limit here that will prove wrong too?
 In fact there is a joke among physicists about betting against the speed of light.
 
-Special relativity applies perfectly well to quantum mechanics:
+The maximum speed of light applies perfectly well to quantum mechanics:
 in 1932? Paul Dirac came out with a new version of Schrödinger's wave equation.
 In fact this new Dirac's equation is much more symmetric and nicer than Schrödinger's,
 but we still use the old one at low speeds because it is simpler.
