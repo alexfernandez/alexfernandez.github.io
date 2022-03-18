@@ -220,7 +220,7 @@ But to me it is much more interesting to explore the frontiers
 between the quantum and classical worlds.
 What happens when a quantum particle becomes classical?
 
-### 💨 Speed of Light
+### 🔦 Speed of Light
 
 There is one aspect of the new physics that has been challenged many many times
 but which seems to hold the fort:
