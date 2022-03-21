@@ -10,29 +10,25 @@ image: https://pinchito.es/2022/pics/understanding-limits-car.jpg
 
 ![Pushing an invention outside of its range of validity is seldom a good strategy.](pics/understanding-limits-car.jpg "A car drawn by a horse. Source: https://commons.wikimedia.org/wiki/File:Horse_drawn_US_Mail_car.jpg.")
 
-After studying the most important works of
+The most important works of
 [Albert Einstein](/2021/understanding-einstein)
-we can wonder about how well his discoveries apply to the real world.
-Is there a limit to the application of special relativity,
-general relativity, quantum mechanics?
-This road will prove quite fruitful since it can help us look at
-some of the big mysteries of the universe under a new light.
+happened when classical laws were showing their limits,
+and gave birth to 20th century theories:
+special relativity, general relativity, quantum mechanics.
 
-## 🪅 Breaking Physical Laws
+After more than a century of development,
+have we also reached the limits for these new theories?
 
-Let's start with a few interesting examples of physical laws and how they break down.
+## 🪅 Breaking Classical Laws
+
+Let us look at some classical laws and how they broke down.
 
 ### 🌡️ Newton's Less Famous Law
 
-Kids at secondary school learn about Newton's laws of motion:
-three very simple principles that explain a lot of things.
-But let us first look at another, simpler law.
-
-Newton also studied many other things;
-and in fact his eponymous law was about the speed with which objects cool,
-also known as
-[Newton's law of cooling](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling).
-It states that:
+Newton studied many things during his lifetime.
+[Newton's law of cooling](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling),
+studies how things cooled down,
+and in modern terms it states that:
 
 > the rate at which a body cools in an environment is directly proportional
 > to the difference of temperatures between the body and the environment.
@@ -41,36 +37,47 @@ So if the outside temperature is 20 C,
 a body at 220 C will cool twice as fast as another at 120 C.
 It's simple, it's elegant,
 and it's not terribly accurate:
-the Wikipedia article explains a few corrections
-when the temperature difference is large,
+the Wikipedia article explains a few corrections when the temperature difference is large,
 or when there is a lot of radiative heat.
 
 This law is also not terribly interesting,
-in that it does not follow from any intrinsic principles of the universe,
-and it does not explain any other phenomena outside cooling.
-But **inside its range of application** it can give us an idea of how things cool in simple conditions:
+in that it does not follow from any intrinsic principles of the universe.
+But it shows quite dramatically how it can be useful:
+**inside its range of application**,
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
 
 ### 🌌 Newton's Eternal World
 
-After Newton published his laws of motion
-[in 1687](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica),
+Let's move on to more substantial matters.
+Kids at secondary school learn about
+[Newton's laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion),
+three very simple principles:
+
+* objects in motion remain in motion when no forces are applied,
+* when a force is applied on an object it will feel an acceleration inversely proportional to its mass,
+* for every force applied there is an equal and opposite reaction.
+
+Together with
+[his law of universal gravitation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation),
+they explain a lot of things.
+After Newton published his
+[_Principia mathematica_ in 1687](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica),
 so many aspects of the world were suddenly understandable:
 from apples falling from a tree to the orbit of the Moon around the Earth,
-including interesting things like bullets penetrating sandbags.
+including interesting things like bullets penetrating into sandbags.
 
 Newton's vision of the world was consistent with his religious views:
 the universe would be, like God, immutable and eternal.
 Gravity would hold things together in an infinite space.
 
-After Newton there were many interesting developments in Physics,
-like the reformulation as Lagrangians, Hamiltonians
+After Newton there were many interesting developments in Physics:
+the reformulation as Lagrangians, Hamiltonians
 and later physical fields;
-a proper theory of optics
+a proper theory of optics,
 and finally the discovery of the laws of electromagnetism.
 But, important as they were,
-these advances were just extensions and improvements of Newton's laws.
+these advances were fully compatible with Newton's world view.
 
 It was not until the end of the 19th century,
 200 years later,
@@ -81,45 +88,71 @@ Everyone was wrong.
 
 ### ⚛️ The New Quantum World
 
-We have already seen how it was pricipally
-[the works of Albert Einstein](/2021/understanding-einstein)
-that created new laws where Newton's broke down,
-along with a few pioneers.
+We have already seen how
+[the works of Albert Einstein](/2021/understanding-einstein),
+were instrumental in creating new laws where the classical world broke down,
+along with many other brave pioneers.
 
 In the smallest scales Einstein assumed that light was made of little particles called photons,
 which carried an amount of energy proportional to their wavelength;
 something that could not be derived from classical electromagnetism.
 Later advances in
-[quantume mechanics](/2021/understanding-quantum-mechanics)
+[quantum mechanics](/2021/understanding-quantum-mechanics)
 would give a very different picture from Newton's,
 with particles behaving like waves
-and going across potential wells that would scare their bigger cousins.
+and crossing impossible potential wells in mysterious ways.
 
 The limit for classical behaviour is not entirely clear,
-but it is at some point above an atom and below a living cell.
+but at some point above an atom and below a living cell we need to use quantum mechanics.
 We now know that many of the behaviours of proteins are quantum in nature,
 and the same applies to electronics circuits.
+Our modern world is literally shaped by our knowledge of quantum mechanics.
 
 ### ⚡ High Speeds
 
 This was not all:
 Newton's laws of motion didn't hold water either for
 [ever-increasing speeds](/2019/high-speeds).
-The limit in this instance is clear and well defined:
-there is a maximum speed in the universe,
-and as objects get close to it their mass increases,
+We have already seen how
+[Einstein came up with relativity](/2021/understanding-einstein)
+based on the fundamental idea that the speed of light was the maximum possible speed in the universe.
+This set a clear and well defined validity limit for classical physics:
+as objects get close to it their mass increases,
 making them harder to accelerate.
-This speed of light is approximately 300000 km/s,
-so relativistic effects are negligible in everyday life.
 
-The philosophical effects were devastating.
-No longer there was an eternal and immutable universe,
-even if Einstein wanted to reinstate it using his cosmological constant.
+Since the speed of light is approximately 300000 km/s,
+relativistic effects are negligible in everyday life.
+But they are relevant for
+[GPS satellites](https://physicscentral.com/explore/writers/will.cfm)
+since they move at 4 km/s,
+and would result in huge inaccuracies if they were not taken into account.
+Relativistic equations have been proven correct
+time and time again,
+and play a huge part in accelerators where particles can achieve
+[99.9999991% of the speed of light](https://www.symmetrymagazine.org/article/inside-the-large-hadron-collider).
 
 ### 🌞 High Masses
 
 The jewel of the crown was not safe either:
 Newton's law of gravitation would be the next to be demolished by Einstein.
+Successful as it was to predict from the fall of an apple to the orbit of the Moon,
+it reached the limits of its application even within the solar system,
+since nobody had been able to explain
+[the precession of Mercury](https://en.wikipedia.org/wiki/Tests_of_general_relativity).
+
+Einstein created his
+[general relativity](https://en.wikipedia.org/wiki/Theory_of_general_relativity)
+considering that gravity was indistinguishable from any other acceleration.
+The consequences were really interesting:
+even light had to bend around massive objects.
+
+The philosophical effects were devastating.
+No longer there was an eternal and immutable universe,
+even if Einstein wanted to reinstate it using his cosmological constant.
+
+Interestingly, GPS satellites also have
+[corrections for general relativity](https://physicscentral.com/explore/writers/will.cfm)
+since they feel less gravity than we do on Earth.
 
 ## 🛑 Limits to the New Limits
 
