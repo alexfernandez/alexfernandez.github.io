@@ -102,6 +102,8 @@ We have already seen how
 were instrumental in creating new laws where the classical world broke down,
 along with many other brave pioneers.
 
+![New Physics in a picture.](pics/understanding-limits-physicists.jpg "The Solvay conference of 1927, attendants: Marie Curie, Albert Einstein, Niels Bohr, and basically everyone else. Source: https://es.m.wikipedia.org/wiki/Archivo:Solvay_conference_1927.jpg.")
+
 In the smallest scales Einstein assumed that light was made of little particles called photons,
 which carried an amount of energy proportional to their wavelength;
 something that could not be derived from classical electromagnetism.
@@ -165,8 +167,6 @@ It was useless; the
 [Big Bang](https://en.wikipedia.org/wiki/Big_Bang)
 would soon win hearts and minds,
 with its ever-changing universe.
-
-![New Physics in a picture.](pics/understanding-limits-physicists.jpg "The Solvay conference of 1927, attendants: Marie Curie, Albert Einstein, Niels Bohr, and basically everyone else. Source: https://es.m.wikipedia.org/wiki/Archivo:Solvay_conference_1927.jpg.")
 
 ## 🛑 Limits to the New Limits
 
