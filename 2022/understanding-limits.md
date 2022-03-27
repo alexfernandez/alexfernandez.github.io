@@ -166,12 +166,6 @@ It was useless; the
 would soon win hearts and minds,
 with its ever-changing universe.
 
-Many proofs would soon start coming of general relativity,
-which has stood the test of time for more than a century now.
-Interestingly, GPS satellites also have
-[corrections for general relativity](https://physicscentral.com/explore/writers/will.cfm)
-since they feel less gravity than we do on Earth.
-
 ![New Physics in a picture.](pics/understanding-limits-physicists.jpg "The Solvay conference of 1927, attendants: Marie Curie, Albert Einstein, Niels Bohr, and basically everyone else. Source: https://es.m.wikipedia.org/wiki/Archivo:Solvay_conference_1927.jpg.")
 
 ## 🛑 Limits to the New Limits
@@ -182,12 +176,15 @@ Does it make sense to expect that the new laws would apply universally?
 
 General relativity has been really successful.
 Even today, more than a century after its inception,
-general relativity continues to be validated against rival theories:
-first it was direct black hole imaging using radiotelescopes,
+general relativity continues to be validated against rival theories.
+GPS satellites have
+[corrections for general relativity](https://physicscentral.com/explore/writers/will.cfm)
+since they feel less gravity than we do on Earth.
+In the past few years we have seen black hole imaging using radiotelescopes,
 and then the detection of gravitational waves
 which had been predicted by Einstein himself
 (and then recanted, but
-[that is another story](https://www.americanscientist.org/article/the-secret-history-of-gravitational-waves).
+[that is a story for another time](https://www.americanscientist.org/article/the-secret-history-of-gravitational-waves)).
 
 But it is not perfect.
 For one thing, it predicts singularities:
