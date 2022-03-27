@@ -23,9 +23,8 @@ A short dive into the applicability of modern physics
 will bring us clues that may help us understand black holes,
 dark matter and some other theories about poorly illuminated things.
 
-## 🪅 Breaking Classical Laws
+## 🔨 How to Break a Classical Law
 
-Let us look at how to break a classical law.
 We will start with an easy example.
 
 ### 🌡️ Newton's Less Famous Law
