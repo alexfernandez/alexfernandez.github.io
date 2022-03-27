@@ -21,11 +21,12 @@ After more than a century of development,
 have we also reached the limits for these new theories?
 A short dive into the applicability of modern physics
 will bring us clues that may help us understand black holes,
-dark matter and some other particularly poorly illuminated theories.
+dark matter and some other theories about poorly illuminated things.
 
 ## 🪅 Breaking Classical Laws
 
-Let us look at some classical laws and how they broke down.
+Let us look at how to break a classical law.
+We will start with an easy example.
 
 ### 🌡️ Newton's Less Famous Law
 
