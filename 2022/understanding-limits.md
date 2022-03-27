@@ -187,22 +187,19 @@ which had been predicted by Einstein himself
 [that is a story for another time](https://www.americanscientist.org/article/the-secret-history-of-gravitational-waves)).
 
 But general relativity is not perfect.
-For one thing, it predicts singularities:
-weird solutions to the field equations that break space-time,
-with an infinite slope.
-Any such predictions in any other theory would have probably been discarded.
-
 Physicists like taking everything to the extreme,
 and it makes lots of sense because it's the way to check the limits of a law.
 But sometimes they forget that every law has limits.
 
-When Schwarzchild started looking for weird solutions to general relativity
-he found that there was a point at which light could not escape any longer.
-But also there were these weird solutions that broke space-time:
+When physicists started looking for interesting solutions to the equations of general relativity
+they found that there was a point at which light could not escape any longer.
+These weird solutions [broke space-time](https://en.wikipedia.org/wiki/Black_hole#General_relativity):
 the equations yielded a "singularity",
 a point where matter gathered with infinite slope.
+Any such predictions in any other theory would have probably been discarded,
+and in fact they were rejected for a long time.
 
-Roger Penrose postulated in 1969 that the universe didn't like showing a naked singularity,
+In 1969 Roger Penrose postulated that the universe didn't like showing a naked singularity,
 in what is now called
 [cosmic censorship hypothesis](https://plato.stanford.edu/entries/spacetime-singularities/#NakeSingCosmCensHypoInde);
 therefore black holes were hidden behind a
