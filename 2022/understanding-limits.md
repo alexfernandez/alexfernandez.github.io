@@ -290,14 +290,14 @@ After all, just piling up dark stuff has been particularly fruitless during the 
 
 ### 🔦 Speed of Light
 
-What about the **crown jewels of the new physics**?
+What about the **crown jewel of the new physics**?
 Special relativity has been challenged many, many times,
 but every time it comes out victorious and reinforced:
-the speed of light is still the maximum possible speed in the universe.
+no matter what we try, the speed of light is still the maximum possible speed in the universe.
 
-A little anecdote can illustrate the strength of this conviction among physicists.
-In 2012 a colleague at a previous job asked me what I thought about the discovery
-of a signal that travelled faster than light at CERN.
+A little anecdote can illustrate the strength of this conviction.
+In 2012 a colleague at a previous job asked me what I thought about the discovery of
+[a bunch of neutrinos that travelled faster than light at CERN](https://en.wikipedia.org/wiki/Faster-than-light_neutrino_anomaly).
 Apparently having 99 scientists signing the paper was a guarantee of good science,
 something which I highly doubted.
 I was of course not alone in this intuition,
