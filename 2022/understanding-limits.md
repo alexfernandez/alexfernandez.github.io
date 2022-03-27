@@ -241,10 +241,18 @@ Gravity at large scales does not behave as we would expect it to:
 instead of being proportional to 1/r²,
 it suddenly becomes proportional to 1/r.
 In large galaxy clusters gravity just reaches much further than it should.
+This effect is only noticeable at really large scales,
+at least the size of our galaxy.
 
-This is only visible at really large scales,
-bigger than our galaxy.
-Astronomers invented "dark matter" to make up for the lack of stuff.
+It looks as if galaxies should contain more matter than what we see.
+In a display of imagination astronomers invented
+["dark matter"](https://en.wikipedia.org/wiki/Dark_matter) to make up for the lack of stuff:
+matter which cannot be seen but yet is there to pull things together.
+The problem was only magnified when we looked at gravity at even bigger scales,
+to the point where scientists had to postulate more dark than visible matter in any given galaxy.
+
+![Dark matter in the Milky Way, artist's impression.](pics/understanding-limits-dark-matter.png "A black patch of dark matter, which cannot be seen, and is therefore just black. Source: the author.")
+
 After their success it is no wonder that other astronomers invented
 "dark energy" when there was another anomaly in the large structure of the universe.
 
