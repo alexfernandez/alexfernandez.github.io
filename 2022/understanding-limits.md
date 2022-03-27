@@ -232,6 +232,35 @@ but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
 It would be even better to have a theoretical background that predicted MOND on its own.
 
+### 🔦 Speed of Light
+
+There is one aspect of the new physics that has been challenged many many times
+but which every time comes out victorious and reinforced:
+the constant speed of light,
+which is also the maximum possible speed in the universe.
+
+A little anecdote can illustrate the strength of this conviction among physicists.
+In 2012 a colleague at a previous job asked me what I thought about the discovery
+of a signal that travelled faster than light at CERN.
+Apparently having 99 scientists signing the paper was a guarantee of good science,
+something which I highly doubted.
+I was of course not alone in this intuition,
+nor especially prescient;
+special relativity is just the safest bet.
+And lo and behold,
+some months later the anomaly was correctly diagnosed as a faulty computer connection.
+
+Am I so clever as to have guessed the correct option,
+or too arrogant to recognize that there might be a limit here that will prove wrong too?
+In fact there is a joke among physicists about betting against the speed of light.
+
+Special relativity works also well with all the latest theories,
+at least to those that work.
+So, as far as we know right now,
+**special relativity is the only fundamental truth**.
+But only because it has been adapted to changing conditions.
+Of course this situation might change at any point.
+
 ### 🔬 Quantum Limits
 
 On the quantum front there have been many improvements
@@ -241,6 +270,13 @@ which was essentially a quantum formulation of the classical laws of electromagn
 Later came quantum chromodynamics to explain
 the terribly intense forces in the interior of the atomic nucleus.
 
+The maximum speed of light applies perfectly well to quantum mechanics:
+in 1928 Paul Dirac came out with a
+[relativistic version of Schrödinger's wave equation](https://en.wikipedia.org/wiki/Dirac_equation).
+In fact this new Dirac's equation is much more symmetric and nicer than Schrödinger's,
+but we still use the old one at low speeds because it is simpler.
+Again it's a matter of limits.
+
 String theory was supposed to explain phenomena at smaller scales,
 and in fact it should be the foundation for quantum mechanics.
 But after many decades it has failed to show any progress in our understanding of the quantum world.
@@ -249,37 +285,6 @@ in the smallest scales.
 At the same time it would be a bit arrogant to expect this theory to be just right
 at all scales.
 Even the known limitations of the Planck length is a bit too optimistic.
-
-### 🔦 Speed of Light
-
-There is one aspect of the new physics that has been challenged many many times
-but which every time comes out victorious and reinforced:
-the constant speed of light,
-which is also the maximum possible speed in the universe.
-
-In 2012 a colleague at a previous job asked me what I thought about the discovery
-of a signal that travelled faster than light at CERN.
-Apparently having 99 scientists signing the paper was a guarantee of good science,
-something which I highly doubted.
-And lo and behold,
-some months later the anomaly was correctly diagnosed as a faulty computer connection.
-
-Am I so clever as to have guessed the correct option,
-or too arrogant to recognize that there might be a limit here that will prove wrong too?
-In fact there is a joke among physicists about betting against the speed of light.
-
-The maximum speed of light applies perfectly well to quantum mechanics:
-in 1932? Paul Dirac came out with a new version of Schrödinger's wave equation.
-In fact this new Dirac's equation is much more symmetric and nicer than Schrödinger's,
-but we still use the old one at low speeds because it is simpler.
-Again it's a matter of limits.
-
-Special relativity works also well with all the latest theories,
-at least to those that work.
-
-So, as far as we know right now,
-**special relativity is the only fundamental truth**.
-Of course this situation might change at any point.
 
 ### 🔀 Decoherence
 
