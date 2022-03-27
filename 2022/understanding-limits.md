@@ -30,8 +30,8 @@ We will start with an easy example.
 ### 🌡️ Newton's Less Famous Law
 
 Newton studied many things during his lifetime.
-[Newton's law of cooling](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling),
-studies how things cooled down,
+[Newton's law of cooling](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling)
+appropriately studies how stuff cools down,
 and in modern terms it states that:
 
 > the rate at which a body cools in an environment is directly proportional
