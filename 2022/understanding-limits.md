@@ -312,7 +312,7 @@ In fact there is a joke among physicists about
 [betting against the speed of light](https://phys.org/news/2011-09-einstein-venture.html).
 
 Special relativity works also well with all the latest theories,
-at least to those that work.
+at least with those that work.
 So, as far as we know right now,
 **special relativity is the only fundamental truth**.
 But only because it has been adapted to changing conditions.
