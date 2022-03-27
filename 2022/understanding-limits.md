@@ -5,6 +5,7 @@ footer: Published on 2022-03-12, modified on 2022-03-12.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Each physical law has its applicability range.
+  Black holes and dark matter may just be signs of overstretched theories.
 image: https://pinchito.es/2022/pics/understanding-limits-car.jpg
 ---
 
@@ -18,6 +19,9 @@ special relativity, general relativity, quantum mechanics.
 
 After more than a century of development,
 have we also reached the limits for these new theories?
+A short dive into the applicability of modern physics
+will bring us clues that may help us understand black holes,
+dark matter and some other particularly poorly illuminated theories.
 
 ## 🪅 Breaking Classical Laws
 
@@ -158,6 +162,8 @@ since they feel less gravity than we do on Earth.
 
 Does it make sense to expect that the new laws would apply universally?
 
+![New Physics in a picture.](pics/understanding-limits-physicists.jpg "The Solvay conference of 1927, attendants: Marie Curie, Albert Einstein, Niels Bohr, and basically everyone else. Source: https://es.m.wikipedia.org/wiki/Archivo:Solvay_conference_1927.jpg.")
+
 ### ♾️ Shy Singularities
 
 General relativity has been really successful.
@@ -185,10 +191,17 @@ But also there were these weird solutions that broke space-time:
 the equations yielded a "singularity",
 a point where matter gathered with infinite slope.
 
-X postulated that the universe didn't like showing a naked singularity,
-and thus they were hidden behind a Schwarzchild horizon.
-We have been so lucky to be able to image a large black hole,
-or to be more precise its event horizon.
+Roger Penrose postulated in 1969 that the universe didn't like showing a naked singularity,
+in what is now called
+[cosmic censorship hypothesis](https://plato.stanford.edu/entries/spacetime-singularities/#NakeSingCosmCensHypoInde);
+therefore black holes were hidden behind a
+[Schwarzchild horizon](https://en.wikipedia.org/wiki/Schwarzschild_radius)
+into which we cannot ever look.
+In the 21st century we have been so lucky as to take a picture of a large black hole,
+or more precisely of its event horizon.
+It was exactly as predicted!
+
+![The black hole at the heart of galaxy M87.](pics/understanding-limits-black-hole.jpg "A sort of orange doughnut in a black field with several protrusions. Source: Event Horizon Telescope collaboration et al., https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history.")
 
 Does it make sense to expect that Einstein's equations will be valid all the way,
 or should we look for another theory that will be valid at these extreme concentrations of matter?
@@ -196,12 +209,18 @@ We do not know,
 and it is not terribly important since we are not going to be able to play with these tremendous forces
 any time soon.
 Furthermore, despite what films like
-[Interestellar]()
-try to show us,
+[Interestellar (2014)](https://www.imdb.com/title/tt0816692/)
+tell us,
 it is impossible to study a singularity from beyond the event horizon.
+Even
+[gravitational waves](https://en.wikipedia.org/wiki/Gravitational_wave)
+as recently detected can only tell us how black holes behaved from the outside.
 
-But we should at least show some humility,
+But we can at least show some humility,
 and admit that we don't know a lot about what happens beyond stellar collapses.
+Perhaps general relativity is not valid at all inside the black hole horizon;
+it is very possible that in that last bit some other exotic theory of matter may take over
+and avoid the singularity.
 
 ### ⚫ Dark Matters
 
@@ -234,10 +253,10 @@ It would be even better to have a theoretical background that predicted MOND on 
 
 ### 🔦 Speed of Light
 
-There is one aspect of the new physics that has been challenged many many times
-but which every time comes out victorious and reinforced:
-the constant speed of light,
-which is also the maximum possible speed in the universe.
+What about the **crown jewels of the new physics**?
+Special relativity has been challenged many, many times,
+but every time it comes out victorious and reinforced:
+the speed of light is still the maximum possible speed in the universe.
 
 A little anecdote can illustrate the strength of this conviction among physicists.
 In 2012 a colleague at a previous job asked me what I thought about the discovery
@@ -259,7 +278,8 @@ at least to those that work.
 So, as far as we know right now,
 **special relativity is the only fundamental truth**.
 But only because it has been adapted to changing conditions.
-Of course this situation might change at any point.
+Of course this situation might change at any point;
+such are the mysterious ways of science.
 
 ### 🔬 Quantum Limits
 
@@ -292,7 +312,16 @@ But to me it is much more interesting to explore the frontiers
 between the quantum and classical worlds.
 What happens when a quantum particle becomes classical?
 
+This is exactly what Feynman and other great physicists were
+[thinking about during the 50s](https://arxiv.org/pdf/0804.3348.pdf).
+It lies at the heart of
+[quantum decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence),
+which hasn't given all of its secrets away yet.
+But it is a long story for another moment.
+
 ## Conclusion
 
+Black holes are often referred to as singularities,
+which is just an extrapolation of our current knowledge with no basis in experiment.
 We will soon continue our trip to understand quantum entropy.
 
