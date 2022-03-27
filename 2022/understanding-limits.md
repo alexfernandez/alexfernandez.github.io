@@ -58,7 +58,7 @@ as an instruction manual.
 
 ### 🌌 Newton's Eternal World
 
-Let's move on to more substantial matters.
+Let's move on to more substantial matters (pun intended?).
 Kids at secondary school learn about
 [Newton's laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion),
 three very simple principles:
@@ -112,7 +112,8 @@ with particles behaving like waves
 and crossing impossible potential wells in mysterious ways.
 
 The limit for classical behaviour is not entirely clear,
-but at some point above an atom and below a living cell we need to use quantum mechanics.
+but at some point bigger than an atom yet smaller than a living cell we need to use quantum mechanics,
+or equations don't work.
 We now know that many of the behaviours of proteins are quantum in nature,
 and the same applies to electronics circuits.
 Our modern world is literally shaped by our knowledge of quantum mechanics.
