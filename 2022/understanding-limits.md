@@ -324,16 +324,17 @@ such are the mysterious ways of science.
 On the quantum front there have been many improvements
 to the original crude measurements of the atom,
 like Feynman's [quantum electrodynamics](https://en.wikipedia.org/wiki/Quantum_electrodynamics):
-essentially a quantum formulation of the classical laws of electromagnetism.
-Later came quantum chromodynamics to explain
-the terribly intense forces in the interior of the atomic nucleus.
+essentially a quantum reformulation of the classical laws of electromagnetism.
+Later came
+[quantum chromodynamics](https://en.wikipedia.org/wiki/Quantum_chromodynamics)
+to explain the terribly intense forces in the interior of the atomic nucleus.
 
 The maximum speed of light applies perfectly well to quantum mechanics:
 in 1928 Paul Dirac came out with a
 [relativistic version of Schrödinger's wave equation](https://en.wikipedia.org/wiki/Dirac_equation).
 In fact this new Dirac's equation is much more symmetric and nicer than Schrödinger's,
 but we still use the old one at low speeds because it is simpler.
-Again it's a matter of limits.
+As usual, it is just a matter of limits.
 
 String theory was supposed to explain phenomena at smaller scales,
 and in fact it should be the foundation for quantum mechanics.
