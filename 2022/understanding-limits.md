@@ -228,6 +228,8 @@ and admit that we don't know a lot about what happens beyond giant stellar colla
 Perhaps general relativity is not valid at all inside the black hole horizon;
 it is very possible that in that last bit some other exotic theory of matter may take over
 and avoid the singularity.
+This possibility is however seldom mentioned at all,
+perhaps because black holes are just more flashy.
 
 ### ⚫ Dark Matters
 
