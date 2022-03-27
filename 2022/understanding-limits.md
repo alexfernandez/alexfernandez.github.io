@@ -253,20 +253,40 @@ to the point where scientists had to postulate more dark than visible matter in 
 
 ![Dark matter in the Milky Way, artist's impression.](pics/understanding-limits-dark-matter.png "A black patch of dark matter, which cannot be seen, and is therefore just black. Source: the author.")
 
+The
+[Wikipedia article](https://en.wikipedia.org/wiki/Dark_matter)
+is a wonderful mess of justifications for this "theory",
+which in essence is just:
+
+> we cannot find what should be there so we postulate that there is this other stuff
+> which serves the same purpose.
+
+It is highly reminiscent of the
+[epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle)
+invented by Ptolemaios to explain how planets orbited the Earth (and not the Sun).
+
 After their success it is no wonder that other astronomers invented
-"dark energy" when there was another anomaly in the large structure of the universe.
+["dark energy"](https://en.wikipedia.org/wiki/Dark_energy)
+when there was another anomaly in the large structure of the universe.
 
 I think it is much more reasonable to admit that
 general relativity may not apply at the limit of large scales.
 There have been many attempts at creating modified gravity laws that worked at large scales,
-known collectively as MOND.
+known collectively as
+[MOND](https://en.wikipedia.org/wiki/Modified_Newtonian_dynamics).
 The dark matter proponents have subjected all these corrections to unreasonable requirements
-such as being able to explain observations of the cosmic microwave background radiation.
+such as being able to
+[explain observations of the cosmic microwave background radiation](https://www.discovermagazine.com/the-sciences/does-the-universe-need-dark-matter-to-form-galaxies-a-controversial-model).
+Which
+[they did anyway](https://phys.org/news/2021-10-mond-theory-account-cosmic-microwave.html).
 
 It would be good to have a way to select just one correct alternative for MOND,
 but it would not necessarily teach us anything new about our universe
 beyond a nice correct formula.
-It would be even better to have a theoretical background that predicted MOND on its own.
+But the most interesting aspect of a new theory is always
+that it can **open the door to new discoveries**;
+what strange force is there lying around that can generate corrections to gravity as we know it?
+After all, just piling up dark stuff has been particularly fruitless during the last few decades.
 
 ### 🔦 Speed of Light
 
