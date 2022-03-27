@@ -314,7 +314,7 @@ In fact there is a joke among physicists about
 Special relativity works also well with all the latest theories,
 at least with those that work.
 So, as far as we know right now,
-**special relativity is the only fundamental truth**.
+**special relativity is a fundamental truth**.
 But only because it has been adapted to changing conditions.
 Of course this situation might change at any point;
 such are the mysterious ways of science.
