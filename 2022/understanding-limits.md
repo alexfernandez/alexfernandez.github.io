@@ -190,14 +190,13 @@ But general relativity is not perfect.
 Physicists like taking everything to the extreme,
 and it makes lots of sense because it's the way to check the limits of a law.
 But sometimes they forget that every law has limits.
-
-When physicists started looking for interesting solutions to the equations of general relativity
+When people started looking for interesting solutions to the equations of general relativity
 they found that there was a point at which light could not escape any longer.
 These weird solutions [broke space-time](https://en.wikipedia.org/wiki/Black_hole#General_relativity):
 the equations yielded a "singularity",
 a point where matter gathered with infinite slope.
-Any such predictions in any other theory would have probably been discarded,
-and in fact they were rejected for a long time.
+Any such predictions in any other theory would have probably been discarded;
+in general relativity they were just the start of a fruitful discussion.
 
 In 1969 Roger Penrose postulated that the universe didn't like showing a naked singularity,
 in what is now called
