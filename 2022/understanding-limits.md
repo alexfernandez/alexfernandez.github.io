@@ -156,11 +156,18 @@ Einstein created his
 considering that gravity was indistinguishable from any other acceleration.
 The consequences were really interesting:
 even light had to bend around massive objects.
-
 The philosophical effects were devastating.
-No longer there was an eternal and immutable universe,
-even if Einstein wanted to reinstate it using his cosmological constant.
+No longer there was an eternal and immutable universe.
+At some point Einstein wanted to reinstate this nice static picture using the cosmological constant,
+in what he called
+[his biggest blunder](https://physicstoday.scitation.org/do/10.1063/PT.6.3.20181030a/full/).
+It was useless; the
+[Big Bang](https://en.wikipedia.org/wiki/Big_Bang)
+would soon win hearts and minds,
+with its ever-changing universe.
 
+Many proofs would soon start coming of general relativity,
+which has stood the test of time for more than a century now.
 Interestingly, GPS satellites also have
 [corrections for general relativity](https://physicscentral.com/explore/writers/will.cfm)
 since they feel less gravity than we do on Earth.
