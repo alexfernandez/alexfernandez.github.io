@@ -144,7 +144,7 @@ and play a huge part in accelerators where particles can achieve
 
 ### 🌞 High Masses
 
-The jewel of the crown was not safe either:
+The jewel of the old crown was not safe either:
 Newton's law of gravitation would be the next to be demolished by Einstein.
 Successful as it was to predict from the fall of an apple to the orbit of the Moon,
 it reached the limits of its application even within the solar system,
