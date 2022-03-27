@@ -323,8 +323,8 @@ such are the mysterious ways of science.
 
 On the quantum front there have been many improvements
 to the original crude measurements of the atom,
-like Feynman's quantum electrodynamics
-which was essentially a quantum formulation of the classical laws of electromagnetism.
+like Feynman's [quantum electrodynamics](https://en.wikipedia.org/wiki/Quantum_electrodynamics):
+essentially a quantum formulation of the classical laws of electromagnetism.
 Later came quantum chromodynamics to explain
 the terribly intense forces in the interior of the atomic nucleus.
 
