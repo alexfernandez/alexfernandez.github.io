@@ -146,7 +146,7 @@ and play a huge part in accelerators where particles can achieve
 
 The jewel of the old crown was not safe either:
 Newton's law of gravitation would be the next to be demolished by Einstein.
-Successful as it was to predict from the fall of an apple to the orbit of the Moon,
+As successful as it had been to predict everything from the fall of an apple to the orbit of the Moon,
 it reached the limits of its application even within the solar system,
 since nobody had been able to explain
 [the precession of Mercury](https://en.wikipedia.org/wiki/Tests_of_general_relativity).
