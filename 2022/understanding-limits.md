@@ -238,9 +238,9 @@ and you have probably heard about it as the basis for "dark matter"
 or perhaps even "dark energy".
 In fact, Newton's gravitational law does not hold in these circumstances either.
 Gravity at large scales does not behave as we would expect it to:
-instead of being proportional to 1/r^2,
+instead of being proportional to 1/r²,
 it suddenly becomes proportional to 1/r.
-In large galaxy clusters it looks as if it was reaching much further than it should.
+In large galaxy clusters gravity just reaches much further than it should.
 
 This is only visible at really large scales,
 bigger than our galaxy.
