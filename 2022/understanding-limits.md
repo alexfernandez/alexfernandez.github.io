@@ -50,6 +50,11 @@ But it shows quite dramatically how it can be useful:
 **inside its range of application**,
 the temperature of a cooling object will converge to that of its environment
 following an exponential decrease.
+Outside this range the law is useless.
+
+The most important lesson that we can extract from this example is of humility:
+laws should always come with application ranges,
+as an instruction manual.
 
 ### 🌌 Newton's Eternal World
 
