@@ -127,8 +127,9 @@ We have already seen how
 [Einstein came up with relativity](/2021/understanding-einstein)
 based on the fundamental idea that the speed of light was the maximum possible speed in the universe.
 This set a clear and well defined validity limit for classical physics:
-as objects get close to it their mass increases,
-making them harder to accelerate.
+as an object gets close to this max speed its mass increases,
+making it harder to accelerate.
+It is easy to compute this correction for any speed.
 
 Since the speed of light is approximately 300000 km/s,
 relativistic effects are negligible in everyday life.
