@@ -224,7 +224,7 @@ Even
 as recently detected can only tell us how black holes behaved from the outside.
 
 But we can at least show some humility,
-and admit that we don't know a lot about what happens beyond stellar collapses.
+and admit that we don't know a lot about what happens beyond giant stellar collapses.
 Perhaps general relativity is not valid at all inside the black hole horizon;
 it is very possible that in that last bit some other exotic theory of matter may take over
 and avoid the singularity.
