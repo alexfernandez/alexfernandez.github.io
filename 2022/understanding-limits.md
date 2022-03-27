@@ -1,7 +1,7 @@
 ---
 title: '💫 Understanding the Limits of Physical Laws'
 subtitle: 'On the Road to Quantum Entropy, Part 5'
-footer: Published on 2022-03-12, modified on 2022-03-12.
+footer: Published on 2022-03-27, modified on 2022-03-27.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   Each physical law has its applicability range.
