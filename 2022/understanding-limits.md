@@ -186,7 +186,7 @@ which had been predicted by Einstein himself
 (and then recanted, but
 [that is a story for another time](https://www.americanscientist.org/article/the-secret-history-of-gravitational-waves)).
 
-But it is not perfect.
+But general relativity is not perfect.
 For one thing, it predicts singularities:
 weird solutions to the field equations that break space-time,
 with an infinite slope.
