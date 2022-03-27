@@ -300,15 +300,16 @@ In 2012 a colleague at a previous job asked me what I thought about the discover
 [a bunch of neutrinos that travelled faster than light at CERN](https://en.wikipedia.org/wiki/Faster-than-light_neutrino_anomaly).
 Apparently having 99 scientists signing the paper was a guarantee of good science,
 something which I highly doubted.
-I was of course not alone in this intuition,
-nor especially prescient;
-special relativity is just the safest bet.
 And lo and behold,
 some months later the anomaly was correctly diagnosed as a faulty computer connection.
 
 Am I so clever as to have guessed the correct option,
 or too arrogant to recognize that there might be a limit here that will prove wrong too?
-In fact there is a joke among physicists about betting against the speed of light.
+I was of course not alone in this intuition,
+nor especially prescient;
+special relativity is just the safest bet.
+In fact there is a joke among physicists about
+[betting against the speed of light](https://phys.org/news/2011-09-einstein-venture.html).
 
 Special relativity works also well with all the latest theories,
 at least to those that work.
