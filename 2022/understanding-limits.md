@@ -336,14 +336,19 @@ In fact this new Dirac's equation is much more symmetric and nicer than Schrödi
 but we still use the old one at low speeds because it is simpler.
 As usual, it is just a matter of limits.
 
-String theory was supposed to explain phenomena at smaller scales,
-and in fact it should be the foundation for quantum mechanics.
-But after many decades it has failed to show any progress in our understanding of the quantum world.
-It is not clear that we need anything beyond what quantum mechanics has to offer
-in the smallest scales.
-At the same time it would be a bit arrogant to expect this theory to be just right
-at all scales.
-Even the known limitations of the Planck length is a bit too optimistic.
+What about even smaller scales?
+The very suggestively named
+[string theory](https://en.wikipedia.org/wiki/String_theory)
+was supposed to explain phenomena beyond the atomic nucleus,
+and in fact it should be the foundation for all quantum mechanics.
+But after many decades it has failed to yield any progress in our understanding of the quantum world.
+It is not clear that we even need anything beyond what quantum mechanics has to offer at the smallest scales.
+
+At the same time it would be a bit arrogant to expect this theory to be just right at all scales.
+And in fact there is a natural limitation, embodied by
+[Planck units](https://en.wikipedia.org/wiki/Planck_units).
+I think that having clear limits is quite positive for our understanding,
+and it is a great stimulus for the search beyond quantum mechanics.
 
 ### 🔀 Decoherence
 
