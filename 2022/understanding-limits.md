@@ -344,8 +344,8 @@ and in fact it should be the foundation for all quantum mechanics.
 But after many decades it has failed to yield any progress in our understanding of the quantum world.
 It is not clear that we even need anything beyond what quantum mechanics has to offer at the smallest scales.
 
-At the same time it would be a bit arrogant to expect this theory to be just right at all scales.
-And in fact there is a natural limitation, embodied by
+At the same time it would be a bit arrogant to expect quantum mechanics to be just right at all scales.
+And in fact there is a natural limitation, as embodied by
 [Planck units](https://en.wikipedia.org/wiki/Planck_units).
 I think that having clear limits is quite positive for our understanding,
 and it is a great stimulus for the search beyond quantum mechanics.
@@ -361,11 +361,16 @@ This is exactly what Feynman and other great physicists were
 It lies at the heart of
 [quantum decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence),
 which hasn't given all of its secrets away yet.
-But it is a long story for another moment.
+But this is another long story which deserves its own article.
 
 ## Conclusion
 
-Black holes are often referred to as singularities,
+Physicists tend to stretch their laws beyond their initial range of application,
+and quite often interesting things happen in the process.
+Sometimes we just need to accept that we have no knowledge of what we are talking about.
+As an example, black holes are often referred to as singularities,
 which is just an extrapolation of our current knowledge with no basis in experiment.
+At other times we find really interesting stuff lying at the corners of our understanding.
+
 We will soon continue our trip to understand quantum entropy.
 
