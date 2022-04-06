@@ -86,5 +86,5 @@ pandoc -V linkcolor:blue -s permanent/standalone-cv.md -o permanent/cv-alex-fern
 
 git add -A
 git commit -am "Make on $date"
-#git push
+git push
 
