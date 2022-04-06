@@ -81,335 +81,335 @@
 										<p><p>
 									</header>
 																				<figure>
-<img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="Crédito: Alex Fernández" /><figcaption>Crédito: Alex Fernández</figcaption>
-</figure>
-<p>Este post es una especie de segunda parte de <a href="nodejs-rapido-como-el-rayo">Node.js: ¿rápido como el rayo?</a>. En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.</p>
-<h2 id="punto-de-partida">Punto de partida</h2>
-<p>Nuestro punto de partida es muy sencillo: el <a href="http://www.memcached.org/">memcached original</a> nos da más de 70 mil peticiones por segundo (70 krps, por <em>kilo requests per second</em>), mientras que nodecached difícilmente pasa de 30k. ¿Es posible mejorar esta situación? Vamos a intentarlo.</p>
-<p>La función a optimizar es <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js#L141"><code>readData()</code></a> en la clase <code>Connection</code>, que citamos aquí para referencia:</p>
-<pre><code>    function readData(data)
-    {
-        [...]
-        var message = data.toString();
-        var line = message.substringUpTo(&#39;\r\n&#39;);
-        var rest = message.substringFrom(&#39;\r\n&#39;);
-        var result = parser.readLine(line);
-        if (rest)
-        {   
-            [...]
-            result = parser.readLine(rest);
-        }
-        [...]
-        if (result)
-        {
-            self.socket.write(result + &#39;\r\n&#39;);
-        }   
-    }</code></pre>
-<p>Es aquí donde vamos a pasar todo el tiempo de este post. Quitando el manejo de algunas opciones, lo que hace esta función es recibir datos del socket, convertirlos en cadena, partirlos en líneas y parsearlos. El resultado del parseo se escribe en el socket y se termina. Es un código síncrono muy fácil de seguir.</p>
-<h3 id="granularidad">Granularidad</h3>
-<p>Vamos a ver primero de qué tiempos estamos hablando. Nuesta última prueba exitosa con nodecached, usando <a href="https://github.com/antirez/mc-benchmark">mc-benchmark</a>, nos dio estos resultados:</p>
-<pre><code>$ ./mc-benchmark -p 11311 -c 100 -n 100000
-====== SET ======
-  100000 requests completed in 3.82 seconds
-  100 parallel clients
-  3 bytes payload
-  keep alive: 1
+                    <img src="pics/optimizando-sockets-portada.jpg" title="Gráfica de rendimiento" alt="" /><figcaption>Crédito: Alex Fernández</figcaption>
+                    </figure>
+                    <p>Este post es una especie de segunda parte de <a href="nodejs-rapido-como-el-rayo">Node.js: ¿rápido como el rayo?</a>. En esta ocasión vamos a intentar superarnos para mejorar el rendimiento de nuestro servidor nodecached, un proyecto para hacer un clon de memcached en node.js.</p>
+                    <h2 id="punto-de-partida">Punto de partida</h2>
+                    <p>Nuestro punto de partida es muy sencillo: el <a href="http://www.memcached.org/">memcached original</a> nos da más de 70 mil peticiones por segundo (70 krps, por <em>kilo requests per second</em>), mientras que nodecached difícilmente pasa de 30k. ¿Es posible mejorar esta situación? Vamos a intentarlo.</p>
+                    <p>La función a optimizar es <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js#L141"><code>readData()</code></a> en la clase <code>Connection</code>, que citamos aquí para referencia:</p>
+                    <pre><code>    function readData(data)
+                        {
+                            [...]
+                            var message = data.toString();
+                            var line = message.substringUpTo(&#39;\r\n&#39;);
+                            var rest = message.substringFrom(&#39;\r\n&#39;);
+                            var result = parser.readLine(line);
+                            if (rest)
+                            {   
+                                [...]
+                                result = parser.readLine(rest);
+                            }
+                            [...]
+                            if (result)
+                            {
+                                self.socket.write(result + &#39;\r\n&#39;);
+                            }   
+                        }</code></pre>
+                    <p>Es aquí donde vamos a pasar todo el tiempo de este post. Quitando el manejo de algunas opciones, lo que hace esta función es recibir datos del socket, convertirlos en cadena, partirlos en líneas y parsearlos. El resultado del parseo se escribe en el socket y se termina. Es un código síncrono muy fácil de seguir.</p>
+                    <h3 id="granularidad">Granularidad</h3>
+                    <p>Vamos a ver primero de qué tiempos estamos hablando. Nuesta última prueba exitosa con nodecached, usando <a href="https://github.com/antirez/mc-benchmark">mc-benchmark</a>, nos dio estos resultados:</p>
+                    <pre><code>$ ./mc-benchmark -p 11311 -c 100 -n 100000
+                    ====== SET ======
+                      100000 requests completed in 3.82 seconds
+                      100 parallel clients
+                      3 bytes payload
+                      keep alive: 1
 
-[...]
-26205.45 requests per second
+                    [...]
+                    26205.45 requests per second
 
-====== GET ======
-  100000 requests completed in 2.99 seconds
-  100 parallel clients
-  3 bytes payload
-  keep alive: 1
+                    ====== GET ======
+                      100000 requests completed in 2.99 seconds
+                      100 parallel clients
+                      3 bytes payload
+                      keep alive: 1
 
-[...]
-33467.20 requests per second</code></pre>
-<p>Si somos capaces de responder a 26.2 krps, quiere decir que cada petición viene a tardar 1s/26.2k ~ 38 µs. 38 microsegundos suena bien, ¿no?. Para los get es aún menos: 1s/33.5k ~ 0.000029851 s ~ 30µs, o sea ¡unos 30 microsegundos!</p>
-<p>Pero esto no es nada comparado con memcached:</p>
-<pre><code>$ ./mc-benchmark -p 11215 -c 50 -n 100000
-====== SET ======
-  100016 requests completed in 1.19 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
+                    [...]
+                    33467.20 requests per second</code></pre>
+                    <p>Si somos capaces de responder a 26.2 krps, quiere decir que cada petición viene a tardar 1s/26.2k ~ 38 µs. 38 microsegundos suena bien, ¿no?. Para los get es aún menos: 1s/33.5k ~ 0.000029851 s ~ 30µs, o sea ¡unos 30 microsegundos!</p>
+                    <p>Pero esto no es nada comparado con memcached:</p>
+                    <pre><code>$ ./mc-benchmark -p 11215 -c 50 -n 100000
+                    ====== SET ======
+                      100016 requests completed in 1.19 seconds
+                      50 parallel clients
+                      3 bytes payload
+                      keep alive: 1
 
-[...]
-83906.04 requests per second
+                    [...]
+                    83906.04 requests per second
 
-====== GET ======
-  100012 requests completed in 0.95 seconds
-  50 parallel clients
-  3 bytes payload
-  keep alive: 1
+                    ====== GET ======
+                      100012 requests completed in 0.95 seconds
+                      50 parallel clients
+                      3 bytes payload
+                      keep alive: 1
 
-[...]
-105054.62 requests per second</code></pre>
-<p>Por algún motivo los resultados son ahora escandalosamente mejores que los que obtuvimos en <a href="http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/">la última ocasión</a>, lo cual nos debe llevar a una desconfianza sana hacia los resultados que podamos obtener ahora, por buenos o malos que sean. En cualquier caso, los tiempos son ahora mucho mejores: 1/105k ~ 9.5 µs, o sea menos de 10 microsegundos. Y un pelín más para get, unos 12 µs.</p>
-<p>La situación es la de la siguiente gráfica: tenemos un montón de “espacio de mejora” por delante.</p>
-<figure>
-<img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="Rendimiento inicial" /><figcaption>Rendimiento inicial</figcaption>
-</figure>
-<p>Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.</p>
-<figure>
-<img src="pics/optimizando-sockets-cpu-node.png" title="CPUs con node.js" alt="CPUs con Node.js" /><figcaption>CPUs con Node.js</figcaption>
-</figure>
-<p>Mientras que memcached es mucho más glotón y satura completamente las dos CPUs.</p>
-<figure>
-<img src="pics/optimizando-sockets-cpu-memcached.png" title="CPUs con memcached" alt="CPUs con memcached" /><figcaption>CPUs con memcached</figcaption>
-</figure>
-<h3 id="buffers-y-strings">Buffers y Strings</h3>
-<p>Uno de los consejos que aparecen bastante al optimizar node.js es evitar las conversiones de <a href="http://nodejs.org/api/buffer.html">Buffer</a> a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, ya que pueden llevar mucho tiempo. ¿Cuánto exactamente? Vamos a verlo.</p>
-<p>En nuestro código tenemos la siguiente línea en <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js"><code>lib/server.js</code></a> (en negrita):</p>
-<pre><code>    function readData(data)
-    {
-        [...]
-        var message = String(data);
-        var line = message.substringUpTo(&#39;\r\n&#39;);
-        [...]
-    }</code></pre>
-<p>Vamos a usar el temporizador de alta resolución <a href="http://nodejs.org/api/process.html#process_process_hrtime"><code>process.hrtime()</code></a> para ver el tiempo exacto que tarda esta operación:</p>
-<pre><code>        var us = process.hrtime()[1];
-        var message = String(data);
-        var diff = process.hrtime()[1] - us;
-        console.log(diff);</code></pre>
-<p>Medimos el tiempo antes y después, calculamos la diferencia y la mostramos en una traza. Al correr este código en el servidor vemos una serie interminable de números, la mayoría de los cuales ronda el 4000:</p>
-<pre><code>4106
-4114
-4036
-3988
-3984
-4029
-3980
-4394
-4408
-4404
-4239
-6351</code></pre>
-<p>Al final vemos un <em>outlier</em> de 6351, y si dejamos el código corriendo un rato mientras lanzamos peticiones con mc-benchmark podemos llegar a ver algún 896247. Dado que <code>process.hrtimer()</code> devuelve un valor en nanosegundos (ns), cada mil de éstos son un microsegundo. Así que ahora mismo estamos gastando 4 µs (de nuestro presupuesto de 30) en hacer la conversión, lo que es significativo (un 13%).</p>
-<p>Una optimización obvia es usar la función Buffer.toString().</p>
-<pre><code>        var us = process.hrtime()[1];
-        var message = data.toString();
-        var diff = process.hrtime()[1] - us;
-        console.log(diff);</code></pre>
-<p>Con esta nueva versión la traza baja un poco:</p>
-<pre><code>2302
-6249
-601792
-6994
-2452
-2338
-2333
-2316
-2208
-2258
-2395</code></pre>
-<p>De nuevo vemos un <em>outlier</em> brutal, de 0.6 ms, pero la mayoría ronda los 2.3 µs. ¿Se nota diferencia realmente con esta nueva versión? Veamos las estadísticas de mc-benchmark:</p>
-<pre><code>chenno@s110: ~/install/mc-benchmark $ ./mc-benchmark -p 11311 -c 100 -n 100000
-====== SET ======
-  100000 requests completed in 3.60 seconds
-[...]
-27785.50 requests per second
+                    [...]
+                    105054.62 requests per second</code></pre>
+                    <p>Por algún motivo los resultados son ahora escandalosamente mejores que los que obtuvimos en <a href="http://www.godtic.com/blog/2013/11/12/node-js-rapido-como-el-rayo/">la última ocasión</a>, lo cual nos debe llevar a una desconfianza sana hacia los resultados que podamos obtener ahora, por buenos o malos que sean. En cualquier caso, los tiempos son ahora mucho mejores: 1/105k ~ 9.5 µs, o sea menos de 10 microsegundos. Y un pelín más para get, unos 12 µs.</p>
+                    <p>La situación es la de la siguiente gráfica: tenemos un montón de “espacio de mejora” por delante.</p>
+                    <figure>
+                    <img src="pics/optimizando-sockets-antes.png" title="Gráfica de rendimiento inicial" alt="" /><figcaption>Rendimiento inicial</figcaption>
+                    </figure>
+                    <p>Una curiosidad: node.js no colapsa las dos CPUs de mi máquina, siempre deja parte de la CPU disponible para otras tareas.</p>
+                    <figure>
+                    <img src="pics/optimizando-sockets-cpu-node.png" title="CPUs con node.js" alt="" /><figcaption>CPUs con Node.js</figcaption>
+                    </figure>
+                    <p>Mientras que memcached es mucho más glotón y satura completamente las dos CPUs.</p>
+                    <figure>
+                    <img src="pics/optimizando-sockets-cpu-memcached.png" title="CPUs con memcached" alt="" /><figcaption>CPUs con memcached</figcaption>
+                    </figure>
+                    <h3 id="buffers-y-strings">Buffers y Strings</h3>
+                    <p>Uno de los consejos que aparecen bastante al optimizar node.js es evitar las conversiones de <a href="http://nodejs.org/api/buffer.html">Buffer</a> a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, ya que pueden llevar mucho tiempo. ¿Cuánto exactamente? Vamos a verlo.</p>
+                    <p>En nuestro código tenemos la siguiente línea en <a href="https://github.com/alexfernandez/nodecached/blob/master/lib/server.js"><code>lib/server.js</code></a> (en negrita):</p>
+                    <pre><code>    function readData(data)
+                        {
+                            [...]
+                            var message = String(data);
+                            var line = message.substringUpTo(&#39;\r\n&#39;);
+                            [...]
+                        }</code></pre>
+                    <p>Vamos a usar el temporizador de alta resolución <a href="http://nodejs.org/api/process.html#process_process_hrtime"><code>process.hrtime()</code></a> para ver el tiempo exacto que tarda esta operación:</p>
+                    <pre><code>        var us = process.hrtime()[1];
+                            var message = String(data);
+                            var diff = process.hrtime()[1] - us;
+                            console.log(diff);</code></pre>
+                    <p>Medimos el tiempo antes y después, calculamos la diferencia y la mostramos en una traza. Al correr este código en el servidor vemos una serie interminable de números, la mayoría de los cuales ronda el 4000:</p>
+                    <pre><code>4106
+                    4114
+                    4036
+                    3988
+                    3984
+                    4029
+                    3980
+                    4394
+                    4408
+                    4404
+                    4239
+                    6351</code></pre>
+                    <p>Al final vemos un <em>outlier</em> de 6351, y si dejamos el código corriendo un rato mientras lanzamos peticiones con mc-benchmark podemos llegar a ver algún 896247. Dado que <code>process.hrtimer()</code> devuelve un valor en nanosegundos (ns), cada mil de éstos son un microsegundo. Así que ahora mismo estamos gastando 4 µs (de nuestro presupuesto de 30) en hacer la conversión, lo que es significativo (un 13%).</p>
+                    <p>Una optimización obvia es usar la función Buffer.toString().</p>
+                    <pre><code>        var us = process.hrtime()[1];
+                            var message = data.toString();
+                            var diff = process.hrtime()[1] - us;
+                            console.log(diff);</code></pre>
+                    <p>Con esta nueva versión la traza baja un poco:</p>
+                    <pre><code>2302
+                    6249
+                    601792
+                    6994
+                    2452
+                    2338
+                    2333
+                    2316
+                    2208
+                    2258
+                    2395</code></pre>
+                    <p>De nuevo vemos un <em>outlier</em> brutal, de 0.6 ms, pero la mayoría ronda los 2.3 µs. ¿Se nota diferencia realmente con esta nueva versión? Veamos las estadísticas de mc-benchmark:</p>
+                    <pre><code>chenno@s110: ~/install/mc-benchmark $ ./mc-benchmark -p 11311 -c 100 -n 100000
+                    ====== SET ======
+                      100000 requests completed in 3.60 seconds
+                    [...]
+                    27785.50 requests per second
 
-====== GET ======
-  100000 requests completed in 2.83 seconds
-[...]
-35335.69 requests per second</code></pre>
-<p>Ahora hemos subido a 35 krps, lo que nos da un tiempo de 28.6 µs. Como podríamos esperar, nos hemos ahorrado casi 2 µs de procesamiento. De paso, hemos podido comprobar que las medidas de tiempo tomadas dentro de node.js son congruentes con las que tomamos desde un cliente. ¡Vamos por el buen camino!</p>
-<h2 id="optimizando-el-código">Optimizando el código</h2>
-<p>Seguramente habréis oído la famosa frase de <a href="http://c2.com/cgi/wiki?PrematureOptimization">Donald Knuth</a>:</p>
-<blockquote>
-<p>We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.</p>
-</blockquote>
-<p>En este punto no parece prematuro optimizar nuestro código, aunque la funcionalidad de nodecached no esté completa: ya tenemos un <a href="http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/">caso de uso definido y concreto</a> que podemos medir. Sólo necesitamos una cosa para optimizar con garantías: tener medidas precisas de tiempos, para poder compararlas antes y después de cada modificación y ver si realmente ganamos algo.</p>
-<h3 id="marcado-y-perfilado">Marcado y perfilado</h3>
-<p>Una vez verificado que el benchmark externo da resultados parecidos a la medición interna, podemos refinar el código de medición para que haga algo más que pintar una ristra de números. Lo que necesitamos es un perfilador, o <em>profiler</em>: algo que mida el tiempo que requieren una o más operaciones.</p>
-<p>Vamos a usar el siguiente código:</p>
-<pre><code>/**
- * Profile some piece of code.
- */
-function Profiler()
-{
-    // self-reference
-    var self = this;
+                    ====== GET ======
+                      100000 requests completed in 2.83 seconds
+                    [...]
+                    35335.69 requests per second</code></pre>
+                    <p>Ahora hemos subido a 35 krps, lo que nos da un tiempo de 28.6 µs. Como podríamos esperar, nos hemos ahorrado casi 2 µs de procesamiento. De paso, hemos podido comprobar que las medidas de tiempo tomadas dentro de node.js son congruentes con las que tomamos desde un cliente. ¡Vamos por el buen camino!</p>
+                    <h2 id="optimizando-el-código">Optimizando el código</h2>
+                    <p>Seguramente habréis oído la famosa frase de <a href="http://c2.com/cgi/wiki?PrematureOptimization">Donald Knuth</a>:</p>
+                    <blockquote>
+                    <p>We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.</p>
+                    </blockquote>
+                    <p>En este punto no parece prematuro optimizar nuestro código, aunque la funcionalidad de nodecached no esté completa: ya tenemos un <a href="http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/">caso de uso definido y concreto</a> que podemos medir. Sólo necesitamos una cosa para optimizar con garantías: tener medidas precisas de tiempos, para poder compararlas antes y después de cada modificación y ver si realmente ganamos algo.</p>
+                    <h3 id="marcado-y-perfilado">Marcado y perfilado</h3>
+                    <p>Una vez verificado que el benchmark externo da resultados parecidos a la medición interna, podemos refinar el código de medición para que haga algo más que pintar una ristra de números. Lo que necesitamos es un perfilador, o <em>profiler</em>: algo que mida el tiempo que requieren una o más operaciones.</p>
+                    <p>Vamos a usar el siguiente código:</p>
+                    <pre><code>/**
+                     * Profile some piece of code.
+                     */
+                    function Profiler()
+                    {
+                        // self-reference
+                        var self = this;
 
-    // attributes
-    var requests = 0;
-    var time = 0;
+                        // attributes
+                        var requests = 0;
+                        var time = 0;
 
-    /**
-     * Take a measurement between before and after, show results every few requests.
-     */ 
-    self.measure = function(before, after)
-    {
-        requests += 1;
-        var diff = after[1] - before[1];
-        if (after[0] &gt; before[0])
-        {
-            diff += 1000000000;
-        }
-        time += diff;
-        if (requests % 100000 === 0)
-        {
-            console.log(&#39;Requests: %s, mean time: %s µs&#39;, requests, time / requests / 1000);
-            requests = 0;
-            time = 0;
-        }
-    };
-}
-var profiler = new Profiler();</code></pre>
-<p>Lo primero que hace es crear el número de peticiones <code>requests</code> y el tiempo total <code>time</code>, y luego con cada llamada a <code>measure(before, after)</code> obtiene la diferencia de tiempos entre ambas mediciones y lo va acumulando. Cada 100k peticiones se pinta la media de tiempos en µs y se resetean los valores. El código es un pelín enrevesado porque <code>process.hrtimer()</code> devuelve una estructura con [segundos, nanosegundos] que hay que interpretar, pero todo el resto es trivial.</p>
-<p>Observa cómo creamos un solo <code>profiler</code> para todo el código, de forma que diferentes peticiones se acumulen en un único lugar.</p>
-<p>Para usarlo sólo tenemos que obtener el tiempo antes y después y llamar a <code>profiler.measure(before, after)</code>.</p>
-<pre><code>        var us = process.hrtime();
-        [...]
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Podemos arrancar el servidor y lanzarle 100k peticiones con mc-benchmark para acumular suficientes medidas:</p>
-<pre><code>$ ./mc-benchmark -p 11311 -n 100000</code></pre>
-<p>Es posible que tengamos que probar varias veces para conseguir un valor estable, pero con 100k peticiones no hay problema en quedarnos con el valor más pequeño que veamos salvo que sea un <em>outlier</em> (esté muy lejos del resto). Primero vamos a obtener una base de medida (lo que llaman los americanos una <em>baseline</em>, aunque la pronunciación en español sea desafortunada):</p>
-<pre><code>        var us = process.hrtime();
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Es decir, lo que tarda la propia medida. Mis resultados son bastante consistentes:</p>
-<pre><code>Requests: 100000, mean time: 1.03806404 µs
-Requests: 100000, mean time: 1.06449447 µs</code></pre>
-<p>Alrededor de un microsegundo tarda el propio código de medición. Por lo tanto tendremos que acordarnos siempre de quitar este microsegundo de los valores que midamos.</p>
-<h3 id="perfilando-la-conversión-de-buffer">Perfilando la conversión de Buffer</h3>
-<p>Ahora ya podemos meter el código que queramos entre el primero <code>process.hrtime()</code> y el segundo, y vamos a empezar con las conversiones de Buffer a String que hemos estado mirando:</p>
-<pre><code>        var us = process.hrtime();
-        var message = data.toString(&#39;utf8&#39;);
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>El resultado anda alrededor de los 2.25 µs, consistente con nuestras mediciones anteriores más anecdóticas.</p>
-<pre><code>Requests: 100000, mean time: 2.2132430199999997 µs
-Requests: 100000, mean time: 2.08822848 µs
-Requests: 100000, mean time: 2.3663381500000003 µs
-Requests: 100000, mean time: 2.168189 µs</code></pre>
-<p>Quitando el microsegundo de la medida obtenemos cerca de 1.20 µs para el set y ~1 µs para el get.</p>
-<p>Podemos ponernos creativos y probar diferentes cosas, a ver si ahorramos algunos microsegundos más. Recuerda que nuestro presupuesto total eran 30 µs y el de memcached 10, así que cada microsegundo que ahorremos nos pone más cerca de nuestro objetivo. ¿Qué pasa si hacemos la conversión de Buffer a String usando el venerable ASCII? Es posible que nuestro código no entienda bien claves ni valores Unicode, pero puede ser que eso no sea un problema en algunas situaciones.</p>
-<pre><code>        var us = process.hrtime();
-        var message = data.toString(&#39;ascii&#39;);
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>El resultado está ahora cerca de 2.08 µs (1 µs quitando el tiempo de medida). No parece que rasquemos mucho, y sí perdemos bastante funcionalidad.</p>
-<p>¿Qué ocurre si volvemos al código original?</p>
-<pre><code>        var us = process.hrtime();
-        var message = String(data);
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>¡Sorpresa! Aunque el código es virtualmente idéntico que en la prueba anterior, obtenemos tiempos mucho mejores que antes (aunque siguen siendo algo peores que con <code>toString()</code>):</p>
-<pre><code>Requests: 100000, mean time: 2.77426338 µs
-Requests: 100000, mean time: 2.50233279 µs
-Requests: 100000, mean time: 2.55807264 µs
-Requests: 100000, mean time: 2.38827297 µs</code></pre>
-<p>Incluso con el microsegundo de medida, la medición está entre entre 2.8 y 2.4 µs, muy lejos de los 4 µs que teníamos antes. ¿Por qué esta fluctuación con el mismo código? De nuevo un resultado que nos hace desconfiar de todas las medidas que tomemos, sobre todo para tiempos pequeños.</p>
-<h3 id="perfilando-el-resto">Perfilando el resto</h3>
-<p>Aprovechando esta infraestructura podemos ver lo que tarda el procesamiento de los datos en nodecached:</p>
-<pre><code>        var us = process.hrtime();
-        var line = message.substringUpTo(&#39;\r\n&#39;);
-        var rest = message.substringFrom(&#39;\r\n&#39;);
-        var result = parser.readLine(line);
-        if (rest)
-        {   
-            if (result)
-            {
-                log.error(&#39;Unexpected result %s, ignoring&#39;, result);
-            }
-            result = parser.readLine(rest);
-        }
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Dado que mc-benchmark lanza 100k sets y 100k gets, podemos incluso ver la diferencia de tiempos entre ambas operaciones en dos benchmarks consecutivos:</p>
-<pre><code>Requests: 100000, mean time: 13.74600158 µs
-Requests: 100000, mean time: 8.08778811 µs
-Requests: 100000, mean time: 14.07496895 µs
-Requests: 100000, mean time: 8.13666839 µs</code></pre>
-<p>Quitando el microsegundo de medida, los sets tienen que procesar más datos y tardan alrededor de 13 µs, mientras que los gets están alrededor de 7 µs.</p>
-<h3 id="subcadenas">Subcadenas</h3>
-<p>Podemos afinar un poco más: ¿cuánto tardan las operaciones de cadena del principio?</p>
-<pre><code>        var us = process.hrtime();
-        var line = message.substringUpTo(&#39;\r\n&#39;);
-        var rest = message.substringFrom(&#39;\r\n&#39;);
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Sorprendentemente, bastante:</p>
-<pre><code>Requests: 100000, mean time: 2.5679964799999997 µs
-Requests: 100000, mean time: 2.19254304 µs
-Requests: 100000, mean time: 2.44509724 µs
-Requests: 100000, mean time: 2.2384055800000002 µs</code></pre>
-<p>Un poco más en los sets que en los gets, posiblemente porque tienen más datos. Quitando el µs de medida, tenemos 1~1,5µs de procesamiento; ¿no parece mucho para un par de <code>substring()</code>s?</p>
-<p>Vamos a intentar reducir este tiempo usando manipulaciones del buffer directamente:</p>
-<pre><code>        var us = process.hrtime();
-        var rn = 0;
-        for (var i = 0; i &lt; data.length; i++)
-        {
-            if (data[i] == 13)
-            {
-                rn = i;
-                break;
-            }
-        }
-        var line, rest;
-        if (rn)
-        {
-            line = data.toString(&#39;utf8&#39;, 0, rn);
-            rest = data.toString(&#39;utf8&#39;, rn + 2);
-        }
-        else
-        {
-            line = data.toString(&#39;utf8&#39;);
-        }
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Este código reemplaza no sólo a las subcadenas, sino también a la conversión de Buffer a String del principio. Básicamente buscamos un lugar del buffer que contenga un salto de línea, y una vez encontrado hacemos dos <code>toString()</code> para extraer dos subcadenas directamente. Los resultados son prometedores, pero no muy diferentes de los que teníamos antes:</p>
-<pre><code>Requests: 100000, mean time: 3.1032178 µs
-Requests: 100000, mean time: 2.84020157 µs</code></pre>
-<p>Quitando el µs de medida, serían 1.8~2.1 µs ahora, contra 1+1.5=2.5 µs antes. Un ahorro bastante modesto que no está claro que compense la complejidad adicional del código, pero algo es algo. Además dejamos el procesamiento interno en 6 µs, quitando las transformaciones de cadena iniciales.</p>
-<h3 id="escritura-de-datos">Escritura de datos</h3>
-<p>Ya sólo nos falta un elemento: ¿cuánto tarda la escritura de los datos?</p>
-<pre><code>        var us = process.hrtime();
-        if (result)
-        {
-            self.socket.write(result + &#39;\r\n&#39;);
-        }
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Los resultados son más homogéneos que antes, pero también muestran cierta diferencia de tiempo entre escribir al socket la respuesta a un set y la de un get.</p>
-<pre><code>Requests: 100000, mean time: 14.778381139999999 µs
-Requests: 100000, mean time: 14.03921801 µs
-Requests: 100000, mean time: 14.95215595 µs
-Requests: 100000, mean time: 14.10403694 µs</code></pre>
-<p>Resulta bastante curioso que tarde más la respuesta al get que al set, ya que el get tiene que devolver datos; hasta que nos damos cuenta de que el set devuelve <code>STORED</code> y el get no tiene datos y simplemente tiene que escribir <code>END</code>.</p>
-<p>Hemos visto cómo optimizar la conversión de entrada de Buffer a String, pero ¿qué ocurre con la conversión contraria? Seguramente haya una conversión a Buffer implícita en la escritura. Para ver si podemos ahorrarnos algo de tiempo, probamos a enviar un buffer constante:</p>
-<pre><code>        var us = process.hrtime();
-        if (result)
-        {
-            self.socket.write(ERROR_BUFFER);
-        }
-        profiler.measure(us, process.hrtime());</code></pre>
-<p>Si con esto no reducimos tiempos es que realmente da igual pasar un String o un Buffer. Y la práctica respalda esta teoría: los resultados son prácticamente iguales a los anteriores, 14.9 µs para get y 13.9 para set, lo que indica que no ahorramos nada. Aquí sí que no hay de donde rascar: la escritura es realmente en un buffer interno, lo que debería ser casi instantáneo. Sin embargo, por algún motivo tarda más que el memcached original en procesar toda la petición y enviar la respuesta.</p>
-<h3 id="todos-juntos">Todos juntos</h3>
-<p>Tras nuestras mejoras obtenemos estos resultados con nodecached:</p>
-<pre><code>====== SET ======
-  100000 requests completed in 3.55 seconds
-  [...]
-28208.74 requests per second
+                        /**
+                         * Take a measurement between before and after, show results every few requests.
+                         */ 
+                        self.measure = function(before, after)
+                        {
+                            requests += 1;
+                            var diff = after[1] - before[1];
+                            if (after[0] &gt; before[0])
+                            {
+                                diff += 1000000000;
+                            }
+                            time += diff;
+                            if (requests % 100000 === 0)
+                            {
+                                console.log(&#39;Requests: %s, mean time: %s µs&#39;, requests, time / requests / 1000);
+                                requests = 0;
+                                time = 0;
+                            }
+                        };
+                    }
+                    var profiler = new Profiler();</code></pre>
+                    <p>Lo primero que hace es crear el número de peticiones <code>requests</code> y el tiempo total <code>time</code>, y luego con cada llamada a <code>measure(before, after)</code> obtiene la diferencia de tiempos entre ambas mediciones y lo va acumulando. Cada 100k peticiones se pinta la media de tiempos en µs y se resetean los valores. El código es un pelín enrevesado porque <code>process.hrtimer()</code> devuelve una estructura con [segundos, nanosegundos] que hay que interpretar, pero todo el resto es trivial.</p>
+                    <p>Observa cómo creamos un solo <code>profiler</code> para todo el código, de forma que diferentes peticiones se acumulen en un único lugar.</p>
+                    <p>Para usarlo sólo tenemos que obtener el tiempo antes y después y llamar a <code>profiler.measure(before, after)</code>.</p>
+                    <pre><code>        var us = process.hrtime();
+                            [...]
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Podemos arrancar el servidor y lanzarle 100k peticiones con mc-benchmark para acumular suficientes medidas:</p>
+                    <pre><code>$ ./mc-benchmark -p 11311 -n 100000</code></pre>
+                    <p>Es posible que tengamos que probar varias veces para conseguir un valor estable, pero con 100k peticiones no hay problema en quedarnos con el valor más pequeño que veamos salvo que sea un <em>outlier</em> (esté muy lejos del resto). Primero vamos a obtener una base de medida (lo que llaman los americanos una <em>baseline</em>, aunque la pronunciación en español sea desafortunada):</p>
+                    <pre><code>        var us = process.hrtime();
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Es decir, lo que tarda la propia medida. Mis resultados son bastante consistentes:</p>
+                    <pre><code>Requests: 100000, mean time: 1.03806404 µs
+                    Requests: 100000, mean time: 1.06449447 µs</code></pre>
+                    <p>Alrededor de un microsegundo tarda el propio código de medición. Por lo tanto tendremos que acordarnos siempre de quitar este microsegundo de los valores que midamos.</p>
+                    <h3 id="perfilando-la-conversión-de-buffer">Perfilando la conversión de Buffer</h3>
+                    <p>Ahora ya podemos meter el código que queramos entre el primero <code>process.hrtime()</code> y el segundo, y vamos a empezar con las conversiones de Buffer a String que hemos estado mirando:</p>
+                    <pre><code>        var us = process.hrtime();
+                            var message = data.toString(&#39;utf8&#39;);
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>El resultado anda alrededor de los 2.25 µs, consistente con nuestras mediciones anteriores más anecdóticas.</p>
+                    <pre><code>Requests: 100000, mean time: 2.2132430199999997 µs
+                    Requests: 100000, mean time: 2.08822848 µs
+                    Requests: 100000, mean time: 2.3663381500000003 µs
+                    Requests: 100000, mean time: 2.168189 µs</code></pre>
+                    <p>Quitando el microsegundo de la medida obtenemos cerca de 1.20 µs para el set y ~1 µs para el get.</p>
+                    <p>Podemos ponernos creativos y probar diferentes cosas, a ver si ahorramos algunos microsegundos más. Recuerda que nuestro presupuesto total eran 30 µs y el de memcached 10, así que cada microsegundo que ahorremos nos pone más cerca de nuestro objetivo. ¿Qué pasa si hacemos la conversión de Buffer a String usando el venerable ASCII? Es posible que nuestro código no entienda bien claves ni valores Unicode, pero puede ser que eso no sea un problema en algunas situaciones.</p>
+                    <pre><code>        var us = process.hrtime();
+                            var message = data.toString(&#39;ascii&#39;);
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>El resultado está ahora cerca de 2.08 µs (1 µs quitando el tiempo de medida). No parece que rasquemos mucho, y sí perdemos bastante funcionalidad.</p>
+                    <p>¿Qué ocurre si volvemos al código original?</p>
+                    <pre><code>        var us = process.hrtime();
+                            var message = String(data);
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>¡Sorpresa! Aunque el código es virtualmente idéntico que en la prueba anterior, obtenemos tiempos mucho mejores que antes (aunque siguen siendo algo peores que con <code>toString()</code>):</p>
+                    <pre><code>Requests: 100000, mean time: 2.77426338 µs
+                    Requests: 100000, mean time: 2.50233279 µs
+                    Requests: 100000, mean time: 2.55807264 µs
+                    Requests: 100000, mean time: 2.38827297 µs</code></pre>
+                    <p>Incluso con el microsegundo de medida, la medición está entre entre 2.8 y 2.4 µs, muy lejos de los 4 µs que teníamos antes. ¿Por qué esta fluctuación con el mismo código? De nuevo un resultado que nos hace desconfiar de todas las medidas que tomemos, sobre todo para tiempos pequeños.</p>
+                    <h3 id="perfilando-el-resto">Perfilando el resto</h3>
+                    <p>Aprovechando esta infraestructura podemos ver lo que tarda el procesamiento de los datos en nodecached:</p>
+                    <pre><code>        var us = process.hrtime();
+                            var line = message.substringUpTo(&#39;\r\n&#39;);
+                            var rest = message.substringFrom(&#39;\r\n&#39;);
+                            var result = parser.readLine(line);
+                            if (rest)
+                            {   
+                                if (result)
+                                {
+                                    log.error(&#39;Unexpected result %s, ignoring&#39;, result);
+                                }
+                                result = parser.readLine(rest);
+                            }
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Dado que mc-benchmark lanza 100k sets y 100k gets, podemos incluso ver la diferencia de tiempos entre ambas operaciones en dos benchmarks consecutivos:</p>
+                    <pre><code>Requests: 100000, mean time: 13.74600158 µs
+                    Requests: 100000, mean time: 8.08778811 µs
+                    Requests: 100000, mean time: 14.07496895 µs
+                    Requests: 100000, mean time: 8.13666839 µs</code></pre>
+                    <p>Quitando el microsegundo de medida, los sets tienen que procesar más datos y tardan alrededor de 13 µs, mientras que los gets están alrededor de 7 µs.</p>
+                    <h3 id="subcadenas">Subcadenas</h3>
+                    <p>Podemos afinar un poco más: ¿cuánto tardan las operaciones de cadena del principio?</p>
+                    <pre><code>        var us = process.hrtime();
+                            var line = message.substringUpTo(&#39;\r\n&#39;);
+                            var rest = message.substringFrom(&#39;\r\n&#39;);
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Sorprendentemente, bastante:</p>
+                    <pre><code>Requests: 100000, mean time: 2.5679964799999997 µs
+                    Requests: 100000, mean time: 2.19254304 µs
+                    Requests: 100000, mean time: 2.44509724 µs
+                    Requests: 100000, mean time: 2.2384055800000002 µs</code></pre>
+                    <p>Un poco más en los sets que en los gets, posiblemente porque tienen más datos. Quitando el µs de medida, tenemos 1~1,5µs de procesamiento; ¿no parece mucho para un par de <code>substring()</code>s?</p>
+                    <p>Vamos a intentar reducir este tiempo usando manipulaciones del buffer directamente:</p>
+                    <pre><code>        var us = process.hrtime();
+                            var rn = 0;
+                            for (var i = 0; i &lt; data.length; i++)
+                            {
+                                if (data[i] == 13)
+                                {
+                                    rn = i;
+                                    break;
+                                }
+                            }
+                            var line, rest;
+                            if (rn)
+                            {
+                                line = data.toString(&#39;utf8&#39;, 0, rn);
+                                rest = data.toString(&#39;utf8&#39;, rn + 2);
+                            }
+                            else
+                            {
+                                line = data.toString(&#39;utf8&#39;);
+                            }
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Este código reemplaza no sólo a las subcadenas, sino también a la conversión de Buffer a String del principio. Básicamente buscamos un lugar del buffer que contenga un salto de línea, y una vez encontrado hacemos dos <code>toString()</code> para extraer dos subcadenas directamente. Los resultados son prometedores, pero no muy diferentes de los que teníamos antes:</p>
+                    <pre><code>Requests: 100000, mean time: 3.1032178 µs
+                    Requests: 100000, mean time: 2.84020157 µs</code></pre>
+                    <p>Quitando el µs de medida, serían 1.8~2.1 µs ahora, contra 1+1.5=2.5 µs antes. Un ahorro bastante modesto que no está claro que compense la complejidad adicional del código, pero algo es algo. Además dejamos el procesamiento interno en 6 µs, quitando las transformaciones de cadena iniciales.</p>
+                    <h3 id="escritura-de-datos">Escritura de datos</h3>
+                    <p>Ya sólo nos falta un elemento: ¿cuánto tarda la escritura de los datos?</p>
+                    <pre><code>        var us = process.hrtime();
+                            if (result)
+                            {
+                                self.socket.write(result + &#39;\r\n&#39;);
+                            }
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Los resultados son más homogéneos que antes, pero también muestran cierta diferencia de tiempo entre escribir al socket la respuesta a un set y la de un get.</p>
+                    <pre><code>Requests: 100000, mean time: 14.778381139999999 µs
+                    Requests: 100000, mean time: 14.03921801 µs
+                    Requests: 100000, mean time: 14.95215595 µs
+                    Requests: 100000, mean time: 14.10403694 µs</code></pre>
+                    <p>Resulta bastante curioso que tarde más la respuesta al get que al set, ya que el get tiene que devolver datos; hasta que nos damos cuenta de que el set devuelve <code>STORED</code> y el get no tiene datos y simplemente tiene que escribir <code>END</code>.</p>
+                    <p>Hemos visto cómo optimizar la conversión de entrada de Buffer a String, pero ¿qué ocurre con la conversión contraria? Seguramente haya una conversión a Buffer implícita en la escritura. Para ver si podemos ahorrarnos algo de tiempo, probamos a enviar un buffer constante:</p>
+                    <pre><code>        var us = process.hrtime();
+                            if (result)
+                            {
+                                self.socket.write(ERROR_BUFFER);
+                            }
+                            profiler.measure(us, process.hrtime());</code></pre>
+                    <p>Si con esto no reducimos tiempos es que realmente da igual pasar un String o un Buffer. Y la práctica respalda esta teoría: los resultados son prácticamente iguales a los anteriores, 14.9 µs para get y 13.9 para set, lo que indica que no ahorramos nada. Aquí sí que no hay de donde rascar: la escritura es realmente en un buffer interno, lo que debería ser casi instantáneo. Sin embargo, por algún motivo tarda más que el memcached original en procesar toda la petición y enviar la respuesta.</p>
+                    <h3 id="todos-juntos">Todos juntos</h3>
+                    <p>Tras nuestras mejoras obtenemos estos resultados con nodecached:</p>
+                    <pre><code>====== SET ======
+                      100000 requests completed in 3.55 seconds
+                      [...]
+                    28208.74 requests per second
 
-====== GET ======
-  100000 requests completed in 2.68 seconds
-  [...]
-37243.95 requests per second</code></pre>
-<p>Hemos reducido el tiempo del get a 1s/37k ~ 27 µs, y el set a 35.4 µs. La siguiente figura muestra el desglose de tiempos en la nueva distribución.</p>
-<figure>
-<img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="Rendimiento final" /><figcaption>Rendimiento final</figcaption>
-</figure>
-<p>Las áreas claras del gráfico son las que están directamente bajo nuestro control; se ve claramente que son minoría. Vamos a centrarnos en la petición get, por ejemplo. Del total de 27 µs, 2 µs son para conversión a string y división en líneas; otros 6 µs para el procesamiento interno, y 12 µs para escribir la respuesta. Pero estos tiempos desglosados suman 20 µs; ¿dónde están los 7 µs restantes? Podemos suponer que es el tiempo interno que gasta node.js en recibir una petición y montar las estructuras de datos necesarias para responder a ella.</p>
-<p>Si hacemos las cuentas para el set, vemos que este tiempo “fantasma” son 8 µs: 35-2-12-13. Tiene sentido que sea un poco mayor porque recibimos más datos en el set.</p>
-<h3 id="otros-perfiladores">Otros perfiladores</h3>
-<p>Es probable que hayas pensado: ¿por qué usar un perfilador cutre-salchichero hecho a mano, teniendo tantos profilers maravillosos para node.js? Pues piénsatelo dos veces. Nuestro perfilador está altamente optimizado para nuestra situación particular, tiene una penalización fácilmente medible (1 µs por petición) y nos ha dado datos que hemos podido contrastar directamente con nuestro benchmark externo. Ahora pregunto yo: ¿por qué complicarse la vida con un paquete escrito en C, que lee directamente los datos de V8 o lo que sea, que tiene una penalización de tiempo desconocida, cuando nuestro propio perfilador es trivial y sabemos cómo funciona? Francamente, no creo que las oscilaciones de resultados que estamos viendo fueran sustancialmente menores con otros perfiladores.</p>
-<p>En cualquier caso, es buena idea usar un perfilador externo para contrastar nuestros datos. Pero no vamos a hacerlo aquí porque bastante larga es ya esta entrada como para meter más datos redundantes…</p>
-<h2 id="conclusiones">Conclusiones</h2>
-<p>Es hora de sacar conclusiones de nuestro trabajo de optimización.</p>
-<ul>
-<li>Aparte de algunas mejoras rápidas y poco significativas, <em>no hay balas de plata</em> que nos permitan optimizar el código actual con poco trabajo.</li>
-<li>Dicho esto, con bastante trabajo y arañando de aquí y allá hemos rebajado nuestro presupuesto inicial para una petición get, de los 30 µs del principio del post a 27 µs, a base de optimizar nuestro código. Un 10% de mejora que no está mal.</li>
-<li>Otro resultado del trabajo de optimización es que nos permite saber en qué estamos gastando el tiempo, cuál es nuestro “presupuesto” de tiempo a gastar, y qué partes están bajo nuestro control y cuáles no.</li>
-<li><em>La mayor parte del tiempo de proceso está fuera de nuestro alcance</em>: de los 30 µs por operación, unos 20 (13 + 7) están dedicados a montar la petición y escribir la respuesta. Nuestro trabajo de optimización está limitado a las restantes partes; y una aplicación trivial de la <a href="http://es.wikipedia.org/wiki/Ley_de_Amdahl">ley de Amdahl</a> nos dice que nunca podremos llegar a rivalizar con memcached, al menos en rendimiento.</li>
-<li>Finalmente, <em>los resultados de estos benchmarks son bastante ruidosos</em>: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con <code>top</code> o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable…</li>
-</ul>
+                    ====== GET ======
+                      100000 requests completed in 2.68 seconds
+                      [...]
+                    37243.95 requests per second</code></pre>
+                    <p>Hemos reducido el tiempo del get a 1s/37k ~ 27 µs, y el set a 35.4 µs. La siguiente figura muestra el desglose de tiempos en la nueva distribución.</p>
+                    <figure>
+                    <img src="pics/optimizando-sockets-despues.png" title="Gráfica de rendimiento final" alt="" /><figcaption>Rendimiento final</figcaption>
+                    </figure>
+                    <p>Las áreas claras del gráfico son las que están directamente bajo nuestro control; se ve claramente que son minoría. Vamos a centrarnos en la petición get, por ejemplo. Del total de 27 µs, 2 µs son para conversión a string y división en líneas; otros 6 µs para el procesamiento interno, y 12 µs para escribir la respuesta. Pero estos tiempos desglosados suman 20 µs; ¿dónde están los 7 µs restantes? Podemos suponer que es el tiempo interno que gasta node.js en recibir una petición y montar las estructuras de datos necesarias para responder a ella.</p>
+                    <p>Si hacemos las cuentas para el set, vemos que este tiempo “fantasma” son 8 µs: 35-2-12-13. Tiene sentido que sea un poco mayor porque recibimos más datos en el set.</p>
+                    <h3 id="otros-perfiladores">Otros perfiladores</h3>
+                    <p>Es probable que hayas pensado: ¿por qué usar un perfilador cutre-salchichero hecho a mano, teniendo tantos profilers maravillosos para node.js? Pues piénsatelo dos veces. Nuestro perfilador está altamente optimizado para nuestra situación particular, tiene una penalización fácilmente medible (1 µs por petición) y nos ha dado datos que hemos podido contrastar directamente con nuestro benchmark externo. Ahora pregunto yo: ¿por qué complicarse la vida con un paquete escrito en C, que lee directamente los datos de V8 o lo que sea, que tiene una penalización de tiempo desconocida, cuando nuestro propio perfilador es trivial y sabemos cómo funciona? Francamente, no creo que las oscilaciones de resultados que estamos viendo fueran sustancialmente menores con otros perfiladores.</p>
+                    <p>En cualquier caso, es buena idea usar un perfilador externo para contrastar nuestros datos. Pero no vamos a hacerlo aquí porque bastante larga es ya esta entrada como para meter más datos redundantes…</p>
+                    <h2 id="conclusiones">Conclusiones</h2>
+                    <p>Es hora de sacar conclusiones de nuestro trabajo de optimización.</p>
+                    <ul>
+                    <li>Aparte de algunas mejoras rápidas y poco significativas, <em>no hay balas de plata</em> que nos permitan optimizar el código actual con poco trabajo.</li>
+                    <li>Dicho esto, con bastante trabajo y arañando de aquí y allá hemos rebajado nuestro presupuesto inicial para una petición get, de los 30 µs del principio del post a 27 µs, a base de optimizar nuestro código. Un 10% de mejora que no está mal.</li>
+                    <li>Otro resultado del trabajo de optimización es que nos permite saber en qué estamos gastando el tiempo, cuál es nuestro “presupuesto” de tiempo a gastar, y qué partes están bajo nuestro control y cuáles no.</li>
+                    <li><em>La mayor parte del tiempo de proceso está fuera de nuestro alcance</em>: de los 30 µs por operación, unos 20 (13 + 7) están dedicados a montar la petición y escribir la respuesta. Nuestro trabajo de optimización está limitado a las restantes partes; y una aplicación trivial de la <a href="http://es.wikipedia.org/wiki/Ley_de_Amdahl">ley de Amdahl</a> nos dice que nunca podremos llegar a rivalizar con memcached, al menos en rendimiento.</li>
+                    <li>Finalmente, <em>los resultados de estos benchmarks son bastante ruidosos</em>: es posible que la máquina usada tenga bastante carga de navegadores y procesos de background que no es fácil de ver con <code>top</code> o herramientas similares. Pero eliminar todos los procesos de una máquina de escritorio es casi imposible, y además la máquina se volvería bastante inusable…</li>
+                    </ul>
 								</div>
 							</section>
 							<section id="last">
