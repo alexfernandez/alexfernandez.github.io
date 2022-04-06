@@ -61,7 +61,7 @@ If you have a cool project for me
 I joined [Influencity](https://www.influencity.com/),
 a company in the field of influencer marketing.
 I led a team of talented developers
-and helped them build the best platform for influencer marketing,
+and helped them build their for influencer marketing
 using Node.js and React.
 
 While there I helped improve the architecture,

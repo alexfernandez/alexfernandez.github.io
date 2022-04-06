@@ -11,20 +11,37 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
 I have also held several management positions.
 
-### 2020-04 to Present: Freelancer
+### 2021-01 to Present: CTO at Hivency
 
-Since April I have been working full time as a freelancer.
-I work mostly doing backend development in Node.js,
+I am currently working as CTO at
+[Hivency](https://www.hivency.com/), an influencer marketing company.
+I am leading a wonderful team of French and Spanish professionals
+to create the best solution in influencer marketing worldwide.
+During this time I have reorganized the team to work in squads,
+hired new developers,
+improved internal practices and moved forward in the road to continuous deployment.
+
+Hivency has recently been acquired by the Skeepers group,
+which will give us new energy to conquer new markets.
+
+### 2020-04 to 2020-12: Freelancer
+
+During this period I worked full time as a freelancer,
+mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
+Since July 2020 I have collaborated with Carlos Blé and his company
+[LeanMind](https://leanmind.es/en/),
+where I have learned about new practices like mob programming.
+
 If you have a cool project for me
 [let me know!](mailto:alexfernandeznpm@gmail.com)
 
 ### 2019-04 to 2019-12: Influencity
 
-My latest position was CTO of [Influencity](https://www.influencity.com/),
+I joined [Influencity](https://www.influencity.com/) as CTO,
 a thriving company in the field of influencer marketing.
 I led a team of talented developers
-and helped them build the best platform for influencer marketing,
+and helped them build their platform for influencer marketing,
 using Node.js and React.
 
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
