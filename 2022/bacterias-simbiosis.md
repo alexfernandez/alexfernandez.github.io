@@ -3,6 +3,12 @@ title: '🖇️ El largo camino a la simbiosis'
 subtitle: 'Parte 3 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
 footer: Publicado el 2022-06-27, modificado el 2022-06-27.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  'Las bacterias producen multitud de enfermedades,
+  y se reproducen tan rápido que evolucionan a ojos vista.
+  ¿Con qué armas contamos contra ellas?
+  ¿Realmente quieren hacernos daño?'
+image: https://pinchito.es/2022/pics/bacterias-erase-una-vez-macrofago.jpg
 ---
 
 ![Imagen de microscopio electrónico de una bacteria y un macrófago a punto de fagocitar un virus. En el fondo puede verse a una bacteria luchando contra algunos anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie infantil de dibujos animados 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a un virus.")
