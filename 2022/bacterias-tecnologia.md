@@ -430,7 +430,7 @@ para estudiar las enfermedades causadas por bacterias.
 # Continuará…
 
 Este artículo es la segunda parte de la
-[serie sobre bacterias](bacterias-maquinas).
+[serie sobre bacterias](/bacterias-maquinas).
 Continuará.
 <!--
 Sigue a la
