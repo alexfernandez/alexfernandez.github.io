@@ -403,9 +403,9 @@ Sigue a la
 [parte 5: ¿Venimos de las estrellas?](bacterias-estrellas),
 donde veremos en profundidad el enigma del origen de la vida.
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).
+* ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).
+* ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).
 * ↑ Parte 4: Enfermedades autoinmunes.
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas).
 * → Parte 6: [Conclusiones](bacterias-conclusiones).

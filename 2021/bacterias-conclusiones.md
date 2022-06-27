@@ -174,9 +174,9 @@ Este artículo es la sexta y última parte de la
 [serie sobre bacterias](bacterias-maquinas).
 ¡Gracias por llegar hasta aquí! 😅🦠😘
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
-* ← Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
+* ← Parte 1: [🦠 Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 2: [⚙️ Tecnología bacteriana](bacterias-tecnologia).
+* ← Parte 3: [🖇️ El largo camino a la simbiosis](bacterias-simbiosis).
 * ← Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * ← Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 * ↑ Parte 6: Conclusiones.

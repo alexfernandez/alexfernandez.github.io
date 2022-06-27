@@ -282,10 +282,10 @@ Sigue a la
 [parte 2: Tecnología bacteriana](/2022/bacterias-tecnologia),
 donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.
 
-* ↑ Parte 1: Y las bacterias, bonita.
-* → Parte 2: [Tecnología bacteriana](/2022/bacterias-tecnologia).
+* ↑ Parte 1: 🦠 Y las bacterias, bonita.
+* → Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).
+* → Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).
 <!--
-* → Parte 3: [El largo camino a la simbiosis](bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 * → Parte 6: [Conclusiones](bacterias-conclusiones).
