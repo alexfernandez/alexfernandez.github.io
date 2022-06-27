@@ -16,7 +16,7 @@ tanto fuera como dentro, viven
 y sabemos que son esenciales para la vida humana.
 ¿Por qué nos enfocamos tanto en la enfermedad?
 
-# Replicación rápida
+# ⚡ Replicación rápida
 
 Una característica interesante de las bacterias (y que da bastante miedo)
 es lo rápido que son capaces de reproducirse.
@@ -37,7 +37,10 @@ para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8?start=44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Evolución a largo plazo
+## ⏳ Evolución a largo plazo
+
+¿Qué pasa cuando se suceden muchas generaciones de bacterias?
+¿A dónde pueden llegar?
 
 En 1988 un joven Richard Lenski empezó un
 [novedoso experimento](http://lenski.mmg.msu.edu/ecoli/strainsource.html):
@@ -64,7 +67,7 @@ pero cuando están metidas en frascos resulta muy ventajoso aprovechar el medio 
 
 ![Experimento de evolución a largo plazo. Nótese cómo la población "A-3" está más turbia, ya que es la única capaz de alimentarse de citrato. Eso hace que la cantidad de bacterias capaces de vivir en el medio aumente espectacularmente. [Fuente](https://en.wikipedia.org/wiki/File:Lenski%27s_long-term_lines_of_E._coli_on_25_June_2008,_close-up_of_citrate_mutant.jpg).](pics/bacterias-ltee-citrato.jpg "Varios frascos con poblaciones de _E. coli., el marcado como A-3 aparece con un fondo turbio.")
 
-## Control bacteriano
+## 🧼 Control bacteriano
 
 No hay mejor forma de controlar el nivel de bacterias que el jabón:
 hace 150 años que Semmelweis insistió en que los médicos se lavaran las manos
@@ -94,12 +97,12 @@ pero ¿quién quiere que las manos de un cirujano tras una
 vuelvan a estar como al llegar de la calle?
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
-# Nuestras defensas
+# 🛡️ Nuestras defensas
 
 ¿Cómo nos defendemos de esta replicación tan rápida?
 Vamos a ahondar en algunos aspectos del increíble sistema inmune humano.
 
-## Zoonosis
+## 🐖 Zoonosis
 
 Este término ha cobrado especial relevancia tras
 [la pandemia de COVID-19](https://www.science.org/doi/10.1126/science.abn2222),
@@ -142,7 +145,7 @@ pero una pregunta más interesante a mi parecer es:
 ¿por qué sobrevivió el resto?
 Gracias a la inmensa versatilidad de nuestro sistema inmune.
 
-## Jugando a los dados
+## 🎲 Jugando a los dados
 
 Virus, bacterias, y otros microorganismos especializados en atacarnos.
 ¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
@@ -189,7 +192,7 @@ Lo mejor de todo es que algunas células B ya afinadas quedarán rondando en los
 ante una nueva invasión del mismo antígeno la respuesta inmune será mucho más rápida,
 ya que estas células estarán listas para producir antígenos enseguida.
 
-## La vida de una célula T
+## 🧪 La vida de una célula T
 
 Las células T son otro tipo de linfocitos que tienen una vida incluso más apasionante,
 que funcionan gracias a un sistema de pruebas muy exhaustivo
@@ -238,7 +241,7 @@ de donde he sacado la información básica para este apartado;
 es un tema apasionante y en el que,
 literalmente, nos jugamos la vida.
 
-## Atracción fetal
+## 💑 Atracción fetal
 
 La atracción en una pareja parece relacionada con el
 complejo mayor de histocompatibilidad (CMH, o MHC en inglés).
@@ -270,13 +273,13 @@ adquieren su peculiar olor y su capacidad para atraer a posibles compañeros sex
 Así que, muy literalmente,
 dependemos de las bacterias incluso para aparearnos.
 
-# La ciencia al rescate
+# 🔬 La ciencia al rescate
 
 Pese a la maravillosa efectividad del sistema inmune,
 muchas infecciones consiguen burlarlo.
 ¿Qué aporta la ciencia a nuestras defensas?
 
-## Antibióticos
+## 🧫 Antibióticos
 
 Hoy en día nuestra primera línea de defensa ante las bacterias son los antibióticos.
 ¿Cómo se descubrieron?
@@ -330,7 +333,7 @@ y poner así el tratamiento adecuado lo antes posible.
 
 ![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")
 
-## Ensayos clínicos
+## 🥼 Ensayos clínicos
 
 La forma que tiene la ciencia médica de conseguir nuevos antibióticos,
 y en general nuevas medicinas,
@@ -355,7 +358,7 @@ si funciona el medicamento X para la enfermedad Y o no.
 Sólo los gobiernos y las grandes farmacéuticas pueden hacer este tipo de inversión.
 Y desde hace tiempo los gobiernos han delegado en la empresa privada los ensayos clínicos.
 
-## Edición de genes
+## 🧬 Edición de genes
 
 Podemos ir un paso más allá.
 El viejo sueño de editar genes _in vivo_
@@ -412,20 +415,22 @@ y puede servir por ejemplo para reforzar las defensas de pacientes contra bacter
 Incluso se ha usado para
 [almacenar datos en el genoma bacteriano](https://www.nature.com/news/lights-camera-crispr-biologists-use-gene-editing-to-store-movies-in-dna-1.22288).
 Pero es pronto todavía para ver sus efectos.
-Mientras tanto,
-[Mojica no tiene prisa por ganar un premio Nobel](https://www.labiotech.eu/interviews/francis-mojica-crispr-interview/),
-y
-[es muy posible que quede fuera](https://blogs.plos.org/synbio/2017/10/05/when-will-crispr-get-a-nobel-prize/)
-cuando inevitablemente se conceda uno por estos descubrimientos.
 
-# Matar al anfitrión
+Mientras tanto, en 2019
+[Mojica no tenía prisa por ganar un premio Nobel](https://www.labiotech.eu/interviews/francis-mojica-crispr-interview/),
+y en 2020
+[Charpentier y Doudna ganaron el Nobel de química](https://www.nobelprize.org/prizes/chemistry/2020/press-release/)
+cuando inevitablemente se concedió por estos descubrimientos.
+Ya hemos visto que fue una elección merecidísima,
+aunque en mi humilde opinión habría sido de justicia honrar también al investigador español por su descubrimiento original.
 
-Estamos asumiendo que las bacterias intentan activamente asesinarnos de cualquier forma.
-Y esto no es realmente cierto.
+# ☠️ Matar al anfitrión
+
+En todo este artículo estamos asumiendo que las bacterias intentan activamente asesinarnos de cualquier forma.
+Y esto no es tan cierto como pensamos.
 La lógica es sencilla:
-si el huésped mata al anfitrión,
-el huésped no puede seguir viviendo mucho tiempo en él.
-Si después pasa a otro anfitrión y también lo mata,
+si el huésped mata al anfitrión se le acaba el chollo rápidamente.
+Puede después pasar a otro anfitrión, pero si también lo mata,
 la cadena sigue hasta que se quede sin anfitriones y termine desapareciendo.
 ¡Mala estrategia de supervivencia!
 Tampoco les interesa realmente dañar los tejidos en los que se alojan.
@@ -443,6 +448,9 @@ a propósito del famoso SARS-CoV-2:
 > este sigue con su vida normal y disemina el virus.
 > Así se facilita que sea este el que se imponga, claro.
 
+Este párrafo ha sido profético con
+[la variante Ómicron](https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/1751-7915.14064).
+
 Tampoco pueden reproducirse por sí solas
 [algunas bacterias](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3129005/),
 que usan los mecanismos de las celulas que infectan;
@@ -457,6 +465,8 @@ Pero si se dedican a matar a sus anfitriones,
 ¿dónde van a sobrevivir?
 
 ![Como en la fábula de la rana y el escorpión: un escorpión le pidió a una rana que le ayudara a cruzar el río. La rana tenía miedo de que le picara, pero el escorpión la tranquilizó: "No voy a ser tan tonto, si te pico me ahogo". La rana le dejó montarse y el escorpión le picó. [Fuente](https://www.flickr.com/photos/jafundo/9312871863).](pics/bacterias-scorpion-frog.jpg "La rana se queja: 'Pero ¡prometiste no picarme!'. El escorpión responde: 'Lo siento, pero está en mi naturaleza'.")
+
+## 🖇️ Simbiosis
 
 Lo que sí que van a intentar todas las bacterias es pasar desapercibidas:
 en el momento que el sistema inmune del anfitrión las detecte sus probabilidades disminuyen.
@@ -473,7 +483,21 @@ La patogénesis es inestable en el tiempo:
 * o bien el huésped desarrollará inmunidad,
 * o ambos desaparecerán.
 
-# Continuará…
+Este proceso nos da un respiro:
+las bacterias tienen unas capacidades maravillosas,
+pero realmente no quieren matarnos.
+De hecho les viene mejor ayudarnos,
+como vemos en todo nuestro entorno:
+sin ellas no seríamos capaces de hacer cerveza,
+digerir la comida,
+o ni siquiera reproducirnos.
+
+A lo que realmente tendríamos que aspirar no es a aniquilar todas las bacterias,
+sino a convivir con ellas y con los demás microorganismos en las mejores condiciones.
+Este cambio de mentalidad urge en un planeta cada vez más comprometido
+por nuestra loca lucha contra todo lo que no nos es útil directamente.
+
+# ⏭️ Continuará…
 
 Este artículo es la tercera parte de la
 [serie sobre bacterias](/bacterias).
