@@ -51,14 +51,15 @@ y porque cualquiera puede encontrarla.
 # Agradecimientos
 
 Gracias a la organización de T3chFest por haberme dado la oportunidad de hablar en público
-sobre este tema tan apasionante.
+sobre este tema tan apasionante,
+aunque por la pandemia quedara pendiente.
 
 Gracias a
 [Carlos J. Santisteban](https://twitter.com/zuiko21)
 por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
 También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
-Gracias a Cristina Pacios, genetista profesional e investigadora excepcional,
+Gracias a Cristina Pacios, Bióloga Molecular y Celular (e investigadora excepcional),
 y a [Azahara Fernández](https://twitter.com/azahara_fergui),
 doctora en inmunología,
 por revisar mi torpe artículo y darme valiosas referencias.
