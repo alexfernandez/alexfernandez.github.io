@@ -73,7 +73,7 @@ donde daremos un repaso general al panorama bacteriano.
 para introducirnos en la gran diversidad de mecanismos que emplean.  
 → Continuará.  
 <!--
-* → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
+* → Parte 3: [🖇️ El largo camino a la simbiosis](/2021/bacterias-simbiosis).
 * → Parte 4: [Enfermedades autoinmunes](/2021/bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](/2021/bacterias-estrellas)
 * → Parte 6: [Conclusiones](/2021/bacterias-conclusiones).

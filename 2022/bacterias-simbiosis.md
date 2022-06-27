@@ -1,7 +1,7 @@
 ---
-title: 'Bacterias (parte 3): El largo camino a la simbiosis'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+title: '🖇️ El largo camino a la simbiosis'
+subtitle: 'Parte 3 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
+footer: Publicado el 2022-06-27, modificado el 2022-06-27.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
@@ -461,14 +461,17 @@ La patogénesis es inestable en el tiempo:
 # Continuará…
 
 Este artículo es la tercera parte de la
-[serie sobre bacterias](bacterias-maquinas).
+[serie sobre bacterias](/bacterias).
+Continuará.
+<!--
 Sigue a la
 [parte 4: Enfermedades autoinmunes](bacterias-autoinmunes)
 donde hablaremos de patologías que afectan directamente al sistema inmune.
+-->
 
-* ← Parte 1: [Y las bacterias, bonita](bacterias-bonita).
-* ← Parte 2: [Tecnología bacteriana](bacterias-tecnologia).
-* ↑ Parte 3: El largo camino a la simbiosis.
+* ← Parte 1: [🦠 Y las bacterias, bonita](bacterias-bonita).
+* ← Parte 2: [⚙️ Tecnología bacteriana](bacterias-tecnologia).
+* ↑ Parte 3: 🖇️ El largo camino a la simbiosis.
 * → Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).
 * → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)
 * → Parte 6: [Conclusiones](bacterias-conclusiones).
