@@ -48,11 +48,29 @@ aunque no siempre he tenido éxito.
 He evitado enlazar a la wikipedia por mantener el rigor,
 y porque cualquiera puede encontrarla.
 
+# Agradecimientos
+
+Gracias a la organización de T3chFest por haberme dado la oportunidad de hablar en público
+sobre este tema tan apasionante.
+
+Gracias a
+[Carlos J. Santisteban](https://twitter.com/zuiko21)
+por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
+También por encontrar el vídeo de "¡Y las bacterias, bonita!".
+
+Gracias a Cristina Pacios, genetista profesional e investigadora excepcional,
+y a [Azahara Fernández](https://twitter.com/azahara_fergui),
+doctora en inmunología,
+por revisar mi torpe artículo y darme valiosas referencias.
+
+Los errores que permanezcan en el texto son todo míos.
+
 # Serie completa
 
 → Parte 1: Empieza por [🦠 Y las bacterias, bonita](/2021/bacterias-bonita),
 donde daremos un repaso general al panorama bacteriano.  
-→ Parte 2: [Tecnología bacteriana](/2022/bacterias-tecnologia).  
+→ Parte 2: Continúa por [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia),
+para introducirnos en la gran diversidad de mecanismos que emplean.  
 → Continuará.  
 <!--
 * → Parte 3: [El largo camino a la simbiosis](/2021/bacterias-simbiosis).
