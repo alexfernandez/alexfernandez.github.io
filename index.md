@@ -9,7 +9,7 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 🧑‍💻 Here on my blog I like to write about my job in software engineering.  
 ⚛️ There are also some articles related to Physics.  
-🦠 And some related to Biology.  
+🦠 And some articles related to Biology.  
 🗣️ I also write about other things I'm interested in, like linguistics or event organization.  
 🇪🇸 Some articles are in Spanish.  
 🇮🇪 The rest are in English.
