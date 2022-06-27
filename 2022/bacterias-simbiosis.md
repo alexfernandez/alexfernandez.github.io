@@ -133,24 +133,28 @@ Como es lógico, las enfermedades zoonóticas
 [no suelen causar síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
 Durante la conquista de América, los españoles e ingleses jugaron a su favor con enfermedades como la viruela,
-que causaron una mortalidad de [más del 90%](?).
-Hay [múltiples informes](?) de infecciones premeditadas.
+que causaron una mortalidad de [entre el 40% y el 90%](https://www.varsitytutors.com/earlyamerica/early-america-review/volume-11/native-americans-smallpox).
+Hay [múltiples informes](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-10182003000100003) de infecciones premeditadas.
 Los europeos contaban con inmunidad adquirida durante muchos siglos,
 mientras que los americanos no.
-Podemos preguntarnos por qué más del 90% de la población murió,
+Podemos preguntarnos por qué murió gran parte de la población,
 pero una pregunta más interesante a mi parecer es:
-¿por qué sobrevivió el 10% restante?
+¿por qué sobrevivió el resto?
+Gracias a la inmensa versatilidad de nuestro sistema inmune.
 
 ## Jugando a los dados
 
+Virus, bacterias, y otros microorganismos especializados en atacarnos.
 ¿Qué posibilidades tenemos de defendernos ante estas maquinarias diabólicas?
 Nuestra mejor opción parece ser jugar a los dados.
 
 La generación de números aleatorios
 [juega un papel muy importante en criptografía](https://hal.inria.fr/hal-00738638/PDF/rr8060.pdf)
 y en [otras áreas](https://www.redhat.com/en/blog/understanding-random-number-generators-and-their-limitations-linux).
-Hay [múltiples ataques](https://felixdoerre.de/prosem.pdf)
-basados en la predictabilidad de los números generados.
+Hay [multitud de ataques](https://felixdoerre.de/prosem.pdf)
+basados en la predictibilidad de los números generados.
+(Sí, [predictibilidad](https://dle.rae.es/predictibilidad) es la palabra correcta,
+que lo acabo de mirar.)
 
 Pues bien: nuestro sistema inmune también depende de la generación de números aleatorios.
 Las células B son
@@ -170,7 +174,7 @@ donde empieza un proceso conocido como
 [hipermutación somática](https://pdfs.semanticscholar.org/3299/80555aec1d180c523c5fecd6be92376d42dd.pdf):
 las células B se reproducen a toda pastilla,
 los genes que generan la inmunoglobulina mutan rápidamente,
-y sólo aquellas células que mejor reconozcan el antígeno sobreviven.
+y sólo aquellas células que mejor reconozcan el antígeno sobrevivirán.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/qGsyBwDVnTU?start=90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -188,22 +192,25 @@ ya que estas células estarán listas para producir antígenos enseguida.
 ## La vida de una célula T
 
 Las células T son otro tipo de linfocitos que tienen una vida incluso más apasionante,
-que funcionan gracias a un sistema de pruebas muy exhaustivo.
+que funcionan gracias a un sistema de pruebas muy exhaustivo
+que enorgullecería a la empresa de desarrollo más madura.
 
-Se generan en la médula ósea.
+Se generan en la [médula ósea](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5826622/).
 Al igual que las células B,
 su fenotipo se elige al azar siguiendo un proceso estocástico;
 pero cada célula T es capaz de reconocer múltiples antígenos al mismo tiempo.
-A continuación viajan al timo, en el esternón,
-donde pasan unas pruebas muy estrictas:
+A continuación viajan al timo, órgano de curioso nombre situado en el esternón,
+donde pasan una batería de pruebas terrible:
 deben reconocer ciertos antígenos,
-pero no deben activarse ante las moléculas propias del organismo.
-Se calcula que se destruye alrededor del 95% de células T por fallar en estas pruebas.
+pero al mismo tiempo no deben activarse ante las moléculas propias del organismo.
+Se calcula que se destruye
+[alrededor del 95% de células T](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6446584/)
+por fallar en estas pruebas.
 
 Tras su maduración las células T viajarán por todo el cuerpo,
 entre los nodos linfáticos y la sangre,
 intentando detectar a células que generen patógenos.
-El proceso es muy curioso:
+El proceso es [muy curioso](https://www.ncbi.nlm.nih.gov/books/NBK26926/):
 las células T son como policías que piden la documentación a cada célula que se encuentran.
 Para cada una reclaman ver muestras de las proteínas generadas,
 y las comparan con su repertorio de antígenos.
@@ -227,7 +234,7 @@ y [múltiples subtipos](https://en.wikipedia.org/wiki/White_blood_cell#Types).
 Además hay múltiples órganos implicados.
 Recomiendo encarecidamente esta
 [introducción al sistema inmune](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091071/)
-de donde he sacado la información para este apartado;
+de donde he sacado la información básica para este apartado;
 es un tema apasionante y en el que,
 literalmente, nos jugamos la vida.
 
@@ -241,7 +248,9 @@ y se ha comprobado que nos atrae el olor de gente con CMH diferente al nuestro.
 De hecho tenemos un órgano especializado sólo para eso en el cuerpo:
 el [órgano vomeronasal](https://www.researchgate.net/profile/Peter_Brennan/publication/8193089_MHC_Class_I_Peptides_as_Chemosensory_Signals_in_the_Vomeronasal_Organ/links/0912f50f139abec104000000/MHC-Class-I-Peptides-as-Chemosensory-Signals-in-the-Vomeronasal-Organ.pdf),
 aunque no está claro que sea funcional en humanos.
-Curiosamente no había diferencias entre hombres y mujeres.
+Curiosamente en las pruebas no se detectaron diferencias entre hombres y mujeres:
+en lo que respecta al olfato,
+ambos sexos se veían igualmente atraídos hacia el propio o el ajeno.
 
 ![En el experimento unos voluntarios olían ropa usada de otros, y se medía la diferencia en CMH. Lo que sea por la ciencia. [Fuente](https://www.thriftyfun.com/Why-Dont-My-Clothes-Smell-Good.html).](pics/bacterias-olor-ropa.jpg "Una mujer huele una camiseta usada, con bastante desagrado.")
 
@@ -269,7 +278,8 @@ muchas infecciones consiguen burlarlo.
 
 ## Antibióticos
 
-Nuestra primera línea de defensa ante las bacterias son los antibióticos.
+Hoy en día nuestra primera línea de defensa ante las bacterias son los antibióticos.
+¿Cómo se descubrieron?
 
 Corría el año 1928.
 El doctor Alexander Fleming volvió de vacaciones para encontrarse
@@ -305,6 +315,8 @@ la facilidad que tienen las bacterias para transferir genes entre ellas.
 Cuando se trata una enfermedad con un antibiótico
 es fácil que las bacterias benéficas del intestino se vuelvan resistentes,
 [y pueden transferir esa inmunidad a otras bacterias patógenas](https://www.frontiersin.org/articles/10.3389/fmicb.2013.00086/full).
+Fleming ya advirtió del peligro de abusar de los antibióticos
+[en su discurso de aceptación del premio Nobel](https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf).
 
 Hoy día tenemos una gran variedad de antibióticos,
 pero la situación empeora rápidamente,
@@ -313,7 +325,7 @@ hasta el punto de que la Organización Mundial de la Salud ha
 Sobre todo en el tercer mundo
 [la sobremedicación está fuera de control](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017),
 lo que hace que los antibióticos estén perdiendo eficacia a ojos vista.
-Es necesario emplear enfoques de big data que permitan descubrir rápidamente a qué antibióticos es resistente una cepa,
+Es necesario emplear técnicas de big data que permitan descubrir rápidamente a qué antibióticos es resistente una cepa,
 y poner así el tratamiento adecuado lo antes posible.
 
 ![Antibióticos disponibles sin receta en una pequeña farmacia rural de Vietnam. [Fuente](https://www.researchgate.net/publication/316286376_Small_bugs_big_data_clinical_microbiology_in_a_digitising_world_Inaugural_lecture_2017).](pics/bacterias-antibioticos-vietnam.jpg "En esta farmacia se dispensan más de 60 antibióticos sin receta, incluyendo clásicos como Clamoxyl o Augmentin.")

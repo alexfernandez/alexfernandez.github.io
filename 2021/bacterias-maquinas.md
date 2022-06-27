@@ -59,7 +59,7 @@ Gracias a
 por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
 También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
-Gracias a Cristina Pacios, Bióloga Molecular y Celular (e investigadora excepcional),
+Gracias a Cristina Pacios, bióloga molecular y celular (e investigadora excepcional),
 y a [Azahara Fernández](https://twitter.com/azahara_fergui),
 doctora en inmunología,
 por revisar mi torpe artículo y darme valiosas referencias.
