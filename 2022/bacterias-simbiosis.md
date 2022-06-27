@@ -5,9 +5,9 @@ footer: Publicado el 2022-06-27, modificado el 2022-06-27.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
 
-![Imagen de microscopio electrónico de una bacteria y un macrófago a punto de fagocitar un virus. En el fondo puede verse a una bacteria luchando contra algunos anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a un virus.")
+![Imagen de microscopio electrónico de una bacteria y un macrófago a punto de fagocitar un virus. En el fondo puede verse a una bacteria luchando contra algunos anticuerpos. [Fuente](https://www.institutfrancais.pl/fr/evs/maestro-et-les-personnages-cultes-de-la-serie-d-animation-il-etait-une-fois-la-vie-ont-deja-30-ans).](pics/bacterias-erase-una-vez-macrofago.jpg "En realidad se trata de una imagen de la serie infantil de dibujos animados 'Érase una vez… la vida', con Tiñoso en primer plano y un policía-macrófago persiguiendo a un virus.")
 
-Está comúnmente aceptado que las bacterias producen multitud de enfermedades en plantas,
+Se acepta comúnmente que las bacterias producen multitud de enfermedades en plantas,
 animales y humanos.
 
 También sabemos que en nuestro cuerpo,
@@ -18,8 +18,8 @@ y sabemos que son esenciales para la vida humana.
 
 # Replicación rápida
 
-Una característica interesante (y que da bastante miedo)
-de las bacterias es lo rápido que son capaces de reproducirse.
+Una característica interesante de las bacterias (y que da bastante miedo)
+es lo rápido que son capaces de reproducirse.
 
 El [tiempo de replicación de las bacterias típicas en el laboratorio](http://textbookofbacteriology.net/growth_3.html)
 puede oscilar entre unos 20 minutos para _Escherichia coli_ y 15 horas para _Mycobacterium tuberculosis_.
@@ -28,14 +28,11 @@ En la naturaleza se observan
 alrededor de una hora para _E. coli_.
 En el tiempo en el que un mamífero particularmente prolífico madura y procrea,
 [unas 12 semanas para un ratón](https://www.orkin.com/rodents/mouse-control/life-cycle),
-las bacterias se habrán duplicado unas 2000 veces.
+estas bacterias se habrán duplicado unas 2000 veces.
 
 Esta velocidad de replicación implica que las bacterias pueden evolucionar muy rápido.
-
-## Evolución rápida
-
-¿Cómo de rápida puede ser realmente la evolución bacteriana?
-Este vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
+¿Cómo de rápido?
+Este increíble vídeo muestra cómo evoluciona una cepa bacteriana en pocas horas
 para conseguir inmunidad ante un antibiótico.
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/plVk4NVIUh8?start=44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -71,7 +68,7 @@ pero cuando están metidas en frascos resulta muy ventajoso aprovechar el medio 
 
 No hay mejor forma de controlar el nivel de bacterias que el jabón:
 hace 150 años que Semmelweis insistió en que los médicos se lavaran las manos
-después de hacer necropsias y antes de traer bebés al mundo,
+tras una necropsia y antes de traer un bebé al mundo,
 [reduciendo la mortalidad por sepsis del 22% al 3%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1115132/).
 Seguro que has visto jabones anunciados que
 [matan el 99.9% de las bacterias](https://www.vix.com/es/imj/salud/147382/los-jabones-antibacteriales-combaten-realmente-el-999-de-las-bacterias).
@@ -86,14 +83,14 @@ O dicho de otra forma, ni una noche entera.
 
 ![El problema de las bacterias es que hay muchas. Aunque mates el 99.99% de las que hay por ahí, seguirás teniendo un montonaco. [Fuente](https://xkcd.com/1161/).](pics/bacterias-hand-sanitizer-xkcd.png "Una gota invisible de estornudo contiene 200 millones de gérmenes. El desinfectante de manos mata el 99.99% de las bacterias. Si haces las cuentas, 200000000 * 0.0001 = ¡Biij")
 
-Seguir añadiendo nueves no nos protege demasiado más:
-cada nuevo nueve sólo añade tres horas y veinte minutos.
+Seguir añadiendo nueves no nos protege demasiado tiempo más:
+cada nueve sólo añade tres horas y veinte minutos.
 Incluso un jabón que elimine
 [el 99.999% de las bacterias](http://www2.debgroup.com/sites/default/files/pdfs/Por-que-es-importante-el-99.999%25.pdf)
 nos dejará las manos exactamente igual tras unas 17 horitas.
 Preocuparse en este punto puede parecer exagerado,
 pero ¿quién quiere que las manos de un cirujano tras una
-[operación compleja](https://www.standard.co.uk/news/health/hand-left-hanging-by-chop-saw-is-reattached-in-17-hours-of-surgery-a4222061.html)
+[operación larga y compleja](https://www.standard.co.uk/news/health/hand-left-hanging-by-chop-saw-is-reattached-in-17-hours-of-surgery-a4222061.html)
 vuelvan a estar como al llegar de la calle?
 Así que es mejor confiar en que los jabones tendrán algún tipo de efecto que retarde el crecimiento.
 
@@ -104,13 +101,17 @@ Vamos a ahondar en algunos aspectos del increíble sistema inmune humano.
 
 ## Zoonosis
 
+Este término ha cobrado especial relevancia tras
+[la pandemia de COVID-19](https://www.science.org/doi/10.1126/science.abn2222),
+pero el fenómeno está con nosotros desde que existimos como especie.
+
 El ser humano se encuentra en un lugar muy interesante desde el punto de vista inmune.
-Los animales salvajes suelen encontrarse en un ecosistema limitado,
+Los animales salvajes suelen vivir en un ecosistema limitado,
 y sólo tienen que tratar con cierto número de especies que les puedan contagiar enfermedades.
-El ser humano, por el contrario,
-se mueve entre ecosistemas,
-ha domesticado múltiples especies,
-y además tiene contacto frecuente entre casi todas sus subpoblaciones.
+Nosotros, por el contrario,
+nos movemos habitualmente entre ecosistemas,
+hemos domesticado múltiples especies,
+y además tenemos contacto frecuente entre casi todas sus subpoblaciones.
 Por eso
 [el sistema inmune humano es el más complejo que conocemos](https://www.aber.ac.uk/~dcswww/ISYS/immune_system.html).
 
@@ -123,11 +124,13 @@ Y muchas de éstas provienen de
 [fauna salvaje](https://s3.amazonaws.com/academia.edu.documents/31795667/published.pdf?response-content-disposition=inline%3B%20filename%3DWild_life_a_hidden_warehouse_of_zoonosis.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200128T225616Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5284d7827fc7f090b9a2d425909a07d8ccb7f081f95c353cee123952a46a5375),
 como el virus del ébola que
 [proviene del murciélago de la fruta](https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease).
-Al parecer la reciente infección de coronavirus
-[tiene su origen en serpientes salvajes](https://www.citynews1130.com/wp-content/blogs.dir/sites/9/2020/01/23/Ji_et_al-2020-Journal_of_Medical_Virology.pdf).
 
-Es interesante señalar que a menudo las enfermedades zoonóticas
-[no causan síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
+El vínculo entre una enfermedad y su origen no siempre es fácil de encontrar.
+Todavía no se ha descubierto el origen de la reciente infección de coronavirus,
+aunque es probable que
+[sea también zoonótica](https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part).
+Como es lógico, las enfermedades zoonóticas
+[no suelen causar síntomas en sus huéspedes naturales](https://www.degruyter.com/downloadpdf/j/bvip.2015.59.issue-2/bvip-2015-0026/bvip-2015-0026.pdf).
 
 Durante la conquista de América, los españoles e ingleses jugaron a su favor con enfermedades como la viruela,
 que causaron una mortalidad de [más del 90%](?).
