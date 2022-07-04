@@ -2632,7 +2632,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		display: block;
-		font-family: "Source Code Pro", monospace;
 		color: white;
 		height: 9em;
 		width: 100%;
@@ -2640,9 +2639,7 @@
 
 	.home {
 		padding: 0.8em;
-	}
-
-	#home {
+		font-family: "Source Code Pro", monospace;
 		border-bottom: none;
 		color: white;
 		text-decoration: none;
