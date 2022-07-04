@@ -54,7 +54,7 @@ it took me 1 hours to do so
 
 ## Conclusion
 
-All tools, just like [/2022/understanding-limits](physical laws),
+All tools, just like [physical laws](/2022/understanding-limits),
 have their range of application.
 
 ## Acknowledgements
