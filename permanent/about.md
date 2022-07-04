@@ -5,7 +5,7 @@ footer: Published on 2022-07-04, last edited on 2022-07-04.
   [Comments, improvements?](https://twitter.com/pinchito)
 ---
 
-![Yours truly.](/avatar.jpg "🤔. Source: Photo by Sergio García, https://twitter.com/sgmonda.")
+![Yours truly.](/pics/avatar.jpg "🤔. Source: Photo by Sergio García, https://twitter.com/sgmonda.")
 
 
 ## 🙈 TL;DR
