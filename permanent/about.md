@@ -19,11 +19,14 @@ I am not sure who can be interested in this stuff,
 but there you go.
 
 I live in Madrid with my family.
-I have lots of interests:
+I have lots of interests,
+and are about equally unskilled at them:
+
 * Drawing and art.
 * Biology.
 * Linguistics.
 * Physics.
+* Computers.
 
 My day job involves computers.
 I don't have a night job.
