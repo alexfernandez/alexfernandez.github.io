@@ -47,13 +47,11 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><a href="/"><img src="/pics/avatar.jpg" alt="Avatar" /></a></span>
-					<h1 id="logo"><a href="/">Alex Fernández</a></h1>
-					<p>
-					I am a developer known on Twitter as
-					<a id="follower" href="https://twitter.com/intent/follow?screen_name=pinchito" target="_blank"><i id="birdie"></i> @pinchito</a>.
-					You can find me on
-					<a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">GitHub</a>,
+					<p><a href="/">Blog</a></p>
+					<p><a href="/cv">CV</a></p>
+					<p>You can find me:
+					<a id="follower" href="https://twitter.com/intent/follow?screen_name=pinchito" target="_blank"><i id="birdie"></i>@pinchito</a>,
+					<a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">alexfernandez @ GitHub</a>,
 					<a href="https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg">YouTube</a>.
 					<p>
 					This site uses (gasp!) cookies for gathering statistics.
@@ -81,108 +79,108 @@
 										<p>On the Road to Quantum Entropy, Part 1<p>
 									</header>
 																				<figure>
-<img src="pics/understanding-entropy-drawing.jpg" title="A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author." alt="An image with increasing entropy, from top left to bottom right." /><figcaption>An image with increasing entropy, from top left to bottom right.</figcaption>
-</figure>
-<p>Come with me on this wondeful journey, where we will reason together about the deepest problems known to mankind in easy to follow terms. In the process we will try to guess the (possible) future of computing, look into the nature of time itself, and then we will check if rigorous, modern Physics agrees with our conclusions.</p>
-<p>We will start our travel with something already abstract enough: <strong>entropy</strong>. What is it, and why does it matter? Let’s go right into it!</p>
-<h2 id="introduction">Introduction</h2>
-<p>In Philosophy there has always been a tradition of people just trying to understand the things we see around us. The study of the physical world, then called Natural Philosophy, was no exception. But a few centuries ago Physics became the realm of specialists, with increasingly complex Maths that needed to be understood in depth before reaching any conclusions. Still, there has always been a current of people just trying to understand the world, even if their conclusions need to be validated rigorously before they can be taken seriously.</p>
-<p>I graduated in Physics many years ago, and got a glimpse of the delights of modern sciences. Now I think that understanding Nature (“the pleasure of finding things out”, as Feynman used to say) should not be exclusive to specialists: even the layperson can think with certain precision and without too much handwaving.</p>
-<p>So I thought, why not start with something simple, such as entropy? No, really, we are going there. The classical version of entropy has been thoroughly studied, and is thought to be well understood; but there is always a fresh way to look at things.</p>
-<h2 id="the-feared-e-word">The Feared E-word</h2>
-<p>The starting point already baffles many people <em>including physicists</em>: what exactly is entropy, and how can it be defined? It is unlike any other physical magnitudes. Its most striking property is that in a closed system it always grows with time, or at most stays constant.</p>
-<p>Many people will tell you that entropy is “a measure of disorder”. Please forget about it; this approach is highly confusing as can be seen in the Wikipedia article for <a href="https://en.wikipedia.org/wiki/Entropy_(order_and_disorder)">Entropy (order and disorder)</a>.</p>
-<p>Luckily there is a more fruitful approach: entropy can also be defined as “information” in the Shannon sense. The Wikipedia article for <a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Entropy (information theory)</a> has a long and erudite explanation, but it can be stated in a simple way:</p>
-<blockquote>
-<p>Information always grows.</p>
-</blockquote>
-<p>Or more precisely: the information needed to fully describe a system always grows. As a system evolves we need more and more information to describe it. Therefore information behaves exactly like entropy, and in fact both are equivalent. In this article I will try to give you a sense of what this principle means.</p>
-<h3 id="a-graphical-glimpse">A Graphical Glimpse</h3>
-<p>Talk is cheap, while images feed our intuition. Is there any way to see this information growth?</p>
-<p>If you look at the picture that introduces the article you can get a sense of it: at the top left corner we have a dot which is very easy to describe, just by its center and radius. The increasingly fuzzy stains as we move bottom and right need more info: first they have a defined irregular shape, then several strokes, and finally a fudge of varying intensity.</p>
-<p>The information content of each spot is not something abstract; it can be easily measured in kilobytes (KB). For a quick test we will save each image as PNG and see how much information it contains (that is, simply how big each file is).</p>
-<figure>
-<img src="pics/understanding-entropy-dot.png" title="Round dot" alt="The first dot saved as PNG “weighs” 2.1 KB." /><figcaption>The first dot saved as PNG “weighs” 2.1 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-stain.png" title="Irregular stain" alt="A well-defined stain weighs 2.7 KB." /><figcaption>A well-defined stain weighs 2.7 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-blot.png" title="Wider blot" alt="A wider blot is at 5.2 KB." /><figcaption>A wider blot is at 5.2 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-fuzzy.png" title="Fuzzy stain" alt="A fuzzy stain is now 18 KB." /><figcaption>A fuzzy stain is now 18 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-splotch.png" title="Merging splotch" alt="Finally, a large splotch (which merges with its surroundings) is 20.9 KB." /><figcaption>Finally, a large splotch (which merges with its surroundings) is 20.9 KB.</figcaption>
-</figure>
-<p>This sequence is an artistic illustration of how entropy works; physical systems often follow the same pattern. A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank. The drop is gradually smeared until it is completely mixed into the containing fluid, which is when the entropy of the combined system drop + fluid is maximized.</p>
-<figure>
-<img src="pics/understanding-entropy-diffusion.png" title="A drop of dye diffuses into water, the drop becomes a blotch, until water turns purplish. Source: https://en.wikipedia.org/wiki/Diffusion#/media/File:Blausen_0315_Diffusion.png" alt="Three-dimensional rendering of diffusion of purple dye in water." /><figcaption>Three-dimensional rendering of diffusion of purple dye in water.</figcaption>
-</figure>
-<p>As systems evolve, their entropy always grows, and the amount of information needed to describe them also grows. Because, remember, they are one and the same!</p>
-<h3 id="diffusion-simulator">Diffusion Simulator</h3>
-<p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time. The following script will show a 2D simulation of diffusion, where each black particle follows a random walk, plus a primitive collision detection.</p>
-<script src="https://pinchito.es/physics-simulation/diffusion/diffusion.js"></script>
-<canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
-</canvas>
-<div id="form">
-<form id="params">
-<input style="display: none;" type="number" id="particles" value="10000"> <input style="display: none;" type="number" id="speed" value="10"> <input style="display: none;" type="checkbox" id="visited"> <input style="display: none;" type="checkbox" id="autorun"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
-</form>
-</div>
-<p>Let us see if we can measure the information content at several steps. At the beginning we have a mostly round shape: points are placed near the center with a certain initial drift. Then each point slowly moves away every 0.1 seconds, in a random direction each time. As before, we take a snapshot and save it.</p>
-<figure>
-<img src="pics/understanding-entropy-diffusion1.png" title="10k points in a mostly round shape" alt="At the start the PNG weighs 9.2 KB." /><figcaption>At the start the PNG weighs 9.2 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-diffusion2.png" title="Most points are slowly drifting, the center circle still clearly visible" alt="At 2.4 seconds the PNG has increased to 15.7 KB." /><figcaption>At 2.4 seconds the PNG has increased to 15.7 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-diffusion3.png" title="Now the image is mostly a blur at the center" alt="Right before 10 seconds the file is already at 21.9 KB." /><figcaption>Right before 10 seconds the file is already at 21.9 KB.</figcaption>
-</figure>
-<figure>
-<img src="pics/understanding-entropy-diffusion4.png" title="A nebulous cloud of dots" alt="At 25 seconds we have 26.7 KB." /><figcaption>At 25 seconds we have 26.7 KB.</figcaption>
-</figure>
-<p>At this point more or less information stops growing. Why? These images are stored using the lossless format PNG, which is not really an accurate measurement of the information content! In fact PNG is notoriously poor at encoding random images. If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.</p>
-<p>Any file format will be an upper limit on the real content of information, since someone can come with an even better compression at any time. As long as a compression algorithm is lossless (so the original image can be reproduced without any detail loss), the resulting file will be proof that the information content was at most its new file size.</p>
-<p>By the way, you can play with the simulation <a href="https://pinchito.es/physics-simulation/diffusion/">here</a>.</p>
-<h3 id="the-real-world">The Real World</h3>
-<p>Is it possible to see also this growth of information on a real system? Let us first do a rough approximation. How can we measure the information of a real system? In this <a href="https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093">Getty image</a>, similar to the one above, we can see a sequence of diffusion in a liquid. Let us try our previous method to measure information: if we divide each step and weigh the resulting PNG images we get 44.2, 56.2 and 65.7 KB.</p>
-<p>This is a coarse method, no doubt, but it is useful to show that we are on the right path. Of course the real entropy will be 3D and depend on the positions of all molecules, and will therefore be astronomically higher. But in fact our silly method is not so far from real measures of entropy: a common technique to compute entropy is to do boxing of the system with a finer and finer grid until all the relevant information has been captured.</p>
-<h2 id="so-what-about-order">So What About Order?</h2>
-<p>Why is disorder so commonly associated to entropy? It is easy to see with our image encoding examples: ordered images take less information to encode. In fact, lossless encoding like PNG works by finding patterns in the image, which helps save those valuable bytes.</p>
-<figure>
-<img src="pics/understanding-entropy-crystal.svg" title="Crystalline structure is very regular; while a policrystalline arrangement is composed of crystaline bits merged together, and amorphous substances have just molecules piled up. Source: https://en.wikipedia.org/wiki/Crystal#/media/File:Crystalline_polycrystalline_amorphous2.svg" alt="Three different solid arrangements; crystals can be described quite efficiently." /><figcaption>Three different solid arrangements; crystals can be described quite efficiently.</figcaption>
-</figure>
-<p>Similarly, it is easy to describe a <a href="https://en.wikipedia.org/wiki/Crystal">crystal</a> (a very ordered way of storing matter in a lattice) as a group of atoms at regular positions in space. Each imperfection, each atom out of place will need to be described separately. Even thermal movement (molecules wiggling around their places in the lattice) can be described more efficiently as a resting place + a displacement.</p>
-<h2 id="statistical-entropy">Statistical Entropy</h2>
-<p>There is another interesting approach that needs to be mentioned, which comes from statistical mechanics and was pioneered by Boltzmann. See the Wikipedia page for <a href="https://en.wikipedia.org/wiki/Entropy_%28statistical_thermodynamics%29">Entropy (statistical thermodynamics)</a> for more information. <strong>Warning: some maths ahead!</strong></p>
-<p>Entropy is now defined as the logarithm of the number Ω of possible states for a system, multiplied by a constant:</p>
-<blockquote>
-<p><em>S</em> = <em>k</em><sub>B</sub> ln Ω</p>
-</blockquote>
-<p>How do we understand the logarithm? Again, it is quite simple if we go back just to information. The information required to store a number <em>N</em> can be easily defined as the number of bits of <em>N</em>, which is computed as the logarithm in base two of <em>N</em>:</p>
-<blockquote>
-<p><em>I</em> = log<sub>2</sub>(<em>N</em>)</p>
-</blockquote>
-<p>Since changing logarithm base is equivalent to multiplying by a constant, we only need to change constants to reach the information content:</p>
-<blockquote>
-<p><em>S</em> ∝ <em>I</em></p>
-</blockquote>
-<p>This last equation means that entropy is proportional to information. Why? Easy! If we have <em>N</em> possible states for a system, then to completely describe this system we can just number all states, and then supply the number of the state where the system is at. So, again, an increase in entropy is just another way of saying that the information required to describe a system has grown.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>In short: <strong>entropy is just another name for information</strong>. If you will allow me to finish with a cheesy metaphor, we live in the information era, so it is no wonder that we live in turbulent times.</p>
-<p>We will soon continue our journey exploring quantum entropy.</p>
-<h3 id="references">References</h3>
-<p>The book <a href="https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood">The Information: A History, a Theory, a Flood</a> is a gentle introduction to the subject of information for everyone.</p>
-<p>If you like reading about hard-core Physics, the book <a href="https://www.springer.com/gp/book/9783540680000">The Physical Basis of The Direction of Time</a> will give you endless pleasure. Warning: full of complex equations and not for the faint of heart.</p>
-<p>I cannot resist linking to the <a href="http://www.eoht.info/page/Neumann-Shannon%20anecdote">supposed advice</a> of von Neumann, one of the greatest mathematicians of the 20th century, to Shannon, the father of Information Theory:</p>
-<blockquote>
-<p>You should call [your measure of information] entropy: […] nobody knows what entropy is, so in a debate you will always have the advantage.</p>
-</blockquote>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Your name could be here! Just send a comment or suggestion to the address given below.</p>
+                    <img src="pics/understanding-entropy-drawing.jpg" title="A round dot at the top left is followed by a matrix of increasingly blurry dots, with more structure and levels of depth. Source: the author." alt="" /><figcaption>An image with increasing entropy, from top left to bottom right.</figcaption>
+                    </figure>
+                    <p>Come with me on this wondeful journey, where we will reason together about the deepest problems known to mankind in easy to follow terms. In the process we will try to guess the (possible) future of computing, look into the nature of time itself, and then we will check if rigorous, modern Physics agrees with our conclusions.</p>
+                    <p>We will start our travel with something already abstract enough: <strong>entropy</strong>. What is it, and why does it matter? Let’s go right into it!</p>
+                    <h2 id="introduction">Introduction</h2>
+                    <p>In Philosophy there has always been a tradition of people just trying to understand the things we see around us. The study of the physical world, then called Natural Philosophy, was no exception. But a few centuries ago Physics became the realm of specialists, with increasingly complex Maths that needed to be understood in depth before reaching any conclusions. Still, there has always been a current of people just trying to understand the world, even if their conclusions need to be validated rigorously before they can be taken seriously.</p>
+                    <p>I graduated in Physics many years ago, and got a glimpse of the delights of modern sciences. Now I think that understanding Nature (“the pleasure of finding things out”, as Feynman used to say) should not be exclusive to specialists: even the layperson can think with certain precision and without too much handwaving.</p>
+                    <p>So I thought, why not start with something simple, such as entropy? No, really, we are going there. The classical version of entropy has been thoroughly studied, and is thought to be well understood; but there is always a fresh way to look at things.</p>
+                    <h2 id="the-feared-e-word">The Feared E-word</h2>
+                    <p>The starting point already baffles many people <em>including physicists</em>: what exactly is entropy, and how can it be defined? It is unlike any other physical magnitudes. Its most striking property is that in a closed system it always grows with time, or at most stays constant.</p>
+                    <p>Many people will tell you that entropy is “a measure of disorder”. Please forget about it; this approach is highly confusing as can be seen in the Wikipedia article for <a href="https://en.wikipedia.org/wiki/Entropy_(order_and_disorder)">Entropy (order and disorder)</a>.</p>
+                    <p>Luckily there is a more fruitful approach: entropy can also be defined as “information” in the Shannon sense. The Wikipedia article for <a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Entropy (information theory)</a> has a long and erudite explanation, but it can be stated in a simple way:</p>
+                    <blockquote>
+                    <p>Information always grows.</p>
+                    </blockquote>
+                    <p>Or more precisely: the information needed to fully describe a system always grows. As a system evolves we need more and more information to describe it. Therefore information behaves exactly like entropy, and in fact both are equivalent. In this article I will try to give you a sense of what this principle means.</p>
+                    <h3 id="a-graphical-glimpse">A Graphical Glimpse</h3>
+                    <p>Talk is cheap, while images feed our intuition. Is there any way to see this information growth?</p>
+                    <p>If you look at the picture that introduces the article you can get a sense of it: at the top left corner we have a dot which is very easy to describe, just by its center and radius. The increasingly fuzzy stains as we move bottom and right need more info: first they have a defined irregular shape, then several strokes, and finally a fudge of varying intensity.</p>
+                    <p>The information content of each spot is not something abstract; it can be easily measured in kilobytes (KB). For a quick test we will save each image as PNG and see how much information it contains (that is, simply how big each file is).</p>
+                    <figure>
+                    <img src="pics/understanding-entropy-dot.png" title="Round dot" alt="" /><figcaption>The first dot saved as PNG “weighs” 2.1 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-stain.png" title="Irregular stain" alt="" /><figcaption>A well-defined stain weighs 2.7 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-blot.png" title="Wider blot" alt="" /><figcaption>A wider blot is at 5.2 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-fuzzy.png" title="Fuzzy stain" alt="" /><figcaption>A fuzzy stain is now 18 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-splotch.png" title="Merging splotch" alt="" /><figcaption>Finally, a large splotch (which merges with its surroundings) is 20.9 KB.</figcaption>
+                    </figure>
+                    <p>This sequence is an artistic illustration of how entropy works; physical systems often follow the same pattern. A classical example of growing entropy is a drop of fluid diffusing in another fluid inside a larger tank. The drop is gradually smeared until it is completely mixed into the containing fluid, which is when the entropy of the combined system drop + fluid is maximized.</p>
+                    <figure>
+                    <img src="pics/understanding-entropy-diffusion.png" title="A drop of dye diffuses into water, the drop becomes a blotch, until water turns purplish. Source: https://en.wikipedia.org/wiki/Diffusion#/media/File:Blausen_0315_Diffusion.png" alt="" /><figcaption>Three-dimensional rendering of diffusion of purple dye in water.</figcaption>
+                    </figure>
+                    <p>As systems evolve, their entropy always grows, and the amount of information needed to describe them also grows. Because, remember, they are one and the same!</p>
+                    <h3 id="diffusion-simulator">Diffusion Simulator</h3>
+                    <p>Now it’s a good time to build a simplistic model of a system, and to see how it evolves with time. The following script will show a 2D simulation of diffusion, where each black particle follows a random walk, plus a primitive collision detection.</p>
+                    <script src="https://pinchito.es/physics-simulation/diffusion/diffusion.js"></script>
+                    <canvas id="canvas" width="768" height="576" style="border: solid black 1px; max-width: 100%; max-height: 100%;">
+                    </canvas>
+                    <div id="form">
+                    <form id="params">
+                    <input style="display: none;" type="number" id="particles" value="10000"> <input style="display: none;" type="number" id="speed" value="10"> <input style="display: none;" type="checkbox" id="visited"> <input style="display: none;" type="checkbox" id="autorun"> <button id="run" type="button">run</button> <button id="pause" type="button">pause</button> <button id="reset" type="button">reset</button>
+                    </form>
+                    </div>
+                    <p>Let us see if we can measure the information content at several steps. At the beginning we have a mostly round shape: points are placed near the center with a certain initial drift. Then each point slowly moves away every 0.1 seconds, in a random direction each time. As before, we take a snapshot and save it.</p>
+                    <figure>
+                    <img src="pics/understanding-entropy-diffusion1.png" title="10k points in a mostly round shape" alt="" /><figcaption>At the start the PNG weighs 9.2 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-diffusion2.png" title="Most points are slowly drifting, the center circle still clearly visible" alt="" /><figcaption>At 2.4 seconds the PNG has increased to 15.7 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-diffusion3.png" title="Now the image is mostly a blur at the center" alt="" /><figcaption>Right before 10 seconds the file is already at 21.9 KB.</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="pics/understanding-entropy-diffusion4.png" title="A nebulous cloud of dots" alt="" /><figcaption>At 25 seconds we have 26.7 KB.</figcaption>
+                    </figure>
+                    <p>At this point more or less information stops growing. Why? These images are stored using the lossless format PNG, which is not really an accurate measurement of the information content! In fact PNG is notoriously poor at encoding random images. If we use the WebP format the sizes are 3.1, 6.0, 8.9 and 11.2 KB.</p>
+                    <p>Any file format will be an upper limit on the real content of information, since someone can come with an even better compression at any time. As long as a compression algorithm is lossless (so the original image can be reproduced without any detail loss), the resulting file will be proof that the information content was at most its new file size.</p>
+                    <p>By the way, you can play with the simulation <a href="https://pinchito.es/physics-simulation/diffusion/">here</a>.</p>
+                    <h3 id="the-real-world">The Real World</h3>
+                    <p>Is it possible to see also this growth of information on a real system? Let us first do a rough approximation. How can we measure the information of a real system? In this <a href="https://www.gettyimages.es/detail/foto/diffusion-in-water-imagen-libre-de-derechos/460717093">Getty image</a>, similar to the one above, we can see a sequence of diffusion in a liquid. Let us try our previous method to measure information: if we divide each step and weigh the resulting PNG images we get 44.2, 56.2 and 65.7 KB.</p>
+                    <p>This is a coarse method, no doubt, but it is useful to show that we are on the right path. Of course the real entropy will be 3D and depend on the positions of all molecules, and will therefore be astronomically higher. But in fact our silly method is not so far from real measures of entropy: a common technique to compute entropy is to do boxing of the system with a finer and finer grid until all the relevant information has been captured.</p>
+                    <h2 id="so-what-about-order">So What About Order?</h2>
+                    <p>Why is disorder so commonly associated to entropy? It is easy to see with our image encoding examples: ordered images take less information to encode. In fact, lossless encoding like PNG works by finding patterns in the image, which helps save those valuable bytes.</p>
+                    <figure>
+                    <img src="pics/understanding-entropy-crystal.svg" title="Crystalline structure is very regular; while a policrystalline arrangement is composed of crystaline bits merged together, and amorphous substances have just molecules piled up. Source: https://en.wikipedia.org/wiki/Crystal#/media/File:Crystalline_polycrystalline_amorphous2.svg" alt="" /><figcaption>Three different solid arrangements; crystals can be described quite efficiently.</figcaption>
+                    </figure>
+                    <p>Similarly, it is easy to describe a <a href="https://en.wikipedia.org/wiki/Crystal">crystal</a> (a very ordered way of storing matter in a lattice) as a group of atoms at regular positions in space. Each imperfection, each atom out of place will need to be described separately. Even thermal movement (molecules wiggling around their places in the lattice) can be described more efficiently as a resting place + a displacement.</p>
+                    <h2 id="statistical-entropy">Statistical Entropy</h2>
+                    <p>There is another interesting approach that needs to be mentioned, which comes from statistical mechanics and was pioneered by Boltzmann. See the Wikipedia page for <a href="https://en.wikipedia.org/wiki/Entropy_%28statistical_thermodynamics%29">Entropy (statistical thermodynamics)</a> for more information. <strong>Warning: some maths ahead!</strong></p>
+                    <p>Entropy is now defined as the logarithm of the number Ω of possible states for a system, multiplied by a constant:</p>
+                    <blockquote>
+                    <p><em>S</em> = <em>k</em><sub>B</sub> ln Ω</p>
+                    </blockquote>
+                    <p>How do we understand the logarithm? Again, it is quite simple if we go back just to information. The information required to store a number <em>N</em> can be easily defined as the number of bits of <em>N</em>, which is computed as the logarithm in base two of <em>N</em>:</p>
+                    <blockquote>
+                    <p><em>I</em> = log<sub>2</sub>(<em>N</em>)</p>
+                    </blockquote>
+                    <p>Since changing logarithm base is equivalent to multiplying by a constant, we only need to change constants to reach the information content:</p>
+                    <blockquote>
+                    <p><em>S</em> ∝ <em>I</em></p>
+                    </blockquote>
+                    <p>This last equation means that entropy is proportional to information. Why? Easy! If we have <em>N</em> possible states for a system, then to completely describe this system we can just number all states, and then supply the number of the state where the system is at. So, again, an increase in entropy is just another way of saying that the information required to describe a system has grown.</p>
+                    <h2 id="conclusion">Conclusion</h2>
+                    <p>In short: <strong>entropy is just another name for information</strong>. If you will allow me to finish with a cheesy metaphor, we live in the information era, so it is no wonder that we live in turbulent times.</p>
+                    <p>We will soon continue our journey exploring quantum entropy.</p>
+                    <h3 id="references">References</h3>
+                    <p>The book <a href="https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood">The Information: A History, a Theory, a Flood</a> is a gentle introduction to the subject of information for everyone.</p>
+                    <p>If you like reading about hard-core Physics, the book <a href="https://www.springer.com/gp/book/9783540680000">The Physical Basis of The Direction of Time</a> will give you endless pleasure. Warning: full of complex equations and not for the faint of heart.</p>
+                    <p>I cannot resist linking to the <a href="http://www.eoht.info/page/Neumann-Shannon%20anecdote">supposed advice</a> of von Neumann, one of the greatest mathematicians of the 20th century, to Shannon, the father of Information Theory:</p>
+                    <blockquote>
+                    <p>You should call [your measure of information] entropy: […] nobody knows what entropy is, so in a debate you will always have the advantage.</p>
+                    </blockquote>
+                    <h3 id="acknowledgements">Acknowledgements</h3>
+                    <p>Your name could be here! Just send a comment or suggestion to the address given below.</p>
 								</div>
 							</section>
 							<section id="last">
