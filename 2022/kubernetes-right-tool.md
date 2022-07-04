@@ -1,6 +1,6 @@
 ---
-title: '🛠️ Kubernetes is Sometimes the Right Tool for the Job'
-subtitle: 'And How to Tell When?'
+title: '🛠️ Kubernetes Can Be the Right Tool for the Job'
+subtitle: 'Can You Tell When It Is?'
 footer: Published on 2022-07-04, modified on 2022-07-04.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
