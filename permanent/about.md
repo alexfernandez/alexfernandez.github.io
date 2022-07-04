@@ -2,7 +2,7 @@
 title: About Alex Fernández 
 subtitle: 'The author of this blog reveals everything'
 footer: Published on 2022-07-04, last edited on 2022-07-04.
-  [Comments, improvements?](https://twitter.com/pinchito)
+  [Contact me](mailto:alexfernandeznpm@gmail.com)
 ---
 
 ![Yours truly.](/pics/avatar.jpg "🤔. Source: Photo by Sergio García, https://twitter.com/sgmonda.")
@@ -32,10 +32,4 @@ I don't have a night job.
 
 If you want more detailed info you can read
 [my CV](/cv).
-
-### 📧 Contact
-
-If you want to contact me the old-fashioned way you can find me at
-[alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
-Thanks for making it this far!
 
