@@ -146,7 +146,7 @@ Also it is now taller than a cow,
 so the cows cannot get on top of it;
 He needs a cumbersome tapered structure at the ends.
 
-The engineer comes by and suggests a simple cable-stayed bridge,
+The engineer comes by and suggests a simple cable-stayed bridge (4),
 which would not be a huge investment compared to all the materials already used:
 poured concrete and steel cables.
 
