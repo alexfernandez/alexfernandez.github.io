@@ -82,31 +82,63 @@ it took me 1 hours to do so
 
 ## 🌉 Building Bridges
 
-My favourite engineering metaphor is the ancient art of building bridges,
+My favourite engineering metaphor is based on the ancient art of building bridges,
 of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
-
-![Bridging a small stream is easy.](pics/k8s-bridges-small.png "1: simple drawing of two bits of land with a small river in between. 2: same river is now crossed by a cow walking on a plank of wood. Source: the author.")
-
 Suppose you are a cowboy that wants to move some cattle across their property.
+
+![Bridging a small stream is easy.](pics/k8s-bridges-small.png "1: simple drawing of a small river separating two bits of land. 2: the river is now bridged by a plank of wood, with a cow walking on it. Source: the author.")
+
 There is a small stream of water in the middle (1).
 Rather than have the cows wade it,
 the cowboy sets a plank of wood across the water (2).
 Cows go safely, everyone is happy.
 
-![Bridging a medium stream can be hard.](pics/k8s-bridges-medium.png "1: same land but a wider river in between, perhaps 20m wide. 2: . Source: the author.")
-
 The cowboy now finds a wider stream of water.
-Asking his friend the engineer for a solution,
-she comes up with a very simple yet clever arch bridge design (3):
-just one piece of concrete that can be poured elsewhere
-and set in place.
+
+![Bridging a medium stream can be hard.](pics/k8s-bridges-medium.png "1: a wider river, perhaps 10m wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. 3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
+
+He thinks to himself:
+"This is easy, I will just build a longer plank of wood" (1).
+But when his cows try to cross it,
+the plank breaks in the middle due to the weight
+and the cattle drown (2).
+
+Desperate he asks his friend the engineer for a solution,
+who comes up with a very simple yet clever arch bridge design (3):
+just one piece of concrete that can be poured elsewhere and set in place.
 When the cowboy hears the price, though,
 he thinks to himself:
-"I can do this using my techniques!"
-So with a lot of effort he builds a bigger, wider plank of wood.
+"I can do this!"
+So with a lot of effort he builds a bigger, wider plank of wood (4).
+The cows take some effort to walk onto it, but it works!
 
-![Bridging a large stream is really hard and needs specialized tools.](pics/k8s-bridges-large.png "1: same land but a wider river in between, perhaps 20m wide. 2: . Source: the author.")
+Was the arch bridge (3) over-engineered?
+It depends;
+the huge plank will probably do the job for some time,
+but it will not last long and will definitely not resist a flooding.
+Perhaps after having to rebuild it three or four times,
+the cowboy will go with the engineer's design after all.
 
+But this was not all! The big challenge is here:
+the cowboy realizes that if he could cross the river at its widest point,
+almost 40m across,
+he would save 1 km on his way home!
+Having learned his lesson he builds a thick plank like before (1),
+but this time it is not enough:
+it breaks and again his cattle drown (2).
+
+He does not want to bother his friend the engineer,
+plus he fears the price tag.
+So he builds a really huge plank of wood,
+using lots and lots of wood.
+This takes forever and he is not really happy with the result.
+Also it is now taller than a cow,
+so the cows cannot get on top of it;
+He needs a cumbersome tapered structure at the ends.
+The engineer comes by and suggests a simple cable-stayed bridge,
+which would not be a huge investment compared to all the materials needed.
+
+![Bridging a large stream is really hard and needs specialized tools.](pics/k8s-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
 
 ## Conclusion
 
