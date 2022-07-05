@@ -123,6 +123,9 @@ But this was not all! The big challenge is here:
 the cowboy realizes that if he could cross the river at its widest point,
 almost 40m across,
 he would save 1 km on his way home!
+
+![Bridging a large stream is really hard and needs specialized tools.](pics/k8s-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
+
 Having learned his lesson he builds a thick plank like before (1),
 but this time it is not enough:
 it breaks and again his cattle drown (2).
@@ -137,8 +140,6 @@ so the cows cannot get on top of it;
 He needs a cumbersome tapered structure at the ends.
 The engineer comes by and suggests a simple cable-stayed bridge,
 which would not be a huge investment compared to all the materials needed.
-
-![Bridging a large stream is really hard and needs specialized tools.](pics/k8s-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
 
 ## Conclusion
 
