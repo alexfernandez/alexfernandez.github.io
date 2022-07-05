@@ -84,6 +84,9 @@ it took me 1 hours to do so
 
 My favourite engineering metaphor is based on the ancient art of building bridges,
 of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
+
+### 🤠 The Cowboy and the Stream
+
 Suppose you are a cowboy that wants to move some cattle across their property.
 
 ![Bridging a small stream is easy.](pics/k8s-bridges-small.png "1: simple drawing of a small river separating two bits of land. 2: the river is now bridged by a plank of wood, with a cow walking on it. Source: the author.")
@@ -92,6 +95,8 @@ There is a small stream of water in the middle (1).
 Rather than have the cows wade it,
 the cowboy sets a plank of wood across the water (2).
 Cows go safely, everyone is happy.
+
+### 📏 The Over-engineered Bridge
 
 The cowboy now finds a wider stream of water.
 
@@ -119,6 +124,8 @@ but it will not last long and will definitely not resist a flooding.
 Perhaps after having to rebuild it three or four times,
 the cowboy will go with the engineer's design after all.
 
+### 🏗️ The Clumsy Bridge
+
 But this was not all! The big challenge is here:
 the cowboy realizes that if he could cross the river at its widest point,
 almost 40m across,
@@ -132,14 +139,16 @@ it breaks and again his cattle drown (2).
 
 He does not want to bother his friend the engineer,
 plus he fears the price tag.
-So he builds a really huge plank of wood,
+So he builds a really huge plank of wood (3),
 using lots and lots of wood.
 This takes forever and he is not really happy with the result.
 Also it is now taller than a cow,
 so the cows cannot get on top of it;
 He needs a cumbersome tapered structure at the ends.
+
 The engineer comes by and suggests a simple cable-stayed bridge,
-which would not be a huge investment compared to all the materials needed.
+which would not be a huge investment compared to all the materials already used:
+poured concrete and steel cables.
 
 ## Conclusion
 
