@@ -47,6 +47,8 @@ he thinks to himself:
 So with a lot of effort he builds a bigger, wider plank of wood (4).
 The cows take some effort to walk onto it, but it works!
 
+### 🤌 First Moral
+
 Was the arch bridge (3) over-engineered?
 It depends;
 the huge plank will probably do the job for some time,
@@ -57,7 +59,7 @@ For a little bit more perspective, ask yourself:
 the Romans built many bridges,
 including [this one in Salamanca](https://en.wikipedia.org/wiki/Roman_bridge_of_Salamanca)
 with 15 arches which is still standing.
-They could have done a much simpler job to last only for a couple of centuries.
+The builders could have done a much simpler job to last only for a couple of centuries.
 Were they over-engineering, or just awesome-engineering?
 
 ## 🏗️ The Clumsy Bridge
@@ -92,18 +94,26 @@ poured concrete and steel cables.
 The cowboy, having invested so much effort and time,
 tells her that he will go on with his project.
 
-This contrived example tries to illustrate the reality of software projects as they grow:
-the techniques that were once appropriate may become a real 
+After a couple of months he comes again to the engineer,
+utterly defeated while simulating casualness,
+and asks for the engineer's help.
+It is completed in three weeks,
+under budget since she is very cost-conscious,
+and it is not really very challenging.
 
-## Conclusion
+### 🤌 Second Moral
+
+This contrived example tries to illustrate the reality of evolving software:
+the techniques that were once appropriate may become a real drag as the system grows.
+
+## 🤔 Conclusion
 
 All tools, just like [physical laws](/2022/understanding-limits),
 have their range of application.
-In engineering disciplines,
-and in particular in software engineering,
-it becomes crucial to detect 
+The good engineer needs to know and dominate a wide range of techniques,
+and be able to switch between them depending on the needs of the project.
 
-### Acknowledgements
+### 🙏 Acknowledgements
 
 Thanks to my colleagues,
 in particular to
