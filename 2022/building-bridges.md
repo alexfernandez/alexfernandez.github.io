@@ -25,6 +25,10 @@ There is a small stream of water in the middle (1).
 Rather than have the cows wade it,
 the cowboy sets a plank of wood across the water (2).
 Cows go safely, everyone is happy.
+The plank is a bit wobbly,
+and perhaps it will not last very long,
+but for being an old plank of wood that was lying around
+it is definitely doing a good job.
 
 ## 📏 The Over-engineered Bridge
 
