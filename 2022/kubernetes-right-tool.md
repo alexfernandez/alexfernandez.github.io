@@ -80,7 +80,6 @@ But for a recent exemple. I just was able to split Sidekiq worker in several ser
 7:12
 it took me 1 hours to do so
 
-## 🌉 Building Bridges
 
 My favourite engineering metaphor is based on the ancient art of building bridges,
 of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
@@ -169,6 +168,8 @@ the techniques that were once appropriate may become a real
 
 All tools, just like [physical laws](/2022/understanding-limits),
 have their range of application.
+As explained in
+[🌉 Building Bridges](/2022/building-bridges).
 
 ## Acknowledgements
 
