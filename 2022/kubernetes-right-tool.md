@@ -123,6 +123,12 @@ the huge plank will probably do the job for some time,
 but it will not last long and will definitely not resist a flooding.
 Perhaps after having to rebuild it three or four times,
 the cowboy will go with the engineer's design after all.
+For a little bit more perspective, ask yourself:
+the Romans built many bridges,
+including [this one in Salamanca](https://en.wikipedia.org/wiki/Roman_bridge_of_Salamanca)
+with 15 arches which is still standing.
+They could have done a much simpler job to last only for a couple of centuries.
+Were they over-engineering, or just awesome-engineering?
 
 ### 🏗️ The Clumsy Bridge
 
@@ -139,16 +145,25 @@ it breaks and again his cattle drown (2).
 
 He does not want to bother his friend the engineer,
 plus he fears the price tag.
-So he builds a really huge plank of wood (3),
-using lots and lots of wood.
+So he makes plans to build a really thick plank of wood (3).
+He does not really know the amount of wood needed,
+so to be sure he goes for a two-meter tall "plank".
+There are no tree trunks this tall,
+so a more complex structure with many layers is required.
 This takes forever and he is not really happy with the result.
 Also it is now taller than a cow,
-so the cows cannot get on top of it;
-He needs a cumbersome tapered structure at the ends.
+so the cattle need a cumbersome tapered structure at the ends
+to be able to climb it.
+Meanwhile costs skyrocket due to the insane amounts of wood and labor required.
 
 The engineer comes by and suggests a simple cable-stayed bridge (4),
 which would not be a huge investment compared to all the materials already used:
 poured concrete and steel cables.
+The cowboy, having invested so much effort and time,
+tells her that he will go on with his project.
+
+This contrived example tries to illustrate the reality of software projects as they grow:
+the techniques that were once appropriate may become a real 
 
 ## Conclusion
 
