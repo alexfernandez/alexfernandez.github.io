@@ -110,6 +110,12 @@ and it is not really very challenging.
 This contrived example tries to illustrate the reality of evolving software:
 the techniques that were once appropriate may become a real drag as the system grows.
 
+At what point should we stop using wooden planks and start using concrete bridges?
+It is hard to foresee the future,
+but easy to judge in retrospect.
+Good engineers will refine their criteria over time,
+while cowboys will always be cowboys.
+
 ## 🤔 Conclusion
 
 All tools, just like [physical laws](/2022/understanding-limits),
