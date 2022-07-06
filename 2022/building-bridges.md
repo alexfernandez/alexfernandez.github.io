@@ -17,9 +17,9 @@ of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_typ
 
 ## 🤠 The Cowboy and the Stream
 
-Suppose you are a cowboy that wants to move some cattle across their property.
+Suppose you are a cowboy that wants to move some cattle across his property.
 
-![Bridging a small stream is easy.](pics/k8s-bridges-small.png "1: simple drawing of a small river separating two bits of land. 2: the river is now bridged by a plank of wood, with a cow walking on it. Source: the author.")
+![Bridging a small stream is easy.](pics/building-bridges-small.png "1: simple drawing of a small river separating two bits of land. 2: the river is now bridged by a plank of wood, with a cow walking on it. Source: the author.")
 
 There is a small stream of water in the middle (1).
 Rather than have the cows wade it,
@@ -30,7 +30,7 @@ Cows go safely, everyone is happy.
 
 The cowboy now finds a wider stream of water.
 
-![Bridging a medium stream can be hard.](pics/k8s-bridges-medium.png "1: a wider river, perhaps 10m wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. 3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
+![Bridging a medium stream can be hard.](pics/building-bridges-medium.png "1: a wider river, perhaps 10m wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. 3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
 
 He thinks to himself:
 "This is easy, I will just build a longer plank of wood" (1).
@@ -69,7 +69,7 @@ the cowboy realizes that if he could cross the river at its widest point,
 almost 40m across,
 he would save 1 km on his way home!
 
-![Bridging a large stream is really hard and needs specialized tools.](pics/k8s-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
+![Bridging a large stream is really hard and needs specialized tools.](pics/building-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
 
 Having learned his lesson he builds a thick plank like before (1),
 but this time it is not enough:
