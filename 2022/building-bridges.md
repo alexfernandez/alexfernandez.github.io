@@ -16,7 +16,8 @@ image: https://pinchito.es/2022/pics/building-bridges-salamanca.jpg
 
 My favourite engineering metaphor is based on the ancient art of building bridges,
 of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
-The simplest one is the "p
+The simplest one is the "plank of wood",
+technically a [beam bridge](https://en.wikipedia.org/wiki/Beam_bridge).
 
 ## 🤠 The Cowboy and the Stream
 
