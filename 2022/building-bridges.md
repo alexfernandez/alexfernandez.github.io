@@ -120,8 +120,12 @@ the techniques that were once appropriate may become a real drag as the system g
 At what point should we stop using wooden planks and start using concrete bridges?
 It is hard to foresee the future,
 but easy to judge in retrospect.
-Good engineers will refine their criteria over time,
-while cowboys will always be cowboys.
+The correct answer will depend on a lot of factors:
+expected load,
+planned durability,
+available budget,
+and many more.
+Usually it comes down to a judgement call.
 
 ## 🤔 Conclusion
 
@@ -129,6 +133,8 @@ All tools, just like [physical laws](/2022/understanding-limits),
 have their range of application.
 The good engineer needs to know and dominate a wide range of techniques,
 and be able to switch between them depending on the needs of the project.
+Good engineers will refine their criteria over time,
+while cowboys will always be cowboys.
 
 ### 🙏 Acknowledgements
 
