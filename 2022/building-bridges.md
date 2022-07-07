@@ -68,7 +68,7 @@ the cowboy will go with the engineer's design after all.
 For a little bit more perspective, ask yourself:
 the Romans built many bridges,
 including [this one in Salamanca](https://en.wikipedia.org/wiki/Roman_bridge_of_Salamanca)
-with 15 arches which is still standing.
+with 15 arches which is still standing 2000 years later.
 The builders could have done a much simpler job to last only for a couple of centuries.
 Were they over-engineering, or just awesome-engineering?
 
