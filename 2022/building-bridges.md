@@ -108,9 +108,9 @@ tells her that he will go on with his project.
 After a couple of months he comes again to the engineer,
 utterly defeated while simulating casualness,
 and asks for the engineer's help.
-It is completed in three weeks,
+The new project is completed in three weeks,
 under budget since she is very cost-conscious,
-and it is not really very challenging.
+and it is not really a very challenging construction.
 
 ### 🤌 Second Moral
 
