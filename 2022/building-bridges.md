@@ -95,7 +95,7 @@ so to be sure he goes for a one-meter tall "plank".
 He cannot find any tree trunks this long,
 so a more complex structure with many layers is required.
 This takes forever and he is not really happy with the result.
-Also it is now taller than a cow,
+Also the bridge is now almost as tall than a cow,
 so the cattle need a cumbersome tapered structure at the ends
 to be able to climb it.
 Meanwhile costs skyrocket due to the insane amounts of wood and labor required.
