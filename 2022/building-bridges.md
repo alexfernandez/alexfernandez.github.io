@@ -14,9 +14,9 @@ image: https://pinchito.es/2022/pics/building-bridges-salamanca.jpg
 
 ![The Roman bridge of Salamanca, dating from around the 1st Century BC.](pics/building-bridges-salamanca.jpg "Roman bridge of Salamanca, with 8 arches showing. By Wikipedia user Tamorlan. Source: https://en.wikipedia.org/wiki/File:Lado_romano_del_Puente_-_Salamanca.JPG")
 
-My favourite engineering metaphor is based on the ancient art of building bridges,
-of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
-The simplest one is the "plank of wood",
+My favourite engineering metaphor is based on the ancient art of building bridges.
+While there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types),
+the simplest one is the "plank of wood",
 technically a [beam bridge](https://en.wikipedia.org/wiki/Beam_bridge).
 
 ## 🤠 The Cowboy and the Stream
