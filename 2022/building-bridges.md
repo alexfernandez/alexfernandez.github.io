@@ -21,7 +21,7 @@ technically a [beam bridge](https://en.wikipedia.org/wiki/Beam_bridge).
 
 ## 🤠 The Cowboy and the Stream
 
-Once upon a time, a cowboy wanted to move some cattle across his property.
+Once upon a time, a cowboy wants to move some cattle across his property.
 
 ![Bridging a small stream is easy.](pics/building-bridges-small.png "1: simple drawing of a small river separating two bits of land, perhaps 3 meters long, with a cow for scale. 2: the river is now bridged by a plank of wood, with the cow walking on it. Source: the author.")
 
