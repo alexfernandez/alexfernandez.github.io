@@ -130,9 +130,9 @@ and be able to switch between them depending on the needs of the project.
 
 Thanks to my colleagues,
 in particular to
-[Jonathan Zimpfer]()
+[Jonathan Zimpfer](https://www.linkedin.com/in/jonathan-zimpfer-8443229a/)
 and
-[Alfredo López](),
+[Alfredo López](https://www.linkedin.com/in/alfredo-l%C3%B3pez-molt%C3%B3-b1814647/),
 for listening to evolving versions of this same story,
 and improving it with their input.
 Also to my friend
