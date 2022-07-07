@@ -91,8 +91,8 @@ He does not want to bother his friend the engineer,
 plus he fears the price tag.
 So he makes plans to build a really thick plank of wood (3).
 He does not really know the amount of wood needed,
-so to be sure he goes for a two-meter tall "plank".
-There are no tree trunks this tall,
+so to be sure he goes for a one-meter tall "plank".
+He cannot find any tree trunks this long,
 so a more complex structure with many layers is required.
 This takes forever and he is not really happy with the result.
 Also it is now taller than a cow,
