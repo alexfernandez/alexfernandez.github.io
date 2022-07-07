@@ -88,70 +88,70 @@
 										<p>Todo Para Producción v1<p>
 									</header>
 																				<figure>
-<img src="pics/tpp-ramas.png" title="Ejemplo de organización de ramas en TPP. Fuente: elaboración propia." alt="Crea rama, añade cambios, revisa, mezcla, crea tag, despliega." /><figcaption>Crea rama, añade cambios, revisa, mezcla, crea <em>tag</em>, despliega.</figcaption>
-</figure>
-<p>En esta sencilla metodología mantenemos sólo una rama activa, llámese <em>master</em> o <a href="https://github.com/github/renaming"><em>main</em></a>.</p>
-<ul>
-<li>Sacamos una rama para hacer un arreglo (<em>fix</em>) o una nueva funcionalidad (<em>feature</em>).</li>
-<li>Añadimos cambios (<em>commits</em>) a la rama.</li>
-<li>Creamos una petición de mezcla (<em>pull request</em> o <em>merge request</em>).</li>
-<li>Se van haciendo revisiones, añadiendo nuevos cambios y pasando los tests.</li>
-<li>Cuando los cambios están revisados y los tests pasan, mezclamos los cambios (hacemos <em>merge</em>).</li>
-<li>De nuevo se vuelven a pasar los tests en <em>master</em>.</li>
-<li>Una vez que los tests pasan, desplegamos en producción.</li>
-<li>A continuación etiquetamos la versión (<em>tag</em>).</li>
-</ul>
-<h2 id="de-dónde-viene-tpp">¿De dónde viene TPP?</h2>
-<p>Durante mis muchos años como desarrollador me he encontrado con muchas “metodologías” de desarrollo. Una de las más perniciosas últimamente es <a href="https://nvie.com/posts/a-successful-git-branching-model/">git-flow</a>, en la que se mantienen múltiples ramas para diferentes versiones. Más abajo la veremos más en detalle.</p>
-<p>Me atrevo a proponer públicamente TPPv1: Todo Para Producción v1, o <em>ToPaProd</em> para amiguis y coleguis. Es una simplificación radical apta tanto para servicios online como para librerías.</p>
-<h3 id="tpp-para-librerías">TPP para librerías</h3>
-<p>En librerías (para <code>npm</code>, <code>maven</code> o similares) las etiquetas son particularmente importantes: identifican la versión concreta de la librería que se va a usar.</p>
-<p>Seguiremos <a href="https://semver.org/">Semantic Versioning</a> a rajatabla. Las versiones se etiquetarán como <em>x.y.z</em>, donde:</p>
-<ul>
-<li>x: versión mayor (major). Rotura de compatibilidad ⇒ cambia x.</li>
-<li>y: versión menor (minor). Cambio de funcionalidad ⇒ cambia y.</li>
-<li>z: versión parche (patch). Arreglo de bugs ⇒ cambia z.</li>
-</ul>
-<p>Cada versión debe ser <strong>inmutable</strong>: está prohibidísimo publicar dos versiones diferentes con la misma etiqueta.</p>
-<p>En caso de fallo es trivial hacer una vuelta atrás a una versión anterior: sólo tenemos que apuntar a la última etiqueta válida.</p>
-<h3 id="tpp-para-sistemas-online">TPP para sistemas online</h3>
-<p>Para sistemas online no necesitamos mantener múltiples versiones; basta con mantener una única versión viva que es la que mantenemos en <em>master</em>.</p>
-<p>Una variante muy relevante en este caso consiste en mantener una rama adicional estable, donde mezclamos sólo el código que pasa las pruebas. Esta rama se puede llamar <em>stable</em>, <em>prod</em> o similar. Desplegaremos a producción siempre desde la rama estable.</p>
-<figure>
-<img src="pics/tpp-estable.png" title="Ejemplo de organización con rama estable para sistemas online. Fuente: elaboración propia." alt="Rama estable: tras mezclar en main, y sólo si pasan los tests, mezclamos en stable y desplegamos desde ahí." /><figcaption>Rama estable: tras mezclar en <em>main</em>, y sólo si pasan los tests, mezclamos en <em>stable</em> y desplegamos desde ahí.</figcaption>
-</figure>
-<p>En este caso las etiquetas o <em>tags</em> son menos importantes e incluso se pueden omitir. Para desplegar simplemente hacemos un <code>git pull</code>, y si es necesario lanzamos un build.</p>
-<h3 id="los-tests-de-master-no-pasan">¡Los tests de <em>master</em> no pasan!</h3>
-<p><strong>La rama <em>master</em> debe estar siempre desplegable.</strong> Si una vez mezclada una rama los tests fallan, lo trataremos como prioridad máxima, con casi la misma severidad que un fallo en producción. Es cierto que una versión que no pasa las pruebas ni se etiqueta ni se despliega, pero estaremos estorbando el trabajo de otros equipos que quieran mezclar a <em>master</em>.</p>
-<h2 id="comparación-con-otras-metodologías-de-desarrollo">Comparación con otras metodologías de desarrollo</h2>
-<p>El sentido de metodología se ha ido refinando; en este caso queremos decir “forma de organizar los cambios en el código”, lo que se corresponde con un <em>workflow</em> de desarrollo.</p>
-<h3 id="gitflow">GitFlow</h3>
-<p>Esta metodología se liberó en 2010 y tuvo bastante éxito en múltiples ámbitos. Combina</p>
-<ul>
-<li>ramas para cada funcionalidad o <em>feature braches</em>,</li>
-<li>ramas para cada versión o <em>release branches</em>,</li>
-<li>una rama <em>master</em> para versiones definitivas,</li>
-<li>una rama <em>develop</em> para desarrollo,</li>
-<li>y otra rama <em>hotfixes</em> para arreglos rápidos.</li>
-</ul>
-<figure>
-<img src="pics/tpp-gitflow.png" title="La clásica gráfica de GitFlow, con varias ramas de funcionalidad o _feature branches_, una rama _master_ y una rama _develop_. Fuente: https://nvie.com/posts/a-successful-git-branching-model/." alt="GitFlow: se mantienen múltiples ramas vivas." /><figcaption>GitFlow: se mantienen múltiples ramas vivas.</figcaption>
-</figure>
-<p>El esfuerzo para mantener tantísimas ramas sólo es posible para grandes organizaciones con un montón de recursos. El propio autor aclara <a href="https://nvie.com/posts/a-successful-git-branching-model/">al principio de la página</a>:</p>
-<blockquote>
-Si tu equipo hace entrega continua de software, os sugeriría un <em>workflow</em> mucho más sencillo (como GitHub flow) en lugar de intentar meter git-flow con calzador en vuestro equipo.
-</blockquote>
-<h3 id="github-flow">GitHub Flow</h3>
-<p>Entonces, ¿es mejor GitHub Flow? En esta metodología <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">propuesta por GitHub</a> se trabaja de forma similar: se crea rama, se añaden cambios, se revisan y se mezclan.</p>
-<figure>
-<img src="pics/tpp-github-flow.png" title="Rama con GitHub Flow: Crea rama, añade cambios, revisa, testea, despliega _y luego_ mezcla. Fuente: https://guides.github.com/introduction/flow/." alt="GitHub Flow: cuando pasan los tests desplegamos el contenido de la rama, en lugar de main." /><figcaption>GitHub Flow: cuando pasan los tests desplegamos el contenido de la rama, en lugar de <em>main</em>.</figcaption>
-</figure>
-<p>Podemos ver en <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">la guía gráfica</a> la diferencia más radical con TPP: en GitHub Flow <strong>se hacen los despliegues desde la rama</strong>, antes de mezclar. Esto tiene el gran problema de que es posible que haya cambios en <em>main</em> que no se van a desplegar, ya que no están en la rama; hay que asegurarse de hacer un <code>git pull origin main</code> antes de desplegar y mezclar.</p>
-<p>Me parece mucho más robusto desplegar desde <em>main</em> una vez mezclados los cambios.</p>
-<h2 id="conclusiones">Conclusiones</h2>
-<p>Si quieres desplegar código de forma sencilla, mantener sólo una versión, y optimizar los esfuerzos del equipo, ¡pásate a TPP!</p>
-<h3 id="agradecimientos">Agradecimientos</h3>
-<p>Gracias a mis compañeros en diversas empresas: <a href="https://mediasmart.io/">mediasmart.io</a>, <a href="https://www.devo.com/">Devo</a>, <a href="https://influencity.com/">Influencity</a> y últimamente <a href="https://leanmind.es/">LeanMind</a> por ayudarme a probar diversas formas de desplegar código. Gracias a todos los alumnos del <a href="/2020/curso-escalabilidad">curso de escalabilidad</a> por ayudarme a refinar la metodología.</p>
+                    <img src="pics/tpp-ramas.png" title="Ejemplo de organización de ramas en TPP. Fuente: elaboración propia." alt="" /><figcaption>Crea rama, añade cambios, revisa, mezcla, crea <em>tag</em>, despliega.</figcaption>
+                    </figure>
+                    <p>En esta sencilla metodología mantenemos sólo una rama activa, llámese <em>master</em> o <a href="https://github.com/github/renaming"><em>main</em></a>.</p>
+                    <ul>
+                    <li>Sacamos una rama para hacer un arreglo (<em>fix</em>) o una nueva funcionalidad (<em>feature</em>).</li>
+                    <li>Añadimos cambios (<em>commits</em>) a la rama.</li>
+                    <li>Creamos una petición de mezcla (<em>pull request</em> o <em>merge request</em>).</li>
+                    <li>Se van haciendo revisiones, añadiendo nuevos cambios y pasando los tests.</li>
+                    <li>Cuando los cambios están revisados y los tests pasan, mezclamos los cambios (hacemos <em>merge</em>).</li>
+                    <li>De nuevo se vuelven a pasar los tests en <em>master</em>.</li>
+                    <li>Una vez que los tests pasan, desplegamos en producción.</li>
+                    <li>A continuación etiquetamos la versión (<em>tag</em>).</li>
+                    </ul>
+                    <h2 id="de-dónde-viene-tpp">¿De dónde viene TPP?</h2>
+                    <p>Durante mis muchos años como desarrollador me he encontrado con muchas “metodologías” de desarrollo. Una de las más perniciosas últimamente es <a href="https://nvie.com/posts/a-successful-git-branching-model/">git-flow</a>, en la que se mantienen múltiples ramas para diferentes versiones. Más abajo la veremos más en detalle.</p>
+                    <p>Me atrevo a proponer públicamente TPPv1: Todo Para Producción v1, o <em>ToPaProd</em> para amiguis y coleguis. Es una simplificación radical apta tanto para servicios online como para librerías.</p>
+                    <h3 id="tpp-para-librerías">TPP para librerías</h3>
+                    <p>En librerías (para <code>npm</code>, <code>maven</code> o similares) las etiquetas son particularmente importantes: identifican la versión concreta de la librería que se va a usar.</p>
+                    <p>Seguiremos <a href="https://semver.org/">Semantic Versioning</a> a rajatabla. Las versiones se etiquetarán como <em>x.y.z</em>, donde:</p>
+                    <ul>
+                    <li>x: versión mayor (major). Rotura de compatibilidad ⇒ cambia x.</li>
+                    <li>y: versión menor (minor). Cambio de funcionalidad ⇒ cambia y.</li>
+                    <li>z: versión parche (patch). Arreglo de bugs ⇒ cambia z.</li>
+                    </ul>
+                    <p>Cada versión debe ser <strong>inmutable</strong>: está prohibidísimo publicar dos versiones diferentes con la misma etiqueta.</p>
+                    <p>En caso de fallo es trivial hacer una vuelta atrás a una versión anterior: sólo tenemos que apuntar a la última etiqueta válida.</p>
+                    <h3 id="tpp-para-sistemas-online">TPP para sistemas online</h3>
+                    <p>Para sistemas online no necesitamos mantener múltiples versiones; basta con mantener una única versión viva que es la que mantenemos en <em>master</em>.</p>
+                    <p>Una variante muy relevante en este caso consiste en mantener una rama adicional estable, donde mezclamos sólo el código que pasa las pruebas. Esta rama se puede llamar <em>stable</em>, <em>prod</em> o similar. Desplegaremos a producción siempre desde la rama estable.</p>
+                    <figure>
+                    <img src="pics/tpp-estable.png" title="Ejemplo de organización con rama estable para sistemas online. Fuente: elaboración propia." alt="" /><figcaption>Rama estable: tras mezclar en <em>main</em>, y sólo si pasan los tests, mezclamos en <em>stable</em> y desplegamos desde ahí.</figcaption>
+                    </figure>
+                    <p>En este caso las etiquetas o <em>tags</em> son menos importantes e incluso se pueden omitir. Para desplegar simplemente hacemos un <code>git pull</code>, y si es necesario lanzamos un build.</p>
+                    <h3 id="los-tests-de-master-no-pasan">¡Los tests de <em>master</em> no pasan!</h3>
+                    <p><strong>La rama <em>master</em> debe estar siempre desplegable.</strong> Si una vez mezclada una rama los tests fallan, lo trataremos como prioridad máxima, con casi la misma severidad que un fallo en producción. Es cierto que una versión que no pasa las pruebas ni se etiqueta ni se despliega, pero estaremos estorbando el trabajo de otros equipos que quieran mezclar a <em>master</em>.</p>
+                    <h2 id="comparación-con-otras-metodologías-de-desarrollo">Comparación con otras metodologías de desarrollo</h2>
+                    <p>El sentido de metodología se ha ido refinando; en este caso queremos decir “forma de organizar los cambios en el código”, lo que se corresponde con un <em>workflow</em> de desarrollo.</p>
+                    <h3 id="gitflow">GitFlow</h3>
+                    <p>Esta metodología se liberó en 2010 y tuvo bastante éxito en múltiples ámbitos. Combina</p>
+                    <ul>
+                    <li>ramas para cada funcionalidad o <em>feature braches</em>,</li>
+                    <li>ramas para cada versión o <em>release branches</em>,</li>
+                    <li>una rama <em>master</em> para versiones definitivas,</li>
+                    <li>una rama <em>develop</em> para desarrollo,</li>
+                    <li>y otra rama <em>hotfixes</em> para arreglos rápidos.</li>
+                    </ul>
+                    <figure>
+                    <img src="pics/tpp-gitflow.png" title="La clásica gráfica de GitFlow, con varias ramas de funcionalidad o _feature branches_, una rama _master_ y una rama _develop_. Fuente: https://nvie.com/posts/a-successful-git-branching-model/." alt="" /><figcaption>GitFlow: se mantienen múltiples ramas vivas.</figcaption>
+                    </figure>
+                    <p>El esfuerzo para mantener tantísimas ramas sólo es posible para grandes organizaciones con un montón de recursos. El propio autor aclara <a href="https://nvie.com/posts/a-successful-git-branching-model/">al principio de la página</a>:</p>
+                    <blockquote>
+                    Si tu equipo hace entrega continua de software, os sugeriría un <em>workflow</em> mucho más sencillo (como GitHub flow) en lugar de intentar meter git-flow con calzador en vuestro equipo.
+                    </blockquote>
+                    <h3 id="github-flow">GitHub Flow</h3>
+                    <p>Entonces, ¿es mejor GitHub Flow? En esta metodología <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">propuesta por GitHub</a> se trabaja de forma similar: se crea rama, se añaden cambios, se revisan y se mezclan.</p>
+                    <figure>
+                    <img src="pics/tpp-github-flow.png" title="Rama con GitHub Flow: Crea rama, añade cambios, revisa, testea, despliega _y luego_ mezcla. Fuente: https://guides.github.com/introduction/flow/." alt="" /><figcaption>GitHub Flow: cuando pasan los tests desplegamos el contenido de la rama, en lugar de <em>main</em>.</figcaption>
+                    </figure>
+                    <p>Podemos ver en <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/github-flow">la guía gráfica</a> la diferencia más radical con TPP: en GitHub Flow <strong>se hacen los despliegues desde la rama</strong>, antes de mezclar. Esto tiene el gran problema de que es posible que haya cambios en <em>main</em> que no se van a desplegar, ya que no están en la rama; hay que asegurarse de hacer un <code>git pull origin main</code> antes de desplegar y mezclar.</p>
+                    <p>Me parece mucho más robusto desplegar desde <em>main</em> una vez mezclados los cambios.</p>
+                    <h2 id="conclusiones">Conclusiones</h2>
+                    <p>Si quieres desplegar código de forma sencilla, mantener sólo una versión, y optimizar los esfuerzos del equipo, ¡pásate a TPP!</p>
+                    <h3 id="agradecimientos">Agradecimientos</h3>
+                    <p>Gracias a mis compañeros en diversas empresas: <a href="https://mediasmart.io/">mediasmart.io</a>, <a href="https://www.devo.com/">Devo</a>, <a href="https://influencity.com/">Influencity</a> y últimamente <a href="https://leanmind.es/">LeanMind</a> por ayudarme a probar diversas formas de desplegar código. Gracias a todos los alumnos del <a href="/2020/curso-escalabilidad">curso de escalabilidad</a> por ayudarme a refinar la metodología.</p>
 								</div>
 							</section>
 							<section id="last">

@@ -164,21 +164,19 @@ tells her that he will go on with his project.
 This contrived example tries to illustrate the reality of software projects as they grow:
 the techniques that were once appropriate may become a real 
 
-## Conclusion
+## 🤔 Conclusion
 
 All tools, just like [physical laws](/2022/understanding-limits),
 have their range of application.
-As explained in
-[🌉 Building Bridges](/2022/building-bridges).
+The same is valid for engineering techniques,
+be it for writing software or for
+[🌉 building bridges](/2022/building-bridges).
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 Thanks to my colleague
 [Jonathan Zimpfer]()
 for providing most of the ideas
 and even the text for this article.
 Any errors that remain are my own.
-
-The [cow icon](https://commons.wikimedia.org/wiki/File:Cowicon.svg) was created by
-Wikipedia user Abu badali.
 

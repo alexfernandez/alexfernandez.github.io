@@ -88,161 +88,161 @@
 										<p>Large Projects<p>
 									</header>
 																				<figure>
-<img src="pics/adventures-gophercolor.jpg" title="Golang mascot" alt="Picture credit: Renee French." /><figcaption>Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Gophercolor.jpg">Renee French</a>.</figcaption>
-</figure>
-<p>A couple of years I had the chance to play with Go (or “Golang” as exasperated people searching on the web often use) and wrote <a href="/2016/golang-adventures">part 1</a> of this article. In the last few weeks I have delved deeper into the gopher hole and have been discouraged from using it on large projects. This longish rant explains why.</p>
-<p>I will center on largish projects while trying to avoid well-trodden ground such as the <a href="https://golang.org/doc/faq#generics">lack of generics</a>. I still think Go is a good option for small trivial projects when Node.js does not deliver the required performance, such as intensive computations or simple load tests.</p>
-<h2 id="more-language-fun">More Language Fun</h2>
-<p>Criticizing those aspects of a programming language that we don’t like is an endless source of amusement.</p>
-<h3 id="pointless-pointers">Pointless Pointers</h3>
-<p>After using C for any length of time pointers become a constant annoyance. One of the cool innovations in Java was to pass all objects by reference so there was no need to use pointers explicitly any longer.</p>
-<p>But alas, Go was masterminded by <a href="https://en.wikipedia.org/wiki/Rob_Pike">a member of the original Unix team</a>.</p>
-<figure>
-<img src="pics/adventures-johnny.gif" title="Here&#39;s Johnny!" alt="Yes, baby, they are back!" /><figcaption>Yes, baby, <a href="https://diply.com/shining-movie-facts?publisher=what-the-facts&amp;config=22">they are back!</a></figcaption>
-</figure>
-<p>So suppose that you are writing a <code>struct</code> with a setter function:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode go"><code class="sourceCode go"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">type</span> Box <span class="kw">struct</span> {</a>
-<a class="sourceLine" id="cb1-2" title="2">        Width <span class="dt">int</span></a>
-<a class="sourceLine" id="cb1-3" title="3">}</a>
-<a class="sourceLine" id="cb1-4" title="4"></a>
-<a class="sourceLine" id="cb1-5" title="5"><span class="kw">func</span> (box Box) SetWidth(width <span class="dt">int</span>) {</a>
-<a class="sourceLine" id="cb1-6" title="6">        box.Width = width</a>
-<a class="sourceLine" id="cb1-7" title="7">}</a>
-<a class="sourceLine" id="cb1-8" title="8"></a>
-<a class="sourceLine" id="cb1-9" title="9"><span class="kw">func</span> main() {</a>
-<a class="sourceLine" id="cb1-10" title="10">        box := Box{<span class="dv">5</span>}</a>
-<a class="sourceLine" id="cb1-11" title="11">        box.SetWidth(<span class="dv">10</span>)</a>
-<a class="sourceLine" id="cb1-12" title="12">        log.Printf(<span class="st">&quot;Box width is now %v&quot;</span>, coolBox.Width)</a>
-<a class="sourceLine" id="cb1-13" title="13">}</a></code></pre></div>
-<p>We create a box with width 5, and then set its width to 10. What do you think will be the result? Expert Gophers are probably cringing in their chairs. The rest of us probably guessed “10” which is of course wrong. Box width is still 5! You can <a href="https://play.golang.org/p/rHShwwYcDu8">check it for yourself</a>.</p>
-<p>What kind of evil witchcraft is this? To get the desired behaviour you need to use our new improved cool box:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode go"><code class="sourceCode go"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">type</span> CoolBox <span class="kw">struct</span> {</a>
-<a class="sourceLine" id="cb2-2" title="2">        Width <span class="dt">int</span></a>
-<a class="sourceLine" id="cb2-3" title="3">}</a>
-<a class="sourceLine" id="cb2-4" title="4"></a>
-<a class="sourceLine" id="cb2-5" title="5"><span class="kw">func</span> (box *CoolBox) SetWidth(width <span class="dt">int</span>) {</a>
-<a class="sourceLine" id="cb2-6" title="6">        box.Width = width</a>
-<a class="sourceLine" id="cb2-7" title="7">}</a>
-<a class="sourceLine" id="cb2-8" title="8"></a>
-<a class="sourceLine" id="cb2-9" title="9"><span class="kw">func</span> main() {</a>
-<a class="sourceLine" id="cb2-10" title="10">        coolBox := CoolBox{<span class="dv">5</span>}</a>
-<a class="sourceLine" id="cb2-11" title="11">        coolBox.SetWidth(<span class="dv">10</span>)</a>
-<a class="sourceLine" id="cb2-12" title="12">        log.Printf(<span class="st">&quot;Cool box width is now %v&quot;</span>, coolBox.Width)</a>
-<a class="sourceLine" id="cb2-13" title="13">}</a></code></pre></div>
-<p>This time we get <a href="https://play.golang.org/p/bRpxq4gZQxX">10 as expected</a>.</p>
-<p>Can you tell the difference? <a href="https://golang.org/doc/effective_go.html#methods">Methods in Go</a> can be declared on a struct, thus:</p>
-<pre><code>func (box Box) SetWidth([...])</code></pre>
-<p>in which case they operate on <em>a copy</em> of the original struct. Every invocation results in a new <code>Box</code>. Why this is ever needed on this world, I don’t really know.</p>
-<figure>
-<img src="pics/adventures-rolleyes.gif" title="Stop and roll your eyes" alt="Source." /><figcaption><a href="https://giphy.com/gifs/eye-roll-PyPO7ZR8KXbxe">Source</a>.</figcaption>
-</figure>
-<p>Methods can also be declared on a <em>pointer to the struct</em>:</p>
-<pre><code>func (box *Box) SetWidth([...])</code></pre>
-<p>That small asterisk makes all the difference. Now the method operates on the original struct and can thus modify it. Adding to the confusion, access to an attribute is done using the dot ‘<code>.</code>’ for both structs and struct pointers.</p>
-<p>The problem is just as confusing for regular functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise:</p>
-<pre><code>func enlargeBox(box Box) {
-        box.Width += 5
-}
+                    <img src="pics/adventures-gophercolor.jpg" title="Golang mascot" alt="" /><figcaption>Picture credit: <a href="https://commons.wikimedia.org/wiki/File:Gophercolor.jpg">Renee French</a>.</figcaption>
+                    </figure>
+                    <p>A couple of years I had the chance to play with Go (or “Golang” as exasperated people searching on the web often use) and wrote <a href="/2016/golang-adventures">part 1</a> of this article. In the last few weeks I have delved deeper into the gopher hole and have been discouraged from using it on large projects. This longish rant explains why.</p>
+                    <p>I will center on largish projects while trying to avoid well-trodden ground such as the <a href="https://golang.org/doc/faq#generics">lack of generics</a>. I still think Go is a good option for small trivial projects when Node.js does not deliver the required performance, such as intensive computations or simple load tests.</p>
+                    <h2 id="more-language-fun">More Language Fun</h2>
+                    <p>Criticizing those aspects of a programming language that we don’t like is an endless source of amusement.</p>
+                    <h3 id="pointless-pointers">Pointless Pointers</h3>
+                    <p>After using C for any length of time pointers become a constant annoyance. One of the cool innovations in Java was to pass all objects by reference so there was no need to use pointers explicitly any longer.</p>
+                    <p>But alas, Go was masterminded by <a href="https://en.wikipedia.org/wiki/Rob_Pike">a member of the original Unix team</a>.</p>
+                    <figure>
+                    <img src="pics/adventures-johnny.gif" title="Here&#39;s Johnny!" alt="" /><figcaption>Yes, baby, <a href="https://diply.com/shining-movie-facts?publisher=what-the-facts&amp;config=22">they are back!</a></figcaption>
+                    </figure>
+                    <p>So suppose that you are writing a <code>struct</code> with a setter function:</p>
+                    <div class="sourceCode" id="cb1"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">type</span> Box <span class="kw">struct</span> {</span>
+                    <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>        Width <span class="dt">int</span></span>
+                    <span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>}</span>
+                    <span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a></span>
+                    <span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="kw">func</span> (box Box) SetWidth(width <span class="dt">int</span>) {</span>
+                    <span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>        box.Width = width</span>
+                    <span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>}</span>
+                    <span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a></span>
+                    <span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a><span class="kw">func</span> main() {</span>
+                    <span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>        box := Box{<span class="dv">5</span>}</span>
+                    <span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>        box.SetWidth(<span class="dv">10</span>)</span>
+                    <span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>        log.Printf(<span class="st">&quot;Box width is now %v&quot;</span>, coolBox.Width)</span>
+                    <span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>}</span></code></pre></div>
+                    <p>We create a box with width 5, and then set its width to 10. What do you think will be the result? Expert Gophers are probably cringing in their chairs. The rest of us probably guessed “10” which is of course wrong. Box width is still 5! You can <a href="https://play.golang.org/p/rHShwwYcDu8">check it for yourself</a>.</p>
+                    <p>What kind of evil witchcraft is this? To get the desired behaviour you need to use our new improved cool box:</p>
+                    <div class="sourceCode" id="cb2"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">type</span> CoolBox <span class="kw">struct</span> {</span>
+                    <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>        Width <span class="dt">int</span></span>
+                    <span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>}</span>
+                    <span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a></span>
+                    <span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a><span class="kw">func</span> (box *CoolBox) SetWidth(width <span class="dt">int</span>) {</span>
+                    <span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>        box.Width = width</span>
+                    <span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>}</span>
+                    <span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a></span>
+                    <span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a><span class="kw">func</span> main() {</span>
+                    <span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>        coolBox := CoolBox{<span class="dv">5</span>}</span>
+                    <span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>        coolBox.SetWidth(<span class="dv">10</span>)</span>
+                    <span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>        log.Printf(<span class="st">&quot;Cool box width is now %v&quot;</span>, coolBox.Width)</span>
+                    <span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>}</span></code></pre></div>
+                    <p>This time we get <a href="https://play.golang.org/p/bRpxq4gZQxX">10 as expected</a>.</p>
+                    <p>Can you tell the difference? <a href="https://golang.org/doc/effective_go.html#methods">Methods in Go</a> can be declared on a struct, thus:</p>
+                    <pre><code>func (box Box) SetWidth([...])</code></pre>
+                    <p>in which case they operate on <em>a copy</em> of the original struct. Every invocation results in a new <code>Box</code>. Why this is ever needed on this world, I don’t really know.</p>
+                    <figure>
+                    <img src="pics/adventures-rolleyes.gif" title="Stop and roll your eyes" alt="" /><figcaption><a href="https://giphy.com/gifs/eye-roll-PyPO7ZR8KXbxe">Source</a>.</figcaption>
+                    </figure>
+                    <p>Methods can also be declared on a <em>pointer to the struct</em>:</p>
+                    <pre><code>func (box *Box) SetWidth([...])</code></pre>
+                    <p>That small asterisk makes all the difference. Now the method operates on the original struct and can thus modify it. Adding to the confusion, access to an attribute is done using the dot ‘<code>.</code>’ for both structs and struct pointers.</p>
+                    <p>The problem is just as confusing for regular functions. At a certain point you realize that passing variables around by value is probably not what you want: whenever you are tempted to modify a value you will get a surprise:</p>
+                    <pre><code>func enlargeBox(box Box) {
+                            box.Width += 5
+                    }
 
-func main() {
-        box := Box{5}
-        enlargeBox(box)
-        log.Printf(&quot;Box width is now %v&quot;, box.Width)
-}</code></pre>
-<p>Width is of course still 5, since <code>enlargeBox()</code> has operated on a copy of the original <code>box</code> (<a href="https://play.golang.org/p/PDZ7IPN2LoB">play</a>). When this is done five function calls in for a variety of parameter objects it is not easy to see the problem.</p>
-<p>Regular struct access is also slower since you are making copies of structs all the time and can clog the garbage collector in high performance applications. So you start using pointers for everything. Any parameter you see without the dreaded <code>*</code> becomes a pending optimization. But this can be a trap! Pointers to <code>interface</code>s are no good as parameters and for some reason you need to pass the interface without <code>*</code>. Unless you know by heart which of your objects are interfaces and which are structs you have to add <code>*</code> everywhere and wait for the compiler to complain.</p>
-<p>Once you are using pointers consistently, you start getting these fun errors:</p>
-<pre><code>panic: runtime error: invalid memory address or nil pointer dereference</code></pre>
-<p>which are equivalent to the infamous Null Pointer Exception in Java, or the <code>ReferenceError</code> in JavaScript. And that is how pointer safety is compromised.</p>
-<p>Granted, Go at least has no <a href="http://www.eskimo.com/~scs/cclass/notes/sx10b.html">pointer arithmetic</a>, but that is a meager consolation when you have to add <code>*</code> and <code>&amp;</code> everywhere. And don’t even get me started on passing slices around, or you may end up with abominations such as <code>*[]*[]*Box</code>: a pointer to a slice of pointers to slices of pointers to <code>Box</code>es.</p>
-<p>This for me was the dealbreaker. But there’s more.</p>
-<h3 id="minor-nitpicks">Minor Nitpicks</h3>
-<p>Even the most unimportant things can add up. Right now it’s all coming through in waves.</p>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
-<p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game. Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn’t start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
-<p>Go uses capitals Every <em>Darned</em> Where. Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
-<p>It is easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy, although this point is highly debatable as has been <a href="https://twitter.com/SamuelAFalvoII/status/1001189915118395393">pointed out by SamuelAFalvoII</a>. To be honest I also dislike the underscore <code>_</code> prefix; I prefer to export just the relevant methods and attributes. But I digress; the nitpick is about having to write so many capitals.</p>
-<p>The <code>copy()</code> built-in also makes a weird choice. While the world slowly converges to a single, logical version of copy that goes in my mind as “copy <em>from</em> source to <em>destination</em>”:</p>
-<pre><code>copy(source, destination)</code></pre>
-<p>Go programmers have stuck with the older <a href="https://twitter.com/hynek/status/991915878051729414">C-like</a> version:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode go"><code class="sourceCode go"><a class="sourceLine" id="cb8-1" title="1"><span class="bu">copy</span>(dst, src)</a></code></pre></div>
-<p>This breaks my mind in surprisingly aberrant ways. Never mind the obnoxious abbreviations <code>dst</code> and <code>src</code>.</p>
-<figure>
-<img src="pics/adventures-abbrevs.gif" title="Stop abbreviating words" alt="Actually, I do mind the obnoxious abbreviations." /><figcaption>Actually, I do mind the <a href="https://imgur.com/gallery/1nEIbxb">obnoxious abbreviations</a>.</figcaption>
-</figure>
-<p>Go authors <a href="https://github.com/golang/go/wiki/CodeReviewComments#receiver-names">encourage</a> the use of single name variables whenever possible. I believe this encourages newbies to use the language, specifically two-finger typers.</p>
-<figure>
-<img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="Two-finger typers like John Watson." /><figcaption>Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a>.</figcaption>
-</figure>
-<p>For everyone else single-letter variables can quickly become a mess. Good code is written once and read many times. It is true that short variables are often fine, but making it the default is, should I say, dangerous. Apparently we have learned nothing from the whole fiasco of cryptic Unix commands, which at least was somehow justified by the scarcity of bytes at the time.</p>
-<h2 id="packaging-your-code">Packaging Your Code</h2>
-<p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a> which not surprisingly boasts more modules than any other package manager.</p>
-<h3 id="package-layout">Package Layout</h3>
-<p>There seems to be no official layout for a package. The <a href="https://golang.org/doc/code.html#Organization">documentation</a> shows a somewhat messy layout. There is support for subpackages but no standard paths: in most packages code just lies around in the root directory of the package.</p>
-<p>Big projects usually have many folders; apparently sub-sub-subpackages are the only way to go. This contrasts with Node.js where a single export point can easily be specified, while maintaining a complex internal structure.</p>
-<p>Even inside a subpackage there is no hint of structure: everything is piled up in files with random names. There is no way to know which structs or variables are defined in which files, since they are exported whenever they use capitals. The only rule is that test files end with <code>_test.go</code>, and I happen to dislike separating tests from code. ಠ_ಠ</p>
-<h3 id="package-manager-or-lack-thereof">Package Manager, or Lack Thereof</h3>
-<p>9 years after its creation and 6 years after its 1.0 release Go still has no official package manager. <a href="https://github.com/golang/dep">dep</a> is labeled as an “<em>official</em> experiment”. Contrast this with <a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a>: released around the same time as Go it got <a href="https://en.wikipedia.org/wiki/Npm_(software)">npm</a> a few months later.</p>
-<p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> is the package most downloaded ever, with about 13k downloads. These 20k packages are dwarved by the 200k in Java’s Maven and the 600k for JavaScript’s npm.</p>
-<figure>
-<img src="pics/adventures-modulecounts.png" title="npm has 600k+ packages, Gopm around 20k" alt="Source: Module Counts." /><figcaption>Source: <a href="http://www.modulecounts.com/">Module Counts</a>.</figcaption>
-</figure>
-<p>All kinds of poor excuses can be given, from the bad average quality in npm to the nature of Go as a “systems language”. In reality Go is often used as a web development language, it just lacks the libraries.</p>
-<h3 id="accessing-other-packages">Accessing Other Packages</h3>
-<p>The official way of downloading other packages is therefore to <code>go get</code> them:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" title="1"><span class="ex">go</span> get github.org/golang/lint</a></code></pre></div>
-<p>This downloads the package <code>lint</code> from the <code>golang</code> account on GitHub, and stores it in the <code>$GOPATH</code>. There is no way that I have found to specify a certain version: the latest version is always used. Not a good perspective for stability with multiple dependencies on third party packages; this may not seem like a good practice anyway, but is routinely achieved routinely with npm or Java’s Maven.</p>
-<h3 id="single-workspace">Single Workspace</h3>
-<p>While we are at it, where should we keep our code locally? Again, the <a href="https://golang.org/doc/code.html#Organization">docs</a> have this to say:</p>
-<blockquote>
-<p>Go programmers typically keep all their Go code in a single workspace. […] Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.</p>
-</blockquote>
-<p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. The <code>go</code> tool expects to find everything in the <code>$GOROOT</code>.</p>
-<figure>
-<img src="pics/adventures-blinkers.jpg" title="Horse with eye blinkers strays not" alt="Perhaps go might become distracted and look around your hard drive? Source." /><figcaption>Perhaps <code>go</code> might become distracted and look around your hard drive? <a href="https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers">Source</a>.</figcaption>
-</figure>
-<p>Otherwise you will need to muck with <code>$GOPATH</code>, which is suboptimal. I find it more convenient to manipulate code starting in the current directory, not assume everything will be in a single place. But apparently I’m in the minority here?</p>
-<h2 id="tooling">Tooling</h2>
-<p>Since we are already speaking about tooling, let’s complain about it at length.</p>
-<h3 id="gofmt"><code>gofmt</code></h3>
-<p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, kids: <code>gofmt</code> is brought to you by the same people who <a href="/2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option and now mandate tabs for indentation, and spaces for automatic alignment.</p>
-<figure>
-<img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="Richard Hendricks would love it." /><figcaption>Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a>.</figcaption>
-</figure>
-<p>Oh and about automatic alignment: suppose you have this variable declaration at the top:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode go"><code class="sourceCode go"><a class="sourceLine" id="cb10-1" title="1"><span class="kw">var</span> (</a>
-<a class="sourceLine" id="cb10-2" title="2">  i <span class="dt">int</span></a>
-<a class="sourceLine" id="cb10-3" title="3">)</a></code></pre></div>
-<p>Then you decide to add a new variable <code>value</code> and run <code>gofmt</code> afterwards.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode go"><code class="sourceCode go"><a class="sourceLine" id="cb11-1" title="1"><span class="kw">var</span> (</a>
-<a class="sourceLine" id="cb11-2" title="2">  i     <span class="dt">int</span></a>
-<a class="sourceLine" id="cb11-3" title="3">  value <span class="dt">int</span></a>
-<a class="sourceLine" id="cb11-4" title="4">)</a></code></pre></div>
-<p>Voilà! The first line has been reformatted adding several spaces. Looks nice with both variables lined up at the <code>int</code>, right? Now your diff tool says that two lines have changed. Each long variable you add will increase the number of lines changed making it impossible to trace a particular change.</p>
-<p>Other tools for other languages do the same mess, but at least they are not official. You can always not use <code>gofmt</code> at your peril, of course. But remember that the rest of the world will probably do.</p>
-<h2 id="momentum">Momentum</h2>
-<p>The ability to maintain a project long-term depends on how attractive it is to its potential developers: it is hard to look for candidates to work on an unpopular language or framework. And the hype around Go seems to have largely subdued. Data from Google Trends shows that Go has peaked:</p>
-<figure>
-<img src="pics/adventures-google-trends.png" title="Max height for Go on April 2014" alt="Source: Google Trends." /><figcaption>Source: <a href="https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&amp;geo=US&amp;q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89">Google Trends</a>.</figcaption>
-</figure>
-<p>This dataset is however largely suspect: Go is always above Node.js and starts at around 25% before it was even announced. I fear that not even Google is able to filter correctly such a common word. Let us see data from Stack Overflow Trends:</p>
-<figure>
-<img src="pics/adventures-stackoverflow-trends.png" title="Go growth stalling around 2016" alt="Source: Stack Overflow Trends." /><figcaption>Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a>.</figcaption>
-</figure>
-<p>This looks more like it.</p>
-<p>Go is in a weird situation with regards to community: it is controlled directly by Google limiting the ability of others to influence its design. This poor starting point leads to a paucity of collaborations in libraries, and to a weak community around it. But Go people are apparently happy so they are not likely to do anything about it.</p>
-<p>The opportunity for Go to be the new C seems to have come and passed. A large part of Go’s early appeal was based on being as fast as the proverbial speed king. In practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about as fast as Java</a>. Add to this that using Go channels can slow your program down a bit, and they are the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
-<figure>
-<img src="pics/adventures-slow.gif" title="A snail on a turtle" alt="Channels in go, source." /><figcaption>Channels in go, <a href="https://tenor.com/search/snail-gifs">source</a>.</figcaption>
-</figure>
-<p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a>. Rust is at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. In short, Rust appears to have stolen Go’s performance thunder.</p>
-<p>At the same time Node.js has not lost an iota of popularity, even with the <a href="https://auth0.com/blog/whats-tjs-stack-these-days/">high</a> <a href="https://thenewstack.io/another-respected-developer-says-farewell-to-node-js-and-hello-to-go/">profile</a> defections. Its robust appeal comes from using JavaScript which is still evolving rapidly. Even if it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go-node.html">not as fast as Go</a> it happens to be fast enough for most applications.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. A largish project comes with a long-term commitment to maintain it. Adopting a new language also brings the implicit compromise to hire knowledgeable people. Go does not look like a solid bet for large projects at this point.</p>
-<p>Apart from the corporate babble there is a glaring conclusion: Go quickly stops being fun when more ambitious projects are tackled. The language is cumbersome and has suffered from a lot of weird choices; it does not seem like they are going to be revised any time soon. The toolset is not as good as it believes it is. I think that Go can still be a good fit for small utilities that require better computing performance than Node.js but do not need the power of C, although Node.js is closing the performance gap rapidly.</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a> for the kind comments. Thanks to <a href="https://twitter.com/SamuelAFalvoII">SamuelAFalvoII</a> for the on point criticisms. Thanks also to everyone else that has helped me on Twitter with #golang for their immense patience.</p>
+                    func main() {
+                            box := Box{5}
+                            enlargeBox(box)
+                            log.Printf(&quot;Box width is now %v&quot;, box.Width)
+                    }</code></pre>
+                    <p>Width is of course still 5, since <code>enlargeBox()</code> has operated on a copy of the original <code>box</code> (<a href="https://play.golang.org/p/PDZ7IPN2LoB">play</a>). When this is done five function calls in for a variety of parameter objects it is not easy to see the problem.</p>
+                    <p>Regular struct access is also slower since you are making copies of structs all the time and can clog the garbage collector in high performance applications. So you start using pointers for everything. Any parameter you see without the dreaded <code>*</code> becomes a pending optimization. But this can be a trap! Pointers to <code>interface</code>s are no good as parameters and for some reason you need to pass the interface without <code>*</code>. Unless you know by heart which of your objects are interfaces and which are structs you have to add <code>*</code> everywhere and wait for the compiler to complain.</p>
+                    <p>Once you are using pointers consistently, you start getting these fun errors:</p>
+                    <pre><code>panic: runtime error: invalid memory address or nil pointer dereference</code></pre>
+                    <p>which are equivalent to the infamous Null Pointer Exception in Java, or the <code>ReferenceError</code> in JavaScript. And that is how pointer safety is compromised.</p>
+                    <p>Granted, Go at least has no <a href="http://www.eskimo.com/~scs/cclass/notes/sx10b.html">pointer arithmetic</a>, but that is a meager consolation when you have to add <code>*</code> and <code>&amp;</code> everywhere. And don’t even get me started on passing slices around, or you may end up with abominations such as <code>*[]*[]*Box</code>: a pointer to a slice of pointers to slices of pointers to <code>Box</code>es.</p>
+                    <p>This for me was the dealbreaker. But there’s more.</p>
+                    <h3 id="minor-nitpicks">Minor Nitpicks</h3>
+                    <p>Even the most unimportant things can add up. Right now it’s all coming through in waves.</p>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-xTttimcNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                    <p>As has been <a href="https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html">said before</a>, <a href="https://tour.golang.org/methods/10">implicit interfaces</a> are a mess. Not every class that implements the method <code>Start()</code> and <code>Stop()</code> is a <code>Server</code>: it can be a <code>VideoPlayer</code> or a <code>Car</code> in a game. Declaring interface pertenence explicitly communicates an intent: this class does this and behaves like that. But in Go you can never trust that the class that acts like a <code>Server</code> didn’t start its life as a <code>VideoPlayer</code> or a <code>Car</code>.</p>
+                    <p>Go uses capitals Every <em>Darned</em> Where. Public attributes and methods in a struct are written using uppercase while private stuff uses lowercase. This looks like a nice convention, but it can force you to write capitals more often than you might like.</p>
+                    <p>It is easier to write private resources with an underscore <code>_</code> prefix as in JavaScript. Making the default behaviour public is more comfy, although this point is highly debatable as has been <a href="https://twitter.com/SamuelAFalvoII/status/1001189915118395393">pointed out by SamuelAFalvoII</a>. To be honest I also dislike the underscore <code>_</code> prefix; I prefer to export just the relevant methods and attributes. But I digress; the nitpick is about having to write so many capitals.</p>
+                    <p>The <code>copy()</code> built-in also makes a weird choice. While the world slowly converges to a single, logical version of copy that goes in my mind as “copy <em>from</em> source to <em>destination</em>”:</p>
+                    <pre><code>copy(source, destination)</code></pre>
+                    <p>Go programmers have stuck with the older <a href="https://twitter.com/hynek/status/991915878051729414">C-like</a> version:</p>
+                    <div class="sourceCode" id="cb8"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true"></a><span class="bu">copy</span>(dst, src)</span></code></pre></div>
+                    <p>This breaks my mind in surprisingly aberrant ways. Never mind the obnoxious abbreviations <code>dst</code> and <code>src</code>.</p>
+                    <figure>
+                    <img src="pics/adventures-abbrevs.gif" title="Stop abbreviating words" alt="" /><figcaption>Actually, I do mind the <a href="https://imgur.com/gallery/1nEIbxb">obnoxious abbreviations</a>.</figcaption>
+                    </figure>
+                    <p>Go authors <a href="https://github.com/golang/go/wiki/CodeReviewComments#receiver-names">encourage</a> the use of single name variables whenever possible. I believe this encourages newbies to use the language, specifically two-finger typers.</p>
+                    <figure>
+                    <img src="pics/adventures-typing.gif" title="John Watson types using two fingers" alt="" /><figcaption>Two-finger typers like <a href="http://slusheeduck.tumblr.com/post/22087492446/john-watson-typing-challenge">John Watson</a>.</figcaption>
+                    </figure>
+                    <p>For everyone else single-letter variables can quickly become a mess. Good code is written once and read many times. It is true that short variables are often fine, but making it the default is, should I say, dangerous. Apparently we have learned nothing from the whole fiasco of cryptic Unix commands, which at least was somehow justified by the scarcity of bytes at the time.</p>
+                    <h2 id="packaging-your-code">Packaging Your Code</h2>
+                    <p>Another source of frustration is the poor support for packaging. The gold standard for me is Node.js and its <a href="https://www.npmjs.com/"><code>npm</code></a> which not surprisingly boasts more modules than any other package manager.</p>
+                    <h3 id="package-layout">Package Layout</h3>
+                    <p>There seems to be no official layout for a package. The <a href="https://golang.org/doc/code.html#Organization">documentation</a> shows a somewhat messy layout. There is support for subpackages but no standard paths: in most packages code just lies around in the root directory of the package.</p>
+                    <p>Big projects usually have many folders; apparently sub-sub-subpackages are the only way to go. This contrasts with Node.js where a single export point can easily be specified, while maintaining a complex internal structure.</p>
+                    <p>Even inside a subpackage there is no hint of structure: everything is piled up in files with random names. There is no way to know which structs or variables are defined in which files, since they are exported whenever they use capitals. The only rule is that test files end with <code>_test.go</code>, and I happen to dislike separating tests from code. ಠ_ಠ</p>
+                    <h3 id="package-manager-or-lack-thereof">Package Manager, or Lack Thereof</h3>
+                    <p>9 years after its creation and 6 years after its 1.0 release Go still has no official package manager. <a href="https://github.com/golang/dep">dep</a> is labeled as an “<em>official</em> experiment”. Contrast this with <a href="https://en.wikipedia.org/wiki/Node.js">Node.js</a>: released around the same time as Go it got <a href="https://en.wikipedia.org/wiki/Npm_(software)">npm</a> a few months later.</p>
+                    <p>There are other Go package managers; the most popular seems to be <a href="https://gopm.io/">gopm</a> which counts more than 20k packages. Unsurprisingly not many people use it: <a href="https://gopm.io/golang.org/x/net">golang.org/x/net</a> is the package most downloaded ever, with about 13k downloads. These 20k packages are dwarved by the 200k in Java’s Maven and the 600k for JavaScript’s npm.</p>
+                    <figure>
+                    <img src="pics/adventures-modulecounts.png" title="npm has 600k+ packages, Gopm around 20k" alt="" /><figcaption>Source: <a href="http://www.modulecounts.com/">Module Counts</a>.</figcaption>
+                    </figure>
+                    <p>All kinds of poor excuses can be given, from the bad average quality in npm to the nature of Go as a “systems language”. In reality Go is often used as a web development language, it just lacks the libraries.</p>
+                    <h3 id="accessing-other-packages">Accessing Other Packages</h3>
+                    <p>The official way of downloading other packages is therefore to <code>go get</code> them:</p>
+                    <div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true"></a><span class="ex">go</span> get github.org/golang/lint</span></code></pre></div>
+                    <p>This downloads the package <code>lint</code> from the <code>golang</code> account on GitHub, and stores it in the <code>$GOPATH</code>. There is no way that I have found to specify a certain version: the latest version is always used. Not a good perspective for stability with multiple dependencies on third party packages; this may not seem like a good practice anyway, but is routinely achieved routinely with npm or Java’s Maven.</p>
+                    <h3 id="single-workspace">Single Workspace</h3>
+                    <p>While we are at it, where should we keep our code locally? Again, the <a href="https://golang.org/doc/code.html#Organization">docs</a> have this to say:</p>
+                    <blockquote>
+                    <p>Go programmers typically keep all their Go code in a single workspace. […] Note that this differs from other programming environments in which every project has a separate workspace and workspaces are closely tied to version control repositories.</p>
+                    </blockquote>
+                    <p>Keeping all code together is a poor practice. Maybe you work for different companies and want to keep their code separate? Maybe you just like organizing your stuff in a different way? In fact, most other languages do not mandate where to keep your code: you can compile from anywhere on your hard drive. The <code>go</code> tool expects to find everything in the <code>$GOROOT</code>.</p>
+                    <figure>
+                    <img src="pics/adventures-blinkers.jpg" title="Horse with eye blinkers strays not" alt="" /><figcaption>Perhaps <code>go</code> might become distracted and look around your hard drive? <a href="https://forums.frontier.co.uk/showthread.php/393007-Why-the-blinkers">Source</a>.</figcaption>
+                    </figure>
+                    <p>Otherwise you will need to muck with <code>$GOPATH</code>, which is suboptimal. I find it more convenient to manipulate code starting in the current directory, not assume everything will be in a single place. But apparently I’m in the minority here?</p>
+                    <h2 id="tooling">Tooling</h2>
+                    <p>Since we are already speaking about tooling, let’s complain about it at length.</p>
+                    <h3 id="gofmt"><code>gofmt</code></h3>
+                    <p>It should be great when the creators of a language also give you a <a href="https://golang.org/cmd/gofmt/">nice formatting tool</a>. But remember, kids: <code>gofmt</code> is brought to you by the same people who <a href="/2016/golang-adventures.html#mandatory-brace-style">mandate inlined brace style</a>. So they saw it fit to remove spaces as an option and now mandate tabs for indentation, and spaces for automatic alignment.</p>
+                    <figure>
+                    <img src="pics/adventures-spaces.gif" title="Winnie types spaces" alt="" /><figcaption>Richard Hendricks would <a href="http://popkey.co/m/K9yRZ-tabs-spaces-silicon-valley-funny">love it</a>.</figcaption>
+                    </figure>
+                    <p>Oh and about automatic alignment: suppose you have this variable declaration at the top:</p>
+                    <div class="sourceCode" id="cb10"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true"></a><span class="kw">var</span> (</span>
+                    <span id="cb10-2"><a href="#cb10-2" aria-hidden="true"></a>  i <span class="dt">int</span></span>
+                    <span id="cb10-3"><a href="#cb10-3" aria-hidden="true"></a>)</span></code></pre></div>
+                    <p>Then you decide to add a new variable <code>value</code> and run <code>gofmt</code> afterwards.</p>
+                    <div class="sourceCode" id="cb11"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true"></a><span class="kw">var</span> (</span>
+                    <span id="cb11-2"><a href="#cb11-2" aria-hidden="true"></a>  i     <span class="dt">int</span></span>
+                    <span id="cb11-3"><a href="#cb11-3" aria-hidden="true"></a>  value <span class="dt">int</span></span>
+                    <span id="cb11-4"><a href="#cb11-4" aria-hidden="true"></a>)</span></code></pre></div>
+                    <p>Voilà! The first line has been reformatted adding several spaces. Looks nice with both variables lined up at the <code>int</code>, right? Now your diff tool says that two lines have changed. Each long variable you add will increase the number of lines changed making it impossible to trace a particular change.</p>
+                    <p>Other tools for other languages do the same mess, but at least they are not official. You can always not use <code>gofmt</code> at your peril, of course. But remember that the rest of the world will probably do.</p>
+                    <h2 id="momentum">Momentum</h2>
+                    <p>The ability to maintain a project long-term depends on how attractive it is to its potential developers: it is hard to look for candidates to work on an unpopular language or framework. And the hype around Go seems to have largely subdued. Data from Google Trends shows that Go has peaked:</p>
+                    <figure>
+                    <img src="pics/adventures-google-trends.png" title="Max height for Go on April 2014" alt="" /><figcaption>Source: <a href="https://trends.google.com/trends/explore?date=2009-01-01%202018-05-26&amp;geo=US&amp;q=%2Fm%2F09gbxjr,%2Fm%2F0bbxf89">Google Trends</a>.</figcaption>
+                    </figure>
+                    <p>This dataset is however largely suspect: Go is always above Node.js and starts at around 25% before it was even announced. I fear that not even Google is able to filter correctly such a common word. Let us see data from Stack Overflow Trends:</p>
+                    <figure>
+                    <img src="pics/adventures-stackoverflow-trends.png" title="Go growth stalling around 2016" alt="" /><figcaption>Source: <a href="https://insights.stackoverflow.com/trends?tags=go%2Cnode.js">Stack Overflow Trends</a>.</figcaption>
+                    </figure>
+                    <p>This looks more like it.</p>
+                    <p>Go is in a weird situation with regards to community: it is controlled directly by Google limiting the ability of others to influence its design. This poor starting point leads to a paucity of collaborations in libraries, and to a weak community around it. But Go people are apparently happy so they are not likely to do anything about it.</p>
+                    <p>The opportunity for Go to be the new C seems to have come and passed. A large part of Go’s early appeal was based on being as fast as the proverbial speed king. In practice it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html">about as fast as Java</a>. Add to this that using Go channels can slow your program down a bit, and they are the <a href="https://tour.golang.org/concurrency/2">main concurrency primitive in Go</a>.</p>
+                    <figure>
+                    <img src="pics/adventures-slow.gif" title="A snail on a turtle" alt="" /><figcaption>Channels in go, <a href="https://tenor.com/search/snail-gifs">source</a>.</figcaption>
+                    </figure>
+                    <p>The momentum has gone largely to Rust, which performs <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust.html">about the same as C</a> and much faster than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/rust-go.html">Go</a>. Rust is at the same time <a href="https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted">very well liked by the community</a>. In short, Rust appears to have stolen Go’s performance thunder.</p>
+                    <p>At the same time Node.js has not lost an iota of popularity, even with the <a href="https://auth0.com/blog/whats-tjs-stack-these-days/">high</a> <a href="https://thenewstack.io/another-respected-developer-says-farewell-to-node-js-and-hello-to-go/">profile</a> defections. Its robust appeal comes from using JavaScript which is still evolving rapidly. Even if it is <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go-node.html">not as fast as Go</a> it happens to be fast enough for most applications.</p>
+                    <h2 id="conclusion">Conclusion</h2>
+                    <p>A successful organization needs to carefully evaluate a language or platform before using it for any significant projects. A largish project comes with a long-term commitment to maintain it. Adopting a new language also brings the implicit compromise to hire knowledgeable people. Go does not look like a solid bet for large projects at this point.</p>
+                    <p>Apart from the corporate babble there is a glaring conclusion: Go quickly stops being fun when more ambitious projects are tackled. The language is cumbersome and has suffered from a lot of weird choices; it does not seem like they are going to be revised any time soon. The toolset is not as good as it believes it is. I think that Go can still be a good fit for small utilities that require better computing performance than Node.js but do not need the power of C, although Node.js is closing the performance gap rapidly.</p>
+                    <h3 id="acknowledgements">Acknowledgements</h3>
+                    <p>Thanks to <a href="https://twitter.com/hynek">Hynek Schlawack</a> for the kind comments. Thanks to <a href="https://twitter.com/SamuelAFalvoII">SamuelAFalvoII</a> for the on point criticisms. Thanks also to everyone else that has helped me on Twitter with #golang for their immense patience.</p>
 								</div>
 							</section>
 							<section id="last">
