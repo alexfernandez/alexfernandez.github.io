@@ -147,6 +147,7 @@ Any errors and poor explanations are my own.
 
 The [cow icon](https://commons.wikimedia.org/wiki/File:Cowicon.svg) was created by
 Wikipedia user Abu badali.
+No cow icons were harmed in the making of this article.
 The photo of the Roman bridge of Salamanca is by
 [Wikipedia user Tamorlan](https://commons.wikimedia.org/wiki/Special:ListFiles/Tamorlan).
 
