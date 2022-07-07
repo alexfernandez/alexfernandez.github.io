@@ -96,8 +96,7 @@ He cannot find any tree trunks this long,
 so a more complex structure with many layers is required.
 This takes forever and he is not really happy with the result.
 Also the bridge is now almost as tall than a cow,
-so the cattle need a cumbersome tapered structure at the ends
-to be able to climb it.
+so the cattle need a couple of ramps at the ends to be able to climb it.
 Meanwhile costs skyrocket due to the insane amounts of wood and labor required.
 
 The engineer comes by and suggests a simple cable-stayed bridge (4),
