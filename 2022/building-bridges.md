@@ -4,6 +4,8 @@ subtitle: 'The Story of the Cowboy and the Engineer'
 footer: Published on 2022-07-06, modified on 2022-07-06.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
+  The cowboy had a bunch of cattle and a river to cross.
+  The engineer had 
   There is a time and a place for everything.
   Kubernetes is a powerful tool that can simplify your life
   even with a rather pedestrian stack.
@@ -14,6 +16,7 @@ image: https://pinchito.es/2022/pics/building-bridges-salamanca.jpg
 
 My favourite engineering metaphor is based on the ancient art of building bridges,
 of which there are [many types](https://en.wikipedia.org/wiki/List_of_bridge_types).
+The simplest one is the "p
 
 ## 🤠 The Cowboy and the Stream
 
@@ -133,7 +136,7 @@ and
 for listening to evolving versions of this same story,
 and improving it with their input.
 Also to my friend
-[Juan Sebastián Villamizán]()
+[Juan Sebastián Gaitán](https://github.com/juangaitanv)
 for many interesting hours of discussion around it.
 Any errors and poor explanations are my own.
 
