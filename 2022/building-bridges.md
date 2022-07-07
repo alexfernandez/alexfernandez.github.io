@@ -79,7 +79,7 @@ the cowboy realizes that if he could cross the river at its widest point,
 almost 20 m across,
 he would save 2 km on his way home!
 
-![Bridging a large stream is really hard and needs specialized tools.](pics/building-bridges-large-12.png "1: a wider river, almost 20 meters wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. Source: the author.")
+![Bridging a large stream is really hard.](pics/building-bridges-large-12.png "1: a wider river, almost 20 meters wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. Source: the author.")
 
 Having learned his lesson he builds a thick plank like before (1),
 but this time it is not enough:
