@@ -36,7 +36,7 @@ it is definitely doing a good job.
 
 ## 📏 The Over-engineered Bridge
 
-The cowboy now finds a wider stream of water that they need to cross.
+The cowboy now finds a wider stream of water in their way.
 
 ![Bridging a medium stream can be hard.](pics/building-bridges-medium-12.png "1: a wider river, perhaps 5 meters wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. Source: the author.")
 
