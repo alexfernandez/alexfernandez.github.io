@@ -22,7 +22,7 @@ The simplest one is the "p
 
 Suppose you are a cowboy that wants to move some cattle across his property.
 
-![Bridging a small stream is easy.](pics/building-bridges-small.png "1: simple drawing of a small river separating two bits of land. 2: the river is now bridged by a plank of wood, with a cow walking on it. Source: the author.")
+![Bridging a small stream is easy.](pics/building-bridges-small.png "1: simple drawing of a small river separating two bits of land, perhaps 3 meters long, with a cow for scale. 2: the river is now bridged by a plank of wood, with the cow walking on it. Source: the author.")
 
 There is a small stream of water in the middle (1).
 Rather than have the cows wade it,
@@ -35,9 +35,9 @@ it is definitely doing a good job.
 
 ## 📏 The Over-engineered Bridge
 
-The cowboy now finds a wider stream of water.
+The cowboy now finds a wider stream of water that they need to cross.
 
-![Bridging a medium stream can be hard.](pics/building-bridges-medium.png "1: a wider river, perhaps 10m wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. 3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
+![Bridging a medium stream can be hard.](pics/building-bridges-medium-12.png "1: a wider river, perhaps 5 meters wide, crossed by a long plank of wood. 2: the plank breaks and a cow drowns. Source: the author.")
 
 He thinks to himself:
 "This is easy, I will just build a longer plank of wood" (1).
@@ -45,12 +45,14 @@ But when his cows try to cross it,
 the plank breaks in the middle due to the weight
 and the cattle drown (2).
 
-Desperate he asks his friend the engineer for a solution,
-who comes up with a very simple yet clever arch bridge design (3):
+![A sophisticated solution and a simple solution.](pics/building-bridges-medium-34.png "3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
+
+Desperate he asks his friend the engineer for a solution.
+She comes up with a very simple yet clever arch bridge design (3):
 just one piece of concrete that can be poured elsewhere and set in place.
 When the cowboy hears the price, though,
 he thinks to himself:
-"I can do this!"
+"I can do this! A thicker plank will do.
 So with a lot of effort he builds a bigger, wider plank of wood (4).
 The cows take some effort to walk onto it, but it works!
 
@@ -73,14 +75,16 @@ Were they over-engineering, or just awesome-engineering?
 
 But this was not all! The big challenge is here:
 the cowboy realizes that if he could cross the river at its widest point,
-almost 40m across,
-he would save 1 km on his way home!
+almost 20 m across,
+he would save 2 km on his way home!
 
-![Bridging a large stream is really hard and needs specialized tools.](pics/building-bridges-large.png "1: a wider river, almost 40m wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. 3: a really thick plank of wood bridges the water, and since it is taller than a cow it is tapered on the extremes. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
+![Bridging a large stream is really hard and needs specialized tools.](pics/building-bridges-large-12.png "1: a wider river, almost 20 meters wide, with a long thick plank of wood. 2: the plank again breaks and another cow drowns. Source: the author.")
 
 Having learned his lesson he builds a thick plank like before (1),
 but this time it is not enough:
 it breaks and again his cattle drown (2).
+
+![A simple solution and a complex solution. Try to see if you can tell which is which.](pics/building-bridges-large-34.png "3: a really thick plank of wood bridges the water, tapered on the extremes so that cows can climb on it. 4: a simple cable-stayed bridge now spans the water, with a few cables stabilizing the structure, and a cow crossing the water safely. Source: the author.")
 
 He does not want to bother his friend the engineer,
 plus he fears the price tag.
