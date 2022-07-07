@@ -43,7 +43,7 @@ The cowboy now finds a wider stream of water in their way.
 He thinks to himself:
 "This is easy, I will just build a longer plank of wood" (1).
 But when his cows try to cross it,
-the plank breaks in the middle due to the weight
+the plank breaks near the middle due to the weight
 and the cattle drown (2).
 
 ![A sophisticated solution and a simple solution.](pics/building-bridges-medium-34.png "3: a concrete arch bridge is now set over the water, with a cow safely crossing it. 4: a thicker plank over the water, with a cow trying to get on it. Source: the author.")
