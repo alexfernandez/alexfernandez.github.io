@@ -53,7 +53,7 @@ She comes up with a very simple yet clever arch bridge design (3):
 just one piece of concrete that can be poured elsewhere and set in place.
 When the cowboy hears the price, though,
 he thinks to himself:
-"I can do this! A thicker plank will do.
+"I can do this! A thicker plank will do."
 So with a lot of effort he builds a bigger, wider plank of wood (4).
 The cows take some effort to walk onto it, but it works!
 
