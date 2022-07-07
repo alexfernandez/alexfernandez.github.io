@@ -21,11 +21,11 @@ technically a [beam bridge](https://en.wikipedia.org/wiki/Beam_bridge).
 
 ## 🤠 The Cowboy and the Stream
 
-Suppose you are a cowboy that wants to move some cattle across his property.
+Once upon a time, a cowboy wanted to move some cattle across his property.
 
 ![Bridging a small stream is easy.](pics/building-bridges-small.png "1: simple drawing of a small river separating two bits of land, perhaps 3 meters long, with a cow for scale. 2: the river is now bridged by a plank of wood, with the cow walking on it. Source: the author.")
 
-There is a small stream of water in the middle (1).
+There is a small stream of water in the way (1).
 Rather than have the cows wade it,
 the cowboy sets a plank of wood across the water (2).
 Cows go safely, everyone is happy.
