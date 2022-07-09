@@ -31,6 +31,8 @@ improved internal practices and moved forward in the road to continuous deployme
 
 Hivency has recently been acquired by the Skeepers group,
 which will give us new energy to conquer new markets.
+I helped navigate the acquisition process and subsequent audits,
+and secure a successful operation.
 
 ### 2020-04 to 2020-12: Freelancer
 
