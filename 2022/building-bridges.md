@@ -138,7 +138,7 @@ while cowboys will always be cowboys.
 
 ### 🙏 Acknowledgements
 
-Thanks to my colleagues,
+Thanks to my former colleagues at Skeepers,
 in particular to
 [Jonathan Zimpfer](https://www.linkedin.com/in/jonathan-zimpfer-8443229a/)
 and
