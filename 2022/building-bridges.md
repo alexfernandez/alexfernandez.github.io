@@ -1,7 +1,7 @@
 ---
 title: '🌉 Building Bridges'
 subtitle: 'The Story of the Cowboy and the Engineer'
-footer: Published on 2022-07-06, modified on 2022-07-06.
+footer: Published on 2022-07-06, modified on 2022-08-17.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   The cowboy had a bunch of cattle and a river to cross.
