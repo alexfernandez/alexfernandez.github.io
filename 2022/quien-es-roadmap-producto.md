@@ -76,7 +76,7 @@ Por su parte, Iván Velasco, CTO de Clicars, estuvo también de acuerdo:
 > la visión estratégica del CTO ayudará mucho a poner orden entre VP eng VP prod.
 > Sin necesidad de elevar una discusión o un debate entre C levels al resto del board, que sería un sinsentido.
 
-> Así que NO a ejecutivos de producto, y un SÍ rotundo a especialistas de producto, en mi opinión.
+> Así que **no** a ejecutivos de producto, y un **sí** rotundo a especialistas de producto, en mi opinión.
 
 ## 🎁 Campo CPO
 
@@ -133,8 +133,8 @@ la parte de producto debe pesar tanto como la tecnológica.
 
 Hemos venido aquí a este blog a mojarnos, y no a soltar tibiezas,
 así que voy a contaros todas las verdades.
-En mi experiencia, tener CTO y CPO a la misma altura es una fuente constante de problemas.
-Os voy a explicar por qué.
+En mi experiencia tener CTO y CPO a la misma altura es una fuente constante de problemas.
+Vamos a ver por qué.
 
 ### 🪖 Trabajo en squads
 
@@ -190,7 +190,26 @@ Sólo alguien que entienda la parte tecnológica va a dedicar el esfuerzo estrat
 
 ### 💥 Conflictos
 
-Yo tampoco creo que el CTO deba ser todopoderoso, pero sí ser el responsable del roadmap. Esto no significa necesariamente tomar las decisiones sobre qué se va a hacer: las más estratégicas se fijan normalmente en el comité ejecutivo. Pero sí responder de la ejecución. Para dar un ejemplo de lo que eso significa: si hay algún problema entregando una feature, el CTO debería responder; mientras que si hay CTO+CPO es muy posible que se echen la culpa mutuamente: la feature no estaba bien definida vs sí lo estaba pero no fue bien ejecutada. Estas discusiones eternas para mí muestran una disfunción en el equipo, y no deberían salir del squad; el team lead debería presentar un frente común para centrarse en lo importante: cómo hacemos que la siguiente vez salga mejor.
+Igual ahora mismo estáis pensando:
+
+> Pero pinchito, tú vienes de ser CTO y obviamente quieres controlar el cotarro.
+> Además, igual no te has llevado bien con los y las CPOs que has conocido porque eres un _rancier_.
+
+Bien, hablemos de conflictos.
+Yo tampoco creo que el CTO deba ser todopoderoso, pero sí ser el responsable del roadmap.
+Esto no significa necesariamente tomar las decisiones sobre qué se va a hacer:
+las más estratégicas se fijan normalmente en el comité ejecutivo.
+Pero sí la persona que haga de CTO debe responder de la ejecución.
+
+Para dar un ejemplo de lo que eso significa:
+si hay algún problema entregando una feature,
+el CTO debería responder;
+mientras que si hay CTO+CPO es muy posible que se echen la culpa mutuamente:
+la feature no estaba bien definida vs sí lo estaba pero no fue bien ejecutada.
+Estas discusiones eternas para mí muestran una disfunción en el equipo,
+y no deberían salir del squad;
+el team lead debería presentar un frente común para centrarse en lo importante,
+que es cómo hacemos que la siguiente vez salga mejor.
 
 Le doy de nuevo la palabra a Iván que lo expresó de forma impecable:
 
@@ -211,7 +230,11 @@ retrasos o sobre costes en entregas importantes, un competidor fuerte que va má
 
 ### 👓 Visión de producto
 
-Partiendo de aquí, ¿qué pasa si hay un CTO sin visión de producto?
+Puede ser que ahora estéis pensando:
+
+> ¿Cómo va un CTO a saber llevar el producto igual que un especialista?
+
+Buena pregunta, ¿qué pasa si hay CTO sin visión de producto?
 Pues que la estrategia va a sufrir.
 Creo que se puede apoyar bastante en un VP de producto o similar,
 pero es esencial que un CTO sepa qué se va a construir, aparte de cómo.
@@ -220,9 +243,9 @@ y en este punto los roles de producto en cada squad serán esenciales.
 Pero lo que no se puede empujar a nivel de squad
 es la responsabilidad de marcar un roadmap para la empresa o de decidir en qué trabajar.
 
-Yo personalmente esto lo he probado como CTO de Hivency,
-trabajando con "impact teams" a los que se les asignó un KPI que tenían que mejorar,
-a instancias del CPO.
+Yo personalmente esto lo he sufrido como CTO de Hivency:
+a instancias del CPO empezamos a trabajar con "impact teams",
+o squads a los que se le asignó un KPI que tenían que mejorar.
 Los resultados fueron muy decepcionantes.
 
 Según la gente de producto no le dimos suficiente tiempo al experimento,
@@ -240,6 +263,7 @@ De nuevo Iván puntualiza:
 > Necesita dominar el _big picture_ de todas sus patas,
 > pero quien va a gestionar producto es el VP de producto
 > y quien va a gestionar la estructura de ingeniería es el VP de ingeniería.
+
 > El rol más importante del CTO, desde mi experiencia,
 > es tratar de que el **producto tecnológico** (ojo que puse las dos palabras juntas)
 > que se cree en la compañía esté lo más alineado posible
@@ -254,12 +278,19 @@ lo que se necesita en este ámbito es especialistas.
 Y esto hablando siempre de empresas de base tecnológica, claro;
 en otros sectores no tengo experiencia.
 
-También se necesita que 
+Pero por otra parte, también es necesario que todos los y las CTOs
+sean conscientes de que su papel no es ser gurús de tecnología,
+sino llevar a los equipos al siguiente nivel de ejecución.
+Esto incluye definitivamente conocer los puntos fuertes del producto y desarrollarlos.
+La visión de producto empieza a ser sexy:
+por ejemplo, era uno de los puntos fuertes de la última edición de la Tarugoconf.
+Y es algo que me he empeñado en mejorar.
 
 ### 🙏 Agradecimientos
 
 Muchas gracias a Rafa Serrano,
 Rafa Casuso,
-Iván Velasco
+Iván Velasco,
+Miguel Ángel Fajardo,
 por dejarme usar sus palabras.
 
