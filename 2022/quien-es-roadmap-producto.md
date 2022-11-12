@@ -196,10 +196,10 @@ Igual ahora mismo estáis pensando:
 > Además, igual no te has llevado bien con los y las CPOs que has conocido porque eres un _rancier_.
 
 Bien, hablemos de conflictos.
-Yo tampoco creo que el CTO deba ser todopoderoso, pero sí ser el responsable del roadmap.
+Yo tampoco creo que el CTO deba ser todopoderoso, pero sí ser responsable del roadmap.
 Esto no significa necesariamente tomar las decisiones sobre qué se va a hacer:
 las más estratégicas se fijan normalmente en el comité ejecutivo.
-Pero sí la persona que haga de CTO debe responder de la ejecución.
+La persona que haga de CTO debe responder de la ejecución.
 
 Para dar un ejemplo de lo que eso significa:
 si hay algún problema entregando una feature,
