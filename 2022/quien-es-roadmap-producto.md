@@ -1,6 +1,6 @@
 ---
 title: '🗺️ ¿De quién es el roadmap de producto?'
-subtitle: 'En una empresa tech: ¿CTO, CPO, o conjuntamente?'
+subtitle: 'Empresas tech: ¿CTO, CPO, o responsabilidad conjunta?'
 footer: Publicado el 2022-11-12, modificado el 2022-11-12.
   [¿Comentarios o sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
@@ -122,15 +122,19 @@ El 10 de noviembre publiqué [esta encuesta](https://twitter.com/pinchito/status
 
 ![Resultados abrumadores a favor de CPO + CTO, con CPO la segunda.](pics/roadmap-poll.png "La pregunta es: ¿quién debería ser dueña del roadmap de producto? Gana la opción 'CPO + CTO conjuntamente' con un 44.7%, segunda 'CPO' con un 21.1% y muy distante 'CTO' con 5.3%. La opción por defecto 'This is fine' consigue un 28.9% de los votos.")
 
-Claramente los 38 encuestados se decantaron más por la opción de CPO.
+38 encuestados no es mucho,
+pero claramente se decantaron en su mayoría por la opción conjunta,
+seguida por la de CPO.
 Y tiene sentido, ¿no?
 Si estamos construyendo un producto tecnológico,
 la parte de producto debe pesar tanto como la tecnológica.
 
 ## 🗣️ Mi opinión
 
-Hemos venido aquí a este blog a mojarnos, y no a soltar tibiezas.
+Hemos venido aquí a este blog a mojarnos, y no a soltar tibiezas,
+así que voy a contaros todas las verdades.
 En mi experiencia, tener CTO y CPO a la misma altura es una fuente constante de problemas.
+Os voy a explicar por qué.
 
 ### 🪖 Trabajo en squads
 
