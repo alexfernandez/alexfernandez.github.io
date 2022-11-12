@@ -5,10 +5,8 @@ footer: Published on 2022-07-06, modified on 2022-07-06.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   The cowboy had a bunch of cattle and a river to cross.
-  The engineer had 
+  The engineer had a lot of plans.
   There is a time and a place for everything.
-  Kubernetes is a powerful tool that can simplify your life
-  even with a rather pedestrian stack.
 image: https://pinchito.es/2022/pics/building-bridges-salamanca.jpg
 ---
 
