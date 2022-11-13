@@ -271,6 +271,14 @@ a la estrategia y necesidades reales que tiene dicha compañía.
 > Además de comerse toda la capa de política con otros _C-levels_
 > para asegurar que sus equipos tengan el menor ruido posible y se centre en lo que deben centrarse: en crear valor.
 
+Juan Carlos Delgado, CTO de Bipi:
+
+> Soy del Team CTO sin duda y he vivido ambos mundos en la misma empresa.
+> Estoy de acuerdo en que sólo es posible si el CTO está bien centrado en el producto,
+> y para eso debe de ser un generalista que más allá de la tecnología entienda el producto,
+> el mercado en el que trabaja,
+> sepa cómo medir el producto y entienda el trabajo de cada área de negocio de la empresa.
+
 ## Conclusiones
 
 En mi modesta opinión vivimos en una burbuja de ejecutivos de producto;
