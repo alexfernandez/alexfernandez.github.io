@@ -1,6 +1,6 @@
 ---
 title: '🗺️ ¿De quién es el roadmap de producto?'
-subtitle: 'Empresas tech: ¿CTO, CPO, o responsabilidad conjunta?'
+subtitle: 'En empresas tech: ¿CTO, CPO, o responsabilidad conjunta?'
 footer: Publicado el 2022-11-12, modificado el 2022-11-12.
   [¿Comentarios o sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
@@ -13,7 +13,10 @@ image: https://pinchito.es/2022/pics/roadmap-wikimania.jpg
 
 ![Un roadmap cualquiera de producto.](pics/roadmap-wikimania.jpg "Un roadmap que empieza en 2017 con 'dirección estratégica', sigue en 2018 con 'estás aquí' seguido de 'inicio' y 'ámbito', en 2019 con 'analizar' y 'concluir', y termina en 2020 con 'implementar'. 2030 aparece como 'futuro'. Fuente: https://commons.wikimedia.org/wiki/File:Wikimania_2018_-_Strategy_Bar_-_how_to_get_involved_roadmap.jpg")
 
-Hace unos días Rafa Serrano, CTO de Civitatis, hizo una pregunta muy interesante en un grupo de WhatsApp para CTOs:
+## ❓ La pregunta
+
+Hace unos días [Rafa Serrano](https://www.linkedin.com/in/rsfernandez/),
+CTO de Civitatis, hizo una pregunta muy interesante en un grupo de WhatsApp para CTOs:
 
 > Venga, me lanzo yo con una sobre organización.
 > ¿Cómo encajáis diseño y producto dentro de la organización?
@@ -23,16 +26,15 @@ Hace unos días Rafa Serrano, CTO de Civitatis, hizo una pregunta muy interesant
 Este asunto de organización de producto me tiene intrigado ya desde hace unos años.
 He visto distintos enfoques y he tomado notas sobre cómo funciona cada uno.
 
-## ❓ La pregunta
-
 A efectos de este artículo vamos a considerar la existencia
 de un Chief Technology Officer (CTO) y CPO (Chief Product Officer) como puestos abstractos,
 no como personas concretas.
-Estamos en el ámbito de una empresa tech de producto.
+Todo considerado en el ámbito de una empresa tech de producto.
 
 ## 🔧 Campo CTO
 
-Rafa Casuso, CTO de ThePower Business School, fue el primero en tomar el guante:
+[Rafa Casuso](https://www.linkedin.com/in/herrerayague/),
+CTO de ThePower Business School, fue el primero en tomar el guante:
 
 > Yo creo que depende del dominio y de las personas concretas.
 > Pero personalmente no me gusta cuando hay CPO y CTO a la par:
@@ -44,23 +46,14 @@ Rafa Casuso, CTO de ThePower Business School, fue el primero en tomar el guante:
 > Lo más importante que decide una startup es a qué dedica su equipo de Ingeniería,
 > y me cuesta mucho asumir que eso se decida fuera del equipo
 
-Carlos Herrera, CTO de Cabify, expuso su punto de vista:
-
-> Nosotros lo tenemos con CTO y 4 VPs:
-> Design, Data, Engineering, Product.
-> El roadmap se define por audiencia (tribu).
-> Mi rol y el de los 4 VPs se limita a coordinar roadmaps que necesitan varias audiencias.
-
-> Aparte el curro de cada VP es que Cabify sea un sitio donde se hace su disciplina mejor (ingeniería, diseño, data y producto)
-> porque entendemos que hacer bien el arte de cada quién es crítico para atraer y mantener contenta a la gente.
-
-Por su parte, Iván Velasco, CTO de Clicars, estuvo también de acuerdo:
+Por su parte, [Iván Velasco](https://www.linkedin.com/in/herrerayague/),
+CTO de Clicars, estuvo también de acuerdo:
 
 > +1, es la forma más fácil de mantener ambas áreas alineadas.
 > Del CTO cuelgan el VP of Engineering llevando la rama de ingeniería, y un VP of Product llevando todo producto.
 > Esto es lo que me ha funcionado siempre.
 > La persona que hace de CTO necesita tener la visión estratégica de dónde se va a ir y alinear al VP de eng con el VP de producto.
-> Luego será el VP of Producto quien ya gestione todas las dinámicas de creación de producto y el resto de perfiles.
+> Luego será el VP of Product quien ya gestione todas las dinámicas de creación de producto y el resto de perfiles.
 > En mi opinión un CTO debe tener también visión de producto y de negocio.
 > Si no, se me queda cojo.
 
@@ -78,16 +71,27 @@ Por su parte, Iván Velasco, CTO de Clicars, estuvo también de acuerdo:
 
 > Así que **no** a ejecutivos de producto, y un **sí** rotundo a especialistas de producto, en mi opinión.
 
+[Carlos Herrera](https://www.linkedin.com/in/herrerayague/), CTO de Cabify, lo expuso así:
+
+> Nosotros lo tenemos con CTO y 4 VPs:
+> Design, Data, Engineering, Product.
+> El roadmap se define por audiencia (tribu).
+> Mi rol y el de los 4 VPs se limita a coordinar roadmaps que necesitan varias audiencias.
+
+> Aparte el curro de cada VP es que Cabify sea un sitio donde se hace su disciplina mejor (ingeniería, diseño, data y producto)
+> porque entendemos que hacer bien el arte de cada quién es crítico para atraer y mantener contenta a la gente.
+
 ## 🎁 Campo CPO
 
-Miguel Ángel Fajardo, VP Eng de Clibank, expuso el punto de vista opuesto:
+[Miguel Ángel Fajardo](https://www.linkedin.com/in/lantoli/),
+VP Eng de Clibank, expuso el punto de vista opuesto:
 
 > Yo lo veo al revés, un CTO no está preparado como un CPO para hacer un producto estelar
 > (a no ser que sea un producto para desarrolladores o algo así).
 > La mentalidad y la formación es diferente, aunque haya areas de intersección.
 > Y obviamente diseño cae dentro de producto.
 
-Leo Antolí siguió con el tema:
+[Leo Antoli](https://www.linkedin.com/in/lantoli/), Tech Lead en Amazon y ex-CTO en Nextail, siguió con el tema:
 
 > Simplificando mucho: calidad externa es que el producto no tenga bugs,
 > haga lo que necesiten los usuarios, etc.
@@ -115,6 +119,18 @@ expuso los problemas de tener al cargo de CTO liderando el producto:
 > Si hay roles CPO+CTO obviamente la agenda debe ser común, pero eso de que lo mejor es CTO a solas...
 > Por esa regla incluso podría llegar al límite que también es la propia agenda del CEO y otras áreas,
 > por eso no tengo tan claro que el coordinador deba ser necesariamente el CTO (o la T es de todopoderoso? 😅)
+
+En palabras de [Thaís Moraleida](https://www.linkedin.com/in/thaismoraleida/),
+CTO de Inmoweb:
+
+> Los dos roles (CPO + CTO) deben ir coordinados en el desarrollo del Roadmap.
+> Para que una gran idea se lleve a cabo bien, es necesario que haya una base tecnológica sólida por detrás,
+> según la necesidad del cliente, el presupuesto y las limitaciones del equipo.
+> No concibo un Roadmap tecnológico exitoso sin la visión de un CPO y el conocimiento de un CTO.
+> Ahora bien, en la práctica sabemos que, según las dimensiones de la empresa,
+> ambas figuras (CTO y CPO) pueden acaparar distintas funciones.
+> Y creo que esta discrepancia es la que hace que, una figura u otra, domine más la estrategia que otra.
+> A nivel funcional puro y deseable, deben trabajar en conjunto.
 
 ### 🗳️ La encuesta
 
@@ -148,12 +164,18 @@ Pero hay un problema:
 si separamos CTO y CPO, parte del equipo va a colgar de una pata (producto del CPO)
 y el resto de otra (devs, QAs, data... del CTO).
 ¡Es una receta para el desastre!
-¿Cómo se puede organizar un equipo donde hay dos jefes diferentes?
+¿Cómo se puede organizar un equipo donde hay dos líneas de reporting diferentes?
+Las típicas organizaciones tipo matriz llevan a la típica sensación de
+"tengo dos managers" o, peor todavía,
+"no sé ni quién es mi manager ahora".
 
 ¿Quién resuelve los problemas del squad?
 Si hay un conflicto al desarrollar una feature,
-el CTO y el CPO tendrán que sentarse a hablar.
-Mientras que con un mando integrado sería la team lead quien resuelva los problemas internos.
+el CTO y el CPO tendrán que sentarse a hablar;
+mientras que con un mando integrado sería la team lead quien resuelva los problemas internos.
+Si profundizamos en la forma de trabajo por squads tendremos que asegurarnos de que empujamos hacia abajo
+todas las decisiones que se pueda,
+o tendremos a una capa ejecutiva agobiada con los problemas del día a día.
 
 ### 📓 Agendas
 
@@ -256,7 +278,7 @@ deben venir de arriba abajo.
 Cosas del tipo "añadir features gordas" o "ajustar precios"
 pueden tener mucho más peso que arreglar unos cuantos bugs o hacer mejoras incrementales.
 
-De nuevo Iván puntualiza:
+De nuevo Iván Velasco puntualiza:
 
 > Tener a un CTO que lleva la responsabilidad de producto
 > no quiere decir que el CTO deba estar en todo o saber de todo.
@@ -271,7 +293,8 @@ a la estrategia y necesidades reales que tiene dicha compañía.
 > Además de comerse toda la capa de política con otros _C-levels_
 > para asegurar que sus equipos tengan el menor ruido posible y se centre en lo que deben centrarse: en crear valor.
 
-Juan Carlos Delgado, CTO de Bipi:
+En opinión de [Juan Carlos Delgado](https://www.linkedin.com/in/herrerayague/),
+CTO de Bipi:
 
 > Soy del Team CTO sin duda y he vivido ambos mundos en la misma empresa.
 > Estoy de acuerdo en que sólo es posible si el CTO está bien centrado en el producto,
@@ -279,7 +302,9 @@ Juan Carlos Delgado, CTO de Bipi:
 > el mercado en el que trabaja,
 > sepa cómo medir el producto y entienda el trabajo de cada área de negocio de la empresa.
 
-## Conclusiones
+Suena fácil 😅
+
+## 🤔 Conclusiones
 
 En mi modesta opinión vivimos en una burbuja de ejecutivos de producto;
 lo que se necesita en este ámbito es especialistas.
@@ -290,15 +315,14 @@ Pero por otra parte, también es necesario que todos los y las CTOs
 sean conscientes de que su papel no es ser gurús de tecnología,
 sino llevar a los equipos al siguiente nivel de ejecución.
 Esto incluye definitivamente conocer los puntos fuertes del producto y desarrollarlos.
+
 La visión de producto empieza a ser sexy:
 por ejemplo, era uno de los puntos fuertes de la última edición de la Tarugoconf.
 Y es algo que me he empeñado en mejorar.
+La tecnología tiene poco sentido sin un producto fuerte.
 
 ### 🙏 Agradecimientos
 
-Muchas gracias a Rafa Serrano,
-Rafa Casuso,
-Iván Velasco,
-Miguel Ángel Fajardo,
-por dejarme usar sus palabras.
+Muchas gracias a todas las personas citadas en el artículo por dejarme usar sus palabras.
+Gracias en particular a Rafa Serrano por lanzar una pregunta tan interesante.
 
