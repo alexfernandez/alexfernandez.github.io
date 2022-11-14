@@ -143,7 +143,7 @@ pero claramente se decantaron en su mayoría por la opción conjunta,
 seguida por la de CPO.
 Y tiene sentido, ¿no?
 Si estamos construyendo un producto tecnológico,
-la parte de producto debe pesar tanto como la tecnológica.
+la parte de producto debe pesar al menos tanto como la tecnológica.
 
 ## 🗣️ Mi opinión
 
@@ -203,12 +203,17 @@ Y si preguntamos a la gente de negocio no habrá ninguna duda.
 El departamento de desarrollo se convierte en una factoría de features
 donde se parchea sin ningún pudor para seguir construyendo para la siguiente feature de la lista,
 sin pararse a mejorar la experiencia del equipo dev.
-
 En mi experiencia esta situación siempre lleva a plataformas inmantenibles y deudas técnicas impagables:
 [_builds_ de una hora](https://engineering.linkedin.com/blog/2018/07/how-we-improved-build-time-by-400-percent),
 plataformas complejísimas,
 y cero inversión en tecnología.
-Sólo alguien que entienda la parte tecnológica va a dedicar el esfuerzo estratégico a mejorar el entorno de desarrollo.
+
+Y como hemos aclarado, estamos en una empresa tecnológica.
+Sólo alguien que entienda la tecnología va a dedicar el esfuerzo estratégico a mejorar el entorno de desarrollo,
+o a reducir el tiempo de despliegue.
+Y a la larga, este esfuerzo es lo que hace que un equipo sea productivo.
+El [proyecto DORA de Google Cloud](https://www.devops-research.com/research.html)
+puede ser revelador sobre por qué la base técnica es imprescindible para liderar equipos de alto rendimiento.
 
 ### 💥 Conflictos
 
@@ -239,7 +244,7 @@ Le doy de nuevo la palabra a Iván que lo expresó de forma impecable:
 > el CTO y el CPO se pueden llevar bien. Hoy para ti, mañana para mí.
 
 > Cuando las cosas se complican, ya sea por malos momentos de mercado,
-retrasos o sobre costes en entregas importantes, un competidor fuerte que va más rápido que tú...
+> retrasos o sobre costes en entregas importantes, un competidor fuerte que va más rápido que tú...
 > Ojito, los cuchillos empiezan a llover y se percibe claramente
 > cómo dentro del mismo squad ingeniería y producto se echan la pelota entre sí.
 > Eso NO tiene sentido, pero pasa, porque somos seres humanos
