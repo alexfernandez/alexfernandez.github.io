@@ -1,7 +1,7 @@
 ---
-title: '🗺️ ¿De quién es el roadmap de producto?'
+title: '🗺️ ¿Quién lleva el roadmap de producto?'
 subtitle: 'En empresas tech: ¿CTO, CPO, o responsabilidad conjunta?'
-footer: Publicado el 2022-11-12, modificado el 2022-11-12.
+footer: Publicado el 2022-11-15, modificado el 2022-11-15.
   [¿Comentarios o sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   El roadmap de producto es uno de los elementos clave en una empresa de tecnología.
