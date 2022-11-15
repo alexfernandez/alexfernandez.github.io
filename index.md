@@ -20,6 +20,7 @@ Latest articles first.
 
 ### 2022
 
+🧑‍💻 🇪🇸 2022-11-15: [🗺️  ¿Quién lleva el roadmap de producto?](2022/quien-lleva-roadmap-producto)  
 🧑‍💻 🇮🇪 2022-07-08: [🌉 Building Bridges](2022/building-bridges)  
 🦠 🇪🇸 2022-06-28: [🖇️ El largo camino a la simbiosis](2022/bacterias-simbiosis)  
 ⚛️ 🇮🇪 2022-03-27: [💫 Understanding the Limits of Physical Laws](2022/understanding-limits)  
