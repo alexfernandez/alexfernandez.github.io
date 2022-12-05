@@ -133,9 +133,6 @@ The most popular at 1.8k stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library for load testing web applications.
 
-I was also a volunteer admin at Savannah (part of the GNU project)
-from 2008 to 2010.
-
 ### Public Speaking
 
 In 2013 I started doing public talks,
