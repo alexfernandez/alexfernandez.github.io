@@ -1,9 +1,10 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-footer: Last edited on 2020-01-11.
+footer: Last edited on 2022-12-05.
 ---
 
-Developer with 20+ years of experience specialized in scalability and DevOps.
+Developer with 20+ years of experience specialized in scalability and DevOps,
+invested in helping teams become top performers.
 
 ## Job History
 
@@ -14,23 +15,23 @@ Please find below my most relevant engagements.
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
-With two other partners I have co-founded [Ntrde](https://ntrde.io/),
+With two business partners I have co-founded [Ntrde](https://ntrde.io/),
 a decision intelligence solution for global trading.
 At this new adventure I'm currently working as CTO,
-building the company from scratch in a very promising sector.
+building the company in a very promising sector.
 
 ### 2021-01 to 2022-06: CTO at Hivency
 
 In 2021 I joined
 [Hivency](https://www.hivency.com/), a French influencer marketing company,
 as CTO.
-I had the opportunity to lead a wonderful team of French and Spanish professionals
+I led a team of French and Spanish professionals
 to create the best solution in influencer marketing worldwide.
 During this time I reorganized the team to work in squads,
 hired new developers,
 and improved internal practices.
 
-In 2021-09 Hivency was acquired by the Skeepers group based in Marseille.
+In 2021-09 Hivency was acquired by the Skeepers group based.
 I helped navigate the acquisition process and subsequent audits,
 and secure a successful multi-million operation.
 At Skeepers I worked for nine more months as a Director of Engineering.
@@ -156,7 +157,7 @@ From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid.
 
 ### 1989 - 1996: Physics Degree
 
-I studied first at Granada and then at Universidad Autónoma de Madrid.
+I finished my degree at Universidad Autónoma de Madrid.
 
 ### Teaching
 
@@ -164,10 +165,9 @@ I have participated in two editions of the
 [IronHack](https://www.ironhack.com/) bootcamp
 as the main JavaScript teacher.
 
-I have taught courses in Node.js, JavaScript and Go.
+I have taught multiple courses in Node.js, JavaScript and Go.
 
 ## Contact
 
 * [Email](mailto:alexfernandeznpm@gmail.com)
-* [Twitter](https://twitter.com/pinchito)
 

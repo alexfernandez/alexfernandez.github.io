@@ -1,15 +1,13 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2021-10-17.
-  [Comments, improvements?](https://twitter.com/pinchito)
+footer: Published on 2016-08-17, last edited on 2022-12-05.
+  [Comments, improvements?](mailto:alexfernandeznpm@gmail.com).
 ---
 
 ## TL;DR
 
-A developer turned CTO with 20+ years of experience:
-proficient in backend development,
-specialized in scalability and DevOps,
+Developer turned CTO with 20+ years of experience specialized in scalability and DevOps,
 invested in helping teams become top performers.
 
 ## Job History
