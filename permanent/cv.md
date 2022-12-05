@@ -304,16 +304,10 @@ I have programmed professionally using C, Java,
 PHP, JavaScript, Node.js and Go.
 I have lots of fun learning a new language or environment.
 
-### Rationale
-
-Why this page?
-I don't use LinkedIn much,
-since it is a honeypot for spammy recruiters.
-I prefer to remain in control of my CV and its format.
-
 ### Contact
 
 If you have a proposal feel free to contact me at
 [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
+You can also access my [LinkedIn page](https://www.linkedin.com/in/pinchito/).
 Thanks for making it this far!
 

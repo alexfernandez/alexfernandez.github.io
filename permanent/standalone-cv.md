@@ -136,14 +136,9 @@ a Node.js library for load testing web applications.
 
 ### Public Speaking
 
-In 2013 I started doing public talks,
-the very first to a crowded room for
-[MadridJS](http://www.meetup.com/es-ES/madridjs/events/105582592/).
-
 I have
 [extensive experience as a public speaker](https://pinchito.es/permanent/speaker).
-Technical conferences are excellent opportunities to keep up to date,
-and giving talks is a great encouragement to study some topic and give back to the community.
+Technical conferences are excellent opportunities to keep up to date.
 
 ### Organizations
 
@@ -170,4 +165,5 @@ I have taught multiple courses in Node.js, JavaScript and Go.
 ## Contact
 
 * [Email](mailto:alexfernandeznpm@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/pinchito/)
 
