@@ -19,20 +19,28 @@ Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
-### 2021-01 to Present: CTO at Hivency
+### 2022-09 to present: Cofounder and CTO at Ntrde
 
-I am currently working as CTO at
-[Hivency](https://www.hivency.com/), an influencer marketing company.
-I am leading a wonderful team of French and Spanish professionals
+With two German partners I have co-founded [Ntrde](https://ntrde.io/),
+a decision intelligence solution for global trading.
+At this new adventure I'm currently working as CTO,
+making the company grow from scratch in a very promising sector.
+
+### 2021-01 to 2022-06: CTO at Hivency
+
+In 2021 I joined
+[Hivency](https://www.hivency.com/), an influencer marketing company,
+as CTO.
+I had the opportunity to lead a wonderful team of French and Spanish professionals
 to create the best solution in influencer marketing worldwide.
-During this time I have reorganized the team to work in squads,
+During this time I reorganized the team to work in squads,
 hired new developers,
 improved internal practices and moved forward in the road to continuous deployment.
 
-Hivency has recently been acquired by the Skeepers group,
-which will give us new energy to conquer new markets.
+In 2021-09 Hivency was acquired by the Skeepers group based in Marseille.
 I helped navigate the acquisition process and subsequent audits,
-and secure a successful operation.
+and secure a successful multi-million operation.
+At Skeepers I worked for nine more months as a Director of Engineering.
 
 ### 2020-04 to 2020-12: Freelancer
 
