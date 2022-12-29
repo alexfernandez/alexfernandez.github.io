@@ -190,8 +190,8 @@ ya que su ausencia supuestamente aumenta algunas patologías como asma o enferme
 # Uniendo los puntos
 
 Recapitulemos.
-Estamos buscando el culpable de la enfermedad de Crohn.
-Tenemos ya una sospechosa (nuestra amiga MAP),
+Estamos buscando el culpable de la enfermedad de Crohn;
+tenemos ya una sospechosa (nuestra amiga MAP),
 un móvil (transmisión zoonótica),
 y un _modus operandi_ (bacterias haciéndose pasar por dolencias autogeneradas).
 Nos falta encontrar el arma humeante:
@@ -300,7 +300,7 @@ ocurre cuando el sistema inmune
 Hay estudios que relacionan a
 [la bacteria MAP con la diabetes tipo I](https://www.frontiersin.org/articles/10.3389/fimmu.2015.00096/full).
 El caso más claro es un estudio
-[en Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1)
+[en Cerdeña](https://gutpathogens.biomedcentral.com/track/pdf/10.1186/1757-4749-2-1),
 un sitio con alta incidencia de esta enfermedad.
 
 El mecanismo del que se sospecha es
@@ -316,9 +316,10 @@ Se sospecha que la bacteria MAP puede estar implicada en otras enfermedades.
 Los resultados del RHB-104 contra la esclerosis múltiple
 [son esperanzadores](https://www.redhillbio.com/multiple-sclerosis),
 lo que indicaría un origen micobacteriano claro.
-También hay estudios que relacionan otras micobacterias con la [sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
-y con la [tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
-aunque de forma más tangencial.
+También hay estudios que relacionan otras micobacterias con la
+[sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
+y de forma más tangencial con la
+[tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
 
 ## Más bacterias y algún virus
 
@@ -354,8 +355,8 @@ Está demostrado que sufrir infecciones en el últero aumenta al doble el riesgo
 [autismo, esquizofrenia y depresión](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2727135).
 También sabemos que hay
 [multitud de cánceres causados por infecciones](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3291059/).
-Por ultimo,
-hace unos dias se ha publicado una relacion entre
+Por último,
+hace poco se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
 
 # La gran prediccion
@@ -399,14 +400,20 @@ y se enfrente a este gran desafío que tenemos por delante.
 
 Este artículo es la cuarta parte de la
 [serie sobre bacterias](bacterias-maquinas).
+Continuará.
+<!--
 Sigue a la
 [parte 5: ¿Venimos de las estrellas?](bacterias-estrellas),
 donde veremos en profundidad el enigma del origen de la vida.
+-->
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  
 ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 ↑ Parte 4: Enfermedades autoinmunes.  
+→ Continuará.  
+<!--
 → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas).  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
+-->
 

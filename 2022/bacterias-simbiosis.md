@@ -507,18 +507,15 @@ por nuestra loca lucha contra todo lo que no nos es útil directamente.
 
 Este artículo es la tercera parte de la
 [serie sobre bacterias](/bacterias).
-Continuará.
-<!--
 Sigue a la
 [parte 4: Enfermedades autoinmunes](bacterias-autoinmunes)
 donde hablaremos de patologías que afectan directamente al sistema inmune.
--->
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  
 ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ↑ Parte 3: 🖇️ El largo camino a la simbiosis.  
+→ Parte 4: [Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
 <!--
-→ Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).  
 → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
 -->

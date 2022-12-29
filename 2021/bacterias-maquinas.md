@@ -72,10 +72,10 @@ Los errores que permanezcan en el texto son todo míos.
 donde daremos un repaso general al panorama bacteriano.  
 → Parte 2: Continúa por [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia),
 para introducirnos en la gran diversidad de mecanismos que emplean.  
-→ Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
-→ Continuará.  
+→ Parte 3: En [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis)
+veremos cómo las bacterias no son tan malas como pensamos.  
+→ Parte 4: [💉 Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
 <!--
-→ Parte 4: [Enfermedades autoinmunes](bacterias-autoinmunes).  
 → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
 -->
