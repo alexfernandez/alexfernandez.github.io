@@ -24,7 +24,7 @@ por ejemplo:
 [vitíligo y enfermedad de la tiroide](https://medlineplus.gov/spanish/ency/article/000831.htm),
 o [enfermedad de Crohn y diabetes tipo I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463263/).
 
-# Enfermedad de Crohn
+# 🏥 Enfermedad de Crohn
 
 Vamos a enfocarnos de momento en la
 [enfermedad de Crohn](https://www.crohnscolitisfoundation.org/what-is-crohns-disease/overview),
@@ -73,7 +73,7 @@ que deprimen el sistema inmune y a veces (no siempre) minimizan los síntomas.
 Los pacientes siguen siendo crónicos,
 pero al menos se pueden mantener sin brotes.
 
-# Tras la pista bacteriana
+# 🐄 Tras la pista bacteriana
 
 Puede ser interesante ver esta cita del
 [libro del propio doctor Burrill Crohn en 1949](https://www.zora.uzh.ch/id/eprint/92821/1/92821.pdf),
@@ -123,7 +123,7 @@ Parece que estamos en un punto muerto.
 Antes de seguir investigando vamos a dar un rodeo por la hemeroteca:
 la historia de la medicina nos puede dar una pista de por dónde continuar.
 
-# Úlceras y bacterias
+# 🥛 Úlceras y bacterias
 
 La gente que no ha vivido la epidemia de úlceras gástricas de las décadas de 1970 y 1980
 no se hace una idea de su magnitud.
@@ -187,7 +187,7 @@ Y no falta gente que
 [echa de menos a la bacteria](https://www.sciencefriday.com/articles/the-bacterium-disappearing-from-our-stomachs/),
 ya que su ausencia supuestamente aumenta algunas patologías como asma o enfermedades del esófago.
 
-# Uniendo los puntos
+# 🕵️ Uniendo los puntos
 
 Recapitulemos.
 Estamos buscando el culpable de la enfermedad de Crohn;
@@ -226,7 +226,7 @@ Por otra parte
 ataca a los macrófagos que albergan esta bacteria.
 Es de esperar que otros medicamentos tengan un efecto similar.
 
-## Terapias anti-MAP
+## 💊 Terapias anti-MAP
 
 Pero la prueba definitiva que puede convencer a la comunidad científica es un
 [ensayo clínico de fase III](https://clinicaltrials.gov/ct2/show/NCT01951326).
@@ -260,7 +260,7 @@ El profesor Hermon-Taylor está trabajando en
 que está ahora en ensayos clínicos de fase II.
 ¡Crucemos los dedos!
 
-## Escepticismo al escepticismo
+## 🧑‍🔬 Escepticismo al escepticismo
 
 Llegados a este punto,
 y si fuéramos médicos o científicos de algún rigor,
@@ -286,12 +286,12 @@ el descubrimiento del bacilo de la tuberculosis también
 y Koch tuvo que luchar para convencer al _establishment_
 de que la tuberculosis era una enfermedad infecciosa.
 
-# Otras enfermedades autoinmunes
+# 🤒 Otras enfermedades autoinmunes
 
 El sistema inmune humano es muy complejo,
 y todo sistema complejo tiende a fallar de formas enrevesadas.
 
-## Más MAP
+## 🔬 Más MAP
 
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
@@ -321,7 +321,7 @@ También hay estudios que relacionan otras micobacterias con la
 y de forma más tangencial con la
 [tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
 
-## Más bacterias y algún virus
+## 🔎 Más bacterias y algún virus
 
 Aún hay más.
 El [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
@@ -359,7 +359,7 @@ Por último,
 hace poco se ha publicado una relacion entre
 [autismo y sistema inmune](https://www.the-scientist.com/notebook/excess-of-immune-cells-found-in-brains-of-people-with-autism-66917).
 
-# La gran prediccion
+# 🔮 La gran prediccion
  
 Sin ser médico ni biólogo,
 ni querer parecerlo,
@@ -396,7 +396,7 @@ tratar enfermos crónicos sí.
 Es mi sincera esperanza que la sociedad recupere el espíritu curativo
 y se enfrente a este gran desafío que tenemos por delante.
 
-# Continuará…
+# ➡️ Continuará…
 
 Este artículo es la cuarta parte de la
 [serie sobre bacterias](bacterias-maquinas).
@@ -410,7 +410,7 @@ donde veremos en profundidad el enigma del origen de la vida.
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  
 ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
-↑ Parte 4: Enfermedades autoinmunes.  
+↑ Parte 4: 🧑‍⚕️ Enfermedades autoinmunes.  
 → Continuará.  
 <!--
 → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas).  

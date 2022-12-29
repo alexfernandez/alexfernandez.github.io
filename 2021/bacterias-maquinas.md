@@ -74,7 +74,8 @@ donde daremos un repaso general al panorama bacteriano.
 para introducirnos en la gran diversidad de mecanismos que emplean.  
 → Parte 3: En [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis)
 veremos cómo las bacterias no son tan malas como pensamos.  
-→ Parte 4: [💉 Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
+→ Parte 4: Seguimos con [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes),
+donde estudiaremos su implicación en varias dolencias misteriosas.  
 <!--
 → Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
