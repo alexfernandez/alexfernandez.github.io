@@ -420,7 +420,7 @@ donde veremos en profundidad el enigma del origen de la vida.
 ↑ Parte 4: 🧑‍⚕️ Enfermedades autoinmunes.  
 → Continuará.  
 <!--
-→ Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas).  
+→ Parte 5: [🌠 ¿Venimos de las estrellas?](bacterias-estrellas).  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
 -->
 

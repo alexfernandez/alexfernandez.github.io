@@ -4,12 +4,10 @@ subtitle: 'Parte 5 de la serie «🦠 Bacterias: máquinas que dominan el univer
 footer: Publicado el 2022-12-30, modificado el 2022-12-30.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
-  'Las enfermedades autoinmunes son perniciosas a la par que misteriosas:
-  causan millones de muertes cada año e innumerables molestias a quienes las sufren,
-  y son por ahora incurables.
-  ¿Qué las causa?
-  ¿Es posible que tengan origen bacteriano?'
-image: https://pinchito.es/2022/pics/bacterias-marshall-comic.jpg
+  'El origen de la vida es una de las cuestiones que más intrigan a la humanidad.
+  Desde la antigüedad ha habido gente que ha sugerido un posible origen interestelar,
+  y ciertos estudios recientes nos dan pistas sugerentes.
+image: https://pinchito.es/2022/pics/bacterias-enceladus-plumes.jpg
 ---
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

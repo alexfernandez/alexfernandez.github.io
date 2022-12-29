@@ -440,7 +440,7 @@ donde estudiaremos el sistema inmune y sus modos de fallo.
 → Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 → Parte 4: [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
 <!--
-→ Parte 5: [¿Venimos de las estrellas?](bacterias-estrellas)  
+→ Parte 5: [🌠 ¿Venimos de las estrellas?](bacterias-estrellas)  
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
 -->
 
