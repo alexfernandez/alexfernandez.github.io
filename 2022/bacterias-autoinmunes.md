@@ -9,7 +9,7 @@ abstract:
   y son por ahora incurables.
   ¿Qué las causa?
   ¿Es posible que tengan origen bacteriano?'
-image: https://pinchito.es/2022/pics/bacterias-natural-killer-cell.jpg
+image: https://pinchito.es/2022/pics/bacterias-marshall-comic.jpg
 ---
 
 ![Células asesinas, parte del sistema inmune. Su función es localizar y eliminar células infectadas o cancerígenas. [Fuente original](https://commons.wikimedia.org/wiki/File:Natural_Killer_Cell_(30439199790).jpg).](pics/bacterias-natural-killer-cell.jpg "Se muestra un dibujo de una célula atacando a otra; el título es 'Natural Killer Cell', a lo que se ha añadido 'BORN' en rojo sangre de forma cruda.")
