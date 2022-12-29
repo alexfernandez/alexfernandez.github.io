@@ -5,8 +5,8 @@ footer: Publicado el 2022-12-30, modificado el 2022-12-30.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'El origen de la vida es una de las cuestiones que más intrigan a la humanidad.
-  Desde la antigüedad ha habido gente que ha sugerido un posible origen interestelar,
-  y ciertos estudios recientes nos dan pistas sugerentes.
+  Desde la antigüedad ha habido gente que ha sugerido un posible origen interestelar;
+  curiosamente, esta loca hipótesis va cobrando fuerza según investigamos el espacio que nos rodea.'
 image: https://pinchito.es/2022/pics/bacterias-enceladus-plumes.jpg
 ---
 
