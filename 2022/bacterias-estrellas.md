@@ -1,8 +1,15 @@
 ---
-title: 'Bacterias (parte 5): ¿Venimos de las estrellas?'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+title: '🌠 Bacterias (parte 5): ¿Venimos de las estrellas?'
+subtitle: 'Parte 5 de la serie «🦠 Bacterias: máquinas que dominan el universo'
+footer: Publicado el 2022-12-30, modificado el 2022-12-30.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  'Las enfermedades autoinmunes son perniciosas a la par que misteriosas:
+  causan millones de muertes cada año e innumerables molestias a quienes las sufren,
+  y son por ahora incurables.
+  ¿Qué las causa?
+  ¿Es posible que tengan origen bacteriano?'
+image: https://pinchito.es/2022/pics/bacterias-marshall-comic.jpg
 ---
 
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/5XyNe8UESTs?start=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -10,14 +17,14 @@ footer: Publicado el 2020-01-16, modificado el 2020-01-16.
 En esta última parte vamos a explorar el origen mismo de las bacterias,
 y ya puestos de toda la vida en la Tierra.
 
-# ¿Hasta dónde llega la biosfera?
+# 🌏 ¿Hasta dónde llega la biosfera?
 
 Ya hemos visto en la
 [parte 1](bacterias-bonita#en-el-medio-ambiente)
 que hay abundantes bacterias en las nubes.
 Vamos a seguir subiendo a ver qué nos encontramos.
 
-## Alta atmósfera
+## 🛰️ Alta atmósfera
 
 En primer lugar tengo que citar un
 [apasionante experimento](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5864199/)
@@ -57,7 +64,7 @@ Sabemos seguro que se ha encontrado material genético bacteriano
 [en el exterior de la Estación Espacial Internacional](https://downloads.hindawi.com/journals/tswj/2018/7360147.pdf),
 correspondiente a organismos terrestres.
 
-## Resistencia a la radiación
+## ☢️ Resistencia a la radiación
 
 También vimos en la
 [parte 1](bacterias-bonita#los-extremófilos-no-se-tocan)
@@ -143,7 +150,7 @@ se haya adquirido realmente con exposición a la radiación.
 Podría ser simplemente una coincidencia,
 afortunada para nuestros propósitos de encontrar vida más allá de la Tierra.
 
-# ¿Vida en el sistema solar?
+# 🪐 ¿Vida en el sistema solar?
 
 Una vez que aguantamos dosis masivas de radiación ionizante,
 no hay razón para quedarnos en nuestro planeta.
@@ -152,7 +159,7 @@ Hay toda una disciplina,
 la astrobiología,
 dedicada a encontrarla.
 
-## En la Luna
+## 🌝 En la Luna
 
 En primer lugar vamos a hacer una visita rápida a la Luna.
 Tras múltiples misiones tripuladas se sabe que por allí no hay vida,
@@ -165,7 +172,7 @@ y a bordo encontraron
 [ejemplares vivos de _Streptococcus mitis_](https://mmbr.asm.org/content/mmbr/64/3/548.full.pdf)
 en el interior de una cámara.
 
-## ¿Vida en Marte?
+## ♂ ¿Vida en Marte?
 
 Vamos a seguir al que parece el candidato más viable: Marte.
 ¿Qué pensaríais que pasaría si una misión al planeta rojo detectara vida?
@@ -230,7 +237,7 @@ Lo que es bastante incomprensible es que no se envíen nuevas misiones a Marte
 con la capacidad de localizar vida,
 según lo que hoy sabemos.
 
-## Otros planetas
+## ♃ Otros planetas
 
 Por desgracia, los planetas interiores están demasiado calientes.
 En Venus la temperatura media es de
@@ -253,7 +260,7 @@ La misión [JUICE](http://www.bbc.com/earth/story/20150326-europa-may-be-home-to
 prevista para 2022,
 puede darnos más pistas.
 
-# Panspermia
+# 🌠 Panspermia
 
 [Anaxágoras de Clazómene](https://cosmosmagazine.com/biology/over-our-heads-a-brief-history-of-panspermia)
 habla de "semillas recorriendo el cosmos".
@@ -272,7 +279,7 @@ En cualquier caso su visión es muy enriquecedora:
 > Pero un pequeño número de esporas caerá en otro mundo,
 > y pueden ser capaces de dispersar la vida allí si las condiciones fueran favorables.
 
-## Ecosistema solar
+## ☀️ Ecosistema solar
 
 La primera vez que me encontré con esta idea de que la vida se había originado en otro planeta,
 o incluso en otro sistema solar,
@@ -297,7 +304,7 @@ entre planetas.
 Ya hemos visto cómo las procariotas pueden superar este obstáculo sin problemas,
 y más todavía si están insertas en rocas.
 
-## Ecosistema galáctico
+## 🌌 Ecosistema galáctico
 
 Abriendo un poco más los ojos,
 y ampliando los periodos de tiempo considerados,
@@ -314,7 +321,7 @@ como un caldo de cultivo de vida,
 con [estrellas que se contaminan unas a otras](https://iopscience.iop.org/article/10.3847/2041-8213/aaef2d)
 intercambiando cometas y asteroides.
 
-## Teorías desde el borde
+## 🤪 Teorías desde el borde
 
 Según vamos ampliando horizontes hay que tener mucho cuidado con estas ideas.
 A veces vienen de científicos reputados como
@@ -360,7 +367,7 @@ Es una lástima que haya tanto charlatán en un campo tan intrigante.
 Por suerte cada vez hay más científicos serios,
 como [Gerda Horneck](https://www.astrobio.net/extreme-life/the-lessons-of-exposure/).
 
-# ¿El origen del sol?
+# 🌞 ¿El origen del sol?
 
 Los elementos que componen la Tierra se fraguaron
 [en supernovas](https://blogs.scientificamerican.com/basic-space/httpblogsscientificamericancombasic-space20110802on-the-origin-of-chemical-elements/)
@@ -415,18 +422,22 @@ y a ellos les quedan unos 2900 años para recibir nuestras primeras emisiones de
 
 ![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
 
-# Fin
+# ⏭️ Continuará…
 
 Este artículo es la quinta parte de la
 [serie sobre bacterias](bacterias-maquinas).
+Continuará.
+<!--
 Sigue a la
 [parte 6: Conclusiones](bacterias-conclusiones),
 donde intentaremos extraer algunas enseñanzas útiles.
+-->
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  
 ← Parte 2: [⚙️  Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 ← Parte 4: [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
-↑ Parte 5: ¿Venimos de las estrellas?  
+↑ Parte 5: 🌠 ¿Venimos de las estrellas?  
+<!--
 → Parte 6: [Conclusiones](bacterias-conclusiones).  
-
+-->
