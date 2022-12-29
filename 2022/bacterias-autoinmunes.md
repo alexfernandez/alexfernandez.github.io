@@ -1,8 +1,15 @@
 ---
 title: '🧑‍⚕️ Bacterias (parte 4): Enfermedades autoinmunes'
-subtitle: 'Complemento a la charla para T3chFest 2020'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+subtitle: 'Parte 4 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
+footer: Publicado el 2022-12-29, modificado el 2022-12-29.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  'Las enfermedades autoinmunes son perniciosas a la par que misteriosas:
+  causan millones de muertes cada año e innumerables molestias a quienes las sufren,
+  y son por ahora incurables.
+  ¿Qué las causa?
+  ¿Es posible que tengan origen bacteriano?'
+image: https://pinchito.es/2022/pics/bacterias-natural-killer-cell.jpg
 ---
 
 ![Células asesinas, parte del sistema inmune. Su función es localizar y eliminar células infectadas o cancerígenas. [Fuente original](https://commons.wikimedia.org/wiki/File:Natural_Killer_Cell_(30439199790).jpg).](pics/bacterias-natural-killer-cell.jpg "Se muestra un dibujo de una célula atacando a otra; el título es 'Natural Killer Cell', a lo que se ha añadido 'BORN' en rojo sangre de forma cruda.")
@@ -291,7 +298,7 @@ de que la tuberculosis era una enfermedad infecciosa.
 El sistema inmune humano es muy complejo,
 y todo sistema complejo tiende a fallar de formas enrevesadas.
 
-## 🔬 Más MAP
+## 🧫 Más MAP
 
 La diabetes tipo I, en particular,
 ocurre cuando el sistema inmune
@@ -321,7 +328,7 @@ También hay estudios que relacionan otras micobacterias con la
 y de forma más tangencial con la
 [tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
 
-## 🔎 Más bacterias y algún virus
+## 🔬 Más bacterias y algún virus
 
 Aún hay más.
 El [_lupus vulgaris_](https://www.oatext.com/Cutaneous-lupus-vulgaris-Bringing-the-wolf-out-of-the-darkness.php)
@@ -396,7 +403,7 @@ tratar enfermos crónicos sí.
 Es mi sincera esperanza que la sociedad recupere el espíritu curativo
 y se enfrente a este gran desafío que tenemos por delante.
 
-# ➡️ Continuará…
+# ⏭️ Continuará…
 
 Este artículo es la cuarta parte de la
 [serie sobre bacterias](bacterias-maquinas).
