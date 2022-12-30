@@ -76,9 +76,10 @@ para introducirnos en la gran diversidad de mecanismos que emplean.
 veremos cómo las bacterias no son tan malas como pensamos.  
 → Parte 4: Seguimos con [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes),
 donde estudiaremos su implicación en varias dolencias misteriosas.  
-<!--
 → Parte 5: Ahora en [🌠 ¿Venimos de las estrellas?](bacterias-estrellas)
 analizaremos el origen de la vida y la hipótesis de la panspermia.  
-→ Parte 6: [Conclusiones](bacterias-conclusiones).  
+<!--
+→ Parte 6: Por fin, extraeremos algunas [Conclusiones](bacterias-conclusiones)
+que nos permitan entender mejor el mundo bacteriano a nuestro alrededor.  
 -->
 

@@ -24,7 +24,7 @@ Vamos ahora a extraer unas cuantas lecciones de todo este conocimiento.
 # Bacterias y código
 
 Las bacterias funcionan con un código genético.
-Hay [bastante software para analizar este código](),
+Hay [bastante software para analizar este código](https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software),
 pero ¿cuántos de estos programas están hechos por gente que programe profesionalmente?
 Estoy seguro de que podríamos aportar nuestro punto de vista a refactorizaciones,
 duplicaciones, borrados y modificaciones espontáneas.
@@ -56,10 +56,10 @@ Pero a veces estas bacterias
 [se vuelven patógenas](https://www.uv.es/biodiver/pdfs/PerezBrocal2013-2.pdf),
 sin que sepamos muy bien por qué.
 Tampoco sabemos por qué funciona el
-[trasplante de heces]()
+[trasplante de heces](https://en.wikipedia.org/wiki/Fecal_microbiota_transplant)
 en el tratamiento de múltiples patologías;
 incluso parece que ayuda al
-[rendimiento deportivo]().
+[rendimiento deportivo](https://www.bicycling.com/training/a20043878/is-poop-doping-the-next-big-thing/).
 
 El sistema inmune tiene una [complejidad pasmosa](https://www.mc.vanderbilt.edu/vanderbiltmedicine/cracking-the-code-of-the-immune-system/):
 hay miles de millones de combinaciones posibles en cada glóbulo blanco.
@@ -79,8 +79,8 @@ podría ser muy útil para estudiar las infecciones.
 # Evolución
 
 Para entender el proceso por el que las bacterias se vuelven patogénicas
-la clave, creo yo,
-está en entender correctamente la idea de "evolución rápida".
+la clave está, por lo que me parece,
+en entender correctamente la idea de "evolución rápida".
 No se trata de una mejora constante en una carrera de armas muy desigual.
 "Evolución rápida" significa "adaptación rápida al medio".
 ¡Ni más ni menos!
@@ -154,14 +154,15 @@ te aseguro que el estudio te recompensará el esfuerzo diez veces.
 # Agradecimientos
 
 Gracias a la organización de T3chFest por darme la oportunidad de hablar en público
-sobre este tema tan apasionante.
+sobre este tema tan apasionante,
+aunque por la pandemia quedara pendiente.
 
 Gracias a
 [Carlos J. Santisteban](https://twitter.com/zuiko21)
 por su inestimable ayuda buscando tamaños de ROM de ordenadores ignotos.
 También por encontrar el vídeo de "¡Y las bacterias, bonita!".
 
-Gracias a Cristina Pacios, genetista profesional e investigadora excepcional,
+Gracias a Cristina Pacios, bióloga molecular y celular (e investigadora excepcional),
 y a [Azahara Fernández](https://twitter.com/azahara_fergui),
 doctora en inmunología,
 por revisar mi torpe artículo y darme valiosas referencias.
