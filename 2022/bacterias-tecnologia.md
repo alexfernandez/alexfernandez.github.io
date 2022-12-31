@@ -8,7 +8,6 @@ abstract:
   virus usados como memorias externas, replicación ultrarrápida de código genético
   o refactorización radical de código duplicado.'
 image: https://pinchito.es/2022/pics/bacterias-inyector-toxinas.jpg
-
 ---
 
 ![Esta proteína tan bonita es en realidad una máquina infernal para inyectar toxinas en una célula. Usada por bacterias que producen, entre otras patologías: cánceres gástricos, la tosferina y la enfermedad del legionario. [Fuente](https://phys.org/news/2019-05-dangerous-pathogens-sophisticated-machinery-infect.html).](pics/bacterias-inyector-toxinas.jpg "Una proteína simulada por ordenador en color falso. Similar a una corona o a un rotor, con múltiples segmentos circulares.")
@@ -430,7 +429,7 @@ para estudiar las enfermedades causadas por bacterias.
 # Continuará…
 
 Este artículo es la segunda parte de la
-[serie sobre bacterias](/bacterias).
+[serie sobre bacterias](/2021/bacterias-maquinas).
 Sigue a la
 [parte 3: El largo camino a la simbiosis](/2022/bacterias-simbiosis),
 donde estudiaremos el sistema inmune y sus modos de fallo.

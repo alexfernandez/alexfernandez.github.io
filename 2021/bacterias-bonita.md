@@ -277,7 +277,7 @@ sino que probablemente aguantarán mucho más.
 # Continuará…
 
 Este artículo es la primera parte de la
-[serie sobre bacterias](bacterias-maquinas).
+[serie sobre bacterias](/2021/bacterias-maquinas).
 Sigue a la
 [parte 2: Tecnología bacteriana](/2022/bacterias-tecnologia),
 donde veremos qué tipos de tecnologías hacen a las bacterias tan resistentes.

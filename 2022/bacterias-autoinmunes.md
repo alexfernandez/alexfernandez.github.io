@@ -406,9 +406,9 @@ y se enfrente a este gran desafío que tenemos por delante.
 # ⏭️ Continuará…
 
 Este artículo es la cuarta parte de la
-[serie sobre bacterias](bacterias-maquinas).
+[serie sobre bacterias](/2021/bacterias-maquinas).
 Sigue a la
-[parte 5: ¿Venimos de las estrellas?](bacterias-estrellas),
+[parte 5: ¿Venimos de las estrellas?](/2022/bacterias-estrellas),
 donde intentaremos desentrañar nada menos que el enigma del origen de la vida.
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  

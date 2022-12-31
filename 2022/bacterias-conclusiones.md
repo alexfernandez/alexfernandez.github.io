@@ -1,11 +1,17 @@
 ---
 title: '🤔 Bacterias (parte 6): Conclusiones'
 subtitle: 'Parte 6 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
-footer: Publicado el 2020-01-16, modificado el 2020-01-16.
+footer: Publicado el 2022-12-31, modificado el 2022-12-31.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
+abstract:
+  'Tras repasar cómo las bacterias afectan a nuestra tecnología,
+  a nuestras enfermedades conocidas y desconocidas,
+  y a las propias investigaciones sobre el origen de la vida,
+  extraeremos algunas conclusiones útiles e interesantes.'
+image: https://pinchito.es/2022/pics/bacterias-vibrio-cholerae-dibujo.jpg
 ---
 
-![Un ejemplar de _Vibrio cholerae_, la bacteria que causa el cólera, al microscopio electrónico. Dibujo del autor, basado en [esta imagen](https://pixnio.com/science/microscopy-images/vibrio-related-diseases/vibrio-cholerae-bacteria-under-electron-micrograph).](/2020/pics/bacterias-vibrio-cholerae-dibujo.jpg "La bacteria, alargada y de una micra de ancho, aparece en un fondo gris con agujeritos, reminiscente de un vaso sanguíneo.")
+![Un ejemplar de _Vibrio cholerae_, la bacteria que causa el cólera, al microscopio electrónico. Dibujo del autor, basado en [esta imagen](https://pixnio.com/science/microscopy-images/vibrio-related-diseases/vibrio-cholerae-bacteria-under-electron-micrograph).](/2022/pics/bacterias-vibrio-cholerae-dibujo.jpg "La bacteria, alargada y de una micra de ancho, aparece en un fondo gris con agujeritos, reminiscente de un vaso sanguíneo.")
 
 Este viaje nos ha llevado desde el telar de Leeuwenhoek
 a un clúster estelar a miles de años luz de distancia.
@@ -175,7 +181,7 @@ Los errores que permanezcan en el texto son todo míos.
 # 🔚 Fin
 
 Este artículo es la sexta y última parte de la
-[serie sobre bacterias](bacterias-maquinas).
+[serie sobre bacterias](/2021/bacterias-maquinas).
 ¡Gracias por llegar hasta aquí! 😅🦠😘
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  

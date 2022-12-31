@@ -506,9 +506,9 @@ por nuestra loca lucha contra todo lo que no nos es útil directamente.
 # ⏭️ Continuará…
 
 Este artículo es la tercera parte de la
-[serie sobre bacterias](/bacterias).
+[serie sobre bacterias](/2021/bacterias-maquinas).
 Sigue a la
-[parte 4: Enfermedades autoinmunes](bacterias-autoinmunes)
+[parte 4: Enfermedades autoinmunes](/2022/bacterias-autoinmunes)
 donde hablaremos de patologías que afectan directamente al sistema inmune.
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  

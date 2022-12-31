@@ -423,13 +423,10 @@ y a ellos les quedan unos 2900 años para recibir nuestras primeras emisiones de
 # ⏭️ Continuará…
 
 Este artículo es la quinta parte de la
-[serie sobre bacterias](bacterias-maquinas).
-Continuará.
-<!--
+[serie sobre bacterias](/2021/bacterias-maquinas).
 Sigue a la
-[parte 6: Conclusiones](bacterias-conclusiones),
+[parte 6: Conclusiones](/2022/bacterias-conclusiones),
 donde intentaremos extraer algunas enseñanzas útiles.
--->
 
 ← Parte 1: [🦠 Y las bacterias, bonita](/2021/bacterias-bonita).  
 ← Parte 2: [⚙️  Tecnología bacteriana](/2022/bacterias-tecnologia).  
