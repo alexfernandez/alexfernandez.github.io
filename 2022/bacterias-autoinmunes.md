@@ -415,8 +415,6 @@ donde intentaremos desentrañar nada menos que el enigma del origen de la vida.
 ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 ↑ Parte 4: 🧑‍⚕️ Enfermedades autoinmunes.  
-→ Parte 5: [🌠 ¿Venimos de las estrellas?](bacterias-estrellas).  
-<!--
-→ Parte 6: [Conclusiones](bacterias-conclusiones).  
--->
+→ Parte 5: [🌠 ¿Venimos de las estrellas?](/2022/bacterias-estrellas).  
+→ Parte 6: [🤔 Conclusiones](/2022/bacterias-conclusiones).  
 

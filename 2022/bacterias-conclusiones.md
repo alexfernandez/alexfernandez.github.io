@@ -1,6 +1,6 @@
 ---
-title: 'Bacterias (parte 6): Conclusiones'
-subtitle: 'Complemento a la charla para T3chFest 2020'
+title: '🤔 Bacterias (parte 6): Conclusiones'
+subtitle: 'Parte 6 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
 footer: Publicado el 2020-01-16, modificado el 2020-01-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -21,15 +21,18 @@ buscando nuestro origen.
 
 Vamos ahora a extraer unas cuantas lecciones de todo este conocimiento.
 
-# Bacterias y código
+# 🧬 Bacterias y código
 
 Las bacterias funcionan con un código genético.
 Hay [bastante software para analizar este código](https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software),
 pero ¿cuántos de estos programas están hechos por gente que programe profesionalmente?
-Estoy seguro de que podríamos aportar nuestro punto de vista a refactorizaciones,
+Estoy seguro de que podemos aportar nuestro punto de vista a refactorizaciones,
 duplicaciones, borrados y modificaciones espontáneas.
+En la línea de [Bert Hubert](https://berthub.eu/articles/posts/amazing-dna/).
 
-# Simbiosis
+Amenazo con hacer algo así en futuras charlas y entradas del blog.
+
+# 🖇️ Simbiosis
 
 Una idea clave que espero haber sabido transmitir es que las bacterias
 no son nuestras enemigas, más bien al contrario:
@@ -76,7 +79,7 @@ creo también que el campo de la
 [ingeniería de la resiliencia](https://dl.acm.org/doi/pdf/10.1145/2367376.2371297)
 podría ser muy útil para estudiar las infecciones.
 
-# Evolución
+# 🦕 Evolución
 
 Para entender el proceso por el que las bacterias se vuelven patogénicas
 la clave está, por lo que me parece,
@@ -100,7 +103,7 @@ no las convierte en súper-bacterias resistentes a todo;
 sólo significa que se van a adaptar al medio cada vez mejor.
 Al sacarlas de ese medio es probable que haya otras que compitan mejor por el alimento.
 
-# Enfermedades autoinmunes
+# 🧑‍⚕️ Enfermedades autoinmunes
 
 Mi impresión es que en el siglo XX se acabaron las enfermedades "fáciles":
 las que tienen una relación sencilla entre infección y dolencia.
@@ -114,7 +117,7 @@ Estoy seguro de que si volvemos a hacer investigación básica
 encontraremos la raíz infecciosa de muchas enfermedades autoinmunes,
 y de otras muchas dolencias que ni siquiera sospechamos ahora que puedan estar causadas por bacterias.
 
-# Para aprender más
+# 📚 Para aprender más
 
 En ["Qué te importa a ti lo que piensen los demás"](https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F),
 el famoso físico Richard Feynman cuenta cómo los médicos tardaron muchos meses en diagnosticar
@@ -133,7 +136,7 @@ Esto no quiere decir que te automediques o que te autotrates;
 siempre debes buscar buena atención médica.
 Pero entender lo que están haciendo te servirá para distinguir a los buenos médicos de los malos.
 
-# Reconclusión
+# 💭 Reconclusión
 
 Las bacterias siguen siendo,
 siglos después de su descubrimiento,
@@ -151,7 +154,7 @@ y luego que investigues por tu cuenta:
 te aseguro que el estudio te recompensará el esfuerzo diez veces.
 ¡Gracias por tu interés!
 
-# Agradecimientos
+# 🙏 Agradecimientos
 
 Gracias a la organización de T3chFest por darme la oportunidad de hablar en público
 sobre este tema tan apasionante,
@@ -169,7 +172,7 @@ por revisar mi torpe artículo y darme valiosas referencias.
 
 Los errores que permanezcan en el texto son todo míos.
 
-# Fin
+# 🔚 Fin
 
 Este artículo es la sexta y última parte de la
 [serie sobre bacterias](bacterias-maquinas).
@@ -179,6 +182,6 @@ Este artículo es la sexta y última parte de la
 ← Parte 2: [⚙️ Tecnología bacteriana](/2022/bacterias-tecnologia).  
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 ← Parte 4: [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
-← Parte 5: [🌠 ¿Venimos de las estrellas?](bacterias-estrellas)  
-↑ Parte 6: Conclusiones.  
+← Parte 5: [🌠 ¿Venimos de las estrellas?](/2022/bacterias-estrellas)  
+↑ Parte 6: 🤔 Conclusiones.  
 

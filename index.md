@@ -21,6 +21,7 @@ Latest articles first.
 
 ### 2022
 
+🦠 🇪🇸 2022-12-31: [🤔 Bacterias: Conclusiones](2022/bacterias-conclusiones)  
 🦠 🇪🇸 2022-12-30: [🌠 Bacterias: ¿Venimos de las estrellas?](2022/bacterias-estrellas)  
 🦠 🇪🇸 2022-12-29: [🧑‍⚕️ Bacterias: Enfermedades autoinmunes](2022/bacterias-simbiosis)  
 🧑‍💻 🇪🇸 2022-11-15: [🗺️  ¿Quién lleva el roadmap de producto?](2022/quien-lleva-roadmap-producto)  

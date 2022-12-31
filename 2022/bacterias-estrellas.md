@@ -436,6 +436,4 @@ donde intentaremos extraer algunas enseñanzas útiles.
 ← Parte 3: [🖇️ El largo camino a la simbiosis](/2022/bacterias-simbiosis).  
 ← Parte 4: [🧑‍⚕️ Enfermedades autoinmunes](/2022/bacterias-autoinmunes).  
 ↑ Parte 5: 🌠 ¿Venimos de las estrellas?  
-<!--
-→ Parte 6: [Conclusiones](bacterias-conclusiones).  
--->
+→ Parte 6: [🤔 Conclusiones](/2022/bacterias-conclusiones).  
