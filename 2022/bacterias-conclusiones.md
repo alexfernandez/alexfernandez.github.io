@@ -111,9 +111,9 @@ Al sacarlas de ese medio es probable que haya otras que compitan mejor por el al
 
 # 🧑‍⚕️ Enfermedades autoinmunes
 
-Mi impresión es que en el siglo XX se acabaron las enfermedades "fáciles":
+En este campo, me parece que en el siglo XX se acabaron las enfermedades "fáciles":
 las que tienen una relación sencilla entre infección y dolencia.
-Las que quedan ahora son las difíciles:
+Las que quedan ahora son las complicadas:
 relaciones oblicuas entre patógenos y síntomas,
 bacterias difíciles de localizar,
 efectos secundarios de la inflamación,
@@ -121,7 +121,8 @@ y un largo etcétera.
 
 Estoy seguro de que si volvemos a hacer investigación básica
 encontraremos la raíz infecciosa de muchas enfermedades autoinmunes,
-y de otras muchas dolencias que ni siquiera sospechamos ahora que puedan estar causadas por bacterias.
+y de otras muchas dolencias que ni siquiera sospechamos ahora que puedan estar causadas por bacterias
+y otros patógenos.
 
 # 📚 Para aprender más
 
@@ -131,7 +132,7 @@ la tuberculosis de su mujer, Arlene,
 pese a que era la primera opción de manual para el ganglio inflamado que presentaba.
 
 Hoy día tenemos a nuestra disposición muchísima más información que nunca,
-y a veces los médicos nos piden que no busquemos lo que nos pasa.
+y a veces los médicos nos piden que no busquemos en Internet lo que nos pasa.
 No puedo estar más en desacuerdo.
 Gracias a mi avanzada edad me permito darte un consejo:
 aprende tanto como puedas sobre las enfermedades que te afecten a ti o a tu familia.
