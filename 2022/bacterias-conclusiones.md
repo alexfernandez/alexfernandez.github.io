@@ -43,9 +43,9 @@ Amenazo con hacer algo así en futuras charlas y entradas del blog.
 Una idea clave que espero haber sabido transmitir es que las bacterias
 no son nuestras enemigas, más bien al contrario:
 medran mejor cuando nos ayudan.
+Eso sí, son expertas en sobrevivir en cualquier medio.
 Bacterias y arqueas son ubicuas en el planeta:
 miremos donde miremos siempre están ahí.
-Eso sí, son expertas en sobrevivir en cualquier medio.
 Si las atiborramos a antibióticos es probable que se adapten,
 como de hecho está pasando.
 
