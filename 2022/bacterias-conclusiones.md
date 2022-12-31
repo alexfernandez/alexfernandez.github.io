@@ -29,7 +29,7 @@ Vamos ahora a extraer unas cuantas lecciones de todo este conocimiento.
 
 # 🧬 Bacterias y código
 
-Las bacterias funcionan con un código genético.
+Las bacterias funcionan con código genético.
 Hay [bastante software para analizar este código](https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software),
 pero ¿cuántos de estos programas están hechos por gente que programe profesionalmente?
 Estoy seguro de que podemos aportar nuestro punto de vista a refactorizaciones,
