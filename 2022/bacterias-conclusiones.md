@@ -31,7 +31,7 @@ Vamos ahora a extraer unas cuantas lecciones de todo este conocimiento.
 
 Las bacterias funcionan con código genético.
 Hay [bastante software para analizar este código](https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software),
-pero ¿cuántos de estos programas están hechos por gente que programe profesionalmente?
+pero ¿cuántos de estos programas están diseñados por gente que programe profesionalmente?
 Estoy seguro de que podemos aportar nuestro punto de vista a refactorizaciones,
 duplicaciones, borrados y modificaciones espontáneas.
 En la línea de [Bert Hubert](https://berthub.eu/articles/posts/amazing-dna/).
