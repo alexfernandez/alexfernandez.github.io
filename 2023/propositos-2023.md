@@ -1,7 +1,7 @@
 ---
 title: '🎯 Propósitos para 2023 y repaso de 2022'
-subtitle: 'Pandemia mediante'
-footer: Publicado el 2023-01-01, modificado el 2023-01-01.
+subtitle: 'Es lo que hay'
+footer: Publicado el 2023-01-03, modificado el 2023-01-03.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   En este inicio de año nuevamente voy a establecer algunos objetivos para 2023
