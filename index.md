@@ -19,6 +19,10 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 Latest articles first.
 
+### 2023
+
+🗣️ 🇪🇸 2023-01-03: [🎯 Repaso de 2022 y propósitos para 2023](2023/propositos-2023)  
+
 ### 2022
 
 🦠 🇪🇸 2022-12-31: [🤔 Bacterias: Conclusiones](2022/bacterias-conclusiones)  
