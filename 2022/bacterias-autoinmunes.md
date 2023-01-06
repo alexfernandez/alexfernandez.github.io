@@ -1,7 +1,7 @@
 ---
 title: '🧑‍⚕️ Bacterias (parte 4): Enfermedades autoinmunes'
 subtitle: 'Parte 4 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
-footer: Publicado el 2022-12-29, modificado el 2022-12-29.
+footer: Publicado el 2022-12-29, modificado el 2023-01-06.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Las enfermedades autoinmunes son perniciosas a la par que misteriosas:
@@ -262,9 +262,9 @@ No es el único tratamiento en marcha.
 Ahora mismo las únicas vacunas existentes son
 [para ganado](https://www.researchgate.net/profile/Kris_Huygen2/publication/23136233_Vaccination_against_paratuberculosis/links/56ed7b3308aed17d09f7262a.pdf),
 y no muy eficaces.
-El profesor Hermon-Taylor está trabajando en
+El profesor Hermon-Taylor creó
 [una vacuna contra la MAP en humanos](http://www.crohnsmapvaccine.com/vaccine/),
-que está ahora en ensayos clínicos de fase II.
+que está ahora en ensayos clínicos de fase II liderados por el doctor Agrawal.
 ¡Crucemos los dedos!
 
 ## 🧑‍🔬 Escepticismo al escepticismo
