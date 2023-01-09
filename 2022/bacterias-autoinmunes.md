@@ -1,7 +1,7 @@
 ---
 title: '🧑‍⚕️ Bacterias (parte 4): Enfermedades autoinmunes'
 subtitle: 'Parte 4 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
-footer: Publicado el 2022-12-29, modificado el 2023-01-06.
+footer: Publicado el 2022-12-29, modificado el 2023-01-09.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Las enfermedades autoinmunes son perniciosas a la par que misteriosas:
@@ -221,9 +221,7 @@ Varios equipos de todo el mundo están trabajando en
 [múltiples formas de identificar la MAP](https://humanpara.org/map-testing/)
 basadas en tests genéticos.
 
-![Cultivo de M. avium ssp. paratuberculosis procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.").
-
-![Marshall se bebe un caldo apestoso con _H. pylori_. _Spoiler alert_: En lugar de cobrar superpoderes, se agarra una úlcera inmediatamente. [Fuente](https://twitter.com/nobelprize/status/1110074840562745345).](pics/bacterias-marshall-comic.jpg "Mientras otro doctor le grita '¡Estás loco, Barry!', Marshall sostiene un caldo verdoso y responde: '¡No hay otra forma!'. A continuación se bebe el caldo: '¡Arrgh!, sabe a agua de pantano'. Por último lanza a cámara una mirada vidriosa: 'Está hecho'.")
+![Cultivo de _M. avium ssp. paratuberculosis_ procedente de sangre de pacientes de Crohn. Tinción con la técnica "Phenolic-acridine orange", lo que muestra claramente un esferoblasto. [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2945487/).](pics/bacterias-phenolic-acridine-map.jpg "La imagen verdosa muestra una esfera en el centro con una flecha. Evidencia borrosa pero muy clarificadora.")
 
 ¿Por qué funciona la medicación inmunosupresora,
 o "inmunomoduladora" como se llama ahora?
