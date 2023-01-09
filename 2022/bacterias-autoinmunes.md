@@ -326,7 +326,7 @@ lo que indicaría un origen micobacteriano claro.
 También hay estudios que relacionan otras micobacterias con la
 [sarcoidosis](https://humanpara.org/sarcoidosis-and-map/),
 y de forma más tangencial con la
-[tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/),
+[tiroiditis de Hashimoto](https://humanpara.org/hashimotos-thyroiditis/).
 
 ## 🔬 Más bacterias y algún virus
 
