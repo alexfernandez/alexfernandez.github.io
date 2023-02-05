@@ -499,8 +499,8 @@ digerir la comida,
 o ni siquiera reproducirnos.
 
 A lo que realmente tendríamos que aspirar no es a aniquilar todas las bacterias,
-sino a convivir con ellas y con los demás microorganismos en las mejores condiciones.
-Este cambio de mentalidad urge en un planeta cada vez más comprometido
+sino a convivir con ellas y con los demás microorganismos en las mejores condiciones posibles.
+Este cambio de mentalidad urge en un planeta cada vez más deteriorado
 por nuestra loca lucha contra todo lo que no nos es útil directamente.
 
 # ⏭️ Continuará…
