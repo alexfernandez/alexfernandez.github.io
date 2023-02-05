@@ -1,7 +1,7 @@
 ---
 title: '🖇️ El largo camino a la simbiosis'
 subtitle: 'Parte 3 de la serie «🦠 Bacterias: máquinas que dominan el universo»'
-footer: Publicado el 2022-06-27, modificado el 2022-06-27.
+footer: Publicado el 2022-06-27, modificado el 2023-02-05.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Las bacterias producen multitud de enfermedades,
@@ -380,7 +380,7 @@ cómo no, en bacterias y arqueas.
 Vamos a irnos esta vez a España en 1993,
 para ser exactos a
 [las salinas de Santa Pola en Alicante](https://www.elconfidencial.com/tecnologia/2016-01-16/crispr-francis-mojica-charpentier-doudna-edicion-genomica_1136337/).
-Un investigador español estudiaba la arquea halofílica
+El investigador español Francisco Mojica estudiaba la arquea halofílica
 _Haloferax mediterranei_,
 un extremófilo que sobrevive a salinidades extremas.
 Encontró unas secuencias repetidas y empezó a investigar su función.
