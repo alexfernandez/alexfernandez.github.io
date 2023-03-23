@@ -6,12 +6,18 @@ footer: Published on 2018-02-12, last edited on 2018-12-05.
 ---
 
 I have collected my public speaker experience in this page:
-more than five years speaking at diverse conferences,
+more than a decade speaking at diverse conferences,
 lately mostly about Javascript and DevOps.
 
 ## Speaker
 
 List of conferences, latest first.
+
+### [T3chFest 2023](https://t3chfest.es/2023/en)
+
+[¿Qué tal programa la Naturaleza?](https://t3chfest.es/2023/en/programa/que-tal-programa-la-naturaleza):
+[slides](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest),
+[video](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest).
 
 ### [Codemotion Madrid 2019](https://events.codemotion.com/conferences/madrid/2019/es/)
 
@@ -243,6 +249,7 @@ Node.js, JavaScript, Scalability, DevOps, even Wordpress.
 Below you can find a few videos of those interventions,
 most in Spanish.
 
+* 2023-01-26: [Platformatic, un backend nobackend](https://www.youtube.com/watch?v=ztjB36BH6Qc)
 * 2020-09-30: [Análisis de incidencias](https://www.youtube.com/watch?v=CTcKuZ2gcHQ)
 * 2020-09-23: [Incident Analysis](https://www.youtube.com/watch?v=g274h7w0TTk)
 * 2016-05-24: [FullStack DevOps](http://www.todojs.com/fullstack-devops-por-alex-fernandez/)
