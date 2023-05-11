@@ -301,7 +301,7 @@ Ubuntu for servers is nice too,
 and any laptop with a Unix console can be useful.
 
 I have programmed professionally using C, Java,
-PHP, JavaScript, Node.js and Go.
+PHP, JavaScript, Node.js, Python and Go.
 I have lots of fun learning a new language or environment.
 
 ### Contact
