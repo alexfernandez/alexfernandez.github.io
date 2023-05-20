@@ -1,8 +1,9 @@
 ---
 title: 'Una vida sin fisuras'
 subtitle: '_In memoriam_ Fernando Fernández Montero, 1934-2023'
-footer: Publicado el 2023-05-13, modificado el 2023-05-13.
-  [Autor](mailto:alexfernandeznpm@gmail.com)
+footer: Publicado el 2023-05-20, modificado el 2023-05-20.
+  [Autor](mailto:alejandrofer@gmail.com)
+image: https://pinchito.es/2023/pics/una-vida-chalet.jpg
 ---
 
 ![Un muro de Sacsahuamán.](pics/una-vida-sacsahuaman.jpg "Un muro hecho con grandes piedras sin fisuras perceptibles entre ellas. Foto de Håkan Svensson: https://commons.wikimedia.org/wiki/Sacsayhuam%C3%A1n#/media/File:Sacsahuaman_masonry1.jpg")
@@ -35,8 +36,9 @@ en diciembre hacer acopio de todo lo necesario hasta que a principios de marzo l
 y terminara la incomunicación forzosa.
 Por otra parte debía ser un sitio bullicioso y lleno de niños,
 cerca de su [máximo histórico](https://datacommons.org/place/wikidataId/Q554265/) de 800 habitantes en 1950.
-Allí y entonces fue donde nació Fernando Fernández Montero,
-primogénito de la familia.
+Allí fue donde nació Fernando Fernández Montero,
+primogénito de la familia,
+durante uno de estos durísimos meses de aislamiento.
 
 Mi abuelo Miguel bajaba todos los días en mulo el barranco del Poqueira
 para volver a subir a su modesto cortijo por la otra cara de la montaña,
