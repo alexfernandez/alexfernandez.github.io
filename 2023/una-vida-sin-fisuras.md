@@ -10,11 +10,11 @@ footer: Publicado el 2023-05-13, modificado el 2023-05-13.
 Cuando los conquistadores españoles llegaron a Lima descubrieron unas construcciones maravillosas,
 hechas con piedras gigantescas tan bien ensambladas que entre ellas no cabía el filo de una espada.
 A mi padre le encantaba contar esta anécdota,
-como testimonio de la grandeza de los pueblos conquistados.
+como testimonio de la grandeza de los pueblos conquistados de América.
 
-Mi padre vivió toda su vida con unas convicciones férreas:
+Fernando Fernández vivió toda su vida con unas convicciones férreas:
 tenía muy claro su lugar en el mundo.
-Hoy quiero rendirle un homenaje donde resaltar parte de lo que he aprendido de él.
+Hoy quiero rendirle un homenaje donde resaltar algunas ideas importantes que he aprendido de él.
 
 ## El origen
 
@@ -46,7 +46,7 @@ cuando mi abuela tuvo que huir por los montes con sus niños pequeños
 al llegar al pueblo los de algún bando,
 no importa para el caso cuál fuera.
 Viendo el gran número de niños nacidos en esta época convulsa,
-incluyendo mi padre y mis cuatro tíos paternos,
+incluyendo a mi señor padre y mis cuatro tíos paternos,
 resulta curioso cómo la natalidad en España
 [apenas se resintió](https://www.fbbva.es/wp-content/uploads/2017/05/dat/cuadernos_FBBVA_51espana_web.pdf)
 ni de la guerra civil ni de la terrible postguerra.
@@ -61,7 +61,7 @@ se apuntó a las primeras oposiciones que hubo,
 donde sacó plaza con nota a la primera.
 
 Poco después se casó con mi madre y empezaron a tener hijos.
-No está claro que a mi padre le gustara especialmente tanto niño,
+No está claro que a mi progenitor le gustara especialmente tanto niño,
 pero era su deber para la sociedad y cumplió lo mejor que supo:
 cinco varones en total que casi volvemos loca a mi sufrida madre.
 Durante un tiempo ella caminaba por las calles de Almería con un bebé en la barriga,
@@ -100,7 +100,7 @@ por la que fue desterrado de allí una segunda vez.
 A falta de nuevos bandos donde malmeter pasó a Frigia donde murió en la ignominia.
 Tucídides no es clemente con este chaquetero que siempre miró por su propio interés.
 
-Mi padre siempre refería las palabras de Alcibíades, creo que de otra obra,
+Padre siempre refería las palabras de Alcibíades, creo que de otra obra,
 cuando le preguntó al sátrapa persa por qué allí las mujeres no salían a la calle;
 no como en Atenas donde hacían vida en público.
 Este choque de culturas le llamaba la atención.
@@ -130,10 +130,12 @@ la persona que le acompañó en sus paseos durante sus últimos años.
 
 ## Convicciones
 
-Mi padre era un gran admirador de Stendhal, de Beethoven, de Mozart;
+Mi Pápar era un gran admirador de Stendhal, de Beethoven, de Mozart;
 un católico convencido que iba a misa todos los domingos que podía.
 Estuvo trabajando hasta los 70 años,
 y nos pagó los estudios universitarios a los cinco con un solo sueldo.
+(También era un gran fan de Chiquito de la Calzada,
+como habréis intuido por el principio de este párrafo.)
 
 Cuando se reunía con sus amigos era normalmente con las familias respectivas,
 y hablaban de temas serios: política, economía…
@@ -143,7 +145,7 @@ En su funeral tuve la oportunidad de hablar con su amigo Antonio Bonilla, alcald
 con el que se fue de viaje cuando eran jóvenes;
 se pasaron el camino hablando de filosofía y de música clásica.
 
-¿Cómo consiguió mi padre unas convicciones tan férreas?
+¿Cómo consiguió Fernando unas convicciones tan férreas?
 ¿Cómo pudo vivir con las contradicciones inherentes a la religión católica,
 a la democracia, o al capitalismo?
 Qué narices, todo en la vida es contradicción,
@@ -178,15 +180,25 @@ otra forma de hacer las cosas.
 Según mi madre sólo una vez dijo que le habría gustado ser militar, por carácter;
 pero que no lo hizo porque las condiciones eran bastante peores.
 
-Yo creo que nuestra sociedad ha llegado más lejos gracias a personas como él
-que han dedicado su vida a trabajar por los demás;
-y confío en que a las generaciones futuras no se les olvidará este espíritu de sacrificio.
-En todo caso mi padre vivió una vida sin fisuras,
+En sus últimos años, se detenía al pasear cada vez que veía una planta miserable en el pavimento de la calle.
+Se maravillaba de que la vida encontraba una forma de salir adelante,
+incluso en las condiciones más adversas.
+Pensando en sus palabras hice el dibujo de abajo para un concurso de pintura rápida.
+Ahora lo tengo colgado en mi habitación,
+y me acuerdo de estos momentos cada vez que lo miro.
+
+![Vivir, a pesar de todo. Pastel sobre papel grueso.](pics/una-vida-a-pesar-de-todo.jpg "Un cuadro que muestra una planta con flores surgiendo de una grieta de la pared, cubierta de zapateros. Obra del autor.")
+
+Estoy convencido de que nuestra sociedad ha llegado más lejos gracias a personas como él
+que han conseguido salir de las situaciones más adversas,
+y que han dedicado su vida a trabajar por los demás;
+y confío en que a los que vengan no se les olvidará este espíritu de sacrificio.
+En todo caso Fernando Fernández Montero vivió una vida sin fisuras,
 como los muros de Sacsahuamán.
 
 ### Agradecimientos
 
-Gracias a mi padre por dedicar su vida al bienestar de su familia.
+Gracias a mis padres por dedicar su vida al bienestar de su familia.
 Gracias a Concha Rodríguez por la foto de la portada,
 y a Rodrigo Fernández por el retoque de la foto de los abuelos.
 
