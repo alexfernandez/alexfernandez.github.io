@@ -28,9 +28,9 @@ aunque [extinguidas desde los años 90](https://wastemagazine.es/sierranevada-ni
 
 [Bubión](https://es.wikipedia.org/wiki/Bubi%C3%B3n)
 en 1934 no debía de ser un sitio muy acogedor.
-El pueblo quedaba incomunicado por la nieve durante dos meses al año,
+El pueblo quedaba incomunicado por la nieve hasta dos meses al año,
 y durante este durísimo invierno si dejabas un vasito de agua en la mesita de noche,
-lo encontrabas hecho hielo por la mañana.
+encontrabas un bloque de hielo por la mañana.
 Hoy día sólo podemos imaginar cómo podía ser la vida entonces:
 en diciembre hacer acopio de todo lo necesario hasta que a principios de marzo llegara el deshielo
 y terminara la incomunicación forzosa.
@@ -201,6 +201,6 @@ como los muros de Sacsahuamán.
 ### Agradecimientos
 
 Gracias a mis padres por dedicar su vida al bienestar de su familia.
-Gracias a Concha Rodríguez por la foto de la portada,
-y a Rodrigo Fernández por el retoque de la foto de los abuelos.
+Gracias a Concha Rodríguez por la foto de la portada.
+Gracias a Rodrigo Fernández por el retoque de la foto de los abuelos y por los comentarios.
 
