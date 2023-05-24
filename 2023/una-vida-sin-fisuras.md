@@ -84,7 +84,7 @@ donde el conflicto generacional se hizo patente sobre todo con mis hermanos mayo
 Al terminar de estudiar empecé a trabajar, y nuestra relación mejoró bastante.
 Recuerdo con especial cariño cuando allá por 2005 me leí la asombrosa
 "Historia de la guerra del Peloponeso" de Tucídides,
-y después le regalé un ejemplar regalé por su cumpleaños,
+y después le regalé un ejemplar por su cumpleaños,
 sabiendo su pasión por la historia;
 desde entonces comentábamos aspectos que nos llamaban la atención.
 
@@ -168,7 +168,7 @@ Fernando era la persona menos introspectiva que conocía.)
 Pero sin duda también por una concepción del deber muy distinta a la que hoy tenemos.
 
 De hecho, la idea misma del sacrificio propio
-(por tu familia, por los demás, por la humanidad sociedad en su conjunto)
+(por tu familia, por los demás, por la humanidad en su conjunto)
 nos resulta hoy completamente ajena en esta sociedad en la que vivimos tan orientada al egoísmo:
 sé feliz, date un capricho, quiérete mucho, tú lo vales.
 Podría ser buena idea volver a pensar en sacrificar al menos parte de nuestro bienestar por los demás.
