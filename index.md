@@ -33,13 +33,13 @@ Latest articles first.
 🧑‍💻 🇮🇪 2022-07-08: [🌉 Building Bridges](2022/building-bridges)  
 🦠 🇪🇸 2022-06-28: [🖇️ Bacterias: El largo camino a la simbiosis](2022/bacterias-simbiosis)  
 ⚛️ 🇮🇪 2022-03-27: [💫 Understanding the Limits of Physical Laws](2022/understanding-limits)  
-🦠 🇪🇸 2022-03-06: [Bacterias: ⚙️ Tecnología bacteriana](2022/bacterias-tecnologia)  
+🦠 🇪🇸 2022-03-06: [⚙️  Bacterias: Tecnología bacteriana](2022/bacterias-tecnologia)  
 🗣️ 🇪🇸 2022-01-01: [🎯 Propósitos para 2022 y repaso de 2021](2022/propositos-2022)  
 
 ### 2021
 
 ⚛️ 🇮🇪 2021-11-07: [Understanding the Work of Einstein](2021/understanding-einstein)  
-🦠 🇪🇸 2021-10-17: [Bacterias: 🦠 Y las bacterias, bonita](2021/bacterias-bonita)  
+🦠 🇪🇸 2021-10-17: [🦠 Bacterias: Y las bacterias, bonita](2021/bacterias-bonita)  
 ⚛️ 🇮🇪 2021-10-03: [Understanding Quantum Mechanics](2021/understanding-quantum-mechanics)  
 🧑‍💻 🇮🇪 2021-08-16: [API First](2021/api-first)  
 ⚛️ 🇮🇪 2021-08-12: [We Are Not Living in a Computer Simulation](2021/understanding-simulation)  
