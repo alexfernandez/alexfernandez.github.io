@@ -1,6 +1,6 @@
 ---
-title: 'What Is Contradiction?'
-subtitle: 'Guide to Contradiction, Part 1'
+title: '🤨 What Is Contradiction?'
+subtitle: '≢ Guide to Contradiction, Part 1'
 footer: Published on 2023-05-25, last modified on 2025-05-25.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 ---
@@ -19,7 +19,7 @@ In this article we begin a study in this intriguing subject.
 Perhaps you think you already know what contradiction is;
 let's deconstruct that belief.
 
-## So, What Is a Contradiction?
+## ≢ So, What Is a Contradiction?
 
 In the field of logic there is a beautiful definition:
 
@@ -27,6 +27,8 @@ In the field of logic there is a beautiful definition:
 
 For instance, if I say that "it is one o'clock" and "it is not one o'clock" at the same time,
 I am immersed in a contradiction that needs to be solved one way or the other.
+
+## 🕓 Time and Logic
 
 Note that in this very simple example we are presupposing that there is one authentic immutable truth;
 if two people have different clocks, or live in different timezones,
@@ -37,8 +39,9 @@ if someone says that it is _not exactly_ one o'clock
 while another says that it is _approximately_ one o'clock,
 both may be saying the truth.
 
-## Ideas and Definitions
+## 🧠 Ideas and Definitions
 
+This time business is too complex; let us move to timeless statements then.
 The most common statements that are considered in logic are of objects having properties,
 like the old adage "Socrates is human".
 So let us start with an unambiguous statement:
@@ -72,8 +75,9 @@ This absurd notion is a very common confusion of "perception" and "idea".
 ## Reality
 
 As we explored in [The Amazing Mind](/2016/the-amazing-mind),
-what we call "reality" is just the complete network of concepts and ideas that we handle to face the world.
+what we call "reality" is just the shared network of concepts and ideas that we handle to face the world.
 It is therefore separated from what is "true",
+which is the 
 which is the world where we speak.
 
 So in reality we are dealing with human ideas.

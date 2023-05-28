@@ -213,4 +213,5 @@ como los muros de Sacsahuamán.
 Gracias a mis padres por dedicar su vida al bienestar de su familia.
 Gracias a Concha Rodríguez por la foto de la portada.
 Gracias a Rodrigo Fernández por el retoque de la foto de los abuelos y por los comentarios.
+Gracias a Fernando Fernández por tantas sugerencias que han mejorado el texto.
 
