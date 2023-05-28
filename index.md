@@ -21,7 +21,7 @@ Latest articles first.
 
 ### 2023
 
-🗣️ 🇪🇸 2023-05-28: [🧱 Una vida sin fisuras](2023/una-vida-sin-fisuras)  
+🗣️ 🇪🇸 2023-05-28: [🏛️ Una vida sin fisuras](2023/una-vida-sin-fisuras)  
 🗣️ 🇪🇸 2023-01-03: [🎯 Repaso de 2022 y propósitos para 2023](2023/propositos-2023)  
 
 ### 2022
