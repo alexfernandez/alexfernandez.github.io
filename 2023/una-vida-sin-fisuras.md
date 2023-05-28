@@ -6,7 +6,7 @@ footer: Publicado el 2023-05-28, modificado el 2023-05-28.
 image: https://pinchito.es/2023/pics/una-vida-chalet.jpg
 ---
 
-![Un muro de Sacsahuamán.](pics/una-vida-sacsahuaman.jpg "Un muro hecho con grandes piedras sin fisuras perceptibles entre ellas. Foto de Håkan Svensson: https://commons.wikimedia.org/wiki/Sacsayhuam%C3%A1n#/media/File:Sacsahuaman_masonry1.jpg")
+![Un muro de Sacsahuamán, cerca de Lima.](pics/una-vida-sacsahuaman.jpg "Un muro hecho con grandes piedras sin fisuras perceptibles entre ellas. Foto de Håkan Svensson: https://commons.wikimedia.org/wiki/Sacsayhuam%C3%A1n#/media/File:Sacsahuaman_masonry1.jpg")
 
 Cuando los conquistadores españoles llegaron a Lima descubrieron unas construcciones maravillosas,
 hechas con piedras gigantescas tan bien ensambladas que entre ellas no cabía el filo de una espada.
