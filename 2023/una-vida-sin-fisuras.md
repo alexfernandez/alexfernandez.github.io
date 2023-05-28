@@ -43,6 +43,9 @@ durante uno de estos durísimos meses de aislamiento.
 Mi abuelo Miguel bajaba todos los días en mulo el barranco del Poqueira
 para volver a subir a su modesto cortijo por la otra cara de la montaña,
 donde le arrancaba a algunos bancales en pendiente un sustento para su familia.
+Se podía pensar que era una vida humilde,
+pero eran de los afortunados del pueblo:
+al fin y al cabo tenían terreno propio y una casa amplia en la plaza del pueblo.
 En un par de años comenzaría la atroz guerra civil española,
 cuando mi abuela tuvo que huir por los montes con sus niños pequeños
 al llegar al pueblo los de algún bando,
@@ -59,7 +62,7 @@ Hoy día parece que el mínimo contratiempo económico se lleva al traste una ta
 Fernando tuvo la oportunidad de estudiar bachillerato en Granada,
 y después ayudó a sus cuatro hermanos a salir del pueblo.
 Tras terminar la carrera de Derecho con un expediente académico brillante,
-se apuntó a las primeras oposiciones que hubo,
+se apuntó a unas oposiciones que le permitieran ganarse la vida rápidamente,
 donde sacó plaza con nota a la primera.
 
 Poco después se casó con mi madre y empezaron a tener hijos.
@@ -70,8 +73,9 @@ Durante un tiempo ella caminaba por las calles de Almería con un bebé en la ba
 otro en el carrito y un niño pequeño de la mano (yo mismo);
 cuando llegaba a casa le esperaban otros dos.
 
-Al entrar en la diputación de Almería como subsecretario también cumplió su papel a la perfección:
-hizo varios trabajos que fueron pioneros y todavía hoy marcan las líneas de la administración local.
+Al entrar en la diputación de Almería como subsecretario también cumplió su papel a la perfección,
+y se jubiló allí como secretario general muchos años después.
+Hizo varios trabajos que fueron pioneros y todavía hoy marcan las líneas de la administración local,
 Amaba y admiraba las herramientas de su trabajo:
 del Código Civil decía que era una obra maestra de su época,
 y acumulaba tomos infumables de Administración Local como si fueran tesoros.
@@ -111,18 +115,23 @@ pero en su momento defendió la transición democrática como un gran avance.
 
 Hablando de culturas, a mi padre le encantaba recorrer mundo, y lo hizo a conciencia.
 A principios de los años 60 recibió un destino en Guinea Ecuatorial,
-como parte del gobierno local de la última colonia española.
+la última colonia española;
+allí jugaría un papel importante durante su transición a una democracia moderna,
+como secretario general de la asamblea.
 Dos años después tuvieron que huir de allí cuando
 [Francisco Macías Nguema](https://es.wikipedia.org/wiki/Francisco_Mac%C3%ADas_Nguema)
-tomó el poder y destruyó todo el entramado colonial.
+tomó el poder y destruyó la naciente democracia.
 Este infernal personaje más tarde se autodesignaría como "marxista-hitleriano"
 (ni siquiera es broma)
 y llevaría a su país a la más abyecta ruina.
 Se puede decir con tranquilidad que la extinta legación española no le tenía demasiada simpatía.
 
+![Con el presidente de la asamblea de Guinea Ecuatorial.](pics/una-vida-guinea.jpg "Fernando entre el presidente de la asamblea de Guinea Ecuatorial y otro político guineano. Autor desconocido.")
+
 En los años 80 Fernando formó parte de la cooperación española para la reforma de la constitución de Honduras.
 Poco después fue socio fundador de la Unión Iberoamericana de Municipalistas,
-con la que visitó casi todos los países de Latinoamérica.
+con la que visitó casi todos los países de Latinoamérica
+donde ayudó a modernizar las administraciones locales.
 
 Hoy día se le consideraría racista, como a la mayoría de su generación.
 No deja de ser asombroso para una persona nacida antes de la Guerra Civil, sin embargo,
