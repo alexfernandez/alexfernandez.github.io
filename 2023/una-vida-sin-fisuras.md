@@ -124,7 +124,8 @@ tomó el poder y destruyó la naciente democracia.
 Este infernal personaje más tarde se autodesignaría como "marxista-hitleriano"
 (ni siquiera es broma)
 y llevaría a su país a la más abyecta ruina.
-Se puede decir con tranquilidad que la extinta legación española no le tenía demasiada simpatía.
+Se puede decir con tranquilidad que la extinta legación española no le tenía demasiada simpatía,
+al igual que la mayor parte de su propio país.
 
 ![Con el presidente de la asamblea de Guinea Ecuatorial.](pics/una-vida-guinea.jpg "Fernando entre el presidente de la asamblea de Guinea Ecuatorial y otro político guineano. Autor desconocido.")
 
