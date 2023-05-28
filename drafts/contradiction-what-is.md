@@ -1,5 +1,5 @@
 ---
-title: 'What Is a Contradiction?'
+title: 'What Is Contradiction?'
 subtitle: 'Guide to Contradiction, Part 1'
 footer: Published on 2023-05-25, last modified on 2025-05-25.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
@@ -15,8 +15,9 @@ However it is not easy to escape from its claws,
 and whatever we do to dispel it,
 it seems to come back to bite us in the ankles.
 
-In this article we begin a study in this intriguing subject,
-and we will start by trying to define it.
+In this article we begin a study in this intriguing subject.
+Perhaps you think you already know what contradiction is;
+let's deconstruct that belief.
 
 ## So, What Is a Contradiction?
 
@@ -39,7 +40,34 @@ both may be saying the truth.
 ## Ideas and Definitions
 
 The most common statements that are considered in logic are of objects having properties,
-like "Socrates is human".
+like the old adage "Socrates is human".
+So let us start with an unambiguous statement:
+
+> The sea is blue.
+
+We are saying that the sea has the property of being blue.
+Such a plain idea should be valid everywhere and at any point in time, right?
+Except.
+As long as I can reasonably say the following sentence, we may have a contradiction:
+
+> The sea is not blue.
+
+The sea has many hues of color depending on the time of the year.
+But let's agree that "generally the sea is blue".
+So let's ask our friend Homer of The Iliad fame what color is the sea:
+he will say at least 17 times in his works that it is [wine-colored](https://en.wikipedia.org/wiki/Wine-dark_sea_(Homer)).
+Was he color-blind? Did he have an issue with colors?
+Yes, he did have the issue that the blue color had not been invented yet.
+Very likely he noticed that wine and the sea have different colors;
+but just as we call "blue" a wide gamut of colors,
+for the ancient Greek "wine-colored" also expanded a huge variety of tones,
+which happened to include the color of the sea at times.
+
+The absence of the color blue in most languages until recent times
+leads some people to conclude that "early humans were colorblind"
+([source](https://mymodernmet.com/shades-of-blue-color-history/)
+including the ancient Greek.
+This absurd notion is a very common confusion of "perception" and "idea".
 
 ## Reality
 
