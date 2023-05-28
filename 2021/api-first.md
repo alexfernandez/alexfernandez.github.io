@@ -1,7 +1,7 @@
 ---
 title: 'API First'
 subtitle: 'Written by David Bonilla, translated by Alex Fernández'
-footer: Published on 2021-08-18, modified on 2021-08-16.
+footer: Published on 2021-08-16, modified on 2021-08-18.
   Translated by Alex Fernández from the original Spanish neswletter
   [Bonilista 2021-07-18](https://mailchi.mp/bonillaware/api-first?e=e8078d2541),
   by David Bonilla.
