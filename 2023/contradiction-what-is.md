@@ -3,9 +3,10 @@ title: '🤨 What Is Contradiction?'
 subtitle: '≢ Guide to Contradiction, Part 1'
 footer: Published on 2023-05-25, last modified on 2025-05-25.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
 
-![The three laws of Robotics. [Source](https://commons.wikimedia.org/wiki/File:Paris-P1090119.jpg).](pics/ethics-laws.jpg "A depiction of a robot in the background; in the foreground the text of the three laws of Robotics.")
+![How we feel with a contradiction. [Source](https://de.wahooart.com/@@/9GZNDN-Maurits-Cornelis-Escher-Quader-mit).](pics/contradiction-escher-cuboid.jpg "With Cuboid, by Maurits Cornelis Escher. A sitting man looks at an impossible figure, a cube that intersects with itself.")
 
 As reasonable people we dislike contradiction:
 it is one of the telltale marks of the cheating kid,
