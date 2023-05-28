@@ -1,7 +1,7 @@
 ---
 title: 'Una vida sin fisuras'
 subtitle: '_In memoriam_ Fernando Fernández Montero, 1934-2023'
-footer: Publicado el 2023-05-20, modificado el 2023-05-20.
+footer: Publicado el 2023-05-28, modificado el 2023-05-28.
   [Autor](mailto:alejandrofer@gmail.com)
 image: https://pinchito.es/2023/pics/una-vida-chalet.jpg
 ---
