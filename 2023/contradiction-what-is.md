@@ -6,7 +6,7 @@ footer: Published on 2023-05-25, last modified on 2025-05-25.
 image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
 
-![How we feel with a contradiction. [Source](https://de.wahooart.com/@@/9GZNDN-Maurits-Cornelis-Escher-Quader-mit).](pics/contradiction-escher-cuboid.jpg "With Cuboid, by Maurits Cornelis Escher. A sitting man looks at an impossible figure, a cube that intersects with itself.")
+![How we may feel when facing a contradiction. [Source](https://de.wahooart.com/@@/9GZNDN-Maurits-Cornelis-Escher-Quader-mit).](pics/contradiction-escher-cuboid.jpg "With Cuboid, by Maurits Cornelis Escher. A sitting man looks at an impossible figure, a cube that intersects with itself.")
 
 As reasonable people we dislike contradiction:
 it is one of the telltale marks of the cheating kid,
@@ -169,7 +169,7 @@ and will be subject to our ideas of objects and of properties.
 It will have as little to do with the world as with our own perceptions;
 someone without the idea of "blue" will not be able to see something blue even when their senses are perceiving it directly.
 
-## Conclusion
+## 🤔 Conclusion
 
 We have seen that it is really not easy to find an example of idea which cannot be contradicted.
 But surely we will be able to find it when we study the realm of logic and mathematics!
@@ -181,7 +181,7 @@ This journey will be very useful to draw ethical conclusions
 which can hopefully make us live better lives.
 Such is our ambitious goal.
 
-### Acknowledgements
+### 🙏 Acknowledgements
 
 I can highly recommend the compilation and translation of Heraclitus book
 by Agustín García Calvo;
