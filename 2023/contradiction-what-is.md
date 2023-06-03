@@ -183,7 +183,8 @@ Such is our ambitious goal.
 
 ### 🙏 Acknowledgements
 
-I can highly recommend the compilation and translation of Heraclitus book
+I can highly recommend the compilation and translation of
+[the book by Heraclitus](https://editoriallucina.es/es/producto/razon-comun-lecturas-presocraticas-ii-tela-p82)
 by Agustín García Calvo;
 unfortunately not translated to English as far as I know.
 
