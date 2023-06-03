@@ -1,7 +1,7 @@
 ---
 title: '🤨 What Is Contradiction?'
 subtitle: '≢ Guide to Contradiction, Part 1'
-footer: Published on 2023-05-25, last modified on 2025-05-25.
+footer: Published on 2023-06-03, last modified on 2023-06-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
