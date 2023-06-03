@@ -49,6 +49,9 @@ We will review some solutions that can be found in the literature,
 and even some of my own,
 ranking them from more pedestrian to wildly out there.
 
+There is no single solution to climate change,
+and probably we will have to use many of them if we are to survive our own trap.
+
 ## 🎚️ Fermi Estimation
 
 To gauge the impact of each solution we will use a method attributed to Enrico Fermi:
@@ -58,18 +61,25 @@ that is: his answer would not be exact but should be between 10 and 1/10 of the 
 It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper
 as it detonated and measuring their displacement in the air.
 
-We will try to do the same here.
+We will try to do the same with the ideas below to see if they would help.
 
 ## 🌲 Lots of Trees
 
 The first solution can be a bit disappointing:
 planting lots of trees.
 I am sure you were looking for clever carbon-capture devices
-that could turn the tide and suck all that CO₂ right out of the skies,
+that could turn the tide and suck all that carbon out of the skies,
 using modern technology.
 Problem is, none of it works properly.
 
-Meanwhile Nature has created these wonderful 
+Meanwhile Nature has created these wonderful machines,
+that have adapted during millions of years to do basically one thing:
+convert CO₂ to carbon in their trunks.
+In the process they also generate sugars, create seeds and deter hungry animals,
+but these are secondary interests.
+
+Another very interesting possibility is using algae,
+which are more efficient because they already have all the water necessary in their surroundings.
 
 ## Mirror Roofs
 
