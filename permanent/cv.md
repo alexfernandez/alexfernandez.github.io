@@ -1,18 +1,18 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2022-12-05.
+footer: Published on 2016-08-17, last edited on 2023-06-03.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com).
 ---
 
 ## TL;DR
 
-Developer turned CTO with 20+ years of experience specialized in scalability and DevOps,
+Developer turned CTO with 25+ years of experience specialized in scalability and DevOps,
 invested in helping teams become top performers.
 
 ## Job History
 
-I have 20+ years of professional experience related to software development.
+I have 25+ years of professional experience related to software development.
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
