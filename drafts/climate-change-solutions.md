@@ -45,23 +45,41 @@ using some engineering and a great deal of ingenuity.
 
 # 🧑‍🔬 Some Solutions
 
+Right now there is no single solution to climate change,
+and probably we will have to use many of them if we are to survive our own trap.
+
+Now, before we start, let's be clear.
+The first measure to mitigate climate change should be to **stop burning stuff**;
+otherwise everything we do will be in vain.
+But even if we stopped tomorrow and switched to 100% green energy
+(a mix of solar, wind, hydro and nuclear)
+there's the little matter of what we do with all the carbon dioxide in the atmosphere.
+
 We will review some solutions that can be found in the literature,
 and even some of my own,
 ranking them from more pedestrian to wildly out there.
-
-There is no single solution to climate change,
-and probably we will have to use many of them if we are to survive our own trap.
+We will try to understand how much they help,
+and also if they have any side effects.
 
 ## 🎚️ Fermi Estimation
 
 To gauge the impact of each solution we will use a method attributed to Enrico Fermi:
 [Fermi estimation](https://what-if.xkcd.com/84/).
-The great physicist said that he could estimate any physical problem in a napkin by a factor of magnitude,
-that is: his answer would not be exact but should be between 10 and 1/10 of the correct solution.
+The great physicist said that he could estimate any physical problem in a napkin by a factor of one order of magnitude,
+that is: his answer would not be exact but should be between 10 times and one tenth of the correct solution.
 It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper
 as it detonated and measuring their displacement in the air.
 
 We will try to do the same with the ideas below to see if they would help.
+We don't need complicated climate models to get a rough idea;
+even if we are off by 100% we will know if our solution should more or less work.
+Of course, we should go with the complicated models before investing real money in the idea.
+
+The method as we will apply it is simply to take an approximate estimation for each value,
+within an order of magnitude (between 10 times and 1/10th),
+and combine them in simple ways (basically addition, subtraction, multiplication and division).
+The solution will tend to the real value as long as errors are more or less distributed uniformly,
+i.e. sometimes we are above, some times we are below.
 
 ## 🌲 Lots of Trees
 
@@ -72,7 +90,7 @@ that could turn the tide and suck all that carbon out of the skies,
 using modern technology.
 Problem is, none of it works properly.
 
-Meanwhile Nature has created these wonderful machines,
+Meanwhile Mother Nature has created these wonderful machines,
 that have adapted during millions of years to do basically one thing:
 convert CO₂ to carbon in their trunks.
 In the process they also generate sugars, create seeds and deter hungry animals,
@@ -80,6 +98,28 @@ but these are secondary interests.
 
 Another very interesting possibility is using algae,
 which are more efficient because they already have all the water necessary in their surroundings.
+The techniques are more difficult to implement than just planting trees.
+Also, if 
+
+### Efficiency
+
+### Side Effects
+
+The side effects of planting a lot of trees are generally very nice:
+having a lot of trees.
+They cool the surroundings,
+help fixate the ground and provide a living environment for other creatures.
+In cities they lower the temperature of a street by at least five degrees in summer.
+
+There's the matter of albedo (or proportion of sunlight reflected):
+trees are generally darker than rock,
+and therefore can negate some of the benefits of carbon capture by absorbing heat.
+But this is a 
+
+Also, what do we do with all that carbon once it is stored in trees?
+If we just leave them there then there is a limit to the carbon taken from the atmosphere.
+This solution might be potentially even more efficient if we somehow mowed down trees from time to time and disposed of them,
+for example by burying them or throwing them into the sea.
 
 ## Mirror Roofs
 
