@@ -211,9 +211,22 @@ But only around
 [half of the tree](https://web.extension.illinois.edu/askextension/thisQuestion.cfm?ThreadID=19549&catID=192&AskSiteID=87)
 will be carbon,
 so we will stick to 750 kg of carbon per tree,
+close to a metric ton,
 or a bit under a million grams:
 
     m(C) ≈ 0.75 × 10^6 g.
+
+How close are we to official estimations?
+Well, taking Spain as an example:
+there are [seven billion trees](https://www.uab.cat/web/newsroom/news-detail/spain-has-close-to-seven-billion-trees-1345668003610.html?noticiaid=1345689513075),
+which together store [422 million metric tons of carbon](https://rainforests.mongabay.com/deforestation/2000/Spain.htm);
+each tree will hold
+
+    m(C)' = 422 * 10^6 mt / 7 * 10^9 = 0.060.
+
+Around 60 kg per tree, below an order of magnitude.
+Keep in mind that every tree above 75 mm of diameter is counted in the above inventory,
+while we are considering mature 4 meter tall trees.
 
 #### 🌳 Number of Trees
 
@@ -248,6 +261,19 @@ The total for Spain would be:
     n(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.
 
 We could plant a little over a billion trees.
+How much carbon is that?
+
+    T(Spain) = n(Spain) * m(Spain) ≈ 1.5 * 10^9 * 0.75 mt,
+
+equivalent to around 1 gigaton of carbon.
+Again, let us check with official sources if our estimations are off the mark.
+Spain's forests contain [422 million metric tons of carbon](422 million metric tons of carbon)
+in 36% of the surface;
+it seems ambitious to store 1 gigaton in the remaining 30%.
+But not all is lost!
+According to the [Copernicus project](https://land.copernicus.eu/global/sites/cgls.vito.be/files/use-cases/CGLOPS_UC_AgrestaSCoop_I1.00.pdf),
+Spanish forests store around 2.5 gigatons of carbon;
+four times more below the ground than in the trees themselves.
 
 Now let us replicate our reforestation project to the whole world.
 Land area is around
@@ -279,9 +305,14 @@ and therefore can negate some of the benefits of carbon capture by absorbing hea
 But this is a 
 
 Also, what do we do with all that carbon once it is stored in trees?
-If we just leave them there then there is a limit to the carbon taken from the atmosphere.
-This solution might be potentially even more efficient if we somehow mowed down trees from time to time and disposed of them,
-for example by burying them or throwing them into the sea.
+If we just leave it there then there is a limit to the carbon taken from the atmosphere;
+and it might burn at some point getting us back to the starting point.
+One possible extension of the program might be to mow down trees from time to time and dispose of them,
+for example by burying them or throwing them into the sea;
+maybe even convert them into furniture and store them in our homes!
+With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
+storing half a metric ton of carbon per house would clear around one gigaton of carbon.
+Not much, but every bit helps.
 
 ## 🪩🪞 Mirror Roofs
 
