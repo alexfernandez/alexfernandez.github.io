@@ -95,7 +95,7 @@
                     <h2 id="fermi-estimation">🎚️ Fermi Estimation</h2>
                     <p>To gauge the impact of each solution we will use a method attributed to Enrico Fermi: <a href="https://what-if.xkcd.com/84/">Fermi estimation</a>. The great physicist said that he could estimate any physical problem in a napkin by a factor of one order of magnitude, that is: his answer would not be exact but should be between 10 times and one tenth of the correct solution. It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper as it detonated and measuring their displacement in the air.</p>
                     <p>The method as we will apply it is simply to take an approximate estimation for each value, within an order of magnitude (between 10 times and 1/10th), and combine them in simple ways (basically addition, subtraction, multiplication and division). The solution will tend to the real value as long as errors are more or less distributed uniformly, i.e. sometimes we are above, some times we are below.</p>
-                    <p>We will try to do the same with the ideas below to see if they would help. We don’t need complicated climate models to get a rough idea of each method; even if we are off by 100% we will know if our solution should more or less work. Of course, we should go with the complicated models before investing real money in the idea. Plus, this process of estimation is a big part of the fun!</p>
+                    <p>We will try to do the same with the ideas below to see if they would help. We don’t need complicated climate models to get a rough idea of each method; even if we are off by 100% we will know if our solution should more or less work. Of course, we should go with the complicated models before investing real money in the idea. Also it is a good idea to check with independent sources whenever possible. But this process of estimation is a big part of the fun!</p>
                     <p>So let’s begin.</p>
                     <h2 id="lots-of-trees">🌲 Lots of Trees</h2>
                     <p>The first solution can be a bit disappointing: planting lots of trees. I am sure you were looking for clever carbon-capture devices that could turn the tide and suck all that carbon out of the skies, using modern technology. Problem is, none of it works properly.</p>
@@ -103,6 +103,7 @@
                     <p>Another very interesting possibility is using algae, which are more efficient because they already have all the water necessary in their surroundings. These techniques are very likely more difficult to implement than just planting trees, and can have other side effects.</p>
                     <p>Just how many trees can we realistically plant in the world? Many areas are already covered in forests; others are deserts. Of the remaining areas, many are used for growing food; there are also cities and roads. We can of course plant trees in many of these places: as hedges of fields, in our streets, even as vertical gardens in buildings.</p>
                     <p>Some studies (e.g. <a href="">this one</a>) say that a trillion (10^12) trees are feasible.</p>
+                    <p>Note: throughout the article I’m using US billions (10^9, or a thousand millions) and trillions (10^12, or a million millions).</p>
                     <p>The publications <a href="https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html">CNN</a>. <a href="https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html">decade</a> when in reality it could wipe out all the excess carbon. I suspect that the difference stems from the confusion between tons of CO2 and tons of carbon.</p>
                     <p><a href="https://trilliontrees.org/">Trillion trees</a>. <a href="https://www.plant-for-the-planet.org/trillion-trees/">Trillion trees</a>. <a href="https://www.weforum.org/agenda/2020/01/one-trillion-trees-world-economic-forum-launches-plan-to-help-nature-and-the-climate/">World Economic Forum</a>.</p>
                     <h3 id="efficiency">⚡ Efficiency</h3>
@@ -139,33 +140,69 @@
                     <pre><code>n(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.</code></pre>
                     <p>Almost exactly our half a trillion trees! So very roughly our project should be feasible.</p>
                     <p><a href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a number of projects related to forests, <a href="https://drawdown.org/solutions/tree-plantations-on-degraded-land">tree plantations</a> accounting for 22 gigatons of CO2.</p>
-                    <h3 id="side-effects">Side Effects</h3>
+                    <h3 id="side-effects">💊 Side Effects</h3>
                     <p>The side effects of planting a lot of trees are generally very nice: having a lot of trees. They cool the surroundings, help fixate the ground and provide a living environment for other creatures. In cities they lower the temperature of a street by at least five degrees in summer.</p>
                     <p>There’s the matter of albedo (or proportion of sunlight reflected): trees are generally darker than rock, and therefore can negate some of the benefits of carbon capture by absorbing heat. But this is a</p>
                     <p>Also, what do we do with all that carbon once it is stored in trees? If we just leave them there then there is a limit to the carbon taken from the atmosphere. This solution might be potentially even more efficient if we somehow mowed down trees from time to time and disposed of them, for example by burying them or throwing them into the sea.</p>
-                    <h2 id="all-nuclear-power">All Nuclear Power</h2>
-                    <p>Lowly ranked by <a href="https://drawdown.org/solutions/nuclear-power">Project Drawdown</a>, with only 3 billion tons removed.</p>
                     <h2 id="mirror-roofs">🪩🪞 Mirror Roofs</h2>
                     <p>Our second solution involves a little bit of creativity. Since the Earth is heated mainly by the Sun, why not divert some of that heat back to space?</p>
+                    <p>Instead of installing dark roofs, like roofing tars, we may use a reflective cover. Apart from cooling the building itself, it will send those pesky infrared radiations back to space where they belong. It doesn’t even need to be a proper mirror, just some kind of surface that reflects light in the infrared spectrum. We don’t need an expensive <a href="https://webb.nasa.gov/content/observatory/ote/mirrors/index.html">gold foil</a>; just <a href="https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf">aluminium foil</a> is a good mirror for infrared light.</p>
+                    <p>Getting an international agreement for roof mirrors would probably not be easy.</p>
                     <h3 id="efficiency-1">⚡ Efficiency</h3>
-                    <p>Let us estimate how much would roof mirrors affect the Earth’s temperature. Again, we divide the problem into simpler estimations: how much mirrors we can place on buildings, and how much they would affect the temperature.</p>
+                    <p>Let us estimate how much would roof mirrors affect the Earth’s temperature. Again, we divide the problem into simpler estimations: how much area of mirrors we can place on buildings <code>A(mirror)</code>, what percentage of the Earth surface we can cover <code>p(mirror)</code>, and how much would they affect the temperature of the planet <code>ΔT(mirror)</code>, where the capital delta <code>Δ</code> represents the difference.</p>
                     <h4 id="how-many-mirrors">🪞 How Many Mirrors</h4>
-                    <p>Each person on Earth occupies perhaps 100 square meters of space. In cities it is much less (since we live in buildings); in a village it is likely bigger. But we also use offices and malls, so this estimate is likely small.</p>
-                    <p>7 billion people will occupy 700 billion square meters, or 700 000 km2. Given that the Earth has 500 million km2,</p>
-                    <p><a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">150 million km²</a></p>
-                    <p>Urban regions cover <a href="https://www.nasa.gov/vision/earth/environment/urban_effects.html">0.2% of the Earth’s land surface</a>. Artificial surfaces <a href="http://www.curiousmeerkat.co.uk/questions/much-land-earth-inhabited/">0.6% of the land surface</a>. Road: 0.15%.</p>
-                    <p>So in total (0.6+0.15)/3 ~ 0.3%.</p>
+                    <p>Each person on Earth occupies perhaps 10 square meters of space. In cities it is much less (since we live in buildings); in villages it is likely bigger. But we also use offices and malls, community buildings and stadiums, museums and palaces; so this estimate is very likely on the low side; all in all we might use perhaps 100 m². How many square meters of roofs do we use? Let’s say it is equivalent to 100 square meters.</p>
+                    <p>7 billion people will occupy 700 billion square meters. But what really interests us is the % of total surface. Converting to square kilometers:</p>
+                    <pre><code>1 km² = 1000000 m²,
+                    A(buildings) ≈ 700 * 10^9 m² * 1 km² / 10^6 m² = 700 000 km².</code></pre>
+                    <p>Given that the Earth has <a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">500 million km²</a> including the oceans, we have at our disposal well below 1% of the total surface of the planet.</p>
+                    <pre><code>p(buildings) ≈  700 000 km² / 500 000 000 km² ≈ 0.14%.</code></pre>
+                    <p>This doesn’t seem enough. We have to turn to other sources: perhaps consider all human-made structures. Add roads and other pavimented surfaces and we can perhaps push it to 0.20%.</p>
+                    <p>Let us check this estimate with independent data. According to NASA urban regions cover <a href="https://www.nasa.gov/vision/earth/environment/urban_effects.html">0.2% of the Earth’s land surface</a>. According to the <a href="https://www.fao.org/uploads/media/glc-share-doc.pdf">Food and Agriculture Organization of the UN</a>, artificial surfaces cover 0.6% of the land surface. For the total surface we have to multiply by the proportion of land surface, or 150 / 500 million square km:</p>
+                    <pre><code>p(artificial) ≈ 0.6% * 150 / 500 ≈ 0.18%.</code></pre>
+                    <p>Our prediction was not bad at all!</p>
                     <h4 id="expected-cooling">🥶 Expected Cooling</h4>
-                    <p>How much would 1% of mirrors affect our temperature? A very rough first estimate is based on this idea: the Earth gets most of its heat from the Sun, apart from internal geothermal energy.</p>
-                    <p>To ease our task we will work in Kelvin degrees (or kelvins), which are degrees above absolute zero. This <a href="https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s">answer from StackExchange</a> calculates that the Earth’s temperature would drop to 35 K without our Sun. Right now it is around 300 K. We can assume that the Earth gets around 300 K from the Sun, and it is linear: reducing sunlight by 1% would cool the Earth by 3 K (or 3 C).</p>
-                    <p>Since current consensus is between 2 and 3 C by 2050, this silly project would reduce temperatures to before the industrial age.</p>
-                    <h2 id="space-cannon">Space Cannon</h2>
-                    <p><a href="https://www.pnas.org/doi/full/10.1073/pnas.0608163103">article</a> <a href="https://www.bbc.com/future/article/20160425-how-a-giant-space-umbrella-could-stop-global-warming">bbc</a></p>
+                    <p>How much would 0.2% of mirror surfaces affect our temperature? A very rough first estimate is based on this idea: apart from internal geothermal energy, the Earth gets most of its heat from the Sun, most of it from infrared light. To begin with let us say that we can reflect half the heat out to space. Our little project would reflect 0.1% of the heat.</p>
+                    <p>To ease our task we will work in Kelvin degrees (or kelvins), which are degrees above absolute zero. This <a href="https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s">answer from StackExchange</a> calculates that the Earth’s temperature would drop to 35 K without our Sun. Right now it is around 300 K, so we can assume that the Earth gets around 300 K from the Sun, and it is linear: reducing sun heat by 1% would cool the Earth by 3 K (or 3 C).</p>
+                    <p>If we reflect 0.1% of the heat we might decrease the temperature by 0.3 degrees. Not a lot. So this little project is perhaps not worth the hassle, at least globally.</p>
+                    <p>Can we do better? How about lining the Sahara with mirrors? What about other deserts? Maintenance would be horrible!</p>
+                    <p>But what we can do is install reflective roofs on crops that are sensitive to heat.</p>
+                    <h3 id="side-effects-1">💊 Side Effects</h3>
+                    <p>The nice part of this project is that infrared mirrors on roofs would help <a href="https://www.architecturaldigest.com/story/mirror-on-roof-renovation">cool our buildings</a>, reducing the need for air conditioning. The same is true for <a href="https://www.sciencedaily.com/releases/2016/08/160825152054.htm">windows</a> by the way. Whole cities might also be cooler this way. Even for cold countries this effect would be welcome in summer.</p>
+                    <h2 id="space-screens">🛰️ Space Screens</h2>
+                    <p>Let’s now go for the most egregious of the ideas presented here, and also the most entertaining. How about sending a giant shade to the sky between the Earth and the Sun? This might seem like a little kid’s idea of how to cool the Earth. But real astronomers and physicists have entertained the idea.</p>
+                    <p>Roger Angel published a <a href="https://www.pnas.org/doi/full/10.1073/pnas.0608163103">fascinating paper back in 2016</a>, complete with cost analysis of the project. You can read about this “giant space umbrella” on the <a href="https://www.bbc.com/future/article/20160425-how-a-giant-space-umbrella-could-stop-global-warming">BBC</a>, although I encourage you to go the original article. Total cost would be a few trillion dollars: considerable, but worth it if we are saving the planet from the catastrophe.</p>
+                    <figure>
+                    <img src="pics/climate-change-screens.png" title="A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us." alt="" /><figcaption>Screens between the Sun and the Earth to keep us cool. Source: the author.</figcaption>
+                    </figure>
+                    <p>Instead of sending one big structure, Angel proposes sending many trillions of small screens to the <a href="https://en.wikipedia.org/wiki/Lagrange_point">L1 Langrange point</a>, which is at equilibrium between the Sun and the Earth. They would need complex mechanisms to stay in place, and to be able to direct them as needed to increase or decrease the effect. They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth; we would just feel less heat than usual. How much less heat? Let’s estimate it!</p>
+                    <h3 id="efficiency-2">⚡ Efficiency</h3>
+                    <p>Let us replicate the computations on the paper.</p>
+                    <p>As before, we will divide the problem into simpler parts: the number of screens <code>n(screens)</code> and the area of each screen <code>A(screen)</code> will combine to the total area of sunlight blocked <code>A(total)</code>: <code>A(total) = n(screens) * A(screens)</code>. Then the proportion of sunlight blocked will depend on point where they are installed. and the expected cooling: We will suppose that each screen blocks a large part of the radiation collected.</p>
+                    <p>We can also consider that the L1 point is much closer to Earth than to the Sun, so that the rays of light are almost parallel. Still, some shade will be lost since it will not be a perfect block; let’s say we stop half the rays coming to Earth. The proportion of sunlight blocked will be equal to half area of the screens divided by the section of the planet, <code>r(Earth)</code>. In equations:</p>
+                    <pre><code>p(total) = ½ A(total) / [π * r(Earth)^2].</code></pre>
+                    <p>Finally we will compute the expected cooling as we did above.</p>
+                    <h4 id="area-of-the-shade">🕶️ Area of the shade</h4>
+                    <p>The article specifies 16 trillion flying space robots, each with an area of 1 square meter:</p>
+                    <pre><code>A(total) = n(screens) * A(screen) ≈ 16 * 10^12 * 1 m² = 16 * 10^6 km².</code></pre>
+                    <p>The disc of the Earth is:</p>
+                    <pre><code>A(Earth) = π * R(Earth)^2 ≈ π * (6300 km)^2 ≈ 100 * 10^6 km².</code></pre>
+                    <p>So approximately 100 million square kilometers. (Why is it different from the 500 million square kilometers we had before? Note that in the last chapter we were measuring the surface of the globe; now we want the area of the section of the globe, substantially smaller.)</p>
+                    <p>What proportion is that of the Earth? Easy to calculate remembering that we only block half the sunlight:</p>
+                    <pre><code>p(total) = ½ 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.</code></pre>
+                    <p>So a bit under 1%; let’s go with that.</p>
+                    <h4 id="expected-cooling-1">🥶 Expected Cooling</h4>
+                    <p>Luckily, we already did the computations above! We can expect a 3 degree (Celsius or Kelvin) reduction in temperature for every 1% of sunlight we block.</p>
+                    <p>So our estimation is that we can lower the temperature of Earth by 3 degrees with our little project.</p>
+                    <h3 id="sending-stuff-up-there">☄️ Sending Stuff Up There</h3>
+                    <p>Now we come to the most interesting part: how can we send a 100 square kilometer shade up in the sky? The answer is: space cannon.</p>
+                    <p>Luckily we already explored <a href="/2018/building-space-launcher">how to build a space launcher</a> a few years ago, so we only need to go over the basics.</p>
+                    <p>Angel wants to build</p>
                     <h2 id="fake-solutions">Fake Solutions</h2>
                     <h2 id="my-contribution">My Contribution</h2>
-                    <p>What am I indenting to do?</p>
+                    <p>What am I intending to do?</p>
                     <h2 id="conclusion">🤔 Conclusion</h2>
-                    <p>It is possible to fix the planet, but not easy.</p>
+                    <p>It is possible to fix our climate, but it will not be easy. The problem is getting bigger every year, so we really need to act now. A concerted effort by every government in the planet will be necessary. I sincerely hope that we spring to action before the situation is too severe.</p>
                     <h3 id="acknowledgements">🙏 Acknowledgements</h3>
                     <p>I have learned a lot speaking about these issues with many friends, including Juan Villamizar y Juan Searle.</p>
 								</div>
