@@ -20,8 +20,10 @@ What can we do about it, and should we do anything?
 First we would have to agree on the causes,
 and as you may know there is a huge debate in our polarized society.
 Not in scientific circles though.
-Almost 40 years ago I read "Asimov's Guide to Science" by the great Isaac Asimov.
-When speaking about the atmosphere he had these words:
+Some 35 years ago I read
+[Asimov's Guide to Science](https://en.wikipedia.org/wiki/The_Intelligent_Man%27s_Guide_to_Science)
+by the great Isaac Asimov, probably the 1972 or 1984 Spanish editions.
+When describing the Earth's atmosphere he had these words:
 
 > Carbon dioxide absorbs infrared radiation rather strongly. This means that when there are appreciable amounts of it in the atmosphere, it tends to block the escape of heat at night from the sun-warmed earth. The result is that heat accumulates. On the other hand, when the carbon dioxide content of the atmosphere falls, the earth steadily cools.
 
@@ -117,6 +119,18 @@ even as vertical gardens in buildings.
 Some studies (e.g.
 [this one]())
 say that a trillion (10^12) trees are feasible.
+
+The publications
+[CNN](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
+[decade](https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html)
+when in reality it could wipe out all the excess carbon.
+I suspect that the difference stems from the confusion between
+tons of CO2 and tons of carbon.
+
+[Trillion trees](https://trilliontrees.org/).
+[Trillion trees](https://www.plant-for-the-planet.org/trillion-trees/).
+[World Economic Forum](https://www.weforum.org/agenda/2020/01/one-trillion-trees-world-economic-forum-launches-plan-to-help-nature-and-the-climate/).
+
 
 ### ⚡ Efficiency
 
@@ -228,6 +242,12 @@ if we can replicate our reforestation project in the whole world we would get:
     n(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
 
 Almost exactly our half a trillion trees!
+So very roughly our project should be feasible.
+
+[Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
+has a number of projects related to forests,
+[tree plantations](https://drawdown.org/solutions/tree-plantations-on-degraded-land)
+accounting for 22 gigatons of CO2.
 
 ### Side Effects
 
@@ -247,7 +267,62 @@ If we just leave them there then there is a limit to the carbon taken from the a
 This solution might be potentially even more efficient if we somehow mowed down trees from time to time and disposed of them,
 for example by burying them or throwing them into the sea.
 
-## 🪞 Mirror Roofs
+## All Nuclear Power
+
+Lowly ranked by [Project Drawdown](https://drawdown.org/solutions/nuclear-power),
+with only 3 billion tons removed.
+
+## 🪩🪞 Mirror Roofs
+
+Our second solution involves a little bit of creativity.
+Since the Earth is heated mainly by the Sun,
+why not divert some of that heat back to space?
+
+### ⚡ Efficiency
+
+Let us estimate how much would roof mirrors affect the Earth's temperature.
+Again, we divide the problem into simpler estimations:
+how much mirrors we can place on buildings,
+and how much they would affect the temperature.
+
+#### 🪞 How Many Mirrors
+
+Each person on Earth occupies perhaps 100 square meters of space.
+In cities it is much less (since we live in buildings);
+in a village it is likely bigger.
+But we also use offices and malls,
+so this estimate is likely small.
+
+7 billion people will occupy 700 billion square meters,
+or 700 000 km2.
+Given that the Earth has 500 million km2,
+
+[150 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf)
+
+Urban regions cover [0.2% of the Earth's land surface](https://www.nasa.gov/vision/earth/environment/urban_effects.html).
+Artificial surfaces [0.6% of the land surface](http://www.curiousmeerkat.co.uk/questions/much-land-earth-inhabited/).
+Road: 0.15%.
+
+So in total (0.6+0.15)/3 ~ 0.3%.
+
+#### 🥶 Expected Cooling
+
+How much would 1% of mirrors affect our temperature?
+A very rough first estimate is based on this idea:
+the Earth gets most of its heat from the Sun,
+apart from internal geothermal energy.
+
+To ease our task we will work in Kelvin degrees (or kelvins),
+which are degrees above absolute zero.
+This [answer from StackExchange](https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s)
+calculates that the Earth's temperature would drop to 35 K without our Sun.
+Right now it is around 300 K.
+We can assume that the Earth gets around 300 K from the Sun,
+and it is linear:
+reducing sunlight by 1% would cool the Earth by 3 K (or 3 C).
+
+Since current consensus is between 2 and 3 C by 2050,
+this silly project would reduce temperatures to before the industrial age.
 
 ## Space Cannon
 
