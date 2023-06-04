@@ -96,21 +96,22 @@
                     <p>To gauge the impact of each solution we will use a method attributed to Enrico Fermi: <a href="https://what-if.xkcd.com/84/">Fermi estimation</a>. The great physicist said that he could estimate any physical problem in a napkin by a factor of one order of magnitude, that is: his answer would not be exact but should be between 10 times and one tenth of the correct solution. It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper as it detonated and measuring their displacement in the air.</p>
                     <p>The method as we will apply it is simply to take an approximate estimation for each value, within an order of magnitude (between 10 times and 1/10th), and combine them in simple ways (basically addition, subtraction, multiplication and division). The solution will tend to the real value as long as errors are more or less distributed uniformly, i.e. sometimes we are above, some times we are below.</p>
                     <p>We will try to do the same with the ideas below to see if they would help. We don’t need complicated climate models to get a rough idea of each method; even if we are off by 100% we will know if our solution should more or less work. Of course, we should go with the complicated models before investing real money in the idea. Also it is a good idea to check with independent sources whenever possible. But this process of estimation is a big part of the fun!</p>
-                    <p>So let’s begin.</p>
+                    <p>Let’s begin.</p>
                     <h2 id="lots-of-trees">🌲 Lots of Trees</h2>
                     <p>The first solution can be a bit disappointing: planting lots of trees. I am sure you were looking for clever carbon-capture devices that could turn the tide and suck all that carbon out of the skies, using modern technology. Problem is, none of it works properly.</p>
-                    <p>Meanwhile Mother Nature has created these wonderful machines, that have adapted during millions of years to do basically one thing: convert CO₂ to carbon in their trunks. In the process they also generate sugars, create seeds and deter hungry animals, but these are secondary interests.</p>
-                    <p>Another very interesting possibility is using algae, which are more efficient because they already have all the water necessary in their surroundings. These techniques are very likely more difficult to implement than just planting trees, and can have other side effects.</p>
+                    <p>Meanwhile Mother Nature has created these wonderful machines that have evolved during millions of years to become better at basically one thing: convert CO₂ to carbon in their trunks. In the process they also generate sugars, create seeds and deter hungry animals, but these are secondary interests.</p>
                     <p>Just how many trees can we realistically plant in the world? Many areas are already covered in forests; others are deserts. Of the remaining areas, many are used for growing food; there are also cities and roads. We can of course plant trees in many of these places: as hedges of fields, in our streets, even as vertical gardens in buildings.</p>
                     <p>Some studies (e.g. <a href="">this one</a>) say that a trillion (10^12) trees are feasible.</p>
                     <p>Note: throughout the article I’m using US billions (10^9, or a thousand millions) and trillions (10^12, or a million millions).</p>
                     <p>The publications <a href="https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html">CNN</a>. <a href="https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html">decade</a> when in reality it could wipe out all the excess carbon. I suspect that the difference stems from the confusion between tons of CO2 and tons of carbon.</p>
                     <p><a href="https://trilliontrees.org/">Trillion trees</a>. <a href="https://www.plant-for-the-planet.org/trillion-trees/">Trillion trees</a>. <a href="https://www.weforum.org/agenda/2020/01/one-trillion-trees-world-economic-forum-launches-plan-to-help-nature-and-the-climate/">World Economic Forum</a>.</p>
+                    <p>Another very interesting possibility is using algae, which are more efficient because they already have all the water necessary in their surroundings. These techniques are very likely more difficult to implement than just planting trees, and can have other side effects. So we will focus on trees.</p>
                     <h3 id="efficiency">⚡ Efficiency</h3>
-                    <p>We will divide the problem into three: total excess carbon in the atmosphere <code>T(C)</code>, mass of carbon per tree <code>m(C)</code>, and number of trees <code>n(trees)</code>. Our problem will be solved when:</p>
+                    <p>We will divide the problem into three simpler steps: find out total excess carbon in the atmosphere <code>T(C)</code>, how much carbon each tree can absorb <code>m(C)</code>, and the number of trees <code>n(trees)</code>. Our problem will be solved when we plant enough trees to absorb all of the excess carbon in our atmosphere, in equations:</p>
                     <pre><code>T(C) = m(C) × n(trees),</code></pre>
-                    <p>or:</p>
+                    <p>or solving for number of trees:</p>
                     <pre><code>n(trees) = T(C) / m(C).</code></pre>
+                    <p>That’s it! Problem solved, Earth saved.</p>
                     <h4 id="total-excess-carbon">🛢️ Total Excess Carbon</h4>
                     <p>First let’s estimate the total amount of excess carbon in the atmosphere. If we look at the <a href="https://www.statista.com/statistics/276629/global-co2-emissions/">data from Statista</a>, there is a more or less steady linear increase from about 1943 to 2021. (Yes, emissions are still increasing.) Latest numbers are 37 billion metric tons of CO₂. Say we have a completely linear graph from 1940 to 2020 (80 years), the total of carbon emissions would be something like the number of years multiplied by the midpoint:</p>
                     <pre><code>T ≈ 80 × 40 / 2 GtCO₂ ≈ 1600 GtCO₂.</code></pre>
@@ -122,7 +123,10 @@
                     <h4 id="carbon-per-tree">💎 Carbon per Tree</h4>
                     <p>Now let’s estimate how much carbon can we store in a tree. Let’s assume an average 4 meter tall tree, with a trunk radius of 25 cm; this gives us a volume of:</p>
                     <pre><code>V ≈ π × 0.25 × 0.25 × 4 m³ ≈ 0.75 m³.</code></pre>
-                    <p>Wood has a density similar to water (some woods float, others don’t), which is 1 kg per liter (a cube with sides of 10 cm), so our average tree trunk will weigh:</p>
+                    <figure>
+                    <img src="pics/climate-change-tree.png" title="A cylindrical trunk with a cross-section given by its radius, below a canopy of branches and leaves, and in the ground some roots." alt="" /><figcaption>A simplified tree. Source: the author</figcaption>
+                    </figure>
+                    <p>How much does the tree weigh? Wood has a density similar to water (some woods float, others don’t), which is 1 kg per liter (a cube with sides of 10 cm), so our average tree trunk will weigh:</p>
                     <pre><code>m(tree) = d × V ≈ 1 kg / 0.001 m³ × 0.75 m³ ≈ 750 kg.</code></pre>
                     <p>But the tree also has branches and leaves and roots; we can estimate that the trunk is just half the total weight, which is probably <a href="https://www.researchgate.net/figure/Proportion-of-the-tree-biomass-from-the-trunk-the-branch-the-leaf-and-the-root-in_fig12_299376027">not that far off</a>.</p>
                     <p>Therefore we will have twice as much mass in the whole tree. But only around <a href="https://web.extension.illinois.edu/askextension/thisQuestion.cfm?ThreadID=19549&amp;catID=192&amp;AskSiteID=87">half of the tree</a> will be carbon, so we will stick to 750 kg of carbon per tree, or a bit under a million grams:</p>
@@ -133,12 +137,13 @@
                     <pre><code>n(trees) = T(C) / m(C) ≈ 0.4 × 10^18 g / 0.75 × 10^6 g ≈ 0.5 × 10^12.</code></pre>
                     <p>Or around half a trillion trees. Is this possible at all?</p>
                     <p>Many studies have looked at this question. We will just do our own Fermi estimation.</p>
-                    <p>Let’s take first Spain as an example. With a <a href="https://en.wikipedia.org/wiki/Spain">total area</a> of roughly half a million square kilometers it has a good forest cover of around 30%; another 30% is arable lands; the rest is mountains, cities, roads and arid lands.</p>
-                    <p>Let us suppose we can cover this 30% with trees every 10 meters. (A bit dense but not uncommon.) A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer. The total for Spain would be:</p>
+                    <p>Let’s take first Spain as an example. With a <a href="https://en.wikipedia.org/wiki/Spain">total area</a> of roughly half a million square kilometers it has a good forest cover of <a href="https://rainforests.mongabay.com/deforestation/2000/Spain.htm">over 30%</a>; another ~30% is <a href="https://prepsoil.eu/soil-threats-in-eu/agricultural-land-in-spain">arable lands</a>; the rest is pastures, mountains, cities, roads and arid lands.</p>
+                    <p>Let us suppose we can cover this 30% with trees every 10 meters. (A bit <a href="https://hort.ifas.ufl.edu/woody/spacing.shtml">dense but not uncommon</a>.) After all, according to legend <a href="https://earth.org/deforestation-in-spain/">Strabo wrote</a> that a squirrel could cross Spain from Gibraltar to the Pyrennes without touching the ground. A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer. The total for Spain would be:</p>
                     <pre><code>n(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.</code></pre>
-                    <p>So a little over a billion trees. The world has around <a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">150 million km²</a> of land area; if we can replicate our reforestation project in the whole world we would get:</p>
+                    <p>We could plant a little over a billion trees.</p>
+                    <p>Now let us replicate our reforestation project to the whole world. Land area is around <a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">150 million km²</a>; of land area; using the same proportion we would get:</p>
                     <pre><code>n(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.</code></pre>
-                    <p>Almost exactly our half a trillion trees! So very roughly our project should be feasible.</p>
+                    <p>Almost exactly our half a trillion trees! Very roughly our project should be feasible.</p>
                     <p><a href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a number of projects related to forests, <a href="https://drawdown.org/solutions/tree-plantations-on-degraded-land">tree plantations</a> accounting for 22 gigatons of CO2.</p>
                     <h3 id="side-effects">💊 Side Effects</h3>
                     <p>The side effects of planting a lot of trees are generally very nice: having a lot of trees. They cool the surroundings, help fixate the ground and provide a living environment for other creatures. In cities they lower the temperature of a street by at least five degrees in summer.</p>
@@ -177,7 +182,7 @@
                     </figure>
                     <p>Instead of sending one big structure, Angel proposes sending many trillions of small screens to the <a href="https://en.wikipedia.org/wiki/Lagrange_point">L1 Langrange point</a>, which is at equilibrium between the Sun and the Earth. They would need complex mechanisms to stay in place, and to be able to direct them as needed to increase or decrease the effect. They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth; we would just feel less heat than usual. How much less heat? Let’s estimate it!</p>
                     <h3 id="efficiency-2">⚡ Efficiency</h3>
-                    <p>Let us replicate the computations on the paper.</p>
+                    <p>We will try to replicate the computations on the paper with our Fermi estimation, and then check out how we did.</p>
                     <p>As before, we will divide the problem into simpler parts: the number of screens <code>n(screens)</code> and the area of each screen <code>A(screen)</code> will combine to the total area of sunlight blocked <code>A(total)</code>: <code>A(total) = n(screens) * A(screens)</code>. Then the proportion of sunlight blocked will depend on point where they are installed. and the expected cooling: We will suppose that each screen blocks a large part of the radiation collected.</p>
                     <p>We can also consider that the L1 point is much closer to Earth than to the Sun, so that the rays of light are almost parallel. Still, some shade will be lost since it will not be a perfect block; let’s say we stop half the rays coming to Earth. The proportion of sunlight blocked will be equal to half area of the screens divided by the section of the planet, <code>r(Earth)</code>. In equations:</p>
                     <pre><code>p(total) = ½ A(total) / [π * r(Earth)^2].</code></pre>
@@ -190,10 +195,10 @@
                     <p>So approximately 100 million square kilometers. (Why is it different from the 500 million square kilometers we had before? Note that in the last chapter we were measuring the surface of the globe; now we want the area of the section of the globe, substantially smaller.)</p>
                     <p>What proportion is that of the Earth? Easy to calculate remembering that we only block half the sunlight:</p>
                     <pre><code>p(total) = ½ 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.</code></pre>
-                    <p>So a bit under 1%; let’s go with that.</p>
+                    <p>Therefore a bit under 1%; let’s go with that.</p>
                     <h4 id="expected-cooling-1">🥶 Expected Cooling</h4>
                     <p>Luckily, we already did the computations above! We can expect a 3 degree (Celsius or Kelvin) reduction in temperature for every 1% of sunlight we block.</p>
-                    <p>So our estimation is that we can lower the temperature of Earth by 3 degrees with our little project.</p>
+                    <p>Our estimation is that we can lower the temperature of Earth by 3 degrees with our little project. Angel comes up with a figure of a 1.8% reduction in solar flux, and cites a reduction of 1.88 K in temperature. So we were well within our order of magnitude!</p>
                     <h3 id="sending-stuff-up-there">☄️ Sending Stuff Up There</h3>
                     <p>Now we come to the most interesting part: how can we send a 100 square kilometer shade up in the sky? The answer is: space cannon.</p>
                     <p>Luckily we already explored <a href="/2018/building-space-launcher">how to build a space launcher</a> a few years ago, so we only need to go over the basics.</p>

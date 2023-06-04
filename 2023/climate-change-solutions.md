@@ -86,7 +86,7 @@ Of course, we should go with the complicated models before investing real money 
 Also it is a good idea to check with independent sources whenever possible.
 But this process of estimation is a big part of the fun!
 
-So let's begin.
+Let's begin.
 
 ## 🌲 Lots of Trees
 
@@ -97,16 +97,11 @@ that could turn the tide and suck all that carbon out of the skies,
 using modern technology.
 Problem is, none of it works properly.
 
-Meanwhile Mother Nature has created these wonderful machines,
-that have adapted during millions of years to do basically one thing:
+Meanwhile Mother Nature has created these wonderful machines
+that have evolved during millions of years to become better at basically one thing:
 convert CO₂ to carbon in their trunks.
 In the process they also generate sugars, create seeds and deter hungry animals,
 but these are secondary interests.
-
-Another very interesting possibility is using algae,
-which are more efficient because they already have all the water necessary in their surroundings.
-These techniques are very likely more difficult to implement than just planting trees,
-and can have other side effects.
 
 Just how many trees can we realistically plant in the world?
 Many areas are already covered in forests; others are deserts.
@@ -135,20 +130,29 @@ tons of CO2 and tons of carbon.
 [Trillion trees](https://www.plant-for-the-planet.org/trillion-trees/).
 [World Economic Forum](https://www.weforum.org/agenda/2020/01/one-trillion-trees-world-economic-forum-launches-plan-to-help-nature-and-the-climate/).
 
+Another very interesting possibility is using algae,
+which are more efficient because they already have all the water necessary in their surroundings.
+These techniques are very likely more difficult to implement than just planting trees,
+and can have other side effects.
+So we will focus on trees.
 
 ### ⚡ Efficiency
 
-We will divide the problem into three:
-total excess carbon in the atmosphere `T(C)`,
-mass of carbon per tree `m(C)`,
-and number of trees `n(trees)`.
-Our problem will be solved when:
+We will divide the problem into three simpler steps:
+find out total excess carbon in the atmosphere `T(C)`,
+how much carbon each tree can absorb `m(C)`,
+and the number of trees `n(trees)`.
+Our problem will be solved when we plant enough trees to absorb all of the excess carbon in our atmosphere,
+in equations:
 
     T(C) = m(C) × n(trees),
 
-or:
+or solving for number of trees:
 
     n(trees) = T(C) / m(C).
+
+That's it!
+Problem solved, Earth saved.
 
 #### 🛢️ Total Excess Carbon
 
@@ -189,6 +193,9 @@ this gives us a volume of:
 
     V ≈ π × 0.25 × 0.25 × 4 m³ ≈ 0.75 m³.
 
+![A simplified tree. Source: the author](pics/climate-change-tree.png "A cylindrical trunk with a cross-section given by its radius, below a canopy of branches and leaves, and in the ground some roots.")
+
+How much does the tree weigh?
 Wood has a density similar to water (some woods float, others don't),
 which is 1 kg per liter (a cube with sides of 10 cm), so our average tree trunk will weigh:
 
@@ -199,7 +206,7 @@ we can estimate that the trunk is just half the total weight,
 which is probably
 [not that far off](https://www.researchgate.net/figure/Proportion-of-the-tree-biomass-from-the-trunk-the-branch-the-leaf-and-the-root-in_fig12_299376027).
 
-Therefore we will have twice as much mass in the whole tree.
+Therefore we will have twice as much mass in the whole tree as in the trunk.
 But only around
 [half of the tree](https://web.extension.illinois.edu/askextension/thisQuestion.cfm?ThreadID=19549&catID=192&AskSiteID=87)
 will be carbon,
@@ -226,27 +233,32 @@ We will just do our own Fermi estimation.
 Let's take first Spain as an example.
 With a [total area](https://en.wikipedia.org/wiki/Spain)
 of roughly half a million square kilometers
-it has a good forest cover of around 30%;
-another 30% is arable lands;
-the rest is mountains, cities, roads and arid lands.
+it has a good forest cover of
+[over 30%](https://rainforests.mongabay.com/deforestation/2000/Spain.htm);
+another ~30% is [arable lands](https://prepsoil.eu/soil-threats-in-eu/agricultural-land-in-spain);
+the rest is pastures, mountains, cities, roads and arid lands.
 
 Let us suppose we can cover this 30% with trees every 10 meters.
-(A bit dense but not uncommon.)
+(A bit [dense but not uncommon](https://hort.ifas.ufl.edu/woody/spacing.shtml).)
+After all, according to legend [Strabo wrote](https://earth.org/deforestation-in-spain/)
+that a squirrel could cross Spain from Gibraltar to the Pyrennes without touching the ground.
 A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer.
 The total for Spain would be:
 
     n(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.
 
-So a little over a billion trees.
-The world has around
-[150 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf)
+We could plant a little over a billion trees.
+
+Now let us replicate our reforestation project to the whole world.
+Land area is around
+[150 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf);
 of land area;
-if we can replicate our reforestation project in the whole world we would get:
+using the same proportion we would get:
 
     n(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
 
 Almost exactly our half a trillion trees!
-So very roughly our project should be feasible.
+Very roughly our project should be feasible.
 
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 has a number of projects related to forests,
@@ -417,7 +429,9 @@ Let's estimate it!
 
 ### ⚡ Efficiency
 
-Let us replicate the computations on the paper.
+We will try to replicate the computations on the paper
+with our Fermi estimation,
+and then check out how we did.
 
 As before, we will divide the problem into simpler parts:
 the number of screens `n(screens)` and
@@ -461,7 +475,7 @@ Easy to calculate remembering that we only block half the sunlight:
 
     p(total) = ½ 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.
 
-So a bit under 1%; let's go with that.
+Therefore a bit under 1%; let's go with that.
 
 #### 🥶 Expected Cooling
 
@@ -469,7 +483,10 @@ Luckily, we already did the computations above!
 We can expect a 3 degree (Celsius or Kelvin)
 reduction in temperature for every 1% of sunlight we block.
 
-So our estimation is that we can lower the temperature of Earth by 3 degrees with our little project.
+Our estimation is that we can lower the temperature of Earth by 3 degrees with our little project.
+Angel comes up with a figure of a 1.8% reduction in solar flux,
+and cites a reduction of 1.88 K in temperature.
+So we were well within our order of magnitude!
 
 ### ☄️ Sending Stuff Up There
 
