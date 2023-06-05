@@ -118,7 +118,7 @@ say that a trillion (10^12) trees are feasible.
 Note: throughout the article I'm using US billions (10^9, or a thousand millions)
 and trillions (10^12, or a million millions).
 
-![What a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 9 km, made of wood.")
+![Spoiler alert: what a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 9 km, made of wood. But we are getting ahead of ourselves.")
 
 The publications
 [CNN](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
@@ -276,6 +276,8 @@ But not all is lost!
 According to the [Copernicus project](https://land.copernicus.eu/global/sites/cgls.vito.be/files/use-cases/CGLOPS_UC_AgrestaSCoop_I1.00.pdf),
 Spanish forests store around 2.5 gigatons of carbon;
 four times more below the ground than in the trees themselves.
+
+![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart.](pics/climate-change-urban.png "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 Now let us replicate our reforestation project to the whole world.
 Land area is around
