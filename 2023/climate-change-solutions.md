@@ -274,15 +274,14 @@ in 36% of the surface;
 it seems ambitious to store 1 gigaton in the remaining 30%.
 But not all is lost!
 According to the [Copernicus project](https://land.copernicus.eu/global/sites/cgls.vito.be/files/use-cases/CGLOPS_UC_AgrestaSCoop_I1.00.pdf),
-Spanish forests store around 2.5 gigatons of carbon;
+Spanish forests store overall around 2.5 gigatons of carbon;
 four times more below the ground than in the trees themselves.
 
 ![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 Now let us replicate our reforestation project to the whole world.
-Land area is around
+Total land area is around
 [150 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf);
-of land area;
 using the same proportion we would get:
 
     N(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
@@ -290,12 +289,10 @@ using the same proportion we would get:
 Almost exactly our half a trillion trees!
 Very roughly our project should be feasible.
 
-As we saw above, each tree would have a volume of around 1.5 m³.
+As we saw above, each tree trunks would have a volume of around 1.5 m³.
 All these trees would make up a cube with sides of approximately 9 km:
 
-    V(world) = N(world) * V(tree) ≈ 0.5 × 10^12 * 1.5 m³ = 0.75 * 10^12 m³.
-
-    side(world) ≈ ³√(0.75 * 10^12 m³) ≈ 9 km.
+    V(world) = N(world) * V(tree) ≈ 0.5 × 10^12 * 1.5 m³ = 0.75 * 10^12 m³ ≈ (9 km)³.
 
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 has a number of projects related to forests,
