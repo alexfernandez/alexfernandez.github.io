@@ -345,11 +345,11 @@ We don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
 
+![Our cities are about to get shiny, baby. [Source](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
+
 Getting an international agreement for roof mirrors would probably not be easy.
 
 ### ⚡ Efficiency
-
-![Our cities are about to get shiny, baby. [Source](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
 Let us estimate how much would roof mirrors affect the Earth's temperature.
 Again, we divide the problem into simpler estimations:
