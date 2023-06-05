@@ -115,11 +115,10 @@ even as vertical gardens in buildings.
 Some studies (e.g.
 [this one]())
 say that a trillion (10^12) trees are feasible.
-
-![What a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 8 km, made of wood.")
-
 Note: throughout the article I'm using US billions (10^9, or a thousand millions)
 and trillions (10^12, or a million millions).
+
+![What a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 9 km, made of wood.")
 
 The publications
 [CNN](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
