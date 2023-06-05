@@ -541,11 +541,34 @@ Now we come to the most interesting part:
 how can we send a 100 square kilometer shade up in the sky?
 The answer is: space cannon.
 
-Luckily we already explored [how to build a space launcher](/2018/building-space-launcher)
+Luckily we have already explored [how to build a space launcher](/2018/building-space-launcher)
 a few years ago,
 so we only need to go over the basics.
 
-Angel wants to build 
+Angel wants to build a 2 km space launcher
+(also called space cannon or Gauss gun in the literature).
+I think this is too ambitious;
+my own design is 28 km long.
+But he probably knows better;
+if we can accelerate above 150g,
+and if the material of the armature can support the magnetic pressure,
+then a shorter design will of course be cheaper and more feasible.
+The concept is cool anyway:
+a big gun launching satellites to space!
+
+![Like this, but weighing one gram and being an autonomous spacecraft. [Source](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.png "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
+
+There is also the small issue of manufacturing the small sun screens themselves,
+or "flyers" as Angel calls them.
+He concedes that there are big engineering challenges in the building of a 1 gram,
+1 square meter space flyer that is an autonomous spacecraft and can be controlled from a bigger space station.
+But if the health of our planet is at stake,
+we should definitely face them!
+Also, this is how engineering moves ahead:
+by tackling big challenges.
+After all, who would have thought 20 years ago that by 2023
+we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point
+that can view infrared light from the earliest galaxies?
 
 ## Fake Solutions
 
