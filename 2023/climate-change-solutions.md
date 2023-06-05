@@ -125,7 +125,7 @@ The publications
 [decade](https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html)
 when in reality it could wipe out all the excess carbon.
 I suspect that the difference stems from the confusion between
-tons of CO2 and tons of carbon.
+tons of CO₂ and tons of carbon.
 
 [Trillion trees](https://trilliontrees.org/).
 [Trillion trees](https://www.plant-for-the-planet.org/trillion-trees/).
@@ -297,7 +297,7 @@ All these trees would make up a cube with sides of approximately 9 km:
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 has a number of projects related to forests,
 [tree plantations](https://drawdown.org/solutions/tree-plantations-on-degraded-land)
-accounting for 22 gigatons of CO2.
+accounting for 22 gigatons of CO₂.
 
 ### 💊 Side Effects
 
@@ -598,9 +598,15 @@ so we really need to act now.
 A concerted effort by every government in the planet will be necessary.
 I sincerely hope that we spring to action before the situation is too severe.
 
-I believe that we should _immediately_ switch to low-carbon energy sources:
-start building nuclear power stations right away,
-electrify transport urgently and switch to low-emissions construction techniques.
+I strongly believe that we should _immediately_:
+* switch to low-carbon energy sources,
+* start building nuclear power stations right away,
+* electrify transport urgently and switch to low-emissions construction techniques,
+* use the list of
+[CO₂ emissions per capita](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita)
+as a hall of shame,
+* raise sactions against the worst polluters.
+
 In short, treat it as the worldwide emergency that it is now,
 and as the impending catastrophe that we may have upon us in a few decades.
 
