@@ -328,7 +328,7 @@ Perhaps the world would start using more for construction,
 [like in the US](https://www.thehousedesigners.com/articles/how-many-trees-does-it-take-to-build-a-house.asp).
 For sure as noble material.
 
-## 🪩🪞 Mirror Roofs
+## 🪩 Mirror Roofs
 
 Our second solution involves a little bit of creativity.
 Since the Earth is heated mainly by the Sun,
