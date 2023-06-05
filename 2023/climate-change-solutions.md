@@ -277,7 +277,7 @@ According to the [Copernicus project](https://land.copernicus.eu/global/sites/cg
 Spanish forests store around 2.5 gigatons of carbon;
 four times more below the ground than in the trees themselves.
 
-![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart.](pics/climate-change-urban.png "Some large platanus (plane-tree) trees lining a street in Madrid.")
+![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 Now let us replicate our reforestation project to the whole world.
 Land area is around
