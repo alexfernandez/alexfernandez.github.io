@@ -556,7 +556,7 @@ then a shorter design will of course be cheaper and more feasible.
 The concept is cool anyway:
 a big gun launching satellites to space!
 
-![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.png "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
+![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
 
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
