@@ -277,7 +277,7 @@ According to the [Copernicus project](https://land.copernicus.eu/global/sites/cg
 Spanish forests store overall around 2.5 gigatons of carbon;
 four times more below the ground than in the trees themselves.
 
-![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
+![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart. Source: the author.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 Now let us replicate our reforestation project to the whole world.
 Total land area is around
@@ -348,6 +348,8 @@ is a good mirror for infrared light.
 Getting an international agreement for roof mirrors would probably not be easy.
 
 ### ⚡ Efficiency
+
+![Our cities are about to get shiny, baby. [Source](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
 Let us estimate how much would roof mirrors affect the Earth's temperature.
 Again, we divide the problem into simpler estimations:
