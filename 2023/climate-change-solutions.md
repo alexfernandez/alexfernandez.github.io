@@ -258,6 +258,9 @@ Let us suppose we can cover this 30% with trees every 10 meters.
 After all, according to legend [Strabo wrote](https://earth.org/deforestation-in-spain/)
 that a squirrel could cross Spain from Gibraltar to the Pyrennes without touching the ground.
 A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer.
+
+![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart. Source: the author.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
+
 The total for Spain would be:
 
     N(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.
@@ -276,8 +279,6 @@ But not all is lost!
 According to the [Copernicus project](https://land.copernicus.eu/global/sites/cgls.vito.be/files/use-cases/CGLOPS_UC_AgrestaSCoop_I1.00.pdf),
 Spanish forests store overall around 2.5 gigatons of carbon;
 four times more below the ground than in the trees themselves.
-
-![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart. Source: the author.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 Now let us replicate our reforestation project to the whole world.
 Total land area is around
