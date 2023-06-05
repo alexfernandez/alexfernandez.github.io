@@ -428,13 +428,6 @@ Not a lot.
 So this little project is perhaps not worth the hassle,
 at least globally.
 
-Can we do better?
-How about lining the Sahara with mirrors?
-What about other deserts?
-Maintenance would be horrible!
-
-But what we can do is install reflective roofs on crops that are sensitive to heat.
-
 ### 💊 Side Effects
 
 The nice part of this project is that infrared mirrors on roofs
@@ -444,6 +437,27 @@ The same is true for [windows](https://www.sciencedaily.com/releases/2016/08/160
 by the way.
 Whole cities might also be cooler this way.
 Even for cold countries this effect would be welcome in summer.
+
+Can we do better?
+How about lining the Sahara with mirrors?
+What about other deserts?
+Maintenance would be horrible!
+But what we can do is install reflective roofs on crops that are sensitive to heat.
+
+There have been recent trials of combining
+[solar panels with agriculture farms](https://www.fastcompany.com/90861486/agrivoltaics-crops-under-solar-panels-good-for-panels),
+with excellent results.
+[Crop yields are improved](https://www.wired.com/story/growing-crops-under-solar-panels-now-theres-a-bright-idea/)
+by the combination.
+We can also combine
+[solar panels with mirrors](https://theconversation.com/can-mirrors-boost-solar-panel-output-and-help-overcome-trumps-tariffs-90663)
+which increase their efficiency,
+plus also reflect unused sunlight back to space.
+Combined with agriculture farms they might cover vast expanses of land,
+not just the puny 0.18% of the surface of the planet that we could muster only with buildings.
+Imagine 3% of the world surface devoted to crops + solar power,
+reflecting any excess heat back to space.
+Now that would be a game changer!
 
 ## 🛰️ Space Screens
 
@@ -570,19 +584,46 @@ After all, who would have thought 20 years ago that by 2023
 we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point
 that can view infrared light from the earliest galaxies?
 
-## Fake Solutions
-
 ## My Contribution
 
-What am I intending to do?
-
-## 🤔 Conclusion
+What do I intend to do?
+For starters, stop paying attention to those "carbon capture" supposedly high-tech projects,
+which I think are just lame attempts at fixing our problems with technology,
+when better solutions are right there in front of us.
+I may of course be wrong.
 
 It is possible to fix our climate, but it will not be easy.
 The problem is getting bigger every year,
 so we really need to act now.
 A concerted effort by every government in the planet will be necessary.
 I sincerely hope that we spring to action before the situation is too severe.
+
+I believe that we should _immediately_ switch to low-carbon energy sources:
+start building nuclear power stations right away,
+electrify transport urgently and switch to low-emissions construction techniques.
+In short, treat it as the worldwide emergency that it is now,
+and as the impending catastrophe that we may have upon us in a few decades.
+
+But first we need to convince everyone in the planet of the danger.
+In this regard, the quick changes in climate that we are witnessing right now can be a mixed blessing,
+as they are opening the eyes of many climate denialists.
+Making everyone participate of the challenges involved in turning the tide
+can perhaps help the general population to understand the huge efforts involved.
+The reversal of so many decades of reckless carbonization will involve sacrifices for everyone on the planet;
+probably changing our way of life, perhaps sacrifice some sacred cows.
+We need to be ready.
+
+## 🤔 Conclusion
+
+Climate change is upon us;
+every year we are breaking temperature records,
+and previously cool areas are becoming unbearable in summer.
+Taking carbon out of the atmosphere will help alleviate the most severe effects.
+We can start doing it right now,
+with low tech projects such as planting trees everywhere.
+
+We can also get creative,
+like with mirror rooftop installations.
 
 ### 🙏 Acknowledgements
 
