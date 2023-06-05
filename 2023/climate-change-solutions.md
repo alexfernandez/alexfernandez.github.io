@@ -116,6 +116,8 @@ Some studies (e.g.
 [this one]())
 say that a trillion (10^12) trees are feasible.
 
+![What a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 8 km, made of wood.")
+
 Note: throughout the article I'm using US billions (10^9, or a thousand millions)
 and trillions (10^12, or a million millions).
 
@@ -141,15 +143,15 @@ So we will focus on trees.
 We will divide the problem into three simpler steps:
 find out total excess carbon in the atmosphere `T(C)`,
 how much carbon each tree can absorb `m(C)`,
-and the number of trees `n(trees)`.
+and the number of trees `N(trees)`.
 Our problem will be solved when we plant enough trees to absorb all of the excess carbon in our atmosphere,
 in equations:
 
-    T(C) = m(C) × n(trees),
+    T(C) = m(C) × N(trees),
 
 or solving for number of trees:
 
-    n(trees) = T(C) / m(C).
+    N(trees) = T(C) / m(C).
 
 That's it!
 Problem solved, Earth saved.
@@ -195,7 +197,7 @@ this gives us a volume of:
 
 ![A simplified tree. Source: the author](pics/climate-change-tree.png "A cylindrical trunk with a cross-section given by its radius, below a canopy of branches and leaves, and in the ground some roots.")
 
-How much does the tree weigh?
+How much does each tree weigh?
 Wood has a density similar to water (some woods float, others don't),
 which is 1 kg per liter (a cube with sides of 10 cm), so our average tree trunk will weigh:
 
@@ -206,7 +208,8 @@ we can estimate that the trunk is just half the total weight,
 which is probably
 [not that far off](https://www.researchgate.net/figure/Proportion-of-the-tree-biomass-from-the-trunk-the-branch-the-leaf-and-the-root-in_fig12_299376027).
 
-Therefore we will have twice as much mass in the whole tree as in the trunk.
+Therefore we will have twice as much mass in the whole tree as in the trunk:
+around 1.5 metric tons.
 But only around
 [half of the tree](https://web.extension.illinois.edu/askextension/thisQuestion.cfm?ThreadID=19549&catID=192&AskSiteID=87)
 will be carbon,
@@ -235,7 +238,7 @@ Finally, can we plant enough trees?
 As we saw at the beginning,
 to remove all excess carbon from the atmosphere we need a grand total of:
 
-    n(trees) = T(C) / m(C) ≈ 0.4 × 10^18 g / 0.75 × 10^6 g ≈ 0.5 × 10^12.
+    N(trees) = T(C) / m(C) ≈ 0.4 × 10^18 g / 0.75 × 10^6 g ≈ 0.5 × 10^12.
 
 Or around half a trillion trees.
 Is this possible at all?
@@ -258,12 +261,12 @@ that a squirrel could cross Spain from Gibraltar to the Pyrennes without touchin
 A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer.
 The total for Spain would be:
 
-    n(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.
+    N(Spain) = 30% × A(Spain) × n(km²) ≈ 30% × 500000 × 10000 ≈ 1.5 × 10^9.
 
 We could plant a little over a billion trees.
 How much carbon is that?
 
-    T(Spain) = n(Spain) * m(Spain) ≈ 1.5 * 10^9 * 0.75 mt,
+    T(Spain) = N(Spain) * m(Spain) ≈ 1.5 * 10^9 * 0.75 mt,
 
 equivalent to around 1 gigaton of carbon.
 Again, let us check with official sources if our estimations are off the mark.
@@ -281,10 +284,17 @@ Land area is around
 of land area;
 using the same proportion we would get:
 
-    n(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
+    N(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
 
 Almost exactly our half a trillion trees!
 Very roughly our project should be feasible.
+
+As we saw above, each tree would have a volume of around 1.5 m³.
+All these trees would make up a cube with sides of approximately 9 km:
+
+    V(world) = N(world) * V(tree) ≈ 0.5 × 10^12 * 1.5 m³ = 0.75 * 10^12 m³.
+
+    side(world) ≈ ³√(0.75 * 10^12 m³) ≈ 9 km.
 
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 has a number of projects related to forests,
@@ -308,11 +318,17 @@ Also, what do we do with all that carbon once it is stored in trees?
 If we just leave it there then there is a limit to the carbon taken from the atmosphere;
 and it might burn at some point getting us back to the starting point.
 One possible extension of the program might be to mow down trees from time to time and dispose of them,
-for example by burying them or throwing them into the sea;
-maybe even convert them into furniture and store them in our homes!
+for example by burying them or throwing them into the sea.
+It might be a challenge to find trenches deep enough to bury a cube of 9 km in diameter though.
+
+Maybe we can even convert them into furniture and store them in our homes!
 With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
 storing half a metric ton of carbon per house would clear around one gigaton of carbon.
 Not much, but every bit helps.
+What would happen with really cheap wood?
+Perhaps the world would start using more for construction,
+[like in the US](https://www.thehousedesigners.com/articles/how-many-trees-does-it-take-to-build-a-house.asp).
+For sure as noble material.
 
 ## 🪩🪞 Mirror Roofs
 
