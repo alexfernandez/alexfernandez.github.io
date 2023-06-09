@@ -14,9 +14,14 @@ But you don't need high tech:
 in fact it can be verified by any people with
 [thermometers and old notebooks](https://en.wikipedia.org/wiki/Instrumental_temperature_record).
 
+What can we do about it, and should we do anything?
+It is too easy to be afraid by the possible consequences and be paralized.
+But there are solutions that can be implemented with more or less cost and side effects.
+Public perception is always the first step to solving public problems.
+We will analyze a few possibilities that can help with the worst part of the incoming crisis.
+
 # 🌡️ Is It Real?
 
-What can we do about it, and should we do anything?
 First we would have to agree on the causes,
 and as you may know there is a huge debate in our polarized society.
 Not in scientific circles though.
