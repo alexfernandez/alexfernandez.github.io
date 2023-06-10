@@ -10,15 +10,15 @@ image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 
 The world is overheating.
 This is not opinion, this is a fact that can be measured by satellites.
-But you don't need high tech:
-in fact it can be verified by any people with
+You don't even need high tech:
+it can be verified by anyone with
 [thermometers and old notebooks](https://en.wikipedia.org/wiki/Instrumental_temperature_record).
 
 What can we do about it, and should we do anything?
-It is too easy to be afraid by the possible consequences and be paralized.
-But there are solutions that can be implemented with more or less cost and side effects.
+It is too easy to be paralized by the possible consequences and just leave the responsibility to someone else.
+But there are solutions that can be implemented in the next decades.
 Public perception is always the first step to solving public problems.
-We will analyze here a few possibilities that can help with the worst part of the incoming crisis.
+We will analyze here a few options that can help mitigate or even reverse the worst part of the incoming crisis.
 
 # 🌡️ Is It Real?
 
