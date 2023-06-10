@@ -74,10 +74,11 @@ and also if they have any side effects.
 
 To gauge the impact of each solution we will use a method attributed to Enrico Fermi:
 [Fermi estimation](https://what-if.xkcd.com/84/).
-The great physicist said that he could estimate any physical problem in a napkin by a factor of one order of magnitude,
+The great physicist said that he could estimate any physical problem on a napkin by a factor of one order of magnitude,
 that is: his answer would not be exact but should be between 10 times and one tenth of the correct solution.
-It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper
-as it detonated and measuring their displacement in the air.
+This gross approximation is very useful as a first approach to any problem.
+It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper as it detonated,
+and measuring their displacement in the air.
 
 The method as we will apply it is simply to take an approximate estimation for each value,
 within an order of magnitude (between 10 times and 1/10th),
