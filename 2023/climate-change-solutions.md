@@ -47,7 +47,7 @@ the trend could not be more worrying.
 ![Atmospheric CO₂ has been rising steadily since before 1960; the rate is accelerating. [Source: Mauna Loa Observatory](https://gml.noaa.gov/obop/mlo/programs/esrl/co2/co2.html).](pics/climate-change-dioxide.gif "Data from the Mauna Loa Observatory: concentration in parts per million was ~310 in 1960, ~340 in 1985 and ~380 in 2010.")
 
 It is highly likely that lowering CO₂ would help alleviate global warming
-and other effects of climate change.
+and other nasty effects of climate change.
 So let us see if we humans can do something about it
 using some engineering and a great deal of ingenuity.
 
