@@ -240,7 +240,7 @@ there are [seven billion trees](https://www.uab.cat/web/newsroom/news-detail/spa
 which together store [422 million metric tons of carbon](https://rainforests.mongabay.com/deforestation/2000/Spain.htm);
 each tree will hold
 
-    m(C)' = 422 * 10^6 mt / 7 * 10^9 = 0.060.
+    m(C)' = 422 × 10^6 mt / 7 × 10^9 = 0.060.
 
 Around 60 kg per tree, below an order of magnitude.
 Keep in mind that every tree above 75 mm of diameter is counted in the above inventory,
@@ -284,7 +284,7 @@ The total for Spain would be:
 We could plant a little over a billion trees.
 How much carbon is that?
 
-    T(Spain) = N(Spain) * m(Spain) ≈ 1.5 * 10^9 * 0.75 mt,
+    T(Spain) = N(Spain) × m(Spain) ≈ 1.5 × 10^9 × 0.75 mt,
 
 equivalent to around 1 gigaton of carbon.
 Again, let us check with official sources if our estimations are off the mark.
@@ -309,7 +309,7 @@ Very roughly our project should be feasible.
 As we saw above, each tree trunks would have a volume of around 1.5 m³.
 All these trees would make up a cube with sides of approximately 9 km:
 
-    V(world) = N(world) * V(tree) ≈ 0.5 × 10^12 * 1.5 m³ = 0.75 * 10^12 m³ ≈ (9 km)³.
+    V(world) = N(world) × V(tree) ≈ 0.5 × 10^12 × 1.5 m³ = 0.75 × 10^12 m³ ≈ (9 km)³.
 
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 has a number of projects related to forests,
@@ -406,7 +406,7 @@ But what really interests us is the % of total surface.
 Converting to square kilometers:
 
     1 km² = 1000000 m²,
-    A(buildings) ≈ 700 * 10^9 m² * 1 km² / 10^6 m² = 700 000 km².
+    A(buildings) ≈ 700 × 10^9 m² × 1 km² / 10^6 m² = 700 000 km².
 
 Given that the Earth has
 [500 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf)
@@ -420,7 +420,7 @@ We have to turn to other sources:
 perhaps consider all human-made structures.
 Add roads and other pavimented surfaces and we can perhaps push it a bit further.
 
-    p(mirror ≈ 0.2%.
+    p(mirror) ≈ 0.2%.
 
 Let us check this estimate with independent data.
 According to NASA urban regions cover
@@ -431,7 +431,7 @@ artificial surfaces cover 0.6% of the land surface.
 For the total surface we have to multiply by the proportion of land surface,
 or 150 / 500 million square km:
 
-    p(artificial) ≈ 0.6% * A(land) / A(Earth) ≈ 0.6% * 150 / 500 ≈ 0.18%.
+    p(artificial) ≈ 0.6% × A(land) / A(Earth) ≈ 0.6% × 150 / 500 ≈ 0.18%.
 
 Our prediction of 0.2% was not bad at all!
 
@@ -455,7 +455,7 @@ and it is linear:
 reducing sun heat by 1% would cool the Earth by 3 K (or 3 C).
 So knowing our proportion of mirrors from before:
 
-    ΔT(mirror) = T(Earth) * p(mirror) ≈ 300 K * 0.2% = 0.6 K.
+    ΔT(mirror) = T(Earth) × p(mirror) ≈ 300 K × 0.2% = 0.6 K.
 
 If we reflect 0.2% of the heat we might decrease the temperature by around half a degree.
 Not a lot.
@@ -494,9 +494,9 @@ reflecting any excess heat back to space.
 
 Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
 
-    p(crops+solar) = 1/3 * 5% * A(land) / A(Earth) ≈ 1/3 * 5% * 150/500 ≈ 0.5%
+    p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,
 
-    ΔT(crops+solar) = 1/3 * T(Earth) * p(crops+solar) ≈ 300 K * 0.5% = 1.5 K.
+    ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
 
 Now 1.5 degrees are a significant cooling.
 So our little mirror project could become a real game changer!
@@ -543,13 +543,13 @@ the number of screens `n(screens)` and
 the area of each screen `A(screen)`
 will combine to the total area of sunlight blocked `A(total)`:
 
-    A(total) = n(screens) * A(screens).
+    A(total) = n(screens) × A(screens).
 
 If we consider that sun rays are basically parallel at the L1 point,
 the proportion of sunlight blocked `p(total)` will be a constant factor `p(screen)`
 multiplied by the proportion of area covered by the screens:
 
-    p(total) = p(screen) * A(total) / A(Earth).
+    p(total) = p(screen) × A(total) / A(Earth).
 
 Finally we estimate the temperature difference by the same method of above:
 
@@ -568,7 +568,7 @@ The proportion of sunlight blocked will be equal to half area of the screens div
 `r(Earth)`.
 In equations:
 
-    p(total) = ½ * A(total) / [π * r(Earth)^2].
+    p(total) = ½ × A(total) / [π × r(Earth)^2].
 
 Finally we will compute the expected cooling as we did above.
 
@@ -577,11 +577,11 @@ Finally we will compute the expected cooling as we did above.
 The article specifies 16 trillion flying space robots,
 each with an area of 1 square meter:
 
-    A(total) = n(screens) * A(screen) ≈ 16 * 10^12 * 1 m² = 16 * 10^6 km².
+    A(total) = n(screens) × A(screen) ≈ 16 × 10^12 × 1 m² = 16 × 10^6 km².
 
 The disc of the Earth is:
 
-    A(Earth) = π * R(Earth)^2 ≈ π * (6300 km)^2 ≈ 100 * 10^6 km².
+    A(Earth) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².
 
 So approximately 100 million square kilometers.
 (Why is it different from the 500 million square kilometers we had before?
@@ -591,7 +591,7 @@ now we want the area of the section of the globe, substantially smaller.)
 What proportion of the sunlight coming to the Earth are we blocking?
 Easy to calculate remembering that we only block half the sunlight:
 
-    p(total) = ½ * 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.
+    p(total) = ½ × 16 × 10^6 km² / [100 × 10^6 km²] = 0.8%.
 
 Therefore a bit under 1%; let's go with that.
 
