@@ -188,6 +188,9 @@ the total portion of carbon is thus 12/(12+16+16) ≈ 27%:
     T(C) ≈ 0.27 × 1.6 × 10^18 g ≈ 0.4 × 10^18 g.
 
 So a little bit under half a million million million grams.
+The official name is "half an exagram",
+although we can call it more familiarly "half a teraton",
+which has more punch.
 Some part of that has by now been absorbed by the oceans and other natural processes,
 but most of it remains there.
 Good! We are getting there.
@@ -322,18 +325,30 @@ But this is a
 Also, what do we do with all that carbon once it is stored in trees?
 If we just leave it there then there is a limit to the carbon taken from the atmosphere;
 and it might burn at some point getting us back to the starting point.
+What can we do with a cube of side 9 km?
 One possible extension of the program might be to mow down trees from time to time and dispose of them,
 for example by burying them or throwing them into the sea.
-It might be a challenge to find trenches deep enough to bury a cube of 9 km in diameter though.
+It might be a challenge to find trenches deep enough to bury so much wood though.
+
+The [Mariana Trench](https://en.wikipedia.org/wiki/Mariana_Trench)
+is 11 km deep,
+so maybe we can dump a teraton of wood down there?
+To be fair it would not be nice to the existing ecosystems;
+there are bacteria and even fascinating
+[giant amoeba](https://www.latimes.com/archives/blogs/nation-now/story/2011-10-26/giant-amoeba-found-in-mariana-trench-6-6-miles-beneath-the-sea)
+10 cm big.
+But we are trying to prevent a giant ecological catastrophe here,
+so all things considered it may be worth it.
+The trench is about 2550 km long so not everything needs to go into the deepest point.
 
 Maybe we can even convert them into furniture and store them in our homes!
 With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
 storing half a metric ton of carbon per house would clear around one gigaton of carbon.
 Not much, but every bit helps.
-What would happen with really cheap wood?
+There are many things that we can do with cheap wood.
 Perhaps the world would start using more for construction,
 [like in the US](https://www.thehousedesigners.com/articles/how-many-trees-does-it-take-to-build-a-house.asp).
-For sure as noble material.
+I'm sure I'm not alone in wanting to have more things built of this noble material.
 
 ## 🪩 Mirror Roofs
 
