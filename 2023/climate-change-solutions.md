@@ -494,8 +494,10 @@ reflecting any excess heat back to space.
 
 Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
 
-    p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,
-    ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
+```
+p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,
+ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
+```
 
 Now 1.5 degrees are a significant cooling.
 So our little mirror project could become a real game changer!
