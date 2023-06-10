@@ -76,9 +76,15 @@ To gauge the impact of each solution we will use a method attributed to Enrico F
 [Fermi estimation](https://what-if.xkcd.com/84/).
 The great physicist said that he could estimate any physical problem on a napkin by a factor of one order of magnitude,
 that is: his answer would not be exact but should be between 10 times and one tenth of the correct solution.
-This gross approximation is very useful as a first approach to any problem.
+This gross approximation may not seem very useful,
+but as a first approach to any problem it can save a lot of effort.
 It is legendary his measurement of the energy of the first atomic bomb by dropping pieces of paper as it detonated,
 and measuring their displacement in the air.
+(He predicted 10 kilotons,
+the actual yield was
+[21 kilotons](https://www.lanl.gov/orgs/padwp/pdfs/11nwj2-05.pdf).)
+
+![Using Fermi estimation this would be also my vital stats. [Source: xkcd.com](https://what-if.xkcd.com/84/).](pics/climate-change-fermi.png "A stick figure with the legend 'Facts about me - age: 10, height: 10 feet,  number of arms: 1, number of legs: 1, total number of limbs: 10, average driving speed: 100 mph'.")
 
 The method as we will apply it is simply to take an approximate estimation for each value,
 within an order of magnitude (between 10 times and 1/10th),
