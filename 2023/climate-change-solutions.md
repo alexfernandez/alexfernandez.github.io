@@ -18,7 +18,7 @@ What can we do about it, and should we do anything?
 It is too easy to be afraid by the possible consequences and be paralized.
 But there are solutions that can be implemented with more or less cost and side effects.
 Public perception is always the first step to solving public problems.
-We will analyze a few possibilities that can help with the worst part of the incoming crisis.
+We will analyze here a few possibilities that can help with the worst part of the incoming crisis.
 
 # 🌡️ Is It Real?
 
@@ -27,7 +27,7 @@ and as you may know there is a huge debate in our polarized society.
 Not in scientific circles though.
 Some 35 years ago I read
 [Asimov's Guide to Science](https://en.wikipedia.org/wiki/The_Intelligent_Man%27s_Guide_to_Science)
-by the great Isaac Asimov, probably the 1972 or 1984 Spanish editions.
+by the great Isaac Asimov, probably the 1972 or 1984 Spanish edition.
 When describing the Earth's atmosphere he had these words:
 
 > Carbon dioxide absorbs infrared radiation rather strongly. This means that when there are appreciable amounts of it in the atmosphere, it tends to block the escape of heat at night from the sun-warmed earth. The result is that heat accumulates. On the other hand, when the carbon dioxide content of the atmosphere falls, the earth steadily cools.
@@ -36,8 +36,9 @@ When describing the Earth's atmosphere he had these words:
 
 > Whatever the cause of the ice ages may have been, it seems now that man himself may be changing the climate in store for the future. The American physicist Gilbert N. Plass has suggested that we may be seeing the last of the ice ages, because the furnaces of civilization are loading the atmosphere with carbon dioxide. A hundred million chimneys are ceaselessly pouring carbon dioxide into the air; the total amount is about six billion tons a year 200 times the quantity coming from volcanoes. Plass pointed out that since 1900 the carbon dioxide content of our atmosphere has increased about 10 per cent. This addition to the earth’s “greenhouse” shield against the escape of heat, he calculated, should raise the average temperature by about 1.1 degrees C. per century. During the first half of the twentieth century the average temperature has indeed risen at this rate [...]
 
-I am quoting from the [1960 edition](https://archive.org/details/intelligentmansg0000unse/page/120/mode/2up),
-so human-caused global warming is not a new theory invented by George Soros;
+These quotes come straight from the [1960 edition](https://archive.org/details/intelligentmansg0000unse/page/120/mode/2up),
+and in later editions they are very similar.
+Human-caused global warming is not a new theory invented by George Soros;
 it is just a trivial extrapolation.
 If we look at the concentration of carbon dioxide in the atmosphere as measured in the Mauna Loa observatory,
 far from all sources of industrial contamination,
