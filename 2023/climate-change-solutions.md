@@ -25,7 +25,7 @@ We will analyze here a few options that can help mitigate or even reverse the wo
 First we would have to agree on the causes,
 and as you may know there is a huge debate in our polarized society.
 Not in scientific circles though.
-Some 35 years ago I read
+More than 35 years ago I read
 [Asimov's Guide to Science](https://en.wikipedia.org/wiki/The_Intelligent_Man%27s_Guide_to_Science)
 by the great Isaac Asimov, probably the 1972 or 1984 Spanish edition.
 When describing the Earth's atmosphere he had these words:
