@@ -301,7 +301,7 @@ Total land area is around
 [150 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf);
 using the same proportion we would get:
 
-    N(world) = 30% × A(world) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
+    N(world) = 30% × A(land) × n(km²) ≈ 30% × 150 × 10^6 × 10^4 ≈ 0.45 × 10^12.
 
 Almost exactly our half a trillion trees!
 Very roughly our project should be feasible.
@@ -418,7 +418,9 @@ we have at our disposal well below 1% of the total surface of the planet.
 This doesn't seem enough.
 We have to turn to other sources:
 perhaps consider all human-made structures.
-Add roads and other pavimented surfaces and we can perhaps push it to 0.20%.
+Add roads and other pavimented surfaces and we can perhaps push it a bit further.
+
+    p(mirror ≈ 0.2%.
 
 Let us check this estimate with independent data.
 According to NASA urban regions cover
@@ -429,9 +431,9 @@ artificial surfaces cover 0.6% of the land surface.
 For the total surface we have to multiply by the proportion of land surface,
 or 150 / 500 million square km:
 
-    p(artificial) ≈ 0.6% * 150 / 500 ≈ 0.18%.
+    p(artificial) ≈ 0.6% * A(land) / A(Earth) ≈ 0.6% * 150 / 500 ≈ 0.18%.
 
-Our prediction was not bad at all!
+Our prediction of 0.2% was not bad at all!
 
 #### 🥶 Expected Cooling
 
@@ -451,8 +453,11 @@ Right now it is around 300 K,
 so we can assume that the Earth gets around 300 K from the Sun,
 and it is linear:
 reducing sun heat by 1% would cool the Earth by 3 K (or 3 C).
+So knowing our proportion of mirrors from before:
 
-If we reflect 0.1% of the heat we might decrease the temperature by 0.3 degrees.
+    ΔT(mirror) = T(Earth) * p(mirror) ≈ 300 K * 0.2% = 0.6 K.
+
+If we reflect 0.2% of the heat we might decrease the temperature by around half a degree.
 Not a lot.
 So this little project is perhaps not worth the hassle,
 at least globally.
@@ -482,11 +487,19 @@ We can also combine
 [solar panels with mirrors](https://theconversation.com/can-mirrors-boost-solar-panel-output-and-help-overcome-trumps-tariffs-90663)
 which increase their efficiency,
 plus also reflect unused sunlight back to space.
-Combined with agriculture farms they might cover vast expanses of land,
+Combined with large agricultural areas they might cover vast expanses of land,
 not just the puny 0.18% of the surface of the planet that we could muster only with buildings.
-Imagine 3% of the world surface devoted to crops + solar power,
+Imagine 5% of the land surface devoted to crops + solar power,
 reflecting any excess heat back to space.
-Now that would be a game changer!
+
+Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
+
+    p(crops+solar) = 1/3 * 5% * A(land) / A(Earth) ≈ 1/3 * 5% * 150/500 ≈ 0.5%
+
+    ΔT(crops+solar) = 1/3 * T(Earth) * p(crops+solar) ≈ 300 K * 0.5% = 1.5 K.
+
+Now 1.5 degrees are a significant cooling.
+So our little mirror project could become a real game changer!
 
 ## 🛰️ Space Screens
 
@@ -496,18 +509,21 @@ How about sending a giant shade to the sky between the Earth and the Sun?
 This might seem like a little kid's idea of how to cool the Earth.
 But real astronomers and physicists have entertained the idea.
 
-Roger Angel published a [fascinating paper back in 2016](https://www.pnas.org/doi/full/10.1073/pnas.0608163103),
+Roger Angel published a [fascinating paper back in 2006](https://www.pnas.org/doi/full/10.1073/pnas.0608163103),
 complete with cost analysis of the project.
 You can read about this "giant space umbrella"
 on the [BBC](https://www.bbc.com/future/article/20160425-how-a-giant-space-umbrella-could-stop-global-warming),
-although I encourage you to go the original article.
+although I encourage you to go the original article
+because the scale of it is really mindblowing.
 Total cost would be a few trillion dollars:
 considerable, but worth it if we are saving the planet from the catastrophe.
 
 ![Screens between the Sun and the Earth to keep us cool. Source: the author.](pics/climate-change-screens.png "A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us.")
 
+The idea of sending a big umbrella into space to cover part of the sun is not new.
+But Angel gives it a new twist.
 Instead of sending one big structure,
-Angel proposes sending many trillions of small screens to the
+Angel proposes sending trillions of small screens to the
 [L1 Langrange point](https://en.wikipedia.org/wiki/Lagrange_point),
 which is at equilibrium between the Sun and the Earth.
 They would need complex mechanisms to stay in place,
@@ -519,19 +535,31 @@ Let's estimate it!
 
 ### ⚡ Efficiency
 
-We will try to replicate the computations on the paper
-with our Fermi estimation,
+We will try to replicate the computations on the paper with a Fermi estimation,
 and then check out how we did.
 
 As before, we will divide the problem into simpler parts:
 the number of screens `n(screens)` and
 the area of each screen `A(screen)`
 will combine to the total area of sunlight blocked `A(total)`:
-`A(total) = n(screens) * A(screens)`.
-Then the proportion of sunlight blocked will depend on point where they are installed.
-and the expected cooling: 
-We will suppose that each screen blocks a large part of the radiation collected.
 
+    A(total) = n(screens) * A(screens).
+
+If we consider that sun rays are basically parallel at the L1 point,
+the proportion of sunlight blocked `p(total)` will be a constant factor `p(screen)`
+multiplied by the proportion of area covered by the screens:
+
+    p(total) = p(screen) * A(total) / A(Earth).
+
+Finally we estimate the temperature difference by the same method of above:
+
+
+#### Sunlight Blocked
+
+Then the proportion of sunlight blocked will depend on point where they are installed.
+For and the expected cooling: 
+
+We will suppose that each screen blocks a large part of the radiation collected.
 We can also consider that the L1 point is much closer to Earth than to the Sun,
 so that the rays of light are almost parallel.
 Still, some shade will be lost since it will not be a perfect block;
@@ -540,11 +568,11 @@ The proportion of sunlight blocked will be equal to half area of the screens div
 `r(Earth)`.
 In equations:
 
-    p(total) = ½ A(total) / [π * r(Earth)^2].
+    p(total) = ½ * A(total) / [π * r(Earth)^2].
 
 Finally we will compute the expected cooling as we did above.
 
-#### 🕶️ Area of the shade
+#### 🕶️ Area of the Shade
 
 The article specifies 16 trillion flying space robots,
 each with an area of 1 square meter:
@@ -560,10 +588,10 @@ So approximately 100 million square kilometers.
 Note that in the last chapter we were measuring the surface of the globe;
 now we want the area of the section of the globe, substantially smaller.)
 
-What proportion is that of the Earth?
+What proportion of the sunlight coming to the Earth are we blocking?
 Easy to calculate remembering that we only block half the sunlight:
 
-    p(total) = ½ 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.
+    p(total) = ½ * 16 * 10^6 km² / [100 * 10^6 km²] = 0.8%.
 
 Therefore a bit under 1%; let's go with that.
 
