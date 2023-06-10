@@ -6,7 +6,7 @@ footer: Published on 2023-06-03, last modified on 2023-06-03.
 image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
 
-![Climate change is here. [Source](https://commons.wikimedia.org/wiki/File:Change_in_Average_Temperature_With_Fahrenheit.svg).](pics/climate-change-temperatures.svg "Temperatures are rising already. World map comparing average temperatures 1956-1976 with 2011-2021 and going with the lower intervals: -0.5C in a small portion of the Anctartic, 0 in the South seas and near Iceland, +0.2 in 1/3 of the oceans, +0.5 in most of the remaining oceans, +1 in most land areas, +2 in the Arctic.")
+![Climate change is here. [Source: NASA’s Scientific Visualization Studio](https://commons.wikimedia.org/wiki/File:Change_in_Average_Temperature_With_Fahrenheit.svg).](pics/climate-change-temperatures.svg "Temperatures are rising already. World map comparing average temperatures 1956-1976 with 2011-2021 and going with the lower intervals: -0.5C in a small portion of the Anctartic, 0 in the South seas and near Iceland, +0.2 in 1/3 of the oceans, +0.5 in most of the remaining oceans, +1 in most land areas, +2 in the Arctic.")
 
 The world is overheating.
 This is not opinion, this is a fact that can be measured by satellites.
@@ -44,7 +44,7 @@ If we look at the concentration of carbon dioxide in the atmosphere as measured 
 far from all sources of industrial contamination,
 the trend could not be more worrying.
 
-![Atmospheric CO₂ has been rising steadily since before 1960; the rate is accelerating. [Source](https://gml.noaa.gov/obop/mlo/programs/esrl/co2/co2.html).](pics/climate-change-dioxide.gif "Data from the Mauna Loa Observatory: concentration in parts per million was ~310 in 1960, ~340 in 1985 and ~380 in 2010.")
+![Atmospheric CO₂ has been rising steadily since before 1960; the rate is accelerating. [Source: Mauna Loa Observatory](https://gml.noaa.gov/obop/mlo/programs/esrl/co2/co2.html).](pics/climate-change-dioxide.gif "Data from the Mauna Loa Observatory: concentration in parts per million was ~310 in 1960, ~340 in 1985 and ~380 in 2010.")
 
 It is highly likely that lowering CO₂ would help alleviate global warming
 and other effects of climate change.
@@ -367,7 +367,7 @@ We don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
 
-![Our cities are about to get shiny, baby. [Source](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
+![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
 Getting an international agreement for roof mirrors would probably not be easy.
 
@@ -592,7 +592,7 @@ then a shorter design will of course be cheaper and more feasible.
 The concept is cool anyway:
 a big gun launching satellites to space!
 
-![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
+![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad.](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
 
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
