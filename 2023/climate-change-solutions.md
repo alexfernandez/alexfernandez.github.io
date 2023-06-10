@@ -496,6 +496,8 @@ Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
 
 ```
 p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,
+```
+```
 ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
 ```
 
