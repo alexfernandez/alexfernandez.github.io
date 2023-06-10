@@ -11,7 +11,7 @@ image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 The world is overheating.
 This is not opinion, this is a fact that can be measured by satellites.
 You don't even need high tech:
-it can be verified by anyone with
+it can be verified by anyone with access to
 [thermometers and old notebooks](https://en.wikipedia.org/wiki/Instrumental_temperature_record).
 
 What can we do about it, and should we do anything?
