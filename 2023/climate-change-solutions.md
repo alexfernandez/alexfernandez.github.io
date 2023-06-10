@@ -86,11 +86,11 @@ the actual yield was
 
 ![Using Fermi estimation this would be also my vital stats. [Source: xkcd.com](https://what-if.xkcd.com/84/).](pics/climate-change-fermi.png "A stick figure with the legend 'Facts about me - age: 10, height: 10 feet,  number of arms: 1, number of legs: 1, total number of limbs: 10, average driving speed: 100 mph'.")
 
-The method as we will apply it is simply to take an approximate estimation for each value,
-within an order of magnitude (between 10 times and 1/10th),
+The method as we will apply it is simply to take an approximate estimation for each value
+within an order of magnitude (remember, between 10 times and 1/10th);
 and combine them in simple ways (basically addition, subtraction, multiplication and division).
 The solution will tend to the real value as long as errors are more or less distributed uniformly,
-i.e. sometimes we are above, some times we are below.
+i.e. sometimes we will overshoot, some times we will be below.
 
 We will try to do the same with the ideas below to see if they would help.
 We don't need complicated climate models to get a rough idea of each method;
@@ -584,27 +584,30 @@ Now we come to the most interesting part:
 how can we send a 100 square kilometer shade up in the sky?
 The answer is: space cannon.
 
+![A space cannon excavated into a mountain. Source: the author.](pics/climate-change-cannon.png "Inside a big mountain there is a tunnel that goes along one of the slopes. A projectile emerges at 9 km/h, with a sabot that is discarded.")
+
 Luckily we have already explored [how to build a space launcher](/2018/building-space-launcher)
 a few years ago,
 so we only need to go over the basics.
 
-Angel wants to build a 2 km space launcher
+Angel wants to build a 2 km long space launcher
 (also called space cannon or Gauss gun in the literature).
-I think this is too ambitious;
-my own design is 28 km long.
+I think this is too ambitious, and my own design calls for a 28 km long tunnel.
 But he probably knows better;
 if we can accelerate above 150g,
-and if the material of the armature can support the magnetic pressure,
+and if the material of the armature can withstand the magnetic pressure,
 then a shorter design will of course be cheaper and more feasible.
 The concept is cool anyway:
 a big gun launching satellites to space!
 
-![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad.](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
 
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
 He concedes that there are big engineering challenges in the building of a 1 gram,
 1 square meter space flyer that is an autonomous spacecraft and can be controlled from a bigger space station.
+
+![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad.](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
+
 But if the health of our planet is at stake,
 we should definitely face them!
 Also, this is how engineering moves ahead:
