@@ -51,18 +51,18 @@ and other nasty effects of climate change.
 So let us see if we humans can do something about it
 using some engineering and a great deal of ingenuity.
 
-# 🧑‍🔬 Some Solutions
+# 🧑‍🔬 Three Solutions
 
 Right now there is no single solution to climate change,
 and probably we will have to use many of them if we are to survive our own trap.
 
 Now, before we start, let's be clear.
 The first measure to mitigate climate change should be to **stop burning stuff**;
-until we do, everything we do to mitigate the effects of carbon dioxide in the atmosphere
+until we do, everything we do to reduce carbon dioxide in the atmosphere
 will be made more difficult by the incoming gasses.
 But even if we stopped tomorrow and switched to 100% green energy
 (a mix of solar, wind, hydro and nuclear)
-there's the little matter of what we do with all the carbon dioxide already in the atmosphere.
+there's the small question of what we do with all the carbon dioxide already in the atmosphere.
 
 We will review some solutions that can be found in the literature,
 and even some that anyone can think of,
