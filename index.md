@@ -21,6 +21,7 @@ Latest articles first.
 
 ### 2023
 
+🗣️ 🇮🇪 2023-06-12: [🥵 Some Solutions to Climate Change: Introduction](2023/climate-change-solutions)  
 🗣️ 🇪🇸 2023-06-03: [🤨 Guide to Contradiction: What Is Contradiction?](2023/contradiction-what-is)  
 🗣️ 🇪🇸 2023-05-28: [🏛️ Una vida sin fisuras](2023/una-vida-sin-fisuras)  
 🗣️ 🇪🇸 2023-01-03: [🎯 Repaso de 2022 y propósitos para 2023](2023/propositos-2023)  
