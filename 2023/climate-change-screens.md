@@ -185,15 +185,35 @@ Luckily we have already explored [how to build a space launcher](/2018/building-
 a few years ago,
 so we only need to go over the basics.
 
-Angel wants to build a 2 km long space launcher
-(also called space cannon or Gauss gun in the literature).
+Angel wants to build a huge space launcher,
+also called space cannon or Gauss gun in the literature;
+when using it to launch projectiles also called
+[mass driver](https://en.wikipedia.org/wiki/Mass_driver).
+In essence it is just a big tunnel with many magnetic coils so that a projectile is accelerated using electromagnetic forces.
+
+His design is 2 kilometer long.
 I think this is too ambitious, and my own design calls for a 28 km long tunnel.
 But he probably knows better;
 if we can accelerate above 150g,
 and if the material of the armature can withstand the magnetic pressure,
 then a shorter design will of course be cheaper and more feasible.
+A longer tunnel built on a mountain also reduces drag on the exiting projectile.
+
+There are other design parameters which are surprising:
+a projectile of just three tons and with an exit velocity of more than 12 km/s.
+It might heat quite faster,
+plus the heat of travelling through the atmosphere at such a velocity might melt it down.
+Especially if it exits the tunnel at low altitude
+I contend that a 10-ton projectile can use some of that extra mass
+to hold a rocket that can take the payload to low Earth orbit (LEO).
+My proposed exit velocity of 9 km/s does not require a lot of further acceleration.
+
 The concept is cool anyway:
 a big gun launching satellites to space!
+Many simulations and scale models will have to be built to validate any proposed designs,
+and to fine-tune the working parameters.
+
+## 🏭 Building the Screens
 
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
