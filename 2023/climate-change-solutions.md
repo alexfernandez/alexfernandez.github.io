@@ -501,8 +501,8 @@ p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.
 ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
 ```
 
-Now 1.5 degrees are a significant cooling.
-So our little mirror project could become a real game changer!
+Now 1.5 degrees are significant cooling.
+Our little mirror project could become a real game changer!
 
 ## 🛰️ Space Screens
 
@@ -523,8 +523,7 @@ considerable, but worth it if we are saving the planet from the catastrophe.
 
 ![Screens between the Sun and the Earth to keep us cool. Source: the author.](pics/climate-change-screens.png "A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us.")
 
-The idea of sending a big umbrella into space to cover part of the sun is not new.
-But Angel gives it a new twist.
+Angel gives a new twist to the giant space umbrella.
 Instead of sending one big structure,
 Angel proposes sending trillions of small screens to the
 [L1 Langrange point](https://en.wikipedia.org/wiki/Lagrange_point),
@@ -538,81 +537,144 @@ Let's estimate it!
 
 ### ⚡ Efficiency
 
-We will try to replicate the computations on the paper with a Fermi estimation,
+We will try to replicate the computations on the paper with our own Fermi estimation,
 and then check out how we did.
 
 As before, we will divide the problem into simpler parts:
 the number of screens `n(screens)` and
 the area of each screen `A(screen)`
-will combine to the total area of sunlight blocked `A(total)`:
+will combine to the total area of sunlight blocked `A(screens)`:
 
-    A(total) = n(screens) × A(screens).
+    A(screens) = n(screens) × A(screen).
 
 If we consider that sun rays are basically parallel at the L1 point,
-the proportion of sunlight blocked `p(total)` will be a constant factor `p(screen)`
-multiplied by the proportion of area covered by the screens:
+the proportion of sunlight blocked `p(screens)` will be a constant factor `p(screen)`
+multiplied by the proportion of sunlight covered by the screens.
+This proportion is just the area of the screens divided by the disc of the Earth,
+A(disc):
 
-    p(total) = p(screen) × A(total) / A(Earth).
+    p(screens) = p(screen) × A(screens) / A(disc).
 
-Finally we estimate the temperature difference by the same method of above:
-
-
-#### Sunlight Blocked
-
-Then the proportion of sunlight blocked will depend on point where they are installed.
-For and the expected cooling: 
-
-We will suppose that each screen blocks a large part of the radiation collected.
-We can also consider that the L1 point is much closer to Earth than to the Sun,
-so that the rays of light are almost parallel.
-Still, some shade will be lost since it will not be a perfect block;
-let's say we stop half the rays coming to Earth.
-The proportion of sunlight blocked will be equal to half area of the screens divided by the section of the planet,
-`r(Earth)`.
+Finally we estimate the temperature difference caused by the screens.
+Luckily, we already did the estimation above!
+We can expect approximately a 3 degree (Celsius or Kelvin)
+reduction in temperature for every 1% of sunlight we block.
 In equations:
 
-    p(total) = ½ × A(total) / [π × r(Earth)^2].
+    ΔT(screens) ≈ T(Earth) × p(screens).
 
-Finally we will compute the expected cooling as we did above.
-
-#### 🕶️ Area of the Shade
-
-The article specifies 16 trillion flying space robots,
-each with an area of 1 square meter:
-
-    A(total) = n(screens) × A(screen) ≈ 16 × 10^12 × 1 m² = 16 × 10^6 km².
-
-The disc of the Earth is:
-
-    A(Earth) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².
-
-So approximately 100 million square kilometers.
-(Why is it different from the 500 million square kilometers we had before?
-Note that in the last chapter we were measuring the surface of the globe;
-now we want the area of the section of the globe, substantially smaller.)
-
-What proportion of the sunlight coming to the Earth are we blocking?
-Easy to calculate remembering that we only block half the sunlight:
-
-    p(total) = ½ × 16 × 10^6 km² / [100 × 10^6 km²] = 0.8%.
-
-Therefore a bit under 1%; let's go with that.
+We take a different approach than before:
+we start with the desired temperature change,
+and work out how many screens of a given area we need.
 
 #### 🥶 Expected Cooling
 
-Luckily, we already did the computations above!
-We can expect a 3 degree (Celsius or Kelvin)
-reduction in temperature for every 1% of sunlight we block.
+Angel cites a target reduction of 1.88 K in temperature.
+We will start with 2 degrees (again, C or K) and work back from there:
 
-Our estimation is that we can lower the temperature of Earth by 3 degrees with our little project.
-Angel comes up with a figure of a 1.8% reduction in solar flux,
-and cites a reduction of 1.88 K in temperature.
-So we were well within our order of magnitude!
+    ΔT(screens) = 2 K.
+
+Then:
+
+    p(screens) ≈ ΔT(screens) / T(Earth) ≈ 2 K / 300 K ≈ 0.7%.
+
+So we need to block around half a percent of the radiation coming from the Sun.
+This amount will probably not be noticeable without sophisticated apparatus.
+
+#### 🕶️ Number of Screens
+
+Now let us see how many flying screens we need.
+First let's find out the area covered by the screens.
+As before:
+
+    p(screens) = p(screen) × A(screens) / A(disc),
+
+therefore:
+
+    A(screens) = p(screens) * A(disc) / p(screen).
+
+Note that we need to estimate first the efficiency of each screen `p(screen)`.
+The proportion of sunlight blocked will depend on where the screens are installed.
+We can consider that the L1 point is much closer to Earth than to the Sun,
+so that the rays of light are almost parallel.
+Still, some shade will be lost since it will not be a perfect block,
+and some light will be diffused back to Earth.
+Let's say each screen will stop half the heat coming to Earth:
+
+    p(screen) = 1/2.
+
+We also need to know the area of the disc of the Earth,
+just our old friend π (_pi_) multiplied by the square of the radius:
+
+    A(disc) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².
+
+Approximately 100 million square kilometers.
+(Why is it different from the 500 million square kilometers we had before?
+Note that in the last chapter we were measuring the surface of the globe;
+now we want the area of the **section** of the globe, substantially smaller.)
+
+We are ready now to compute the total area covered by the screens:
+
+    A(screens) ≈ 0.7% * 100 * 10^6 km² / ½ ≈ 1.5 * 10^6 km².
+
+Total area is approximately 1.5 million square kilometers.
+If every flying screen has an area `A(screen)` of 1 square meter:
+
+    n(screens) = A(screens) / A(screen) ≈ 1.5 * 10^6 km² / (1 m²) ≈ 1.5 * 10^12.
+
+So we need 1.5 trillion flying space robots.
+Not bad!
+
+#### 🧮 How Did We Do?
+
+The article specifies 16 trillion flying space robots,
+each with an area of 1 square meter.
+We were supposed to be within one order of magnitude,
+but our result is more than 10 times smaller!
+
+What went wrong?
+We overlooked one important effect:
+if our screens were mirrors,
+like in the previous section,
+the reflected light would make them fly away quite fast from the L1 point due to radiation pressure.
+Even if they were opaque and reflected light only as heat,
+they would need to be further away from the L1 point to be more or less stable.
+Another solution is to make the screens thicker,
+which increases the weight over the practical limit.
+Our friend Roger Angel takes this effect into account,
+and proposes transparent screens that just deflect light only so slightly.
+This increases the area required to around 5 million square kilometers,
+approximately three times as much as we estimated.
+
+But he also cites a
+[study by Govindasamy and Caldeira](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086)
+which estimates that a 1.8 K decrease in temperature would require a reduction in solar flux of 1.8%,
+not 0.6% as we estimated.
+I'm not sure which is the correct reduction here;
+some of the projects mentioned in Wikipedia as
+[space sunshades](https://en.wikipedia.org/wiki/Space_sunshade)
+seem to be closer to our estimate.
+I have not found a clear answer in the literature either after a quick look.
+I'm under the impression that this point requires complex modelling to get a clear answer.
+The correct amount of reduction needed is probably between our 0.6% and Angel's 1.8%,
+so perhaps our Fermi estimate was not so far off.
+
+In fact, an updated version of the scheme
+[by Borgue and Hein](https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762)
+seems to be OK with sending much less stuff up there,
+but the article is paywalled so I cannot say exactly how much area they are covering.
+
+### 😎 The Screens
+
+We come to another interesting point:
+the design of the screens themselves.
+Angel sets a target weight of one gram for them,
+increased a bit for navigation and communication.
 
 ### ☄️ Sending Stuff Up There
 
-Now we come to the most interesting part:
-how can we send a 100 square kilometer shade up in the sky?
+Speaking of which, we come to the most interesting part:
+how can we send 16 trillion sun screens up in the sky?
 The answer is: space cannon.
 
 ![A space cannon excavated into a mountain. Source: the author.](pics/climate-change-cannon.png "Inside a big mountain there is a tunnel that goes along one of the slopes. A projectile emerges at 9 km/h, with a sabot that is discarded.")
@@ -631,7 +693,6 @@ then a shorter design will of course be cheaper and more feasible.
 The concept is cool anyway:
 a big gun launching satellites to space!
 
-
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
 He concedes that there are big engineering challenges in the building of a 1 gram,
@@ -645,7 +706,13 @@ Also, this is how engineering moves ahead:
 by tackling big challenges.
 After all, who would have thought 20 years ago that by 2023
 we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point
-that can view infrared light from the earliest galaxies?
+that can view infrared light from the earliest galaxies?a
+
+Side Effects
+
+https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html
+
+https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762
 
 ## My Contribution
 

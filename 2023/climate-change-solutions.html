@@ -201,40 +201,53 @@
                     <p>Even if only 1/3 of the heat was radiated back for our <code>crops+solar</code> project:</p>
                     <pre><code>p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,</code></pre>
                     <pre><code>ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.</code></pre>
-                    <p>Now 1.5 degrees are a significant cooling. So our little mirror project could become a real game changer!</p>
+                    <p>Now 1.5 degrees are significant cooling. Our little mirror project could become a real game changer!</p>
                     <h2 id="space-screens">🛰️ Space Screens</h2>
                     <p>Let’s now go for the most egregious of the ideas presented here, and also the most entertaining. How about sending a giant shade to the sky between the Earth and the Sun? This might seem like a little kid’s idea of how to cool the Earth. But real astronomers and physicists have entertained the idea.</p>
                     <p>Roger Angel published a <a href="https://www.pnas.org/doi/full/10.1073/pnas.0608163103">fascinating paper back in 2006</a>, complete with cost analysis of the project. You can read about this “giant space umbrella” on the <a href="https://www.bbc.com/future/article/20160425-how-a-giant-space-umbrella-could-stop-global-warming">BBC</a>, although I encourage you to go the original article because the scale of it is really mindblowing. Total cost would be a few trillion dollars: considerable, but worth it if we are saving the planet from the catastrophe.</p>
                     <figure>
                     <img src="pics/climate-change-screens.png" title="A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us." alt="" /><figcaption>Screens between the Sun and the Earth to keep us cool. Source: the author.</figcaption>
                     </figure>
-                    <p>The idea of sending a big umbrella into space to cover part of the sun is not new. But Angel gives it a new twist. Instead of sending one big structure, Angel proposes sending trillions of small screens to the <a href="https://en.wikipedia.org/wiki/Lagrange_point">L1 Langrange point</a>, which is at equilibrium between the Sun and the Earth. They would need complex mechanisms to stay in place, and to be able to direct them as needed to increase or decrease the effect. They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth; we would just feel less heat than usual. How much less heat? Let’s estimate it!</p>
+                    <p>Angel gives a new twist to the giant space umbrella. Instead of sending one big structure, Angel proposes sending trillions of small screens to the <a href="https://en.wikipedia.org/wiki/Lagrange_point">L1 Langrange point</a>, which is at equilibrium between the Sun and the Earth. They would need complex mechanisms to stay in place, and to be able to direct them as needed to increase or decrease the effect. They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth; we would just feel less heat than usual. How much less heat? Let’s estimate it!</p>
                     <h3 id="efficiency-2">⚡ Efficiency</h3>
-                    <p>We will try to replicate the computations on the paper with a Fermi estimation, and then check out how we did.</p>
-                    <p>As before, we will divide the problem into simpler parts: the number of screens <code>n(screens)</code> and the area of each screen <code>A(screen)</code> will combine to the total area of sunlight blocked <code>A(total)</code>:</p>
-                    <pre><code>A(total) = n(screens) × A(screens).</code></pre>
-                    <p>If we consider that sun rays are basically parallel at the L1 point, the proportion of sunlight blocked <code>p(total)</code> will be a constant factor <code>p(screen)</code> multiplied by the proportion of area covered by the screens:</p>
-                    <pre><code>p(total) = p(screen) × A(total) / A(Earth).</code></pre>
-                    <p>Finally we estimate the temperature difference by the same method of above:</p>
-                    <h4 id="sunlight-blocked">Sunlight Blocked</h4>
-                    <p>Then the proportion of sunlight blocked will depend on point where they are installed. For and the expected cooling:</p>
-                    <p>We will suppose that each screen blocks a large part of the radiation collected. We can also consider that the L1 point is much closer to Earth than to the Sun, so that the rays of light are almost parallel. Still, some shade will be lost since it will not be a perfect block; let’s say we stop half the rays coming to Earth. The proportion of sunlight blocked will be equal to half area of the screens divided by the section of the planet, <code>r(Earth)</code>. In equations:</p>
-                    <pre><code>p(total) = ½ × A(total) / [π × r(Earth)^2].</code></pre>
-                    <p>Finally we will compute the expected cooling as we did above.</p>
-                    <h4 id="area-of-the-shade">🕶️ Area of the Shade</h4>
-                    <p>The article specifies 16 trillion flying space robots, each with an area of 1 square meter:</p>
-                    <pre><code>A(total) = n(screens) × A(screen) ≈ 16 × 10^12 × 1 m² = 16 × 10^6 km².</code></pre>
-                    <p>The disc of the Earth is:</p>
-                    <pre><code>A(Earth) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².</code></pre>
-                    <p>So approximately 100 million square kilometers. (Why is it different from the 500 million square kilometers we had before? Note that in the last chapter we were measuring the surface of the globe; now we want the area of the section of the globe, substantially smaller.)</p>
-                    <p>What proportion of the sunlight coming to the Earth are we blocking? Easy to calculate remembering that we only block half the sunlight:</p>
-                    <pre><code>p(total) = ½ × 16 × 10^6 km² / [100 × 10^6 km²] = 0.8%.</code></pre>
-                    <p>Therefore a bit under 1%; let’s go with that.</p>
+                    <p>We will try to replicate the computations on the paper with our own Fermi estimation, and then check out how we did.</p>
+                    <p>As before, we will divide the problem into simpler parts: the number of screens <code>n(screens)</code> and the area of each screen <code>A(screen)</code> will combine to the total area of sunlight blocked <code>A(screens)</code>:</p>
+                    <pre><code>A(screens) = n(screens) × A(screen).</code></pre>
+                    <p>If we consider that sun rays are basically parallel at the L1 point, the proportion of sunlight blocked <code>p(screens)</code> will be a constant factor <code>p(screen)</code> multiplied by the proportion of sunlight covered by the screens. This proportion is just the area of the screens divided by the disc of the Earth, A(disc):</p>
+                    <pre><code>p(screens) = p(screen) × A(screens) / A(disc).</code></pre>
+                    <p>Finally we estimate the temperature difference caused by the screens. Luckily, we already did the estimation above! We can expect approximately a 3 degree (Celsius or Kelvin) reduction in temperature for every 1% of sunlight we block. In equations:</p>
+                    <pre><code>ΔT(screens) ≈ T(Earth) × p(screens).</code></pre>
+                    <p>We take a different approach than before: we start with the desired temperature change, and work out how many screens of a given area we need.</p>
                     <h4 id="expected-cooling-1">🥶 Expected Cooling</h4>
-                    <p>Luckily, we already did the computations above! We can expect a 3 degree (Celsius or Kelvin) reduction in temperature for every 1% of sunlight we block.</p>
-                    <p>Our estimation is that we can lower the temperature of Earth by 3 degrees with our little project. Angel comes up with a figure of a 1.8% reduction in solar flux, and cites a reduction of 1.88 K in temperature. So we were well within our order of magnitude!</p>
+                    <p>Angel cites a target reduction of 1.88 K in temperature. We will start with 2 degrees (again, C or K) and work back from there:</p>
+                    <pre><code>ΔT(screens) = 2 K.</code></pre>
+                    <p>Then:</p>
+                    <pre><code>p(screens) ≈ ΔT(screens) / T(Earth) ≈ 2 K / 300 K ≈ 0.7%.</code></pre>
+                    <p>So we need to block around half a percent of the radiation coming from the Sun. This amount will probably not be noticeable without sophisticated apparatus.</p>
+                    <h4 id="number-of-screens">🕶️ Number of Screens</h4>
+                    <p>Now let us see how many flying screens we need. First let’s find out the area covered by the screens. As before:</p>
+                    <pre><code>p(screens) = p(screen) × A(screens) / A(disc),</code></pre>
+                    <p>therefore:</p>
+                    <pre><code>A(screens) = p(screens) * A(disc) / p(screen).</code></pre>
+                    <p>Note that we need to estimate first the efficiency of each screen <code>p(screen)</code>. The proportion of sunlight blocked will depend on where the screens are installed. We can consider that the L1 point is much closer to Earth than to the Sun, so that the rays of light are almost parallel. Still, some shade will be lost since it will not be a perfect block, and some light will be diffused back to Earth. Let’s say each screen will stop half the heat coming to Earth:</p>
+                    <pre><code>p(screen) = 1/2.</code></pre>
+                    <p>We also need to know the area of the disc of the Earth, just our old friend π (<em>pi</em>) multiplied by the square of the radius:</p>
+                    <pre><code>A(disc) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².</code></pre>
+                    <p>Approximately 100 million square kilometers. (Why is it different from the 500 million square kilometers we had before? Note that in the last chapter we were measuring the surface of the globe; now we want the area of the <strong>section</strong> of the globe, substantially smaller.)</p>
+                    <p>We are ready now to compute the total area covered by the screens:</p>
+                    <pre><code>A(screens) ≈ 0.7% * 100 * 10^6 km² / ½ ≈ 1.5 * 10^6 km².</code></pre>
+                    <p>Total area is approximately 1.5 million square kilometers. If every flying screen has an area <code>A(screen)</code> of 1 square meter:</p>
+                    <pre><code>n(screens) = A(screens) / A(screen) ≈ 1.5 * 10^6 km² / (1 m²) ≈ 1.5 * 10^12.</code></pre>
+                    <p>So we need 1.5 trillion flying space robots. Not bad!</p>
+                    <h4 id="how-did-we-do">🧮 How Did We Do?</h4>
+                    <p>The article specifies 16 trillion flying space robots, each with an area of 1 square meter. We were supposed to be within one order of magnitude, but our result is more than 10 times smaller!</p>
+                    <p>What went wrong? We overlooked one important effect: if our screens were mirrors, like in the previous section, the reflected light would make them fly away quite fast from the L1 point due to radiation pressure. Even if they were opaque and reflected light only as heat, they would need to be further away from the L1 point to be more or less stable. Another solution is to make the screens thicker, which increases the weight over the practical limit. Our friend Roger Angel takes this effect into account, and proposes transparent screens that just deflect light only so slightly. This increases the area required to around 5 million square kilometers, approximately three times as much as we estimated.</p>
+                    <p>But he also cites a <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086">study by Govindasamy and Caldeira</a> which estimates that a 1.8 K decrease in temperature would require a reduction in solar flux of 1.8%, not 0.6% as we estimated. I’m not sure which is the correct reduction here; some of the projects mentioned in Wikipedia as <a href="https://en.wikipedia.org/wiki/Space_sunshade">space sunshades</a> seem to be closer to our estimate. I have not found a clear answer in the literature either after a quick look. I’m under the impression that this point requires complex modelling to get a clear answer. The correct amount of reduction needed is probably between our 0.6% and Angel’s 1.8%, so perhaps our Fermi estimate was not so far off.</p>
+                    <p>In fact, an updated version of the scheme <a href="https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762">by Borgue and Hein</a> seems to be OK with sending much less stuff up there, but the article is paywalled so I cannot say exactly how much area they are covering.</p>
+                    <h3 id="the-screens">😎 The Screens</h3>
+                    <p>We come to another interesting point: the design of the screens themselves. Angel sets a target weight of one gram for them, increased a bit for navigation and communication.</p>
                     <h3 id="sending-stuff-up-there">☄️ Sending Stuff Up There</h3>
-                    <p>Now we come to the most interesting part: how can we send a 100 square kilometer shade up in the sky? The answer is: space cannon.</p>
+                    <p>Speaking of which, we come to the most interesting part: how can we send 16 trillion sun screens up in the sky? The answer is: space cannon.</p>
                     <figure>
                     <img src="pics/climate-change-cannon.png" title="Inside a big mountain there is a tunnel that goes along one of the slopes. A projectile emerges at 9 km/h, with a sabot that is discarded." alt="" /><figcaption>A space cannon excavated into a mountain. Source: the author.</figcaption>
                     </figure>
@@ -244,7 +257,10 @@
                     <figure>
                     <img src="pics/climate-change-car.jpg" title="A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight." alt="" /><figcaption>Like this, but weighing one gram and being an autonomous spacecraft. <a href="https://www.flickr.com/photos/hightechdad/28763156911">Source: HighTechDad.</a>.</figcaption>
                     </figure>
-                    <p>But if the health of our planet is at stake, we should definitely face them! Also, this is how engineering moves ahead: by tackling big challenges. After all, who would have thought 20 years ago that by 2023 we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point that can view infrared light from the earliest galaxies?</p>
+                    <p>But if the health of our planet is at stake, we should definitely face them! Also, this is how engineering moves ahead: by tackling big challenges. After all, who would have thought 20 years ago that by 2023 we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point that can view infrared light from the earliest galaxies?a</p>
+                    <p>Side Effects</p>
+                    <p>https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html</p>
+                    <p>https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762</p>
                     <h2 id="my-contribution">My Contribution</h2>
                     <p>What do I intend to do? For starters, stop paying attention to those “carbon capture” supposedly high-tech projects, which I think are just lame attempts at fixing our problems with technology, when better solutions are right there in front of us. I may of course be wrong.</p>
                     <p>It is possible to fix our climate, but it will not be easy. The problem is getting bigger every year, so we really need to act now. A concerted effort by every government in the planet will be necessary. I sincerely hope that we spring to action before the situation is too severe.</p>
