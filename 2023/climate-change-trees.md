@@ -14,15 +14,20 @@ Why not plant a few trees?
 
 Some people are proposing a solution to climate change which can be a bit disappointing:
 just planting trees.
-I am sure you prefer to think of clever carbon-capture devices
+Maybe you are now thinking:
+"Bloody hippies! Use technology!"
+You probably prefer to think of clever carbon-capture devices
 that could turn the tide and suck all that carbon out of the skies,
 using modern technology.
 Problem is, none of it works properly yet,
 and possibly will never work.
+Until it does,
+why not use low-tech solutions?
 
-Meanwhile Mother Nature has created these wonderful machines
+As it happens Mother Nature has created these wonderful machines
 that have evolved during millions of years to become better at basically one thing:
 convert CO₂ to carbon in their trunks.
+This is exactly what we need now!
 In the process they also generate sugars, create seeds and deter hungry animals,
 plus give shade and provide for excellent furniture.
 But these are secondary interests.
@@ -32,15 +37,23 @@ Many areas are already covered in forests; others are deserts.
 Of the remaining areas, many are used for growing food;
 there are also cities and roads.
 We can of course plant trees in many of these places:
-as hedges of fields,
+as hedges in fields,
 in our streets,
 even on top of buildings.
+There are also many areas without any tree cover at all.
 
 Some studies say that a trillion (10^12) trees are feasible,
 like 
-[this one by Crowther _et al_](https://web.archive.org/web/20190502122937id_/https://www.biorxiv.org/content/biorxiv/early/2017/11/07/210062.full.pdf))
+[this one by Crowther _et al_](https://web.archive.org/web/20190502122937id_/https://www.biorxiv.org/content/biorxiv/early/2017/11/07/210062.full.pdf)
 or
 [this one by Bastin _et al_](https://www.science.org/doi/10.1126/science.aax0848).
+Note that some of the authors are repeated,
+that they were already experts in counting trees,
+and that some of their conclusions are disputed,
+as we will see below.
+But for now let's say that the project is possible,
+just for the sake of argument.
+
 Note: throughout the article I'm using US billions (10^9, or a thousand millions)
 and US trillions (10^12, or a million millions).
 
@@ -56,7 +69,7 @@ and the
 It's such a catchy name!
 
 Another very interesting possibility is using algae,
-which are more efficient because they already have all the water necessary in their surroundings.
+which are even more efficient in converting CO₂ carbon because they already have all the necessary water in their surroundings.
 These techniques are very likely more difficult to implement than just planting trees,
 and can have other side effects.
 So we will focus on trees.
@@ -65,6 +78,9 @@ So we will focus on trees.
 
 Let us approach the matter from a different perspective:
 just how many trees do we need?
+We will do a [Fermi estimation](/2023/climate-change-solutions#fermi-estimation),
+which should give us an approximate solution
+(or technically, the right order of magnitude).
 
 We will divide the problem into three simpler steps:
 find out total excess carbon in the atmosphere `T(C)`,
@@ -87,7 +103,7 @@ Problem solved, Earth saved.
 First let's estimate the total amount of excess carbon in the atmosphere.
 If we look at the [data from Statista](https://www.statista.com/statistics/276629/global-co2-emissions/),
 there is a more or less steady linear increase from about 1943 to 2021.
-(Yes, emissions are still increasing.)
+(Yes, emissions are still increasing, we are that clever.)
 Latest numbers are 37 billion metric tons of CO₂.
 Say we have a completely linear graph from 1940 to 2020 (80 years),
 the total of carbon emissions would be something like the number of years multiplied by the midpoint:
@@ -108,30 +124,35 @@ the total portion of carbon is thus 12/(12+16+16) ≈ 27%:
 
     T(C) ≈ 0.27 × 1.6 × 10^18 g ≈ 0.4 × 10^18 g.
 
-So a little bit under half a million million million grams.
+Or a little bit under half a million million million grams.
 The official name is "half an exagram",
 although we can call it more familiarly "half a teraton",
 which has more punch.
+In the press you will find numbers as **400 gigatons of carbon**,
+which is nice because they are manageable numbers.
 Some part of that has by now been absorbed by the oceans and other natural processes,
-but most of it remains floating around.
+but we can assume that most of it remains floating around.
+
 Good! We are getting there.
 
 ### 🪵 Carbon per Tree
 
-Now let's estimate how much carbon can we store in a tree.
-Let's assume an average 4 meter tall tree, with a trunk radius of 25 cm;
-this gives us a volume of:
+Now let's estimate how much carbon we can store in a tree.
+Let's assume an average 4 meter tall tree, with a trunk radius of 25 cm (or 0.25 m);
+remembering the formula for a cilinder this gives us a volume `V(trunk)` of:
 
-    V ≈ π × 0.25 × 0.25 × 4 m³ ≈ 0.75 m³.
+    V(trunk) ≈ π × 0.25 m × 0.25 m × 4 m ≈ 0.75 m³.
 
 ![A simplified tree. Source: the author](pics/climate-change-tree.png "A cylindrical trunk with a cross-section given by its radius, below a canopy of branches and leaves, and in the ground some roots.")
 
-How much does each tree weigh?
+A bit below one cubic meter of trunk.
+How much does each tree trunk weigh?
 Wood has a density similar to water (some woods float, others don't),
 which is 1 kg per liter (a cube with sides of 10 cm), so our average tree trunk will weigh:
 
-    m(tree) = d × V ≈ 1 kg / 0.001 m³ × 0.75 m³ ≈ 750 kg.
+    m(trunk) = d × V ≈ 1 kg / 0.001 m³ × 0.75 m³ ≈ 750 kg.
 
+A bit below a metric ton (1000 kg).
 But the tree also has branches and leaves and roots;
 we can estimate that the trunk is just half the total weight,
 which is probably
@@ -156,9 +177,10 @@ each tree will hold
 
     m(C)' = 422 × 10^6 mt / 7 × 10^9 = 0.060.
 
-Around 60 kg per tree, below an order of magnitude.
+Around 60 kg per tree; our solution is off by more than an order of magnitude!
 Keep in mind that every tree above 75 mm of diameter is counted in the above inventory,
 while we are considering mature 4 meter tall trees.
+So we can go ahead with our estimation for rather largish trees.
 
 ### 🌳 Number of Trees
 
@@ -171,9 +193,9 @@ to remove all excess carbon from the atmosphere we need a grand total of:
 
 Or around half a trillion trees.
 Is this possible at all?
-
-Many studies have looked at this question.
-We will just do our own Fermi estimation.
+As we saw above, many studies have looked at this question,
+with varied answers.
+Here we will just do our own Fermi estimation.
 
 Let's take first Spain as an example.
 With a [total area](https://en.wikipedia.org/wiki/Spain)
@@ -220,11 +242,6 @@ using the same proportion we would get:
 Almost exactly our half a trillion trees!
 Very roughly our project should be feasible.
 
-As we saw above, each tree trunks would have a volume of around 1.5 m³.
-All these trees would make up a cube with sides of approximately 9 km:
-
-    V(world) = N(world) × V(tree) ≈ 0.5 × 10^12 × 1.5 m³ = 0.75 × 10^12 m³ ≈ (9 km)³.
-
 ## 🎚️ Some Checks
 
 The climate scientist Thomas Crowther,
@@ -234,7 +251,7 @@ of excess carbon in the atmosphere.
 We estimated 400 gigatons above, so not bad!
 
 In 2019 there were some publications about the
-[trillion](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
+[trillion](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html)
 [trees](https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html),
 saying that such a project would suck the equivalent carbon of a decade of emissions,
 when according to our estimation it could wipe out all the excess carbon.
@@ -243,6 +260,8 @@ later corrected that it might wipe out up to two thirds of all carbon,
 closer to our estimate.
 I suspect that the difference stems from the basic confusion between
 tons of CO₂ and tons of carbon.
+We need to be extra careful with what kind of gigatons are we speaking about at each point:
+carbon or CO₂?
 
 ### 🌐 Massive Scale
 
@@ -256,7 +275,8 @@ Although let me point out that there are 7 billion people interested in stopping
 it makes no sense to do some centralized project with one agency doing all the work.
 If we pay a million people to plant one tree per minute,
 or a thousand per day,
-the job would be done in about three years.
+the job would be done in about three years
+(a thousand days).
 
 What about the possibility of planting so many trees?
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
@@ -267,7 +287,7 @@ among them
 accounting for 22 gigatons of CO₂,
 All of them combined are 217 gigatons of CO₂,
 or less than 55 gigatons of carbon;
-quite disappointing when compared to the excess ~1200 gigatons we have to deal with.
+quite disappointing when compared to the excess ~1200 gigatons (of CO₂) we have to deal with.
 I am not sure they are ambitious enough.
 
 ## 💊 Side Effects
@@ -276,7 +296,8 @@ The side effects of planting a lot of trees are generally very nice:
 having a lot of trees.
 They cool the surroundings,
 help fixate the ground and provide a living environment for other creatures.
-In cities they lower the temperature of a street by at least five degrees in summer.
+In cities they lower the temperature of a street by
+[at least five degrees in summer](https://www.cnu.org/publicsquare/2020/08/31/powerful-virtuous-cycles-street-trees).
 
 Not everyone is happy though.
 There were
@@ -287,13 +308,20 @@ from ecosystem degradation to questions about the amount of carbon sucked in.
 There's the matter of albedo (or proportion of sunlight reflected):
 trees are generally darker than rock,
 and therefore can negate some of the benefits of carbon capture by absorbing heat.
-But this is a complicated matter far beyond what we can explore here.
+But this is a complex issue far beyond what we can explore here.
 
 ### 🐟 Extra Carbon Sleeps with the Fish
 
-Also, what do we do with all that carbon once it is stored in trees?
+Another question is:
+what do we do with all that carbon once it is stored in trees?
 If we just leave it there then there is a limit to the carbon taken from the atmosphere;
 and it might burn at some point getting us back to the starting point.
+
+As we saw above, each tree trunk would have a volume of around 1.5 m³.
+All these trees would make up a cube with sides of approximately 9 km:
+
+    V(world) = N(world) × V(tree) ≈ 0.5 × 10^12 × 1.5 m³ = 0.75 × 10^12 m³ ≈ (9 km)³.
+
 What can we do with a cube of side 9 km?
 One possible extension of the program might be to mow down trees from time to time and dispose of them,
 for example by burying them or throwing them into the sea.
@@ -310,9 +338,12 @@ But we are trying to prevent a giant ecological catastrophe here,
 so all things considered it may be worth it.
 The trench is about 2550 km long so not everything needs to go into the deepest point.
 
+Ideally we would find local trenches so we don't need to ship all trunks to the Pacific Ocean.
+These trees might even become oil in a few million years!
+
 ### 🤑 Cheap Wood
 
-Maybe we can even convert them into furniture and store them in our homes!
+Maybe we can even convert some of these trees into furniture and store them in our homes!
 With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
 storing half a metric ton of carbon per house would clear around one gigaton of carbon.
 Not much, but every bit helps.
@@ -322,7 +353,7 @@ Perhaps the world would start using more for construction,
 [like in the US](https://www.thehousedesigners.com/articles/how-many-trees-does-it-take-to-build-a-house.asp).
 I'm sure I'm not alone in wanting to have more things built of this noble material.
 
-# Conclusion
+# 🤔 Conclusion
 
 I hope that every time you pass by a mountain or a hill without trees
 you will think "that sucker could sequester millions of tons of carbon",
