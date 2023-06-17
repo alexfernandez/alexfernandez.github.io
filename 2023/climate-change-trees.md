@@ -121,7 +121,7 @@ so we can round our numbers to make them easier to deal with.
 Let's convert to the international system,
 remembering that the prefix _giga_ means 10^9 and a ton is just a million grams:
 
-    T(CO₂) ≈ 1.6 × 1000 × 10^9 × 10^6 g ≈ 1.6 × 10^18 g.
+    T(CO₂) ≈ 1600 × 10^9 × 10^6 g ≈ 1.6 × 10^18 g.
 
 How much carbon is that exactly?
 A molecule of CO₂ has one atom of carbon (C) with atomic weight 12 and two O's each with atomic 16;
