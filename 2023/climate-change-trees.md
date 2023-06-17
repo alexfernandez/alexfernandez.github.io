@@ -138,6 +138,8 @@ which is nice because they are easily manageable.
 
 Some part of that carbon has by now been absorbed by the oceans and other natural processes,
 but we can assume that most of it remains floating around.
+In any case we want to go back to our beautiful, uncarbonized world of 1940,
+minus the world war raging at the time, I suppose.
 
 Good! We are getting there.
 
