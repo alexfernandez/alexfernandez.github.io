@@ -124,7 +124,7 @@ remembering that the prefix _giga_ means 10^9 and a ton is just a million grams:
     T(CO₂) ≈ 1600 × 10^9 × 10^6 g ≈ 1.6 × 10^18 g.
 
 How much carbon is that exactly?
-A molecule of CO₂ has one atom of carbon (C) with atomic weight 12 and two O's each with atomic 16;
+A molecule of CO₂ has one atom of carbon (C) with atomic weight 12 and two oxigens (O) each with atomic weight 16;
 the total portion of carbon is thus 12/(12+16+16) ≈ 27%:
 
     T(C) ≈ 0.27 × 1.6 × 10^18 g ≈ 0.4 × 10^18 g.
@@ -134,8 +134,9 @@ The official name is "half an exagram",
 although we can call it more familiarly "half a teraton",
 which has more punch.
 In the press you will find numbers as **400 gigatons of carbon**,
-which is nice because they are manageable numbers.
-Some part of that has by now been absorbed by the oceans and other natural processes,
+which is nice because they are easily manageable.
+
+Some part of that carbon has by now been absorbed by the oceans and other natural processes,
 but we can assume that most of it remains floating around.
 
 Good! We are getting there.
