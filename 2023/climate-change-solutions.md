@@ -1,7 +1,7 @@
 ---
 title: '🥵 Some Solutions to Climate Change'
 subtitle: 'Saving the World One Degree at a Time'
-footer: Published on 2023-06-12, last modified on 2023-06-12.
+footer: Published on 2023-06-12, last modified on 2023-06-17.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
@@ -101,5 +101,6 @@ But this process of estimation is a big part of the fun!
 
 # ⏭️ To Be Continued
 
-Stay tuned for the next episodes!
+The next episode is
+[🌲 Climate Change: Planting Trees](/2023/climate-change-trees).
 

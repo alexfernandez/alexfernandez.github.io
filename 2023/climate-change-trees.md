@@ -1,28 +1,31 @@
 ---
 title: '🌲 Climate Change: Planting Trees'
-subtitle: '🥵 Some Solutions to Climate Change'
-footer: Published on 2023-06-11, last modified on 2023-06-11.
+subtitle: '🥵 Some Solutions to Climate Change, Part 2'
+footer: Published on 2023-06-17, last modified on 2023-06-17.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
 
 Climate change is upon us,
 and we want to do something about it.
+Why not plant a few trees?
 
-## 🌲 Lots of Trees
+# 🌲 Lots of Trees
 
-The first solution can be a bit disappointing:
-planting lots of trees.
-I am sure you were looking for clever carbon-capture devices
+Some people are proposing a solution to climate change which can be a bit disappointing:
+just planting trees.
+I am sure you prefer to think of clever carbon-capture devices
 that could turn the tide and suck all that carbon out of the skies,
 using modern technology.
-Problem is, none of it works properly.
+Problem is, none of it works properly yet,
+and possibly will never work.
 
 Meanwhile Mother Nature has created these wonderful machines
 that have evolved during millions of years to become better at basically one thing:
 convert CO₂ to carbon in their trunks.
 In the process they also generate sugars, create seeds and deter hungry animals,
-but these are secondary interests.
+plus give shade and provide for excellent furniture.
+But these are secondary interests.
 
 Just how many trees can we realistically plant in the world?
 Many areas are already covered in forests; others are deserts.
@@ -31,26 +34,26 @@ there are also cities and roads.
 We can of course plant trees in many of these places:
 as hedges of fields,
 in our streets,
-even as vertical gardens in buildings.
+even on top of buildings.
 
-Some studies (e.g.
-[this one]())
-say that a trillion (10^12) trees are feasible.
+Some studies say that a trillion (10^12) trees are feasible,
+like 
+[this one by Crowther _et al_](https://web.archive.org/web/20190502122937id_/https://www.biorxiv.org/content/biorxiv/early/2017/11/07/210062.full.pdf))
+or
+[this one by Bastin _et al_](https://www.science.org/doi/10.1126/science.aax0848).
 Note: throughout the article I'm using US billions (10^9, or a thousand millions)
-and trillions (10^12, or a million millions).
+and US trillions (10^12, or a million millions).
 
 ![Spoiler alert: what a trillion trees look like. Source: the author.](pics/climate-change-cube.png "A cube with sides of 9 km, made of wood. But we are getting ahead of ourselves.")
 
-The publications
-[CNN](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
-[decade](https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html)
-when in reality it could wipe out all the excess carbon.
-I suspect that the difference stems from the confusion between
-tons of CO₂ and tons of carbon.
-
-[Trillion trees](https://trilliontrees.org/).
-[Trillion trees](https://www.plant-for-the-planet.org/trillion-trees/).
+As it happens,
+some people took it seriously,
+including
+[Trillion Trees](https://trilliontrees.org/),
+another [Trillion Trees](https://www.plant-for-the-planet.org/trillion-trees/),
+and the
 [World Economic Forum](https://www.weforum.org/agenda/2020/01/one-trillion-trees-world-economic-forum-launches-plan-to-help-nature-and-the-climate/).
+It's such a catchy name!
 
 Another very interesting possibility is using algae,
 which are more efficient because they already have all the water necessary in their surroundings.
@@ -58,7 +61,10 @@ These techniques are very likely more difficult to implement than just planting 
 and can have other side effects.
 So we will focus on trees.
 
-### ⚡ Efficiency
+## ⚡ Efficiency
+
+Let us approach the matter from a different perspective:
+just how many trees do we need?
 
 We will divide the problem into three simpler steps:
 find out total excess carbon in the atmosphere `T(C)`,
@@ -76,7 +82,7 @@ or solving for number of trees:
 That's it!
 Problem solved, Earth saved.
 
-#### 🛢️ Total Excess Carbon
+### 🛢️ Total Excess Carbon
 
 First let's estimate the total amount of excess carbon in the atmosphere.
 If we look at the [data from Statista](https://www.statista.com/statistics/276629/global-co2-emissions/),
@@ -107,10 +113,10 @@ The official name is "half an exagram",
 although we can call it more familiarly "half a teraton",
 which has more punch.
 Some part of that has by now been absorbed by the oceans and other natural processes,
-but most of it remains there.
+but most of it remains floating around.
 Good! We are getting there.
 
-#### 🪵 Carbon per Tree
+### 🪵 Carbon per Tree
 
 Now let's estimate how much carbon can we store in a tree.
 Let's assume an average 4 meter tall tree, with a trunk radius of 25 cm;
@@ -154,7 +160,7 @@ Around 60 kg per tree, below an order of magnitude.
 Keep in mind that every tree above 75 mm of diameter is counted in the above inventory,
 while we are considering mature 4 meter tall trees.
 
-#### 🌳 Number of Trees
+### 🌳 Number of Trees
 
 Finally, can we plant enough trees?
 
@@ -219,12 +225,52 @@ All these trees would make up a cube with sides of approximately 9 km:
 
     V(world) = N(world) × V(tree) ≈ 0.5 × 10^12 × 1.5 m³ = 0.75 × 10^12 m³ ≈ (9 km)³.
 
-[Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
-has a number of projects related to forests,
-[tree plantations](https://drawdown.org/solutions/tree-plantations-on-degraded-land)
-accounting for 22 gigatons of CO₂.
+## 🎚️ Some Checks
 
-### 💊 Side Effects
+The climate scientist Thomas Crowther,
+cited above,
+estimates that there are [around 300 gigatons](https://crowtherlab.com/whats-the-potential-of-a-trillion-trees/)
+of excess carbon in the atmosphere.
+We estimated 400 gigatons above, so not bad!
+
+In 2019 there were some publications about the
+[trillion](https://edition.cnn.com/2019/04/17/world/trillion-trees-climate-change-intl-scn/index.html).
+[trees](https://www.independent.co.uk/climate-change/news/forests-climate-change-co2-greenhouse-gases-trillion-trees-global-warming-a8782071.html),
+saying that such a project would suck the equivalent carbon of a decade of emissions,
+when according to our estimation it could wipe out all the excess carbon.
+[Bastin et al](https://www.science.org/doi/10.1126/science.abc8905)
+later corrected that it might wipe out up to two thirds of all carbon,
+closer to our estimate.
+I suspect that the difference stems from the basic confusion between
+tons of CO₂ and tons of carbon.
+
+### 🌐 Massive Scale
+
+Is it even possible to physically plant one million million trees?
+[Crowther says](https://crowtherlab.com/whats-the-potential-of-a-trillion-trees/):
+
+> if you started planting 2000 years ago and planted a million trees every day, [...], after more than 2000 years of daily planting at that massive scale, you’d still be under three quarters of the way to one trillion trees!
+
+Very nice Fermi estimation there, mate!
+Although let me point out that there are 7 billion people interested in stopping climate change;
+it makes no sense to do some centralized project with one agency doing all the work.
+If we pay a million people to plant one tree per minute,
+or a thousand per day,
+the job would be done in about three years.
+
+What about the possibility of planting so many trees?
+[Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
+is a project to categorize and quantify possible solutions to climate change.
+They have a number of projects related to forests,
+among them
+[tree plantations](https://drawdown.org/solutions/tree-plantations-on-degraded-land)
+accounting for 22 gigatons of CO₂,
+All of them combined are 217 gigatons of CO₂,
+or less than 55 gigatons of carbon;
+quite disappointing when compared to the excess ~1200 gigatons we have to deal with.
+I am not sure they are ambitious enough.
+
+## 💊 Side Effects
 
 The side effects of planting a lot of trees are generally very nice:
 having a lot of trees.
@@ -232,10 +278,18 @@ They cool the surroundings,
 help fixate the ground and provide a living environment for other creatures.
 In cities they lower the temperature of a street by at least five degrees in summer.
 
+Not everyone is happy though.
+There were
+[quite a lot of objections](https://www.theguardian.com/environment/2021/sep/01/ive-never-said-we-should-plant-a-trillion-trees-what-ecopreneur-thomas-crowther-did-next-aoe)
+to these "trillion trees" projects,
+from ecosystem degradation to questions about the amount of carbon sucked in.
+
 There's the matter of albedo (or proportion of sunlight reflected):
 trees are generally darker than rock,
 and therefore can negate some of the benefits of carbon capture by absorbing heat.
-But this is a 
+But this is a complicated matter far beyond what we can explore here.
+
+### 🐟 Extra Carbon Sleeps with the Fish
 
 Also, what do we do with all that carbon once it is stored in trees?
 If we just leave it there then there is a limit to the carbon taken from the atmosphere;
@@ -256,14 +310,30 @@ But we are trying to prevent a giant ecological catastrophe here,
 so all things considered it may be worth it.
 The trench is about 2550 km long so not everything needs to go into the deepest point.
 
+### 🤑 Cheap Wood
+
 Maybe we can even convert them into furniture and store them in our homes!
 With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
 storing half a metric ton of carbon per house would clear around one gigaton of carbon.
 Not much, but every bit helps.
+
 There are many things that we can do with cheap wood.
 Perhaps the world would start using more for construction,
 [like in the US](https://www.thehousedesigners.com/articles/how-many-trees-does-it-take-to-build-a-house.asp).
 I'm sure I'm not alone in wanting to have more things built of this noble material.
 
-# ⏭️ To Be Continued
+# Conclusion
+
+I hope that every time you pass by a mountain or a hill without trees
+you will think "that sucker could sequester millions of tons of carbon",
+like I do now.
+We are in the midst of a global emergency that will need to be addressed by many different means;
+and trees can be our number one ally as they have been for millions of years.
+
+## ⏭️ To Be Continued
+
+This is the second part of the series about climate change,
+which started with
+[🥵 Some Solutions to Climate Change](/2023/climate-change-solutions).
+To be continued!
 
