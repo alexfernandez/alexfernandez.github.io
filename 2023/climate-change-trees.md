@@ -3,12 +3,14 @@ title: '🌲 Climate Change: Planting Trees'
 subtitle: '🥵 Some Solutions to Climate Change, Part 2'
 footer: Published on 2023-06-17, last modified on 2023-06-17.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
+image: https://pinchito.es/2023/pics/climate-change-planting.jpg
 ---
 
 Climate change is upon us,
 and we want to do something about it.
 Why not plant a few trees?
+
+![Forestation at Dzikunze Kilifi. Source: [Chris Obiero](https://commons.wikimedia.org/wiki/File:Forestation_at_Dzikunze_Kilifi_-_importance_of_trees,_encouraging_tree_planting.jpg).](pics/climate-change-planting.jpg "New trees planted at Dzikunze Kilifi, Kenia. Still thin but tall, over a patch of earth with a few bushes.")
 
 # 🌲 Lots of Trees
 
