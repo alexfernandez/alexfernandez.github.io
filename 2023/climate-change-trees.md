@@ -71,7 +71,7 @@ and the
 It's such a catchy name!
 
 Another very interesting possibility is using algae,
-which are even more efficient in converting CO₂ carbon because they already have all the necessary water in their surroundings.
+which are even more efficient in converting CO₂ to carbon because they already have all the necessary water in their surroundings.
 These techniques are very likely more difficult to implement than just planting trees,
 and can have other side effects.
 So we will focus on trees.
