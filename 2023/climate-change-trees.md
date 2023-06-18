@@ -297,7 +297,9 @@ accounting for 22 gigatons of CO₂,
 All of them combined are 217 gigatons of CO₂,
 or less than 55 gigatons of carbon;
 quite disappointing when compared to the excess ~1200 gigatons (of CO₂) we have to deal with.
-I am not sure they are ambitious enough.
+I am not sure they are ambitious enough,
+but maybe our little plan is not feasible.
+We should definitely strive to make it possible.
 
 ## 💊 Side Effects
 
