@@ -1,12 +1,12 @@
 ---
-title: '🪩 Mirror Roofss''
+title: '🪞 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change'
 footer: Published on 2023-06-03, last modified on 2023-06-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
 
-## 🪩 Mirror Roofs
+## 🪞 Mirror Roofs
 
 Our second solution involves a little bit of creativity.
 Since the Earth is heated mainly by the Sun,
@@ -37,7 +37,7 @@ and how much would they affect the temperature of the planet
 `ΔT(mirror)`,
 where the capital delta `Δ` represents the difference.
 
-#### 🪞 How Many Mirrors
+#### 🧮 How Many Mirrors
 
 Each person on Earth occupies perhaps 10 square meters of space.
 In cities it is much less (since we live in buildings);
