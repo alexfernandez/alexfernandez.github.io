@@ -49,7 +49,7 @@ like
 [this one by Crowther _et al_](https://web.archive.org/web/20190502122937id_/https://www.biorxiv.org/content/biorxiv/early/2017/11/07/210062.full.pdf)
 or
 [this one by Bastin _et al_](https://www.science.org/doi/10.1126/science.aax0848).
-Note that some of the authors are repeated,
+Note that some of the authors are repeated in both studies,
 that they were already experts in counting trees,
 and that some of their conclusions are disputed,
 as we will see below.
