@@ -328,7 +328,7 @@ what do we do with all that carbon once it is stored in trees?
 If we just leave it there then there is a limit to the carbon taken from the atmosphere;
 and it might burn at some point getting us back to the starting point.
 
-As we saw above, each tree trunk would have a volume of around 1.5 m³.
+As we saw above, each tree (including branches) would have a volume of around 1.5 m³.
 All these trees would make up a cube with sides of approximately 9 km:
 
     V(world) = N(world) × V(tree) ≈ 0.5 × 10^12 × 1.5 m³ = 0.75 × 10^12 m³ ≈ (9 km)³.
@@ -350,6 +350,9 @@ so all things considered it may be worth it.
 The trench is about 2550 km long so not everything needs to go into the deepest point.
 
 Ideally we would find local trenches so we don't need to ship all trunks to the Pacific Ocean.
+Also, apparently the pressure would
+[flatten our trees](https://what-if.xkcd.com/160/),
+so we might fit essentially infinite trees in a deep enough trench.
 These trees might even become oil in a few million years!
 
 ### 🤑 Cheap Wood
