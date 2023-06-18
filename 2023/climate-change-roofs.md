@@ -1,10 +1,14 @@
 ---
 title: '🪞 Mirror Roofs'
-subtitle: '🥵 Some Solutions to Climate Change'
-footer: Published on 2023-06-03, last modified on 2023-06-03.
+subtitle: '🥵 Some Solutions to Climate Change, Part 3'
+footer: Published on 2023-06-18, last modified on 2023-06-18.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
+
+Climate change is upon us,
+and we want to do something about it.
+Why not put a mirror on your roof?
 
 ## 🪞 Mirror Roofs
 
@@ -154,4 +158,12 @@ Now 1.5 degrees are significant cooling.
 Our little mirror project could become a real game changer!
 
 # ⏭️ To Be Continued
+
+This is the third part of the series about climate change:
+
+* Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
+* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees).
+
+To be continued!
+
 

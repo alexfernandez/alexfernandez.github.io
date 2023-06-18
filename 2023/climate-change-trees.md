@@ -1,7 +1,7 @@
 ---
 title: '🌲 Climate Change: Planting Trees'
 subtitle: '🥵 Some Solutions to Climate Change, Part 2'
-footer: Published on 2023-06-17, last modified on 2023-06-18.
+footer: Published on 2023-06-17, last modified on 2023-06-19.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-planting.jpg
 ---
@@ -146,10 +146,11 @@ Good! We are getting there.
 ### 🪵 Carbon per Tree
 
 Now let's estimate how much carbon we can store in a tree.
-Let's assume an average 4 meter tall tree, with a trunk radius of 25 cm (or 0.25 m);
+Let's assume an average 6 meter tall tree, with a trunk diameter trunk of 40 cm
+(i.e. radius is 0.2 m);
 remembering the formula for a cilinder this gives us a volume `V(trunk)` of:
 
-    V(trunk) ≈ π × 0.25 m × 0.25 m × 4 m ≈ 0.75 m³.
+    V(trunk) ≈ π × 0.2 m × 0.2 m × 6 m ≈ 0.75 m³.
 
 ![A simplified tree. Source: the author](pics/climate-change-tree.png "A cylindrical trunk with a cross-section given by its radius, below a canopy of branches and leaves, and in the ground some roots.")
 
@@ -187,7 +188,7 @@ each tree will hold
 
 Around 60 kg per tree; our solution is off by more than an order of magnitude!
 Keep in mind that every tree above 75 mm of diameter is counted in the above inventory,
-while we are considering mature 4 meter tall trees.
+while we are considering mature 6 meter tall, 40 cm wide trees.
 So we can go ahead with our estimation for rather largish trees.
 
 ### 🌳 Number of Trees
@@ -220,7 +221,7 @@ After all, according to legend [Strabo wrote](https://earth.org/deforestation-in
 that a squirrel could cross Spain from Gibraltar to the Pyrennes without touching the ground.
 A grid of trees spaced 10 meters would yield 100 × 100 = 10000 trees per square kilometer.
 
-![Urban trees: trunk is actually ~40 cm wide, quite taller than 4 meters, spaced 7 meters apart. Source: the author.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
+![Urban trees: trunk is actually ~40 cm wide, quite taller than 6 meters, spaced 7 meters apart. Source: the author.](pics/climate-change-urban.jpg "Some large platanus (plane-tree) trees lining a street in Madrid.")
 
 The total for Spain would be:
 
@@ -344,7 +345,7 @@ so maybe we can dump a teraton of wood down there?
 To be fair it would not be nice to the existing ecosystems;
 there are bacteria and even fascinating
 [giant amoeba](https://www.latimes.com/archives/blogs/nation-now/story/2011-10-26/giant-amoeba-found-in-mariana-trench-6-6-miles-beneath-the-sea)
-10 cm big.
+that measure up to 10 cm long.
 But we are trying to prevent a giant ecological catastrophe here,
 so all things considered it may be worth it.
 The trench is about 2550 km long so not everything needs to go into the deepest point.
