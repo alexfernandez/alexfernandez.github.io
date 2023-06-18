@@ -349,7 +349,7 @@ But we are trying to prevent a giant ecological catastrophe here,
 so all things considered it may be worth it.
 The trench is about 2550 km long so not everything needs to go into the deepest point.
 
-![Plenty of ocean depths for everyone. Source: [NASA/GFSC/Horace Mitchell & James O'Donoghue](https://commons.wikimedia.org/wiki/File:Draining_the_Oceans_video_by_NASA.webm).](pics/climate-change-depths.jpg "Map of the Earth showing ocean depths beyond 510 m. .")
+![Plenty of ocean depths for everyone. Source: [NASA/GFSC/Horace Mitchell & James O'Donoghue](https://commons.wikimedia.org/wiki/File:Draining_the_Oceans_video_by_NASA.webm).](pics/climate-change-depths.jpg "Map of the Earth showing ocean depths beyond 510 m. Most of the oceans are below this depth, plus also most of the Mediterranean, black and red seas.")
 
 Ideally we would find local trenches so we don't need to ship all trunks to the Pacific Ocean.
 Also, apparently the pressure would
