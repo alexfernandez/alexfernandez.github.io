@@ -293,6 +293,14 @@ the job would be done in about three years
 (a thousand days).
 
 What about the possibility of planting so many trees?
+Apparently [semiarid zones](https://docsbay.net/arid-lands-challenges-and-hopes)
+cover 17.7% of the globe,
+and they might be the prime targets for reforestation.
+Not so far from the 30% we needed;
+plus other areas (like the dry subhumid with 9.9% of the surface,
+or the agricultural soil)
+might help.
+
 [Project Drawdown](https://drawdown.org/solutions/table-of-solutions)
 is a project to categorize and quantify possible solutions to climate change.
 They have a number of projects related to forests,
