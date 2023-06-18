@@ -319,7 +319,7 @@ from ecosystem degradation to questions about the amount of carbon sucked in.
 There's the matter of albedo (or proportion of sunlight reflected):
 trees are generally darker than rock,
 and therefore can negate some of the benefits of carbon capture by absorbing heat.
-But this is a complex issue far beyond what we can explore here.
+This is a complex issue far beyond what we can explore here.
 
 ### 🐟 Extra Carbon Sleeps with the Fish
 
