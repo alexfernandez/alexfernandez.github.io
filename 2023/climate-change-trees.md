@@ -1,7 +1,7 @@
 ---
 title: '🌲 Climate Change: Planting Trees'
 subtitle: '🥵 Some Solutions to Climate Change, Part 2'
-footer: Published on 2023-06-17, last modified on 2023-06-17.
+footer: Published on 2023-06-17, last modified on 2023-06-18.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-planting.jpg
 ---
@@ -193,6 +193,7 @@ So we can go ahead with our estimation for rather largish trees.
 ### 🌳 Number of Trees
 
 Finally, can we plant enough trees?
+Is there even space for them?
 
 As we saw at the beginning,
 to remove all excess carbon from the atmosphere we need a grand total of:
@@ -200,7 +201,7 @@ to remove all excess carbon from the atmosphere we need a grand total of:
     N(trees) = T(C) / m(C) ≈ 0.4 × 10^18 g / 0.75 × 10^6 g ≈ 0.5 × 10^12.
 
 Or around half a trillion trees.
-Is this possible at all?
+Can we find a place for them all?
 As we saw above, many studies have looked at this question,
 with varied answers.
 Here we will just do our own Fermi estimation.
