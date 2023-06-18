@@ -358,7 +358,7 @@ so we might fit essentially infinite trees in a deep enough trench.
 These trees might even become oil in a few million years!
 
 
-### 🤑 Cheap Wood
+### 🪓 Cheap Wood
 
 Maybe we can even convert some of these trees into furniture and store them in our homes!
 With [2 billion households in the world](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households),
