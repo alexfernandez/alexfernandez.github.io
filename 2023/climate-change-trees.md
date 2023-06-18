@@ -146,9 +146,13 @@ Good! We are getting there.
 ### 🪵 Carbon per Tree
 
 Now let's estimate how much carbon we can store in a tree.
-Let's assume an average 6 meter tall tree, with a trunk diameter trunk of 40 cm
-(i.e. radius is 0.2 m);
-remembering the formula for a cilinder this gives us a volume `V(trunk)` of:
+Let's assume an average 6 meter tall tree, with a trunk diameter of 40 cm
+(i.e. radius is 0.2 m).
+Remembering the formula for the volume of a cylinder:
+
+    V(cylinder) = π × radius × radius × height,
+
+this gives us a volume `V(trunk)` of:
 
     V(trunk) ≈ π × 0.2 m × 0.2 m × 6 m ≈ 0.75 m³.
 
