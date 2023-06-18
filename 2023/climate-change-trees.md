@@ -377,6 +377,8 @@ you will think "that sucker could sequester millions of tons of carbon",
 like I do now.
 We are in the midst of a global emergency that will need to be addressed by many different means;
 and trees can be our number one ally as they have been for millions of years.
+Even if they don't solve the underlying problem,
+they may help us fight its worst consequences.
 
 ## ⏭️ To Be Continued
 
