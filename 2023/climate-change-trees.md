@@ -353,7 +353,7 @@ The trench is about 2550 km long so not everything needs to go into the deepest 
 
 Ideally we would find local trenches so we don't need to ship all trunks to the Pacific Ocean.
 Also, apparently the pressure would
-[flatten our trees](https://what-if.xkcd.com/160/),
+[flatten anything beyond a certain depth](https://what-if.xkcd.com/160/),
 so we might fit essentially infinite trees in a deep enough trench.
 These trees might even become oil in a few million years!
 
