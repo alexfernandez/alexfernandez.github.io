@@ -357,6 +357,10 @@ Also, apparently the pressure would
 so we might fit essentially infinite trees in a deep enough trench.
 These trees might even become oil in a few million years!
 
+One final point: most wood does not float,
+but that is just because it contains air.
+Simply keeping it in water for a few weeks
+[is enough to make it sink](https://backyardfoodgrowing.com/how-long-does-it-take-for-driftwood-to-sink-lets-find-out/).
 
 ### 🪓 Cheap Wood
 
