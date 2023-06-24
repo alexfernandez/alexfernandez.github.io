@@ -86,21 +86,21 @@ This gives us a total area of around 500 billion square meters.
 Converting to square kilometers:
 
     1 km² = 1000000 m²,
-    A(buildings) ≈ 700 × 10^9 m² × 1 km² / 10^6 m² = 700 000 km².
+    A(buildings) ≈ 500 × 10^9 m² × 1 km² / 10^6 m² = 500 000 km².
+
+Close to half a million square kilometers.
 
 #### 🧮 Percentage of the Planet
 
-What % of the total surface can we cover in mirrors?
-
-7 billion people will occupy 700 billion square meters.
-But what really interests us is the % of total surface.
+What really interests us is the % of the total surface of the planet
+that we can cover in mirrors.
 
 Given that the Earth has
 [500 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf)
 including the oceans,
 we have at our disposal well below 1% of the total surface of the planet.
 
-    p(buildings) ≈  700 000 km² / 500 000 000 km² ≈ 0.14%.
+    p(buildings) ≈  500 000 km² / 500 000 000 km² ≈ 0.1%.
 
 This doesn't seem enough.
 We have to turn to other sources:
@@ -108,19 +108,6 @@ perhaps consider all human-made structures.
 Add roads and other pavimented surfaces and we can perhaps push it a bit further.
 
     p(mirror) ≈ 0.2%.
-
-Let us check this estimate with independent data.
-According to NASA urban regions cover
-[0.2% of the Earth's land surface](https://www.nasa.gov/vision/earth/environment/urban_effects.html).
-According to the
-[Food and Agriculture Organization of the UN](https://www.fao.org/uploads/media/glc-share-doc.pdf),
-artificial surfaces cover 0.6% of the land surface.
-For the total surface we have to multiply by the proportion of land surface,
-or 150 / 500 million square km:
-
-    p(artificial) ≈ 0.6% × A(land) / A(Earth) ≈ 0.6% × 150 / 500 ≈ 0.18%.
-
-Our prediction of 0.2% was not bad at all!
 
 #### 🥶 Expected Cooling
 
@@ -148,6 +135,23 @@ If we reflect 0.2% of the heat we might decrease the temperature by around half 
 Not a lot.
 So this little project is perhaps not worth the hassle,
 at least globally.
+
+### 🎚️  Some Checks
+
+How well did we do with our Fermi estimates?
+
+Let us check this estimate with independent data.
+According to NASA urban regions cover
+[0.2% of the Earth's land surface](https://www.nasa.gov/vision/earth/environment/urban_effects.html).
+According to the
+[Food and Agriculture Organization of the UN](https://www.fao.org/uploads/media/glc-share-doc.pdf),
+artificial surfaces cover 0.6% of the land surface.
+For the total surface we have to multiply by the proportion of land surface,
+or 150 / 500 million square km:
+
+    p(artificial) ≈ 0.6% × A(land) / A(Earth) ≈ 0.6% × 150 / 500 ≈ 0.18%.
+
+Our prediction of 0.2% was not bad at all!
 
 ### 💊 Side Effects
 
