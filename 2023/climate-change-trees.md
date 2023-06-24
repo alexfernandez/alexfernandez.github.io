@@ -332,7 +332,12 @@ from ecosystem degradation to questions about the amount of carbon sucked in.
 There's the matter of albedo (or proportion of sunlight reflected):
 trees are generally darker than rock,
 and therefore can negate some of the benefits of carbon capture by absorbing heat.
-This is a complex issue far beyond what we can explore here.
+On the other hand it is well known that
+[trees attract rain](https://www.learningfromnature.com.au/drought-proof-increasing-rainfall/),
+increasing the cloud cover and decreasing the albedo.
+It is not easy to guess which way the net heat gain will go.
+This is a complex issue far beyond what we can explore here;
+we will leave it for people with complex models.
 
 ### 🐟 Extra Carbon Sleeps with the Fish
 
