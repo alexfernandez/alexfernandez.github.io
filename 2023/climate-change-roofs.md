@@ -1,13 +1,16 @@
 ---
 title: '🪞 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change, Part 3'
-footer: Published on 2023-06-18, last modified on 2023-06-18.
+footer: Published on 2023-06-24, last modified on 2023-06-24.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
 
 Climate change is upon us,
-and we want to do something about it.
+and we want to [do something about it](/2023/climate-change-solutions).
+We already saw that we could
+[plant some trees](/2023/climate-change-trees),
+but maybe we can do something closer to home.
 Why not put a mirror on your roof?
 
 ## 🪞 Mirror Roofs
@@ -22,16 +25,19 @@ we may use a reflective cover.
 Apart from cooling the building itself,
 it will send those pesky infrared radiations back to space where they belong.
 It doesn't even need to be a proper mirror,
-just some kind of surface that reflects light in the infrared spectrum.
+just some kind of surface that reflects most light in the infrared spectrum,
+which is what heats the Earth the most.
 We don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
 
 ![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
-Getting an international agreement for roof mirrors would probably not be easy.
-
 ### ⚡ Efficiency
+
+The first step for a mental exercise like this should always be to do a
+[Fermi estimation](/2023/climate-change-solutions#fermi-estimation),
+to get an idea about its feasibility.
 
 Let us estimate how much would roof mirrors affect the Earth's temperature.
 Again, we divide the problem into simpler estimations:
@@ -43,23 +49,51 @@ where the capital delta `Δ` represents the difference.
 
 #### 🧮 How Many Mirrors
 
-Each person on Earth occupies perhaps 10 square meters of space.
-In cities it is much less (since we live in buildings);
-in villages it is likely bigger.
-But we also use offices and malls,
-community buildings and stadiums,
-museums and palaces;
-so this estimate is very likely on the low side;
-all in all we might use perhaps 100 m².
-How many square meters of roofs do we use?
-Let's say it is equivalent to 100 square meters.
+We beging by estimating the area covered by buildings on the planet.
+How much space does each person occupy?
 
-7 billion people will occupy 700 billion square meters.
-But what really interests us is the % of total surface.
+Let us say that each person on Earth lives in a room which is typically some 10 square meters.
+Add to that living quarters (kitchen, living room, bathroom)
+and it might be twice or three times the space;
+we will go add twice the space, getting to 30 m² per person.
+In cities it will probably be less on average, since we live in buildings;
+in villages it is likely bigger.
+A useful data point is that
+[around half of the world population live in cities](https://www.worldbank.org/en/topic/urbandevelopment/overview),
+so we can go with our average.
+
+How much roofing is that?
+Again, people in cities live in several heights,
+while villages tend to be flatter.
+We can estimate an average of two storeys,
+which gives us 15 m² of roof on top of every house.
+
+Now we need to add all those buildings where we do our daily activities:
+factories and shops, offices and malls,
+community buildings and stadiums,
+museums and palaces.
+Let us add again about the same amount of roofing for work,
+for shopping and for leisure;
+getting to a total of 60 m² of various roofs per person, `A(person)`:
+
+Now let's compute the total of roofs.
+Since we recently crossed the mark of
+[8 billion people](https://www.worldometers.info/world-population/):
+
+    A(buildings) = N(people) × A(person) ≈ 8 * 10^9 * 60 m² ≈ 5 * 10^11.
+
+This gives us a total area of around 500 billion square meters.
 Converting to square kilometers:
 
     1 km² = 1000000 m²,
     A(buildings) ≈ 700 × 10^9 m² × 1 km² / 10^6 m² = 700 000 km².
+
+#### 🧮 Percentage of the Planet
+
+What % of the total surface can we cover in mirrors?
+
+7 billion people will occupy 700 billion square meters.
+But what really interests us is the % of total surface.
 
 Given that the Earth has
 [500 million km²](https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf)
@@ -116,6 +150,8 @@ So this little project is perhaps not worth the hassle,
 at least globally.
 
 ### 💊 Side Effects
+
+Getting an international agreement for roof mirrors would probably not be easy.
 
 The nice part of this project is that infrared mirrors on roofs
 would help [cool our buildings](https://www.architecturaldigest.com/story/mirror-on-roof-renovation),

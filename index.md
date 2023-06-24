@@ -4,8 +4,9 @@ subtitle: 'You have found the secret lair of Alex Fernández.'
 footer: Enjoy!
 ---
 
-I am a developer (little) known as [@pinchito](https://twitter.com/pinchito),
-[@pinchito@mastodon.social](https://mastodon.social/@pinchito)
+I am a developer (little) known as
+[pinchito on Twitter](https://twitter.com/pinchito),
+[\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
 🧑‍💻 Here on my blog I like to write about my job in software engineering.  

@@ -68,21 +68,29 @@
 										<h1>🪞 Mirror Roofs</h1>
 										<p>🥵 Some Solutions to Climate Change, Part 3<p>
 									</header>
-																				<p>Climate change is upon us, and we want to do something about it. Why not put a mirror on your roof?</p>
+																				<p>Climate change is upon us, and we want to <a href="/2023/climate-change-solutions">do something about it</a>. We already saw that we could <a href="/2023/climate-change-trees">plant some trees</a>, but maybe we can do something closer to home. Why not put a mirror on your roof?</p>
                     <h2 id="mirror-roofs">🪞 Mirror Roofs</h2>
                     <p>Our second solution involves a little bit of creativity. Since the Earth is heated mainly by the Sun, why not divert some of that heat back to space?</p>
-                    <p>Instead of installing dark roofs, like roofing tars, we may use a reflective cover. Apart from cooling the building itself, it will send those pesky infrared radiations back to space where they belong. It doesn’t even need to be a proper mirror, just some kind of surface that reflects light in the infrared spectrum. We don’t need an expensive <a href="https://webb.nasa.gov/content/observatory/ote/mirrors/index.html">gold foil</a>; just <a href="https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf">aluminium foil</a> is a good mirror for infrared light.</p>
+                    <p>Instead of installing dark roofs, like roofing tars, we may use a reflective cover. Apart from cooling the building itself, it will send those pesky infrared radiations back to space where they belong. It doesn’t even need to be a proper mirror, just some kind of surface that reflects most light in the infrared spectrum, which is what heats the Earth the most. We don’t need an expensive <a href="https://webb.nasa.gov/content/observatory/ote/mirrors/index.html">gold foil</a>; just <a href="https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf">aluminium foil</a> is a good mirror for infrared light.</p>
                     <figure>
                     <img src="pics/climate-change-mirrors.jpg" title="A building made with lots of shiny mirror surfaces on the outside." alt="" /><figcaption>Our cities are about to get shiny, baby. <a href="https://pxhere.com/en/photo/917349">Source: PxHere.</a>.</figcaption>
                     </figure>
-                    <p>Getting an international agreement for roof mirrors would probably not be easy.</p>
                     <h3 id="efficiency">⚡ Efficiency</h3>
+                    <p>The first step for a mental exercise like this should always be to do a <a href="/2023/climate-change-solutions#fermi-estimation">Fermi estimation</a>, to get an idea about its feasibility.</p>
                     <p>Let us estimate how much would roof mirrors affect the Earth’s temperature. Again, we divide the problem into simpler estimations: how much area of mirrors we can place on buildings <code>A(mirror)</code>, what percentage of the Earth surface we can cover <code>p(mirror)</code>, and how much would they affect the temperature of the planet <code>ΔT(mirror)</code>, where the capital delta <code>Δ</code> represents the difference.</p>
                     <h4 id="how-many-mirrors">🧮 How Many Mirrors</h4>
-                    <p>Each person on Earth occupies perhaps 10 square meters of space. In cities it is much less (since we live in buildings); in villages it is likely bigger. But we also use offices and malls, community buildings and stadiums, museums and palaces; so this estimate is very likely on the low side; all in all we might use perhaps 100 m². How many square meters of roofs do we use? Let’s say it is equivalent to 100 square meters.</p>
-                    <p>7 billion people will occupy 700 billion square meters. But what really interests us is the % of total surface. Converting to square kilometers:</p>
+                    <p>We beging by estimating the area covered by buildings on the planet. How much space does each person occupy?</p>
+                    <p>Let us say that each person on Earth lives in a room which is typically some 10 square meters. Add to that living quarters (kitchen, living room, bathroom) and it might be twice or three times the space; we will go add twice the space, getting to 30 m² per person. In cities it will probably be less on average, since we live in buildings; in villages it is likely bigger. A useful data point is that <a href="https://www.worldbank.org/en/topic/urbandevelopment/overview">around half of the world population live in cities</a>, so we can go with our average.</p>
+                    <p>How much roofing is that? Again, people in cities live in several heights, while villages tend to be flatter. We can estimate an average of two storeys, which gives us 15 m² of roof on top of every house.</p>
+                    <p>Now we need to add all those buildings where we do our daily activities: factories and shops, offices and malls, community buildings and stadiums, museums and palaces. Let us add again about the same amount of roofing for work, for shopping and for leisure; getting to a total of 60 m² of various roofs per person, <code>A(person)</code>:</p>
+                    <p>Now let’s compute the total of roofs. Since we recently crossed the mark of <a href="https://www.worldometers.info/world-population/">8 billion people</a>:</p>
+                    <pre><code>A(buildings) = N(people) × A(person) ≈ 8 * 10^9 * 60 m² ≈ 5 * 10^11.</code></pre>
+                    <p>This gives us a total area of around 500 billion square meters. Converting to square kilometers:</p>
                     <pre><code>1 km² = 1000000 m²,
                     A(buildings) ≈ 700 × 10^9 m² × 1 km² / 10^6 m² = 700 000 km².</code></pre>
+                    <h4 id="percentage-of-the-planet">🧮 Percentage of the Planet</h4>
+                    <p>What % of the total surface can we cover in mirrors?</p>
+                    <p>7 billion people will occupy 700 billion square meters. But what really interests us is the % of total surface.</p>
                     <p>Given that the Earth has <a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">500 million km²</a> including the oceans, we have at our disposal well below 1% of the total surface of the planet.</p>
                     <pre><code>p(buildings) ≈  700 000 km² / 500 000 000 km² ≈ 0.14%.</code></pre>
                     <p>This doesn’t seem enough. We have to turn to other sources: perhaps consider all human-made structures. Add roads and other pavimented surfaces and we can perhaps push it a bit further.</p>
@@ -96,6 +104,7 @@
                     <pre><code>ΔT(mirror) = T(Earth) × p(mirror) ≈ 300 K × 0.2% = 0.6 K.</code></pre>
                     <p>If we reflect 0.2% of the heat we might decrease the temperature by around half a degree. Not a lot. So this little project is perhaps not worth the hassle, at least globally.</p>
                     <h3 id="side-effects">💊 Side Effects</h3>
+                    <p>Getting an international agreement for roof mirrors would probably not be easy.</p>
                     <p>The nice part of this project is that infrared mirrors on roofs would help <a href="https://www.architecturaldigest.com/story/mirror-on-roof-renovation">cool our buildings</a>, reducing the need for air conditioning. The same is true for <a href="https://www.sciencedaily.com/releases/2016/08/160825152054.htm">windows</a> by the way. Whole cities might also be cooler this way. Even for cold countries this effect would be welcome in summer.</p>
                     <p>Can we do better? How about lining the Sahara with mirrors? What about other deserts? Maintenance would be horrible! But what we can do is install reflective roofs on crops that are sensitive to heat.</p>
                     <p>There have been recent trials of combining <a href="https://www.fastcompany.com/90861486/agrivoltaics-crops-under-solar-panels-good-for-panels">solar panels with agriculture farms</a>, with excellent results. <a href="https://www.wired.com/story/growing-crops-under-solar-panels-now-theres-a-bright-idea/">Crop yields are improved</a> by the combination. We can also combine <a href="https://theconversation.com/can-mirrors-boost-solar-panel-output-and-help-overcome-trumps-tariffs-90663">solar panels with mirrors</a> which increase their efficiency, plus also reflect unused sunlight back to space. Combined with large agricultural areas they might cover vast expanses of land, not just the puny 0.18% of the surface of the planet that we could muster only with buildings. Imagine 5% of the land surface devoted to crops + solar power, reflecting any excess heat back to space.</p>
@@ -115,7 +124,7 @@
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2023-06-18, last modified on 2023-06-18. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2023-06-24, last modified on 2023-06-24. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.
