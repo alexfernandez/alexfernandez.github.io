@@ -33,7 +33,7 @@ is a good mirror for infrared light.
 
 ![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
-# ⚡ Efficiency
+## ⚡ Efficiency
 
 The first step for a mental exercise like this should always be to do a
 [Fermi estimation](/2023/climate-change-solutions#fermi-estimation),
@@ -47,7 +47,7 @@ and how much would they affect the temperature of the planet
 `ΔT(mirror)`,
 where the capital delta `Δ` represents the difference.
 
-## 🧮 How Many Mirrors
+### 🧮 How Many Mirrors
 
 We beging by estimating the area covered by buildings on the planet.
 How much space does each person occupy?
@@ -90,7 +90,7 @@ Converting to square kilometers:
 
 Close to half a million square kilometers.
 
-## 🌐 Percentage of the Planet
+### 🌐 Percentage of the Planet
 
 What really interests us is the % of the total surface of the planet
 that we can cover in mirrors.
@@ -114,7 +114,7 @@ let us estimate twice as much.
 Is this enough?
 Let us see.
 
-## 🥶 Expected Cooling
+### 🥶 Expected Cooling
 
 How much would 0.2% of mirror surfaces affect our temperature?
 A very rough first estimate is based on this idea:
@@ -136,14 +136,14 @@ and it is linear:
 reducing sun heat by 1% would cool the Earth by 2.5 K (or 2.5 C).
 So knowing our proportion of mirrors from before:
 
-    ΔT(mirror) = T(Earth) × p(mirror) ≈ 300 K × 0.2% = 0.6 K.
+    ΔT(mirror) = T(Earth) × p(mirror) ≈ 250 K × 0.2% = 0.5 K.
 
-If we reflect 0.2% of the heat we might decrease the temperature by around half a degree.
+If we reflect 0.2% of the heat from the Sun we might decrease the temperature by around half a degree.
 Not a lot.
 So this little project is perhaps not worth the hassle,
 at least globally.
 
-# 🎚️  Some Checks
+## 🎚️  Some Checks
 
 How well did we do with our Fermi estimates?
 
@@ -160,7 +160,7 @@ or 150 / 500 million square km:
 
 Our prediction of 0.2% was not bad at all!
 
-# 💊 Side Effects
+## 💊 Side Effects
 
 Getting an international agreement for roof mirrors would probably not be easy.
 
@@ -196,13 +196,13 @@ Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
 
 ```
 p(crops+solar) = 1/3 × 5% × A(land) / A(Earth) ≈ 1/3 × 5% × 150/500 ≈ 0.5%,
-```
-```
 ΔT(crops+solar) = 1/3 × T(Earth) × p(crops+solar) ≈ 300 K × 0.5% = 1.5 K.
 ```
 
 Now 1.5 degrees are significant cooling.
 Our little mirror project could become a real game changer!
+
+# 🤔 Conclusion
 
 # ⏭️ To Be Continued
 
