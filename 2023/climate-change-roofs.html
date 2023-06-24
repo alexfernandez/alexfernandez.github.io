@@ -69,16 +69,16 @@
 										<p>🥵 Some Solutions to Climate Change, Part 3<p>
 									</header>
 																				<p>Climate change is upon us, and we want to <a href="/2023/climate-change-solutions">do something about it</a>. We already saw that we could <a href="/2023/climate-change-trees">plant some trees</a>, but maybe we can do something closer to home. Why not put a mirror on your roof?</p>
-                    <h2 id="mirror-roofs">🪞 Mirror Roofs</h2>
+                    <h1 id="mirror-roofs">🪞 Mirror Roofs</h1>
                     <p>Our second solution involves a little bit of creativity. Since the Earth is heated mainly by the Sun, why not divert some of that heat back to space?</p>
                     <p>Instead of installing dark roofs, like roofing tars, we may use a reflective cover. Apart from cooling the building itself, it will send those pesky infrared radiations back to space where they belong. It doesn’t even need to be a proper mirror, just some kind of surface that reflects most light in the infrared spectrum, which is what heats the Earth the most. We don’t need an expensive <a href="https://webb.nasa.gov/content/observatory/ote/mirrors/index.html">gold foil</a>; just <a href="https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf">aluminium foil</a> is a good mirror for infrared light.</p>
                     <figure>
                     <img src="pics/climate-change-mirrors.jpg" title="A building made with lots of shiny mirror surfaces on the outside." alt="" /><figcaption>Our cities are about to get shiny, baby. <a href="https://pxhere.com/en/photo/917349">Source: PxHere.</a>.</figcaption>
                     </figure>
-                    <h3 id="efficiency">⚡ Efficiency</h3>
+                    <h1 id="efficiency">⚡ Efficiency</h1>
                     <p>The first step for a mental exercise like this should always be to do a <a href="/2023/climate-change-solutions#fermi-estimation">Fermi estimation</a>, to get an idea about its feasibility.</p>
                     <p>Let us estimate how much would roof mirrors affect the Earth’s temperature. Again, we divide the problem into simpler estimations: how much area of mirrors we can place on buildings <code>A(mirror)</code>, what percentage of the Earth surface we can cover <code>p(mirror)</code>, and how much would they affect the temperature of the planet <code>ΔT(mirror)</code>, where the capital delta <code>Δ</code> represents the difference.</p>
-                    <h4 id="how-many-mirrors">🧮 How Many Mirrors</h4>
+                    <h2 id="how-many-mirrors">🧮 How Many Mirrors</h2>
                     <p>We beging by estimating the area covered by buildings on the planet. How much space does each person occupy?</p>
                     <p>Let us say that each person on Earth lives in a room which is typically some 10 square meters. Add to that living quarters (kitchen, living room, bathroom) and it might be twice or three times the space; we will go add twice the space, getting to 30 m² per person. In cities it will probably be less on average, since we live in buildings; in villages it is likely bigger. A useful data point is that <a href="https://www.worldbank.org/en/topic/urbandevelopment/overview">around half of the world population live in cities</a>, so we can go with our average.</p>
                     <p>How much roofing is that? Again, people in cities live in several heights, while villages tend to be flatter. We can estimate an average of two storeys, which gives us 15 m² of roof on top of every house.</p>
@@ -89,23 +89,25 @@
                     <pre><code>1 km² = 1000000 m²,
                     A(buildings) ≈ 500 × 10^9 m² × 1 km² / 10^6 m² = 500 000 km².</code></pre>
                     <p>Close to half a million square kilometers.</p>
-                    <h4 id="percentage-of-the-planet">🧮 Percentage of the Planet</h4>
+                    <h2 id="percentage-of-the-planet">🌐 Percentage of the Planet</h2>
                     <p>What really interests us is the % of the total surface of the planet that we can cover in mirrors.</p>
                     <p>Given that the Earth has <a href="https://www.cia.gov/the-world-factbook/static/6c4d9b9a41b27707b6720720df7161d6/Physical_World.pdf">500 million km²</a> including the oceans, we have at our disposal well below 1% of the total surface of the planet.</p>
                     <pre><code>p(buildings) ≈  500 000 km² / 500 000 000 km² ≈ 0.1%.</code></pre>
-                    <p>This doesn’t seem enough. We have to turn to other sources: perhaps consider all human-made structures. Add roads and other pavimented surfaces and we can perhaps push it a bit further.</p>
+                    <p>One per thousand! This doesn’t seem enough. We have to turn to other sources: perhaps consider all human-made structures. Add roads and other pavimented surfaces and we can perhaps push it a bit further; let us estimate twice as much.</p>
                     <pre><code>p(mirror) ≈ 0.2%.</code></pre>
-                    <h4 id="expected-cooling">🥶 Expected Cooling</h4>
-                    <p>How much would 0.2% of mirror surfaces affect our temperature? A very rough first estimate is based on this idea: apart from internal geothermal energy, the Earth gets most of its heat from the Sun, most of it from infrared light. To begin with let us say that we can reflect half the heat out to space. Our little project would reflect 0.1% of the heat.</p>
-                    <p>To ease our task we will work in Kelvin degrees (or kelvins), which are degrees above absolute zero. This <a href="https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s">answer from StackExchange</a> calculates that the Earth’s temperature would drop to 35 K without our Sun. Right now it is around 300 K, so we can assume that the Earth gets around 300 K from the Sun, and it is linear: reducing sun heat by 1% would cool the Earth by 3 K (or 3 C). So knowing our proportion of mirrors from before:</p>
+                    <p>Is this enough? Let us see.</p>
+                    <h2 id="expected-cooling">🥶 Expected Cooling</h2>
+                    <p>How much would 0.2% of mirror surfaces affect our temperature? A very rough first estimate is based on this idea: apart from a little internal geothermal energy, the Earth gets most of its heat from the Sun, and most of it from infrared light. To begin with let us say that we can reflect half the heat out to space. Our little project would reflect 0.1% of the heat.</p>
+                    <p>To ease our task we will work in degrees Kelvin (or kelvins), which are degrees above absolute zero. This <a href="https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s">answer from StackExchange</a> calculates that the Earth’s temperature would drop to 35 K (around -240 C) without our Sun. Chilly!</p>
+                    <p>Right now it is very roughly close to 300 K, so we can assume that the Earth gets around 250 K from the Sun, and it is linear: reducing sun heat by 1% would cool the Earth by 2.5 K (or 2.5 C). So knowing our proportion of mirrors from before:</p>
                     <pre><code>ΔT(mirror) = T(Earth) × p(mirror) ≈ 300 K × 0.2% = 0.6 K.</code></pre>
                     <p>If we reflect 0.2% of the heat we might decrease the temperature by around half a degree. Not a lot. So this little project is perhaps not worth the hassle, at least globally.</p>
-                    <h3 id="some-checks">🎚️ Some Checks</h3>
+                    <h1 id="some-checks">🎚️ Some Checks</h1>
                     <p>How well did we do with our Fermi estimates?</p>
                     <p>Let us check this estimate with independent data. According to NASA urban regions cover <a href="https://www.nasa.gov/vision/earth/environment/urban_effects.html">0.2% of the Earth’s land surface</a>. According to the <a href="https://www.fao.org/uploads/media/glc-share-doc.pdf">Food and Agriculture Organization of the UN</a>, artificial surfaces cover 0.6% of the land surface. For the total surface we have to multiply by the proportion of land surface, or 150 / 500 million square km:</p>
                     <pre><code>p(artificial) ≈ 0.6% × A(land) / A(Earth) ≈ 0.6% × 150 / 500 ≈ 0.18%.</code></pre>
                     <p>Our prediction of 0.2% was not bad at all!</p>
-                    <h3 id="side-effects">💊 Side Effects</h3>
+                    <h1 id="side-effects">💊 Side Effects</h1>
                     <p>Getting an international agreement for roof mirrors would probably not be easy.</p>
                     <p>The nice part of this project is that infrared mirrors on roofs would help <a href="https://www.architecturaldigest.com/story/mirror-on-roof-renovation">cool our buildings</a>, reducing the need for air conditioning. The same is true for <a href="https://www.sciencedaily.com/releases/2016/08/160825152054.htm">windows</a> by the way. Whole cities might also be cooler this way. Even for cold countries this effect would be welcome in summer.</p>
                     <p>Can we do better? How about lining the Sahara with mirrors? What about other deserts? Maintenance would be horrible! But what we can do is install reflective roofs on crops that are sensitive to heat.</p>
