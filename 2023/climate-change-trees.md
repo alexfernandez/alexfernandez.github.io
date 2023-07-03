@@ -238,7 +238,8 @@ How much carbon is that?
 
 equivalent to around 1 gigaton of carbon.
 Again, let us check with official sources if our estimations are off the mark.
-Spain's forests contain [422 million metric tons of carbon](422 million metric tons of carbon)
+Remember that Spain's forests contain
+[422 million metric tons of carbon](https://rainforests.mongabay.com/deforestation/2000/Spain.htm);
 in 36% of the surface;
 it seems ambitious to store 1 gigaton in the remaining 30%.
 But not all is lost!
