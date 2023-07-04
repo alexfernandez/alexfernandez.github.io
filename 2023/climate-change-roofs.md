@@ -27,7 +27,7 @@ it will send those pesky infrared radiations back to space where they belong.
 It doesn't even need to be a proper mirror,
 just some kind of surface that reflects most light in the infrared spectrum,
 which is what heats the Earth the most.
-We don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
+So we don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
 
@@ -35,7 +35,7 @@ is a good mirror for infrared light.
 
 ## ⚡ Efficiency
 
-The first step for a mental exercise like this should always be to do a
+The first step for a crazy project like this should always be to do a
 [Fermi estimation](/2023/climate-change-solutions#fermi-estimation),
 to get an idea about its feasibility.
 
@@ -50,22 +50,22 @@ where the capital delta `Δ` represents the difference.
 ### 🧮 How Many Mirrors
 
 We beging by estimating the area covered by buildings on the planet.
-How much space does each person occupy?
+How much space do we actually occupy?
 
 Let us say that each person on Earth lives in a room which is typically some 10 square meters.
 Add to that living quarters (kitchen, living room, bathroom)
 and it might be twice or three times the space;
 we will go add twice the space, getting to 30 m² per person.
 In cities it will probably be less on average, since we live in buildings;
-in villages it is likely bigger.
+in villages it is likely more than 30 m².
 A useful data point is that
 [around half of the world population live in cities](https://www.worldbank.org/en/topic/urbandevelopment/overview),
 so we can go with our average.
 
 How much roofing is that?
-Again, people in cities live in several heights,
+Again, people in cities live at several heights,
 while villages tend to be flatter.
-We can estimate an average of two storeys,
+We can estimate a global average of two storeys,
 which gives us 15 m² of roof on top of every house.
 
 Now we need to add all those buildings where we do our daily activities:
@@ -74,9 +74,12 @@ community buildings and stadiums,
 museums and palaces.
 Let us add again about the same amount of roofing for work,
 for shopping and for leisure;
-getting to a total of 60 m² of various roofs per person, `A(person)`:
+giving us a total area per person, `A(person)`:
 
-Now let's compute the total of roofs.
+    A(person) ≈ 4 * 15 m² = 60 m².
+
+Now let's compute the total of roofs,
+multiplying this average by the number of people on the planet, `N(people)`.
 Since we recently crossed the mark of
 [8 billion people](https://www.worldometers.info/world-population/):
 
@@ -106,7 +109,7 @@ One per thousand!
 This doesn't seem enough.
 We have to turn to other sources:
 perhaps consider all human-made structures.
-Add roads and other pavimented surfaces and we can perhaps push it a bit further;
+Adding roads and other pavimented surfaces we can perhaps push it a bit further;
 let us estimate twice as much.
 
     p(mirror) ≈ 0.2%.
@@ -121,8 +124,7 @@ A very rough first estimate is based on this idea:
 apart from a little internal geothermal energy,
 the Earth gets most of its heat from the Sun,
 and most of it from infrared light.
-To begin with let us say that we can reflect half the heat out to space.
-Our little project would reflect 0.1% of the heat.
+How much incoming heat can we reflect back to space?
 
 To ease our task we will work in degrees Kelvin (or kelvins),
 which are degrees above absolute zero.
