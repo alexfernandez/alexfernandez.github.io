@@ -206,13 +206,25 @@ The same is true for [windows](https://www.sciencedaily.com/releases/2016/08/160
 by the way.
 Whole cities might also be cooler this way.
 Even for cold countries this effect would be welcome in summer.
+But globally it would hardly make a dent.
 
 Can we do better?
 How about lining the Sahara with mirrors?
 What about other deserts?
-Maintenance would be horrible!
+Without getting into details,
+maintenance would be horrible!
 
-But what we can do is install reflective roofs on crops that are sensitive to heat.
+### 🌽 Shiny Crops
+
+But maybe we can do something better:
+install reflective roofs on crops that are sensitive to heat.
+
+There is precedent to that.
+I was born in Almería,
+near the [sea of plastic](https://en.wikipedia.org/wiki/Poniente_Almeriense):
+an area of almost a thousand square kilometers.
+There, a lot of [white shiny plastic greenhouses](https://en.wikipedia.org/wiki/Intensive_farming_in_Almer%C3%ADa)
+are used to grow [millions of tons of veggies (🇪🇸)](https://www.publico.es/economia/paradoja-almeria-agricultura-invernadero-potente-pueblos-renta-baja-espana.html).
 
 There have been recent trials of combining
 [solar panels with agriculture farms](https://www.fastcompany.com/90861486/agrivoltaics-crops-under-solar-panels-good-for-panels),
