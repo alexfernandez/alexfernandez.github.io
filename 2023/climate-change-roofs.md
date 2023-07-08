@@ -1,5 +1,5 @@
 ---
-title: '🪞 Mirror Roofs'
+title: '🪩 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change, Part 3'
 footer: Published on 2023-06-24, last modified on 2023-06-24.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
@@ -13,7 +13,7 @@ We already saw that we could
 but maybe we can do something closer to home.
 Why not put a mirror on your roof?
 
-# 🪞 Mirror Roofs
+# 🪞 Put a Mirror on Top
 
 Our second solution involves a little bit of creativity.
 Since the Earth is heated mainly by the Sun,
@@ -26,7 +26,7 @@ Apart from cooling the building itself,
 it will send those pesky infrared radiations back to space where they belong.
 It doesn't even need to be a proper mirror,
 just some kind of surface that reflects most light in the infrared spectrum,
-which is what heats the Earth the most.
+which is [what heats the Earth the most](https://serc.carleton.edu/integrate/teaching_materials/energy_sustain/student_materials/thermal_energy_.html).
 So we don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
@@ -105,7 +105,7 @@ we have at our disposal well below 1% of the total surface of the planet.
 
     p(buildings) ≈  500 000 km² / 500 000 000 km² ≈ 0.1%.
 
-One per thousand!
+One per thousandth! Or one part in a thousand.
 This doesn't seem enough.
 We have to turn to other sources:
 perhaps consider all human-made structures.
@@ -117,30 +117,57 @@ let us estimate twice as much.
 Is this enough?
 Let us see.
 
-### 🥶 Expected Cooling
+### ☀️ Percentage of Heat
 
 How much would 0.2% of mirror surfaces affect our temperature?
+Or put another way,
+how much incoming heat can we reflect back to space?
+Sadly, it is too optimistic to expect that we can reflect 0.2% of heat.
+Our mirrors will not be perfect across all wavelengths.
+As we saw above, about
+[half of the incoming energy is infrared](https://serc.carleton.edu/integrate/teaching_materials/energy_sustain/student_materials/thermal_energy_.html),
+but there are many frequencies of light involved.
+
+Even worse, some of the sunlight will heat the atmosphere as it comes by.
+That is after all the main [greenhouse effect](https://en.wikipedia.org/wiki/Greenhouse_effect),
+and passing twice through the atmosphere (incoming and reflected)
+will increase its magnitude.
+
+Glossing over these hairy details,
+we can grossly estimate that we will be able to radiate only half the incoming heat.
+All in all,
+the proportion of reflected heat `p(heat)` will be:
+
+    p(heat) = p(mirror) / 2 ≈ 0.1%.
+
+And so we are back to one part in a thousand.
+
+### 🥶 Expected Cooling
+
+Now we can compute the expected cooling due to our shiny buildings and roads.
 A very rough first estimate is based on this idea:
 apart from a little internal geothermal energy,
 the Earth gets most of its heat from the Sun,
 and most of it from infrared light.
-How much incoming heat can we reflect back to space?
 
 To ease our task we will work in degrees Kelvin (or kelvins),
 which are degrees above absolute zero.
+The Earth temperature is right now close to 300 K.
+How much of that is due to the Sun?
+
 This [answer from StackExchange](https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s)
 calculates that the Earth's temperature would drop to 35 K (around -240 C) without our Sun.
 Chilly!
 
-Right now it is very roughly close to 300 K,
-so we can assume that the Earth gets around 250 K from the Sun,
+We can assume that the Earth gets around 250 K from the Sun,
 and it is linear:
 reducing sun heat by 1% would cool the Earth by 2.5 K (or 2.5 C).
-So knowing our proportion of mirrors from before:
+So knowing our proportion of heat from before `p(heat)`:
 
-    ΔT(mirror) = T(Earth) × p(mirror) ≈ 250 K × 0.2% = 0.5 K.
+    ΔT(mirror) = T(Earth) × p(heat) ≈ 250 K × 0.1% = 0.25 K.
 
-If we reflect 0.2% of the heat from the Sun we might decrease the temperature by around half a degree.
+If we reflect 0.2% of the heat from the Sun we might decrease the temperature by around a quarter of a degree,
+Kelvin or Celsius.
 Not a lot.
 So this little project is perhaps not worth the hassle,
 at least globally.
@@ -152,7 +179,10 @@ How well did we do with our Fermi estimates?
 Let us check this estimate with independent data.
 According to NASA urban regions cover
 [0.2% of the Earth's land surface](https://www.nasa.gov/vision/earth/environment/urban_effects.html).
-According to the
+Close to our estimate.
+
+For another data point:
+according to the
 [Food and Agriculture Organization of the UN](https://www.fao.org/uploads/media/glc-share-doc.pdf),
 artificial surfaces cover 0.6% of the land surface.
 For the total surface we have to multiply by the proportion of land surface,
@@ -160,11 +190,14 @@ or 150 / 500 million square km:
 
     p(artificial) ≈ 0.6% × A(land) / A(Earth) ≈ 0.6% × 150 / 500 ≈ 0.18%.
 
+Again, very close.
 Our prediction of 0.2% was not bad at all!
 
 ## 💊 Side Effects
 
-Getting an international agreement for roof mirrors would probably not be easy.
+The geopolitical aspects of our little plan are messy.
+Getting an international agreement for roof mirrors would probably not be easy,
+and the logistics of wrapping all buildings in tinfoil can also be tricky.
 
 The nice part of this project is that infrared mirrors on roofs
 would help [cool our buildings](https://www.architecturaldigest.com/story/mirror-on-roof-renovation),
@@ -178,6 +211,7 @@ Can we do better?
 How about lining the Sahara with mirrors?
 What about other deserts?
 Maintenance would be horrible!
+
 But what we can do is install reflective roofs on crops that are sensitive to heat.
 
 There have been recent trials of combining
