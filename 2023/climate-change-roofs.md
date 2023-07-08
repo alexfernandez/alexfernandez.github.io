@@ -234,9 +234,10 @@ so many greenhouses are contrarresting the global greenhouse effect:
 it is estimated that they lower the temperature in the area
 [around 0.5 C per decade (🇪🇸)](https://ciencia.nasa.gov/el-mar-de-invernaderos-de-almeria),
 because they reflect so much sunlight.
-Of course it is a local effect,
+Of course it is just a local effect,
 but it shows how powerful reflecting sunlight can be.
 
+Can this model be extended?
 There have been recent trials of combining
 [solar panels with agriculture farms](https://www.fastcompany.com/90861486/agrivoltaics-crops-under-solar-panels-good-for-panels),
 with excellent results.
@@ -247,10 +248,10 @@ We can also combine
 which increase their efficiency,
 plus also reflect unused sunlight back to space.
 Combined with large agricultural areas they might cover vast expanses of land,
-not just the puny 0.18% of the surface of the planet that we could muster only with buildings.
+not just the puny 0.2% of the surface of the planet that we could muster only with buildings.
+
 Imagine 5% of the land surface devoted to crops + solar power,
 reflecting any excess heat back to space.
-
 Even if only 1/3 of the heat was radiated back for our `crops+solar` project:
 
 ```
@@ -263,6 +264,15 @@ Our little mirror project could become a real game changer!
 
 # 🤔 Conclusion
 
+In this installment we have done the opposite process than with
+[planting trees](/2023/climate-change-trees):
+instead of estimating the amount of land necessary for a given effect,
+we have calculated the cooling effect given an existing proportion of land.
+In the process we built a Fermi estimation that has allowed us to explore other possible extensions.
+
+Even some local cooling can be a welcome effect;
+and together with some other measures it can relieve us cool our poor overheated planet.
+
 # ⏭️ To Be Continued
 
 This is the third part of the series about climate change:
@@ -271,5 +281,4 @@ This is the third part of the series about climate change:
 * Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees).
 
 To be continued!
-
 
