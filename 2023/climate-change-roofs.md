@@ -13,6 +13,8 @@ We already saw that we could
 but maybe we can do something closer to home.
 Why not put a mirror on your roof?
 
+![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
+
 # 🪞 Put a Mirror on Top
 
 Our second solution involves a little bit of creativity.
@@ -30,8 +32,6 @@ which is [what heats the Earth the most](https://serc.carleton.edu/integrate/tea
 So we don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
 just [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
-
-![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
 ## ⚡ Efficiency
 
@@ -225,6 +225,17 @@ near the [sea of plastic](https://en.wikipedia.org/wiki/Poniente_Almeriense):
 an area of almost a thousand square kilometers.
 There, a lot of [white shiny plastic greenhouses](https://en.wikipedia.org/wiki/Intensive_farming_in_Almer%C3%ADa)
 are used to grow [millions of tons of veggies (🇪🇸)](https://www.publico.es/economia/paradoja-almeria-agricultura-invernadero-potente-pueblos-renta-baja-espana.html).
+And unlike the Chinese Wall, they can definitely be seen from space!
+
+![View from space of the Spanish _poniente_. [Source: NASA OLI-2.](https://ciencia.nasa.gov/el-mar-de-invernaderos-de-almeria).](pics/climate-change-greenhouses.jpg "An aerial view of the region around El Ejido shows a big area covered in white.")
+
+As a kind of wonky paradox,
+so many greenhouses are contrarresting the global greenhouse effect:
+it is estimated that they lower the temperature in the area
+[around 0.5 C per decade (🇪🇸)](https://ciencia.nasa.gov/el-mar-de-invernaderos-de-almeria),
+because they reflect so much sunlight.
+Of course it is a local effect,
+but it shows how powerful reflecting sunlight can be.
 
 There have been recent trials of combining
 [solar panels with agriculture farms](https://www.fastcompany.com/90861486/agrivoltaics-crops-under-solar-panels-good-for-panels),
