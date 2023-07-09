@@ -211,6 +211,8 @@ The geopolitical aspects of our little plan are messy.
 Getting an international agreement for roof mirrors would probably not be easy,
 and the logistics of wrapping all buildings in tinfoil can also be tricky.
 
+![Like a tinfoil hat, but for buildings. [Source: Rory112233](https://commons.wikimedia.org/wiki/File:Manwithtinfoilhat.jpg).](pics/climate-change-tinfoil.jpg "A man wearing a tinfoil hat and smiling to the camera.")
+
 The nice part of this project is that infrared mirrors on roofs
 would help [cool our buildings](https://www.architecturaldigest.com/story/mirror-on-roof-renovation),
 reducing the need for air conditioning.
