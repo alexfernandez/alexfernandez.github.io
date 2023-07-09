@@ -1,7 +1,7 @@
 ---
 title: '🪩 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change, Part 3'
-footer: Published on 2023-06-24, last modified on 2023-06-24.
+footer: Published on 2023-07-09, last modified on 2023-07-09.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
@@ -13,7 +13,7 @@ We already saw that we could
 but maybe we can do something closer to home.
 Why not put a mirror on your roof?
 
-![Our cities are about to get shiny, baby. [Source: PxHere.](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
+![Our cities are about to get shiny, baby. [Source: PxHere](https://pxhere.com/en/photo/917349).](pics/climate-change-mirrors.jpg "A building made with lots of shiny mirror surfaces on the outside.")
 
 # 🪞 Put a Mirror on Top
 
@@ -62,6 +62,8 @@ in villages it is likely more than 30 m².
 A useful data point is that
 [around half of the world population live in cities](https://www.worldbank.org/en/topic/urbandevelopment/overview),
 so we can go with our average.
+
+![Many buildings are covered right now with stupid dark roofs. [Source: Peakpx](https://www.peakpx.com/521536/grey-and-black-roof).](pics/climate-change-dark.jpg "Detail of a black roof with green mossy splotches on what looks like an old building.")
 
 How much roofing is that?
 Again, people in cities live at several heights,
@@ -131,7 +133,9 @@ As we saw above, about
 [half of the incoming energy is infrared](https://serc.carleton.edu/integrate/teaching_materials/energy_sustain/student_materials/thermal_energy_.html),
 but there are many frequencies of light involved.
 
-Even worse, some of the sunlight will heat the atmosphere as it comes by.
+![Incoming sunlight in many colors. Source: the author.](pics/climate-change-sunlight.png "Sketch of incoming light rays, in different colors, reaching our round planet. Some of the rays are bouncing back because of mirrors.")
+
+Even worse, some of the sunlight will heat the atmosphere as it passes through it.
 That is after all the main [greenhouse effect](https://en.wikipedia.org/wiki/Greenhouse_effect),
 and passing twice through the atmosphere (incoming and reflected)
 will increase its magnitude.
@@ -234,7 +238,7 @@ There, a lot of [white shiny plastic greenhouses](https://en.wikipedia.org/wiki/
 are used to grow [millions of tons of veggies (🇪🇸)](https://www.publico.es/economia/paradoja-almeria-agricultura-invernadero-potente-pueblos-renta-baja-espana.html).
 And unlike the Chinese Wall, they can definitely be seen from space!
 
-![View from space of the Spanish _poniente_. [Source: NASA OLI-2.](https://ciencia.nasa.gov/el-mar-de-invernaderos-de-almeria).](pics/climate-change-greenhouses.jpg "An aerial view of the region around El Ejido shows a big area covered in white.")
+![View from space of the Spanish _poniente_. [Source: NASA OLI-2](https://ciencia.nasa.gov/el-mar-de-invernaderos-de-almeria).](pics/climate-change-greenhouses.jpg "An aerial view of the region around El Ejido shows a big area covered in white.")
 
 As a kind of wonky paradox,
 so many greenhouses are contrarresting the global greenhouse effect:
