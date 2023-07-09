@@ -3,7 +3,7 @@ title: '🪩 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change, Part 3'
 footer: Published on 2023-07-09, last modified on 2023-07-09.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2023/pics/climate-change-temperatures.png
+image: https://pinchito.es/2023/pics/climate-change-mirrors.jpg
 ---
 
 Climate change is upon us,
