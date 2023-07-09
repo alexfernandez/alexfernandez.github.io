@@ -101,6 +101,11 @@ But this process of estimation is a big part of the fun!
 
 # ⏭️ To Be Continued
 
-The next episode is
-[🌲 Climate Change: Planting Trees](/2023/climate-change-trees).
+Read on for the actual solutions:
+
+* Part 1: 🥵 Some Solutions to Climate Change,
+* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
+* Part 3: [🪩  Climate Change: Mirror Roofs](/2023/climate-change-roofs).
+
+Enjoy!
 

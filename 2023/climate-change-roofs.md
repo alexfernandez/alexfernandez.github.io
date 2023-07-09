@@ -298,7 +298,8 @@ and together with some other measures it can help relieve our poor overheated pl
 This is the third part of the series about climate change:
 
 * Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
-* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees).
+* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
+* Part 3: 🪩 Climate Change: Mirror Roofs.
 
 To be continued!
 
