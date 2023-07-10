@@ -29,7 +29,9 @@ it will send those pesky infrared radiations back to space where they belong.
 It doesn't even need to be a proper mirror,
 just some kind of surface that reflects most light in the infrared spectrum,
 which is [what heats the Earth the most](https://serc.carleton.edu/integrate/teaching_materials/energy_sustain/student_materials/thermal_energy_.html).
-So we don't need an expensive [gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html);
+So we don't need expensive
+[gold foil](https://webb.nasa.gov/content/observatory/ote/mirrors/index.html)
+like in space telescopes;
 plain old [aluminium foil](https://osb.westfraser.com/wp-content/uploads/2017/05/The-Physics-of-Foil.pdf)
 is a good mirror for infrared light.
 
