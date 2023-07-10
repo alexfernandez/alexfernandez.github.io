@@ -1,7 +1,7 @@
 ---
 title: '🪩 Mirror Roofs'
 subtitle: '🥵 Some Solutions to Climate Change, Part 3'
-footer: Published on 2023-07-09, last modified on 2023-07-09.
+footer: Published on 2023-07-09, last modified on 2023-07-10.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-mirrors.jpg
 ---
@@ -145,7 +145,7 @@ we can grossly estimate that we will be able to radiate only half the incoming h
 All in all,
 the proportion of reflected heat `p(heat)` will be:
 
-    p(heat) = p(mirror) / 2 ≈ 0.1%.
+    p(heat) ≈ p(mirror) / 2 ≈ 0.1%.
 
 And so we are back to one part in a thousand.
 
@@ -170,12 +170,15 @@ How much of that is due to the Sun?
 This [answer from StackExchange](https://earthscience.stackexchange.com/questions/9210/what-is-the-current-equilibrium-surface-temperature-of-earth-i-e-without-the-s)
 calculates that the Earth's temperature would drop to 35 K (around -240 C) without our Sun.
 Chilly!
-We can assume that the Earth gets around 250 K hotter thanks to the Sun,
+We can assume that the Earth gets around 250 K hotter thanks to the Sun:
+
+    T(Earth) ≈ 250 K,
+
 and that it is linear:
 reducing sun heat by 1% would cool the Earth by 2.5 K (or 2.5 C).
 So knowing our proportion of heat from before `p(heat)`:
 
-    ΔT(mirror) = T(Earth) × p(heat) ≈ 250 K × 0.1% = 0.25 K.
+    ΔT(mirror) ≈ T(Earth) × p(heat) ≈ 250 K × 0.1% = 0.25 K.
 
 If we reflect 0.2% of the heat from the Sun we might decrease the temperature by around a quarter of a degree,
 Kelvin or Celsius.
