@@ -134,45 +134,6 @@ If every flying screen has an area `A(screen)` of 1 square meter:
 So we need 1.5 trillion flying space robots.
 Not bad!
 
-### 🧮 How Did We Do?
-
-The article specifies 16 trillion flying space robots,
-each with an area of 1 square meter.
-We were supposed to be within one order of magnitude,
-but our result is more than 10 times smaller!
-
-What went wrong?
-We overlooked one important effect:
-if our screens were mirrors,
-like in the previous section,
-the reflected light would make them fly away quite fast from the L1 point due to radiation pressure.
-Even if they were opaque and reflected light only as heat,
-they would need to be further away from the L1 point to be more or less stable.
-Another solution is to make the screens thicker,
-which increases the weight over the practical limit.
-Our friend Roger Angel takes this effect into account,
-and proposes transparent screens that just deflect light only so slightly.
-This increases the area required to around 5 million square kilometers,
-approximately three times as much as we estimated.
-
-But he also cites a
-[study by Govindasamy and Caldeira](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086)
-which estimates that a 1.8 K decrease in temperature would require a reduction in solar flux of 1.8%,
-not 0.6% as we estimated.
-I'm not sure which is the correct reduction here;
-some of the projects mentioned in Wikipedia as
-[space sunshades](https://en.wikipedia.org/wiki/Space_sunshade)
-seem to be closer to our estimate.
-I have not found a clear answer in the literature either after a quick look.
-I'm under the impression that this point requires complex modelling to get a clear answer.
-The correct amount of reduction needed is probably between our 0.6% and Angel's 1.8%,
-so perhaps our Fermi estimate was not so far off.
-
-In fact, an updated version of the scheme
-[by Borgue and Hein](https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762)
-seems to be OK with sending much less stuff up there,
-but the article is paywalled so I cannot say exactly how much area they are covering.
-
 ## 😎 The Screens
 
 We come to another interesting point:
@@ -237,7 +198,55 @@ After all, who would have thought 20 years ago that by 2023
 we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point
 that can view infrared light from the earliest galaxies?a
 
-### 💊 Side Effects
+## 🧮 How Did We Do?
+
+The article specifies 16 trillion flying space robots,
+each with an area of 1 square meter.
+We were supposed to be within one order of magnitude,
+but our result is more than 10 times smaller!
+
+## ☀️ Radiation Pressure
+
+What went wrong?
+We overlooked one important effect:
+if our screens were mirrors,
+like in the previous section,
+the reflected light would make them fly away quite fast from the L1 point due to radiation pressure.
+The push from all those photons being reflected becomes quite significant when we are in space
+and directly exposed to sunlight.
+Even if the screens were opaque and reflected light only as heat,
+they would need to be further away from the L1 point to be more or less stable.
+
+![The equilibrium point moves to the sun, when radiation pressure is taken into account. Source: the author.](pics/climate-change-equilibrium.png "The L1 Lagrange point is where the gravity from the Sun and from the Earth cancel each other. When the push from sunlight is considered, the equilibrium point has to move closer to the Sun to compensate.")
+
+How far away? Perhaps twice or three times further away from the Earth.
+
+Another solution is to make the screens thicker,
+which increases the weight over the practical limit.
+Our friend Roger Angel takes this effect into account,
+and proposes transparent screens that just deflect light only so slightly.
+This increases the area required to around 5 million square kilometers,
+approximately three times as much as we estimated.
+
+But he also cites a
+[study by Govindasamy and Caldeira](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086)
+which estimates that a 1.8 K decrease in temperature would require a reduction in solar flux of 1.8%,
+not 0.6% as we estimated.
+I'm not sure which is the correct reduction here;
+some of the projects mentioned in Wikipedia as
+[space sunshades](https://en.wikipedia.org/wiki/Space_sunshade)
+seem to be closer to our estimate.
+I have not found a clear answer in the literature either after a quick look.
+I'm under the impression that this point requires complex modelling to get a clear answer.
+The correct amount of reduction needed is probably between our 0.6% and Angel's 1.8%,
+so perhaps our Fermi estimate was not so far off.
+
+In fact, an updated version of the scheme
+[by Borgue and Hein](https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762)
+seems to be OK with sending much less stuff up there,
+but the article is paywalled so I cannot say exactly how much area they are covering.
+
+## 💊 Side Effects
 
 https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html
 
