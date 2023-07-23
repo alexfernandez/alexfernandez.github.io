@@ -1,12 +1,19 @@
 ---
 title: '🛰️  Space Screens'
-subtitle: '🥵 Some Solutions to Climate Change'
-footer: Published on 2023-06-03, last modified on 2023-06-03.
+subtitle: '🥵 Some Solutions to Climate Change, Part 4'
+footer: Published on 2023-07-23, last modified on 2023-07-23.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-temperatures.png
 ---
 
-## 🛰️ Space Screens
+Climate change is upon us,
+and we want to [do something about it](/2023/climate-change-solutions).
+We already saw that we could
+[plant some trees](/2023/climate-change-trees)
+or install [mirrors on your roof](/2023/climate-change-roofs).
+Are we only going to present boring low-tech ideas?
+
+# 🛰️ Send Screens to Space
 
 Let's now go for the most egregious of the ideas presented here,
 and also the most entertaining.
@@ -37,7 +44,7 @@ we would just feel less heat than usual.
 How much less heat?
 Let's estimate it!
 
-### ⚡ Efficiency
+## ⚡ Efficiency
 
 We will try to replicate the computations on the paper with our own Fermi estimation,
 and then check out how we did.
@@ -69,7 +76,7 @@ We take a different approach than before:
 we start with the desired temperature change,
 and work out how many screens of a given area we need.
 
-#### 🥶 Expected Cooling
+### 🥶 Expected Cooling
 
 Angel cites a target reduction of 1.88 K in temperature.
 We will start with 2 degrees (again, C or K) and work back from there:
@@ -83,7 +90,7 @@ Then:
 So we need to block around half a percent of the radiation coming from the Sun.
 This amount will probably not be noticeable without sophisticated apparatus.
 
-#### 🕶️ Number of Screens
+### 🕶️ Number of Screens
 
 Now let us see how many flying screens we need.
 First let's find out the area covered by the screens.
@@ -127,7 +134,7 @@ If every flying screen has an area `A(screen)` of 1 square meter:
 So we need 1.5 trillion flying space robots.
 Not bad!
 
-#### 🧮 How Did We Do?
+### 🧮 How Did We Do?
 
 The article specifies 16 trillion flying space robots,
 each with an area of 1 square meter.
@@ -166,7 +173,7 @@ In fact, an updated version of the scheme
 seems to be OK with sending much less stuff up there,
 but the article is paywalled so I cannot say exactly how much area they are covering.
 
-### 😎 The Screens
+## 😎 The Screens
 
 We come to another interesting point:
 the design of the screens themselves.
@@ -213,7 +220,7 @@ a big gun launching satellites to space!
 Many simulations and scale models will have to be built to validate any proposed designs,
 and to fine-tune the working parameters.
 
-## 🏭 Building the Screens
+### 🏭 Building the Screens
 
 There is also the small issue of manufacturing the small sun screens themselves,
 or "flyers" as Angel calls them.
@@ -235,6 +242,8 @@ that can view infrared light from the earliest galaxies?a
 https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html
 
 https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762
+
+# 🤔 Conclusion
 
 # ⏭️ To Be Continued
 
