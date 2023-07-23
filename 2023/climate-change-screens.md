@@ -205,7 +205,7 @@ each with an area of 1 square meter.
 We were supposed to be within one order of magnitude,
 but our result is more than 10 times smaller!
 
-## ☀️ Radiation Pressure
+### ☀️ Radiation Pressure
 
 What went wrong?
 We overlooked one important effect:
@@ -227,6 +227,8 @@ Our friend Roger Angel takes this effect into account,
 and proposes transparent screens that just deflect light only so slightly.
 This increases the area required to around 5 million square kilometers,
 approximately three times as much as we estimated.
+
+### 🌡️ Reduction of Temperature
 
 But he also cites a
 [study by Govindasamy and Caldeira](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086)
