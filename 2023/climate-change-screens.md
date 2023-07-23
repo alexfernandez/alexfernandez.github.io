@@ -228,6 +228,11 @@ and proposes transparent screens that just deflect light only so slightly.
 This increases the area required to around 5 million square kilometers,
 approximately three times as much as we estimated.
 
+In fact, an updated version of the scheme
+[by Borgue and Hein](https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762)
+seems to be OK with sending much less stuff up there,
+but the article is paywalled so I cannot say exactly how much area they are covering.
+
 ### 🌡️ Reduction of Temperature
 
 But he also cites a
@@ -242,11 +247,6 @@ I have not found a clear answer in the literature either after a quick look.
 I'm under the impression that this point requires complex modelling to get a clear answer.
 The correct amount of reduction needed is probably between our 0.6% and Angel's 1.8%,
 so perhaps our Fermi estimate was not so far off.
-
-In fact, an updated version of the scheme
-[by Borgue and Hein](https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762)
-seems to be OK with sending much less stuff up there,
-but the article is paywalled so I cannot say exactly how much area they are covering.
 
 ## 💊 Side Effects
 
