@@ -217,7 +217,7 @@ and directly exposed to sunlight.
 Even if the screens were opaque and reflected light only as heat,
 they would need to be further away from the L1 point to be more or less stable.
 
-![The equilibrium point moves to the sun, when radiation pressure is taken into account. Source: the author.](pics/climate-change-equilibrium.png "The L1 Lagrange point is where the gravity from the Sun and from the Earth cancel each other. When the push from sunlight is considered, the equilibrium point has to move closer to the Sun to compensate.")
+![When radiation pressure is taken into account, the equilibrium point moves closer to the sun. Source: the author.](pics/climate-change-equilibrium.png "The L1 Lagrange point is where the gravity from the Sun and from the Earth cancel each other. When the push from sunlight is considered, the equilibrium point has to move closer to the Sun to compensate.")
 
 How far away? Perhaps twice or three times further away from the Earth.
 
