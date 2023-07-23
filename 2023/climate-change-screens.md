@@ -3,7 +3,7 @@ title: '🛰️  Space Screens'
 subtitle: '🥵 Some Solutions to Climate Change, Part 4'
 footer: Published on 2023-07-23, last modified on 2023-07-23.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2023/pics/climate-change-temperatures.png
+image: https://pinchito.es/2023/pics/climate-change-screens.png
 ---
 
 Climate change is upon us,
@@ -21,6 +21,8 @@ How about sending a giant shade to the sky between the Earth and the Sun?
 This might seem like a little kid's idea of how to cool the Earth.
 But real astronomers and physicists have entertained the idea.
 
+![Screens between the Sun and the Earth to keep us cool. Source: the author.](pics/climate-change-screens.png "A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us.")
+
 Roger Angel published a [fascinating paper back in 2006](https://www.pnas.org/doi/full/10.1073/pnas.0608163103),
 complete with cost analysis of the project.
 You can read about this "giant space umbrella"
@@ -29,8 +31,6 @@ although I encourage you to go the original article
 because the scale of it is really mindblowing.
 Total cost would be a few trillion dollars:
 considerable, but worth it if we are saving the planet from the catastrophe.
-
-![Screens between the Sun and the Earth to keep us cool. Source: the author.](pics/climate-change-screens.png "A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us.")
 
 Angel gives a new twist to the giant space umbrella.
 Instead of sending one big structure,
