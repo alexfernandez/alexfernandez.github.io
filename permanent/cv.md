@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2023-06-03.
+footer: Published on 2016-08-17, last edited on 2023-08-04.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com).
 ---
 
@@ -20,7 +20,7 @@ format: 2016-08 is August 2016.
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
 With two German partners I have co-founded [Ntrde](https://ntrde.io/),
-a decision intelligence solution for global trading.
+a decision intelligence solution for chemical trading.
 At this new adventure I'm currently working as CTO,
 making the company grow from scratch in a very promising sector.
 
