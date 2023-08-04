@@ -5,122 +5,111 @@ footer: Last edited on 2022-12-05.
 
 Developer with 20+ years of experience specialized in scalability and DevOps,
 invested in helping teams become top performers.
+I have participated in most stages of tech startups,
+including founding, hypergrowth, scale-up and acquisition.
+
+[Contact: alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
 
 ## Job History
 
 I have programmed professionally using C, Java,
-PHP, JavaScript, Node.js and Go.
-I have also held several management positions.
+PHP, JavaScript, TypeScript, Node.js, Python, and Go.
+I have also held several management positions as manager, director and CTO.
 Please find below my most relevant engagements.
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
-With two business partners I have co-founded [Ntrde](https://ntrde.io/),
-a decision intelligence solution for global trading.
-At this new adventure I'm currently working as CTO,
-building the company in a very promising sector.
+Co-founded [Ntrde](https://ntrde.io/) with two business partners,
+a decision intelligence solution for chemical trading.
+
+* Took an early prototype and converted it into an enterprise-ready solution.
+* Single-handedly developed and refined all major features, including a full redesign.
+* Did product design for two ongoing pilots with customers.
 
 ### 2021-01 to 2022-06: CTO at Hivency
 
 In 2021 I joined
 [Hivency](https://www.hivency.com/), a French influencer marketing company,
 as CTO.
-I led a team of French and Spanish professionals
-to create the best solution in influencer marketing worldwide.
-During this time I reorganized the team to work in squads,
-hired new developers,
-and improved internal practices.
 
-In 2021-09 Hivency was acquired by the Skeepers group based.
-I helped navigate the acquisition process and subsequent audits,
-and secure a successful multi-million operation.
-At Skeepers I worked for nine more months as a Director of Engineering.
+* Led a team of French and Spanish professionals,
+helping them evolve the best solution in influencer marketing worldwide.
+* Reorganized the team to work in squads and improved internal practices.
+* Secured a successful multi-million acquisition process by a French group.
 
-### 2020-04 to 2020-12: Freelancer
-
-During this period I collaborated with Carlos Blé and his company
-[LeanMind](https://leanmind.es/en/)
-as a freelancer,
-helping optimize a system that generated invoices for 1M+ customers.
-We reduced running time from a full week to about four hours,
-while learning new practices like mob programming.
+### 2020-02 to 2020-12: Freelancer
 
 Since 2012 I have worked sporadically as a freelancer,
 mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
 Customers include:
-[hotelbeds](https://www.hotelbeds.com/home),
 [Grupo Inditex](https://www.inditex.com/),
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
 [TUI Group](https://www.tuigroup.com/en-en),
 and a few other smaller companies.
 
-If you have a cool project for me
-[let me know!](mailto:alexfernandeznpm@gmail.com)
+* Collaborated with
+[LeanMind](https://leanmind.es/en/)
+optimizing a system that generated invoices for 1M+ customers.
+* Reduced running time of the invoicing system from a full week to about four hours.
 
 ### 2019-04 to 2019-12: CTO at Influencity
 
-I joined [Influencity](https://www.influencity.com/) as CTO,
+Joined [Influencity](https://www.influencity.com/) as CTO,
 a thriving company in the field of influencer marketing.
-I led a team of talented developers
-building their internal platform for influencer marketing,
+
+* Led a team of talented developers building their internal platform for influencer marketing,
 using Node.js and React.
+* Automated internal processes such as deployments and testing.
 
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
 I joined [Devo](https://www.devo.com/)
 while in the middle of an impressive international expansion.
-As a senior developer I wrote very demanding Node.js code for data ingestion,
+
+* Wrote very demanding Node.js code for data ingestion,
 supporting peaks of 3.5 million events per second (Meps).
-I also helped keep developer environments up and running.
+* Wrote a patch that was included in the Node.js core,
+and which resulted in a 2x speedup in its secure socket communications.
+* Helped keep developer environments up and running.
 
 ### 2013-01 to 2017-09: mediasmart.io
 
-I worked full time at [mediasmart.io](http://mediasmart.io/),
-a mobile adtech company.
-The company grew from processing two thousand requests per second
+Worked full time at [mediasmart.io](http://mediasmart.io/),
+a mobile adtech company,
+as backend lead.
+During this time of hypergrowth the company went from 50k€ to 10M€ in revenue. 
+
+* Led the redesign that allowed us to go from processing two thousand requests per second
 to around one million per second in little more than four years.
-We successfully competed at an international level
-both in price and in features.
-We used JavaScript, Node.js, Erlang and Go.
+* Successfully competed at an international level both in price and in features.
+* Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
 
 ### 2011-08 to 2012-08: MoveinBlue
 
-I worked at MoveinBlue as co-founder and CTO,
-managing a team of 5 people and building an amazing product that ultimately failed to find its market.
-We used PHP and JavaScript.
+Co-founded MoveinBlue as CTO,
+a company that ultimately failed to find its market.
+
+* Built an amazing product for the tourist market.
+* Managed a team of 5 people.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
-I worked as an analyst at ING Spain
+I worked as an analyst and project manager at ING Spain,
 coordinating a group of 3 to 10 developers.
-For the last couple of years I was a project manager
-and technical lead for financial cards.
-During my four years there I learned to communicate with non-technical parties,
-and to coordinate disparate teams for a common goal.
 
-### 2005-03 to 2007-07: Consultant at Matchmind and Indra
-
-I joined a medium-sized IT consulting company.
-I was contracted out to ISBAN,
-back then a subsidiary of Banco Santander.
-There I was part of the team that developed BankSphere,
-an internal tool for task automation.
+* Technical responsible for financial cards.
+* Implemented internal projects such as HalCash in record time of two months.
+* Ensured performance of pipeline for card operations during peak transaction volume.
 
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
 
 I worked at the Applied Research department managing and developing European projects
 for the Fifth and Sixth Framework Programmes.
-We created an innovative agent platform in Java
-and an XSL library to generate recursive documents.
-I was technical lead for InfoCitizen,
-an European project for sharing personal documentation across Europe.
-As part of my job I attended several conferences and presented a couple of European projects in academic circles.
 
-### 1998-08 to 2000-05: Analyst-Programmer at Informática El Corte Inglés, SA
-
-I worked writing a C cash register program.
-I lead a project to design and write a custom plug-in architecture.
+* Created an intelligent agent platform in Java that was reused for several projects.
+* Technical lead for InfoCitizen, an European project for sharing census documentation across Europe.
+* Attended several conferences and presented a couple of European projects in academic circles.
 
 ## Volunteer Work
 
@@ -132,13 +121,13 @@ My projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
 The most popular at 1.8k stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
-a Node.js library for load testing web applications.
+a Node.js library widely used for load testing web applications.
 
 ### Public Speaking
 
 I have
-[extensive experience as a public speaker](https://pinchito.es/permanent/speaker).
-Technical conferences are excellent opportunities to keep up to date.
+[extensive experience as a public speaker](https://pinchito.es/permanent/speaker),
+including conferences in many European countries.
 
 ### Organizations
 
@@ -150,9 +139,9 @@ From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid.
 
 ## Education
 
-### 1989 - 1996: Physics Degree
+### Physics Degree
 
-I finished my degree at Universidad Autónoma de Madrid.
+I graduated in Physics at Universidad Autónoma de Madrid.
 
 ### Teaching
 
@@ -160,10 +149,11 @@ I have participated in two editions of the
 [IronHack](https://www.ironhack.com/) bootcamp
 as the main JavaScript teacher.
 
-I have taught multiple courses in Node.js, JavaScript and Go.
+* Taught multiple courses in Node.js, JavaScript and Go.
+* Designed and run [my own course on scalability](https://pinchito.es/2020/curso-escalabilidad).
 
 ## Contact
 
-* [Email](mailto:alexfernandeznpm@gmail.com)
-* [LinkedIn](https://www.linkedin.com/in/pinchito/)
+* [Email: alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com)
+* [LinkedIn: https://www.linkedin.com/in/pinchito/](https://www.linkedin.com/in/pinchito/)
 
