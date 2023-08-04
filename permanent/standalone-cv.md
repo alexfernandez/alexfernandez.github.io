@@ -19,7 +19,7 @@ Please find below my most relevant engagements.
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
-Co-founded [Ntrde](https://ntrde.io/) with two business partners,
+Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.
 
 * Took an early prototype and converted it into an enterprise-ready solution.
