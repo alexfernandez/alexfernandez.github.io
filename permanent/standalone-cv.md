@@ -58,7 +58,7 @@ optimizing a system that generated invoices for 1M+ customers.
 Joined [Influencity](https://www.influencity.com/) as CTO,
 a thriving company in the field of influencer marketing.
 
-* Led a team of talented developers building their internal platform for influencer marketing,
+* Led a team of 5 developers building an internal platform for influencer marketing,
 using Node.js and React.
 * Automated internal processes such as deployments and testing.
 
