@@ -133,11 +133,9 @@ I graduated in Physics at Universidad Autónoma de Madrid.
 
 ### Teaching
 
-I have participated in two editions of the
-[IronHack](https://www.ironhack.com/) bootcamp
-as the main JavaScript teacher.
-
 * Taught multiple courses in Node.js, JavaScript and Go.
+* Main JavaScript teacher at two editions of the
+[IronHack](https://www.ironhack.com/) bootcamp.
 * Designed and run [my own course on scalability](https://pinchito.es/2020/curso-escalabilidad).
 
 ## Contact
