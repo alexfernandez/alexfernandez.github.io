@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-subtitle: 'Madrid, Spain'
+subtitle: 'alexfernandeznpm@gmail.com'
 footer: Last edited on 2023-08-05.
 ---
 
@@ -9,7 +9,7 @@ invested in helping teams become top performers.
 I have participated in most stages of tech startups,
 including founding, hypergrowth, scale-up and acquisition.
 
-[Contact: alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
+Currently living in Madrid, Spain.
 
 ## Job History
 
