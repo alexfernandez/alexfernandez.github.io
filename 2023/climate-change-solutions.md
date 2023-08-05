@@ -106,7 +106,7 @@ Read on for the actual solutions:
 * Part 1: 🥵 Some Solutions to Climate Change,
 * Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
 * Part 3: [🪩  Climate Change: Mirror Roofs](/2023/climate-change-roofs),
-* Part 4: [🛰️ Climate Change: Space Screens]()/2023/climate-change-screens).
+* Part 4: [🛰️ Climate Change: Space Screens](/2023/climate-change-screens).
 
 Enjoy!
 
