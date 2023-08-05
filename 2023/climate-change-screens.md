@@ -18,8 +18,8 @@ Are we only going to present boring low-tech ideas?
 Let's now go for the most egregious of the ideas presented here,
 and also the most entertaining.
 How about sending a giant shade to the sky between the Earth and the Sun?
-This might seem like a little kid's idea of how to cool the Earth.
-But real astronomers and physicists have entertained the idea.
+This might seem like a little kid's idea of how to cool the Earth;
+but real astronomers and physicists have entertained the idea.
 
 ![Screens between the Sun and the Earth to keep us cool. Source: the author.](pics/climate-change-screens.png "A number of small screens would sit between the Sun and the Earth, giving us shade. They would block a proportion of the sunlight coming to us.")
 
@@ -30,15 +30,17 @@ on the [BBC](https://www.bbc.com/future/article/20160425-how-a-giant-space-umbre
 although I encourage you to go the original article
 because the scale of it is really mindblowing.
 Total cost would be a few trillion dollars:
-considerable, but worth it if we are saving the planet from the catastrophe.
+considerable, but worth it if we are saving the planet from an impending catastrophe.
+For comparison, the whole Apollo program that put several people on the Moon
+cost [around 200 billion dollars](https://christopherrcooper.com/apollo-program-cost-return-investment/) in today's money.
 
 Angel gives a new twist to the giant space umbrella.
 Instead of sending one big structure,
-Angel proposes sending trillions of small screens to the
+he proposes sending trillions of small screens to the
 [L1 Langrange point](https://en.wikipedia.org/wiki/Lagrange_point),
 which is at equilibrium between the Sun and the Earth.
 They would need complex mechanisms to stay in place,
-and to be able to direct them as needed to increase or decrease the effect.
+and guiding mechanisms to direct them as needed to increase or decrease the effect.
 They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth;
 we would just feel less heat than usual.
 How much less heat?
@@ -46,71 +48,78 @@ Let's estimate it!
 
 ## ⚡ Efficiency
 
-We will try to replicate the computations on the paper with our own Fermi estimation,
+We will try to replicate the computations on the paper with our own Fermi estimations,
 and then check out how we did.
 
-As before, we will divide the problem into simpler parts:
+As always, we will divide the problem into simpler parts:
 the number of screens `n(screens)` and
 the area of each screen `A(screen)`
-will combine to the total area of sunlight blocked `A(screens)`:
+will combine to the total area of sunlight blocked `A(screens)`,
+considering negligible overlap between them:
 
-    A(screens) = n(screens) × A(screen).
+    A(screens) ≈ n(screens) × A(screen).
 
 If we consider that sun rays are basically parallel at the L1 point,
-the proportion of sunlight blocked `p(screens)` will be a constant factor `p(screen)`
-multiplied by the proportion of sunlight covered by the screens.
-This proportion is just the area of the screens divided by the disc of the Earth,
-A(disc):
+the proportion of sunlight blocked `p(screens)` will equal the area of the screens divided by the disc of the Earth,
+`A(screens)/A(disc)`,
+multiplied by a constant factor that reprensents the average opacity of each screen: `o(screen)`:
 
     p(screens) = p(screen) × A(screens) / A(disc).
 
 Finally we estimate the temperature difference caused by the screens.
-Luckily, we already did the estimation above!
-We can expect approximately a 3 degree (Celsius or Kelvin)
-reduction in temperature for every 1% of sunlight we block.
+Luckily, we already did the estimation for our
+[mirror roofs](/2023/climate-change-roofs)!
+The decrease in temperature will be grossly equal to the proportion of sunlight blocked we just computed,
+multiplied by the current temperature of the Earth `T(Earth)`.
 In equations:
 
     ΔT(screens) ≈ T(Earth) × p(screens).
 
-We take a different approach than before:
+We can expect approximately a 3 degree Celsius reduction in temperature for every 1% of sunlight we block.
+
+Now we will take the same approach as when [planting trees](/2023/climate-change-trees):
+instead of computing the effect for a given set of screens,
 we start with the desired temperature change,
 and work out how many screens of a given area we need.
 
 ### 🥶 Expected Cooling
 
-Angel cites a target reduction of 1.88 K in temperature.
-We will start with 2 degrees (again, C or K) and work back from there:
+Our friend Roger Angel sets a target reduction of 1.88 K in temperature.
+We will start with 3 kelvins (or equivalently, 3 degrees Celsius) and work back from there:
 
-    ΔT(screens) = 2 K.
+    ΔT(screens) = 3 K.
 
 Then:
 
-    p(screens) ≈ ΔT(screens) / T(Earth) ≈ 2 K / 300 K ≈ 0.7%.
+    p(screens) ≈ ΔT(screens) / T(Earth) ≈ 3 K / 300 K ≈ 1%.
 
-So we need to block around half a percent of the radiation coming from the Sun.
-This amount will probably not be noticeable without sophisticated apparatus.
+So we need to block one percent of the radiation coming from the Sun.
+This amount will probably not be noticeable from the Earth without sophisticated apparatus,
+so it should not have a big effect on people or on life on our planet.
 
 ### 🕶️ Number of Screens
 
 Now let us see how many flying screens we need.
 First let's find out the area covered by the screens.
-As before:
+As we saw above:
 
-    p(screens) = p(screen) × A(screens) / A(disc),
+    p(screens) = o(screen) × A(screens) / A(disc),
 
 therefore:
 
-    A(screens) = p(screens) * A(disc) / p(screen).
+    A(screens) = p(screens) * A(disc) / o(screen).
 
-Note that we need to estimate first the efficiency of each screen `p(screen)`.
+The area equals the proportion of sunlight blocked by the screens multiplied by the disc of the Earth
+and divided by the opacity of each screen.
+Therefore we can start by estimating the opacity of each screen `o(screen)`.
 The proportion of sunlight blocked will depend on where the screens are installed.
 We can consider that the L1 point is much closer to Earth than to the Sun,
 so that the rays of light are almost parallel.
 Still, some shade will be lost since it will not be a perfect block,
 and some light will be diffused back to Earth.
-Let's say each screen will stop half the heat coming to Earth:
+Let's estimate that each screen will stop half the energy coming to Earth:
 
-    p(screen) = 1/2.
+    o(screen) = 1/2.
 
 We also need to know the area of the disc of the Earth,
 just our old friend π (_pi_) multiplied by the square of the radius:
@@ -118,108 +127,43 @@ just our old friend π (_pi_) multiplied by the square of the radius:
     A(disc) = π × R(Earth)^2 ≈ π × (6300 km)^2 ≈ 100 × 10^6 km².
 
 Approximately 100 million square kilometers.
-(Why is it different from the 500 million square kilometers we had before?
-Note that in the last chapter we were measuring the surface of the globe;
-now we want the area of the **section** of the globe, substantially smaller.)
-
 We are ready now to compute the total area covered by the screens:
 
-    A(screens) ≈ 0.7% * 100 * 10^6 km² / ½ ≈ 1.5 * 10^6 km².
+    A(screens) ≈ 1% * 100 * 10^6 km² / ½ ≈ 2 * 10^6 km².
 
-Total area is approximately 1.5 million square kilometers.
+Total area is approximately 2 million square kilometers.
 If every flying screen has an area `A(screen)` of 1 square meter:
 
-    n(screens) = A(screens) / A(screen) ≈ 1.5 * 10^6 km² / (1 m²) ≈ 1.5 * 10^12.
+    n(screens) = A(screens) / A(screen) ≈ 2 * 10^6 km² / (1 m²) ≈ 2 * 10^12.
 
-So we need 1.5 trillion flying space robots.
+So we need 2 trillion flying space robots.
 Not bad!
-
-## 😎 The Screens
-
-We come to another interesting point:
-the design of the screens themselves.
-Angel sets a target weight of one gram for them,
-increased a bit for navigation and communication.
-
-### ☄️ Sending Stuff Up There
-
-Speaking of which, we come to the most interesting part:
-how can we send 16 trillion sun screens up in the sky?
-The answer is: space cannon.
-
-![A space cannon excavated into a mountain. Source: the author.](pics/climate-change-cannon.png "Inside a big mountain there is a tunnel that goes along one of the slopes. A projectile emerges at 9 km/h, with a sabot that is discarded.")
-
-Luckily we have already explored [how to build a space launcher](/2018/building-space-launcher)
-a few years ago,
-so we only need to go over the basics.
-
-Angel wants to build a huge space launcher,
-also called space cannon or Gauss gun in the literature;
-when using it to launch projectiles also called
-[mass driver](https://en.wikipedia.org/wiki/Mass_driver).
-In essence it is just a big tunnel with many magnetic coils so that a projectile is accelerated using electromagnetic forces.
-
-His design is 2 kilometer long.
-I think this is too ambitious, and my own design calls for a 28 km long tunnel.
-But he probably knows better;
-if we can accelerate above 150g,
-and if the material of the armature can withstand the magnetic pressure,
-then a shorter design will of course be cheaper and more feasible.
-A longer tunnel built on a mountain also reduces drag on the exiting projectile.
-
-There are other design parameters which are surprising:
-a projectile of just three tons and with an exit velocity of more than 12 km/s.
-It might heat quite faster,
-plus the heat of travelling through the atmosphere at such a velocity might melt it down.
-Especially if it exits the tunnel at low altitude
-I contend that a 10-ton projectile can use some of that extra mass
-to hold a rocket that can take the payload to low Earth orbit (LEO).
-My proposed exit velocity of 9 km/s does not require a lot of further acceleration.
-
-The concept is cool anyway:
-a big gun launching satellites to space!
-Many simulations and scale models will have to be built to validate any proposed designs,
-and to fine-tune the working parameters.
-
-### 🏭 Building the Screens
-
-There is also the small issue of manufacturing the small sun screens themselves,
-or "flyers" as Angel calls them.
-He concedes that there are big engineering challenges in the building of a 1 gram,
-1 square meter space flyer that is an autonomous spacecraft and can be controlled from a bigger space station.
-
-![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad.](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
-
-But if the health of our planet is at stake,
-we should definitely face them!
-Also, this is how engineering moves ahead:
-by tackling big challenges.
-After all, who would have thought 20 years ago that by 2023
-we would have a 6 meter wide space telescope orbiting the L2 Lagrange point
-that can view infrared light from the earliest galaxies?
 
 ## 🧮 How Did We Do?
 
-The article specifies 16 trillion flying space robots,
+Now is the time to check the numbers in the original article:
+it specifies 16 trillion flying space robots,
 each with an area of 1 square meter.
-We were supposed to be within one order of magnitude,
-but our result is more than 10 times smaller!
+We however estimated 2 trillion, or almost 10 times smaller.
+Within one order of magnitude, but barely!
+Where did we go wrong?
 
 ### ☀️ Radiation Pressure
 
-What went wrong?
 We overlooked one important effect:
-if our screens were mirrors,
-like in the previous section,
-the reflected light would make them fly away quite fast from the L1 point due to radiation pressure.
-The push from all those photons being reflected becomes quite significant when we are in space
-and directly exposed to sunlight.
-Even if the screens were opaque and reflected light only as heat,
-they would need to be further away from the L1 point to be more or less stable.
+if our screens are opaque as we have considered,
+the trapped light would make them fly away quite fast from the L1 point due to radiation pressure,
+being directly exposed to sunlight.
+This is without even considering the possibility that the screens would melt due to the absorbed heat.
+We could try to use reflective surfaces,
+but then the push from all those photons being reflected would be even more significant.
+In any case our screens would need to be further away from the L1 point to be more or less stable.
 
 ![When radiation pressure is taken into account, the equilibrium point moves closer to the sun. Source: the author.](pics/climate-change-equilibrium.png "The L1 Lagrange point is where the gravity from the Sun and from the Earth cancel each other. When the push from sunlight is considered, the equilibrium point has to move closer to the Sun to compensate.")
 
-How far away? Perhaps twice or three times further away from the Earth.
+How much more far away do we need to place them?
+Perhaps twice or three times further away from the Earth,
+making them less effective at blocking sunlight.
 
 Another solution is to make the screens thicker,
 which increases the weight over the practical limit.
@@ -235,20 +179,101 @@ but the article is paywalled so I cannot say exactly how much area they are cove
 
 ### 🌡️ Reduction of Temperature
 
-But he also cites a
+Our favorite article also cites a
 [study by Govindasamy and Caldeira](https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/1999GL006086)
 which estimates that a 1.8 K decrease in temperature would require a reduction in solar flux of 1.8%,
 not 0.6% as we estimated.
-I'm not sure which is the correct reduction here;
+I'm not sure which is the correct factor here;
 some of the projects mentioned in Wikipedia as
 [space sunshades](https://en.wikipedia.org/wiki/Space_sunshade)
 seem to be closer to our estimate.
 I have not found a clear answer in the literature either after a quick look.
+
 I'm under the impression that this point requires complex modelling to get a clear answer.
 The correct amount of reduction needed is probably between our 0.6% and Angel's 1.8%,
 so perhaps our Fermi estimate was not so far off.
+Let us use a compromise value of 5 trillion screens from now on.
+
+## 😎 The Screens
+
+We come to another interesting point:
+the design of the screens themselves.
+Angel sets a target weight of one gram for them,
+increased a bit for navigation and communication.
+
+### 🏭 Building the Screens
+
+We might as well face first the issue of manufacturing such small sun screens themselves,
+or "flyers" as our visionary astronomer calls them.
+He concedes that there are big engineering challenges in the building of a 1 square meter space flyer that weighs a few grams,
+is an autonomous spacecraft and can be controlled from a bigger space station.
+
+![Like this, but weighing one gram and being an autonomous spacecraft. [Source: HighTechDad.](https://www.flickr.com/photos/hightechdad/28763156911).](pics/climate-change-car.jpg "A small sun shade installed on the window of a car. It has lots of small holes and diverts a high proportion of incoming sunlight.")
+
+The price tag is not going to be cheap.
+Also the economies of scale are inimaginable right now,
+so it makes no sense estimating a unit price for the screens.
+We can just imagine that we will need thousands of factories and millions of production lines
+cranking out billions of screens day and night:
+if we built one million of screens per second it would take us 50 years to manufacture 5 trillion screens.
+
+But if the health of our planet is at stake,
+we should definitely face these challenges!
+This is after all how engineering moves ahead:
+by tackling big challenges.
+After all, who would have thought 20 years ago that by 2023
+we would have a 6-meter wide space telescope orbiting the L2 Lagrange point
+that can view infrared light from the earliest galaxies?
+
+### ☄️ Sending Stuff Up There
+
+Speaking of which, we come to the most interesting part:
+how can we send 5 trillion sun screens up in the sky?
+The answer is: space cannon.
+
+![A space cannon excavated into a mountain. Source: the author.](pics/climate-change-cannon.png "Inside a big mountain there is a tunnel that goes along one of the slopes. A projectile emerges at 9 km/h, with a sabot that is discarded.")
+
+Angel wants to build a huge space launcher,
+also called space cannon or Gauss gun in the literature;
+when using it to launch projectiles also called
+[mass driver](https://en.wikipedia.org/wiki/Mass_driver).
+In essence it is just a big tunnel with many magnetic coils so that a projectile is accelerated using electromagnetic forces.
+
+Luckily we have already explored [how to build a space launcher](/2018/building-space-launcher)
+a few years ago,
+so we only need to go over the basics.
+It is a long tunnel surrounded by magnetic coils that are charged with electric currents,
+and that propel a projectile when discharged.
+These projectiles will leave the tunnel at a speed that can be close to escape velocity (11 km/s),
+so they will leave our planet straight away;
+or they may still need a small push by an integrated rocket.
+
+The design in his article is 2 kilometer long.
+I think this is too ambitious, and my own design calls for a 28 km long tunnel,
+but he probably knows better.
+If we can accelerate above 150g,
+and if the material of the armature can withstand the magnetic pressure,
+then a shorter design will of course be cheaper and more feasible.
+But keep in mind that a longer tunnel built on a mountain skips a large part of our atmosphere,
+and also reduces drag on the exiting projectile.
+
+There are other design parameters which are surprising:
+a projectile of just three tons and with an exit velocity of more than 12 km/s.
+It might heat too fast while inside the tunnel,
+plus the heating of travelling through the atmosphere at such high speeds might melt it down,
+especially if it exits the tunnel at low altitude where the atmosphere is still dense.
+I contend that a 10-ton projectile can use some of that extra mass
+to hold a rocket that can take the payload to low Earth orbit (LEO).
+My proposed exit velocity of 9 km/s does not require a lot of further acceleration.
+
+In any case the concept is too cool to not be done:
+a big gun launching satellites to space!
+Many simulations and scale models will have to be built to validate any proposed designs,
+and to fine-tune the working parameters.
 
 ## 💊 Side Effects
+
+Are there any downsides to this megalomaniac project?
 
 https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html
 
@@ -256,5 +281,29 @@ https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762
 
 # 🤔 Conclusion
 
+In this installment we have explored an outlandish concept:
+while in [planting trees](/2023/climate-change-trees) we saw a very doable (if ambitious) project,
+and in [mirror roofs](/2023/climate-change-roofs) a more experimental approach,
+here we are dealing with many technologies that have still to be invented.
+There is no guarantee that the project will give fruits in time or within budget.
+
+Still, it is worth investigating in new directions that expand our engineering and technology,
+especially when the health of our wonderful planet is at stake.
+Isn't something like carbon capture more promising?
+Not really; we already have plants and algae that can remove CO₂ from the atmosphere,
+and they work beautifully.
+While being able to cover the Sun partially can give us some temporary relief
+from the worst of the temperature changes that are to come,
+and can give us a promising start in the field of planet engineering.
+
 # ⏭️ To Be Continued
+
+This is the fourth part of the series about climate change:
+
+* Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
+* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
+* Part 3: [🪩 Climate Change: Mirror Roofs.](/2023/climate-change-roofs),
+* Part 4: 🛰️  Climate Change: Space Screens.
+
+To be continued!
 
