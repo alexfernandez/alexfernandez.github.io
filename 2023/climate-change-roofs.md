@@ -310,7 +310,8 @@ This is the third part of the series about climate change:
 
 * Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
 * Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
-* Part 3: 🪩 Climate Change: Mirror Roofs.
+* Part 3: 🪩 Climate Change: Mirror Roofss,
+* Part 4: [🛰️ Climate Change: Space Screens]()/2023/climate-change-screens).
 
 To be continued!
 
