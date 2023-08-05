@@ -274,10 +274,22 @@ and to fine-tune the working parameters.
 ## 💊 Side Effects
 
 Are there any downsides to this megalomaniac project?
+As could be expected, yes.
+For instance [this article](https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html)
+cites a reduction in rainfall of 5%, although I don't see any sources that justify it.
 
-https://phys.org/news/2022-12-climate-block-sun-lightweight-solar.html
+We can also ask where are we going to get the electricty to throw so much stuff to space.
+I will not estimate the amount of energy necessary because my head is already hurting,
+but it's **a lot**.
+Ideally we will generate it using renewable sources, or nuclear energy,
+with very limited carbon emissions.
 
-https://www.sciencedirect.com/science/article/abs/pii/S0094576522006762
+A more philosophical disadvantage is that just reducing sunlight might make us want to contaminate even more,
+once we have dodged the worst effects of climate change,
+instead of going back to more sustainable energy sources.
+This needs to be very clear: blocking sunlight is a stopgap measure,
+not a permanent fix.
+Excess CO₂ in the atmosphere has serious chemical consequences apart from trapping heat.
 
 # 🤔 Conclusion
 
