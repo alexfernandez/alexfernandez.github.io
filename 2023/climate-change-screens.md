@@ -304,9 +304,24 @@ especially when the health of our wonderful planet is at stake.
 Isn't something like carbon capture more promising?
 Not really; we already have plants and algae that can remove CO₂ from the atmosphere,
 and they work beautifully.
-While being able to cover the Sun partially can give us some temporary relief
+There is also the perils of the [Jevons paradox](https://en.m.wikipedia.org/wiki/Jevons_paradox):
+we keep burning stuff just because someone else will take care of the side effects.
+Not a good long-term strategy.
+
+Being able to cover the Sun partially can give us some temporary relief
 from the worst of the temperature changes that are to come,
 and can give us a promising start in the field of planet engineering.
+Keep in mind that it will be at most a temporary mitigation strategy
+to avoid making the planet inhabitable.
+The only valid long term solution must include:
+
+* stop burning fossil fuels and turn to renewable and nuclear energy,
+* and remove excess CO₂ from the atmosphere using [trees](/2023/climate-change-trees) and algae.
+
+## Acknowledgements
+
+Thanks to [Juan Luis](https://social.juanlu.space/@astrojuanlu) for the mention of
+the [Jevons paradox](https://en.m.wikipedia.org/wiki/Jevons_paradox).
 
 # ⏭️ To Be Continued
 
