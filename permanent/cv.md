@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-subtitle: 'alexfernandeznpm@gmail.com'
+subtitle: 'Madrid, Spain'
 footer: Last edited on 2023-08-05.
 ---
 
