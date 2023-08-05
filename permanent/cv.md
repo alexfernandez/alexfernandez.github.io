@@ -1,28 +1,36 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'My Story So Far'
-footer: Published on 2016-08-17, last edited on 2023-08-04.
+footer: Published on 2016-08-17, last edited on 2023-08-05.
   [Comments, improvements?](mailto:alexfernandeznpm@gmail.com).
 ---
 
 ## TL;DR
 
-Developer turned CTO with 25+ years of experience specialized in scalability and DevOps,
+Developer with 20+ years of experience specialized in scalability and DevOps,
 invested in helping teams become top performers.
+I have participated in most stages of tech startups,
+including founding, hypergrowth, scale-up and acquisition.
 
 ## Job History
 
-I have 25+ years of professional experience related to software development.
+I have programmed professionally using C, Java,
+PHP, JavaScript, TypeScript, Node.js, Python, and Go.
+I have also held several management positions as manager, director and CTO.
+Please find below my most relevant engagements.
+
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
-With two German partners I have co-founded [Ntrde](https://ntrde.io/),
+Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.
-At this new adventure I'm currently working as CTO,
-making the company grow from scratch in a very promising sector.
+
+* Took an early prototype and converted it into an enterprise-ready solution.
+* Single-handedly developed and refined all major features, including a full redesign.
+* Did product design for two ongoing pilots with customers.
 
 ### 2021-01 to 2022-06: CTO at Hivency
 

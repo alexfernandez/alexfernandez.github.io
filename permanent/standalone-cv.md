@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-footer: Last edited on 2022-12-05.
+footer: Last edited on 2023-08-05.
 ---
 
 Developer with 20+ years of experience specialized in scalability and DevOps,
@@ -53,54 +53,36 @@ and a few other smaller companies.
 optimizing a system that generated invoices for 1M+ customers.
 * Reduced running time of the invoicing system from a full week to about four hours.
 
-### 2019-04 to 2019-12: CTO at Influencity
-
-Joined [Influencity](https://www.influencity.com/) as CTO,
-a thriving company in the field of influencer marketing.
-
-* Led a team of 5 developers building an internal platform for influencer marketing,
-using Node.js and React.
-* Automated internal processes such as deployments and testing.
-
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
-I joined [Devo](https://www.devo.com/)
+I joined [Devo](https://www.devo.com/) as a backend engineer
 while in the middle of an impressive international expansion.
 
 * Wrote very demanding Node.js code for data ingestion,
-supporting peaks of 3.5 million events per second (Meps).
+supporting peaks of 3.5 million events per second.
 * Wrote a patch that was included in the Node.js core,
-and which resulted in a 2x speedup in its secure socket communications.
+and which resulted in a 2x speedup in secure socket communications.
 * Helped keep developer environments up and running.
 
 ### 2013-01 to 2017-09: mediasmart.io
 
-Worked full time at [mediasmart.io](http://mediasmart.io/),
-a mobile adtech company,
-as backend lead.
+Backend lead at [mediasmart.io](http://mediasmart.io/),
+a mobile adtech company.
 During this time of hypergrowth the company went from 50k€ to 10M€ in revenue. 
 
 * Led the redesign that allowed us to go from processing two thousand requests per second
-to around one million per second in little more than four years.
+to just under a million requests per second in little more than four years.
 * Successfully competed at an international level both in price and in features.
 * Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
-
-### 2011-08 to 2012-08: MoveinBlue
-
-Co-founded MoveinBlue as CTO,
-a company that ultimately failed to find its market.
-
-* Built an amazing product for the tourist market.
-* Managed a team of 5 people.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
 I worked as an analyst and project manager at ING Spain,
-coordinating a group of 3 to 10 developers.
+coordinating a group of up to 15 developers.
 
 * Technical responsible for financial cards.
-* Implemented internal projects such as HalCash in record time of two months.
-* Ensured performance of pipeline for card operations during peak transaction volume.
+* Led development for internal projects such as HalCash in record time.
+* Ensured performance of card operations during peak transaction days.
 
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
 
@@ -109,7 +91,7 @@ for the Fifth and Sixth Framework Programmes.
 
 * Created an intelligent agent platform in Java that was reused for several projects.
 * Technical lead for InfoCitizen, an European project for sharing census documentation across Europe.
-* Attended several conferences and presented a couple of European projects in academic circles.
+* Attended several conferences and presented European projects in academic circles.
 
 ## Volunteer Work
 
@@ -131,13 +113,17 @@ including conferences in many European countries.
 
 ### Organizations
 
+From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid,
+two of the biggest JavaScript meetups in Spain.
+I set up in excess of 100 meetups with speakers from all over the world.
+
 I have helped organize three editions of
 [JSDayES](http://jsday.es/),
-the last one with around 600 attendees and featuring 35 speakers from over 10 countries.
-
-From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid.
+the last one in 2018 with around 600 attendees and featuring 35 speakers from over 10 countries.
 
 ## Education
+
+I have collaborated often with the education sector.
 
 ### Physics Degree
 
