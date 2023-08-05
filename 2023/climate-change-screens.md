@@ -195,8 +195,8 @@ we should definitely face them!
 Also, this is how engineering moves ahead:
 by tackling big challenges.
 After all, who would have thought 20 years ago that by 2023
-we would have a huge 6 meter wide space telescope orbiting the L2 Lagrange point
-that can view infrared light from the earliest galaxies?a
+we would have a 6 meter wide space telescope orbiting the L2 Lagrange point
+that can view infrared light from the earliest galaxies?
 
 ## 🧮 How Did We Do?
 

@@ -20,7 +20,7 @@ but there you go.
 
 I live in Madrid with my family.
 I have lots of interests,
-and are about equally unskilled at them:
+and am about equally unskilled at them:
 
 🎨 Drawing and art.  
 🦠 Biology.  
