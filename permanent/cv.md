@@ -17,8 +17,8 @@ including founding, hypergrowth, scale-up and acquisition.
 I have programmed professionally using C, Java,
 PHP, JavaScript, TypeScript, Node.js, Python, and Go.
 I have also held several management positions as manager, director and CTO.
-Please find below my most relevant engagements.
 
+Please find below my most relevant engagements.
 Dates are in
 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 format: 2016-08 is August 2016.
@@ -35,110 +35,54 @@ a decision intelligence solution for chemical trading.
 ### 2021-01 to 2022-06: CTO at Hivency
 
 In 2021 I joined
-[Hivency](https://www.hivency.com/), an influencer marketing company,
+[Hivency](https://www.hivency.com/), a French influencer marketing company,
 as CTO.
-I had the opportunity to lead a wonderful team of French and Spanish professionals
-to create the best solution in influencer marketing worldwide.
-During this time I reorganized the team to work in squads,
-hired new developers,
-improved internal practices and moved forward in the road to continuous deployment.
 
-In 2021-09 Hivency was acquired by the Skeepers group based in Marseille.
-I helped navigate the acquisition process and subsequent audits,
-and secure a successful multi-million operation.
-At Skeepers I worked for nine more months as a Director of Engineering.
+* Led a team of French and Spanish professionals,
+helping them evolve the best solution in influencer marketing worldwide.
+* Reorganized the team to work in squads and improved internal practices.
+* Secured a successful multi-million acquisition process by a French group.
 
 ### 2020-04 to 2020-12: Freelancer
 
-During this period I have worked full time as a freelancer,
+Since 2012 I have worked sporadically as a freelancer,
 mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
-Since July 2020 I have collaborated with Carlos Blé and his company
-[LeanMind](https://leanmind.es/en/),
-where I have learned about new practices like mob programming.
-
-I have actually been working as a freelancer on and off since 2012.
-At that time I did a few months for Kimia writing an Android app.
-I have not stopped taking sporadic freelance engagements since then.
-My clients include several large companies:
-here is [one story](/2016/stridercd).
-Other engagements include:
+Customers include:
 [Grupo Inditex](https://www.inditex.com/),
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
 [TUI Group](https://www.tuigroup.com/en-en),
-[Phone House](https://www.phonehouse.es/),
 and a few other smaller companies.
 
-If you have a cool project for me
-[let me know!](mailto:alexfernandeznpm@gmail.com)
+In 2020 I collaborated full time with
+[LeanMind](https://leanmind.es/en/)
+optimizing a system that generated invoices for 1M+ customers.
+We managed to reduce running time of the invoicing system from a full week to about four hours.
 
-### 2019-04 to 2019-12: CTO at Influencity
+### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
-I joined [Influencity](https://www.influencity.com/),
-a company in the field of influencer marketing.
-I led a team of talented developers
-and helped them build their for influencer marketing
-using Node.js and React.
+I joined [Devo](https://www.devo.com/) as a backend engineer
+while in the middle of an impressive international expansion.
 
-While there I helped improve the architecture,
-hired two new engineers (for a total of 6 people)
-and led the team during a complete revamping of critical modules.
-
-### 2017-10 to 2019-03: Senior Developer at Devo (Formerly Logtrust)
-
-[Devo](https://www.devo.com/) is
-a thriving Spanish company that collects huge amounts of data
-and keeps it in a searchable format for our customers.
-We were in the middle of an impressive international expansion.
-I faced a lot of exciting technical challenges while working there
-as a senior software engineer.
-
-I worked in the data ingestion team.
-Our system reached peaks of 3.5 million events per second,
-which it ingested flawlessly.
-I made my [first contribution to the Node.js core](https://github.com/nodejs/node/pull/20344) while there:
+* Wrote very demanding Node.js code for data ingestion,
+supporting peaks of 3.5 million events per second.
+* Wrote [a patch that was included in the Node.js core](https://github.com/nodejs/node/pull/20344),
+and which resulted in a 2x speedup in secure socket communications.
+* Helped keep developer environments up and running.
 a benchmark demonstrating a performance issue with TLS and short-lived connections.
 Hopefully not the last!
 
-I was telecommuting most of the time,
-and going to the office one day per week.
-
 ### 2013-01 to 2017-09: Backend Lead at mediasmart.io
 
-I worked for more than four years
-at [mediasmart.io](http://mediasmart.io/),
+I was backend lead for almost five years at [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
-Before I joined the company was facing major scalability challenges.
-During my stay we grew from processing two thousand requests per second
-to around a million in little more than four years.
-Yes, that is right:
-every second we processed a million requests,
-decided which ones are useful for our customers
-and responded to all of them.
+During this time of hypergrowth the company went from 50k€ to 10M€ in revenue. 
 
-I led the backend team,
-and we did great things together,
-successfully competing at an international level.
-We have tortured the V8 engine
-in ways that I could not even dream before joining.
-I have also learned a bit of Erlang and Go for certain subsystems.
-Some of my Go code has been in production for years without issues.
-
-We processed huge amounts of data
-and had to solve complex scalability issues.
-As this was a small startup I also did lots of other things:
-created a whole DevOps infrastructure,
-designed the selection process,
-and actively participated in the selection of everyone in the dev team.
-
-### 2011-08 to 2012-08: CTO at MoveinBlue
-
-I led a team of 6 people 
-building an amazing product that ultimately failed to find its market.
-I learned PHP and had my first heavy-duty contact with JavaScript.
-I definitely had a great time working with great people.
-I have written elsewhere at length about
-[my first experience as CTO](/2016/mib-five-years-later).
+* Led the redesign that allowed us to go from processing two thousand requests per second
+to just under a million requests per second in little more than four years.
+* Successfully competed at an international level both in price and in features.
+* Designed the selection process used for all new recruits.
+* Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 

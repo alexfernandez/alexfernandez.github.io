@@ -48,10 +48,10 @@ Customers include:
 [TUI Group](https://www.tuigroup.com/en-en),
 and a few other smaller companies.
 
-* Collaborated with
+In 2020 I collaborated full time with
 [LeanMind](https://leanmind.es/en/)
 optimizing a system that generated invoices for 1M+ customers.
-* Reduced running time of the invoicing system from a full week to about four hours.
+We managed to reduce running time of the invoicing system from a full week to about four hours.
 
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
@@ -73,6 +73,7 @@ During this time of hypergrowth the company went from 50k€ to 10M€ in revenu
 * Led the redesign that allowed us to go from processing two thousand requests per second
 to just under a million requests per second in little more than four years.
 * Successfully competed at an international level both in price and in features.
+* Designed the selection process used for all new recruits.
 * Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
