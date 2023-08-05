@@ -140,8 +140,8 @@ I graduated in Physics at Universidad Autónoma de Madrid.
 
 ## Contact
 
-* [Email: alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
-* [LinkedIn: https://www.linkedin.com/in/pinchito/](https://www.linkedin.com/in/pinchito/).
-* [GitHub account: https://github.com/alexfernandez/](https://github.com/alexfernandez/).
-* [This CV online: https://pinchito.es/cv](https://pinchito.es/cv).
+* Email: [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
+* LinkedIn: [https://www.linkedin.com/in/pinchito/](https://www.linkedin.com/in/pinchito/).
+* GitHub account: [https://github.com/alexfernandez/](https://github.com/alexfernandez/).
+* This CV online: [https://pinchito.es/cv](https://pinchito.es/cv).
 
