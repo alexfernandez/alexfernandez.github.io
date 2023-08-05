@@ -1,7 +1,7 @@
 ---
 title: '🌲 Climate Change: Planting Trees'
 subtitle: '🥵 Some Solutions to Climate Change, Part 2'
-footer: Published on 2023-06-17, last modified on 2023-06-24.
+footer: Published on 2023-06-17, last modified on 2023-08-05.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-planting.jpg
 ---
@@ -323,6 +323,9 @@ They cool the surroundings,
 help fixate the ground and provide a living environment for other creatures.
 In cities they lower the temperature of a street by
 [at least five degrees in summer](https://www.cnu.org/publicsquare/2020/08/31/powerful-virtuous-cycles-street-trees).
+Allow me to recommend this
+[very nice infographic from Reuters](https://www.reuters.com/graphics/CLIMATE-CHANGE/URBAN-HEAT/zgpormdkevd/)
+on the subject.
 
 Not everyone is happy though.
 There were
