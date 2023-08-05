@@ -41,7 +41,7 @@ he proposes sending trillions of small screens to the
 which is at equilibrium between the Sun and the Earth.
 They would need complex mechanisms to stay in place,
 and guiding mechanisms to direct them as needed to increase or decrease the effect.
-They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the Earth;
+They would not be seen from Earth since they would sit at a large area roughly comparable to the section of the planet;
 we would just feel less heat than usual.
 How much less heat?
 Let's estimate it!
