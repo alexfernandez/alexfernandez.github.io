@@ -123,6 +123,13 @@ or that it is not caused by us humans,
 or that it will not have bad consequences after all.
 But truth be told, they find fertile grounds in a lot of ignorant and misguided population.
 
+Even worse, when these "skeptics" are confronted with hard evidence,
+they will enter [cognitive dissonance](https://sharpenyouraxe.substack.com/p/three-guidelines-if-you-want-to-debate)
+and go even deeper into their particular rabbit hole.
+Why? Because acknowledging that they were wrong in the first place would mean
+accepting that they have been wrong,
+and people don't want to be ignorant.
+
 ### 🤯 Convincing the Skeptics
 
 So, what can we do about it?
