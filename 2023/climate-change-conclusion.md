@@ -212,8 +212,9 @@ to fight this emergency on a planetary scale.
 ## My Contribution
 
 What do I intend to do?
-For starters, stop paying attention to those "carbon capture" supposedly high-tech projects,
-which I think are just lame attempts at fixing our problems with technology,
+For starters, stop paying attention to those supposedly high-tech projects like
+"carbon capture" or "nuclear fusion":
+I think they are just lame attempts at fixing our problems with technology,
 when better solutions are right there in front of us.
 I may of course be wrong as I have often been in the past,
 so you can keep an eye on those projects too if you want.
