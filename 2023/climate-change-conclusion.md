@@ -12,12 +12,10 @@ After looking at a few options to help us deal with climate change,
 it's now time to evaluate them in cold blood and see if they can make any difference.
 Then we will consider collective action and how to make it count.
 
-# Taking Action
+**Warning:** This will be a more militant post than those preceding it.
+Because now is the time to take sides and to do something about it.
 
-This will be a more militant post than those preceding it.
-Now is the time to take sides and to do something about it.
-
-## Evaluation
+# Evaluation
 
 Let us first do a comparative evaluation of the three solutions that have been considered so far:
 [🌲 planting trees](/2023/climate-change-trees),
@@ -25,7 +23,7 @@ Let us first do a comparative evaluation of the three solutions that have been c
 and [🛰️  space screens](/2023/climate-change-screens).
 In reverse order for fun.
 
-### 🛰️  Space Screens
+## 🛰️  Space Screens
 
 Sending [a giant swarm of screens to space](/2023/climate-change-screens)
 can shield us from some of the Sun and reduce surface temperatures on Earth.
@@ -50,50 +48,74 @@ assemble them up there,
 and then send the astronauts to board the finished product.
 Minimal cost and emissions would be required.
 
-### 🪩  Mirror Roofs
+## 🪩  Mirror Roofs
 
-Mandating mirror roofs can make us think about how to make cities more livable.
+Mandating [🪩 mirror roofs](/2023/climate-change-roofs) on top of  buildings
+can make us think about how to make cities more livable.
 Just yesterday I saw [this infographic by Reuters](https://www.reuters.com/graphics/CLIMATE-CHANGE/URBAN-HEAT/zgpormdkevd/)
-which shows in a very impressive way the impact of trees and green in a city,
-and how asphalt makes our lives miserable.
+which shows in a very impressive way how asphalt makes our lives in the city miserable.
 Lowering air conditioning requirements would also be a very welcome consequence.
 
-### 🌲 Planting Trees
+But the solutions explored go beyond mirror roofs:
+solar panels shielding crops can bring surprising synergies:
+electricity generation plus improved yields.
+The computations presented can guide us in increasing the albedo of our cities,
+our countries and our planet,
+to help cool the environment.
+
+What is today just a convenience can become tomorrow the difference between life and death
+for many people that cannot afford air conditioning.
+
+## 🌲 Planting Trees
 
 Finally, we have to revert all the CO₂ we have poured into the atmosphere,
 first unwittingly and later almost criminally.
+By [🌲 planting trees](/2023/climate-change-trees)
+on a massive scale we can remove basically **all the excess carbon** in the atmosphere.
 
-### 🔎 Other Solutions
+This is in my opinion our best chance.
+We need a huge concerted scale from all governments on Earth:
+planting trees on 30% of the land surface is not going to be easy.
+Taking my home country of Spain as an example,
+it can be done in a few decades.
+
+Forget about "carbon capture technologies";
+trees are our best ally,
+as they have been for millions of years.
+The biggest challenge is to find enough room to plant so many trees.
+
+It is interesting to see so many people that are skeptical to this project,
+and that basically see it as hippie hand-waving.
+But we are not speaking about reforesting the Sahara,
+which presents significant engineering challenges.
+Just by chance deserts make up exactly 33% of the land surface,
+but they are hard to make green again.
+Instead, just planting semi-arid areas would get us more than half the way.
+
+![Just look for those semi-arid light brown areas and start planting. [Source: NASA](https://eoimages.gsfc.nasa.gov/images/imagerecords/66000/66826/Spain.A2003170.1120.250m.jpg).](pics/climate-change-spain.jpg "Satellite view of Spain, showing the 30% of arid and semi-arid areas that can be reforested.")
+
+## 🔎 Other Solutions
 
 Are these the most promising solutions for climate change?
 Not at all;
 I have chosen them because they are thought-provoking and fun to think about.
 
-## My Contribution
+Project Drawdown has a [list of solutions](https://drawdown.org/solutions/table-of-solutions)
+which are viable right now and which combined can have a huge impact:
+between 1000 and 1600 gigatons of CO₂.
+Remember that we are dealing with some 1600 gigatons of excess CO₂ in the atmosphere,
+or about 400 gigatons of carbon (since each molecule of CO₂ only has ~27% of carbon in weight).
+They range from [planting bamboo](https://drawdown.org/solutions/bamboo-production)
+to [stop cooking with carbon](https://drawdown.org/solutions/clean-cooking),
+with many other ideas,
+Most of the projects are a bit too pedestrian to have fun thinking about them, though.
 
-What do I intend to do?
-For starters, stop paying attention to those "carbon capture" supposedly high-tech projects,
-which I think are just lame attempts at fixing our problems with technology,
-when better solutions are right there in front of us.
-I may of course be wrong.
+In my opinion we will get all the help we can get.
 
-It is possible to fix our climate, but it will not be easy.
-The problem is getting bigger every year,
-so we really need to act now.
-A concerted effort by every government in the planet will be necessary.
-I sincerely hope that we spring to action before the situation is too severe.
+# Taking Action
 
-I strongly believe that we should _immediately_:
-* switch to low-carbon energy sources,
-* start building nuclear power stations right away,
-* electrify transport urgently and switch to low-emissions construction techniques,
-* use the list of
-[CO₂ emissions per capita](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita)
-as a hall of shame,
-* raise sactions against the worst polluters.
-
-In short, treat it as the worldwide emergency that it is now,
-and as the impending catastrophe that we may have upon us in a few decades.
+Now let's see what courses of action we have available,
+and if they are any good.
 
 ## 🤦 Climate Change Skeptics
 
@@ -142,7 +164,24 @@ The reversal of so many decades of reckless carbonization will involve sacrifice
 probably changing our way of life, perhaps sacrifice some sacred cows.
 We need to be ready.
 
-## 🤔 Conclusion
+## 🚯 Cleaning Up Our Act
+
+But the most important action we can take is not to solve the existing problem:
+it is to stop the problem from growing even bigger.
+Up to now we have not stopped emitting CO2, far from it:
+we are emitting more, and **the rate is increasing**.
+
+![CO2 emissions are still growing. Yes, we are that clever. [Source: Our World in Data](https://ourworldindata.org/co2-emissions).](pics/climate-change-emissions.png "CO2 emissions from 1900 to 2021. Raising almost linearly from 1940 to 2020, a small dip in 2020 from 37 to 35 gigatons, then up again to 37 in 2021.")
+
+Yes, we are that clever.
+
+This excellent source from Alfredo García is sadly only in Spanish:
+[Nuclear Energy Will Save the World](https://www.planetadelibros.com/libro-la-energia-nuclear-salvara-el-mundo/312496).
+
+Despite some holdovers from the 1980s like (shame)
+[Greenpeace](https://www.greenpeace.org/international/story/52758/reasons-why-nuclear-energy-not-way-green-and-peaceful-world/).
+
+# 🤔 Conclusion
 
 Climate change is upon us;
 every year we are breaking temperature records,
@@ -153,6 +192,32 @@ with low tech projects such as planting trees everywhere.
 
 We can also get creative,
 like with mirror rooftop installations.
+
+## My Contribution
+
+What do I intend to do?
+For starters, stop paying attention to those "carbon capture" supposedly high-tech projects,
+which I think are just lame attempts at fixing our problems with technology,
+when better solutions are right there in front of us.
+I may of course be wrong.
+
+It is possible to fix our climate, but it will not be easy.
+The problem is getting bigger every year,
+so we really need to act now.
+A concerted effort by every government in the planet will be necessary.
+I sincerely hope that we spring to action before the situation is too severe.
+
+I strongly believe that we should _immediately_:
+* switch to low-carbon energy sources,
+* start building nuclear power stations right away,
+* electrify transport urgently and switch to low-emissions construction techniques,
+* use the list of
+[CO₂ emissions per capita](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita)
+as a hall of shame,
+* raise sactions against the worst polluters.
+
+In short, treat it as the worldwide emergency that it is now,
+and as the impending catastrophe that we may have upon us in a few decades.
 
 ### 🙏 Acknowledgements
 

@@ -103,12 +103,12 @@ Problem solved, Earth saved.
 ### 🛢️ Total Excess Carbon
 
 First let's estimate the total amount of excess carbon in the atmosphere.
-If we look at the [data from Statista](https://www.statista.com/statistics/276629/global-co2-emissions/),
-there is a more or less steady linear increase from about 1943 to 2021.
+If we look at the [data from Our World in Data](https://ourworldindata.org/co2-emissions),
+there is a more or less steady linear increase from around 1945 to 2021.
 (Yes, emissions are still increasing, we are that clever.)
 Latest numbers are 37 billion metric tons of CO₂.
 
-![Annual carbon dioxide (CO₂) emissions worldwide from 1940 to 2022. Source: [Statista](https://www.statista.com/statistics/276629/global-co2-emissions/).](pics/climate-change-emissions.png "Gigatons of excess CO₂, starting at 5 in 1940 and going up to almost 40 in 2021. The graph is approximately linear, with a softer slope at the beginning: by 1980 we are at 19.5 gigatons.")
+![Annual carbon dioxide (CO₂) emissions worldwide from 1940 to 2022. Source: [Our World in Data](https://ourworldindata.org/co2-emissions).](pics/climate-change-emissions.png "Gigatons of excess CO₂, starting at 2 in 1900 and going up to almost 40 in 2021. The graph is approximately linear from 1940 to present, with a softer slope at the beginning: by 1980 we are at 19.5 gigatons.")
 
 Say we have a completely linear graph from 1940 to 2020 (80 years),
 the total of carbon emissions would be something like the number of years multiplied by the midpoint:
