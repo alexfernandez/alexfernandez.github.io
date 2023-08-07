@@ -108,9 +108,11 @@ or about 400 gigatons of carbon (since each molecule of CO₂ only has ~27% of c
 They range from [planting bamboo](https://drawdown.org/solutions/bamboo-production)
 to [stop cooking with carbon](https://drawdown.org/solutions/clean-cooking),
 with many other ideas,
-Most of the projects are a bit too pedestrian to have fun thinking about them, though.
 
-In my opinion we will get all the help we can get.
+Most of the projects are a bit too pedestrian to have fun thinking about them, though.
+But they still are necessary:
+both pedestrian and outlandish projects have a role to play.
+In my opinion we will need all the help we can get.
 
 # Taking Action
 
@@ -119,9 +121,9 @@ and if they are any good.
 
 ## 🤦 Climate Change Skeptics
 
-But first we need to convince everyone in the planet of the danger.
+First we need to convince everyone in the planet of the danger.
 Many people are denying the scientific and empirical evidence of climate change.
-Why is this?
+Why?
 
 ### 🙈 I Don't Want to Believe
 
@@ -159,9 +161,10 @@ So, what can we do about it?
 In this regard, the quick changes in climate that we are witnessing right now can be a mixed blessing,
 as they are opening the eyes of many climate denialists.
 Making everyone participate of the challenges involved in turning the tide
-can perhaps help the general population to understand the huge efforts involved.
+can perhaps help the general population understand the huge efforts involved.
 The reversal of so many decades of reckless carbonization will involve sacrifices for everyone on the planet;
 probably changing our way of life, perhaps sacrifice some sacred cows.
+
 We need to be ready.
 
 ## 🚯 Cleaning Up Our Act
@@ -173,13 +176,24 @@ we are emitting more, and **the rate is increasing**.
 
 ![CO2 emissions are still growing. Yes, we are that clever. [Source: Our World in Data](https://ourworldindata.org/co2-emissions).](pics/climate-change-emissions.png "CO2 emissions from 1900 to 2021. Raising almost linearly from 1940 to 2020, a small dip in 2020 from 37 to 35 gigatons, then up again to 37 in 2021.")
 
-Yes, we are that clever.
+We need to switch to low carbon energy sources, quick.
+And our best bet right now seems to be
+[nuclear energy](https://ourworldindata.org/nuclear-energy).
+It is safe (one death since 1986),
+clean and can scale up to fulfill our needs.
+Yes, it can be expensive;
+but meanwhile we are gambling on our planet.
 
 This excellent source from Alfredo García is sadly only in Spanish:
 [Nuclear Energy Will Save the World](https://www.planetadelibros.com/libro-la-energia-nuclear-salvara-el-mundo/312496).
-
-Despite some holdovers from the 1980s like (shame)
+Thankfully, the world seems to be warming up to the idea of nuclear power,
+despite some holdovers from the 1980s like (shame)
 [Greenpeace](https://www.greenpeace.org/international/story/52758/reasons-why-nuclear-energy-not-way-green-and-peaceful-world/).
+
+Yes, renewable energy is great and all,
+but sometimes there is no wind at night.
+Until we find a way to safely and conveniently store energy,
+we need to do something **now**.
 
 # 🤔 Conclusion
 
@@ -192,6 +206,8 @@ with low tech projects such as planting trees everywhere.
 
 We can also get creative,
 like with mirror rooftop installations.
+Getting people involved in climate change mitigation projects is going to play an important role
+to fight this emergency on a planetary scale.
 
 ## My Contribution
 
@@ -199,7 +215,8 @@ What do I intend to do?
 For starters, stop paying attention to those "carbon capture" supposedly high-tech projects,
 which I think are just lame attempts at fixing our problems with technology,
 when better solutions are right there in front of us.
-I may of course be wrong.
+I may of course be wrong as I have often been in the past,
+so you can keep an eye on those projects too if you want.
 
 It is possible to fix our climate, but it will not be easy.
 The problem is getting bigger every year,
