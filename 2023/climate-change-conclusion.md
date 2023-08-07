@@ -171,10 +171,10 @@ We need to be ready.
 
 But the most important action we can take is not to solve the existing problem:
 it is to stop the problem from growing even bigger.
-Up to now we have not stopped emitting CO2, far from it:
+Up to now we have not stopped emitting CO₂, far from it:
 we are emitting more, and **the rate is increasing**.
 
-![CO2 emissions are still growing. Yes, we are that clever. [Source: Our World in Data](https://ourworldindata.org/co2-emissions).](pics/climate-change-emissions.png "CO2 emissions from 1900 to 2021. Raising almost linearly from 1940 to 2020, a small dip in 2020 from 37 to 35 gigatons, then up again to 37 in 2021.")
+![CO₂ emissions are still growing. Yes, we are that clever. [Source: Our World in Data](https://ourworldindata.org/co2-emissions).](pics/climate-change-emissions.png "CO₂ emissions from 1900 to 2021. Raising almost linearly from 1940 to 2020, a small dip in 2020 from 37 to 35 gigatons, then up again to 37 in 2021.")
 
 We need to switch to low carbon energy sources, quick.
 And our best bet right now seems to be
