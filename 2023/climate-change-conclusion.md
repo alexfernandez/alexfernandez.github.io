@@ -208,8 +208,10 @@ We can also get creative,
 like with mirror rooftop installations.
 Getting people involved in climate change mitigation projects is going to play an important role
 to fight this emergency on a planetary scale.
+In a few decades we will all be a part of it,
+like it or not.
 
-## My Contribution
+## 💪 My Contribution
 
 What do I intend to do?
 For starters, stop paying attention to those supposedly high-tech projects like
@@ -226,6 +228,8 @@ A concerted effort by every government in the planet will be necessary.
 I sincerely hope that we spring to action before the situation is too severe.
 
 I strongly believe that we should _immediately_:
+
+* laugh out of office any policitians that minimize or outright deny climate change,
 * switch to low-carbon energy sources,
 * start building nuclear power stations right away,
 * electrify transport urgently and switch to low-emissions construction techniques,
