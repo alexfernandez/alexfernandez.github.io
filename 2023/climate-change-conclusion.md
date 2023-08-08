@@ -121,7 +121,7 @@ and if they are any good.
 
 ## 🤦 Climate Change Skeptics
 
-First we need to convince everyone in the planet of the danger.
+First we need to convince everyone on the planet of the danger.
 Many people are denying the scientific and empirical evidence of climate change.
 Why?
 
@@ -224,7 +224,7 @@ so you can keep an eye on those projects too if you want.
 It is possible to fix our climate, but it will not be easy.
 The problem is getting bigger every year,
 so we really need to act now.
-A concerted effort by every government in the planet will be necessary.
+A concerted effort by every government on the planet will be necessary.
 I sincerely hope that we spring to action before the situation is too severe.
 
 I strongly believe that we should _immediately_:
