@@ -13,13 +13,13 @@ it's now time to evaluate them in cold blood and see if they can make any differ
 Then we will consider collective action and how to make it count.
 
 **Warning:** This will be a more militant post than those preceding it.
-Because now is the time to take sides and to do something about it.
+Because now is the time to take sides and do something about it.
 
 # Evaluation
 
 Let us first do a comparative evaluation of the three solutions that have been considered so far:
 [🌲 planting trees](/2023/climate-change-trees),
-[🪩 :mirror roofs](/2023/climate-change-roofs),
+[🪩 mirror roofs](/2023/climate-change-roofs),
 and [🛰️  space screens](/2023/climate-change-screens).
 In reverse order for fun.
 
