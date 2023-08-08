@@ -9,7 +9,7 @@ invested in helping teams become top performers.
 I have participated in most stages of tech startups,
 including founding, hypergrowth, scale-up and acquisition.
 
-Currently living in Madrid, Spain.
+Location: currently residing in Madrid, Spain.
 
 ## Job History
 
