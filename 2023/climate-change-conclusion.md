@@ -231,13 +231,13 @@ I strongly believe that we should _immediately_:
 
 * laugh out of office any policitians that minimize or outright deny climate change,
 * switch to low-carbon energy sources,
+* take remediation actions seriously,
 * start building nuclear power stations right away,
 * electrify transport urgently and switch to low-emissions construction techniques,
 * use the list of
 [CO₂ emissions per capita](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita)
 as a hall of shame,
-* raise sactions against the worst polluters,
-* and take remediation seriously.
+* raise sactions against the worst polluters.
 
 In short, treat it as the worldwide emergency that it is now,
 and as the impending catastrophe that we may have upon us in a few decades.
