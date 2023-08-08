@@ -1,7 +1,7 @@
 ---
 title: '🌲 Climate Change: Planting Trees'
 subtitle: '🥵 Some Solutions to Climate Change, Part 2'
-footer: Published on 2023-06-17, last modified on 2023-08-05.
+footer: Published on 2023-06-17, last modified on 2023-08-08.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-planting.jpg
 ---
