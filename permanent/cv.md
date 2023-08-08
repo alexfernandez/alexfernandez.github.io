@@ -123,7 +123,7 @@ I set up in excess of 100 meetups with speakers from all over the world.
 
 I have helped organize three editions of the volunteer conference
 [JSDayES](http://jsday.es/),
-the last one [in 2018](http://2018.jsday.es/) with around 600 attendees and featuring 35 speakers from over 10 countries.
+the last one [in 2017](http://2017.jsday.es/) with around 600 attendees and featuring 35 speakers from over 10 countries.
 
 ## Education
 
