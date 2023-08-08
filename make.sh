@@ -93,7 +93,7 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh permanent/about
 ./generate.sh permanent/cv
 ./generate.sh permanent/speaker
-pandoc -t html5 -V linkcolor:darkblue -s permanent/cv.md -o permanent/cv-alex-fernandez.pdf
+pandoc -V urlcolor:Blue -V documentclass:scrartcl -V geometry:margin=1in -s permanent/cv.md -o permanent/cv-alex-fernandez.pdf
 
 git add -A
 git commit -am "Make on $date"

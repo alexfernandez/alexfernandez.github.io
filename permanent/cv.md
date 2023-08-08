@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-subtitle: 'alexfernandeznpm@gmail.com'
-footer: Last edited on 2023-08-05.
+subtitle: 'Email: [`alexfernandeznpm@gmail.com`](mailto:alexfernandeznpm@gmail.com)'
+footer: Last edited on 2023-08-08.
 ---
 
 Developer with 20+ years of experience specialized in scalability and DevOps,
@@ -123,7 +123,8 @@ I set up in excess of 100 meetups with speakers from all over the world.
 
 I have helped organize three editions of the volunteer conference
 [JSDayES](http://jsday.es/),
-the last one [in 2017](http://2017.jsday.es/) with around 600 attendees and featuring 35 speakers from over 10 countries.
+the last one [in 2017](http://2017.jsday.es/)
+with around 600 attendees and featuring 35 speakers from over 10 countries.
 
 ## Education
 
