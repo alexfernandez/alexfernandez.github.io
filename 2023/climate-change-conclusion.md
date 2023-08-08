@@ -25,17 +25,17 @@ In reverse order for fun.
 
 ## 🛰️  Space Screens
 
-Sending [a giant swarm of screens to space](/2023/climate-change-screens)
+Sending [screens to space](/2023/climate-change-screens)
 can shield us from some of the Sun and reduce surface temperatures on Earth.
 This plan is actually not a solution,
 but at most a mitigation strategy that can buy us a few decades.
 There can be unforeseen consequences to reducing the amount of sunlight we receive;
 even more than most of these mega-infrastructure projects,
-it needs to be carefully considered to think about the consequences.
+it needs to be carefully considered to think about the possible side-effects.
 Even the plan itself is full of incognitas,
 and it is not even clear that it is feasible with current technologies.
-There are in fact many alternative plans that have been proposed:
-from a single giant mirror to a swarm of small screens,
+There are in fact many alternative options that have been proposed:
+from a single giant mirror to a huge swarm of small screens,
 with all intermediate possibilities.
 
 But it is just possible that we will need to take mitigation actions before we can come up with a full solution.
@@ -47,6 +47,7 @@ just send all the required materials and machines to orbit,
 assemble them up there,
 and then send the astronauts to board the finished product.
 Minimal cost and emissions would be required.
+It is about time that we have an alternative to the tired old rockets!
 
 ## 🪩  Mirror Roofs
 
@@ -59,7 +60,7 @@ Lowering air conditioning requirements would also be a very welcome consequence.
 But the solutions explored go beyond mirror roofs:
 solar panels shielding crops can bring surprising synergies:
 electricity generation plus improved yields.
-The computations presented can guide us in increasing the albedo of our cities,
+The computations presented can guide us for increasing the albedo of our cities,
 our countries and our planet,
 to help cool the environment.
 
@@ -68,7 +69,7 @@ for many people that cannot afford air conditioning.
 
 ## 🌲 Planting Trees
 
-Finally, we have to revert all the CO₂ we have poured into the atmosphere,
+Finally, at some point we will have to revert all the CO₂ we have poured into the atmosphere,
 first unwittingly and later almost criminally.
 By [🌲 planting trees](/2023/climate-change-trees)
 on a massive scale we can remove basically **all the excess carbon** in the atmosphere.
