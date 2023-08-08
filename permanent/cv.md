@@ -16,7 +16,7 @@ Currently living in Madrid, Spain.
 I have programmed professionally using C, Java,
 PHP, JavaScript, TypeScript, Node.js, Python, and Go.
 Code that I have written routinely processes millions of requests per second.
-I have also held several management positions as manager, director and CTO,
+I have also held several management positions as director and CTO,
 leading high performance teams.
 Please find below my most relevant engagements.
 
@@ -45,7 +45,7 @@ helping them evolve the best solution in influencer marketing worldwide.
 In 2020 I collaborated full time with
 [LeanMind](https://leanmind.es/en/)
 optimizing a system that generated invoices for 1M+ customers.
-We managed to reduce running time of the invoicing system from a full week to about four hours.
+We reduced running time of the invoicing system from a full week to about four hours.
 
 Since 2012 I have worked sporadically as a freelancer,
 mostly doing backend development in Node.js,
@@ -85,7 +85,7 @@ I worked as an analyst and project manager at ING Spain,
 coordinating a group of up to 15 developers.
 
 * Technical responsible for financial cards.
-* Led development for internal projects such as HalCash in record time.
+* Led development for internal projects (such as HalCash) in record time.
 * Ensured performance of card operations during peak transaction days.
 
 ### 2001-08 to 2005-03: Analyst at Ibermática, SA
