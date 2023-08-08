@@ -15,7 +15,7 @@ Then we will consider collective action and how to make it count.
 **Warning:** This will be a more militant post than those preceding it.
 Because now is the time to take sides and do something about it.
 
-# Evaluation
+# ⚖️ Evaluation
 
 Let us first do a comparative evaluation of the three solutions that have been considered so far:
 [🌲 planting trees](/2023/climate-change-trees),
@@ -115,7 +115,7 @@ But they still are necessary:
 both pedestrian and outlandish projects have a role to play.
 In my opinion we will need all the help we can get.
 
-# Taking Action
+# 💪 Taking Action
 
 Now let's see what courses of action we have available,
 and if they are any good.
@@ -213,7 +213,7 @@ to fight this emergency on a planetary scale.
 In a few decades we will all be a part of it,
 like it or not.
 
-## 💪 My Contribution
+## ☝️ My Contribution
 
 What do I intend to do?
 For starters, stop paying attention to those supposedly high-tech projects like
