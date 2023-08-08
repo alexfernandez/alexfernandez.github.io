@@ -1,7 +1,7 @@
 ---
 title: '🤔 Conclusion: Taking Action'
 subtitle: '🥵 Some Solutions to Climate Change, Part 5/5'
-footer: Published on 2023-08-06, last modified on 2023-08-06.
+footer: Published on 2023-08-08, last modified on 2023-08-08.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/climate-change-burning.jpg
 ---
@@ -76,24 +76,24 @@ on a massive scale we can remove basically **all the excess carbon** in the atmo
 
 This is in my opinion our best chance.
 We need a huge concerted scale from all governments on Earth:
-planting trees on 30% of the land surface is not going to be easy.
+planting new dense forests on 30% of the land surface is not going to be easy politically.
+But the technical difficulties are well known and solvable.
+
+The biggest difficulty is in fact to find enough room to plant so many trees.
+Just by chance deserts make up exactly 33% of the land surface,
+but making them green once more can be quite hard.
+Instead, just planting semi-arid areas would get us more than half the way.
 Taking my home country of Spain as an example,
 it can be done in a few decades.
 
-Forget about "carbon capture technologies";
-trees are our best ally,
-as they have been for millions of years.
-The biggest challenge is to find enough room to plant so many trees.
+![Just look for those semi-arid light brown areas and start planting. [Source: NASA](https://eoimages.gsfc.nasa.gov/images/imagerecords/66000/66826/Spain.A2003170.1120.250m.jpg).](pics/climate-change-spain.jpg "Satellite view of Spain, showing the 30% of arid and semi-arid areas that can be reforested.")
 
 It is interesting to see so many people that are skeptical to this project,
 and that basically see it as hippie hand-waving.
-But we are not speaking about reforesting the Sahara,
-which presents significant engineering challenges.
-Just by chance deserts make up exactly 33% of the land surface,
-but they are hard to make green again.
-Instead, just planting semi-arid areas would get us more than half the way.
-
-![Just look for those semi-arid light brown areas and start planting. [Source: NASA](https://eoimages.gsfc.nasa.gov/images/imagerecords/66000/66826/Spain.A2003170.1120.250m.jpg).](pics/climate-change-spain.jpg "Satellite view of Spain, showing the 30% of arid and semi-arid areas that can be reforested.")
+I believe that many people have too much faith in high-tech.
+Forget about "carbon capture technologies";
+trees are our best ally,
+as they have been for millions of years.
 
 ## 🔎 Other Solutions
 
@@ -146,14 +146,14 @@ There is of course a concerted effort by interested parties
 to convince us that there is no such climate change,
 or that it is not caused by us humans,
 or that it will not have bad consequences after all.
-But truth be told, they find fertile grounds in a lot of ignorant and misguided population.
+But truth be told, they find fertile grounds in high numbers of misguided population.
 
 Even worse, when these "skeptics" are confronted with hard evidence,
 they will enter [cognitive dissonance](https://sharpenyouraxe.substack.com/p/three-guidelines-if-you-want-to-debate)
 and go even deeper into their particular rabbit hole.
 Why? Because acknowledging that they were wrong in the first place would mean
-accepting that they have been wrong,
-and people don't want to be ignorant.
+accepting that they were misguided,
+and people don't want to appear ignorant.
 
 ### 🤯 Convincing the Skeptics
 
@@ -185,16 +185,17 @@ clean and can scale up to fulfill our needs.
 Yes, it can be expensive;
 but meanwhile we are gambling on our planet.
 
-This excellent source from Alfredo García is sadly only in Spanish:
+This excellent book from Alfredo García is sadly only in Spanish:
 [Nuclear Energy Will Save the World](https://www.planetadelibros.com/libro-la-energia-nuclear-salvara-el-mundo/312496).
 Thankfully, the world seems to be warming up to the idea of nuclear power,
-despite some holdovers from the 1980s like (shame)
+despite some holdouts from the 1980s like (shame)
 [Greenpeace](https://www.greenpeace.org/international/story/52758/reasons-why-nuclear-energy-not-way-green-and-peaceful-world/).
 
 Yes, renewable energy is great and all,
 but sometimes there is no wind at night.
 Until we find a way to safely and conveniently store energy,
 we need to do something **now**.
+And that something is nuclear fission.
 
 # 🤔 Conclusion
 
