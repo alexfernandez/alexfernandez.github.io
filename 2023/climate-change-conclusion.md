@@ -240,6 +240,8 @@ as a hall of shame,
 
 In short, treat it as the worldwide emergency that it is now,
 and as the impending catastrophe that we may have upon us in a few decades.
+My contribution will be small, and yours probably,
+but we can fix this mess together.
 
 ### 🙏 Acknowledgements
 
