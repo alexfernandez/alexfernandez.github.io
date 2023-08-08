@@ -15,7 +15,9 @@ Currently living in Madrid, Spain.
 
 I have programmed professionally using C, Java,
 PHP, JavaScript, TypeScript, Node.js, Python, and Go.
-I have also held several management positions as manager, director and CTO.
+Code that I have written routinely processes millions of requests per second.
+I have also held several management positions as manager, director and CTO,
+leading high performance teams.
 Please find below my most relevant engagements.
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
@@ -24,7 +26,7 @@ Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.
 
 * Took an early prototype and converted it into an enterprise-ready solution.
-* Single-handedly developed and refined all major features, including a full redesign.
+* Single-handedly developed and refined several major features, including a full redesign.
 * Did product design for two ongoing pilots with customers.
 
 ### 2021-01 to 2022-06: CTO at Hivency
@@ -40,6 +42,11 @@ helping them evolve the best solution in influencer marketing worldwide.
 
 ### 2020-02 to 2020-12: Freelancer
 
+In 2020 I collaborated full time with
+[LeanMind](https://leanmind.es/en/)
+optimizing a system that generated invoices for 1M+ customers.
+We managed to reduce running time of the invoicing system from a full week to about four hours.
+
 Since 2012 I have worked sporadically as a freelancer,
 mostly doing backend development in Node.js,
 and have specialized in the areas of DevOps and scalability.
@@ -48,11 +55,6 @@ Customers include:
 [M&C Saatchi](http://www.mcsaatchimadrid.com/),
 [TUI Group](https://www.tuigroup.com/en-en),
 and a few other smaller companies.
-
-In 2020 I collaborated full time with
-[LeanMind](https://leanmind.es/en/)
-optimizing a system that generated invoices for 1M+ customers.
-We managed to reduce running time of the invoicing system from a full week to about four hours.
 
 ### 2017-10 to 2019-03: Devo (Formerly Logtrust)
 
