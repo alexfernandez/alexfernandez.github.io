@@ -18,6 +18,10 @@ List of conferences, latest first.
 [¿Qué tal programa la Naturaleza?](https://t3chfest.es/2023/en/programa/que-tal-programa-la-naturaleza):
 [slides](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest),
 [video](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest).
+<br>
+<img height="15" src="/pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
 
 ### [Codemotion Madrid 2019](https://events.codemotion.com/conferences/madrid/2019/es/)
 

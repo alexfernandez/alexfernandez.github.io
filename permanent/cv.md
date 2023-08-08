@@ -121,7 +121,7 @@ From 2015 to 2019 I was the main organizer of MadridJS and Node.js Madrid,
 two of the biggest JavaScript meetups in Spain.
 I set up in excess of 100 meetups with speakers from all over the world.
 
-I have helped organize three editions of
+I have helped organize three editions of the volunteer conference
 [JSDayES](http://jsday.es/),
 the last one [in 2018](http://2018.jsday.es/) with around 600 attendees and featuring 35 speakers from over 10 countries.
 
