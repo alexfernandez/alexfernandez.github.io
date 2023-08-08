@@ -22,6 +22,7 @@ List of conferences, latest first.
 <img height="15" src="/pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
 <br>
+2023-03-03
 
 ### [Codemotion Madrid 2019](https://events.codemotion.com/conferences/madrid/2019/es/)
 
