@@ -127,7 +127,8 @@ the last one [in 2018](http://2018.jsday.es/) with around 600 attendees and feat
 
 ## Education
 
-I have collaborated often with the education sector.
+I greatly enjoy teaching and learning,
+and have often been involved with the education sector.
 
 ### Physics Degree
 
