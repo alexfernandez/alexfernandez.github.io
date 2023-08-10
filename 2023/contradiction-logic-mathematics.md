@@ -73,6 +73,16 @@ At the beginning of the 20th century many clever people were thinking about
 
 ## 🤔 Conclusion
 
+Do I want to conclude,
+as many laypeople say,
+that logic and mathematics are useless,
+since they incur in contradictions?
+Not at all;
+I think that,
+with all their faults,
+logic and mathematics can help us think more efficiently.
+Being able to identify contradiction is a very helpful skill,
+even if sometimes we have to accept it.
 
 ### 🙏 Acknowledgements
 
