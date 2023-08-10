@@ -1,7 +1,7 @@
 ---
 title: '🤨 What Is Contradiction?'
 subtitle: '≢ Guide to Contradiction, Part 1'
-footer: Published on 2023-06-03, last modified on 2023-06-03.
+footer: Published on 2023-06-03, last modified on 2023-08-10.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/contradiction-escher-cuboid.jpg
 ---
@@ -61,7 +61,11 @@ if an any given time it is stationary in one point?
 We need to accept that somehow movement is made of discrete points,
 and at the same time it is a continuum of positions and instants.
 
-Alright, so we have to accept discrete and continuous nature of time and space.
+Alright, so we have to accept the discrete and continuous nature of time and space.
+
+
+## 🪪 Identity
+
 On the opposite time scale there is the question of identity,
 illustrated by the [ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus):
 an ancient vessel that was maintained and repaired for several centuries in Athens,
@@ -121,7 +125,7 @@ which happened to include the color of the sea at times.
 
 The absence of the color blue in most languages until recent times
 leads some people to conclude that "early humans were colorblind"
-([source](https://mymodernmet.com/shades-of-blue-color-history/)
+([source](https://mymodernmet.com/shades-of-blue-color-history/))
 including the ancient Greek.
 This absurd notion is a very common confusion of "perception" and "idea".
 
@@ -159,15 +163,15 @@ we are just imposing a new layer of ideas and concepts on it,
 that immediately come to be a part of our reality.
 We understand the world better,
 and at the same time we are farther away from it.
-As Einstein famously said:
+As Einstein [famously said](https://www.gutenberg.org/files/7333/7333-h/7333-h.htm):
 
-> Insofar as the propositions of mathematics give an account of reality they are not certain;
-> and insofar as they are certain they do not describe reality.
+> As far as the laws of mathematics refer to reality, they are not certain;
+> and as far as they are certain, they do not refer to reality.
 
 The business of applying properties to objects will by necessity live in reality,
 and will be subject to our ideas of objects and of properties.
 It will have as little to do with the world as with our own perceptions;
-someone without the idea of "blue" will not be able to see something blue even when their senses are perceiving it directly.
+someone lacking the idea of "blue" will not be able to see something "blue" even when their senses are perceiving it directly.
 
 ## 🤔 Conclusion
 
