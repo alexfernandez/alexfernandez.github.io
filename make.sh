@@ -5,6 +5,7 @@ date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # Generate all
 pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.html"
+./generate.sh 2023/contradiction-logic-mathematics
 ./generate.sh 2023/climate-change-conclusion
 ./generate.sh 2023/climate-change-screens
 ./generate.sh 2023/climate-change-roofs
