@@ -83,7 +83,7 @@ This will be for now the way to go.
 ### 🏗️ Rebuilding Maths
 
 Let us take a step back.
-When was formal logic created?
+Why was formal logic needed?
 
 At the end of the 19th century many exceptional people were thinking about
 how to rebuild the mighty structures of mathematics on more solid grounds.
@@ -92,14 +92,34 @@ For 2300 years mathematicians had based geometry on the elements of
 algebra had been developed mightily since the times of the original arab inventors
 but it had not been systematized.
 It was due time to formalize all these branches on some elementary foundations.
-First [algebra was systematized in 1870](file:///home/alex/Downloads/GrattanGuinness.pdf),
-number theory was based on a few
-[axioms by Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano),
-and at the turn of the century it was time to seek the logic underpinnings of it all.
+
+First [algebra was systematized in 1870](https://www.unav.es/gep/GrattanGuinness.pdf)
+by [Peirce](https://en.wikipedia.org/wiki/Benjamin_Peirce).
+In 1874 [Cantor](https://en.wikipedia.org/wiki/Georg_Cantor) published an article that started
+the field of [set theory](https://en.wikipedia.org/wiki/Set_theory).
+Soon afterwards in 1889 number theory was systematized around
+[a few axioms](https://en.wikipedia.org/wiki/Peano_axioms)
+by [Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano),
+based on set theory.
+
+At the turn of the century it was time to seek the logic underpinnings of it all.
+A set of wonderful pioneers,
+including [Frege](https://en.wikipedia.org/wiki/Gottlob_Frege)
+[Russell](https://en.wikipedia.org/wiki/Bertrand_Russell),
+[Whitehead](https://en.wikipedia.org/wiki/Alfred_North_Whitehead)
+and [Hilbert](https://en.wikipedia.org/wiki/David_Hilbert)
+formalized set theory and mathematical logic.
+They introduced [first-order logic](https://en.wikipedia.org/wiki/First-order_logic),
+which has symbols like `∀` "for all", `∃` "exists", ∈ "belongs".
+
+Russell brought out his famous [paradox](https://en.wikipedia.org/wiki/Russell%27s_paradox):
+if we have the set of all sets that do not belong to themselves,
+does it belong to itself?
+Sounds like a stupid question, but 
 
 ### 🙅 Back to Contradiction
 
-## ♾️ Rebuilding Maths
+## 🏛️ Rebuilding Maths
 
 Once the foundations for mathematics were laid out,
 it was time to rebuild them based on logic.
@@ -112,9 +132,60 @@ any contradiction that arises in any of its branches means that the building is 
 So we can look in the darkest corners of mathematics looking for cracks,
 and any paradoxes we find will **invalidate the whole of mathematics**.
 
-Let us poke for a bit.
+Let us poke for a bit to see what we find.
 
-### 
+### ♾️ Ramanujan Summation
+
+What do you think the sum of all positive numbers is going to be?
+
+```
+1 + 2 + 3 + 4 + 5 + 6 + ⋯ = ?
+```
+
+It is a [well known result](https://en.wikipedia.org/wiki/Ramanujan_summation)
+from the Indian prodigy [Ramanujan](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan)
+that the sum is -1/12:
+
+```
+1 + 2 + 3 + 4 + 5 + 6 + ⋯ = -1/12.
+```
+
+The proof is quite interesting as it involves a few infinite series;
+you can see it in the
+[Wikipedia article](https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF),
+or you can watch this [excellent 7 minute Numberphile video](https://www.youtube.com/watch?v=w-I6XTVZXww).
+
+This formula is not just a mathematical trick;
+a more rigorous proof can be found by
+[regularization of the zeta function](https://en.wikipedia.org/wiki/Zeta_function_regularization).
+The result is used in physics to get meaningful values of divergent series.
+It is still a contradiction:
+the sum is divergent (tends to infinity),
+yet it can be shown to converge (tends to a finite value).
+
+```
+1 + 2 + 3 + 4 + ⋯ → ∞ ∧ 1 + 2 + 3 + 4 + ⋯ = -1/12. 
+```
+
+### 🌐 Multiplying Spheres
+
+A very interesting result is the
+[Banach–Tarski paradox](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox),
+published in 1924:
+it is possible to break up a sphere into a finite number of pieces,
+then reassemble them into **two identical spheres**,
+therefore doubling the volume.
+
+![The miracle of the multiplying spheres. Source: [bdesham and Sean Kelly](https://en.wikipedia.org/wiki/File:Banach-Tarski_Paradox.svg).](pics/contradiction-banach-tarski.svg "A solid sphere is broken into a finite number of pieces, then reassembled into two identical spheres.")
+
+Is this possible only with three-dimensional bodies?
+In fact [von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
+[discovered in 1929](https://en.wikipedia.org/wiki/Von_Neumann_paradox)
+that the same trick can be done with a planar figure:
+take a flat circle,
+divide it into parts,
+move and turn those parts,
+and then reassemble them into two flat circles.
 
 ## 🤔 Conclusion
 
