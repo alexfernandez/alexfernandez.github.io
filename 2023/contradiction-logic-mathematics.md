@@ -64,12 +64,57 @@ Then we can say very reasonably say:
 
 > "It may rain and it may not rain."
 
+We need to dig a bit deeper on what a logical statement is:
+not just a random musing,
+but a rigorous statement.
+The favorite of logicians are what
+[we have called properties](http://alexfernandez.local/2023/contradiction-what-is#ideas-and-properties),
+and which are formalized as "sets":
+all items belonging to a set have a certain property,
+and viceversa.
+So we could speak about "the set of all blue things" (things that have the "blue" property),
+or "the set of all horses" (things that have the "horseness" property),
+and so on.
+
+Now it is harder to posit that something is blue and at the same time it is not blue,
+given a sufficiently rigorous definition of "blue".
+This will be for now the way to go.
+
+### 🏗️ Rebuilding Maths
+
+Let us take a step back.
+When was formal logic created?
+
+At the end of the 19th century many exceptional people were thinking about
+how to rebuild the mighty structures of mathematics on more solid grounds.
+For 2300 years mathematicians had based geometry on the elements of
+[Euclid](https://en.wikipedia.org/wiki/Euclid);
+algebra had been developed mightily since the times of the original arab inventors
+but it had not been systematized.
+It was due time to formalize all these branches on some elementary foundations.
+First [algebra was systematized in 1870](file:///home/alex/Downloads/GrattanGuinness.pdf),
+number theory was based on a few
+[axioms by Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano),
+and at the turn of the century it was time to seek the logic underpinnings of it all.
+
 ### 🙅 Back to Contradiction
 
-At the beginning of the 20th century many clever people were thinking about 
+## ♾️ Rebuilding Maths
 
-## ♾️ Let's Try Maths
+Once the foundations for mathematics were laid out,
+it was time to rebuild them based on logic.
 
+### 🙅 Back to Contradiction
+
+The problem of having a huge rigorous building built out of a small set of principles
+is that it has to be **completely consistent**:
+any contradiction that arises in any of its branches means that the building is inconsistent.
+So we can look in the darkest corners of mathematics looking for cracks,
+and any paradoxes we find will **invalidate the whole of mathematics**.
+
+Let us poke for a bit.
+
+### 
 
 ## 🤔 Conclusion
 
