@@ -115,7 +115,13 @@ which has symbols like `∀` "for all", `∃` "exists", ∈ "belongs".
 Russell brought out his famous [paradox](https://en.wikipedia.org/wiki/Russell%27s_paradox):
 if we have the set of all sets that do not belong to themselves,
 does it belong to itself?
-Sounds like a stupid question, but 
+Sounds like a stupid question, but a
+
+###
+
+[Zermelo-Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
+along with the [axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice),
+is the standard formalization of set theory.
 
 ### 🙅 Back to Contradiction
 
@@ -134,7 +140,7 @@ and any paradoxes we find will **invalidate the whole of mathematics**.
 
 Let us poke for a bit to see what we find.
 
-### ♾️ Ramanujan Summation
+### Σ Ramanujan Summation
 
 What do you think the sum of all positive numbers is going to be?
 
@@ -175,8 +181,13 @@ published in 1924:
 it is possible to break up a sphere into a finite number of pieces,
 then reassemble them into **two identical spheres**,
 therefore doubling the volume.
+The pieces are not stretched; just moved around and rotated.
 
 ![The miracle of the multiplying spheres. Source: [bdesham and Sean Kelly](https://en.wikipedia.org/wiki/File:Banach-Tarski_Paradox.svg).](pics/contradiction-banach-tarski.svg "A solid sphere is broken into a finite number of pieces, then reassembled into two identical spheres.")
+
+Note that the pieces are not finite; each one has an infinite number of points,
+so they are not "pieces" in the sense that we usually use:
+you cannot just take your axe, chop up a sphere and reassemble the pieces into two identical spheres.
 
 Is this possible only with three-dimensional bodies?
 In fact [von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
@@ -186,6 +197,29 @@ take a flat circle,
 divide it into parts,
 move and turn those parts,
 and then reassemble them into two flat circles.
+
+### ♾️ Pinpointing the Problem
+
+So, is there any part of mathematics which is particularly problematic,
+and that we can leave out to avoid contradictions,
+keeping the rest?
+
+It would seem that dealing with infinites is problematic:
+adding infinite series,
+chopping up figures in sets with infinite points.
+But infinites were introduced, remember,
+to help deal with paradoxes like those of Zenon:
+Achilles running after the turtle but never reaching it
+because he had to run an inifinite number of steps.
+In particular,
+mathematicians have pinpointed the trouble to the same
+[axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice)
+that was introduced in set theory to help deal with sets with infinite elements.
+
+But those same mathematicians love their axiom of choice,
+and they are not willing to give it up any time soon.
+There have apparently been some efforts to reconstruct mathematics without it,
+like [constructivism](https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)).
 
 ## 🤔 Conclusion
 
