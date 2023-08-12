@@ -1,7 +1,7 @@
 ---
 title: '🧮 Contradiction in Logic and Mathematics'
 subtitle: '≢ Guide to Contradiction, Part 2'
-footer: Published on 2023-08-10, last modified on 2023-08-10.
+footer: Published on 2023-08-12, last modified on 2023-08-12.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/contradiction-broken-sphere.jpg
 ---
