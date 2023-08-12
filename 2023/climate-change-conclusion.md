@@ -246,8 +246,18 @@ and as the impending catastrophe that we may have upon us in a few decades.
 My contribution will be small, and perhaps yours will be too,
 but together we can fix this mess.
 
-### 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 I have learned a lot speaking about these issues with many friends,
 including Juan Villamizar y Juan Searle.
+
+## ⏮️ The End
+
+This is the last part of the series about climate change.
+
+* Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
+* Part 2: [🌲 Planting Trees](/2023/climate-change-trees),
+* Part 3: [🪩  Mirror Roofs](/2023/climate-change-roofs),
+* Part 4: [🛰️ Space Screens](/2023/climate-change-screens),
+* Part 5: 🤔 Conclusion: Taking Action.
 
