@@ -104,9 +104,9 @@ But this process of estimation is a big part of the fun!
 Read on for the actual solutions:
 
 * Part 1: 🥵 Some Solutions to Climate Change,
-* Part 2: [🌲 Climate Change: Planting Trees](/2023/climate-change-trees),
-* Part 3: [🪩  Climate Change: Mirror Roofs](/2023/climate-change-roofs),
-* Part 4: [🛰️ Climate Change: Space Screens](/2023/climate-change-screens),
+* Part 2: [🌲 Planting Trees](/2023/climate-change-trees),
+* Part 3: [🪩  Mirror Roofs](/2023/climate-change-roofs),
+* Part 4: [🛰️ Space Screens](/2023/climate-change-screens),
 * Part 5: [🤔 Conclusion: Taking Action](/2023/climate-change-conclusion).
 
 Enjoy!

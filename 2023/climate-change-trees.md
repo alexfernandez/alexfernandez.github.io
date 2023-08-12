@@ -411,9 +411,10 @@ they may help us fight its worst consequences.
 This is the second part of the series about climate change.
 
 * Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
-* Part 2: 🌲 Climate Change: Planting Trees,
-* Part 3: [🪩  Climate Change: Mirror Roofs](/2023/climate-change-roofs),
-* Part 4: [🛰️ Climate Change: Space Screens](/2023/climate-change-screens).
+* Part 2: 🌲 Planting Trees,
+* Part 3: [🪩  Mirror Roofs](/2023/climate-change-roofs),
+* Part 4: [🛰️ Space Screens](/2023/climate-change-screens),
+* Part 5: [🤔 Conclusion: Taking Action](/2023/climate-change-conclusion).
 
 Enjoy!
 
