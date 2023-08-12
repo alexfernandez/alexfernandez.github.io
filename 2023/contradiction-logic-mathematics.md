@@ -80,6 +80,8 @@ Now it is harder to posit that something is blue and at the same time it is not 
 given a sufficiently rigorous definition of "blue".
 This will be for now the way to go.
 
+![We will leave for later the discussion that this is clearly a horse, and yet it is clearly not a horse. Source: [Jorge Láscar](https://www.flickr.com/photos/jlascar/8709942456).](pics/contradiction-trojan-horse.jpg "A wooden horse similar to the Trojan horse in the Iliad, in the city of Troy.")
+
 ### 🏗️ Rebuilding Maths
 
 Let us take a step back.
