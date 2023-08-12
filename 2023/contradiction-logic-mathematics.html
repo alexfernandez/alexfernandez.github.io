@@ -112,8 +112,9 @@
                     <p>Intuitively it doesn’t seem very hard: just avoid specifying sets that speak about themselves in the definition.</p>
                     <p>The task of rigorously axiomatizing set theory would fall on <a href="Ernst%20Zermelo">Ernst Zermelo</a>, who along a few other mathematicians and with the help of the <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of choice</a>, would create the <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel set theory</a>: the standard formalization of set theory used today.</p>
                     <p>In essence, we are dealing with sets which behave like properties of things: <code>x ∈ A</code> means that element <code>x</code> has a certain property. In fact a set <code>P</code> can be defined as containing all elements that have a certain property <code>ψ()</code>:</p>
-                    <pre><code>∀x: x ∈ P → ψ(x)</code></pre>
-                    <p>or in words: for any element <code>x</code>, <code>x</code> belongs to <code>P</code> implies that <code>ψ(x)</code> is true. We cannot define a property of belonging to itself, we cannot define the set of all sets, and so on: we have avoided the paradox.</p>
+                    <pre><code>∀x: x ∈ P ↔ ψ(x)</code></pre>
+                    <p>In words: for any element <code>x</code>, <code>x</code> belongs to <code>P</code> implies that <code>ψ(x)</code> is true, and viceversa: only elements for which <code>ψ(x)</code> is true can belong to <code>P</code>.</p>
+                    <p>Using these axioms we cannot define a property of belonging to itself, we cannot define the set of all sets, and so on: we have avoided the paradox.</p>
                     <p>The <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of choice</a> had to be added to deal with infinite sets: it says that it is possible to pick an element from each set of a collection to create a new set. It seems stupid and it took me many years to even grasp its importance, but it is necessary for many derivations.</p>
                     <h2 id="rebuilding-maths-1">🏛️ Rebuilding Maths</h2>
                     <p>Once sound foundations for mathematics were laid out, it was time to rebuild everything based on set theory.</p>

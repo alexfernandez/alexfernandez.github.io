@@ -155,11 +155,13 @@ In essence, we are dealing with sets which behave like properties of things:
 In fact a set `P` can be defined as containing all elements that have a certain property `ψ()`:
 
 ```
-∀x: x ∈ P → ψ(x)
+∀x: x ∈ P ↔ ψ(x)
 ```
 
-or in words: for any element `x`, `x` belongs to `P` implies that `ψ(x)` is true.
-We cannot define a property of belonging to itself,
+In words: for any element `x`, `x` belongs to `P` implies that `ψ(x)` is true,
+and viceversa: only elements for which `ψ(x)` is true can belong to `P`.
+
+Using these axioms we cannot define a property of belonging to itself,
 we cannot define the set of all sets, and so on:
 we have avoided the paradox.
 
