@@ -329,7 +329,7 @@ This is the fourth part of the series about climate change:
 
 * Part 1: [🥵 Some Solutions to Climate Change](/2023/climate-change-solutions),
 * Part 2: [🌲 Planting Trees](/2023/climate-change-trees),
-* Part 3: [🪩 CMirror Roofs.](/2023/climate-change-roos),
+* Part 3: [🪩 CMirror Roofs](/2023/climate-change-roofs),
 * Part 4: 🛰️  Space Screens,
 * Part 5: [🤔 Conclusion: Taking Action](/2023/climate-change-conclusion).
 
