@@ -42,8 +42,8 @@ So if `A` is "my dog is beautiful", `¬A` means "my dog is **not** beautiful",
 which will make me very angry if I like my dog.
 But at this level we are pure logicians and we don't care about meaning.
 
-We can combine it with the symbol `∧`, which means "and",
-we can write a contradiction as:
+We can combine it with the symbol `∧`, which means "and";
+now we can write a contradiction as:
 
 ```
 A ∧ ¬A
