@@ -192,3 +192,12 @@ I can highly recommend the compilation and translation of
 by Agustín García Calvo;
 unfortunately not translated to English as far as I know.
 
+# ⏭️ To Be Continued
+
+This is the first part of the series about contradiction.
+
+* Part 1: 🤨 What Is Contradiction?,
+* Part 2: [🧮 Contradiction in Logic and Mathematics](/2023/contradiction-logic-mathematics).
+
+Enjoy!
+

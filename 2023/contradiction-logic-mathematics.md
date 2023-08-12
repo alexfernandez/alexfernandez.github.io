@@ -320,3 +320,12 @@ I have to thank my brother Fernando for telling me
 about simple logic paradoxes as a kid,
 and for the many discussions afterwards.
 
+# ⏭️ To Be Continued
+
+This is the second part of the series about contradiction.
+
+* Part 1: [🤨 What Is Contradiction?](/2023/contradiction-what-is),
+* Part 2: 🧮 Contradiction in Logic and Mathematics,
+
+Stay tuned!
+

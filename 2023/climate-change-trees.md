@@ -406,7 +406,7 @@ and trees can be our number one ally as they have been for millions of years.
 Even if they don't solve the underlying problem,
 they may help us fight its worst consequences.
 
-## ⏭️ To Be Continued
+# ⏭️ To Be Continued
 
 This is the second part of the series about climate change.
 

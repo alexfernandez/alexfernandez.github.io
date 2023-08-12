@@ -251,7 +251,7 @@ but together we can fix this mess.
 I have learned a lot speaking about these issues with many friends,
 including Juan Villamizar y Juan Searle.
 
-## ⏮️ The End
+# ⏮️ The End
 
 This is the last part of the series about climate change.
 
