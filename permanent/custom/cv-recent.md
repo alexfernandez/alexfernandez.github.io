@@ -26,7 +26,7 @@ Led an international team of ~15 developers at a French influencer marketing com
 
 * Reorganized the team to work in squads.
 * Led a rewrite of the frontend to improve maintainability.
-* Secured a successful multi-million acquisition process by a French group.
+* Secured a successful multi-million acquisition by a French group.
 
 ### 2020-07 to 2020-12: Freelancer at Alterna Energía
 
@@ -79,8 +79,7 @@ a Node.js library widely used for load testing web applications.
 
 ### Public Speaking
 
-I have
-[extensive experience as a public speaker](https://pinchito.es/permanent/speaker)
+I have extensive experience as a [public speaker](https://pinchito.es/permanent/speaker)
 at conferences across Europe.
 
 ### Organizations
@@ -88,7 +87,7 @@ at conferences across Europe.
 I have helped organize three editions of the volunteer conference
 [JSDayES](http://jsday.es/),
 the last one [in 2017](http://2017.jsday.es/)
-with around 600 attendees and featuring 35 speakers from over 10 countries.
+with 600 attendees and featuring 35 speakers from over 10 countries.
 
 ## Contact
 

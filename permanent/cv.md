@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
-subtitle: 'Email: [`alexfernandeznpm@gmail.com`](mailto:alexfernandeznpm@gmail.com)'
+subtitle: 'Email: alexfernandeznpm@gmail.com'
 footer: Last edited on 2023-08-08.
 ---
 
