@@ -73,7 +73,7 @@ to just under a million requests per second in four years.
 
 My projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
-The most popular at 1.8k stars is
+The most popular at 2.5k stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library widely used for load testing web applications.
 
