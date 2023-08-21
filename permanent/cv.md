@@ -32,8 +32,7 @@ a decision intelligence solution for chemical trading.
 ### 2021-01 to 2022-06: CTO at Hivency
 
 In 2021 I joined
-[Hivency](https://www.hivency.com/), a French influencer marketing company,
-as CTO.
+[Hivency](https://www.hivency.com/), a French influencer marketing company.
 
 * Led a team of French and Spanish professionals,
 helping them evolve the best solution in influencer marketing worldwide.
@@ -56,10 +55,10 @@ Customers include:
 [TUI Group](https://www.tuigroup.com/en-en),
 and a few other smaller companies.
 
-### 2017-10 to 2019-03: Devo (Formerly Logtrust)
+### 2017-10 to 2019-03: Backend Engineer at Devo
 
-I joined [Devo](https://www.devo.com/) as a backend engineer
-while in the middle of an impressive international expansion.
+I joined [Devo](https://www.devo.com/)
+in the middle of an impressive international expansion.
 
 * Wrote very demanding Node.js code for data ingestion,
 supporting peaks of 3.5 million events per second.
@@ -67,11 +66,11 @@ supporting peaks of 3.5 million events per second.
 and which resulted in a 2x speedup in secure socket communications.
 * Helped keep developer environments up and running.
 
-### 2013-01 to 2017-09: mediasmart.io
+### 2013-01 to 2017-09: Backend Lead at mediasmart.io
 
-Backend lead at [mediasmart.io](http://mediasmart.io/),
+Led the backend team at [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
-During this time of hypergrowth the company went from 50k€ to 10M€ in revenue. 
+During this period of hypergrowth the company went from 50k€ to 10M€ in revenue. 
 
 * Led the redesign that allowed us to go from processing two thousand requests per second
 to just under a million requests per second in little more than four years.
@@ -81,8 +80,7 @@ to just under a million requests per second in little more than four years.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
 
-I worked as an analyst and project manager at ING Spain,
-coordinating a group of up to 15 developers.
+I coordinated a group of up to 15 developers.
 
 * Technical responsible for financial cards.
 * Led development for internal projects (such as HalCash) in record time.
@@ -103,11 +101,11 @@ I have also collaborated with a few initiatives as a volunteer.
 
 ### Open Source Projects
 
-My projects can be found in my
-[GitHub account](https://github.com/alexfernandez/).
-The most popular at 2.5k stars is
+The most popular project at 2.5k stars is
 [loadtest](https://github.com/alexfernandez/loadtest),
 a Node.js library widely used for load testing web applications.
+Other projects can be found in my
+[GitHub account](https://github.com/alexfernandez/).
 
 ### Public Speaking
 
