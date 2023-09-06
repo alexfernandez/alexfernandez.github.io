@@ -18,7 +18,8 @@ PHP, JavaScript, TypeScript, Node.js, Python, and Go.
 Code that I have written routinely processes millions of requests per second.
 I have also held several management positions as director and CTO,
 leading high performance teams.
-Please find below my most relevant engagements.
+Please find below my most relevant engagements,
+full history at [LinkedIn](https://www.linkedin.com/in/pinchito).
 
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
