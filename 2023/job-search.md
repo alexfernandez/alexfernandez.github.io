@@ -1,5 +1,5 @@
 ---
-title: '👷 How I Searched for a Tech Job'
+title: '🎯 How I Searched for a Tech Job'
 subtitle: '☝️ Worked for me, might work for you'
 footer: Published on 2023-09-29, last modified on 2023-09-29
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
