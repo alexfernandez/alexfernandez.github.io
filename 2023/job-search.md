@@ -260,8 +260,8 @@ and my code was formatted with different options than the reviewer liked.)
 ### 🎭 Online Sessions
 
 In an online technical challenge you will have a call with an interviewer,
-who will ask you to solve some problems.
-The format can be used for programming problems,
+who will ask you to solve some problems right away.
+The format can be used for programming exercises,
 system design questions, and so on.
 
 It can be really stressful to have someone giving you problems to solve,
