@@ -212,7 +212,7 @@ That can also be significant in itself.
 
 ## 🔩 Technical Challenges
 
-Selection processes often including technical challenges:
+Selection processes often include technical challenges:
 some are take-away assignments while others are online sessions.
 I don't have a preference for one or the other,
 and it doesn't matter because naturally you don't get to choose;
