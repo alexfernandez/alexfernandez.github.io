@@ -329,7 +329,7 @@ Sometimes it is hard to even know why you were rejected;
 here too having a contact inside the company may help you.
 I was lucky to get a half-hour feedback session on one of the processes,
 which helped me learn what went wrong.
-Take all the feedback you can get.
+And I always took all the feedback I could get from interviewers.
 
 **Learn from your mistakes and move on.**
 
