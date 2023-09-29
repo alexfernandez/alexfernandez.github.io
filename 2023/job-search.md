@@ -308,8 +308,8 @@ has many interesting videos that will help you with the basics.
 If you can do some more specific preparation then go for it!
 For some well-known companies there is no shortage of pages that will help you prepare for the interviews;
 some companies are also nice enough to give you resources that will guide you.
-I will take Datadog as an example since their offer was public.
-For instance on [algodaily](https://algodaily.com/companies/datadog)
+For instance for Datadog:
+on [algodaily](https://algodaily.com/companies/datadog)
 you get a list of problems specific for them, some unlocked.
 
 **Train like crazy for the jobs you are looking for.**
