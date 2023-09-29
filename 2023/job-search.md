@@ -349,7 +349,7 @@ company, position, technology, salary, conditions (like remote work) and stabili
 Some companies are quite flashy on your CV:
 not necessarily FAANG, but top tier companies will help your career in the future.
 And of course a good salary never hurts.
-For me, what made me decide was to imagine where I could see myself in five years working happily.
+For me, what made me decide was to imagine where I could see myself working happily in five years.
 TinyBird is a great company with amazing prospects,
 growing like crazy and with really interesting scalability challenges.
 They offer remote work, competitive salaries,
