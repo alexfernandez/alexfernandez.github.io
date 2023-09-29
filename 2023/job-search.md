@@ -372,8 +372,9 @@ I announced my decision on LinkedIn, and the
 had got 3184 impressions as of 2023-09-29, with 100 reactions and 33 comments.
 Engagement was (99+33)/3184 = 4.1% in case you are wondering,
 computed as (reactions + comments) / impressions.
+I have no clue if that is good or bad on LinkedIn, but in general it looks nice!
 
-![Demographics by location on LinkedIn. 91 people in San Francisco learned about my new role.](pics/job-search-demographics.png "% of viewers: 30.7% from Madrid, 7.6% from Paris, 6.8% from Barcelona, 2.9% from San Francisco, 2.6% from Valencia.")
+![Demographics by location on LinkedIn: apparently 91 people in San Francisco learned about my new role.](pics/job-search-demographics.png "% of viewers: 30.7% from Madrid, 7.6% from Paris, 6.8% from Barcelona, 2.9% from San Francisco, 2.6% from Valencia.")
 
 On [Twitter](https://twitter.com/pinchito/status/1706973464186229076)
 it did even better: as of 2023-09-29,
