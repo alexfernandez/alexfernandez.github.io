@@ -356,7 +356,7 @@ They offer remote work, competitive salaries,
 plus I was able to meet the team I will join.
 Combine this with top notch management and I was sold.
 
-**Decisions are subjective; but they should take objective facts into consideration.**
+**Decisions are always subjective; but they should take objective facts into consideration.**
 
 Before canceling the other offers and ongoing processes I asked my contacts how should I proceed so they did not look bad.
 They were all cool with the fact that I would be choosing a different option.
