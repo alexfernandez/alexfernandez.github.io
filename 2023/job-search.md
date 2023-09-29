@@ -370,7 +370,7 @@ They were all cool with the fact that I would be choosing a different option.
 I announced my decision on LinkedIn, and the
 [post](https://www.linkedin.com/feed/update/urn:li:activity:7112739360587866112/)
 had got 3184 impressions as of 2023-09-29, with 100 reactions and 33 comments.
-Engagement was (99+33)/3184 = 4.1% in case you are wondering,
+Engagement was (100+33)/3184 = 4.2% in case you are wondering,
 computed as (reactions + comments) / impressions.
 I have no clue if that is good or bad on LinkedIn, but in general it looks nice!
 
