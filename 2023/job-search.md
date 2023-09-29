@@ -33,11 +33,11 @@ The following lessons were useful to me.
 2. Participate in the community for better exposure.
 3. Have a clean, to the point CV.
 4. Keep a spreadsheet with all job applications including every human interaction.
+6. Try to meet your future team.
 5. Take-away assignments always take longer than they state.
 5. Train like crazy for the jobs you are looking for.
 5. Looking for a job is stressful.
 6. Learn from your mistakes and move on.
-6. Try to meet your future team.
 
 ## Yes, but What Job?
 
@@ -182,14 +182,28 @@ their state and every human interaction.**
 I am not going to tell you anything new about doing interviews,
 so I will not even try.
 Just keep in mind that there are 
-technical interviews,.
+technical interviews,
+human resources (or values) interviews,
+and team interviews.
 
+**If at all possible, try to meet your future team.**
+With big companies sometimes you don't even know what team you will be assigned at when you join,
+so it's not always possible.
+
+I like to ask any technical employees I meet two simple questions:
+what do you like best about working at the company,
+and what do you like the least?
+It can give you a quick idea of the things people like and what they don't,
+but keep in mind that it can be a sensitive issue and they may not feel at liberty to answer,
+especially if a manager or human resources is also present.
+That can also be significant in itself.
 
 ## Technical Challenges
 
 Selection processes often including technical challenges:
 some are take-away assignments while others are online sessions.
-I don't have a preference to one or the other,
+I don't have a preference for one or the other,
+and it doesn't matter because naturally you don't get to choose;
 but they require different preparation.
 
 ### Take-away Assignments
@@ -227,7 +241,8 @@ on one hand I want to pass all technical challenges,
 but on the other I'm not sure I want to work for a company
 where you are evaluated by how many unit tests you write or if you format your code according to their guidelines.
 (In case you are wondering,
-I always include plenty of integration tests which should be enough for a toy project like this.)
+I always include plenty of integration tests,
+which should be enough for a toy project like this.)
 
 ### Online Sessions
 
@@ -248,11 +263,13 @@ where you have online challenges that you have to solve with a time limit.
 They 
 
 A category of questions that may come up for senior developer positions is "system design":
-create the architecture for an Instagram clone, or a Twitter clone, or a URL shortener.
+how would you design an Instagram clone, or a Twitter clone, or a URL shortener?
 They are very interesting problems where you have to consider ballpark estimations,
 scalability and design decisions.
-Again there is a ton of resources for this kind of interview,
+Again there is a ton of resources for this kind of challenge,
 so be sure to watch some videos, read some articles, and practice like crazy!
+Just to start you can check
+[how to design a TinyURL clone](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/638c0b5dac93e7ae59a1af6b).
 
 ### Preparation
 
