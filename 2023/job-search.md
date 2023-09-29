@@ -33,10 +33,11 @@ The following lessons were useful to me.
 2. Participate in the community for better exposure.
 3. Have a clean, to the point CV.
 4. Keep a spreadsheet with all job applications including every human interaction.
-**Take-away assignments always take longer than they state.**
+5. Take-away assignments always take longer than they state.
 5. Train like crazy for the jobs you are looking for.
 5. Looking for a job is stressful.
 6. Learn from your mistakes and move on.
+6. Try to meet your future team.
 
 ## Yes, but What Job?
 
@@ -176,6 +177,14 @@ A simple job that works is always better than a fancy system that can fail.
 **Keep a spreadsheet with all job applications,
 their state and every human interaction.**
 
+### Interviews
+
+I am not going to tell you anything new about doing interviews,
+so I will not even try.
+Just keep in mind that there are 
+technical interviews,.
+
+
 ## Technical Challenges
 
 Selection processes often including technical challenges:
@@ -275,8 +284,11 @@ like the dreaded "Oposiciones a funcionario" in Spain.
 So, are you going to shy away from a couple of months of study
 for a better paid, more rewarding technical position?
 My advice is: train all that you can for the jobs that you really want.
+The more you train the easier it becomes.
 
 **Train like crazy for the jobs you are looking for.**
+
+## Decision
 
 ## Announcement
 
