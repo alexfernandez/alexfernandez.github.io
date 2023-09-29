@@ -285,7 +285,7 @@ They are very interesting problems where you have to consider ballpark estimatio
 scalability and design decisions.
 Again there is a ton of resources for this kind of challenge,
 so be sure to watch some videos, read some articles, and practice like crazy!
-Just to start you can check
+Just to start you can check out
 [how to design a TinyURL clone](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/638c0b5dac93e7ae59a1af6b).
 
 ![My feeble attempt at designing a URL shortener.](pics/job-search-design.jpg "Steps: 1 scope, 2 API, 3 diagram, 4 scaling, 5 review. Scope: time frame, volume, cost, response time, auth, custom. API: create(url), redirect(short). Diagram contains a key-value database.")
