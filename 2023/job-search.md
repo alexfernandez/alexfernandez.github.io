@@ -18,18 +18,17 @@ but most of the lessons should be extensible to any jobs in the tech sector.
 # 🔍 The Job Search
 
 The whole process from first application to accepting an offer took roughly 7 weeks.
-All in all I sent out 44 job applications,
-although some of these came to me.
+All in all I sent out 44 job applications.
 I was rejected 15 times;
-on my side I accepted one offer and canceled 11 processes,
+on my side I canceled 11 processes,
 and another 17 applications are still pending as far as I know
-(I am not holding my breath.)
+(I am not holding my breath).
+This leaves us with the one offer that I finally accepted.
 
-Disregarding applications where there was at most an automated email:
-I entered 14 selection processes with at least one interview,
-I participated in 8 technical challenges and was accepted for three positions,
-of which I have accepted only one.
-I did 25 various interviews with recruiters, technical people and managers.
+Now for the detail of the 14 selection processes where I actually participated:
+overall I did 25 various interviews with recruiters, technical people and managers.
+I got 8 technical challenges and was accepted for three positions,
+of which I accepted the offer from TinyBird.
 
 ## 📝 Lessons Learned
 
@@ -404,4 +403,10 @@ Good luck in your search!
 If I can help you in any way,
 [let me know](mailto:alexfernandeznpm@gmail.com).
 Looking forward to referring many of you to TinyBird 😉
+
+## 🙏 Acknowledgements
+
+Thanks to Dionisio Cortés, Jesús Leganés and Álvaro Moya for reviewing the article.
+And eternal thanks to Álex, Roberto, César, Ane, Mark, Jesús, Abel, Eduardo, Adrián and Javi
+for their respective referrals.
 
