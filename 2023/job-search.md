@@ -264,8 +264,8 @@ who will ask you to solve some problems right away.
 The format can be used for programming exercises,
 system design questions, and so on.
 
-It can be really stressful to have someone giving you problems to solve,
-which feels like they are examining you.
+It can be really stressful to have someone feeding you instructions,
+as if they are examining you (which they are).
 Some companies will approach the exercise as a "pair programming session",
 where you can ask the interviewer for help or perhaps look things up online.
 It is advised to communicate a lot with this person as if this was a real pair programming session:
