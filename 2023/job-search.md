@@ -42,7 +42,7 @@ The following lessons were impinged on my brain and I should remember them.
 1. Take-away assignments always take longer than they state.
 1. Train like crazy for the jobs you are looking for.
 1. Learn from your mistakes and move on.
-1. Decisions are subjective; but they should take objective facts into consideration.
+1. Decisions are always subjective; but they should take objective facts into consideration.
 1. Always take care of the people that referred you.
 1. Looking for a job is stressful.
 
