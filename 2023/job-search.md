@@ -6,8 +6,11 @@ footer: Published on 2023-09-28, last modified on 2023-09-28
 image: https://pinchito.es/2023/pics/job-search-t3chfest.jpg
 ---
 
-These are turbulent times when many workers are losing their jobs,
-and at the same time many companies are looking for workers.
+These are turbulent times when many workers are losing their jobs;
+I was recently in this situation myself.
+At the same time many companies are looking for workers,
+and there is somewhat of a disconnect.
+
 Some people have asked for advice in their job search;
 I will do my best to explain how I faced mine,
 the challenges that I met along the way and how to deal with them.
@@ -21,25 +24,27 @@ and then explain them in the text **in bold**.
 My focus is on software developer jobs in technical companies,
 but most of the lessons should be extensible to any jobs in the tech sector.
 
-# The Job Search
+# 🔍 The Job Search
 
 The whole process from first application to accepting an offer took roughly 7 weeks,
 
-## Lessons Learned
+## 📝 Lessons Learned
 
 The following lessons were useful to me.
 
 1. Referrals work much better than cold applications.
-2. Participate in the community for better exposure.
-3. Have a clean, to the point CV.
-4. Keep a spreadsheet with all job applications including every human interaction.
-6. Try to meet your future team.
-5. Take-away assignments always take longer than they state.
-5. Train like crazy for the jobs you are looking for.
-5. Looking for a job is stressful.
-6. Learn from your mistakes and move on.
+1. Participate in the community for better exposure.
+1. Have a clean, to the point CV.
+1. Keep a spreadsheet with all job applications including every human interaction.
+1. Try to meet your future team.
+1. Take-away assignments always take longer than they state.
+1. Train like crazy for the jobs you are looking for.
+1. Learn from your mistakes and move on.
+1. Decisions are subjective; but they should take objective facts into consideration.
+1. Always look for the people that referred you.
+1. Looking for a job is stressful.
 
-## Yes, but What Job?
+## 👷 Yes, but What Job?
 
 It was roughly one year after joining NTRDE full time in September 2022;
 we had not got the financing we were looking for.
@@ -57,7 +62,7 @@ As [Charity Majors likes to say](https://charity.wtf/2017/05/11/the-engineer-man
 the best managers are those that have engineered, but also the best engineers are those that have managed.
 I was ready to go back to sweet development work, baby!
 
-## Some Numbers
+## 🧮 Some Numbers
 
 All in all I sent out 44 job applications,
 although some of these came to me.
@@ -71,7 +76,7 @@ I participated in 8 technical challenges and was accepted for three positions,
 of which I have accepted only one.
 I did 25 various interviews with recruiters, technical people and managers.
 
-## Publication
+## 📰 Publication
 
 At one point my job search was not looking good:
 26 applications and only two interviews which were both failures.
@@ -93,6 +98,10 @@ Even companies that had rejected me when I cold-applied before would now give me
 
 **Ask for referrals: they work much better than cold applications.**
 
+Sometimes the people that refer you get some compensation;
+this is good because both parts benefit from the referral.
+In any case, be grateful with people, even if you don't get the job.
+
 A [similar toot on Mastodon](https://mastodon.social/@pinchito/110915846714273313)
 got much less exposure, but still 15 retoots and one like.
 
@@ -109,7 +118,7 @@ but this effort will give fruit later.
 
 **Participate in the community: it gives you exposure that will be useful when job searching.**
 
-## CV
+## 💼 CV
 
 The _curriculum vitae_, "résumé" or simply "resume" is not something you write and then send 1000 times,
 or at least it should not be;
@@ -137,7 +146,7 @@ The more effort you take for your application, the more likely it is that it wil
 
 **Write a simple lean CV and update it as needed.**
 
-## Selection Processes
+## 📋 Selection Processes
 
 Now we come to the most demanding part:
 all those selection processes.
@@ -177,7 +186,7 @@ A simple job that works is always better than a fancy system that can fail.
 **Keep a spreadsheet with all job applications,
 their state and every human interaction.**
 
-### Interviews
+### 🗣️ Interviews
 
 I am not going to tell you anything new about doing interviews,
 so I will not even try.
@@ -198,7 +207,7 @@ but keep in mind that it can be a sensitive issue and they may not feel at liber
 especially if a manager or human resources is also present.
 That can also be significant in itself.
 
-## Technical Challenges
+## 🔩 Technical Challenges
 
 Selection processes often including technical challenges:
 some are take-away assignments while others are online sessions.
@@ -206,7 +215,7 @@ I don't have a preference for one or the other,
 and it doesn't matter because naturally you don't get to choose;
 but they require different preparation.
 
-### Take-away Assignments
+### 📜 Take-away Assignments
 
 In this kind of technical challenge you have to solve a programming problem on your own:
 you get the problem statement and perhaps some skeleton code,
@@ -244,7 +253,7 @@ where you are evaluated by how many unit tests you write or if you format your c
 I always include plenty of integration tests,
 which should be enough for a toy project like this.)
 
-### Online Sessions
+### 🎭 Online Sessions
 
 In an online technical challenge you will have a conference with an interviewer,
 who will ask you to solve some problems.
@@ -271,7 +280,7 @@ so be sure to watch some videos, read some articles, and practice like crazy!
 Just to start you can check
 [how to design a TinyURL clone](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/638c0b5dac93e7ae59a1af6b).
 
-### Preparation
+### 🧑‍🎓 Preparation
 
 Many big companies will ask you to brush up your skills on algorithms, data structures
 and big O notation.
@@ -294,6 +303,8 @@ I will take Datadog as an example since their offer was public.
 For instance on [algodaily](https://algodaily.com/companies/datadog)
 you get a list of problems specific for them, some unlocked.
 
+**Train like crazy for the jobs you are looking for.**
+
 Is it worth it to prepare for weeks or months for an interview?
 Of course it is!
 After all, people study for years for a public examination to get a position as civil servant,
@@ -301,24 +312,83 @@ like the dreaded "Oposiciones a funcionario" in Spain.
 So, are you going to shy away from a couple of months of study
 for a better paid, more rewarding technical position?
 My advice is: train all that you can for the jobs that you really want.
+
 The more you train the easier it becomes.
+But some companies will reject you due to multiple factors.
+Sometimes it is hard to even know why you were rejected;
+here too having a contact inside the company may help you.
+I was lucky to get a half-hour feedback session on one of the processes,
+which helped me learn what went wrong.
+Take all the feedback you can get.
 
-**Train like crazy for the jobs you are looking for.**
+**Learn from your mistakes and move on.**
 
-## Decision
+## ⚖️ Decision
 
-## Announcement
+Hopefully at some point you will start getting offers,
+of the kind on a PDF with real money on it.
+You may even get several offers and have to decide on them.
+How can you make a decision?
 
-### LinkedIn Announcement
+In my case I got three offers,
+and had some other ongoing processes.
+At some point I decided to go with TinyBird.
+How did I take the decision?
+There were some factors to take into account:
+company, position, technology, salary, conditions (like remote work) and stability.
+
+Some companies are quite flashy on your CV:
+not necessarily FAANG, but top tier companies will help your career in the future.
+And of course a good salary never hurts.
+For me, what made me decide was to think about where I could see myself in five years working happily.
+TinyBird is a great company with amazing prospects,
+growing like crazy and with really interesting scalability challenges.
+They offer remote work, competitive salaries,
+plus I was able to meet the team I will join.
+Combine this with top notch management and I was sold.
+
+**Decisions are subjective; but they should take objective facts into consideration.**
+
+Before canceling the other offers and ongoing processes I asked my contacts how should I proceed so they did not look bad.
+They were all cool with the fact that I would be choosing a different option.
+
+**Always look for the people that referred you.**
+
+## 📢 Announcement
 
 On LinkedIn I did not post that I was looking for a job since it did so well on Twitter.
 When I announced my hiring the
 [post](https://www.linkedin.com/feed/update/urn:li:activity:7112739360587866112/)
 had 2579 impressions as of 2023-09-28, with 83 reactions and 31 comments.
-Engagement was 4.4% in case you are wondering, computed as (reactions + comments) / impressions.
+Engagement was (83+31)/2579 = 4.4% in case you are wondering.
+It is computed as (reactions + comments) / impressions.
 
-# Conclusion
+On [Twitter](https://twitter.com/pinchito/status/1706973464186229076)
+it did even better: as of 2023-09-29,
+19k impressions, 7 retweets, 20 replies and 202 likes!
+My most liked post ever.
+Engagement was (7+20+202)/19k = 1.2%.
+Did I tell you that engagement on Twitter sucks?
+Anything more than 1% is excellent!
+
+On [Mastodon](https://mastodon.social/@pinchito/111136692859351246)
+I got one retoot and 4 likes.
+
+It is humbling to think that more than 20 thousand people learned about my processes.
+The community helped me a lot to find good offers,
+and this article is a way of paying back with my experience so others can perhaps learn from it.
+
+# 🤔 Conclusion
+
+**Looking for a job is stressful.**
 
 The process of searching for a job can be really stressful.
 Don't despair: you don't need to find seven good jobs, one is enough.
+If what you are doing doesn't yield results,
+change your methods.
+
+Good luck in your search!
+If I can help you in any way,
+[let me know](mailto:alexfernandeznpm@gmail.com).
+Looking forward to referring many of you to TinyBird 😉
 
