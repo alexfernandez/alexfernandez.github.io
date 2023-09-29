@@ -1,36 +1,39 @@
 ---
-title: '👷 How I Searched for a Job'
+title: '👷 How I Searched for a Tech Job'
 subtitle: '☝️ Worked for me, might work for you'
-footer: Published on 2023-09-28, last modified on 2023-09-28
+footer: Published on 2023-09-29, last modified on 2023-09-29
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2023/pics/job-search-t3chfest.jpg
+image: https://pinchito.es/2023/pics/job-search-sheet.png
 ---
 
 These are turbulent times when many workers are losing their jobs;
 I was recently in this situation myself.
-At the same time many companies are looking for workers,
-and there is somewhat of a disconnect.
-
 Some people have asked for advice in their job search;
-I will do my best to explain how I faced mine,
-the challenges that I met along the way and how to deal with them.
-In the hope that it will be useful should you find yourself in the same situation,
-or even myself in the (hopefully distant) future!
-
-![Participating in the community. Source: the author.](pics/job-search-t3chfest.jpg "The author is taking a selfie with the audience at T3chFest.")
-
-I will start with some lessons learned,
-and then explain them in the text **in bold**.
+I am writing this article to explain the lessons I learned.
 My focus is on software developer jobs in technical companies,
 but most of the lessons should be extensible to any jobs in the tech sector.
 
+![Participating in the community.](pics/job-search-t3chfest.jpg "The author is taking a selfie with the audience at T3chFest.")
+
 # 🔍 The Job Search
 
-The whole process from first application to accepting an offer took roughly 7 weeks,
+The whole process from first application to accepting an offer took roughly 7 weeks.
+All in all I sent out 44 job applications,
+although some of these came to me.
+I was rejected 15 times;
+on my side I accepted one offer and canceled 11 processes,
+and another 17 applications are still pending as far as I know
+(I am not holding my breath.)
+
+Disregarding applications where there was at most an automated email:
+I entered 14 selection processes with at least one interview,
+I participated in 8 technical challenges and was accepted for three positions,
+of which I have accepted only one.
+I did 25 various interviews with recruiters, technical people and managers.
 
 ## 📝 Lessons Learned
 
-The following lessons were useful to me.
+The following lessons were impinged on my brain and I should remember them.
 
 1. Referrals work much better than cold applications.
 1. Participate in the community for better exposure.
@@ -41,8 +44,10 @@ The following lessons were useful to me.
 1. Train like crazy for the jobs you are looking for.
 1. Learn from your mistakes and move on.
 1. Decisions are subjective; but they should take objective facts into consideration.
-1. Always look for the people that referred you.
+1. Always take care of the people that referred you.
 1. Looking for a job is stressful.
+
+We will now see each in context.
 
 ## 👷 Yes, but What Job?
 
@@ -54,27 +59,13 @@ so I had to find a proper job.
 For the last four years I have been working as a CTO,
 thinking that I would be able to have more influence this way.
 But honestly I missed technical work a lot,
-as I had discovered this last year being a fullstack CTO
-(which means I did everything from product sketches to configuring servers to speaking with investors).
+as I had discovered this last year being a fullstack CTO,
+which means I did everything from product sketches to programming to speaking with investors.
 Therefore I was ready to look for a job as software engineer, individual contributor,
 no management responsibilities.
 As [Charity Majors likes to say](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/),
 the best managers are those that have engineered, but also the best engineers are those that have managed.
-I was ready to go back to sweet development work, baby!
-
-## 🧮 Some Numbers
-
-All in all I sent out 44 job applications,
-although some of these came to me.
-All in all I was rejected 15 times;
-on my side I canceled 11 processes due to multiple reasons,
-and another 17 applications are still pending as far as I know.
-
-Disregarding applications where there was at most an automated email:
-I entered 14 selection processes with at least one interview,
-I participated in 8 technical challenges and was accepted for three positions,
-of which I have accepted only one.
-I did 25 various interviews with recruiters, technical people and managers.
+I was ready to go back to sweet coding, baby!
 
 ## 📰 Publication
 
@@ -82,63 +73,73 @@ At one point my job search was not looking good:
 26 applications and only two interviews which were both failures.
 (I also did a take-home assignment which later resulted in an offer.)
 
-I decided to do a publication on Twitter (I refuse to call it X).
-Even in its sunset years the blue bird still had a surprise for me:
+I decided to do a publication on Twitter (sorry, I refuse to call it X).
+Even in its sunset years the blue bird had a surprise for me:
 my [job search tweet](https://twitter.com/pinchito/status/1692852099002827040)
-had 36.4k views as of 2023-09-28. It was the post of mine I remember with more retweets ever: 132 no less.
-Also 91 likes and 7 replies; total engagement is 0.6% in case you are wondering,
-computed as (likes + retweets + replies)/impressions;
-not so shabby for Twitter.
+had 36.4k views as of 2023-09-28. It was probably my post with more retweets ever: 132 no less,
+plus 91 likes and 7 replies.
+Total engagement is 0.6% in case you have ever worked in marketing,
+computed as all interactions divided by impressions;
+not too shabby for Twitter.
 
 This tweet got me 8 referrals,
 in fact for some of the most interesting job offers I would get.
 Just from the replies you can see DataDog, RevenueCat and TrustYou,
 and a few more were waiting for me in private messages.
 Even companies that had rejected me when I cold-applied before would now give me an interview.
+Which brings us to our first lesson:
 
 **Ask for referrals: they work much better than cold applications.**
 
-Sometimes the people that refer you get some compensation;
-this is good because both parts benefit from the referral.
+Sometimes the people that refer you get some economic compensation;
+it is only fair that both parts benefit from the referral.
 In any case, be grateful with people, even if you don't get the job.
 
 A [similar toot on Mastodon](https://mastodon.social/@pinchito/110915846714273313)
-got much less exposure, but still 15 retoots and one like.
+had shorter legs, but still got 15 retoots and one like.
 
 I was lucky to get so much exposure,
-but it is also good to be known.
+but it is also good to be known in your sector.
 I have been a Meetup organizer for 10 years,
 have organized several conferences
 and try to give talks regularly.
 When people see you around a lot they tend to infer that you are particularly clever,
-which is good (if untrue in this case).
-Yes, it is often inconvenient to get out of your house in the evening to go to a meetup,
+which is nice (if not necessarily true as in this case).
+Yes, it is often uncomfortable to get out of your house in the evening to go to a meetup,
 or to write a conference proposal;
-but this effort will give fruit later.
+but these efforts may prove useful later.
 
 **Participate in the community: it gives you exposure that will be useful when job searching.**
 
 ## 💼 CV
 
-The _curriculum vitae_, "résumé" or simply "resume" is not something you write and then send 1000 times,
+The _curriculum vitae_ or resume is not something you write and then send 1000 times,
 or at least it should not be;
 I read about a [guy in NY](https://blog.pragmaticengineer.com/a-senior-engineer-em-job-search-story/)
 who updated his resume daily.
 
+I used to keep separate PDF and [online](https://pinchito.es/cv) CVs,
+but I took the time to unify both.
+Technical details: it is generated from markdown as PDF using [pandoc](https://pandoc.org/MANUAL.html),
+using the very nice class `scrartcl`.
+
+```
+pandoc -V urlcolor:Blue -V documentclass:scrartcl -V geometry:margin=1in -s permanent/cv.md -o permanent/cv-alex-fernandez.pdf
+```
+
 One of the companies where I applied required sending them a CV with two pages max,
 a single font and no pictures.
-I thought it was a really good idea so I crafted it using markdown and pandoc,
+I thought it was a really good idea so I crafted this shortened version using markdown and pandoc,
 and sent it to most US companies.
-I used to keep a longer form CV,
-but I took the time to unify it with the
-[online CV](https://pinchito.es/cv) on this website.
-Technical details: it is generated as PDF using [pandoc](https://pandoc.org/MANUAL.html),
-using the very nice class `scrartcl` with small margins and blue links.
 
-I have removed all the experience that is less pertinent from both,
-more aggressively for the shorter two-pager;
-both have a link to [my LinkedIn page](https://www.linkedin.com/in/pinchito/)
-if you need to account for every month of my career.
+![My shortened CV, page 1: job history.](pics/job-search-cv1.png "Short summary, job history with four positions: cofounder at NTRDE, CTO at Hivency, freelancer at Alterna Energía, CTO at Influencity.")
+
+I have removed all the experience that is less pertinent from both CVs,
+more aggressively from the shortened two-pager;
+a link to [my LinkedIn page](https://www.linkedin.com/in/pinchito/) is available
+should a recruiter need to account for every month of my career.
+
+![My shortened CV, page 2: teaching, volunteer work, contact.](pics/job-search-cv2.png "Job history continued: backend engineer at Devo, backend lead at mediasmart.io. Teaching, volunteer work with open source projects, public speaking and organizations. Finally, contact with email and LinkedIn.")
 
 I also wrote many custom variations of the CV as needed;
 sometimes sites asked for text-only versions or sometimes just a cover letter highlighting my experience.
@@ -157,11 +158,11 @@ and many will not bother to ever write to you to let you know that the process i
 So it will fall on your side to keep track of all of them.
 
 I kept a Google spreadsheet with two tabs.
-The first one is a list of all applications with their state,
-source found, salary offered (if present), date sent, status and reason.
+The first one is a list of all applications with company, title in the offer,
+where I found it, salary offered (if present), date applied and status.
 Under "reason" I listed why I was rejected or why I canceled the processes:
-"does not end lines with semicolons", "we should see other people".
-Keep track of who referred you to what;
+"did not end lines with semicolons", "we should see other people".
+Under "source" I kept track of who referred me to it if applicable;
 remember that human interactions are your most important asset.
 
 |Company|Title|Source|Salary|Sent|Status|Reason|
@@ -170,25 +171,26 @@ remember that human interactions are your most important asset.
 |BigCorp|Minion|Manfred|$50k|2023-09-29|<span style="background: #ffcccc">Rejected</span>||
 |ScaleupCo|Manager|referral PT|$80k|2023-09-29|<span style="background: #ccffcc">In progress</span>||
 
-The second tab is a list of "processes" with every step along the way.
-Color-coded for your convenience.
-This one you can reorder as you move along the processes,
-so you can clearly see the funnel as in the image below.
+The second tab is a list of "processes" with every step along the way,
+color-coded for my convenience.
+This one I did reorder as I moved along the processes,
+so I could clearly see the funnel as in the image below.
 Remember that human interactions are the most important part,
-so write down who interviewed you and when.
+so be sure to write down who interviewed you and when.
 
-![Job search sheet with all processes. Source: the author.](pics/job-search-sheet.png "List of processes: company, position, step1, date1, step2, date2... Steps passed in green, steps failed in red.")
+![Job search sheet with all processes.](pics/job-search-sheet.png "List of processes: company, position, step1, date1, step2, date2... Steps passed in green, steps failed in red.")
 
 Perhaps you can build some fancy automation so that the first sheet is automatically updated when you write on the second;
 for my needs it was enough to keep everything updated by hand.
-A simple job that works is always better than a fancy system that can fail.
+A simple tool that works tends to be better than a fancy system that is never built
+(and this is a bonus lesson).
 
 **Keep a spreadsheet with all job applications,
 their state and every human interaction.**
 
 ### 🗣️ Interviews
 
-I am not going to tell you anything new about doing interviews,
+I am not going to teach you anything new about doing interviews,
 so I will not even try.
 Just keep in mind that there are 
 technical interviews,
@@ -199,12 +201,12 @@ and team interviews.
 With big companies sometimes you don't even know what team you will be assigned at when you join,
 so it's not always possible.
 
-I like to ask any technical employees I meet two simple questions:
+If I get the opportunity I like to ask any technical employees I meet two simple questions:
 what do you like best about working at the company,
 and what do you like the least?
-It can give you a quick idea of the things people like and what they don't,
+It can give you a quick idea of how it is to work there,
 but keep in mind that it can be a sensitive issue and they may not feel at liberty to answer,
-especially if a manager or human resources is also present.
+especially if a manager or HR person is also present.
 That can also be significant in itself.
 
 ## 🔩 Technical Challenges
@@ -225,12 +227,12 @@ Others are more limited in scope: you get a set of tests and have to solve for t
 
 There are many online places where you can practice:
 [LeetCode](https://leetcode.com/),
-[Codecademy](https://www.codecademy.com/) and so on.
+[HackerRank](https://www.hackerrank.com/dashboard) and so on.
 I am particularly fond of the french site [CodinGame](https://www.codingame.com/home),
 makers of [CoderPad](https://coderpad.io/) which is used by some well known companies:
 it has a lot of interesting challenges that you can solve for practice.
 
-When you get the assignment they sometimes come with a time estimation, e.g.:
+When you get the assignments they sometimes come with a time estimation, e.g.:
 
 > This exercise should take you no more than 2 hours.
 
@@ -242,34 +244,39 @@ Write, write like crazy.
 
 **Take-away assignments always take longer than they state.**
 
-In my case I was rejected in a couple of assignments because of weird reasons:
+In my case a couple of assignments were rejected because of weird reasons:
 I did not include unit tests
 or did not format my code using `prettier`.
 I am torn here:
 on one hand I want to pass all technical challenges,
 but on the other I'm not sure I want to work for a company
-where you are evaluated by how many unit tests you write or if you format your code according to their guidelines.
+where you are evaluated by how many unit tests you write or if you format your code according to never stated guidelines.
 (In case you are wondering,
 I always include plenty of integration tests,
-which should be enough for a toy project like this.)
+which should be enough for a toy project like this;
+and my code was formatted with different options than the reviewer liked.)
 
 ### 🎭 Online Sessions
 
-In an online technical challenge you will have a conference with an interviewer,
+In an online technical challenge you will have a call with an interviewer,
 who will ask you to solve some problems.
 The format can be used for programming problems,
 system design questions, and so on.
-For now we will center on programming problems.
 
 It can be really stressful to have someone giving you problems to solve,
 which feels like they are examining you.
 Some companies will approach the exercise as a "pair programming session",
-where you can ask the interviewer for help or perhaps look things online.
+where you can ask the interviewer for help or perhaps look things up online.
+It is advised to communicate a lot with this person as if this was a real pair programming session:
+explain what you are about to do,
+ask them for their opinion,
+tell them about your doubts and hopes in life.
 
 A resource which helped me a lot deal with the stress is
 [Clash of Code](https://www.codingame.com/multiplayer/clashofcode) by CodinGame,
 where you have online challenges that you have to solve with a time limit.
-They 
+They help you focus quickly on a problem,
+and practice for speed.
 
 A category of questions that may come up for senior developer positions is "system design":
 how would you design an Instagram clone, or a Twitter clone, or a URL shortener?
@@ -280,18 +287,20 @@ so be sure to watch some videos, read some articles, and practice like crazy!
 Just to start you can check
 [how to design a TinyURL clone](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/638c0b5dac93e7ae59a1af6b).
 
+![My feeble attempt at designing a URL shortener.](pics/job-search-design.jpg "Steps: 1 scope, 2 API, 3 diagram, 4 scaling, 5 review. Scope: time frame, volume, cost, response time, auth, custom. API: create(url), redirect(short). Diagram contains a key-value database.")
+
 ### 🧑‍🎓 Preparation
 
 Many big companies will ask you to brush up your skills on algorithms, data structures
 and big O notation.
 You may be asking yourself:
 why do companies ask about abstract algorithms and not about concrete problems in their product space?
-Now put yourself in the role of an examinator:
+Now put yourself in the role of an examiner:
 do you want to select only candidates that know about marketing,
 or car sharing, or retail, or whatever your company does?
 Or would you prefer to choose a level playing field where anyone can participate?
-It is true that many bootcamps and even more traditional schools don't teach you algorithms or data structures,
-But there are thousands of resources online that you can use on your own.
+True, many bootcamps and even more traditional schools don't teach you algorithms or data structures;
+but there are thousands of resources online that you can use on your own.
 As a starting point,
 this [HackerRank playlist](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
 has many interesting videos that will help you with the basics.
@@ -352,7 +361,7 @@ Combine this with top notch management and I was sold.
 Before canceling the other offers and ongoing processes I asked my contacts how should I proceed so they did not look bad.
 They were all cool with the fact that I would be choosing a different option.
 
-**Always look for the people that referred you.**
+**Always take care of the people that referred you.**
 
 ## 📢 Announcement
 
@@ -363,7 +372,7 @@ had 2579 impressions as of 2023-09-28, with 83 reactions and 31 comments.
 Engagement was (83+31)/2579 = 4.4% in case you are wondering.
 It is computed as (reactions + comments) / impressions.
 
-![Demographics by location on LinkedIn. 91 people in San Francisco learned about my new role! Source: the author.](pics/job-search-demographics.png "% of viewers: 30.7% from Madrid, 7.6% from Paris, 6.8% from Barcelona, 2.9% from San Francisco, 2.6% from Valencia.")
+![Demographics by location on LinkedIn. 91 people in San Francisco learned about my new role.](pics/job-search-demographics.png "% of viewers: 30.7% from Madrid, 7.6% from Paris, 6.8% from Barcelona, 2.9% from San Francisco, 2.6% from Valencia.")
 
 On [Twitter](https://twitter.com/pinchito/status/1706973464186229076)
 it did even better: as of 2023-09-29,
@@ -377,7 +386,7 @@ On [Mastodon](https://mastodon.social/@pinchito/111136692859351246)
 I got one retoot and 4 likes.
 
 It is humbling to think that more than 20 thousand people learned about my processes.
-The community helped me a lot to find good offers,
+The community helped me a lot to find interesting offers,
 and this article is a way of paying back with my experience so others can perhaps learn from it.
 
 # 🤔 Conclusion
@@ -385,7 +394,7 @@ and this article is a way of paying back with my experience so others can perhap
 **Looking for a job is stressful.**
 
 The process of searching for a job can be really stressful.
-Don't despair: you don't need to find seven good jobs, one is enough.
+Don't despair: you don't need to find seven jobs, one is enough.
 If what you are doing doesn't yield results,
 change your methods.
 
