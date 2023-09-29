@@ -30,7 +30,8 @@ The following lessons were useful to me.
 1. Referrals work much better than cold applications.
 2. Participate in the community for better exposure.
 3. Have a clean, to the point CV.
-4. Train like crazy for the jobs you are looking for.
+4. Keep a spreadsheet with all job applications including every human interaction.
+5. Train like crazy for the jobs you are looking for.
 5. Looking for a job is stressful.
 6. Learn from your mistakes and move on.
 
@@ -130,10 +131,60 @@ The more effort you take for your application, the more likely it is that it wil
 ## Selection Processes
 
 Now we come to the most demanding part:
-all those selection processes,
-often including technical challenges:
-some with take-away assignments,
-others with online sessions.
+all those selection processes.
+If you are like me you will send a lot of applications,
+and then not remember which is which.
+Not all of them are kind enough to send you an email acknowledgement,
+and many will not bother to ever write to you to let you know that the process is closed.
+So it will fall on your side to keep track of all of them.
+
+I kept a Google spreadsheet with two tabs.
+The first one is a list of all applications with their state,
+source found, salary offered (if present), date sent and status.
+
+|Company|Title|Source|Salary|Sent|Status|Reason|
+|-------|-----|------|------|----|------|------|
+|StartupCo|FullStack Dev|himalayas|?|2023-09-29|<span style="background: #ff00ff">Pending</span>|
+
+The second is a list of "processes" with every step along the way.
+Color-coded for your convenience.
+
+![Job search sheet: processes. Source: the author.](pics/job-search-sheet.jpg "List of processes: company, position, step1, date1, step2, date2... Steps passed in green, steps failed in red.")
+
+
+**Keep a spreadsheet with all job applications,
+their state and every human interaction.**
+
+## Technical Challenges
+
+Selection processes often including technical challenges:
+some are take-away assignments while others are online sessions.
+I don't have a preference to one or the other,
+but they require different preparation.
+
+### Take-away Assignments
+
+In this kind of technical challenge you have to solve a programming problem on your own:
+you get the problem statement and perhaps some skeleton code,
+and you have to find a solution.
+Some are more open: you have to code everything including tests.
+Others are more limited in scope: you get a set of tests and have to solve for those.
+
+There are many online places where you can practice:
+[LeetCode](https://leetcode.com/), 
+I am 
+
+**
+
+### Online Sessions
+
+In an online technical challenge you will have a conference with an interviewer,
+who will ask you to solve some problems.
+The format can be used for programming problems,
+system design questions, and so on.
+For now we will center on programming problems.
+
+It is 
 
 ## Announcement
 
