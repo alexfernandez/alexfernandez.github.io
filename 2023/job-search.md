@@ -363,6 +363,8 @@ had 2579 impressions as of 2023-09-28, with 83 reactions and 31 comments.
 Engagement was (83+31)/2579 = 4.4% in case you are wondering.
 It is computed as (reactions + comments) / impressions.
 
+![Demographics by location on LinkedIn. 91 people in San Francisco learned about my new role! Source: the author.](pics/job-search-demographics.png "% of viewers: 30.7% from Madrid, 7.6% from Paris, 6.8% from Barcelona, 2.9% from San Francisco, 2.6% from Valencia.")
+
 On [Twitter](https://twitter.com/pinchito/status/1706973464186229076)
 it did even better: as of 2023-09-29,
 19k impressions, 7 retweets, 20 replies and 202 likes!
