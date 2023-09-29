@@ -76,11 +76,13 @@ At one point my job search was not looking good:
 I decided to do a publication on Twitter (sorry, I refuse to call it X).
 Even in its sunset years the blue bird had a surprise for me:
 my [job search tweet](https://twitter.com/pinchito/status/1692852099002827040)
-had 36.4k views as of 2023-09-28. It was probably my post with more retweets ever: 132 no less,
+had 36.5k views as of 2023-09-28. It was probably my post with more retweets ever: 132 no less,
 plus 91 likes and 7 replies.
 Total engagement is 0.6% in case you have ever worked in marketing,
 computed as all interactions divided by impressions;
 not too shabby for Twitter.
+
+![My tweet, or "post" as the new owner insists on calling them.](pics/job-search-tweet.png "Screenshot of my job search tweet: 36.5k views, 129 reposts, 3 quotes, 91 likes, 18 bookmarks.")
 
 This tweet got me 8 referrals,
 in fact for some of the most interesting job offers I would get.
@@ -336,20 +338,19 @@ Take all the feedback you can get.
 
 Hopefully at some point you will start getting offers,
 of the kind on a PDF with real money on it.
-You may even get several offers and have to decide on them.
-How can you make a decision?
+You may even get several offers and have to pick up one.
+How can you make such a life-changing decision?
 
 In my case I got three offers,
-and had some other ongoing processes.
-At some point I decided to go with TinyBird.
-How did I take the decision?
-There were some factors to take into account:
+and had some other ongoing processes,
+when I decided to go with TinyBird.
+Why? I took into account a few factors:
 company, position, technology, salary, conditions (like remote work) and stability.
 
 Some companies are quite flashy on your CV:
 not necessarily FAANG, but top tier companies will help your career in the future.
 And of course a good salary never hurts.
-For me, what made me decide was to think about where I could see myself in five years working happily.
+For me, what made me decide was to imagine where I could see myself in five years working happily.
 TinyBird is a great company with amazing prospects,
 growing like crazy and with really interesting scalability challenges.
 They offer remote work, competitive salaries,
@@ -365,8 +366,7 @@ They were all cool with the fact that I would be choosing a different option.
 
 ## 📢 Announcement
 
-On LinkedIn I did not post that I was looking for a job since it did so well on Twitter.
-When I announced my hiring the
+When I announced my decision on LinkedIn the
 [post](https://www.linkedin.com/feed/update/urn:li:activity:7112739360587866112/)
 had 2579 impressions as of 2023-09-28, with 83 reactions and 31 comments.
 Engagement was (83+31)/2579 = 4.4% in case you are wondering.
