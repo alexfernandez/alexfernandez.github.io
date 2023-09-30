@@ -28,7 +28,7 @@ This leaves us with the one offer that I finally accepted.
 Now for the detail of the 14 selection processes where I actually participated:
 overall I did 25 various interviews with recruiters, technical people and managers.
 I got 8 technical challenges and was accepted for three positions,
-of which I accepted the offer from TinyBird.
+of which I accepted the offer from Tinybird.
 
 ## 📝 Lessons Learned
 
@@ -342,7 +342,7 @@ How can you make such a life-changing decision?
 
 In my case I got three offers,
 and had some other ongoing processes,
-when I decided to go with TinyBird.
+when I decided to go with Tinybird.
 Why? I took into account a few factors:
 company, position, technology, salary, conditions (like remote work) and stability.
 
@@ -350,7 +350,7 @@ Some companies are quite flashy on your CV:
 not necessarily FAANG, but top tier companies will help your career in the future.
 And of course a good salary never hurts.
 For me, what made me decide was to imagine where I could see myself working happily in five years.
-TinyBird is a great company with amazing prospects,
+Tinybird is a great company with amazing prospects,
 growing like crazy and with really interesting scalability challenges.
 They offer remote work, competitive salaries,
 plus I was able to meet the team I will join.
@@ -365,7 +365,7 @@ They were all cool with the fact that I would be choosing a different option.
 
 ## 📢 Announcement
 
-![LinkedIn post.](pics/job-search-linkedin.png "Screenshot of my LinkedIn announcement that I would join TinyBird: 99 reactions, 33 comments.")
+![LinkedIn post.](pics/job-search-linkedin.png "Screenshot of my LinkedIn announcement that I would join Tinybird: 99 reactions, 33 comments.")
 
 I announced my decision on LinkedIn, and the
 [post](https://www.linkedin.com/feed/update/urn:li:activity:7112739360587866112/)
@@ -403,11 +403,11 @@ change your methods.
 Good luck in your search!
 If I can help you in any way,
 [let me know](mailto:alexfernandeznpm@gmail.com).
-Looking forward to referring many of you to TinyBird 😉
+Looking forward to referring many of you to Tinybird 😉
 
 ## 🙏 Acknowledgements
 
-Thanks to Dionisio Cortés, Jesús Leganés and Álvaro Moya for reviewing the article.
+Thanks to Dionisio Cortés, Jesús Leganés, Álvaro Moya and Alison Davey for reviewing the article.
 And eternal thanks to Álex, Roberto, César, Ane, Mark, Jesús, Abel, Eduardo, Adrián and Javi
 for their respective referrals.
 I owe you one! 🥂
