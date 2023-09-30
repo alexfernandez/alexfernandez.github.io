@@ -344,17 +344,18 @@ In my case I got three offers,
 and had some other ongoing processes,
 when I decided to go with Tinybird.
 Why? I took into account a few factors:
-company, position, technology, salary, conditions (like remote work) and stability.
+company, position, tech stack, salary, conditions (like remote work) and stability.
 
 Some companies are quite flashy on your CV:
 not necessarily FAANG, but top tier companies will help your career in the future.
+Then there are conditions like remote work.
 And of course a good salary never hurts.
-For me, what made me decide was to imagine where I could see myself working happily in five years.
 Tinybird is a great company with amazing prospects,
 growing like crazy and with really interesting scalability challenges.
 They offer remote work, competitive salaries,
 plus I was able to meet the team I will join.
 Combine this with top notch management and I was sold.
+But for me, what made me go for it was to imagine where I could see myself working happily in five years.
 
 **Decisions are always subjective; but they should take objective facts into consideration.**
 
