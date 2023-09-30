@@ -346,7 +346,7 @@ when I decided to go with Tinybird.
 Why? I took into account a few factors:
 company, position, tech stack, salary, conditions (like remote work) and stability.
 
-Some companies are quite flashy on your CV:
+Some brands are quite flashy on your CV:
 not necessarily FAANG, but top tier companies will help your career in the future.
 Then there are conditions like remote work.
 And of course a good salary never hurts.
