@@ -148,6 +148,10 @@ The more effort you take for your application, the more likely it is that it wil
 
 **Write a simple lean CV and update it as needed.**
 
+You can see the CV as just a key to open the selection process.
+Later you will probably have a chance to discuss it in depth,
+so it is a good idea to also make sure it tells a coherent story.
+
 ## 📋 Selection Processes
 
 Now we come to the most demanding part:
