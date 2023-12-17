@@ -105,7 +105,9 @@
                     <img src="pics/avis-aeterna-low-poly.png" title="Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom." alt="" /><figcaption>Crude CyberTruck-like model for an avis æterna.</figcaption>
                     </figure>
                     <p>For our crude Fermi estimation we don’t even need such sophistication: the top and bottom structures can just be approximated by one triangle each, and we will be within a factor 2 of the true value. The back rhomboid is easy: just half the area of the rectangle. On top of this we add 50% for safety:</p>
-                    <pre><code>A = A(top) + A(bottom) + A(back) ~ 1.5 * (2 * l * w / 2 + w * h / 2) ~ 1.5 * w * (l + h / 2).</code></pre>
+                    <pre><code>A = A(top) + A(bottom) + A(back)
+                      ~ 1.5 * (2 * l * w / 2 + w * h / 2)
+                      ~ 1.5 * w * (l + h / 2).</code></pre>
                     <p>Again with our 10m version:</p>
                     <pre><code>A = 1.5 * 10 * (10 + 5 / 2) m² ~ 187 m².</code></pre>
                     <p>Now the thickness and density of the material are tricky: it needs to self-sustain but also to withstand air currents. For a good approximation within the realm of possibility let’s look at <a href="https://en.wikipedia.org/wiki/Ultralight_aviation">ultralight aviation</a>: in <a href="https://www.academia.edu/download/59306166/141_Design20190518-103303-1n8ai2h.pdf">this paper</a> we find a wing with an area of 14 m² and a weight of 50 kg, or an areal density of 3.5 kg/m². If we extrapolate to our area:</p>

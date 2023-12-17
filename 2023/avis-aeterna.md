@@ -138,7 +138,9 @@ The back rhomboid is easy: just half the area of the rectangle.
 On top of this we add 50% for safety:
 
 ```
-A = A(top) + A(bottom) + A(back) ~ 1.5 * (2 * l * w / 2 + w * h / 2) ~ 1.5 * w * (l + h / 2).
+A = A(top) + A(bottom) + A(back)
+  ~ 1.5 * (2 * l * w / 2 + w * h / 2)
+  ~ 1.5 * w * (l + h / 2).
 ```
 
 Again with our 10m version:
