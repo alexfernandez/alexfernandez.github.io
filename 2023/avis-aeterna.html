@@ -102,7 +102,7 @@
                     <pre><code>L ~ 250 * 1.2 kg ~ 300 kg.</code></pre>
                     <p>The total weight can be computed as a factor of size, considering how the structure is constructed. It is interesting to note that, as in the blimps of old, the interior of the avis can be completely empty: we only need to consider its surface if it’s rigid enough to self-sustain. The total surface area <code>A</code> can be roughly computed as top, bottom and back of the wing. If we follow the CyberTruck school of industrial design we can mock our structure as a low-polygon version, as follows: two triangles on top and bottom, and a diamond at the back.</p>
                     <figure>
-                    <img src="pics/avis-aeterna-lowpoly.png" title="Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom." alt="" /><figcaption>Crude CyberTruck-like model for an avis æterna.</figcaption>
+                    <img src="pics/avis-aeterna-low-poly.png" title="Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom." alt="" /><figcaption>Crude CyberTruck-like model for an avis æterna.</figcaption>
                     </figure>
                     <p>For our crude Fermi estimation we don’t even need such sophistication: the top and bottom structures can just be approximated by one triangle each, and we will be within a factor 2 of the true value. The back rhomboid is easy: just half the area of the rectangle. On top of this we add 50% for safety:</p>
                     <pre><code>A = A(top) + A(bottom) + A(back) ~ 1.5 * (2 * l * w / 2 + w * h / 2) ~ 1.5 * w * (l + h / 2).</code></pre>
