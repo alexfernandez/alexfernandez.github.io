@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Modified by Alex Fernández
+	https://pinchito.es/ | @pinchito
+-->
+<html>
+	<head>
+		<title>🪽 Avis Æterna</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="🪽 Avis Æterna — 🛩️ A permanent flying machine" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@pinchito" />
+		<meta name="twitter:title" content="🪽 Avis Æterna — 🛩️ A permanent flying machine" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image" content="https://pinchito.es/2023/pics/avis-aeterna-artist.jpg" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="canonical" href="https://pinchito.es/2023/avis-aeterna" />
+		<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<p class="home"><a class="home" href="/">pinchito.es</a></p>
+					<p>
+					<a href="/about">about</a>
+					<br/>
+					<a href="/cv">CV</a>
+					<br/>
+					<a href="/speaker">speaker</a>
+					</p>
+					<p>
+					<a id="follower" href="https://twitter.com/intent/follow?screen_name=pinchito" target="_blank"><i id="birdie"></i>@pinchito</a>
+					<br />
+					<a rel="me" href="https://mastodon.social/@pinchito" target="_blank">🐘 @pinchito@mastodon.social</a>
+					<br/>
+					<a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">alexfernandez @ GitHub</a>
+					<br/>
+					<a href="https://www.youtube.com/channel/UCp5fMWhuqcbrvSJEOByeGwg">YouTube</a>
+					</p>
+					<p>
+					This site is cookie free! No tracking is done on your browser.
+					</p>
+					<a href="https://librecounter.org/referer/show" target="_blank">
+					<img src="https://librecounter.org/counter.svg" referrerPolicy="unsafe-url">
+					</a>
+				</header>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<section id="zero">
+							<p class="home"><a class="home" href="/">pinchito.es</a></p>
+						</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h1>🪽 Avis Æterna</h1>
+										<p>🛩️ A permanent flying machine<p>
+									</header>
+																				<p>From the beginning of time people have wanted to fly. Nowadays there are a multitude of flying machines, from regular airline planes to helicopters and now drones. And sometimes some blimps and ballons may appear like relics from the past. But the amazing flying ships that appear in Miyazaki’s movies have not materialized. They never seem to have to touch down for fuel.</p>
+                    <p>Some people have dreamt of air ships that stay in the air forever, both for their inspiring qualities and for practical reasons like scientific missions or broadband service. There are some promising approaches that are on the brink of permanent flight. In this article we will explore the <em>avis æterna</em>, a novel approach that might be able to fulfill the dream.</p>
+                    <figure>
+                    <img src="pics/avis-aeterna-artist.jpg" title="A drawing of a ship." alt="" /><figcaption>Artist’s rendition of an avis æterna.</figcaption>
+                    </figure>
+                    <h1 id="the-idea">💡 The Idea</h1>
+                    <p>The time is ripe for a drone that can stay aloft indefinitely. The common designs are a fixed wing airplane with solar panels during the day, and batteries to store the energy at night. There is a clear tradeoff that centers around the size of the batteries: too big and it will require a lot of energy to fly, too small and they will not last all night. We are just waiting for sufficiently efficient solar panels and light enough batteries.</p>
+                    <p>But other approaches can be explored. <a href="https://en.wikipedia.org/wiki/Weather_balloon">Atmospheric balloons</a> are known to stay aloft for days and even weeks. The Wikipedia article for <a href="https://en.wikipedia.org/wiki/Flight_endurance_record">flight endurance record</a> clearly separates airplane, balloon and airship records. So why not combine the three categories? We could build a plane which is made lighter by hydrogen, which can also be used as fuel storage: instead of being weighed down by batteries it could be filled with hydrogen which makes it lighter. Not lighter than air, but sufficiently lighter that it is easier to stay up.</p>
+                    <p>Now, I am not an industrial engineer: I studied physics and have been working with computers for a couple of decades. But I like to explore if a concept is at least feasible from a physical point of view, and if the technology is at least there. In this article I will do some <a href="/2023/climate-change-solutions#fermi-estimation">Fermi estimations</a> to check if the parameters are at least in the right ballpark. But don’t expect detailed plans or a bill of materials; this part will have to be undertaken by an enterprising soul with a lot more practical knowledge than I may have or hope to acquire. So let’s explore the idea together!</p>
+                    <h2 id="inspiration">Inspiration</h2>
+                    <p>The albatross is an amazing bird: it feeds and even sleeps in flight, only ever touching ground to mate on some remote island. It is not clear if it ever rests in the sea where it is vulnerable.</p>
+                    <h2 id="previous-designs">📝 Previous Designs</h2>
+                    <p>Facebook did an experimental plane once with the idea of bringing Internet connectivity to the unwashed masses. <a href="https://www.youtube.com/watch?v=D8Tm6tQdZ2I">video</a>.</p>
+                    <p>Airbus is the current record holder.</p>
+                    <h2 id="applications">Applications</h2>
+                    <h1 id="the-design">The Design</h1>
+                    <p>The idea</p>
+                    <h2 id="some-numbers">📏 Some Numbers</h2>
+                    <p>Let’s do some Fermi estimations to see if the idea is feasible: estimate the order of magnitude of each value and see if they match.</p>
+                    <p>The total holding volume would be length by width by height, multiplied by some factor <code>f</code> that depends on the actual shape:</p>
+                    <pre><code>V = f × l × w × h.</code></pre>
+                    <p>If the shape was a simple box the factor would be 1; let us suppose that it is somehow shaped like a drop of water. For a sphere the factor is around .523, or really close to one half, so we can go with <code>f=½</code>. Furthermore we can suppose that the width is similar to the length, and that the height is around half the length. So we get:</p>
+                    <pre><code>V ~ l³/4.</code></pre>
+                    <p>With a sample length of 10m we get:</p>
+                    <pre><code>V ~ 250 m³.</code></pre>
+                    <p>How much weight can it lift? A cubic meter of air weighs around <a href="https://www.earthdata.nasa.gov/topics/atmosphere/atmospheric-pressure/air-mass-density">1.3 kg</a>, while if filled with hydrogen it drops to <a href="https://genh2hydrogen.com/blog/defining-hydrogen-from-a-to-z-3/">70 grams</a>. Therefore every cubic meter will provide a lift of about 1.2 kg. Total lift <code>L</code> when full of hydrogen will be:</p>
+                    <pre><code>L ~ V × 1.2 kg/m³</code></pre>
+                    <p>In our sample length of 10m:</p>
+                    <pre><code>L ~ 250 * 1.2 kg ~ 300 kg.</code></pre>
+                    <p>The total weight can be computed as a factor of size, considering how the structure is constructed. It is interesting to note that, as in the blimps of old, the interior of the avis can be completely empty: we only need to consider its surface if it’s rigid enough to self-sustain. The total surface area <code>A</code> can be roughly computed as top, bottom and back of the wing. If we follow the CyberTruck school of industrial design we can mock our structure as a low-polygon version, as follows: two triangles on top and bottom, and a diamond at the back.</p>
+                    <figure>
+                    <img src="pics/avis-aeterna-lowpoly.png" title="Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom." alt="" /><figcaption>Crude CyberTruck-like model for an avis æterna.</figcaption>
+                    </figure>
+                    <p>For our crude Fermi estimation we don’t even need such sophistication: the top and bottom structures can just be approximated by one triangle each, and we will be within a factor 2 of the true value. The back rhomboid is easy: just half the area of the rectangle. On top of this we add 50% for safety:</p>
+                    <pre><code>A = A(top) + A(bottom) + A(back) ~ 1.5 * (2 * l * w / 2 + w * h / 2) ~ 1.5 * w * (l + h / 2).</code></pre>
+                    <p>Again with our 10m version:</p>
+                    <pre><code>A = 1.5 * 10 * (10 + 5 / 2) m² ~ 187 m².</code></pre>
+                    <p>Now the thickness and density of the material are tricky: it needs to self-sustain but also to withstand air currents. For a good approximation within the realm of possibility let’s look at <a href="https://en.wikipedia.org/wiki/Ultralight_aviation">ultralight aviation</a>: in <a href="https://www.academia.edu/download/59306166/141_Design20190518-103303-1n8ai2h.pdf">this paper</a> we find a wing with an area of 14 m² and a weight of 50 kg, or an areal density of 3.5 kg/m². If we extrapolate to our area:</p>
+                    <pre><code>W ~ 3.5 kg/m² * 187 m² ~ 700 kg.</code></pre>
+                    <p>We can consider this number as an upper limit since an ultralight plane has to withstand much bigger forces than the avis. For a lower limit we can turn to the more experimental <a href="https://www.nestofdragons.net/rigid-wings-overview/non-footlaunch-listing/goat/">Sandlin GOAT</a> with a wing area of 16 m and weight of 16 kg for a much more reasonable areal density of 1 kg/m². This would give us:</p>
+                    <pre><code>W ~ 1 kg/m² * 187 m² ~ 200 kg.</code></pre>
+                    <p>This weight could be self-supported by the lift, with 100 kg to spare for the payload.</p>
+                    <p>Solar power will depend on the top area of the wing <code>A(top)</code>, and the areal power of the solar cells used. We can very roughly approximate the top area as a triangle:</p>
+                    <pre><code>A(top) ≈ l * w / 2 ≈ l² / 2.</code></pre>
+                    <p>The Zephyr uses <a href="https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html">MicroLink arrays</a> with a yield “greater than 350 W/m²”. If the top surface is completely filled with solar cells this gives:</p>
+                    <pre><code>P = 350 W / m² * A(top) ~ 350 W/m² / (l² / 2).</code></pre>
+                    <p>So for instance with <code>l=10m</code> we get:</p>
+                    <pre><code>P ~ 350 W/m² * 50 m² ~ 17.5 kW.</code></pre>
+                    <p>Again MicroLink says that their specific power is more than 1500 W/kg, so the total weight of the solar cells would be:</p>
+                    <pre><code>W(solar) ~ 17.5 kW / (1500 W/kg) ~ 12 kg.</code></pre>
+                    <p>I would say this is very reasonable.</p>
+                    <h3 id="hydrogen-generation">Hydrogen Generation</h3>
+                    <p>First we have to extract water from the atmosphere, then we need to convert it to pure hydrogen gas. At atmospheric pressure hydrogen weighs 70 grams per m3, as we saw above; the full weight of hydrogen for the complete interior of the avis <code>W(h2)</code> will be:</p>
+                    <pre><code>W(h2) = V * 70 g/m3.</code></pre>
+                    <p>For our sample 10m length:</p>
+                    <pre><code>W(h2) = 250 m3 * 70 g/m3 = 17.5 kg.</code></pre>
+                    <p>How much water do we really need? <a href="https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water">About 18 times more</a>. In our case:</p>
+                    <pre><code>W(water) = 18 * W(h2) ~ 18 * 17.5 kg ~ 315 kg.</code></pre>
+                    <p>Now that is a lot of water! We can extract water from thin air as we need it, using an <a href="https://en.wikipedia.org/wiki/Atmospheric_water_generator">atmospheric water generator</a>. But these things are huge and costly. Just for the sake of argument, let’s look at <a href="https://time.com/75612/atmospheric-water-generator-watergen/">this device</a>. Generating one liter of water (around a kg) takes 310 watt-hours, so for each kg of hydrogen it would take 18 times more:</p>
+                    <pre><code>P(kg) ~ 18 * 310 Wh ~ 5.5 kWh.</code></pre>
+                    <p>Next we need to extract the hydrogen from the water. The <a href="https://en.wikipedia.org/wiki/Electrolysis_of_water#Industrial_output">industrial efficiency</a> using electrical energy is at around 55 kWh per kg of hydrogen generated. Adding the 5 kWh to extract the water first from the atmosphere we get 60 kWH per kg of hydrogen.</p>
+                    <p>In our standard 10m design we computed that we can count on 17.5 kW from the solar cells, so we can generate one kg of hydrogen every 3.5 hours. As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure, and could be filled in ~ 60 hours of continuous operation.</p>
+                    <h2 id="challenges">Challenges</h2>
+                    <h3 id="extracting-hydrogen-from-air">Extracting Hydrogen from Air</h3>
+                    <p>The core of our design is storing hydrogen molecules.</p>
+                    <p>How can we lay our hands on those sweet H₂ molecules?</p>
+                    <h3 id="manipulating-hydrogen">Manipulating Hydrogen</h3>
+                    <h3 id="propulsion">Propulsion</h3>
+                    <h2 id="conquering-heights">Conquering Heights</h2>
+                    <p>The <a href="https://www.airbus.com/en/products-services/defence/uas/uas-solutions/zephyr">Airbus Zephyr</a> is a stratopheric plane: it flies at above 20 km (70k ft). And so on for most of the competition.</p>
+                    <p>There are a lot of advantages for flying high: * Good weather: no storms in the stratosphere. * Clear skies: no commercial flights.</p>
+                    <p>But for the</p>
+                    <h1 id="conclusion">🤔 Conclusion</h1>
+                    <h2 id="acknowledgements">🙏 Acknowledgements</h2>
+                    <p>Thanks to Carlos Santisteban for so many fruitful discussions.</p>
+								</div>
+							</section>
+							<section id="last">
+								<div class="container">
+									<p>
+									Published on 2023-12-16, last modified on 2023-12-16 <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									</p>
+									<p>
+									Back to the <a href="/">index</a>.
+									</p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>
+									© <a href="mailto:alexfernandeznpm@gmail.com">Alex Fernández</a>.
+									<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+								</li>
+								<li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
