@@ -55,9 +55,10 @@ So let's explore the idea together!
 ## Inspiration
 
 The albatross is an amazing bird:
-it feeds and even sleeps in flight,
-only ever touching ground to mate on some remote island.
-It is not clear if it ever rests in the sea where it is vulnerable.
+it only ever touching ground to mate on some remote island.
+It is not clear if it ever rests in the sea where it is vulnerable,
+but it seems that it can do everything in flight,
+like feeding and even sleeping.
 
 ## 📝 Previous Designs
 
@@ -71,6 +72,30 @@ Airbus is the current record holder.
 # The Design
 
 The idea
+
+## Challenges
+
+### Extracting Hydrogen from Air
+
+The core of our design is storing hydrogen molecules.
+
+How can we lay our hands on those sweet H₂ molecules?
+
+### Manipulating Hydrogen
+
+### Propulsion
+
+### Conquering Heights
+
+The [Airbus Zephyr](https://www.airbus.com/en/products-services/defence/uas/uas-solutions/zephyr)
+is a stratopheric plane: it flies at above 20 km (70k ft).
+And so on for most of the competition.
+
+There are a lot of advantages for flying high:
+* Good weather: no storms in the stratosphere.
+* Clear skies: no commercial flights.
+
+But for the 
 
 ## 📏 Some Numbers
 
@@ -256,30 +281,6 @@ In our standard 10m design we computed that we can count on 17.5 kW from the sol
 so we can generate one kg of hydrogen every 3.5 hours.
 As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure,
 and could be filled in ~ 60 hours of continuous operation.
-
-## Challenges
-
-### Extracting Hydrogen from Air
-
-The core of our design is storing hydrogen molecules.
-
-How can we lay our hands on those sweet H₂ molecules?
-
-### Manipulating Hydrogen
-
-### Propulsion
-
-## Conquering Heights
-
-The [Airbus Zephyr](https://www.airbus.com/en/products-services/defence/uas/uas-solutions/zephyr)
-is a stratopheric plane: it flies at above 20 km (70k ft).
-And so on for most of the competition.
-
-There are a lot of advantages for flying high:
-* Good weather: no storms in the stratosphere.
-* Clear skies: no commercial flights.
-
-But for the 
 
 # 🤔 Conclusion
 
