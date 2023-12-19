@@ -33,9 +33,6 @@ We are just waiting for sufficiently efficient solar panels and light enough bat
 
 But other approaches can be explored.
 [Atmospheric balloons](https://en.wikipedia.org/wiki/Weather_balloon) are known to stay aloft for days and even weeks.
-The Wikipedia article for [flight endurance record](https://en.wikipedia.org/wiki/Flight_endurance_record)
-clearly separates airplane, balloon and airship records.
-So why not combine the three categories?
 We could build a plane which is made lighter by hydrogen,
 which can also be used as fuel storage:
 instead of being weighed down by batteries
@@ -55,10 +52,28 @@ So let's explore the idea together!
 ## Inspiration
 
 The albatross is an amazing bird:
-it only ever touching ground to mate on some remote island.
+it only ever touches ground to mate on some remote island.
 It is not clear if it ever rests in the sea where it is vulnerable,
 but it seems that it can do everything in flight,
-like feeding and even sleeping.
+like [feeding and even sleeping](https://en.wikipedia.org/wiki/Albatross#Morphology_and_flight).
+
+## Is It a Bird? Is It a Plane?
+
+The Wikipedia article for [flight endurance record](https://en.wikipedia.org/wiki/Flight_endurance_record)
+clearly separates records for airplanes (64 days), balloons (19 days) and airships (11 days).
+So why not combine the three categories?
+
+Hydrogen storage has the advantage that it can make our avis æterna lighter and easier to keep aloft.
+No longer do we need to support its full weight with lift produced by its wings.
+Since hydrogen gas has around
+[7% of the density of air](https://www1.eere.energy.gov/hydrogenandfuelcells/tech_validation/pdfs/fcm01r0.pdf),
+a hydrogen chamber will make the avis lighter.
+But not necessarily lighter than air, which would make it an
+[aerostat](https://en.wikipedia.org/wiki/Aerostat).
+In fact, the avis can control its weight by expanding its hydrogen chamber.
+
+I would think of it as the [swim bladder](https://en.wikipedia.org/wiki/Swim_bladder) of fish,
+which allows them to control their buoyancy in water.
 
 ## 📝 Previous Designs
 
@@ -72,6 +87,11 @@ Airbus is the current record holder.
 # The Design
 
 The idea
+
+## Flying Wing
+
+https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/
+https://en.wikipedia.org/wiki/Flying_wing
 
 ## Challenges
 
