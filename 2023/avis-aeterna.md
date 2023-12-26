@@ -37,16 +37,20 @@ We could build a plane which is made lighter by hydrogen,
 which can also be used as fuel storage:
 instead of being weighed down by batteries
 it could be filled with hydrogen which makes it lighter.
-Not lighter than air, but sufficiently lighter that it is easier to stay up.
+Not lighter than air, but sufficiently lighter that it is easy to stay up.
 
 Now, I am not an industrial engineer:
 I studied physics and have been working with computers for a couple of decades.
 But I like to explore if a concept is at least feasible from a physical point of view,
 and if the technology is at least there.
+You may remember my previous attemps at a
+[space launcher](http://pinchito.es/2018/building-space-launcher)
+or [helping the climate change crisis with trees](http://pinchito.es/2023/climate-change-trees).
 In this article I will do some [Fermi estimations](/2023/climate-change-solutions#fermi-estimation)
 to check if the parameters are at least in the right ballpark.
-But don't expect detailed plans or a bill of materials;
-this part will have to be undertaken by an enterprising soul with a lot more practical knowledge than I may have or hope to acquire.
+Don't expect detailed plans or a bill of materials though;
+this part will have to be undertaken by an enterprising soul
+with a lot more practical knowledge than I may have or hope to acquire.
 So let's explore the idea together!
 
 ## Inspiration
@@ -74,6 +78,16 @@ In fact, the avis can control its weight by expanding its hydrogen chamber.
 
 I would think of it as the [swim bladder](https://en.wikipedia.org/wiki/Swim_bladder) of fish,
 which allows them to control their buoyancy in water.
+
+## 🔥 Hydrogen? Are You Sure?
+
+When mixing hydrogen and aviation we immediately get the
+[Hindenburg effect](https://www.chemistryworld.com/news/the-legacy-of-the-hindenburg-disaster/3007067.article):
+people remember images of the 1937 catastrophe.
+
+Let's delve deeper into this accident.
+First, [only 35 of the 97 people aboard died](https://en.wikipedia.org/wiki/Hindenburg_disaster),
+which isn't bad for a fire of this magnitude.
 
 ## 📝 Previous Designs
 
