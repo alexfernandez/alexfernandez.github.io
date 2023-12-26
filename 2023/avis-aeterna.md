@@ -91,17 +91,27 @@ which isn't bad for a fire of this magnitude.
 Then there are suspicions that the materials of the enclosure
 were at least partly responsible for the quick fire;
 the thermite theory has been
-[thoroughly debunked by experts](https://spot.colorado.edu/~dziadeck/zf/LZ129fire2005jan12.pdf),
-but still the [Mythbusters in S04Ep3](https://www.youtube.com/watch?v=HVV7olFdg5I) did some suggestive experiments.
+[thoroughly debunked by experts](https://spot.colorado.edu/~dziadeck/zf/LZ129fire2005jan12.pdf).
+Nonetheless the [Mythbusters in S04Ep3](https://www.youtube.com/watch?v=HVV7olFdg5I)
+did some suggestive experiments that gave a substantive role to the coating of the enclosure.
+
+In any case, hydrogen is now safer to use than at any other time in history.
+We should be open to experiment again with that awesome, fully renewable gas.
 
 ## 📝 Previous Designs
 
-Facebook did an experimental plane once with the idea of bringing Internet connectivity to the unwashed masses.
-[video](https://www.youtube.com/watch?v=D8Tm6tQdZ2I).
+Airbus is the current record holder with its [Zephyr series](https://en.wikipedia.org/wiki/Airbus_Zephyr).
+It has been flying non-stop for 64 days,
+until a stratospheric current out of nowhere took it down.
 
-Airbus is the current record holder.
+Even Facebook did an experimental plane once with the idea of bringing Internet connectivity to the unwashed masses,
+the [Facebook Aquila](https://en.wikipedia.org/wiki/Facebook_Aquila),
+as can be seen in [this video](https://www.youtube.com/watch?v=D8Tm6tQdZ2I).
 
-## Applications
+With this kind of electric design the problem lies in the weight of the batteries,
+needed to keep the plane flying at night.
+Holding more charge means more weight,
+which drives up the requirements.
 
 # The Design
 
@@ -109,8 +119,12 @@ The idea
 
 ## Flying Wing
 
-https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/
-https://en.wikipedia.org/wiki/Flying_wing
+The concept of a 
+[flying wing](https://en.wikipedia.org/wiki/Flying_wing)
+has been around for a while.
+Some people think that it is
+[the future of air travel](https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/),
+with its more efficient design.
 
 ## Challenges
 
@@ -134,12 +148,24 @@ There are a lot of advantages for flying high:
 * Good weather: no storms in the stratosphere.
 * Clear skies: no commercial flights.
 
-But for the 
+But for the avis æterna design it is a serious disadvantage:
+* Less weight of the displaced air means less lift: at 15 km high the atmosphere is
+[6 times less dense](https://www.engineeringtoolbox.com/standard-atmosphere-d_604.html)
+than at sea level.
+* Less water vapor to harvest water (and hydrogen) from
+it is really scarce in the [troposphere](https://en.wikipedia.org/wiki/Troposphere).
 
 ## 📏 Some Numbers
 
 Let's do some Fermi estimations to see if the idea is feasible:
-estimate the order of magnitude of each value and see if they match.
+we estimate the order of magnitude of each value and see if they make sense togethere.
+
+We will consider a reference design that is 10m long.
+The [cube-square law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law)
+means that we can scale our design up and down,
+and in general it will play in our favor:
+volume grows with x^3 while surface grows with x^2,
+so our design will behave better as we make it bigger.
 
 The total holding volume would be length by width by height,
 multiplied by some factor `f` that depends on the actual shape:
@@ -159,7 +185,7 @@ and that the height is around half the length. So we get:
 V ~ l³/4.
 ```
 
-With a sample length of 10m we get:
+With a reference length of 10m we get:
 
 ```
 V ~ 250 m³.
@@ -175,7 +201,7 @@ Total lift `L` when full of hydrogen will be:
 L ~ V × 1.2 kg/m³
 ```
 
-In our sample length of 10m:
+In our reference length of 10m:
 
 ```
 L ~ 250 * 1.2 kg ~ 300 kg.
@@ -281,7 +307,7 @@ the full weight of hydrogen for the complete interior of the avis `W(h2)` will b
 W(h2) = V * 70 g/m3.
 ```
 
-For our sample 10m length:
+For our reference 10m length:
 
 ```
 W(h2) = 250 m3 * 70 g/m3 = 17.5 kg.

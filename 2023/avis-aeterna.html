@@ -187,21 +187,42 @@ flying machine" />
                     at least partly responsible for the quick fire; the
                     thermite theory has been <a
                     href="https://spot.colorado.edu/~dziadeck/zf/LZ129fire2005jan12.pdf">thoroughly
-                    debunked by experts</a>, but still the <a
+                    debunked by experts</a>. Nonetheless the <a
                     href="https://www.youtube.com/watch?v=HVV7olFdg5I">Mythbusters
-                    in S04Ep3</a> did some suggestive experiments.</p>
+                    in S04Ep3</a> did some suggestive experiments that
+                    gave a substantive role to the coating of the
+                    enclosure.</p>
+                    <p>In any case, hydrogen is now safer to use than at
+                    any other time in history. We should be open to
+                    experiment again with that awesome, fully renewable
+                    gas.</p>
                     <h2 id="previous-designs">📝 Previous Designs</h2>
-                    <p>Facebook did an experimental plane once with the
-                    idea of bringing Internet connectivity to the
-                    unwashed masses. <a
-                    href="https://www.youtube.com/watch?v=D8Tm6tQdZ2I">video</a>.</p>
-                    <p>Airbus is the current record holder.</p>
-                    <h2 id="applications">Applications</h2>
+                    <p>Airbus is the current record holder with its <a
+                    href="https://en.wikipedia.org/wiki/Airbus_Zephyr">Zephyr
+                    series</a>. It has been flying non-stop for 64 days,
+                    until a stratospheric current out of nowhere took it
+                    down.</p>
+                    <p>Even Facebook did an experimental plane once with
+                    the idea of bringing Internet connectivity to the
+                    unwashed masses, the <a
+                    href="https://en.wikipedia.org/wiki/Facebook_Aquila">Facebook
+                    Aquila</a>, as can be seen in <a
+                    href="https://www.youtube.com/watch?v=D8Tm6tQdZ2I">this
+                    video</a>.</p>
+                    <p>With this kind of electric design the problem
+                    lies in the weight of the batteries, needed to keep
+                    the plane flying at night. Holding more charge means
+                    more weight, which drives up the requirements.</p>
                     <h1 id="the-design">The Design</h1>
                     <p>The idea</p>
                     <h2 id="flying-wing">Flying Wing</h2>
-                    <p>https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/
-                    https://en.wikipedia.org/wiki/Flying_wing</p>
+                    <p>The concept of a <a
+                    href="https://en.wikipedia.org/wiki/Flying_wing">flying
+                    wing</a> has been around for a while. Some people
+                    think that it is <a
+                    href="https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/">the
+                    future of air travel</a>, with its more efficient
+                    design.</p>
                     <h2 id="challenges">Challenges</h2>
                     <h3 id="extracting-hydrogen-from-air">Extracting
                     Hydrogen from Air</h3>
@@ -221,11 +242,27 @@ flying machine" />
                     <p>There are a lot of advantages for flying high: *
                     Good weather: no storms in the stratosphere. * Clear
                     skies: no commercial flights.</p>
-                    <p>But for the</p>
+                    <p>But for the avis æterna design it is a serious
+                    disadvantage: * Less weight of the displaced air
+                    means less lift: at 15 km high the atmosphere is <a
+                    href="https://www.engineeringtoolbox.com/standard-atmosphere-d_604.html">6
+                    times less dense</a> than at sea level. * Less water
+                    vapor to harvest water (and hydrogen) from it is
+                    really scarce in the <a
+                    href="https://en.wikipedia.org/wiki/Troposphere">troposphere</a>.</p>
                     <h2 id="some-numbers">📏 Some Numbers</h2>
                     <p>Let’s do some Fermi estimations to see if the
-                    idea is feasible: estimate the order of magnitude of
-                    each value and see if they match.</p>
+                    idea is feasible: we estimate the order of magnitude
+                    of each value and see if they make sense
+                    togethere.</p>
+                    <p>We will consider a reference design that is 10m
+                    long. The <a
+                    href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">cube-square
+                    law</a> means that we can scale our design up and
+                    down, and in general it will play in our favor:
+                    volume grows with x^3 while surface grows with x^2,
+                    so our design will behave better as we make it
+                    bigger.</p>
                     <p>The total holding volume would be length by width
                     by height, multiplied by some factor <code>f</code>
                     that depends on the actual shape:</p>
@@ -238,7 +275,7 @@ flying machine" />
                     the width is similar to the length, and that the
                     height is around half the length. So we get:</p>
                     <pre><code>V ~ l³/4.</code></pre>
-                    <p>With a sample length of 10m we get:</p>
+                    <p>With a reference length of 10m we get:</p>
                     <pre><code>V ~ 250 m³.</code></pre>
                     <p>How much weight can it lift? A cubic meter of air
                     weighs around <a
@@ -249,7 +286,7 @@ flying machine" />
                     a lift of about 1.2 kg. Total lift <code>L</code>
                     when full of hydrogen will be:</p>
                     <pre><code>L ~ V × 1.2 kg/m³</code></pre>
-                    <p>In our sample length of 10m:</p>
+                    <p>In our reference length of 10m:</p>
                     <pre><code>L ~ 250 * 1.2 kg ~ 300 kg.</code></pre>
                     <p>The total weight can be computed as a factor of
                     size, considering how the structure is constructed.
@@ -331,7 +368,7 @@ flying machine" />
                     weight of hydrogen for the complete interior of the
                     avis <code>W(h2)</code> will be:</p>
                     <pre><code>W(h2) = V * 70 g/m3.</code></pre>
-                    <p>For our sample 10m length:</p>
+                    <p>For our reference 10m length:</p>
                     <pre><code>W(h2) = 250 m3 * 70 g/m3 = 17.5 kg.</code></pre>
                     <p>How much water do we really need? <a
                     href="https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water">About
