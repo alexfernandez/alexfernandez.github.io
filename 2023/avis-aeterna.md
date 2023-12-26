@@ -61,8 +61,6 @@ It is not clear if it ever rests in the sea where it is vulnerable,
 but it seems that it can do everything in flight,
 like [feeding and even sleeping](https://en.wikipedia.org/wiki/Albatross#Morphology_and_flight).
 
-## Is It a Bird? Is It a Plane?
-
 The Wikipedia article for [flight endurance record](https://en.wikipedia.org/wiki/Flight_endurance_record)
 clearly separates records for airplanes (64 days), balloons (19 days) and airships (11 days).
 So why not combine the three categories?
@@ -85,9 +83,16 @@ When mixing hydrogen and aviation we immediately get the
 [Hindenburg effect](https://www.chemistryworld.com/news/the-legacy-of-the-hindenburg-disaster/3007067.article):
 people remember images of the 1937 catastrophe.
 
+![The Hindenburg burning. Source: [gifs.com](https://gifs.com/gif/hindenburg-disaster-real-footage-1937-Wny2EW).](pics/avis-aeterna-hindenburg.gif "Animated GIF in black and white of the Hindenburg Zeppelin burning to the ground.")
+
 Let's delve deeper into this accident.
 First, [only 35 of the 97 people aboard died](https://en.wikipedia.org/wiki/Hindenburg_disaster),
 which isn't bad for a fire of this magnitude.
+Then there are suspicions that the materials of the enclosure
+were at least partly responsible for the quick fire;
+the thermite theory has been
+[thoroughly debunked by experts](https://spot.colorado.edu/~dziadeck/zf/LZ129fire2005jan12.pdf),
+but still the [Mythbusters in S04Ep3](https://www.youtube.com/watch?v=HVV7olFdg5I) did some suggestive experiments.
 
 ## 📝 Previous Designs
 
