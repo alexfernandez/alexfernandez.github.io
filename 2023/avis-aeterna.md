@@ -381,7 +381,7 @@ W ≈ 3.5 kg/m² × 187 m² ≈ 700 kg.
 We can consider this number as an upper limit since an ultralight plane has to withstand much bigger forces than the avis.
 For a lower limit we can turn to the more experimental
 [Sandlin GOAT](https://www.nestofdragons.net/rigid-wings-overview/non-footlaunch-listing/goat/)
-with a wing area of 16 m and weight of 16 kg for a much more reasonable areal density of 1 kg/m².
+with a wing area of 16 m² and weight of 16 kg for a much more reasonable areal density of 1 kg/m².
 This would give us:
 
 ```
