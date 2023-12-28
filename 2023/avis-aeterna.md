@@ -24,7 +24,9 @@ a novel approach that might be able to one day fulfill the dream.
 # 💡 The Idea
 
 The time is ripe for a drone that can stay aloft indefinitely.
-The common designs are a fixed wing airplane with solar panels during the day,
+The designs that hold all current
+[flight endurance records](https://en.wikipedia.org/wiki/Flight_endurance_record)
+are a fixed wing airplane with solar panels during the day,
 and batteries to store the energy at night.
 There is a clear tradeoff that centers around the size of the batteries:
 too big and it will require a lot of energy to fly,
