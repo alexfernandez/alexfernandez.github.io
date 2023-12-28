@@ -344,7 +344,7 @@ as follows:
 two triangles on top and bottom,
 and a diamond at the back.
 
-![Crude CyberTruck-like model for an avis æterna.](pics/avis-aeterna-low-poly.png "Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom.")
+![Crude low-polygon-like model for an avis æterna.](pics/avis-aeterna-low-poly.png "Low-polygon version of the design: rhomboid in the back, two triangles on top and two on the bottom.")
 
 For our crude Fermi estimation we don't even need such sophistication:
 the top and bottom structures can just be approximated by one triangle each,
