@@ -232,7 +232,7 @@ Any leaks become really problematic in the presence of electrical sparks,
 which must be contained as much as possible.
 For instance [St. Elmo's fire](https://en.wikipedia.org/wiki/St._Elmo%27s_fire)
 is suspected in the Hindenburg disaster.
-Also, air leaks inside the enclosure will mix the H₂ with O₂ and turn the inside into a ticking bomb.
+Also, air leaks inside the enclosure will mix the H₂ with O₂ and turn the insides into a ticking bomb.
 
 ### 🛩️ Propulsion
 
