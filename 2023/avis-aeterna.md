@@ -141,7 +141,7 @@ The mostly flat top surface is ideal for placing light-weight solar panels,
 which provide electricity for its operation.
 We are envisioning a rather bulky aircraft similar to the design below,
 given suitable aerodynamics.
-This is a reference design which is 10 meters long and wide and stands 5 meters high.
+Our reference design is 10 meters long and wide and stands 5 meters high.
 
 ![Top and back views of the main body.](pics/avis-aeterna-top.png "Top view of a flying wing curvy delta design, 10 meters wide and long. Also back view with two fans on top, 5 meters high.")
 
@@ -493,6 +493,7 @@ In this case, several advancements in different areas can be joined together to 
 an airship that does not need to touch ground,
 which is heavier than air (but that uses partial buoyancy to stay aloft),
 and which can still do it whenever it needs to.
+Even a 10-meter reference design comparable to a small plane might be a viable avis æterna.
 
 The [golden age of airships](https://www.youtube.com/watch?v=ZjBgEkbnX2Ia)
 may be in our future,
