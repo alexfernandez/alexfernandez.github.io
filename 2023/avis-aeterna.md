@@ -265,13 +265,13 @@ But for the avis æterna design it is a serious disadvantage:
 * Less weight of the displaced air means less lift: at 15 km high the atmosphere is
 [6 times less dense](https://www.engineeringtoolbox.com/standard-atmosphere-d_604.html)
 than at sea level.
-* Less water vapor to harvest water (and hydrogen) from
-it is really scarce in the [troposphere](https://en.wikipedia.org/wiki/Troposphere).
+* Less water vapor to harvest water (and hydrogen) from:
+it can be really scarce in the [troposphere](https://en.wikipedia.org/wiki/Troposphere).
 
 Luckily the [cube-square law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law)
 is on our side:
 in principle we only need to scale the design up to have enough buoyancy at any height.
-The water vapor issue remains though,
+The water vapor issue remains a problem though,
 and may have to be tackled gradually.
 
 # 📏 Some Numbers
