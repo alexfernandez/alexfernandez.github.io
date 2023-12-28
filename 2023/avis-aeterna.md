@@ -145,10 +145,10 @@ This is a reference design which is 10 meters long and wide and stands 5 meters 
 
 ![Top and back views of the main body.](pics/avis-aeterna-top.png "Top view of a flying wing curvy delta design, 10 meters wide and long. Also back view with two fans on top, 5 meters high.")
 
-Remember that it doesn't have to lift its total weight,
-since a considerable portion will be sustained by buoyancy.
-
 ## 🛫 Buoyancy and Lift
+
+Remember that this design doesn't have to generate enough lift to compensate its entire weight by flying,
+since a considerable portion will be sustained by buoyancy.
 
 At sea level
 [air weighs around 1.3 kg/m³](https://www.earthdata.nasa.gov/topics/atmosphere/atmospheric-pressure/air-mass-dens),
