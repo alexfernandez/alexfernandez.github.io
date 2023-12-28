@@ -183,8 +183,9 @@ There are several possibilities:
 just as existing designs.
 This is not the preferred choice because they are heavy and bulky.
 * Just float: store enough hydrogen so that the avis becomes buoyant in the atmosphere.
-One possibility is to store water as ballast during the day,
-and release at sunset.
+The frame can expand with the gas.
+Another possibility which would allow a rigid body is to store water as ballast during the day,
+and release it at sunset.
 This is a low cost solution that can be good enough.
 * Use part of the stored H₂ as fuel for a [hydrogen cell](https://en.wikipedia.org/wiki/Fuel_cell).
 This is the preferred solution,
