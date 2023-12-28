@@ -8,10 +8,10 @@ image: https://pinchito.es/2023/pics/avis-aeterna-artist.jpg
 
 From the beginning of time people have wanted to fly.
 Nowadays there are a multitude of flying machines,
-from regular airline planes to helicopters and now drones.
-And sometimes some blimps and ballons may appear like relics from the past.
-But the amazing flying ships that appear in Miyazaki's movies have not materialized.
-They never seem to have to touch down for fuel.
+from regular airline planes to helicopters and more recently drones.
+And sometimes even blimps and ballons may appear like relics from the past.
+Sadly, the amazing flying ships that appear in the movies of Hideo Miyazaki have not materialized yet:
+they hover endlessly and never seem to have to touch down for fuel.
 
 Some people have dreamt of air ships that stay in the air forever,
 both for their inspiring qualities and for practical reasons like scientific missions or broadband service.
