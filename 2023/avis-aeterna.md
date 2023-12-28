@@ -195,16 +195,29 @@ There are some areas which may require advancing the state of the art.
 The core of our design is storing hydrogen molecules.
 How can we lay our hands on those sweet H₂ molecules?
 
+Since oxygen is much denser than hydrogen,
+water is only
+[1/18 hydrogen in weight](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
+Therefore each kg of H₂ requires 18 kg of H₂O.
+It is not feasible to carry this much water onboard,
+except as a ballast.
+
+This becomes especially problematic in dry areas and as we raise higher in the atmosphere.
+
 ### Manipulating Hydrogen
 
 Hydrogen gas as H₂ is notably hard to contain:
 there will be leaks everywhere no matter what we use to contain it.
 Therefore it needs to be replenished in flight, as we have seen.
 
+Gas should be as close to atmospheric pressure as possible,
+to prevent even worse leaks.
+
 Any leaks become really problematic in the presence of electrical sparks,
 which must be contained as much as possible.
 For instance [St. Elmo's fire](https://en.wikipedia.org/wiki/St._Elmo%27s_fire)
 is suspected in the Hindenburg disaster.
+Also, air leaks inside the enclosure will mix the H₂ with O₂ and turn the inside into a ticking bomb.
 
 ### Propulsion
 
