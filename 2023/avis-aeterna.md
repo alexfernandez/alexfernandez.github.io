@@ -77,8 +77,7 @@ Since hydrogen gas has around
 a hydrogen chamber will make the avis lighter.
 But not necessarily lighter than air, which would make it an
 [aerostat](https://en.wikipedia.org/wiki/Aerostat).
-In fact, the avis can control its weight by expanding its hydrogen chamber.
-
+In fact, the avis may be able to control its weight by expanding its hydrogen chamber.
 I would think of it as the [swim bladder](https://en.wikipedia.org/wiki/Swim_bladder) of fish,
 which allows them to control their buoyancy in water.
 
