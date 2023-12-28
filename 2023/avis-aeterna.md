@@ -245,6 +245,10 @@ and to regulate height efficiently.
 This will be a challenge to the external design;
 any clumsy attempts from my part will just highlight the defficiencies.
 
+Moving parts should be avoided for a really perpetual flying machine.
+Some kind of [ionic wind](https://en.wikipedia.org/wiki/Ion_wind)
+might be explored as an alternative means of propulsion with less maintenance and longer endurance.
+
 ### ⛰️ Conquering Heights
 
 The [Airbus Zephyr](https://www.airbus.com/en/products-services/defence/uas/uas-solutions/zephyr)
