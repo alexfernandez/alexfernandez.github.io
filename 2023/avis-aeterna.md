@@ -458,7 +458,7 @@ Now that is a lot of water!
 We can extract water from thin air as we need it,
 using an
 [atmospheric water generator](https://en.wikipedia.org/wiki/Atmospheric_water_generator).
-But these things are huge and costly.
+But these things are huge and heavy.
 Just for the sake of argument,
 let's look at
 [this device](https://time.com/75612/atmospheric-water-generator-watergen/).
