@@ -164,15 +164,13 @@ which can be done using an
 [atmospheric water generator](https://en.wikipedia.org/wiki/Atmospheric_water_generator).
 There are many possible mechanisms;
 a suitable light-weight design should be used,
-which may take advantage of air passing through the two big fans at the top that give propulsion.
-
-Speaking of which, these two [propellers](https://en.wikipedia.org/wiki/Propeller_%28aeronautics%29)
-have to move the plane forward.
-As stated above they may also extract water from the passing air.
+which might take advantage of air passing through the two big fans at the top that give propulsion.
 
 ## ⚡ Power and Propulsion
 
-How are those propellers and hydrogen extractors activated?
+Speaking of which, these two [propellers](https://en.wikipedia.org/wiki/Propeller_%28aeronautics%29)
+have to move the plane forward.
+How are those propellers (and possibly water extractors) activated?
 Primarily they use energy from the solar panels on top.
 Lightweight panels such as
 [those used in the Zephyr](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
