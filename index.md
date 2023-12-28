@@ -22,6 +22,7 @@ Latest articles first.
 
 ### 2023
 
+⚛️ 🇮🇪 2023-12-28: [🪽 Avis Æterna: A Perpetual Flying Machine](2023/avis-aeterna)  
 🧑‍💻 🇮🇪 2023-09-29: [🎯 How I Searched for a Tech Job](2023/job-search)  
 🗣️ 🇮🇪 2023-08-12: [🧮 Guide to Contradiction: Contradiction in Logic and Mathematics](2023/contradiction-logic-mathematics)  
 🗣️ 🇮🇪 2023-08-08: [🤔 Climate Change: Conclusion](2023/climate-change-conclusion)  
