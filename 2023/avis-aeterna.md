@@ -88,7 +88,7 @@ people remember images of the 1937 catastrophe.
 
 Let's delve deeper into this accident.
 First, [only 35 of the 97 people aboard died](https://en.wikipedia.org/wiki/Hindenburg_disaster),
-which isn't bad for a fire of this magnitude.
+which is surprising given the magnitude of the fire.
 Then there are suspicions that the materials of the enclosure
 were at least partly responsible for the quick fire;
 the thermite theory has been
@@ -162,11 +162,33 @@ There are many possible mechanisms;
 a suitable light-weight design should be used,
 which may take advantage of air passing through the two big fans at the top that give propulsion.
 
+Speaking of which, these two [propellers](https://en.wikipedia.org/wiki/Propeller_%28aeronautics%29)
+have to move the plane forward.
+As stated above they may also extract water from the passing air.
+
 ## Power and Propulsion
+
+How are those propellers and hydrogen extractors activated?
+Primarily they use energy from the solar panels on top.
+
+Some way of storing electricity for the night must be provided,
+if we are to stay aloft.
+There are several possibilities:
+
+* Carry along some measure of batteries,
+just as existing designs.
+This is not the preferred choice because they are heavy and bulky.
+* Just float: store enough hydrogen so that the avis becomes buoyant enough in the atmosphere.
+This is a low cost solution that can be good enough.
+* Use part of the stored H₂ as fuel for a [hydrogen cell](https://en.wikipedia.org/wiki/Fuel_cell).
+This is the preferred solution,
+but requires to develop fuel cells which are both light and efficient enough.
+The avis can store extra hydrogen during the day,
+which will increase its internal pressure (or volume) enough to have some reserves.
 
 ## Challenges
 
-There are some areas which may require advancing the state of the art
+There are some areas which may require advancing the state of the art.
 
 ### Extracting Hydrogen from Air
 
@@ -174,6 +196,15 @@ The core of our design is storing hydrogen molecules.
 How can we lay our hands on those sweet H₂ molecules?
 
 ### Manipulating Hydrogen
+
+Hydrogen gas as H₂ is notably hard to contain:
+there will be leaks everywhere no matter what we use to contain it.
+Therefore it needs to be replenished in flight, as we have seen.
+
+Any leaks become really problematic in the presence of electrical sparks,
+which must be contained as much as possible.
+For instance [St. Elmo's fire](https://en.wikipedia.org/wiki/St._Elmo%27s_fire)
+is suspected in the Hindenburg disaster.
 
 ### Propulsion
 
