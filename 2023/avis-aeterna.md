@@ -492,7 +492,7 @@ Plus, it is cheap and fun!
 In this case, several advancements in different areas can be joined together to make a powerful new invention:
 an airship that does not need to touch ground,
 which is heavier than air (but that uses partial buoyancy to stay aloft),
-and which can still do it whenever it needs to.
+and which can still go whenever it needs to go.
 Even a 10-meter reference design comparable to a small plane might be a viable avis æterna.
 
 The [golden age of airships](https://www.youtube.com/watch?v=ZjBgEkbnX2Ia)
