@@ -171,10 +171,9 @@ which might take advantage of air passing through the two big fans at the top th
 Speaking of which, these two [propellers](https://en.wikipedia.org/wiki/Propeller_%28aeronautics%29)
 have to move the plane forward.
 How are they activated?
-Primarily they use energy from the solar panels on top.
-Lightweight panels such as
-[those used in the Zephyr](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
-are quite efficient.
+Primarily they use energy from the solar panels on top,
+which can be lightweight cells such as
+[those used in the Zephyr](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html).
 
 Some way of storing electricity for the night must be provided,
 if we are to stay aloft.
