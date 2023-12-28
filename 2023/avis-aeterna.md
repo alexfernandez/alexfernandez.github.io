@@ -54,7 +54,7 @@ this part will have to be undertaken by an enterprising soul
 with a lot more practical knowledge than I may have or hope to acquire.
 So let's explore the idea together!
 
-## Inspiration
+## 😶‍🌫️ Inspiration
 
 The albatross is an amazing bird:
 it only ever touches ground to mate on some remote island.
@@ -117,14 +117,14 @@ needed to keep the plane flying at night.
 Holding more charge means more weight,
 which drives up the requirements.
 
-# The Design
+# 🧑‍💻 The Design
 
 The basic idea is to have a hybrid of plane, airship and balloon.
 It is to be filled with hydrogen gas H₂ at atmospheric pressure,
 which will lift some but not all of its own weight;
 leaving a portion of its total to be supported by lift as it moves forward.
 
-## Flying Wing
+## 🪽 Flying Wing
 
 The concept of a 
 [flying wing](https://en.wikipedia.org/wiki/Flying_wing)
@@ -145,7 +145,7 @@ This is a reference design which is 10 meters long and wide and stands 5 meters 
 Remember that it doesn't have to lift its total weight,
 since a considerable portion will be sustained by buoyancy.
 
-## Buoyancy and Lift
+## 🛫 Buoyancy and Lift
 
 At sea level
 [air weighs around 1.3 kg/m³](https://www.earthdata.nasa.gov/topics/atmosphere/atmospheric-pressure/air-mass-dens),
@@ -166,10 +166,13 @@ Speaking of which, these two [propellers](https://en.wikipedia.org/wiki/Propelle
 have to move the plane forward.
 As stated above they may also extract water from the passing air.
 
-## Power and Propulsion
+## ⚡ Power and Propulsion
 
 How are those propellers and hydrogen extractors activated?
 Primarily they use energy from the solar panels on top.
+Lightweight panels such as
+[those used in the Zephyr](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
+are quite efficient.
 
 Some way of storing electricity for the night must be provided,
 if we are to stay aloft.
@@ -178,7 +181,9 @@ There are several possibilities:
 * Carry along some measure of batteries,
 just as existing designs.
 This is not the preferred choice because they are heavy and bulky.
-* Just float: store enough hydrogen so that the avis becomes buoyant enough in the atmosphere.
+* Just float: store enough hydrogen so that the avis becomes buoyant in the atmosphere.
+One possibility is to store water as ballast during the day,
+and release at sunset.
 This is a low cost solution that can be good enough.
 * Use part of the stored H₂ as fuel for a [hydrogen cell](https://en.wikipedia.org/wiki/Fuel_cell).
 This is the preferred solution,
@@ -186,25 +191,31 @@ but requires to develop fuel cells which are both light and efficient enough.
 The avis can store extra hydrogen during the day,
 which will increase its internal pressure (or volume) enough to have some reserves.
 
-## Challenges
+## 💪 Challenges
 
 There are some areas which may require advancing the state of the art.
 
-### Extracting Hydrogen from Air
+### 💧 Extracting Hydrogen from Air
 
 The core of our design is storing hydrogen molecules.
 How can we lay our hands on those sweet H₂ molecules?
+We have set our hopes on
+[atmospheric water generators](https://en.wikipedia.org/wiki/Atmospheric_water_generator),
+but these are currently heavy and waste a lot of power.
 
 Since oxygen is much denser than hydrogen,
 water is only
-[1/18 hydrogen in weight](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
-Therefore each kg of H₂ requires 18 kg of H₂O.
+[1/9 hydrogen in weight](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
+Therefore each kg of H₂ requires 9 kg of H₂O.
 It is not feasible to carry this much water onboard,
 except as a ballast.
 
 This becomes especially problematic in dry areas and as we raise higher in the atmosphere.
+We have the advantage that we are passing a lot of air through our propeller fans already,
+which can help collect water with a bit of temperature gradient.
+So there is at least hope.
 
-### Manipulating Hydrogen
+### 🎈 Manipulating Hydrogen
 
 Hydrogen gas as H₂ is notably hard to contain:
 there will be leaks everywhere no matter what we use to contain it.
@@ -219,36 +230,57 @@ For instance [St. Elmo's fire](https://en.wikipedia.org/wiki/St._Elmo%27s_fire)
 is suspected in the Hindenburg disaster.
 Also, air leaks inside the enclosure will mix the H₂ with O₂ and turn the inside into a ticking bomb.
 
-### Propulsion
+### 🛩️ Propulsion
 
-### Conquering Heights
+Propellers are [light and efficient](https://en.wikipedia.org/wiki/Propeller_%28aeronautics%29),
+so they should not be an issue as long as we have enough power.
+Moving forward should not be too hard.
+
+Control surfaces are required to direct flight to any desired direction,
+and to regulate height efficiently.
+This will be a challenge to the external design;
+any clumsy attempts from my part will just highlight the defficiencies.
+
+### ⛰️ Conquering Heights
 
 The [Airbus Zephyr](https://www.airbus.com/en/products-services/defence/uas/uas-solutions/zephyr)
 is a stratopheric plane: it flies at above 20 km (70k ft).
-And so on for most of the competition.
+And so it is for most of the competition.
 
 There are a lot of advantages for flying high:
+
 * Good weather: no storms in the stratosphere.
 * Clear skies: no commercial flights.
 
 But for the avis æterna design it is a serious disadvantage:
+
 * Less weight of the displaced air means less lift: at 15 km high the atmosphere is
 [6 times less dense](https://www.engineeringtoolbox.com/standard-atmosphere-d_604.html)
 than at sea level.
 * Less water vapor to harvest water (and hydrogen) from
 it is really scarce in the [troposphere](https://en.wikipedia.org/wiki/Troposphere).
 
-## 📏 Some Numbers
+Luckily the [cube-square law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law)
+is on our side:
+in principle we only need to scale the design up to have enough buoyancy at any height.
+The water vapor issue remains though,
+and may have to be tackled gradually.
 
-Let's do some Fermi estimations to see if the idea is feasible:
-we estimate the order of magnitude of each value and see if they make sense togethere.
+# 📏 Some Numbers
 
-We will consider a reference design that is 10m long.
+Let's do some [Fermi estimations](/2023/climate-change-solutions#fermi-estimation)
+to verify if the idea is feasible, at least in principle:
+we estimate the order of magnitude of each value and see if they make sense together.
+
+Remember that our reference design is 10m long.
 The [cube-square law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law)
 means that we can scale our design up and down,
-and in general it will play in our favor:
-volume grows with x^3 while surface grows with x^2,
+changing the compromises.
+Weight will in general play in our favor for bigger versions:
+volume grows with l³ while surface grows with l²,
 so our design will behave better as we make it bigger.
+
+## 🛫 Lift Revisited
 
 The total holding volume would be length by width by height,
 multiplied by some factor `f` that depends on the actual shape:
@@ -261,17 +293,17 @@ If the shape was a simple box the factor would be 1;
 let us suppose that it is somehow shaped like a drop of water.
 For a sphere the factor is around .523, or really close to one half,
 so we can go with `f=½`.
-Furthermore we can suppose that the width is similar to the length,
-and that the height is around half the length. So we get:
+In our case the width and length are similar and the height is around the length,
+so we get:
 
 ```
-V ~ l³/4.
+V ≈ l³/4.
 ```
 
 With a reference length of 10m we get:
 
 ```
-V ~ 250 m³.
+V ≈ 250 m³.
 ```
 
 How much weight can it lift?
@@ -281,14 +313,16 @@ Therefore every cubic meter will provide a lift of about 1.2 kg.
 Total lift `L` when full of hydrogen will be:
 
 ```
-L ~ V × 1.2 kg/m³
+L ≈ V × 1.2 kg/m³.
 ```
 
 In our reference length of 10m:
 
 ```
-L ~ 250 * 1.2 kg ~ 300 kg.
-``` 
+L ≈ 250 × 1.2 kg ≈ 300 kg.
+```
+
+## ⚖️ Weight Revisited
 
 The total weight can be computed as a factor of size,
 considering how the structure is constructed.
@@ -312,14 +346,15 @@ On top of this we add 50% for safety:
 
 ```
 A = A(top) + A(bottom) + A(back)
-  ~ 1.5 * (2 * l * w / 2 + w * h / 2)
-  ~ 1.5 * w * (l + h / 2).
+≈ 1.5 × (2 × l × w / 2 + w × h / 2)
+≈ 1.5 × w × (l + h / 2).
 ```
 
 Again with our 10m version:
 
 ```
-A = 1.5 * 10 * (10 + 5 / 2) m² ~ 187 m².
+A = 1.5 × 10 × (10 + 5 / 2) m²
+≈ 187 m².
 ```
 
 Now the thickness and density of the material are tricky:
@@ -332,7 +367,7 @@ or an areal density of 3.5 kg/m².
 If we extrapolate to our area:
 
 ```
-W ~ 3.5 kg/m² * 187 m² ~ 700 kg.
+W ≈ 3.5 kg/m² × 187 m² ≈ 700 kg.
 ```
 
 We can consider this number as an upper limit since an ultralight plane has to withstand much bigger forces than the avis.
@@ -342,18 +377,20 @@ with a wing area of 16 m and weight of 16 kg for a much more reasonable areal de
 This would give us:
 
 ```
-W ~ 1 kg/m² * 187 m² ~ 200 kg.
+W ≈ 1 kg/m² × 187 m² ≈ 200 kg.
 ```
 
 This weight could be self-supported by the lift,
 with 100 kg to spare for the payload.
+
+## 🔋 Solar Power
 
 Solar power will depend on the top area of the wing `A(top)`,
 and the areal power of the solar cells used.
 We can very roughly approximate the top area as a triangle:
 
 ```
-A(top) ≈ l * w / 2 ≈ l² / 2.
+A(top) ≈ l × w / 2 ≈ l² / 2.
 ```
 
 The Zephyr uses [MicroLink arrays](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
@@ -361,39 +398,43 @@ with a yield "greater than 350 W/m²".
 If the top surface is completely filled with solar cells this gives:
 
 ```
-P = 350 W / m² * A(top) ~ 350 W/m² / (l² / 2).
+P = 350 W / m² × A(top)
+≈ 350 W/m² / (l² / 2).
 ```
 
 So for instance with `l=10m` we get:
 
 ```
-P ~ 350 W/m² * 50 m² ~ 17.5 kW.
+P ≈ 350 W/m² × 50 m² ≈ 17.5 kW.
 ```
 
-Again MicroLink says that their specific power is more than 1500 W/kg,
+Again MicroLink says that their specific power is "more than 1500 W/kg",
 so the total weight of the solar cells would be:
 
 ```
-W(solar) ~ 17.5 kW / (1500 W/kg) ~ 12 kg.
+W(solar) ≈ 17.5 kW / (1500 W/kg)
+≈ 12 kg.
 ```
 
-I would say this is very reasonable.
+I would say this is very reasonable for a full solar panel cover.
+It needs to be able to power up both the propellers and the hydrogen generator.
 
-### Hydrogen Generation
+### 🫧 Hydrogen Generation
 
 First we have to extract water from the atmosphere,
 then we need to convert it to pure hydrogen gas.
 At atmospheric pressure hydrogen weighs 70 grams per m3, as we saw above;
-the full weight of hydrogen for the complete interior of the avis `W(h2)` will be:
+the full weight of hydrogen for the complete interior of the avis `W(H₂)` will be:
 
 ```
-W(h2) = V * 70 g/m3.
+W(H₂) = V × 70 g/m3.
 ```
 
 For our reference 10m length:
 
 ```
-W(h2) = 250 m3 * 70 g/m3 = 17.5 kg.
+W(H₂) = 250 m3 × 70 g/m3
+= 17.5 kg.
 ```
 
 How much water do we really need?
@@ -401,7 +442,8 @@ How much water do we really need?
 In our case:
 
 ```
-W(water) = 18 * W(h2) ~ 18 * 17.5 kg ~ 315 kg.
+W(water) = 18 × W(H₂)
+≈ 18 × 17.5 kg ≈ 315 kg.
 ```
 
 Now that is a lot of water!
@@ -416,7 +458,7 @@ Generating one liter of water (around a kg) takes 310 watt-hours,
 so for each kg of hydrogen it would take 18 times more:
 
 ```
-P(kg) ~ 18 * 310 Wh ~ 5.5 kWh.
+P(kg) ≈ 18 × 310 Wh ≈ 5.5 kWh.
 ```
 
 Next we need to extract the hydrogen from the water.
@@ -425,10 +467,13 @@ using electrical energy is at around 55 kWh per kg of hydrogen generated.
 Adding the 5 kWh to extract the water first from the atmosphere
 we get 60 kWH per kg of hydrogen.
 
-In our standard 10m design we computed that we can count on 17.5 kW from the solar cells,
+In our reference 10m design we computed that we can count on 17.5 kW from the solar cells,
 so we can generate one kg of hydrogen every 3.5 hours.
 As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure,
 and could be filled in ~ 60 hours of continuous operation.
+
+In reality part of the power will be directed to the propellers.
+It remains to be seen if such a rate of hydrogen generation is enough to replenish any leaks.
 
 # 🤔 Conclusion
 
