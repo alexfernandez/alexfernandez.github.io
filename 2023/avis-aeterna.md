@@ -463,17 +463,17 @@ Just for the sake of argument,
 let's look at
 [this device](https://time.com/75612/atmospheric-water-generator-watergen/).
 Generating one liter of water (around a kg) takes 310 watt-hours,
-so for each kg of hydrogen it would take 18 times more:
+so for each kg of hydrogen it would take 9 times more:
 
 ```
-P(kg) ≈ 18 × 310 Wh ≈ 5.5 kWh.
+P(kg) ≈ 9 × 310 Wh ≈ 2.8 kWh.
 ```
 
 Next we need to extract the hydrogen from the water.
 The [industrial efficiency](https://en.wikipedia.org/wiki/Electrolysis_of_water#Industrial_output)
 using electrical energy is at around 55 kWh per kg of hydrogen generated.
-Adding the 5 kWh to extract the water first from the atmosphere
-we get 60 kWH per kg of hydrogen.
+Adding the approx 3 kWh to extract the water first from the atmosphere
+we get 58 kWH per kg of hydrogen.
 
 In our reference 10m design we computed that we can count on 17.5 kW from the solar cells,
 so we can generate one kg of hydrogen every 3.5 hours.
