@@ -81,6 +81,14 @@ In fact, the avis may be able to control its weight by expanding its hydrogen ch
 I would think of it as the [swim bladder](https://en.wikipedia.org/wiki/Swim_bladder) of fish,
 which allows them to control their buoyancy in water.
 
+A few months ago the YouTube channel Veritasium published
+[this awesome video about airships](https://www.youtube.com/watch?v=ZjBgEkbnX2I)
+with many current initiatives,
+including [hybrid air vehicles](https://www.hybridairvehicles.com/)
+which are part buoyant, part airlifted.
+Add some hydrogen and a mechanism to generate it,
+and we are in business!
+
 ## 🔥 Hydrogen? Are You Sure?
 
 When mixing hydrogen and aviation we immediately get the
