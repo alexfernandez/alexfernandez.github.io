@@ -210,7 +210,7 @@ water is only
 [1/9 hydrogen in weight](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
 Therefore each kg of H₂ requires 9 kg of H₂O.
 It is not feasible to carry this much water onboard,
-except as a ballast.
+except as ballast.
 
 This becomes especially problematic in dry areas and as we raise higher in the atmosphere.
 We have the advantage that we are passing a lot of air through our propeller fans already,
@@ -219,12 +219,14 @@ So there is at least hope.
 
 ### 🎈 Manipulating Hydrogen
 
-Hydrogen gas as H₂ is notably hard to contain:
+Hydrogen gas (H₂) is notably hard to contain:
 there will be leaks everywhere no matter what we use to contain it.
 Therefore it needs to be replenished in flight, as we have seen.
 
 Gas should be as close to atmospheric pressure as possible,
 to prevent even worse leaks.
+The enclosure may be elastic to hold a variable amount of gas,
+or it might be rigid.
 
 Any leaks become really problematic in the presence of electrical sparks,
 which must be contained as much as possible.
