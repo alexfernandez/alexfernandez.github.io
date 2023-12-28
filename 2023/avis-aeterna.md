@@ -38,6 +38,7 @@ which can also be used as fuel storage:
 instead of being weighed down by batteries
 it could be filled with hydrogen which makes it lighter.
 Not lighter than air, but sufficiently lighter that it is easy to stay up.
+Even better, hydrogen can be extracted directly from the air!
 
 Now, I am not an industrial engineer:
 I studied physics and have been working with computers for a couple of decades.
@@ -97,6 +98,9 @@ did some suggestive experiments that gave a substantive role to the coating of t
 
 In any case, hydrogen is now safer to use than at any other time in history.
 We should be open to experiment again with that awesome, fully renewable gas.
+Especially when no people are in danger!
+The avis æterna will be fully autonomous,
+which should also be good training for crewed hydrogen planes.
 
 ## 📝 Previous Designs
 
@@ -115,7 +119,10 @@ which drives up the requirements.
 
 # The Design
 
-The idea
+The basic idea is to have a hybrid of plane, airship and balloon.
+It is to be filled with hydrogen gas H₂ at atmospheric pressure,
+which will lift some but not all of its own weight;
+leaving a portion of its total to be supported by lift as it moves forward.
 
 ## Flying Wing
 
@@ -126,12 +133,44 @@ Some people think that it is
 [the future of air travel](https://hackaday.com/2021/08/08/from-tube-and-wing-to-just-wing-the-future-of-airliners/),
 with its more efficient design.
 
+A flying wing also has more internal storage than a classic plane.
+The mostly flat top surface is ideal for placing light-weight solar panels,
+which provide electricity for its operation.
+We are envisioning a rather bulky aircraft similar to the design below,
+given suitable aerodynamics.
+This is a reference design which is 10 meters long and wide and stands 5 meters high.
+
+![Top and back views of the main body.](pics/avis-aeterna-top.png "Top view of a flying wing curvy delta design, 10 meters wide and long. Also back view with two fans on top, 5 meters high.")
+
+Remember that it doesn't have to lift its total weight,
+since a considerable portion will be sustained by buoyancy.
+
+## Buoyancy and Lift
+
+At sea level
+[air weighs around 1.3 kg/m³](https://www.earthdata.nasa.gov/topics/atmosphere/atmospheric-pressure/air-mass-dens),
+while [hydrogen weighs 70 g/m³](https://genh2hydrogen.com/blog/defining-hydrogen-from-a-to-z-3/);
+providing a good 1.2 kg of buoyancy per cubic meter of stored hydrogen.
+
+Hydrogen gas can be very easily extracted from water using electrolysis.
+It is also very possible, although not as easy,
+to extract water from air:
+just condensing atmospheric water vapor,
+which can be done using an
+[atmospheric water generator](https://en.wikipedia.org/wiki/Atmospheric_water_generator).
+There are many possible mechanisms;
+a suitable light-weight design should be used,
+which may take advantage of air passing through the two big fans at the top that give propulsion.
+
+## Power and Propulsion
+
 ## Challenges
+
+There are some areas which may require advancing the state of the art
 
 ### Extracting Hydrogen from Air
 
 The core of our design is storing hydrogen molecules.
-
 How can we lay our hands on those sweet H₂ molecules?
 
 ### Manipulating Hydrogen
