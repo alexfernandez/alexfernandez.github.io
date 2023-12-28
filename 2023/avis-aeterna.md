@@ -64,7 +64,7 @@ It is not clear if it ever rests in the sea where it is vulnerable,
 but it seems that it can do everything in flight,
 like [feeding and even sleeping](https://en.wikipedia.org/wiki/Albatross#Morphology_and_flight).
 
-![An albatross. Source: [JJ Harrison](https://en.wikipedia.org/wiki/Albatross#/media/File:Diomedea_exulans_in_flight_-_SE_Tasmania.jpg).](pics/avis-aeterna-albatross.jpg "An albatross or large bird similar to a seagull soaring over the blue sea.")
+![A soaring albatross. Source: [JJ Harrison](https://en.wikipedia.org/wiki/Albatross#/media/File:Diomedea_exulans_in_flight_-_SE_Tasmania.jpg).](pics/avis-aeterna-albatross.jpg "An albatross or large bird similar to a seagull hovering over the blue sea.")
 
 The Wikipedia article for [flight endurance record](https://en.wikipedia.org/wiki/Flight_endurance_record)
 clearly separates records for airplanes (64 days), balloons (19 days) and airships (11 days).
