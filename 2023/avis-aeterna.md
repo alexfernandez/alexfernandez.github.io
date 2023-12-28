@@ -446,12 +446,12 @@ W(H₂) = 250 m3 × 70 g/m3
 ```
 
 How much water do we really need?
-[About 18 times more](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
+[About 9 times more](https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Biology/Atomic_Weights_and_Water).
 In our case:
 
 ```
-W(water) = 18 × W(H₂)
-≈ 18 × 17.5 kg ≈ 315 kg.
+W(water) = 9 × W(H₂)
+≈ 9 × 17.5 kg ≈ 150 kg.
 ```
 
 Now that is a lot of water!
