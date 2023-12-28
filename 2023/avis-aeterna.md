@@ -147,7 +147,8 @@ This is a reference design which is 10 meters long and wide and stands 5 meters 
 
 ## 🛫 Buoyancy and Lift
 
-Remember that this design doesn't have to generate enough lift to compensate its entire weight by flying,
+Remember that this design doesn't need to be as aerodynamic as a regular plane:
+it only has to generate enough lift when flying to compensate a small part of its entire weight,
 since a considerable portion will be sustained by buoyancy.
 
 At sea level
