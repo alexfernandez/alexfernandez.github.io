@@ -13,11 +13,11 @@ And sometimes even blimps and ballons may appear like relics from the past.
 Sadly, the amazing flying ships that appear in the movies of Hideo Miyazaki have not materialized yet:
 they hover endlessly and never seem to have to touch down for fuel.
 
-Some people have dreamt of air ships that stay in the air forever,
+Down in the real world, some people have also dreamt of air ships that stay in the air forever,
 both for their inspiring qualities and for practical reasons like scientific missions or broadband service.
 There are some promising approaches that are on the brink of permanent flight.
 In this article we will explore the _avis æterna_,
-a novel approach that might be able to fulfill the dream.
+a novel approach that might be able to one day fulfill the dream.
 
 ![Artist's rendition of an avis æterna.](pics/avis-aeterna-artist.jpg "A drawing of a ship.")
 
@@ -41,9 +41,9 @@ Not lighter than air, but sufficiently lighter that it is easy to stay up.
 Even better, hydrogen can be extracted directly from the air!
 
 Now, I am not an industrial engineer:
-I studied physics and have been working with computers for a couple of decades.
+I studied Physics and have been working with computers for a couple of decades.
 But I like to explore if a concept is at least feasible from a physical point of view,
-and if the technology is at least there.
+and if the technology is there yet or requires further developments.
 You may remember my previous attemps at a
 [space launcher](http://pinchito.es/2018/building-space-launcher)
 or [helping the climate change crisis with trees](http://pinchito.es/2023/climate-change-trees).
