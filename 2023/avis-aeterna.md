@@ -278,7 +278,7 @@ and may have to be tackled gradually.
 
 Let's do some [Fermi estimations](/2023/climate-change-solutions#fermi-estimation)
 to verify if the idea is feasible, at least in principle:
-we estimate the order of magnitude of each value and see if they make sense together.
+we estimate the order of magnitude of each parameter and see if they make sense together.
 
 Remember that our reference design is 10m long.
 The [cube-square law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law)
