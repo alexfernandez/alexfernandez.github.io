@@ -470,13 +470,26 @@ we get 60 kWH per kg of hydrogen.
 In our reference 10m design we computed that we can count on 17.5 kW from the solar cells,
 so we can generate one kg of hydrogen every 3.5 hours.
 As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure,
-and could be filled in ~ 60 hours of continuous operation.
+and could be filled in ~60 hours of continuous operation.
 
 In reality part of the power will be directed to the propellers.
 It remains to be seen if such a rate of hydrogen generation is enough to replenish any leaks.
 
 # 🤔 Conclusion
 
+Dreaming outside your area of expertise has brought about endless innovations,
+and in fact is the main source of inquiry into those areas where there are no experts yet.
+Plus, it is cheap and fun!
+
+In this case, several advancements in different areas can be joined together to make a powerful new invention:
+an airship that does not need to touch ground,
+which is heavier than air (but that uses partial buoyancy to stay aloft),
+and which can still do it whenever it needs to.
+
+The [golden age of airships](https://www.youtube.com/watch?v=ZjBgEkbnX2Ia)
+may be in our future,
+and there are so many possibilities that only redoing old concepts,
+and not exploring alternative designs, would be really sad.
 
 ## 🙏 Acknowledgements
 
