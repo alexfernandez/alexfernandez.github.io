@@ -54,7 +54,7 @@ to check if the parameters are at least in the right ballpark.
 Don't expect detailed plans or a bill of materials though;
 this part will have to be undertaken by an enterprising soul
 with a lot more practical knowledge than I may have or hope to acquire.
-So let's explore the idea together!
+So let's explore the idea together from our comfy armchairs!
 
 ## 😶‍🌫️ Inspiration
 
