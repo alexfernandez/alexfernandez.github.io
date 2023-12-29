@@ -399,7 +399,7 @@ W ≈ 1 kg/m² × 187 m² ≈ 200 kg.
 This weight could be self-supported by the lift,
 with 100 kg to spare for the payload.
 
-## 🔋 Solar Power
+## 🌞 Solar Power
 
 Solar power will depend on the top area of the wing `A(top)`,
 and the areal power of the solar cells used.
@@ -435,7 +435,7 @@ W(solar) ≈ 17.5 kW / (1500 W/kg)
 I would say this is very reasonable for a full solar panel cover.
 It needs to be able to power up both the propellers and the hydrogen generator.
 
-### 🫧 Hydrogen Generation
+## 🫧 Hydrogen Generation
 
 First we have to extract water from the atmosphere,
 then we need to convert it to pure hydrogen gas.
@@ -490,6 +490,19 @@ and could be filled in ~60 hours of continuous operation.
 
 In reality part of the power will be directed to the propellers.
 It remains to be seen if such a rate of hydrogen generation is enough to replenish any leaks.
+
+## 🌬️ Drag and Lift
+
+To round things up, let us compute the drag of the airship,
+the efficiency of the propellers and the resulting lift.
+Exactly how much weight can the flying part lift?
+
+First, the formula for drag `F~D~` is:
+
+```
+```
+
+## 🔋 Fuel Cells
 
 # 🤔 Conclusion
 
