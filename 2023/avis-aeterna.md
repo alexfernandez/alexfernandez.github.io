@@ -497,7 +497,7 @@ To round things up, let us compute the drag of the airship,
 the efficiency of the propellers and the resulting lift.
 Exactly how much weight can the flying part lift?
 
-First, the formula for drag `F_D_` is:
+First, the formula for drag _F~D~_ is:
 
 ```
 ```
