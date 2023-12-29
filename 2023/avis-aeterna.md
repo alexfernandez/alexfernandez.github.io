@@ -38,8 +38,9 @@ But other approaches can be explored.
 We could build a plane which is made lighter by hydrogen,
 which can also be used as fuel storage:
 instead of being weighed down by batteries
-it could be filled with hydrogen which makes it lighter.
-Not lighter than air, but sufficiently lighter that it is easy to stay up.
+it could use some hydrogen to generate electricity at night.
+The craft doesn't need to be lighter than air,
+just sufficiently buoyant that it doesn't require so much energy to stay up.
 Even better, hydrogen can be extracted directly from the air!
 
 Now, I am not an industrial engineer:
