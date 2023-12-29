@@ -550,7 +550,7 @@ P(D) ≈ 9000 W = 5 kg/m × v³
 
 We can go above 12 m/s,
 but then we would have no power left for lift or hydrogen generation.
-In ideal conditions `v(max)` would be:
+In ideal conditions the absolute max speed `v(max)` would be:
 
 ```
 v(max) ≈ ∛(17000/5) m/s ≈ 15 m/s.
