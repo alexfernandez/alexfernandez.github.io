@@ -197,10 +197,11 @@ Another possibility which would allow a rigid body is to store water as ballast 
 and release it at sunset.
 This is a low cost solution that can be good enough.
 * Use part of the stored H₂ as fuel for a [hydrogen cell](https://en.wikipedia.org/wiki/Fuel_cell).
-This is the preferred solution,
-but requires to develop fuel cells which are both light and efficient enough.
+This is the most advanced solution,
+and it requires to develop fuel cells which are both light and efficient enough.
 The avis can store extra hydrogen during the day,
 which will increase its internal pressure (or volume) enough to have some reserves.
+I'm not sure it is really viable though, see [fuel cells](#fuel-cells).
 
 ## 💪 Challenges
 
@@ -296,6 +297,8 @@ changing the compromises.
 Weight will in general play in our favor for bigger versions:
 volume grows with l³ while surface grows with l²,
 so our design will behave better as we make it bigger.
+But unfortunately solar energy generation will scale only with area of solar cells,
+so there will very likely be a sweet spot.
 
 ## 🛫 Lift Revisited
 
@@ -440,18 +443,18 @@ It needs to be able to power up both the propellers and the hydrogen generator.
 
 First we have to extract water from the atmosphere,
 then we need to convert it to pure hydrogen gas.
-At atmospheric pressure hydrogen weighs 70 grams per m3, as we saw above;
+At atmospheric pressure hydrogen weighs 70 grams per m³, as we saw above;
 the full weight of hydrogen for the complete interior of the avis `W(H₂)` will be:
 
 ```
-W(H₂) = V × 70 g/m3.
+W(H₂) = V × 70 g/m³.
 ```
 
 For our reference 10m length:
 
 ```
-W(H₂) = 250 m3 × 70 g/m3
-= 17.5 kg.
+W(H₂) = 250 m³ × 70 g/m³
+≈ 18 kg.
 ```
 
 How much water do we really need?
@@ -460,7 +463,7 @@ In our case:
 
 ```
 W(water) = 9 × W(H₂)
-≈ 9 × 17.5 kg ≈ 150 kg.
+≈ 9 × 18 kg ≈ 160 kg.
 ```
 
 Now that is a lot of water!
@@ -486,7 +489,7 @@ we get 58 kWH per kg of hydrogen.
 
 In our reference 10m design we computed that we can count on 18 kW from the solar cells,
 so we can generate one kg of hydrogen every 3.5 hours.
-As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure,
+As we saw above filling its 250 m³ volume would take 18 kg of hydrogen at atmospheric pressure,
 and could be filled in ~60 hours of continuous operation.
 
 In reality part of the power will be directed to the propellers.
@@ -503,63 +506,72 @@ Exactly how much weight can the flying part lift?
 First, the formula for drag `F(D)` is:
 
 ```
-F(D) = ½rhov2C(D)A.
+F(D) = ½ ρ v² C(D) A,
 ```
 
-For our reference 10m design the frontal area will be around half the total area:
+where `ρ` is the density of the air and `C(D)` is the drag coefficient.
+For our reference 10m design the frontal area `A` will be around half the area of the square:
 
 ```
-A ~ 10m * 5m * 1/2
-~ 25 m2.
+A ≈ 10m × 5m × 1/2
+≈ 25 m².
 ```
 
 Let us suppose a drag coefficient similar to that of a car,
-`C(D)~0.30`:
+`C(D)≈0.30`:
 
 ```
-F(D) ~ ½ * 1.3 kg/m3 * v2 * 25 m2 * 0.30
-~ 5 kg/m * v2.
+F(D) ≈ ½ × 1.3 kg/m³ × v² × 0.30 × 25 m²
+≈ 5 kg/m × v².
 ```
 
-Power requirement for drag `P(D)` will be:
+Power requirement for drag `P(D)` will be simply force multiplied by velocity:
 
 ```
-P(D) = F(D) * v = 5 kg/m * v3.
+P(D) = F(D) × v = 5 kg/m × v³.
 ```
 
 So for instance at a speed of 10 m/s:
 
 ```
 v = 10 m/s =>
-F(D) = 5 kg/m * 100 m2/s2
-~ 500 kg m/s2 = 500 N.
-P(D) ~ 5 kg/m * 1000 m3/s3 
-~ 5000 N*m/s = 5000 W.
+F(D) = 5 kg/m × 100 m²/s²
+≈ 500 kg m/s² = 500 N.
+P(D) ≈ 5 kg/m × 1000 m³/s³ 
+≈ 5000 Nm/s = 5000 W.
 ```
 
 If we spend half our 18 kW on drag then our max speed would be:
 
 ```
-P(D) = 9000 W = 5 kg/m * v3
-=> v = (9000/5)^(1/3) m/s = 12 m/s.
+P(D) ≈ 9000 W = 5 kg/m × v³
+=> v ≈ ∛(9000/5) m/s = 12 m/s.
+```
+
+We can go above 12 m/s,
+but then we would have no power left for lift or hydrogen generation.
+In ideal conditions `v(max)` would be:
+
+```
+v(max) ≈ ∛(17000/5) m/s ≈ 15 m/s.
 ```
 
 ### Lift Force
 
 For the lift force we can reason backwards:
 if we know the weight we want to support with lift `F(L)`,
-we can compute the required power `P(L)`:
+we can compute the required power `P(L)`.
 
 ```
-P(L) = F(L) * v.
+P(L) = F(L) × v.
 ```
 
 If the avis has an effective weight of 50 kg
 then the lift force and power at 10m/s will be:
 
 ```
-F(L) = 50 kg * 9.8 N/kg ~ 500 N,
-P(L) ~ 500 N * 10 m/s ~ 5000 W.
+F(L) = 50 kg × 9.8 N/kg ≈ 500 N,
+P(L) ≈ 500 N × 10 m/s ≈ 5000 W.
 ```
 
 This has two interesting consequences.
@@ -569,12 +581,31 @@ Second, the
 [lift-to-drag ratio](https://en.wikipedia.org/wiki/Lift-to-drag_ratio)
 would be a really pitiful 1:1,
 which is in line with its bulky figure.
+Keep in mind that this is at peak solar generation;
+any changes in the incidence of sun rays would decrease our energy budget.
 
 ## 🔋 Fuel Cells
 
 Now let's see if some extra hydrogen can be stored and used for propulsion at night.
 Let's suppose 20% extra storage,
-which would yield 
+which would yield 3.6 kg of hydrogen,
+and 60 kg of buoyancy.
+
+Hydrogen cells can reach [efficiency of 60%](https://www.energy.gov/eere/fuelcells/articles/fuel-cells-fact-sheet).
+Let's go with a more conservative 40% efficiency,
+on an energy content of 33 kWH/kg.
+This would yield a total energy of:
+
+```
+E(H₂) ≈ 3.6 kg × 0.40 × 33 kWH/kg
+≈ 50 kWH.
+```
+
+During 12 hours of night this would yield approximately 4 kW of power.
+It is not much;
+and the added complexity and weight of the fuel cells might not be worth it.
+After doing the numbers it seems a better idea to use the extra hydrogen just for the buoyancy,
+so the avis does not fall to the ground at night.
 
 # 🤔 Conclusion
 
