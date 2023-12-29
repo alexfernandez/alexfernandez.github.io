@@ -421,14 +421,14 @@ P = 350 W / m² × A(top)
 So for instance with `l=10m` we get:
 
 ```
-P ≈ 350 W/m² × 50 m² ≈ 17.5 kW.
+P ≈ 350 W/m² × 50 m² ≈ 18 kW.
 ```
 
 Again MicroLink says that their specific power is "more than 1500 W/kg",
 so the total weight of the solar cells would be:
 
 ```
-W(solar) ≈ 17.5 kW / (1500 W/kg)
+W(solar) ≈ 18 kW / (1500 W/kg)
 ≈ 12 kg.
 ```
 
@@ -483,7 +483,7 @@ using electrical energy is at around 55 kWh per kg of hydrogen generated.
 Adding the approx 3 kWh to extract the water first from the atmosphere
 we get 58 kWH per kg of hydrogen.
 
-In our reference 10m design we computed that we can count on 17.5 kW from the solar cells,
+In our reference 10m design we computed that we can count on 18 kW from the solar cells,
 so we can generate one kg of hydrogen every 3.5 hours.
 As we saw above filling its 250 m3 volume would take 17.5 kg at atmospheric pressure,
 and could be filled in ~60 hours of continuous operation.
@@ -497,12 +497,81 @@ To round things up, let us compute the drag of the airship,
 the efficiency of the propellers and the resulting lift.
 Exactly how much weight can the flying part lift?
 
-First, the formula for drag _F~D~_ is:
+### Drag Force
+
+First, the formula for drag `F(D)` is:
 
 ```
+F(D) = ½rhov2C(D)A.
 ```
+
+For our reference 10m design the frontal area will be around half the total area:
+
+```
+A ~ 10m * 5m * 1/2
+~ 25 m2.
+```
+
+Let us suppose a drag coefficient similar to that of a car,
+`C(D)~0.30`:
+
+```
+F(D) ~ ½ * 1.3 kg/m3 * v2 * 25 m2 * 0.30
+~ 5 kg/m * v2.
+```
+
+Power requirement for drag `P(D)` will be:
+
+```
+P(D) = F(D) * v = 5 kg/m * v3.
+```
+
+So for instance at a speed of 10 m/s:
+
+```
+v = 10 m/s =>
+F(D) = 5 kg/m * 100 m2/s2
+~ 500 kg m/s2 = 500 N.
+P(D) ~ 5 kg/m * 1000 m3/s3 
+~ 5000 N*m/s = 5000 W.
+```
+
+If we spend half our 18 kW on drag then our max speed would be:
+
+```
+P(D) = 9000 W = 5 kg/m * v3
+=> v = (9000/5)^(1/3) m/s = 12 m/s.
+```
+
+### Lift Force
+
+For the lift force we can reason backwards:
+if we know the weight we want to support with lift `F(L)`,
+we can compute the required power `P(L)`:
+
+```
+P(L) = F(L) * v.
+```
+
+If the avis has an effective weight of 50 kg
+then the lift force and power at 10m/s will be:
+
+```
+F(L) = 50 kg * 9.8 N/kg ~ 500 N,
+P(L) ~ 500 N * 10 m/s ~ 5000 W.
+```
+
+This has two interesting consequences.
+First, at a speed of 10 m/s we would be spending 5 kW only on lift,
+another 5 kW on drag, and have 7 kW to spare for hydrogen generation.
+Second, the
+[lift-to-drag ratio](https://en.wikipedia.org/wiki/Lift-to-drag_ratio)
+would be a really pitiful 1:1,
+which is in line with its bulky figure.
 
 ## 🔋 Fuel Cells
+
+Now let's see if the extra hydrogen can be used for propulsion at night.
 
 # 🤔 Conclusion
 
