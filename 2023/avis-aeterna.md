@@ -556,6 +556,9 @@ In ideal conditions the absolute max speed `v(max)` would be:
 v(max) ≈ ∛(17000/5) m/s ≈ 15 m/s.
 ```
 
+and the avis would have to be buoyant on its own,
+or fall down to the ground.
+
 ### Lift Force
 
 For the lift force we can reason backwards:
