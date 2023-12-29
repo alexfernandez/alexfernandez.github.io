@@ -1,7 +1,7 @@
 ---
 title: '🪽 Avis Æterna'
 subtitle: '🛩️ A Perpetual Flying Machine'
-footer: Published on 2023-12-28, last modified on 2023-12-28.
+footer: Published on 2023-12-28, last modified on 2023-12-29.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2023/pics/avis-aeterna-artist.jpg
 ---
@@ -507,6 +507,7 @@ The [golden age of airships](https://www.youtube.com/watch?v=ZjBgEkbnX2Ia)
 may be in our future,
 and there are so many possibilities that only redoing old concepts,
 and not exploring alternative designs, would be really sad.
+As we say at Tinybird, we look in awe at birds.
 
 ## 🙏 Acknowledgements
 
