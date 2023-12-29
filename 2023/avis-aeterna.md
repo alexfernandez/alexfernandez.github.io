@@ -207,7 +207,7 @@ There are some areas which may require advancing the state of the art.
 
 ### 💧 Extracting Hydrogen from Air
 
-The core of our design is storing hydrogen molecules.
+The core of our design is storing hydrogen gas.
 How can we lay our hands on those sweet H₂ molecules?
 We have set our hopes on
 [atmospheric water generators](https://en.wikipedia.org/wiki/Atmospheric_water_generator),
@@ -571,7 +571,9 @@ which is in line with its bulky figure.
 
 ## 🔋 Fuel Cells
 
-Now let's see if the extra hydrogen can be used for propulsion at night.
+Now let's see if some extra hydrogen can be stored and used for propulsion at night.
+Let's suppose 20% extra storage,
+which would yield 
 
 # 🤔 Conclusion
 
