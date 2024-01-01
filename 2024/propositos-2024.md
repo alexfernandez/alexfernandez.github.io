@@ -54,7 +54,8 @@ en T3chFest,
 hablando sobre programación y código genético.
 También he hecho alguna charla en Node.js Madrid
 sobre [pruebas de carga con loadtest](https://www.meetup.com/es-ES/node-js-madrid/events/296058888/),
-
+que repetí en AlmeríaJS hace unos días,
+como puede verse en 
 
 > También me gustaría **seguir escribiendo artículos en éste mi blog personal**.
 
@@ -91,28 +92,45 @@ muy interesante y que haríamos bien todos en leer.
 
 ### 🎨 Artístico
 
-> Me gustaría **seguir dibujando** bajo la experta tutela de mi profesor online
-> [Arturo Martín Burgos](http://www.arturomartinburgos.com/).
+![Dibujo de mi familia, barra conté sobre papel azul.](pics/propositos-dibujo-familia.jpg "Dibujo de una chica mirando su móvil en un sofá, con la madre al lado.")
 
-Este objetivo ha sido un rotundo
-<span style="color:red">fracaso</span>,
-ya que perdí las ganas de seguir dibujando por algún motivo que desconozco.
-Creo que algunos lo llaman "inspiración".
+> Espero volver a tener ¿inspiración? para dibujar,
+> de paso **probando nuevas técnicas**.
+> No es que domine las anteriores,
+> pero siempre está bien variar de vez en cuando.
 
-> También quiero **presentarme a algún concurso de pintura rápida**.
+Gracias a los ánimos de mi profesor
+[Arturo Martín Burgos](http://www.arturomartinburgos.com/),
+he vuelto a hacer dibujos de vez en cuando.
+Sobre nuevas técnicas, he estado copiando dibujos del gran maestro japonés Hokusai,
+añadiendo alguna interpretación como en esta versión de la Gran Ola.
 
-De nuevo un completo
-<span style="color:red">fracaso</span>.
-Este área no ha sido muy afortunada.
+![La Gran Ola de Hokusai, rotuladores sobre papel.](pics/propositos-ola-hokusai.jpg "Versión de 'La gran ola en la costa de Kanagawa', de Hokusai: una ola amenaza a tres barcas de pescadores, con el monte Fuji al fondo.")
+
+
+Así que lo contamos como
+¡<span style="color:green">éxito</span> sin palitivos!
+
 
 ### 📊 Resumen
 
-Con tres <span style="color:green">éxitos</span>
-y tres <span style="color:red">fracasos</span> ha sido un año equilibrado.
+Llegamos al final de 2023 con dos <span style="color:green">éxitos</span>
+y un <span style="color:red">fracaso</span>, similar a 2022.
+Fuera de carta no puedo quejarme:
+once artículos en el blog,
+y repasando las fotos del año veo
+una mañana pilotando un avión en "piloto por un día",
+conciertos de Tomatito y Ron Carter,
+una San Silvestre de Almería
+y reencuentros con bastantes viejos amigos.
+En el lado más personal todavía está reciente la
+[ausencia de mi padre](https://pinchito.es/2023/una-vida-sin-fisuras).
+
+![¡Y estuve en el rodaje de un [Ferrallas & Movidas](https://www.youtube.com/c/FerrallasyMovidas)!](pics/propositos-ferrallas-movidas.jpg "Fran y Carlos ")
 
 ## 🎯 Objetivos para 2024
 
-Este año seremos todavía más concisos y parcos.
+Este año nos propondremos algunos objetivos alcanzables.
 Los nuevos propósitos aparecen **en negrita**.
 
 ### 🧑‍🏭 Laboral
@@ -127,24 +145,32 @@ el momento no es el mejor, pero haremos lo que podamos.
 
 ### 👐 Comunidad
 
-En este apartado he vuelto a enviar unas cuantas propuestas,
-y me conformo con **hacer charlas ocasionales**,
-una por trimestre como mínimo.
-
-Si te apetece que nos veamos en tu comunidad,
+Tengo ideas para un par de charlas nuevas,
+y de nuevo me propongo **dar una charla al trimestre** como mínimo.
+Si te gustaría que nos veamos en tu comunidad,
 en remoto o en persona,
 sólo tienes que decírmelo.
 
+También quiero **sacar adelante los proyectos de software libre**.
+En particular, creo que [LibreCounter](https://librecounter.org/)
+puede tener bastante recorrido,
+y ser útil a distintas comunidades _open source_.
+
 ### 🎨 Artístico
 
-Espero volver a tener ¿inspiración? para dibujar,
-de paso **probando nuevas técnicas**.
-No es que domine las anteriores,
-pero siempre está bien variar de vez en cuando.
+Seguir dibujando es 
+
+### 🏃 Esportiú
+
+Tras la lamentable temática sobre Star Wars de la San Silvestre de Almería este año,
+espero no dejar el entrenamiento y **correr 5 km todos los fines de semana**.
+De esa forma espero que se haga menos cuesta arriba la preparación para el año que viene.
+
+![En algún universo esto era un Chewbacca listo para correr.](pics/propositos-san-silvestre.jpg "Un hombre lobo desquiciado se intenta hacer pasar por un wookie marchoso.")
 
 ## 🤔 Conclusión
 
-Este año 2024 sólo tengo tres objetivos.
-¿Cuántos saldrán bien?
-¡Nos vemos en 2024 para contrastarlo!
+Este año 2024 tengo cinco objetivos.
+¿Cuántos conseguiremos sacar adelante?
+¡Nos vemos en 2025 para contrastarlo!
 
