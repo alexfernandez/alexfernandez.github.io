@@ -20,6 +20,10 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 Latest articles first.
 
+### 2024
+
+🗣️ 🇪🇸 2024-01-01: [🎯 Repaso de 2023 y propósitos para 2024](2024/propositos-2024)  
+
 ### 2023
 
 ⚛️ 🇮🇪 2023-12-28: [🪽 Avis Æterna: A Perpetual Flying Machine](2023/avis-aeterna)  
