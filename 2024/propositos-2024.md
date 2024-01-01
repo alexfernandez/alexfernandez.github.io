@@ -1,6 +1,6 @@
 ---
 title: '🎯 Propósitos para 2024 y repaso de 2023'
-subtitle: 'Es lo que hay'
+subtitle: 'Lo importante es participar'
 footer: Publicado el 2024-01-01, modificado el 2024-01-01.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
@@ -9,7 +9,7 @@ abstract:
 image: https://pinchito.es/2024/pics/propositos-alvaro-almeriajs.jpg
 ---
 
-![Con Álvaro Quirós en AlmeríaJS.](pics/propositos-alvaro-almeriajs.jpg "El autor aparece junto con Álvaro Quirós en atuendo de conferencia, con micrófono incorporado, delante de una pantalla.")
+![La Gran Ola de Hokusai, rotuladores sobre papel.](pics/propositos-ola-hokusai.jpg "Versión de 'La gran ola en la costa de Kanagawa', de Hokusai: una ola amenaza a tres barcas de pescadores, con el monte Fuji al fondo.")
 
 El inicio de año es una buena ocasión para echar la vista atrás sobre el año terminado,
 y proponer cambios o mejoras (o simplemente seguir rumbo) para el año que empieza.
@@ -54,45 +54,36 @@ en T3chFest,
 hablando sobre programación y código genético.
 También he hecho alguna charla en Node.js Madrid
 sobre [pruebas de carga con loadtest](https://www.meetup.com/es-ES/node-js-madrid/events/296058888/),
-que repetí en AlmeríaJS hace unos días,
-como puede verse en 
+que repetí en [AlmeríaJS hace unos días](https://www.meetup.com/es-ES/almeriajs/events/298010632/).
 
-> También me gustaría **seguir escribiendo artículos en éste mi blog personal**.
+![Con Álvaro Quirós en AlmeríaJS. Fuente: Carlos Santisteban.](pics/propositos-alvaro-almeriajs.jpg "El autor aparece junto con Álvaro Quirós en atuendo de conferencia, con micrófono incorporado, delante de una pantalla.")
 
-De nuevo lo contaremos como
-he publicado 8 entradas en 2022,
-y he conseguido cerrar la [serie sobre bacterias](/2021/bacterias-maquinas).
-Ahora amenazo seguir publicando artículos sobre física y biología,
-pese a su escasa repercusión tuitera.
+También he vuelto a hacer una edición actualizada del
+[curso de escalabilidad](https://pinchito.es/2020/curso-escalabilidad-2).
 
-### 👐 Comunidad
+Fuera de carta he publicado once artículos en el blog,
+que no está nada mal.
+Durante el tiempo de la búsqueda de empleo he actualizado
+[mi proyecto loadtest](https://github.com/alexfernandez/loadtest),
+que falta le hacía.
+También pude hacer realidad
+[el proyecto de analytics LibreCounter](https://librecounter.org/),
+con el que he conseguido quitar todo rastro de Google Analytics de este blog,
+y de paso eliminar el pesado aviso de cookies.
+Este proyecto está disponible para usar en cualquier web donde se necesiten analíticas básicas.
 
-> me conformo con
-> **seguir haciendo eventos de vez en cuando**,
-> sea online o presencial o lo que se pueda.
-
-Me temo que en JavaScript beers hemos perdido un poco de fuelle,
-básicamente porque no tenemos más gente en la lista para entrevistar.
-Pese a eso, lo contaré como
-<span style="color:green">éxito</span>
-gracias a la vaguedad del objetivo:
-durante la última reunión de [AlmeriaJS](https://www.meetup.com/es-ES/almeriajs/events/290438785/)
-me lo pasé muy bien.
-
-> Estaría bien **aumentar mi presencia** en otras plataformas,
-> aunque pueda resultar complicado.
-
-Aquí podemos contar con un
-<span style="color:red">fracaso</span>
-bastante predecible.
-Tengo un podcast pendiente por ahí pero poca cosa más.
-También colaboré un poco con Carlos Blé con su nuevo libro
-[Código sostenible](https://savvily.es/libros/codigo-sostenible/),
-muy interesante y que haríamos bien todos en leer.
+Sobre redes sociales:
+echo mucho de menos mi [Twitter técnico](https://twitter.com/pinchito):
+la mayoría de cuentas que seguía se han desinflado,
+y falta mucho en [Mastodon](https://mastodon.social/@pinchito)
+para llegar al mismo nivel.
+No digamos en BlueSky que está flojísimo.
+La cosa está tan mal que [LinkedIn](https://www.linkedin.com/in/pinchito/)
+empieza a parecer atractivo para contenido técnico.
 
 ### 🎨 Artístico
 
-![Dibujo de mi familia, barra conté sobre papel azul.](pics/propositos-dibujo-familia.jpg "Dibujo de una chica mirando su móvil en un sofá, con la madre al lado.")
+![Dibujo de familia, barra conté sobre papel azul.](pics/propositos-dibujo-familia.jpg "Dibujo de una chica mirando su móvil en un sofá, con la madre al lado.")
 
 > Espero volver a tener ¿inspiración? para dibujar,
 > de paso **probando nuevas técnicas**.
@@ -100,13 +91,10 @@ muy interesante y que haríamos bien todos en leer.
 > pero siempre está bien variar de vez en cuando.
 
 Gracias a los ánimos de mi profesor
-[Arturo Martín Burgos](http://www.arturomartinburgos.com/),
+[Arturo Martín Burgos](http://www.arturomartinburgos.com/)
 he vuelto a hacer dibujos de vez en cuando.
-Sobre nuevas técnicas, he estado copiando dibujos del gran maestro japonés Hokusai,
-añadiendo alguna interpretación como en esta versión de la Gran Ola.
-
-![La Gran Ola de Hokusai, rotuladores sobre papel.](pics/propositos-ola-hokusai.jpg "Versión de 'La gran ola en la costa de Kanagawa', de Hokusai: una ola amenaza a tres barcas de pescadores, con el monte Fuji al fondo.")
-
+Sobre nuevas técnicas, he estado interpretando dibujos del gran maestro japonés Hokusai,
+como en esta versión de La Gran Ola que abre este artículo.
 
 Así que lo contamos como
 ¡<span style="color:green">éxito</span> sin palitivos!
@@ -117,11 +105,8 @@ Así que lo contamos como
 Llegamos al final de 2023 con dos <span style="color:green">éxitos</span>
 y un <span style="color:red">fracaso</span>, similar a 2022.
 Fuera de carta no puedo quejarme:
-once artículos en el blog,
-y repasando las fotos del año veo
-una mañana pilotando un avión en "piloto por un día",
-conciertos de Tomatito y Ron Carter,
-una San Silvestre de Almería
+repasando las fotos del año veo una mañana pilotando un avión en "piloto por un día",
+grandes conciertos de Tomatito y Ron Carter,
 y reencuentros con bastantes viejos amigos.
 En el lado más personal todavía está reciente la
 [ausencia de mi padre](https://pinchito.es/2023/una-vida-sin-fisuras).
