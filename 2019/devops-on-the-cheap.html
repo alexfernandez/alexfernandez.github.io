@@ -11,13 +11,11 @@
 	<head>
 		<title>Continuous Deployment on the Cheap</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="Continuous Deployment on the
-Cheap — Or, Build Your Own Adventure in CD" />
+		<meta name="description" content="Continuous Deployment on the Cheap — Or, Build Your Own Adventure in CD" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="Continuous Deployment on the
-Cheap — Or, Build Your Own Adventure in CD" />
+		<meta name="twitter:title" content="Continuous Deployment on the Cheap — Or, Build Your Own Adventure in CD" />
 		<meta name="twitter:description" content="" />
 		<meta name="twitter:image" content="" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -74,542 +72,156 @@ Cheap — Or, Build Your Own Adventure in CD" />
 										<p>Or, Build Your Own Adventure in CD<p>
 									</header>
 																				<figure>
-                    <img src="pics/devops-gears.jpg"
-                    title="Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg"
-                    alt="This is the tale of how my team and I built what would become my nth system for continuous deployment." />
-                    <figcaption aria-hidden="true">This is the tale of
-                    how my team and I built what would become my nth
-                    system for continuous deployment.</figcaption>
+                    <img src="pics/devops-gears.jpg" title="Wheel on Steam Locomotive, source: https://commons.wikimedia.org/wiki/File:Wheel_on_%E2%80%9CPeggy,%E2%80%9D_a_Lima_Shay_Geared_Steam_Locomotive_(SN_2172).jpg" alt="" /><figcaption>This is the tale of how my team and I built what would become my nth system for continuous deployment.</figcaption>
                     </figure>
                     <h2 id="tldr">TL;DR</h2>
-                    <p>Before adopting any existing tool always consider
-                    building a custom tool. It may be a better fit for
-                    your particular needs; you will learn a lot and have
-                    fun too!</p>
-                    <h2 id="what-is-continuous-deployment">What Is
-                    Continuous Deployment</h2>
-                    <p>For many years I have advocated for continuous
-                    deployment (CD), in fact since I learned about the
-                    technique in 2011 on the wonderful <a
-                    href="http://shop.oreilly.com/product/0636920000136.do">Web
-                    Operations</a> by Allspaw &amp; Robins.</p>
-                    <p>Essentially it means deploying each change the
-                    moment it is ready, instead of waiting until many
-                    changes are piled up and tested. Tests run
-                    automatically and verify that the code is fit for
-                    production.</p>
+                    <p>Before adopting any existing tool always consider building a custom tool. It may be a better fit for your particular needs; you will learn a lot and have fun too!</p>
+                    <h2 id="what-is-continuous-deployment">What Is Continuous Deployment</h2>
+                    <p>For many years I have advocated for continuous deployment (CD), in fact since I learned about the technique in 2011 on the wonderful <a href="http://shop.oreilly.com/product/0636920000136.do">Web Operations</a> by Allspaw &amp; Robins.</p>
+                    <p>Essentially it means deploying each change the moment it is ready, instead of waiting until many changes are piled up and tested. Tests run automatically and verify that the code is fit for production.</p>
                     <h3 id="benefits">Benefits</h3>
-                    <p>For me CD is the most relevant practice in the
-                    hot pot known as “DevOps”. CD encompasses many
-                    important disciplines: testing, integration and
-                    deployment, with a layer of automation to make it as
-                    agile as possible.</p>
-                    <p>Practitioners that have tried this practice have
-                    found that the number of errors is reduced as the
-                    number of daily deployments increases. The clueless
-                    manager would contend that increasing the number of
-                    deployments will increase exponentially the number
-                    of errors in production, but this is not the case.
-                    One reason is that changes are deployed
-                    individually, which reduces the possibility of
-                    compound errors. Also automatic test suites become
-                    quite important and they are cared for on a daily
-                    basis, which creates a virtuous cycle of improvement
-                    and stability.</p>
-                    <p>When an error does actually appear in production
-                    it is usually easy to confine to the latest
-                    deployment, instead of having to browse endless
-                    lists of changes to find out what went wrong. Small
-                    changes are trivial to roll back: just go back to
-                    the previous commit.</p>
-                    <h3 id="its-lesser-relatives">Its Lesser
-                    Relatives</h3>
-                    <p>It is unfortunate that the acronym CD has been
-                    co-opted by a much less powerful version. With
-                    continuous delivery changes are tested but not
-                    deployed until there is a manual intervention step.
-                    In essence we are back to piling up changes, which
-                    makes our job much harder.</p>
-                    <p>Continuous delivery is well suited for
-                    environments where a manual step is hard to avoid,
-                    such as regulatory audits or manual frontend tests.
-                    In my experience it is usually worth the effort to
-                    try to automate even these hard situations, but it
-                    is indeed harder to do.</p>
-                    <p>There is also continuous integration (CI), where
-                    code is tested after each commit and possibly
-                    deployed to an integration server.</p>
+                    <p>For me CD is the most relevant practice in the hot pot known as “DevOps”. CD encompasses many important disciplines: testing, integration and deployment, with a layer of automation to make it as agile as possible.</p>
+                    <p>Practitioners that have tried this practice have found that the number of errors is reduced as the number of daily deployments increases. The clueless manager would contend that increasing the number of deployments will increase exponentially the number of errors in production, but this is not the case. One reason is that changes are deployed individually, which reduces the possibility of compound errors. Also automatic test suites become quite important and they are cared for on a daily basis, which creates a virtuous cycle of improvement and stability.</p>
+                    <p>When an error does actually appear in production it is usually easy to confine to the latest deployment, instead of having to browse endless lists of changes to find out what went wrong. Small changes are trivial to roll back: just go back to the previous commit.</p>
+                    <h3 id="its-lesser-relatives">Its Lesser Relatives</h3>
+                    <p>It is unfortunate that the acronym CD has been co-opted by a much less powerful version. With continuous delivery changes are tested but not deployed until there is a manual intervention step. In essence we are back to piling up changes, which makes our job much harder.</p>
+                    <p>Continuous delivery is well suited for environments where a manual step is hard to avoid, such as regulatory audits or manual frontend tests. In my experience it is usually worth the effort to try to automate even these hard situations, but it is indeed harder to do.</p>
+                    <p>There is also continuous integration (CI), where code is tested after each commit and possibly deployed to an integration server.</p>
                     <h2 id="the-adventure">The Adventure</h2>
-                    <p>In March 2019 I joined <a
-                    href="https://influencity.com/">Influencity</a>, an
-                    influencer marketing company, as CTO. I had the
-                    chance to set technology priorities, and of course
-                    my first priority was to set up continuous
-                    deployment.</p>
+                    <p>In March 2019 I joined <a href="https://influencity.com/">Influencity</a>, an influencer marketing company, as CTO. I had the chance to set technology priorities, and of course my first priority was to set up continuous deployment.</p>
                     <h3 id="preconditions">Preconditions</h3>
-                    <p>When a system has been built without regard for
-                    technical concerns it is not trivial to set up
-                    continuous deployment and we should proceed
-                    incrementally. First we should strive for continuous
-                    integration.</p>
-                    <p>The right approach to automation is usually to
-                    start with a well-understood manual task, and then
-                    automate every bit. Afterwards you can keep on
-                    improving until your automatic process is better
-                    than the manual task ever was.</p>
-                    <p>Ask yourself: how easy is it to do integration of
-                    changes manually? At first it will probably involve
-                    a lot of manual work, so we should always start with
-                    automation of these manual steps until integration
-                    can be done with the push of a button.</p>
-                    <p>It does not really need to be a literal button:
-                    running a script should be enough. As long as you
-                    don’t need to remember a lot of arcane options or
-                    manual steps; integration needs to be started with
-                    one simple step. Our first task was therefore to
-                    streamline and clean up the integration
-                    environment.</p>
-                    <p>Another precondition is to have a solid test
-                    suite. Without it your integrations will probably be
-                    quite brittle and hard to fix, since you will lose
-                    track of which specific commit broke a given
-                    functionality. Errors should surface as fast as
-                    possible, and your test suite is your best
-                    friend.</p>
-                    <p>You don’t really need to test everything: unit
-                    tests at this point will probably yield little
-                    benefit, while integration tests are a much more
-                    solid investment. Given that the backend was
-                    essentially a GraphQL API, we only needed to test
-                    that the controllers were working properly. For
-                    every entity that we had in the system a good test
-                    should check that it can be created, edited, queried
-                    and deleted properly. E.g. for users:</p>
+                    <p>When a system has been built without regard for technical concerns it is not trivial to set up continuous deployment and we should proceed incrementally. First we should strive for continuous integration.</p>
+                    <p>The right approach to automation is usually to start with a well-understood manual task, and then automate every bit. Afterwards you can keep on improving until your automatic process is better than the manual task ever was.</p>
+                    <p>Ask yourself: how easy is it to do integration of changes manually? At first it will probably involve a lot of manual work, so we should always start with automation of these manual steps until integration can be done with the push of a button.</p>
+                    <p>It does not really need to be a literal button: running a script should be enough. As long as you don’t need to remember a lot of arcane options or manual steps; integration needs to be started with one simple step. Our first task was therefore to streamline and clean up the integration environment.</p>
+                    <p>Another precondition is to have a solid test suite. Without it your integrations will probably be quite brittle and hard to fix, since you will lose track of which specific commit broke a given functionality. Errors should surface as fast as possible, and your test suite is your best friend.</p>
+                    <p>You don’t really need to test everything: unit tests at this point will probably yield little benefit, while integration tests are a much more solid investment. Given that the backend was essentially a GraphQL API, we only needed to test that the controllers were working properly. For every entity that we had in the system a good test should check that it can be created, edited, queried and deleted properly. E.g. for users:</p>
                     <ul>
                     <li>create a new user,</li>
                     <li>query the user,</li>
                     <li>edit user data,</li>
                     <li>and finally delete the user.</li>
                     </ul>
-                    <p>This basic structure gives us the skeleton for
-                    every integration test, and it can usually be
-                    adapted for most situations. Resulting tests are
-                    also nicely idempotent: they can be run as often as
-                    needed without polluting the database.</p>
-                    <p>In a few weeks my team created a robust automated
-                    test suite for the backend, and also set up a nice
-                    culture of writing tests along with every new
-                    development.</p>
+                    <p>This basic structure gives us the skeleton for every integration test, and it can usually be adapted for most situations. Resulting tests are also nicely idempotent: they can be run as often as needed without polluting the database.</p>
+                    <p>In a few weeks my team created a robust automated test suite for the backend, and also set up a nice culture of writing tests along with every new development.</p>
                     <h3 id="package-selection">Package Selection</h3>
-                    <p>Now it was time to choose a tool for continuous
-                    deployment. There are a few well established
-                    services to do it like <a
-                    href="https://travis-ci.org/">Travis-CI</a>. or <a
-                    href="https://circleci.com/">CircleCI</a>. As for
-                    on-premise <a href="https://jenkins.io/">Jenkins</a>
-                    is the best known tool, along with its more modern
-                    cousin <a href="https://jenkins-x.io/">Jenkins
-                    X</a>. There are also other smaller contenders such
-                    as <a
-                    href="https://github.com/Strider-CD/strider">Strider
-                    CD</a>, which I have <a
-                    href="../2016/stridercd">used in the past</a>. So it
-                    should be an easy decision to just evaluate the most
-                    promising options and either hire or install the
-                    best one.</p>
-                    <p>I did just that and came back a bit disappointed.
-                    None of the services or products were really a good
-                    fit for us:</p>
+                    <p>Now it was time to choose a tool for continuous deployment. There are a few well established services to do it like <a href="https://travis-ci.org/">Travis-CI</a>. or <a href="https://circleci.com/">CircleCI</a>. As for on-premise <a href="https://jenkins.io/">Jenkins</a> is the best known tool, along with its more modern cousin <a href="https://jenkins-x.io/">Jenkins X</a>. There are also other smaller contenders such as <a href="https://github.com/Strider-CD/strider">Strider CD</a>, which I have <a href="../2016/stridercd">used in the past</a>. So it should be an easy decision to just evaluate the most promising options and either hire or install the best one.</p>
+                    <p>I did just that and came back a bit disappointed. None of the services or products were really a good fit for us:</p>
                     <ul>
-                    <li><p>Travis-CI needs access to your repos and your
-                    infrastructure, which is a further point of failure.
-                    It can be set up with webhooks. Also the price for
-                    companies is not exactly cheap, at <a
-                    href="https://travis-ci.com/plans">$63/month</a>.</p></li>
-                    <li><p>CircleCI is cheaper at <a
-                    href="https://circleci.com/pricing/">$0/month</a>
-                    for one concurrent build, which is a great option.
-                    There is again the issue of giving access to repos
-                    and infrastructure. Also it seems to require some
-                    kind of Docker image (or other VMs), and it is not
-                    trivial to configure if your infrastructure is not
-                    geared towards Docker.</p></li>
-                    <li><p>Jenkins is a monster. With <a
-                    href="https://plugins.jenkins.io/">more than 1500
-                    plugins</a> I am sure that it covers all necessities
-                    that anyone may have, but it is a bit overwhelming.
-                    I have used it at my previous job, Devo, and
-                    configuration was a mess. If at all possible I would
-                    like to avoid it for the rest of my professional
-                    career.</p></li>
-                    <li><p>Jenkins X is an unknown, and also seems to
-                    require Docker. Not that I have anything against
-                    Docker as a technology, but at Influencity it would
-                    have meant another roadblock towards adoption of CD.
-                    That is exactly what I wanted to avoid.</p></li>
-                    <li><p>Finally, I have a lot of love for Strider.
-                    First it has “CD” in the title instead of the more
-                    common “CI”. I have used it for a couple of projects
-                    during the last few years and it worked great! At
-                    mediasmart we even contributed a little bit to it.
-                    But development seemed spotty: <a
-                    href="https://github.com/Strider-CD/strider/commits/master">commits</a>
-                    are erratic, and at that point there had been few in
-                    the last months.</p></li>
+                    <li><p>Travis-CI needs access to your repos and your infrastructure, which is a further point of failure. It can be set up with webhooks. Also the price for companies is not exactly cheap, at <a href="https://travis-ci.com/plans">$63/month</a>.</p></li>
+                    <li><p>CircleCI is cheaper at <a href="https://circleci.com/pricing/">$0/month</a> for one concurrent build, which is a great option. There is again the issue of giving access to repos and infrastructure. Also it seems to require some kind of Docker image (or other VMs), and it is not trivial to configure if your infrastructure is not geared towards Docker.</p></li>
+                    <li><p>Jenkins is a monster. With <a href="https://plugins.jenkins.io/">more than 1500 plugins</a> I am sure that it covers all necessities that anyone may have, but it is a bit overwhelming. I have used it at my previous job, Devo, and configuration was a mess. If at all possible I would like to avoid it for the rest of my professional career.</p></li>
+                    <li><p>Jenkins X is an unknown, and also seems to require Docker. Not that I have anything against Docker as a technology, but at Influencity it would have meant another roadblock towards adoption of CD. That is exactly what I wanted to avoid.</p></li>
+                    <li><p>Finally, I have a lot of love for Strider. First it has “CD” in the title instead of the more common “CI”. I have used it for a couple of projects during the last few years and it worked great! At mediasmart we even contributed a little bit to it. But development seemed spotty: <a href="https://github.com/Strider-CD/strider/commits/master">commits</a> are erratic, and at that point there had been few in the last months.</p></li>
                     </ul>
                     <h3 id="the-custom-option">The Custom Option</h3>
-                    <p>I thought to myself that the task could not be
-                    that hard. In essence what I wanted was simple
-                    enough: something that run a build each time a
-                    commit was pushed. More bells and whistles could be
-                    added later.</p>
-                    <p>I have used Node.js for DevOps work for many
-                    years now, and even spoken about it in public: <a
-                    href="/2017/build-your-own-devops-infrastructure">Build
-                    Your Own DevOps Infrastructure</a>. I have to say I
-                    have always been quite happy with it: it runs
-                    reliably, code can be written very quickly and there
-                    are libraries for everything.</p>
-                    <p>So with the help of my colleagues at Influencity
-                    we started building a prototype.</p>
+                    <p>I thought to myself that the task could not be that hard. In essence what I wanted was simple enough: something that run a build each time a commit was pushed. More bells and whistles could be added later.</p>
+                    <p>I have used Node.js for DevOps work for many years now, and even spoken about it in public: <a href="/2017/build-your-own-devops-infrastructure">Build Your Own DevOps Infrastructure</a>. I have to say I have always been quite happy with it: it runs reliably, code can be written very quickly and there are libraries for everything.</p>
+                    <p>So with the help of my colleagues at Influencity we started building a prototype.</p>
                     <h2 id="development-phases">Development Phases</h2>
-                    <p>The following work was mostly done in my spare
-                    time in a couple of months, with invaluable help and
-                    advice from the rest of the team. I will use the
-                    present tense to make it closer to the reader.</p>
-                    <h3 id="phase-1-automated-integration">Phase 1:
-                    Automated Integration</h3>
-                    <p>In the first phase we create an HTTP server (a
-                    “web app” in standard terminology), running in a
-                    directory and listening on a given port on the
-                    integration server. It can be accessed simply by
-                    pointing a web browser at</p>
+                    <p>The following work was mostly done in my spare time in a couple of months, with invaluable help and advice from the rest of the team. I will use the present tense to make it closer to the reader.</p>
+                    <h3 id="phase-1-automated-integration">Phase 1: Automated Integration</h3>
+                    <p>In the first phase we create an HTTP server (a “web app” in standard terminology), running in a directory and listening on a given port on the integration server. It can be accessed simply by pointing a web browser at</p>
                     <pre><code>http://[control-server]:[port]/build</code></pre>
-                    <p>When this URL is accessed it should download the
-                    current branch of a repo, run a build and restart
-                    the server; and show all the output from these
-                    commands. When the process finishes it should print
-                    an error message if anything was broken. The web app
-                    can also be run locally to debug any possible
-                    issues.</p>
-                    <p>Internally it is a very simplistic HTTP server
-                    using the <a
-                    href="https://nodejs.org/api/http.html">HTTP system
-                    library</a>; nothing fancy like restify or fastify
-                    is really needed. It invokes a single command
-                    similar to this:</p>
+                    <p>When this URL is accessed it should download the current branch of a repo, run a build and restart the server; and show all the output from these commands. When the process finishes it should print an error message if anything was broken. The web app can also be run locally to debug any possible issues.</p>
+                    <p>Internally it is a very simplistic HTTP server using the <a href="https://nodejs.org/api/http.html">HTTP system library</a>; nothing fancy like restify or fastify is really needed. It invokes a single command similar to this:</p>
                     <pre><code>cd [repo-name] &amp;&amp; git pull &amp;&amp; npm install &amp;&amp; pm2 reload all</code></pre>
-                    <p>where <code>[repo-name]</code> is the name of the
-                    repo and <code>pm2</code> is used to restart the
-                    service.</p>
-                    <p>The only “clever” bit is a library to run a
-                    command and redirect its output to a stream, so that
-                    it can be shown on the build page as it is
-                    happening.</p>
-                    <h3 id="phase-2-attach-webhook">Phase 2: Attach
-                    Webhook</h3>
-                    <p>When the web app is up and running it is easy to
-                    connect it to GitHub using a <a
-                    href="https://developer.github.com/webhooks/">webhook</a>.
-                    Every time there is a push to the repo GitHub will
-                    send us an event, informing us of the branch that
-                    has been pushed <a
-                    href="https://developer.github.com/v3/activity/events/types/#pushevent">among
-                    other things</a>. Let us see a real-life example
-                    from the <a
-                    href="https://github.com/alexfernandez/loadtest/">loadtest
-                    repo</a>, showing only the most relevant info
-                    received in a push event:</p>
-                    <div class="sourceCode" id="cb3"><pre
-                    class="sourceCode json"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;ref&quot;</span><span class="fu">:</span> <span class="st">&quot;refs/heads/master&quot;</span><span class="fu">,</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;before&quot;</span><span class="fu">:</span> <span class="st">&quot;0b15b4a860ddc7a4e5f860792504fa2e307be8d6&quot;</span><span class="fu">,</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;after&quot;</span><span class="fu">:</span> <span class="st">&quot;d2ea0f41692fc1c69e7905ecca477f0c6e29692d&quot;</span><span class="fu">,</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;repository&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;loadtest&quot;</span><span class="fu">,</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;url&quot;</span><span class="fu">:</span> <span class="st">&quot;https://github.com/alexfernandez/loadtest&quot;</span><span class="fu">,</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="er">[...]</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">},</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;pusher&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;email&quot;</span><span class="fu">:</span> <span class="st">&quot;alexfernandeznpm@gmail.com&quot;</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">},</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="er">[...]</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
-                    <p>We can read the branch from the <code>ref</code>,
-                    which is either <code>refs/heads/[branch]</code> or
-                    <code>refs/tags/[tag]</code>; we are only interested
-                    in “heads” at the moment. Then we can read the
-                    latest commit from <code>after</code> if we want to
-                    download just that. The repository object contains
-                    name, URL and a lot of additional info. Finally we
-                    have the <code>pusher</code> with an email of the
-                    person doing the push, which we can use to send an
-                    email notification with either success or
-                    failure.</p>
-                    <p>At this point we only want to read the branch to
-                    check if it’s equal to the current branch (usually
-                    <code>master</code>), which we can read using the
-                    command:</p>
+                    <p>where <code>[repo-name]</code> is the name of the repo and <code>pm2</code> is used to restart the service.</p>
+                    <p>The only “clever” bit is a library to run a command and redirect its output to a stream, so that it can be shown on the build page as it is happening.</p>
+                    <h3 id="phase-2-attach-webhook">Phase 2: Attach Webhook</h3>
+                    <p>When the web app is up and running it is easy to connect it to GitHub using a <a href="https://developer.github.com/webhooks/">webhook</a>. Every time there is a push to the repo GitHub will send us an event, informing us of the branch that has been pushed <a href="https://developer.github.com/v3/activity/events/types/#pushevent">among other things</a>. Let us see a real-life example from the <a href="https://github.com/alexfernandez/loadtest/">loadtest repo</a>, showing only the most relevant info received in a push event:</p>
+                    <div class="sourceCode" id="cb3"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="fu">{</span></span>
+                    <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>  <span class="dt">&quot;ref&quot;</span><span class="fu">:</span> <span class="st">&quot;refs/heads/master&quot;</span><span class="fu">,</span></span>
+                    <span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>  <span class="dt">&quot;before&quot;</span><span class="fu">:</span> <span class="st">&quot;0b15b4a860ddc7a4e5f860792504fa2e307be8d6&quot;</span><span class="fu">,</span></span>
+                    <span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>  <span class="dt">&quot;after&quot;</span><span class="fu">:</span> <span class="st">&quot;d2ea0f41692fc1c69e7905ecca477f0c6e29692d&quot;</span><span class="fu">,</span></span>
+                    <span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>  <span class="dt">&quot;repository&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+                    <span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>    <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;loadtest&quot;</span><span class="fu">,</span></span>
+                    <span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>    <span class="dt">&quot;url&quot;</span><span class="fu">:</span> <span class="st">&quot;https://github.com/alexfernandez/loadtest&quot;</span><span class="fu">,</span></span>
+                    <span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>    <span class="er">[...]</span></span>
+                    <span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>  <span class="fu">},</span></span>
+                    <span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>  <span class="dt">&quot;pusher&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+                    <span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a>    <span class="dt">&quot;email&quot;</span><span class="fu">:</span> <span class="st">&quot;alexfernandeznpm@gmail.com&quot;</span></span>
+                    <span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>  <span class="fu">},</span></span>
+                    <span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>  <span class="er">[...]</span></span>
+                    <span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a><span class="fu">}</span></span></code></pre></div>
+                    <p>We can read the branch from the <code>ref</code>, which is either <code>refs/heads/[branch]</code> or <code>refs/tags/[tag]</code>; we are only interested in “heads” at the moment. Then we can read the latest commit from <code>after</code> if we want to download just that. The repository object contains name, URL and a lot of additional info. Finally we have the <code>pusher</code> with an email of the person doing the push, which we can use to send an email notification with either success or failure.</p>
+                    <p>At this point we only want to read the branch to check if it’s equal to the current branch (usually <code>master</code>), which we can read using the command:</p>
                     <pre><code>git rev-parse --abbrev-ref HEAD</code></pre>
-                    <p>Otherwise we will stop and do nothing. So the web
-                    app now needs to read and understand push events
-                    from GitHub. At this point we need to read the
-                    request sent by the server, and we might be tempted
-                    to use some web framework like Fastify. But thanks
-                    to the magic of promises it takes around 8 lines of
-                    code:</p>
-                    <div class="sourceCode" id="cb5"><pre
-                    class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">readBody</span>(request) {</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span> reject) <span class="kw">=&gt;</span> {</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> buffers <span class="op">=</span> []</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;data&#39;</span><span class="op">,</span> data <span class="kw">=&gt;</span> buffers<span class="op">.</span><span class="fu">push</span>(data))</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;end&#39;</span><span class="op">,</span> () <span class="kw">=&gt;</span> <span class="fu">resolve</span>(<span class="bu">Buffer</span><span class="op">.</span><span class="fu">concat</span>(buffers)))</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;error&#39;</span><span class="op">,</span> error <span class="kw">=&gt;</span> <span class="fu">reject</span>(error))</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  })</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+                    <p>Otherwise we will stop and do nothing. So the web app now needs to read and understand push events from GitHub. At this point we need to read the request sent by the server, and we might be tempted to use some web framework like Fastify. But thanks to the magic of promises it takes around 8 lines of code:</p>
+                    <div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="kw">function</span> <span class="fu">readBody</span>(request) {</span>
+                    <span id="cb5-2"><a href="#cb5-2" aria-hidden="true"></a>  <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span> reject) <span class="kw">=&gt;</span> {</span>
+                    <span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a>    <span class="kw">const</span> buffers <span class="op">=</span> []</span>
+                    <span id="cb5-4"><a href="#cb5-4" aria-hidden="true"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;data&#39;</span><span class="op">,</span> data <span class="kw">=&gt;</span> buffers<span class="op">.</span><span class="fu">push</span>(data))</span>
+                    <span id="cb5-5"><a href="#cb5-5" aria-hidden="true"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;end&#39;</span><span class="op">,</span> () <span class="kw">=&gt;</span> <span class="fu">resolve</span>(<span class="bu">Buffer</span><span class="op">.</span><span class="fu">concat</span>(buffers)))</span>
+                    <span id="cb5-6"><a href="#cb5-6" aria-hidden="true"></a>    request<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;error&#39;</span><span class="op">,</span> error <span class="kw">=&gt;</span> <span class="fu">reject</span>(error))</span>
+                    <span id="cb5-7"><a href="#cb5-7" aria-hidden="true"></a>  })</span>
+                    <span id="cb5-8"><a href="#cb5-8" aria-hidden="true"></a>}</span></code></pre></div>
                     <p>and then a couple to parse the result:</p>
-                    <div class="sourceCode" id="cb6"><pre
-                    class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> body <span class="op">=</span> <span class="cf">await</span> <span class="fu">readBody</span>(request)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> json <span class="op">=</span> <span class="bu">JSON</span><span class="op">.</span><span class="fu">parse</span>(body)</span></code></pre></div>
-                    <p>Another modification is necessary: GitHub expects
-                    the webhook to return as soon as possible or it will
-                    time out. Therefore instead of showing all command
-                    output on the web page we need a new endpoint to
-                    just return HTTP code 200 “OK” and finish. Since we
-                    are not displaying the result we need to know how it
-                    went: we add email notifications using Amazon Simple
-                    Email Service (AWS SES). Command output is now
-                    stored in a buffer and sent in the email body.</p>
-                    <p>To recapitulate: with every push to
-                    <code>master</code> the code would be built and
-                    tested. download the given branch on the server, run
-                    build and restart the service, and send an email
-                    with the results. This will allow the dev team to
-                    learn that the latest push needs fixing as soon as
-                    possible. The old endpoint that shows the output as
-                    a web page is still maintained for debugging
-                    purposes.</p>
+                    <div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="kw">const</span> body <span class="op">=</span> <span class="cf">await</span> <span class="fu">readBody</span>(request)</span>
+                    <span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a><span class="kw">const</span> json <span class="op">=</span> <span class="bu">JSON</span><span class="op">.</span><span class="fu">parse</span>(body)</span></code></pre></div>
+                    <p>Another modification is necessary: GitHub expects the webhook to return as soon as possible or it will time out. Therefore instead of showing all command output on the web page we need a new endpoint to just return HTTP code 200 “OK” and finish. Since we are not displaying the result we need to know how it went: we add email notifications using Amazon Simple Email Service (AWS SES). Command output is now stored in a buffer and sent in the email body.</p>
+                    <p>To recapitulate: with every push to <code>master</code> the code would be built and tested. download the given branch on the server, run build and restart the service, and send an email with the results. This will allow the dev team to learn that the latest push needs fixing as soon as possible. The old endpoint that shows the output as a web page is still maintained for debugging purposes.</p>
                     <h3 id="phase-3-multi-repo">Phase 3: Multi Repo</h3>
-                    <p>Our little prototype was listening just for a
-                    single repo. In this new phase we would like to
-                    expand it for multiple repos. As we saw before we
-                    can read the repo and branch from the GitHub push
-                    event info.</p>
-                    <p>We will need a new control server where we can
-                    run reliable builds without contaminating our
-                    integration server. The idea now is to run a build
-                    for <strong>every branch</strong> that is pushed to
-                    Github. We start with a copy of the integration
-                    server and create a structure of directories where
-                    we will download each branch:</p>
+                    <p>Our little prototype was listening just for a single repo. In this new phase we would like to expand it for multiple repos. As we saw before we can read the repo and branch from the GitHub push event info.</p>
+                    <p>We will need a new control server where we can run reliable builds without contaminating our integration server. The idea now is to run a build for <strong>every branch</strong> that is pushed to Github. We start with a copy of the integration server and create a structure of directories where we will download each branch:</p>
                     <pre><code>repos/[branch]/[repo]</code></pre>
-                    <p>We will place the branch first so the repo is
-                    downloaded into a directory with its own name,
-                    something which npm tends to like better.</p>
-                    <p>Now we can add a testing step to the build: * for
-                    the backend we already have a test suite which we
-                    can partially trust, * in some other repos we just
-                    want to check syntax with <code>eslint .</code>, *
-                    for a library without tests it may be relevant to
-                    just run <code>node index.js</code> to see that
-                    nothing explodes, * and if there is no testing at
-                    all we can just
-                    <code>echo "THIS IS FINE"</code>.</p>
-                    <p>Any of these can be mapped to the standard npm
-                    command <code>npm test</code>. Now our build
-                    consists of the command</p>
+                    <p>We will place the branch first so the repo is downloaded into a directory with its own name, something which npm tends to like better.</p>
+                    <p>Now we can add a testing step to the build: * for the backend we already have a test suite which we can partially trust, * in some other repos we just want to check syntax with <code>eslint .</code>, * for a library without tests it may be relevant to just run <code>node index.js</code> to see that nothing explodes, * and if there is no testing at all we can just <code>echo "THIS IS FINE"</code>.</p>
+                    <p>Any of these can be mapped to the standard npm command <code>npm test</code>. Now our build consists of the command</p>
                     <pre><code>cd repos/[branch]/[repo] &amp;&amp; git pull &amp;&amp; npm install &amp;&amp; npm test</code></pre>
-                    <p>With this additional step we now have a measure
-                    of quality validation. For some repos we may want to
-                    deploy to the integration server after a success.
-                    Again we can use a simple SSH command:</p>
+                    <p>With this additional step we now have a measure of quality validation. For some repos we may want to deploy to the integration server after a success. Again we can use a simple SSH command:</p>
                     <pre><code>ssh [integration-server] &quot;cd [repo] &amp;&amp; git pull &amp;&amp; npm install &amp;&amp; pm2 reload all&quot;</code></pre>
-                    <p>For other repos we want to use a different
-                    command, or even skip this deployment step at all.
-                    So we add a deployment command if the branch is
-                    <code>master</code>, configurable by repository.</p>
-                    <p><em>Et voilà!</em> Continuous integration on the
-                    cheap.</p>
-                    <h3 id="phase-4-let-the-world-know">Phase 4: Let the
-                    World Know</h3>
-                    <p>This was cool. At this point our little
-                    deployment script was close to 200 lines. For the
-                    next phase we want to learn about builds using
-                    something different than email, which gets tiresome
-                    after a few dozen pushes.</p>
-                    <p>First we want to send the result of the build to
-                    AWS CloudWatch. This way we can set alarms when a
-                    build for to a particular branch (usually
-                    <code>master</code>) and repo (e.g. backend) is
-                    broken. We can also compute metrics for our
-                    builds.</p>
-                    <p>The package <a
-                    href="https://aws.amazon.com/sdk-for-node-js/">aws-sdk</a>
-                    makes it quite easy to integrate with CloudWatch: it
-                    just takes a single call to <a
-                    href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CloudWatch.html#putMetricData-property"><code>putMetricData</code></a>,
-                    using the branchd and repo as “dimensions” with a
-                    custom metric.</p>
-                    <p>We now get to one of the life-changing moments of
-                    the project. Look at these super-cool icons besides
-                    each commit:</p>
+                    <p>For other repos we want to use a different command, or even skip this deployment step at all. So we add a deployment command if the branch is <code>master</code>, configurable by repository.</p>
+                    <p><em>Et voilà!</em> Continuous integration on the cheap.</p>
+                    <h3 id="phase-4-let-the-world-know">Phase 4: Let the World Know</h3>
+                    <p>This was cool. At this point our little deployment script was close to 200 lines. For the next phase we want to learn about builds using something different than email, which gets tiresome after a few dozen pushes.</p>
+                    <p>First we want to send the result of the build to AWS CloudWatch. This way we can set alarms when a build for to a particular branch (usually <code>master</code>) and repo (e.g. backend) is broken. We can also compute metrics for our builds.</p>
+                    <p>The package <a href="https://aws.amazon.com/sdk-for-node-js/">aws-sdk</a> makes it quite easy to integrate with CloudWatch: it just takes a single call to <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CloudWatch.html#putMetricData-property"><code>putMetricData</code></a>, using the branchd and repo as “dimensions” with a custom metric.</p>
+                    <p>We now get to one of the life-changing moments of the project. Look at these super-cool icons besides each commit:</p>
                     <figure>
-                    <img src="pics/devops-github-pr.png"
-                    title="GitHub builds"
-                    alt="GitHub builds for loadtest generated by Travis-CI." />
-                    <figcaption aria-hidden="true">GitHub builds for
-                    loadtest generated by Travis-CI.</figcaption>
+                    <img src="pics/devops-github-pr.png" title="GitHub builds" alt="" /><figcaption>GitHub builds for loadtest generated by Travis-CI.</figcaption>
                     </figure>
-                    <p>For each commit Travis is informed and it runs
-                    the automated test suite, letting us know if the
-                    build worked (✅) or failed (❌).</p>
-                    <p>Can we do that with our multi-deployment script?
-                    Of course! We just need to connect our server with
-                    GitHub in the opposite direction, using the <a
-                    href="https://developer.github.com/v3/">GitHub
-                    API</a>.</p>
-                    <p>With Node.js it is in fact quite easy thanks to
-                    the official npm package <a
-                    href="https://www.npmjs.com/package/@octokit/rest"><span
-                    class="citation"
-                    data-cites="octokit/rest">@octokit/rest</span></a>.
-                    Essentially you just need to <a
-                    href="https://octokit.github.io/rest.js/#octokit-routes-repos-create-status">create
-                    a status</a>: first the status is set as
-                    <code>pending</code>, then when finished you set it
-                    to either <code>failure</code> or
-                    <code>success</code>.</p>
-                    <p>You can also add detailed information about the
-                    build and it will be shown in a box as in the figure
-                    above. At this point we get accurate feedback about
-                    our changes for every push to the repo. We can also
-                    look if tests pass before approving or rejecting a
-                    pull request. Essentially we have most of the
-                    functionality of full featured packages out
-                    there.</p>
-                    <h3 id="phase-5-store-each-build">Phase 5: Store
-                    Each Build</h3>
-                    <p>But there is a piece missing. While we learn if
-                    tests pass, it is not simple to cram all of the
-                    output (e.g. which tests fail) into the detailed
-                    information.</p>
-                    <p>The right answer is to store all the build output
-                    in a database. We use MongoDB since it is already
-                    installed on our servers. All we need is to create a
-                    unique key for each build: one option is to use
-                    commit id, but it can also be composed e.g. of
-                    repo+branch+timestamp. Build output is then stored
-                    in MongoDB using that key.</p>
-                    <p>How is it read from GitHub? Easy! A new endpoint
-                    is created to access any particular build,
-                    accessible from the outside as the URL:</p>
+                    <p>For each commit Travis is informed and it runs the automated test suite, letting us know if the build worked (✅) or failed (❌).</p>
+                    <p>Can we do that with our multi-deployment script? Of course! We just need to connect our server with GitHub in the opposite direction, using the <a href="https://developer.github.com/v3/">GitHub API</a>.</p>
+                    <p>With Node.js it is in fact quite easy thanks to the official npm package <span class="citation" data-cites="octokit/rest">[@octokit/rest]</span>(https://www.npmjs.com/package/<span class="citation" data-cites="octokit/rest">@octokit/rest</span>). Essentially you just need to <a href="https://octokit.github.io/rest.js/#octokit-routes-repos-create-status">create a status</a>: first the status is set as <code>pending</code>, then when finished you set it to either <code>failure</code> or <code>success</code>.</p>
+                    <p>You can also add detailed information about the build and it will be shown in a box as in the figure above. At this point we get accurate feedback about our changes for every push to the repo. We can also look if tests pass before approving or rejecting a pull request. Essentially we have most of the functionality of full featured packages out there.</p>
+                    <h3 id="phase-5-store-each-build">Phase 5: Store Each Build</h3>
+                    <p>But there is a piece missing. While we learn if tests pass, it is not simple to cram all of the output (e.g. which tests fail) into the detailed information.</p>
+                    <p>The right answer is to store all the build output in a database. We use MongoDB since it is already installed on our servers. All we need is to create a unique key for each build: one option is to use commit id, but it can also be composed e.g. of repo+branch+timestamp. Build output is then stored in MongoDB using that key.</p>
+                    <p>How is it read from GitHub? Easy! A new endpoint is created to access any particular build, accessible from the outside as the URL:</p>
                     <pre><code>http://[server]/read/[key],</code></pre>
-                    <p>When accessed it reads the build output with the
-                    given key and shows it on a web page.</p>
-                    <p>The missing link is how to access this build info
-                    from GitHub. When the status is created this URL is
-                    added as <a
-                    href="https://developer.github.com/v3/repos/statuses/#create-a-status">target
-                    URL</a>, which will be shown as a link to “Details”
-                    in the drop down box.</p>
-                    <p>At this point we have a complete solution for
-                    continuous integration, with limited deployments and
-                    GitHub integration. The system takes less than 300
-                    lines, with around 300 more of auxiliary code.</p>
-                    <h2 id="future-improvements">Future
-                    Improvements</h2>
-                    <p>Our little project might be extended in many
-                    directions; here are some of the most promising.
-                    Since I don’t work at Influencity any longer it will
-                    have to be done by my colleagues.</p>
+                    <p>When accessed it reads the build output with the given key and shows it on a web page.</p>
+                    <p>The missing link is how to access this build info from GitHub. When the status is created this URL is added as <a href="https://developer.github.com/v3/repos/statuses/#create-a-status">target URL</a>, which will be shown as a link to “Details” in the drop down box.</p>
+                    <p>At this point we have a complete solution for continuous integration, with limited deployments and GitHub integration. The system takes less than 300 lines, with around 300 more of auxiliary code.</p>
+                    <h2 id="future-improvements">Future Improvements</h2>
+                    <p>Our little project might be extended in many directions; here are some of the most promising. Since I don’t work at Influencity any longer it will have to be done by my colleagues.</p>
                     <h3 id="frontend-testing">Frontend Testing</h3>
-                    <p>We had a similar setup for frontend code, but
-                    unfortunately the test suite was very fragile and
-                    broke all the time. One of our pending items was to
-                    make the frontend test suite more robust, and
-                    complete enough to have the same confidence as with
-                    backend code.</p>
-                    <h3 id="continuous-deployment">Continuous
-                    Deployment</h3>
-                    <p>The system might be easily expanded to deploy
-                    directly to production. In fact, as long as all
-                    changes are backwards compatible it is
-                    straightforward to do: just deploy to integration
-                    and to production at the same time. It was really
-                    more of a confidence thing: the team did not feel
-                    comfortable pushing to production, so I left it as a
-                    future improvement.</p>
-                    <p>Of course it would be great to have further
-                    guarantees before enabling continuous deployment.
-                    Automated rollbacks would also be a very useful
-                    addition.</p>
+                    <p>We had a similar setup for frontend code, but unfortunately the test suite was very fragile and broke all the time. One of our pending items was to make the frontend test suite more robust, and complete enough to have the same confidence as with backend code.</p>
+                    <h3 id="continuous-deployment">Continuous Deployment</h3>
+                    <p>The system might be easily expanded to deploy directly to production. In fact, as long as all changes are backwards compatible it is straightforward to do: just deploy to integration and to production at the same time. It was really more of a confidence thing: the team did not feel comfortable pushing to production, so I left it as a future improvement.</p>
+                    <p>Of course it would be great to have further guarantees before enabling continuous deployment. Automated rollbacks would also be a very useful addition.</p>
                     <h2 id="assessment">Assessment</h2>
-                    <p>Our little system had close to 600 lines of code,
-                    and four dependencies: * <code>@octokit/rest</code>:
-                    to access the GitHub API. * <code>aws-sdk</code>: to
-                    store deployment success or failure in AWs
-                    CloudWatch. * <code>mongodb</code>: to store
-                    deployment info in MongoDB. * <code>stdio</code>: to
-                    read the directory to run into from the command
-                    line.</p>
-                    <p>It could do everything that we needed for
-                    continuous integration.</p>
-                    <p>Time spent creating it was more or less
-                    equivalent to installing and configuring something
-                    like Jenkins or StriderCD. The system worked much
-                    more reliably than Jenkins ever did for me, and
-                    knowing its inner workings made it quite simpler to
-                    repair.</p>
-                    <p>I have confidence that my colleagues will be able
-                    to work with (and improve) our little script, since
-                    it is all Node.js code. The biggest hurdle is to
-                    understand all of the different concepts involved in
-                    its operation.</p>
+                    <p>Our little system had close to 600 lines of code, and four dependencies: * <code>@octokit/rest</code>: to access the GitHub API. * <code>aws-sdk</code>: to store deployment success or failure in AWs CloudWatch. * <code>mongodb</code>: to store deployment info in MongoDB. * <code>stdio</code>: to read the directory to run into from the command line.</p>
+                    <p>It could do everything that we needed for continuous integration.</p>
+                    <p>Time spent creating it was more or less equivalent to installing and configuring something like Jenkins or StriderCD. The system worked much more reliably than Jenkins ever did for me, and knowing its inner workings made it quite simpler to repair.</p>
+                    <p>I have confidence that my colleagues will be able to work with (and improve) our little script, since it is all Node.js code. The biggest hurdle is to understand all of the different concepts involved in its operation.</p>
                     <h3 id="code-release">Code Release</h3>
-                    <p>I am not at liberty to publish the code which was
-                    all proprietary. The ideas however are quite easy to
-                    reimplement independently, and may be of use to
-                    other people.</p>
-                    <p>If there is enough interest I will think about
-                    creating a clone. In my opinion it will be more of a
-                    didactic tool than for production, since configuring
-                    this thing may be a bit hard, but who knows?</p>
+                    <p>I am not at liberty to publish the code which was all proprietary. The ideas however are quite easy to reimplement independently, and may be of use to other people.</p>
+                    <p>If there is enough interest I will think about creating a clone. In my opinion it will be more of a didactic tool than for production, since configuring this thing may be a bit hard, but who knows?</p>
                     <h2 id="conclusions">Conclusions</h2>
-                    <p>Too often we treat our tooling like black boxes
-                    which solve our problems magically. But I have found
-                    that it is always a good idea to invest some time to
-                    think about what we really need, and then look for a
-                    solution.</p>
-                    <p>By all means consider also the downsides of
-                    non-standard tooling: * steep learning curve, * hard
-                    training.</p>
-                    <p>But also consider the downsides of
-                    <em>standard</em> tooling: * complex configuration,
-                    * mindless adoption, * hard maintenance.</p>
-                    <p>I have written about the topic before if you are
-                    interested: <a href="/2016/build-or-not">Should I
-                    Build or Should I Not</a>.</p>
-                    <p>When it comes to maintaining the tooling,
-                    everyone in the team should know what it is doing
-                    behind the scenes. That way they will be able to
-                    take over and even expand as needed, either with
-                    standard tools or custom solutions.</p>
+                    <p>Too often we treat our tooling like black boxes which solve our problems magically. But I have found that it is always a good idea to invest some time to think about what we really need, and then look for a solution.</p>
+                    <p>By all means consider also the downsides of non-standard tooling: * steep learning curve, * hard training.</p>
+                    <p>But also consider the downsides of <em>standard</em> tooling: * complex configuration, * mindless adoption, * hard maintenance.</p>
+                    <p>I have written about the topic before if you are interested: <a href="/2016/build-or-not">Should I Build or Should I Not</a>.</p>
+                    <p>When it comes to maintaining the tooling, everyone in the team should know what it is doing behind the scenes. That way they will be able to take over and even expand as needed, either with standard tools or custom solutions.</p>
                     <h3 id="acknowledgements">Acknowledgements</h3>
-                    <p>Thanks to my colleagues <a
-                    href="https://twitter.com/alfonh">Alfonso</a>, <a
-                    href="https://twitter.com/BeatrizDGL">Bea</a>, <a
-                    href="https://twitter.com/jimeno0">Charlie</a>, <a
-                    href="https://twitter.com/abbitxuelo">JC</a> and <a
-                    href="https://twitter.com/WilderOlmos">Will</a> for
-                    their coopoeration in this awesome project.</p>
+                    <p>Thanks to my colleagues <a href="https://twitter.com/alfonh">Alfonso</a>, <a href="https://twitter.com/BeatrizDGL">Bea</a>, <a href="https://twitter.com/jimeno0">Charlie</a>, <a href="https://twitter.com/abbitxuelo">JC</a> and <a href="https://twitter.com/WilderOlmos">Will</a> for their coopoeration in this awesome project.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2019-12-31, last modified on 2019-12-31. <a
-         href="mailto:alexfernandeznpm@gmail.com">Comments,
-         suggestions?</a>
+									Published on 2019-12-31, last modified on 2019-12-31. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.

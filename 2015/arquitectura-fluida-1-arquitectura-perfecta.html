@@ -11,13 +11,11 @@
 	<head>
 		<title>Tras la arquitectura perfecta</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="Tras la arquitectura perfecta — La
-arquitectura fluida, parte 1" />
+		<meta name="description" content="Tras la arquitectura perfecta — La arquitectura fluida, parte 1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="Tras la arquitectura perfecta — La
-arquitectura fluida, parte 1" />
+		<meta name="twitter:title" content="Tras la arquitectura perfecta — La arquitectura fluida, parte 1" />
 		<meta name="twitter:description" content="" />
 		<meta name="twitter:image" content="" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -74,550 +72,121 @@ arquitectura fluida, parte 1" />
 										<p>La arquitectura fluida, parte 1<p>
 									</header>
 																				<figure>
-                    <img src="pics/arquitectura-fluida-1.jpg"
-                    title="Deep Blue Dolphin Love"
-                    alt="Imagen: © Patrik Jones" />
-                    <figcaption aria-hidden="true">Imagen: <a
-                    href="https://creativecommons.org/licenses/by/2.0/">©</a>
-                    <a
-                    href="https://www.flickr.com/photos/laprimadonna/4881676285">Patrik
-                    Jones</a></figcaption>
+                    <img src="pics/arquitectura-fluida-1.jpg" title="Deep Blue Dolphin Love" alt="" /><figcaption>Imagen: <a href="https://creativecommons.org/licenses/by/2.0/">©</a> <a href="https://www.flickr.com/photos/laprimadonna/4881676285">Patrik Jones</a></figcaption>
                     </figure>
-                    <p>En muchas empresas hay departamentos de
-                    arquitectura cuya misión es decidir cómo se va a
-                    organizar cada proyecto de software. Deciden el
-                    diseño a alto nivel, en cuántas capas se dividirá,
-                    qué base de datos usar y otros detalles
-                    importantes.</p>
-                    <p>¿Por qué cambiar la base de datos en cada
-                    proyecto? ¿Por qué no se usa siempre la misma? Para
-                    construir edificios no existe un material perfecto:
-                    a veces es mejor la piedra, otras el ladrillo y
-                    otras incluso el acero. Tampoco hay una forma
-                    perfecta para todos los edificios: cuadrados,
-                    rectángulos, cilindros y semiesferas se comportan de
-                    forma distinta bajo la carga. Lo mismo ocurre con
-                    los programas de software: cada uno tiene unas
-                    restricciones operacionales diferentes, y se
-                    comporta mejor en ciertas circunstancias.</p>
-                    <h1 id="qué-es-la-arquitectura">Qué es la
-                    arquitectura</h1>
-                    <p>Puede que nos ayude a centrar la discusión si
-                    definimos qué es este negocio de “arquitectura” en
-                    software.</p>
-                    <p>En esencia se trata de dividir el sistema en
-                    bloques de alto nivel, y ordenar las relaciones
-                    entre ellos. La organización en componentes suele
-                    derivar en la organización física de las máquinas y
-                    la elección de lenguaje y programas auxiliares, como
-                    por ejemplo qué base de datos usar. De ahí vienen
-                    cosas como la arquitectura en tres capas que se
-                    popularizó hace años, o la moda más reciente de usar
-                    gestores de colas en sistemas escalables.</p>
-                    <p>Curiosamente, es más raro que en la arquitectura
-                    se incluya el diseño a alto nivel del propio
-                    software, por ejemplo: la división en módulos de npm
-                    o en librerías, cómo se dividen los servicios de una
-                    API en el código o qué hacer con el código
-                    compartido entre diferentes programas. Tampoco se
-                    suelen discutir asuntos más de DevOps como la forma
-                    de desplegar el código o la creación de entornos de
-                    integración, ya que suelen caer del lado del
-                    departamento de producción. Así que por ahora nos
-                    limitaremos a considerar la organización en máquinas
-                    y qué software usar.</p>
-                    <h2 id="modas-en-arquitectura">Modas en
-                    arquitectura</h2>
-                    <p>En los años 80 la moda empresarial era tener una
-                    <a
-                    href="http://www.computerhistory.org/revolution/minicomputers/11/366/1946">minicomputadora</a>
-                    (del tamaño de un armario pequeño) y múltiples
-                    terminales conectados. La llegada de los ordenadores
-                    “personales” fue una revolución, ya que hasta
-                    entonces era impensable darle un ordenador en
-                    exclusiva a un trabajador.</p>
-                    <p>En los 90 se popularizaron las arquitecturas
-                    cliente-servidor. Se separaban así los programas que
-                    residían en un servidor y que generaban respuestas,
-                    de los clientes que utilizaban estas respuestas.
-                    Poco después llegarían protocolos de comunicación
-                    entre servidores como CORBA y un poco más tarde <a
-                    href="https://en.wikipedia.org/wiki/XML#History">XML</a>.</p>
-                    <p>A principios del siglo XXI llegaron las <a
-                    href="https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture">arquitecturas
-                    de tres capas</a>: capa de presentación, capa de
-                    lógica y base de datos. Era un refinamiento del
-                    paradigma cliente-servidor donde se separaba el
-                    repositorio de datos, la lógica de negocio y la
-                    presentación de la información. También se inventó
-                    el ridículo <a
-                    href="https://en.wikipedia.org/wiki/Enterprise_service_bus#History"><em>Enterprise
-                    Service Bus</em></a>, que empezó a infectar los
-                    diagramas corporativos allá por 2002, y el <a
-                    href="https://en.wikipedia.org/wiki/Business_process_modeling">modelado
-                    de procesos de negocio</a> que por suerte parece que
-                    ha caído en desuso.</p>
-                    <p>En los años 10 las bases de datos NoSQL han
-                    adquirido protagonismo. Los servidores sin estado
-                    son de uso común, al igual que los gestores de
-                    colas. Son mejoras de este tipo las que han
-                    permitido la creación de servicios escalables más
-                    allá de lo que se creía posible en décadas
-                    pasadas.</p>
-                    <p>En general, un sistema de software suele poder
-                    fecharse con bastante precisión sólo con ver la
-                    arquitectura que implementa. No deja de ser curioso
-                    que se deje al arbitrio de modas un asunto tan serio
-                    como la arquitectura de sistemas, sobre todo en
-                    empresas grandes. Lo cierto es que cuantos más
-                    elementos seamos capaces de utilizar, más flechas
-                    tendremos en nuestro carcaj para cuando las
-                    necesitemos.</p>
-                    <h2 id="perfección-en-arquitectura">Perfección en
-                    arquitectura</h2>
-                    <p>Los diseños clásicos de los templos y teatros
-                    griegos siguen siendo admirados casi 2500 años
-                    después de su construcción. Así que, ¿por qué no
-                    seguimos construyendo como ellos? Los materiales
-                    cambian, las técnicas avanzan, y las necesidades de
-                    los ocupantes también.</p>
-                    <p>En la arquitectura de sistemas de software
-                    también se mejora constantemente. Si dominamos
-                    nuevas técnicas seremos más versátiles como
-                    profesionales. Pero no es ése el motivo real por el
-                    que la arquitectura perfecta no existe.</p>
-                    <p>Cada proyecto tiene su ámbito de operación, y su
-                    personal asignado. Construir una página personal que
-                    va a recibir unas pocas visitas al día usando
-                    Erlang, un lenguaje diseñado para sistemas
-                    telefónicos de alta concurrencia, es tan ridículo
-                    como querer hacer un clon de Twitter en Visual
-                    Basic. De ahí que tengamos que conocer los
-                    requisitos funcionales y operativos de un sistema
-                    antes de poder empezar a hablar de arquitectura.</p>
-                    <h1 id="requisitos-cambiantes">Requisitos
-                    cambiantes</h1>
-                    <p>En las inmortales palabras citadas por Steve
-                    McConnell en <a
-                    href="http://www.stevemcconnell.com/cc.htm">Code
-                    Complete</a>:</p>
+                    <p>En muchas empresas hay departamentos de arquitectura cuya misión es decidir cómo se va a organizar cada proyecto de software. Deciden el diseño a alto nivel, en cuántas capas se dividirá, qué base de datos usar y otros detalles importantes.</p>
+                    <p>¿Por qué cambiar la base de datos en cada proyecto? ¿Por qué no se usa siempre la misma? Para construir edificios no existe un material perfecto: a veces es mejor la piedra, otras el ladrillo y otras incluso el acero. Tampoco hay una forma perfecta para todos los edificios: cuadrados, rectángulos, cilindros y semiesferas se comportan de forma distinta bajo la carga. Lo mismo ocurre con los programas de software: cada uno tiene unas restricciones operacionales diferentes, y se comporta mejor en ciertas circunstancias.</p>
+                    <h1 id="qué-es-la-arquitectura">Qué es la arquitectura</h1>
+                    <p>Puede que nos ayude a centrar la discusión si definimos qué es este negocio de “arquitectura” en software.</p>
+                    <p>En esencia se trata de dividir el sistema en bloques de alto nivel, y ordenar las relaciones entre ellos. La organización en componentes suele derivar en la organización física de las máquinas y la elección de lenguaje y programas auxiliares, como por ejemplo qué base de datos usar. De ahí vienen cosas como la arquitectura en tres capas que se popularizó hace años, o la moda más reciente de usar gestores de colas en sistemas escalables.</p>
+                    <p>Curiosamente, es más raro que en la arquitectura se incluya el diseño a alto nivel del propio software, por ejemplo: la división en módulos de npm o en librerías, cómo se dividen los servicios de una API en el código o qué hacer con el código compartido entre diferentes programas. Tampoco se suelen discutir asuntos más de DevOps como la forma de desplegar el código o la creación de entornos de integración, ya que suelen caer del lado del departamento de producción. Así que por ahora nos limitaremos a considerar la organización en máquinas y qué software usar.</p>
+                    <h2 id="modas-en-arquitectura">Modas en arquitectura</h2>
+                    <p>En los años 80 la moda empresarial era tener una <a href="http://www.computerhistory.org/revolution/minicomputers/11/366/1946">minicomputadora</a> (del tamaño de un armario pequeño) y múltiples terminales conectados. La llegada de los ordenadores “personales” fue una revolución, ya que hasta entonces era impensable darle un ordenador en exclusiva a un trabajador.</p>
+                    <p>En los 90 se popularizaron las arquitecturas cliente-servidor. Se separaban así los programas que residían en un servidor y que generaban respuestas, de los clientes que utilizaban estas respuestas. Poco después llegarían protocolos de comunicación entre servidores como CORBA y un poco más tarde <a href="https://en.wikipedia.org/wiki/XML#History">XML</a>.</p>
+                    <p>A principios del siglo XXI llegaron las <a href="https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture">arquitecturas de tres capas</a>: capa de presentación, capa de lógica y base de datos. Era un refinamiento del paradigma cliente-servidor donde se separaba el repositorio de datos, la lógica de negocio y la presentación de la información. También se inventó el ridículo <a href="https://en.wikipedia.org/wiki/Enterprise_service_bus#History"><em>Enterprise Service Bus</em></a>, que empezó a infectar los diagramas corporativos allá por 2002, y el <a href="https://en.wikipedia.org/wiki/Business_process_modeling">modelado de procesos de negocio</a> que por suerte parece que ha caído en desuso.</p>
+                    <p>En los años 10 las bases de datos NoSQL han adquirido protagonismo. Los servidores sin estado son de uso común, al igual que los gestores de colas. Son mejoras de este tipo las que han permitido la creación de servicios escalables más allá de lo que se creía posible en décadas pasadas.</p>
+                    <p>En general, un sistema de software suele poder fecharse con bastante precisión sólo con ver la arquitectura que implementa. No deja de ser curioso que se deje al arbitrio de modas un asunto tan serio como la arquitectura de sistemas, sobre todo en empresas grandes. Lo cierto es que cuantos más elementos seamos capaces de utilizar, más flechas tendremos en nuestro carcaj para cuando las necesitemos.</p>
+                    <h2 id="perfección-en-arquitectura">Perfección en arquitectura</h2>
+                    <p>Los diseños clásicos de los templos y teatros griegos siguen siendo admirados casi 2500 años después de su construcción. Así que, ¿por qué no seguimos construyendo como ellos? Los materiales cambian, las técnicas avanzan, y las necesidades de los ocupantes también.</p>
+                    <p>En la arquitectura de sistemas de software también se mejora constantemente. Si dominamos nuevas técnicas seremos más versátiles como profesionales. Pero no es ése el motivo real por el que la arquitectura perfecta no existe.</p>
+                    <p>Cada proyecto tiene su ámbito de operación, y su personal asignado. Construir una página personal que va a recibir unas pocas visitas al día usando Erlang, un lenguaje diseñado para sistemas telefónicos de alta concurrencia, es tan ridículo como querer hacer un clon de Twitter en Visual Basic. De ahí que tengamos que conocer los requisitos funcionales y operativos de un sistema antes de poder empezar a hablar de arquitectura.</p>
+                    <h1 id="requisitos-cambiantes">Requisitos cambiantes</h1>
+                    <p>En las inmortales palabras citadas por Steve McConnell en <a href="http://www.stevemcconnell.com/cc.htm">Code Complete</a>:</p>
                     <blockquote>
-                    <p>Los requisitos son como el agua: es más fácil
-                    construir sobre ellos cuando están congelados.</p>
+                    <p>Los requisitos son como el agua: es más fácil construir sobre ellos cuando están congelados.</p>
                     </blockquote>
-                    <p>Por desgracia, la vida es dura y los requisitos
-                    cambian. Llega un momento de la vida en la que todo
-                    ingeniero de software comprende que hay valor en
-                    permitir que los requisitos cambien: pretender
-                    comprender a la perfección un sistema antes de
-                    empezar a construirlo no sólo es una quimera; además
-                    es una pérdida de tiempo. Es raro el negocio donde
-                    se conocen a la perfección los requisitos de los
-                    clientes antes de empezar a darles servicio, y más
-                    raro aún dar con la tecla correcta a la primera
-                    iteración.</p>
-                    <p>Un sistema de software tiene que poder
-                    evolucionar durante su vida útil. Esto significa
-                    responder a requisitos cambiantes sin excesivas
-                    remodelaciones.</p>
-                    <h2 id="requisitos-funcionales">Requisitos
-                    funcionales</h2>
-                    <p>Empecemos con una anécdota, en este caso con
-                    trasfondo militar. El avión bombardero <a
-                    href="http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx">B-52
-                    <em>stratofortress</em></a> empezó a operar en 1952
-                    y las últimas unidades se construyeron en 1963;
-                    actualmente 76 aparatos siguen en servicio tras más
-                    de seis décadas de actualizaciones. Durante este
-                    tiempo se han actualizado para usar motores turbofan
-                    y combustible alternativo, lanzar armas nucleares y
-                    misiles inteligentes guiados, se han reparado <a
-                    href="https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress#Design">múltiples
-                    problemas estructurales</a>, mejorado la aviónica, y
-                    habilitada la visión noctura para los pilotos. Se
-                    estima que podrá seguir en servicio activo al menos
-                    hasta 2040. En resumen: es un bombardero diseñado
-                    durante la guerra de Corea y fabricado mientras JFK
-                    era presidente, que seguirá en uso durante al menos
-                    otros 25 años.</p>
-                    <p>Como ingenieros, nuestra mayor aspiración es
-                    seguramente que lo que construyamos dure en el
-                    tiempo. Para eso es necesario que pueda actualizarse
-                    y mejorarse, añadiendo nuevas funcionalidades según
-                    se necesiten. Gracias a la magia del software no
-                    tenemos que sacar nuestros sistemas del servicio
-                    para actualizarlos; basta con hacer una copia del
-                    código y reemplazar el de producción cuando están
-                    listas las mejoras. Así que nos resulta
-                    relativamente fácil que nuestro software haga cosas
-                    nuevas. ¿O no? Sólo tenemos que extenderlo para que
-                    haga cosas más allá de su propósito original.
-                    Excepto cuando no se puede.</p>
-                    <p>Todos conocemos algún proyecto que ha pasado su
-                    fecha de expiración. Nadie quiere tocar el código
-                    porque se ha convertido en una masa siniestra de
-                    <em>spaghetti</em>. Las modificaciones son
-                    inmanejables y cada vez que se hace un cambio en un
-                    sitio, se rompe algo en otro aparentemente no
-                    relacionado.</p>
-                    <p>Nuestra misión es mantener el software flexible
-                    para que podamos seguir añadiendo funcionalidades.
-                    Eso lleva algún esfuerzo extra, sin duda, pero la
-                    recompensa es grande cuando el proyecto es realmente
-                    exitoso.</p>
-                    <h2 id="requisitos-operacionales">Requisitos
-                    operacionales</h2>
-                    <p>Las circunstancias en las que nuestro sistema
-                    tiene que trabajar cambian, para bien o para mal. A
-                    menudo necesitamos ampliar el rango operativo del
-                    sistema sin añadir funcionalidades nuevas.</p>
-                    <h3 id="planificación-de-capacidad">Planificación de
-                    capacidad</h3>
-                    <p>Un caso importante es la planificación de la
-                    capacidad necesaria para dar servicio, lo que se
-                    conoce en inglés como <em>capacity planning</em>. Un
-                    producto exitoso a menudo dobla el número de
-                    usuarios en un año, o incluso en meses: en 2013 <a
-                    href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a>
-                    crecía al 400% por año, mientras que su competidora
-                    Lyft lo hacía a un ritmo todavía más vertiginoso que
-                    suponía multiplicar su facturación por 20 al
-                    año.</p>
-                    <p>¿Es posible que el mismo sistema sea capaz de
-                    crecer para soportar todo el tráfico que le echemos?
-                    Si usamos la planificación de capacidad tradicional
-                    seguramente intentemos predecir el tráfico que vamos
-                    a tener durante todo el año en base a los datos del
-                    año anterior, para ir presupuestando el número de
-                    servidores que vamos a necesitar. También
-                    necesitaremos redimensionar todos nuestros
-                    componentes para aguantar el tráfico extra. Esto,
-                    que era práctica estándar hace unos años, ahora
-                    sería un suicidio: la tasa de crecimiento puede ser
-                    exponencial y doblarse cada poco tiempo, aunque
-                    también puede mantenerse estacionaria de repente
-                    durante meses.</p>
-                    <p>¿Cómo predecir el tráfico que tendremos, no ya al
-                    final de un año, sino sólo dentro de un mes?
-                    Respuesta: no podemos. Sólo podemos intentar ir un
-                    paso por delante del tráfico, responder rápido a los
-                    cambios y no adelantar demasiado los
-                    acontecimientos.</p>
+                    <p>Por desgracia, la vida es dura y los requisitos cambian. Llega un momento de la vida en la que todo ingeniero de software comprende que hay valor en permitir que los requisitos cambien: pretender comprender a la perfección un sistema antes de empezar a construirlo no sólo es una quimera; además es una pérdida de tiempo. Es raro el negocio donde se conocen a la perfección los requisitos de los clientes antes de empezar a darles servicio, y más raro aún dar con la tecla correcta a la primera iteración.</p>
+                    <p>Un sistema de software tiene que poder evolucionar durante su vida útil. Esto significa responder a requisitos cambiantes sin excesivas remodelaciones.</p>
+                    <h2 id="requisitos-funcionales">Requisitos funcionales</h2>
+                    <p>Empecemos con una anécdota, en este caso con trasfondo militar. El avión bombardero <a href="http://www.af.mil/AboutUs/FactSheets/Display/tabid/224/Article/104465/b-52-stratofortress.aspx">B-52 <em>stratofortress</em></a> empezó a operar en 1952 y las últimas unidades se construyeron en 1963; actualmente 76 aparatos siguen en servicio tras más de seis décadas de actualizaciones. Durante este tiempo se han actualizado para usar motores turbofan y combustible alternativo, lanzar armas nucleares y misiles inteligentes guiados, se han reparado <a href="https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress#Design">múltiples problemas estructurales</a>, mejorado la aviónica, y habilitada la visión noctura para los pilotos. Se estima que podrá seguir en servicio activo al menos hasta 2040. En resumen: es un bombardero diseñado durante la guerra de Corea y fabricado mientras JFK era presidente, que seguirá en uso durante al menos otros 25 años.</p>
+                    <p>Como ingenieros, nuestra mayor aspiración es seguramente que lo que construyamos dure en el tiempo. Para eso es necesario que pueda actualizarse y mejorarse, añadiendo nuevas funcionalidades según se necesiten. Gracias a la magia del software no tenemos que sacar nuestros sistemas del servicio para actualizarlos; basta con hacer una copia del código y reemplazar el de producción cuando están listas las mejoras. Así que nos resulta relativamente fácil que nuestro software haga cosas nuevas. ¿O no? Sólo tenemos que extenderlo para que haga cosas más allá de su propósito original. Excepto cuando no se puede.</p>
+                    <p>Todos conocemos algún proyecto que ha pasado su fecha de expiración. Nadie quiere tocar el código porque se ha convertido en una masa siniestra de <em>spaghetti</em>. Las modificaciones son inmanejables y cada vez que se hace un cambio en un sitio, se rompe algo en otro aparentemente no relacionado.</p>
+                    <p>Nuestra misión es mantener el software flexible para que podamos seguir añadiendo funcionalidades. Eso lleva algún esfuerzo extra, sin duda, pero la recompensa es grande cuando el proyecto es realmente exitoso.</p>
+                    <h2 id="requisitos-operacionales">Requisitos operacionales</h2>
+                    <p>Las circunstancias en las que nuestro sistema tiene que trabajar cambian, para bien o para mal. A menudo necesitamos ampliar el rango operativo del sistema sin añadir funcionalidades nuevas.</p>
+                    <h3 id="planificación-de-capacidad">Planificación de capacidad</h3>
+                    <p>Un caso importante es la planificación de la capacidad necesaria para dar servicio, lo que se conoce en inglés como <em>capacity planning</em>. Un producto exitoso a menudo dobla el número de usuarios en un año, o incluso en meses: en 2013 <a href="http://techcrunch.com/2013/12/18/uber-lyft/">Uber</a> crecía al 400% por año, mientras que su competidora Lyft lo hacía a un ritmo todavía más vertiginoso que suponía multiplicar su facturación por 20 al año.</p>
+                    <p>¿Es posible que el mismo sistema sea capaz de crecer para soportar todo el tráfico que le echemos? Si usamos la planificación de capacidad tradicional seguramente intentemos predecir el tráfico que vamos a tener durante todo el año en base a los datos del año anterior, para ir presupuestando el número de servidores que vamos a necesitar. También necesitaremos redimensionar todos nuestros componentes para aguantar el tráfico extra. Esto, que era práctica estándar hace unos años, ahora sería un suicidio: la tasa de crecimiento puede ser exponencial y doblarse cada poco tiempo, aunque también puede mantenerse estacionaria de repente durante meses.</p>
+                    <p>¿Cómo predecir el tráfico que tendremos, no ya al final de un año, sino sólo dentro de un mes? Respuesta: no podemos. Sólo podemos intentar ir un paso por delante del tráfico, responder rápido a los cambios y no adelantar demasiado los acontecimientos.</p>
                     <blockquote>
-                    <h4 id="caso-práctico-mediasmart-mobile">Caso
-                    práctico: MediaSmart Mobile</h4>
+                    <h4 id="caso-práctico-mediasmart-mobile">Caso práctico: MediaSmart Mobile</h4>
                     <figure>
-                    <img src="pics/mediasmart-krps.jpg"
-                    alt="Peticiones por segundo en MediaSmart Mobile" />
-                    <figcaption aria-hidden="true">Peticiones por
-                    segundo en MediaSmart Mobile</figcaption>
+                    <img src="pics/mediasmart-krps.jpg" alt="" /><figcaption>Peticiones por segundo en MediaSmart Mobile</figcaption>
                     </figure>
-                    <p>Esta gráfica muestra los picos de peticiones por
-                    segundo que hemos recibido en MediaSmart Mobile
-                    desde 2013. Durante el primer año el volumen fue
-                    creciendo linealmente, pasando de 2 a 12 krps (miles
-                    de peticiones por segundo). A principios de 2014
-                    pasó algo curioso: el ritmo se aceleró, y pasamos de
-                    15 a 100 krps a finales de año. Pero en 2015 el
-                    ritmo está decelerando de nuevo: apenas pasaremos de
-                    210 krps antes de final de año.</p>
-                    <p>Si a principios 2014 hubiéramos pintado una línea
-                    recta para predecir el tráfico del año, habríamos
-                    calculado alrededor de 25 krps (definitivamente por
-                    debajo de 30 krps); a final de año teníamos 100
-                    krps. Por otra parte, si hubiéramos seguido la curva
-                    exponencial para 2015, a final de año habríamos
-                    andado por 600 krps; la cifra real anda cerca de las
-                    200 krps.</p>
+                    <p>Esta gráfica muestra los picos de peticiones por segundo que hemos recibido en MediaSmart Mobile desde 2013. Durante el primer año el volumen fue creciendo linealmente, pasando de 2 a 12 krps (miles de peticiones por segundo). A principios de 2014 pasó algo curioso: el ritmo se aceleró, y pasamos de 15 a 100 krps a finales de año. Pero en 2015 el ritmo está decelerando de nuevo: apenas pasaremos de 210 krps antes de final de año.</p>
+                    <p>Si a principios 2014 hubiéramos pintado una línea recta para predecir el tráfico del año, habríamos calculado alrededor de 25 krps (definitivamente por debajo de 30 krps); a final de año teníamos 100 krps. Por otra parte, si hubiéramos seguido la curva exponencial para 2015, a final de año habríamos andado por 600 krps; la cifra real anda cerca de las 200 krps.</p>
                     </blockquote>
                     <h3 id="bases-de-datos">Bases de datos</h3>
-                    <p>Cada base de datos tiene varias características
-                    que la hacen adecuada en ciertas situaciones, y que
-                    la descartan en otras. Entre ellas:</p>
+                    <p>Cada base de datos tiene varias características que la hacen adecuada en ciertas situaciones, y que la descartan en otras. Entre ellas:</p>
                     <ul>
-                    <li>Rango operativo: ¿cuántas peticiones por segundo
-                    admite?</li>
-                    <li>Elementos funcionales: ¿qué tipos de datos
-                    permite guardar? ¿Qué tipo de consultas se pueden
-                    hacer?</li>
-                    <li>Tiempo de respuesta: ¿cuántos milisegundos se
-                    tarda en servir cada petición?</li>
-                    <li>Condiciones de operación: ¿cuántos servidores (y
-                    de qué tipo) se necesitan como mínimo? ¿Hasta
-                    cuántos escala?</li>
+                    <li>Rango operativo: ¿cuántas peticiones por segundo admite?</li>
+                    <li>Elementos funcionales: ¿qué tipos de datos permite guardar? ¿Qué tipo de consultas se pueden hacer?</li>
+                    <li>Tiempo de respuesta: ¿cuántos milisegundos se tarda en servir cada petición?</li>
+                    <li>Condiciones de operación: ¿cuántos servidores (y de qué tipo) se necesitan como mínimo? ¿Hasta cuántos escala?</li>
                     </ul>
-                    <p>Durante mucho tiempo se trabajó bajo el paradigma
-                    de “la base de datos perfecta”: un mismo programa
-                    que escalara de casi cero (dispositivos muy
-                    limitados en recursos, como móviles) a infinito (un
-                    cluster con tantos nodos como queramos). Con la
-                    llegada de las bases de datos NoSQL asistimos a una
-                    explosión evolutiva de bases de datos muy
-                    diferentes: en memoria o en cluster; clave-valor o
-                    con estructuras complejas; que admiten SQL y que no;
-                    etcétera. Cada tipo es adecuado para unas
-                    condiciones operativas diferentes, y tienen costes
-                    asociados muy distintos.</p>
+                    <p>Durante mucho tiempo se trabajó bajo el paradigma de “la base de datos perfecta”: un mismo programa que escalara de casi cero (dispositivos muy limitados en recursos, como móviles) a infinito (un cluster con tantos nodos como queramos). Con la llegada de las bases de datos NoSQL asistimos a una explosión evolutiva de bases de datos muy diferentes: en memoria o en cluster; clave-valor o con estructuras complejas; que admiten SQL y que no; etcétera. Cada tipo es adecuado para unas condiciones operativas diferentes, y tienen costes asociados muy distintos.</p>
                     <h3 id="costes-bajos">Costes bajos</h3>
-                    <p>Por último, pero no menos importante, tenemos los
-                    costes de operación del sistema. Alquilar servidores
-                    en la nube no sale barato; si no optimizamos su uso
-                    al máximo probablemente tiremos un montón de
-                    dinero.</p>
+                    <p>Por último, pero no menos importante, tenemos los costes de operación del sistema. Alquilar servidores en la nube no sale barato; si no optimizamos su uso al máximo probablemente tiremos un montón de dinero.</p>
                     <blockquote>
-                    <h4 id="caso-práctico-mediasmart-mobile-1">Caso
-                    práctico: MediaSmart Mobile</h4>
+                    <h4 id="caso-práctico-mediasmart-mobile-1">Caso práctico: MediaSmart Mobile</h4>
                     <figure>
-                    <img src="pics/mediasmart-daily-traffic.png"
-                    alt="Tráfico diario en MediaSmart Mobile" />
-                    <figcaption aria-hidden="true">Tráfico diario en
-                    MediaSmart Mobile</figcaption>
+                    <img src="pics/mediasmart-daily-traffic.png" alt="" /><figcaption>Tráfico diario en MediaSmart Mobile</figcaption>
                     </figure>
-                    <p>En MediaSmart el tráfico nocturno solía ser menos
-                    de una cuarta parte del pico diario: en la gráfica
-                    se aprecia un mínimo de 2.5 millones de peticiones
-                    por minuto, frente a casi 7 millones en el pico
-                    diario (alrededor de las 8 de la tarde).
-                    <em>Nota</em>: Amazon AWS mide las peticiones
-                    <em>por minuto</em>, en lugar de las peticiones
-                    <em>por segundo</em> que hemos visto arriba. 6M por
-                    minuto equivale a 100 krps.</p>
-                    <p>Mantener arrancados los servidores todo el día
-                    suponía desperdiciar gran parte de la capacidad, y
-                    como en Amazon se paga por hora de servidor los
-                    costes eran astronómicos. Es esencial poder usar un
-                    número variable de servidores, y eso nos obliga a
-                    tener un balanceador de carga que pueda admitir
-                    nuevas instancias dinámicamente.</p>
+                    <p>En MediaSmart el tráfico nocturno solía ser menos de una cuarta parte del pico diario: en la gráfica se aprecia un mínimo de 2.5 millones de peticiones por minuto, frente a casi 7 millones en el pico diario (alrededor de las 8 de la tarde). <em>Nota</em>: Amazon AWS mide las peticiones <em>por minuto</em>, en lugar de las peticiones <em>por segundo</em> que hemos visto arriba. 6M por minuto equivale a 100 krps.</p>
+                    <p>Mantener arrancados los servidores todo el día suponía desperdiciar gran parte de la capacidad, y como en Amazon se paga por hora de servidor los costes eran astronómicos. Es esencial poder usar un número variable de servidores, y eso nos obliga a tener un balanceador de carga que pueda admitir nuevas instancias dinámicamente.</p>
                     </blockquote>
-                    <h3 id="velocidad-del-cambio">Velocidad del
-                    cambio</h3>
-                    <p>La velocidad a la que somos capaces de realizar
-                    cambios en nuestros sistemas es crítica. Demasiado
-                    lento, y no seremos capaces de absorber un tráfico
-                    creciente de peticiones o de mantener los costes
-                    controlados; demasiado rápido, y nuestro sistema
-                    estará caído todo el tiempo.</p>
-                    <p>Si tu proveedor de servidores en la nube sube los
-                    precios un 300% de un día para otro, cosa que <a
-                    href="http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html">ha
-                    ocurrido en el pasado</a>, ¿cuánto tiempo tarda tu
-                    equipo en migrar a un nuevo proveedor?</p>
-                    <p>Y si mañana decides montar un CPD propio y
-                    albergar tus propios servidores, ¿cuánto tardarás en
-                    replicarlos? ¿Cómo realizarás el cambio en el
-                    momento clave para empezar a dar servicio?</p>
-                    <h1 id="la-arquitectura-fluida">La arquitectura
-                    fluida</h1>
-                    <p>¿Cuál es la solución para acomodar tanto cambio?
-                    Nuestra humilde sugerencia es mantener la
-                    arquitectura del sistema fluida, sin tomar
-                    decisiones que comprometan su integridad. Tenemos
-                    que ser capaces de pasar de un estado a otro,
-                    intentando dar servicio todo el tiempo.</p>
-                    <p>Al oir esto un arquitecto de los de verdad, de
-                    los que juntan piedras, seguramente tendría
-                    problemas para contener la risa. ¿Cómo se pueden
-                    cambiar las vigas maestras de un edificio mientras
-                    los habitantes están viviendo dentro?</p>
-                    <p>Los ingenieros de software tenemos una gran
-                    ventaja frente a otras ingenierías más
-                    tradicionales: no trabajamos con el mundo real,
-                    rígido y frágil, sino con software, que es
-                    infinitamente moldeable.</p>
-                    <p>Si encontramos restricciones en esta maleabilidad
-                    suele ser porque alguien no ha hecho bien su
-                    trabajo. Subiendo de nivel paulatinamente,
-                    encontramos cosas como:</p>
+                    <h3 id="velocidad-del-cambio">Velocidad del cambio</h3>
+                    <p>La velocidad a la que somos capaces de realizar cambios en nuestros sistemas es crítica. Demasiado lento, y no seremos capaces de absorber un tráfico creciente de peticiones o de mantener los costes controlados; demasiado rápido, y nuestro sistema estará caído todo el tiempo.</p>
+                    <p>Si tu proveedor de servidores en la nube sube los precios un 300% de un día para otro, cosa que <a href="http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html">ha ocurrido en el pasado</a>, ¿cuánto tiempo tarda tu equipo en migrar a un nuevo proveedor?</p>
+                    <p>Y si mañana decides montar un CPD propio y albergar tus propios servidores, ¿cuánto tardarás en replicarlos? ¿Cómo realizarás el cambio en el momento clave para empezar a dar servicio?</p>
+                    <h1 id="la-arquitectura-fluida">La arquitectura fluida</h1>
+                    <p>¿Cuál es la solución para acomodar tanto cambio? Nuestra humilde sugerencia es mantener la arquitectura del sistema fluida, sin tomar decisiones que comprometan su integridad. Tenemos que ser capaces de pasar de un estado a otro, intentando dar servicio todo el tiempo.</p>
+                    <p>Al oir esto un arquitecto de los de verdad, de los que juntan piedras, seguramente tendría problemas para contener la risa. ¿Cómo se pueden cambiar las vigas maestras de un edificio mientras los habitantes están viviendo dentro?</p>
+                    <p>Los ingenieros de software tenemos una gran ventaja frente a otras ingenierías más tradicionales: no trabajamos con el mundo real, rígido y frágil, sino con software, que es infinitamente moldeable.</p>
+                    <p>Si encontramos restricciones en esta maleabilidad suele ser porque alguien no ha hecho bien su trabajo. Subiendo de nivel paulatinamente, encontramos cosas como:</p>
                     <ul>
-                    <li>código duplicado, donde hay que modificar varios
-                    trozos de código para cambiar cualquier cosa,
-                    dificultando los cambios;</li>
-                    <li>dependencias cruzadas, que hacen que un cambio
-                    en una parte tenga efectos colaterales en partes no
-                    relacionadas;</li>
-                    <li>drivers imbricados en múltiples secciones del
-                    código, que dificultan migrar bases de datos u otros
-                    componentes similares.</li>
+                    <li>código duplicado, donde hay que modificar varios trozos de código para cambiar cualquier cosa, dificultando los cambios;</li>
+                    <li>dependencias cruzadas, que hacen que un cambio en una parte tenga efectos colaterales en partes no relacionadas;</li>
+                    <li>drivers imbricados en múltiples secciones del código, que dificultan migrar bases de datos u otros componentes similares.</li>
                     </ul>
-                    <p>Vamos a centrarnos en las restricciones que nos
-                    dificultan una migración.</p>
-                    <h2
-                    id="reversibilidad-y-termodinámica">Reversibilidad y
-                    termodinámica</h2>
-                    <p>En este punto vamos a tomar un desvío que nos
-                    llevará de viaje a la intemporal tierra de la
-                    termodinámica.</p>
-                    <p>Seguro que has oído hablar de “entropía”: es un
-                    término muy popular entre los divulgadores
-                    científicos, que a menudo lo corrompen asignándole
-                    significados corrientes como “desorden”,
-                    “irregularidad” y similares. Es probable que no te
-                    sorprenda que la entropía tiene una definición muy
-                    precisa, o más bien varias definiciones
-                    equivalentes.</p>
-                    <p>No es sencillo calcular la entropía de un
-                    sistema, y menos todavía medir los flujos de
-                    entropía que ocurren mientras evoluciona.</p>
-                    <p>Por suerte, podemos tomar un atajo: un sistema
-                    reversible es, por definición, el que consigue que
-                    la entropía se mantenga en el mínimo posible. No por
-                    casualidad también es el más eficiente. Y además es
-                    muy fácil saber cuándo un sistema es reversible:
-                    cuando está en todo momento en equilibrio.</p>
-                    <p>En 2012 exploré en <a
-                    href="../2012/reversible-engineering-part-1">estos</a>
-                    <a
-                    href="../2012/reversible-engineering-part-2">tres</a>
-                    <a
-                    href="../2012/reversible-engineering-part-3">artículos</a>
-                    (en inglés) una idea similar a la que he
-                    desarrollado aquí: la ingeniería reversible, o cómo
-                    trabajar siempre cerca del equilibrio. Las ideas
-                    clave son: no malgastar energía, ir lo más despacio
-                    que sea posible, y evitar turbulencias.</p>
-                    <p>En resumen, podemos considerar reversible un
-                    sistema que puede invertirse sin consumir energía
-                    extra. Al mismo tiempo, si revertir el
-                    funcionamiento del sistema requiere energía extra,
-                    entonces el sistema no es reversible.</p>
+                    <p>Vamos a centrarnos en las restricciones que nos dificultan una migración.</p>
+                    <h2 id="reversibilidad-y-termodinámica">Reversibilidad y termodinámica</h2>
+                    <p>En este punto vamos a tomar un desvío que nos llevará de viaje a la intemporal tierra de la termodinámica.</p>
+                    <p>Seguro que has oído hablar de “entropía”: es un término muy popular entre los divulgadores científicos, que a menudo lo corrompen asignándole significados corrientes como “desorden”, “irregularidad” y similares. Es probable que no te sorprenda que la entropía tiene una definición muy precisa, o más bien varias definiciones equivalentes.</p>
+                    <p>No es sencillo calcular la entropía de un sistema, y menos todavía medir los flujos de entropía que ocurren mientras evoluciona.</p>
+                    <p>Por suerte, podemos tomar un atajo: un sistema reversible es, por definición, el que consigue que la entropía se mantenga en el mínimo posible. No por casualidad también es el más eficiente. Y además es muy fácil saber cuándo un sistema es reversible: cuando está en todo momento en equilibrio.</p>
+                    <p>En 2012 exploré en <a href="../2012/reversible-engineering-part-1">estos</a> <a href="../2012/reversible-engineering-part-2">tres</a> <a href="../2012/reversible-engineering-part-3">artículos</a> (en inglés) una idea similar a la que he desarrollado aquí: la ingeniería reversible, o cómo trabajar siempre cerca del equilibrio. Las ideas clave son: no malgastar energía, ir lo más despacio que sea posible, y evitar turbulencias.</p>
+                    <p>En resumen, podemos considerar reversible un sistema que puede invertirse sin consumir energía extra. Al mismo tiempo, si revertir el funcionamiento del sistema requiere energía extra, entonces el sistema no es reversible.</p>
                     <h2 id="migraciones">Migraciones</h2>
-                    <p>Para pasar de una arquitectura a otra normalmente
-                    tenemos que realizar un cambio, sea de máquinas, de
-                    programas, de código o de datos. Las migraciones son
-                    claramente cruciales para nuestro objetivo de tener
-                    una arquitectura fluida: si nuestro sistema pasa de
-                    un estado a otro suavemente y sin turbulencias, es
-                    decir que las migraciones son también fuidas,
-                    entonces podremos considerar que tenemos una
-                    arquitectura maleable.</p>
-                    <h3 id="migración-sin-downtime">Migración sin
-                    <em>downtime</em></h3>
-                    <p>Para que cada migración sea fluida es un
-                    requisito indispensable que no haya un paso brusco
-                    entre un estado y el siguiente. Es decir, que no
-                    dejemos en ningún momentode dar servicio. La técnica
-                    básica para conseguirlo es la capa de
-                    compatibilidad: un elemento intermedio que ponemos
-                    entre el código viejo y el nuevo y que facilita la
-                    transición.</p>
-                    <p>Supongamos que vamos a migrar un servicio de una
-                    máquina a otra. La capa de compatibilidad en este
-                    caso será una máquina intermedia (un proxy) que
-                    dirigirá el tráfico a una u otra según un parámetro
-                    de configuración. Primero redirigiremos los accesos
-                    a esta máquina, que los desviará al antiguo
-                    servidor. A continuación, cuando estemos preparados
-                    redirigiremos el tráfico del proxy a la nueva
-                    máquina.</p>
-                    <p>La capa de compatibilidad puede ser también un
-                    elemento de software, por ejemplo un <em>driver</em>
-                    capaz de hablar con la base de datos antigua y con
-                    la nueva, según un parámetro de configuración.</p>
+                    <p>Para pasar de una arquitectura a otra normalmente tenemos que realizar un cambio, sea de máquinas, de programas, de código o de datos. Las migraciones son claramente cruciales para nuestro objetivo de tener una arquitectura fluida: si nuestro sistema pasa de un estado a otro suavemente y sin turbulencias, es decir que las migraciones son también fuidas, entonces podremos considerar que tenemos una arquitectura maleable.</p>
+                    <h3 id="migración-sin-downtime">Migración sin <em>downtime</em></h3>
+                    <p>Para que cada migración sea fluida es un requisito indispensable que no haya un paso brusco entre un estado y el siguiente. Es decir, que no dejemos en ningún momentode dar servicio. La técnica básica para conseguirlo es la capa de compatibilidad: un elemento intermedio que ponemos entre el código viejo y el nuevo y que facilita la transición.</p>
+                    <p>Supongamos que vamos a migrar un servicio de una máquina a otra. La capa de compatibilidad en este caso será una máquina intermedia (un proxy) que dirigirá el tráfico a una u otra según un parámetro de configuración. Primero redirigiremos los accesos a esta máquina, que los desviará al antiguo servidor. A continuación, cuando estemos preparados redirigiremos el tráfico del proxy a la nueva máquina.</p>
+                    <p>La capa de compatibilidad puede ser también un elemento de software, por ejemplo un <em>driver</em> capaz de hablar con la base de datos antigua y con la nueva, según un parámetro de configuración.</p>
                     <h3 id="reversibilidad">Reversibilidad</h3>
-                    <p>También tenemos que tener claro cómo revertir la
-                    migración: poder volver a la situación inicial con
-                    el mínimo esfuerzo. Idealmente, para revertir todos
-                    los cambios sólo tenemos que darle a un botón,
-                    cambiar una opción de configuración, modificar un
-                    único parámetro, en definitiva: invertir un bit.</p>
+                    <p>También tenemos que tener claro cómo revertir la migración: poder volver a la situación inicial con el mínimo esfuerzo. Idealmente, para revertir todos los cambios sólo tenemos que darle a un botón, cambiar una opción de configuración, modificar un único parámetro, en definitiva: invertir un bit.</p>
                     <pre><code>var MIGRATION = false;</code></pre>
-                    <p>¿Crees que es posible revertir los cambios de
-                    forma tan sencilla? Hay muchos ejemplos de sistemas
-                    que son así de fáciles de revertir: el botón de
-                    “deshacer” en un programa de edición de textos, o
-                    los cambios en un repositorio git usando el comando
-                    <code>git revert</code>. Nuestro reto es hacer que
-                    un sistema complejo compuesto de varias piezas
-                    vuelva a su estado inicial con la misma
-                    facilidad.</p>
-                    <p>Por otra parte, queremos (dentro de lo posible)
-                    no tener que usar este botón de deshacer, a no ser
-                    que la migración sea un fracaso absoluto.
-                    Normalmente ante pequeños problemas es más rentable
-                    arreglarlos y seguir adelante que volver atrás. Pero
-                    tener ese mecanismo de seguridad es tan importante
-                    como para un trapecista tener una red debajo, aunque
-                    por supuesto no planee usarla cuando sale a la
-                    pista.</p>
+                    <p>¿Crees que es posible revertir los cambios de forma tan sencilla? Hay muchos ejemplos de sistemas que son así de fáciles de revertir: el botón de “deshacer” en un programa de edición de textos, o los cambios en un repositorio git usando el comando <code>git revert</code>. Nuestro reto es hacer que un sistema complejo compuesto de varias piezas vuelva a su estado inicial con la misma facilidad.</p>
+                    <p>Por otra parte, queremos (dentro de lo posible) no tener que usar este botón de deshacer, a no ser que la migración sea un fracaso absoluto. Normalmente ante pequeños problemas es más rentable arreglarlos y seguir adelante que volver atrás. Pero tener ese mecanismo de seguridad es tan importante como para un trapecista tener una red debajo, aunque por supuesto no planee usarla cuando sale a la pista.</p>
                     <h3 id="tipos-de-migración">Tipos de migración</h3>
-                    <p>Vamos a ver los tipos principales de migración
-                    por encima.</p>
-                    <p><em>Máquinas</em>: Normalmente cambiar de
-                    máquinas no se considera un asunto de arquitectura.
-                    Pero si miramos más allá del hierro, a menudo nos
-                    encontramos con un sistema operativo más moderno (o
-                    incluso distinto), que puede requerir nuevos
-                    programas. También puede ser que las máquinas tengan
-                    nuevas capacidades que requieren de cambios en el
-                    código, como los servidores multicore que nos
-                    invadieron hace un par de décadas. Además, cuando
-                    las máquinas migradas albergan grandes cantidades de
-                    información suele haber una migración de datos
-                    asociada.</p>
-                    <p><em>Programas</em>: Los cambios en un programa
-                    que no desarrollamos directamente pueden ir desde un
-                    cambio de versión a un cambio completo del programa
-                    que usaremos. En el primer caso puede ser que
-                    tengamos pequeños cambios de código: por ejemplo,
-                    cada actualización de la base de datos Oracle puede
-                    requerir pequeños ajustes en las sentencias SQL
-                    usadas. Cuando se cambia de programa puede que
-                    tengamos que cambiar el driver, o incluso (si es una
-                    base de datos) migrar los datos. Por tanto los
-                    cambios de programa a menudo llevan aparejados
-                    cambios de código y/o datos.</p>
-                    <p><em>Código</em>: Cuando el código está bajo
-                    nuestro control, cada despliegue se convierte de
-                    hecho en una migración: de la versión en producción
-                    a una nueva. A veces también tienen aparejadas
-                    migraciones de datos, por ejemplo cuando hay un
-                    cambio de esquema en la base de datos.</p>
-                    <p><em>Datos</em>: Las migraciones de datos son el
-                    ejemplo más claro de cambio que debe manejarse con
-                    delicadeza. En este caso hay que mover o
-                    redistribuir información, que suele ser lo más
-                    delicado en una migración.</p>
-                    <h3 id="migraciones-de-base-de-datos">Migraciones de
-                    base de datos</h3>
-                    <p>Como hemos visto, las migraciones de datos son el
-                    final de la cadena: cada tipo de migración de arriba
-                    puede llevar aparejada una migración de datos, pero
-                    no viceversa. Además son delicadas porque podemos
-                    perder en un momento información muy valiosa. Vamos
-                    a estudiarlas un poco más en detalle.</p>
-                    <p>Hay un par de peculiaridades en los cambios de
-                    bases de datos que las hace interesantes. En primer
-                    lugar, es bastante sencillo construir una capa de
-                    compatibilidad que traduzca las operaciones entre
-                    dos bases de datos, incluso aunque tengan modelos
-                    internos muy diferentes. Por ejemplo, para hacer que
-                    una base de datos tradicional como PostgreSQL se
-                    comporte como un almacenamiento clave-valor sólo
-                    tenemos que crear una tabla única con un campo clave
-                    y otro campo valor de tipo texto.</p>
-                    <p>Otra peculiaridad es que en estas migraciones es
-                    importante migrar por separado el acceso y los
-                    datos. Normalmente queremos migrar primero los
-                    datos, y luego cambiar el acceso; todo ello por
-                    supuesto sin <em>downtime</em>.</p>
-                    <p>Los cambios de base de datos son ejemplos muy
-                    completos del tipo de migraciones que estamos
-                    estudiando. Más adelante vamos a abusar de ellos
-                    para ilustrar cada técnica de migración.</p>
+                    <p>Vamos a ver los tipos principales de migración por encima.</p>
+                    <p><em>Máquinas</em>: Normalmente cambiar de máquinas no se considera un asunto de arquitectura. Pero si miramos más allá del hierro, a menudo nos encontramos con un sistema operativo más moderno (o incluso distinto), que puede requerir nuevos programas. También puede ser que las máquinas tengan nuevas capacidades que requieren de cambios en el código, como los servidores multicore que nos invadieron hace un par de décadas. Además, cuando las máquinas migradas albergan grandes cantidades de información suele haber una migración de datos asociada.</p>
+                    <p><em>Programas</em>: Los cambios en un programa que no desarrollamos directamente pueden ir desde un cambio de versión a un cambio completo del programa que usaremos. En el primer caso puede ser que tengamos pequeños cambios de código: por ejemplo, cada actualización de la base de datos Oracle puede requerir pequeños ajustes en las sentencias SQL usadas. Cuando se cambia de programa puede que tengamos que cambiar el driver, o incluso (si es una base de datos) migrar los datos. Por tanto los cambios de programa a menudo llevan aparejados cambios de código y/o datos.</p>
+                    <p><em>Código</em>: Cuando el código está bajo nuestro control, cada despliegue se convierte de hecho en una migración: de la versión en producción a una nueva. A veces también tienen aparejadas migraciones de datos, por ejemplo cuando hay un cambio de esquema en la base de datos.</p>
+                    <p><em>Datos</em>: Las migraciones de datos son el ejemplo más claro de cambio que debe manejarse con delicadeza. En este caso hay que mover o redistribuir información, que suele ser lo más delicado en una migración.</p>
+                    <h3 id="migraciones-de-base-de-datos">Migraciones de base de datos</h3>
+                    <p>Como hemos visto, las migraciones de datos son el final de la cadena: cada tipo de migración de arriba puede llevar aparejada una migración de datos, pero no viceversa. Además son delicadas porque podemos perder en un momento información muy valiosa. Vamos a estudiarlas un poco más en detalle.</p>
+                    <p>Hay un par de peculiaridades en los cambios de bases de datos que las hace interesantes. En primer lugar, es bastante sencillo construir una capa de compatibilidad que traduzca las operaciones entre dos bases de datos, incluso aunque tengan modelos internos muy diferentes. Por ejemplo, para hacer que una base de datos tradicional como PostgreSQL se comporte como un almacenamiento clave-valor sólo tenemos que crear una tabla única con un campo clave y otro campo valor de tipo texto.</p>
+                    <p>Otra peculiaridad es que en estas migraciones es importante migrar por separado el acceso y los datos. Normalmente queremos migrar primero los datos, y luego cambiar el acceso; todo ello por supuesto sin <em>downtime</em>.</p>
+                    <p>Los cambios de base de datos son ejemplos muy completos del tipo de migraciones que estamos estudiando. Más adelante vamos a abusar de ellos para ilustrar cada técnica de migración.</p>
                     <h1 id="fin-por-ahora">Fin (por ahora)</h1>
-                    <p>En la <a
-                    href="arquitectura-fluida-2-estrategias-migracion">siguiente
-                    parte</a> veremos varias estrategias que se pueden
-                    usar para realizar una migración.</p>
+                    <p>En la <a href="arquitectura-fluida-2-estrategias-migracion">siguiente parte</a> veremos varias estrategias que se pueden usar para realizar una migración.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Publicado originalmente en <a
-         href="http://www.todojs.com/tras-la-arquitectura-perfecta-la-arquitectura-fluida/">TodoJS</a>
-         el 2015-11-09.
+									Publicado originalmente en <a href="http://www.todojs.com/tras-la-arquitectura-perfecta-la-arquitectura-fluida/">TodoJS</a> el 2015-11-09.
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.
