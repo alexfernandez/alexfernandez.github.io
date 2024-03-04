@@ -77,7 +77,7 @@
                     </figure>
                     <h1 id="building-models">🏗️ Building Models</h1>
                     <p>I set up to build more detailed plans with a given scale in mind. I expected to find a wall at any point where the required technology just wasn’t available, or it was too exotic to be purchased just yet. To my surprise there were no showstoppers: the technology is here, and everything seems to be feasible, right now. The engineering challenge is thus amazingly possible.</p>
-                    <h2 id="model-scale">🎈 Model Scale</h2>
+                    <h2 id="model-scale">🎚️ Model Scale</h2>
                     <p>What would be an appropriate scale for a model?</p>
                     <h3 id="proportions">🏉 Proportions</h3>
                     <p>The classical design for a blimp or a zeppelin is a spheroid. (Yes, I know that last time I chose a design similar to a boat: square and flat profile. I have since come to appreciate a more classic dirigible design.)</p>
@@ -98,6 +98,23 @@
                     <p>So our budget is around 10 kg. As you see, at this stage it’s not enough to do Fermi estimations: for a more detailed feasibility study we need more approximate numbers. It is still OK to round up numbers as we did above with surface and volume.</p>
                     <h2 id="build">Build</h2>
                     <h3 id="structure">Structure</h3>
+                    <p>We want to build a real dirigible, not a blimp: the difference is that the dirigible or zeppelin has a rigid structure, while blimps are just inflatable. We know that Zeppelins worked, and with ancient materials even, but is it possible to do it at this scale?</p>
+                    <p>Let’s go with the simplest structure: just a shell. Adding</p>
+                    <h3 id="hydrogen-sack">🎈 Hydrogen Sack</h3>
+                    <p>At this scale we don’t want a complicated set of sacks containing the hydrogen; just one big bag will do.</p>
+                    <p>Helium balloons are usually done with Mylar, but there are materials that leak even less hydrogen: PVA is a very strong contender.</p>
+                    <p>In <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei <em>et al</em></a> the team experiment with several coatings, finding that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.</p>
+                    <p>Luckily it is not hard to get PVA bags, as they are widely used in industry because they are biodegradable. One precaution is that PVA dissolves in water, so the interior of the structure must be kept dry.</p>
+                    <h3 id="hydrogen-leaks">💨 Hydrogen Leaks</h3>
+                    <p>How much hydrogen would leak out of our PVA bag in a day? This of course depends on how well sealed the bag is, and the quality of the materials. We can use a unit of permeability called <a href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it. Again in <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei <em>et al</em></a> the permeability of PVA is given as 0.0084 barrer. Given the definition of 1 barrer in SI units:</p>
+                    <p><code>1 barrer = 3.35 * 10^-16 * mol * m / (m² * s * Pa),</code></p>
+                    <p>the computations are a bit messy but can be done as follows. The leaked gas will be:</p>
+                    <p><code>Quantity = Per * Surface * time * Pressure / thickness,</code></p>
+                    <p>Remember that our surface is 20 m². Bags with thickness of 50 microns are quite common in the food industry. We will compute the leaked quantity for a day or 86400 seconds, at atmospheric pressure or 101325 Pascal. Now we have everything:</p>
+                    <pre><code>Q = 0.0084 barrer * 20 m² * 86400 s * 101325 Pa / 0.000050 m,
+                    Q = 0.0084 * 3.35 * 10^-16 * 86400 * 101325 / 0.00005 mol,
+                    Q = 0.0005 mol.</code></pre>
+                    <p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g, so we are leaking half a milligram per day. Not bad considering that we have around 0.5 kg of hydrogen! These nubers do not look very realistic, and have to be contrasted with real world tests with real bags. But the safety margin is quite large.</p>
                     <h3 id="wings">🪽 Wings</h3>
                     <h2 id="energy-sources">⚡ Energy Sources</h2>
                     <p>https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/</p>

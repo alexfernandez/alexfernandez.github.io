@@ -24,7 +24,7 @@ the technology is here,
 and everything seems to be feasible, right now.
 The engineering challenge is thus amazingly possible.
 
-## 🎈 Model Scale
+## 🎚️ Model Scale
 
 What would be an appropriate scale for a model?
 
@@ -83,6 +83,73 @@ It is still OK to round up numbers as we did above with surface and volume.
 ## Build
 
 ### Structure
+
+We want to build a real dirigible, not a blimp:
+the difference is that the dirigible or zeppelin has a rigid structure,
+while blimps are just inflatable.
+We know that Zeppelins worked,
+and with ancient materials even,
+but is it possible to do it at this scale?
+
+Let's go with the simplest structure:
+just a shell.
+Adding 
+
+### 🎈 Hydrogen Sack
+
+At this scale we don't want a complicated set of sacks containing the hydrogen;
+just one big bag will do.
+
+Helium balloons are usually done with Mylar,
+but there are materials that leak even less hydrogen:
+PVA is a very strong contender.
+
+In [Lei _et al_](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
+the team experiment with several coatings,
+finding that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.
+
+Luckily it is not hard to get PVA bags,
+as they are widely used in industry because they are biodegradable.
+One precaution is that PVA dissolves in water,
+so the interior of the structure must be kept dry.
+
+### 💨 Hydrogen Leaks
+
+How much hydrogen would leak out of our PVA bag in a day?
+This of course depends on how well sealed the bag is,
+and the quality of the materials.
+We can use a unit of permeability called
+[Barrer](https://en.wikipedia.org/wiki/Barrer) to quantify it.
+Again in
+[Lei _et al_](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
+the permeability of PVA is given as 0.0084 barrer.
+Given the definition of 1 barrer in SI units:
+
+`1 barrer = 3.35 * 10^-16 * mol * m / (m² * s * Pa),`
+
+the computations are a bit messy but can be done as follows.
+The leaked gas will be:
+
+`Quantity = Per * Surface * time * Pressure / thickness,`
+
+Remember that our surface is 20 m².
+Bags with thickness of 50 microns are quite common in the food industry.
+We will compute the leaked quantity for a day or 86400 seconds,
+at atmospheric pressure or 101325 Pascal.
+Now we have everything:
+
+```
+Q = 0.0084 barrer * 20 m² * 86400 s * 101325 Pa / 0.000050 m,
+Q = 0.0084 * 3.35 * 10^-16 * 86400 * 101325 / 0.00005 mol,
+Q = 0.0005 mol.
+```
+
+Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
+so we are leaking half a milligram per day.
+Not bad considering that we have around 0.5 kg of hydrogen!
+These nubers do not look very realistic,
+and have to be contrasted with real world tests with real bags.
+But the safety margin is quite large.
 
 ### 🪽 Wings
 
