@@ -99,10 +99,11 @@
                     <p>How much will our model weight? Exactly as much as the air displaced by the hydrogen: we compute the weight of the air inside, and then subtract the weight of the same volume of hydrogen. Since the density of air is 1.3 kg/m³, and of hydrogen is 70 g/m³, lift will be:</p>
                     <p>`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.</p>
                     <p>So our budget is around 10 kg. As you see, at this stage it’s not enough to do Fermi estimations (i.e. order of magnitude): for a detailed feasibility study we need more precise numbers. It is still OK to round up numbers as we did above with surface and volume.</p>
-                    <h2 id="build">Build</h2>
-                    <p>How can we build an airship?</p>
-                    <h3 id="structure">Structure</h3>
-                    <p>We want to build a real dirigible, not a blimp: the difference is that the dirigible or zeppelin has a rigid structure, while blimps are just inflatable. We know that Zeppelins worked, and with ancient 1900s materials even, but is it possible to do it at this scale?</p>
+                    <h2 id="build">🛠️ Build</h2>
+                    <p>How can we build a real life airship, even if it’s a small one?</p>
+                    <h3 id="structure">🪚 Structure</h3>
+                    <p>We want to build a dirigible: an aircraft which is sustented by the lift of a light gas.</p>
+                    <p>real dirigible, not a blimp: the difference is that the dirigible or zeppelin has a rigid structure, while blimps are just inflatable. We know that dirigibles worked beautifully, and with ancient 1900s materials even, but is it possible to do it at this scale?</p>
                     <p>Let’s go with the simplest structure: just a shell. We can set up a rigid hull that contains a sack, which in turn holds our lifting gas. What is the weight per square meter that we can afford?</p>
                     <p>First we have to set up a budget: how much of our 10 kg we want to spend in the shell. It seems obvious that this is going to be our biggest source of weight, and that we should reserve for it as much as we can afford: a stronger structure is going to hold up better against strong winds or impacts. Let us say half our weight is for the structure.</p>
                     <p>We have to reserve some weight for the wings and other parts. Let us say 4 kg for the hull. Since we have 20 m² of surface, the areal density will be:</p>
@@ -166,15 +167,21 @@
                     <h3 id="batteries">🔋 Batteries</h3>
                     <p>Speaking of which, is there any of that weight budget left at this point for the batteries? They are intended to store some of the solar and wind energy during the day, and use it at night to avoid drifting away.</p>
                     <p>We will have to set aside at least 1 kg for a good battery. We can get <a href="https://www.jinbei-deutschland.de/en/products/v-mount-battery-180-wh-28309">180 Wh commercially</a> today. This means driving our propellers at 60 W for three hours, which is not bad.</p>
+                    <h2 id="finishing-touches">💅 Finishing Touches</h2>
+                    <p>We still have tomake sure this thing is light enough to get in the air, and then fly it.</p>
+                    <h3 id="control">💻 Control</h3>
+                    <p>Let’s start by how to fly it. The idea is to build an autonomous drone, so it needs to have enough sensors to know where it is and what it is doing. Also an onboard computer, and servos to move the control surfaces: ailerons on wings and tail.</p>
+                    <p>Today there is no wonder in getting a GPS, accelerometers, world-wide communications, camera, microphone, plus a powerful computer into a compact package weighing less than 0.25 kg. We call it “mobile phone”. But we may need electric controls to drive the servos; something like a Raspberry Pi, or this intriguing <a href="https://www.clockworkpi.com/uconsole">uConsole</a> which might do both functions since it has a 4G module.</p>
+                    <p>Servos might take 0.2 kg at most, while the onboard computer should be well below 0.5 kg.</p>
                     <h3 id="weight-budget">🧮 Weight Budget</h3>
-                    <p>Let’s add up a few other weights: a carbon fiber gondola for 0.5 kg, cabling for 0.2 kg, and servos for 0.2 kg to move the control surfaces in wings and tail.</p>
+                    <p>Let’s add up a few other weights: a carbon fiber gondola is required to hold battery and onboard computer below the hull, and help compensate the weight of the solar panels. It might weigh 0.5 kg. We also need some cabling for 0.2 kg.</p>
                     <p>These are our total weights:</p>
                     <table>
                     <thead>
                     <tr class="header">
                     <th>part</th>
                     <th>material</th>
-                    <th>weight</th>
+                    <th>weight (kg)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -184,34 +191,44 @@
                     <td>4</td>
                     </tr>
                     <tr class="even">
+                    <td>wings and tail</td>
+                    <td>carbon fiber</td>
+                    <td>0.5</td>
+                    </tr>
+                    <tr class="odd">
+                    <td>reinforcements</td>
+                    <td>carbon fiber</td>
+                    <td>0.5</td>
+                    </tr>
+                    <tr class="even">
                     <td>envelope</td>
                     <td>PVA</td>
                     <td>1</td>
                     </tr>
                     <tr class="odd">
-                    <td>wings and tail</td>
-                    <td>carbon fiber</td>
-                    <td>0.5</td>
-                    </tr>
-                    <tr class="even">
                     <td>gondola</td>
                     <td>carbon fiber</td>
                     <td>0.4</td>
                     </tr>
-                    <tr class="odd">
+                    <tr class="even">
                     <td>battery</td>
                     <td>LiPo</td>
                     <td>1</td>
                     </tr>
-                    <tr class="even">
+                    <tr class="odd">
                     <td>motors</td>
                     <td></td>
                     <td>0.1</td>
                     </tr>
-                    <tr class="odd">
+                    <tr class="even">
                     <td>propellers</td>
                     <td></td>
                     <td>0.2</td>
+                    </tr>
+                    <tr class="odd">
+                    <td>solar panel</td>
+                    <td></td>
+                    <td>1.1</td>
                     </tr>
                     <tr class="even">
                     <td>cables and servos</td>
@@ -219,27 +236,23 @@
                     <td>0.2</td>
                     </tr>
                     <tr class="odd">
-                    <td>solar panel</td>
+                    <td>computer</td>
                     <td></td>
-                    <td>1.3</td>
+                    <td>0.5</td>
                     </tr>
                     <tr class="even">
-                    <td>interior</td>
-                    <td>void</td>
-                    <td>-10.4</td>
+                    <td>lift</td>
+                    <td>hydrogen</td>
+                    <td>-9.84</td>
                     </tr>
                     <tr class="odd">
-                    <td>fill</td>
-                    <td>hydrogen</td>
-                    <td>0.56</td>
-                    </tr>
-                    <tr class="even">
                     <td>total</td>
                     <td></td>
-                    <td>0</td>
+                    <td>-0.34</td>
                     </tr>
                     </tbody>
                     </table>
+                    <p>The budget seems feasible, and we even have 0.3 kg to spare. If needed it can be filled with ballast.</p>
                     <h2 id="history">History</h2>
                     <p>https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/</p>
                     <h2 id="changes">🔮 Changes</h2>

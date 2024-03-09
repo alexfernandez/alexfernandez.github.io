@@ -98,16 +98,20 @@ As you see, at this stage it's not enough to do Fermi estimations
 for a detailed feasibility study we need more precise numbers.
 It is still OK to round up numbers as we did above with surface and volume.
 
-## Build
+## 🛠️ Build
 
-How can we build an airship?
+How can we build a real life airship,
+even if it's a small one?
 
-### Structure
+### 🪚 Structure
 
-We want to build a real dirigible, not a blimp:
+We want to build a dirigible:
+an aircraft which is sustented by the lift of a light gas.
+
+real dirigible, not a blimp:
 the difference is that the dirigible or zeppelin has a rigid structure,
 while blimps are just inflatable.
-We know that Zeppelins worked,
+We know that dirigibles worked beautifully,
 and with ancient 1900s materials even,
 but is it possible to do it at this scale?
 
@@ -363,29 +367,63 @@ We can get [180 Wh commercially](https://www.jinbei-deutschland.de/en/products/v
 This means driving our propellers at 60 W for three hours,
 which is not bad.
 
+## 💅 Finishing Touches
+
+We still have tomake sure this thing is light enough to get in the air,
+and then fly it.
+
+### 💻 Control
+
+Let's start by how to fly it.
+The idea is to build an autonomous drone,
+so it needs to have enough sensors to know where it is and what it is doing.
+Also an onboard computer,
+and servos to move the control surfaces:
+ailerons on wings and tail.
+
+Today there is no wonder in getting a GPS, accelerometers,
+world-wide communications, camera, microphone,
+plus a powerful computer
+into a compact package weighing less than 0.25 kg.
+We call it "mobile phone".
+But we may need electric controls to drive the servos;
+something like a Raspberry Pi,
+or this intriguing [uConsole](https://www.clockworkpi.com/uconsole)
+which might do both functions since it has a 4G module.
+
+Servos might take 0.2 kg at most,
+while the onboard computer should be well below 0.5 kg.
+
 ### 🧮 Weight Budget
 
 Let's add up a few other weights:
-a carbon fiber gondola for 0.5 kg,
-cabling for 0.2 kg,
-and servos for 0.2 kg to move the control surfaces in wings and tail.
+a carbon fiber gondola is required to hold battery and onboard computer
+below the hull,
+and help compensate the weight of the solar panels.
+It might weigh 0.5 kg.
+We also need some cabling for 0.2 kg.
 
 These are our total weights:
 
-| part              | material     | weight |
+| part              | material     | weight (kg) |
 |-------------------|--------------|--------|
 | outer shell       | carbon fiber | 4      |
-| envelope          | PVA          | 1      |
 | wings and tail    | carbon fiber | 0.5    |
+| reinforcements    | carbon fiber | 0.5    |
+| envelope          | PVA          | 1      |
 | gondola           | carbon fiber | 0.4    |
 | battery           | LiPo         | 1      |
 | motors            |              | 0.1    |
 | propellers        |              | 0.2    |
+| solar panel       |              | 1.1    |
 | cables and servos |              | 0.2    |
-| solar panel       |              | 1.3    |
-| interior          | void         | -10.4  |
-| fill              | hydrogen     | 0.56   |
-| total             |              | 0      |
+| computer |              | 0.5    |
+| lift              | hydrogen     | -9.84  |
+| total             |              | -0.34  |
+
+The budget seems feasible,
+and we even have 0.3 kg to spare.
+If needed it can be filled with ballast.
 
 ## History
 
