@@ -286,10 +286,20 @@ It is not unusual to see promises of much more powerful solar cells.
 were promising 370 W/kg in 2022,
 which would be closer to what we need.
 And the Airbus Zephyr uses Microlink solar sheets
-[exceeding 1500 W/kg](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html).
+[exceeding 1500 W/kg](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html),
+and 350 W/m2.
 We might get to 10 m/s with this kind of power.
 
+The cubed equation we got above for power is quite dangerous:
+to get to 10 m/s we would need 8 times more power than for our 5 m/s,
+or 400 W.
+For now we will probably have to keep to our target speed.
+
 ### 🌬️ Wind Energy
+
+An intriguing possibility,
+and one which does not require any technological leaps of faith,
+is to use wind energy.
 
 ### 🔋 Batteries
 
