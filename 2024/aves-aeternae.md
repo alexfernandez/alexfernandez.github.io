@@ -26,16 +26,25 @@ The engineering challenge is thus amazingly possible.
 
 ## 🎚️ Model Scale
 
-What would be an appropriate scale for a model?
+So let's build a scale model!
+In what follows we will look at a 2×2×4 meter model, more or less the size of a car:
+big enough to be substantial,
+but small enough to be built with limited means.
 
 ### 🏉 Proportions
 
 The classical design for a blimp or a zeppelin is a spheroid.
 (Yes, I know that last time I chose a design similar to a boat:
 square and flat profile.
-I have since come to appreciate a more classic dirigible design.)
+I have since come to appreciate a more classic design.)
 
 ![An spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
+
+It is quite aerodynamic, or should be:
+drag of a spheroid is close to 0.03,
+according to [GE Dorrington in "Drag of Spheroid-Cone Shaped Airship"](https://doi.org/10.2514/1.14796).
+Also it is simple to model and build.
+So let's go with a spheroid!
 
 ### 📏 Dimensions
 
@@ -64,7 +73,15 @@ And the area is very approximately:
 
 `S ≈ 5 * 2m * 2m = 5 * 4m² = 20 m².`
 
-### 🏋️ Weight
+These are the basic parameters of our model.
+
+### ⚖️ Weight
+
+You may remember that the plan was to fill the airship with hydrogen:
+even lighter than helium, and quite cheaper.
+For an uncrewed vehicle the risks are negligible.
+Also, for a continuously flying machine hydrogen can be replenished in flight,
+as we will see later.
 
 How much will our model weight?
 Exactly as much as the air displaced by the hydrogen:
@@ -76,11 +93,14 @@ and of hydrogen is 70 g/m³, lift will be:
 `L = (1.3 - 0.070) kg/m³ * 8 m³ ≈ 9.84 kg.
 
 So our budget is around 10 kg.
-As you see, at this stage it's not enough to do Fermi estimations:
-for a more detailed feasibility study we need more approximate numbers.
+As you see, at this stage it's not enough to do Fermi estimations
+(i.e. order of magnitude):
+for a detailed feasibility study we need more precise numbers.
 It is still OK to round up numbers as we did above with surface and volume.
 
 ## Build
+
+How can we build an airship?
 
 ### Structure
 
@@ -88,15 +108,64 @@ We want to build a real dirigible, not a blimp:
 the difference is that the dirigible or zeppelin has a rigid structure,
 while blimps are just inflatable.
 We know that Zeppelins worked,
-and with ancient materials even,
+and with ancient 1900s materials even,
 but is it possible to do it at this scale?
 
 Let's go with the simplest structure:
 just a shell.
-Adding 
+We can set up a rigid hull that contains a sack,
+which in turn holds our lifting gas.
+What is the weight per square meter that we can afford?
+
+First we have to set up a budget:
+how much of our 10 kg we want to spend in the shell.
+It seems obvious that this is going to be our biggest source of weight,
+and that we should reserve for it as much as we can afford:
+a stronger structure is going to hold up better against strong winds or impacts.
+Let us say half our weight is for the structure.
+
+We have to reserve some weight for the wings and other parts.
+Let us say 4 kg for the hull.
+Since we have 20 m² of surface,
+the areal density will be:
+
+```
+D(A) = 4 kg / 20 m²
+= 200 g/m².
+```
+
+What kind of material can be strong enough at 0.2 kg per square meter?
+Only [carbon fiber](https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers) fits the bill.
+It is a very interesting material made of carbon fibers embedded in an epoxy resin,
+which when cured results in super strong panels.
+
+### 🪽 Wings and Reinforcements
+
+We set aside a budget of one kg for the rest of the hull.
+
+The wings need also be built using carbon fiber.
+They need to be even stronger than the outer shell.
+Two wings and a tail on top are of the same approximate dimensions:
+60 x 80 cm, for a total area of approx. one third of a m².
+The three share an area of 1 m².
+The areal density needs to be at least twice of the shell,
+probably 500 g/m², for a total weight of 0.5 kg.
+
+Also some reinforcements are required where the parts are joined.
+It is impossible to build the hull in one go;
+different pieces have to built and assembled.
+In our case we can build eight identical panels,
+and then join them together using reinforcements.
+These can be built using carbon fiber and glass fiber for elasticity.
+
+![Pieces of the hull.](pics/aves-aeternae-hull.png "A spheroid cut in four. Source: the author.")
+
+Finally we need a small cone to place at the front.
+Together the budget of 1 kg seems doable.
 
 ### 🎈 Hydrogen Sack
 
+Inside the hull a large bag will hold the gas.
 At this scale we don't want a complicated set of sacks containing the hydrogen;
 just one big bag will do.
 
@@ -151,11 +220,12 @@ These nubers do not look very realistic,
 and have to be contrasted with real world tests with real bags.
 But the safety margin is quite large.
 
-### 🪽 Wings
-
 ## ⚡ Energy Sources
 
-https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/
+The airship needs to be able to direct its flight.
+It needs a power source that gives enough energy for our purposes.
+Being a demonstration model it doesn't need to withstand any kind of weather,
+but 
 
 ### ☀️ Solar Energy
 
@@ -164,11 +234,11 @@ https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintain
 ### 🔋 Batteries
 
 
-## ⚖️ Weights
-
-
-
 ### 🛩️ Power
+
+## History
+
+https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/
 
 ## 🔮 Changes
 
