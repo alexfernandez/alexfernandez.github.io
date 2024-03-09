@@ -183,6 +183,17 @@ as they are widely used in industry because they are biodegradable.
 One precaution is that PVA dissolves in water,
 so the interior of the structure must be kept dry.
 
+Bags with thickness of 40 microns are quite common in the industry.
+Given the density of PVA of 1.19 g/cm³,
+for our total surface of 20 m² we get:
+
+```
+W(bag) = 0.040 mm * 1.19 g/cm³ * 20 m²
+= 950 g ~ 1 kg
+```
+
+So another kg for our weight budget.
+
 ### 💨 Hydrogen Leaks
 
 How much hydrogen would leak out of our PVA bag in a day?
@@ -203,9 +214,12 @@ The leaked gas will be:
 `Quantity = Per × Surface × time × Pressure / thickness,`
 
 Remember that our surface is 20 m².
-Bags with thickness of 50 microns are quite common in the food industry.
 We will compute the leaked quantity for a day or 86400 seconds,
-at atmospheric pressure or 101325 Pascal.
+at atmospheric pressure or 101325 Pascal with a 50 micron bag.
+Pressure inside the bag will not be much higher than 1 atm;
+even [balloons](https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html)
+are only a few percent tighter than atmospheric pressure.
+
 Now we have everything:
 
 ```
@@ -263,6 +277,19 @@ P = 0.39 × 5³ kg×m²/s³ = 48.75 W
 Approximately 50 watt of power will be required.
 Is this possible to achieve?
 
+### ⚙️ Motor and Propeller
+
+From this power budget we have to discount the efficiency of motor and propeller.
+Luckily thanks to the RC industry there are a lot of very efficient motors
+(brushless and sensored are apparently the way to go)
+and propellers which are powerful and light enough.
+
+There is at least a 20% reduction in efficiency due to the combination of motor and propeller to be taken into account.
+So our 50 W of impulse become at least 60 W at generation.
+Also, the weight of two motors and two propellers
+(each at the side of the airship to help keep the balance)
+should be well below 500 g.
+
 ### ☀️ Solar Energy
 
 There are not many renewable sources of energy up in the air.
@@ -277,8 +304,8 @@ which provides a nominal 82 W with a weight of 1.1 kg.
 Keep in mind that solar panels always provide less power than advertised,
 even in full sun.
 So it is possible that at midday in optimal weather in a temperate country
-this panel might get to give us the 50 W we need.
-We might use more weight,
+this panel might get to give us the 60 W we need.
+We might use a couple of these panels to reach more power,
 but then the airship may become top-heavy and destabilize.
 
 It is not unusual to see promises of much more powerful solar cells.
@@ -288,11 +315,11 @@ which would be closer to what we need.
 And the Airbus Zephyr uses Microlink solar sheets
 [exceeding 1500 W/kg](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html),
 and 350 W/m2.
-We might get to 10 m/s with this kind of power.
 
-The cubed equation we got above for power is quite dangerous:
+We might even get to 10 m/s with this kind of power.
+But keep in mind that the cubed equation we got above for power is quite treacherous:
 to get to 10 m/s we would need 8 times more power than for our 5 m/s,
-or 400 W.
+or 480 W.
 For now we will probably have to keep to our target speed.
 
 ### 🌬️ Wind Energy
@@ -301,8 +328,64 @@ An intriguing possibility,
 and one which does not require any technological leaps of faith,
 is to use wind energy.
 
+But wait,
+how can you use wind energy to propel yourself if you are moving in the wind?
+It's the same principle as regenerative braking in electric cars:
+you let the motor spin freely,
+and instead of spending energy to move the wheels,
+the movement of the wheels charges the battery.
+Same principle: 
+Yokota and Fujimoto investigated the principle in planes in
+[Pitch Angle Control by Regenerative Air Brake for Electric Aircraft](https://www.jstage.jst.go.jp/article/ieejjia/11/2/11_21005706/_pdf),
+and it is perfectly possible if the wings are oriented correctly.
+It even decelerates the aircraft,
+which is logical since the energy is taken from the flowing air.
+
+So the idea would be:
+orient the airship so the propellers move maximally,
+stop the motor and let it charge the batteries.
+The craft would slow down at the same time
+so it would not be carried away by the wind so fast.
+Then, once the batteries are charged start the propellers
+and move back to the desired position.
+This process can be repeated as often as desired;
+of course it will not be very efficient but might help not drift away too much e.g. at night.
+
 ### 🔋 Batteries
 
+Speaking of which,
+is there any of that weight budget left at this point for the batteries?
+They are intended to store some of the solar and wind energy during the day,
+and use it at night to avoid drifting away.
+
+We will have to set aside at least 1 kg for a good battery.
+We can get [180 Wh commercially](https://www.jinbei-deutschland.de/en/products/v-mount-battery-180-wh-28309) today.
+This means driving our propellers at 60 W for three hours,
+which is not bad.
+
+### 🧮 Weight Budget
+
+Let's add up a few other weights:
+a carbon fiber gondola for 0.5 kg,
+cabling for 0.2 kg,
+and servos for 0.2 kg to move the control surfaces in wings and tail.
+
+These are our total weights:
+
+| part              | material     | weight |
+|-------------------|--------------|--------|
+| outer shell       | carbon fiber | 4      |
+| envelope          | PVA          | 1      |
+| wings and tail    | carbon fiber | 0.5    |
+| gondola           | carbon fiber | 0.4    |
+| battery           | LiPo         | 1      |
+| motors            |              | 0.1    |
+| propellers        |              | 0.2    |
+| cables and servos |              | 0.2    |
+| solar panel       |              | 1.3    |
+| interior          | void         | -10.4  |
+| fill              | hydrogen     | 0.56   |
+| total             |              | 0      |
 
 ## History
 
