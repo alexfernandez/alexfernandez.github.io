@@ -41,7 +41,7 @@ I have since come to appreciate a more classic design.)
 ![An spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
 
 It is quite aerodynamic, or should be:
-drag of a spheroid is close to 0.03,
+drag of a spheroid is between 0.02 and 0.04,
 according to [GE Dorrington in "Drag of Spheroid-Cone Shaped Airship"](https://doi.org/10.2514/1.14796).
 Also it is simple to model and build.
 So let's go with a spheroid!
@@ -67,11 +67,11 @@ which is a surprisingly accurate formula
 (actual factor above should be 0.523).
 In our case:
 
-`V ≈ 2m * 2m * 4m / 2 = (2m)³ = 8 m³.`
+`V ≈ 2m × 2m × 4m / 2 = (2m)³ = 8 m³.`
 
 And the area is very approximately:
 
-`S ≈ 5 * 2m * 2m = 5 * 4m² = 20 m².`
+`S ≈ 5 × 2m × 2m = 5 × 4m² = 20 m².`
 
 These are the basic parameters of our model.
 
@@ -90,7 +90,7 @@ and then subtract the weight of the same volume of hydrogen.
 Since the density of air is 1.3 kg/m³,
 and of hydrogen is 70 g/m³, lift will be:
 
-`L = (1.3 - 0.070) kg/m³ * 8 m³ ≈ 9.84 kg.
+`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.
 
 So our budget is around 10 kg.
 As you see, at this stage it's not enough to do Fermi estimations
@@ -155,10 +155,11 @@ Also some reinforcements are required where the parts are joined.
 It is impossible to build the hull in one go;
 different pieces have to built and assembled.
 In our case we can build eight identical panels,
-and then join them together using reinforcements.
-These can be built using carbon fiber and glass fiber for elasticity.
+which is quite convenient from the manufacture point of view.
+Then they can be assembled together using reinforcements,
+built using carbon fiber and glass fiber for elasticity.
 
-![Pieces of the hull.](pics/aves-aeternae-hull.png "A spheroid cut in four. Source: the author.")
+![Eight pieces of the hull: four on top, four below.](pics/aves-aeternae-hull.png "A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author.")
 
 Finally we need a small cone to place at the front.
 Together the budget of 1 kg seems doable.
@@ -194,12 +195,12 @@ Again in
 the permeability of PVA is given as 0.0084 barrer.
 Given the definition of 1 barrer in SI units:
 
-`1 barrer = 3.35 * 10^-16 * mol * m / (m² * s * Pa),`
+`1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),`
 
 the computations are a bit messy but can be done as follows.
 The leaked gas will be:
 
-`Quantity = Per * Surface * time * Pressure / thickness,`
+`Quantity = Per × Surface × time × Pressure / thickness,`
 
 Remember that our surface is 20 m².
 Bags with thickness of 50 microns are quite common in the food industry.
@@ -208,8 +209,8 @@ at atmospheric pressure or 101325 Pascal.
 Now we have everything:
 
 ```
-Q = 0.0084 barrer * 20 m² * 86400 s * 101325 Pa / 0.000050 m,
-Q = 0.0084 * 3.35 * 10^-16 * 86400 * 101325 / 0.00005 mol,
+Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000050 m,
+Q = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00005 mol,
 Q = 0.0005 mol.
 ```
 
@@ -225,16 +226,73 @@ But the safety margin is quite large.
 The airship needs to be able to direct its flight.
 It needs a power source that gives enough energy for our purposes.
 Being a demonstration model it doesn't need to withstand any kind of weather,
-but 
+but it needs to manouver at a certain speed.
+
+### 🛩️ Power
+
+How much power do we need?
+Let's recall the drag equation:
+
+`F(D) = ½ ρ × v² × C(D) × S,`
+
+using the density of air of 1.3 kg/m³,
+the surface of 20 m²
+and the drag coefficient we saw above for a spheroid with a cone of `0.03`.
+Spoiler alert, power is just force multiplied by velocity,
+so we just add another velocity:
+
+`P = ½ ρ × v³ × C(D) × S.`
+
+So the power we need to move at a given velocity will be:
+
+```
+P = ½ 1.3 kg/m³ × 0.03 × 20 m² × v³
+= 0.39 kg/m × v³
+```
+
+Now let's set as target speed a leisurely pace of 5 m/s,
+or 18 km/h (11 mph).
+Our avis aeterna is not going to be a speed demon,
+but it will move about.
+The required power will be:
+
+```
+P = 0.39 × 5³ kg×m²/s³ = 48.75 W
+```
+
+Approximately 50 watt of power will be required.
+Is this possible to achieve?
 
 ### ☀️ Solar Energy
+
+There are not many renewable sources of energy up in the air.
+The most obvious is the Sun:
+embed some solar panels on top of our hull and we are good to go!
+
+Ultralight panels are not easy to find.
+But there are companies commercializing powerful panels today.
+One such example is the [Solbian SP 24](https://www.solbian.eu/en/sp-series/26-sp-24.html),
+which provides a nominal 82 W with a weight of 1.1 kg.
+
+Keep in mind that solar panels always provide less power than advertised,
+even in full sun.
+So it is possible that at midday in optimal weather in a temperate country
+this panel might get to give us the 50 W we need.
+We might use more weight,
+but then the airship may become top-heavy and destabilize.
+
+It is not unusual to see promises of much more powerful solar cells.
+[MIT researchers](https://news.mit.edu/2022/ultrathin-solar-cells-1209)
+were promising 370 W/kg in 2022,
+which would be closer to what we need.
+And the Airbus Zephyr uses Microlink solar sheets
+[exceeding 1500 W/kg](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html).
+We might get to 10 m/s with this kind of power.
 
 ### 🌬️ Wind Energy
 
 ### 🔋 Batteries
 
-
-### 🛩️ Power
 
 ## History
 

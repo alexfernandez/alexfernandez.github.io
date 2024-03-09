@@ -84,20 +84,20 @@
                     <figure>
                     <img src="pics/aves-ellipsoid.png" title="3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball." alt="" /><figcaption>An spheroid or ellipsoid. Source: <a href="https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png">Sam Derbyshire, Wikimedia</a>.</figcaption>
                     </figure>
-                    <p>It is quite aerodynamic, or should be: drag of a spheroid is close to 0.03, according to <a href="https://doi.org/10.2514/1.14796">GE Dorrington in “Drag of Spheroid-Cone Shaped Airship”</a>. Also it is simple to model and build. So let’s go with a spheroid!</p>
+                    <p>It is quite aerodynamic, or should be: drag of a spheroid is between 0.02 and 0.04, according to <a href="https://doi.org/10.2514/1.14796">GE Dorrington in “Drag of Spheroid-Cone Shaped Airship”</a>. Also it is simple to model and build. So let’s go with a spheroid!</p>
                     <h3 id="dimensions">📏 Dimensions</h3>
                     <p>An intriguing option is to size the avis aeterna vaguely like a car: two meters wide and tall, four meters long. (For any US readers it’s 6.5 feet wide.) It is big enough to be substantial, but small enough to be built in a garage.</p>
                     <p>This mandates all of the proportions of the model: with the value of two meters and the <a href="https://en.wikipedia.org/wiki/Spheroid">spheroid</a> equations we can compute everything else. First we have a prolate spheroid with axis <code>A=2m</code>, and length <code>C=4m</code>. The volume contained becomes:</p>
                     <p><code>V = πA²C/6 ≈ A²C/2,</code></p>
                     <p>which is a surprisingly accurate formula (actual factor above should be 0.523). In our case:</p>
-                    <p><code>V ≈ 2m * 2m * 4m / 2 = (2m)³ = 8 m³.</code></p>
+                    <p><code>V ≈ 2m × 2m × 4m / 2 = (2m)³ = 8 m³.</code></p>
                     <p>And the area is very approximately:</p>
-                    <p><code>S ≈ 5 * 2m * 2m = 5 * 4m² = 20 m².</code></p>
+                    <p><code>S ≈ 5 × 2m × 2m = 5 × 4m² = 20 m².</code></p>
                     <p>These are the basic parameters of our model.</p>
                     <h3 id="weight">⚖️ Weight</h3>
                     <p>You may remember that the plan was to fill the airship with hydrogen: even lighter than helium, and quite cheaper. For an uncrewed vehicle the risks are negligible. Also, for a continuously flying machine hydrogen can be replenished in flight, as we will see later.</p>
                     <p>How much will our model weight? Exactly as much as the air displaced by the hydrogen: we compute the weight of the air inside, and then subtract the weight of the same volume of hydrogen. Since the density of air is 1.3 kg/m³, and of hydrogen is 70 g/m³, lift will be:</p>
-                    <p>`L = (1.3 - 0.070) kg/m³ * 8 m³ ≈ 9.84 kg.</p>
+                    <p>`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.</p>
                     <p>So our budget is around 10 kg. As you see, at this stage it’s not enough to do Fermi estimations (i.e. order of magnitude): for a detailed feasibility study we need more precise numbers. It is still OK to round up numbers as we did above with surface and volume.</p>
                     <h2 id="build">Build</h2>
                     <p>How can we build an airship?</p>
@@ -112,9 +112,9 @@
                     <h3 id="wings-and-reinforcements">🪽 Wings and Reinforcements</h3>
                     <p>We set aside a budget of one kg for the rest of the hull.</p>
                     <p>The wings need also be built using carbon fiber. They need to be even stronger than the outer shell. Two wings and a tail on top are of the same approximate dimensions: 60 x 80 cm, for a total area of approx. one third of a m². The three share an area of 1 m². The areal density needs to be at least twice of the shell, probably 500 g/m², for a total weight of 0.5 kg.</p>
-                    <p>Also some reinforcements are required where the parts are joined. It is impossible to build the hull in one go; different pieces have to built and assembled. In our case we can build eight identical panels, and then join them together using reinforcements. These can be built using carbon fiber and glass fiber for elasticity.</p>
+                    <p>Also some reinforcements are required where the parts are joined. It is impossible to build the hull in one go; different pieces have to built and assembled. In our case we can build eight identical panels, which is quite convenient from the manufacture point of view. Then they can be assembled together using reinforcements, built using carbon fiber and glass fiber for elasticity.</p>
                     <figure>
-                    <img src="pics/aves-aeternae-hull.png" title="A spheroid cut in four. Source: the author." alt="" /><figcaption>Pieces of the hull.</figcaption>
+                    <img src="pics/aves-aeternae-hull.png" title="A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author." alt="" /><figcaption>Eight pieces of the hull: four on top, four below.</figcaption>
                     </figure>
                     <p>Finally we need a small cone to place at the front. Together the budget of 1 kg seems doable.</p>
                     <h3 id="hydrogen-sack">🎈 Hydrogen Sack</h3>
@@ -124,20 +124,34 @@
                     <p>Luckily it is not hard to get PVA bags, as they are widely used in industry because they are biodegradable. One precaution is that PVA dissolves in water, so the interior of the structure must be kept dry.</p>
                     <h3 id="hydrogen-leaks">💨 Hydrogen Leaks</h3>
                     <p>How much hydrogen would leak out of our PVA bag in a day? This of course depends on how well sealed the bag is, and the quality of the materials. We can use a unit of permeability called <a href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it. Again in <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei <em>et al</em></a> the permeability of PVA is given as 0.0084 barrer. Given the definition of 1 barrer in SI units:</p>
-                    <p><code>1 barrer = 3.35 * 10^-16 * mol * m / (m² * s * Pa),</code></p>
+                    <p><code>1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),</code></p>
                     <p>the computations are a bit messy but can be done as follows. The leaked gas will be:</p>
-                    <p><code>Quantity = Per * Surface * time * Pressure / thickness,</code></p>
+                    <p><code>Quantity = Per × Surface × time × Pressure / thickness,</code></p>
                     <p>Remember that our surface is 20 m². Bags with thickness of 50 microns are quite common in the food industry. We will compute the leaked quantity for a day or 86400 seconds, at atmospheric pressure or 101325 Pascal. Now we have everything:</p>
-                    <pre><code>Q = 0.0084 barrer * 20 m² * 86400 s * 101325 Pa / 0.000050 m,
-                    Q = 0.0084 * 3.35 * 10^-16 * 86400 * 101325 / 0.00005 mol,
+                    <pre><code>Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000050 m,
+                    Q = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00005 mol,
                     Q = 0.0005 mol.</code></pre>
                     <p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g, so we are leaking half a milligram per day. Not bad considering that we have around 0.5 kg of hydrogen! These nubers do not look very realistic, and have to be contrasted with real world tests with real bags. But the safety margin is quite large.</p>
                     <h2 id="energy-sources">⚡ Energy Sources</h2>
-                    <p>The airship needs to be able to direct its flight. It needs a power source that gives enough energy for our purposes. Being a demonstration model it doesn’t need to withstand any kind of weather, but</p>
+                    <p>The airship needs to be able to direct its flight. It needs a power source that gives enough energy for our purposes. Being a demonstration model it doesn’t need to withstand any kind of weather, but it needs to manouver at a certain speed.</p>
+                    <h3 id="power">🛩️ Power</h3>
+                    <p>How much power do we need? Let’s recall the drag equation:</p>
+                    <p><code>F(D) = ½ ρ × v² × C(D) × S,</code></p>
+                    <p>using the density of air of 1.3 kg/m³, the surface of 20 m² and the drag coefficient we saw above for a spheroid with a cone of <code>0.03</code>. Spoiler alert, power is just force multiplied by velocity, so we just add another velocity:</p>
+                    <p><code>P = ½ ρ × v³ × C(D) × S.</code></p>
+                    <p>So the power we need to move at a given velocity will be:</p>
+                    <pre><code>P = ½ 1.3 kg/m³ × 0.03 × 20 m² × v³
+                    = 0.39 kg/m × v³</code></pre>
+                    <p>Now let’s set as target speed a leisurely pace of 5 m/s, or 18 km/h (11 mph). Our avis aeterna is not going to be a speed demon, but it will move about. The required power will be:</p>
+                    <pre><code>P = 0.39 × 5³ kg×m²/s³ = 48.75 W</code></pre>
+                    <p>Approximately 50 watt of power will be required. Is this possible to achieve?</p>
                     <h3 id="solar-energy">☀️ Solar Energy</h3>
+                    <p>There are not many renewable sources of energy up in the air. The most obvious is the Sun: embed some solar panels on top of our hull and we are good to go!</p>
+                    <p>Ultralight panels are not easy to find. But there are companies commercializing powerful panels today. One such example is the <a href="https://www.solbian.eu/en/sp-series/26-sp-24.html">Solbian SP 24</a>, which provides a nominal 82 W with a weight of 1.1 kg.</p>
+                    <p>Keep in mind that solar panels always provide less power than advertised, even in full sun. So it is possible that at midday in optimal weather in a temperate country this panel might get to give us the 50 W we need. We might use more weight, but then the airship may become top-heavy and destabilize.</p>
+                    <p>It is not unusual to see promises of much more powerful solar cells. <a href="https://news.mit.edu/2022/ultrathin-solar-cells-1209">MIT researchers</a> were promising 370 W/kg in 2022, which would be closer to what we need. And the Airbus Zephyr uses Microlink solar sheets <a href="https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html">exceeding 1500 W/kg</a>. We might get to 10 m/s with this kind of power.</p>
                     <h3 id="wind-energy">🌬️ Wind Energy</h3>
                     <h3 id="batteries">🔋 Batteries</h3>
-                    <h3 id="power">🛩️ Power</h3>
                     <h2 id="history">History</h2>
                     <p>https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/</p>
                     <h2 id="changes">🔮 Changes</h2>
