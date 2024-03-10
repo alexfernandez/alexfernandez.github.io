@@ -435,23 +435,9 @@ and custom carbon fiber panels are expensive.
 
 But everything seems doable by a reasonably well equipped workshop.
 
-## 📜 History
+## Beyond the Basics
 
-https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/
-
-### 🔮 Changes
-
-In the [last article](https://pinchito.es/2023/avis-aeterna)
-I used a reference design 10 meters long and 10 meters wide.
-That is definitely too large for an initial model.
-Also, the proportions have changed since then.
-
-We have also abandoned the idea of using hydrogen as fuel instead of using an electrical battery.
-The inefficiencies of converting energy to hydrogen,
-and then hydrogen back to energy,
-are high.
-Also the need to store the resulting water as intermediate product
-negate any weight advantages.
+To finish this article let's dig a bit deeper into the concept of a perpetual flying machine.
 
 ### 🫴 Scaling Up
 
@@ -509,6 +495,28 @@ No matter the size,
 the role of patrolling a given spot is only possible if there are no constant winds in the area.
 Otherwise the avis will have to navigate those winds by changing altitude
 or otherwise finding favorable air currents.
+
+### 🔮 Changes
+
+In the [last article](https://pinchito.es/2023/avis-aeterna)
+I used a reference design 10 meters long and 10 meters wide.
+That is definitely too large for an initial model.
+Also, the proportions have changed since then.
+
+We have also abandoned the idea of using hydrogen as fuel instead of using an electrical battery.
+The inefficiencies of converting energy to hydrogen,
+and then hydrogen back to energy,
+are high.
+Also the need to store the resulting water as intermediate product
+negate any weight advantages.
+
+### 📜 History
+
+After publishing [the first article](https://pinchito.es/2023/avis-aeterna)
+I have found a ton of references to similar projects;
+from [obscure NASA projects from 2000](https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf)
+to 
+[random posts on Reddit](https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/).
 
 # 🤔 Conclusion
 
