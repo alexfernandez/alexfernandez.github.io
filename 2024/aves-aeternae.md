@@ -425,6 +425,15 @@ The budget seems feasible,
 and we even have 0.3 kg to spare.
 If needed it can be filled with ballast.
 
+### 🧩 Pieces
+
+Most of the pieces are off-the-shelf.
+Some are custom made,
+like the outer shell or the gondola;
+and custom carbon fiber panels are expensive.
+
+But everything seems doable by a reasonably well equipped workshop.
+
 ## History
 
 https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/
@@ -436,7 +445,7 @@ I used a reference design 10 meters long and 10 meters wide.
 That is definitely too large for an initial model.
 Also, the proportions have changed since then.
 
-### Left out
+### 🫴 Scaling Up
 
 This scale model does not have any kind of hydrogen regeneration:
 it simply does not fit.
