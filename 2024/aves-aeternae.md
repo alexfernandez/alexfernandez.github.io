@@ -228,8 +228,8 @@ Now we have everything:
 
 ```
 Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-Q = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
-Q = 0.0006 mol.
+= 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+= 0.0006 mol.
 ```
 
 Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
@@ -387,13 +387,12 @@ world-wide communications, camera, microphone,
 plus a powerful computer
 into a compact package weighing less than 0.25 kg.
 We call it "mobile phone".
-But we may need electric controls to drive the servos;
-something like a Raspberry Pi,
-or this intriguing [uConsole](https://www.clockworkpi.com/uconsole)
+But we may need something like a Raspberry Pi with electric controls to drive the servos.
+Ideally we should get something that does both functions,
+something like a Raspberry Pi
 which might do both functions since it has a 4G module.
 
-Servos might take 0.2 kg at most,
-while the onboard computer should be well below 0.5 kg.
+We can spare 0.5 kg for the onboard computer while servos might take 0.2 kg at most.
 
 ### 🧮 Weight Budget
 

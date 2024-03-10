@@ -135,8 +135,8 @@
                     <p>Remember that our surface is 20 m². We will compute the leaked quantity for a day or 86400 seconds, at atmospheric pressure or 101325 Pascal with a 40 micron bag. Pressure inside the bag will not be much higher than 1 atm; even <a href="https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html">balloons</a> are only a few percent tighter than atmospheric pressure.</p>
                     <p>Now we have everything:</p>
                     <pre><code>Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-                    Q = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
-                    Q = 0.0006 mol.</code></pre>
+                    = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+                    = 0.0006 mol.</code></pre>
                     <p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g, so we are leaking a bit more than half a milligram per day. Not bad considering that we have around 0.5 kg of hydrogen! We might stay aloft for a million days at this rate. These nubers do not look very realistic, and have to be contrasted with real world tests with real bags. But the safety margin is quite large.</p>
                     <h2 id="energy-sources">⚡ Energy Sources</h2>
                     <p>The airship needs to be able to direct its flight. It needs a power source that gives enough energy for our purposes. Being a demonstration model it doesn’t need to withstand any kind of weather, but it needs to manouver at a certain speed.</p>
@@ -171,8 +171,8 @@
                     <p>We still have tomake sure this thing is light enough to get in the air, and then fly it.</p>
                     <h3 id="control">💻 Control</h3>
                     <p>Let’s start by how to fly it. The idea is to build an autonomous drone, so it needs to have enough sensors to know where it is and what it is doing. Also an onboard computer, and servos to move the control surfaces: ailerons on wings and tail.</p>
-                    <p>Today there is no wonder in getting a GPS, accelerometers, world-wide communications, camera, microphone, plus a powerful computer into a compact package weighing less than 0.25 kg. We call it “mobile phone”. But we may need electric controls to drive the servos; something like a Raspberry Pi, or this intriguing <a href="https://www.clockworkpi.com/uconsole">uConsole</a> which might do both functions since it has a 4G module.</p>
-                    <p>Servos might take 0.2 kg at most, while the onboard computer should be well below 0.5 kg.</p>
+                    <p>Today there is no wonder in getting a GPS, accelerometers, world-wide communications, camera, microphone, plus a powerful computer into a compact package weighing less than 0.25 kg. We call it “mobile phone”. But we may need something like a Raspberry Pi with electric controls to drive the servos. Ideally we should get something that does both functions, something like a Raspberry Pi which might do both functions since it has a 4G module.</p>
+                    <p>We can spare 0.5 kg for the onboard computer while servos might take 0.2 kg at most.</p>
                     <h3 id="weight-budget">🧮 Weight Budget</h3>
                     <p>Let’s add up a few other weights: a carbon fiber gondola is required to hold battery and onboard computer below the hull, and help compensate the weight of the solar panels. It might weigh 0.5 kg. We also need some cabling for 0.2 kg.</p>
                     <p>These are our total weights:</p>
