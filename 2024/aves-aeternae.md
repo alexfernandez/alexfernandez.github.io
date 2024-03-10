@@ -435,9 +435,37 @@ and custom carbon fiber panels are expensive.
 
 But everything seems doable by a reasonably well equipped workshop.
 
-## 🦾 Beyond the Basics
+## 🖼️ The Big Picture
 
 To finish this article let's dig a bit deeper into the concept of a perpetual flying machine.
+
+### 🤌 But Why?
+
+The first reason why we should do something is always:
+because it's fun!
+But it's reasonable that you might, as I do, feel the need to justify the effort
+with practical applications.
+
+After publishing [the first article](https://pinchito.es/2023/avis-aeterna)
+I have found a number of references to similar projects;
+from [obscure NASA projects from the 2000s](https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf)
+to 
+[random posts on Reddit](https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/).
+Let us see what applications they envision.
+
+NASA commissioned a fascinating [study in 2003](https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf),
+a concept quite similar to the avis aeterna:
+an airship supposed to stay aloft for months or years
+at an altitude of 18 km or higher,
+to watch over the US coasts.
+The concept included fuel cells and an electrolyzer for hydrogen generation.
+The study doesn't ask the question of where the water for the electrolyzer should come from,
+which is intriguing due to the lack of humidity at such heights.
+It appears to store water somewhere.
+
+The EU has funded the [MAAT project](https://cordis.europa.eu/project/id/285602),
+a rather bizarre concept that includes a lighter-than-air platform.
+
 
 ### 🫴 Scaling Up
 
@@ -509,14 +537,6 @@ and then hydrogen back to energy,
 are high.
 Also the need to store the resulting water as intermediate product
 negate any weight advantages.
-
-### 📜 History
-
-After publishing [the first article](https://pinchito.es/2023/avis-aeterna)
-I have found a ton of references to similar projects;
-from [obscure NASA projects from 2000](https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf)
-to 
-[random posts on Reddit](https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/).
 
 # 🤔 Conclusion
 
