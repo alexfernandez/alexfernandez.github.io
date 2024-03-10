@@ -435,7 +435,7 @@ and custom carbon fiber panels are expensive.
 
 But everything seems doable by a reasonably well equipped workshop.
 
-## Beyond the Basics
+## 🦾 Beyond the Basics
 
 To finish this article let's dig a bit deeper into the concept of a perpetual flying machine.
 
@@ -520,6 +520,9 @@ to
 
 # 🤔 Conclusion
 
+It should be possible to create a car-sized model of an avis aeterna,
+to stay aloft for several days,
+demonstrating its major features.
 
 ## 🙏 Acknowledgements
 
