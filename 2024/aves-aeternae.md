@@ -445,6 +445,13 @@ I used a reference design 10 meters long and 10 meters wide.
 That is definitely too large for an initial model.
 Also, the proportions have changed since then.
 
+We have also abandoned the idea of using hydrogen as fuel instead of using an electrical battery.
+The inefficiencies of converting energy to hydrogen,
+and then hydrogen back to energy,
+are high.
+Also the need to store the resulting water as intermediate product
+negate any weight advantages.
+
 ### 🫴 Scaling Up
 
 This scale model does not have any kind of hydrogen regeneration:
