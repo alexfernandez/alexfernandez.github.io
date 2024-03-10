@@ -41,7 +41,7 @@ I have since come to appreciate a more classic design.)
 ![An spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
 
 It is quite aerodynamic, or should be:
-drag of a spheroid is between 0.02 and 0.04,
+the drag coefficient of a spheroid is between 0.02 and 0.04,
 according to [GE Dorrington in "Drag of Spheroid-Cone Shaped Airship"](https://doi.org/10.2514/1.14796).
 Also it is simple to model and build.
 So let's go with a spheroid!
@@ -193,7 +193,7 @@ for our total surface of 20 m² we get:
 
 ```
 W(bag) = 0.040 mm * 1.19 g/cm³ * 20 m²
-= 950 g ~ 1 kg
+= 950 g ≈ 1 kg
 ```
 
 So another kg for our weight budget.
@@ -257,6 +257,7 @@ Let's recall the drag equation:
 using the density of air of 1.3 kg/m³,
 the surface of 20 m²
 and the drag coefficient we saw above for a spheroid with a cone of `0.03`.
+(Note: carbon fiber is a very polished surface so the drag coefficient might be even lower.)
 Spoiler alert, power is just force multiplied by velocity,
 so we just add another velocity:
 
@@ -434,11 +435,11 @@ and custom carbon fiber panels are expensive.
 
 But everything seems doable by a reasonably well equipped workshop.
 
-## History
+## 📜 History
 
 https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/
 
-## 🔮 Changes
+### 🔮 Changes
 
 In the [last article](https://pinchito.es/2023/avis-aeterna)
 I used a reference design 10 meters long and 10 meters wide.
@@ -461,6 +462,53 @@ surely something else will fail before gas runs out after a million days.
 
 A bigger model should have some kind of atmospheric water gathering,
 from which it can generate hydrogen by electrolisis to replenish any leaks.
+With a 3 m reference length model we get a volume and area of:
+
+```
+V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
+S ≈ 5 * 3 m * 3 m = 45 m²
+```
+
+And we are back to approximations.
+Remember that weight is near 1 kg per m³;
+with a weight of nearly 30 kg we can do more useful things.
+
+### ⚡ Max Speed
+
+What will be the top speed of the avis at any length?
+Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²:
+
+```
+S(top) ≈ l * 2l / 2 = ,
+P ≈ 300 W/m² * S(top) ≈ 300 W/m² * l²,
+```
+
+If the drag coefficient doesn't change,
+
+```
+P ≈ ½ ρ × v³ × C(D) × S.
+S ≈ 5 * l²
+300 W/m² * l² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5 l²
+```
+
+Therefore we can remove the terms `l²` from both sides,
+and we get a constant equation regardless of model length:
+
+```
+300 W/m² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5
+v³ ≈ 300 W/m² / (½ 1.3 kg/m³ × 0.03 * 5)
+v³ ≈ 3077 Wm/kg
+v ≈ 14 m/s
+```
+
+We get a top speed of nearly 14 m/s that doesn't change with scale.
+Keep in mind that this is in direct incident sunlight without any inefficiencies,
+so very likely speed will be lower than this unless there are major technological breakthroughs.
+
+No matter the size,
+the role of patrolling a given spot is only possible if there are no constant winds in the area.
+Otherwise the avis will have to navigate those winds by changing altitude
+or otherwise finding favorable air currents.
 
 # 🤔 Conclusion
 
