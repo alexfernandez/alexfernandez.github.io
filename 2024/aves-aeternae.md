@@ -443,7 +443,8 @@ To finish this article let's dig a bit deeper into the concept of a perpetual fl
 
 The first reason why we should do something is always:
 because it's fun!
-But it's reasonable that you might, as I do, feel the need to justify the effort
+Having wild ideas and following their feasibility is always quite entertaining.
+But it's reasonable that you might, as I do, feel the need to justify any effort beyond ideation
 with practical applications.
 
 After publishing [the first article](https://pinchito.es/2023/avis-aeterna)
@@ -456,8 +457,9 @@ Let us see what applications they envision.
 NASA commissioned a fascinating [study in 2003](https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf),
 a concept quite similar to the avis aeterna:
 an airship supposed to stay aloft for months or years
-at an altitude of 18 km or higher,
-to watch over the US coasts.
+at an altitude of 18 km or higher.
+The objectives stated are communications and wide area surveillance.
+In particular it studies how to keep the airships hovering to watch over the US coasts.
 The concept included fuel cells and an electrolyzer for hydrogen generation.
 The study doesn't ask the question of where the water for the electrolyzer should come from,
 which is intriguing due to the lack of humidity at such heights.
@@ -465,7 +467,16 @@ It appears to store water somewhere.
 
 The EU has funded the [MAAT project](https://cordis.europa.eu/project/id/285602),
 a rather bizarre concept that includes a lighter-than-air platform.
+It is intended for passenger transportation;
+although how it intends to keep passengers alive at
+[13 to 17 km](https://www.researchgate.net/profile/Michele-Trancossi/publication/257333740_MAAT_CruiserFeeder_Project_Criticalities_and_Solution_Guidelines/links/5824bd2f08ae7ea5be77e475/MAAT-Cruiser-Feeder-Project-Criticalities-and-Solution-Guidelines.pdf)
+with solar power is not explained anywhere.
 
+Finally, user [IsaacArthur](https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/)
+proposes to "support some useful communications infrastructure".
+And of course there's meteorological observation like
+[high-altitude balloons](https://en.wikipedia.org/wiki/High-altitude_balloon) do,
+although to reach high altitude the avis should have to carry more hydrogen and less cargo.
 
 ### 🫴 Scaling Up
 
@@ -519,10 +530,14 @@ We get a top speed of nearly 14 m/s that doesn't change with scale.
 Keep in mind that this is in direct incident sunlight without any inefficiencies,
 so very likely speed will be lower than this unless there are major technological breakthroughs.
 
+Keep in mind that for remaining stationary the avis needs a decent max speed to counter any winds.
 No matter the size,
 the role of patrolling a given spot is only possible if there are no constant winds in the area.
 Otherwise the avis will have to navigate those winds by changing altitude
 or otherwise finding favorable air currents.
+
+But even with a slow top speed the avis may have other applications,
+as long as it is not required to stay at exactly the same spot.
 
 ### 🔮 Changes
 
