@@ -9,8 +9,6 @@ I am a developer (little) known as
 [\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
-## Posts
-
 ### 2024
 
 ⚛️ 🇮🇪 2024-03-16: [🪽 Aves Æternaæ: Building Perpetual Flying Machines](2024/aves-aeternae)  
