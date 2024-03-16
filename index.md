@@ -9,16 +9,7 @@ I am a developer (little) known as
 [\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
-🧑‍💻 Here on my blog I like to write about my job in software engineering.  
-⚛️ There are also some articles related to Physics.  
-🦠 And some articles related to Biology.  
-🗣️ I also write about other things I'm interested in, like linguistics or event organization.  
-🇪🇸 Some articles are in Spanish.  
-🇮🇪 The rest are in English.
-
 ## Posts
-
-Latest articles first.
 
 ### 2024
 
@@ -143,6 +134,17 @@ Latest articles first.
 🧑‍💻 🇮🇪 2012-04-10: [Continuous Deployment](2012/continuous-deployment)  
 🧑‍💻 🇮🇪 2012-03-30: [Developer Discipline](2012/developer-discipline)  
 
+### Why?
+
+🧑‍💻 Here on my blog I like to write about my job in software engineering.  
+⚛️ There are also some articles related to Physics.  
+🦠 And some articles related to Biology.  
+🗣️ I also write about other things I'm interested in, like linguistics or event organization.  
+🇪🇸 Some articles are in Spanish.  
+🇮🇪 The rest are in English.
+
+Latest articles first.
+
 ## CV
 
 In case you are interested about my past experience,
@@ -154,7 +156,7 @@ or working on an interesting project for a few days.
 If you have a proposal
 [let me know](mailto:alexfernandeznpm@gmail.com).
 **Note to recruiters:**
-I am looking for freelancer gigs right now.
+I am not looking for freelancer gigs right now.
 
 ## Public Talks
 
