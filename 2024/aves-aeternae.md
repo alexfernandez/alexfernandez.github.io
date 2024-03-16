@@ -487,25 +487,42 @@ surely something else will fail before gas runs out after a million days.
 
 A bigger model should have some kind of atmospheric water gathering,
 from which it can generate hydrogen by electrolisis to replenish any leaks.
-A 6-meter-long model will have height and width of 3 meters, and we get a volume and area of:
+A 6-meter-long model will have a reference length (height and width) of 3 meters,
+and we get a volume and area of:
 
 ```
 V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
 S ≈ 5 * 3 m * 3 m = 45 m²
+W ≈ V * density ≈ 27 * 1.2 kg
+W ≈ 30 kg.
 ```
 
-And we are back to approximations.
-Remember that weight is a bit more than 1 kg per m³;
-with a weight of nearly 30 kg we can do more useful things.
+With these calculations we are back to gross approximations.
+Remember that the volume of a spheroid is approximately the cube of its reference length,
+and that the density is the difference between air and hydrogen,
+a bit more than 1 kg per m³.
+With a weight of nearly 30 kg we can do more useful things already.
 
 The law of squares and cubes,
 or [square-cube law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law),
 does funny things: a 5m reference length would be 10 meter long,
-and weigh approximately
+and weigh approximately 
 
 ```
-W = 
+W = V * d(air)
+W ≈ 5 * 5 * 5 * 1.2 kg = 150 kg
 ```
+
+Now a usable payload of 10% would get us to 15 kg.
+These dimensions would be a bit big for a bus.
+
+We don't have to stop dreaming here:
+a reference length of 10 meters would take us to over a ton of weight.
+This kind of artifact might hold a person,
+should anyone want to ride a dirigible for any reason.
+The shell might be 10 mm thick.
+If hydrogen losses remain moderate it might remain aloft for months on end
+given the right meteorological conditions.
 
 ### ⚡ Max Speed
 
@@ -553,14 +570,14 @@ as long as it is not required to stay at exactly the same spot.
 In the [last article](https://pinchito.es/2023/avis-aeterna)
 I used a reference design 10 meters long and 10 meters wide.
 That is definitely too large for an initial model.
-Also, the proportions have changed since then.
+The proportions have changed since then.
 
 We have also abandoned the idea of using hydrogen as fuel instead of using an electrical battery.
 The inefficiencies of converting energy to hydrogen,
 and then hydrogen back to energy,
 are high.
 Also the need to store the resulting water as intermediate product
-negate any weight advantages.
+negates any weight advantages.
 
 # 🤔 Conclusion
 
