@@ -429,11 +429,15 @@ If needed it can be filled with ballast.
 ### 🧩 Pieces
 
 Most of the pieces are off-the-shelf.
-Some are custom made,
-like the outer shell or the gondola;
+Some are custom made like the outer shell;
 and custom carbon fiber panels are expensive.
+But luckily these panels are mostly one shape.
+Joining them could be a challenge,
+and will probably require custom carbon fiber and fiberglass together.
 
-But everything seems doable by a reasonably well equipped workshop.
+Everything else seems doable by a reasonably well equipped workshop.
+The gondola does not hold a lot of weight,
+so might be 3D printed.
 
 ## 🖼️ The Big Picture
 
