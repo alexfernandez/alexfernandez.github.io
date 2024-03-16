@@ -134,8 +134,8 @@ Since we have 20 m² of surface,
 the areal density will be:
 
 ```
-D(A) = 4 kg / 20 m²
-= 200 g/m².
+D(A) = 4 kg / 20 m²,
+D(A) = 200 g/m².
 ```
 
 What kind of material can be strong enough at 0.2 kg per square meter?
@@ -192,8 +192,8 @@ Given the density of PVA of 1.19 g/cm³,
 for our total surface of 20 m² we get:
 
 ```
-W(bag) = 0.040 mm * 1.19 g/cm³ * 20 m²
-= 950 g ≈ 1 kg
+W(bag) ≈ 0.040 mm × 1.19 g/cm³ × 20 m²
+W(bag) ≈ 950 g ≈ 1 kg
 ```
 
 So another kg for our weight budget.
@@ -224,12 +224,12 @@ Pressure inside the bag will not be much higher than 1 atm;
 even [balloons](https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html)
 are only a few percent tighter than atmospheric pressure.
 
-Now we have everything:
+Now we have everything to compute the daily leaked quantity `Q`:
 
 ```
-Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-= 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
-= 0.0006 mol.
+Q ≈ 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
+Q ≈ 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+Q ≈ 0.0006 mol.
 ```
 
 Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
@@ -259,15 +259,15 @@ the surface of 20 m²
 and the drag coefficient we saw above for a spheroid with a cone of `0.03`.
 (Note: carbon fiber is a very polished surface so the drag coefficient might be even lower.)
 Spoiler alert, power is just force multiplied by velocity,
-so we just add another velocity:
+so we just multiply again by the velocity:
 
 `P = ½ ρ × v³ × C(D) × S.`
 
 So the power we need to move at a given velocity will be:
 
 ```
-P = ½ 1.3 kg/m³ × 0.03 × 20 m² × v³
-= 0.39 kg/m × v³
+P ≈ ½ 1.3 kg/m³ × 0.03 × 20 m² × v³,
+P ≈ 0.39 kg/m × v³.
 ```
 
 Now let's set as target speed a leisurely pace of 5 m/s,
@@ -277,10 +277,10 @@ but it will move about.
 The required power will be:
 
 ```
-P = 0.39 × 5³ kg×m²/s³ = 48.75 W
+P ≈ 0.39 × 5³ kg×m²/s³ ≈ 48.75 W.
 ```
 
-Approximately 50 watt of power will be required.
+Approximately **50 watt of power are needed to move at 5 m/s**.
 Is this possible to achieve?
 
 ### ⚙️ Motor and Propeller
@@ -495,9 +495,9 @@ A 6-meter-long model will have a reference length (height and width) of 3 meters
 and we get a volume and area of:
 
 ```
-V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
-S ≈ 5 * 3 m * 3 m = 45 m²
-W ≈ V * density ≈ 27 * 1.2 kg
+V ≈ 3 m × 3 m × 6 m / 2 = 27 m³
+S ≈ 5 × 3 m × 3 m = 45 m²
+W ≈ V × density ≈ 27 × 1.2 kg
 W ≈ 30 kg.
 ```
 
@@ -513,8 +513,8 @@ does funny things: a 5m reference length would be 10 meter long,
 and weigh approximately 
 
 ```
-W = V * d(air)
-W ≈ 5 * 5 * 5 * 1.2 kg = 150 kg
+W = V × d(air)
+W ≈ 5 × 5 × 5 × 1.2 kg = 150 kg
 ```
 
 Now a usable payload of 10% would get us to 15 kg.
@@ -531,36 +531,50 @@ given the right meteorological conditions.
 ### ⚡ Max Speed
 
 What will be the top speed of the avis at any length?
-Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²:
+Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²;
+top surface `S(top)` and generated power `P` would be:
 
 ```
-S(top) ≈ l * 2l / 2 = ,
-P ≈ 300 W/m² * S(top) ≈ 300 W/m² * l²,
+S(top) ≈ l × 2l / 2 = l²,
+P ≈ 300 W/m² × S(top) ≈ 300 W/m² × l²,
 ```
 
-If the drag coefficient doesn't change,
+Given the drag equation we can find out the required power at speed `v`:
 
 ```
-P ≈ ½ ρ × v³ × C(D) × S.
-S ≈ 5 * l²
-300 W/m² * l² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5 l²
+P ≈ ½ ρ × v³ × C(D) × S,
+S ≈ 5 × l²,
+P ≈ ½ 1.3 kg/m³ × v³ × C(D) × 5 × l².
+```
+
+Using the same drag coefficient as before of 0.03:
+
+```
+P ≈ ½ 1.3 kg/m³ × v³ × 0.03 × 5 × l²,
+P ≈ 0.1 kg/m³ × l² × v³.
+```
+
+Combining both equations for power `P`:
+
+```
+300 W/m² × l² ≈ 0.1 kg/m³ × v³ × l²
 ```
 
 Therefore we can remove the terms `l²` from both sides,
-and we get a constant equation regardless of model length:
+and we get a constant equation for max speed `v` regardless of model length:
 
 ```
-300 W/m² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5
-v³ ≈ 300 W/m² / (½ 1.3 kg/m³ × 0.03 * 5)
-v³ ≈ 3077 Wm/kg
+300 W/m² ≈ 0.1 kg/m³ × v³
+v³ ≈ 300 W/m² / 0.1 kg/m³
+v³ ≈ 3000 Wm/kg
 v ≈ 14 m/s
 ```
 
-We get a top speed of nearly 14 m/s that doesn't change with scale.
+We get a **top speed of nearly 15 m/s that doesn't change with scale**.
 Keep in mind that this is in direct incident sunlight without any inefficiencies,
 so very likely speed will be lower than this unless there are major technological breakthroughs.
 
-Keep in mind that for remaining stationary the avis needs a decent max speed to counter any winds.
+To remain stationary the avis needs a decent max speed to counter any winds.
 No matter the size,
 the role of patrolling a given spot is only possible if there are no constant winds in the area.
 Otherwise the avis will have to navigate those winds by changing altitude
