@@ -591,5 +591,5 @@ demonstrating its major features.
 
 ## 🙏 Acknowledgements
 
-Thanks to Carlos Santisteban for so many fruitful discussions.
+Thanks to Carlos Santisteban and Fran Barea for so many fruitful discussions.
 
