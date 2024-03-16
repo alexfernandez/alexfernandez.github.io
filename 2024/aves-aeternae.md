@@ -135,6 +135,8 @@ the areal density will be:
 
 ```
 D(A) = 4 kg / 20 m²
+```
+```
 = 200 g/m².
 ```
 
@@ -487,7 +489,7 @@ surely something else will fail before gas runs out after a million days.
 
 A bigger model should have some kind of atmospheric water gathering,
 from which it can generate hydrogen by electrolisis to replenish any leaks.
-With a 3 m reference length model we get a volume and area of:
+A 6-meter-long model will have height and width of 3 meters, and we get a volume and area of:
 
 ```
 V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
@@ -495,8 +497,17 @@ S ≈ 5 * 3 m * 3 m = 45 m²
 ```
 
 And we are back to approximations.
-Remember that weight is near 1 kg per m³;
+Remember that weight is a bit more than 1 kg per m³;
 with a weight of nearly 30 kg we can do more useful things.
+
+The law of squares and cubes,
+or [square-cube law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law),
+does funny things: a 5m reference length would be 10 meter long,
+and weigh approximately
+
+```
+W = 
+```
 
 ### ⚡ Max Speed
 
