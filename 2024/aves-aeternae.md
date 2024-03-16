@@ -1,5 +1,5 @@
 ---
-title: '🪽 Aves Æternae'
+title: '🪽 Aves Æternæ'
 subtitle: '🛩️ Building Perpetual Flying Machines'
 footer: Published on 2024-03-03, last modified on 2024-03-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
