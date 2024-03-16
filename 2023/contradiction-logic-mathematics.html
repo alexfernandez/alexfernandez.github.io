@@ -11,11 +11,13 @@
 	<head>
 		<title>🧮 Contradiction in Logic and Mathematics</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="🧮 Contradiction in Logic and Mathematics — ≢ Guide to Contradiction, Part 2" />
+		<meta name="description" content="🧮 Contradiction in Logic and
+Mathematics — ≢ Guide to Contradiction, Part 2" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="🧮 Contradiction in Logic and Mathematics — ≢ Guide to Contradiction, Part 2" />
+		<meta name="twitter:title" content="🧮 Contradiction in Logic and
+Mathematics — ≢ Guide to Contradiction, Part 2" />
 		<meta name="twitter:description" content="" />
 		<meta name="twitter:image" content="https://pinchito.es/2023/pics/contradiction-broken-sphere.jpg" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -72,100 +74,292 @@
 										<p>≢ Guide to Contradiction, Part 2<p>
 									</header>
 																				<figure>
-                    <img src="pics/contradiction-broken-sphere.jpg" title="Broken globe in the building of the United States, New York." alt="" /><figcaption>Even perfection can be broken. Source: <a href="https://www.flickr.com/photos/jezarnold/145315134/in/photostream/">Jez Arnold</a>.</figcaption>
-                    </figure>
-                    <p>In the <a href="/2023/contradiction-what-is">first part</a> we have seen how contradiction is not as easy to pinpoint as we would like. So now we ask ourselves: can we make a rock-solid definition of what a contradiction is in mathematics, or at least in logic? We will try here.</p>
-                    <h2 id="logic-contradiction">≢ Logic Contradiction?</h2>
-                    <p>We saw before that a contradiction in logic is simply:</p>
-                    <blockquote>
-                    <p>A contradiction means asserting that a statement and its contrary are true.</p>
-                    </blockquote>
-                    <h3 id="introduction-to-logic">Introduction to Logic</h3>
-                    <p>Cool, but what is <a href="https://en.wikipedia.org/wiki/Logic">logic</a>? It is a branch of philosophy (or mathematics, depending on who you ask) that studies the truth of statements, without entering on what those statements actually mean.</p>
-                    <p>We want to formalize logic to be able to speak about it in symbols: for instance, if we have a statement <code>A</code> (whatever <code>A</code> may mean), we will speak about whether <code>A</code> is true. <code>A</code> can mean “my dog is beautiful” or “Petra speaks about stained glass”; we don’t care much.</p>
-                    <p>There is a beautiful symbol <code>¬</code> which means “not” in logic. So to negate <code>A</code> we will say <code>¬A</code>, which means the opposite of <code>A</code>. So if <code>A</code> is “my dog is beautiful”, <code>¬A</code> means “my dog is <strong>not</strong> beautiful”, which will make me very angry if I like my dog. But at this level we are pure logicians and we don’t care about meaning.</p>
-                    <p>We can combine it with the symbol <code>∧</code>, which means “and”; now we can write a contradiction as:</p>
-                    <pre><code>A ∧ ¬A</code></pre>
-                    <p>which just means that both <code>A</code> and <code>¬A</code> are true. There we have it!</p>
-                    <h3 id="meaning-of-logic">🙉 Meaning of Logic</h3>
-                    <p>At this point you may be thinking:</p>
-                    <blockquote>
-                    <p>I can easily think of a sentence that can be true at the same time as its opposite.</p>
-                    </blockquote>
-                    <p>Let’s see: what if <code>A</code> is simply “It may rain”? Then we can say very reasonably say:</p>
-                    <blockquote>
-                    <p>“It may rain and it may not rain.”</p>
-                    </blockquote>
-                    <p>We need to dig a bit deeper on what a logical statement is: not just a random musing, but a rigorous statement. The favorite of logicians are what <a href="http://alexfernandez.local/2023/contradiction-what-is#ideas-and-properties">we have called properties</a>, and which are formalized as “sets”: all items belonging to a set have a certain property, and viceversa. So we could speak about “the set of all blue things” (things that have the “blue” property), or “the set of all horses” (things that have the “horseness” property), and so on.</p>
-                    <p>Now it is harder to posit that something is blue and at the same time it is not blue, given a sufficiently rigorous definition of “blue”. This will be for now the way to go.</p>
-                    <figure>
-                    <img src="pics/contradiction-trojan-horse.jpg" title="A wooden horse similar to the Trojan horse in the Iliad, in the city of Troy." alt="" /><figcaption>We will leave for later the discussion that this is clearly a horse, and yet it is clearly not a horse. Source: <a href="https://www.flickr.com/photos/jlascar/8709942456">Jorge Láscar</a>.</figcaption>
-                    </figure>
-                    <h3 id="rebuilding-maths">🏗️ Rebuilding Maths</h3>
-                    <p>Let us take a step back. Why was formal logic needed?</p>
-                    <p>At the end of the 19th century many exceptional people were thinking about how to rebuild the mighty structures of mathematics on more solid grounds. For 2300 years mathematicians had based geometry on the elements of <a href="https://en.wikipedia.org/wiki/Euclid">Euclid</a>; algebra had been developed mightily since the times of the original arab inventors but it had not been systematized. It was due time to formalize all these branches on some elementary foundations.</p>
-                    <p>First <a href="https://www.unav.es/gep/GrattanGuinness.pdf">algebra was systematized in 1870</a> by <a href="https://en.wikipedia.org/wiki/Benjamin_Peirce">Benjamin Peirce</a>. In 1874 <a href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a> published an article that started the field of <a href="https://en.wikipedia.org/wiki/Set_theory">set theory</a>. Soon afterwards in 1889 number theory was systematized around <a href="https://en.wikipedia.org/wiki/Peano_axioms">a few axioms</a> by <a href="https://en.wikipedia.org/wiki/Giuseppe_Peano">Giuseppe Peano</a>, based on set theory.</p>
-                    <p>At the turn of the century it was time to seek the logic underpinnings of it all. A set of wonderful pioneers, including <a href="https://en.wikipedia.org/wiki/Gottlob_Frege">Gottlob Frege</a>, <a href="https://en.wikipedia.org/wiki/Bertrand_Russell">Bertrand Russell</a>, <a href="https://en.wikipedia.org/wiki/Alfred_North_Whitehead">Alfred Whitehead</a> and <a href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert</a> along with Cantor who invented it all, formalized set theory and mathematical logic. They introduced <a href="https://en.wikipedia.org/wiki/First-order_logic">first-order logic</a>, which has symbols like <code>∀</code> “for all”, <code>∃</code> “exists”, ∈ “belongs”.</p>
-                    <h3 id="back-to-contradiction">🙅 Back to Contradiction</h3>
-                    <p>Shortly after creating this system, in 1901 Russell brought out his famous <a href="https://en.wikipedia.org/wiki/Russell%27s_paradox">paradox</a>: if we have the set of all sets that do not belong to themselves, does it belong to itself? Sounds like a stupid question, but it brings up a paradox. If it belongs to itself, then it doesn’t belong to the set (itself); but if it doesn’t belong to itself, then it belongs to itself.</p>
-                    <p>In symbols:</p>
-                    <pre><code>R = {x: x ∉ x}, R ∈ R ↔ R ∉ R</code></pre>
-                    <p>This paradox brought the whole building down: according to the principle of <a href="https://en.wikipedia.org/wiki/Reductio_ad_absurdum"><em>reductio ad absurdum</em></a>, any chain of reasonings that result in a contradiction mean that the initial suppositions are wrong. Therefore there was something rotten in this logic system, and it had to be fixed.</p>
-                    <h3 id="fixing-the-mess">🩹 Fixing the Mess</h3>
-                    <p>Intuitively it doesn’t seem very hard: just avoid specifying sets that speak about themselves in the definition.</p>
-                    <p>The task of rigorously axiomatizing set theory would fall on <a href="Ernst%20Zermelo">Ernst Zermelo</a>, who along a few other mathematicians and with the help of the <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of choice</a>, would create the <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel set theory</a>: the standard formalization of set theory used today.</p>
-                    <p>In essence, we are dealing with sets which behave like properties of things: <code>x ∈ A</code> means that element <code>x</code> has a certain property. In fact a set <code>P</code> can be defined as containing all elements that have a certain property <code>ψ()</code>:</p>
-                    <pre><code>∀x: x ∈ P ↔ ψ(x)</code></pre>
-                    <p>In words: for any element <code>x</code>, <code>x</code> belongs to <code>P</code> implies that <code>ψ(x)</code> is true, and viceversa: only elements for which <code>ψ(x)</code> is true can belong to <code>P</code>.</p>
-                    <p>Using these axioms we cannot define a property of belonging to itself, we cannot define the set of all sets, and so on: we have avoided the paradox.</p>
-                    <p>The <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of choice</a> had to be added to deal with infinite sets: it says that it is possible to pick an element from each set of a collection to create a new set. It seems stupid and it took me many years to even grasp its importance, but it is necessary for many derivations.</p>
-                    <h2 id="rebuilding-maths-1">🏛️ Rebuilding Maths</h2>
-                    <p>Once sound foundations for mathematics were laid out, it was time to rebuild everything based on set theory.</p>
-                    <p>This was part of <a href="https://en.wikipedia.org/wiki/Hilbert%27s_program">Hilbert’s program</a> in the 1920s: setting a rigorous basis for all mathematics based on <a href="https://en.wikipedia.org/wiki/Mathematical_logic">mathematical logic</a> that was complete, consistent and could decide if any statement is true.</p>
-                    <h3 id="not-so-solid">🏚️ Not So Solid?</h3>
-                    <p>The first cracks appeared when <a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a> proved his famous <a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">incompleteness theorems</a> in 1931: it is impossible to find the truth of all statements with any set of axioms in a finite set of steps. But this was just a minor inconvenience in the big scheme of things.</p>
-                    <p>The problem of having a huge rigorous building built out of a small set of principles is that it has to be <strong>completely consistent</strong>: any contradiction that arises in any of its branches means that the building is inconsistent. So we can look in the darkest corners of mathematics looking for cracks, and any paradoxes we find will <strong>invalidate the whole of mathematics</strong>.</p>
-                    <p>Let us poke for a bit to see what we find.</p>
-                    <h3 id="σ-ramanujan-summation">Σ Ramanujan Summation</h3>
-                    <p>What do you think the sum of all positive numbers is going to be?</p>
-                    <pre><code>1 + 2 + 3 + 4 + 5 + 6 + ⋯ = ?</code></pre>
-                    <p>It is a <a href="https://en.wikipedia.org/wiki/Ramanujan_summation">well known result</a> from the Indian prodigy <a href="https://en.wikipedia.org/wiki/Srinivasa_Ramanujan">Srinivasa Ramanujan</a> that the sum is -1/12:</p>
-                    <pre><code>1 + 2 + 3 + 4 + 5 + 6 + ⋯ = -1/12.</code></pre>
-                    <p>The trivial proof is quite interesting as it involves a few infinite series; you can see it in the <a href="https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF">Wikipedia article</a>, or you can watch this <a href="https://www.youtube.com/watch?v=w-I6XTVZXww">excellent 7 minute Numberphile video</a>.</p>
-                    <p>This formula is not just a mathematical trick; a more rigorous proof can be found by <a href="https://en.wikipedia.org/wiki/Zeta_function_regularization">regularization of the zeta function</a>. The result is used in physics to get meaningful values of divergent series. It is a <strong>glaring contradiction</strong>: the sum is divergent (tends to infinity), yet it can be shown to converge (tends to a finite value).</p>
-                    <pre><code>1 + 2 + 3 + 4 + ⋯ → ∞ ∧ 1 + 2 + 3 + 4 + ⋯ = -1/12. </code></pre>
-                    <h3 id="multiplying-spheres">🌐 Multiplying Spheres</h3>
-                    <p>There is more. A very interesting result is the <a href="https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox">Banach–Tarski paradox</a>, published in 1924: it is possible to break up a sphere into a finite number of pieces, then reassemble them into <strong>two identical spheres</strong>, therefore doubling the volume of the original. The pieces are not stretched; just moved around and rotated.</p>
-                    <figure>
-                    <img src="pics/contradiction-banach-tarski.svg" title="A solid sphere is broken into a finite number of pieces, then reassembled into two identical spheres." alt="" /><figcaption>The miracle of the multiplying spheres. Source: <a href="https://en.wikipedia.org/wiki/File:Banach-Tarski_Paradox.svg">bdesham and Sean Kelly</a>.</figcaption>
-                    </figure>
-                    <p>Note that the pieces are not finite; each one has an infinite number of points, so they are not “pieces” in the sense that we usually use: you cannot just take your axe, chop up a sphere and reassemble the pieces into two identical spheres.</p>
-                    <p>Is this possible only with three-dimensional bodies? In fact <a href="https://en.wikipedia.org/wiki/John_von_Neumann">John von Neumann</a> <a href="https://en.wikipedia.org/wiki/Von_Neumann_paradox">discovered in 1929</a> that the same trick can be done with a planar figure: take a flat circle, divide it into parts, move and turn those parts, and then reassemble them into two flat circles.</p>
-                    <p>Again we have a contradiction: by taking a solid figure, dividing it up in pieces and applying only transformations that do not change the area, we have changed the area.</p>
-                    <h3 id="pinpointing-the-problem">♾️ Pinpointing the Problem</h3>
-                    <p>So, is there any principle in mathematics which is particularly problematic, and that we can leave out to avoid contradictions, keeping the rest?</p>
-                    <p>In fact there is! It would seem that dealing with infinites is problematic: adding infinite series, chopping up figures in sets with infinite points. But infinites were introduced, remember, to help deal with paradoxes like those of Zenon: Achilles running after the turtle but never reaching it because he had to run an inifinite number of steps. In particular, mathematicians have pinpointed the trouble to the same <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of choice</a> that was introduced in set theory to help deal with sets with infinite elements.</p>
-                    <p>Can we rebuild mathematics without the axiom of choice? Apparently it’s so useful that mathematicians don’t want to give it up! According to wikipedia there have been some efforts to reconstruct mathematics without it, like <a href="https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)">constructivism</a>, but they are not very popular.</p>
-                    <p>Therefore, if modern mathematics lead to contradiction, we should reject all of it in a giant exercise of <a href="https://en.wikipedia.org/wiki/Reductio_ad_absurdum"><em>reductio ad absurdum</em></a>. And then rebuild all of it with different foundations. But not many people seem to be willing to do it because it is boring?</p>
-                    <h2 id="conclusion">🤔 Conclusion</h2>
-                    <p>We came to logic and mathematics looking for eternal truth, and we find contradictions hidden in the corners. I am sure any professional mathematician can relate many other paradoxes that result in contradictions.</p>
-                    <p>Do I want to conclude, as many laypeople say, that logic and mathematics are useless, since they incur in contradictions? Not at all; I think that, with all their faults, logic and mathematics can help us think more efficiently. Being able to identify contradiction is a very helpful skill, even if sometimes we have to accept it.</p>
-                    <p>But it is still an interesting fact that even logicians and mathematicians have to accept a little contradiction in their wonderful thought cathedrals, as long as they are not too bothersome.</p>
-                    <h3 id="acknowledgements">🙏 Acknowledgements</h3>
-                    <p>I have to thank my brother Fernando for telling me about simple logic paradoxes as a kid, and for the many discussions afterwards.</p>
-                    <h1 id="to-be-continued">⏭️ To Be Continued</h1>
-                    <p>This is the second part of the series about contradiction.</p>
-                    <ul>
-                    <li>Part 1: <a href="/2023/contradiction-what-is">🤨 What Is Contradiction?</a>,</li>
-                    <li>Part 2: 🧮 Contradiction in Logic and Mathematics,</li>
-                    </ul>
-                    <p>Stay tuned!</p>
+<img src="pics/contradiction-broken-sphere.jpg"
+title="Broken globe in the building of the United States, New York."
+alt="Even perfection can be broken. Source: Jez Arnold." />
+<figcaption aria-hidden="true">Even perfection can be broken. Source: <a
+href="https://www.flickr.com/photos/jezarnold/145315134/in/photostream/">Jez
+Arnold</a>.</figcaption>
+</figure>
+<p>In the <a href="/2023/contradiction-what-is">first part</a> we have
+seen how contradiction is not as easy to pinpoint as we would like. So
+now we ask ourselves: can we make a rock-solid definition of what a
+contradiction is in mathematics, or at least in logic? We will try
+here.</p>
+<h2 id="logic-contradiction">≢ Logic Contradiction?</h2>
+<p>We saw before that a contradiction in logic is simply:</p>
+<blockquote>
+<p>A contradiction means asserting that a statement and its contrary are
+true.</p>
+</blockquote>
+<h3 id="introduction-to-logic">Introduction to Logic</h3>
+<p>Cool, but what is <a
+href="https://en.wikipedia.org/wiki/Logic">logic</a>? It is a branch of
+philosophy (or mathematics, depending on who you ask) that studies the
+truth of statements, without entering on what those statements actually
+mean.</p>
+<p>We want to formalize logic to be able to speak about it in symbols:
+for instance, if we have a statement <code>A</code> (whatever
+<code>A</code> may mean), we will speak about whether <code>A</code> is
+true. <code>A</code> can mean “my dog is beautiful” or “Petra speaks
+about stained glass”; we don’t care much.</p>
+<p>There is a beautiful symbol <code>¬</code> which means “not” in
+logic. So to negate <code>A</code> we will say <code>¬A</code>, which
+means the opposite of <code>A</code>. So if <code>A</code> is “my dog is
+beautiful”, <code>¬A</code> means “my dog is <strong>not</strong>
+beautiful”, which will make me very angry if I like my dog. But at this
+level we are pure logicians and we don’t care about meaning.</p>
+<p>We can combine it with the symbol <code>∧</code>, which means “and”;
+now we can write a contradiction as:</p>
+<pre><code>A ∧ ¬A</code></pre>
+<p>which just means that both <code>A</code> and <code>¬A</code> are
+true. There we have it!</p>
+<h3 id="meaning-of-logic">🙉 Meaning of Logic</h3>
+<p>At this point you may be thinking:</p>
+<blockquote>
+<p>I can easily think of a sentence that can be true at the same time as
+its opposite.</p>
+</blockquote>
+<p>Let’s see: what if <code>A</code> is simply “It may rain”? Then we
+can say very reasonably say:</p>
+<blockquote>
+<p>“It may rain and it may not rain.”</p>
+</blockquote>
+<p>We need to dig a bit deeper on what a logical statement is: not just
+a random musing, but a rigorous statement. The favorite of logicians are
+what <a
+href="http://alexfernandez.local/2023/contradiction-what-is#ideas-and-properties">we
+have called properties</a>, and which are formalized as “sets”: all
+items belonging to a set have a certain property, and viceversa. So we
+could speak about “the set of all blue things” (things that have the
+“blue” property), or “the set of all horses” (things that have the
+“horseness” property), and so on.</p>
+<p>Now it is harder to posit that something is blue and at the same time
+it is not blue, given a sufficiently rigorous definition of “blue”. This
+will be for now the way to go.</p>
+<figure>
+<img src="pics/contradiction-trojan-horse.jpg"
+title="A wooden horse similar to the Trojan horse in the Iliad, in the city of Troy."
+alt="We will leave for later the discussion that this is clearly a horse, and yet it is clearly not a horse. Source: Jorge Láscar." />
+<figcaption aria-hidden="true">We will leave for later the discussion
+that this is clearly a horse, and yet it is clearly not a horse. Source:
+<a href="https://www.flickr.com/photos/jlascar/8709942456">Jorge
+Láscar</a>.</figcaption>
+</figure>
+<h3 id="rebuilding-maths">🏗️ Rebuilding Maths</h3>
+<p>Let us take a step back. Why was formal logic needed?</p>
+<p>At the end of the 19th century many exceptional people were thinking
+about how to rebuild the mighty structures of mathematics on more solid
+grounds. For 2300 years mathematicians had based geometry on the
+elements of <a href="https://en.wikipedia.org/wiki/Euclid">Euclid</a>;
+algebra had been developed mightily since the times of the original arab
+inventors but it had not been systematized. It was due time to formalize
+all these branches on some elementary foundations.</p>
+<p>First <a href="https://www.unav.es/gep/GrattanGuinness.pdf">algebra
+was systematized in 1870</a> by <a
+href="https://en.wikipedia.org/wiki/Benjamin_Peirce">Benjamin
+Peirce</a>. In 1874 <a
+href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a>
+published an article that started the field of <a
+href="https://en.wikipedia.org/wiki/Set_theory">set theory</a>. Soon
+afterwards in 1889 number theory was systematized around <a
+href="https://en.wikipedia.org/wiki/Peano_axioms">a few axioms</a> by <a
+href="https://en.wikipedia.org/wiki/Giuseppe_Peano">Giuseppe Peano</a>,
+based on set theory.</p>
+<p>At the turn of the century it was time to seek the logic
+underpinnings of it all. A set of wonderful pioneers, including <a
+href="https://en.wikipedia.org/wiki/Gottlob_Frege">Gottlob Frege</a>, <a
+href="https://en.wikipedia.org/wiki/Bertrand_Russell">Bertrand
+Russell</a>, <a
+href="https://en.wikipedia.org/wiki/Alfred_North_Whitehead">Alfred
+Whitehead</a> and <a
+href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert</a>
+along with Cantor who invented it all, formalized set theory and
+mathematical logic. They introduced <a
+href="https://en.wikipedia.org/wiki/First-order_logic">first-order
+logic</a>, which has symbols like <code>∀</code> “for all”,
+<code>∃</code> “exists”, ∈ “belongs”.</p>
+<h3 id="back-to-contradiction">🙅 Back to Contradiction</h3>
+<p>Shortly after creating this system, in 1901 Russell brought out his
+famous <a
+href="https://en.wikipedia.org/wiki/Russell%27s_paradox">paradox</a>: if
+we have the set of all sets that do not belong to themselves, does it
+belong to itself? Sounds like a stupid question, but it brings up a
+paradox. If it belongs to itself, then it doesn’t belong to the set
+(itself); but if it doesn’t belong to itself, then it belongs to
+itself.</p>
+<p>In symbols:</p>
+<pre><code>R = {x: x ∉ x}, R ∈ R ↔ R ∉ R</code></pre>
+<p>This paradox brought the whole building down: according to the
+principle of <a
+href="https://en.wikipedia.org/wiki/Reductio_ad_absurdum"><em>reductio
+ad absurdum</em></a>, any chain of reasonings that result in a
+contradiction mean that the initial suppositions are wrong. Therefore
+there was something rotten in this logic system, and it had to be
+fixed.</p>
+<h3 id="fixing-the-mess">🩹 Fixing the Mess</h3>
+<p>Intuitively it doesn’t seem very hard: just avoid specifying sets
+that speak about themselves in the definition.</p>
+<p>The task of rigorously axiomatizing set theory would fall on <a
+href="Ernst%20Zermelo">Ernst Zermelo</a>, who along a few other
+mathematicians and with the help of the <a
+href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of
+choice</a>, would create the <a
+href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel
+set theory</a>: the standard formalization of set theory used today.</p>
+<p>In essence, we are dealing with sets which behave like properties of
+things: <code>x ∈ A</code> means that element <code>x</code> has a
+certain property. In fact a set <code>P</code> can be defined as
+containing all elements that have a certain property
+<code>ψ()</code>:</p>
+<pre><code>∀x: x ∈ P ↔ ψ(x)</code></pre>
+<p>In words: for any element <code>x</code>, <code>x</code> belongs to
+<code>P</code> implies that <code>ψ(x)</code> is true, and viceversa:
+only elements for which <code>ψ(x)</code> is true can belong to
+<code>P</code>.</p>
+<p>Using these axioms we cannot define a property of belonging to
+itself, we cannot define the set of all sets, and so on: we have avoided
+the paradox.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of
+choice</a> had to be added to deal with infinite sets: it says that it
+is possible to pick an element from each set of a collection to create a
+new set. It seems stupid and it took me many years to even grasp its
+importance, but it is necessary for many derivations.</p>
+<h2 id="rebuilding-maths-1">🏛️ Rebuilding Maths</h2>
+<p>Once sound foundations for mathematics were laid out, it was time to
+rebuild everything based on set theory.</p>
+<p>This was part of <a
+href="https://en.wikipedia.org/wiki/Hilbert%27s_program">Hilbert’s
+program</a> in the 1920s: setting a rigorous basis for all mathematics
+based on <a
+href="https://en.wikipedia.org/wiki/Mathematical_logic">mathematical
+logic</a> that was complete, consistent and could decide if any
+statement is true.</p>
+<h3 id="not-so-solid">🏚️ Not So Solid?</h3>
+<p>The first cracks appeared when <a
+href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a>
+proved his famous <a
+href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">incompleteness
+theorems</a> in 1931: it is impossible to find the truth of all
+statements with any set of axioms in a finite set of steps. But this was
+just a minor inconvenience in the big scheme of things.</p>
+<p>The problem of having a huge rigorous building built out of a small
+set of principles is that it has to be <strong>completely
+consistent</strong>: any contradiction that arises in any of its
+branches means that the building is inconsistent. So we can look in the
+darkest corners of mathematics looking for cracks, and any paradoxes we
+find will <strong>invalidate the whole of mathematics</strong>.</p>
+<p>Let us poke for a bit to see what we find.</p>
+<h3 id="σ-ramanujan-summation">Σ Ramanujan Summation</h3>
+<p>What do you think the sum of all positive numbers is going to be?</p>
+<pre><code>1 + 2 + 3 + 4 + 5 + 6 + ⋯ = ?</code></pre>
+<p>It is a <a
+href="https://en.wikipedia.org/wiki/Ramanujan_summation">well known
+result</a> from the Indian prodigy <a
+href="https://en.wikipedia.org/wiki/Srinivasa_Ramanujan">Srinivasa
+Ramanujan</a> that the sum is -1/12:</p>
+<pre><code>1 + 2 + 3 + 4 + 5 + 6 + ⋯ = -1/12.</code></pre>
+<p>The trivial proof is quite interesting as it involves a few infinite
+series; you can see it in the <a
+href="https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF">Wikipedia
+article</a>, or you can watch this <a
+href="https://www.youtube.com/watch?v=w-I6XTVZXww">excellent 7 minute
+Numberphile video</a>.</p>
+<p>This formula is not just a mathematical trick; a more rigorous proof
+can be found by <a
+href="https://en.wikipedia.org/wiki/Zeta_function_regularization">regularization
+of the zeta function</a>. The result is used in physics to get
+meaningful values of divergent series. It is a <strong>glaring
+contradiction</strong>: the sum is divergent (tends to infinity), yet it
+can be shown to converge (tends to a finite value).</p>
+<pre><code>1 + 2 + 3 + 4 + ⋯ → ∞ ∧ 1 + 2 + 3 + 4 + ⋯ = -1/12. </code></pre>
+<h3 id="multiplying-spheres">🌐 Multiplying Spheres</h3>
+<p>There is more. A very interesting result is the <a
+href="https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox">Banach–Tarski
+paradox</a>, published in 1924: it is possible to break up a sphere into
+a finite number of pieces, then reassemble them into <strong>two
+identical spheres</strong>, therefore doubling the volume of the
+original. The pieces are not stretched; just moved around and
+rotated.</p>
+<figure>
+<img src="pics/contradiction-banach-tarski.svg"
+title="A solid sphere is broken into a finite number of pieces, then reassembled into two identical spheres."
+alt="The miracle of the multiplying spheres. Source: bdesham and Sean Kelly." />
+<figcaption aria-hidden="true">The miracle of the multiplying spheres.
+Source: <a
+href="https://en.wikipedia.org/wiki/File:Banach-Tarski_Paradox.svg">bdesham
+and Sean Kelly</a>.</figcaption>
+</figure>
+<p>Note that the pieces are not finite; each one has an infinite number
+of points, so they are not “pieces” in the sense that we usually use:
+you cannot just take your axe, chop up a sphere and reassemble the
+pieces into two identical spheres.</p>
+<p>Is this possible only with three-dimensional bodies? In fact <a
+href="https://en.wikipedia.org/wiki/John_von_Neumann">John von
+Neumann</a> <a
+href="https://en.wikipedia.org/wiki/Von_Neumann_paradox">discovered in
+1929</a> that the same trick can be done with a planar figure: take a
+flat circle, divide it into parts, move and turn those parts, and then
+reassemble them into two flat circles.</p>
+<p>Again we have a contradiction: by taking a solid figure, dividing it
+up in pieces and applying only transformations that do not change the
+area, we have changed the area.</p>
+<h3 id="pinpointing-the-problem">♾️ Pinpointing the Problem</h3>
+<p>So, is there any principle in mathematics which is particularly
+problematic, and that we can leave out to avoid contradictions, keeping
+the rest?</p>
+<p>In fact there is! It would seem that dealing with infinites is
+problematic: adding infinite series, chopping up figures in sets with
+infinite points. But infinites were introduced, remember, to help deal
+with paradoxes like those of Zenon: Achilles running after the turtle
+but never reaching it because he had to run an inifinite number of
+steps. In particular, mathematicians have pinpointed the trouble to the
+same <a href="https://en.wikipedia.org/wiki/Axiom_of_choice">axiom of
+choice</a> that was introduced in set theory to help deal with sets with
+infinite elements.</p>
+<p>Can we rebuild mathematics without the axiom of choice? Apparently
+it’s so useful that mathematicians don’t want to give it up! According
+to wikipedia there have been some efforts to reconstruct mathematics
+without it, like <a
+href="https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)">constructivism</a>,
+but they are not very popular.</p>
+<p>Therefore, if modern mathematics lead to contradiction, we should
+reject all of it in a giant exercise of <a
+href="https://en.wikipedia.org/wiki/Reductio_ad_absurdum"><em>reductio
+ad absurdum</em></a>. And then rebuild all of it with different
+foundations. But not many people seem to be willing to do it because it
+is boring?</p>
+<h2 id="conclusion">🤔 Conclusion</h2>
+<p>We came to logic and mathematics looking for eternal truth, and we
+find contradictions hidden in the corners. I am sure any professional
+mathematician can relate many other paradoxes that result in
+contradictions.</p>
+<p>Do I want to conclude, as many laypeople say, that logic and
+mathematics are useless, since they incur in contradictions? Not at all;
+I think that, with all their faults, logic and mathematics can help us
+think more efficiently. Being able to identify contradiction is a very
+helpful skill, even if sometimes we have to accept it.</p>
+<p>But it is still an interesting fact that even logicians and
+mathematicians have to accept a little contradiction in their wonderful
+thought cathedrals, as long as they are not too bothersome.</p>
+<h3 id="acknowledgements">🙏 Acknowledgements</h3>
+<p>I have to thank my brother Fernando for telling me about simple logic
+paradoxes as a kid, and for the many discussions afterwards.</p>
+<h1 id="to-be-continued">⏭️ To Be Continued</h1>
+<p>This is the second part of the series about contradiction.</p>
+<ul>
+<li>Part 1: <a href="/2023/contradiction-what-is">🤨 What Is
+Contradiction?</a>,</li>
+<li>Part 2: 🧮 Contradiction in Logic and Mathematics,</li>
+</ul>
+<p>Stay tuned!</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2023-08-12, last modified on 2023-08-12. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2023-08-12, last modified on 2023-08-12. <a
+href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.

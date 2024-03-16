@@ -11,11 +11,13 @@
 	<head>
 		<title>🪽 Aves Æternae</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="🪽 Aves Æternae — 🛩️ Building Perpetual Flying Machines" />
+		<meta name="description" content="🪽 Aves Æternae — 🛩️ Building
+Perpetual Flying Machines" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="🪽 Aves Æternae — 🛩️ Building Perpetual Flying Machines" />
+		<meta name="twitter:title" content="🪽 Aves Æternae — 🛩️ Building
+Perpetual Flying Machines" />
 		<meta name="twitter:description" content="" />
 		<meta name="twitter:image" content="https://pinchito.es/2024/pics/aves-aeternae-model.png" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -71,236 +73,480 @@
 										<h1>🪽 Aves Æternae</h1>
 										<p>🛩️ Building Perpetual Flying Machines<p>
 									</header>
-																				<p>Last year I published an article about <a href="https://pinchito.es/2023/avis-aeterna">perpetual flying machines</a>: flying machines that could stay aloft indefinitely. The initial numbers were intriguing: the concept was viable. But nobody has done it yet. Should we accept the challenge?</p>
-                    <figure>
-                    <img src="pics/aves-aeternae-model.png" title="Three views of an airship. Source: the author." alt="" /><figcaption>Plans for a model airship.</figcaption>
-                    </figure>
-                    <h1 id="building-models">🏗️ Building Models</h1>
-                    <p>I set up to build more detailed plans with a given scale in mind. I expected to find a wall at any point where the required technology just wasn’t available, or it was too exotic to be purchased just yet. To my surprise there were no showstoppers: the technology is here, and everything seems to be feasible, right now. The engineering challenge is thus amazingly possible.</p>
-                    <h2 id="model-scale">🎚️ Model Scale</h2>
-                    <p>So let’s build a scale model! In what follows we will look at a 2×2×4 meter model, more or less the size of a car: big enough to be substantial, but small enough to be built with limited means.</p>
-                    <h3 id="proportions">🏉 Proportions</h3>
-                    <p>The classical design for a blimp or a zeppelin is a spheroid. (Yes, I know that last time I chose a design similar to a boat: square and flat profile. I have since come to appreciate a more classic design.)</p>
-                    <figure>
-                    <img src="pics/aves-ellipsoid.png" title="3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball." alt="" /><figcaption>An spheroid or ellipsoid. Source: <a href="https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png">Sam Derbyshire, Wikimedia</a>.</figcaption>
-                    </figure>
-                    <p>It is quite aerodynamic, or should be: the drag coefficient of a spheroid is between 0.02 and 0.04, according to <a href="https://doi.org/10.2514/1.14796">GE Dorrington in “Drag of Spheroid-Cone Shaped Airship”</a>. Also it is simple to model and build. So let’s go with a spheroid!</p>
-                    <h3 id="dimensions">📏 Dimensions</h3>
-                    <p>An intriguing option is to size the avis aeterna vaguely like a car: two meters wide and tall, four meters long. (For any US readers it’s 6.5 feet wide.) It is big enough to be substantial, but small enough to be built in a garage.</p>
-                    <p>This mandates all of the proportions of the model: with the value of two meters and the <a href="https://en.wikipedia.org/wiki/Spheroid">spheroid</a> equations we can compute everything else. First we have a prolate spheroid with axis <code>A=2m</code>, and length <code>C=4m</code>. The volume contained becomes:</p>
-                    <p><code>V = πA²C/6 ≈ A²C/2,</code></p>
-                    <p>which is a surprisingly accurate formula (actual factor above should be 0.523). In our case:</p>
-                    <p><code>V ≈ 2m × 2m × 4m / 2 = (2m)³ = 8 m³.</code></p>
-                    <p>And the area is very approximately:</p>
-                    <p><code>S ≈ 5 × 2m × 2m = 5 × 4m² = 20 m².</code></p>
-                    <p>These are the basic parameters of our model.</p>
-                    <h3 id="weight">⚖️ Weight</h3>
-                    <p>You may remember that the plan was to fill the airship with hydrogen: even lighter than helium, and quite cheaper. For an uncrewed vehicle the risks are negligible. Also, for a continuously flying machine hydrogen can be replenished in flight, as we will see later.</p>
-                    <p>How much will our model weight? Exactly as much as the air displaced by the hydrogen: we compute the weight of the air inside, and then subtract the weight of the same volume of hydrogen. Since the density of air is 1.3 kg/m³, and of hydrogen is 70 g/m³, lift will be:</p>
-                    <p>`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.</p>
-                    <p>So our budget is around 10 kg. As you see, at this stage it’s not enough to do Fermi estimations (i.e. order of magnitude): for a detailed feasibility study we need more precise numbers. It is still OK to round up numbers as we did above with surface and volume.</p>
-                    <h2 id="build">🛠️ Build</h2>
-                    <p>How can we build a real life airship, even if it’s a small one?</p>
-                    <h3 id="structure">🪚 Structure</h3>
-                    <p>We want to build a dirigible: an aircraft which is sustented by the lift of a light gas.</p>
-                    <p>real dirigible, not a blimp: the difference is that the dirigible or zeppelin has a rigid structure, while blimps are just inflatable. We know that dirigibles worked beautifully, and with ancient 1900s materials even, but is it possible to do it at this scale?</p>
-                    <p>Let’s go with the simplest structure: just a shell. We can set up a rigid hull that contains a sack, which in turn holds our lifting gas. What is the weight per square meter that we can afford?</p>
-                    <p>First we have to set up a budget: how much of our 10 kg we want to spend in the shell. It seems obvious that this is going to be our biggest source of weight, and that we should reserve for it as much as we can afford: a stronger structure is going to hold up better against strong winds or impacts. Let us say half our weight is for the structure.</p>
-                    <p>We have to reserve some weight for the wings and other parts. Let us say 4 kg for the hull. Since we have 20 m² of surface, the areal density will be:</p>
-                    <pre><code>D(A) = 4 kg / 20 m²</code></pre>
-                    <pre><code>= 200 g/m².</code></pre>
-                    <p>What kind of material can be strong enough at 0.2 kg per square meter? Only <a href="https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers">carbon fiber</a> fits the bill. It is a very interesting material made of carbon fibers embedded in an epoxy resin, which when cured results in super strong panels.</p>
-                    <h3 id="wings-and-reinforcements">🪽 Wings and Reinforcements</h3>
-                    <p>We set aside a budget of one kg for the rest of the hull.</p>
-                    <p>The wings need also be built using carbon fiber. They need to be even stronger than the outer shell. Two wings and a tail on top are of the same approximate dimensions: 60 x 80 cm, for a total area of approx. one third of a m². The three share an area of 1 m². The areal density needs to be at least twice of the shell, probably 500 g/m², for a total weight of 0.5 kg.</p>
-                    <p>Also some reinforcements are required where the parts are joined. It is impossible to build the hull in one go; different pieces have to built and assembled. In our case we can build eight identical panels, which is quite convenient from the manufacture point of view. Then they can be assembled together using reinforcements, built using carbon fiber and glass fiber for elasticity.</p>
-                    <figure>
-                    <img src="pics/aves-aeternae-hull.png" title="A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author." alt="" /><figcaption>Eight pieces of the hull: four on top, four below.</figcaption>
-                    </figure>
-                    <p>Finally we need a small cone to place at the front. Together the budget of 1 kg seems doable.</p>
-                    <h3 id="hydrogen-sack">🎈 Hydrogen Sack</h3>
-                    <p>Inside the hull a large bag will hold the gas. At this scale we don’t want a complicated set of sacks containing the hydrogen; just one big bag will do.</p>
-                    <p>Helium balloons are usually done with Mylar, but there are materials that leak even less hydrogen: PVA is a very strong contender.</p>
-                    <p>In <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei <em>et al</em></a> the team experiment with several coatings, finding that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.</p>
-                    <p>Luckily it is not hard to get PVA bags, as they are widely used in industry because they are biodegradable. One precaution is that PVA dissolves in water, so the interior of the structure must be kept dry.</p>
-                    <p>Bags with thickness of 40 microns are quite common in the industry. Given the density of PVA of 1.19 g/cm³, for our total surface of 20 m² we get:</p>
-                    <pre><code>W(bag) = 0.040 mm * 1.19 g/cm³ * 20 m²
-                    = 950 g ≈ 1 kg</code></pre>
-                    <p>So another kg for our weight budget.</p>
-                    <h3 id="hydrogen-leaks">💨 Hydrogen Leaks</h3>
-                    <p>How much hydrogen would leak out of our PVA bag in a day? This of course depends on how well sealed the bag is, and the quality of the materials. We can use a unit of permeability called <a href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it. Again in <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei <em>et al</em></a> the permeability of PVA is given as 0.0084 barrer. Given the definition of 1 barrer in SI units:</p>
-                    <p><code>1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),</code></p>
-                    <p>the computations are a bit messy but can be done as follows. The leaked gas will be:</p>
-                    <p><code>Quantity = Per × Surface × time × Pressure / thickness,</code></p>
-                    <p>Remember that our surface is 20 m². We will compute the leaked quantity for a day or 86400 seconds, at atmospheric pressure or 101325 Pascal with a 40 micron bag. Pressure inside the bag will not be much higher than 1 atm; even <a href="https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html">balloons</a> are only a few percent tighter than atmospheric pressure.</p>
-                    <p>Now we have everything:</p>
-                    <pre><code>Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-                    = 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
-                    = 0.0006 mol.</code></pre>
-                    <p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g, so we are leaking a bit more than half a milligram per day. Not bad considering that we have around 0.5 kg of hydrogen! We might stay aloft for a million days at this rate. These nubers do not look very realistic, and have to be contrasted with real world tests with real bags. But the safety margin is quite large.</p>
-                    <h2 id="energy-sources">⚡ Energy Sources</h2>
-                    <p>The airship needs to be able to direct its flight. It needs a power source that gives enough energy for our purposes. Being a demonstration model it doesn’t need to withstand any kind of weather, but it needs to manouver at a certain speed.</p>
-                    <h3 id="power">🛩️ Power</h3>
-                    <p>How much power do we need? Let’s recall the drag equation:</p>
-                    <p><code>F(D) = ½ ρ × v² × C(D) × S,</code></p>
-                    <p>using the density of air of 1.3 kg/m³, the surface of 20 m² and the drag coefficient we saw above for a spheroid with a cone of <code>0.03</code>. (Note: carbon fiber is a very polished surface so the drag coefficient might be even lower.) Spoiler alert, power is just force multiplied by velocity, so we just add another velocity:</p>
-                    <p><code>P = ½ ρ × v³ × C(D) × S.</code></p>
-                    <p>So the power we need to move at a given velocity will be:</p>
-                    <pre><code>P = ½ 1.3 kg/m³ × 0.03 × 20 m² × v³
-                    = 0.39 kg/m × v³</code></pre>
-                    <p>Now let’s set as target speed a leisurely pace of 5 m/s, or 18 km/h (11 mph). Our avis aeterna is not going to be a speed demon, but it will move about. The required power will be:</p>
-                    <pre><code>P = 0.39 × 5³ kg×m²/s³ = 48.75 W</code></pre>
-                    <p>Approximately 50 watt of power will be required. Is this possible to achieve?</p>
-                    <h3 id="motor-and-propeller">⚙️ Motor and Propeller</h3>
-                    <p>From this power budget we have to discount the efficiency of motor and propeller. Luckily thanks to the RC industry there are a lot of very efficient motors (brushless and sensored are apparently the way to go) and propellers which are powerful and light enough.</p>
-                    <p>There is at least a 20% reduction in efficiency due to the combination of motor and propeller to be taken into account. So our 50 W of impulse become at least 60 W at generation. Also, the weight of two motors and two propellers (each at the side of the airship to help keep the balance) should be well below 500 g.</p>
-                    <h3 id="solar-energy">☀️ Solar Energy</h3>
-                    <p>There are not many renewable sources of energy up in the air. The most obvious is the Sun: embed some solar panels on top of our hull and we are good to go!</p>
-                    <p>Ultralight panels are not easy to find. But there are companies commercializing powerful panels today. One such example is the <a href="https://www.solbian.eu/en/sp-series/26-sp-24.html">Solbian SP 24</a>, which provides a nominal 82 W with a weight of 1.1 kg.</p>
-                    <p>Keep in mind that solar panels always provide less power than advertised, even in full sun. So it is possible that at midday in optimal weather in a temperate country this panel might get to give us the 60 W we need. We might use a couple of these panels to reach more power, but then the airship may become top-heavy and destabilize.</p>
-                    <p>It is not unusual to see promises of much more powerful solar cells. <a href="https://news.mit.edu/2022/ultrathin-solar-cells-1209">MIT researchers</a> were promising 370 W/kg in 2022, which would be closer to what we need. And the Airbus Zephyr uses Microlink solar sheets <a href="https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html">exceeding 1500 W/kg</a>, and 350 W/m2.</p>
-                    <p>We might even get to 10 m/s with this kind of power. But keep in mind that the cubed equation we got above for power is quite treacherous: to get to 10 m/s we would need 8 times more power than for our 5 m/s, or 480 W. For now we will probably have to keep to our target speed.</p>
-                    <h3 id="wind-energy">🌬️ Wind Energy</h3>
-                    <p>An intriguing possibility, and one which does not require any technological leaps of faith, is to use wind energy.</p>
-                    <p>But wait, how can you use wind energy to propel yourself if you are moving in the wind? It’s the same principle as regenerative braking in electric cars: you let the motor spin freely, and instead of spending energy to move the wheels, the movement of the wheels charges the battery. Same principle: Yokota and Fujimoto investigated the principle in planes in <a href="https://www.jstage.jst.go.jp/article/ieejjia/11/2/11_21005706/_pdf">Pitch Angle Control by Regenerative Air Brake for Electric Aircraft</a>, and it is perfectly possible if the wings are oriented correctly. It even decelerates the aircraft, which is logical since the energy is taken from the flowing air.</p>
-                    <p>So the idea would be: orient the airship so the propellers move maximally, stop the motor and let it charge the batteries. The craft would slow down at the same time so it would not be carried away by the wind so fast. Then, once the batteries are charged start the propellers and move back to the desired position. This process can be repeated as often as desired; of course it will not be very efficient but might help not drift away too much e.g. at night.</p>
-                    <h3 id="batteries">🔋 Batteries</h3>
-                    <p>Speaking of which, is there any of that weight budget left at this point for the batteries? They are intended to store some of the solar and wind energy during the day, and use it at night to avoid drifting away.</p>
-                    <p>We will have to set aside at least 1 kg for a good battery. We can get <a href="https://www.jinbei-deutschland.de/en/products/v-mount-battery-180-wh-28309">180 Wh commercially</a> today. This means driving our propellers at 60 W for three hours, which is not bad.</p>
-                    <h2 id="finishing-touches">💅 Finishing Touches</h2>
-                    <p>We still have tomake sure this thing is light enough to get in the air, and then fly it.</p>
-                    <h3 id="control">💻 Control</h3>
-                    <p>Let’s start by how to fly it. The idea is to build an autonomous drone, so it needs to have enough sensors to know where it is and what it is doing. Also an onboard computer, and servos to move the control surfaces: ailerons on wings and tail.</p>
-                    <p>Today there is no wonder in getting a GPS, accelerometers, world-wide communications, camera, microphone, plus a powerful computer into a compact package weighing less than 0.25 kg. We call it “mobile phone”. But we may need something like a Raspberry Pi with electric controls to drive the servos. Ideally we should get something that does both functions, something like a Raspberry Pi which might do both functions since it has a 4G module.</p>
-                    <p>We can spare 0.5 kg for the onboard computer while servos might take 0.2 kg at most.</p>
-                    <h3 id="weight-budget">🧮 Weight Budget</h3>
-                    <p>Let’s add up a few other weights: a carbon fiber gondola is required to hold battery and onboard computer below the hull, and help compensate the weight of the solar panels. It might weigh 0.5 kg. We also need some cabling for 0.2 kg.</p>
-                    <p>These are our total weights:</p>
-                    <table>
-                    <thead>
-                    <tr class="header">
-                    <th>part</th>
-                    <th>material</th>
-                    <th>weight (kg)</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="odd">
-                    <td>outer shell</td>
-                    <td>carbon fiber</td>
-                    <td>4</td>
-                    </tr>
-                    <tr class="even">
-                    <td>wings and tail</td>
-                    <td>carbon fiber</td>
-                    <td>0.5</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>reinforcements</td>
-                    <td>carbon fiber</td>
-                    <td>0.5</td>
-                    </tr>
-                    <tr class="even">
-                    <td>envelope</td>
-                    <td>PVA</td>
-                    <td>1</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>gondola</td>
-                    <td>carbon fiber</td>
-                    <td>0.4</td>
-                    </tr>
-                    <tr class="even">
-                    <td>battery</td>
-                    <td>LiPo</td>
-                    <td>1</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>motors</td>
-                    <td></td>
-                    <td>0.1</td>
-                    </tr>
-                    <tr class="even">
-                    <td>propellers</td>
-                    <td></td>
-                    <td>0.2</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>solar panel</td>
-                    <td></td>
-                    <td>1.1</td>
-                    </tr>
-                    <tr class="even">
-                    <td>cables and servos</td>
-                    <td></td>
-                    <td>0.2</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>computer</td>
-                    <td></td>
-                    <td>0.5</td>
-                    </tr>
-                    <tr class="even">
-                    <td>lift</td>
-                    <td>hydrogen</td>
-                    <td>-9.84</td>
-                    </tr>
-                    <tr class="odd">
-                    <td>total</td>
-                    <td></td>
-                    <td>-0.34</td>
-                    </tr>
-                    </tbody>
-                    </table>
-                    <p>The budget seems feasible, and we even have 0.3 kg to spare. If needed it can be filled with ballast.</p>
-                    <h3 id="pieces">🧩 Pieces</h3>
-                    <p>Most of the pieces are off-the-shelf. Some are custom made, like the outer shell or the gondola; and custom carbon fiber panels are expensive.</p>
-                    <p>But everything seems doable by a reasonably well equipped workshop.</p>
-                    <h2 id="the-big-picture">🖼️ The Big Picture</h2>
-                    <p>To finish this article let’s dig a bit deeper into the concept of a perpetual flying machine.</p>
-                    <h3 id="but-why">🤌 But Why?</h3>
-                    <p>The first reason why we should do something is always: because it’s fun! Having wild ideas and following their feasibility is always quite entertaining. But it’s reasonable that you might, as I do, feel the need to justify any effort beyond ideation with practical applications.</p>
-                    <p>After publishing <a href="https://pinchito.es/2023/avis-aeterna">the first article</a> I have found a number of references to similar projects; from <a href="https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf">obscure NASA projects from the 2000s</a> to <a href="https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/">random posts on Reddit</a>. Let us see what applications they envision.</p>
-                    <p>NASA commissioned a fascinating <a href="https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf">study in 2003</a>, a concept quite similar to the avis aeterna: an airship supposed to stay aloft for months or years at an altitude of 18 km or higher. The objectives stated are communications and wide area surveillance. In particular it studies how to keep the airships hovering to watch over the US coasts. The concept included fuel cells and an electrolyzer for hydrogen generation. The study doesn’t ask the question of where the water for the electrolyzer should come from, which is intriguing due to the lack of humidity at such heights. It appears to store water somewhere.</p>
-                    <p>The EU has funded the <a href="https://cordis.europa.eu/project/id/285602">MAAT project</a>, a rather bizarre concept that includes a lighter-than-air platform. It is intended for passenger transportation; although how it intends to keep passengers alive at <a href="https://www.researchgate.net/profile/Michele-Trancossi/publication/257333740_MAAT_CruiserFeeder_Project_Criticalities_and_Solution_Guidelines/links/5824bd2f08ae7ea5be77e475/MAAT-Cruiser-Feeder-Project-Criticalities-and-Solution-Guidelines.pdf">13 to 17 km</a> with solar power is not explained anywhere.</p>
-                    <p>Finally, user <a href="https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/">IsaacArthur</a> proposes to “support some useful communications infrastructure”. And of course there’s meteorological observation like <a href="https://en.wikipedia.org/wiki/High-altitude_balloon">high-altitude balloons</a> do, although to reach high altitude the avis should have to carry more hydrogen and less cargo.</p>
-                    <h3 id="scaling-up">🫴 Scaling Up</h3>
-                    <p>This scale model does not have any kind of hydrogen regeneration: it simply does not fit. According to our calculations it doesn’t need it either: surely something else will fail before gas runs out after a million days.</p>
-                    <p>A bigger model should have some kind of atmospheric water gathering, from which it can generate hydrogen by electrolisis to replenish any leaks. A 6-meter-long model will have height and width of 3 meters, and we get a volume and area of:</p>
-                    <pre><code>V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
-                    S ≈ 5 * 3 m * 3 m = 45 m²</code></pre>
-                    <p>And we are back to approximations. Remember that weight is a bit more than 1 kg per m³; with a weight of nearly 30 kg we can do more useful things.</p>
-                    <p>The law of squares and cubes, or <a href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">square-cube law</a>, does funny things: a 5m reference length would be 10 meter long, and weigh approximately</p>
-                    <pre><code>W = </code></pre>
-                    <h3 id="max-speed">⚡ Max Speed</h3>
-                    <p>What will be the top speed of the avis at any length? Let’s suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²:</p>
-                    <pre><code>S(top) ≈ l * 2l / 2 = ,
-                    P ≈ 300 W/m² * S(top) ≈ 300 W/m² * l²,</code></pre>
-                    <p>If the drag coefficient doesn’t change,</p>
-                    <pre><code>P ≈ ½ ρ × v³ × C(D) × S.
-                    S ≈ 5 * l²
-                    300 W/m² * l² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5 l²</code></pre>
-                    <p>Therefore we can remove the terms <code>l²</code> from both sides, and we get a constant equation regardless of model length:</p>
-                    <pre><code>300 W/m² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5
-                    v³ ≈ 300 W/m² / (½ 1.3 kg/m³ × 0.03 * 5)
-                    v³ ≈ 3077 Wm/kg
-                    v ≈ 14 m/s</code></pre>
-                    <p>We get a top speed of nearly 14 m/s that doesn’t change with scale. Keep in mind that this is in direct incident sunlight without any inefficiencies, so very likely speed will be lower than this unless there are major technological breakthroughs.</p>
-                    <p>Keep in mind that for remaining stationary the avis needs a decent max speed to counter any winds. No matter the size, the role of patrolling a given spot is only possible if there are no constant winds in the area. Otherwise the avis will have to navigate those winds by changing altitude or otherwise finding favorable air currents.</p>
-                    <p>But even with a slow top speed the avis may have other applications, as long as it is not required to stay at exactly the same spot.</p>
-                    <h3 id="changes">🔮 Changes</h3>
-                    <p>In the <a href="https://pinchito.es/2023/avis-aeterna">last article</a> I used a reference design 10 meters long and 10 meters wide. That is definitely too large for an initial model. Also, the proportions have changed since then.</p>
-                    <p>We have also abandoned the idea of using hydrogen as fuel instead of using an electrical battery. The inefficiencies of converting energy to hydrogen, and then hydrogen back to energy, are high. Also the need to store the resulting water as intermediate product negate any weight advantages.</p>
-                    <h1 id="conclusion">🤔 Conclusion</h1>
-                    <p>It should be possible to create a car-sized model of an avis aeterna, to stay aloft for several days, demonstrating its major features.</p>
-                    <h2 id="acknowledgements">🙏 Acknowledgements</h2>
-                    <p>Thanks to Carlos Santisteban for so many fruitful discussions.</p>
+																				<p>Last year I published an article about <a
+href="https://pinchito.es/2023/avis-aeterna">perpetual flying
+machines</a>: flying machines that could stay aloft indefinitely. The
+initial numbers were intriguing: the concept was viable. But nobody has
+done it yet. Should we accept the challenge?</p>
+<figure>
+<img src="pics/aves-aeternae-model.png"
+title="Three views of an airship. Source: the author."
+alt="Plans for a model airship." />
+<figcaption aria-hidden="true">Plans for a model airship.</figcaption>
+</figure>
+<h1 id="building-models">🏗️ Building Models</h1>
+<p>I set up to build more detailed plans with a given scale in mind. I
+expected to find a wall at any point where the required technology just
+wasn’t available, or it was too exotic to be purchased just yet. To my
+surprise there were no showstoppers: the technology is here, and
+everything seems to be feasible, right now. The engineering challenge is
+thus amazingly possible.</p>
+<h2 id="model-scale">🎚️ Model Scale</h2>
+<p>So let’s build a scale model! In what follows we will look at a 2×2×4
+meter model, more or less the size of a car: big enough to be
+substantial, but small enough to be built with limited means.</p>
+<h3 id="proportions">🏉 Proportions</h3>
+<p>The classical design for a blimp or a zeppelin is a spheroid. (Yes, I
+know that last time I chose a design similar to a boat: square and flat
+profile. I have since come to appreciate a more classic design.)</p>
+<figure>
+<img src="pics/aves-ellipsoid.png"
+title="3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball."
+alt="An spheroid or ellipsoid. Source: Sam Derbyshire, Wikimedia." />
+<figcaption aria-hidden="true">An spheroid or ellipsoid. Source: <a
+href="https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png">Sam
+Derbyshire, Wikimedia</a>.</figcaption>
+</figure>
+<p>It is quite aerodynamic, or should be: the drag coefficient of a
+spheroid is between 0.02 and 0.04, according to <a
+href="https://doi.org/10.2514/1.14796">GE Dorrington in “Drag of
+Spheroid-Cone Shaped Airship”</a>. Also it is simple to model and build.
+So let’s go with a spheroid!</p>
+<h3 id="dimensions">📏 Dimensions</h3>
+<p>An intriguing option is to size the avis aeterna vaguely like a car:
+two meters wide and tall, four meters long. (For any US readers it’s 6.5
+feet wide.) It is big enough to be substantial, but small enough to be
+built in a garage.</p>
+<p>This mandates all of the proportions of the model: with the value of
+two meters and the <a
+href="https://en.wikipedia.org/wiki/Spheroid">spheroid</a> equations we
+can compute everything else. First we have a prolate spheroid with axis
+<code>A=2m</code>, and length <code>C=4m</code>. The volume contained
+becomes:</p>
+<p><code>V = πA²C/6 ≈ A²C/2,</code></p>
+<p>which is a surprisingly accurate formula (actual factor above should
+be 0.523). In our case:</p>
+<p><code>V ≈ 2m × 2m × 4m / 2 = (2m)³ = 8 m³.</code></p>
+<p>And the area is very approximately:</p>
+<p><code>S ≈ 5 × 2m × 2m = 5 × 4m² = 20 m².</code></p>
+<p>These are the basic parameters of our model.</p>
+<h3 id="weight">⚖️ Weight</h3>
+<p>You may remember that the plan was to fill the airship with hydrogen:
+even lighter than helium, and quite cheaper. For an uncrewed vehicle the
+risks are negligible. Also, for a continuously flying machine hydrogen
+can be replenished in flight, as we will see later.</p>
+<p>How much will our model weight? Exactly as much as the air displaced
+by the hydrogen: we compute the weight of the air inside, and then
+subtract the weight of the same volume of hydrogen. Since the density of
+air is 1.3 kg/m³, and of hydrogen is 70 g/m³, lift will be:</p>
+<p>`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.</p>
+<p>So our budget is around 10 kg. As you see, at this stage it’s not
+enough to do Fermi estimations (i.e. order of magnitude): for a detailed
+feasibility study we need more precise numbers. It is still OK to round
+up numbers as we did above with surface and volume.</p>
+<h2 id="build">🛠️ Build</h2>
+<p>How can we build a real life airship, even if it’s a small one?</p>
+<h3 id="structure">🪚 Structure</h3>
+<p>We want to build a dirigible: an aircraft which is sustented by the
+lift of a light gas.</p>
+<p>real dirigible, not a blimp: the difference is that the dirigible or
+zeppelin has a rigid structure, while blimps are just inflatable. We
+know that dirigibles worked beautifully, and with ancient 1900s
+materials even, but is it possible to do it at this scale?</p>
+<p>Let’s go with the simplest structure: just a shell. We can set up a
+rigid hull that contains a sack, which in turn holds our lifting gas.
+What is the weight per square meter that we can afford?</p>
+<p>First we have to set up a budget: how much of our 10 kg we want to
+spend in the shell. It seems obvious that this is going to be our
+biggest source of weight, and that we should reserve for it as much as
+we can afford: a stronger structure is going to hold up better against
+strong winds or impacts. Let us say half our weight is for the
+structure.</p>
+<p>We have to reserve some weight for the wings and other parts. Let us
+say 4 kg for the hull. Since we have 20 m² of surface, the areal density
+will be:</p>
+<pre><code>D(A) = 4 kg / 20 m²</code></pre>
+<pre><code>= 200 g/m².</code></pre>
+<p>What kind of material can be strong enough at 0.2 kg per square
+meter? Only <a
+href="https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers">carbon
+fiber</a> fits the bill. It is a very interesting material made of
+carbon fibers embedded in an epoxy resin, which when cured results in
+super strong panels.</p>
+<h3 id="wings-and-reinforcements">🪽 Wings and Reinforcements</h3>
+<p>We set aside a budget of one kg for the rest of the hull.</p>
+<p>The wings need also be built using carbon fiber. They need to be even
+stronger than the outer shell. Two wings and a tail on top are of the
+same approximate dimensions: 60 x 80 cm, for a total area of approx. one
+third of a m². The three share an area of 1 m². The areal density needs
+to be at least twice of the shell, probably 500 g/m², for a total weight
+of 0.5 kg.</p>
+<p>Also some reinforcements are required where the parts are joined. It
+is impossible to build the hull in one go; different pieces have to
+built and assembled. In our case we can build eight identical panels,
+which is quite convenient from the manufacture point of view. Then they
+can be assembled together using reinforcements, built using carbon fiber
+and glass fiber for elasticity.</p>
+<figure>
+<img src="pics/aves-aeternae-hull.png"
+title="A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author."
+alt="Eight pieces of the hull: four on top, four below." />
+<figcaption aria-hidden="true">Eight pieces of the hull: four on top,
+four below.</figcaption>
+</figure>
+<p>Finally we need a small cone to place at the front. Together the
+budget of 1 kg seems doable.</p>
+<h3 id="hydrogen-sack">🎈 Hydrogen Sack</h3>
+<p>Inside the hull a large bag will hold the gas. At this scale we don’t
+want a complicated set of sacks containing the hydrogen; just one big
+bag will do.</p>
+<p>Helium balloons are usually done with Mylar, but there are materials
+that leak even less hydrogen: PVA is a very strong contender.</p>
+<p>In <a
+href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei
+<em>et al</em></a> the team experiment with several coatings, finding
+that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.</p>
+<p>Luckily it is not hard to get PVA bags, as they are widely used in
+industry because they are biodegradable. One precaution is that PVA
+dissolves in water, so the interior of the structure must be kept
+dry.</p>
+<p>Bags with thickness of 40 microns are quite common in the industry.
+Given the density of PVA of 1.19 g/cm³, for our total surface of 20 m²
+we get:</p>
+<pre><code>W(bag) = 0.040 mm * 1.19 g/cm³ * 20 m²
+= 950 g ≈ 1 kg</code></pre>
+<p>So another kg for our weight budget.</p>
+<h3 id="hydrogen-leaks">💨 Hydrogen Leaks</h3>
+<p>How much hydrogen would leak out of our PVA bag in a day? This of
+course depends on how well sealed the bag is, and the quality of the
+materials. We can use a unit of permeability called <a
+href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it.
+Again in <a
+href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei
+<em>et al</em></a> the permeability of PVA is given as 0.0084 barrer.
+Given the definition of 1 barrer in SI units:</p>
+<p><code>1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),</code></p>
+<p>the computations are a bit messy but can be done as follows. The
+leaked gas will be:</p>
+<p><code>Quantity = Per × Surface × time × Pressure / thickness,</code></p>
+<p>Remember that our surface is 20 m². We will compute the leaked
+quantity for a day or 86400 seconds, at atmospheric pressure or 101325
+Pascal with a 40 micron bag. Pressure inside the bag will not be much
+higher than 1 atm; even <a
+href="https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html">balloons</a>
+are only a few percent tighter than atmospheric pressure.</p>
+<p>Now we have everything:</p>
+<pre><code>Q = 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
+= 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+= 0.0006 mol.</code></pre>
+<p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
+so we are leaking a bit more than half a milligram per day. Not bad
+considering that we have around 0.5 kg of hydrogen! We might stay aloft
+for a million days at this rate. These nubers do not look very
+realistic, and have to be contrasted with real world tests with real
+bags. But the safety margin is quite large.</p>
+<h2 id="energy-sources">⚡ Energy Sources</h2>
+<p>The airship needs to be able to direct its flight. It needs a power
+source that gives enough energy for our purposes. Being a demonstration
+model it doesn’t need to withstand any kind of weather, but it needs to
+manouver at a certain speed.</p>
+<h3 id="power">🛩️ Power</h3>
+<p>How much power do we need? Let’s recall the drag equation:</p>
+<p><code>F(D) = ½ ρ × v² × C(D) × S,</code></p>
+<p>using the density of air of 1.3 kg/m³, the surface of 20 m² and the
+drag coefficient we saw above for a spheroid with a cone of
+<code>0.03</code>. (Note: carbon fiber is a very polished surface so the
+drag coefficient might be even lower.) Spoiler alert, power is just
+force multiplied by velocity, so we just add another velocity:</p>
+<p><code>P = ½ ρ × v³ × C(D) × S.</code></p>
+<p>So the power we need to move at a given velocity will be:</p>
+<pre><code>P = ½ 1.3 kg/m³ × 0.03 × 20 m² × v³
+= 0.39 kg/m × v³</code></pre>
+<p>Now let’s set as target speed a leisurely pace of 5 m/s, or 18 km/h
+(11 mph). Our avis aeterna is not going to be a speed demon, but it will
+move about. The required power will be:</p>
+<pre><code>P = 0.39 × 5³ kg×m²/s³ = 48.75 W</code></pre>
+<p>Approximately 50 watt of power will be required. Is this possible to
+achieve?</p>
+<h3 id="motor-and-propeller">⚙️ Motor and Propeller</h3>
+<p>From this power budget we have to discount the efficiency of motor
+and propeller. Luckily thanks to the RC industry there are a lot of very
+efficient motors (brushless and sensored are apparently the way to go)
+and propellers which are powerful and light enough.</p>
+<p>There is at least a 20% reduction in efficiency due to the
+combination of motor and propeller to be taken into account. So our 50 W
+of impulse become at least 60 W at generation. Also, the weight of two
+motors and two propellers (each at the side of the airship to help keep
+the balance) should be well below 500 g.</p>
+<h3 id="solar-energy">☀️ Solar Energy</h3>
+<p>There are not many renewable sources of energy up in the air. The
+most obvious is the Sun: embed some solar panels on top of our hull and
+we are good to go!</p>
+<p>Ultralight panels are not easy to find. But there are companies
+commercializing powerful panels today. One such example is the <a
+href="https://www.solbian.eu/en/sp-series/26-sp-24.html">Solbian SP
+24</a>, which provides a nominal 82 W with a weight of 1.1 kg.</p>
+<p>Keep in mind that solar panels always provide less power than
+advertised, even in full sun. So it is possible that at midday in
+optimal weather in a temperate country this panel might get to give us
+the 60 W we need. We might use a couple of these panels to reach more
+power, but then the airship may become top-heavy and destabilize.</p>
+<p>It is not unusual to see promises of much more powerful solar cells.
+<a href="https://news.mit.edu/2022/ultrathin-solar-cells-1209">MIT
+researchers</a> were promising 370 W/kg in 2022, which would be closer
+to what we need. And the Airbus Zephyr uses Microlink solar sheets <a
+href="https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html">exceeding
+1500 W/kg</a>, and 350 W/m2.</p>
+<p>We might even get to 10 m/s with this kind of power. But keep in mind
+that the cubed equation we got above for power is quite treacherous: to
+get to 10 m/s we would need 8 times more power than for our 5 m/s, or
+480 W. For now we will probably have to keep to our target speed.</p>
+<h3 id="wind-energy">🌬️ Wind Energy</h3>
+<p>An intriguing possibility, and one which does not require any
+technological leaps of faith, is to use wind energy.</p>
+<p>But wait, how can you use wind energy to propel yourself if you are
+moving in the wind? It’s the same principle as regenerative braking in
+electric cars: you let the motor spin freely, and instead of spending
+energy to move the wheels, the movement of the wheels charges the
+battery. Same principle: Yokota and Fujimoto investigated the principle
+in planes in <a
+href="https://www.jstage.jst.go.jp/article/ieejjia/11/2/11_21005706/_pdf">Pitch
+Angle Control by Regenerative Air Brake for Electric Aircraft</a>, and
+it is perfectly possible if the wings are oriented correctly. It even
+decelerates the aircraft, which is logical since the energy is taken
+from the flowing air.</p>
+<p>So the idea would be: orient the airship so the propellers move
+maximally, stop the motor and let it charge the batteries. The craft
+would slow down at the same time so it would not be carried away by the
+wind so fast. Then, once the batteries are charged start the propellers
+and move back to the desired position. This process can be repeated as
+often as desired; of course it will not be very efficient but might help
+not drift away too much e.g. at night.</p>
+<h3 id="batteries">🔋 Batteries</h3>
+<p>Speaking of which, is there any of that weight budget left at this
+point for the batteries? They are intended to store some of the solar
+and wind energy during the day, and use it at night to avoid drifting
+away.</p>
+<p>We will have to set aside at least 1 kg for a good battery. We can
+get <a
+href="https://www.jinbei-deutschland.de/en/products/v-mount-battery-180-wh-28309">180
+Wh commercially</a> today. This means driving our propellers at 60 W for
+three hours, which is not bad.</p>
+<h2 id="finishing-touches">💅 Finishing Touches</h2>
+<p>We still have tomake sure this thing is light enough to get in the
+air, and then fly it.</p>
+<h3 id="control">💻 Control</h3>
+<p>Let’s start by how to fly it. The idea is to build an autonomous
+drone, so it needs to have enough sensors to know where it is and what
+it is doing. Also an onboard computer, and servos to move the control
+surfaces: ailerons on wings and tail.</p>
+<p>Today there is no wonder in getting a GPS, accelerometers, world-wide
+communications, camera, microphone, plus a powerful computer into a
+compact package weighing less than 0.25 kg. We call it “mobile phone”.
+But we may need something like a Raspberry Pi with electric controls to
+drive the servos. Ideally we should get something that does both
+functions, something like a Raspberry Pi which might do both functions
+since it has a 4G module.</p>
+<p>We can spare 0.5 kg for the onboard computer while servos might take
+0.2 kg at most.</p>
+<h3 id="weight-budget">🧮 Weight Budget</h3>
+<p>Let’s add up a few other weights: a carbon fiber gondola is required
+to hold battery and onboard computer below the hull, and help compensate
+the weight of the solar panels. It might weigh 0.5 kg. We also need some
+cabling for 0.2 kg.</p>
+<p>These are our total weights:</p>
+<table>
+<thead>
+<tr class="header">
+<th>part</th>
+<th>material</th>
+<th>weight (kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>outer shell</td>
+<td>carbon fiber</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>wings and tail</td>
+<td>carbon fiber</td>
+<td>0.5</td>
+</tr>
+<tr class="odd">
+<td>reinforcements</td>
+<td>carbon fiber</td>
+<td>0.5</td>
+</tr>
+<tr class="even">
+<td>envelope</td>
+<td>PVA</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>gondola</td>
+<td>carbon fiber</td>
+<td>0.4</td>
+</tr>
+<tr class="even">
+<td>battery</td>
+<td>LiPo</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>motors</td>
+<td></td>
+<td>0.1</td>
+</tr>
+<tr class="even">
+<td>propellers</td>
+<td></td>
+<td>0.2</td>
+</tr>
+<tr class="odd">
+<td>solar panel</td>
+<td></td>
+<td>1.1</td>
+</tr>
+<tr class="even">
+<td>cables and servos</td>
+<td></td>
+<td>0.2</td>
+</tr>
+<tr class="odd">
+<td>computer</td>
+<td></td>
+<td>0.5</td>
+</tr>
+<tr class="even">
+<td>lift</td>
+<td>hydrogen</td>
+<td>-9.84</td>
+</tr>
+<tr class="odd">
+<td>total</td>
+<td></td>
+<td>-0.34</td>
+</tr>
+</tbody>
+</table>
+<p>The budget seems feasible, and we even have 0.3 kg to spare. If
+needed it can be filled with ballast.</p>
+<h3 id="pieces">🧩 Pieces</h3>
+<p>Most of the pieces are off-the-shelf. Some are custom made, like the
+outer shell or the gondola; and custom carbon fiber panels are
+expensive.</p>
+<p>But everything seems doable by a reasonably well equipped
+workshop.</p>
+<h2 id="the-big-picture">🖼️ The Big Picture</h2>
+<p>To finish this article let’s dig a bit deeper into the concept of a
+perpetual flying machine.</p>
+<h3 id="but-why">🤌 But Why?</h3>
+<p>The first reason why we should do something is always: because it’s
+fun! Having wild ideas and following their feasibility is always quite
+entertaining. But it’s reasonable that you might, as I do, feel the need
+to justify any effort beyond ideation with practical applications.</p>
+<p>After publishing <a href="https://pinchito.es/2023/avis-aeterna">the
+first article</a> I have found a number of references to similar
+projects; from <a
+href="https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf">obscure
+NASA projects from the 2000s</a> to <a
+href="https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/">random
+posts on Reddit</a>. Let us see what applications they envision.</p>
+<p>NASA commissioned a fascinating <a
+href="https://ntrs.nasa.gov/api/citations/20040021326/downloads/20040021326.pdf">study
+in 2003</a>, a concept quite similar to the avis aeterna: an airship
+supposed to stay aloft for months or years at an altitude of 18 km or
+higher. The objectives stated are communications and wide area
+surveillance. In particular it studies how to keep the airships hovering
+to watch over the US coasts. The concept included fuel cells and an
+electrolyzer for hydrogen generation. The study doesn’t ask the question
+of where the water for the electrolyzer should come from, which is
+intriguing due to the lack of humidity at such heights. It appears to
+store water somewhere.</p>
+<p>The EU has funded the <a
+href="https://cordis.europa.eu/project/id/285602">MAAT project</a>, a
+rather bizarre concept that includes a lighter-than-air platform. It is
+intended for passenger transportation; although how it intends to keep
+passengers alive at <a
+href="https://www.researchgate.net/profile/Michele-Trancossi/publication/257333740_MAAT_CruiserFeeder_Project_Criticalities_and_Solution_Guidelines/links/5824bd2f08ae7ea5be77e475/MAAT-Cruiser-Feeder-Project-Criticalities-and-Solution-Guidelines.pdf">13
+to 17 km</a> with solar power is not explained anywhere.</p>
+<p>Finally, user <a
+href="https://www.reddit.com/r/IsaacArthur/comments/t44ypy/can_you_have_a_selfmaintaining_hydrogen/">IsaacArthur</a>
+proposes to “support some useful communications infrastructure”. And of
+course there’s meteorological observation like <a
+href="https://en.wikipedia.org/wiki/High-altitude_balloon">high-altitude
+balloons</a> do, although to reach high altitude the avis should have to
+carry more hydrogen and less cargo.</p>
+<h3 id="scaling-up">🫴 Scaling Up</h3>
+<p>This scale model does not have any kind of hydrogen regeneration: it
+simply does not fit. According to our calculations it doesn’t need it
+either: surely something else will fail before gas runs out after a
+million days.</p>
+<p>A bigger model should have some kind of atmospheric water gathering,
+from which it can generate hydrogen by electrolisis to replenish any
+leaks. A 6-meter-long model will have height and width of 3 meters, and
+we get a volume and area of:</p>
+<pre><code>V ≈ 3 m * 3 m * 6 m / 2 = 27 m³
+S ≈ 5 * 3 m * 3 m = 45 m²</code></pre>
+<p>And we are back to approximations. Remember that weight is a bit more
+than 1 kg per m³; with a weight of nearly 30 kg we can do more useful
+things.</p>
+<p>The law of squares and cubes, or <a
+href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">square-cube
+law</a>, does funny things: a 5m reference length would be 10 meter
+long, and weigh approximately</p>
+<pre><code>W = </code></pre>
+<h3 id="max-speed">⚡ Max Speed</h3>
+<p>What will be the top speed of the avis at any length? Let’s suppose
+we can lay out half the top rectangle with solar cells that provide 300
+W/m²:</p>
+<pre><code>S(top) ≈ l * 2l / 2 = ,
+P ≈ 300 W/m² * S(top) ≈ 300 W/m² * l²,</code></pre>
+<p>If the drag coefficient doesn’t change,</p>
+<pre><code>P ≈ ½ ρ × v³ × C(D) × S.
+S ≈ 5 * l²
+300 W/m² * l² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5 l²</code></pre>
+<p>Therefore we can remove the terms <code>l²</code> from both sides,
+and we get a constant equation regardless of model length:</p>
+<pre><code>300 W/m² ≈ ½ 1.3 kg/m³ × v³ * 0.03 * 5
+v³ ≈ 300 W/m² / (½ 1.3 kg/m³ × 0.03 * 5)
+v³ ≈ 3077 Wm/kg
+v ≈ 14 m/s</code></pre>
+<p>We get a top speed of nearly 14 m/s that doesn’t change with scale.
+Keep in mind that this is in direct incident sunlight without any
+inefficiencies, so very likely speed will be lower than this unless
+there are major technological breakthroughs.</p>
+<p>Keep in mind that for remaining stationary the avis needs a decent
+max speed to counter any winds. No matter the size, the role of
+patrolling a given spot is only possible if there are no constant winds
+in the area. Otherwise the avis will have to navigate those winds by
+changing altitude or otherwise finding favorable air currents.</p>
+<p>But even with a slow top speed the avis may have other applications,
+as long as it is not required to stay at exactly the same spot.</p>
+<h3 id="changes">🔮 Changes</h3>
+<p>In the <a href="https://pinchito.es/2023/avis-aeterna">last
+article</a> I used a reference design 10 meters long and 10 meters wide.
+That is definitely too large for an initial model. Also, the proportions
+have changed since then.</p>
+<p>We have also abandoned the idea of using hydrogen as fuel instead of
+using an electrical battery. The inefficiencies of converting energy to
+hydrogen, and then hydrogen back to energy, are high. Also the need to
+store the resulting water as intermediate product negate any weight
+advantages.</p>
+<h1 id="conclusion">🤔 Conclusion</h1>
+<p>It should be possible to create a car-sized model of an avis aeterna,
+to stay aloft for several days, demonstrating its major features.</p>
+<h2 id="acknowledgements">🙏 Acknowledgements</h2>
+<p>Thanks to Carlos Santisteban for so many fruitful discussions.</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Published on 2024-03-03, last modified on 2024-03-03. <a href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
+									Published on 2024-03-03, last modified on 2024-03-03. <a
+href="mailto:alexfernandeznpm@gmail.com">Comments, suggestions?</a>
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.

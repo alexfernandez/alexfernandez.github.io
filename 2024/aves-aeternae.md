@@ -135,8 +135,6 @@ the areal density will be:
 
 ```
 D(A) = 4 kg / 20 m²
-```
-```
 = 200 g/m².
 ```
 

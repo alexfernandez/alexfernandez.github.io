@@ -72,230 +72,471 @@
 										<p><p>
 									</header>
 																				<figure>
-                    <img src="pics/pruebas-de-carga.jpg" title="Weighing cotton bales at the Brisbane ginnery" alt="" /><figcaption>Imagen: <a href="http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg">Queenslander</a></figcaption>
-                    </figure>
-                    <p>En esta ocasión nos vamos a alejar por un rato de node.js, y vamos a ver cómo hacer pruebas de carga a nuestro servidor web.</p>
-                    <h2 id="herramientas">Herramientas</h2>
-                    <p>Para empezar vamos a mirar un par de herramientas muy sencillas y libres (o si lo prefieres open source) que podemos usar completamente gratis.</p>
-                    <h3 id="apache-ab">Apache ab</h3>
-                    <p>La más conocida es <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab</a>, por <em>Apache Benchmark</em>. Un ejemplo sencillo de uso:</p>
-                    <pre><code>$ ab -c 10 -n 1000 http://127.0.0.1:8080/</code></pre>
-                    <p>Los parámetros más importantes son:</p>
-                    <ul>
-                    <li>-c <em>concurrencia</em>: número de peticiones concurrentes. Se lanzan tantos hilos como indique este parámetro, así que nunca tendremos más peticiones en vuelo que este número.</li>
-                    <li>-n <em>peticiones</em>: número total de peticiones a lanzar.</li>
-                    <li>-t <em>segundos</em>: tiempo de pruebas, tras el que ab dejará de recibir peticiones.</li>
-                    </ul>
-                    <p>Después de los parámetros se añade la URL a probar. Hay otras opciones para enviar peticiones POST, añadir contenido en un formulario, y demás; pero para empezar vamos a suponer que nuestra aplicación tiene una <a href="http://es.wikipedia.org/wiki/Representational_State_Transfer">interfaz Rest</a> y que por tanto se pueden hacer peticiones GET enviando toda la información necesaria en la URL.</p>
-                    <p><em>Los consejos del abuelo cebolleta</em>: si tu aplicación no es Rest, haz que lo sea. Será mil veces más sencilla de probar, porque sólo necesitarás un navegador para depurarla. ¡Haz tu vida más sencilla!</p>
-                    <p>Vamos a probar nuestro nuevo juguete contra un servidor que nos hemos montado con <a href="http://expressjs.com/">express</a>. La salida de ab será algo así (dejando sólo las líneas más importantes):</p>
-                    <pre><code>$ ab -n 10000 http://127.0.0.1:8080/
+<img src="pics/pruebas-de-carga.jpg"
+title="Weighing cotton bales at the Brisbane ginnery"
+alt="Imagen: Queenslander" />
+<figcaption aria-hidden="true">Imagen: <a
+href="http://commons.wikimedia.org/wiki/File:StateLibQld_2_119360_Weighing_cotton_bales_at_the_Brisbane_ginnery.jpg">Queenslander</a></figcaption>
+</figure>
+<p>En esta ocasión nos vamos a alejar por un rato de node.js, y vamos a
+ver cómo hacer pruebas de carga a nuestro servidor web.</p>
+<h2 id="herramientas">Herramientas</h2>
+<p>Para empezar vamos a mirar un par de herramientas muy sencillas y
+libres (o si lo prefieres open source) que podemos usar completamente
+gratis.</p>
+<h3 id="apache-ab">Apache ab</h3>
+<p>La más conocida es <a
+href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab</a>, por
+<em>Apache Benchmark</em>. Un ejemplo sencillo de uso:</p>
+<pre><code>$ ab -c 10 -n 1000 http://127.0.0.1:8080/</code></pre>
+<p>Los parámetros más importantes son:</p>
+<ul>
+<li>-c <em>concurrencia</em>: número de peticiones concurrentes. Se
+lanzan tantos hilos como indique este parámetro, así que nunca tendremos
+más peticiones en vuelo que este número.</li>
+<li>-n <em>peticiones</em>: número total de peticiones a lanzar.</li>
+<li>-t <em>segundos</em>: tiempo de pruebas, tras el que ab dejará de
+recibir peticiones.</li>
+</ul>
+<p>Después de los parámetros se añade la URL a probar. Hay otras
+opciones para enviar peticiones POST, añadir contenido en un formulario,
+y demás; pero para empezar vamos a suponer que nuestra aplicación tiene
+una <a
+href="http://es.wikipedia.org/wiki/Representational_State_Transfer">interfaz
+Rest</a> y que por tanto se pueden hacer peticiones GET enviando toda la
+información necesaria en la URL.</p>
+<p><em>Los consejos del abuelo cebolleta</em>: si tu aplicación no es
+Rest, haz que lo sea. Será mil veces más sencilla de probar, porque sólo
+necesitarás un navegador para depurarla. ¡Haz tu vida más sencilla!</p>
+<p>Vamos a probar nuestro nuevo juguete contra un servidor que nos hemos
+montado con <a href="http://expressjs.com/">express</a>. La salida de ab
+será algo así (dejando sólo las líneas más importantes):</p>
+<pre><code>$ ab -n 10000 http://127.0.0.1:8080/
 
-                    Concurrency Level:      1
-                    Time taken for tests:   4.895 seconds
-                    Complete requests:      10000
-                    Requests per second:    2042.84 [#/sec] (mean)
-                    Time per request:       0.490 [ms] (mean)
+Concurrency Level:      1
+Time taken for tests:   4.895 seconds
+Complete requests:      10000
+Requests per second:    2042.84 [#/sec] (mean)
+Time per request:       0.490 [ms] (mean)
 
-                    Percentage of the requests served within a certain time (ms)
-                      50%      0
-                      66%      0
-                      75%      0
-                      80%      0
-                      90%      1
-                      95%      1
-                      98%      1
-                      99%      1
-                     100%     11 (longest request)</code></pre>
-                    <p>Los números más interesantes son las peticiones por segundo (abreviado req/s, por <em>requests per second</em>) y el tiempo por petición: estamos pasando de las 2000 req/s, y cada petición dura medio milisegundo, de media. Ahora vamos a añadir concurrencia con el parámetro <code>-c</code>: en lugar de ir todas las peticiones en secuencia, una tras otra, lanzaremos varias a la vez. ¿Para qué sirve tener múltiples peticiones a la vez? Para ver si nuestro servidor responde bien, claro: en la vida real un usuario no se espera a que termine el anterior para lanzar su petición. Además los resultados suelen ser incluso mejores:</p>
-                    <pre><code>$ ab -c 10 -n 10000 http://127.0.0.1:8080/
+Percentage of the requests served within a certain time (ms)
+  50%      0
+  66%      0
+  75%      0
+  80%      0
+  90%      1
+  95%      1
+  98%      1
+  99%      1
+ 100%     11 (longest request)</code></pre>
+<p>Los números más interesantes son las peticiones por segundo
+(abreviado req/s, por <em>requests per second</em>) y el tiempo por
+petición: estamos pasando de las 2000 req/s, y cada petición dura medio
+milisegundo, de media. Ahora vamos a añadir concurrencia con el
+parámetro <code>-c</code>: en lugar de ir todas las peticiones en
+secuencia, una tras otra, lanzaremos varias a la vez. ¿Para qué sirve
+tener múltiples peticiones a la vez? Para ver si nuestro servidor
+responde bien, claro: en la vida real un usuario no se espera a que
+termine el anterior para lanzar su petición. Además los resultados
+suelen ser incluso mejores:</p>
+<pre><code>$ ab -c 10 -n 10000 http://127.0.0.1:8080/
 
-                    Concurrency Level:      10
-                    Time taken for tests:   3.334 seconds
-                    Complete requests:      10000
-                    Requests per second:    2999.08 [#/sec] (mean)
-                    Time per request:       3.334 [ms] (mean)
-                    Time per request:       0.333 [ms] (mean, across all concurrent requests)
+Concurrency Level:      10
+Time taken for tests:   3.334 seconds
+Complete requests:      10000
+Requests per second:    2999.08 [#/sec] (mean)
+Time per request:       3.334 [ms] (mean)
+Time per request:       0.333 [ms] (mean, across all concurrent requests)
 
-                    Percentage of the requests served within a certain time (ms)
-                      50%      3
-                      66%      3
-                      75%      3
-                      80%      4
-                      90%      4
-                      95%      5
-                      98%      7
-                      99%     10
-                     100%     27 (longest request)</code></pre>
-                    <p>¡Ahora llegamos casi a 3000 req/s! Nuestro servidor está aprovechando mejor el tiempo porque, cuando una petición está ocupada con algo, responde a la siguiente. ¿Significa esto que estamos listos para servir 2999 req/s? En absoluto; significa que, para esta petición en concreto, en local y con un número limitado de peticiones, nuestro servidor responde a estas peticiones por segundo. Esta medición es sólo un punto de partida que tenemos que refinar usando peticiones más complejas y condiciones más realistas.</p>
-                    <p>Podéis ver más detalles sobre cómo usar ab en el <a href="http://codehero.co/como-hacer-pruebas-de-carga-servidores-web/">excelente tutorial de Jonathan Wiesel</a>. También se muestra cómo usar Siege, otra herramienta similar.</p>
-                    <h3 id="loadtest.js">loadtest.js</h3>
-                    <p>Al principio del artículo os he contado que íbamos a dejar node.js tranquilo. Pues lo siento pero os he soltado una mentirijilla. ¿En serio pensábais que íbamos a pasarnos una entrada entera sin hablar de nuestro servidor favorito?</p>
-                    <p>El buen ingeniero, como el artesano de antaño, siempre elige sus herramientas cuidadosamente; y si no existen se las inventa. La siguiente librería es obra del autor de este artículo; <a href="https://npmjs.org/package/loadtest">loadtest</a> (<a href="https://github.com/alexfernandez/loadtest">repo GitHub</a>). Aparte de usar los parámetros más importantes compatibles con ab, como <code>-n</code> o <code>-c</code>, tiene una opción muy interesante que nos permite enviar un número fijo de peticiones por segundo a nuestro servidor.</p>
-                    <p>Para instalarla sólo tenemos que usar <a href="https://npmjs.org/">npm</a>, el gestor de paquetes de node, como root:</p>
-                    <pre><code># npm install -g loadtest</code></pre>
-                    <p>En Ubuntu o Mac OS X se usa <code>sudo</code>:</p>
-                    <pre><code>$ sudo npm install -g loadtest</code></pre>
-                    <p>¡Y listo! Ya tenemos instalado un comando <code>loadtest</code> que nos va a ayudar a probar nuestra aplicación web. Un ejemplo sencillo, similar a los que ya hemos visto. Vamos a lanzar 10000 peticiones, con 10 peticiones concurrentes, a un servidor local en el puerto 8080. Las opciones básicas son iguales que las de <code>ab</code>; la salida es similar pero más escueta, y los resultados se parecen bastante:</p>
-                    <pre><code>$ loadtest -c 10 -n 10000 http://127.0.0.1:8080/
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      4
+  90%      4
+  95%      5
+  98%      7
+  99%     10
+ 100%     27 (longest request)</code></pre>
+<p>¡Ahora llegamos casi a 3000 req/s! Nuestro servidor está aprovechando
+mejor el tiempo porque, cuando una petición está ocupada con algo,
+responde a la siguiente. ¿Significa esto que estamos listos para servir
+2999 req/s? En absoluto; significa que, para esta petición en concreto,
+en local y con un número limitado de peticiones, nuestro servidor
+responde a estas peticiones por segundo. Esta medición es sólo un punto
+de partida que tenemos que refinar usando peticiones más complejas y
+condiciones más realistas.</p>
+<p>Podéis ver más detalles sobre cómo usar ab en el <a
+href="http://codehero.co/como-hacer-pruebas-de-carga-servidores-web/">excelente
+tutorial de Jonathan Wiesel</a>. También se muestra cómo usar Siege,
+otra herramienta similar.</p>
+<h3 id="loadtest.js">loadtest.js</h3>
+<p>Al principio del artículo os he contado que íbamos a dejar node.js
+tranquilo. Pues lo siento pero os he soltado una mentirijilla. ¿En serio
+pensábais que íbamos a pasarnos una entrada entera sin hablar de nuestro
+servidor favorito?</p>
+<p>El buen ingeniero, como el artesano de antaño, siempre elige sus
+herramientas cuidadosamente; y si no existen se las inventa. La
+siguiente librería es obra del autor de este artículo; <a
+href="https://npmjs.org/package/loadtest">loadtest</a> (<a
+href="https://github.com/alexfernandez/loadtest">repo GitHub</a>).
+Aparte de usar los parámetros más importantes compatibles con ab, como
+<code>-n</code> o <code>-c</code>, tiene una opción muy interesante que
+nos permite enviar un número fijo de peticiones por segundo a nuestro
+servidor.</p>
+<p>Para instalarla sólo tenemos que usar <a
+href="https://npmjs.org/">npm</a>, el gestor de paquetes de node, como
+root:</p>
+<pre><code># npm install -g loadtest</code></pre>
+<p>En Ubuntu o Mac OS X se usa <code>sudo</code>:</p>
+<pre><code>$ sudo npm install -g loadtest</code></pre>
+<p>¡Y listo! Ya tenemos instalado un comando <code>loadtest</code> que
+nos va a ayudar a probar nuestra aplicación web. Un ejemplo sencillo,
+similar a los que ya hemos visto. Vamos a lanzar 10000 peticiones, con
+10 peticiones concurrentes, a un servidor local en el puerto 8080. Las
+opciones básicas son iguales que las de <code>ab</code>; la salida es
+similar pero más escueta, y los resultados se parecen bastante:</p>
+<pre><code>$ loadtest -c 10 -n 10000 http://127.0.0.1:8080/
 
-                    Completed requests:  10000
-                    Total time:          4.472977 s
-                    Requests per second: 2236
-                    Mean latency:        4.44 ms
+Completed requests:  10000
+Total time:          4.472977 s
+Requests per second: 2236
+Mean latency:        4.44 ms
 
-                    Percentage of the requests served within a certain time
-                      50%      4 ms
-                      90%      6 ms
-                      95%      7 ms
-                      99%      12 ms
-                     100%      19 ms (longest request)</code></pre>
-                    <p>Ahora en lugar de 3000 estamos alrededor de las 2200 req/s. ¿Por qué nos quedamos bastante por debajo que antes? Hay que decir que loadtest tiene un cierto overhead al estar escrito para node.js y no en C súper-optimizado, por lo que es normal ver cifras ligeramente peores. Dicho esto, la herramienta está optimizada y el overhead no debería nunca superar un milisegundo. Aunque en nuestro servidor trivial se note mucho, en un servidor más realista (o lanzando las pruebas desde otra máquina) debería dejar de afectar a los resultados.</p>
-                    <p>Ahora empieza la diversión. ¿Por qué usar loadtest si tiene los mismos parámetros y peor rendimiento? Por las opciones avanzadas, claro.</p>
-                    <ul>
-                    <li>–rps <em>tasa</em>: número de peticiones por segundo a lanzar. ¿No es igual que la concurrencia? En absoluto; <code>--rps</code> lanza (siempre que pueda) la tasa pedida de peticiones, aunque las anteriores no hayan terminado. Esto nos permite controlar la carga de peticiones que enviamos cada segundo al servidor.</li>
-                    <li>–noagent: no usar el agente integrado de node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, lo que puede afectar a las pruebas; este parámetro elimina ese límite. Viene activado de fábrica.</li>
-                    <li>–keepalive: usa el agente <a href="https://github.com/TBEDP/agentkeepalive">agentkeepalive</a>, que añade <code>Connection: Keep-alive</code> y está muy mejorado sobre el que viene en node.js. Por defecto, node.js limita la salida a 10 conexiones en vuelo, con lo que las pruebas pueden verse afectadas.</li>
-                    </ul>
-                    <p><em>Nota de precaución</em>: el agente por defecto de node.js apesta de mala manera: tiene un pool de sólo 10 conexiones, lo que nos puede limitar si necesitamos enviar más peticiones a la vez. Pero desactivarlo con <code>--default</code> implica no usar agente y perder el keep-alive: se abre una conexión cada vez al servidor que estamos probando, lo que puede perjudicar el rendimiento. Es recomendable usar siempre <code>--keepalive</code>.</p>
-                    <p>Vamos a probar ahora nuestro servidor con agentkeepalive:</p>
-                    <pre><code>$ loadtest --keepalive -c 10 -n 10000 http://127.0.0.1:8080/
+Percentage of the requests served within a certain time
+  50%      4 ms
+  90%      6 ms
+  95%      7 ms
+  99%      12 ms
+ 100%      19 ms (longest request)</code></pre>
+<p>Ahora en lugar de 3000 estamos alrededor de las 2200 req/s. ¿Por qué
+nos quedamos bastante por debajo que antes? Hay que decir que loadtest
+tiene un cierto overhead al estar escrito para node.js y no en C
+súper-optimizado, por lo que es normal ver cifras ligeramente peores.
+Dicho esto, la herramienta está optimizada y el overhead no debería
+nunca superar un milisegundo. Aunque en nuestro servidor trivial se note
+mucho, en un servidor más realista (o lanzando las pruebas desde otra
+máquina) debería dejar de afectar a los resultados.</p>
+<p>Ahora empieza la diversión. ¿Por qué usar loadtest si tiene los
+mismos parámetros y peor rendimiento? Por las opciones avanzadas,
+claro.</p>
+<ul>
+<li>–rps <em>tasa</em>: número de peticiones por segundo a lanzar. ¿No
+es igual que la concurrencia? En absoluto; <code>--rps</code> lanza
+(siempre que pueda) la tasa pedida de peticiones, aunque las anteriores
+no hayan terminado. Esto nos permite controlar la carga de peticiones
+que enviamos cada segundo al servidor.</li>
+<li>–noagent: no usar el agente integrado de node.js. Por defecto,
+node.js limita la salida a 10 conexiones en vuelo, lo que puede afectar
+a las pruebas; este parámetro elimina ese límite. Viene activado de
+fábrica.</li>
+<li>–keepalive: usa el agente <a
+href="https://github.com/TBEDP/agentkeepalive">agentkeepalive</a>, que
+añade <code>Connection: Keep-alive</code> y está muy mejorado sobre el
+que viene en node.js. Por defecto, node.js limita la salida a 10
+conexiones en vuelo, con lo que las pruebas pueden verse afectadas.</li>
+</ul>
+<p><em>Nota de precaución</em>: el agente por defecto de node.js apesta
+de mala manera: tiene un pool de sólo 10 conexiones, lo que nos puede
+limitar si necesitamos enviar más peticiones a la vez. Pero desactivarlo
+con <code>--default</code> implica no usar agente y perder el
+keep-alive: se abre una conexión cada vez al servidor que estamos
+probando, lo que puede perjudicar el rendimiento. Es recomendable usar
+siempre <code>--keepalive</code>.</p>
+<p>Vamos a probar ahora nuestro servidor con agentkeepalive:</p>
+<pre><code>$ loadtest --keepalive -c 10 -n 10000 http://127.0.0.1:8080/
 
-                    Completed requests:  10000
-                    Total time:          3.04171 s
-                    Requests per second: 3288
-                    Mean latency:        3.01 ms
+Completed requests:  10000
+Total time:          3.04171 s
+Requests per second: 3288
+Mean latency:        3.01 ms
 
-                    Percentage of the requests served within a certain time
-                      50%      2 ms
-                      90%      4 ms
-                      95%      5 ms
-                      99%      9 ms
-                     100%      22 ms (longest request)</code></pre>
-                    <p>¡Mejor resultado incluso que con <code>ab</code>! Al no tener que abrir una conexión nueva para cada petición, ahorramos recursos tanto en el cliente de pruebas como en el servidor.</p>
-                    <p>De nuevo, ¿significa eso que nuestro servidor está preparado para responder a 3000 req/s? Vamos a verificarlo enchufándole un número fijo de peticiones por segundo con la opción <code>--rps</code>, a ver qué pasa. Empezaremos con 2000:</p>
-                    <pre><code>$ loadtest --keepalive --rps 2000 -n 10000 http://127.0.0.1:8080/
+Percentage of the requests served within a certain time
+  50%      2 ms
+  90%      4 ms
+  95%      5 ms
+  99%      9 ms
+ 100%      22 ms (longest request)</code></pre>
+<p>¡Mejor resultado incluso que con <code>ab</code>! Al no tener que
+abrir una conexión nueva para cada petición, ahorramos recursos tanto en
+el cliente de pruebas como en el servidor.</p>
+<p>De nuevo, ¿significa eso que nuestro servidor está preparado para
+responder a 3000 req/s? Vamos a verificarlo enchufándole un número fijo
+de peticiones por segundo con la opción <code>--rps</code>, a ver qué
+pasa. Empezaremos con 2000:</p>
+<pre><code>$ loadtest --keepalive --rps 2000 -n 10000 http://127.0.0.1:8080/
 
-                    Completed requests:  10000
-                    Total time:          5.545158 s
-                    Requests per second: 1803
-                    Mean latency:        137.73 ms
+Completed requests:  10000
+Total time:          5.545158 s
+Requests per second: 1803
+Mean latency:        137.73 ms
 
-                    Percentage of the requests served within a certain time
-                      50%      146 ms
-                      90%      214 ms
-                      95%      221 ms
-                      99%      232 ms
-                     100%      238 ms (longest request)</code></pre>
-                    <p>¡Sorpresa! Nuestro servidor se viene abajo, ahora no llega ni a las 2000 req/s pedidas. ¿Cómo puede ser que dé peor respuesta (y una latencia de más de 100 milisegundos) con menos peticiones? Para explicar este misterio tenemos que ver cómo funcionan estas pruebas. Con <code>ab</code> (y con loadtest hasta ahora) enviamos unas cuantas peticiones al servidor; el servidor las procesa como puede, con los retrasos que tenga en cada momento, y cuando las responde enviamos más. El parámetro -c se asegura de que nunca haya más de 10 peticiones en vuelo. Siempre podemos subir la concurrencia, pero tampoco será muy realista acumular decenas de peticiones en vuelo.</p>
-                    <p>Con loadtest podemos usar una tasa fija de req/s, que le llegarán al servidor tanto si ha respondido las anteriores como si no. Puede ser que otro proceso esté usando la CPU en ese momento, o que tenga que acceder a disco para recuperar un recurso. Resultado: en cuanto se le empiezan a acumular peticiones, la respuesta decae. Esta prueba es mucho más realista que las anteriores, y evidencia más cómo el servidor puede sufrir incluso ante pausas de unos pocos milisegundos. En la vida real las peticiones tienden a agolparse todavía más, en lugar de llegar siempre de forma uniforme, así que la respuesta será incluso peor.</p>
-                    <p>Ahora vamos a probar a enviarle más peticiones al servidor con las mismas req/s, para comprobar si la respuesta es constante. Si vemos que empieza a venirse abajo, o que la respuesta es muy errática, sabremos que nuestro servidor no aguanta la carga. loadtest muestra una traza cada cinco segundos que nos va indicando cómo va el proceso, así que vamos a lanzarle 100K peticiones en total.</p>
-                    <pre><code>$ loadtest --keepalive --rps 2000 -n 100000 http://127.0.0.1:8080/
+Percentage of the requests served within a certain time
+  50%      146 ms
+  90%      214 ms
+  95%      221 ms
+  99%      232 ms
+ 100%      238 ms (longest request)</code></pre>
+<p>¡Sorpresa! Nuestro servidor se viene abajo, ahora no llega ni a las
+2000 req/s pedidas. ¿Cómo puede ser que dé peor respuesta (y una
+latencia de más de 100 milisegundos) con menos peticiones? Para explicar
+este misterio tenemos que ver cómo funcionan estas pruebas. Con
+<code>ab</code> (y con loadtest hasta ahora) enviamos unas cuantas
+peticiones al servidor; el servidor las procesa como puede, con los
+retrasos que tenga en cada momento, y cuando las responde enviamos más.
+El parámetro -c se asegura de que nunca haya más de 10 peticiones en
+vuelo. Siempre podemos subir la concurrencia, pero tampoco será muy
+realista acumular decenas de peticiones en vuelo.</p>
+<p>Con loadtest podemos usar una tasa fija de req/s, que le llegarán al
+servidor tanto si ha respondido las anteriores como si no. Puede ser que
+otro proceso esté usando la CPU en ese momento, o que tenga que acceder
+a disco para recuperar un recurso. Resultado: en cuanto se le empiezan a
+acumular peticiones, la respuesta decae. Esta prueba es mucho más
+realista que las anteriores, y evidencia más cómo el servidor puede
+sufrir incluso ante pausas de unos pocos milisegundos. En la vida real
+las peticiones tienden a agolparse todavía más, en lugar de llegar
+siempre de forma uniforme, así que la respuesta será incluso peor.</p>
+<p>Ahora vamos a probar a enviarle más peticiones al servidor con las
+mismas req/s, para comprobar si la respuesta es constante. Si vemos que
+empieza a venirse abajo, o que la respuesta es muy errática, sabremos
+que nuestro servidor no aguanta la carga. loadtest muestra una traza
+cada cinco segundos que nos va indicando cómo va el proceso, así que
+vamos a lanzarle 100K peticiones en total.</p>
+<pre><code>$ loadtest --keepalive --rps 2000 -n 100000 http://127.0.0.1:8080/
 
-                    Requests: 8949 (9%), requests per second: 1790, mean latency: 64.12 ms
-                    Requests: 18728 (19%), requests per second: 1956, mean latency: 47.21 ms
-                    Requests: 27418 (27%), requests per second: 1738, mean latency: 579.05 ms
-                    Requests: 36508 (37%), requests per second: 1818, mean latency: 1112.56 ms
-                    Requests: 45402 (45%), requests per second: 1778, mean latency: 1670.62 ms
-                    Requests: 55122 (55%), requests per second: 1944, mean latency: 1986.79 ms
-                    Requests: 65180 (65%), requests per second: 2011, mean latency: 1954.7 ms
-                    Requests: 75231 (75%), requests per second: 2011, mean latency: 1954.87 ms
-                    Requests: 84895 (85%), requests per second: 1933, mean latency: 2016.92 ms
-                    Requests: 93252 (93%), requests per second: 1671, mean latency: 2464.68 ms
+Requests: 8949 (9%), requests per second: 1790, mean latency: 64.12 ms
+Requests: 18728 (19%), requests per second: 1956, mean latency: 47.21 ms
+Requests: 27418 (27%), requests per second: 1738, mean latency: 579.05 ms
+Requests: 36508 (37%), requests per second: 1818, mean latency: 1112.56 ms
+Requests: 45402 (45%), requests per second: 1778, mean latency: 1670.62 ms
+Requests: 55122 (55%), requests per second: 1944, mean latency: 1986.79 ms
+Requests: 65180 (65%), requests per second: 2011, mean latency: 1954.7 ms
+Requests: 75231 (75%), requests per second: 2011, mean latency: 1954.87 ms
+Requests: 84895 (85%), requests per second: 1933, mean latency: 2016.92 ms
+Requests: 93252 (93%), requests per second: 1671, mean latency: 2464.68 ms
 
-                    Completed requests:  100000
-                    Total time:          53.96305 s
-                    Requests per second: 1853
-                    Mean latency:        1512.71 ms</code></pre>
-                    <p>Aunque la CPU no llegue al 100%, vemos cómo se van acumulando peticiones y la respuesta se degrada. Bajando el flujo a 1500 req/s los resultados son estables.</p>
-                    <pre><code>$ loadtest --keepalive --rps 1500 -n 100000 http://127.0.0.1:8080/
+Completed requests:  100000
+Total time:          53.96305 s
+Requests per second: 1853
+Mean latency:        1512.71 ms</code></pre>
+<p>Aunque la CPU no llegue al 100%, vemos cómo se van acumulando
+peticiones y la respuesta se degrada. Bajando el flujo a 1500 req/s los
+resultados son estables.</p>
+<pre><code>$ loadtest --keepalive --rps 1500 -n 100000 http://127.0.0.1:8080/
 
-                    Requests: 6060 (6%), requests per second: 1212, mean latency: 6.6 ms
-                    Requests: 13545 (14%), requests per second: 1497, mean latency: 8.41 ms
-                    Requests: 21059 (21%), requests per second: 1503, mean latency: 5.83 ms
-                    Requests: 28564 (29%), requests per second: 1501, mean latency: 2.69 ms
-                    Requests: 36060 (36%), requests per second: 1499, mean latency: 3.32 ms
-                    Requests: 43564 (44%), requests per second: 1501, mean latency: 2.66 ms
-                    Requests: 51062 (51%), requests per second: 1500, mean latency: 2.27 ms
-                    Requests: 58565 (59%), requests per second: 1501, mean latency: 1.7 ms
-                    Requests: 66059 (66%), requests per second: 1499, mean latency: 2.97 ms
-                    Requests: 73563 (74%), requests per second: 1501, mean latency: 1.71 ms
-                    Requests: 80991 (81%), requests per second: 1486, mean latency: 13.12 ms
-                    Requests: 88565 (89%), requests per second: 1515, mean latency: 13.02 ms
-                    Requests: 96059 (96%), requests per second: 1499, mean latency: 9.44 ms
+Requests: 6060 (6%), requests per second: 1212, mean latency: 6.6 ms
+Requests: 13545 (14%), requests per second: 1497, mean latency: 8.41 ms
+Requests: 21059 (21%), requests per second: 1503, mean latency: 5.83 ms
+Requests: 28564 (29%), requests per second: 1501, mean latency: 2.69 ms
+Requests: 36060 (36%), requests per second: 1499, mean latency: 3.32 ms
+Requests: 43564 (44%), requests per second: 1501, mean latency: 2.66 ms
+Requests: 51062 (51%), requests per second: 1500, mean latency: 2.27 ms
+Requests: 58565 (59%), requests per second: 1501, mean latency: 1.7 ms
+Requests: 66059 (66%), requests per second: 1499, mean latency: 2.97 ms
+Requests: 73563 (74%), requests per second: 1501, mean latency: 1.71 ms
+Requests: 80991 (81%), requests per second: 1486, mean latency: 13.12 ms
+Requests: 88565 (89%), requests per second: 1515, mean latency: 13.02 ms
+Requests: 96059 (96%), requests per second: 1499, mean latency: 9.44 ms
 
-                    Completed requests:  100000
-                    Total time:          67.630739 s
-                    Requests per second: 1479
-                    Mean latency:        5.63 ms</code></pre>
-                    <p>Ahora sí: hay una cierta oscilación alrededor del 66% de las peticiones, pero el sistema tiende a recuperarse y no es inestable como antes.</p>
-                    <h2 id="diseño-de-pruebas-de-carga">Diseño de pruebas de carga</h2>
-                    <p>Ya sabemos cómo lanzar nuestra herramienta favorita. Ahora, ¡paremos el carro un poco! Vamos a ver para qué sirven estas pruebas de carga, y cómo diseñar unas pruebas que cumplan nuestras expectativas.</p>
-                    <h3 id="preguntas-preguntas">Preguntas, preguntas</h3>
-                    <p>El objetivo de las pruebas de carga es responder a preguntas vitales para cualquier negocio:</p>
-                    <ul>
-                    <li>¿Soportarán los servidores la carga esperada?</li>
-                    <li>¿Cuántos servidores necesitaremos?</li>
-                    <li>¿Cuál será el coste por usuario?</li>
-                    </ul>
-                    <p>Pero, por importantes que puedan parecer para quien las hace, estas preguntas son sólo el principio del camino; necesitamos algo más concreto para empezar a movernos.</p>
-                    <p>Las pruebas bien diseñadas se basan siempre en preguntas <em>precisas y objetivas</em>: que se responden con datos y no con opiniones, y que no admiten ambigüedad (por ejemplo, se pueden responder con “sí” o “no”). También tienen que ser <em>realistas</em>: basadas en nuestra situación y no en algún objetivo inalcanzable. La primera parte de nuestro trabajo es reformular las preguntas de negocio a su equivalente ingenieril. Por ejemplo:</p>
-                    <ul>
-                    <li><em>¿Dará buen rendimiento nuestro servidor?</em> Esta pregunta es algo difusa: es difícil saber qué es “bueno” sin precisar más. Tenemos que pulirla algo más.</li>
-                    <li><em>¿Responderá el servidor a las peticiones en menos de 100 ms?</em> Hemos avanzado bastante: esta pregunta es bastante más precisa y no tiene ambigüedades. Pero representa un objetivo inalcanzable, porque siempre puede haber alguna petición que se escape del margen pedido (por buena que sea la media), y por tanto la respuesta será casi siempre “no”. Tenemos que afinar todavía más.</li>
-                    <li>¿Responderá el servidor al 99% de las peticiones en menos de 100 ms? Ahora sí: podemos responder claramente con datos, y es alcanzable.</li>
-                    </ul>
-                    <h3 id="objetivos">Objetivos</h3>
-                    <p>Aunque hemos avanzado algo, ni siquiera hemos terminado con la primera pregunta de negocio, que (recordemos) era:</p>
-                    <blockquote>
-                    <p>¿Soportarán los servidores la carga esperada?</p>
-                    </blockquote>
-                    <p>Todavía nos queda traducir “carga esperada” a cifras concretas. Por ejemplo, supongamos que esperamos llegar a 100.000 usuarios únicos en el primer año: ¿cuántas peticiones veremos en nuestros servidores? ¿Cuántas páginas servidas, y cuántas peticiones a nuestra API son eso?</p>
-                    <p>El camino tradicional es el siguiente: partiendo de una cifra imaginaria de usuarios, podemos estimar cuántos usuarios activos esperar por día, cuántas peticiones por minuto hace un usuario activo, y ya sólo necesitamos saber las peticiones por minuto que aguanta nuestro servidor para calcular cuántos usuarios únicos podemos tener contentos con un único servidor. Pero tiene un pequeño problema: cada estimación que hagamos añade <em>incertidumbre</em> a nuestros resultados. Una ecuación con tantos parámetros inciertos como la que estamos montando terminará dando pura fantasía…</p>
-                    <p>Así que lo ideal es recoger primero datos reales sobre el terreno que soporten nuestros cálculos. Por ejemplo, si sabemos que la carga con 10.000 usuarios únicos al mes es de 150 peticiones/minuto, es fácil estimar que con 100.000 tendremos 1500 peticiones/minuto.</p>
-                    <p>Sólo nos falta saber cuántas peticiones por minuto aguanta nuestro servidor, que es donde entran nuestras herramientas favoritas.</p>
-                    <h3 id="limitaciones">Limitaciones</h3>
-                    <p>Por definición, las pruebas de carga son una simulación. Hay que ser consciente siempre del valor que tienen: nos permiten encontrar puntos flacos en nuestro sistema, y estimar el rendimiento real. Pero la realidad es muy tozuda, y por más que queramos reproducirla en nuestro laboratorio, el mundo exterior nos va a dar sorpresas.</p>
-                    <p>Es importante recalcar este punto cuando presentemos nuestros resultados al cliente o a la gente de negocio: a no ser que dediquemos tiempo infinito a replicar el tráfico real con todas sus peculiaridades, nuestras respuestas siempre serán parciales y sujetas a error. Aunque pongamos todo nuestro esfuerzo puede que ni conozcamos todas estas peculiaridades en el momento de realizar las pruebas de carga, por lo que siempre nos podemos equivocar en nuestros objetivos.</p>
-                    <p><em>Más consejos del abuelo cebolleta</em>: no afines demasiado calculando la carga que soporta cada máquina, date siempre margen para incluir las posibles incertidumbres. Pero: no uses ese margen para cubrir ineficiencias del sistema, lo necesitarás.</p>
-                    <h3 id="bancos-de-pruebas-benchmarks">Bancos de pruebas (<em>benchmarks</em>)</h3>
-                    <p>Para estimar el rendimiento de un servidor podemos usar los bancos de pruebas de los fabricantes: para cualquier producto que queramos usar es fácil encontrar informes de cuántas peticiones por segundo puede responder, tiempos de respuesta y demás. Estos <em>benchmarks</em> son muy populares sobre todo para bases de datos, aunque en los últimos tiempos muchos fabricantes han prohibido su publicación. Pero sigue habiendo mucha información para software libre. Así pues, ¿por qué complicarse la vida haciendo pruebas propias?</p>
-                    <p>Lo malo es que los <em>benchmarks</em> son como el <a href="http://es.wikipedia.org/wiki/Or%C3%A1culo_de_Delfos">oráculo de Delfos</a>: le podemos preguntar lo que queramos, que nos responderá lo que le dé la gana. El fabricante siempre intentará que su producto salga bien parado en las pruebas, y además probablemente sepa optimizarlo mejor que nosotros. Por poner un ejemplo: no responde igual un servidor Apache cuando sirve una imagen estática de 5 KB que cuando sirve una página PHP de 200 KB. Además, la respuesta puede cambiar muchísimo según la configuración que usemos.</p>
-                    <p>Por eso se realizan pruebas de carga simulando tráfico real: lanzando peticiones típicas al servidor y midiendo la respuesta en condiciones similares a las reales. Todo centrado en nuestro caso concreto y lo más realista posible. No es muy útil simular peticiones de 100 bytes si el grueso de nuestro tráfico son páginas de 100 KB — aunque, como veremos, estas pruebas tienen su sitio para detectar problemas.</p>
-                    <h2 id="escalabilidad">Escalabilidad</h2>
-                    <p>Hemos diseñado las pruebas y las hemos lanzado. ¿Qué hacemos ahora con los resultados? Afinar y mejorar, claro.</p>
-                    <p>En esta siguiente etapa vamos a intentar dar respuesta a la segunda pregunta de negocio que vimos arriba:</p>
-                    <blockquote>
-                    <p>¿Cuántos servidores necesitaremos?</p>
-                    </blockquote>
-                    <p>Y de forma indirecta a la tercera, porque podremos calcular el coste por usuario.</p>
-                    <p>Si un servidor nos da 100 req/s, para conseguir llegar a 2000 req/s vamos a necesitar 20 servidores, ¿verdad? ¡En tus sueños!</p>
-                    <h3 id="un-camino-espinoso">Un camino espinoso</h3>
-                    <p>El camino hacia la escalabilidad pasa siempre por mantener la (<em>atención, palabro</em>) linealidad.</p>
-                    <p>Suena rimbombante, pero lo que queremos decir se expresa de forma muy sencilla: doblando el número de servidores soportaremos el doble de carga, expresada en peticiones por segundo. Y lo mismo duplicando el número de núcleos, la frecuencia de la CPU, etcétera. También necesitaremos el doble de memoria y de recursos en general.</p>
-                    <p>Lo que nos permiten las pruebas de carga es, precisamente, detectar pérdidas de linealidad. Supongamos que con un solo proceso aguantamos 15 req/s. ¿Qué podemos esperar si activamos el <a href="modo-cluster">modo cluster</a> con dos procesadores? Pues 30 req/s, claro… Si vemos menos, es que hemos encontrado un cuello de botella. Puede ser que se nos haya agotado algún otro recurso (memoria, conexiones, o lo que sea) o que otro elemento esté saturado (base de datos, interfaz de red…).</p>
-                    <p>También nos permitirán encontrar problemas de rendimiento cuando la respuesta no sea constante en el tiempo y tenga altibajos, o cuando el sistema empiece a dar errores al saturarse. Lo ideal es que el sistema deje de responder a las peticiones que no pueda atender, pero siga sirviendo correctamente un número razonable.</p>
-                    <p>Los fallos deben también ser (atención, semi-palabro) recuperables: el sistema debe recuperarse por sí solo, sin necesidad de tener que reiniciar servicios ni servidores. Cualquier error que deje tumbados nuestros servidores es un problema catastrófico que tenemos que resolver — o nos quitará el sueño por las noches. Muchas veces literalmente, en forma de llamada airada de responsables de servicio o (incluso peor) de usuarios.</p>
-                    <h3 id="reduccionismo">Reduccionismo</h3>
-                    <p>Supongamos que tenemos un problema de rendimiento que afecta a nuestros servidores, pero no sabemos dónde. Lo que tenemos que hacer para encontrarlo es ir quitando elementos que puedan afectar al rendimiento. ¿Sospechamos que la base de datos puede estar muy saturada? Usaremos una base de datos limpia para pruebas. ¿Todavía sospechamos que se satura? La sustituiremos por una respuesta simulada, o haremos pruebas de carga de la base de datos sola. ¿La memoria es un problema? Usaremos objetos vacíos que no ocupen memoria.</p>
-                    <p>Así iremos quitando trozos de nuestro sistema, corriendo las pruebas de nuevo, hasta que el problema desaparezca. En ese momento habremos encontrado la causa.</p>
-                    <h2 id="cuándo-probar">Cuándo probar</h2>
-                    <p>¿Cuándo debemos lanzar pruebas de carga, y con qué frecuencia?</p>
-                    <h3 id="pruebas-reactivas-o-proactivas">Pruebas reactivas o proactivas</h3>
-                    <p>Lo habitual es usar las pruebas de carga para diagnosticar un problema en el sistema. Usando nuestro método reduccionista, podemos encontrar fácilmente la causa de un problema.</p>
-                    <p>Para nota, podemos ejecutar pruebas de carga antes de ver los problemas. Un buen momento es, por ejemplo, cuando esperemos un pico de carga, un lanzamiento, etcétera. También es recomendable usar las pruebas de carga para dimensionamiento del sistema: saber, por ejemplo, cuántos servidores necesitaremos. Siempre con las precauciones que hemos visto arriba sobre la precisión de los resultados, dejando margen para posibles incertidumbres.</p>
-                    <h3 id="pruebas-integradas">Pruebas integradas</h3>
-                    <p>Un truco que vale la pena aplicar: podemos lanzar una versión reducida de nuestras pruebas de carga de forma rutinaria, junto con el resto de pruebas de sistema. Así podremos detectar regresiones antes de ponerlas en producción.</p>
-                    <p>Por ejemplo, podemos lanzar 1000 peticiones seguidas, verificar que no dan errores y que la latencia media está por debajo de 100 ms. Si alguna de estas condiciones falla abortamos el despliegue.</p>
-                    <p>loadtest tiene una API que nos permite lanzarlo desde nuestro programa node.js y recoger los resultados en una callback. Es trivial integrarlo en nuestro sistema de despliegue automático — cosa sobre la que hablaremos otro día.</p>
-                    <h2 id="conclusión">Conclusión</h2>
-                    <p>Eso es todo por hoy. Si no conocías las pruebas de carga, espero haberte ayudado a añadir una flecha a tu carcaj. En cualquier caso, usa esta técnica cuando sea necesario, aprende a conocer tus herramientas, y sobre todo ¡disfruta!</p>
+Completed requests:  100000
+Total time:          67.630739 s
+Requests per second: 1479
+Mean latency:        5.63 ms</code></pre>
+<p>Ahora sí: hay una cierta oscilación alrededor del 66% de las
+peticiones, pero el sistema tiende a recuperarse y no es inestable como
+antes.</p>
+<h2 id="diseño-de-pruebas-de-carga">Diseño de pruebas de carga</h2>
+<p>Ya sabemos cómo lanzar nuestra herramienta favorita. Ahora, ¡paremos
+el carro un poco! Vamos a ver para qué sirven estas pruebas de carga, y
+cómo diseñar unas pruebas que cumplan nuestras expectativas.</p>
+<h3 id="preguntas-preguntas">Preguntas, preguntas</h3>
+<p>El objetivo de las pruebas de carga es responder a preguntas vitales
+para cualquier negocio:</p>
+<ul>
+<li>¿Soportarán los servidores la carga esperada?</li>
+<li>¿Cuántos servidores necesitaremos?</li>
+<li>¿Cuál será el coste por usuario?</li>
+</ul>
+<p>Pero, por importantes que puedan parecer para quien las hace, estas
+preguntas son sólo el principio del camino; necesitamos algo más
+concreto para empezar a movernos.</p>
+<p>Las pruebas bien diseñadas se basan siempre en preguntas <em>precisas
+y objetivas</em>: que se responden con datos y no con opiniones, y que
+no admiten ambigüedad (por ejemplo, se pueden responder con “sí” o
+“no”). También tienen que ser <em>realistas</em>: basadas en nuestra
+situación y no en algún objetivo inalcanzable. La primera parte de
+nuestro trabajo es reformular las preguntas de negocio a su equivalente
+ingenieril. Por ejemplo:</p>
+<ul>
+<li><em>¿Dará buen rendimiento nuestro servidor?</em> Esta pregunta es
+algo difusa: es difícil saber qué es “bueno” sin precisar más. Tenemos
+que pulirla algo más.</li>
+<li><em>¿Responderá el servidor a las peticiones en menos de 100
+ms?</em> Hemos avanzado bastante: esta pregunta es bastante más precisa
+y no tiene ambigüedades. Pero representa un objetivo inalcanzable,
+porque siempre puede haber alguna petición que se escape del margen
+pedido (por buena que sea la media), y por tanto la respuesta será casi
+siempre “no”. Tenemos que afinar todavía más.</li>
+<li>¿Responderá el servidor al 99% de las peticiones en menos de 100 ms?
+Ahora sí: podemos responder claramente con datos, y es alcanzable.</li>
+</ul>
+<h3 id="objetivos">Objetivos</h3>
+<p>Aunque hemos avanzado algo, ni siquiera hemos terminado con la
+primera pregunta de negocio, que (recordemos) era:</p>
+<blockquote>
+<p>¿Soportarán los servidores la carga esperada?</p>
+</blockquote>
+<p>Todavía nos queda traducir “carga esperada” a cifras concretas. Por
+ejemplo, supongamos que esperamos llegar a 100.000 usuarios únicos en el
+primer año: ¿cuántas peticiones veremos en nuestros servidores? ¿Cuántas
+páginas servidas, y cuántas peticiones a nuestra API son eso?</p>
+<p>El camino tradicional es el siguiente: partiendo de una cifra
+imaginaria de usuarios, podemos estimar cuántos usuarios activos esperar
+por día, cuántas peticiones por minuto hace un usuario activo, y ya sólo
+necesitamos saber las peticiones por minuto que aguanta nuestro servidor
+para calcular cuántos usuarios únicos podemos tener contentos con un
+único servidor. Pero tiene un pequeño problema: cada estimación que
+hagamos añade <em>incertidumbre</em> a nuestros resultados. Una ecuación
+con tantos parámetros inciertos como la que estamos montando terminará
+dando pura fantasía…</p>
+<p>Así que lo ideal es recoger primero datos reales sobre el terreno que
+soporten nuestros cálculos. Por ejemplo, si sabemos que la carga con
+10.000 usuarios únicos al mes es de 150 peticiones/minuto, es fácil
+estimar que con 100.000 tendremos 1500 peticiones/minuto.</p>
+<p>Sólo nos falta saber cuántas peticiones por minuto aguanta nuestro
+servidor, que es donde entran nuestras herramientas favoritas.</p>
+<h3 id="limitaciones">Limitaciones</h3>
+<p>Por definición, las pruebas de carga son una simulación. Hay que ser
+consciente siempre del valor que tienen: nos permiten encontrar puntos
+flacos en nuestro sistema, y estimar el rendimiento real. Pero la
+realidad es muy tozuda, y por más que queramos reproducirla en nuestro
+laboratorio, el mundo exterior nos va a dar sorpresas.</p>
+<p>Es importante recalcar este punto cuando presentemos nuestros
+resultados al cliente o a la gente de negocio: a no ser que dediquemos
+tiempo infinito a replicar el tráfico real con todas sus peculiaridades,
+nuestras respuestas siempre serán parciales y sujetas a error. Aunque
+pongamos todo nuestro esfuerzo puede que ni conozcamos todas estas
+peculiaridades en el momento de realizar las pruebas de carga, por lo
+que siempre nos podemos equivocar en nuestros objetivos.</p>
+<p><em>Más consejos del abuelo cebolleta</em>: no afines demasiado
+calculando la carga que soporta cada máquina, date siempre margen para
+incluir las posibles incertidumbres. Pero: no uses ese margen para
+cubrir ineficiencias del sistema, lo necesitarás.</p>
+<h3 id="bancos-de-pruebas-benchmarks">Bancos de pruebas
+(<em>benchmarks</em>)</h3>
+<p>Para estimar el rendimiento de un servidor podemos usar los bancos de
+pruebas de los fabricantes: para cualquier producto que queramos usar es
+fácil encontrar informes de cuántas peticiones por segundo puede
+responder, tiempos de respuesta y demás. Estos <em>benchmarks</em> son
+muy populares sobre todo para bases de datos, aunque en los últimos
+tiempos muchos fabricantes han prohibido su publicación. Pero sigue
+habiendo mucha información para software libre. Así pues, ¿por qué
+complicarse la vida haciendo pruebas propias?</p>
+<p>Lo malo es que los <em>benchmarks</em> son como el <a
+href="http://es.wikipedia.org/wiki/Or%C3%A1culo_de_Delfos">oráculo de
+Delfos</a>: le podemos preguntar lo que queramos, que nos responderá lo
+que le dé la gana. El fabricante siempre intentará que su producto salga
+bien parado en las pruebas, y además probablemente sepa optimizarlo
+mejor que nosotros. Por poner un ejemplo: no responde igual un servidor
+Apache cuando sirve una imagen estática de 5 KB que cuando sirve una
+página PHP de 200 KB. Además, la respuesta puede cambiar muchísimo según
+la configuración que usemos.</p>
+<p>Por eso se realizan pruebas de carga simulando tráfico real: lanzando
+peticiones típicas al servidor y midiendo la respuesta en condiciones
+similares a las reales. Todo centrado en nuestro caso concreto y lo más
+realista posible. No es muy útil simular peticiones de 100 bytes si el
+grueso de nuestro tráfico son páginas de 100 KB — aunque, como veremos,
+estas pruebas tienen su sitio para detectar problemas.</p>
+<h2 id="escalabilidad">Escalabilidad</h2>
+<p>Hemos diseñado las pruebas y las hemos lanzado. ¿Qué hacemos ahora
+con los resultados? Afinar y mejorar, claro.</p>
+<p>En esta siguiente etapa vamos a intentar dar respuesta a la segunda
+pregunta de negocio que vimos arriba:</p>
+<blockquote>
+<p>¿Cuántos servidores necesitaremos?</p>
+</blockquote>
+<p>Y de forma indirecta a la tercera, porque podremos calcular el coste
+por usuario.</p>
+<p>Si un servidor nos da 100 req/s, para conseguir llegar a 2000 req/s
+vamos a necesitar 20 servidores, ¿verdad? ¡En tus sueños!</p>
+<h3 id="un-camino-espinoso">Un camino espinoso</h3>
+<p>El camino hacia la escalabilidad pasa siempre por mantener la
+(<em>atención, palabro</em>) linealidad.</p>
+<p>Suena rimbombante, pero lo que queremos decir se expresa de forma muy
+sencilla: doblando el número de servidores soportaremos el doble de
+carga, expresada en peticiones por segundo. Y lo mismo duplicando el
+número de núcleos, la frecuencia de la CPU, etcétera. También
+necesitaremos el doble de memoria y de recursos en general.</p>
+<p>Lo que nos permiten las pruebas de carga es, precisamente, detectar
+pérdidas de linealidad. Supongamos que con un solo proceso aguantamos 15
+req/s. ¿Qué podemos esperar si activamos el <a href="modo-cluster">modo
+cluster</a> con dos procesadores? Pues 30 req/s, claro… Si vemos menos,
+es que hemos encontrado un cuello de botella. Puede ser que se nos haya
+agotado algún otro recurso (memoria, conexiones, o lo que sea) o que
+otro elemento esté saturado (base de datos, interfaz de red…).</p>
+<p>También nos permitirán encontrar problemas de rendimiento cuando la
+respuesta no sea constante en el tiempo y tenga altibajos, o cuando el
+sistema empiece a dar errores al saturarse. Lo ideal es que el sistema
+deje de responder a las peticiones que no pueda atender, pero siga
+sirviendo correctamente un número razonable.</p>
+<p>Los fallos deben también ser (atención, semi-palabro) recuperables:
+el sistema debe recuperarse por sí solo, sin necesidad de tener que
+reiniciar servicios ni servidores. Cualquier error que deje tumbados
+nuestros servidores es un problema catastrófico que tenemos que resolver
+— o nos quitará el sueño por las noches. Muchas veces literalmente, en
+forma de llamada airada de responsables de servicio o (incluso peor) de
+usuarios.</p>
+<h3 id="reduccionismo">Reduccionismo</h3>
+<p>Supongamos que tenemos un problema de rendimiento que afecta a
+nuestros servidores, pero no sabemos dónde. Lo que tenemos que hacer
+para encontrarlo es ir quitando elementos que puedan afectar al
+rendimiento. ¿Sospechamos que la base de datos puede estar muy saturada?
+Usaremos una base de datos limpia para pruebas. ¿Todavía sospechamos que
+se satura? La sustituiremos por una respuesta simulada, o haremos
+pruebas de carga de la base de datos sola. ¿La memoria es un problema?
+Usaremos objetos vacíos que no ocupen memoria.</p>
+<p>Así iremos quitando trozos de nuestro sistema, corriendo las pruebas
+de nuevo, hasta que el problema desaparezca. En ese momento habremos
+encontrado la causa.</p>
+<h2 id="cuándo-probar">Cuándo probar</h2>
+<p>¿Cuándo debemos lanzar pruebas de carga, y con qué frecuencia?</p>
+<h3 id="pruebas-reactivas-o-proactivas">Pruebas reactivas o
+proactivas</h3>
+<p>Lo habitual es usar las pruebas de carga para diagnosticar un
+problema en el sistema. Usando nuestro método reduccionista, podemos
+encontrar fácilmente la causa de un problema.</p>
+<p>Para nota, podemos ejecutar pruebas de carga antes de ver los
+problemas. Un buen momento es, por ejemplo, cuando esperemos un pico de
+carga, un lanzamiento, etcétera. También es recomendable usar las
+pruebas de carga para dimensionamiento del sistema: saber, por ejemplo,
+cuántos servidores necesitaremos. Siempre con las precauciones que hemos
+visto arriba sobre la precisión de los resultados, dejando margen para
+posibles incertidumbres.</p>
+<h3 id="pruebas-integradas">Pruebas integradas</h3>
+<p>Un truco que vale la pena aplicar: podemos lanzar una versión
+reducida de nuestras pruebas de carga de forma rutinaria, junto con el
+resto de pruebas de sistema. Así podremos detectar regresiones antes de
+ponerlas en producción.</p>
+<p>Por ejemplo, podemos lanzar 1000 peticiones seguidas, verificar que
+no dan errores y que la latencia media está por debajo de 100 ms. Si
+alguna de estas condiciones falla abortamos el despliegue.</p>
+<p>loadtest tiene una API que nos permite lanzarlo desde nuestro
+programa node.js y recoger los resultados en una callback. Es trivial
+integrarlo en nuestro sistema de despliegue automático — cosa sobre la
+que hablaremos otro día.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Eso es todo por hoy. Si no conocías las pruebas de carga, espero
+haberte ayudado a añadir una flecha a tu carcaj. En cualquier caso, usa
+esta técnica cuando sea necesario, aprende a conocer tus herramientas, y
+sobre todo ¡disfruta!</p>
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									Original publicado en <a href="http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/">GodTIC</a> el 2013-08-27.
+									Original publicado en <a
+href="http://www.godtic.com/blog/2013/08/27/pruebas-de-carga/">GodTIC</a>
+el 2013-08-27.
 									</p>
 									<p>
 									Back to the <a href="/">index</a>.
