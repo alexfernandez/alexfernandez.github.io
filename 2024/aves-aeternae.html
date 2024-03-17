@@ -288,28 +288,30 @@ be well below 500 g.</p>
 this will also allow it to maneuver using differential power. They
 should also be near the forward of the ship to avoid instabilities.</p>
 <h3 id="solar-energy">☀️ Solar Energy</h3>
-<p>There are not many renewable sources of energy up in the air. The
-most obvious is the Sun: embed some solar panels on top of our hull and
-we are good to go!</p>
+<p>Where can we take our power from? If we want our avis to stay in the
+air indefinitely we cannot depend on carrying fuel aboard as it would be
+exhausted at some point. There are not many renewable sources of energy
+up in the air. The most obvious is the Sun: embed some solar panels on
+top of our hull and we are good to go!</p>
 <p>Ultralight panels are not easy to find. But there are companies
 commercializing powerful panels today. One such example is the <a
 href="https://www.solbian.eu/en/sp-series/26-sp-24.html">Solbian SP
 24</a>, which provides a nominal 82 W with a weight of 1.1 kg.</p>
 <p>Keep in mind that solar panels always provide less power than
-advertised, even in full sun. So it is possible that at midday in
+advertised, even in full sunlight. So it is possible that at midday in
 optimal weather in a temperate country this panel might get to give us
 the 60 W we need. We might use a couple of these panels to reach more
 power, but then the airship may become top-heavy and destabilize.</p>
 <p>It is not unusual to see promises of much more powerful solar cells.
 <a href="https://news.mit.edu/2022/ultrathin-solar-cells-1209">MIT
-researchers</a> were promising 370 W/kg in 2022, which would be closer
+researchers</a> were announcing 370 W/kg in 2022, which would be closer
 to what we need. And the Airbus Zephyr uses Microlink solar sheets <a
 href="https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html">exceeding
-1500 W/kg</a>, and 350 W/m2.</p>
+1500 W/kg and 350 W/m²</a> apparently, or so they say.</p>
 <p>We might even get to 10 m/s with this kind of power. But keep in mind
 that the cubed equation we got above for power is quite treacherous: to
-get to 10 m/s we would need 8 times more power than for our 5 m/s, or
-480 W. For now we will probably have to keep to our target speed.</p>
+double our initial 5 m/s we would need 8 times more power, or 480 W. For
+now we will probably have to keep to our target speed.</p>
 <h3 id="wind-energy">🌬️ Wind Energy</h3>
 <p>An intriguing possibility, and one which does not require any
 technological leaps of faith, is to use wind energy.</p>
@@ -525,8 +527,9 @@ conditions.</p>
 <h3 id="max-speed">⚡ Max Speed</h3>
 <p>What will be the top speed of the avis at any length? Let’s suppose
 we can lay out half the top rectangle with solar cells that provide 300
-W/m²; top surface <code>S(top)</code> and generated power <code>P</code>
-would be:</p>
+W/m², and that they are light enough not to tip the avis upside down.
+Top surface <code>S(top)</code> and generated power <code>P</code> would
+be:</p>
 <pre><code>S(top) ≈ l × 2l / 2 = l²,
 P ≈ 300 W/m² × S(top) ≈ 300 W/m² × l²,</code></pre>
 <p>Given the drag equation we can find out the required power at speed

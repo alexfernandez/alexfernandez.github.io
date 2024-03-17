@@ -300,6 +300,9 @@ to avoid instabilities.
 
 ### ☀️ Solar Energy
 
+Where can we take our power from?
+If we want our avis to stay in the air indefinitely
+we cannot depend on carrying fuel aboard as it would be exhausted at some point.
 There are not many renewable sources of energy up in the air.
 The most obvious is the Sun:
 embed some solar panels on top of our hull and we are good to go!
@@ -310,7 +313,7 @@ One such example is the [Solbian SP 24](https://www.solbian.eu/en/sp-series/26-s
 which provides a nominal 82 W with a weight of 1.1 kg.
 
 Keep in mind that solar panels always provide less power than advertised,
-even in full sun.
+even in full sunlight.
 So it is possible that at midday in optimal weather in a temperate country
 this panel might get to give us the 60 W we need.
 We might use a couple of these panels to reach more power,
@@ -318,15 +321,15 @@ but then the airship may become top-heavy and destabilize.
 
 It is not unusual to see promises of much more powerful solar cells.
 [MIT researchers](https://news.mit.edu/2022/ultrathin-solar-cells-1209)
-were promising 370 W/kg in 2022,
+were announcing 370 W/kg in 2022,
 which would be closer to what we need.
 And the Airbus Zephyr uses Microlink solar sheets
-[exceeding 1500 W/kg](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html),
-and 350 W/m2.
+[exceeding 1500 W/kg and 350 W/m²](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
+apparently, or so they say.
 
 We might even get to 10 m/s with this kind of power.
 But keep in mind that the cubed equation we got above for power is quite treacherous:
-to get to 10 m/s we would need 8 times more power than for our 5 m/s,
+to double our initial 5 m/s we would need 8 times more power,
 or 480 W.
 For now we will probably have to keep to our target speed.
 
@@ -533,8 +536,9 @@ given the right meteorological conditions.
 ### ⚡ Max Speed
 
 What will be the top speed of the avis at any length?
-Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²;
-top surface `S(top)` and generated power `P` would be:
+Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²,
+and that they are light enough not to tip the avis upside down.
+Top surface `S(top)` and generated power `P` would be:
 
 ```
 S(top) ≈ l × 2l / 2 = l²,
