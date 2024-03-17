@@ -120,12 +120,12 @@ What is the weight per square meter that we can afford?
 First we have to set up a weight budget for this concept:
 how much of our 10 kg we want to spend in the shell.
 It seems unavoidable that this is going to be our biggest source of weight,
-and that we should reserve for it as much as we can afford:
+and that we should reserve as much for it as we can afford:
 a stronger structure is going to hold up better against strong winds or impacts.
 Let us say half our weight is for the structure.
 
-We have to reserve some weight for the wings and other parts.
-Let us say 4 kg for the hull.
+We have to reserve some weight for the wings and other parts,
+leaving perhaps 4 kg for the hull.
 Since we have 20 m² of surface,
 the areal density will be:
 
@@ -141,13 +141,13 @@ which when cured results in super strong panels.
 
 ### 🪽 Wings and Reinforcements
 
-We set aside a budget of one kg for the rest of the hull.
+We have set aside a budget of one kg for the rest of the hull.
 
 The wings need also be built using carbon fiber.
 They need to be even stronger than the outer shell.
-Two wings and a tail on top are of the same approximate dimensions:
+The two wings and the tail on top are of the same approximate dimensions:
 60 x 80 cm, for a total area of approx. one third of a m².
-The three share an area of 1 m².
+The three therefore share an area of 1 m².
 The areal density needs to be at least twice of the shell,
 probably 500 g/m², for a total weight of 0.5 kg.
 
@@ -155,9 +155,9 @@ Also some reinforcements are required where the parts are joined.
 It is impossible to build the hull in one go;
 different pieces have to built and assembled.
 In our case we can build eight identical panels,
-which is quite convenient from the manufacture point of view.
-Then they can be assembled together using reinforcements,
-built using carbon fiber and glass fiber for elasticity.
+which is quite convenient from the manufacturing point of view.
+Those can then be assembled together using reinforcements,
+built using carbon fiber and some glass fiber for elasticity.
 
 ![Eight pieces of the hull: four on top, four below.](pics/aves-aeternae-hull.png "A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author.")
 
