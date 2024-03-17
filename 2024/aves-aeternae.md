@@ -382,10 +382,8 @@ and then fly it.
 ### 💻 Control
 
 Let's start by how to fly it.
-The idea is to build an autonomous drone,
-so it needs to have enough sensors to know where it is and what it is doing.
-Also an onboard computer,
-and servos to move the control surfaces:
+An autonomous drone needs to have enough sensors to know where it is and what it is doing.
+Also an onboard computer and servos to move the control surfaces:
 ailerons on wings and tail.
 
 Today there is no wonder in getting a GPS, accelerometers,
