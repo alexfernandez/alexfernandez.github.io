@@ -173,9 +173,8 @@ just one big bag will do.
 Helium balloons are usually done with Mylar,
 but there are materials that leak even less hydrogen:
 PVA is a very strong contender.
-
-In [Lei _et al_](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
-the team experiment with several coatings,
+In ["Internal polymeric coating materials..."](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
+Lei _et al_ experiment with several coatings,
 finding that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.
 
 Luckily it is not hard to get PVA bags,
