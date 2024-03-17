@@ -207,23 +207,26 @@ Given the definition of 1 barrer in SI units:
 
 `1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),`
 
-the computations are a bit messy but can be done as follows.
-The leaked gas will be:
+the formula for leaked gas is a bit messy, so bear with me.
+Leaked quantity can be computed as follows:
 
-`Quantity = Per × Surface × time × Pressure / thickness,`
+`Quantity = permeability × surface × time × pressure / thickness.`
 
-Remember that our surface is 20 m².
-We will compute the leaked quantity for a day or 86400 seconds,
-at atmospheric pressure or 101325 Pascal with a 40 micron bag.
-Pressure inside the bag will not be much higher than 1 atm;
-even [balloons](https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html)
+We computed a total `surface` of 20 m²,
+which also holds for the internal bag.
+We want to find out the leaked quantity for a day so `time` will be 86400 seconds.
+The `pressure` differential will be of atmospheric pressure or 101325 Pascal,
+assuming that the external hydrogen pressure is nil and
+pressure inside the bag will not be much higher than 1 atm;
+even [small balloons](https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html)
 are only a few percent tighter than atmospheric pressure.
 
-Now we have everything to compute the daily leaked quantity `Q`:
+Finally let's recall that we are using a 40 micron bag.
+Now we have everything we need to compute the daily leaked quantity `Q`:
 
 ```
 Q ≈ 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-Q ≈ 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+Q ≈ 0.0084 × 3.35 × 10^-16 mol × 86400 × 101325 / 0.00004,
 Q ≈ 0.0006 mol.
 ```
 
@@ -231,9 +234,9 @@ Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
 so we are leaking a bit more than half a milligram per day.
 Not bad considering that we have around 0.5 kg of hydrogen!
 We might stay aloft for a million days at this rate.
-These nubers do not look very realistic,
+These numbers do not look very realistic,
 and have to be contrasted with real world tests with real bags.
-But the safety margin is quite large.
+In any case the safety margin should be enough to stay in the air for days or even weeks.
 
 ## ⚡ Energy Sources
 

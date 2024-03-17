@@ -222,29 +222,34 @@ materials. We can use a unit of permeability called <a
 href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it.
 Again in <a
 href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content">Lei
-<em>et al</em></a> the permeability of PVA is given as 0.0084 barrer.
-Given the definition of 1 barrer in SI units:</p>
+<em>et al</em>’s study</a> the permeability of PVA is given as 0.0084
+barrer. Given the definition of 1 barrer in SI units:</p>
 <p><code>1 barrer = 3.35 × 10^-16 × mol × m / (m² × s × Pa),</code></p>
-<p>the computations are a bit messy but can be done as follows. The
-leaked gas will be:</p>
-<p><code>Quantity = Per × Surface × time × Pressure / thickness,</code></p>
-<p>Remember that our surface is 20 m². We will compute the leaked
-quantity for a day or 86400 seconds, at atmospheric pressure or 101325
-Pascal with a 40 micron bag. Pressure inside the bag will not be much
-higher than 1 atm; even <a
-href="https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html">balloons</a>
-are only a few percent tighter than atmospheric pressure.</p>
-<p>Now we have everything to compute the daily leaked quantity
+<p>the formula for leaked gas is a bit messy, so bear with me. Leaked
+quantity can be computed as follows:</p>
+<p><code>Quantity = permeability × surface × time × pressure / thickness.</code></p>
+<p>We computed a total <code>surface</code> of 20 m², which also holds
+for the internal bag. We want to find out the leaked quantity for a day
+so <code>time</code> will be 86400 seconds. The <code>pressure</code>
+differential will be of atmospheric pressure or 101325 Pascal, assuming
+that the external hydrogen pressure is nil and pressure inside the bag
+will not be much higher than 1 atm; even <a
+href="https://www.mwmresearchgroup.org/the-science-of-balloons-part-2.html">small
+balloons</a> are only a few percent tighter than atmospheric
+pressure.</p>
+<p>Finally let’s recall that we are using a 40 micron bag. Now we have
+everything we need to compute the daily leaked quantity
 <code>Q</code>:</p>
 <pre><code>Q ≈ 0.0084 barrer × 20 m² × 86400 s × 101325 Pa / 0.000040 m,
-Q ≈ 0.0084 × 3.35 × 10^-16 × 86400 × 101325 / 0.00004 mol,
+Q ≈ 0.0084 × 3.35 × 10^-16 mol × 86400 × 101325 / 0.00004,
 Q ≈ 0.0006 mol.</code></pre>
 <p>Converting to grams is easy as 1 mol of Hydrogen is defined as 1 g,
 so we are leaking a bit more than half a milligram per day. Not bad
 considering that we have around 0.5 kg of hydrogen! We might stay aloft
-for a million days at this rate. These nubers do not look very
+for a million days at this rate. These numbers do not look very
 realistic, and have to be contrasted with real world tests with real
-bags. But the safety margin is quite large.</p>
+bags. In any case the safety margin should be enough to stay in the air
+for days or even weeks.</p>
 <h2 id="energy-sources">⚡ Energy Sources</h2>
 <p>The airship needs to be able to direct its flight. It needs a power
 source that gives enough energy for our purposes. Being a demonstration
