@@ -386,26 +386,24 @@ An autonomous drone needs to have enough sensors to know where it is and what it
 Also an onboard computer and servos to move the control surfaces:
 ailerons on wings and tail.
 
-Today there is no wonder in getting a GPS, accelerometers,
-world-wide communications, camera, microphone,
-plus a powerful computer
+Today it is not hard to get a powerful computer with GPS,
+accelerometers, camera, microphone,
+plus world-wide communications,
 into a compact package weighing less than 0.25 kg.
 We call it "mobile phone".
-But we may need something like a Raspberry Pi with electric controls to drive the servos.
+Also we may need something like a Raspberry Pi with electric controls to drive the servos.
 Ideally we should get something that does both functions,
-something like a Raspberry Pi
-which might do both functions since it has a 4G module.
+but we can equip both if necessary.
 
-We can spare 0.5 kg for the onboard computer while servos might take 0.2 kg at most.
+We can spare 0.5 kg for the onboard computer(s) while servos should take 0.2 kg at most.
 
 ### 🧮 Weight Budget
 
 Let's add up a few other weights:
-a carbon fiber gondola is required to hold battery and onboard computer
-below the hull,
-and help compensate the weight of the solar panels.
+a strong gondola is required to hold battery and onboard computer below the hull,
+so it can help compensate the weight of the solar panels on top.
 It might weigh 0.5 kg.
-We also need some cabling for 0.2 kg.
+We also need some cables for which we will reserve 0.2 kg.
 
 These are our total weights:
 
@@ -420,13 +418,14 @@ These are our total weights:
 | motors            |              | 0.1    |
 | propellers        |              | 0.2    |
 | solar panel       |              | 1.1    |
-| cables and servos |              | 0.2    |
+| servos |              | 0.2    |
+| cables |              | 0.2    |
 | computer |              | 0.5    |
 | lift              | hydrogen     | -9.84  |
-| total             |              | -0.34  |
+| total             |              | -0.14  |
 
 The budget seems feasible,
-and we even have 0.3 kg to spare.
+and we even have 140 grams to spare.
 If needed it can be filled with ballast.
 
 ### 🧩 Pieces

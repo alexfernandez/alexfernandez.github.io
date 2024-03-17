@@ -352,22 +352,21 @@ air, and then fly it.</p>
 <h3 id="control">💻 Control</h3>
 <p>Let’s start by how to fly it. An autonomous drone needs to have
 enough sensors to know where it is and what it is doing. Also an onboard
-computer, and servos to move the control surfaces: ailerons on wings and
+computer and servos to move the control surfaces: ailerons on wings and
 tail.</p>
-<p>Today there is no wonder in getting a GPS, accelerometers, world-wide
-communications, camera, microphone, plus a powerful computer into a
-compact package weighing less than 0.25 kg. We call it “mobile phone”.
-But we may need something like a Raspberry Pi with electric controls to
+<p>Today it is not hard to get a powerful computer with GPS,
+accelerometers, camera, microphone, plus world-wide communications, into
+a compact package weighing less than 0.25 kg. We call it “mobile phone”.
+Also we may need something like a Raspberry Pi with electric controls to
 drive the servos. Ideally we should get something that does both
-functions, something like a Raspberry Pi which might do both functions
-since it has a 4G module.</p>
-<p>We can spare 0.5 kg for the onboard computer while servos might take
-0.2 kg at most.</p>
+functions, but we can equip both if necessary.</p>
+<p>We can spare 0.5 kg for the onboard computer(s) while servos should
+take 0.2 kg at most.</p>
 <h3 id="weight-budget">🧮 Weight Budget</h3>
-<p>Let’s add up a few other weights: a carbon fiber gondola is required
-to hold battery and onboard computer below the hull, and help compensate
-the weight of the solar panels. It might weigh 0.5 kg. We also need some
-cabling for 0.2 kg.</p>
+<p>Let’s add up a few other weights: a strong gondola is required to
+hold battery and onboard computer below the hull, so it can help
+compensate the weight of the solar panels on top. It might weigh 0.5 kg.
+We also need some cables for which we will reserve 0.2 kg.</p>
 <p>These are our total weights:</p>
 <table>
 <thead>
@@ -424,28 +423,33 @@ cabling for 0.2 kg.</p>
 <td>1.1</td>
 </tr>
 <tr class="even">
-<td>cables and servos</td>
+<td>servos</td>
 <td></td>
 <td>0.2</td>
 </tr>
 <tr class="odd">
+<td>cables</td>
+<td></td>
+<td>0.2</td>
+</tr>
+<tr class="even">
 <td>computer</td>
 <td></td>
 <td>0.5</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>lift</td>
 <td>hydrogen</td>
 <td>-9.84</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>total</td>
 <td></td>
-<td>-0.34</td>
+<td>-0.14</td>
 </tr>
 </tbody>
 </table>
-<p>The budget seems feasible, and we even have 0.3 kg to spare. If
+<p>The budget seems feasible, and we even have 140 grams to spare. If
 needed it can be filled with ballast.</p>
 <h3 id="pieces">🧩 Pieces</h3>
 <p>Most of the pieces are off-the-shelf. Some are custom made like the
