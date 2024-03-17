@@ -312,8 +312,7 @@ But there are companies commercializing powerful panels today.
 One such example is the [Solbian SP 24](https://www.solbian.eu/en/sp-series/26-sp-24.html),
 which provides a nominal 82 W with a weight of 1.1 kg.
 
-Keep in mind that solar panels always provide less power than advertised,
-even in full sunlight.
+Keep in mind that solar panels tend to provide less power than advertised even in full sunlight.
 So it is possible that at midday in optimal weather in a temperate country
 this panel might get to give us the 60 W we need.
 We might use a couple of these panels to reach more power,
@@ -331,7 +330,8 @@ We might even get to 10 m/s with this kind of power.
 But keep in mind that the cubed equation we got above for power is quite treacherous:
 to double our initial 5 m/s we would need 8 times more power,
 or 480 W.
-For now we will probably have to keep to our target speed.
+We will explore theoretical max velocity below.
+For now we will keep to our target speed.
 
 ### 🌬️ Wind Energy
 
