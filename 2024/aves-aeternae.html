@@ -140,10 +140,10 @@ by the hydrogen: we compute the weight of the air inside, and then
 subtract the weight of the same volume of hydrogen. Since the density of
 air is 1.3 kg/m³, and of hydrogen is 70 g/m³, lift will be:</p>
 <p>`L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.</p>
-<p>So our budget is around 10 kg. As you see, at this stage it’s not
-enough to do Fermi estimations (i.e. order of magnitude): for a detailed
-feasibility study we need more precise numbers. It is still OK to round
-up numbers as we did above with surface and volume.</p>
+<p>So our weight budget is around 10 kg. As you see, at this stage it’s
+not enough to do Fermi estimations (i.e. order of magnitude): for a
+detailed feasibility study we need more precise numbers. It is still OK
+to round up numbers as we did above with surface and volume.</p>
 <h2 id="build">🛠️ Build</h2>
 <p>How can we build a real life airship, even if it’s a small one?</p>
 <h3 id="structure">🪚 Structure</h3>
@@ -194,7 +194,7 @@ alt="Eight pieces of the hull: four on top, four below." />
 four below.</figcaption>
 </figure>
 <p>Finally we need a small cone to place at the front. Together the
-budget of 1 kg seems doable.</p>
+objective of 1 kg seems doable.</p>
 <h3 id="hydrogen-sack">🎈 Hydrogen Sack</h3>
 <p>Inside the hull a large bag will hold the gas. At this scale we don’t
 want a complicated set of sacks containing the hydrogen; just one big
@@ -208,16 +208,16 @@ hydrogen permeability.</p>
 <p>Luckily it is not hard to get PVA bags, as they are widely used in
 industry because they are biodegradable. One precaution is that PVA
 dissolves in water, so the interior of the structure must be kept
-dry.</p>
+strictly dry.</p>
 <p>Bags with thickness of 40 microns are quite common in the industry.
 Given the density of PVA of 1.19 g/cm³, for our total surface of 20 m²
 we get:</p>
 <pre><code>W(bag) ≈ 0.040 mm × 1.19 g/cm³ × 20 m²
 W(bag) ≈ 950 g ≈ 1 kg</code></pre>
-<p>So another kg for our weight budget.</p>
+<p>So another kg for our weight budget, for a total of 6 so far.</p>
 <h3 id="hydrogen-leaks">💨 Hydrogen Leaks</h3>
 <p>How much hydrogen would leak out of our PVA bag in a day? This of
-course depends on how well sealed the bag is, and the quality of the
+course depends on how well sealed the bag is and the quality of the
 materials. We can use a unit of permeability called <a
 href="https://en.wikipedia.org/wiki/Barrer">Barrer</a> to quantify it.
 Again in <a

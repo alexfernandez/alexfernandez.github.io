@@ -92,7 +92,7 @@ and of hydrogen is 70 g/m³, lift will be:
 
 `L = (1.3 - 0.070) kg/m³ × 8 m³ ≈ 9.84 kg.
 
-So our budget is around 10 kg.
+So our weight budget is around 10 kg.
 As you see, at this stage it's not enough to do Fermi estimations
 (i.e. order of magnitude):
 for a detailed feasibility study we need more precise numbers.
@@ -162,7 +162,7 @@ built using carbon fiber and some glass fiber for elasticity.
 ![Eight pieces of the hull: four on top, four below.](pics/aves-aeternae-hull.png "A spheroid cut in eight: seen from the top an ellipse cut in four pieces. Source: the author.")
 
 Finally we need a small cone to place at the front.
-Together the budget of 1 kg seems doable.
+Together the objective of 1 kg seems doable.
 
 ### 🎈 Hydrogen Sack
 
@@ -180,7 +180,7 @@ finding that PVA (polyvinyl alcohol) has the lowest hydrogen permeability.
 Luckily it is not hard to get PVA bags,
 as they are widely used in industry because they are biodegradable.
 One precaution is that PVA dissolves in water,
-so the interior of the structure must be kept dry.
+so the interior of the structure must be kept strictly dry.
 
 Bags with thickness of 40 microns are quite common in the industry.
 Given the density of PVA of 1.19 g/cm³,
@@ -191,17 +191,17 @@ W(bag) ≈ 0.040 mm × 1.19 g/cm³ × 20 m²
 W(bag) ≈ 950 g ≈ 1 kg
 ```
 
-So another kg for our weight budget.
+So another kg for our weight budget, for a total of 6 so far.
 
 ### 💨 Hydrogen Leaks
 
 How much hydrogen would leak out of our PVA bag in a day?
-This of course depends on how well sealed the bag is,
+This of course depends on how well sealed the bag is
 and the quality of the materials.
 We can use a unit of permeability called
 [Barrer](https://en.wikipedia.org/wiki/Barrer) to quantify it.
 Again in
-[Lei _et al_](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
+[Lei _et al_'s study](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade91ba45822/content)
 the permeability of PVA is given as 0.0084 barrer.
 Given the definition of 1 barrer in SI units:
 
