@@ -27,12 +27,10 @@ The engineering challenge is thus amazingly possible.
 ## 🎚️ Model Scale
 
 So let's build a scale model!
-In what follows we will look at a 2×2×4 meter model, more or less the size of a car:
-big enough to be substantial,
-but small enough to be built with limited means.
 
-### 🏉 Proportions
+### 🏉 Shape
 
+Let's first look at the shape.
 The classical design for a blimp or a zeppelin is a spheroid.
 (Yes, I know that last time I chose a shape similar to a boat:
 square and with flat profile.
@@ -51,11 +49,10 @@ So let's go with a spheroid!
 An intriguing option is to size the avis aeterna vaguely like a car:
 two meters wide and tall, four meters long.
 (For US readers: that is 6.5 feet wide and tall, 13 feet long.)
-It is big enough to be substantial,
-but small enough to be built in a garage.
+These dimensions are big enough to be substantial but small enough to be built in a garage with limited means.
 
-This mandates all of the proportions of the model:
-with the value of two meters and the [spheroid](https://en.wikipedia.org/wiki/Spheroid)
+This decision mandates all of the proportions of the model:
+with the value of 2 m and the [spheroid](https://en.wikipedia.org/wiki/Spheroid)
 equations we can compute everything else.
 First we have a prolate spheroid with axis `A=2m`,
 and length `C=4m`.
@@ -493,14 +490,22 @@ surely something else will fail before gas runs out after a million days.
 
 A bigger model should have some kind of atmospheric water gathering,
 from which it can generate hydrogen by electrolisis to replenish any leaks.
-A 6-meter-long model will have a reference length (height and width) of 3 meters,
+A 6-meter-long model will have a height and width of 3 meters,
 and we get a volume and area of:
 
 ```
-V ≈ 3 m × 3 m × 6 m / 2 = 27 m³
-S ≈ 5 × 3 m × 3 m = 45 m²
-W ≈ V × density ≈ 27 × 1.2 kg
+V ≈ 3 m × 3 m × 6 m / 2 = 27 m³,
+S ≈ 5 × 3 m × 3 m = 45 m²,
+W ≈ V × density ≈ 27 × 1.2 kg,
 W ≈ 30 kg.
+```
+
+In general, given reference length (height and width) `l`:
+
+```
+V ≈ l³,
+S ≈ 5 l²,
+W ≈ 1.2 kg/m³ × l³.
 ```
 
 With these calculations we are back to gross approximations.
@@ -534,14 +539,16 @@ given the right meteorological conditions.
 
 What will be the top speed of the avis at any length?
 Let's suppose we can lay out half the top rectangle with solar cells that provide 300 W/m²,
-and that they are light enough not to tip the avis upside down.
-Top surface `S(top)` and generated power `P` would be:
+and that are light enough not to tip the avis upside down.
+This is currently the state of the art.
+Given reference length `l`, top surface `S(top)` and generated power `P` would be:
 
 ```
 S(top) ≈ l × 2l / 2 = l²,
 P ≈ 300 W/m² × S(top) ≈ 300 W/m² × l²,
 ```
 
+This equation yields a max power of 1200 W for our usual model length of 2 m.
 Given the drag equation we can find out the required power at speed `v`:
 
 ```
@@ -575,7 +582,7 @@ v ≈ 14 m/s
 
 We get a **top speed of nearly 15 m/s that doesn't change with scale**.
 Keep in mind that this is in direct incident sunlight without any inefficiencies,
-so very likely speed will be lower than this unless there are major technological breakthroughs.
+so very likely max speed will be lower than this unless there are major technological breakthroughs.
 
 To remain stationary the avis needs a decent max speed to counter any winds.
 No matter the size,
