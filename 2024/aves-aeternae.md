@@ -117,9 +117,9 @@ We can set up a rigid hull that contains a sack,
 which in turn holds our lifting gas.
 What is the weight per square meter that we can afford?
 
-First we have to set up a budget:
+First we have to set up a weight budget for this concept:
 how much of our 10 kg we want to spend in the shell.
-It seems obvious that this is going to be our biggest source of weight,
+It seems unavoidable that this is going to be our biggest source of weight,
 and that we should reserve for it as much as we can afford:
 a stronger structure is going to hold up better against strong winds or impacts.
 Let us say half our weight is for the structure.
