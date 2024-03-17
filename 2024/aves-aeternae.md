@@ -50,7 +50,7 @@ So let's go with a spheroid!
 
 An intriguing option is to size the avis aeterna vaguely like a car:
 two meters wide and tall, four meters long.
-(For any US readers it's 6.5 feet wide.)
+(For US readers: that is 6.5 feet wide and tall, 13 feet long.)
 It is big enough to be substantial,
 but small enough to be built in a garage.
 
