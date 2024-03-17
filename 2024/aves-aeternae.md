@@ -254,7 +254,7 @@ Let's recall the drag equation:
 
 using the density of air of 1.3 kg/m³,
 the surface of 20 m²
-and the drag coefficient we saw above for a spheroid with a cone of `0.03`.
+and the average drag coefficient we saw above for a spheroid with a cone of `0.03`.
 (Note: carbon fiber is a very polished surface so the drag coefficient might be even lower.)
 Spoiler alert, power is just force multiplied by velocity,
 so we just multiply again by the velocity:
@@ -283,16 +283,20 @@ Is this possible to achieve?
 
 ### ⚙️ Motor and Propeller
 
-From this power budget we have to discount the efficiency of motor and propeller.
+From this power target we have to discount the efficiency of motor and propeller.
 Luckily thanks to the RC industry there are a lot of very efficient motors
 (brushless and sensored are apparently the way to go)
 and propellers which are powerful and light enough.
 
 There is at least a 20% reduction in efficiency due to the combination of motor and propeller to be taken into account.
 So our 50 W of impulse become at least 60 W at generation.
-Also, the weight of two motors and two propellers
-(each at the side of the airship to help keep the balance)
+Another important consideration is that the weight of two motors and two propellers
 should be well below 500 g.
+
+For balance the propellers should be one at each side of the airship;
+this will also allow it to maneuver using differential power.
+They should also be near the forward of the ship
+to avoid instabilities.
 
 ### ☀️ Solar Energy
 
