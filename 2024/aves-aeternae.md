@@ -1,7 +1,7 @@
 ---
 title: '🪽 Aves Æternæ'
 subtitle: '🛩️ Building Perpetual Flying Machines'
-footer: Published on 2024-03-03, last modified on 2024-03-03.
+footer: Published on 2024-03-16, last modified on 2024-03-17.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/aves-aeternae-model.png
 ---
@@ -38,7 +38,7 @@ The classical design for a blimp or a zeppelin is a spheroid.
 square and flat profile.
 I have since come to appreciate a more classic design.)
 
-![An spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
+![A spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
 
 It is quite aerodynamic, or should be:
 the drag coefficient of a spheroid is between 0.02 and 0.04,
