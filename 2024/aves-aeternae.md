@@ -106,14 +106,10 @@ even if it's a small one?
 ### 🪚 Structure
 
 We want to build a dirigible:
-an aircraft which is sustented by the lift of a light gas.
-
-real dirigible, not a blimp:
-the difference is that the dirigible or zeppelin has a rigid structure,
-while blimps are just inflatable.
-We know that dirigibles worked beautifully,
-and with ancient 1900s materials even,
-but is it possible to do it at this scale?
+an airship which is sustented by the lift of a light gas.
+In fact we want a rigid hull instead of an inflatable structure.
+We know that dirigibles worked beautifully even with ancient 1900s materials;
+is it possible to build one at this scale?
 
 Let's go with the simplest structure:
 just a shell.
