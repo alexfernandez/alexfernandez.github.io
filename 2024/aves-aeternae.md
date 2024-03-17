@@ -340,41 +340,43 @@ An intriguing possibility which does not require any technological leaps of fait
 But wait,
 how can you use wind energy to propel yourself if you are moving in the wind?
 It's the same principle as regenerative braking in electric cars:
-you let the motor spin freely,
-and instead of spending energy to move the wheels,
+you let the motor spin freely. Instead of spending energy to move the wheels,
 the movement of the wheels charges the battery.
 Same principle: 
 Yokota and Fujimoto investigated the principle in planes in
 [Pitch Angle Control by Regenerative Air Brake for Electric Aircraft](https://www.jstage.jst.go.jp/article/ieejjia/11/2/11_21005706/_pdf),
 and it is perfectly possible if the wings are oriented correctly.
 It even decelerates the aircraft,
-which is logical since the energy is taken from the flowing air.
+which is to be expected since the energy is taken from the flowing air.
 
 So the idea would be:
 orient the airship so the propellers move maximally,
 stop the motor and let it charge the batteries.
 The craft would slow down at the same time
 so it would not be carried away by the wind so fast.
-Then, once the batteries are charged start the propellers
+Then, once the batteries are charged we can start the propellers
 and move back to the desired position.
 This process can be repeated as often as desired;
-of course it will not be very efficient but might help not drift away too much e.g. at night.
+of course it will not be very efficient but might help not drift away too much
+whenever other power sources are not available,
+e.g. at night.
 
 ### 🔋 Batteries
 
 Speaking of which,
 is there any of that weight budget left at this point for the batteries?
-They are intended to store some of the solar and wind energy during the day,
+They can be used to store some of the solar and wind energy during the day,
 and use it at night to avoid drifting away.
 
 We will have to set aside at least 1 kg for a good battery.
 We can get [180 Wh commercially](https://www.jinbei-deutschland.de/en/products/v-mount-battery-180-wh-28309) today.
 This means driving our propellers at 60 W for three hours,
-which is not bad.
+which is not bad,
+supposing we can charge it while there is sunlight.
 
 ## 💅 Finishing Touches
 
-We still have tomake sure this thing is light enough to get in the air,
+We still have to make sure this thing is light enough to get in the air,
 and then fly it.
 
 ### 💻 Control
