@@ -34,9 +34,9 @@ but small enough to be built with limited means.
 ### 🏉 Proportions
 
 The classical design for a blimp or a zeppelin is a spheroid.
-(Yes, I know that last time I chose a design similar to a boat:
-square and flat profile.
-I have since come to appreciate a more classic design.)
+(Yes, I know that last time I chose a shape similar to a boat:
+square and with flat profile.
+I have since come to appreciate the classics.)
 
 ![A spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
 
