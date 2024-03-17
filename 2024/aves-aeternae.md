@@ -335,9 +335,7 @@ For now we will keep to our target speed.
 
 ### 🌬️ Wind Energy
 
-An intriguing possibility,
-and one which does not require any technological leaps of faith,
-is to use wind energy.
+An intriguing possibility which does not require any technological leaps of faith is to use wind energy.
 
 But wait,
 how can you use wind energy to propel yourself if you are moving in the wind?
