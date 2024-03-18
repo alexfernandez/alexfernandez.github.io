@@ -132,7 +132,7 @@ D(A) = 200 g/m².
 ```
 
 What kind of material can be strong enough at 0.2 kg per square meter?
-Only [carbon fiber](https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers) fits the bill.
+[Carbon fiber](https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers) should fit the bill.
 It is a very interesting material made of carbon fibers embedded in an epoxy resin,
 which when cured results in super strong panels.
 
