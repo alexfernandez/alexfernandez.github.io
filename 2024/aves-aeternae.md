@@ -247,35 +247,46 @@ but it needs to manouver at a certain speed.
 How much power do we need?
 Let's recall the drag equation:
 
-`F(D) = ½ ρ × v² × C(D) × S,`
+`F(D) = ½ ρ × v² × C(D) × S(front),`
 
-using the density of air of 1.3 kg/m³,
-the surface of 20 m²
+where the surface will now be the front area
+which is a circle of radius 1m,
+
+```
+S(front) = π × l²/4,
+S(front) ≈ 3 m².
+```
+
+Power is just force multiplied by velocity,
+so we just multiply this force again by the velocity:
+
+```
+P = F(D) × v,
+P = ½ ρ × v³ × C(D) × S(front).
+```
+
+So the power we need to move at a given velocity can be computed
+using the front surface of 3 m²,
+the density of air of 1.3 kg/m³,
 and the average drag coefficient we saw above for a spheroid with a cone of `0.03`.
 (Note: carbon fiber is a very polished surface so the drag coefficient might be even lower.)
-Spoiler alert, power is just force multiplied by velocity,
-so we just multiply again by the velocity:
-
-`P = ½ ρ × v³ × C(D) × S.`
-
-So the power we need to move at a given velocity will be:
 
 ```
-P ≈ ½ 1.3 kg/m³ × 0.03 × 20 m² × v³,
-P ≈ 0.39 kg/m × v³.
+P ≈ ½ 1.3 kg/m³ × 0.03 × 3 m² × v³,
+P ≈ 0.06 kg/m × v³.
 ```
 
-Now let's set as target speed a leisurely pace of 5 m/s,
-or 18 km/h (11 mph).
+Now let's set as target speed a leisurely pace of 10 m/s,
+or 36 km/h (22 mph).
 Our avis aeterna is not going to be a speed demon,
 but it will move about.
 The required power will be:
 
 ```
-P ≈ 0.39 × 5³ kg×m²/s³ ≈ 48.75 W.
+P ≈ 0.06 × 10³ kg×m²/s³ ≈ 60 W.
 ```
 
-Approximately **50 watt of power are needed to move at 5 m/s**.
+Approximately **60 watt of power are needed to move at 10 m/s**.
 Is this possible to achieve?
 
 ### ⚙️ Motor and Propeller
@@ -286,7 +297,7 @@ Luckily thanks to the RC industry there are a lot of very efficient motors
 and propellers which are powerful and light enough.
 
 There is at least a 20% reduction in efficiency due to the combination of motor and propeller to be taken into account.
-So our 50 W of impulse become at least 60 W at generation.
+So our 60 W of impulse become at least 70 W at generation.
 Another important consideration is that the weight of two motors and two propellers
 should be well below 500 g.
 
@@ -311,7 +322,7 @@ which provides a nominal 82 W with a weight of 1.1 kg.
 
 Keep in mind that solar panels tend to provide less power than advertised even in full sunlight.
 So it is possible that at midday in optimal weather in a temperate country
-this panel might get to give us the 60 W we need.
+this panel might get to give us the 70 W we need.
 We might use a couple of these panels to reach more power,
 but then the airship may become top-heavy and destabilize.
 
@@ -323,10 +334,10 @@ And the Airbus Zephyr uses Microlink solar sheets
 [exceeding 1500 W/kg and 350 W/m²](https://www.prnewswire.com/news-releases/microlink-devices-powers-successful-stratospheric-flight-of-airbus-defence-and-space-zephyr-s-haps-solar-aircraft-300732214.html)
 apparently, or so they say.
 
-We might even get to 10 m/s with this kind of power.
+We might even get to 20 m/s with this kind of power.
 But keep in mind that the cubed equation we got above for power is quite treacherous:
-to double our initial 5 m/s we would need 8 times more power,
-or 480 W.
+to double our initial 10 m/s we would need 8 times more power,
+or 560 W.
 We will explore theoretical max velocity below.
 For now we will keep to our target speed.
 
@@ -549,48 +560,44 @@ P ≈ 300 W/m² × S(top) ≈ 300 W/m² × l²,
 ```
 
 This equation yields a max power of 1200 W for our usual model length of 2 m.
-Given the drag equation we can find out the required power at speed `v`:
+Given the drag equation we can find out the required power at speed `v`,
+using the front area and the same drag coefficient as before of 0.03:
 
 ```
-P ≈ ½ ρ × v³ × C(D) × S,
-S ≈ 5 × l²,
-P ≈ ½ 1.3 kg/m³ × v³ × C(D) × 5 × l².
-```
-
-Using the same drag coefficient as before of 0.03:
-
-```
-P ≈ ½ 1.3 kg/m³ × v³ × 0.03 × 5 × l²,
-P ≈ 0.1 kg/m³ × l² × v³.
+P ≈ ½ ρ × v³ × C(D) × S(front),
+S(front) = π × l²/4,
+P ≈ ½ 1.3 kg/m³ × v³ × 0.03 × π × l²/4,
+P ≈ 0.015 kg/m³ × l² × v³.
 ```
 
 Combining both equations for power `P`:
 
 ```
-300 W/m² × l² ≈ 0.1 kg/m³ × v³ × l²
+300 W/m² × l² ≈ 0.015 kg/m³ × v³ × l²
 ```
 
 Therefore we can remove the terms `l²` from both sides,
 and we get a constant equation for max speed `v` regardless of model length:
 
 ```
-300 W/m² ≈ 0.1 kg/m³ × v³
-v³ ≈ 300 W/m² / 0.1 kg/m³
-v³ ≈ 3000 Wm/kg
-v ≈ 14 m/s
+300 W/m² ≈ 0.015 kg/m³ × v³
+v³ ≈ 300 W/m² / 0.015 kg/m³
+v³ ≈ 20000 Wm/kg
+v ≈ 27 m/s
 ```
 
-We get a **top speed of nearly 15 m/s that doesn't change with scale**.
+We get a **top speed of nearly 30 m/s that doesn't change with scale**.
 Keep in mind that this is in direct incident sunlight without any inefficiencies,
 so very likely max speed will be lower than this unless there are major technological breakthroughs.
+Also we will need some of that power to charge the batteries for the night.
 
-To remain stationary the avis needs a decent max speed to counter any winds.
+To remain stationary the avis needs a decent **average** speed to counter any winds.
 No matter the size,
 the role of patrolling a given spot is only possible if there are no constant winds in the area.
 Otherwise the avis will have to navigate those winds by changing altitude
-or otherwise finding favorable air currents.
+or otherwise finding favorable thermal air currents.
 
-But even with a slow top speed the avis may have other applications,
+But even with a slower average speed the avis may have other applications,
 as long as it is not required to stay at exactly the same spot.
 
 ### 🔮 Changes
