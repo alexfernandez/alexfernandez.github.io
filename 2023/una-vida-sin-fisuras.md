@@ -75,7 +75,7 @@ cuando llegaba a casa le esperaban otros dos.
 
 Al entrar en la diputación de Almería como subsecretario también cumplió su papel a la perfección,
 y se jubiló allí como secretario general muchos años después.
-Hizo varios trabajos que fueron pioneros y todavía hoy marcan las líneas de la administración local,
+Hizo varios trabajos que fueron pioneros y todavía hoy marcan las líneas de la administración local.
 Amaba y admiraba las herramientas de su trabajo:
 del Código Civil decía que era una obra maestra de su época,
 y acumulaba tomos infumables de Administración Local como si fueran tesoros.
