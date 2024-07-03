@@ -1,7 +1,7 @@
 ---
 title: '🪽 Aves Æternæ'
 subtitle: '🛩️ Building Perpetual Flying Machines'
-footer: Published on 2024-03-16, last modified on 2024-03-17.
+footer: Published on 2024-03-16, last modified on 2024-03-24.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/aves-aeternae-model.png
 ---
