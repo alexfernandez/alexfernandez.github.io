@@ -57,6 +57,7 @@ What can we do with the remaining 15 grams?
 The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximately 0.34 m2,
 and covering it up with just one layer of 20 microns ligthweight material (1.2 density)
 would be 8 grams.
+(For comparison, the lightest vegetable bags at a supermarket are 40~50 microns thick.)
 Really hard to fit in there a couple of motors, propellers, battery and control surfaces;
 not to speak about some kind of structure, plus about one gram of hydrogen.
 Believe me, I've tried.
@@ -186,15 +187,41 @@ The structure is made up of a series of joints at the edges,
 linked together by carbon fiber strips.
 The two motors and the gondola are attached to these joints.
 
-The gondola will house Arduino nano, battery and power converters.
+The gondola will house Arduino nano, battery and a power converter
+from the battery's 3.7 V to the Arduino's 3.3 V,
+which is a very simple and lightweight 0.6 g circuit.
+
+As to the carbon fiber structure,
+we need 8 strips 62 cm long, and 4 strips 40 cm long,
+for a total of 656 cm.
+I have tried with 3x0.3 mm strips.
+They just weigh 1.1 g/m for a total of 
+but they cannot hold the weight of the gondola.
+I am currently waiting for 3x0.5 mm and 5x0.5mm;
+they weigh a bit more.
+Since carbon fiber has density of 1.4 g/cm3,
+it is easy to compute linear density:
+
+d = 1.4 g/cm3 * 3 mm * 0.3 mm
+= 1.26 g/m.
+
+3x0.5 mm: 2.1 g/m
+5x0.5 mm: 3.5 g/m
+
+Weight goes up fast!
+We can use the thickest strips only for the bottom segments,
+2 meters of them.
+Then intermediate strips for the mid segments,
+and the thinner strips on top.
 
 ## Hydrogen Bag
 
 # 🤔 Conclusion
 
-It should be possible to create a car-sized model of an avis aeterna,
-to stay aloft for several days,
-demonstrating its major features.
+When downscaling the avis aeterna to one meter long I expected to find multiple roadblocks.
+To my surprise it should be possible to build it with current materials and methods!
+While it will probably not stay aloft for days or weeks,
+it is a nice demonstration of the concept that can be scaled up.
 
 ## 🙏 Acknowledgements
 
