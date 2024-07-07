@@ -184,13 +184,12 @@ Each segment is approximately 10 cm wide and 62 cm long,
 and has indentations to glue it to its neighbours.
 Each four segments join together to form a quarter half-shape,
 so we need 32 in total for the whole shape.
-
-I have done some prototypes with scissors and they are a huge pain to cut.
-Luckily I now have access to a laser cutter which makes short work of the segments.
-
 After gluing together the segments they form two half-spheroids,
 that have to be joined together with the structure inside.
 Finally, a coating of acrylic spray gives it a water-resistant finish.
+
+I have created some prototypes with scissors and they are a huge pain to cut.
+Luckily I now have access to a laser cutter which makes short work of the segments.
 
 ## ❤️‍🔥 Hydrogen Prejudice
 
@@ -211,8 +210,7 @@ the avis would have to store 18 instead of 9 grams,
 wasting 9 grams of payload.
 Hydrogen is famously hard to contain in an envelope but helium is even worse,
 as it is a monoatomic molecule.
-
-As to safety: 9 grams of hydrogen is not explosive enough to cause any damage,
+As for safety: 9 grams of hydrogen is not explosive enough to cause any damage,
 and we don't have human passengers anyway.
 
 ![The Hindenburg disaster. Source: [gifs.com](https://gifs.com/gif/hindenburg-disaster-real-footage-1937-Wny2EW).](pics/avis-minima-hindenburg.gif "Animated GIF in black and white of the Hindenburg Zeppelin burning to the ground.")
