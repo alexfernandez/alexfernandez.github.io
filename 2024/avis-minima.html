@@ -94,7 +94,7 @@ As sizes get smaller they become more attainable. So, how small can we
 get and still have a working drone?</p>
 <p>With airships weight is always the primary concern: if they are to
 float in the air, the weight of the ship must be exactly balanced with
-the equivalent volume of air. Density of air is approximately 1.2 kg/m3;
+the equivalent volume of air. Density of air is approximately 1.2 kg/m³;
 once we choose a shape we can scale it up and down by simply following
 the <a href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">law
 of squares and cubes</a>.</p>
@@ -148,7 +148,7 @@ be hard pushed left to include any kind of electronics: even a paltry <a
 href="https://store.arduino.cc/products/arduino-nano">Arduino nano</a>
 weighs in at 5 grams. What can we do with the remaining 14 grams?</p>
 <p>The <a href="https://planetcalc.com/149/">surface of the
-ellipsoid</a> would be approximately 0.34 m2, and covering it up with
+ellipsoid</a> would be approximately 0.34 m², and covering it up with
 just one layer of 20 microns ligthweight material (1.2 density) would be
 8 grams. (For comparison, the lightest vegetable bags at a supermarket
 are 40~50 microns thick.) Really hard to fit in the remaining 6 grams a
@@ -226,7 +226,7 @@ will be able of 50+ hours of operation.</p>
 surface is 1.34 square meters. To cover it we need a lightweight and yet
 sturdy material, such as… maybe paper?</p>
 <p>Sadly even office paper is 80 gsm (grams per square meter), so
-covering our 1.34 m2 would weigh us down by 107g. But what if we can
+covering our 1.34 m² would weigh us down by 107g. But what if we can
 find something lighter and stronger?</p>
 <p>I created a prototype with humble oven paper from the kitchen supply
 section of the supermarket. At 40 gsm it is quite sturdy, but with the
@@ -255,7 +255,7 @@ of acrylic spray gives it a water-resistant finish.</p>
 the lightest gas known is hydrogen. Wait, did you read right? Doesn’t
 hydrogen, like, burn? Why not helium?</p>
 <p>The answer is threefold: price, convenience and availability. Helium
-is at least 100€/m3 in Spain, and the avis requires 0.131 m3. It is also
+is at least 100€/m³ in Spain, and the avis requires 0.131 m³. It is also
 a scarce resource and very likely to go up in price, since it is used
 for MRI machines which are more valuable than party balloons.</p>
 <p>Helium is also twice as heavy as hydrogen; the avis would have to
@@ -301,11 +301,11 @@ project, it is good to have an idea of the main parameters.</p>
 </tr>
 <tr class="odd">
 <td>volume</td>
-<td>0.131 m3</td>
+<td>0.131 m³</td>
 </tr>
 <tr class="even">
 <td>surface</td>
-<td>1.34 m2</td>
+<td>1.34 m²</td>
 </tr>
 <tr class="odd">
 <td>weight</td>
@@ -314,7 +314,7 @@ project, it is good to have an idea of the main parameters.</p>
 </tbody>
 </table>
 <p>Weight is computed based on the volume of air displaced, using an
-average air density of 1.2 kg/m3 (sea level, 20 C). One of the
+average air density of 1.2 kg/m³ (sea level, 20 C). One of the
 challenges is that this weight can change with temperature, altitude and
 even atmospheric conditions.</p>
 <p>Note that we have around 150 grams to fit in everything: hydrogen
@@ -340,7 +340,7 @@ least from the gondola to each propeller (~40 cm) and from the gondola
 to the servo (~62 cm), with three cables each (power, ground and
 signal). Let’s give a few more cm for each cable, this gives us a total
 of 5 meters of cable:</p>
-<p>L = 3 * 2 * 50 cm + 3 * 70 cm ~ 5 m.</p>
+<p>L = 3 × 2 × 50 cm + 3 × 70 cm ≈ 5 m.</p>
 <p>We need really lightweight cable; luckily we can use <a
 href="https://www.amazon.es/dp/B07JBQQR38?th=1">AWG 32 enameled
 cables</a>, which are around 0.1 g/m, for half a gram total.</p>
@@ -408,12 +408,12 @@ brains will use this servo to open the bag.</p>
 above in one of the remaining groups.</p>
 <h2 id="outer-hull-1">Outer Hull</h2>
 <p>As we saw above, we will use 20 gsm paper (manila or unryu) for
-maximum lightness; that is 20 g/m2. We will need a bit over 1.34 m2,
-since the different segments will overlap a bit; let’s say 1.40 m2. This
+maximum lightness; that is 20 g/m². We will need a bit over 1.34 m²,
+since the different segments will overlap a bit; let’s say 1.40 m². This
 means 28 g of paper.</p>
 <p>We also need glue to keep it together, and an outer layer of acrylic
-spray. Weight of glued paper tends to go up something like 5 g/m2.
-Finally spray also increases weight around 5 g/m2. Each material will
+spray. Weight of glued paper tends to go up something like 5 g/m².
+Finally spray also increases weight around 5 g/m². Each material will
 add around 7 g.</p>
 <h3 id="hull-weight-budget">Hull Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
@@ -456,12 +456,12 @@ strips 40 cm long, for a total of 656 cm. I have tried with 3x0.3 mm
 strips. They just weigh 1.1 g/m for a total of but they cannot hold the
 weight of the gondola. I am currently waiting for 3x0.5 mm and 5x0.5mm
 strips; they weigh a bit more. Since carbon fiber has density of 1.4
-g/cm3, it is easy to compute linear density:</p>
-<p>d = 1.4 g/cm3 * 3 mm * 0.3 mm</p>
+g/cm³, it is easy to compute linear density:</p>
+<p>d = 1.4 g/cm³ × 3 mm × 0.3 mm</p>
 <ul>
-<li>3 * 0.3 mm: 1.26 g/m</li>
-<li>3 * 0.5 mm: 2.1 g/m</li>
-<li>5 * 0.5 mm: 3.5 g/m</li>
+<li>3 × 0.3 mm: 1.26 g/m</li>
+<li>3 × 0.5 mm: 2.1 g/m</li>
+<li>5 × 0.5 mm: 3.5 g/m</li>
 </ul>
 <p>Weight goes up fast! We can use the thickest strips only for the
 bottom segments, ~2 meters of them: 2 strips with 62 cm and 2 with 40
@@ -490,15 +490,15 @@ it will need crossing reinforcements.</p>
 <tbody>
 <tr class="odd">
 <td>Light strips</td>
-<td>2 * 1.26 g</td>
+<td>2 × 1.26 g</td>
 </tr>
 <tr class="even">
 <td>Mid strips</td>
-<td>2.4 * 2.1 g</td>
+<td>2.4 × 2.1 g</td>
 </tr>
 <tr class="odd">
 <td>Heavy strips</td>
-<td>2 * 3.5 g</td>
+<td>2 × 3.5 g</td>
 </tr>
 <tr class="even">
 <td>Joints</td>
@@ -534,11 +534,11 @@ than 40 grams for the whole thing.</p>
 <h3 id="pva-to-the-rescue">PVA to the Rescue</h3>
 <p>The best material to contain hydrogen is apparently PVA, <a
 href="https://en.wikipedia.org/wiki/Polyvinyl_alcohol">density of
-1.2~1.3 g/cm3</a>. For our 1.34 m2 a 20 micron bag would therefore
+1.2~1.3 g/cm³</a>. For our 1.34 m² a 20 micron bag would therefore
 represent 32~35 grams. Let’s go on the pessimistic side to account for
 any extra plastic needed for the bag.</p>
 <h3 id="get-hydrogen">Get Hydrogen</h3>
-<p>We need 9 grams of hydrogen to fill our 0.131 m3, at 70 g/m3.</p>
+<p>We need 9 grams of hydrogen to fill our 0.131 m³, at 70 g/m³.</p>
 <p>Hydrogen availability is not trivial either: it can be purchased in
 heavy bottles, but it has the advantage that it can be generated quite
 easily via electrolysis. Actually just put an AA battery in water; those
@@ -562,7 +562,7 @@ method would take around 15 hours; it would not be fast.</p>
 <td>35 g</td>
 </tr>
 <tr class="even">
-<td>0.131 m3 of Hydrogen</td>
+<td>0.131 m³ of Hydrogen</td>
 <td>9 g</td>
 </tr>
 <tr class="odd">
@@ -661,9 +661,9 @@ dirigibles a bit more.</p>
 href="https://www.omnicalculator.com/physics/air-pressure-at-altitude">at
 20 C</a> <a
 href="https://www.omnicalculator.com/physics/air-density">air
-density</a> is approx 1.12 kg/m3, so the avis would have to weigh 148
+density</a> is approx 1.12 kg/m³, so the avis would have to weigh 148
 grams. Should temperature go to 40 C (as it regularly does every summer)
-then density falls to 1.045 kg/m3 and avis weight to 137 g. We would
+then density falls to 1.045 kg/m³ and avis weight to 137 g. We would
 have to shed 11 additional grams.</p>
 <p>Even a bit of humidity will make air lighter. Airships are really
 sensitive to atmospheric conditions.</p>

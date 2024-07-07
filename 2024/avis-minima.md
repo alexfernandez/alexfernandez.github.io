@@ -28,7 +28,7 @@ So, how small can we get and still have a working drone?
 With airships weight is always the primary concern:
 if they are to float in the air,
 the weight of the ship must be exactly balanced with the equivalent volume of air.
-Density of air is approximately 1.2 kg/m3;
+Density of air is approximately 1.2 kg/m³;
 once we choose a shape we can scale it up and down by simply following the
 [law of squares and cubes](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law).
 
@@ -55,7 +55,7 @@ even a paltry [Arduino nano](https://store.arduino.cc/products/arduino-nano)
 weighs in at 5 grams.
 What can we do with the remaining 14 grams?
 
-The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximately 0.34 m2,
+The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximately 0.34 m²,
 and covering it up with just one layer of 20 microns ligthweight material (1.2 density)
 would be 8 grams.
 (For comparison, the lightest vegetable bags at a supermarket are 40~50 microns thick.)
@@ -152,7 +152,7 @@ To cover it we need a lightweight and yet sturdy material,
 such as... maybe paper?
 
 Sadly even office paper is 80 gsm (grams per square meter),
-so covering our 1.34 m2 would weigh us down by 107g.
+so covering our 1.34 m² would weigh us down by 107g.
 But what if we can find something lighter and stronger?
 
 I created a prototype with humble oven paper from the kitchen supply section of the supermarket.
@@ -191,8 +191,8 @@ Doesn't hydrogen, like, burn?
 Why not helium?
 
 The answer is threefold: price, convenience and availability.
-Helium is at least 100€/m3 in Spain,
-and the avis requires 0.131 m3.
+Helium is at least 100€/m³ in Spain,
+and the avis requires 0.131 m³.
 It is also a scarce resource and very likely to go up in price,
 since it is used for MRI machines which are more valuable than party balloons.
 
@@ -231,12 +231,12 @@ it is good to have an idea of the main parameters.
 |---|---|
 | major axis | 1 m |
 | minor axis | 50 cm |
-| volume | 0.131 m3 |
-| surface | 1.34 m2 |
+| volume | 0.131 m³ |
+| surface | 1.34 m² |
 | weight | 157 g |
 
 Weight is computed based on the volume of air displaced,
-using an average air density of 1.2 kg/m3 (sea level, 20 C).
+using an average air density of 1.2 kg/m³ (sea level, 20 C).
 One of the challenges is that this weight can change with temperature, altitude and even atmospheric conditions.
 
 Note that we have around 150 grams to fit in everything:
@@ -269,7 +269,7 @@ with three cables each (power, ground and signal).
 Let's give a few more cm for each cable,
 this gives us a total of 5 meters of cable:
 
-L = 3 * 2 * 50 cm + 3 * 70 cm ~ 5 m.
+L = 3 × 2 × 50 cm + 3 × 70 cm ≈ 5 m.
 
 We need really lightweight cable;
 luckily we can use [AWG 32 enameled cables](https://www.amazon.es/dp/B07JBQQR38?th=1),
@@ -309,16 +309,16 @@ Just as well, because we will certainly go above in one of the remaining groups.
 
 As we saw above, we will use 20 gsm paper (manila or unryu)
 for maximum lightness;
-that is 20 g/m2.
-We will need a bit over 1.34 m2,
+that is 20 g/m².
+We will need a bit over 1.34 m²,
 since the different segments will overlap a bit;
-let's say 1.40 m2.
+let's say 1.40 m².
 This means 28 g of paper.
 
 We also need glue to keep it together,
 and an outer layer of acrylic spray.
-Weight of glued paper tends to go up something like 5 g/m2.
-Finally spray also increases weight around 5 g/m2.
+Weight of glued paper tends to go up something like 5 g/m².
+Finally spray also increases weight around 5 g/m².
 Each material will add around 7 g.
 
 ### Hull Weight Budget
@@ -352,14 +352,14 @@ They just weigh 1.1 g/m for a total of
 but they cannot hold the weight of the gondola.
 I am currently waiting for 3x0.5 mm and 5x0.5mm strips;
 they weigh a bit more.
-Since carbon fiber has density of 1.4 g/cm3,
+Since carbon fiber has density of 1.4 g/cm³,
 it is easy to compute linear density:
 
-d = 1.4 g/cm3 * 3 mm * 0.3 mm
+d = 1.4 g/cm³ × 3 mm × 0.3 mm
 
-- 3 * 0.3 mm: 1.26 g/m
-- 3 * 0.5 mm: 2.1 g/m
-- 5 * 0.5 mm: 3.5 g/m
+- 3 × 0.3 mm: 1.26 g/m
+- 3 × 0.5 mm: 2.1 g/m
+- 5 × 0.5 mm: 3.5 g/m
 
 Weight goes up fast!
 We can use the thickest strips only for the bottom segments,
@@ -380,9 +380,9 @@ Let's see if we are within the 40 g budget.
 
 | item | weight |
 |---|---|
-| Light strips | 2 * 1.26 g |
-| Mid strips | 2.4 * 2.1 g |
-| Heavy strips | 2 * 3.5 g |
+| Light strips | 2 × 1.26 g |
+| Mid strips | 2.4 × 2.1 g |
+| Heavy strips | 2 × 3.5 g |
 | Joints | 3.5 g |
 | Propeller joints | 1 g |
 | Gondola | 10 g |
@@ -401,15 +401,15 @@ Once again we have less than 40 grams for the whole thing.
 ### PVA to the Rescue
 
 The best material to contain hydrogen is apparently PVA,
-[density of 1.2~1.3 g/cm3](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
-For our 1.34 m2 a 20 micron bag would therefore represent
+[density of 1.2~1.3 g/cm³](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
+For our 1.34 m² a 20 micron bag would therefore represent
 32~35 grams.
 Let's go on the pessimistic side to account for any extra plastic needed for the bag.
 
 ### Get Hydrogen
 
-We need 9 grams of hydrogen to fill our 0.131 m3,
-at 70 g/m3.
+We need 9 grams of hydrogen to fill our 0.131 m³,
+at 70 g/m³.
 
 Hydrogen availability is not trivial either:
 it can be purchased in heavy bottles,
@@ -429,7 +429,7 @@ We have to include the hydrogen somewhere.
 | item | weight |
 |---|---|
 | PVA bag | 35 g |
-| 0.131 m3 of Hydrogen | 9 g |
+| 0.131 m³ of Hydrogen | 9 g |
 | **Total** | 44 g |
 
 Here we go a bit over the 40 g budget,
@@ -475,10 +475,10 @@ So if you live in the mountains (or in the Spanish _meseta_)
 then you may have to lighten your dirigibles a bit more.
 
 In Madrid where I live (657 m) [at 20 C](https://www.omnicalculator.com/physics/air-pressure-at-altitude)
-[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m3,
+[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³,
 so the avis would have to weigh 148 grams.
 Should temperature go to 40 C (as it regularly does every summer)
-then density falls to 1.045 kg/m3 and avis weight to 137 g.
+then density falls to 1.045 kg/m³ and avis weight to 137 g.
 We would have to shed 11 additional grams.
 
 Even a bit of humidity will make air lighter.
