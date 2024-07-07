@@ -503,7 +503,7 @@ then density falls to 1.045 kg/m³ and model weight plummets to 137 g.
 We would have to shed 11 additional grams.
 
 Even a bit of humidity will make air lighter.
-Airships are really sensitive to atmospheric conditions.
+Yes, airships are really sensitive to atmospheric conditions.
 
 ### 📈 Scaling Up
 
