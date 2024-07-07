@@ -197,25 +197,30 @@ for a total of 656 cm.
 I have tried with 3x0.3 mm strips.
 They just weigh 1.1 g/m for a total of 
 but they cannot hold the weight of the gondola.
-I am currently waiting for 3x0.5 mm and 5x0.5mm;
+I am currently waiting for 3x0.5 mm and 5x0.5mm strips;
 they weigh a bit more.
 Since carbon fiber has density of 1.4 g/cm3,
 it is easy to compute linear density:
 
 d = 1.4 g/cm3 * 3 mm * 0.3 mm
-= 1.26 g/m.
 
-3x0.5 mm: 2.1 g/m
-5x0.5 mm: 3.5 g/m
+- 3 * 0.3 mm: 1.26 g/m
+- 3 * 0.5 mm: 2.1 g/m
+- 5 * 0.5 mm: 3.5 g/m
 
 Weight goes up fast!
 We can use the thickest strips only for the bottom segments,
-2 meters of them.
-Then intermediate strips for the mid segments,
-and the thinner strips on top.
+~2 meters of them: 2 strips with 62 cm and 2 with 40 cm.
+Then intermediate strips for the mid segments (4x62cm),
+and the thinner strips on top (another 2m).
+Full weight will be:
+
+W(strips) = 2 * 3.5g + 2.4 * 2.1g + 2 * 1.26g
+W(strips) ~ 15g.
 
 ![Reinforced avis minima. Source: the author.](pics/avis-minima-reinforced.svg "Model of dirigible drone. The structure is made of thin carbon strips along its major lines: thinner on top, mid around the middle, and thicker at the bottom.")
 
+Note how the four strips holding the gondola at the bottom are the thickest.
 It remains to be seen if this structure will be able to hold the weight of the gondola
 and the remaining parts such as ailerons,
 or it will need crossing reinforcements.
@@ -252,7 +257,8 @@ The great Spanish inventor Torres Quevedo
 that ruled the air using hydrogen for 30+ years,
 with no accidents except for a couple of war casualties.
 Their semi-rigid structure allowed for handling bumps gracefully,
-unlike the German, British and Italian competition which all ended in disaster.
+unlike the German, British and Italian competition which all ended in multiple disasters.
+
 Also, as seen on [Mythbusters](https://www.youtube.com/watch?v=vSDmlj-u6QM):
 don't paint the envelope in thermite if at all possible.
 
