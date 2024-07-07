@@ -216,7 +216,52 @@ and the thinner strips on top.
 
 ![Reinforced avis minima.](pics/aves-aeternae-model.png "Model of dirigible drone. The structure is made of thin carbon strips along its major lines: thinner on top, mid around the middle, and thicker at the bottom. Source: the author.")
 
+It remains to be seen if this structure will be able to hold the weight of the gondola
+and the remaining parts such as ailerons,
+or it will need crossing reinforcements.
+
 ## Hydrogen Bag
+
+Now we come to the most delicate and most sketchy of design issues:
+how do we store the hydrogen within the avis?
+
+### Hydrogen Prejudice
+
+Most people have an unjustified fear of hydrogen,
+and ask why not helium?
+
+The answer is threefold: price, convenience and availability.
+Helium is at least 100€/m3 in Spain,
+and the avis requires 0.125 m3.
+It is also a scarce resource and very likely to go up in price,
+since it is used for MRI machines which are more valuable than party balloons.
+
+Helium is also twice as heavy as hydrogen;
+the avis would have to store 18 instead of 9 grams,
+wasting 9 grams of payload.
+Hydrogen is famously hard to contain in an envelope but helium is even worse,
+as it is a monoatomic molecule.
+
+As to safety: 9 grams of hydrogen is not explosive enough to cause any damage,
+and we don't have human passengers.
+
+Allow me to address directly the Hindenburg catastrophe that has been impinged into our collective subsconsious.
+The problem with Zeppelins was not with hydrogen but with the rigid design that was so popular.
+The great Spanish inventor Torres Quevedo
+[designed and patented a line of dirigibles](https://www.torresquevedo.org/LTQ10/images/Dirigible_Journal_TorresQuevedo.pdf)
+that ruled the air using hydrogen for 30+ years,
+with no accidents except for a couple of war casualties.
+Their semi-rigid structure allowed for handling bumps gracefully,
+unlike the German, British and Italian competition which all ended in disaster.
+Also, as seen on [Mythbusters](https://www.youtube.com/watch?v=vSDmlj-u6QM):
+don't paint the envelope in thermite if at all possible.
+
+### Get Hydrogen
+
+Hydrogen availability is not trivial either:
+it can be purchased in heavy bottles,
+but it has the advantage that it can be generated quite easily via electrolysis.
+Actually just put an AA battery in water; those bubbles you see at one end are pure hydrogen!
 
 # 🤔 Conclusion
 
