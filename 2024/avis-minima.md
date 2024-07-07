@@ -58,7 +58,7 @@ The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximate
 and covering it up with just one layer of 20 microns ligthweight material (1.2 density)
 would be 8 grams.
 (For comparison, the lightest vegetable bags at a supermarket are 40~50 microns thick.)
-Really hard to fit in there a couple of motors, propellers, battery and control surfaces;
+Really hard to fit in the remaining 7 grams a couple of motors, propellers, battery and control surfaces;
 not to speak about some kind of structure, plus about one gram of hydrogen.
 Believe me, I've tried.
 
@@ -181,6 +181,127 @@ After gluing together the segments they form two half-spheroids,
 that have to be joined together with the structure inside.
 Finally, a coating of acrylic spray gives it a water-resistant finish.
 
+## Hydrogen Prejudice
+
+We have to fill up the interior with something lighter than air,
+and the lightest gas known is hydrogen.
+Wait, did you read right?
+Doesn't hydrogen, like, burn?
+Why not helium?
+
+The answer is threefold: price, convenience and availability.
+Helium is at least 100€/m3 in Spain,
+and the avis requires 0.131 m3.
+It is also a scarce resource and very likely to go up in price,
+since it is used for MRI machines which are more valuable than party balloons.
+
+Helium is also twice as heavy as hydrogen;
+the avis would have to store 18 instead of 9 grams,
+wasting 9 grams of payload.
+Hydrogen is famously hard to contain in an envelope but helium is even worse,
+as it is a monoatomic molecule.
+
+As to safety: 9 grams of hydrogen is not explosive enough to cause any damage,
+and we don't have human passengers anyway.
+
+Allow me to address directly the Hindenburg catastrophe that has been impinged into our collective subsconsious.
+The problem with Zeppelins was not with hydrogen but with the rigid design that was so popular.
+The great Spanish inventor Torres Quevedo
+[designed and patented a line of dirigibles](https://www.torresquevedo.org/LTQ10/images/Dirigible_Journal_TorresQuevedo.pdf)
+that ruled the air using hydrogen for 30+ years,
+with no accidents except for a couple of war casualties.
+Their semi-rigid structure allowed for handling bumps gracefully,
+unlike the German, British and Italian competition which all ended in multiple disasters.
+
+Also, as seen on [Mythbusters](https://www.youtube.com/watch?v=vSDmlj-u6QM):
+don't paint the envelope in thermite if at all possible.
+
+# Project Details
+
+Now we will go into the nitty gritty details of the project.
+These are likely to change as the project moves along.
+
+## Preliminary Tech Specs
+
+While it is quite premature to set in stone every detail of the project,
+it is good to have an idea of the main parameters.
+
+|parameter|value|
+|---|---|
+| major axis | 1 m |
+| minor axis | 50 cm |
+| volume | 0.131 m3 |
+| surface | 1.34 m2 |
+| weight | 157 g |
+
+Weight is computed based on the volume of air displaced,
+using an average air density of 1.2 kg/m3 (sea level, 20 C).
+One of the challenges is that this weight can change with temperature, altitude and even atmospheric conditions.
+
+Note that we have around 150 grams to fit in everything:
+hydrogen container, outer envelope, structure and propulsion.
+We will set up a preliminary "weight budget" of <40 grams for each of these areas.
+
+## Propulsion
+
+Let's start with this interesting area:
+how to have powered flight below 40 grams.
+
+### Propelling
+
+The Arduino nano will control a couple of motors
+using motor drivers.
+Very [lightweight brushless motors](https://es.aliexpress.com/item/1005001649480303.html) are available:
+2g each, as the vendor explicitly shows on the article page.
+Propellers under 1g can also be found.
+
+Similarly [lightweight motor drivers](https://es.aliexpress.com/item/1005006099884636.html)
+are available that convert the signal from the Arduino to triphasic current required by the brushless motors.
+
+### Other Electronics
+
+There are a few other line items in our propulsion budget.
+First we need cables to connect the Arduino to the motors,
+which will span at least from the gondola to each propeller (~40 cm)
+and from the gondola to the servo (~62 cm),
+with three cables each (power, ground and signal).
+Let's give a few more cm for each cable,
+this gives us a total of 5 meters of cable:
+
+L = 3 * 2 * 50 cm + 3 * 70 cm ~ 5 m.
+
+We need really lightweight cable;
+luckily we can use [AWG 32 enameled cables](https://www.amazon.es/dp/B07JBQQR38?th=1),
+which are around 0.1 g/m, for half a gram total.
+
+We also need JST connectors to facilitate changing each piece.
+We can use 6 sets of JST PH (2 mm) connectors,
+weighing around 0.1 g each, for a total of around half a gram.
+
+Lastly we need a [servo motor](https://www.motionrc.eu/products/rotorscale-1g-high-speed-digital-nano-servo-rsh6005-001)
+that will pop open the hydrogen bag,
+for emergency stops.
+We cannot have a rogue drone flying around,
+so whenever things go wrong the brains will use this servo to open the bag.
+
+### Propulsion Weight Budget
+
+Let's see if we are within the 40 g budget.
+
+| item | weight |
+|---|---|
+| Arduino nano | 5 g |
+| Two brushless motors | 4 g |
+| Two motor drivers | 1 g |
+| Two propellers | 1 g |
+| Servo | 2 g |
+| DC converter | 0.5 g |
+| 500 mA battery | 9 g |
+| Cables | 0.5 g |
+| JST | 0.5 g |
+|---|---|
+| **total** | 23.5 g |
+
 ## Structure
 
 The structure is made up of a series of joints at the edges,
@@ -225,42 +346,39 @@ It remains to be seen if this structure will be able to hold the weight of the g
 and the remaining parts such as ailerons,
 or it will need crossing reinforcements.
 
+### Structure Weight Budget
+
+Let's see if we are within the 40 g budget.
+
+| item | weight |
+|---|---|
+| Light strips | 2 * 1.26 g |
+| Mid strips | 2.4 * 2.1 g |
+| Heavy strips | 2 * 3.5 g |
+| Joints | 3.5 g |
+| Propeller joints | 1 g |
+| Gondola | 10 g |
+| Hatch plug | 2 g |
+| Wings | 7 g |
+|---|---|
+| **total** | 38 g |
+
+Right within budget!
+
 ## Hydrogen Bag
 
 Now we come to the most delicate and most sketchy of design issues:
 how do we store the hydrogen within the avis?
+Once again we have less than 40 grams for the whole thing.
 
-### Hydrogen Prejudice
+### PVA to the Rescue
 
-Most people have an unjustified fear of hydrogen,
-and ask why not helium?
-
-The answer is threefold: price, convenience and availability.
-Helium is at least 100€/m3 in Spain,
-and the avis requires 0.125 m3.
-It is also a scarce resource and very likely to go up in price,
-since it is used for MRI machines which are more valuable than party balloons.
-
-Helium is also twice as heavy as hydrogen;
-the avis would have to store 18 instead of 9 grams,
-wasting 9 grams of payload.
-Hydrogen is famously hard to contain in an envelope but helium is even worse,
-as it is a monoatomic molecule.
-
-As to safety: 9 grams of hydrogen is not explosive enough to cause any damage,
-and we don't have human passengers.
-
-Allow me to address directly the Hindenburg catastrophe that has been impinged into our collective subsconsious.
-The problem with Zeppelins was not with hydrogen but with the rigid design that was so popular.
-The great Spanish inventor Torres Quevedo
-[designed and patented a line of dirigibles](https://www.torresquevedo.org/LTQ10/images/Dirigible_Journal_TorresQuevedo.pdf)
-that ruled the air using hydrogen for 30+ years,
-with no accidents except for a couple of war casualties.
-Their semi-rigid structure allowed for handling bumps gracefully,
-unlike the German, British and Italian competition which all ended in multiple disasters.
-
-Also, as seen on [Mythbusters](https://www.youtube.com/watch?v=vSDmlj-u6QM):
-don't paint the envelope in thermite if at all possible.
+The best material to contain hydrogen is apparently PVA,
+[density of 1.2~1.3 g/cm3](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
+For our 1.34 m2 a 20 micron bag would therefore represent
+32~35 grams.
+Add the 9 grams of hydrogen to fill our 0.131 m3 (at 70 g/m3),
+and we are somewhat above budget.
 
 ### Get Hydrogen
 
@@ -268,6 +386,12 @@ Hydrogen availability is not trivial either:
 it can be purchased in heavy bottles,
 but it has the advantage that it can be generated quite easily via electrolysis.
 Actually just put an AA battery in water; those bubbles you see at one end are pure hydrogen!
+
+There are portable generators sold supposedly for medical benefits,
+like [this one](https://www.ebay.es/itm/294917973530).
+No idea if they are reliable enough.
+We need 131 liters so using this method would take around 15 hours;
+it would not be fast.
 
 # 🤔 Conclusion
 
