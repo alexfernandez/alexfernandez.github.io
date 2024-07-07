@@ -49,14 +49,14 @@ and thus its buoyancy (or weight that we can lift):
 As you can see the weight quickly becomes impractical for a drone as we go down:
 it is very much impossible with the current state of the art to build a 50 cm dirigible
 and keep its weight under 20 grams.
-We would be hard pushed left to include any kind of electronics:
+We would be hard pushed to include any kind of electronics:
 even a paltry [Arduino nano](https://store.arduino.cc/products/arduino-nano)
 weighs in at 5 grams.
 What can we do with the remaining 14 grams?
 
 The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximately 0.34 m²,
-and covering it up with just one layer of 20 microns ligthweight material (1.2 density)
-would be 8 grams.
+and covering it up with just one layer of 20-micron ligthweight material (1.2 density)
+would use 8 grams.
 (For comparison, the lightest vegetable bags at a supermarket are 40~50 microns thick.)
 Really hard to fit in the remaining 6 grams a couple of motors, propellers, battery and control surfaces;
 not to speak about some kind of structure, plus about one gram of hydrogen.
