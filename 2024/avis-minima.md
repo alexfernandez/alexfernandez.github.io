@@ -84,7 +84,7 @@ and decide its own flight plan.
 We are immensely helped by the buoyant nature of the avis minima.
 Aircraft have [three principal axes](https://en.wikipedia.org/wiki/Aircraft_principal_axes):
 yaw, pitch and roll.
-We only have to set yaw, since we will in principle not change altitude nor roll.
+We only have to set yaw, since we will in principle not change altitude nor roll around.
 
 The electronics have thus to manage avionics and navigation,
 and some way of communication:
