@@ -214,6 +214,8 @@ We can use the thickest strips only for the bottom segments,
 Then intermediate strips for the mid segments,
 and the thinner strips on top.
 
+![Reinforced avis minima.](pics/aves-aeternae-model.png "Model of dirigible drone. The structure is made of thin carbon strips along its major lines: thinner on top, mid around the middle, and thicker at the bottom. Source: the author.")
+
 ## Hydrogen Bag
 
 # 🤔 Conclusion
