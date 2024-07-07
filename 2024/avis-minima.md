@@ -24,7 +24,7 @@ from papiroflexia to avionics software.
 
 Building a 100 meter long dirigible is not a project for an amateur.
 As sizes get smaller they become more attainable.
-So, how small can we get and still have a working drone?
+So, how small can we get and still have a flying machine?
 
 With airships weight is always the primary concern:
 if they are to float in the air,
@@ -32,8 +32,6 @@ the weight of the ship must be exactly balanced with the equivalent volume of ai
 Density of air is approximately 1.2 kg/m³;
 once we choose a shape we can scale it up and down by simply following the
 [law of squares and cubes](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law).
-
-![A spheroid or ellipsoid. Source: [Sam Derbyshire, Wikimedia](https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png).](pics/aves-ellipsoid.png "3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball.")
 
 We will reuse the shape from the [Aves Æternæ article](https://pinchito.es/2024/aves-aeternae):
 an ellipsoid with a major axis twice the minor axis.
@@ -99,10 +97,13 @@ since it is small, light (~5 grams) and comes packed with sensors:
 - 3-axis gyroscopes,
 - and 3-axis magnetometers.
 
+![The Apollo Inertial Measurement Unit. Source: [ArnolRheinhold](https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg).](pics/avis-minima-apollo-imu.jpg "A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum.")
+
+This is usually called an IMU or Inertial Measurement Unit.
 It is actually possible to build an inertial navigation system (INS) with these 9-axis sensors.
 Such a system is capable of inferring the position and orientation at any point,
-without any external information.
-But they are noisy and imprecise.
+and without any external information.
+But a small unit like this will be quite imprecise in operation.
 
 Ideally we will use GPS for navigation,
 although modules are heavy (I have not seen anything under ~15g) and slow.

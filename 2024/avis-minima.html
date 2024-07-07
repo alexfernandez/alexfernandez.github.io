@@ -91,21 +91,13 @@ areas: from papiroflexia to avionics software.</p>
 Prototype</h2>
 <p>Building a 100 meter long dirigible is not a project for an amateur.
 As sizes get smaller they become more attainable. So, how small can we
-get and still have a working drone?</p>
+get and still have a flying machine?</p>
 <p>With airships weight is always the primary concern: if they are to
 float in the air, the weight of the ship must be exactly balanced with
 the equivalent volume of air. Density of air is approximately 1.2 kg/m³;
 once we choose a shape we can scale it up and down by simply following
 the <a href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">law
 of squares and cubes</a>.</p>
-<figure>
-<img src="pics/aves-ellipsoid.png"
-title="3D rendering of an ellipsoid, a stretched sphere or the shape of a rugby ball."
-alt="A spheroid or ellipsoid. Source: Sam Derbyshire, Wikimedia." />
-<figcaption aria-hidden="true">A spheroid or ellipsoid. Source: <a
-href="https://en.wikipedia.org/wiki/File:Ellipsoid_Quadric.png">Sam
-Derbyshire, Wikimedia</a>.</figcaption>
-</figure>
 <p>We will reuse the shape from the <a
 href="https://pinchito.es/2024/aves-aeternae">Aves Æternæ article</a>:
 an ellipsoid with a major axis twice the minor axis. The size of the
@@ -184,10 +176,19 @@ grams) and comes packed with sensors:</p>
 <li>3-axis gyroscopes,</li>
 <li>and 3-axis magnetometers.</li>
 </ul>
-<p>It is actually possible to build an inertial navigation system (INS)
-with these 9-axis sensors. Such a system is capable of inferring the
-position and orientation at any point, without any external information.
-But they are noisy and imprecise.</p>
+<figure>
+<img src="pics/avis-minima-apollo-imu.jpg"
+title="A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum."
+alt="The Apollo Inertial Measurement Unit. Source: ArnolRheinhold." />
+<figcaption aria-hidden="true">The Apollo Inertial Measurement Unit.
+Source: <a
+href="https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg">ArnolRheinhold</a>.</figcaption>
+</figure>
+<p>This is usually called an IMU or Inertial Measurement Unit. It is
+actually possible to build an inertial navigation system (INS) with
+these 9-axis sensors. Such a system is capable of inferring the position
+and orientation at any point, and without any external information. But
+a small unit like this will be quite imprecise in operation.</p>
 <p>Ideally we will use GPS for navigation, although modules are heavy (I
 have not seen anything under ~15g) and slow. Many people recommend
 having GPS for slow positioning, and filling in for the short term with
