@@ -497,9 +497,9 @@ then you may have to lighten your dirigibles a bit more.
 
 In Madrid where I live (657 m) [at 20 C](https://www.omnicalculator.com/physics/air-pressure-at-altitude)
 [air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³,
-so the avis would have to weigh 148 grams.
+so the prototype would have to weigh 148 grams.
 Should temperature go to 40 C (as it regularly does every summer)
-then density falls to 1.045 kg/m³ and avis weight to 137 g.
+then density falls to 1.045 kg/m³ and model weight plummets to 137 g.
 We would have to shed 11 additional grams.
 
 Even a bit of humidity will make air lighter.
