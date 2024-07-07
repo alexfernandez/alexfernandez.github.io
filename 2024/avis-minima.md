@@ -137,7 +137,8 @@ This also has allowed us to power up the Arduino nano directly from the USB port
 Luckily there are also highly convenient, half-gram voltage converters
 from the 3.7 V of the LiPo battery to the 3.3 V required by the Arduino.
 
-The target power of the avis minima is 1 Watt.
+The target power of the avis minima is 1 Watt,
+which should in principle give us a speed of 5 m/s (around 18 km/h or 11 mph).
 Energy consumption from the Arduino nano is minimal at 10 mA and 3.3 V (0.033 Watt),
 and can even be lowered by disabling the onboard LED.
 Most of the 1W will go to the propellers.
