@@ -124,8 +124,9 @@ I would be real happy to see it fly for an hour on its own.
 We will have time to prolong flight time with bigger models.
 
 Luckily Lithium ion polymer (or LiPo) batteries are small and lightweight.
-The drone industry has here once again come to our rescue:
-there are in the market of all sizes and denominations.
+The drone industry has come to our rescue,
+as has often happened in the course of this project:
+there are batteries in the market of all sizes and denominations.
 But we will go a different way:
 drone batteries are optimized for output,
 while in our case we hardly require a quick energy discharge.
