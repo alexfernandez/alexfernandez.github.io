@@ -414,7 +414,7 @@ For our 1.34 m² a 20 micron bag would therefore represent
 32~35 grams.
 Let's go on the pessimistic side to account for any extra plastic needed for the bag.
 
-PVA is very used industrially because it is dissolved in water.
+PVA is heavily used industrially because it dissolves easily in water.
 So it is possible to buy industrial bags that are used to place contaminated clothes directly in the washing machine.
 On the minus side we have better isolate the bag from any outside humidity or the bag will simply dissolve!
 I have purchased some but the quality is quite poor: they are full of holes.
