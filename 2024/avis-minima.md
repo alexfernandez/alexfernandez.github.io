@@ -454,7 +454,7 @@ We have to include the hydrogen somewhere.
 | **Total** | 44 g |
 
 Here we go a bit over the 40 g budget,
-luckily we had some extra grams from the propulsion department.
+luckily we still have some extra grams from the propulsion department.
 
 ## ⚖️ Total Weight Budget
 
@@ -469,8 +469,8 @@ The following sum must be below 157 g for the _avis minima_ to fly.
 | **Total** | 148 g |
 
 Phew! Right below 157 g.
-Does this mean we are above budget?
-Not exactly.
+Does this mean we are above budget and have to start adding weights?
+Not necessarily.
 
 ### 🌡️ Atmospheric Conditions
 
