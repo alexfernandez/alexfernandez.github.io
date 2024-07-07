@@ -38,7 +38,7 @@ an ellipsoid with a major axis twice the minor axis.
 The size of the major axis will determine the weight of the displaced air,
 and thus its buoyancy (or weight that we can lift):
 
-|major axis|weight|
+|Major axis|Weight|
 |---|---|
 | 10 m | 150 kg |
 | 4 m | 9.6 kg |
@@ -237,13 +237,13 @@ These are likely to change as the project moves along.
 While it is quite premature to set in stone every detail of the project,
 it is good to have an idea of the main parameters.
 
-|parameter|value|
+|Parameter|Value|
 |---|---|
-| major axis | 1 m |
-| minor axis | 50 cm |
-| volume | 0.131 m³ |
-| surface | 1.34 m² |
-| weight | 157 g |
+| Major axis | 1 m |
+| Minor axis | 50 cm |
+| Volume | 0.131 m³ |
+| Surface | 1.34 m² |
+| Weight | 157 g |
 
 Weight is computed based on the volume of air displaced,
 using an average air density of 1.2 kg/m³ (sea level, 20 C).
