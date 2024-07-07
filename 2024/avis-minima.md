@@ -35,8 +35,8 @@ once we choose a shape we can scale it up and down by simply following the
 
 We will reuse the shape from the [Aves Æternæ article](https://pinchito.es/2024/aves-aeternae):
 an ellipsoid with a major axis twice the minor axis.
-The size of the major axis will determine the buoyancy of the displaced air,
-and thus the weight that we can lift:
+The size of the major axis will determine the weight of the displaced air,
+and thus its buoyancy (or weight that we can lift):
 
 |major axis|weight|
 |---|---|
