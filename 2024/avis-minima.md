@@ -58,8 +58,9 @@ The [surface of the ellipsoid](https://planetcalc.com/149/) would be approximate
 and covering it up with just one layer of 20-micron ligthweight material (1.2 density)
 would use 8 grams.
 (For comparison, the lightest vegetable bags at a supermarket are 40~50 microns thick.)
-Really hard to fit in the remaining 6 grams a couple of motors, propellers, battery and control surfaces;
-not to speak about some kind of structure, plus about one gram of hydrogen.
+We also need about one gram of hydrogen inside.
+Really hard to fit in the remaining 5 grams a couple of motors, propellers, battery and control surfaces;
+not to speak about some kind of support.
 Believe me, I've tried.
 
 It makes no sense to remain at these scales when a bigger prototype is easier to build.
