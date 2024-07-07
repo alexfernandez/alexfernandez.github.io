@@ -216,16 +216,16 @@ and we don't have human passengers anyway.
 ![The Hindenburg disaster. Source: [gifs.com](https://gifs.com/gif/hindenburg-disaster-real-footage-1937-Wny2EW).](pics/avis-minima-hindenburg.gif "Animated GIF in black and white of the Hindenburg Zeppelin burning to the ground.")
 
 Allow me to address directly the Hindenburg catastrophe that has been impinged into our collective subsconsious.
-The problem with Zeppelins was not with hydrogen but with the rigid design that was so popular.
+The problem with Zeppelins was not with hydrogen but with the rigid designs that became popular at some point.
 The great Spanish inventor Torres Quevedo
 [designed and patented a line of dirigibles](https://www.torresquevedo.org/LTQ10/images/Dirigible_Journal_TorresQuevedo.pdf)
-that ruled the air using hydrogen for 30+ years,
+that ruled the airs using hydrogen for 30+ years,
 with no accidents except for a couple of war casualties.
 Their semi-rigid structure allowed for handling bumps gracefully,
 unlike the German, British and Italian competition which all ended in multiple disasters.
 
 Also, as seen on [Mythbusters](https://www.youtube.com/watch?v=vSDmlj-u6QM):
-don't paint the envelope in thermite if at all possible.
+don't paint the envelope using thermite if at all possible.
 
 # Project Details
 
