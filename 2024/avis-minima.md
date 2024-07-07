@@ -120,7 +120,7 @@ In the [original article from 2023](https://pinchito.es/2023/avis-aeterna)
 I explored the principles of long-lasting flight:
 a properly configured drone might be able to fly for weeks if not months.
 The avis minima prototype is not so ambitious:
-I would be happy to see it fly for a few hours.
+I would be real happy to see it fly for an hour on its own.
 We will have time to prolong flight time with bigger models.
 
 Luckily Lithium ion polymer (or LiPo) batteries are small and lightweight.
