@@ -10,16 +10,16 @@ The worlds of airships and of drones are really interesting on their own,
 but have a suspiciously lean intersection.
 I am currently in the process of designing and building an airship drone
 (or drone airship):
-a flying machine that can stay aloft for a long time, perhaps indefinitely.
+a flying machine that can stay aloft for a long time.
 
 ![Plans for a model airship. Source: the author.](pics/aves-aeternae-model.png "Three views of an airship.")
 
-# The Project
+# 📓 The Project
 
 This is a very interesting project because it touches many different areas:
 from papiroflexia to avionics software.
 
-## MVP: Minimum Volant Prototype
+## 🏗️ MVP: Minimum Volant Prototype
 
 Building a 100 meter long dirigible is not a project for an amateur.
 As sizes get smaller they become more attainable.
@@ -72,7 +72,7 @@ the smallest practical airship drone that is still capable of flight.
 Just as tech companies build an MVP, or _minimum viable prototype_,
 we face the construction of this _minimum volant prototype_.
 
-## Autonomous Flight
+## 🦾 Autonomous Flight
 
 The concept of drone used to mean UAV or "unmanned aerial vehicle",
 and include a complete fly-by-wire system of autonomous flight.
@@ -108,7 +108,7 @@ although modules are heavy (I have not seen anything under ~15g) and slow.
 Many people recommend having GPS for slow positioning,
 and filling in for the short term with an INS.
 
-## Power
+## 🔋 Power
 
 In the [original article from 2023](https://pinchito.es/2023/avis-aeterna)
 I explored the principles of long-lasting flight:
@@ -144,7 +144,7 @@ These panels should be able to power the propellers directly.
 If we can leave the battery only to power the Arduino nano,
 it will be able of 50+ hours of operation.
 
-## Outer Hull
+## 🏮 Outer Hull
 
 Fans of papiroflexia will be happy with this section.
 The outer surface is 1.34 square meters.
@@ -165,11 +165,14 @@ I am partial to manila paper, sourced from a local shop,
 which at 19 gsm is even lighter and quite sturdy.
 
 The paper has to be cut properly so that it will generate an ellipsoid.
-I found [this video](xxx) of an ingenious lady building a paper sphere,
+I found [this video](https://www.youtube.com/watch?v=i3A52m0fgt0) of an ingenious lady building a paper sphere,
 with each segment being a sinusoid.
 Sadly ellipsoids are quite intractable mathematically;
-I created this script to generate the proper shape that, once folded,
+I created a script using numerical integration to generate the proper shape that, once folded,
 generates an ellipsoid.
+
+![Paper segments. Source: the author.](pics/avis-minima-segments.svg "Model of a paper segment: a curved triangular-like shape that starts with a flat base and ends in a sharp peak. Contains indentations on each side.")
+
 Each segment is approximately 10 cm wide and 62 cm long,
 and has indentations to glue it to its neighbours.
 Each four segments join together to form a quarter half-shape,
@@ -182,7 +185,7 @@ After gluing together the segments they form two half-spheroids,
 that have to be joined together with the structure inside.
 Finally, a coating of acrylic spray gives it a water-resistant finish.
 
-## Hydrogen Prejudice
+## ❤️‍🔥 Hydrogen Prejudice
 
 We have to fill up the interior with something lighter than air,
 and the lightest gas known is hydrogen.
@@ -243,12 +246,12 @@ Note that we have around 150 grams to fit in everything:
 hydrogen container, outer envelope, structure and propulsion.
 We will set up a preliminary "weight budget" of <40 grams for each of these areas.
 
-## Propulsion
+## 🚁 Propulsion
 
 Let's start with this interesting area:
 how to have powered flight below 40 grams.
 
-### Propelling
+### 🥏 Propelling
 
 The Arduino nano will control a couple of motors
 using motor drivers.
@@ -259,7 +262,7 @@ Propellers under 1g can also be found.
 Similarly [lightweight motor drivers](https://es.aliexpress.com/item/1005006099884636.html)
 are available that convert the signal from the Arduino to triphasic current required by the brushless motors.
 
-### Other Electronics
+### 🔌 Other Electronics
 
 There are a few other line items in our propulsion budget.
 First we need cables to connect the Arduino to the motors,
@@ -285,7 +288,7 @@ for emergency stops.
 We cannot have a rogue drone flying around,
 so whenever things go wrong the brains will use this servo to open the bag.
 
-### Propulsion Weight Budget
+### ⚖️  Propulsion Weight Budget
 
 Let's see if we are within the 40 g budget.
 
@@ -305,7 +308,7 @@ Let's see if we are within the 40 g budget.
 We are well below budget!
 Just as well, because we will certainly go above in one of the remaining groups.
 
-## Outer Hull
+## 🏮 Outer Hull
 
 As we saw above, we will use 20 gsm paper (manila or unryu)
 for maximum lightness;
@@ -321,7 +324,7 @@ Weight of glued paper tends to go up something like 5 g/m².
 Finally spray also increases weight around 5 g/m².
 Each material will add around 7 g.
 
-### Hull Weight Budget
+### ⚖️  Hull Weight Budget
 
 Let's see if we are within the 40 g budget.
 
@@ -334,7 +337,7 @@ Let's see if we are within the 40 g budget.
 
 We go a bit above 40 g.
 
-## Structure
+## 🌐 Structure
 
 The structure is made up of a series of joints at the edges,
 linked together by carbon fiber strips.
@@ -374,7 +377,7 @@ It remains to be seen if this structure will be able to hold the weight of the g
 and the remaining parts such as ailerons,
 or it will need crossing reinforcements.
 
-### Structure Weight Budget
+### ⚖️  Structure Weight Budget
 
 Let's see if we are within the 40 g budget.
 
@@ -392,21 +395,36 @@ Let's see if we are within the 40 g budget.
 
 Right within budget!
 
-## Hydrogen Bag
+## 🎈 Hydrogen Bag
 
 Now we come to the most delicate and most sketchy of design issues:
 how do we store the hydrogen within the avis?
 Once again we have less than 40 grams for the whole thing.
 
-### PVA to the Rescue
+### 🛍️ PVA to the Rescue
 
-The best material to contain hydrogen is apparently PVA,
-[density of 1.2~1.3 g/cm³](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
+The best material to contain hydrogen is
+[apparently PVA](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade    91ba45822/content),
+with a [density of 1.2~1.3 g/cm³](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
 For our 1.34 m² a 20 micron bag would therefore represent
 32~35 grams.
 Let's go on the pessimistic side to account for any extra plastic needed for the bag.
 
-### Get Hydrogen
+PVA is very used industrially because it is dissolved in water.
+So it is possible to buy industrial bags that are used to place contaminated clothes directly in the washing machine.
+On the minus side we have better isolate the bag from any outside humidity or the bag will simply dissolve!
+I have purchased some but the quality is quite poor: they are full of holes.
+They are also square and not elliptical.
+I need to learn how to do thermal sealing on the sides,
+so there is a lot of way to go here.
+
+The question of the shape is also interesting.
+One would think that a double-sided ellipse can be inflated to an ellipsoid,
+but [one would be wrong](https://www.math.ucla.edu/~pak/papers/Schlenker7.pdf):
+it is apparently a complex mathematical problem.
+This will probably have to be numerically integrated too.
+
+### 🫧  Get Hydrogen
 
 We need 9 grams of hydrogen to fill our 0.131 m³,
 at 70 g/m³.
@@ -422,7 +440,7 @@ No idea if they are reliable enough.
 We need 131 liters so using this method would take around 15 hours;
 it would not be fast.
 
-### Hydrogen Bag Weight Budget
+### ⚖️ Hydrogen Bag Weight Budget
 
 We have to include the hydrogen somewhere.
 
@@ -435,7 +453,7 @@ We have to include the hydrogen somewhere.
 Here we go a bit over the 40 g budget,
 luckily we had some extra grams from the propulsion department.
 
-## Total Weight Budget
+## ⚖️ Total Weight Budget
 
 The following sum must be below 157 g for the _avis minima_ to fly.
 
@@ -451,7 +469,7 @@ Phew! Right below 157 g.
 Does this mean we are above budget?
 Not exactly.
 
-### Atmospheric Conditions
+### 🌡️ Atmospheric Conditions
 
 Remember when we said that air density varies with atmospheric conditions?
 Temperature is the biggest factor here:
@@ -484,7 +502,7 @@ We would have to shed 11 additional grams.
 Even a bit of humidity will make air lighter.
 Airships are really sensitive to atmospheric conditions.
 
-### Scaling Up
+### 📈 Scaling Up
 
 Is there no way to fly in Madrid in summer then?
 Luckily another law of nature is on our side:

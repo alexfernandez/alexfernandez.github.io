@@ -76,8 +76,7 @@ Prototype Airship Drone" />
 																				<p>The worlds of airships and of drones are really interesting on their
 own, but have a suspiciously lean intersection. I am currently in the
 process of designing and building an airship drone (or drone airship): a
-flying machine that can stay aloft for a long time, perhaps
-indefinitely.</p>
+flying machine that can stay aloft for a long time.</p>
 <figure>
 <img src="pics/aves-aeternae-model.png"
 title="Three views of an airship."
@@ -85,10 +84,11 @@ alt="Plans for a model airship. Source: the author." />
 <figcaption aria-hidden="true">Plans for a model airship. Source: the
 author.</figcaption>
 </figure>
-<h1 id="the-project">The Project</h1>
+<h1 id="the-project">📓 The Project</h1>
 <p>This is a very interesting project because it touches many different
 areas: from papiroflexia to avionics software.</p>
-<h2 id="mvp-minimum-volant-prototype">MVP: Minimum Volant Prototype</h2>
+<h2 id="mvp-minimum-volant-prototype">🏗️ MVP: Minimum Volant
+Prototype</h2>
 <p>Building a 100 meter long dirigible is not a project for an amateur.
 As sizes get smaller they become more attainable. So, how small can we
 get and still have a working drone?</p>
@@ -162,7 +162,7 @@ current project, the <em>avis minima</em>: the smallest practical
 airship drone that is still capable of flight. Just as tech companies
 build an MVP, or <em>minimum viable prototype</em>, we face the
 construction of this <em>minimum volant prototype</em>.</p>
-<h2 id="autonomous-flight">Autonomous Flight</h2>
+<h2 id="autonomous-flight">🦾 Autonomous Flight</h2>
 <p>The concept of drone used to mean UAV or “unmanned aerial vehicle”,
 and include a complete fly-by-wire system of autonomous flight. However
 radio-control or RC drones have become quite popular, negating the
@@ -192,7 +192,7 @@ But they are noisy and imprecise.</p>
 have not seen anything under ~15g) and slow. Many people recommend
 having GPS for slow positioning, and filling in for the short term with
 an INS.</p>
-<h2 id="power">Power</h2>
+<h2 id="power">🔋 Power</h2>
 <p>In the <a href="https://pinchito.es/2023/avis-aeterna">original
 article from 2023</a> I explored the principles of long-lasting flight:
 a properly configured drone might be able to fly for weeks if not
@@ -221,7 +221,7 @@ installed in place of stabilizers, and that yield a lot of power (3.5 W
 nominal) at 6 grams. These panels should be able to power the propellers
 directly. If we can leave the battery only to power the Arduino nano, it
 will be able of 50+ hours of operation.</p>
-<h2 id="outer-hull">Outer Hull</h2>
+<h2 id="outer-hull">🏮 Outer Hull</h2>
 <p>Fans of papiroflexia will be happy with this section. The outer
 surface is 1.34 square meters. To cover it we need a lightweight and yet
 sturdy material, such as… maybe paper?</p>
@@ -236,11 +236,20 @@ Japanese unryu paper can be found at 20 gsm which is sturdier than
 regular paper. I am partial to manila paper, sourced from a local shop,
 which at 19 gsm is even lighter and quite sturdy.</p>
 <p>The paper has to be cut properly so that it will generate an
-ellipsoid. I found <a href="xxx">this video</a> of an ingenious lady
-building a paper sphere, with each segment being a sinusoid. Sadly
-ellipsoids are quite intractable mathematically; I created this script
-to generate the proper shape that, once folded, generates an ellipsoid.
-Each segment is approximately 10 cm wide and 62 cm long, and has
+ellipsoid. I found <a
+href="https://www.youtube.com/watch?v=i3A52m0fgt0">this video</a> of an
+ingenious lady building a paper sphere, with each segment being a
+sinusoid. Sadly ellipsoids are quite intractable mathematically; I
+created a script using numerical integration to generate the proper
+shape that, once folded, generates an ellipsoid.</p>
+<figure>
+<img src="pics/avis-minima-segments.svg"
+title="Model of a paper segment: a curved triangular-like shape that starts with a flat base and ends in a sharp peak. Contains indentations on each side."
+alt="Paper segments. Source: the author." />
+<figcaption aria-hidden="true">Paper segments. Source: the
+author.</figcaption>
+</figure>
+<p>Each segment is approximately 10 cm wide and 62 cm long, and has
 indentations to glue it to its neighbours. Each four segments join
 together to form a quarter half-shape, so we need 32 in total for the
 whole shape.</p>
@@ -250,7 +259,7 @@ of the segments.</p>
 <p>After gluing together the segments they form two half-spheroids, that
 have to be joined together with the structure inside. Finally, a coating
 of acrylic spray gives it a water-resistant finish.</p>
-<h2 id="hydrogen-prejudice">Hydrogen Prejudice</h2>
+<h2 id="hydrogen-prejudice">❤️‍🔥 Hydrogen Prejudice</h2>
 <p>We have to fill up the interior with something lighter than air, and
 the lightest gas known is hydrogen. Wait, did you read right? Doesn’t
 hydrogen, like, burn? Why not helium?</p>
@@ -320,10 +329,10 @@ even atmospheric conditions.</p>
 <p>Note that we have around 150 grams to fit in everything: hydrogen
 container, outer envelope, structure and propulsion. We will set up a
 preliminary “weight budget” of &lt;40 grams for each of these areas.</p>
-<h2 id="propulsion">Propulsion</h2>
+<h2 id="propulsion">🚁 Propulsion</h2>
 <p>Let’s start with this interesting area: how to have powered flight
 below 40 grams.</p>
-<h3 id="propelling">Propelling</h3>
+<h3 id="propelling">🥏 Propelling</h3>
 <p>The Arduino nano will control a couple of motors using motor drivers.
 Very <a
 href="https://es.aliexpress.com/item/1005001649480303.html">lightweight
@@ -333,7 +342,7 @@ shows on the article page. Propellers under 1g can also be found.</p>
 href="https://es.aliexpress.com/item/1005006099884636.html">lightweight
 motor drivers</a> are available that convert the signal from the Arduino
 to triphasic current required by the brushless motors.</p>
-<h3 id="other-electronics">Other Electronics</h3>
+<h3 id="other-electronics">🔌 Other Electronics</h3>
 <p>There are a few other line items in our propulsion budget. First we
 need cables to connect the Arduino to the motors, which will span at
 least from the gondola to each propeller (~40 cm) and from the gondola
@@ -352,7 +361,7 @@ href="https://www.motionrc.eu/products/rotorscale-1g-high-speed-digital-nano-ser
 motor</a> that will pop open the hydrogen bag, for emergency stops. We
 cannot have a rogue drone flying around, so whenever things go wrong the
 brains will use this servo to open the bag.</p>
-<h3 id="propulsion-weight-budget">Propulsion Weight Budget</h3>
+<h3 id="propulsion-weight-budget">⚖️ Propulsion Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>
 <thead>
@@ -406,7 +415,7 @@ brains will use this servo to open the bag.</p>
 </table>
 <p>We are well below budget! Just as well, because we will certainly go
 above in one of the remaining groups.</p>
-<h2 id="outer-hull-1">Outer Hull</h2>
+<h2 id="outer-hull-1">🏮 Outer Hull</h2>
 <p>As we saw above, we will use 20 gsm paper (manila or unryu) for
 maximum lightness; that is 20 g/m². We will need a bit over 1.34 m²,
 since the different segments will overlap a bit; let’s say 1.40 m². This
@@ -415,7 +424,7 @@ means 28 g of paper.</p>
 spray. Weight of glued paper tends to go up something like 5 g/m².
 Finally spray also increases weight around 5 g/m². Each material will
 add around 7 g.</p>
-<h3 id="hull-weight-budget">Hull Weight Budget</h3>
+<h3 id="hull-weight-budget">⚖️ Hull Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>
 <thead>
@@ -444,7 +453,7 @@ add around 7 g.</p>
 </tbody>
 </table>
 <p>We go a bit above 40 g.</p>
-<h2 id="structure">Structure</h2>
+<h2 id="structure">🌐 Structure</h2>
 <p>The structure is made up of a series of joints at the edges, linked
 together by carbon fiber strips. The two motors and the gondola are
 attached to these joints.</p>
@@ -478,7 +487,7 @@ author.</figcaption>
 thickest. It remains to be seen if this structure will be able to hold
 the weight of the gondola and the remaining parts such as ailerons, or
 it will need crossing reinforcements.</p>
-<h3 id="structure-weight-budget">Structure Weight Budget</h3>
+<h3 id="structure-weight-budget">⚖️ Structure Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>
 <thead>
@@ -527,17 +536,32 @@ it will need crossing reinforcements.</p>
 </tbody>
 </table>
 <p>Right within budget!</p>
-<h2 id="hydrogen-bag">Hydrogen Bag</h2>
+<h2 id="hydrogen-bag">🎈 Hydrogen Bag</h2>
 <p>Now we come to the most delicate and most sketchy of design issues:
 how do we store the hydrogen within the avis? Once again we have less
 than 40 grams for the whole thing.</p>
-<h3 id="pva-to-the-rescue">PVA to the Rescue</h3>
-<p>The best material to contain hydrogen is apparently PVA, <a
+<h3 id="pva-to-the-rescue">🛍️ PVA to the Rescue</h3>
+<p>The best material to contain hydrogen is <a
+href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/9a2af3f4-a7c8-467a-ba32-ade%2091ba45822/content">apparently
+PVA</a>, with a <a
 href="https://en.wikipedia.org/wiki/Polyvinyl_alcohol">density of
 1.2~1.3 g/cm³</a>. For our 1.34 m² a 20 micron bag would therefore
 represent 32~35 grams. Let’s go on the pessimistic side to account for
 any extra plastic needed for the bag.</p>
-<h3 id="get-hydrogen">Get Hydrogen</h3>
+<p>PVA is very used industrially because it is dissolved in water. So it
+is possible to buy industrial bags that are used to place contaminated
+clothes directly in the washing machine. On the minus side we have
+better isolate the bag from any outside humidity or the bag will simply
+dissolve! I have purchased some but the quality is quite poor: they are
+full of holes. They are also square and not elliptical. I need to learn
+how to do thermal sealing on the sides, so there is a lot of way to go
+here.</p>
+<p>The question of the shape is also interesting. One would think that a
+double-sided ellipse can be inflated to an ellipsoid, but <a
+href="https://www.math.ucla.edu/~pak/papers/Schlenker7.pdf">one would be
+wrong</a>: it is apparently a complex mathematical problem. This will
+probably have to be numerically integrated too.</p>
+<h3 id="get-hydrogen">🫧 Get Hydrogen</h3>
 <p>We need 9 grams of hydrogen to fill our 0.131 m³, at 70 g/m³.</p>
 <p>Hydrogen availability is not trivial either: it can be purchased in
 heavy bottles, but it has the advantage that it can be generated quite
@@ -547,7 +571,7 @@ bubbles you see at one end are pure hydrogen!</p>
 like <a href="https://www.ebay.es/itm/294917973530">this one</a>. No
 idea if they are reliable enough. We need 131 liters so using this
 method would take around 15 hours; it would not be fast.</p>
-<h3 id="hydrogen-bag-weight-budget">Hydrogen Bag Weight Budget</h3>
+<h3 id="hydrogen-bag-weight-budget">⚖️ Hydrogen Bag Weight Budget</h3>
 <p>We have to include the hydrogen somewhere.</p>
 <table>
 <thead>
@@ -573,7 +597,7 @@ method would take around 15 hours; it would not be fast.</p>
 </table>
 <p>Here we go a bit over the 40 g budget, luckily we had some extra
 grams from the propulsion department.</p>
-<h2 id="total-weight-budget">Total Weight Budget</h2>
+<h2 id="total-weight-budget">⚖️ Total Weight Budget</h2>
 <p>The following sum must be below 157 g for the <em>avis minima</em> to
 fly.</p>
 <table>
@@ -608,7 +632,7 @@ fly.</p>
 </table>
 <p>Phew! Right below 157 g. Does this mean we are above budget? Not
 exactly.</p>
-<h3 id="atmospheric-conditions">Atmospheric Conditions</h3>
+<h3 id="atmospheric-conditions">🌡️ Atmospheric Conditions</h3>
 <p>Remember when we said that air density varies with atmospheric
 conditions? Temperature is the biggest factor here:</p>
 <table>
@@ -667,7 +691,7 @@ then density falls to 1.045 kg/m³ and avis weight to 137 g. We would
 have to shed 11 additional grams.</p>
 <p>Even a bit of humidity will make air lighter. Airships are really
 sensitive to atmospheric conditions.</p>
-<h3 id="scaling-up">Scaling Up</h3>
+<h3 id="scaling-up">📈 Scaling Up</h3>
 <p>Is there no way to fly in Madrid in summer then? Luckily another law
 of nature is on our side: the already mentioned <a
 href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">law of
