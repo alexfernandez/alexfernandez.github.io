@@ -109,7 +109,8 @@ Derbyshire, Wikimedia</a>.</figcaption>
 <p>We will reuse the shape from the <a
 href="https://pinchito.es/2024/aves-aeternae">Aves Æternæ article</a>:
 an ellipsoid with a major axis twice the minor axis. The size of the
-major axis will determine the weight of the structure:</p>
+major axis will determine the buoyancy of the displaced air, and thus
+the weight that we can lift:</p>
 <table>
 <thead>
 <tr class="header">
@@ -140,18 +141,17 @@ major axis will determine the weight of the structure:</p>
 </tr>
 </tbody>
 </table>
-<p>As you can see the weight quickly becomes impractical for a drone: it
-is very much impossible with the current state of the art to build a 50
-cm dirigible, since total weight would have to be under 20 grams. We
-would need a few grams left to include any kind of electronics: even a
-paltry <a href="https://store.arduino.cc/products/arduino-nano">Arduino
-nano</a> weighs in at 5 grams. What can we do with the remaining 15
-grams?</p>
+<p>As you can see the weight quickly becomes impractical for a drone as
+we go down: it is very much impossible with the current state of the art
+to build a 50 cm dirigible and keep its weight under 20 grams. We would
+be hard pushed left to include any kind of electronics: even a paltry <a
+href="https://store.arduino.cc/products/arduino-nano">Arduino nano</a>
+weighs in at 5 grams. What can we do with the remaining 14 grams?</p>
 <p>The <a href="https://planetcalc.com/149/">surface of the
 ellipsoid</a> would be approximately 0.34 m2, and covering it up with
 just one layer of 20 microns ligthweight material (1.2 density) would be
 8 grams. (For comparison, the lightest vegetable bags at a supermarket
-are 40~50 microns thick.) Really hard to fit in the remaining 7 grams a
+are 40~50 microns thick.) Really hard to fit in the remaining 6 grams a
 couple of motors, propellers, battery and control surfaces; not to speak
 about some kind of structure, plus about one gram of hydrogen. Believe
 me, I’ve tried.</p>
@@ -607,7 +607,9 @@ fly.</p>
 </tbody>
 </table>
 <p>Phew! Right below 157 g. Does this mean we are above budget? Not
-exactly. Remember when we said that air density varies with atmospheric
+exactly.</p>
+<h3 id="atmospheric-conditions">Atmospheric Conditions</h3>
+<p>Remember when we said that air density varies with atmospheric
 conditions? Temperature is the biggest factor here:</p>
 <table>
 <thead>
@@ -631,20 +633,59 @@ conditions? Temperature is the biggest factor here:</p>
 <tr class="odd">
 <td>20</td>
 <td>1.2</td>
-<td>157.2</td>
+<td>157</td>
 </tr>
 <tr class="even">
 <td>30</td>
 <td>1.16</td>
-<td>151.96</td>
+<td>152</td>
 </tr>
 <tr class="odd">
 <td>40</td>
 <td>1.13</td>
-<td>148.03</td>
+<td>148</td>
 </tr>
 </tbody>
 </table>
+<p>So we should be good for temperatures below 40 C (104 F) at sea
+level. But if barometric pressure goes down a bit because of bad weather
+then we are grounded!</p>
+<p>That is not all. If we go up air density will go down as well –
+according to the <a
+href="https://www.engineeringtoolbox.com/international-standard-atmosphere-d_985.html">international
+standard atmosphere</a>, at 500 m high air density has gone down almost
+5%, and around 9% at 1000 m (3300 feet). So if you live in the mountains
+(or in the Spanish <em>meseta</em>) then you may have to lighten your
+dirigibles a bit more.</p>
+<p>In Madrid where I live (657 m) <a
+href="https://www.omnicalculator.com/physics/air-pressure-at-altitude">at
+20 C</a> <a
+href="https://www.omnicalculator.com/physics/air-density">air
+density</a> is approx 1.12 kg/m3, so the avis would have to weigh 148
+grams. Should temperature go to 40 C (as it regularly does every summer)
+then density falls to 1.045 kg/m3 and avis weight to 137 g. We would
+have to shed 11 additional grams.</p>
+<p>Even a bit of humidity will make air lighter. Airships are really
+sensitive to atmospheric conditions.</p>
+<h3 id="scaling-up">Scaling Up</h3>
+<p>Is there no way to fly in Madrid in summer then? Luckily another law
+of nature is on our side: the already mentioned <a
+href="https://en.wikipedia.org/wiki/Square%E2%80%93cube_law">law of
+squares and cubes</a>. Increasing dirigible size by ony 10% would
+increase the volume by 33%, while area (and thus hull, structure and
+bag) would only increase by 21%. In reality the propulsion system would
+probably work just as well, while the structure might need some
+reinforcing. Let us suppose a 21% overall increase; Weight would
+presumably only go up from 148 g to 179 g, while buoyancy would increase
+from 137 to 182 g. We would magically gain 45 grams of buoyancy, and be
+within budget!</p>
+<p>Once in the air we can scale the prototype up as much as we want.
+Remember that the trilobed design of Torres Quevedo scaled <a
+href="https://www.torresquevedo.org/LTQ10/images/7th_International_AirshipConvention_71192.pdf">well
+beyond 100 m long</a>. A 2-meter long dirigible would be able to lift
+1.2 kg, allowing for a sizeable payload of sensors (camera, GPS) and
+communication equipment (WiFi, 5G); actually a lightweight mobile phone
+would carry many of the required components.</p>
 <h1 id="conclusion">🤔 Conclusion</h1>
 <p>When downscaling the avis aeterna to one meter long I expected to
 find multiple roadblocks. To my surprise it should be possible to build
