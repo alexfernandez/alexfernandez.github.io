@@ -11,7 +11,7 @@ and yet have a suspiciously lean intersection.
 I am currently in the process of designing and building an airship drone
 (or drone airship):
 an autonomous flying machine that can stay aloft for a long time.
-This time for realz.
+This time for real!
 
 ![Plans for a drone airship. Source: the author.](pics/avis-minima-model.svg "Three views of an airship.")
 
