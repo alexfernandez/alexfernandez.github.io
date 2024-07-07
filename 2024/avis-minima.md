@@ -1,7 +1,7 @@
 ---
 title: '🪽 Avis Minima'
 subtitle: '🛩️ Building A Prototype Airship Drone'
-footer: Published on 2024-07-03, last modified on 2024-07-03.
+footer: Published on 2024-07-08, last modified on 2024-07-08.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/avis-minima-reinforced.svg
 ---
