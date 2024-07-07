@@ -300,7 +300,40 @@ Let's see if we are within the 40 g budget.
 | Cables | 0.5 g |
 | JST | 0.5 g |
 |---|---|
-| **total** | 23.5 g |
+| **Total** | 23.5 g |
+
+We are well below budget!
+Just as well, because we will certainly go above in one of the remaining groups.
+
+## Outer Hull
+
+As we saw above, we will use 20 gsm paper (manila or unryu)
+for maximum lightness;
+that is 20 g/m2.
+We will need a bit over 1.34 m2,
+since the different segments will overlap a bit;
+let's say 1.40 m2.
+This means 28 g of paper.
+
+We also need glue to keep it together,
+and an outer layer of acrylic spray.
+Weight of glued paper tends to go up something like 5 g/m2.
+Finally spray also increases weight around 5 g/m2.
+Each material will add around 7 g.
+
+### Hull Weight Budget
+
+Let's see if we are within the 40 g budget.
+
+| item | weight |
+|---|---|
+| Paper | 28 g |
+| Glue | 7 g |
+| Acrylic spray | 7 g |
+|---|---|
+| **Total** | 42 g |
+
+We go a bit above 40 g.
 
 ## Structure
 
@@ -334,10 +367,6 @@ We can use the thickest strips only for the bottom segments,
 ~2 meters of them: 2 strips with 62 cm and 2 with 40 cm.
 Then intermediate strips for the mid segments (4x62cm),
 and the thinner strips on top (another 2m).
-Full weight will be:
-
-W(strips) = 2 * 3.5g + 2.4 * 2.1g + 2 * 1.26g
-W(strips) ~ 15g.
 
 ![Reinforced avis minima. Source: the author.](pics/avis-minima-reinforced.svg "Model of dirigible drone. The structure is made of thin carbon strips along its major lines: thinner on top, mid around the middle, and thicker at the bottom.")
 
@@ -361,7 +390,7 @@ Let's see if we are within the 40 g budget.
 | Hatch plug | 2 g |
 | Wings | 7 g |
 |---|---|
-| **total** | 38 g |
+| **Total** | 38 g |
 
 Right within budget!
 
@@ -377,10 +406,12 @@ The best material to contain hydrogen is apparently PVA,
 [density of 1.2~1.3 g/cm3](https://en.wikipedia.org/wiki/Polyvinyl_alcohol).
 For our 1.34 m2 a 20 micron bag would therefore represent
 32~35 grams.
-Add the 9 grams of hydrogen to fill our 0.131 m3 (at 70 g/m3),
-and we are somewhat above budget.
+Let's go on the pessimistic side to account for any extra plastic needed for the bag.
 
 ### Get Hydrogen
+
+We need 9 grams of hydrogen to fill our 0.131 m3,
+at 70 g/m3.
 
 Hydrogen availability is not trivial either:
 it can be purchased in heavy bottles,
@@ -392,6 +423,32 @@ like [this one](https://www.ebay.es/itm/294917973530).
 No idea if they are reliable enough.
 We need 131 liters so using this method would take around 15 hours;
 it would not be fast.
+
+### Hydrogen Bag Weight Budget
+
+We have to include the hydrogen somewhere.
+
+| item | weight |
+|---|---|
+| PVA bag | 35 g |
+| 0.131 m3 of Hydrogen | 9 g |
+|---|---|
+| **Total** | 44 g |
+
+Here we go a bit over the 40 g budget,
+luckily we had some extra grams from the propulsion department.
+
+## Total Weight Budget
+
+The following sum must be below 157 g for the _avis minima_ to fly.
+
+| group | weight |
+|---|---|
+| Propulsion | 35 g |
+| Structure | 35 g |
+| Hydrogen Bag | 9 g |
+|---|---|
+| **Total** | 44 g |
 
 # 🤔 Conclusion
 

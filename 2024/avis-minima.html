@@ -403,11 +403,55 @@ brains will use this servo to open the bag.</p>
 <td>—</td>
 </tr>
 <tr class="odd">
-<td><strong>total</strong></td>
+<td><strong>Total</strong></td>
 <td>23.5 g</td>
 </tr>
 </tbody>
 </table>
+<p>We are well below budget! Just as well, because we will certainly go
+above in one of the remaining groups.</p>
+<h2 id="outer-hull-1">Outer Hull</h2>
+<p>As we saw above, we will use 20 gsm paper (manila or unryu) for
+maximum lightness; that is 20 g/m2. We will need a bit over 1.34 m2,
+since the different segments will overlap a bit; let’s say 1.40 m2. This
+means 28 g of paper.</p>
+<p>We also need glue to keep it together, and an outer layer of acrylic
+spray. Weight of glued paper tends to go up something like 5 g/m2.
+Finally spray also increases weight around 5 g/m2. Each material will
+add around 7 g.</p>
+<h3 id="hull-weight-budget">Hull Weight Budget</h3>
+<p>Let’s see if we are within the 40 g budget.</p>
+<table>
+<thead>
+<tr class="header">
+<th>item</th>
+<th>weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Paper</td>
+<td>28 g</td>
+</tr>
+<tr class="even">
+<td>Glue</td>
+<td>7 g</td>
+</tr>
+<tr class="odd">
+<td>Acrylic spray</td>
+<td>7 g</td>
+</tr>
+<tr class="even">
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td>42 g</td>
+</tr>
+</tbody>
+</table>
+<p>We go a bit above 40 g.</p>
 <h2 id="structure">Structure</h2>
 <p>The structure is made up of a series of joints at the edges, linked
 together by carbon fiber strips. The two motors and the gondola are
@@ -430,8 +474,7 @@ g/cm3, it is easy to compute linear density:</p>
 <p>Weight goes up fast! We can use the thickest strips only for the
 bottom segments, ~2 meters of them: 2 strips with 62 cm and 2 with 40
 cm. Then intermediate strips for the mid segments (4x62cm), and the
-thinner strips on top (another 2m). Full weight will be:</p>
-<p>W(strips) = 2 * 3.5g + 2.4 * 2.1g + 2 * 1.26g W(strips) ~ 15g.</p>
+thinner strips on top (another 2m).</p>
 <figure>
 <img src="pics/avis-minima-reinforced.svg"
 title="Model of dirigible drone. The structure is made of thin carbon strips along its major lines: thinner on top, mid around the middle, and thicker at the bottom."
@@ -490,7 +533,7 @@ it will need crossing reinforcements.</p>
 <td>—</td>
 </tr>
 <tr class="even">
-<td><strong>total</strong></td>
+<td><strong>Total</strong></td>
 <td>38 g</td>
 </tr>
 </tbody>
@@ -504,9 +547,10 @@ than 40 grams for the whole thing.</p>
 <p>The best material to contain hydrogen is apparently PVA, <a
 href="https://en.wikipedia.org/wiki/Polyvinyl_alcohol">density of
 1.2~1.3 g/cm3</a>. For our 1.34 m2 a 20 micron bag would therefore
-represent 32~35 grams. Add the 9 grams of hydrogen to fill our 0.131 m3
-(at 70 g/m3), and we are somewhat above budget.</p>
+represent 32~35 grams. Let’s go on the pessimistic side to account for
+any extra plastic needed for the bag.</p>
 <h3 id="get-hydrogen">Get Hydrogen</h3>
+<p>We need 9 grams of hydrogen to fill our 0.131 m3, at 70 g/m3.</p>
 <p>Hydrogen availability is not trivial either: it can be purchased in
 heavy bottles, but it has the advantage that it can be generated quite
 easily via electrolysis. Actually just put an AA battery in water; those
@@ -515,6 +559,69 @@ bubbles you see at one end are pure hydrogen!</p>
 like <a href="https://www.ebay.es/itm/294917973530">this one</a>. No
 idea if they are reliable enough. We need 131 liters so using this
 method would take around 15 hours; it would not be fast.</p>
+<h3 id="hydrogen-bag-weight-budget">Hydrogen Bag Weight Budget</h3>
+<p>We have to include the hydrogen somewhere.</p>
+<table>
+<thead>
+<tr class="header">
+<th>item</th>
+<th>weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PVA bag</td>
+<td>35 g</td>
+</tr>
+<tr class="even">
+<td>0.131 m3 of Hydrogen</td>
+<td>9 g</td>
+</tr>
+<tr class="odd">
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td>44 g</td>
+</tr>
+</tbody>
+</table>
+<p>Here we go a bit over the 40 g budget, luckily we had some extra
+grams from the propulsion department.</p>
+<h2 id="total-weight-budget">Total Weight Budget</h2>
+<p>The following sum must be below 157 g for the <em>avis minima</em> to
+fly.</p>
+<table>
+<thead>
+<tr class="header">
+<th>group</th>
+<th>weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Propulsion</td>
+<td>35 g</td>
+</tr>
+<tr class="even">
+<td>Structure</td>
+<td>35 g</td>
+</tr>
+<tr class="odd">
+<td>Hydrogen Bag</td>
+<td>9 g</td>
+</tr>
+<tr class="even">
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td>44 g</td>
+</tr>
+</tbody>
+</table>
 <h1 id="conclusion">🤔 Conclusion</h1>
 <p>When downscaling the avis aeterna to one meter long I expected to
 find multiple roadblocks. To my surprise it should be possible to build
