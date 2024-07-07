@@ -249,9 +249,10 @@ Weight is computed based on the volume of air displaced,
 using an average air density of 1.2 kg/m³ (sea level, 20 C).
 One of the challenges is that this weight can change with temperature, altitude and even atmospheric conditions.
 
-Note that we have around 150 grams to fit in everything:
+Note that we have around 160 grams to fit in everything:
 hydrogen container, outer envelope, structure and propulsion.
 We will set up a preliminary "weight budget" of <40 grams for each of these areas.
+If we come short then we can easily add ballast to compensate.
 
 ## 🚁 Propulsion
 
