@@ -61,7 +61,6 @@ would use 8 grams.
 We also need about one gram of hydrogen inside.
 Really hard to fit in the remaining 5 grams a couple of motors, propellers, battery and control surfaces;
 not to speak about some kind of support.
-Believe me, I've tried.
 
 It makes no sense to remain at these scales when a bigger prototype is easier to build.
 Let's go up a notch.
