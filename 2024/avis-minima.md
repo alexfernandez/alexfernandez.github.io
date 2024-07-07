@@ -355,13 +355,11 @@ The gondola will house Arduino nano, battery and other electronics.
 As to the carbon fiber structure,
 we need 8 strips 62 cm long, and 4 strips 40 cm long,
 for a total of 656 cm.
-I have tried with 3x0.3 mm strips.
-They just weigh 1.1 g/m for a total of 
-but they cannot hold the weight of the gondola.
-I am currently waiting for 3x0.5 mm and 5x0.5mm strips;
-they weigh a bit more.
+I have tried with 3x0.3 mm strips,
+which just weigh 1.2 g/m, but cannot hold the weight of the gondola.
+I am currently waiting for stronger (and heavier) 3x0.5 mm and 5x0.5mm strips.
 Since carbon fiber has density of 1.4 g/cm³,
-it is easy to compute linear density:
+it is easy to compute their linear density:
 
 d = 1.4 g/cm³ × 3 mm × 0.3 mm
 
