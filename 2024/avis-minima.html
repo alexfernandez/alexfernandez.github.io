@@ -356,26 +356,26 @@ shows on the article page. Propellers under 1g can also be found.</p>
 <p>Similarly <a
 href="https://es.aliexpress.com/item/1005006099884636.html">lightweight
 motor drivers</a> are available that convert the signal from the Arduino
-to triphasic current required by the brushless motors.</p>
+to the triphasic current required by the brushless motors.</p>
 <h3 id="other-electronics">🔌 Other Electronics</h3>
 <p>There are a few other line items in our propulsion budget. First we
 need cables to connect the Arduino to the motors, which will span at
 least from the gondola to each propeller (~40 cm) and from the gondola
 to the servo (~62 cm), with three cables each (power, ground and
-signal). Let’s give a few more cm for each cable, this gives us a total
-of 5 meters of cable:</p>
+signal). Let’s give a few more cm for each cable, giving us a total of 5
+meters of cable:</p>
 <p>L = 3 × 2 × 50 cm + 3 × 70 cm ≈ 5 m.</p>
 <p>We need really lightweight cable; luckily we can use <a
 href="https://www.amazon.es/dp/B07JBQQR38?th=1">AWG 32 enameled
 cables</a>, which are around 0.1 g/m, for half a gram total.</p>
 <p>We also need JST connectors to facilitate changing each piece. We can
 use 6 sets of JST PH (2 mm) connectors, weighing around 0.1 g each, for
-a total of around half a gram.</p>
+a total of another half gram.</p>
 <p>Lastly we need a <a
 href="https://www.motionrc.eu/products/rotorscale-1g-high-speed-digital-nano-servo-rsh6005-001">servo
 motor</a> that will pop open the hydrogen bag, for emergency stops. We
 cannot have a rogue drone flying around, so whenever things go wrong the
-brains will use this servo to open the bag.</p>
+onboard computer will use this servo to open the bag.</p>
 <h3 id="propulsion-weight-budget">⚖️ Propulsion Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>
@@ -467,14 +467,12 @@ add around 7 g.</p>
 </tr>
 </tbody>
 </table>
-<p>We go a bit above 40 g.</p>
+<p>We go a bit above 40 g, but we are well within margin.</p>
 <h2 id="structure">🌐 Structure</h2>
 <p>The structure is made up of a series of joints at the edges, linked
 together by carbon fiber strips. The two motors and the gondola are
-attached to these joints.</p>
-<p>The gondola will house Arduino nano, battery and a power converter
-from the battery’s 3.7 V to the Arduino’s 3.3 V, which is a very simple
-and lightweight 0.6 g circuit.</p>
+attached to these joints. The gondola will house Arduino nano, battery
+and other electronics.</p>
 <p>As to the carbon fiber structure, we need 8 strips 62 cm long, and 4
 strips 40 cm long, for a total of 656 cm. I have tried with 3x0.3 mm
 strips. They just weigh 1.1 g/m for a total of but they cannot hold the
@@ -500,8 +498,9 @@ author.</figcaption>
 </figure>
 <p>Note how the four strips holding the gondola at the bottom are the
 thickest. It remains to be seen if this structure will be able to hold
-the weight of the gondola and the remaining parts such as ailerons, or
-it will need crossing reinforcements.</p>
+the weight of the gondola and the remaining parts such as the wings, or
+it will need crossing reinforcements. As to these wings and the nose
+cone they are simple lightweight plastic jobs.</p>
 <h3 id="structure-weight-budget">⚖️ Structure Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>

@@ -268,7 +268,7 @@ Very [lightweight brushless motors](https://es.aliexpress.com/item/1005001649480
 Propellers under 1g can also be found.
 
 Similarly [lightweight motor drivers](https://es.aliexpress.com/item/1005006099884636.html)
-are available that convert the signal from the Arduino to triphasic current required by the brushless motors.
+are available that convert the signal from the Arduino to the triphasic current required by the brushless motors.
 
 ### 🔌 Other Electronics
 
@@ -278,7 +278,7 @@ which will span at least from the gondola to each propeller (~40 cm)
 and from the gondola to the servo (~62 cm),
 with three cables each (power, ground and signal).
 Let's give a few more cm for each cable,
-this gives us a total of 5 meters of cable:
+giving us a total of 5 meters of cable:
 
 L = 3 × 2 × 50 cm + 3 × 70 cm ≈ 5 m.
 
@@ -288,13 +288,13 @@ which are around 0.1 g/m, for half a gram total.
 
 We also need JST connectors to facilitate changing each piece.
 We can use 6 sets of JST PH (2 mm) connectors,
-weighing around 0.1 g each, for a total of around half a gram.
+weighing around 0.1 g each, for a total of another half gram.
 
 Lastly we need a [servo motor](https://www.motionrc.eu/products/rotorscale-1g-high-speed-digital-nano-servo-rsh6005-001)
 that will pop open the hydrogen bag,
 for emergency stops.
 We cannot have a rogue drone flying around,
-so whenever things go wrong the brains will use this servo to open the bag.
+so whenever things go wrong the onboard computer will use this servo to open the bag.
 
 ### ⚖️  Propulsion Weight Budget
 
@@ -343,17 +343,14 @@ Let's see if we are within the 40 g budget.
 | Acrylic spray | 7 g |
 | **Total** | 42 g |
 
-We go a bit above 40 g.
+We go a bit above 40 g, but we are well within margin.
 
 ## 🌐 Structure
 
 The structure is made up of a series of joints at the edges,
 linked together by carbon fiber strips.
 The two motors and the gondola are attached to these joints.
-
-The gondola will house Arduino nano, battery and a power converter
-from the battery's 3.7 V to the Arduino's 3.3 V,
-which is a very simple and lightweight 0.6 g circuit.
+The gondola will house Arduino nano, battery and other electronics.
 
 As to the carbon fiber structure,
 we need 8 strips 62 cm long, and 4 strips 40 cm long,
@@ -382,8 +379,9 @@ and the thinner strips on top (another 2m).
 
 Note how the four strips holding the gondola at the bottom are the thickest.
 It remains to be seen if this structure will be able to hold the weight of the gondola
-and the remaining parts such as ailerons,
+and the remaining parts such as the wings,
 or it will need crossing reinforcements.
+As to these wings and the nose cone they are simple lightweight plastic jobs.
 
 ### ⚖️  Structure Weight Budget
 
