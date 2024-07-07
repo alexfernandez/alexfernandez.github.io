@@ -13,7 +13,7 @@ I am currently in the process of designing and building an airship drone
 an autonomous flying machine that can stay aloft for a long time.
 This time for real!
 
-![Plans for a drone airship. Source: the author.](pics/avis-minima-model.svg "Three views of an airship.")
+![Secret plans for a drone airship. Source: the author.](pics/avis-minima-model.svg "Three views of an airship.")
 
 # 📓 The Project
 
@@ -100,15 +100,19 @@ since it is small, light (~5 grams) and comes packed with sensors:
 ![The Apollo Inertial Measurement Unit. Source: [ArnolRheinhold](https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg).](pics/avis-minima-apollo-imu.jpg "A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum.")
 
 This is usually called an IMU or Inertial Measurement Unit.
-It is actually possible to build an inertial navigation system (INS) with these 9-axis sensors.
-Such a system is capable of inferring the position and orientation at any point,
-and without any external information.
-But a small unit like this will be quite imprecise in operation.
+It is actually possible to build an inertial navigation system (INS) with these 9-axis sensors:
+without any external information it should be capable of inferring the position and orientation at any moment.
+But a small unit like this one will be quite imprecise in operation.
 
 Ideally we will use GPS for navigation,
 although modules are heavy (I have not seen anything under ~15g) and slow.
-Many people recommend having GPS for slow positioning,
+Clever people recommend having GPS for slow positioning,
 and filling in for the short term with an INS.
+
+This is just one of the challenges for navigation.
+How do we orient an airship with just two motors?
+How can we compensate for external wind forces?
+In any case we will cross those bridges when we get to them.
 
 ## 🔋 Power
 
