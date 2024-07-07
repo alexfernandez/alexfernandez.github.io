@@ -3,7 +3,7 @@ title: '🪽 Avis Minima'
 subtitle: '🛩️ Building A Prototype Airship Drone'
 footer: Published on 2024-07-03, last modified on 2024-07-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2024/pics/aves-aeternae-model.png
+image: https://pinchito.es/2024/pics/avis-minima-reinforced.svg
 ---
 
 The worlds of airships and of drones are really interesting on their own,
@@ -12,7 +12,7 @@ I am currently in the process of designing and building an airship drone
 (or drone airship):
 a flying machine that can stay aloft for a long time.
 
-![Plans for a model airship. Source: the author.](pics/aves-aeternae-model.png "Three views of an airship.")
+![Plans for a drone airship. Source: the author.](pics/avis-minima-model.png "Three views of an airship.")
 
 # 📓 The Project
 
@@ -207,6 +207,8 @@ as it is a monoatomic molecule.
 
 As to safety: 9 grams of hydrogen is not explosive enough to cause any damage,
 and we don't have human passengers anyway.
+
+![The Hindenburg disaster. Source: [gifs.com](https://gifs.com/gif/hindenburg-disaster-real-footage-1937-Wny2EW).](pics/avis-minima-hindenburg.gif "Animated GIF in black and white of the Hindenburg Zeppelin burning to the ground.")
 
 Allow me to address directly the Hindenburg catastrophe that has been impinged into our collective subsconsious.
 The problem with Zeppelins was not with hydrogen but with the rigid design that was so popular.
