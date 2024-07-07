@@ -415,7 +415,7 @@ For our 1.34 m² a 20 micron bag would therefore represent
 Let's go on the pessimistic side to account for any extra plastic needed for the bag.
 
 PVA is heavily used industrially because it dissolves easily in water.
-So it is possible to buy industrial bags that are used to place contaminated clothes directly in the washing machine.
+It is possible to buy industrial bags that are used to dispose of contaminated clothes directly in the washing machine.
 On the minus side we have better isolate the bag from any outside humidity or the bag will simply dissolve!
 I have purchased some but the quality is quite poor: they are full of holes.
 They are also square and not elliptical.
@@ -432,8 +432,7 @@ This will probably have to be numerically integrated too.
 
 We need 9 grams of hydrogen to fill our 0.131 m³,
 at 70 g/m³.
-
-Hydrogen availability is not trivial either:
+Hydrogen availability is not trivial:
 it can be purchased in heavy bottles,
 but it has the advantage that it can be generated quite easily via electrolysis.
 Actually just put an AA battery in water; those bubbles you see at one end are pure hydrogen!
