@@ -299,7 +299,6 @@ Let's see if we are within the 40 g budget.
 | 500 mA battery | 9 g |
 | Cables | 0.5 g |
 | JST | 0.5 g |
-|---|---|
 | **Total** | 23.5 g |
 
 We are well below budget!
@@ -330,7 +329,6 @@ Let's see if we are within the 40 g budget.
 | Paper | 28 g |
 | Glue | 7 g |
 | Acrylic spray | 7 g |
-|---|---|
 | **Total** | 42 g |
 
 We go a bit above 40 g.
@@ -389,7 +387,6 @@ Let's see if we are within the 40 g budget.
 | Gondola | 10 g |
 | Hatch plug | 2 g |
 | Wings | 7 g |
-|---|---|
 | **Total** | 38 g |
 
 Right within budget!
@@ -432,7 +429,6 @@ We have to include the hydrogen somewhere.
 |---|---|
 | PVA bag | 35 g |
 | 0.131 m3 of Hydrogen | 9 g |
-|---|---|
 | **Total** | 44 g |
 
 Here we go a bit over the 40 g budget,
@@ -444,11 +440,25 @@ The following sum must be below 157 g for the _avis minima_ to fly.
 
 | group | weight |
 |---|---|
-| Propulsion | 35 g |
-| Structure | 35 g |
-| Hydrogen Bag | 9 g |
-|---|---|
-| **Total** | 44 g |
+| Propulsion | 23.5 g |
+| Outer hull | 42 g |
+| Structure | 38 g |
+| Hydrogen Bag | 44 g |
+| **Total** | 148 g |
+
+Phew! Right below 157 g.
+Does this mean we are above budget?
+Not exactly.
+Remember when we said that air density varies with atmospheric conditions?
+Temperature is the biggest factor here:
+
+| Temperature (C) | Density | Weight |
+|---|---|---|
+| 0 | 1.3 | 170 |
+| 10 |	1.25	| 164 |
+| 20 |	1.2	| 157.2 |
+| 30 |	1.16 |	151.96 |
+| 40 |	1.13 |	148.03 |
 
 # 🤔 Conclusion
 
