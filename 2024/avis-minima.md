@@ -516,7 +516,7 @@ while area (and thus hull, structure and bag) would only increase by 21%.
 In reality the propulsion system would probably work just as well,
 while the structure might need some reinforcing. 
 Let us suppose a 21% overall increase;
-Weight would presumably only go up from 148 g to 179 g,
+weight would presumably only go up from 148 g to 179 g,
 while buoyancy would increase from 137 to 182 g.
 We would magically gain 45 grams of buoyancy, and be within budget!
 
@@ -535,7 +535,15 @@ To my surprise it should be possible to build it with current materials and meth
 While it will probably not stay aloft for days or weeks,
 it is a nice demonstration of the concept that can be scaled up.
 
+Do not expect to see it flying around your home town any time soon though;
+construction is still in the preliminary design and experimentation stages.
+
 ## 🙏 Acknowledgements
 
-Thanks to Carlos Santisteban and Fran Barea for so many fruitful discussions.
+Thanks to Carlos Santisteban, Javi Fernández, Pablo Garrido, and David Poza for their immense help with the prototyping.
+Thanks to Fran Barea, Cristo Contreras, César Domínguez,
+Diego Lafuente, Rodrigo Lumbreras, Guillermo Fernández,
+Sink, Mapi Pérez, Jairo
+and so many other members of [MakeSpace Madrid](https://makespacemadrid.org/)
+and [la Jaquería](https://lajaqueria.org/) for so many fruitful discussions.
 
