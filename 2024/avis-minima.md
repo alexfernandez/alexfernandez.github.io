@@ -139,9 +139,8 @@ from the 3.7 V of the LiPo battery to the 3.3 V required by the Arduino.
 
 The target power of the avis minima is 1 Watt,
 which should in principle give us a speed of 5 m/s (around 18 km/h or 11 mph).
-Energy consumption from the Arduino nano is minimal at 10 mA and 3.3 V (0.033 Watt),
-and can even be lowered by disabling the onboard LED.
-Most of the 1W will go to the propellers.
+Energy consumption from the Arduino nano is minimal at around 20 mA and 3.3 V (0.067 Watt),
+so most of the 1 W will go to the propellers.
 A 500 mAh battery at 3.7 V will [yield 1.85 Watt-hour](https://www.rapidtables.com/calc/electric/mah-to-wh-calculator.html),
 so it will be able to power the avis for almost two hours straight.
 
@@ -150,7 +149,8 @@ lightweight solar panels that can be installed in place of stabilizers,
 and that yield a lot of power (3.5 W nominal) at 6 grams.
 These panels should be able to power the propellers directly.
 If we can leave the battery only to power the Arduino nano,
-it will be able of 50+ hours of operation.
+it will be able of 25+ hours of operation.
+They represent an interesting project extension.
 
 ## 🏮 Outer Hull
 
@@ -158,10 +158,9 @@ Fans of papiroflexia will be happy with this section.
 The outer surface is 1.34 square meters.
 To cover it we need a lightweight and yet sturdy material,
 such as... maybe paper?
-
 Sadly even office paper is 80 gsm (grams per square meter),
 so covering our 1.34 m² would weigh us down by 107g.
-But what if we can find something lighter and stronger?
+But what if we can find something lighter and perhaps even stronger?
 
 I created a prototype with humble oven paper from the kitchen supply section of the supermarket.
 At 40 gsm it is quite sturdy,
@@ -179,7 +178,7 @@ Sadly ellipsoids are quite intractable mathematically;
 I created a script using numerical integration to generate the proper shape that, once folded,
 generates an ellipsoid.
 
-![Paper segments. Source: the author.](pics/avis-minima-segments.svg "Model of a paper segment: a curved triangular-like shape that starts with a flat base and ends in a sharp peak. Contains indentations on each side.")
+![Paper segments. Source: the author.](pics/avis-minima-segment.svg "Model of a paper segment: a curved triangular-like shape that starts with a flat base and ends in a sharp peak. Contains indentations on each side.")
 
 Each segment is approximately 10 cm wide and 62 cm long,
 and has indentations to glue it to its neighbours.
