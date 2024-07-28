@@ -1,7 +1,7 @@
 ---
 title: '🪽 Avis Minima'
 subtitle: '🛩️ Building A Prototype Airship Drone'
-footer: Published on 2024-07-08, last modified on 2024-07-08.
+footer: Published on 2024-07-08, last modified on 2024-07-28.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/avis-minima-reinforced.svg
 ---
@@ -263,12 +263,14 @@ how to have powered flight below 40 grams.
 
 The Arduino nano will control a couple of motors
 using motor drivers.
-Very [lightweight brushless motors](https://es.aliexpress.com/item/1005001649480303.html) are available:
+Very [lightweight brushless motors](https://www.xiphorix.com/19g-micro-outrunner-brushless-motor-d0703-20000kv) are available:
 2g each, as the vendor explicitly shows on the article page.
-Propellers under 1g can also be found.
 
-Similarly [lightweight motor drivers](https://es.aliexpress.com/item/1005006099884636.html)
-are available that convert the signal from the Arduino to the triphasic current required by the brushless motors.
+![Brushless motor weighing in at two grams. Source: [Xiphorix](https://www.xiphorix.com/19g-micro-outrunner-brushless-motor-d0703-20000kv).](pics/avis-minima-motor-xiphorix.jpg "A tiny motor being weighed, the scale shows '2.05g'.")
+
+Similarly [lightweight motor drivers](https://www.xiphorix.com/micro-1s37v-4a-brushless-esc)
+are available that convert the signal from the Arduino to the triphasic current required by brushless motors.
+Propellers under 1g can also be found.
 
 ### 🔌 Other Electronics
 
