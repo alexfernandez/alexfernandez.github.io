@@ -237,7 +237,8 @@ These are likely to change as the project moves along.
 ## Preliminary Tech Specs
 
 While it is quite premature to set in stone every detail of the project,
-it is good to have an idea of the main parameters.
+it is good to have an idea of the main parameters,
+computed with a bit more precision than above.
 
 |Parameter|Value|
 |---|---|
