@@ -345,29 +345,34 @@ Let's see if we are within the 40 g budget.
 | Acrylic spray | 7 g |
 | **Total** | 42 g |
 
-We go a bit above 40 g, but we are well within margin.
+We go a bit above 40 g, but we are still within margin.
 
 ## 🌐 Structure
 
 The structure is made up of a series of joints at the edges,
 linked together by carbon fiber strips.
-The two motors and the gondola are attached to these joints.
+The two propellers and the gondola are attached to these joints,
+with suitable masts.
 The gondola will house Arduino nano, battery and other electronics.
+The last item is the back hatch which holds the servo that opens the bag.
+All weights are specified below.
 
 As to the carbon fiber structure,
 we need 8 strips 62 cm long, and 4 strips 40 cm long,
 for a total of 656 cm.
 I have tried with 3x0.3 mm strips,
-which just weigh 1.2 g/m, but cannot hold the weight of the gondola.
-I am currently waiting for stronger (and heavier) 3x0.5 mm and 5x0.5mm strips.
-Since carbon fiber has density of 1.4 g/cm³,
+which just weigh 1.2 g/m, but they cannot hold the weight of the gondola.
+I have purchased stronger (and heavier) 3x0.5 mm and 5x0.5mm strips.
+Since carbon fiber has a density of 1.6 g/cm³,
 it is easy to compute their linear density:
 
-d = 1.4 g/cm³ × 3 mm × 0.3 mm
+```
+d = 1.6 g/cm³ × 3 mm × 0.3 mm
+```
 
-- 3 × 0.3 mm: 1.26 g/m
-- 3 × 0.5 mm: 2.1 g/m
-- 5 × 0.5 mm: 3.5 g/m
+- 3 × 0.3 mm: 1.5 g/m
+- 3 × 0.5 mm: 2.4 g/m
+- 5 × 0.5 mm: 4 g/m
 
 Weight goes up fast!
 We can use the thickest strips only for the bottom segments,
@@ -381,7 +386,7 @@ Note how the four strips holding the gondola at the bottom are the thickest.
 It remains to be seen if this structure will be able to hold the weight of the gondola
 and the remaining parts such as the wings,
 or it will need crossing reinforcements.
-As to these wings and the nose cone they are simple lightweight plastic jobs.
+As to these wings and the nose cone they are simple lightweight paper jobs.
 
 ### ⚖️  Structure Weight Budget
 
@@ -389,17 +394,17 @@ Let's see if we are within the 40 g budget.
 
 | item | weight |
 |---|---|
-| Light strips | 2 × 1.26 g |
-| Mid strips | 2.4 × 2.1 g |
-| Heavy strips | 2 × 3.5 g |
+| Light strips | 2 × 1.5 g |
+| Mid strips | 2.4 × 2.4 g |
+| Heavy strips | 2 × 4 g |
 | Joints | 3.5 g |
-| Propeller joints | 1 g |
-| Gondola | 10 g |
-| Hatch plug | 2 g |
-| Wings | 7 g |
-| **Total** | 38 g |
+| Propeller masts | 2 g |
+| Gondola | 8 g |
+| Hatch | 2 g |
+| Wings | 3 g |
+| **Total** | 35 g |
 
-Right within budget!
+Within budget, and with some margin!
 
 ## 🎈 Hydrogen Bag
 
@@ -456,7 +461,7 @@ We have to include the hydrogen somewhere.
 | **Total** | 44 g |
 
 Here we go a bit over the 40 g budget,
-luckily we still have some extra grams from the propulsion department.
+luckily we still have some extra grams left from the propulsion department.
 
 ## ⚖️ Total Weight Budget
 
@@ -466,9 +471,9 @@ The following sum must be below 157 g for the _avis minima_ to fly.
 |---|---|
 | Propulsion | 26 g |
 | Outer hull | 42 g |
-| Structure | 38 g |
+| Structure | 35 g |
 | Hydrogen Bag | 44 g |
-| **Total** | 150 g |
+| **Total** | 147 g |
 
 Phew! A bit below 157 g.
 Does this mean we are above budget and have to start adding weights?
