@@ -476,23 +476,25 @@ add around 7 g.</p>
 </tr>
 </tbody>
 </table>
-<p>We go a bit above 40 g, but we are well within margin.</p>
+<p>We go a bit above 40 g, but we are still within margin.</p>
 <h2 id="structure">🌐 Structure</h2>
 <p>The structure is made up of a series of joints at the edges, linked
-together by carbon fiber strips. The two motors and the gondola are
-attached to these joints. The gondola will house Arduino nano, battery
-and other electronics.</p>
+together by carbon fiber strips. The two propellers and the gondola are
+attached to these joints, with suitable masts. The gondola will house
+Arduino nano, battery and other electronics. The last item is the back
+hatch which holds the servo that opens the bag. All weights are
+specified below.</p>
 <p>As to the carbon fiber structure, we need 8 strips 62 cm long, and 4
 strips 40 cm long, for a total of 656 cm. I have tried with 3x0.3 mm
-strips, which just weigh 1.2 g/m, but cannot hold the weight of the
-gondola. I am currently waiting for stronger (and heavier) 3x0.5 mm and
-5x0.5mm strips. Since carbon fiber has density of 1.4 g/cm³, it is easy
-to compute their linear density:</p>
-<p>d = 1.4 g/cm³ × 3 mm × 0.3 mm</p>
+strips, which just weigh 1.2 g/m, but they cannot hold the weight of the
+gondola. I have purchased stronger (and heavier) 3x0.5 mm and 5x0.5mm
+strips. Since carbon fiber has a density of 1.6 g/cm³, it is easy to
+compute their linear density:</p>
+<pre><code>d = 1.6 g/cm³ × 3 mm × 0.3 mm</code></pre>
 <ul>
-<li>3 × 0.3 mm: 1.26 g/m</li>
-<li>3 × 0.5 mm: 2.1 g/m</li>
-<li>5 × 0.5 mm: 3.5 g/m</li>
+<li>3 × 0.3 mm: 1.5 g/m</li>
+<li>3 × 0.5 mm: 2.4 g/m</li>
+<li>5 × 0.5 mm: 4 g/m</li>
 </ul>
 <p>Weight goes up fast! We can use the thickest strips only for the
 bottom segments, ~2 meters of them: 2 strips with 62 cm and 2 with 40
@@ -509,7 +511,7 @@ author.</figcaption>
 thickest. It remains to be seen if this structure will be able to hold
 the weight of the gondola and the remaining parts such as the wings, or
 it will need crossing reinforcements. As to these wings and the nose
-cone they are simple lightweight plastic jobs.</p>
+cone they are simple lightweight paper jobs.</p>
 <h3 id="structure-weight-budget">⚖️ Structure Weight Budget</h3>
 <p>Let’s see if we are within the 40 g budget.</p>
 <table>
@@ -522,43 +524,43 @@ cone they are simple lightweight plastic jobs.</p>
 <tbody>
 <tr class="odd">
 <td>Light strips</td>
-<td>2 × 1.26 g</td>
+<td>2 × 1.5 g</td>
 </tr>
 <tr class="even">
 <td>Mid strips</td>
-<td>2.4 × 2.1 g</td>
+<td>2.4 × 2.4 g</td>
 </tr>
 <tr class="odd">
 <td>Heavy strips</td>
-<td>2 × 3.5 g</td>
+<td>2 × 4 g</td>
 </tr>
 <tr class="even">
 <td>Joints</td>
 <td>3.5 g</td>
 </tr>
 <tr class="odd">
-<td>Propeller joints</td>
-<td>1 g</td>
+<td>Propeller masts</td>
+<td>2 g</td>
 </tr>
 <tr class="even">
 <td>Gondola</td>
-<td>10 g</td>
+<td>8 g</td>
 </tr>
 <tr class="odd">
-<td>Hatch plug</td>
+<td>Hatch</td>
 <td>2 g</td>
 </tr>
 <tr class="even">
 <td>Wings</td>
-<td>7 g</td>
+<td>3 g</td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
-<td>38 g</td>
+<td>35 g</td>
 </tr>
 </tbody>
 </table>
-<p>Right within budget!</p>
+<p>Within budget, and with some margin!</p>
 <h2 id="hydrogen-bag">🎈 Hydrogen Bag</h2>
 <p>Now we come to the most delicate and most sketchy of design issues:
 how do we store the hydrogen within the avis? Once again we have less
@@ -619,7 +621,7 @@ method would take around 15 hours; it would not be fast.</p>
 </tbody>
 </table>
 <p>Here we go a bit over the 40 g budget, luckily we still have some
-extra grams from the propulsion department.</p>
+extra grams left from the propulsion department.</p>
 <h2 id="total-weight-budget">⚖️ Total Weight Budget</h2>
 <p>The following sum must be below 157 g for the <em>avis minima</em> to
 fly.</p>
@@ -641,7 +643,7 @@ fly.</p>
 </tr>
 <tr class="odd">
 <td>Structure</td>
-<td>38 g</td>
+<td>35 g</td>
 </tr>
 <tr class="even">
 <td>Hydrogen Bag</td>
@@ -649,7 +651,7 @@ fly.</p>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
-<td>150 g</td>
+<td>147 g</td>
 </tr>
 </tbody>
 </table>
