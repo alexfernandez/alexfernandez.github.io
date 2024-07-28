@@ -102,7 +102,8 @@ of squares and cubes</a>.</p>
 href="https://pinchito.es/2024/aves-aeternae">Aves Æternæ article</a>:
 an ellipsoid with a major axis twice the minor axis. The size of the
 major axis will determine the weight of the displaced air, and thus its
-buoyancy (or weight that we can lift):</p>
+buoyancy (or weight that we can lift). Note: these weights are
+approximate as we will see below.</p>
 <table>
 <thead>
 <tr class="header">
@@ -133,10 +134,10 @@ buoyancy (or weight that we can lift):</p>
 </tr>
 </tbody>
 </table>
-<p>As you can see the weight quickly becomes impractical for a drone as
-we go down: it is very much impossible with the current state of the art
-to build a 50 cm dirigible and keep its weight under 20 grams. We would
-be hard pushed to include any kind of electronics: even a paltry <a
+<p>Weight quickly becomes impractical for a drone as we go down: it is
+very much impossible with the current state of the art to build a 50 cm
+dirigible and keep its weight under 20 grams. We would be hard pushed to
+include any kind of electronics: even a paltry <a
 href="https://store.arduino.cc/products/arduino-nano">Arduino nano</a>
 weighs in at 5 grams. What can we do with the remaining 14 grams?</p>
 <p>The <a href="https://planetcalc.com/149/">surface of the
@@ -149,7 +150,7 @@ propellers, battery and control surfaces; not to speak about some kind
 of support.</p>
 <p>It makes no sense to remain at these scales when a bigger prototype
 is easier to build. Let’s go up a notch. Is it possible to build a
-1-meter long dirigible and keep within the 150 gram budget? This is our
+1-meter long dirigible and keep within the ~150 gram budget? This is our
 current project, the <em>avis minima</em>: the smallest practical
 airship drone that is still capable of flight. Just as tech companies
 build an MVP, or <em>minimum viable prototype</em>, we face the
@@ -179,9 +180,9 @@ grams) and comes packed with sensors:</p>
 <figure>
 <img src="pics/avis-minima-apollo-imu.jpg"
 title="A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum."
-alt="The Apollo Inertial Measurement Unit. Source: ArnolRheinhold." />
-<figcaption aria-hidden="true">The Apollo Inertial Measurement Unit.
-Source: <a
+alt="The Apollo Inertial Measurement Unit was a bit heavier. Source: ArnolRheinhold." />
+<figcaption aria-hidden="true">The Apollo Inertial Measurement Unit was
+a bit heavier. Source: <a
 href="https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg">ArnolRheinhold</a>.</figcaption>
 </figure>
 <p>This is usually called an IMU or Inertial Measurement Unit. It is
@@ -714,7 +715,8 @@ href="https://www.omnicalculator.com/physics/air-density">air
 density</a> is approx 1.12 kg/m³ at 20 C, so the prototype would have to
 weigh 148 grams. Should temperature go to 40 C (as it regularly does
 every summer) then density falls to 1.045 kg/m³ and model weight
-plummets to 137 g. We would have to shed 13 additional grams.</p>
+plummets to 137 g. We would have to shed 13 additional grams from our
+target weight of 150 g.</p>
 <p>Even a bit of humidity will make air lighter. Yes, airships are
 really sensitive to atmospheric conditions.</p>
 <h3 id="scaling-up">📈 Scaling Up</h3>

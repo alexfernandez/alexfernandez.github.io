@@ -36,7 +36,8 @@ once we choose a shape we can scale it up and down by simply following the
 We will reuse the shape from the [Aves Æternæ article](https://pinchito.es/2024/aves-aeternae):
 an ellipsoid with a major axis twice the minor axis.
 The size of the major axis will determine the weight of the displaced air,
-and thus its buoyancy (or weight that we can lift):
+and thus its buoyancy (or weight that we can lift).
+Note: these weights are approximate as we will see below.
 
 |Major axis|Weight|
 |---|---|
@@ -46,7 +47,8 @@ and thus its buoyancy (or weight that we can lift):
 | 1 m | 150 g |
 | 50 cm | 19 g |
 
-As you can see the weight quickly becomes impractical for a drone as we go down:
+
+Weight quickly becomes impractical for a drone as we go down:
 it is very much impossible with the current state of the art to build a 50 cm dirigible
 and keep its weight under 20 grams.
 We would be hard pushed to include any kind of electronics:
@@ -64,7 +66,7 @@ not to speak about some kind of support.
 
 It makes no sense to remain at these scales when a bigger prototype is easier to build.
 Let's go up a notch.
-Is it possible to build a 1-meter long dirigible and keep within the 150 gram budget?
+Is it possible to build a 1-meter long dirigible and keep within the ~150 gram budget?
 This is our current project,
 the _avis minima_:
 the smallest practical airship drone that is still capable of flight.
@@ -97,7 +99,7 @@ since it is small, light (~5 grams) and comes packed with sensors:
 - 3-axis gyroscopes,
 - and 3-axis magnetometers.
 
-![The Apollo Inertial Measurement Unit. Source: [ArnolRheinhold](https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg).](pics/avis-minima-apollo-imu.jpg "A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum.")
+![The Apollo Inertial Measurement Unit was a bit heavier. Source: [ArnolRheinhold](https://commons.wikimedia.org/wiki/File:Apollo_IMU_at_Draper_Hack_the_Moon_exhibit.agr.jpg).](pics/avis-minima-apollo-imu.jpg "A set of complex circuits and mechanisms inside a metallic semi-sphere, at a museum.")
 
 This is usually called an IMU or Inertial Measurement Unit.
 It is actually possible to build an inertial navigation system (INS) with these 9-axis sensors:
@@ -508,7 +510,7 @@ In Madrid where I live (657 m) [at 20 C](https://www.omnicalculator.com/physics/
 so the prototype would have to weigh 148 grams.
 Should temperature go to 40 C (as it regularly does every summer)
 then density falls to 1.045 kg/m³ and model weight plummets to 137 g.
-We would have to shed 13 additional grams.
+We would have to shed 13 additional grams from our target weight of 150 g.
 
 Even a bit of humidity will make air lighter.
 Yes, airships are really sensitive to atmospheric conditions.
