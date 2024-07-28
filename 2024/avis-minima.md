@@ -476,7 +476,8 @@ The following sum must be below 157 g for the _avis minima_ to fly.
 | **Total** | 147 g |
 
 Phew! A bit below 157 g.
-Does this mean we are above budget and have to start adding weights?
+Does this mean we have been too careful?
+Are we so far below budget that we have to start adding weights?
 Not necessarily.
 
 ### 🌡️ Atmospheric Conditions
