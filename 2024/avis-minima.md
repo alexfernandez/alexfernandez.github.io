@@ -289,8 +289,8 @@ luckily we can use [AWG 32 enameled cables](https://www.amazon.es/dp/B07JBQQR38?
 which are around 0.1 g/m, for half a gram total.
 
 We also need JST connectors to facilitate changing each piece.
-We can use 6 sets of JST PH (2 mm) connectors,
-weighing around 0.1 g each, for a total of another half gram.
+We can use 7 sets of JST PH (2 mm) connectors,
+weighing a bit under 0.5 g each, for a total of three grams.
 
 Lastly we need a [servo motor](https://www.motionrc.eu/products/rotorscale-1g-high-speed-digital-nano-servo-rsh6005-001)
 that will pop open the hydrogen bag,
@@ -312,10 +312,10 @@ Let's see if we are within the 40 g budget.
 | DC converter | 0.5 g |
 | 500 mA battery | 9 g |
 | Cables | 0.5 g |
-| JST | 0.5 g |
-| **Total** | 23.5 g |
+| JST | 3 g |
+| **Total** | 26 g |
 
-We are well below budget!
+We are considerably below budget!
 Just as well, because we will certainly go above in one of the remaining groups.
 
 ## 🏮 Outer Hull
@@ -464,13 +464,13 @@ The following sum must be below 157 g for the _avis minima_ to fly.
 
 | group | weight |
 |---|---|
-| Propulsion | 23.5 g |
+| Propulsion | 26 g |
 | Outer hull | 42 g |
 | Structure | 38 g |
 | Hydrogen Bag | 44 g |
-| **Total** | 148 g |
+| **Total** | 150 g |
 
-Phew! Right below 157 g.
+Phew! A bit below 157 g.
 Does this mean we are above budget and have to start adding weights?
 Not necessarily.
 
@@ -494,15 +494,15 @@ That is not all. If we go up air density will go down as well --
 according to the [international standard atmosphere](https://www.engineeringtoolbox.com/international-standard-atmosphere-d_985.html),
 at 500 m high air density has gone down almost 5%,
 and around 9% at 1000 m (3300 feet).
-So if you live in the mountains (or in the Spanish _meseta_)
+So if you live in the mountains (or in the high plains)
 then you may have to lighten your dirigibles a bit more.
 
 In Madrid where I live (657 m) [at 20 C](https://www.omnicalculator.com/physics/air-pressure-at-altitude)
-[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³,
+[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³ at 20 C,
 so the prototype would have to weigh 148 grams.
 Should temperature go to 40 C (as it regularly does every summer)
 then density falls to 1.045 kg/m³ and model weight plummets to 137 g.
-We would have to shed 11 additional grams.
+We would have to shed 13 additional grams.
 
 Even a bit of humidity will make air lighter.
 Yes, airships are really sensitive to atmospheric conditions.
