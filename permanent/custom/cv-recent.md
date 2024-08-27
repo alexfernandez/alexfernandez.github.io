@@ -5,14 +5,21 @@ subtitle: 'Email: [`alexfernandeznpm@gmail.com`](mailto:alexfernandeznpm@gmail.c
 
 Developer with extensive experience in building scalable,
 high-performing and maintainable applications.
-I have substantial knowledge of Node.js, JavaScript and TypeScript;
-I have also programmed professionally in Go, Python, PHP, Java and C.
+I have substantial knowledge of Node.js, JavaScript and Python;
+I have also programmed professionally in Go, PHP, Java and C.
 My code routinely processes millions of requests per second.
 I have also held several CTO positions leading high performance teams.
 
-## Job History
+## Job History (Highlights)
 
-### 2022-09 to present: Cofounder and CTO at [NTRDE](https://ntrde.io)
+### 2023-10 to present: Backend developer at [Tinybird](https://tinybird.co)
+
+Principal backend developer within the ingestion team.
+
+* Refined and evolved the architecture to ingest 10+ terabytes per hour.
+* Improved stability and scalability with traffic growing 2x+ per year.
+
+### 2022-09 to 2023-08: Cofounder and CTO at [NTRDE](https://ntrde.io)
 
 Co-founded a decision intelligence solution for chemical trading.
 
@@ -34,13 +41,6 @@ Worked as a full-time freelancer optimizing an invoicing system for 1M+ customer
 
 * Rewrote the legacy backend using Node.js.
 * Reduced total running time from seven days to four hours.
-
-### 2019-03 to 2019-12: CTO at [Influencity](https://influencity.com)
-
-Led a team of seven developers creating a platform for B2B influencer marketing.
-
-* Optimized the backend for performance and maintainability.
-* Implemented good engineering practices such as code review and continuous deployment.
 
 ### 2017-10 to 2019-03: Backend Engineer at [Devo](https://www.devo.com)
 
@@ -91,6 +91,6 @@ with 600 attendees and featuring 35 speakers from over 10 countries.
 
 ## Contact
 
+* Full job history at LinkedIn: [https://www.linkedin.com/in/pinchito/](https://www.linkedin.com/in/pinchito/).
 * Email: [alexfernandeznpm@gmail.com](mailto:alexfernandeznpm@gmail.com).
-* LinkedIn: [https://www.linkedin.com/in/pinchito/](https://www.linkedin.com/in/pinchito/).
 
