@@ -35,13 +35,6 @@ Led an international team of ~15 developers at a French influencer marketing com
 * Led a rewrite of the frontend to improve maintainability.
 * Secured a successful multi-million acquisition by a French group.
 
-### 2020-07 to 2020-12: Freelancer at Alterna Energía
-
-Worked as a full-time freelancer optimizing an invoicing system for 1M+ customers.
-
-* Rewrote the legacy backend using Node.js.
-* Reduced total running time from seven days to four hours.
-
 ### 2017-10 to 2019-03: Backend Engineer at [Devo](https://www.devo.com)
 
 Joined a Spanish unicorn in the middle of an impressive international expansion.
@@ -59,6 +52,13 @@ Backend lead at a mobile adtech company during a phase of hypergrowth.
 to just under a million requests per second in four years.
 * Successfully competed at an international level both in price and in features.
 * Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
+
+### 2007-08 to 2011-08: Senior Project Engineer at ING Spain
+
+Technical responsible for mortgages financial cards.
+
+* Improved stability and scalability of the financial cards processing pipeline.
+* Led a full redesign of the mortgage workflow.
 
 ## Teaching
 
