@@ -53,7 +53,7 @@ to just under a million requests per second in four years.
 * Successfully competed at an international level both in price and in features.
 * Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
 
-### 2007-08 to 2011-08: Senior Project Engineer at ING Spain
+### 2007-08 to 2011-08: Senior Project Engineer at ING Bank Spain
 
 Technical responsible for mortgages financial cards.
 
