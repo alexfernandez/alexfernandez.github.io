@@ -73,11 +73,11 @@ Software Engineering" />
 										<h1>🔧 On Tooling</h1>
 										<p>🧑‍💻 With a Focus on Software Engineering<p>
 									</header>
-																				<p>During my bumpy career as CTO and manager I have often struggled to
-make the case for better developer tooling. For me it was a no-brainer:
-paying developers a good chunk of money to do the same change 10 times
-over in different places, or to wait for automated tests to finish,
-seems like a huge waste.</p>
+																				<p>During my bumpy career as CTO and manager (2019 ~ 2023) I have often
+struggled to make the case for better developer tooling. For me it was a
+no-brainer: paying developers a good chunk of money to do the same
+change 10 times over in different places, or to wait for automated tests
+to finish, seems like a huge waste.</p>
 <figure>
 <img src="pics/on-tooling-hamilton.jpg"
 title="A young Margaret Hamilton, the NASA engineer, is lying on her back touching some controls on an ancient computer console"
@@ -86,7 +86,14 @@ alt="Margaret Hamilton manipulating our favorite tools. Source: © NASA | 17/08/
 favorite tools. Source: © NASA | 17/08/2020 | Margaret
 Hamilton.</figcaption>
 </figure>
-<p>Some big tech companies (Google and Meta come to mind) have the best
+<p>I have focused on improving internal tooling whenever I had the
+chance, even devoting some people full time to the task. But I have
+often failed to show the value of this investment to (other) company
+founders: having devs not work on features is what they really found
+wasteful. After all, product features are seen as value; while internal
+tooling is at best a necessary evil.</p>
+<p>For now I will offer a couple of data points in favor of my position.
+Some big tech companies (Google and Meta come to mind) have the best
 internal tooling, period; this is in large part what enables them to be
 ahead of the competition. And Joel Spolsky, creator of StackOverflow and
 Trello, features tooling in several of the points of his legendary <a
@@ -96,12 +103,8 @@ point 9 in the list says:</p>
 <blockquote>
 <p>Do you use the best tools money can buy?</p>
 </blockquote>
-<p>I have focused on improving internal tooling whenever I had the
-chance, even devoting some people full time to the task. But I have
-often failed to show the value of this investment to (other) company
-founders: having devs not work on features is what they really found
-wasteful. After all, product features are seen as value; while internal
-tooling is at best a necessary evil.</p>
+<p>Let me make the argument now in long form, so hopefully we will all
+enjoy the benefits of better tooling.</p>
 <h1 id="the-value-of-tools">💰 The Value of Tools</h1>
 <p>In many professional areas there are almost religious wars about
 tooling. This is even more pronounced in software development, where the
@@ -110,32 +113,33 @@ been raging on for years. And they are probably more than justified.</p>
 <p>Our starting point is that the value of the work performed by a
 professional is augmented by the tools they use. A farmer that has to
 pick potatoes one by one will be 10 times more productive when they use
-a potato collector, and again 10 times more when done with a tractor.
-The value of their work goes up accordingly.</p>
+a potato collector, and again 10 times more when collection is done with
+a tractor. The value of their work goes up accordingly.</p>
 <p>This is, simply put, why the industrial revolution raised the living
 standards of people. When an employee manufactures 10 times more screws
 the employer has the potential to pay more, and then this person can go
 out and spend that money in more valuable goods. It is true that
 employers tend to want to keep money for themselves as profit. But the
 knowledge required to operate complex machinery also grows, which is a
-barrier of entry for other potential employees.</p>
+barrier of entry for other potential employees; this encourages better
+salaries for skilled operators.</p>
 <h2 id="compound-value">Compound Value</h2>
 <p>The second derivative is that more productive employers have more
-money to invest in factory tooling. As time goes by the quality of tools
-goes up, which in turn enables the next cycle of investments With better
-tools tolerances and clearances will go down, which means that the
-machines built can be more useful. Precision engineering has allowed us
-to have millimeter-thick screws and supersonic airplanes and
-computers.</p>
+money to invest in factory tooling, which in turn improves
+productivity.. As time goes by the quality of tools goes up, and this
+enables the next cycle of investments. With better tools tolerances and
+clearances will go down, which means that the machines built can be more
+useful. Precision engineering has allowed us to have millimeter-thick
+screws and supersonic airplanes and computers. The value of good tools
+thus compounds over time.</p>
 <p>Oh, let me tell you about general purpose computers. In a sense they
 are the ultimate productivity tools: they can run random programs to do
 any tasks and can also be augmented with custom software. Computers can
 also drive lots of different hardware, from weather sensors to
 industrial printers.</p>
-<p>Computers can indeed control entire production lines. Now we are not
-only speaking about increasing productivity for one worker, but
-optimizing entire factories. The value of good tools compounds over
-time.</p>
+<p>Properly coded programs can indeed control entire production lines.
+Now we are not only speaking about increasing productivity for one
+worker, but optimizing entire factories.</p>
 <h2 id="exponential-value">🏒 Exponential Value</h2>
 <p>Can this process of increasing value accelerate even more? Have we
 found the <em>perpetuum mobile</em> of productivity? Well, up to a
@@ -150,13 +154,28 @@ that one sysadmin could first herd a bunch of servers, then a rack and
 at some point a whole datacenter.</p>
 <p>In my mind, the whole point of software startups, hockey-stick
 exponential curves and hypergrowth is precisely that we are building
-better tools – for other people or for ourselves.</p>
+better tools – for other people or for ourselves. Sometimes for both, as
+we will see below when we speak about dog-fooding. Uber is in a sense
+just a productivity tool that matches drivers with riders more
+efficiently; everything else is financial wizardry to collect the
+benefits.</p>
+<p>Once you are into this frame of mind you will see tools everywhere.
+For productivity, financial improvement, for better living or just for
+entertainment; any <a
+href="https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies">list
+of unicorns</a> is just a catalog of efficient tools. Google transformed
+a few categories when they offered better tools for search, email and
+targeted ads; Apple is the ultimate hardware toolmaker. And so on.</p>
 <h1 id="taking-care-of-tooling">💰 Taking Care of Tooling</h1>
-<p>But we cannot disregard internal tooling; after all it’s what makes
-us productive when building the next generation of tools.</p>
+<p>Let us now focus on internal tooling: after all it’s what makes us
+productive to build the next generation of tools. If your tools are the
+same as or worse than what your competition is using, how do you expect
+to do better than them?</p>
 <h2 id="good-professionals">Good Professionals</h2>
-<p>There’s the old adage of “good professionals do good work even with
-crappy tools”. Sure, just like in the awesome scene from the movie <a
+<p>Some people tend to think that good professionals do their best even
+with crappy tools. Sure, just like in the <a
+href="https://www.youtube.com/watch?v=3Kl0UBS4ZaM">awesome scene</a>
+from the movie <a
 href="https://en.wikipedia.org/wiki/Rush_(2013_film)">Rush (2013)</a>,
 Niki Lauda can run really fast in a Lancia Flavia 2000; but he will not
 be winning any F1 championships any time soon in that tin can.</p>
@@ -165,18 +184,54 @@ Just as well you might ask a developer to write a web application in a
 very low-level programming language, like assembler. In my experience
 good professionals can recognize and make good use of the best tools;
 and they take care of their tooling.</p>
+<p>Good tools are not enough though; you need good professionals to make
+the best use of them.</p>
 <h2 id="building-tools">🦾 Building Tools</h2>
+<p>Now if we look at great professionals, they are able not just to pick
+great tools and take care of them; they can also build their own
+tools.</p>
+<p>Knowing <a href="https://pinchito.es/2016/build-or-not">when to
+build</a> is an excellent skill. Also knowing what to build is
+important: <a href="https://pinchito.es/2022/building-bridges">building
+bridges</a>.</p>
 <h2 id="tools-that-improve-themselves">Tools that Improve
 Themselves</h2>
-<p>The ultimate tool that we have is language. But not everyone uses
-language the same way.</p>
-<h2 id="dog-fooding">Dog Fooding</h2>
+<p>The ultimate tool that we have is language. As I have <a
+href="https://pinchito.es/2017/origins-language">speculated
+elsewhere</a> it must have developed slowly at first as we evolved, and
+then exploded in a myriad of words.</p>
+<p>But not everyone uses language the same way. In particular,
+philosophy and grammar <a
+href="https://pinchito.es/2016/the-amazing-mind">were born hand in
+hand</a>. Grammar is, simply put, language turning on itself: you can
+speak about language. As the great García Calvo used to say:</p>
+<blockquote>
+<p>Language is the only tool that operates on itself.</p>
+</blockquote>
+<p>And consequently we can use language to improve how we speak. This is
+a turning point in our development as tool makers. Great wordsmiths like
+Shakespeare have innovated in language: the Immortal Bard <a
+href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/">created
+or introduced 1700 words</a> for the English language. While J R R
+Tolkien created <a
+href="https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien">no
+less than 15 languages</a> for his fictitious Middle Earth.</p>
 <h2 id="code-as-tooling">Code as Tooling</h2>
 <p>As my friend Luis Medel so carefully explains in his excellent
 Spanish article <a
 href="https://luismedel.com/palabras/la-martingala-del-software/">“La
 martingala del software”</a>, software is a tool in itself. And just as
 any language, it is a tool that can operate on itself.</p>
+<p>There are many code-specific tools: compilers, code checkers (or
+linters), continuous integration. One of the great tools is <a
+href="https://pinchito.es/2012/continuous-deployment">continuous
+deployment</a>: it allows devs to deploy code to production with every
+change, many times per day. It definitely changes the relationship with
+code: it is seen as.</p>
+<h2 id="other-dev-tools">Other Dev Tools</h2>
+<p>There are many other crucial tools that ensure our success as
+devs.</p>
+<h2 id="dog-fooding">Dog Fooding</h2>
 <h1 id="conclusion">🤔 Conclusion</h1>
 <p>Tooling is the ultimate investment for a company. If you want to
 differentiate yourself from the competition start with having better
