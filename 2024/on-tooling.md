@@ -76,21 +76,54 @@ The value of good tools compounds over time.
 ## 🏒 Exponential Value
 
 Can this process of increasing value accelerate even more?
-Have we found the _perpetuum mobile_?
+Have we found the _perpetuum mobile_ of productivity?
+Well, up to a point.
+
+Compound interest leads to exponential savings.
+We have to assume that there is some limit somewhere:
+at some point we cannot optimize a process any longer.
+The old dream of a single person running a fully automated factory is still not possible,
+and production is just a single aspect of a company.
+But when we move to the software industry this limit is even further away.
+Companies like Google and Amazon showed us that one sysadmin could first herd a bunch of servers,
+then a rack and at some point a whole datacenter.
+
+In my mind, the whole point of software startups, hockey-stick exponential curves and hypergrowth
+is precisely that we are building better tools -- for other people or for ourselves.
 
 # 💰 Taking Care of Tooling
 
+But we cannot disregard internal tooling;
+after all it's what makes us productive when building the next generation of tools.
+
 ## Good Professionals
+
+There's the old adage of "good professionals do good work even with crappy tools".
+Sure, just like in the awesome scene from the movie [Rush (2013)](https://en.wikipedia.org/wiki/Rush_(2013_film)),
+Niki Lauda can run really fast in a Lancia Flavia 2000;
+but he will not be winning any F1 championships any time soon in that tin can.
+
+Would you ask a good butcher to slice a lamb leg with a butter knife?
+Just as well you might ask a developer to write a web application in a very low-level programming language, like assembler.
+In my experience good professionals can recognize and make good use of the best tools;
+and they take care of their tooling.
 
 ## 🦾 Building Tools
 
 ## Tools that Improve Themselves
 
+The ultimate tool that we have is language.
+But not everyone uses language the same way.
+
 ## Dog Fooding
 
-## Code as Tools
+## Code as Tooling
 
-
+As my friend Luis Medel so carefully explains in his excellent Spanish article
+["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
+software is a tool in itself.
+And just as any language,
+it is a tool that can operate on itself.
 
 # 🤔 Conclusion
 
