@@ -116,7 +116,7 @@ after all it's what makes us productive to build the next generation of tools.
 If your tools are the same as or worse than what your competition is using,
 how do you expect to do better than them?
 
-## Good Professionals
+## 👷 Good Professionals
 
 Some people tend to think that good professionals do their best even with crappy tools.
 Sure, just like in the [awesome scene](https://www.youtube.com/watch?v=3Kl0UBS4ZaM)
@@ -132,7 +132,7 @@ and they take care of their tooling.
 Good tools are not enough though;
 you need good professionals to make the best use of them.
 
-## 🦾 Building Tools
+## Building Tools
 
 Now if we look at great professionals,
 they are able not just to pick great tools and take care of them;
@@ -167,7 +167,7 @@ for the English language.
 While J R R Tolkien created [no less than 15 languages](https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien)
 for his fictitious Middle Earth.
 
-## Software Developer Tools
+## 🧑‍💻 Software Developer Tools
 
 In the software development realm we are blessed with a multitude of great tools,
 thanks to the great developers before us that created them.
@@ -206,7 +206,7 @@ Over time, platform (or similarly named) teams have taken responsibility for int
 While they are not working on visible features, these devs will accelerate everyone else.
 Their value is therefore not obvious at first, but crucial in the long run.
 
-## Code as Tooling
+## 🦾 Code as Tooling
 
 As my friend Luis Medel so carefully explains in his excellent Spanish article
 ["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
@@ -229,7 +229,7 @@ but a very different framework.
 The same has happened, to an extent, to data engineering;
 and more of this is sure to happen in the future.
 
-## Dog Fooding
+## 🐕‍🦺 Dog Fooding
 
 This curious term comes from the pet food industry,
 where apparently some owners insisted on [eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
