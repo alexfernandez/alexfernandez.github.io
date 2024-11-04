@@ -185,6 +185,8 @@ after production.
 Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
 which essentially means treating basic infrastructure (servers, operating systems, installed programs)
 as code with its own repo and tooling.
+It is not just different tools,
+but a very different framework.
 The same has happened, to an extent, to data engineering;
 and more of this is sure to happen in the future.
 
