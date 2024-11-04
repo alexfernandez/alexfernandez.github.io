@@ -167,33 +167,29 @@ for the English language.
 While J R R Tolkien created [no less than 15 languages](https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien)
 for his fictitious Middle Earth.
 
-## Code as Tooling
+## Software Developer Tools
 
-As my friend Luis Medel so carefully explains in his excellent Spanish article
-["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
-software is a tool in itself.
-And just as any language,
-it is a tool that can operate on itself.
-
+In the software development realm we are blessed with a multitude of great tools,
+thanks to the great developers before us that created them.
 There are many code-specific tools: compilers, code checkers (or linters), continuous integration.
+Learning to use these tools is essential for a good dev.
+Luckily the best tools tend to be free software (open source),
+and this means that we don't have to pay for them.
 
-A very interesting code tool is testing.
-Unit, integration or end-to-end.
-Having a running test suite (or CI) should be the second priority of any dev team,
-after production.
-
-Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
-which essentially means treating basic infrastructure (servers, operating systems, installed programs)
-as code with its own repo and tooling.
-It is not just different tools,
-but a very different framework.
-The same has happened, to an extent, to data engineering;
-and more of this is sure to happen in the future.
-
-## Other Dev Tools
+One of the most important tools is the source code manager,
+a space that of late has been dominated by [`git`](https://git-scm.com/docs/user-manual).
+Created by Linus Torvalds,
+one of the greatest developers of our generation,
+`git` stores changes as "commits" or incremental modifications.
+Care of our toolset in this case includes having a clean `git` history, and clean branches.
+A messy piling of commits and branches is always a symptom of careless or incompetent developers.
+One of my pet peeves is to always stash commits together every time they are merged
+(as pull requests or merge requests),
+so that it is easy to find out where a change comes from.
+Also remove branches once they are no longer needed.
 
 There are many other crucial tools that ensure our success as devs.
-Some like monitoring and can be provided by external companies.
+Some like monitoring and alerting can be provided by external companies.
 Others like feature flags are basically techniques that should be used 
 
 One of the great tools is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
@@ -209,6 +205,29 @@ and therefore nobody's.
 Over time, platform (or similarly named) teams have taken responsibility for internal tooling.
 While they are not working on visible features, these devs will accelerate everyone else.
 Their value is therefore not obvious at first, but crucial in the long run.
+
+## Code as Tooling
+
+As my friend Luis Medel so carefully explains in his excellent Spanish article
+["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
+software is a tool in itself.
+And just as any language,
+it is a tool that can operate on itself.
+
+Getting the best support for them and lear
+
+A very interesting code tool is testing.
+Unit, integration or end-to-end.
+Having a running test suite (or CI) should be the second priority of any dev team,
+after production.
+
+Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
+which essentially means treating basic infrastructure (servers, operating systems, installed programs)
+as code with its own repo and tooling.
+It is not just different tools,
+but a very different framework.
+The same has happened, to an extent, to data engineering;
+and more of this is sure to happen in the future.
 
 ## Dog Fooding
 
