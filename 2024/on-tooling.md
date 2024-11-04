@@ -58,7 +58,7 @@ But the knowledge required to operate complex machinery also grows,
 which is a barrier of entry for other potential employees;
 this encourages better salaries for skilled operators.
 
-## Compound Value
+## 📈 Compound Value
 
 The second derivative is that more productive employers have more money to invest in factory tooling,
 which in turn improves productivity..
