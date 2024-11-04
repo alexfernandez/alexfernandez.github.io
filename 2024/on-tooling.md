@@ -176,14 +176,26 @@ And just as any language,
 it is a tool that can operate on itself.
 
 There are many code-specific tools: compilers, code checkers (or linters), continuous integration.
-One of the great tools is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
-it allows devs to deploy code to production with every change, many times per day.
-It definitely changes the relationship with code:
-it is seen as.
 
 ## Other Dev Tools
 
 There are many other crucial tools that ensure our success as devs.
+Some like monitoring and can be provided by external companies.
+Others like feature flags are basically techniques that should be used 
+
+One of the great tools is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
+it allows devs to deploy code to production with every change, many times per day.
+It definitely changes the relationship with code:
+it is seen as something dynamic that can be fluidly turned into something else.
+
+The best way to ensure that these internal tools are constantly tuned and optimized
+is to assign them to a developer,
+or even better to a team.
+I've seen them neglected because they were everybody's responsibility,
+and therefore nobody's.
+Over time, platform (or similarly named) teams have taken responsibility for internal tooling.
+While they are not working on visible features, these devs will ensure the success of everyone else.
+Their value is therefore not obvious at first, but crucial in the long run.
 
 ## Dog Fooding
 
