@@ -6,7 +6,7 @@ footer: Published on 2024-11-02, last modified on 2024-11-02.
 image: https://pinchito.es/2024/pics/on-tooling-hamilton.jpg
 ---
 
-During my bumpy career as CTO and manager (2019 ~ 2023)
+During my bumpy career as CTO and eng director (2019 ~ 2023)
 I have often struggled to make the case for better developer tooling.
 For me it was a no-brainer:
 paying developers a good chunk of money to do the same change 10 times over in different places,
@@ -177,6 +177,17 @@ it is a tool that can operate on itself.
 
 There are many code-specific tools: compilers, code checkers (or linters), continuous integration.
 
+A very interesting code tool is testing.
+Unit, integration or end-to-end.
+Having a running test suite (or CI) should be the second priority of any dev team,
+after production.
+
+Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
+which essentially means treating basic infrastructure (servers, operating systems, installed programs)
+as code with its own repo and tooling.
+The same has happened, to an extent, to data engineering;
+and more of this is sure to happen in the future.
+
 ## Other Dev Tools
 
 There are many other crucial tools that ensure our success as devs.
@@ -194,7 +205,7 @@ or even better to a team.
 I've seen them neglected because they were everybody's responsibility,
 and therefore nobody's.
 Over time, platform (or similarly named) teams have taken responsibility for internal tooling.
-While they are not working on visible features, these devs will ensure the success of everyone else.
+While they are not working on visible features, these devs will accelerate everyone else.
 Their value is therefore not obvious at first, but crucial in the long run.
 
 ## Dog Fooding
