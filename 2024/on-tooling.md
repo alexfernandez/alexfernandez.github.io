@@ -143,7 +143,7 @@ is an excellent skill.
 Also knowing what to build is important:
 [building bridges](https://pinchito.es/2022/building-bridges).
 
-## Tools that Improve Themselves
+## 🗣️ The Tool that Improves Itself
 
 The ultimate tool that we have is language.
 As I have [speculated elsewhere](https://pinchito.es/2017/origins-language)
@@ -213,13 +213,24 @@ As my friend Luis Medel so carefully explains in his excellent Spanish article
 software is a tool in itself.
 And just as any language,
 it is a tool that can operate on itself.
+In fact, it is the ultimate tool as it is absurdly versatile and infinitely malleable.
+A modern computer can handle insane amounts of information,
+and correctly programmed it can generate any arbitrary output and handle any task.
+No other tool compares.
 
-Getting the best support for them and lear
+Just as good professionals take care of their tools,
+good developers should always keep their code in good shape.
+A large part of of the value of code is in how well it adapts to different situations,
+and therefore it is our responsibility as devs to make sure we can perform whatever modifications are required,
+as fast as possible.
+Code which just grows without any refactoring becomes an amorphous blob which scares any poor souls that venture into its depths.
 
 A very interesting code tool is testing.
-Unit, integration or end-to-end.
+Unit, integration and end-to-end tests can be [automated](https://pinchito.es/2012/automating-the-automation),
+which ensures that any modifications can be performed without introducing new bugs.
 Having a running test suite (or CI) should be the second priority of any dev team,
-after production.
+after keeping the production environment used by customers.
+No excuses: any failing tests have to be dealt with immediately.
 
 Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
 which essentially means treating basic infrastructure (servers, operating systems, installed programs)
