@@ -109,14 +109,14 @@ Google transformed a few categories when they offered better tools for search, e
 Apple is the ultimate hardware toolmaker.
 And so on.
 
-# 💰 Taking Care of Tooling
+# 🧰 Taking Care of Tooling
 
 Let us now focus on internal tooling:
 after all it's what makes us productive to build the next generation of tools.
 If your tools are the same as or worse than what your competition is using,
 how do you expect to do better than them?
 
-## 👷 Good Professionals
+## 🧑‍🔧 Good Professionals
 
 Some people tend to think that good professionals do their best even with crappy tools.
 Sure, just like in the [awesome scene](https://www.youtube.com/watch?v=3Kl0UBS4ZaM)
