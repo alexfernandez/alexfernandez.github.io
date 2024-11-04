@@ -132,7 +132,7 @@ and they take care of their tooling.
 Good tools are not enough though;
 you need good professionals to make the best use of them.
 
-## Building Tools
+## 🦾 Building Tools
 
 Now if we look at great professionals,
 they are able not just to pick great tools and take care of them;
@@ -179,7 +179,7 @@ and this means that we don't have to pay for them.
 One of the most important tools is the source code manager,
 a space that of late has been dominated by [`git`](https://git-scm.com/docs/user-manual).
 Created by Linus Torvalds,
-one of the greatest developers of our generation,
+one of the greatest developers of our time,
 `git` stores changes as "commits" or incremental modifications.
 Care of our toolset in this case includes having a clean `git` history, and clean branches.
 A messy piling of commits and branches is always a symptom of careless or incompetent developers.
@@ -206,7 +206,7 @@ Over time, platform (or similarly named) teams have taken responsibility for int
 While they are not working on visible features, these devs will accelerate everyone else.
 Their value is therefore not obvious at first, but crucial in the long run.
 
-## 🦾 Code as Tooling
+## ⌨️ Code as Tooling
 
 As my friend Luis Medel so carefully explains in his excellent Spanish article
 ["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
@@ -228,7 +228,7 @@ Code which just grows without any refactoring becomes an amorphous blob which sc
 A very interesting code tool is testing.
 Unit, integration and end-to-end tests can be [automated](https://pinchito.es/2012/automating-the-automation),
 which ensures that any modifications can be performed without introducing new bugs.
-Having a running test suite (or CI) should be the second priority of any dev team,
+Having a running test suite (often called CI suite) should be the second priority of any dev team,
 after keeping the production environment used by customers.
 No excuses: any failing tests have to be dealt with immediately.
 
