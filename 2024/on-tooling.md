@@ -187,6 +187,15 @@ There are many other crucial tools that ensure our success as devs.
 
 ## Dog Fooding
 
+I learned as much when creating my GDPR-compliant privacy-conscious web tracker,
+[LibreCounter](https://librecounter.org/).
+I used it to see how many people were [visiting the site](https://librecounter.org/librecounter.org/show),
+and what they were looking at.
+Usually it's developers checking their stats.
+
+![Stats for LibreCounter visits. Source: the author.](pics/on-tooling-librecounter.png "Stats per page and per country for LibreCounter. The home page is the most visited with 169 visits during the last 14 days, while 469 visits come from Spain.")
+
+
 # 🤔 Conclusion
 
 Tooling is the ultimate investment for a company.
