@@ -231,13 +231,21 @@ and more of this is sure to happen in the future.
 
 ## Dog Fooding
 
+This curious term comes from the pet food industry,
+where apparently some owners insisted on [eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+It means that a company that produces a product should use it for everything.
+The interesting effect is that developers learn the pain that other users have,
+and become so very interested in improving the tool.
+Making the tech team aware of customer pains can be laborious
+since it's usually mediated by customer representatives and "customer success" teams.
+
 I learned as much when creating my GDPR-compliant privacy-conscious web tracker,
 [LibreCounter](https://librecounter.org/).
 I used it to see how many people were [visiting the site](https://librecounter.org/librecounter.org/show),
 and what they were looking at.
 Usually it's developers checking their stats.
 
-![Stats for LibreCounter visits. Source: the author.](pics/on-tooling-librecounter.png "Stats per page and per country for LibreCounter. The home page is the most visited with 169 visits during the last 14 days, while 469 visits come from Spain.")
+![Stats for LibreCounter visits, using LibreCounter. Source: the author.](pics/on-tooling-librecounter.png "Stats per page and per country for LibreCounter. The home page is the most visited with 169 visits during the last 14 days, while 469 visits come from Spain.")
 
 
 # 🤔 Conclusion
