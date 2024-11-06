@@ -1,7 +1,7 @@
 ---
 title: '🔧 On Tooling'
 subtitle: '🧑‍💻 With a Focus on Software Development'
-footer: Published on 2024-11-02, last modified on 2024-11-02.
+footer: Published on 2024-11-06, last modified on 2024-11-06.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/on-tooling-hamilton.jpg
 ---
@@ -307,5 +307,5 @@ Features will come easily after that.
 ## 🙏 Acknowledgements
 
 I have spoken about tooling with many developers.
-Thanks to Luis Medel for letting me plunder his great article.
+Thanks to Luis Medel for the inspiration in his great article.
 
