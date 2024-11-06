@@ -19,7 +19,7 @@ I have focused on improving internal tooling whenever I had the chance,
 even devoting some people full time to the task.
 But I have often failed to show the value of this investment to (other) company founders:
 the general opinion was that devs were only valuable when working on product features.
-After all, features are seen as value, while internal tooling is at best a necessary evil.
+After all, features are seen as value, while internal infrastructure is at best a necessary evil.
 
 For now I will offer a couple of data points in favor of my position.
 Some big tech companies ([Google](https://github.com/jhuangtw/xg2xg)
