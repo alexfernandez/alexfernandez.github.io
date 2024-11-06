@@ -44,6 +44,8 @@ This is even more pronounced in software development,
 where the arguments between e.g. proponents of the vim and Emacs text editors have been raging on for years.
 And they are probably more than justified.
 
+![Of course, everyone knows that _real_ programmers use butterflies. Source: [xkcd](https://xkcd.com/378/).](pics/on-tooling-real-programmers.png "Several programmers comment on what real programmers use: nano, emacs, vim, ed, cat, a magnetized needle and a steady hand; and finally butterflies: they let their wings flap once, which changes the flow of eddy currents in the upper atmosphere, which deflects incoming cosmic rays to flip the desired bit. But the emacs proponent says that there is an emacs command to do that.")
+
 Our starting point should not be controversial:
 the value of work performed by a professional is augmented by the tools they use.
 A farmer that has to pick potatoes one by one will be 10 times more productive when they employ a potato collector,
