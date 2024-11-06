@@ -128,6 +128,8 @@ There is great pleasure in nicely made tools.
 We can still get that feeling with a nicely machined computer,
 and YouTube is rife with videos about people building stuff which are oddly satisfying.
 
+![Sadly, the Trojan Horse is not featured in the _Iliad_. Source: [Kaiserlich Deutsches Archäologisches Institut](https://commons.wikimedia.org/wiki/File:Trojan_horse_on_corintian_aryballos.JPG).](pics/on-tooling-trojan-horse.jpg "A black and white painting of Greek warriors coming out of a large wooden horse, and fight with other warriors")
+
 Some people tend to think that good professionals do their best even with crappy tools.
 Sure, just like in the [awesome scene](https://www.youtube.com/watch?v=3Kl0UBS4ZaM)
 from the movie [Rush (2013)](https://en.wikipedia.org/wiki/Rush_(2013_film)),
