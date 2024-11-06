@@ -15,16 +15,16 @@ seems like a huge waste.
 
 ![Margaret Hamilton doing some hardcore computing. Source: © NASA | 17/08/2020 | Margaret Hamilton.](pics/on-tooling-hamilton.jpg "A young Margaret Hamilton, the NASA engineer, is lying on her back touching some controls on what looks like a space computer console")
 
-I have focused on improving internal tooling whenever I had the chance,
+I have focused on improving the internal workflow whenever I had the chance,
 even devoting some people full time to the task.
 But I have often failed to show the value of this investment to (other) company founders:
-the general opinion was that devs were only valuable when working on product features.
+the general opinion was that the dev team were only valuable when working on product features.
 After all, features are seen as value, while internal infrastructure is at best a necessary evil.
 
 For now I will offer a couple of data points in favor of my position.
 Some big tech companies ([Google](https://github.com/jhuangtw/xg2xg)
 and [Meta](https://dev.to/ian808/replacing-the-internal-tooling-we-used-at-meta-facebook-5hh8) come to mind)
-are recognized as having great internal tooling;
+are recognized as having great internal gear;
 this is in large part what enables them to be ahead of the competition.
 And Joel Spolsky, creator of StackOverflow and Trello,
 features tooling in several of the points of his legendary
@@ -35,11 +35,11 @@ Specifically point 9 in the list says:
 > Do you use the best tools money can buy?
 
 Let me make the argument now in long form,
-so hopefully we will all enjoy the benefits of better tooling some time soon.
+so hopefully we will all enjoy the benefits of better equipment some time soon.
 
 # 💰 The Value of Tools
 
-In many professional areas there are almost religious wars about tooling.
+In many professional areas there are almost religious wars about tools.
 This is even more pronounced in software development,
 where the arguments between e.g. proponents of the vim and Emacs text editors have been raging on for years.
 And they are probably more than justified.
@@ -61,18 +61,18 @@ Everyone benefits.
 
 ## 📈 Compound Value
 
-The second derivative is that more productive employers have more money to invest in factory tooling,
+The second derivative is that more productive employers have more money to invest in factory machinery,
 which in turn improves productivity.
-As time goes by the quality of the tools goes up,
+As time goes by the quality of the equipment goes up,
 and this enables the next cycle of investments.
-With better tools in a factory tolerances and clearances will go down,
+With better toolsets in a factory tolerances and clearances will go down,
 which means that the machines built can be more useful.
 Precision engineering has allowed us to have millimeter-thick screws
 and supersonic airplanes and computers.
 The value of good tools thus compounds over time.
 
 Oh, let me tell you about general purpose computers.
-In a sense they are the ultimate productivity tools:
+In a sense they are the ultimate productivity machines:
 they can run random commercial programs to do many tasks,
 and they can be augmented with custom software.
 Computers can drive lots of different hardware,
@@ -102,22 +102,22 @@ Nowadays I doubt sysadmins ever log in to individual servers.
 In my mind, the whole point of software startups, hockey-stick exponential curves and hypergrowth
 is precisely that we are building better tools -- for other people or for ourselves.
 Sometimes for both, as we will see below when we speak about dog-fooding.
-Uber is in a sense just a productivity tool that matches drivers with riders more efficiently;
+Uber is in a sense just a productivity utility that matches drivers with riders more efficiently;
 everything else is financial wizardry to collect the benefits.
 
 Once you are into this frame of mind you will see tools everywhere.
 For productivity, financial improvement, for better living or just for entertainment;
 any [list of unicorns](https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies)
-is just a catalog of more efficient tools.
-Google transformed a few categories when they offered better tools for search, email and targeted ads;
+is just a catalog of more efficient tooling.
+Google transformed a few categories when they offered better instruments for search, email and targeted ads;
 Apple is the ultimate hardware toolmaker.
 And so on.
 
 # 🧰 Taking Care of Tooling
 
-Let us now focus on internal tooling:
+Let us now focus on internal software:
 after all it's what makes us productive to build the next generation of tools.
-If your tools are the same as or worse than what your competition is using,
+If your toolset is the same as or worse than what your competition is using,
 how do you expect to do better than them?
 
 ## 🧑‍🔧 Nice Things
@@ -126,7 +126,7 @@ In _The Existential Pleasures of Engineering_ (1976, second Edition 1994),
 Floorman tells us the great pleasure with which Homer speaks in the _Iliad_ about how various objects are made.
 There is great pleasure in nicely made tools.
 We can still get that feeling with a nicely machined computer,
-and YouTube is rife with videos about people building stuff.
+and YouTube is rife with videos about people building stuff which are oddly satisfying.
 
 Some people tend to think that good professionals do their best even with crappy tools.
 Sure, just like in the [awesome scene](https://www.youtube.com/watch?v=3Kl0UBS4ZaM)
@@ -136,7 +136,7 @@ but he will not be winning any F1 championships any time soon in that tin can.
 
 Would you ask a good butcher to slice a lamb leg with a butter knife?
 Just as well you might ask a developer to write a web application in a very low-level programming language, like assembler.
-Good tools are not enough either;
+Good gear is not enough either;
 you need good professionals to make the best use of them.
 In my experience they will take great care to choose and maintain their tooling.
 
@@ -163,7 +163,7 @@ I enjoy working on it a lot.
 
 You may be wondering,
 why build your own when there's so much stuff out there already?
-Sometimes you are too early in a space and there are not yet tools to fall in love with;
+Sometimes you are too early in a space and there are not yet any packages to fall in love with;
 I started doing [continuous deployment](https://pinchito.es/2012/continuous-deployment)
 using Node.js in 2013 when there were not any good packages,
 so I [built my own pitiful attempt](https://github.com/alexfernandez/deployment/commits/master/).
@@ -197,7 +197,7 @@ One of my pet peeves is to always stash commits together every time they are mer
 so that it is easy to find out where a change comes from.
 Also remove branches once they are no longer needed.
 
-There are many other crucial tools that ensure our success as devs.
+There are many other crucial instruments that ensure our success as devs.
 Some like monitoring and alerting can be provided by external companies.
 Others like feature flags are basically techniques that should be used 
 
@@ -206,7 +206,7 @@ it allows devs to deploy code to production with every change, many times per da
 It definitely changes the relationship with code:
 it is seen as something dynamic that can be fluidly turned into something else.
 
-The best way to ensure that these internal tools are constantly tuned and optimized
+The best way to ensure that these internal utilities are constantly tuned and optimized
 is to assign them to a developer,
 or even better to a team.
 I've seen them neglected because they were everybody's responsibility,
@@ -220,7 +220,7 @@ Their value is therefore not obvious at first, but crucial in the long run.
 Now let's take an excursion into a more theoretical area: linguistics and grammar.
 There is a point to it, I promise, and I hope it will be worth your while.
 
-The ultimate tool that we have is language.
+The ultimate machinery that we have at our disposal is language.
 As I have [speculated elsewhere](https://pinchito.es/2017/origins-language)
 it must have developed slowly at first as we evolved,
 and then exploded in a myriad of words.
@@ -253,14 +253,14 @@ A modern computer can handle insane amounts of information,
 and correctly programmed it can generate any arbitrary output and handle any task.
 No other human invention compares.
 
-Just as good professionals take care of their tools,
+Just as good professionals take care of their equipment,
 good developers should always keep their code in good shape.
 A large part of of the value of code is in how well it adapts to different situations,
 and therefore it is our responsibility as devs to make sure we can perform whatever modifications are required,
 as fast as possible.
 Code which just grows without any refactoring becomes an amorphous blob which scares any poor souls that venture into its depths.
 
-A very interesting code tool is testing.
+A very interesting facility that can be implemented using code is testing.
 Unit, integration and end-to-end tests can be [automated](https://pinchito.es/2012/automating-the-automation),
 which ensures that any modifications can be performed without introducing new bugs.
 Having a running test suite (often called CI suite) should be the second priority of any dev team,
@@ -269,19 +269,21 @@ No excuses: any failing tests have to be dealt with immediately.
 
 Over time, the success of software as a paradigm has ensured the rise of infrastructure-as-code,
 which essentially means treating basic infrastructure (servers, operating systems, installed programs)
-as code with its own repo and tooling.
-It is not just different tools,
+as code with its own repo and tooling around it.
+It is not just different packages,
 but a very different framework.
 The same has happened, to an extent, to data engineering;
-and more of this is sure to happen in the future.
+and more of this is sure to happen in the future:
+software is, after all, eating the world,
+and code is a very successful paradigm.
 
 ## 🐕‍🦺 Dog Fooding
 
 This curious term comes from the pet food industry,
 where apparently some owners insisted on [eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
-It means that a company that produces a product should use it for everything.
+It means that a company that sells a product should use it for everything.
 The interesting effect is that developers learn the pain that other users have,
-and become so very interested in improving the tool.
+and become so very interested in improving the tools they are selling.
 Making the tech team aware of customer pains can be laborious
 since it's usually mediated by customer representatives and "customer success" teams.
 
@@ -297,9 +299,13 @@ Usually it's developers checking their stats.
 # 🤔 Conclusion
 
 Tooling is the ultimate investment for a company.
-If you want to differentiate yourself from the competition start with having better tools.
+If you want to differentiate yourself from the competition start with having the best possible tools.
+This includes any software required, either purchased or created internally,
+and streamlining the workflow as much as possible.
+Features will come easily after that.
 
 ## 🙏 Acknowledgements
 
 I have spoken about tooling with many developers.
+Thanks to Luis Medel for letting me plunder his great article.
 
