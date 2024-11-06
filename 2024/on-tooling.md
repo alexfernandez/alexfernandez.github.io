@@ -1,16 +1,16 @@
 ---
 title: '🔧 On Tooling'
-subtitle: '🧑‍💻 With a Focus on Software Engineering'
+subtitle: '🧑‍💻 With a Focus on Software Development'
 footer: Published on 2024-11-02, last modified on 2024-11-02.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/on-tooling-hamilton.jpg
 ---
 
-During my bumpy career as CTO and eng director (2019 ~ 2023)
+During my bumpy career as CTO (2019 ~ 2023)
 I have often struggled to make the case for better developer tooling.
 For me it was a no-brainer:
-paying developers a good chunk of money to do the same change 10 times over in different places,
-or to wait for automated tests to finish,
+paying developers a good chunk of money to wait for automated tests to finish,
+or to do the same change 10 times over in different places,
 seems like a huge waste.
 
 ![Margaret Hamilton manipulating our favorite tools. Source: © NASA | 17/08/2020 | Margaret Hamilton.](pics/on-tooling-hamilton.jpg "A young Margaret Hamilton, the NASA engineer, is lying on her back touching some controls on an ancient computer console")
@@ -18,13 +18,13 @@ seems like a huge waste.
 I have focused on improving internal tooling whenever I had the chance,
 even devoting some people full time to the task.
 But I have often failed to show the value of this investment to (other) company founders:
-having devs not work on features is what they really found wasteful.
-After all, product features are seen as value;
-while internal tooling is at best a necessary evil.
+the general opinion was that devs were only valuable when working on product features.
+After all, features are seen as value, while internal tooling is at best a necessary evil.
 
 For now I will offer a couple of data points in favor of my position.
-Some big tech companies (Google and Meta come to mind)
-have the best internal tooling, period;
+Some big tech companies ([Google](https://github.com/jhuangtw/xg2xg)
+and [Meta](https://dev.to/ian808/replacing-the-internal-tooling-we-used-at-meta-facebook-5hh8) come to mind)
+are recognized as having great internal tooling;
 this is in large part what enables them to be ahead of the competition.
 And Joel Spolsky, creator of StackOverflow and Trello,
 features tooling in several of the points of his legendary
@@ -35,7 +35,7 @@ Specifically point 9 in the list says:
 > Do you use the best tools money can buy?
 
 Let me make the argument now in long form,
-so hopefully we will all enjoy the benefits of better tooling.
+so hopefully we will all enjoy the benefits of better tooling some time soon.
 
 # 💰 The Value of Tools
 
@@ -44,10 +44,10 @@ This is even more pronounced in software development,
 where the arguments between e.g. proponents of the vim and Emacs text editors have been raging on for years.
 And they are probably more than justified.
 
-Our starting point is that the value of the work performed by a professional
-is augmented by the tools they use.
-A farmer that has to pick potatoes one by one will be 10 times more productive when they use a potato collector,
-and again 10 times more when collection is done with a tractor.
+Our starting point should not be controversial:
+the value of work performed by a professional is augmented by the tools they use.
+A farmer that has to pick potatoes one by one will be 10 times more productive when they employ a potato collector,
+and again 10 times more when collection is done using a tractor.
 The value of their work goes up accordingly.
 
 This is, simply put, why the industrial revolution raised the living standards of people.
@@ -56,15 +56,16 @@ and then this person can go out and spend that money in more valuable goods.
 It is true that employers tend to want to keep money for themselves as profit.
 But the knowledge required to operate complex machinery also grows,
 which is a barrier of entry for other potential employees;
-this encourages better salaries for skilled operators.
+skilled operators will demand better salaries.
+Everyone benefits.
 
 ## 📈 Compound Value
 
 The second derivative is that more productive employers have more money to invest in factory tooling,
-which in turn improves productivity..
-As time goes by the quality of tools goes up,
+which in turn improves productivity.
+As time goes by the quality of the tools goes up,
 and this enables the next cycle of investments.
-With better tools tolerances and clearances will go down,
+With better tools in a factory tolerances and clearances will go down,
 which means that the machines built can be more useful.
 Precision engineering has allowed us to have millimeter-thick screws
 and supersonic airplanes and computers.
