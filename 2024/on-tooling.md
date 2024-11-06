@@ -140,6 +140,12 @@ Good tools are not enough either;
 you need good professionals to make the best use of them.
 In my experience they will take great care to choose and maintain their tooling.
 
+They will also strive to keep their working space clean.
+As my friend Luis Medel narrates in his excellent Spanish article
+["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
+as he was watching carpenters work he was mesmerized by how they always took the time
+to clean the working area and the power tools they had used.
+
 ## 🦾 Building Tools
 
 Now if we look at _great_ professionals,
@@ -170,21 +176,21 @@ Also knowing what to build is important:
 [underengineering](https://pinchito.es/2022/building-bridges) is as bad as overengineering,
 and should be just as infamous.
 
-## 🧑‍💻 Software Developer Tools
+## 🧑‍💻 Software Developer Toolset
 
 In the software development realm we are blessed with a multitude of great tools,
 thanks to the great developers before us that created them.
-There are many code-specific tools: compilers, code checkers (or linters), continuous integration.
-Learning to use these tools is essential for a good dev.
-Luckily the best tools tend to be free software (open source),
-and this means that we don't have to pay for them.
+There are many code-specific utilities: compilers, code checkers (or linters), continuous integration.
+Learning to use this machinery is essential for a good dev.
+Luckily the best in class tend to be free software (open source),
+so in practice they are freely available.
 
-One of the most important tools is the source code manager,
-a space that of late has been dominated by [`git`](https://git-scm.com/docs/user-manual).
+One of the most important arrows in our quiver is the source code manager,
+a space that has been dominated of late by [`git`](https://git-scm.com/docs/user-manual).
 Created by Linus Torvalds,
 one of the greatest developers of our time,
 `git` stores changes as "commits" or incremental modifications.
-Care of our toolset in this case includes having a clean `git` history, and clean branches.
+Care of our working space in this case includes having a clean `git` history, and clean branches.
 A messy piling of commits and branches is always a symptom of careless or incompetent developers.
 One of my pet peeves is to always stash commits together every time they are merged
 (as pull requests or merge requests),
@@ -195,7 +201,7 @@ There are many other crucial tools that ensure our success as devs.
 Some like monitoring and alerting can be provided by external companies.
 Others like feature flags are basically techniques that should be used 
 
-One of the great tools is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
+The most dear to my heart of these is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
 it allows devs to deploy code to production with every change, many times per day.
 It definitely changes the relationship with code:
 it is seen as something dynamic that can be fluidly turned into something else.
@@ -238,15 +244,14 @@ for his fictitious Middle Earth.
 
 ## ⌨️ Code as Tooling
 
-As my friend Luis Medel so carefully explains in his excellent Spanish article
+Medel's article mentioned above,
 ["La martingala del software"](https://luismedel.com/palabras/la-martingala-del-software/),
-software is a tool in itself.
-And just as any language,
-it is a tool that can operate on itself.
-In fact, it is the ultimate tool as it is absurdly versatile and infinitely malleable.
+made me think how software can be seen as just another tool.
+And just as any natural language, programming languages can operate on themselves.
+As such, code is the ultimate machine: it is absurdly versatile and infinitely malleable.
 A modern computer can handle insane amounts of information,
 and correctly programmed it can generate any arbitrary output and handle any task.
-No other tool compares.
+No other human invention compares.
 
 Just as good professionals take care of their tools,
 good developers should always keep their code in good shape.
