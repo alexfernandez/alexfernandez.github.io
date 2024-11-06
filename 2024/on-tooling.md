@@ -13,7 +13,7 @@ paying developers a good chunk of money to wait for automated tests to finish,
 or to do the same change 10 times over in different places,
 seems like a huge waste.
 
-![Margaret Hamilton manipulating our favorite tools. Source: © NASA | 17/08/2020 | Margaret Hamilton.](pics/on-tooling-hamilton.jpg "A young Margaret Hamilton, the NASA engineer, is lying on her back touching some controls on an ancient computer console")
+![Margaret Hamilton doing some hardcore computing. Source: © NASA | 17/08/2020 | Margaret Hamilton.](pics/on-tooling-hamilton.jpg "A young Margaret Hamilton, the NASA engineer, is lying on her back touching some controls on what looks like a space computer console")
 
 I have focused on improving internal tooling whenever I had the chance,
 even devoting some people full time to the task.
