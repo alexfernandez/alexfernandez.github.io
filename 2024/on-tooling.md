@@ -116,7 +116,16 @@ after all it's what makes us productive to build the next generation of tools.
 If your tools are the same as or worse than what your competition is using,
 how do you expect to do better than them?
 
-## 🧑‍🔧 Good Professionals
+## 🧑‍🔧 Nice Things
+
+In _The Existential Pleasures of Engineering_ (1976, second Edition 1994),
+Floorman tells us the great pleasure with which Homer speaks in the _Iliad_ about how various objects are made.
+There is great pleasure in nicely made tools.
+We can still get that feeling with a nicely machined computer,
+and YouTube is rife with videos about people building stuff.
+
+Good tools are not enough either;
+you need good professionals to make the best use of them.
 
 Some people tend to think that good professionals do their best even with crappy tools.
 Sure, just like in the [awesome scene](https://www.youtube.com/watch?v=3Kl0UBS4ZaM)
@@ -129,43 +138,36 @@ Just as well you might ask a developer to write a web application in a very low-
 In my experience good professionals can recognize and make good use of the best tools;
 and they take care of their tooling.
 
-Good tools are not enough though;
-you need good professionals to make the best use of them.
-
 ## 🦾 Building Tools
 
 Now if we look at great professionals,
 they are able not just to pick great tools and take care of them;
 they can also build their own tools.
 
+While I don't pretend to be a great professional,
+I have polluted the tooling space with my feeble attempts.
+My mildly successful [npm loadtest package](https://www.npmjs.com/package/loadtest)
+has been amply surpassed by the much better [AutoCannon](https://www.npmjs.com/package/autocannon)
+by Matteo Collina.
+I'm still actively working on [LibreCounter.org](https://librecounter.org/),
+which is a little tool to enjoy site stats without any of those pesky cookies.
+I enjoy it a lot.
+
+You may be wondering,
+why build stuff when there's so much stuff out there already?
+Sometimes you are too early in a space and there are not yet tools to fall in love with;
+I started doing [continuous deployment](https://pinchito.es/2012/continuous-deployment)
+using Node.js in 2013 when there were not any good packages,
+so I [built my own](https://github.com/alexfernandez/deployment/commits/master/).
+Seen nowadays it's a pitiful attempt, but it worked for us at the time.
+Later on we adopted a better package in the company.
+But sometimes you just need something which is too specific or niche.
 Knowing [when to build](https://pinchito.es/2016/build-or-not)
-is an excellent skill.
+is an excellent skill to have.
+
 Also knowing what to build is important:
-[building bridges](https://pinchito.es/2022/building-bridges).
-
-## 🗣️ The Tool that Improves Itself
-
-The ultimate tool that we have is language.
-As I have [speculated elsewhere](https://pinchito.es/2017/origins-language)
-it must have developed slowly at first as we evolved,
-and then exploded in a myriad of words.
-
-But not everyone uses language the same way.
-In particular, philosophy and grammar [were born hand in hand](https://pinchito.es/2016/the-amazing-mind).
-Grammar is, simply put, language turning on itself:
-you can speak about language.
-As the great García Calvo used to say:
-
-> Language is the only tool that operates on itself.
-
-And consequently we can use language to improve how we speak.
-This is a turning point in our development as tool makers.
-Great wordsmiths like Shakespeare have innovated in language:
-the Immortal Bard
-[created or introduced 1700 words](https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/)
-for the English language.
-While J R R Tolkien created [no less than 15 languages](https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien)
-for his fictitious Middle Earth.
+[underengineering](https://pinchito.es/2022/building-bridges) is as bad as overengineering,
+and should be just as infamous.
 
 ## 🧑‍💻 Software Developer Tools
 
@@ -205,6 +207,33 @@ and therefore nobody's.
 Over time, platform (or similarly named) teams have taken responsibility for internal tooling.
 While they are not working on visible features, these devs will accelerate everyone else.
 Their value is therefore not obvious at first, but crucial in the long run.
+
+## 🗣️ The Tool that Improves Itself
+
+Now let's take an excursion into a more theoretical area: linguistics and grammar.
+There is a point to it, I promise, and I hope it will be worth your while.
+
+The ultimate tool that we have is language.
+As I have [speculated elsewhere](https://pinchito.es/2017/origins-language)
+it must have developed slowly at first as we evolved,
+and then exploded in a myriad of words.
+
+But not everyone uses language the same way.
+In particular, [philosophy and grammar were born hand in hand](https://pinchito.es/2016/the-amazing-mind).
+Grammar is, simply put, language turning on itself:
+people speaking about language.
+As the great García Calvo used to say:
+
+> Language is the only tool that operates on itself.
+
+And consequently we can use it to improve how we speak.
+This is a turning point in our development as tool makers.
+Great wordsmiths like Shakespeare have innovated in language:
+the Immortal Bard
+[created or introduced 1700 words](https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/)
+for the English language.
+While J R R Tolkien created [no less than 15 languages](https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien)
+for his fictitious Middle Earth.
 
 ## ⌨️ Code as Tooling
 
