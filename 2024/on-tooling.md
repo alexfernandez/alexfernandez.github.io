@@ -146,11 +146,11 @@ As my friend Luis Medel narrates in his excellent Spanish article
 as he was watching carpenters work he was mesmerized by how they always took the time
 to clean the working area and the power tools they had used.
 
-## 🦾 Building Tools
+## 🦾 Building Stuff
 
 Now if we look at _great_ professionals,
 they are able not just to pick great tools and take care of them;
-they can also build their own tools.
+they can also build their own.
 
 While I don't pretend to be a great professional,
 I have polluted the tooling space with my feeble attempts.
@@ -158,7 +158,7 @@ My mildly successful [npm loadtest package](https://www.npmjs.com/package/loadte
 has been amply surpassed by the much better [AutoCannon](https://www.npmjs.com/package/autocannon)
 by Matteo Collina.
 I'm still actively working on [LibreCounter.org](https://librecounter.org/),
-which is a little tool to enjoy site stats without any of those pesky cookies.
+which is a little package to collect site stats without any of those pesky cookies.
 I enjoy working on it a lot.
 
 You may be wondering,
