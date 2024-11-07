@@ -302,6 +302,21 @@ Usually it's developers checking their stats.
 # 🛑 Too Much of a Good Thing
 
 Not everything is: "let's go all aboard with tooling".
+Let's see a few caveats about it;
+most of them should apply to other industries outside software development.
+
+## 🪀 Shiny Toys
+
+Developers are a particularly capricious bunch when it comes to asking for tooling.
+We are carried away by the latest shiny things,
+without regard for their actual utility or proven effectiveness.
+
+Should a CFO comply with every developer request there is likely to be tens of subscriptions to niche programs
+that are requested, granted and seldom used.
+
+Keep in mind that it is OK to make mistakes sometimes:
+not everything we get will be exactly what we desire.
+On the whole we should make sure that most of the tools at our disposal are useful.
 
 ## Overengineering
 
@@ -347,19 +362,6 @@ Even if we have a whole platform in mind,
 let's apply the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)
 and tackle the most pressing 20% of issues first.
 Even if we don't reach 80% we will have something sooner to make it worth our while.
-
-## 🪀 Shiny Toys
-
-Developers are a particularly capricious bunch when it comes to asking for tooling.
-We are carried away by the latest shiny things,
-without regard for their actual utility or proven effectiveness.
-
-Should a CFO comply with every developer request there is likely to be tens of subscriptions to niche programs
-that are requested, granted and seldom used.
-
-Keep in mind that it is OK to make mistakes sometimes:
-not everything we get will be exactly what we desire.
-On the whole we should make sure that most of the tools at our disposal are useful.
 
 ## Keeping Focus
 
