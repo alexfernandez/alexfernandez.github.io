@@ -34,7 +34,7 @@ Specifically point 9 in the list says:
 
 > Do you use the best tools money can buy?
 
-Let me make the argument now in long form,
+Let me make the reasoning now in long form,
 so hopefully we will all enjoy the benefits of better equipment some time soon.
 
 # 💰 The Value of Tools
@@ -259,7 +259,7 @@ No other human invention compares.
 
 Just as good professionals take care of their equipment,
 good developers should always keep their code in good shape.
-A large part of of the value of code is in how well it adapts to different situations,
+A large part of the value of code is in how well it adapts to different situations,
 and therefore it is our responsibility as devs to make sure we can perform whatever modifications are required,
 as fast as possible.
 Code which just grows without any refactoring becomes an amorphous blob which scares any poor souls that venture into its depths.
@@ -403,4 +403,5 @@ Always remember that your toolset is part of the secret sauce that can make you 
 I have spoken about tooling with many developers to which I am grateful.
 Thanks in particular to Luis Medel for the inspiration in his great article,
 and to Alfredo López Moltó for his insights about caveats.
+Thanks to Juan Gaitán for his corrections.
 
