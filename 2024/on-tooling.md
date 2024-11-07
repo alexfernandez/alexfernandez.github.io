@@ -345,6 +345,11 @@ can save the whole team weeks.
 
 ![Is it worth the time? Source: [xkcd](https://xkcd.com/1205/).](pics/on-tooling-worth-the-time.png "How long can you work on making a routine task more efficient before you're spending more time than you save? This handy chart shows how much time you shave off versus how often you do the task across five years, and contains the time you can devote to the task.")
 
+Internal tooling needs to be adequate for its use,
+and the responsible team has to have a clear idea of where the pains lie for the dev team.
+There is seldom a shortage of work for anyone to do,
+so pick your battles carefully.
+
 Sometimes we don't want a platform team to do a job;
 instead it needs to be set a priority for everyone in the company.
 One particularly interesting area is quality assurance:
@@ -352,9 +357,6 @@ each developer needs to write the unit tests for their own code,
 and usually also integration tests.
 But end-to-end tests still need to be written by someone,
 even if they don't cover 100% of the application.
-
-Internal tooling needs to be adequate for its use,
-and the responsible team has to have a clear idea of where the pains lie for the dev team.
 
 # 🤔 Conclusion
 
