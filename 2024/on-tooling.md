@@ -307,6 +307,8 @@ Not everything is: "let's go all aboard with tooling".
 
 We spoke above of overengineering:
 building an overly complex solution for a problem.
+This can be particularly stinging in the internal tooling area
+where there are no clear customer requirements.
 
 I have been guilty of this sin many times.
 Once I built a `git` reimplementation in PHP to distribute updates between nodes,
@@ -316,24 +318,43 @@ but my efforts were completely misguided when one server would have done the job
 
 You learn from every mistake, I guess.
 
-## The Cathedral
+## ⛪ The Cathedral
 
 Another related issue is when we attempt to build the perfect solution all on our own:
 a platform that covers all the bases.
 
+> I'm fed up with provider _X_;
+> let's build a solution ourselves!
+
+Ever had these thoughts?
+Feel identified?
+I know it has happened to me a lot!
+
 The worst part isn't even the scope,
-but that we don't deliver value in increments.
-A cathedral is no use until it is complete;
-we are probably better off building up a series of guerrilla chapels,
+but that we don't deliver value in increments:
+a cathedral is no use until it is complete.
+We are probably better off building up a series of guerrilla chapels,
 until we are an established religion with millions of acolytes worldwide.
+And also we will be able to use them soon!
+
+In my experience incremental building is what makes the difference.
+Even if we have a whole platform in mind,
+let's apply the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)
+and tackle the most pressing 20% of issues first.
+Even if we don't reach 80% we will have something sooner to make it worth our while.
 
 ## 🪀 Shiny Toys
 
 Developers are a particularly capricious bunch when it comes to asking for tooling.
 We are carried away by the latest shiny things,
 without regard for their actual utility or proven effectiveness.
-It is OK to make mistakes sometimes,
-but they detract from the overall value.
+
+Should a CFO comply with every developer request there is likely to be tens of subscriptions to niche programs
+that are requested, granted and seldom used.
+
+Keep in mind that it is OK to make mistakes sometimes:
+not everything we get will be exactly what we desire.
+On the whole we should make sure that most of the tools at our disposal are useful.
 
 ## Keeping Focus
 
@@ -350,13 +371,13 @@ and the responsible team has to have a clear idea of where the pains lie for the
 There is seldom a shortage of work for anyone to do,
 so pick your battles carefully.
 
-Sometimes we don't want a platform team to do a job;
+Sometimes we don't want a particular team to do an internal job;
 instead it needs to be set a priority for everyone in the company.
-One particularly interesting area is quality assurance:
+One particularly interesting area is automated testing:
 each developer needs to write the unit tests for their own code,
 and usually also integration tests.
-But end-to-end tests still need to be written by someone,
-even if they don't cover 100% of the application.
+In this case the priority needs to be clear:
+don't do anything else until you write your tests.
 
 # 🤔 Conclusion
 
