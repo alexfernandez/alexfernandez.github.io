@@ -299,6 +299,62 @@ Usually it's developers checking their stats.
 
 ![Stats for LibreCounter visits, using LibreCounter. Source: the author.](pics/on-tooling-librecounter.png "Stats per page and per country for LibreCounter. The home page is the most visited with 169 visits during the last 14 days, while 469 visits come from Spain.")
 
+# 🛑 Too Much of a Good Thing
+
+Not everything is: "let's go all aboard with tooling".
+
+## Overengineering
+
+We spoke above of overengineering:
+building an overly complex solution for a problem.
+
+I have been guilty of this sin many times.
+Once I built a `git` reimplementation in PHP to distribute updates between nodes,
+when we were supposedly creating the next platform for tourist activities.
+I learned a lot about how `git` works,
+but my efforts were completely misguided when one server would have done the job perfectly.
+
+You learn from every mistake, I guess.
+
+## The Cathedral
+
+Another related issue is when we attempt to build the perfect solution all on our own:
+a platform that covers all the bases.
+
+The worst part isn't even the scope,
+but that we don't deliver value in increments.
+A cathedral is no use until it is complete;
+we are probably better off building up a series of guerrilla chapels,
+until we are an established religion with millions of acolytes worldwide.
+
+## 🪀 Shiny Toys
+
+Developers are a particularly capricious bunch when it comes to asking for tooling.
+We are carried away by the latest shiny things,
+without regard for their actual utility or proven effectiveness.
+It is OK to make mistakes sometimes,
+but they detract from the overall value.
+
+## Keeping Focus
+
+In order to not get sidetracked into unrelated projects,
+you should keep track of how much time you are really saving,
+and how long you need to work on something to provide something useful.
+We would be well advised to tackle those tasks where a few hours of one developer
+can save the whole team weeks.
+
+![Is it worth the time? Source: [xkcd](https://xkcd.com/1205/).](pics/on-tooling-worth-the-time.png "How long can you work on making a routine task more efficient before you're spending more time than you save? This handy chart shows how much time you shave off versus how often you do the task across five years, and contains the time you can devote to the task.")
+
+Sometimes we don't want a platform team to do a job;
+instead it needs to be set a priority for everyone in the company.
+One particularly interesting area is quality assurance:
+each developer needs to write the unit tests for their own code,
+and usually also integration tests.
+But end-to-end tests still need to be written by someone,
+even if they don't cover 100% of the application.
+
+Internal tooling needs to be adequate for its use,
+and the responsible team has to have a clear idea of where the pains lie for the dev team.
 
 # 🤔 Conclusion
 

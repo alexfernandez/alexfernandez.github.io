@@ -366,6 +366,53 @@ alt="Stats for LibreCounter visits, using LibreCounter. Source: the author." />
 <figcaption aria-hidden="true">Stats for LibreCounter visits, using
 LibreCounter. Source: the author.</figcaption>
 </figure>
+<h1 id="too-much-of-a-good-thing">🛑 Too Much of a Good Thing</h1>
+<p>Not everything is: “let’s go all aboard with tooling”.</p>
+<h2 id="overengineering">Overengineering</h2>
+<p>We spoke above of overengineering: building an overly complex
+solution for a problem.</p>
+<p>I have been guilty of this sin many times. Once I built a
+<code>git</code> reimplementation in PHP to distribute updates between
+nodes, when we were supposedly creating the next platform for tourist
+activities. I learned a lot about how <code>git</code> works, but my
+efforts were completely misguided when one server would have done the
+job perfectly.</p>
+<p>You learn from every mistake, I guess.</p>
+<h2 id="the-cathedral">The Cathedral</h2>
+<p>Another related issue is when we attempt to build the perfect
+solution all on our own: a platform that covers all the bases.</p>
+<p>The worst part isn’t even the scope, but that we don’t deliver value
+in increments. A cathedral is no use until it is complete; we are
+probably better off building up a series of guerrilla chapels, until we
+are an established religion with millions of acolytes worldwide.</p>
+<h2 id="shiny-toys">🪀 Shiny Toys</h2>
+<p>Developers are a particularly capricious bunch when it comes to
+asking for tooling. We are carried away by the latest shiny things,
+without regard for their actual utility or proven effectiveness. It is
+OK to make mistakes sometimes, but they detract from the overall
+value.</p>
+<h2 id="keeping-focus">Keeping Focus</h2>
+<p>In order to not get sidetracked into unrelated projects, you should
+keep track of how much time you are really saving, and how long you need
+to work on something to provide something useful. We would be well
+advised to tackle those tasks where a few hours of one developer can
+save the whole team weeks.</p>
+<figure>
+<img src="pics/on-tooling-worth-the-time.png"
+title="How long can you work on making a routine task more efficient before you&#39;re spending more time than you save? This handy chart shows how much time you shave off versus how often you do the task across five years, and contains the time you can devote to the task."
+alt="Is it worth the time? Source: xkcd." />
+<figcaption aria-hidden="true">Is it worth the time? Source: <a
+href="https://xkcd.com/1205/">xkcd</a>.</figcaption>
+</figure>
+<p>Sometimes we don’t want a platform team to do a job; instead it needs
+to be set a priority for everyone in the company. One particularly
+interesting area is quality assurance: each developer needs to write the
+unit tests for their own code, and usually also integration tests. But
+end-to-end tests still need to be written by someone, even if they don’t
+cover 100% of the application.</p>
+<p>Internal tooling needs to be adequate for its use, and the
+responsible team has to have a clear idea of where the pains lie for the
+dev team.</p>
 <h1 id="conclusion">🤔 Conclusion</h1>
 <p>Tooling is the ultimate investment for a company. If you want to
 differentiate yourself from the competition start with having the best
