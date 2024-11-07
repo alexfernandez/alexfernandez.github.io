@@ -1,7 +1,7 @@
 ---
 title: '🔧 On Tooling'
 subtitle: '🧑‍💻 With a Focus on Software Development'
-footer: Published on 2024-11-06, last modified on 2024-11-06.
+footer: Published on 2024-11-07, last modified on 2024-11-07.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/on-tooling-hamilton.jpg
 ---

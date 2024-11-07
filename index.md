@@ -11,6 +11,7 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 ### 2024
 
+🧑‍💻 🇮🇪 2024-11-07: [🔧 On Tooling](2024/on-tooling)  
 ⚛️ 🇮🇪 2024-07-08: [🪽 Avis Minima: Building A Prototype Airship Drone](2024/avis-minima)  
 ⚛️ 🇮🇪 2024-03-16: [🪽 Aves Æternaæ: Building Perpetual Flying Machines](2024/aves-aeternae)  
 🗣️ 🇪🇸 2024-01-01: [🎯 Repaso de 2023 y propósitos para 2024](2024/propositos-2024)  
