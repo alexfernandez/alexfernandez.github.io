@@ -318,7 +318,7 @@ Keep in mind that it is OK to make mistakes sometimes:
 not everything we get will be exactly what we desire.
 On the whole we should make sure that most of the tools at our disposal are useful.
 
-## Overengineering
+## 🎛️ Overengineering
 
 We spoke above of overengineering:
 building an overly complex solution for a problem.
@@ -363,7 +363,7 @@ let's apply the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principl
 and tackle the most pressing 20% of issues first.
 Even if we don't reach 80% we will have something sooner to make it worth our while.
 
-## Keeping Focus
+## 📹 Keeping Focus
 
 In order to not get sidetracked into unrelated projects,
 you should keep track of how much time you are really saving,
