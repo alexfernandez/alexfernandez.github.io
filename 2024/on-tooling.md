@@ -329,10 +329,15 @@ a platform that covers all the bases.
 Ever had these thoughts?
 Feel identified?
 I know it has happened to me a lot!
+And from time to time we may fall and get into a major project that never seems to finish.
 
 The worst part isn't even the scope,
 but that we don't deliver value in increments:
 a cathedral is no use until it is complete.
+Alas, Google and Meta may have great internal software,
+but you are probably not Google or Meta.
+Your scale is not their scale and your needs are different.
+
 We are probably better off building up a series of guerrilla chapels,
 until we are an established religion with millions of acolytes worldwide.
 And also we will be able to use them soon!
@@ -387,8 +392,13 @@ This includes any software required, either purchased or created internally,
 and streamlining the workflow as much as possible.
 Features will come easily after that.
 
+Be sure to keep up with the demands from the business side of things.
+Getting side-tracked or waiting for the next big thing can be the death of a company.
+Always remember that your toolset is part of the secret sauce that can make you stand out.
+
 ## 🙏 Acknowledgements
 
 I have spoken about tooling with many developers.
 Thanks to Luis Medel for the inspiration in his great article.
+Thanks to Alfredo
 
