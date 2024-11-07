@@ -400,7 +400,7 @@ Always remember that your toolset is part of the secret sauce that can make you 
 
 ## 🙏 Acknowledgements
 
-I have spoken about tooling with many developers.
-Thanks to Luis Medel for the inspiration in his great article.
-Thanks to Alfredo
+I have spoken about tooling with many developers to which I am grateful.
+Thanks in particular to Luis Medel for the inspiration in his great article,
+and to Alfredo López Moltó for his insights about caveats.
 
