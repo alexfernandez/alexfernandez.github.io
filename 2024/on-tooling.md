@@ -1,7 +1,7 @@
 ---
 title: '🔧 On Tooling'
 subtitle: '🧑‍💻 With a Focus on Software Development'
-footer: Published on 2024-11-07, last modified on 2024-11-07.
+footer: Published on 2024-11-07, last modified on 2024-11-09.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/on-tooling-hamilton.jpg
 ---
@@ -203,12 +203,12 @@ Also remove branches once they are no longer needed.
 
 There are many other crucial instruments that ensure our success as devs.
 Some like monitoring and alerting can be provided by external companies.
-Others like feature flags are basically techniques that should be used 
-
+Others like feature flags are basically techniques that should be used to improve deployments.
 The most dear to my heart of these is [continuous deployment](https://pinchito.es/2012/continuous-deployment):
 it allows devs to deploy code to production with every change, many times per day.
 It definitely changes the relationship with code:
 it is seen as something dynamic that can be fluidly turned into something else.
+And it has to be installed and configured to be an integral part of our toolset.
 
 The best way to ensure that these internal utilities are constantly tuned and optimized
 is to assign them to a developer,
