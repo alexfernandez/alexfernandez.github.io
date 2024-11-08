@@ -21,14 +21,20 @@ leading high performance teams.
 Please find below my most relevant engagements,
 full history at [LinkedIn](https://www.linkedin.com/in/pinchito).
 
+### 2023-10 to 2024-10: Backend Developer at Tinybird
+
+Worked in the ingestion team processing many petabytes of data per month.
+
+* Led the refinement and deployment of a new preprocessing stage for incoming data.
+* Improved monitoring, throughput and stability of the ingestion pipeline.
+
 ### 2022-09 to present: Cofounder and CTO at Ntrde
 
 Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.
 
 * Took an early prototype and converted it into an enterprise-ready solution.
-* Single-handedly developed and refined several major features, including a full redesign.
-* Did product design for two ongoing pilots with customers.
+* Did product design for two pilots with customers.
 
 ### 2021-01 to 2022-06: CTO at Hivency
 
