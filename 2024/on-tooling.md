@@ -195,7 +195,7 @@ Created by Linus Torvalds,
 one of the greatest developers of our time,
 `git` stores changes as "commits" or incremental modifications.
 Care of our working space in this case includes having a clean `git` history, and clean branches.
-A messy piling of commits and branches is always a symptom of careless or incompetent developers.
+A messy piling of commits and branches is usually a symptom of careless or incompetent developers.
 One of my pet peeves is to always stash commits together every time they are merged
 (as pull requests or merge requests),
 so that it is easy to find out where a change comes from.
