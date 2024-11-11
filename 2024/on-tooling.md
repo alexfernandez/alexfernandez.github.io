@@ -24,7 +24,7 @@ After all, features are seen as value, while internal infrastructure is at best 
 For now I will offer a couple of data points in favor of my position.
 Some big tech companies ([Google](https://github.com/jhuangtw/xg2xg)
 and [Meta](https://dev.to/ian808/replacing-the-internal-tooling-we-used-at-meta-facebook-5hh8) come to mind)
-are recognized as having great internal gear;
+are recognized as having great internal toys;
 this is in large part what enables them to be ahead of the competition.
 And Joel Spolsky, creator of StackOverflow and Trello,
 features tooling in several of the points of his legendary
