@@ -287,7 +287,7 @@ In the
 we received about 600 attendees and featured 35 speakers from over 10 countries.
 Over the years we have brought many local and international figures in the JavaScript scene to Madrid,
 including
-[Javi Santana](http://javisantana.com/), CTO of Carto,
+[Myles Borins](https://myles.dev/), former president of the Node.js TSC,
 and
 [substack](https://github.com/substack), creator of Browserify.
 
