@@ -13,11 +13,22 @@ lately mostly about Javascript and DevOps.
 
 List of conferences, latest first.
 
+### [T3chFest 2024](https://t3chfest.es/2024/)
+
+[¿Para qué sirve la física?](https://t3chfest.es/2024/programa/para-que-sirve-la-fisica):
+[slides](https://slides.com/alexfernandez/para-que-sirve-la-fisica-t3chfest-2024/),
+[video](https://www.youtube.com/watch?v=f4nx8h5BTDA).
+<br>
+<img height="15" src="/pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
+Madrid, Spain
+<br>
+2024-03-14
+
 ### [T3chFest 2023](https://t3chfest.es/2023/en)
 
 [¿Qué tal programa la Naturaleza?](https://t3chfest.es/2023/en/programa/que-tal-programa-la-naturaleza):
 [slides](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest),
-[video](https://slides.com/alexfernandez/que-tal-programa-la-naturaleza-t3chfest).
+[video](https://www.youtube.com/watch?v=uj8fdNmSq7U).
 <br>
 <img height="15" src="/pics/spain.svg" alt="Spain" style="margin:4px;vertical-align:middle;">
 Madrid, Spain
