@@ -159,12 +159,8 @@ If you have a proposal
 **Note to recruiters:**
 I am not looking for freelancer gigs right now.
 
-## Public Talks
-
-You can see my full
+You can also see my full
 [speaker profile](/permanent/speaker).
-I have spoken at a few more events over the years,
-but the talks have not always been recorded or published.
 
 ## Credits
 
