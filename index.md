@@ -156,8 +156,6 @@ giving private talks
 or working on an interesting project for a few days.
 If you have a proposal
 [let me know](mailto:alexfernandeznpm@gmail.com).
-**Note to recruiters:**
-I am not looking for freelancer gigs right now.
 
 You can also see my full
 [speaker profile](/permanent/speaker).
