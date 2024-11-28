@@ -148,7 +148,7 @@ Latest articles first.
 
 ## CV
 
-In case you are interested about my past experience,
+In case you are interested in my past experience,
 [here you go](/cv).
 I sometimes work as a freelancer for short-term engagements
 such as teaching courses,
