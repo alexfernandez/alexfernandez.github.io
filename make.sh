@@ -102,6 +102,8 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh permanent/speaker
 pandoc -V urlcolor:Blue -V documentclass:scrartcl -V geometry:margin=1in -s permanent/cv.md -o permanent/cv-alex-fernandez.pdf
 
+./rss.sh > rss.xml
+
 git add -A
 git commit -am "Make on $date"
 git push
