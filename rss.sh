@@ -22,7 +22,7 @@ cat index.md | while read line; do
 		link=$(echo $line | grep -oP "\]\(\K(.*)(?=\))")
 		echo "		<title>$title</title>"
 		echo "		<link>https://pinchito.es/$link</link>"
-		echo "		<pubDate>$date</pubDate>"
+		echo "		<pubDate>$(date -R -d $date)</pubDate>"
 		echo "	</item>"
 	fi
 done
