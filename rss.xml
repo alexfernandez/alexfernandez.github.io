@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>RSS feed for pinchito.es</title>
+	<description>RSS feed for pinchito's blog</description>
+	<link>https://pinchito.es/</link>
+	<copyright>2012-2024 Alex Fernández, all rights reserved</copyright>
+	<lastBuildDate>2024-12-06T12:54:52Z</lastBuildDate>
+	<pubDate>2024-12-06T12:54:52Z</pubDate>
+	<item>
+		<title>🔧 On Tooling</title>
+		<link>https://pinchito.es/2024/on-tooling</link>
+		<pubDate>2024-11-07</pubDate>
+	</item>
+	<item>
+		<title>🪽 Avis Minima: Building A Prototype Airship Drone</title>
+		<link>https://pinchito.es/2024/avis-minima</link>
+		<pubDate>2024-07-08</pubDate>
+	</item>
+	<item>
+		<title>🪽 Aves Æternaæ: Building Perpetual Flying Machines</title>
+		<link>https://pinchito.es/2024/aves-aeternae</link>
+		<pubDate>2024-03-16</pubDate>
+	</item>
+	<item>
+		<title>🎯 Repaso de 2023 y propósitos para 2024</title>
+		<link>https://pinchito.es/2024/propositos-2024</link>
+		<pubDate>2024-01-01</pubDate>
+	</item>
+	<item>
+		<title>🪽 Avis Æterna: A Perpetual Flying Machine</title>
+		<link>https://pinchito.es/2023/avis-aeterna</link>
+		<pubDate>2023-12-28</pubDate>
+	</item>
+	<item>
+		<title>🎯 How I Searched for a Tech Job</title>
+		<link>https://pinchito.es/2023/job-search</link>
+		<pubDate>2023-09-29</pubDate>
+	</item>
+	<item>
+		<title>🧮 Guide to Contradiction: Contradiction in Logic and Mathematics</title>
+		<link>https://pinchito.es/2023/contradiction-logic-mathematics</link>
+		<pubDate>2023-08-12</pubDate>
+	</item>
+	<item>
+		<title>🤔 Climate Change: Conclusion</title>
+		<link>https://pinchito.es/2023/climate-change-conclusion</link>
+		<pubDate>2023-08-08</pubDate>
+	</item>
+	<item>
+		<title>🛰️ Climate Change: Space Screens</title>
+		<link>https://pinchito.es/2023/climate-change-screens</link>
+		<pubDate>2023-08-05</pubDate>
+	</item>
+	<item>
+		<title>🪩 Climate Change: Mirror Roofs</title>
+		<link>https://pinchito.es/2023/climate-change-roofs</link>
+		<pubDate>2023-07-09</pubDate>
+	</item>
+	<item>
+		<title>🌲 Climate Change: Planting Trees</title>
+		<link>https://pinchito.es/2023/climate-change-trees</link>
+		<pubDate>2023-06-17</pubDate>
+	</item>
+	<item>
+		<title>🥵 Some Solutions to Climate Change: Introduction</title>
+		<link>https://pinchito.es/2023/climate-change-solutions</link>
+		<pubDate>2023-06-12</pubDate>
+	</item>
+	<item>
+		<title>🤨 Guide to Contradiction: What Is Contradiction?</title>
+		<link>https://pinchito.es/2023/contradiction-what-is</link>
+		<pubDate>2023-06-03</pubDate>
+	</item>
+	<item>
+		<title>🏛️ Una vida sin fisuras</title>
+		<link>https://pinchito.es/2023/una-vida-sin-fisuras</link>
+		<pubDate>2023-05-28</pubDate>
+	</item>
+	<item>
+		<title>🎯 Repaso de 2022 y propósitos para 2023</title>
+		<link>https://pinchito.es/2023/propositos-2023</link>
+		<pubDate>2023-01-03</pubDate>
+	</item>
+	<item>
+		<title>🤔 Bacterias: Conclusiones</title>
+		<link>https://pinchito.es/2022/bacterias-conclusiones</link>
+		<pubDate>2022-12-31</pubDate>
+	</item>
+	<item>
+		<title>🌠 Bacterias: ¿Venimos de las estrellas?</title>
+		<link>https://pinchito.es/2022/bacterias-estrellas</link>
+		<pubDate>2022-12-30</pubDate>
+	</item>
+	<item>
+		<title>🧑‍⚕️ Bacterias: Enfermedades autoinmunes</title>
+		<link>https://pinchito.es/2022/bacterias-autoinmunes</link>
+		<pubDate>2022-12-29</pubDate>
+	</item>
+	<item>
+		<title>🗺️ ¿Quién lleva el roadmap de producto?</title>
+		<link>https://pinchito.es/2022/quien-lleva-roadmap-producto</link>
+		<pubDate>2022-11-15</pubDate>
+	</item>
+	<item>
+		<title>🌉 Building Bridges</title>
+		<link>https://pinchito.es/2022/building-bridges</link>
+		<pubDate>2022-07-08</pubDate>
+	</item>
+	<item>
+		<title>🖇️ Bacterias: El largo camino a la simbiosis</title>
+		<link>https://pinchito.es/2022/bacterias-simbiosis</link>
+		<pubDate>2022-06-28</pubDate>
+	</item>
+	<item>
+		<title>💫 Understanding the Limits of Physical Laws</title>
+		<link>https://pinchito.es/2022/understanding-limits</link>
+		<pubDate>2022-03-27</pubDate>
+	</item>
+	<item>
+		<title>⚙️ Bacterias: Tecnología bacteriana</title>
+		<link>https://pinchito.es/2022/bacterias-tecnologia</link>
+		<pubDate>2022-03-06</pubDate>
+	</item>
+	<item>
+		<title>🎯 Propósitos para 2022 y repaso de 2021</title>
+		<link>https://pinchito.es/2022/propositos-2022</link>
+		<pubDate>2022-01-01</pubDate>
+	</item>
+	<item>
+		<title>Understanding the Work of Einstein</title>
+		<link>https://pinchito.es/2021/understanding-einstein</link>
+		<pubDate>2021-11-07</pubDate>
+	</item>
+	<item>
+		<title>🦠 Bacterias: Y las bacterias, bonita</title>
+		<link>https://pinchito.es/2021/bacterias-bonita</link>
+		<pubDate>2021-10-17</pubDate>
+	</item>
+	<item>
+		<title>Understanding Quantum Mechanics</title>
+		<link>https://pinchito.es/2021/understanding-quantum-mechanics</link>
+		<pubDate>2021-10-03</pubDate>
+	</item>
+	<item>
+		<title>API First</title>
+		<link>https://pinchito.es/2021/api-first</link>
+		<pubDate>2021-08-16</pubDate>
+	</item>
+	<item>
+		<title>We Are Not Living in a Computer Simulation</title>
+		<link>https://pinchito.es/2021/understanding-simulation</link>
+		<pubDate>2021-08-12</pubDate>
+	</item>
+	<item>
+		<title>How Remote Work Is Messing with your Memory</title>
+		<link>https://pinchito.es/2021/remote-memory</link>
+		<pubDate>2021-07-11</pubDate>
+	</item>
+	<item>
+		<title>Understanding Entropy</title>
+		<link>https://pinchito.es/2021/understanding-entropy</link>
+		<pubDate>2021-07-10</pubDate>
+	</item>
+	<item>
+		<title>The TTP Methodology</title>
+		<link>https://pinchito.es/2021/ttp</link>
+		<pubDate>2021-01-23</pubDate>
+	</item>
+	<item>
+		<title>Repaso de 2020 y propósitos para 2021</title>
+		<link>https://pinchito.es/2021/repaso-propositos-2020</link>
+		<pubDate>2021-01-01</pubDate>
+	</item>
+	<item>
+		<title>Los cinco “Co”s: cinco soft skills esenciales</title>
+		<link>https://pinchito.es/2020/cinco-cos</link>
+		<pubDate>2020-12-28</pubDate>
+	</item>
+	<item>
+		<title>La metodología TPP</title>
+		<link>https://pinchito.es/2020/tpp</link>
+		<pubDate>2020-11-01</pubDate>
+	</item>
+	<item>
+		<title>🚀Curso de escalabilidad v2🚀</title>
+		<link>https://pinchito.es/2020/curso-escalabilidad-2</link>
+		<pubDate>2020-08-31</pubDate>
+	</item>
+	<item>
+		<title>🚀Agile Performance and Scalability🚀</title>
+		<link>https://pinchito.es/2020/curso-escalabilidad</link>
+		<pubDate>2020-05-20</pubDate>
+	</item>
+	<item>
+		<title>Insane Plane Ticket Prices</title>
+		<link>https://pinchito.es/2020/insane-plane-prices</link>
+		<pubDate>2020-01-13</pubDate>
+	</item>
+	<item>
+		<title>Repaso de 2019 y propósitos para 2020</title>
+		<link>https://pinchito.es/2020/repaso-propositos</link>
+		<pubDate>2020-01-02</pubDate>
+	</item>
+	<item>
+		<title>Continuous Deployment on the Cheap</title>
+		<link>https://pinchito.es/2019/devops-on-the-cheap</link>
+		<pubDate>2019-12-31</pubDate>
+	</item>
+	<item>
+		<title>A Guide to High Speeds</title>
+		<link>https://pinchito.es/2019/high-speeds</link>
+		<pubDate>2019-06-08</pubDate>
+	</item>
+	<item>
+		<title>Curso de Unix</title>
+		<link>https://pinchito.es/2019/curso-unix</link>
+		<pubDate>2019-06-01</pubDate>
+	</item>
+	<item>
+		<title>Has Anyone Else Seen Your Code</title>
+		<link>https://pinchito.es/2018/has-anyone-else-seen-your-code</link>
+		<pubDate>2018-12-01</pubDate>
+	</item>
+	<item>
+		<title>More Adventures in the Land of Go</title>
+		<link>https://pinchito.es/2018/more-golang-adventures</link>
+		<pubDate>2018-05-28</pubDate>
+	</item>
+	<item>
+		<title>Building a Space Launcher</title>
+		<link>https://pinchito.es/2018/building-space-launcher</link>
+		<pubDate>2018-03-04</pubDate>
+	</item>
+	<item>
+		<title>The Origins Of Language</title>
+		<link>https://pinchito.es/2017/origins-language</link>
+		<pubDate>2017-09-17</pubDate>
+	</item>
+	<item>
+		<title>Build Your Own DevOps Infrastructure</title>
+		<link>https://pinchito.es/2017/build-your-own-devops-infrastructure</link>
+		<pubDate>2017-07-11</pubDate>
+	</item>
+	<item>
+		<title>How Much Did JSDayES 2017 Cost?</title>
+		<link>https://pinchito.es/2017/jsdayes-2017-cost</link>
+		<pubDate>2017-06-24</pubDate>
+	</item>
+	<item>
+		<title>Polémica sobre la diversidad en tecnología</title>
+		<link>https://pinchito.es/2017/diversidad-tecnologia</link>
+		<pubDate>2017-06-15</pubDate>
+	</item>
+	<item>
+		<title>The Amazing Mind</title>
+		<link>https://pinchito.es/2016/the-amazing-mind</link>
+		<pubDate>2016-12-11</pubDate>
+	</item>
+	<item>
+		<title>Becoming a Better Developer</title>
+		<link>https://pinchito.es/2016/becoming-a-better-developer</link>
+		<pubDate>2016-10-26</pubDate>
+	</item>
+	<item>
+		<title>Becoming A Better Developer, Part 4: Top Of The Cream Of The Crop</title>
+		<link>https://pinchito.es/2016/top-of-the-cream-of-the-crop</link>
+		<pubDate>2016-10-26</pubDate>
+	</item>
+	<item>
+		<title>Becoming A Better Developer, Part 3: Get Ahead Of The Curve</title>
+		<link>https://pinchito.es/2016/get-ahead-of-the-curve</link>
+		<pubDate>2016-10-17</pubDate>
+	</item>
+	<item>
+		<title>Becoming A Better Developer, Part 2: Advice For The Novice</title>
+		<link>https://pinchito.es/2016/advice-for-the-novice</link>
+		<pubDate>2016-10-06</pubDate>
+	</item>
+	<item>
+		<title>Becoming A Better Developer, Part 1: Start Me Up</title>
+		<link>https://pinchito.es/2016/start-me-up</link>
+		<pubDate>2016-10-06</pubDate>
+	</item>
+	<item>
+		<title>Sobre el intrusismo profesional en informática</title>
+		<link>https://pinchito.es/2016/sobre-intrusismo-profesional</link>
+		<pubDate>2016-08-12</pubDate>
+	</item>
+	<item>
+		<title>¿Cuánto costó el JSDayES 2016?</title>
+		<link>https://pinchito.es/2016/cuanto-costo-jsdayes-2016</link>
+		<pubDate>2016-06-07</pubDate>
+	</item>
+	<item>
+		<title>MoveinBlue, Five Years Later</title>
+		<link>https://pinchito.es/2016/mib-five-years-later</link>
+		<pubDate>2016-07-27</pubDate>
+	</item>
+	<item>
+		<title>Should I Build or Should I Not</title>
+		<link>https://pinchito.es/2016/build-or-not</link>
+		<pubDate>2016-05-26</pubDate>
+	</item>
+	<item>
+		<title>Creating a Balancer With Nginx</title>
+		<link>https://pinchito.es/2016/nginx-balancer</link>
+		<pubDate>2016-04-10</pubDate>
+	</item>
+	<item>
+		<title>Continuously Deploying with StriderCD</title>
+		<link>https://pinchito.es/2016/stridercd</link>
+		<pubDate>2016-04-03</pubDate>
+	</item>
+	<item>
+		<title>Adventures in the Land of Go</title>
+		<link>https://pinchito.es/2016/golang-adventures</link>
+		<pubDate>2016-02-22</pubDate>
+	</item>
+	<item>
+		<title>Increasing Event Attendance</title>
+		<link>https://pinchito.es/2016/event-attendance</link>
+		<pubDate>2016-01-10</pubDate>
+	</item>
+	<item>
+		<title>The Case Against Software Craftsmanship</title>
+		<link>https://pinchito.es/2016/against-craftsmanship</link>
+		<pubDate>2016-01-08</pubDate>
+	</item>
+	<item>
+		<title>La arquitectura fluida 2: estrategias de migración</title>
+		<link>https://pinchito.es/2015/arquitectura-fluida-2-estrategias-migracion</link>
+		<pubDate>2015-12-28</pubDate>
+	</item>
+	<item>
+		<title>Ofertas de trabajo y salarios</title>
+		<link>https://pinchito.es/2015/ofertas-salarios</link>
+		<pubDate>2015-12-27</pubDate>
+	</item>
+	<item>
+		<title>La arquitectura fluida 1: tras la arquitectura perfecta</title>
+		<link>https://pinchito.es/2015/arquitectura-fluida-1-arquitectura-perfecta</link>
+		<pubDate>2015-11-09</pubDate>
+	</item>
+	<item>
+		<title>Entrevista en DevUse</title>
+		<link>https://pinchito.es/2015/entrevista-devuse</link>
+		<pubDate>2015-11-08</pubDate>
+	</item>
+	<item>
+		<title>Walk Through My Code</title>
+		<link>https://pinchito.es/2015/walk-through-my-code</link>
+		<pubDate>2015-10-17</pubDate>
+	</item>
+	<item>
+		<title>Optimizando sockets con node.js</title>
+		<link>https://pinchito.es/2013/optimizando-sockets</link>
+		<pubDate>2013-11-24</pubDate>
+	</item>
+	<item>
+		<title>Node.js: ¿rápido como el rayo?</title>
+		<link>https://pinchito.es/2013/nodejs-rapido-como-el-rayo</link>
+		<pubDate>2013-11-12</pubDate>
+	</item>
+	<item>
+		<title>Pruebas de carga</title>
+		<link>https://pinchito.es/2013/pruebas-de-carga</link>
+		<pubDate>2013-08-27</pubDate>
+	</item>
+	<item>
+		<title>Modo cluster para node.js</title>
+		<link>https://pinchito.es/2013/modo-cluster</link>
+		<pubDate>2013-07-27</pubDate>
+	</item>
+	<item>
+		<title>Pruebas asíncronas en node.js</title>
+		<link>https://pinchito.es/2013/pruebas-asincronas</link>
+		<pubDate>2013-07-11</pubDate>
+	</item>
+	<item>
+		<title>The Human Body as a Well-Engineered System</title>
+		<link>https://pinchito.es/2013/human-body-engineered-system</link>
+		<pubDate>2013-06-07</pubDate>
+	</item>
+	<item>
+		<title>Reporting Problems, Part 2: Tooling</title>
+		<link>https://pinchito.es/2012/reporting-problems-part-2</link>
+		<pubDate>2012-12-18</pubDate>
+	</item>
+	<item>
+		<title>Reporting Problems, Part 1: Process</title>
+		<link>https://pinchito.es/2012/reporting-problems-part-1</link>
+		<pubDate>2012-08-23</pubDate>
+	</item>
+	<item>
+		<title>Iterative Evolution</title>
+		<link>https://pinchito.es/2012/iterative-evolution</link>
+		<pubDate>2012-07-25</pubDate>
+	</item>
+	<item>
+		<title>Sources of Irreversibility</title>
+		<link>https://pinchito.es/2012/sources-of-irreversibility</link>
+		<pubDate>2012-06-11</pubDate>
+	</item>
+	<item>
+		<title>How to Fake the Performance Review</title>
+		<link>https://pinchito.es/2012/performance-review</link>
+		<pubDate>2012-06-09</pubDate>
+	</item>
+	<item>
+		<title>From Ground to Cloud in Two Hours</title>
+		<link>https://pinchito.es/2012/from-ground-to-cloud</link>
+		<pubDate>2012-06-04</pubDate>
+	</item>
+	<item>
+		<title>Closing the Gap with Business</title>
+		<link>https://pinchito.es/2012/closing-the-gap</link>
+		<pubDate>2012-05-29</pubDate>
+	</item>
+	<item>
+		<title>Ode to Telecommuting</title>
+		<link>https://pinchito.es/2012/ode-to-telecommuting</link>
+		<pubDate>2012-05-24</pubDate>
+	</item>
+	<item>
+		<title>Reversible Engineering Part 3: Management</title>
+		<link>https://pinchito.es/2012/reversible-engineering-part-3</link>
+		<pubDate>2012-05-20</pubDate>
+	</item>
+	<item>
+		<title>Reversible Engineering Part 2: DevOps</title>
+		<link>https://pinchito.es/2012/reversible-engineering-part-2</link>
+		<pubDate>2012-05-11</pubDate>
+	</item>
+	<item>
+		<title>Reversible Engineering Part 1: Software Development</title>
+		<link>https://pinchito.es/2012/reversible-engineering-part-1</link>
+		<pubDate>2012-05-09</pubDate>
+	</item>
+	<item>
+		<title>Locked to the Cloud</title>
+		<link>https://pinchito.es/2012/locked-to-the-cloud</link>
+		<pubDate>2012-04-18</pubDate>
+	</item>
+	<item>
+		<title>Automating the Automation</title>
+		<link>https://pinchito.es/2012/automating-the-automation</link>
+		<pubDate>2012-04-12</pubDate>
+	</item>
+	<item>
+		<title>Continuous Deployment</title>
+		<link>https://pinchito.es/2012/continuous-deployment</link>
+		<pubDate>2012-04-10</pubDate>
+	</item>
+	<item>
+		<title>Developer Discipline</title>
+		<link>https://pinchito.es/2012/developer-discipline</link>
+		<pubDate>2012-03-30</pubDate>
+	</item>
+</channel>
+</rss>
