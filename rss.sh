@@ -23,6 +23,7 @@ cat index.md | while read line; do
 		echo "		<title>$title</title>"
 		echo "		<link>https://pinchito.es/$link</link>"
 		echo "		<pubDate>$(date -R -d $date)</pubDate>"
+		echo "		<guid>$(uuidgen --sha1 --namespace "@url" --name "$link")</guid>"
 		echo "	</item>"
 	fi
 done
