@@ -2,7 +2,7 @@
 # Alex 2024-12-06: generate RSS feed based on indexa
 # Evil trickery from https://stackoverflow.com/a/41194927/978796: rip from \K to capturing group (?=)
 
-build_date=$(date +"%Y-%m-%dT%H:%M:%SZ")
+build_date=$(date -R)
 
 echo '<?xml version="1.0" encoding="UTF-8" ?>'
 echo '<rss version="2.0">'
