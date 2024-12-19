@@ -25,10 +25,10 @@ full history at [LinkedIn](https://www.linkedin.com/in/pinchito).
 
 Worked in the ingestion team processing many petabytes of data per month.
 
-* Led the refinement and deployment of a new preprocessing stage for incoming data.
-* Improved monitoring, throughput and stability of the ingestion pipeline.
+* Refined and evolved the architecture to ingest 10+ terabytes per hour.
+* Improved stability and scalability with traffic growing 3x per year.
 
-### 2022-09 to present: Cofounder and CTO at Ntrde
+### 2022-09 to 2023-08: Cofounder and CTO at Ntrde
 
 Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.

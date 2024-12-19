@@ -12,20 +12,12 @@ I have also held several CTO positions leading high performance teams.
 
 ## Job History (Highlights)
 
-### 2023-10 to present: Backend developer at [Tinybird](https://tinybird.co)
+### 2023-10 to 2024-10: Backend developer at [Tinybird](https://tinybird.co)
 
 Principal backend developer within the ingestion team.
 
 * Refined and evolved the architecture to ingest 10+ terabytes per hour.
-* Improved stability and scalability with traffic growing 2x+ per year.
-
-### 2022-09 to 2023-08: Cofounder and CTO at [NTRDE](https://ntrde.io)
-
-Co-founded a decision intelligence solution for chemical trading.
-
-* Took an early prototype and converted it into an enterprise-ready solution,
-with a Node.js backend and React frontend.
-* Single-handedly developed and refined several major features, including a full redesign.
+* Improved stability and scalability with traffic growing 3x per year.
 
 ### 2021-01 to 2022-06: CTO at [Hivency](https://hivency.com)
 
