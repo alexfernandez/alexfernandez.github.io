@@ -23,7 +23,7 @@ full history at [LinkedIn](https://www.linkedin.com/in/pinchito).
 
 ### 2023-10 to 2024-10: Backend Developer at Tinybird
 
-Worked in the ingestion team processing many petabytes of data per month.
+Worked in the ingestion team digesting many petabytes of data per month.
 
 * Refined and evolved the architecture to ingest 10+ terabytes per hour.
 * Improved stability and scalability with traffic growing 3x per year.
