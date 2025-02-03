@@ -143,6 +143,14 @@ Incidentally is the oldest crime mystery where the killer is revealed to be the 
 A singer that transmits their emotions in a live performance does not need perfect pitch,
 autotune or a hundred synthesizers.
 
+## Result not Process
+
+Focus on the result,
+and work backwards from there.
+
+There are no cheap emotions,
+although there are shortcuts to get them which make them feel cheap.
+
 # 🤔 Conclusion
 
 Art 
