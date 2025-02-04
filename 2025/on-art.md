@@ -30,7 +30,7 @@ which if properly done will carry over to the audience.
 Other forms of art may not rely on empathy and therefore not be so immediate,
 but they have in common that they stir something inside us.
 
-## Artistic Beauty
+## Transmitted Feelings
 
 Feelings do not need to be profound.
 Works that depict still life or daily routines can be awesome,
@@ -47,6 +47,12 @@ there is no transmission of emotions as we are just reacting to Nature.
 A depiction of the same sunset in a painting or a photography however becomes artistic,
 as those emotions are now transmitted from the person that feels them in the first place to its audience.
 Such second-hand feelings become embedded in those works.
+
+There are also very complex sentiments that can be transmitted using art.
+That feeling you get when you are broke and looking at expensive things,
+the sensation of being watched over by a benevolent god-like entity,
+the inimaginable anguish we get when do something irreparable that isn't even our fault.
+Complex story-telling is only one way of getting these things across.
 
 ## Arts and Techniques
 
@@ -165,16 +171,16 @@ which is undoubtedly a kind of feeling and does therefore qualify under our defi
 
 ## Should Be Arts?
 
-But there are many other human activities that raise our inner emotions and could be considered art.
+There are many other human activities that raise our inner emotions and could be considered art.
 Let's review a few of them.
 
 Comedic monologues: a category that transmits humor.
 
 Eroticism: transmits feelings of sexual desire.
-There is little concern with erotic literature and cinema,
+There is little doubt that erotic literature and cinema can be artistic,
 but pornography can be quite controversial.
 It is quite explicit about transmitting feelings,
-especifically sexual arousal,
+more specifically sexual arousal,
 but it is banned in many cultures and poorly considered in many others.
 
 [Erotic Kama statues](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg)
@@ -183,6 +189,9 @@ Advertising: designed to create feelings, like cravings or desire.
 
 Computer games: the most consumed form of art nowadays, it is easy to create beauty, strike fear,
 tell interesting and immersive stories.
+
+Influencing: these people know how to make you feel stuff.
+Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
 
 # Advice to the Modern Artist
 
