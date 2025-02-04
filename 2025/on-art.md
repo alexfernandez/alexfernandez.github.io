@@ -38,7 +38,7 @@ and sometimes they may just be aesthetically pleasing,
 which is certainly a feeling that we share when contemplating them.
 These works do not need to be doing anything else.
 
-[vieja friendo huevos](https://commons.wikimedia.org/wiki/File:Vieja_friendo_huevos,_by_Diego_Vel%C3%A1zquez.jpg).
+![Diego Velázquez: Vieja friendo huevos. Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Vieja_friendo_huevos,_by_Diego_Vel%C3%A1zquez.jpg).](pics/on-art-vieja-friendo-huevos.jpg "An old lady is frying eggs while a boy looks to the side. Deep _chiaroscuro_ in this beautiful painting.")
 
 This aspect of aesthetic pleasure deserves some comment.
 While a sunset can be beautiful and generate strong emotions (such as peacefulness, serenity, beauty),
@@ -59,9 +59,9 @@ Complex story-telling is only one way of getting these things across.
 The purpose of many works of art across history has been simply to be a vehicle so artists can show their craft.
 In painting this often goes under the guise of depicting reality.
 "Look what awesome drawings I can make", Raffaello seems to be saying to Albrecht Durer in this
-[stunning study of two male figures](https://commons.wikimedia.org/wiki/File:Raphael_-_Nude_Studies,_1515_-_Google_Art_Project.jpg).
+stunning study of two male figures.
 
-![Raphael: Nude Studies, 1515. Source: Google Art Project via Wikimedia.](pics/on-art-raphael-nude-studies.jpg "Studies of two nude male figures drawn in red chalk.")
+![Raphael: Nude Studies, 1515. Source: [Google Art Project via Wikimedia](https://commons.wikimedia.org/wiki/File:Raphael_-_Nude_Studies,_1515_-_Google_Art_Project.jpg).](pics/on-art-raphael-nude-studies.jpg "Studies of two nude male figures drawn in red chalk.")
 
 The text in the drawing, presumably written by Durer, [actually says](https://e-arthistory5.blogspot.com/2017/10/raphael-and-durer.html) as translated by David Handforth:
 
