@@ -161,15 +161,32 @@ Architecture creates living spaces.
 
 ### Abstract Art
 
+It is not clear how abstract art transmits whatever it is supposed to be transmitting.
+Is it skill by the author, a complex technique or the novelty of a new pattern?
+I must confess that I don't get it.
+
+It is true that music in its purest form (without words or voices) is often seen as abstract.
+The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
+found out experimentally by plucking a string of different ratios.
+Why are some chords sad, while others feel feisty?
+But the fact is that music can transmit strong complex emotions.
+Film soundtracks are usually instrumental,
+and they help carry the story forward to the point that movies feel naked without them.
+On a more personal note,
+once I was feeling nostalgic at a jazz guitar duo concert, only to learn later that
+[the piece was called "Nostalgia"](https://www.youtube.com/watch?v=huZitIqcdt8&t=1611s).
+
+While I would not consider instrumental music abstract,
+contemporary compositions often feel like it.
+And to be honest I don't get them either.
+
 ## Modern Arts
 
 Modern categories often include cinema, photography or comics.
 
-What about [applied arts](https://en.wikipedia.org/wiki/Applied_arts)?
+What about [applied arts](https://en.wikipedia.org/wiki/Applied_arts) like design or decoration?
 According to Wikipedia they make everyday objects aesthetically pleasing,
 which is undoubtedly a kind of feeling and does therefore qualify under our definition.
-
-## Should Be Arts?
 
 There are many other human activities that raise our inner emotions and could be considered art.
 Let's review a few of them.
