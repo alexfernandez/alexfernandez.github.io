@@ -38,7 +38,7 @@ Sometimes they may just be aesthetically pleasing,
 which is certainly a feeling that we share when contemplating them.
 These works do not need to be doing anything else.
 
-![Diego Velázquez: Old Woman Frying Eggs (Vieja friendo huevos). Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Vieja_friendo_huevos,_by_Diego_Vel%C3%A1zquez.jpg).](pics/on-art-vieja-friendo-huevos.jpg "An old lady is frying eggs while a boy looks to the side. Deep _chiaroscuro_ in this beautiful painting.")
+![Diego Velázquez: Old Woman Frying Eggs (_Vieja friendo huevos_). Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Vieja_friendo_huevos,_by_Diego_Vel%C3%A1zquez.jpg).](pics/on-art-vieja-friendo-huevos.jpg "An old lady is frying eggs while a boy looks to the side. Deep _chiaroscuro_ in this beautiful painting.")
 
 This aspect of aesthetic pleasure deserves some comment.
 While a sunset can be beautiful and generate strong emotions (such as peacefulness, serenity, beauty),
