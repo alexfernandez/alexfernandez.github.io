@@ -205,13 +205,18 @@ Artistic coherence is nice, but evolution as an artist also requires modifying y
 
 [El Bosco](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg)
 
+To the point that style is unavoidable, just embrace it.
+But it can be worth your time to venture out of your own personality.
+
 ## Caveats
 
 I don't have any particular credentials to speak about art,
-other than I like to experience art.
+other than I like to experience and enjoy it.
 Sometimes I even create art in my own _dilettante_ fashion, like drawings or music.
-I also like thinking hard about stuff,
-and don't think that we should be limited in the stuff that we give our opinion on.
+I also like thinking hard about things that I find interesting,
+and don't think that we should be limited to give our opinion on matters outside our experience.
+
+On the other hand it is usually interesting to listen to experts.
 In any case, take my advice with a grain of salt.
 
 # Artistic Categories
@@ -232,7 +237,8 @@ Architecture creates living spaces.
 
 It is not clear how abstract art transmits whatever it is supposed to be transmitting.
 Is it skill by the author, a complex technique or the novelty of a new pattern?
-I must confess that I don't get it.
+I must confess that I don't get it,
+and so seem to do most people as it has never gained widespread acceptance.
 
 It is true that music in its purest form (without words or voices) is often seen as abstract.
 The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
@@ -313,7 +319,10 @@ A good meal can make you feel a range of experiences.
 
 ### Politics
 
-The ancient term [rhetoric](https://en.wikipedia.org/wiki/Rhetoric) as the art of persuasion.
+The ancient term [rhetoric](https://en.wikipedia.org/wiki/Rhetoric) is described in the Wikipedia page as "the art of persuasion".
+It is really useful to explain things to others so that they see them as advantageous.
+The classic philosopher Socrates despised sophists since they learned to defend both sides of an argument.
+But contemplating different points of view can open your mind and widen your horizons.
 
 ### Magic
 
@@ -332,9 +341,14 @@ where the victim is made to feel miserable.
 I don't think anyone sane would want to call them arts even though there is transmission of emotions.
 We may feel tempted to exclude negative emotions from our definition so we can get rid of similar pursuits,
 but then we run the risk of banning also tragedies or sad movies.
-We may prefer to consider that there is a dark side to some human activities which is immoral, illegal or both.
+We may prefer to realize that there is a dark side to some human activities which is highly damaging to people,
+and choose not to consider it art.
 
 # 🤔 Conclusion
+
+Learn how to transmit feelings.
+It is useful in many ways of life;
+to artists it is essential.
 
 ## 🙏 Acknowledgements
 
