@@ -10,12 +10,13 @@ Art in the era of oversupply, saturation,
 artificial intelligence (AI)
 and large language models (LLMs) may look as a bleak endeavor:
 isn't everything said and done?
-Aren't the machines copying everything well enough so there is no place for the fledging artist?
+When the machines copying everything well enough, what place is left for the fledging artist?
 There is hope, my human friends!
+Read on.
 
 # 📖 A Brief Definition
 
-We will start with this working definition:
+Let us start by establishing this working definition:
 
 > Art is any activity that intentionally transmits emotions among humans.
 
