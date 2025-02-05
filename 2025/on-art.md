@@ -17,7 +17,7 @@ There is hope, my human friends!
 
 We will start with this working definition:
 
-> Art is any activity that transmits emotions among humans.
+> Art is any activity that intentionally transmits emotions among humans.
 
 I am not simply making things up.
 The Cambridge dictionary defines [art](https://dictionary.cambridge.org/dictionary/english/art) as, among other things:
@@ -53,6 +53,18 @@ That feeling you get when you are broke and looking at expensive things,
 the sensation of being watched over by a benevolent god-like entity,
 the inimaginable anguish we get when do something irreparable that isn't even our fault.
 Complex story-telling is only one way of getting these things across.
+
+## Intentionality
+
+A quick note on intention:
+to be art the artist has to want to transmit the emotion.
+If someone is just sad and watching them makes other people feel sad,
+or if an artist wants to transmit one thing but then conveys another,
+then it falls out of scope.
+For instance, a movie director might want to create a work of mystery and science fiction,
+but accidentally make the audience feel vicarious shame.
+
+[Plan 9](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).
 
 ## Arts and Techniques
 
@@ -91,6 +103,8 @@ While a personal imprint can be nice, it can also get in the way.
 Actors sometimes complain that they are typecast in a kind of role, for instance.
 The same can happen to many other artists if they specialize too much.
 Artistic coherence is nice, but evolution as an artist also requires modifying your style.
+
+[El Bosco](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg)
 
 # The Miracle of Art
 
