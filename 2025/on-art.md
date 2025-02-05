@@ -30,9 +30,9 @@ which if properly done will carry over to the audience.
 Other forms of art may not rely on empathy and therefore not be so immediate,
 but they have in common that they stir something inside us.
 
-## Transmitted Feelings
+## Transmitted Emotions
 
-Feelings do not need to be profound.
+Feelings transmitted by art do not need to be profound.
 Works that depict still life or daily routines can be awesome,
 and sometimes they may just be aesthetically pleasing,
 which is certainly a feeling that we share when contemplating them.
@@ -50,9 +50,9 @@ Such second-hand feelings become embedded in those works.
 
 There are also very complex sentiments that can be transmitted using art.
 That feeling you get when you are broke and looking at expensive things,
-the sensation of being watched over by a benevolent god-like entity,
-the inimaginable anguish we get when do something irreparable that isn't even our fault.
-Complex story-telling is only one way of getting these things across.
+the sensation of being watched over by a benevolent god-like entity that doesn't care about you,
+the inexplicable anguish we get when we see something irreparable that isn't even our fault.
+Complex story-telling is only one way of getting these sensations across.
 
 ## Intentionality
 
@@ -61,10 +61,16 @@ to be art the artist has to want to transmit the emotion.
 If someone is just sad and watching them makes other people feel sad,
 or if an artist wants to transmit one thing but then conveys another,
 then it falls out of scope.
-For instance, a movie director might want to create a work of mystery and science fiction,
+For instance, a movie director might want to create a work of horror and science fiction,
 but accidentally make the audience feel vicarious shame.
 
 [Plan 9](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).
+
+Many human activities make us feel emotions.
+For instance a well designed and written software program may fill us with joy.
+But when its intent is mainly functional we will not consider it "a work of art".
+It is possible to write code with the purpose of making it beautiful,
+and in this case we may well consider it artistic.
 
 ## Arts and Techniques
 
@@ -91,20 +97,6 @@ Good technique often helps ease the transmission of feelings.
 Acting might be the most basic profession where you can just express a sentiment and rely on empathy,
 and even so it is not enough.
 If nothing else, skill is needed to create works of beauty.
-
-## Art and Style
-
-Each artist has their own personal way of creating their works.
-It serves as a kind of signature.
-Style is not necessarily important for the transmission of feelings, though.
-Some artists even make a point of being able to switch their ways freely.
-While a personal imprint can be nice, it can also get in the way.
-
-Actors sometimes complain that they are typecast in a kind of role, for instance.
-The same can happen to many other artists if they specialize too much.
-Artistic coherence is nice, but evolution as an artist also requires modifying your style.
-
-[El Bosco](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg)
 
 # The Miracle of Art
 
@@ -183,6 +175,20 @@ and work backwards from there.
 
 There are no cheap emotions,
 although there are shortcuts to get them which make them feel cheap.
+
+## Art and Style
+
+Each artist has their own personal way of creating their works.
+It serves as a kind of signature.
+Style is not necessarily important for the transmission of feelings, though.
+Some artists even make a point of being able to switch their ways freely.
+While a personal imprint can be nice, it can also get in the way.
+
+Actors sometimes complain that they are typecast in a kind of role, for instance.
+The same can happen to many other artists if they specialize too much.
+Artistic coherence is nice, but evolution as an artist also requires modifying your style.
+
+[El Bosco](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg)
 
 ## Caveats
 
