@@ -313,9 +313,24 @@ A good meal can make you feel a range of experiences.
 
 The ancient term [rhetoric](https://en.wikipedia.org/wiki/Rhetoric) as the art of persuasion.
 
-### Other Arts
+### Magic
 
-Magic, illegal arts: confidence artistry, phishing.
+Magic makes you feel wonder.
+
+### The Dark Arts
+
+Going by our definition alone,
+we could think that there are malicious activities which should be considered artistic.
+A synonym for a scammer is "con artist", or confidence trickster.
+In a [scam](https://en.wikipedia.org/wiki/Scam) you have to make the victim, or "mark", feel confidence.
+Similarly in [phishing](https://en.wikipedia.org/wiki/Phishing) and other forms of social engineering.
+
+There are even worse activities like abuse or mobbing,
+where the victim is made to feel miserable.
+I don't think anyone sane would want to call them arts even though there is transmission of emotions.
+We may feel tempted to exclude negative emotions from our definition so we can get rid of similar pursuits,
+but then we run the risk of banning also tragedies or sad movies.
+We may prefer to consider that there is a dark side to some human activities which is immoral, illegal or both.
 
 # 🤔 Conclusion
 
