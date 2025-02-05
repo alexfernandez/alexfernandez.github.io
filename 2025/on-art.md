@@ -6,10 +6,10 @@ footer: Published on 2025-02-03, last modified on 2025-02-03.
 image: https://pinchito.es/2025/pics/on-art-.jpg
 ---
 
-Art in our era may look like a bleak endeavor:
-with oversupply, saturation, artificial intelligence (AI) and large language models (LLMs),
-isn't everything said and done?
-When the machines are copying everything well enough,
+Art in our time may look like a bleak endeavor:
+in an era of oversupply and saturation, isn't everything said and done?
+And now with artificial intelligence (AI) and large language models (LLMs)
+the machines seem to be copying everything well enough;
 what place is left for the fledging artist?
 There is hope, my human friends!
 Read on.
@@ -26,8 +26,7 @@ The Cambridge dictionary defines [art](https://dictionary.cambridge.org/dictiona
 > the making of objects, images, music, etc. that are beautiful or that express feelings.
 
 It is easy to see that acting (as seen in theater and movies) falls under this definition:
-actors and actresses try to display emotions,
-which if properly done will carry over to the audience.
+practitioners display a range of emotions which, when properly done, will carry over to the audience.
 Other forms of art may not rely on direct empathy and therefore they are less immediate,
 but they have in common that they stir something inside us.
 
@@ -190,6 +189,7 @@ and work backwards from there.
 
 There are no cheap emotions,
 although there are shortcuts to get them which make them feel cheap.
+People like to think they have earned their right to their feelings.
 
 ## Art and Style
 
