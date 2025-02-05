@@ -220,6 +220,13 @@ A category that transmits humor.
 The most consumed form of art nowadays, it is easy to create beauty, strike fear,
 tell interesting and immersive stories.
 
+### Advertising
+
+Designed to stimulate feelings like cravings or desire.
+I don't see the fact that these works are done for crass commercial interests as a demerit:
+or should Michelangelo be ashamed of accepting money for doing propaganda for the strongest powers of his time,
+i.e. kings and popes?
+
 ### Eroticism and Pornography
 
 Transmits feelings of sexual desire.
@@ -233,13 +240,6 @@ The figure below is from India, one of the scarce cultures where pornography was
 
 ![Erotic Kama statues from Khajurâho temple, India. Source: [Flickr: Le Temple de Lakshmana (Khajurâho) via Wikimedia](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).](pics/on-art-erotic-kama-statues.jpg "Statues in bass relief of a man and a woman having sex, while another man looks at them and masturbates, and a woman also masturbates while looking away. A small female figure licks the leg of the man. All figures are nude and wear intricate hairstyles, and some jewelry around their arms.")
 
-### Advertising
-
-Designed to stimulate feelings like cravings or desire.
-I don't see the fact that these works are done for crass commercial interests as a demerit:
-or should Michelangelo be ashamed of accepting money for doing propaganda for the strongest powers of his time,
-i.e. kings and popes?
-
 ### News
 
 Under the guise of reporting, these brave people will try to arouse our interest,
@@ -251,9 +251,14 @@ Their serious countenance cannot distract us from the fact that they are often d
 These people know how to make you feel stuff.
 Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
 
+### Gastronomy
+
+Feeding people is not the point.
+A good meal can make you feel a range of experiences.
+
 ### Other Arts
 
-Magic, illegal arts: confidence artistry, phishing.
+Magic, politics, illegal arts: confidence artistry, phishing.
 
 # Advice to the Modern Artist
 
@@ -278,7 +283,7 @@ and work backwards from there.
 There are no cheap emotions,
 although there are shortcuts to get them which make them feel cheap.
 
-# 🤔 Conclusion
+## Caveats
 
 I don't have any particular credentials to speak about art,
 other than I like to experience art.
@@ -286,6 +291,8 @@ Sometimes I even create art in my own _dilettante_ fashion, like drawings or mus
 I also like thinking hard about stuff,
 and don't think that we should be limited in the stuff that we give our opinion on.
 In any case, take my advice with a grain of salt.
+
+# 🤔 Conclusion
 
 ## 🙏 Acknowledgements
 
