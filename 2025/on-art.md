@@ -193,19 +193,28 @@ Let's review a few of them.
 
 Comedic monologues: a category that transmits humor.
 
+Computer games: the most consumed form of art nowadays, it is easy to create beauty, strike fear,
+tell interesting and immersive stories.
+
 Eroticism: transmits feelings of sexual desire.
 There is little doubt that erotic literature and cinema can be artistic,
 but pornography can be quite controversial.
 It is quite explicit about transmitting feelings,
 more specifically sexual arousal,
 but it is banned in many cultures and poorly considered in many others.
+The figure below is from India, one of the scarce cultures where pornography was acceptable in temples.
+(It's labeled "erotic" but it doesn't fool anyone.)
 
-[Erotic Kama statues](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg)
+![Erotic Kama statues from Khajurâho temple, India. Source: [Flickr: Le Temple de Lakshmana (Khajurâho) via Wikimedia](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).](pics/on-art-erotic-kama-statues.jpg "Statues in bass relief of a man and a woman having sex, while another man looks at them and masturbates, and a woman also masturbates while looking away. A small female figure licks the leg of the man. All figures are nude and wear intricate hairstyles, and some jewelry around their arms.")
 
 Advertising: designed to create feelings, like cravings or desire.
+I don't see the fact that these works are done for crass commercial interests as a demerit:
+or should Michelangelo be ashamed of accepting money for doing propaganda for the strongest powers of his time,
+i.e. kings and popes?
 
-Computer games: the most consumed form of art nowadays, it is easy to create beauty, strike fear,
-tell interesting and immersive stories.
+News: under the guise of reporting, these brave people will try to arouse our interest,
+while sometimes scaring or delighting the audience.
+Their serious countenance cannot distract us from the fact that they are often dealing with raw emotions.
 
 Influencing: these people know how to make you feel stuff.
 Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
