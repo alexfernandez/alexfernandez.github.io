@@ -106,13 +106,16 @@ that gets all its inputs from a bunch of wet cables.
 Can it be that all outside things are just an illusion,
 and that I exist in isolation imagining everything else?
 This fantasy has been [paradoxically shared since the times of Ancient Greece](https://en.wikipedia.org/wiki/Solipsism#History).
-For instance Descartes hypothesized that there was a [malicious demon](https://en.wikipedia.org/wiki/Evil_demon) feeding him images,
-to which his only escape was to imagine that God would not let such demons ruin His creation.
+For instance Descartes hypothesized that there was a
+[malicious demon](https://en.wikipedia.org/wiki/Evil_demon) feeding him all perceptions,
+to which there was hardly any escape.
+The modern version would be that we live in a [computer simulation](https://pinchito.es/2021/understanding-simulation).
 
+Let's suppose that we somehow live in the world that we perceive.
 What we observe is that many humans can easily made to react the same way to the same stimulus.
 At a comedic monologue everyone laughs in unison at the same time,
 with a comedian's voice as only prompt.
-After a sad movie many people will cry because they can be made to feel the sadness of a loss.
+After a good sad movie many people will cry because they can be made to feel the sadness.
 These are not isolated incidents.
 
 But if we think about it, it is a miracle that this happens at all.
@@ -120,7 +123,7 @@ We all have different experiences and backgrounds.
 What is sad to some can be enlightening to others.
 Even the experience of a color is mediated by different relations between concepts:
 as I have explored in [The Amazing Mind](https://pinchito.es/2016/the-amazing-mind#my-blue-and-your-blue),
-my "blue" is not your "blue" and they can never be equal since we don't have the same relations in our brains.
+my "blue" is not your "blue" and they can never be equal since we don't have the exact same concepts in our brains.
 
 How can works of art jump this schasm between our brains and reach our inner emotions?
 We might advance some evolutionary explanation about how shared feelings can be good for our survival,
