@@ -175,10 +175,16 @@ and they help carry the story forward to the point that movies feel naked withou
 On a more personal note,
 once I was feeling nostalgic at a jazz guitar duo concert, only to learn later that
 [the piece was called "Nostalgia"](https://www.youtube.com/watch?v=huZitIqcdt8&t=1611s).
+I'm sure you have had similar experiences.
 
 While I would not consider instrumental music abstract,
 contemporary compositions often feel like it.
 And to be honest I don't get them either.
+So how can composers and performers deliver raw feelings just using different notes and chords?
+The answer is that since they are human themselves,
+they can try different things and see how they make themselves feel.
+Art through empathy is a powerful mechanism,
+and one that is not available to artificial intelligence for obvious reasons.
 
 ## Modern Arts
 
@@ -191,12 +197,18 @@ which is undoubtedly a kind of feeling and does therefore qualify under our defi
 There are many other human activities that raise our inner emotions and could be considered art.
 Let's review a few of them.
 
-Comedic monologues: a category that transmits humor.
+### Comedic Monologues
 
-Computer games: the most consumed form of art nowadays, it is easy to create beauty, strike fear,
+A category that transmits humor.
+
+### Computer Games
+
+The most consumed form of art nowadays, it is easy to create beauty, strike fear,
 tell interesting and immersive stories.
 
-Eroticism: transmits feelings of sexual desire.
+### Eroticism and Pornography
+
+Transmits feelings of sexual desire.
 There is little doubt that erotic literature and cinema can be artistic,
 but pornography can be quite controversial.
 It is quite explicit about transmitting feelings,
@@ -207,17 +219,27 @@ The figure below is from India, one of the scarce cultures where pornography was
 
 ![Erotic Kama statues from Khajurâho temple, India. Source: [Flickr: Le Temple de Lakshmana (Khajurâho) via Wikimedia](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).](pics/on-art-erotic-kama-statues.jpg "Statues in bass relief of a man and a woman having sex, while another man looks at them and masturbates, and a woman also masturbates while looking away. A small female figure licks the leg of the man. All figures are nude and wear intricate hairstyles, and some jewelry around their arms.")
 
-Advertising: designed to create feelings, like cravings or desire.
+### Advertising
+
+Designed to stimulate feelings like cravings or desire.
 I don't see the fact that these works are done for crass commercial interests as a demerit:
 or should Michelangelo be ashamed of accepting money for doing propaganda for the strongest powers of his time,
 i.e. kings and popes?
 
-News: under the guise of reporting, these brave people will try to arouse our interest,
+### News
+
+Under the guise of reporting, these brave people will try to arouse our interest,
 while sometimes scaring or delighting the audience.
 Their serious countenance cannot distract us from the fact that they are often dealing with raw emotions.
 
-Influencing: these people know how to make you feel stuff.
+### Influencing
+
+These people know how to make you feel stuff.
 Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
+
+### Other Arts
+
+Magic, illegal arts: confidence artistry, phishing.
 
 # Advice to the Modern Artist
 
@@ -244,7 +266,12 @@ although there are shortcuts to get them which make them feel cheap.
 
 # 🤔 Conclusion
 
-Art 
+I don't have any particular credentials to speak about art,
+other than I like to experience art.
+Sometimes I even create art in my own _dilettante_ fashion, like drawings or music.
+I also like thinking hard about stuff,
+and don't think that we should be limited in the stuff that we give our opinion on.
+In any case, take my advice with a grain of salt.
 
 ## 🙏 Acknowledgements
 
