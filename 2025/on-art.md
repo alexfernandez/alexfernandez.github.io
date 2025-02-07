@@ -111,7 +111,7 @@ If nothing else, skill is needed to create works of beauty.
 # The Miracle of Art
 
 The mere fact that feelings can be transmitted among humans is a miracle.
-According to what I know my mind is a squishy mass enclosed in a bone cage,
+To the best of my knowledge my mind is a squishy mass enclosed in a bone cage,
 that gets all its inputs from a bunch of wet cables.
 Can it be that all outside things are just an illusion,
 and that I exist in isolation imagining everything else?
