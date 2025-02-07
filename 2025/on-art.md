@@ -85,8 +85,8 @@ and in this case we may well consider it artistic.
 
 Speaking about purpose: the intention of many works of art across history has been simply to be a vehicle so artists can show their craft.
 In painting this often goes under the guise of depicting reality.
-"Look what awesome drawings I can make", Raffaello seems to be saying to Albrecht Durer in this
-stunning study of two male figures.
+"Look what awesome drawings I can do", Raffaello seems to be saying in this
+stunning study of two male figures he sent to Albrecht Dürer.
 
 ![Raphael: Nude Studies, 1515. Source: [Google Art Project via Wikimedia](https://commons.wikimedia.org/wiki/File:Raphael_-_Nude_Studies,_1515_-_Google_Art_Project.jpg).](pics/on-art-raphael-nude-studies.jpg "Studies of two nude male figures drawn in red chalk.")
 
