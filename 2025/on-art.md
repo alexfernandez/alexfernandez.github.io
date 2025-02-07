@@ -73,7 +73,7 @@ then it falls out of scope.
 For instance, a movie director might want to create a work of horror and science fiction,
 but accidentally make the audience feel vicarious shame and laugh at it.
 
-[Plan 9](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).
+![For some reason, the Ed Wood movie 'Plan 9 from Outer Space' comes to mind. Source: [Wikimedia](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).](pics/on-art-plan-9.jpg "Poster for the movie 'Plan 9 from Outer Space', showing the title in bold red letters. Also in red a masculine protagonist and Vampira, a vampire lady. In the background are figher jets, grave diggers and some kind of crazy scientist. Most of these things do not appear in the movie at all, honestly.")
 
 Many human activities make us feel emotions.
 For instance a well designed and written software program may fill us with joy.
