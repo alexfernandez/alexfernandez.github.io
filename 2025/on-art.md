@@ -139,7 +139,7 @@ as I have explored in [The Amazing Mind](https://pinchito.es/2016/the-amazing-mi
 my "blue" is not your "blue" and they can never be equal:
 we don't have the exact same concepts or relationships in our brains.
 
-How can works of art jump the chasm among brains and reach our inner emotions?
+How can works of art jump the chasm across brains and reach our inner emotions?
 We might advance some evolutionary explanation about how shared feelings can be good for our survival,
 but this naïve sciency babbling can offer at most some superficial comfort.
 I prefer to just marvel at the fact that this happens at all.
