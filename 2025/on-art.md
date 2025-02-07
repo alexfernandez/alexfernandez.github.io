@@ -159,7 +159,7 @@ LLMs and generative models are at their core just probabilistic generators.
 The fact that our emotional machinery can be tricked by them is no wonder,
 as they are built to statistically replicate our works of art.
 But they are often repetitive, bland and lack depth.
-However, an artist can refine the input and filter the output of generative models and find those that are effective in conveying emotion.
+However, humans can refine the input and filter the output of generative models until they find those that are effective in conveying emotion.
 It would not be so different from a photographer picking the right perspective and angle to capture a beautiful sunset.
 
 ![Rafael Molina. Source: [Rafael Molina]().](pics/on-art-ai-generated.jpg "A colorful image of a boat in a lake with a sunset in the back.")
