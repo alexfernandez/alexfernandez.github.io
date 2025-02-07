@@ -116,7 +116,7 @@ that gets all its inputs from a bunch of wet cables.
 Can it be that all outside things are just an illusion,
 and that I exist in isolation imagining everything else?
 This fantasy has been [paradoxically shared since the times of Ancient Greece](https://en.wikipedia.org/wiki/Solipsism#History).
-For instance Descartes hypothesized that there was a
+A few centuries later Descartes hypothesized that there might be a
 [malicious demon](https://en.wikipedia.org/wiki/Evil_demon) feeding him all perceptions,
 to which there was hardly any escape.
 The modern version would be that we live in a [computer simulation](https://pinchito.es/2021/understanding-simulation).
