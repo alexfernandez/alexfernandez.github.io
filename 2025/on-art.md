@@ -22,7 +22,7 @@ Let us start by establishing this working definition:
 
 > Art is any activity that intentionally transmits emotions among humans.
 
-If you don't trust me, which by the way you shouldn't, let's consult other sources.
+If you don't trust me, which by the way I don't see why you should, let's consult other sources.
 The Cambridge dictionary defines [art](https://dictionary.cambridge.org/dictionary/english/art) as, among other things:
 
 > the making of objects, images, music, etc. that are beautiful or that express feelings.
