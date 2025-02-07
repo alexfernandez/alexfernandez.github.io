@@ -16,7 +16,9 @@ Read on.
 
 # 📖 A Brief Definition
 
-Let us start by establishing this working definition:
+Let us start by establishing this working definition to answer the question:
+
+> "But, what is art?"
 
 > Art is any activity that intentionally transmits emotions among humans.
 
