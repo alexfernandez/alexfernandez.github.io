@@ -54,7 +54,7 @@ the sensation of being watched over by a benevolent god-like entity that doesn't
 the inexplicable anguish we get when we see something irreparable that isn't even our fault.
 Complex story-telling is but one way of getting these sensations across.
 Some really good works of art can arise sophisticated emotions with seemingly unrelated elements,
-like musical chords or an installation.
+like musical chords or an [assemblage](https://en.wikipedia.org/wiki/Assemblage_(art)).
 
 ## Intentionality
 
