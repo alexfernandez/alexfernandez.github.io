@@ -128,7 +128,7 @@ Let's suppose that we somehow live in the world that we perceive.
 What we observe is that many humans can easily made to react in a similar way to the same stimulus.
 At a comedic monologue everyone laughs in unison at the same time,
 with a comedian's voice as only prompt.
-After a good sad movie many people will cry because they can be made to feel the sadness.
+After a good sad movie many people will cry because they can be made to live the drama.
 These are not isolated incidents.
 
 But if we think about it, it is a miracle that this happens at all.
