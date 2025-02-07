@@ -120,12 +120,12 @@ A few centuries later Descartes hypothesized that there might be a
 [malicious demon](https://en.wikipedia.org/wiki/Evil_demon) feeding him all perceptions,
 to which there was hardly any escape.
 The modern version would be that we live in a [computer simulation](https://pinchito.es/2021/understanding-simulation).
-In any of these scenarios art would be nonsensical, a lost cause.
+In any of these scenarios the transmission of feelings would be nonsensical, a lost cause.
 
 ![Are we just a brain in a vat? Source: Flick user [Gaetan Lee](https://www.flickr.com/people/43078695@N00) via [Wikimedia](https://commons.wikimedia.org/wiki/File:Human_brain_in_a_vat.jpg).](pics/on-art-brain-in-a-vat.jpg "A human brain in a jar of some yellowish liquidto preserve it, with the legend 'Homo' on top and 'D.694.2' at the bottom.")
 
 Let's suppose that we somehow live in the world that we perceive.
-What we observe is that many humans can easily made to react the same way to the same stimulus.
+What we observe is that many humans can easily made to react in a similar way to the same stimulus.
 At a comedic monologue everyone laughs in unison at the same time,
 with a comedian's voice as only prompt.
 After a good sad movie many people will cry because they can be made to feel the sadness.
