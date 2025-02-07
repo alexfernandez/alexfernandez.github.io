@@ -16,9 +16,9 @@ Read on.
 
 # 📖 A Brief Definition
 
-Let us start by establishing this working definition to answer the question:
-
-> "But, what is art?"
+If you are like me, you may be thinking at this point:
+"But, what can be considered art in this day and age?"
+Let us start by establishing this working definition:
 
 > Art is any activity that intentionally transmits emotions among humans.
 
