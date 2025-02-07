@@ -90,21 +90,21 @@ stunning study of two male figures he sent to Albrecht Dürer.
 
 ![Raphael: Nude Studies, 1515. Source: [Google Art Project via Wikimedia](https://commons.wikimedia.org/wiki/File:Raphael_-_Nude_Studies,_1515_-_Google_Art_Project.jpg).](pics/on-art-raphael-nude-studies.jpg "Studies of two nude male figures drawn in red chalk.")
 
-The text in the drawing, presumably written by Durer, [actually says](https://e-arthistory5.blogspot.com/2017/10/raphael-and-durer.html) as translated by David Handforth:
+The text in the drawing, presumably written by Dürer, [actually says](https://e-arthistory5.blogspot.com/2017/10/raphael-and-durer.html) as translated by David Handforth:
 
 > 1515: Raphael of Urbino, who is so highly regarded by the Pope, asserts that he has made this nude drawing and sent it to Albrecht Duerer at Nuernberg in order to demonstrate to him his skill.
 
 Confusingly, the [latin word _ars_](https://en.wiktionary.org/wiki/ars) means: "art, skill, craft, handicraft".
-We see this meaning today in phrases as "the art of..." for some method or trade,
-meant to teach how to do something which has no relation to the fine arts.
+We see this meaning today in phrases as "the art of...",
+often used to teach a trade or method which has no relation to any emotions.
 
 We will stick to our definition.
 Great art is supposed to not just depict reality,
 but convey strong emotions.
 Then why are skills important?
-Good technique often helps ease the transmission of feelings.
+Good technique often eases the transmission of feelings.
 Acting might be the most basic profession where you can just express a sentiment and rely on empathy,
-and even so it is not enough.
+and reaching across to the audience still requires lots of talent and preparation.
 If nothing else, skill is needed to create works of beauty.
 
 # The Miracle of Art
