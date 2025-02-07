@@ -83,7 +83,7 @@ and in this case we may well consider it artistic.
 
 ## Arts and Techniques
 
-The purpose of many works of art across history has been simply to be a vehicle so artists can show their craft.
+Speaking about purpose: the intention of many works of art across history has been simply to be a vehicle so artists can show their craft.
 In painting this often goes under the guise of depicting reality.
 "Look what awesome drawings I can make", Raffaello seems to be saying to Albrecht Durer in this
 stunning study of two male figures.
