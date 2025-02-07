@@ -59,19 +59,19 @@ There are also very complex sentiments that can be transmitted using art.
 That feeling you get when you are broke and looking at expensive things,
 the sensation of being watched over by a benevolent god-like entity that doesn't care about you,
 the inexplicable anguish we get when we see something irreparable that isn't even our fault.
-Complex story-telling is but one way of getting these sensations across.
-Some really good works of art can arise sophisticated emotions with seemingly unrelated elements,
-like musical chords or an [assemblage](https://en.wikipedia.org/wiki/Assemblage_(art)).
+Complex story-telling is but one way of transmitting such sophisticated emotions;
+some really good works of art can do it with seemingly unrelated elements,
+like musical chord sequences or an [assemblage](https://en.wikipedia.org/wiki/Assemblage_(art)).
 
 ## Intentionality
 
 A quick note on intention:
-to be art the artist has to want to transmit the emotion.
+in order to qualify as art, the artist has to _want_ to transmit a certain emotion.
 If someone is just sad and watching them makes other people feel sad,
 or if an artist wants to transmit one thing but then conveys another,
 then it falls out of scope.
 For instance, a movie director might want to create a work of horror and science fiction,
-but accidentally make the audience feel vicarious shame.
+but accidentally make the audience feel vicarious shame and laugh at it.
 
 [Plan 9](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).
 
