@@ -22,11 +22,16 @@ Let us start by establishing this working definition:
 
 > Art is any activity that intentionally transmits emotions among humans.
 
-I am not simply making things up.
+If you don't trust me, which by the way you shouldn't, let's consult other sources.
 The Cambridge dictionary defines [art](https://dictionary.cambridge.org/dictionary/english/art) as, among other things:
 
 > the making of objects, images, music, etc. that are beautiful or that express feelings.
 
+while The Britannica Dictionary [says](https://www.britannica.com/dictionary/art):
+
+> something that is created with imagination and skill and that is beautiful or that expresses important ideas or feelings.
+
+Let's go with our simpler statement and see where it takes us.
 It is easy to see that acting (as seen in theater and movies) falls under this definition:
 practitioners display a range of emotions which, when properly done, will carry over to the audience.
 Other forms of art may not rely on direct empathy and therefore they are less immediate,
