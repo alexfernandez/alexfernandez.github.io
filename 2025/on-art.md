@@ -136,7 +136,8 @@ We all have different experiences and backgrounds.
 What is sad to some can be enlightening to others.
 Even the experience of a color is mediated by different relations between concepts:
 as I have explored in [The Amazing Mind](https://pinchito.es/2016/the-amazing-mind#my-blue-and-your-blue),
-my "blue" is not your "blue" and they can never be equal since we don't have the exact same concepts in our brains.
+my "blue" is not your "blue" and they can never be equal:
+we don't have the exact same concepts or relationships in our brains.
 
 How can works of art jump the chasm among brains and reach our inner emotions?
 We might advance some evolutionary explanation about how shared feelings can be good for our survival,
