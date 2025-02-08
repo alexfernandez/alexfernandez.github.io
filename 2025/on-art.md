@@ -238,7 +238,7 @@ While a personal imprint can be nice, it can also get in the way.
 
 Actors sometimes complain that they are typecast in a kind of role, for instance.
 The same can happen to many other artists if they specialize too much.
-Artistic coherence is nice, but evolution as an artist also requires modifying your style.
+Artistic coherence is nice, but evolution as an artist may also require modifying your style.
 
 ![Many classic painters have really defined styles, such as Hieronymus Bosch in this work: Saint John the Baptist in the Desert. Source: Google Art Project via [Wikimedia](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg).](pics/on-art-bosch-saint-john.jpg "")
 
@@ -278,9 +278,13 @@ Let's now delve into the tricky world of categorizing art.
 
 The traditional [fine arts](https://en.wikipedia.org/wiki/Fine_art) are:
 painting, sculpture, architecture, music, poetry, theatre and dance.
-Of these, not all transmit feelings the same way.
+One of these sticks out as being particularly inefficient for the tranmission of sentiments.
 
-Architecture creates living spaces.
+Architecture creates living spaces,
+it can create and express beauty,
+but the range of emotions that it can express is severely limited.
+Nowadays it is more functional than artistic in my opinion,
+although there are still surprising findings.
 
 ### Abstract Art
 
@@ -312,7 +316,7 @@ and one that is not available to artificial intelligence for obvious reasons.
 
 ## Modern Arts
 
-Modern categories often include cinema, photography or comics.
+Modern categories often include cinema, photography and comics.
 
 What about [applied arts](https://en.wikipedia.org/wiki/Applied_arts) like design or decoration?
 According to Wikipedia they make everyday objects aesthetically pleasing,
@@ -401,5 +405,8 @@ to artists it is essential.
 
 ## 🙏 Acknowledgements
 
+Thanks to Rafael Molina for access to his works of AI-generated art.
 
+Thanks to my daughter Lucía for the inspiration to write this article,
+and the many interesting conversations we have had about the topic of art.
 
