@@ -217,12 +217,16 @@ Alternatively, not keeping up with trends can make audiences disengage.
 
 ## Result not Process
 
-Focus on the result,
+To create impactful art there are no established processes.
+Instead you should focus on the result,
 and work backwards from there.
+If you have something to express look for the most effective way of achieving it.
 
 There are no cheap emotions,
-although there are shortcuts to get them which make them feel cheap.
+although there are shortcuts to express them which make them feel cheap.
 People like to think they have earned their right to their feelings.
+Just putting things out there is not enough.
+Skill and technique are crucial to deliver properly.
 
 ## Art and Style
 
@@ -236,7 +240,7 @@ Actors sometimes complain that they are typecast in a kind of role, for instance
 The same can happen to many other artists if they specialize too much.
 Artistic coherence is nice, but evolution as an artist also requires modifying your style.
 
-[El Bosco](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg)
+![Hieronymus Bosch: Saint John the Baptist in the Desert. Source: Google Art Project via [Wikimedia](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg).](pics/on-art-bosch-saint-john.jpg "")
 
 To the point that style is unavoidable, just embrace it.
 But it can be worth your time to venture out of your own personality.
@@ -254,7 +258,14 @@ Sometimes I even create art in my own _dilettante_ fashion, like drawings or mus
 I also like thinking hard about things that I find interesting,
 and don't think that we should be limited to give our opinion on matters outside our experience.
 
-On the other hand it is usually interesting to listen to experts.
+On the other hand it is usually more interesting to listen to experts.
+I just think that in this area the artists themselves are too lost in the process,
+and do not try to derive their advice from first principles.
+That is why I started with a very simple premise:
+
+> Art is any activity that intentionally transmits emotions among humans.
+
+And worked my way from there.
 In any case, take my advice with a grain of salt.
 
 # Artistic Categories
