@@ -198,19 +198,21 @@ audiences can still feel the anguish when watching a modern performance of
 [_Oedipus Rex_](https://en.wikipedia.org/wiki/Oedipus_Rex),
 premiered almost 2500 years ago.
 Spoilers ahead:
-every generation has to rediscover the mystery thriller where we follow a crime investigation,
-only to find that the killer is finally revealed to be the protagonist.
+everyone remembers that Oedipus killed his own father and slept with his own mother,
+but it is indeed the first preserved thriller.
+We follow the crime investigation where he tries to find the killer of his predecessor as king,
+only to learn that Oedipus himself was the killer and that the guy was his father.
 This theme is used in (more spoilers)
-[these ten movies](https://screenrant.com/great-movies-hero-killer-all-along/).
-In _Oedipus Rex_ everyone remembers that the guy killed his own father and slept with his own mother, not knowing that she was,
-but it is indeed the first mystery investigation.
-And also the first where Oedipus looks for his 
+[these ten movies](https://screenrant.com/great-movies-hero-killer-all-along/):
+apparently every generation has to rediscover the story where the hero turns out to be the killer.
 
 ![Pierre-Auguste Renoir: Oedipus Rex. Source: [WikiArt.org](https://www.wikiart.org/en/pierre-auguste-renoir/oedipus-rex-1895).](pics/on-art-oedipus-rex.jpg "A man with bloody eyes is on top of the palace stairs, surrounded by columns. A crowd dressed in tunics is in disarray below. A veritable tragedy.")
 
 A singer that transmits their emotions in a live performance does not need perfect pitch,
 autotune or a hundred synthesizers.
-On the other hand audiences tend to get bored and require some degree of novelty too.
+On the other hand audiences tend to get bored and require some degree of novelty too,
+and there are fashions in art which can make feelings more powerful.
+Alternatively, not keeping up with trends can make audiences disengage.
 
 ## Result not Process
 
