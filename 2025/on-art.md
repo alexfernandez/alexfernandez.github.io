@@ -1,5 +1,5 @@
 ---
-title: '🎨 Advice to the Modern Artist'
+title: '🎨 Advice for the Modern Artist'
 subtitle: 'On Art in the Age of Artificial Intelligence'
 footer: Published on 2025-02-03, last modified on 2025-02-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
@@ -185,9 +185,9 @@ In these cases it is the person behind the program
 (or the controls, or the algorithms)
 that is doing the transmission.
 
-# Advice to the Modern Artist
+# Some Advice
 
-At this point we are ready to extract some conclusions.
+At this point we are ready to extract some lessons.
 An artist should always **focus on creating feelings**.
 Technique, style, story telling, are all means to an end.
 Learn to feel things yourself.
