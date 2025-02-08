@@ -190,8 +190,9 @@ that is doing the transmission.
 At this point we are ready to extract some lessons.
 An artist should always **focus on creating feelings**.
 Technique, style, story telling, are all means to an end.
-Learn to feel things yourself.
-Raw emotions are hard.
+To achieve this you should learn to feel things yourself.
+Keep in mind that raw emotions are hard,
+and the process of exposing them is even harder.
 
 It doesn't matter that everything has been said 1000 times;
 audiences can still feel the anguish when watching a modern performance of
