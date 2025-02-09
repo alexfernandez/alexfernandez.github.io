@@ -245,7 +245,6 @@ Artistic coherence is nice, but evolution as an artist may also require modifyin
 
 To the point that style is unavoidable, just embrace it.
 But it can be worth your time to venture out of your own personality.
-
 For many artists their egos can become a problem:
 for some reason, staying in touch with your inner feelings and being able to project them to others
 make people believe they are more important than the rest.
