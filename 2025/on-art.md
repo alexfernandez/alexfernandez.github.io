@@ -241,7 +241,7 @@ Actors sometimes complain that they are typecast in a kind of role, for instance
 The same can happen to many other artists if they specialize too much.
 Artistic coherence is nice, but evolution as an artist may also require modifying your style.
 
-![Many classic painters have really defined styles, such as Hieronymus Bosch in this work: Saint John the Baptist in the Desert. Source: Google Art Project via [Wikimedia](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg).](pics/on-art-bosch-saint-john.jpg "")
+![Many classic painters have really defined styles, such as the oniric images that Hieronymus Bosch displays in this work: Saint John the Baptist in the Desert. Source: Google Art Project via [Wikimedia](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg).](pics/on-art-bosch-saint-john.jpg "")
 
 To the point that style is unavoidable, just embrace it.
 But it can be worth your time to venture out of your own personality.
