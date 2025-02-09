@@ -353,11 +353,11 @@ The difference seems to be the open depiction of genitals and sexual acts.
 
 It is common knowledge that there are many such images in India,
 like the [Kama statues from Khajurâho temple (NSFW)](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).
-Below is an example of a much lesser known trend:
+Below is an example of a less known trend:
 pornographic figures in Christian Romanesque temples from the 11th century.
 (They are usually labeled "erotic" but it doesn't fool anyone.)
 
-![Detail of two figures in the collegiate church of San Pedro de Cervatos, Spain. Source: [Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/on-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
+![Detail of two figures in the collegiate church of San Pedro de Cervatos, Spain. Source: [Jcdelorge via Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/on-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
 
 ### News
 
