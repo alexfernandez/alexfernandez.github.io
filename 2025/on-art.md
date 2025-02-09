@@ -292,9 +292,12 @@ There are still surprising findings.
 ### Abstract Art
 
 It is not clear how abstract art transmits whatever it is supposed to be transmitting.
-Is it skill by the author, a complex technique or the novelty of a new pattern?
-I must confess that I don't get it,
+Is it just displaying skill by the author, a complex technique or the novelty of a new pattern?
+I must confess that quite often I don't get it,
 and so seem to do most people as it has never gained widespread acceptance.
+I can also feel some suppressed emotions sometimes with exceptional works.
+
+![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist Arturo. You have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/on-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
 
 It is true that music in its purest form (without words or voices) is often seen as abstract.
 The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
