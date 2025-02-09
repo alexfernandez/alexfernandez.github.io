@@ -277,15 +277,17 @@ Let's now delve into the tricky world of categorizing art.
 
 ## Fine Arts
 
-The traditional [fine arts](https://en.wikipedia.org/wiki/Fine_art) are:
+The traditional [fine arts](https://en.wikipedia.org/wiki/Fine_art) are according to Wikipedia:
 painting, sculpture, architecture, music, poetry, theatre and dance.
-One of these sticks out as being particularly inefficient for the tranmission of sentiments.
 
+One of these sticks out as being particularly inefficient for the tranmission of sentiments.
 Architecture creates living spaces,
 it can create and express beauty,
 but the range of emotions that it can express is severely limited.
-Nowadays it is more functional than artistic in my opinion,
-although there are still surprising findings.
+When a construction is more functional than artistic, can it be said to be art?
+There are still surprising findings.
+
+![Parc Güell by Antoni Gaudí is one of those nice exceptions. Source: [Txllxt TxllxT via Wikimedia](https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_square_-_View_ESE_on_Curved_Mosaic_%26_Larger_entrance_building_1901-1903_by_Antoni_Gaud%C3%AD.jpg).](pics/on-art-gaudi-parc-guell.jpg "A view of a parc from one of the seats, showing a dream-like arrangement of multi-colored seats and the entrance which looks like a hose from a children book.")
 
 ### Abstract Art
 
