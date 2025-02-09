@@ -349,10 +349,15 @@ but pornography can be quite controversial.
 It is quite explicit about transmitting feelings,
 more specifically sexual arousal,
 but it is banned in many cultures and poorly considered in many others.
-The figure below is from India, one of the scarce cultures where pornography was acceptable in temples.
-(It's labeled "erotic" but it doesn't fool anyone.)
+The difference seems to be the open depiction of genitals and sexual acts.
 
-![Erotic Kama statues from Khajurâho temple, India. Source: [Flickr: Le Temple de Lakshmana (Khajurâho) via Wikimedia](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).](pics/on-art-erotic-kama-statues.jpg "Statues in bass relief of a man and a woman having sex, while another man looks at them and masturbates, and a woman also masturbates while looking away. A small female figure licks the leg of the man. All figures are nude and wear intricate hairstyles, and some jewelry around their arms.")
+It is common knowledge that there are many such images in India,
+like the [Kama statues from Khajurâho temple (NSFW)](https://en.wikipedia.org/wiki/File:2_Erotic_Kama_statues_of_Khajuraho_Hindu_Temple_de_Lakshmana_Khajur%C3%A2ho_India_2013.jpg).
+Below is an example of a much lesser known trend:
+pornographic figures in Christian Romanesque temples from the 11th century.
+(They are usually labeled "erotic" but it doesn't fool anyone.)
+
+![Detail of two figures in the collegiate church of San Pedro de Cervatos, Spain. Source: [Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/on-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
 
 ### News
 
