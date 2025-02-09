@@ -346,9 +346,7 @@ A category that transmits humor.
 Transmits feelings of sexual desire.
 There is little doubt that erotic literature and cinema can be artistic,
 but pornography can be quite controversial.
-It is quite explicit about transmitting feelings,
-more specifically sexual arousal,
-but it is banned in many cultures and poorly considered in many others.
+It is banned in many cultures and poorly considered in many others.
 The difference seems to be the open depiction of genitals and sexual acts.
 
 It is common knowledge that there are many such images in India,
@@ -358,6 +356,12 @@ pornographic figures in Christian Romanesque temples from the 11th century.
 (They are usually labeled "erotic" but it doesn't fool anyone.)
 
 ![Detail of two figures in the collegiate church of San Pedro de Cervatos, Spain. Source: [Jcdelorge via Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/on-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
+
+Porn is quite explicit about transmitting feelings,
+more specifically sexual arousal,
+so it would meet our definition of art.
+I can hardly recommend anyone to devote their careers to erotic or porn modelling,
+as it is really limiting artistically.
 
 ### News
 
