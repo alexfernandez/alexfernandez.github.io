@@ -255,10 +255,6 @@ for some reason, staying in touch with your inner feelings and being able to pro
 make people believe they are more important than the rest.
 Being able to keep your ego within checks is a valuable asset in your career.
 
-## But What Art?
-
-We need 
-
 ## Caveats
 
 I don't have any particular credentials to speak about art,
