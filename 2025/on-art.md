@@ -280,8 +280,10 @@ In any case, take my advice with a grain of salt.
 # 🤔 Conclusion
 
 Learn how to transmit feelings.
-It is useful in many ways of life;
+It is useful in many aspects of life;
 to artists it is essential.
+First you need to learn how to feel deep emotions,
+then learn the skills to put them out there.
 
 There is an open question about which venues does the modern artist have to express themselves,
 but this piece is already long enough.
