@@ -227,7 +227,7 @@ Alternatively, not keeping up with trends can make audiences disengage.
 
 Established processes to create impactful art are too prone to fall into the mindless formula,
 like TV movies or elevator music:
-bland feelings at best, poor .
+bland feelings at best, poor execution at worst.
 Instead you should focus on the result and work backwards from there.
 If you have something to express look for the most effective way of achieving it.
 
