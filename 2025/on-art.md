@@ -295,9 +295,9 @@ Thanks to Rafael Molina for access to his works of AI-generated art, in particul
 
 Thanks to Pablo and Mapi from Casa Cactus for letting me use their wonderful computer-generated designs.
 
-Thanks to my daughter Lucía for the inspiration to write this article,
-and the many interesting conversations we have had about the topic of art.
-
 Thanks to Arturo Martín Burgos for the many conversations about art,
 and for trying so hard to get me to understand abstract paintings.
+
+Thanks to my daughter Lucía for the inspiration to write this article,
+and the many interesting conversations we have had about the topic of art.
 
