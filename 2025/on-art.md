@@ -23,7 +23,8 @@ Let us start by establishing this working definition:
 
 > Art is any activity that intentionally transmits emotions among humans.
 
-If you don't trust me, which by the way I don't see why you should, let's consult other sources.
+If you don't trust me,
+and honestly I cannot see why you should, let's consult other sources.
 The Cambridge dictionary defines [art](https://dictionary.cambridge.org/dictionary/english/art) as, among other things:
 
 > the making of objects, images, music, etc. that are beautiful or that express feelings.
@@ -74,7 +75,7 @@ then it falls out of scope.
 For instance, a movie director might want to create a work of horror and science fiction,
 but accidentally make the audience feel vicarious shame and laugh at it.
 
-![For some reason, the Ed Wood movie 'Plan 9 from Outer Space' comes to mind. Source: [Wikimedia](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).](pics/on-art-plan-9.jpg "Poster for the movie 'Plan 9 from Outer Space', showing the title in bold red letters. Also in red a masculine protagonist and Vampira, a vampire lady. In the background are figher jets, grave diggers and some kind of crazy scientist. Most of these things do not appear in the movie at all, honestly.")
+![For some reason, the 1956 Ed Wood movie 'Plan 9 from Outer Space' comes to mind. Source: [Wikimedia](https://en.wikipedia.org/wiki/File:Plan_9_Alternative_poster.jpg).](pics/on-art-plan-9.jpg "Poster for the movie 'Plan 9 from Outer Space', showing the title in bold red letters. Also in red a masculine protagonist and Vampira, a vampire lady. In the background are figher jets, grave diggers and some kind of crazy scientist. Most of these things do not appear in the movie at all, honestly.")
 
 Many human activities make us feel emotions.
 For instance a well designed and written software program may fill us with joy.
