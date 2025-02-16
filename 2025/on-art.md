@@ -211,9 +211,9 @@ everyone remembers that Oedipus killed his own father and slept with his own mot
 but it is indeed the first preserved thriller.
 We follow the crime investigation where he tries to find the killer of his predecessor as king,
 only to learn that Oedipus himself was the killer and that the guy was his father.
-This theme is used in (more spoilers)
+The theme of the hero that turns out to be the killer is used in (more spoilers)
 [these ten movies](https://screenrant.com/great-movies-hero-killer-all-along/):
-apparently every generation has to rediscover the story where the hero turns out to be the killer.
+apparently every generation has to rediscover the story.
 
 ![Pierre-Auguste Renoir: Oedipus Rex. Source: [WikiArt.org](https://www.wikiart.org/en/pierre-auguste-renoir/oedipus-rex-1895).](pics/on-art-oedipus-rex.jpg "A man with bloody eyes is on top of the palace stairs, surrounded by columns. A crowd dressed in tunics is in disarray below. A veritable tragedy.")
 
