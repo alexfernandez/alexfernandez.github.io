@@ -8,7 +8,8 @@ image: https://pinchito.es/2025/pics/on-art-almeria-dyrm.jpg
 
 Art in our time may look like a bleak endeavor:
 in an era of oversupply and saturation, isn't everything said and done?
-And now with artificial intelligence (AI) and large language models (LLMs)
+And in case it wasn't enough,
+armed with artificial intelligence (AI) and large language models (LLMs)
 the machines seem to be copying everything well enough;
 what place is left for the fledging artist?
 There is hope, my human friends!
