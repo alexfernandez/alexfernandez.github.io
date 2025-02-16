@@ -246,7 +246,7 @@ Some artists even make a point of being able to switch their ways freely.
 
 While a personal imprint can be nice, it can also get in the way.
 Actors sometimes complain that they are typecast in a kind of role, for instance.
-The same can happen to many other artists if they specialize too much.
+The same can happen to many other performers and creators if they specialize too much.
 Artistic coherence is nice, but evolution as an artist may also require modifying your style.
 
 ![Many classic painters have really defined styles, such as the oniric images that Hieronymus Bosch displays in this work: Saint John the Baptist in the Desert. Source: Google Art Project via [Wikimedia](https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_Saint_John_the_Baptist_in_the_Desert_-_Google_Art_Project.jpg).](pics/on-art-bosch-saint-john.jpg "")
