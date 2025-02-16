@@ -9,6 +9,10 @@ I am a developer (little) known as
 [\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
+### 2025
+
+🗣️ 🇮🇪 2025-02-16: [🎨 Advice for the Modern Artist](2025/on-art)  
+
 ### 2024
 
 🧑‍💻 🇮🇪 2024-11-07: [🔧 On Tooling](2024/on-tooling)  
