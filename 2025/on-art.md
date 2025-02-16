@@ -269,7 +269,7 @@ and don't think that we should be limited to give our opinion on matters outside
 
 On the other hand it is usually more interesting to listen to experts.
 I just think that in this area the artists themselves are too lost in the process,
-and do not try to derive their advice from first principles.
+Not even art critics or theorists try to derive their advice from first principles.
 That is why I started with a very simple premise:
 
 > Art is any activity that intentionally transmits emotions among humans.
