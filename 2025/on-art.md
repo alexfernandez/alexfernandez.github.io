@@ -99,7 +99,7 @@ The text in the drawing, presumably written by Dürer, [actually says](https://e
 Confusingly, the [latin word _ars_](https://en.wiktionary.org/wiki/ars) means: "art, skill, craft, handicraft".
 We see this meaning today in phrases as "the art of...",
 often used to teach a trade or method which has no relation to any emotions.
-Should we also consider this aspect of art?
+Should we also consider this aspect of "art" as "skill"?
 
 We will stick to our definition.
 Great art is supposed to not just depict reality,
