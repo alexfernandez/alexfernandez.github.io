@@ -5,9 +5,7 @@ footer: Published on 2025-02-15, last modified on 2025-02-15.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Art in our time may look like a bleak endeavor:
-  we live in an era of oversupply and saturation, when everything is said and done.
-  And in case it was not enough, 
-  machines armed with AI and LLMs seem to be copying everything well enough.
+  machines with AI and LLMs seem to be copying everything.
   What place is left for the fledging artist?'
 image: https://pinchito.es/2025/pics/on-art-almeria-dyrm.jpg
 ---
