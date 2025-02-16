@@ -1,6 +1,6 @@
 ---
 title: '🎨 Advice for the Modern Artist'
-subtitle: 'On Art in the Age of Artificial Intelligence'
+subtitle: 'On Art in the Age of AI'
 footer: Published on 2025-02-15, last modified on 2025-02-15.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
