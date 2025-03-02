@@ -5,7 +5,7 @@ footer: Enjoy!
 ---
 
 I am a developer (little) known as
-[pinchito on Twitter](https://twitter.com/pinchito),
+[pinchito on BlueSky](https://bsky.app/profile/pinchito.bsky.social),
 [\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
