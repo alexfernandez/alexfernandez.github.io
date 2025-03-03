@@ -34,5 +34,6 @@ I don't have a night job.
 ## 📋 CV
 
 If you want more detailed info you can read
-[my CV](/cv).
+[my CV](/cv),
+or my [speaker profile](https://pinchito.es/permanent/speaker).
 
