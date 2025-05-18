@@ -14,22 +14,29 @@ Let us recall the definition we used in [🎨 Advice for the Modern Artist](./on
 # Artistic Categories
 
 What particular area of expertise should the fledging artist choose?
-There are more than you think.
+In the past there were just a few options,
+but nowadays there are a few more options than we may think.
 Let's now delve into the tricky world of categorizing art.
 
 ## Fine Arts
 
 The traditional [fine arts](https://en.wikipedia.org/wiki/Fine_art) are according to Wikipedia:
-painting, sculpture, architecture, music, poetry, theatre and dance.
+painting, sculpture, architecture, music, and poetry.
+Theatre and dance were also commonly included.
 
-One of these sticks out as being particularly inefficient for the tranmission of sentiments.
-Architecture creates living spaces,
+It cannot be denied that paintings or sculptures can convey powerful emotions,
+and do this deliberately enough.
+
+![Saturn devouring his son, by Francisco de Goya. Source: [Museo del Prado via Wikimedia](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg).](pics/modern-art-goya-saturno.jpg "Saturno devorando a su hijo: a dramatic human figure with long hair is eating a small bloody corpse, supposedly a Roman god eating a child.")
+
+But one of the fine arts sticks out as being particularly inefficient for the tranmission of sentiments.
+**Architecture** creates living spaces,
 it can create and express beauty,
 but the range of emotions that it can express is severely limited.
 When a construction is more functional than artistic, can it be said to be art?
 There are still surprising findings.
 
-![Parc Güell by Antoni Gaudí is one of those nice exceptions. Source: [Txllxt TxllxT via Wikimedia](https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_square_-_View_ESE_on_Curved_Mosaic_%26_Larger_entrance_building_1901-1903_by_Antoni_Gaud%C3%AD.jpg).](pics/on-art-gaudi-parc-guell.jpg "A view of a parc from one of the seats, showing a dream-like arrangement of multi-colored seats and the entrance which looks like a hose from a children book.")
+![Parc Güell by Antoni Gaudí is one of those nice exceptions. Source: [Txllxt TxllxT via Wikimedia](https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_square_-_View_ESE_on_Curved_Mosaic_%26_Larger_entrance_building_1901-1903_by_Antoni_Gaud%C3%AD.jpg).](pics/modern-art-gaudi-parc-guell.jpg "A view of a parc from one of the seats, showing a dream-like arrangement of multi-colored seats and the entrance which looks like a hose from a children book.")
 
 ### Abstract Art
 
@@ -39,7 +46,7 @@ I must confess that quite often I don't get it,
 and so seem to do most people as it has never gained widespread acceptance.
 I can also feel some suppressed emotions sometimes with exceptional works.
 
-![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist Arturo. You have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/on-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
+![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist Arturo. You have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
 
 It is true that music in its purest form (without words or voices) is often seen as abstract.
 The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
@@ -52,6 +59,12 @@ On a more personal note,
 once I was feeling nostalgic at a jazz guitar duo concert, only to learn later that
 [the piece was called "Nostalgia"](https://www.youtube.com/watch?v=huZitIqcdt8&t=1611s).
 I'm sure you have had similar experiences.
+
+I cannot help but think that we have the ability to transmit powerful emotions using our voices:
+cheerful chirps, sad intonations, whiny howls, or imperative commands.
+Even birds have the power to make us feel happy or sad with their songs.
+Is it possible that musical compositions mimic these "wired-in" patterns?
+In this case music would just be emulating the sounds of nature.
 
 While I would not consider instrumental music abstract,
 contemporary compositions often feel like it.
@@ -69,6 +82,8 @@ Modern categories often include cinema, photography and comics.
 What about [applied arts](https://en.wikipedia.org/wiki/Applied_arts) like design or decoration?
 According to Wikipedia they make everyday objects aesthetically pleasing,
 which is undoubtedly a kind of feeling and does therefore qualify under our definition.
+
+We already saw this piece of algorithmic art:
 
 ![An abstract design generated by computer, then "printed" used a modified CNC mill, and finally photographed. Source: [Casa Cactus](https://casacactus.es/), used with permission.](pics/on-art-design.jpg "Spirals in yellow, pink and black overlapping, composed of many thin lines, displaying beautiful moiré patterns.")
 
@@ -105,7 +120,7 @@ Below is an example of a less known trend:
 pornographic figures in Christian Romanesque temples from the 11th century.
 (They are usually labeled "erotic" but it doesn't fool anyone.)
 
-![Detail of two figures in the collegiate church of San Pedro de Cervatos, 11th century, Spain. Source: [Jcdelorge via Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/on-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
+![Detail of two figures in the collegiate church of San Pedro de Cervatos, 11th century, Spain. Source: [Jcdelorge via Jot Down Cultural Magazine](https://www.jotdown.es/2019/08/ruta-por-el-romanico-erotico/).](pics/modern-art-cervatos-colegiata.jpg "Two small statues hanging from the church ceiling. One depicts a crudely carved woman holding up her legs and displaying her vagina, the other represents a squatting man with an enormous penis poking out.")
 
 Porn is quite explicit about transmitting feelings,
 more specifically sexual arousal,
@@ -140,7 +155,7 @@ But contemplating different points of view can open your mind and widen your hor
 
 Magic makes you feel wonder.
 
-### The Dark Arts
+## The Dark Arts
 
 Going by our definition alone,
 we could think that there are malicious activities which should be considered artistic.
@@ -153,8 +168,18 @@ where the victim is made to feel miserable.
 I don't think anyone sane would want to call them arts even though there is transmission of emotions.
 We may feel tempted to exclude negative emotions from our definition so we can get rid of similar pursuits,
 but then we run the risk of banning also tragedies or sad movies.
-We may prefer to realize that there is a dark side to some human activities which is highly damaging to people,
-and choose not to consider it art.
+How can we keep out this dark side to some human activities which is highly damaging to people,
+and choose not to consider it art?
+
+To help us out of this predicament let's look deeper into the "intentionality"
+built into our definition.
+Should art require two-way intentions,
+so that the artist wants to transmit emotions **and** the audience wants to receive them?
+This is an interesting question which probably needs more space to be answered.
+As a quick note, some artists may abuse our confidence,
+promising some emotions but then delivering in a completely unexpected way.
+Gaspar Noé comes to mind as a famous director that makes
+[shocking, controversial movies](https://goldenglobes.com/articles/gaspar-noe-on-why-he-does-not-want-to-make-shocking-movies-anymore/).
 
 # 🤔 Conclusion
 
