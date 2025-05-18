@@ -1,7 +1,7 @@
 ---
 title: '🎨 How Many Arts Are There?'
 subtitle: 'Modern Art Categorization'
-footer: Published on 2025-02-03, last modified on 2025-02-03.
+footer: Published on 2025-05-19, last modified on 2025-05-19.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2025/pics/modern-art-.jpg
 ---
@@ -46,7 +46,7 @@ I must confess that quite often I don't get it,
 and so seem to do most people as it has never gained widespread acceptance.
 I can also feel some suppressed emotions sometimes with exceptional works.
 
-![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist Arturo. You have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
+![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist [Arturo](https://www.arturomartinburgos.com/). Sadly, you have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
 
 It is true that music in its purest form (without words or voices) is often seen as abstract.
 The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
@@ -138,6 +138,8 @@ Their serious countenance cannot distract us from the fact that they are often d
 
 These people know how to make you feel stuff.
 Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
+
+![An old-style influencer, i.e. a charlatan. Source: [Statens Museum for Kunst via Wikimedia](https://commons.wikimedia.org/wiki/File:Wilhelm_Marstrand,_En_charlatan_s%C3%A6lger_blanksv%C3%A6rte_p%C3%A5_Piazza_Barberini_i_Rom,_,_KMS3770,_Statens_Museum_for_Kunst.jpg).](pics/modern-art-influencer.jpg "A classical painting titled 'A Charlatan Selling Blacking in the Piazza Barberini in Rome', depicts a guy with a mustachio surrounded by a multitude, to whom he is trying to sell some magical product.")
 
 ### Gastronomy
 
