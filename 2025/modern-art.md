@@ -1,7 +1,7 @@
 ---
 title: '🎨 How Many Arts Are There?'
-subtitle: 'Modern Art Categorization'
-footer: Published on 2025-05-19, last modified on 2025-05-19.
+subtitle: 'Categorizing Modern Art'
+footer: Published on 2025-07-04, last modified on 2025-07-04.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2025/pics/modern-art-.jpg
 ---
@@ -14,8 +14,8 @@ Let us recall the definition we used in [🎨 Advice for the Modern Artist](./on
 # Artistic Categories
 
 What particular area of expertise should the fledging artist choose?
-In the past there were just a few options,
-but nowadays there are a few more options than we may think.
+In the past there were only a few options,
+but nowadays there are a lot of avenues to express yourself.
 Let's now delve into the tricky world of categorizing art.
 
 ## Fine Arts
@@ -25,37 +25,41 @@ painting, sculpture, architecture, music, and poetry.
 Theatre and dance were also commonly included.
 
 It cannot be denied that paintings or sculptures can convey powerful emotions,
-and do this deliberately enough.
+and do this deliberately enough, as we can see below.
 
 ![Saturn devouring his son, by Francisco de Goya. Source: [Museo del Prado via Wikimedia](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg).](pics/modern-art-goya-saturno.jpg "Saturno devorando a su hijo: a dramatic human figure with long hair is eating a small bloody corpse, supposedly a Roman god eating a child.")
 
-But one of the fine arts sticks out as being particularly inefficient for the tranmission of sentiments.
-**Architecture** creates living spaces,
+I have no concerns about poetry, theatre or dance either.
+But one of those fine arts sticks out as being particularly inefficient for the tranmission of sentiments:
+**architecture** creates living spaces,
 it can create and express beauty,
 but the range of emotions that it can express is severely limited.
 When a construction is more functional than artistic, can it be said to be art?
-There are still surprising findings.
+To be honest I have a hard time getting emotions from buildings;
+and yet there are still surprising findings.
 
 ![Parc Güell by Antoni Gaudí is one of those nice exceptions. Source: [Txllxt TxllxT via Wikimedia](https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_square_-_View_ESE_on_Curved_Mosaic_%26_Larger_entrance_building_1901-1903_by_Antoni_Gaud%C3%AD.jpg).](pics/modern-art-gaudi-parc-guell.jpg "A view of a parc from one of the seats, showing a dream-like arrangement of multi-colored seats and the entrance which looks like a hose from a children book.")
 
-### Abstract Art
+### Music and Abstract Art
 
-It is not clear how abstract art transmits whatever it is supposed to be transmitting.
-Is it just displaying skill by the author, a complex technique or the novelty of a new pattern?
-I must confess that quite often I don't get it,
-and so seem to do most people as it has never gained widespread acceptance.
-I can also feel some suppressed emotions sometimes with exceptional works.
-
-![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist [Arturo](https://www.arturomartinburgos.com/). Sadly, you have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
-
+We have not referred to music yet, and it is an interesting case.
 It is true that music in its purest form (without words or voices) is often seen as abstract.
 The [Pythagoreans](https://en.wikipedia.org/wiki/Pythagoreanism) wondered about the geometric nature of musical chords,
 found out experimentally by plucking a string of different ratios.
 Why are some chords sad, while others feel feisty?
+
+In general, it is not clear how abstract art transmits whatever it is supposed to be transmitting.
+Is it just displaying skill by the author, a complex technique or the novelty of a new pattern?
+I must confess that quite often I don't get it,
+and apparently most people as it has never gained widespread acceptance.
+And yet I can also feel some strong emotions sometimes with exceptional works.
+
+![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist [Arturo](https://www.arturomartinburgos.com/). Sadly, you have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
+
 But the fact is that music can transmit strong complex emotions.
 Film soundtracks are usually instrumental,
-and they help carry the story forward to the point that movies feel naked without them.
-On a more personal note,
+and they help carry the story forward to the point that many movies feel naked without them.
+I will add a more personal note:
 once I was feeling nostalgic at a jazz guitar duo concert, only to learn later that
 [the piece was called "Nostalgia"](https://www.youtube.com/watch?v=huZitIqcdt8&t=1611s).
 I'm sure you have had similar experiences.
@@ -64,53 +68,72 @@ I cannot help but think that we have the ability to transmit powerful emotions u
 cheerful chirps, sad intonations, whiny howls, or imperative commands.
 Even birds have the power to make us feel happy or sad with their songs.
 Is it possible that musical compositions mimic these "wired-in" patterns?
-In this case music would just be emulating the sounds of nature.
+In this case music would just be emulating the sounds that we are programmed to resonate to.
 
-While I would not consider instrumental music abstract,
-contemporary compositions often feel like it.
-And to be honest I don't get them either.
 So how can composers and performers deliver raw feelings just using different notes and chords?
-The answer is that since they are human themselves,
+The answer might be that since they are human themselves,
 they can try different things and see how they make themselves feel.
 Art through empathy is a powerful mechanism,
 and one that is not available to artificial intelligence for obvious reasons.
 
 ## Modern Arts
 
+Since the fine arts were categorized, technology has made possible new ways of expressing emotions.
 Modern categories often include cinema, photography and comics.
 
 What about [applied arts](https://en.wikipedia.org/wiki/Applied_arts) like design or decoration?
 According to Wikipedia they make everyday objects aesthetically pleasing,
-which is undoubtedly a kind of feeling and does therefore qualify under our definition.
+which as we have seen is a kind of feeling and does therefore qualify under our definition.
 
 We already saw this piece of algorithmic art:
 
 ![An abstract design generated by computer, then "printed" used a modified CNC mill, and finally photographed. Source: [Casa Cactus](https://casacactus.es/), used with permission.](pics/on-art-design.jpg "Spirals in yellow, pink and black overlapping, composed of many thin lines, displaying beautiful moiré patterns.")
 
-There are many other human activities that raise our inner emotions and could be considered art.
+There are many other human activities that raise our inner emotions,
+although they are not always categorized as art.
 Let's review a few of them, starting with the most obvious and going deeper with fringe acts.
 
 ### Computer Games
 
-The most consumed form of art nowadays, it is easy to create beauty, strike fear,
+The most consumed form of art nowadays: they create beauty, strike fear,
 tell interesting and immersive stories.
+The gaming industry hires lots of artists for character design and animation.
+The combination of cinematic scenes and music is augmented by the ability to control some characters in the game.
+There is a unique world of possibilities because games are (unlike movies) never exactly the same.
+I think there is little doubt that computer games can be artistic,
+even if the oldest generations do not always get them.
 
 ### Advertising
 
-Designed to stimulate feelings like cravings or desire.
-I don't see the fact that these works are done for crass commercial interests as a demerit:
-or should Michelangelo be ashamed of accepting money for doing propaganda for the strongest powers of his time,
-i.e. kings and popes?
+Ads are designed to stimulate feelings like cravings or desire,
+and yet I'm not sure they can be indeed considered as art.
+Not because they are done for crass commercial interests;
+or should Michelangelo be ashamed of accepting money for creating fancy propaganda for the strongest powers of his time,
+like kings and popes?
+
+No, it's the intentionality of the message which makes me doubt.
+Targets of ads are not necessarily receptive.
+And yet, when you see an ad that really resonates,
+it can be a powerful experience.
 
 ### Comedic Monologues
 
-A category that transmits humor.
+This category is interesting because it mainly transmits one emotion: humor.
+But if we delve deeper we find that monologue authors can also convey a wide range of complex feelings:
+empathy, bewilderment, comfort, curiosity, tenderness, bouts of anger.
+
+Humor is in general an interesting emotion.
+It can be a response to a common trope,
+but also to an absurd situation, to danger or to cognitive dissonance.
+We laugh in response to many different stimuli.
+The best monologuists will play to a wild array of mechanisms,
+whose only common pattern is that they result in laughter.
 
 ### Eroticism and Pornography
 
-Transmits feelings of sexual desire.
+Another variant of art is when we are transmitting feelings of sexual desire.
 There is little doubt that erotic literature and cinema can be artistic,
-but pornography can be quite controversial.
+while pornography can be quite controversial.
 It is banned in many cultures and poorly considered in many others.
 The difference seems to be the open depiction of genitals and sexual acts.
 
@@ -125,8 +148,9 @@ pornographic figures in Christian Romanesque temples from the 11th century.
 Porn is quite explicit about transmitting feelings,
 more specifically sexual arousal,
 so it would meet our definition of art.
-I can hardly recommend anyone to devote their careers to erotic or porn modelling,
+Still, I can hardly recommend anyone to devote their careers to erotic or porn modelling
 as it is really limiting artistically.
+There is little nuance about doing sexual acts.
 
 ### News
 
