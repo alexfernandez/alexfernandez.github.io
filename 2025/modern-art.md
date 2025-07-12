@@ -3,7 +3,7 @@ title: '🎨 How Many Arts Are There?'
 subtitle: 'Categorizing Modern Art'
 footer: Published on 2025-07-04, last modified on 2025-07-04.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
-image: https://pinchito.es/2025/pics/modern-art-.jpg
+image: https://pinchito.es/2025/pics/modern-art-influencer.jpg
 ---
 
 What possible venues can the modern artist choose to express themselves?
