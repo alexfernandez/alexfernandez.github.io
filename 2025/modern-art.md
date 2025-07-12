@@ -148,27 +148,61 @@ pornographic figures in Christian Romanesque temples from the 11th century.
 Porn is quite explicit about transmitting feelings,
 more specifically sexual arousal,
 so it would meet our definition of art.
-Still, I can hardly recommend anyone to devote their careers to erotic or porn modelling
+Traditional religions would hardly agree:
+they keep a separation between "high" (pious) and "low" (carnal) feelings,
+and whatever is in the middle.
+Nothing related to sensual pleasure can ever qualify as _real_ art.
+
+I don't think this distinction has any merit.
+Still, I can hardly recommend anyone to devote their careers to erotic modelling
 as it is really limiting artistically.
-There is little nuance about doing sexual acts.
+Even worse for porn: there is little nuance about performing sexual acts on screen.
 
 ### News
 
-Under the guise of reporting, these brave people will try to arouse our interest,
+Now we enter the realm of categories which are perhaps a bit surprising.
+Under the guise of reporting current events,
+newscasters and reporters will try to arouse our interest,
 while sometimes scaring or delighting the audience.
 Their serious countenance cannot distract us from the fact that they are often dealing with raw emotions.
 
+The best news people can ellicit a sense of wonder when transmitting,
+while trying to keep their impartiality and objectivity.
+News is an interesting genre.
+
 ### Influencing
 
-These people know how to make you feel stuff.
-Be it beauty over Instagram, amazement over YouTube, or rage over shitposting.
+Influencers do not belong by far a traditional art.
+And yet, like it or not,
+these people definitely know how to make you feel stuff.
+Some specialize in showing beauty over Instagram,
+others generate amazement over YouTube,
+and even others can easily make you feel rage over their shitposting.
 
 ![An old-style influencer, i.e. a charlatan. Source: [Statens Museum for Kunst via Wikimedia](https://commons.wikimedia.org/wiki/File:Wilhelm_Marstrand,_En_charlatan_s%C3%A6lger_blanksv%C3%A6rte_p%C3%A5_Piazza_Barberini_i_Rom,_,_KMS3770,_Statens_Museum_for_Kunst.jpg).](pics/modern-art-influencer.jpg "A classical painting titled 'A Charlatan Selling Blacking in the Piazza Barberini in Rome', depicts a guy with a mustachio surrounded by a multitude, to whom he is trying to sell some magical product.")
 
+There is a certain charisma involved.
+Quick reaction to the audience is also essential.
+Modern algorithms allow influencers to react to their followers almost in real-time,
+something that was previously only possible with a live audience.
+
 ### Gastronomy
 
-Feeding people is not the point.
-A good meal can make you feel a range of experiences.
+For Plato gastronomy was the mundane reverse of medicine:
+the doctor recommends what is good for you,
+while the cook only wants to create pleasant experiences.
+Good enough; but then we have to concede that the emotions 
+
+With high gastronomy feeding people is not the point:
+a good meal can make you feel a range of feelings.
+The most imaginative cooks tell stories with their dishes,
+take you to places while enjoying the trip.
+Memorable dishes are even celebrated beyond their realms.
+
+Some people may despise the culinary arts because they are ephemeral:
+after you consume the dish there is nothing left.
+But music or dance used to be no different until we learned how to record performances.
+Even more, for most of us visiting a museum will be just as fleeting.
 
 ### Politics
 
@@ -177,9 +211,26 @@ It is really useful to explain things to others so that they see them as advanta
 The classic philosopher Socrates despised sophists since they learned to defend both sides of an argument.
 But contemplating different points of view can open your mind and widen your horizons.
 
+Politicians may have a bad reputation in many areas, just as sophists.
+I do not however doubt that the great majority are hard-working and genuniely try to do good,
+especially in democracies.
+The quality of their politicians depends on how honest their societies allow them to be.
+The democratic process, when coupled with transparency and accountability,
+can make wonders for the political class.
+
 ### Magic
 
-Magic makes you feel wonder.
+Magic always makes you feel wonder.
+But some magicians have taken the art to new levels.
+
+![Juan Tamariz, the Spanish magician who raised the art of magic to new heights. Source: [milenamphoto](https://www.flickr.com/photos/anelim/6504696633).](pics/modern-art-tamariz.jpg "A close-up picture of Juan Tamariz, with his characteristic glasses and purple hat.")
+
+[Juan Tamariz](https://en.wikipedia.org/wiki/Juan_Tamariz) (Madrid, 1942)
+has always emphasized that a magic trick is a journey that takes you to a fantastic land,
+and the magician is accompanying the spectator along the way.
+He was also trained as a clown, a puppeteer and a cinema director.
+Watching his many performances is a delight,
+and they fill even the most seasoned magicians with wonder and delight.
 
 ## The Dark Arts
 
@@ -187,21 +238,21 @@ Going by our definition alone,
 we could think that there are malicious activities which should be considered artistic.
 A synonym for a scammer is "con artist", or confidence trickster.
 In a [scam](https://en.wikipedia.org/wiki/Scam) you have to make the victim, or "mark", feel confidence.
+You also need to engage their greed, or some other desire.
 Similarly in [phishing](https://en.wikipedia.org/wiki/Phishing) and other forms of social engineering.
+The arousal of emotions can be said to be consensual,
+even if the consequences are not.
 
-There are even worse activities like abuse or mobbing,
-where the victim is made to feel miserable.
-I don't think anyone sane would want to call them arts even though there is transmission of emotions.
-We may feel tempted to exclude negative emotions from our definition so we can get rid of similar pursuits,
+There are even worse activities where victims are made to feel miserable,
+and there is some (or a lot of) consent from their parts.
+Masochistic activities or domination definitely involve a lot of emotions.
+I don't think anyone sane would want to call them arts though.
+We may feel tempted to exclude negative emotions from our definition so we can get rid of these pursuits,
 but then we run the risk of banning also tragedies or sad movies.
-How can we keep out this dark side to some human activities which is highly damaging to people,
+How can we keep out this dark side to some human activities which can be highly damaging to people,
 and choose not to consider it art?
 
-To help us out of this predicament let's look deeper into the "intentionality"
-built into our definition.
-Should art require two-way intentions,
-so that the artist wants to transmit emotions **and** the audience wants to receive them?
-This is an interesting question which probably needs more space to be answered.
+This is an interesting question, but I don't have an answer.
 As a quick note, some artists may abuse our confidence,
 promising some emotions but then delivering in a completely unexpected way.
 Gaspar Noé comes to mind as a famous director that makes
@@ -209,13 +260,17 @@ Gaspar Noé comes to mind as a famous director that makes
 
 # 🤔 Conclusion
 
-Learn how to transmit feelings.
-It is useful in many ways of life;
-to artists it is essential.
+There is only a small number of classical "fine arts",
+but there are many ways in which we can express our emotions for others.
+Learning how to transmit feelings is essential for artists,
+and useful for most of us in life.
+
+Considering a wider range of arts can help us understand modern society.
+Some are old as time, like magic or gastronomy;
+but there are newer forms which did not exist a few decades ago,
+like computer games or influencing.
 
 ## 🙏 Acknowledgements
-
-Thanks to Rafael Molina for access to his works of AI-generated art.
 
 Thanks to Pablo and Mapi from Casa Cactus for letting me use their wonderful computer-generated designs.
 
