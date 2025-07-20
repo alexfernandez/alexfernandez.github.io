@@ -1,7 +1,7 @@
 ---
 title: '🎨 How Many Arts Are There?'
 subtitle: 'Categorizing Modern Art'
-footer: Published on 2025-07-04, last modified on 2025-07-04.
+footer: Published on 2025-07-21, last modified on 2025-07-21.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2025/pics/modern-art-influencer.jpg
 ---
@@ -56,7 +56,13 @@ And yet I can also feel some strong emotions sometimes with exceptional works.
 
 ![One of these works is 'Las estrellas y la gloria', by my teacher and accomplished artist [Arturo](https://www.arturomartinburgos.com/). Sadly, you have to see the original large format painting to get the full impact. Source: [Arturo Martín Burgos](https://www.arturomartinburgos.com/pintura/reciente.html), used with permission.](pics/modern-art-estrellas-y-gloria.jpg "An abstract painting with a pinkish background, squiggles of many colors and darkened corners.")
 
-But the fact is that music can transmit strong complex emotions.
+In the words of Arturo:
+
+> In my opinion there is no higher artistic emotion than that produced by the ineffable:
+> by that which needs no rational explanation.
+
+I can easily agree, but looking for explanations can still be insightful.
+The fact is that music can transmit strong complex emotions.
 Film soundtracks are usually instrumental,
 and they help carry the story forward to the point that many movies feel naked without them.
 I will add a more personal note:
@@ -270,9 +276,19 @@ Some are old as time, like magic or gastronomy;
 but there are newer forms which did not exist a few decades ago,
 like computer games or influencing.
 
+To close this tour, let me quote my teacher Arturo Martín Burgos again:
+
+> Since emotions can be quite hard to explain,
+> any classification of "arts" is complicated:
+> each individual is free to decide which artistic stimuli they like,
+> cause emotions and in the end get to them.
+> But having a scheme can help people who need to put some order in their inclinations.
+
 ## 🙏 Acknowledgements
 
 Thanks to Pablo and Mapi from Casa Cactus for letting me use their wonderful computer-generated designs.
+Thanks to Arturo Martín Burgos for the discussion, his insightful comments
+and his knowledge.
 
 Thanks to my daughter Lucía for the inspiration to write this article,
 and the many interesting conversations we have had about the topic of art.
