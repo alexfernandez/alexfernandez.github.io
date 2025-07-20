@@ -11,6 +11,7 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 ### 2025
 
+🗣️ 🇮🇪 2025-07-21: [🎨 How Many Arts Are There?](2025/modern-art)  
 🗣️ 🇮🇪 2025-02-16: [🎨 Advice for the Modern Artist](2025/on-art)  
 
 ### 2024
