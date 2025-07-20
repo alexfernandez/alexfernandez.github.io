@@ -287,7 +287,7 @@ To close this tour, let me quote my teacher Arturo Martín Burgos again:
 ## 🙏 Acknowledgements
 
 Thanks to Pablo and Mapi from Casa Cactus for letting me use their wonderful computer-generated designs.
-Thanks to Arturo Martín Burgos for the discussion, his insightful comments
+Thanks to Arturo Martín Burgos for the discussions, his insightful comments
 and his knowledge.
 
 Thanks to my daughter Lucía for the inspiration to write this article,
