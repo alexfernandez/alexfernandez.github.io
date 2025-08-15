@@ -1,5 +1,5 @@
 ---
-title: '🫂 The Three Rules of Humanics'
+title: '🫂 The Three Laws of Humanics'
 subtitle: 'On Being Human'
 footer: Published on 2025-08-15, last modified on 2025-08-15.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
@@ -9,7 +9,7 @@ abstract:
 image: https://pinchito.es/2025/pics/three-laws-cyberiad-stairs.jpg
 ---
 
-Isaac Asimov introduced his [three laws of robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
+Isaac Asimov introduced his famous [three laws of robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
 in his 1941 story ['Runaround'](https://en.wikipedia.org/wiki/Runaround_(story)).
 They are supposed to govern the behavior of robotic intelligences.
 In short form:
@@ -20,14 +20,14 @@ In short form:
 
 ![Yes, but what about humans ourselves? Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-stairs.jpg "A robot comes down a beautiful set of stairs, while a man climbing up on the opposite side tips his hat towards it.")
 
-# The Three Laws for Humans
+# 🫀 The Three Laws, but for Humans
 
 If you had to sketch three rules to direct human behavior,
+following the spirit of Asimov's three laws of robotics,
 what would they be?
 I have given some thought to this matter lately.
 What follows is my best attempt at sketching three sensible rules
-in a similar spirit to Asimov's:
-to help us take moral decisions.
+that may help us take moral decisions.
 
 ## 🏘️ 1: People over Things
 
@@ -98,6 +98,16 @@ In practice just a few rotten individuals would spoil the whole system,
 getting the benefit but not doing the work.
 Also we would be unable to keep any friends or family,
 or any safety networks that we build with our care and effort.
+Probably not good for our mental wellbeing.
+
+Another terrible take is [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism),
+whose proponents sometimes prioritize the welfare of
+[distant future generations](https://www.effectivealtruism.org/articles/cause-profile-long-run-future)
+rather than people in our own time.
+This is another way of ignoring our fellow people, which we know,
+for remote descendants, from whom we may learn nothing about.
+
+In short: if you want to have people close, the best recipe is to care for them.
 
 ## 🐤 3: Protect the vulnerable
 
@@ -111,13 +121,14 @@ I don't think this point needs much justification.
 The opposite would be "don't take care of the vulnerable",
 which has distinct nazi vibes.
 "Survival of the fittest" is good enough for animals in the savannah
-and for [finches in the Galapagos](https://en.wikipedia.org/wiki/Darwin%27s_finches),
+and for [finches in the Galapagos](https://en.wikipedia.org/wiki/Darwin%27s_finches);
 but hardly a principle for humans to live by in society.
 
-# 📋 The Three Laws
+# 📋 Using The Three Laws
 
-The aim of these three laws should make us better people.
-In fact I use them almost daily,
+The aim of these three rules is that they should help us make better decisions,
+and in the process make us better people.
+I have started using them almost daily,
 especially the first one.
 Whenever I'm glued to a screen,
 no matter how interesting it is whatever I'm doing,
@@ -125,7 +136,9 @@ and someone asks me anything
 I remind myself: 'People over things'
 and pay attention to them.
 (Except if it's work I'm doing,
-in which case I am actually helping my colleagues and indirectly my family.)
+in which case I am actually helping my colleagues and indirectly also my family.)
+
+About the second rule, caring more for closer people,
 
 # 🤖 But We Are Not Robots
 
@@ -140,6 +153,7 @@ All of these rules must be qualified:
 * What does "closer to you" mean?
 Family, friends, colleagues, people that look like you,
 people with the same interests?
+To what degree should we care more about closer people?
 * Who are "the vulnerable"?
 Does it include minorities, protected classes,
 people mistreated by society?
