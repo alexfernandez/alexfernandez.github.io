@@ -55,6 +55,16 @@ and they should take priority over everything else.
 
 # 📋 The Three Laws
 
+These three laws should make us better people.
+
+# Priorities
+
+What priority should each law take?
+Are they like Asimov's laws of robotics,
+which must be followed in order?
+I.e. the first law takes priority over the other two.
+
+![The Three Laws of Robotics. Source: [Xkcd](The Three Laws of Robotics).](pics/three-laws-xkcd-order.png "An analysis of different orders of Asimov's three laws. Only the canonical order leads to a balanced world; one leads to a frustrating world, another to a terrifying standoff, and the remaining three to killbot hellscapes.")
 
 # 🤔 Conclusion
 
