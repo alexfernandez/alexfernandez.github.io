@@ -111,7 +111,7 @@ I don't think this point needs much justification.
 The opposite would be "don't take care of the vulnerable",
 which has distinct nazi vibes.
 "Survival of the fittest" is good enough for animals in the savannah
-and for finches in the Galapagos,
+and for [finches in the Galapagos](https://en.wikipedia.org/wiki/Darwin%27s_finches),
 but hardly a principle for humans to live by in society.
 
 # 📋 The Three Laws
