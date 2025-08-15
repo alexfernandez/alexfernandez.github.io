@@ -18,7 +18,7 @@ In short form:
 2. Obey orders from humans.
 3. Protect yourself.
 
-![Daniel Mróz: Drawing for Lem's Cyberiad. Source: [lem.pl](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-stairs.jpg "A robot comes down a beautiful set of stairs, while a man climbing up on the opposite side tips his hat towards it.")
+![Yes, but what about humans ourselves? Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-stairs.jpg "A robot comes down a beautiful set of stairs, while a man climbing up on the opposite side tips his hat towards it.")
 
 # The Three Laws for Humans
 
@@ -99,16 +99,16 @@ getting the benefit but not doing the work.
 Also we would be unable to keep any friends or family,
 or any safety networks that we build with our care and effort.
 
-## 🐤 3: Protect the Weak
+## 🐤 3: Protect the vulnerable
 
-The third rule is quite succint: **protect the weak**.
+The third rule is quite succint: **protect the vulnerable**.
 This most important rule of being human is what makes us keep our babies alive,
 our sick tended for,
 our elderly live long happy lives,
 and in general lets us be decent human people.
 
 I don't think this point needs much justification.
-The opposite would be "don't take care of the weak",
+The opposite would be "don't take care of the vulnerable",
 which has distinct nazi vibes.
 "Survival of the fittest" is good enough for animals in the savannah
 and for finches in the Galapagos,
@@ -133,13 +133,23 @@ Of course we are not robots,
 and that is why I'm speaking about "rules" rather than "laws".
 (The title would not be as catchy though.)
 
+![For comparison, this is a robot. Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-robot.jpg "The somewhat peculiar face of a robot in black and white, close up.")
+
 All of these rules must be qualified:
-* What is people?
+* What is "people"? Where do animals stand?
 * What does "closer to you" mean?
-* Who are "the weak"?
+Family, friends, colleagues, people that look like you,
+people with the same interests?
+* Who are "the vulnerable"?
+Does it include minorities, protected classes,
+people mistreated by society?
+
+I have my own answers for each of these questions,
+but I think part of the fun is figuring out the answers on our own.
 
 # Priorities
 
+Another apparent subtlety for applying the rules is even more important.
 What priority should each rule take?
 Asimov's laws of robotics must be followed in order,
 i.e. the first law takes priority over the other two,
