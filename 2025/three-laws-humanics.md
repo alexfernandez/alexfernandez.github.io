@@ -138,7 +138,19 @@ and pay attention to them.
 (Except if it's work I'm doing,
 in which case I am actually helping my colleagues and indirectly also my family.)
 
-About the second rule, caring more for closer people,
+About the second rule, caring more for closer people:
+it does not mean that you don't care about the rest.
+It can be quite useful when living in society,
+where many worthy causes fight for our attention:
+if your close people.
+
+The third rule helps me when deciding
+if (and why) I should care about children in need,
+frail old people that get happy when you talk to them,
+and I also believe it can make us kinder to disfavored people in society.
+Perhaps that blood-thirsty criminal just had a bad start in life
+and just needs an opportunity.
+Or maybe that homeless person only needs attention and a house.
 
 # 🤖 But We Are Not Robots
 
@@ -148,18 +160,44 @@ and that is why I'm speaking about "rules" rather than "laws".
 
 ![For comparison, this is a robot. Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-robot.jpg "The somewhat peculiar face of a robot in black and white, close up.")
 
-All of these rules must be qualified:
-* What is "people"? Where do animals stand?
-* What does "closer to you" mean?
-Family, friends, colleagues, people that look like you,
+All of these rules cannot be applied blindly;
+they must be qualified.
+A few questions will surely pop up in your mind,
+which can help us start the discussion around what the rules mean to each of us.
+As you will see below I have my own answers,
+but I think part of the fun is figuring out what we believe on our own.
+
+## What is "people"? Where do animals stand?
+
+This one is easy: people are other humans,
+technically specimens of _Homo sapiens_.
+Not animals, not primates, not even bonobos or chimpanzees.
+
+Perhaps if you are an animal lover you can think:
+"people over animals over things",
+and that is fine.
+Perhaps you even think: "I prefer some animals to people",
+and that is where I can tell you that we definitely disagree.
+
+## What does "closer to you" mean?
+
+Does "closer" mean family, friends, colleagues,
+people that look like you,
 people with the same interests?
-To what degree should we care more about closer people?
-* Who are "the vulnerable"?
+
+Observe that I am not qualifying this idea;
+but we all know what "close" family is,
+what being "close" friends means,
+and that sometimes friends can be closer than family.
+If you cannot distinguish closer people,
+then I cannot help you move along in this discussion.
+
+## To what degree should we care more about closer people?
+
+## Who are "the vulnerable"?
+
 Does it include minorities, protected classes,
 people mistreated by society?
-
-I have my own answers for each of these questions,
-but I think part of the fun is figuring out the answers on our own.
 
 # Priorities
 
@@ -173,6 +211,12 @@ then the second over the third, and finally the third.
 
 In our case the priorities are not so clear,
 especially between the second and third rules.
+There has to be a balance, a calibration,
+involved in every decision.
+The better part is that we have a baseline,
+a criterion that needs refining.
+Should I spend one euro more on something for me, for my family,
+or to help Ukranian children, innocent victims of war?
 
 # 🤔 Conclusion
 
