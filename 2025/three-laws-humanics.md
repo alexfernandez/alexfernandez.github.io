@@ -186,7 +186,6 @@ Once we have really intelligent robots they should probably still be considered 
 Things are not a substitute for people, and they cannot be.
 
 ![Robots are not people. Repeat: robots are not people. Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-bat.jpg "A guy with a moustachio is waiting for a robot coming down the stairs with a wooden bat in his hand.")
-bat
 
 ## What does "closer to you" mean?
 
