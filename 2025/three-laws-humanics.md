@@ -141,7 +141,7 @@ in which case I am actually helping my colleagues and indirectly also my family.
 About the second rule, caring more for closer people:
 it can be quite useful when living in society,
 where many worthy causes fight for our attention.
-It does not mean that you don't care about the rest;
+It does not mean that you don't care about those that are not as close;
 if your close people are well enough then it's probably time to help more distant friends and relatives.
 There is a lot of leeway here that has to be solved case by case.
 
