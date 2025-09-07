@@ -35,20 +35,20 @@ The first rule is to **care about people over things**.
 Let me tell you a short story,
 as told by a friend of mine.
 
-A female friend was visiting an American-Japanese girl in their family house.
-While she was there the mother of the family was cooking all their meals,
-tending to their needs and caring about them in general.
-Whenever they came home everything was ready for both of them.
-My friend noticed the house had an amazing Japanese garden,
-perfectly cared for.
-She asked the mother:
+> A female friend was visiting an American-Japanese girl in their family house.
+> While she was there the mother of the family was cooking all their meals,
+> tending to their needs and caring about them in general.
+> Whenever they came home everything was ready for both of them.
+> My friend noticed the house had an amazing Japanese garden,
+> perfectly cared for.
+> She asked the mother:
 
-'That garden is awesome! It must take a huge effort to care for it.'
-'Yes', replied the mother: 'at least four or five hours a day'.
-'I don't understand', my friend replied. 'You take care of us all day long.
-How do you manage to tend to the garden as well?'
-'Sure, but people should always take priority over things.
-I will take care of the garden once you leave.'
+> 'That garden is awesome! It must take a huge effort to care for it.'
+> 'Yes', replied the mother: 'at least four or five hours a day'.
+> 'I don't understand', my friend replied. 'You take care of us all day long.
+> How do you manage to tend to the garden as well?'
+> 'There is no mystery: people should always take priority over things.
+> I will take care of the garden once you leave.'
 
 This story is probably apocryphal:
 my friend has later said she has no recolection of the matter.
