@@ -139,18 +139,19 @@ and pay attention to them.
 in which case I am actually helping my colleagues and indirectly also my family.)
 
 About the second rule, caring more for closer people:
-it does not mean that you don't care about the rest.
-It can be quite useful when living in society,
-where many worthy causes fight for our attention:
-if your close people.
+it can be quite useful when living in society,
+where many worthy causes fight for our attention.
+It does not mean that you don't care about the rest;
+if your close people are well enough then it's probably time to help more distant friends and relatives.
+There is a lot of leeway here that has to be solved case by case.
 
 The third rule helps me when deciding
 if (and why) I should care about children in need,
-frail old people that get happy when you talk to them,
-and I also believe it can make us kinder to disfavored people in society.
-Perhaps that blood-thirsty criminal just had a bad start in life
-and just needs an opportunity.
-Or maybe that homeless person only needs attention and a house.
+or speak to frail old people that get happy when you talk to them.
+I also believe it can make us kinder to disfavored people in society.
+Perhaps that convicted criminal just had a bad start in life
+and just deserves a fresh start.
+Or maybe that homeless person only needs attention and an opportunity.
 
 # 🤖 But We Are Not Robots
 
