@@ -92,7 +92,7 @@ but his behavior to his close of kin looks profoundly despicable.
 
 Suppose we took care of everyone in the same degree.
 This would definitely mean that we overlook our family and friends,
-and anyone that have helped us in the past.
+and indeed anyone that has helped us in the past.
 In a perfect world perhaps we would all get what we need.
 In practice just a few rotten individuals would spoil the whole system,
 getting the benefit but not doing the work.
