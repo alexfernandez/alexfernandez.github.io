@@ -145,7 +145,7 @@ It does not mean that you don't care about those that are not as close;
 if your close people are well enough then it's probably time to help more distant friends and relatives.
 There is a lot of leeway here that has to be solved case by case.
 
-The third rule helps me when deciding
+The third rule can help me decide
 if (and why) I should care about children in need,
 or speak to frail old people that get happy when you talk to them.
 I also believe it can make us kinder to disfavored people in society.
@@ -166,7 +166,8 @@ they must be qualified.
 A few questions will surely pop up in your mind,
 which can help us start the discussion around what the rules mean to each of us.
 As you will see below I have my own answers,
-but I think part of the fun is figuring out what we believe on our own.
+but I think part of the fun is figuring out on our own what we believe
+and what we stand for.
 
 ## What is "people"? Where do animals stand?
 
@@ -179,26 +180,41 @@ Perhaps if you are an animal lover you can think:
 and that is fine.
 Perhaps you even think: "I prefer some animals to people",
 and that is where I can tell you that we definitely disagree.
+People should always take preference.
+
+Once we have really intelligent robots they should probably still be considered as things.
+Things are not a substitute for people, and they cannot be.
+
+![Robots are not people. Repeat: robots are not people. Source: [Cyberiad drawings by Daniel Mróz](https://english.lem.pl/gallery/mroz-drawings/category/36-cyberiad-1965-wl).](pics/three-laws-cyberiad-bat.jpg "A guy with a moustachio is waiting for a robot coming down the stairs with a wooden bat in his hand.")
+bat
 
 ## What does "closer to you" mean?
 
 Does "closer" mean family, friends, colleagues,
-people that look like you,
+people from your home town,
 people with the same interests?
 
 Observe that I am not qualifying this idea;
 but we all know what "close" family is,
 what being "close" friends means,
 and that sometimes friends can be closer than family.
-If you cannot distinguish closer people,
-then I cannot help you move along in this discussion.
+I find it interesting that we have a shared feeling of "distance" with people,
+that allows us to determine who is close and who isn't.
 
 ## To what degree should we care more about closer people?
+
+It would be nice to be able to graph closeness for everyone and the degree to which we should care for them:
+x for siblings, y for parents, z for cousins and so on.
+But we are fallible people:
+the only rule is that closer people get more attention,
+but it does not stop at any point:
+remember, even very distant people are above objects.
 
 ## Who are "the vulnerable"?
 
 Does it include minorities, protected classes,
 people mistreated by society?
+Intersectionality 
 
 # Priorities
 
@@ -208,21 +224,24 @@ Asimov's laws of robotics must be followed in order,
 i.e. the first law takes priority over the other two,
 then the second over the third, and finally the third.
 
-![The Three Laws of Robotics. Source: [Xkcd](The Three Laws of Robotics).](pics/three-laws-xkcd-order.png "An analysis of different orders of Asimov's three laws. Only the canonical order leads to a balanced world; one leads to a frustrating world, another to a terrifying standoff, and the remaining three to killbot hellscapes.")
+![The order of the Three Laws of Robotics is not negotiable. Source: [Xkcd](The Three Laws of Robotics).](pics/three-laws-xkcd-order.png "An analysis of different orders of Asimov's three laws. Only the canonical order leads to a balanced world; one leads to a frustrating world, another to a terrifying standoff, and the remaining three to killbot hellscapes.")
 
 In our case the priorities are not so clear,
 especially between the second and third rules.
-There has to be a balance, a calibration,
-involved in every decision.
-The better part is that we have a baseline,
-a criterion that needs refining.
+There has to be a balance involved in every decision.
 Should I spend one euro more on something for me, for my family,
 or to help Ukranian children, innocent victims of war?
 
+The better part is that we have a baseline,
+a criterion that needs refining,
+a calibration to perform.
+Our decisions will never be perfect,
+but we can try to do our best.
+
 # 🤔 Conclusion
 
-Things are not a substitute for people, and they cannot be.
-Once we have really intelligent robots they should probably still be 
+Having a set of rules to help us make decisions is important to keep our sanity
+in these turbulent times.
 
 ## 🙏 Acknowledgements
 
