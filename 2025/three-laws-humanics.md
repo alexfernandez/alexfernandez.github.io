@@ -88,7 +88,7 @@ For another counterexample let's look at what the French philosopher
 did with [his five children](https://www.jstor.org/stable/20024569?seq=1):
 he sent them all to an orphanage, with the idea that they would be better educated there.
 Meanwhile his writings were enlightening the French society of his time,
-but his behavior looks equally despicable.
+but his behavior to his close of kin looks profoundly despicable.
 
 Suppose we took care of everyone in the same degree.
 This would definitely mean that we overlook our family and friends,
