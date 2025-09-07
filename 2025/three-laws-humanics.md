@@ -12,7 +12,7 @@ image: https://pinchito.es/2025/pics/three-laws-cyberiad-stairs.jpg
 Isaac Asimov introduced his famous [three laws of robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
 in his 1941 story ['Runaround'](https://en.wikipedia.org/wiki/Runaround_(story)).
 They are supposed to govern the behavior of robotic intelligences.
-In short form:
+In short form, they were:
 
 1. Do not harm humans.
 2. Obey orders from humans.
@@ -33,7 +33,7 @@ that may help us take moral decisions.
 
 The first rule is to **care about people over things**.
 Let me tell you a short story,
-as referred by a friend of mine.
+as told by a friend of mine.
 
 A female friend was visiting an American-Japanese girl in their family house.
 While she was there the mother of the family was cooking all their meals,
@@ -61,7 +61,7 @@ and they should take priority over everything else.
 The second rule is **take care of people closer to you before others**.
 This may sound egotistical or outright selfish.
 However the opposite would lead us to very weird behavior,
-which we have often seen and which some find admirable,
+which we can see sometimes and which some find admirable,
 but I don't think faciliates a sane society.
 
 Consider the life of the biologist [George Price](https://en.wikipedia.org/wiki/George_R._Price),
@@ -225,7 +225,6 @@ Once we have really intelligent robots they should probably still be
 
 ## 🙏 Acknowledgements
 
-Thanks to Rafael Molina for his recolection of the Japanese-American mother.
-
-Thanks to Carlos Santisteban for the discussions.
+Thanks to my friends and family for the interesting discussions around this issue,
+and for the ones I hope to have in the future.
 
