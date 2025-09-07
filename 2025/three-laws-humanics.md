@@ -105,7 +105,7 @@ whose proponents sometimes prioritize the welfare of
 [distant future generations](https://www.effectivealtruism.org/articles/cause-profile-long-run-future)
 rather than people in our own time.
 This is another way of ignoring our fellow people, which we know,
-for remote descendants, from whom we may learn nothing about.
+for remote descendants, from whom we will certainly learn nothing about.
 
 In short: if you want to have people close, the best recipe is to care for them.
 
