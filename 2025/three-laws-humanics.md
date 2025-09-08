@@ -1,7 +1,7 @@
 ---
 title: '🫂 The Three Laws of Humanics'
 subtitle: 'On Being Human'
-footer: Published on 2025-08-15, last modified on 2025-08-15.
+footer: Published on 2025-09-08, last modified on 2025-09-08.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'If you had to sketch three laws to direct human behaviour,
