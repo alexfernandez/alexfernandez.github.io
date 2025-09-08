@@ -211,9 +211,15 @@ remember, even very distant people are above objects.
 
 ## Who are "the vulnerable"?
 
+This category is not easy to define.
 Does it include minorities, protected classes,
 people mistreated by society?
-Intersectionality 
+[Intersectionality](https://en.wikipedia.org/wiki/Intersectionality)
+would suggest that people in multiple discriminated categories would deserve
+better treatment.
+
+I am not going to even attempt to define who is more vulnerable and who isn't.
+This is part of the discussion that needs to be had.
 
 # Priorities
 
@@ -241,6 +247,7 @@ but we can try to do our best.
 
 Having a set of rules to help us make decisions is important to keep our sanity
 in these turbulent times.
+They may help our judgement, but will never replace it.
 
 ## 🙏 Acknowledgements
 
