@@ -53,7 +53,7 @@ An airship can also helped by trade winds:
 air currents that move on average from East to West,
 caused by the rotation of the Earth.
 The trajectory should therefore follow this orientation rather than West-East.
-A modestly sized airship cannot go against strong air currents for long,
+A modestly sized airship cannot go against strong air currents,
 so careful planning must be needed to take advantage of the wind at every point.
 
 Most of the trajectory can pass over the oceans,
@@ -61,7 +61,7 @@ but skipping land completely would take too much of a detour
 (and possibly be incompatible with prevailing winds).
 Although the political climate may be hostile,
 it is still legal to fly civil craft over other countries.
-So some low-hostility routes can be found for safe passage.
+The quest remains to find some convenient low-hostility routes for safe passage.
 
 # 🛩️ The Craft
 
@@ -138,6 +138,7 @@ or 30,000 km on the 40°N parallel.
 The wonderful [nullschool earth project](https://earth.nullschool.net/)
 
 Head winds should not surpass 13 m/s if we want to be able to counteract them.
+49 km/h (30 mi/h) is not a lot, especially over sea.
 
 ## Height
 
@@ -159,12 +160,48 @@ which has [decent worldwide coverage](https://sigfox.com/coverage/).
 ## Politics
 
 It is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
+In the EU you have to register drones over 8 kg,
+as is the case with the Avis Lxxx.
+It is however illegal to fly drones over visual line-of-sight (VLOS):
+not keeping them in sight;
+or to fly at a height above 120 m.
+
+# Trials
+
+A series of trials should establish if the Avis Lxxx is airworthy.
+
+## Atlantic Trips
+
+A convenient destination from Spain, where I'm located,
+is the Canary Islands.
+
+Another convenient destination is Canada.
+Canada has more lax legislation than the EU:
+it is now legal to fly [beyond visual line-of-sight](https://tc.canada.ca/en/aviation/drone-safety/2025-summary-changes-canada-drone-regulations).
+
+# Budget
+
+Can we put a number on the necessary budget for the Avis Lxxx?
+Let's start with a million dollars.
 
 # 🤔 Conclusion
 
-Having a set of rules to help us make decisions is important to keep our sanity
-in these turbulent times.
-They may help our judgement, but will never replace it.
+## 🥺 Motivation
+
+Why pursue this project, at all?
+First, a kid can dream: thought experiments have moved forward what is considered possible.
+After all, the original story for "Around the World in 80 Days" is after all just that,
+a thought experiment.
+Jules Verne did not do thetripp but just imagined how it could be done.
+
+Then there are the famed world records:
+Airbus Zephyr, the work of a giant corporation, holds the current world record of air endurance with 67 days.
+Wouldn't it be great to snatch it from their corporate hands with an amateur project?
+
+Plus, airships are super cool.
+Dreamers from Torres Quevedo to Hayao Miyazaki to
+Google Founder [Sergei Brin](https://www.bbc.com/future/article/20250214-pathfinder-1-the-airship-that-could-usher-in-a-new-age)
+have been seduced by them.
 
 ## 🙏 Acknowledgements
 
