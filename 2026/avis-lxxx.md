@@ -31,10 +31,6 @@ An airship can remain afloat as long as it holds its lighter-than-air gas inside
 and it can be propelled by electric batteries.
 High efficiency solar panels can replenish the power during the day.
 
-Ship size is a critical parameter.
-A small ship is easier and cheaper to build,
-while bigger ships tends to have higher top speeds.
-
 Hydrogen is a cheap gas, lighter than helium and more readily available.
 Any risk of conflagration can be mitigated by careful construction.
 Also, it's a drone so no human lives are endangered should the worst happen.
@@ -45,6 +41,12 @@ There are clever composite materials with low hydrogen permeability,
 with layers of materials such as PVA or EVOH.
 Ultraviolet damage and weather corrosion must be prevented by careful construction;
 nothing that hasn't been done before, and modern materials have wonderful properties.
+
+Ship size is a critical parameter.
+A small ship is easier and cheaper to build,
+while bigger ships tends to have higher top speeds.
+Having enough instrumentation onboard also requires to carry a minimum payload.
+We will set a target length of 4 meters and check if it works.
 
 Another consideration is what route to take.
 An airship can also helped by trade winds:
@@ -59,10 +61,12 @@ but skipping land completely would take too much of a detour
 (and possibly be incompatible with prevailing winds).
 Although the political climate may be hostile,
 it is still legal to fly civil craft over other countries.
+So some low-hostility routes can be found for safe passage.
 
 # 🛩️ The Craft
 
-Thanks to the latest advances in miniaturization
+Thanks to the latest advances in miniaturization an airship can be quite small,
+while still a fully functioning drone.
 
 The original [Avis Æterna](/2023/avis-aeterna) project called for an autonomous semi-buoyant flying wing plane,
 which was later refined to the
@@ -71,29 +75,90 @@ airship drone.
 
 [Astra Torres](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs)
 
+## Size
+
+[Aves Æternæ](/2024/aves-aeternae).
+
 ## Hydrogen Gas
+
+How much gas do we need for this mission?
+A spheroid of 4x2x2 m3 will use around 560 grams of hydrogen,
+which occupies 8 m3 of gas, or 8000 liters.
+This is a lot.
 
 ## Skin
 
 The airship cover needs to keep its hydrogen inside,
-to endure the elements and do all this being light enough.
+endure the elements and keep its shape;
+and do all this being light enough.
+
+My original intention of building a carbon fiber skin was a bit misguided:
+it's too rigid, too opaque and not resistant enough to the elements.
+
+## Power
+
+Our target speed of 10 m/s requires some serious power.
+With the drag coefficient of 0.03 computed in
+[Aves Æternæ](/2024/aves-aeternae)
+we get:
+
+P ≈ 0.06 kg/m × v³,
+P ≈ 60 W.
+
+Let's set aside a power target of 165W,
+so we can drive our motors while charging the batteries at the same time.
+Using commercially available solar panels
+224W/m2 is currently achievable,
+with a weight of 384 g/m2 (panels only).
+Building a solar cell requires giving them some support, protection from the elements
+and electric connections;
+let's suppose a total weight of 1 kg/m2.
+We can reach our target of 165W with an area of 0,73 m2,
+which means building a flexible panel of 730 grams.
+This panel should fit comfortably on top of the drone.
+
+Power requirements grow with the 3rd power of the speed,
+which is a lot.
+What happens if we use the whole power to run the motors?
+164W with an efficiency of 90% would allow us to reach peak speeds of only 13.5 m/s (49 km/h or 30 mi/h):
+
+```
+P ≈ 0.06 × 13.5³ ≈ 148 W.
+```
 
 ## Payload
 
-## 📡 Communications
-
-## Navigation
-
-## Power
+Navigation computer, communications equipment and 
 
 # 🗺️ Navigation
 
 ## Route
 
 or 30,000 km on the 40°N parallel.
+The wonderful [nullschool earth project](https://earth.nullschool.net/)
+
+Head winds should not surpass 13 m/s if we want to be able to counteract them.
+
+## Height
+
+The problem of height is one of the most interesting aspects of the project.
+Go too high and the payload is reduced greatly;
+go too low and any sudden change of temperature will drop the drone to the ground.
+
+## 📡 Communications
+
+How can we get news from our trusty friend as it flies around the globe?
+There are several intriguing possibilities which I have learned about.
+
+The first is LoRa,
+a wide area protocol.
+
+The second is SigFox,
+which has [decent worldwide coverage](https://sigfox.com/coverage/).
 
 ## Politics
 
+It is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
 
 # 🤔 Conclusion
 
