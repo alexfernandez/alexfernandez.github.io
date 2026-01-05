@@ -95,6 +95,8 @@ and do all this being light enough.
 My original intention of building a carbon fiber skin was a bit misguided:
 it's too rigid, too opaque and not resistant enough to the elements.
 
+Nowadays ultrasonic plastic sealing is much more effective than traditional sewing techniques.
+
 ## Power
 
 Our target speed of 10 m/s requires some serious power.
@@ -184,6 +186,38 @@ it is now legal to fly [beyond visual line-of-sight](https://tc.canada.ca/en/avi
 Can we put a number on the necessary budget for the Avis Lxxx?
 Let's start with a million dollars.
 
+## Material Cost
+
+Most of the materials required should be pretty cheap:
+PVA and other plastic coatings,
+
+Some equipment is not cheap:
+for instance ultrasonic sealing machines.
+
+Industrial hydrogen generators are another expensive bit.
+Keep in mind that we need 8000 l of hydrogen;
+[this €10k hydrogen generator](https://www.sigmaaldrich.com/ES/en/product/supelco/27773u?utm_source=google&utm_medium=cpc&utm_campaign=20849931024&utm_content=171133062889&gad_source=1&gad_campaignid=20849931024&gbraid=0AAAAAD8kLQSooOxhaQNNTw7C1mk9pG1qo&gclid=CjwKCAiA3-3KBhBiEiwA2x7FdIdq83GrfkYWAHQMJX2Vec1M8LdAbA6zCFy8CjAScFXqzHvZeR3gUhoCDmMQAvD_BwE)
+would take 5+ days hours to fill our enclosure.
+
+On the other hand a commercial cylinder with 50 l (200 bar)
+costs [around €130](https://shop.airproducts.com/emea/es/es-ES/products/62242/),
+for a total of more than 8 m3,
+enough to fill one airship.
+So we may rethink the need to generate our own hydrogen.
+
+## Research
+
+Most of our funds are needed to investigate possible alternatives for fabrication,
+and to ensure mission success.
+
+## Amateur Project
+
+We often find on social media like YouTube really bright people that create really complex projects on their own in a few months.
+So it is possible that one of these geniuses will replicate this project on their own with a budget of a few thousand euros.
+Why not?
+After all there are no great obstacles to any clever maker who is sufficiently determined,
+and enough of a fool to embark in such a crazy enterprise.
+
 # 🤔 Conclusion
 
 ## 🥺 Motivation
@@ -196,7 +230,7 @@ Jules Verne did not do thetripp but just imagined how it could be done.
 
 Then there are the famed world records:
 Airbus Zephyr, the work of a giant corporation, holds the current world record of air endurance with 67 days.
-Wouldn't it be great to snatch it from their corporate hands with an amateur project?
+Wouldn't it be great to snatch it from their cold corporate hands with an amateur project?
 
 Plus, airships are super cool.
 Dreamers from Torres Quevedo to Hayao Miyazaki to
