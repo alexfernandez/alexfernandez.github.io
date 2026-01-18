@@ -90,7 +90,7 @@ recharging during the day and hovering during the night.
 The efficiency obtained by their batteries and solar panels is awesome,
 and it has trickled down to consumer products.
 
-![Airbus Zephyr. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.jpg "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
+![Airbus record-setting Zephyr. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.webp "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
 
 # 🛩️ The Craft
 
