@@ -14,7 +14,7 @@ And under 80 days?
 This is a crazy project that would make [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
 But the real fun is to figure out if it can be done with a relatively modest budget of one million euros.
 
-![An autonomous airship. Source: the author.](pics/avis-lxxx-airship.jpg "An airship")
+![An autonomous airship. Source: Nano Banana based on a sketch by the author.](pics/avis-lxxx-concept.jpg "A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches.")
 
 # The Project
 
@@ -90,11 +90,13 @@ recharging during the day and hovering during the night.
 The efficiency obtained by their batteries and solar panels is awesome,
 and it has trickled down to consumer products.
 
-![Airbus record-setting Zephyr. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.webp "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
+![Airbus record-setting solar drone. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.webp "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
 
 # 🛩️ The Craft
 
 Let's now review the details concerning airship design and construction.
+
+![Sketch of the design. Source: the author.](pics/avis-lxxx-model.svg "Four views of an airship. Top left: side view, showing the gondola and the propellers. Top right: view from the front with the nose cone. Bottom right: view from above, showing the solar panels and the wings. Bottom left: isometric view, showing a semi-realistic 3D view.")
 
 ## Size
 
@@ -150,7 +152,8 @@ What happens if we use the whole power to run the motors?
 P ≈ 0.06 × 13.5³ ≈ 148 W.
 ```
 
-## Payload
+## Weight
+
 
 Navigation computer, communications equipment and 
 
