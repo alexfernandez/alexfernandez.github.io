@@ -102,24 +102,55 @@ Let's now review the details concerning airship design and construction.
 
 Thanks to the latest advances in miniaturization a drone can be quite small,
 while still being fully functioning.
-
-## Hydrogen Gas
+We will set a target size of 4 meters,
+which we have previously analyzed in
+[Aves Æternæ](http://pinchito.local/2024/aves-aeternae).
+This gives us a max weight of less than 10 kg.
+We have to review the specs for the trip around the world.
 
 How much gas do we need for this mission?
 A spheroid of 4x2x2 m3 will use around 560 grams of hydrogen,
 which occupies 8 m3 of gas, or 8000 liters.
-This is a lot.
+This may seem like a lot, but it is almost exactly the contents of a
+[commercial hydrogen cylinder](https://shop.airproducts.com/emea/es/es-ES/products/62242/).
 
-## Skin
+## Envelope
 
 The airship cover needs to keep its hydrogen inside,
 endure the elements and keep its shape;
 and do all this being light enough.
 
-My original intention of building a carbon fiber skin was a bit misguided:
-it's too rigid, too opaque and not resistant enough to the elements.
+I previously assumed that a carbon fiber skin was the best option.
+It was a bit misguided:
+the material is too rigid, too opaque and not resistant enough to withstand the elements.
+A composite skin of different polymers seems like a much better option,
+with an external exoskeleton of carbon fiber to keep its shape.
 
+The exact composition needs to be studied,
+but it must deal with:
+* Tensile strength: be able to withstand strong winds and changes of pressure.
+* Ultraviolet damage: keep up with the strong sun near the equator.
+* Water resistance: endure rain for extended periods.
+* Hydrogen leakage: help the internal bag keep its gas.
+
+Additionally, a gas bag will need to hold its hydrogen for extended periods.
+It is not crazy to set a target of 1% leakage per week,
+judging by the literature, e.g.
+[this article](https://www.researchgate.net/publication/317394151_Self-Sustainability_in_Nano_Unmanned_Aerial_Vehicles_A_Blimp_Case_Study) or
+[this commercial provider](https://www.publi-zeppelines.com/preguntas-frecuentes-hinchables-helio-publicitarios)
+that advertises 2% loss per week.
+Keep in mind that hydrogen is a smaller _atom_ than helium,
+but a bigger _molecule_ as there are two atoms.
+I have not seen a definitive answer on which gas is easier to contain,
+but there have been considerable efforts to contain hydrogen since it is used widely in industrial settings.
+It seems that polymers such as PVA or EVOH are best suited for containing it.
+
+To build the envelope and the gas bag we need to join a number of pieces with funny shapes.
+I did some numerical integration for the [Avis Minima](/2024/avis-minima),
+and found the optimal shape.
 Nowadays ultrasonic plastic sealing is much more effective than traditional sewing techniques.
+
+I have found that it is sensible to 
 
 ## Power
 
