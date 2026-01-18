@@ -9,75 +9,97 @@ abstract:
 image: https://pinchito.es/2026/pics/avis-lxxx.jpg
 ---
 
-Is it possible to complete a trip around the world on an autonomous drone?
+Is it possible to complete a trip around the world with an autonomous drone?
 And under 80 days?
 This is a crazy project that would make [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
-And still seems doable with only a relatively modest budget.
+But the real fun is to figure out if it can be done with a relatively modest budget of one million euros.
 
-![An autonomous airship. Source: the author.](pics/avis-lxxx.jpg "An airship")
+![An autonomous airship. Source: the author.](pics/avis-lxxx-airship.jpg "An airship")
 
 # The Project
 
-Before we go into the details, let's review how crazy the idea is.
-We want to build a flying device that can autonomously circumnavigate the world in less than 80 days.
-Best case distance is a bit under 40,000 km on the equator;
-average speed comes out as a little bit over 5 m/s
-(20 km/h, or 13 miles/hour).
+Before we go into the details, let's review how crazy the idea is
+by answering a few questions that may be popping into your head.
 
+**How fast does it need to go?**
+First, we want to build a flying device that can autonomously circumnavigate the world in less than 80 days.
+If it went on a straight line around the equator the trip would take 40,000 km, or 25,000 miles;
+average speed comes out as a little bit over 20 km/h (13 miles/hour).
+We will use meters per second here, so will take 5 m/s as the initial speed target.
+
+**Can we make flight more efficient?**
 The biggest energy expense for a drone is usually not moving about,
-but keeping afloat;
-so what if the aircraft is buoyant on its own?
-An airship can remain afloat as long as it holds its lighter-than-air gas inside,
-and it can be propelled by electric batteries.
-High efficiency solar panels can replenish the power during the day.
+but staying up in the air.
+One solution I'm particularly fond of is making the aircraft buoyant on its own.
+An airship can remain afloat as long as it holds its lighter-than-air gas inside.
+For our little project it needs to keep running for many weeks.
+The obvious solution is to propel the drone using electric batteries,
+and replenish the power during the day using high efficiency solar panels.
 
-Hydrogen is a cheap gas, lighter than helium and more readily available.
+**What is the best option for the gas inside the airship?**
+Helium is the usual choice, but for a drone where no human lives are endangered it may not be optimal.
+Hydrogen is cheaper, lighter and more readily available.
 Any risk of conflagration can be mitigated by careful construction.
-Also, it's a drone so no human lives are endangered should the worst happen.
 
-Is it even possible to hold the gas for 11 weeks?
-What kind of enclosure do we need?
-There are clever composite materials with low hydrogen permeability,
-with layers of materials such as PVA or EVOH.
-Ultraviolet damage and weather corrosion must be prevented by careful construction;
-nothing that hasn't been done before, and modern materials have wonderful properties.
+**What kind of enclosure is needed to hold the gas inside for 11 weeks?**
+This was solved more than a century ago with clever construction,
+and modern materials have wonderful properties.
+There are clever materials with low hydrogen permeability such as PVA or EVOH,
+and can be layered with other polymers that prevent ultraviolet damage and weather corrosion.
+Furthermore, construction can be made strong and resilient while keeping it light.
 
+**How big does the airship need to be?**
 Ship size is a critical parameter.
 A small ship is easier and cheaper to build,
 while bigger ships tends to have higher top speeds.
 Having enough instrumentation onboard also requires to carry a minimum payload.
 We will set a target length of 4 meters and check if it works.
 
-Another consideration is what route to take.
+Finally, **what is the best route to take?**
 An airship can also helped by trade winds:
-air currents that move on average from East to West,
-caused by the rotation of the Earth.
+air currents caused by the rotation of the Earth,
+that move on average from East to West.
 The trajectory should therefore follow this orientation rather than West-East.
 A modestly sized airship cannot go against strong air currents,
-so careful planning must be needed to take advantage of the wind at every point.
+so the path should be carefully planned in advance and adjusted while in flight,
+to take advantage of the wind at every point.
 
 Most of the trajectory can pass over the oceans,
-but skipping land completely would take too much of a detour
-(and possibly be incompatible with prevailing winds).
+but skipping land completely would take too much of a detour,
+and likely be incompatible with prevailing winds.
 Although the political climate may be hostile,
 it is still legal to fly civil craft over other countries.
-The quest remains to find some convenient low-hostility routes for safe passage.
+The challenge here is to find some convenient low-hostility routes for safe passage.
+
+## 💡 Concept
+
+The inspiration for safe, hydrogen airships is quite old.
+More than a century ago the Spanish engineer Leonardo Torres Quevedo came up with the
+[Astra Torres designs](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs),
+autorigid dirigibles which were used successfully in the Great War.
+Unlike the competition from the German Zeppelins and others,
+these hydrogen crafts had no flammability issues at all during their long career,
+due to careful design and construction.
+
+![The “Torres Quevedo no 2” in 1908. Source: [Leonardo Torres Quevedo, 1902-1908](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs).](pics/avis-lxxx-torres.jpg "A side view of a huge airship being hailed by many people in the ground, with the text: '1908 - Le Torres-Quevedo dirigeuble militaire espagnol, dans le Parc de Guadalajara. J.H.'. Article source is: González Redondo, Francisco, 2008: Leonardo Torres Quevedo, 1902-1908. The Foundations for 100 years of Airship designs.")
+
+Solar panel advances are very well exemplified by the Airbus Zephyr,
+now run by its own company AALTO.
+In 2025 it endured [67 days of autonomous powered flight](https://en.wikipedia.org/wiki/List_of_flight_endurance_records#Airplane,_uncrewed),
+recharging during the day and hovering during the night.
+The efficiency obtained by their batteries and solar panels is awesome,
+and it has trickled down to consumer products.
+
+![Airbus Zephyr. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.jpg "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
 
 # 🛩️ The Craft
 
-Thanks to the latest advances in miniaturization an airship can be quite small,
-while still a fully functioning drone.
-
-The original [Avis Æterna](/2023/avis-aeterna) project called for an autonomous semi-buoyant flying wing plane,
-which was later refined to the
-[Aves Æternæ](/2024/aves-aeternae)
-airship drone.
-
-[Astra Torres](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs)
+Let's now review the details concerning airship design and construction.
 
 ## Size
 
-[Aves Æternæ](/2024/aves-aeternae).
+Thanks to the latest advances in miniaturization a drone can be quite small,
+while still being fully functioning.
 
 ## Hydrogen Gas
 
@@ -131,6 +153,11 @@ P ≈ 0.06 × 13.5³ ≈ 148 W.
 ## Payload
 
 Navigation computer, communications equipment and 
+
+## Previous Work
+
+
+https://www.aaltohaps.com/
 
 # 🗺️ Navigation
 
@@ -237,9 +264,18 @@ Dreamers from Torres Quevedo to Hayao Miyazaki to
 Google Founder [Sergei Brin](https://www.bbc.com/future/article/20250214-pathfinder-1-the-airship-that-could-usher-in-a-new-age)
 have been seduced by them.
 
+## 💡 Previous Ideas
+
+The original [Avis Æterna](/2023/avis-aeterna) project called for an autonomous semi-buoyant flying wing plane,
+which was later refined to the
+[Aves Æternæ](/2024/aves-aeternae)
+airship drone.
+Later, the [Avis Minima](/2024/avis-minima) project
+studied how to build a 1-meter long airship.
+
 ## 🙏 Acknowledgements
 
 Thanks to my friends at [MakeSpace Madrid](https://makespacemadrid.org/)
-for the interesting discussions,
+for the interesting discussions:
 in particular David, Pablo, José David and Javi who have had to indulge my crazy ideas.
 
