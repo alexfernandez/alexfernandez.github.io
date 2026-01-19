@@ -1,5 +1,5 @@
 ---
-title: '🌐 Flying Around the World in under 80 Days'
+title: '🌐 Floating Around the World in under 80 Days'
 subtitle: 'With Avis LXXX: an Autonomous Airship Drone'
 footer: Published on 2026-01-03, last modified on 2026-01-03.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
@@ -12,7 +12,8 @@ image: https://pinchito.es/2026/pics/avis-lxxx.jpg
 Is it possible to complete a trip around the world with an autonomous drone?
 And under 80 days?
 This is a crazy project that would make [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
-But the real fun is to figure out if it can be done with a relatively modest budget of one million euros.
+But the real fun is to figure out if it can be done with a relatively modest budget.
+Like, say, one million euros.
 
 ![An autonomous airship. Source: Nano Banana based on a sketch by the author.](pics/avis-lxxx-concept.jpg "A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches.")
 
@@ -105,6 +106,8 @@ while still being fully functioning.
 We will set a target size of 4 meters,
 which we have previously analyzed in
 [Aves Æternæ](http://pinchito.local/2024/aves-aeternae).
+Minor axes are 2 meters long;
+surface is 21.48 m2 while volume is 8.38 m3.
 This gives us a max weight of less than 10 kg.
 We have to review the specs for the trip around the world.
 
@@ -114,14 +117,13 @@ which occupies 8 m3 of gas, or 8000 liters.
 This may seem like a lot, but it is almost exactly the contents of a
 [commercial hydrogen cylinder](https://shop.airproducts.com/emea/es/es-ES/products/62242/).
 
-## Envelope
+## Outer Shell
 
-The airship cover needs to keep its hydrogen inside,
-endure the elements and keep its shape;
-and do all this being light enough.
+The airship cover needs to keep its shape and endure the elements;
+and be light enough.
 
 I previously assumed that a carbon fiber skin was the best option.
-It was a bit misguided:
+This was a bit misguided:
 the material is too rigid, too opaque and not resistant enough to withstand the elements.
 A composite skin of different polymers seems like a much better option,
 with an external exoskeleton of carbon fiber to keep its shape.
@@ -129,28 +131,54 @@ with an external exoskeleton of carbon fiber to keep its shape.
 The exact composition needs to be studied,
 but it must deal with:
 * Tensile strength: be able to withstand strong winds and changes of pressure.
+Polyurethane seems to be a good choice.
 * Ultraviolet damage: keep up with the strong sun near the equator.
 * Water resistance: endure rain for extended periods.
-* Hydrogen leakage: help the internal bag keep its gas.
 
-Additionally, a gas bag will need to hold its hydrogen for extended periods.
-It is not crazy to set a target of 1% leakage per week,
-judging by the literature, e.g.
-[this article](https://www.researchgate.net/publication/317394151_Self-Sustainability_in_Nano_Unmanned_Aerial_Vehicles_A_Blimp_Case_Study) or
+To build the outer shell and the gas bag we need to join a number of pieces with funny shapes.
+I did some numerical integration for the [Avis Minima](/2024/avis-minima),
+and found the optimal shape.
+Nowadays ultrasonic plastic sealing is much more effective than traditional sewing techniques.
+
+I have found that it is a good compromise to use around half the weight of the airship
+for the outer and inner envelopes.
+We can spare 4 kg for the outer shell;
+for our surface of 21.5 m3 we get an areal density of 185 g/m2.
+If you know your paper qualities,
+this would be equivalent to strong cardboard.
+For light polymers that have a density around 1 g/cm3,
+this gives us a thickness of 0.185 mm.
+
+## Hydrogen Gas
+
+Additionally, a gas bag will be needed to hold the hydrogen for extended periods.
+Judging by the literature a target of 1% leakage per week is quite doable.
+For instance in
+[this article](https://www.researchgate.net/publication/317394151_Self-Sustainability_in_Nano_Unmanned_Aerial_Vehicles_A_Blimp_Case_Study),
+or
 [this commercial provider](https://www.publi-zeppelines.com/preguntas-frecuentes-hinchables-helio-publicitarios)
-that advertises 2% loss per week.
+that advertises 2% helium loss per week.
+
+Losing 1% per week for 11.5 weeks (80 days)
+would leave us with 11.5% less gas at the end of our little trip,
+which can compromise buoyancy by losing more than a kilogram of lift.
+Smaller leakages or a shorter trip (see below) may be necessary.
 Keep in mind that hydrogen is a smaller _atom_ than helium,
 but a bigger _molecule_ as there are two atoms.
 I have not seen a definitive answer on which gas is easier to contain,
 but there have been considerable efforts to contain hydrogen since it is used widely in industrial settings.
 It seems that polymers such as PVA or EVOH are best suited for containing it.
 
-To build the envelope and the gas bag we need to join a number of pieces with funny shapes.
-I did some numerical integration for the [Avis Minima](/2024/avis-minima),
-and found the optimal shape.
-Nowadays ultrasonic plastic sealing is much more effective than traditional sewing techniques.
+We can spare 1 kg for the gas bag;
+again for our surface of 21.5 m3 we get an areal density of 47 g/m2.
+This corresponds with very light wrapping paper.
+Since PVA is 1.19 g/cm3,
+this gives us a thickness of around 40 microns,
+which is common in the industry.
 
-I have found that it is sensible to 
+## Structure
+
+We also need a strong carbon fiber structure to keep everything in place.
 
 ## Power
 
@@ -170,21 +198,41 @@ with a weight of 384 g/m2 (panels only).
 Building a solar cell requires giving them some support, protection from the elements
 and electric connections;
 let's suppose a total weight of 1 kg/m2.
-We can reach our target of 165W with an area of 0,73 m2,
-which means building a flexible panel of 730 grams.
-This panel should fit comfortably on top of the drone.
+We can reach our target of 165W with an area of 0,73 m2.
+Just to be safe we will use a flexible panel of 1 m2 weighing 1 kg,
+which should fit comfortably on top of the drone.
+This gives us the full 224 Watt.
 
 Power requirements grow with the 3rd power of the speed,
 which is a lot.
-What happens if we use the whole power to run the motors?
-164W with an efficiency of 90% would allow us to reach peak speeds of only 13.5 m/s (49 km/h or 30 mi/h):
+What happens if we use the full power to run the motors?
+224W with an efficiency of 90% would allow us to reach peak speeds of 15 m/s (54 km/h or 34 mi/h):
 
 ```
-P ≈ 0.06 × 13.5³ ≈ 148 W.
+P ≈ 0.06 × 15³ ≈ 202 W.
 ```
+
+This could be used for emergency situations or to counteract strong winds.
+
+Storing all this energy can be costly.
+Energy density for LiPo batteries can reach 200 Wh/kg,
+so if we use a 1 kg battery we can store up to 200 Wh.
+This would take a couple of hours to recharge if we can spare 100 W.
+At night it would be able to give 20 W for ten hours,
+which would result in a speed of more than 6 m/s.
+
+```
+P ≈ 0.06 × 6³ ≈ 13 W.
+```
+
+Depending on how many hours of direct sunlight we get,
+our little airship might be making around 288 km during the day and an additional 216 km at night.
+
+* Day: 10 m/s for 8 hours = 288 km.
+* Night: 6 m/s for 10 hours = 216 km.
+
 
 ## Weight
-
 
 Navigation computer, communications equipment and 
 

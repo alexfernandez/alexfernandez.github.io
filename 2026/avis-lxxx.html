@@ -9,20 +9,20 @@
 -->
 <html>
 	<head>
-		<title>🌐 Flying Around the World in under 80 Days</title>
+		<title>🌐 Floating Around the World in under 80 Days</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="🌐 Flying Around the World in under 80
-Days — With Avis LXXX: an Autonomous Airship Drone" />
+		<meta name="description" content="🌐 Floating Around the World in under
+80 Days — With Avis LXXX: an Autonomous Airship Drone" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@pinchito" />
-		<meta name="twitter:title" content="🌐 Flying Around the World in under
-80 Days — With Avis LXXX: an Autonomous Airship Drone" />
+		<meta name="twitter:title" content="🌐 Floating Around the World in
+under 80 Days — With Avis LXXX: an Autonomous Airship Drone" />
 		<meta name="twitter:description" content="A project to circumnavigate
 the globe using an autonomous airship. Craft, routes and timings for
 maximum air endurance." />
 		<meta name="twitter:image" content="https://pinchito.es/2026/pics/avis-lxxx.jpg" />
-		<meta property="og:title" content="🌐 Flying Around the World in under
+		<meta property="og:title" content="🌐 Floating Around the World in under
 80 Days — With Avis LXXX: an Autonomous Airship Drone" />
 		<meta property="og:type" content="website" />
 		<meta property="og:description" content="A project to circumnavigate the
@@ -80,14 +80,14 @@ air endurance." />
 							<section id="one">
 								<div class="container">
 									<header class="major">
-										<h1>🌐 Flying Around the World in under 80 Days</h1>
+										<h1>🌐 Floating Around the World in under 80 Days</h1>
 										<p>With Avis LXXX: an Autonomous Airship Drone<p>
 									</header>
 																				<p>Is it possible to complete a trip around the world with an autonomous
 drone? And under 80 days? This is a crazy project that would make <a
 href="https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days">Jules
 Verne proud</a>. But the real fun is to figure out if it can be done
-with a relatively modest budget of one million euros.</p>
+with a relatively modest budget. Like, say, one million euros.</p>
 <figure>
 <img src="pics/avis-lxxx-concept.jpg"
 title="A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches."
@@ -189,47 +189,64 @@ author.</figcaption>
 <p>Thanks to the latest advances in miniaturization a drone can be quite
 small, while still being fully functioning. We will set a target size of
 4 meters, which we have previously analyzed in <a
-href="http://pinchito.local/2024/aves-aeternae">Aves Æternæ</a>. This
-gives us a max weight of less than 10 kg. We have to review the specs
-for the trip around the world.</p>
+href="http://pinchito.local/2024/aves-aeternae">Aves Æternæ</a>. Minor
+axes are 2 meters long; surface is 21.48 m2 while volume is 8.38 m3.
+This gives us a max weight of less than 10 kg. We have to review the
+specs for the trip around the world.</p>
 <p>How much gas do we need for this mission? A spheroid of 4x2x2 m3 will
 use around 560 grams of hydrogen, which occupies 8 m3 of gas, or 8000
 liters. This may seem like a lot, but it is almost exactly the contents
 of a <a
 href="https://shop.airproducts.com/emea/es/es-ES/products/62242/">commercial
 hydrogen cylinder</a>.</p>
-<h2 id="envelope">Envelope</h2>
-<p>The airship cover needs to keep its hydrogen inside, endure the
-elements and keep its shape; and do all this being light enough.</p>
-<p>I previously assumed that a carbon fiber skin was the best option. It
-was a bit misguided: the material is too rigid, too opaque and not
+<h2 id="outer-shell">Outer Shell</h2>
+<p>The airship cover needs to keep its shape and endure the elements;
+and be light enough.</p>
+<p>I previously assumed that a carbon fiber skin was the best option.
+This was a bit misguided: the material is too rigid, too opaque and not
 resistant enough to withstand the elements. A composite skin of
 different polymers seems like a much better option, with an external
 exoskeleton of carbon fiber to keep its shape.</p>
 <p>The exact composition needs to be studied, but it must deal with: *
 Tensile strength: be able to withstand strong winds and changes of
-pressure. * Ultraviolet damage: keep up with the strong sun near the
-equator. * Water resistance: endure rain for extended periods. *
-Hydrogen leakage: help the internal bag keep its gas.</p>
-<p>Additionally, a gas bag will need to hold its hydrogen for extended
-periods. It is not crazy to set a target of 1% leakage per week, judging
-by the literature, e.g. <a
-href="https://www.researchgate.net/publication/317394151_Self-Sustainability_in_Nano_Unmanned_Aerial_Vehicles_A_Blimp_Case_Study">this
-article</a> or <a
-href="https://www.publi-zeppelines.com/preguntas-frecuentes-hinchables-helio-publicitarios">this
-commercial provider</a> that advertises 2% loss per week. Keep in mind
-that hydrogen is a smaller <em>atom</em> than helium, but a bigger
-<em>molecule</em> as there are two atoms. I have not seen a definitive
-answer on which gas is easier to contain, but there have been
-considerable efforts to contain hydrogen since it is used widely in
-industrial settings. It seems that polymers such as PVA or EVOH are best
-suited for containing it.</p>
-<p>To build the envelope and the gas bag we need to join a number of
+pressure. Polyurethane seems to be a good choice. * Ultraviolet damage:
+keep up with the strong sun near the equator. * Water resistance: endure
+rain for extended periods.</p>
+<p>To build the outer shell and the gas bag we need to join a number of
 pieces with funny shapes. I did some numerical integration for the <a
 href="/2024/avis-minima">Avis Minima</a>, and found the optimal shape.
 Nowadays ultrasonic plastic sealing is much more effective than
 traditional sewing techniques.</p>
-<p>I have found that it is sensible to</p>
+<p>I have found that it is a good compromise to use around half the
+weight of the airship for the outer and inner envelopes. We can spare 4
+kg for the outer shell; for our surface of 21.5 m3 we get an areal
+density of 185 g/m2. If you know your paper qualities, this would be
+equivalent to strong cardboard. For light polymers that have a density
+around 1 g/cm3, this gives us a thickness of 0.185 mm.</p>
+<h2 id="hydrogen-gas">Hydrogen Gas</h2>
+<p>Additionally, a gas bag will be needed to hold the hydrogen for
+extended periods. Judging by the literature a target of 1% leakage per
+week is quite doable. For instance in <a
+href="https://www.researchgate.net/publication/317394151_Self-Sustainability_in_Nano_Unmanned_Aerial_Vehicles_A_Blimp_Case_Study">this
+article</a>, or <a
+href="https://www.publi-zeppelines.com/preguntas-frecuentes-hinchables-helio-publicitarios">this
+commercial provider</a> that advertises 2% helium loss per week.</p>
+<p>Losing 1% per week for 11.5 weeks (80 days) would leave us with 11.5%
+less gas at the end of our little trip, which can compromise buoyancy by
+losing more than a kilogram of lift. Smaller leakages or a shorter trip
+(see below) may be necessary. Keep in mind that hydrogen is a smaller
+<em>atom</em> than helium, but a bigger <em>molecule</em> as there are
+two atoms. I have not seen a definitive answer on which gas is easier to
+contain, but there have been considerable efforts to contain hydrogen
+since it is used widely in industrial settings. It seems that polymers
+such as PVA or EVOH are best suited for containing it.</p>
+<p>We can spare 1 kg for the gas bag; again for our surface of 21.5 m3
+we get an areal density of 47 g/m2. This corresponds with very light
+wrapping paper. Since PVA is 1.19 g/cm3, this gives us a thickness of
+around 40 microns, which is common in the industry.</p>
+<h2 id="structure">Structure</h2>
+<p>We also need a strong carbon fiber structure to keep everything in
+place.</p>
 <h2 id="power">Power</h2>
 <p>Our target speed of 10 m/s requires some serious power. With the drag
 coefficient of 0.03 computed in <a href="/2024/aves-aeternae">Aves
@@ -241,13 +258,29 @@ available solar panels 224W/m2 is currently achievable, with a weight of
 384 g/m2 (panels only). Building a solar cell requires giving them some
 support, protection from the elements and electric connections; let’s
 suppose a total weight of 1 kg/m2. We can reach our target of 165W with
-an area of 0,73 m2, which means building a flexible panel of 730 grams.
-This panel should fit comfortably on top of the drone.</p>
+an area of 0,73 m2. Just to be safe we will use a flexible panel of 1 m2
+weighing 1 kg, which should fit comfortably on top of the drone. This
+gives us the full 224 Watt.</p>
 <p>Power requirements grow with the 3rd power of the speed, which is a
-lot. What happens if we use the whole power to run the motors? 164W with
-an efficiency of 90% would allow us to reach peak speeds of only 13.5
-m/s (49 km/h or 30 mi/h):</p>
-<pre><code>P ≈ 0.06 × 13.5³ ≈ 148 W.</code></pre>
+lot. What happens if we use the full power to run the motors? 224W with
+an efficiency of 90% would allow us to reach peak speeds of 15 m/s (54
+km/h or 34 mi/h):</p>
+<pre><code>P ≈ 0.06 × 15³ ≈ 202 W.</code></pre>
+<p>This could be used for emergency situations or to counteract strong
+winds.</p>
+<p>Storing all this energy can be costly. Energy density for LiPo
+batteries can reach 200 Wh/kg, so if we use a 1 kg battery we can store
+up to 200 Wh. This would take a couple of hours to recharge if we can
+spare 100 W. At night it would be able to give 20 W for ten hours, which
+would result in a speed of more than 6 m/s.</p>
+<pre><code>P ≈ 0.06 × 6³ ≈ 13 W.</code></pre>
+<p>Depending on how many hours of direct sunlight we get, our little
+airship might be making around 288 km during the day and an additional
+216 km at night.</p>
+<ul>
+<li>Day: 10 m/s for 8 hours = 288 km.</li>
+<li>Night: 6 m/s for 10 hours = 216 km.</li>
+</ul>
 <h2 id="weight">Weight</h2>
 <p>Navigation computer, communications equipment and</p>
 <h2 id="previous-work">Previous Work</h2>
