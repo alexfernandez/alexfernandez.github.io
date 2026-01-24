@@ -142,7 +142,7 @@ Nowadays ultrasonic plastic sealing is much more effective than traditional sewi
 
 I have found that it is a good compromise to use around half the weight of the airship
 for the outer and inner envelopes.
-We can spare 4 kg for the outer shell;
+It would be great if we can spare 4 kg for the outer shell;
 for our surface of 21.5 m3 we get an areal density of 185 g/m2.
 If you know your paper qualities,
 this would be equivalent to strong cardboard.
@@ -185,24 +185,34 @@ We also need a strong carbon fiber structure to keep everything in place.
 Our target speed of 10 m/s requires some serious power.
 With the drag coefficient of 0.03 computed in
 [Aves Æternæ](/2024/aves-aeternae)
-we get:
+we get a general formula of:
 
+```
+P ≈ ½ 1.3 kg/m³ × 0.03 × 3 m² × v³,
 P ≈ 0.06 kg/m × v³,
+```
+
+So in order to reach 10 m/s we need:
+
+```
+P ≈ 0.06 × 10³ W,
 P ≈ 60 W.
+```
 
 Let's set aside a power target of 165W,
 so we can drive our motors while charging the batteries at the same time.
-Using commercially available solar panels
+Using commercially available solar cells
 224W/m2 is currently achievable,
-with a weight of 384 g/m2 (panels only).
-Building a solar cell requires giving them some support, protection from the elements
-and electric connections;
-let's suppose a total weight of 1 kg/m2.
+with a weight of 384 g/m2 (cells only).
 We can reach our target of 165W with an area of 0,73 m2.
+Building a solar panel requires giving them some support, protection from the elements
+and electric connections;
+let's suppose a total density of 1 kg/m2.
 Just to be safe we will use a flexible panel of 1 m2 weighing 1 kg,
 which should fit comfortably on top of the drone.
 This gives us the full 224 Watt.
 
+And we may as well need this kind of power.
 Power requirements grow with the 3rd power of the speed,
 which is a lot.
 What happens if we use the full power to run the motors?
@@ -213,6 +223,8 @@ P ≈ 0.06 × 15³ ≈ 202 W.
 ```
 
 This could be used for emergency situations or to counteract strong winds.
+Also, maximum power is only reached with full-on sun,
+which is a couple of hours per day max, so we need some margin.
 
 Storing all this energy can be costly.
 Energy density for LiPo batteries can reach 200 Wh/kg,
@@ -226,15 +238,32 @@ P ≈ 0.06 × 6³ ≈ 13 W.
 ```
 
 Depending on how many hours of direct sunlight we get,
-our little airship might be making around 288 km during the day and an additional 216 km at night.
+our little airship might be making around 500 km every day:
 
 * Day: 10 m/s for 8 hours = 288 km.
 * Night: 6 m/s for 10 hours = 216 km.
-
+* Total: 288 + 216 = 504 km.
 
 ## Weight
 
 Navigation computer, communications equipment and 
+
+So our weight budget is at this point:
+
+|Component|Material|Weight|
+|---|---|
+| Enclosure | Composite polymer | 4 kg |
+| Gas bag | Polymer | 1 kg |
+| Structure | Carbon fiber | 1 kg |
+| Battery | LiPo | 1 kg |
+| Solar panel | Composite | 1 kg |
+| Gondola | Polymer | 0.2 kg |
+| Propellers | 0.1 g |
+| Motors | 0.2 kg |
+| Electronics | Metal | 0.2 g |
+| Gas | Hydrogen | Metal | 0.7 g |
+| **Total** | -- | 9.4 kg |
+
 
 ## Previous Work
 

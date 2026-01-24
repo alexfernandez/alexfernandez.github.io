@@ -218,11 +218,12 @@ href="/2024/avis-minima">Avis Minima</a>, and found the optimal shape.
 Nowadays ultrasonic plastic sealing is much more effective than
 traditional sewing techniques.</p>
 <p>I have found that it is a good compromise to use around half the
-weight of the airship for the outer and inner envelopes. We can spare 4
-kg for the outer shell; for our surface of 21.5 m3 we get an areal
-density of 185 g/m2. If you know your paper qualities, this would be
-equivalent to strong cardboard. For light polymers that have a density
-around 1 g/cm3, this gives us a thickness of 0.185 mm.</p>
+weight of the airship for the outer and inner envelopes. It would be
+great if we can spare 4 kg for the outer shell; for our surface of 21.5
+m3 we get an areal density of 185 g/m2. If you know your paper
+qualities, this would be equivalent to strong cardboard. For light
+polymers that have a density around 1 g/cm3, this gives us a thickness
+of 0.185 mm.</p>
 <h2 id="hydrogen-gas">Hydrogen Gas</h2>
 <p>Additionally, a gas bag will be needed to hold the hydrogen for
 extended periods. Judging by the literature a target of 1% leakage per
@@ -250,24 +251,29 @@ place.</p>
 <h2 id="power">Power</h2>
 <p>Our target speed of 10 m/s requires some serious power. With the drag
 coefficient of 0.03 computed in <a href="/2024/aves-aeternae">Aves
-Æternæ</a> we get:</p>
-<p>P ≈ 0.06 kg/m × v³, P ≈ 60 W.</p>
+Æternæ</a> we get a general formula of:</p>
+<pre><code>P ≈ ½ 1.3 kg/m³ × 0.03 × 3 m² × v³,
+P ≈ 0.06 kg/m × v³,</code></pre>
+<p>So in order to reach 10 m/s we need:</p>
+<pre><code>P ≈ 0.06 × 10³ W,
+P ≈ 60 W.</code></pre>
 <p>Let’s set aside a power target of 165W, so we can drive our motors
 while charging the batteries at the same time. Using commercially
-available solar panels 224W/m2 is currently achievable, with a weight of
-384 g/m2 (panels only). Building a solar cell requires giving them some
-support, protection from the elements and electric connections; let’s
-suppose a total weight of 1 kg/m2. We can reach our target of 165W with
-an area of 0,73 m2. Just to be safe we will use a flexible panel of 1 m2
-weighing 1 kg, which should fit comfortably on top of the drone. This
-gives us the full 224 Watt.</p>
-<p>Power requirements grow with the 3rd power of the speed, which is a
-lot. What happens if we use the full power to run the motors? 224W with
-an efficiency of 90% would allow us to reach peak speeds of 15 m/s (54
-km/h or 34 mi/h):</p>
+available solar cells 224W/m2 is currently achievable, with a weight of
+384 g/m2 (cells only). We can reach our target of 165W with an area of
+0,73 m2. Building a solar panel requires giving them some support,
+protection from the elements and electric connections; let’s suppose a
+total density of 1 kg/m2. Just to be safe we will use a flexible panel
+of 1 m2 weighing 1 kg, which should fit comfortably on top of the drone.
+This gives us the full 224 Watt.</p>
+<p>And we may as well need this kind of power. Power requirements grow
+with the 3rd power of the speed, which is a lot. What happens if we use
+the full power to run the motors? 224W with an efficiency of 90% would
+allow us to reach peak speeds of 15 m/s (54 km/h or 34 mi/h):</p>
 <pre><code>P ≈ 0.06 × 15³ ≈ 202 W.</code></pre>
 <p>This could be used for emergency situations or to counteract strong
-winds.</p>
+winds. Also, maximum power is only reached with full-on sun, which is a
+couple of hours per day max, so we need some margin.</p>
 <p>Storing all this energy can be costly. Energy density for LiPo
 batteries can reach 200 Wh/kg, so if we use a 1 kg battery we can store
 up to 200 Wh. This would take a couple of hours to recharge if we can
@@ -275,14 +281,69 @@ spare 100 W. At night it would be able to give 20 W for ten hours, which
 would result in a speed of more than 6 m/s.</p>
 <pre><code>P ≈ 0.06 × 6³ ≈ 13 W.</code></pre>
 <p>Depending on how many hours of direct sunlight we get, our little
-airship might be making around 288 km during the day and an additional
-216 km at night.</p>
+airship might be making around 500 km every day:</p>
 <ul>
 <li>Day: 10 m/s for 8 hours = 288 km.</li>
 <li>Night: 6 m/s for 10 hours = 216 km.</li>
+<li>Total: 288 + 216 = 504 km.</li>
 </ul>
 <h2 id="weight">Weight</h2>
 <p>Navigation computer, communications equipment and</p>
+<p>So our weight budget is at this point:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Enclosure</td>
+<td>Composite polymer</td>
+</tr>
+<tr class="even">
+<td>Gas bag</td>
+<td>Polymer</td>
+</tr>
+<tr class="odd">
+<td>Structure</td>
+<td>Carbon fiber</td>
+</tr>
+<tr class="even">
+<td>Battery</td>
+<td>LiPo</td>
+</tr>
+<tr class="odd">
+<td>Solar panel</td>
+<td>Composite</td>
+</tr>
+<tr class="even">
+<td>Gondola</td>
+<td>Polymer</td>
+</tr>
+<tr class="odd">
+<td>Propellers</td>
+<td>0.1 g</td>
+</tr>
+<tr class="even">
+<td>Motors</td>
+<td>0.2 kg</td>
+</tr>
+<tr class="odd">
+<td>Electronics</td>
+<td>Metal</td>
+</tr>
+<tr class="even">
+<td>Gas</td>
+<td>Hydrogen</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
 <h2 id="previous-work">Previous Work</h2>
 <p>https://www.aaltohaps.com/</p>
 <h1 id="navigation">🗺️ Navigation</h1>
