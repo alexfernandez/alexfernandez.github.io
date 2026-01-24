@@ -251,7 +251,7 @@ Navigation computer, communications equipment and
 So our weight budget is at this point:
 
 |Component|Material|Weight|
-|---|---|
+|---|---|---|
 | Enclosure | Composite polymer | 4 kg |
 | Gas bag | Polymer | 1 kg |
 | Structure | Carbon fiber | 1 kg |
