@@ -1,7 +1,7 @@
 ---
 title: '🪽 Avis Minima'
 subtitle: '🛩️ Building A Prototype Airship Drone'
-footer: Published on 2024-07-08, last modified on 2024-07-28.
+footer: Published on 2024-07-08, last modified on 2026-01-24.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 image: https://pinchito.es/2024/pics/avis-minima-reinforced.svg
 ---
@@ -249,7 +249,7 @@ computed with a bit more precision than above.
 | Weight | 157 g |
 
 Weight is computed based on the volume of air displaced,
-using an average air density of 1.2 kg/m³ (sea level, 20 C).
+using an average air density of 1.2 kg/m³ (sea level, 20 °C).
 One of the challenges is that this weight can change with temperature, altitude and even atmospheric conditions.
 
 Note that we have around 160 grams to fit in everything:
@@ -488,7 +488,7 @@ Not necessarily.
 Remember when we said that air density varies with atmospheric conditions?
 Temperature is the biggest factor here:
 
-| Temperature (C) | Density | Weight |
+| Temperature (°C) | Density | Weight |
 |---|---|---|
 | 0 | 1.3 | 170 |
 | 10 |	1.25	| 164 |
@@ -496,7 +496,7 @@ Temperature is the biggest factor here:
 | 30 |	1.16 |	152 |
 | 40 |	1.13 |	148 |
 
-So we should be good for temperatures below 40 C (104 F) at sea level.
+So we should be good for temperatures below 40 °C (104 F) at sea level.
 But if barometric pressure goes down a bit because of bad weather then we are grounded!
 
 That is not all. If we go up air density will go down as well --
@@ -506,10 +506,10 @@ and around 9% at 1000 m (3300 feet).
 So if you live in the mountains (or in the high plains)
 then you may have to lighten your dirigibles a bit more.
 
-In Madrid where I live (657 m) [at 20 C](https://www.omnicalculator.com/physics/air-pressure-at-altitude)
-[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³ at 20 C,
+In Madrid where I live (657 m) [at 20 °C](https://www.omnicalculator.com/physics/air-pressure-at-altitude)
+[air density](https://www.omnicalculator.com/physics/air-density) is approx 1.12 kg/m³ at 20 °C,
 so the prototype would have to weigh 148 grams.
-Should temperature go to 40 C (as it regularly does every summer)
+Should temperature go to 40 °C (as it regularly does every summer)
 then density falls to 1.045 kg/m³ and model weight plummets to 137 g.
 We would have to shed 13 additional grams from our target weight of 150 g.
 
