@@ -258,8 +258,8 @@ So our weight budget is at this point:
 | Battery | LiPo | 1 kg |
 | Solar panel | Composite | 1 kg |
 | Gondola | Polymer | 0.2 kg |
-| Propellers | 0.1 g |
-| Motors | 0.2 kg |
+| Propellers | Polymer | 0.1 g |
+| Motors | Metal | 0.2 kg |
 | Electronics | Metal | 0.2 g |
 | Gas | Hydrogen | Metal | 0.7 g |
 | **Total** | -- | 9.4 kg |
@@ -272,10 +272,34 @@ https://www.aaltohaps.com/
 
 # 🗺️ Navigation
 
+What scenic routes will we take across our beautiful planet?
+We have to consider a few key points:
+
+* Go as straight as possible.
+* Take advantage of winds.
+* Not get shot at.
+
 ## Route
 
-or 30,000 km on the 40°N parallel.
+We might think that the best path is to go in a straight line.
+The diameter of the equator is 40,000 km,
+which is reduced to 30,000 km on the 40°N parallel.
+But this is not very efficient.
+
+Trade winds go from East to West,
+and can help us shorten flight time.
 The wonderful [nullschool earth project](https://earth.nullschool.net/)
+shows wind speed.
+
+Average trade wind speed is 5 m/s.
+Combined with our computed speeds:
+
+* Day: 15 m/s for 8 hours = 432 km.
+* Night: 11 m/s for 10 hours = 396 km.
+* Total: 432 + 396 = 828 km.
+
+If we assume that our route is 50,000 km long,
+we would be in the air for 60 days, or under 9 weeks.
 
 Head winds should not surpass 13 m/s if we want to be able to counteract them.
 49 km/h (30 mi/h) is not a lot, especially over sea.
