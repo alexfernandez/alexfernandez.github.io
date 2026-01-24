@@ -264,6 +264,24 @@ So our weight budget is at this point:
 | Gas | Hydrogen | Metal | 0.7 g |
 | **Total** | -- | 9.4 kg |
 
+Remember that lift is due to the volume of air displaced by the hydrogen,
+so with 8.38 m3, lift will be:
+
+```
+L = 8.38 * (1.3 - 0.070) kg/m3 ~ 10.3 kg.
+```
+
+But this is at 0 °C!
+As temperature raises air becomes less dense, so
+we will get less and less lift:
+
+| Temperature (°C) | Density (kg/m3) | Weight (kg) |
+|---|---|---|
+| 0 | 1.3 | 10.3 |
+| 10 |  1.25    | 9.9 |
+| 20 |  1.2 | 9.5 |
+| 30 |  1.16 |  9.1 |
+| 40 |  1.13 |  8.9 |
 
 ## Previous Work
 
