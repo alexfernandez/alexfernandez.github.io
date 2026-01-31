@@ -139,6 +139,7 @@ with an external exoskeleton of carbon fiber to keep its shape.
 
 The exact composition needs to be studied,
 but it must deal with:
+
 * Tensile strength: be able to withstand strong winds and changes of pressure.
 Polyurethane seems to be a good choice.
 * Ultraviolet damage: keep up with the strong sun near the equator.
