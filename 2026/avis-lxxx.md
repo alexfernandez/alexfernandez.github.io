@@ -145,10 +145,11 @@ Polyurethane seems to be a good choice.
 * Ultraviolet damage: keep up with the strong sun near the equator.
 * Water resistance: endure rain for extended periods.
 
-To build the outer shell and the gas bag we need to join a number of pieces with funny shapes.
+To build the outer shell we need to join a number of pieces with funny shapes.
 I did some numerical integration for the [Avis Minima](/2024/avis-minima),
-and found the optimal shape.
-Nowadays ultrasonic plastic sealing is much more effective than traditional sewing techniques.
+and found the optimal shapes.
+The pieces can be joined together using ultrasonic plastic sealing,
+which is much more effective than traditional sewing techniques.
 
 I have found that it is a good compromise to use around half the weight of the airship
 for the outer and inner envelopes.
