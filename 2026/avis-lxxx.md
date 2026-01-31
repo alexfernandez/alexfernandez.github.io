@@ -38,6 +38,8 @@ An airship can remain afloat as long as it holds its lighter-than-air gas inside
 The obvious solution is to propel the drone using electric batteries,
 and replenish the power during the day using high efficiency solar panels.
 
+![This is not farfetched: people are flying solar airships today. Source: [YouTube video from eBlimp](https://www.youtube.com/watch?v=N8dXDgt0iCg).](pics/avis-lxxx-solar-eblimp.jpg "An airship named Mothership flying over some trees. Text says: eBlimp.com, This solar eBlimp was designed for Mothership Aeronautics.")
+
 **What is the best option for the gas inside the airship?**
 Helium is the usual choice, but for a drone where no human lives are endangered it may not be optimal.
 Hydrogen is cheaper, lighter and more readily available.
