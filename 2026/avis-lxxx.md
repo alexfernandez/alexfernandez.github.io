@@ -91,7 +91,7 @@ due to careful design and construction.
 ![The “Torres Quevedo no 2” in 1908. Source: [Leonardo Torres Quevedo, 1902-1908](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs).](pics/avis-lxxx-torres.jpg "A side view of a huge airship being hailed by many people in the ground, with the text: '1908 - Le Torres-Quevedo dirigeuble militaire espagnol, dans le Parc de Guadalajara. J.H.'. Article source is: González Redondo, Francisco, 2008: Leonardo Torres Quevedo, 1902-1908. The Foundations for 100 years of Airship designs.")
 
 Solar panel advances are very well exemplified by the Airbus Zephyr,
-now run by its own company AALTO.
+now run by its own company [AALTO](https://www.aaltohaps.com/).
 In 2025 it endured [67 days of autonomous powered flight](https://en.wikipedia.org/wiki/List_of_flight_endurance_records#Airplane,_uncrewed),
 recharging during the day and hovering during the night.
 The efficiency obtained by their batteries and solar panels is awesome,
@@ -317,6 +317,7 @@ So our weight budget is at this point:
 | Gas | Hydrogen | Metal | 0.7 g |
 | **Total** | -- | 8.1 kg |
 
+An 8 kg airship will certainly be able to hover.
 Remember that lift is due to the volume of air displaced by the hydrogen,
 so with 8.38 m3 lift will be:
 
@@ -344,16 +345,16 @@ the [international standard atmosphere](https://www.engineeringtoolbox.com/inter
 dictates that at 500 m it will be down 5%,
 so we will have 0.95 of the lift:
 at 30 °C it's only 8.65 kg.
+Our weight budget is starting to get tight.
 
 The last factor is hydrogen loss:
-even at 1% per week, after 9 weeks there will be 9% less gas,
+even at 1% per week, after 80 days there will be 12% less gas,
 and this space inside the enclosure will be occupied by air.
-Lift at 500m and 30 °C is now down to 7.9 kg.
-
-## Previous Work
-
-
-https://www.aaltohaps.com/
+Lift at 500m and 30 °C is now down to 7.6 kg.
+In fact, according to this [handy density calculator](https://aerotoolbox.com/density-altitude/)
+our little airship would hardly be able to keep airborne!
+So one of the challenges is to reduce hydrogen losses,
+or make a faster trip.
 
 # 🗺️ Navigation
 
