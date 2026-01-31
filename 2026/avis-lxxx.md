@@ -401,9 +401,14 @@ we are depicting the weather on a typical winter day,
 as cold helps us get denser air.
 
 We may as well start in Southern Spain, near Cádiz.
-The prevailing winds will usually help us get to the Canary Islands
+The prevailing winds will usually help us get to the Canary Islands.
 
-![Hi](pics/avis-lxxx-cadiz-start.jpg "The map shows a blue line starting in Cádiz, and moving to the South-West until it reaches the Canary Islands.")
+![The blue line shows the proposed flight path.](pics/avis-lxxx-cadiz-start.jpg "The map shows a blue line starting in Cádiz, and moving to the South-West until it reaches the Canary Islands.")
+
+From there winds do really help us move West,
+on this particular day at almost 10 m/s.
+
+![The Atlantic journey will be done in a breeze! Pardon the pun.](pics/avis-lxxx-atlantic-journey.jpg "The blue line goes from the vicinity of the Canary Islands westward.")
 
 ## Height
 
