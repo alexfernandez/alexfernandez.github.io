@@ -32,7 +32,7 @@ In what follows we will use meters per second; so 6 m/s will be our initial spee
 **Can we make flight more efficient?**
 The biggest energy expense for a drone is usually not moving about,
 but staying up in the air.
-For our little project the drone needs to keep running for many weeks.
+For our little project it will need to keep running for many weeks.
 One solution I'm particularly fond of is making the aircraft buoyant on its own.
 An airship can remain afloat as long as it holds its lighter-than-air gas inside.
 The obvious solution is to propel the drone using electric batteries,
