@@ -27,7 +27,8 @@ by answering a few questions that may be popping into your head.
 First, we want to build a flying device that can autonomously circumnavigate the world in less than 80 days.
 If it went on a straight line around the equator the trip would take 40,000 km, or 25,000 miles;
 in 80 days average speed comes out as a little bit over 20 km/h (13 miles/hour).
-In what follows we will use meters per second; so 6 m/s will be our initial speed target.
+In what follows we will use meters per second; so 6 m/s will be our minimum speed target.
+Let's make it 10 m/s to have some room.
 
 **Can we make flight more efficient?**
 The biggest energy expense for a drone is usually not moving about,
@@ -190,6 +191,17 @@ which is common in the industry.
 ## Structure
 
 We also need a strong carbon fiber structure to keep everything in place.
+We will reserve 1 kg for a few strips of carbon fiber around the structure,
+three little wings (one on top and two on the sides,
+and a nose cone.
+The strips are aproximately 26.5 meters long, if maths serve me right;
+making them 0.5 kg would give a length density of 18 g/m,
+although it is probably better to make the top strips lighter
+and the bottom strips sturdier.
+The wings and the nose cone are a bit over a square meter,
+so an areal density of 500 g/m2 seems appropriate.
+
+It remains to be seen if the structure can be made lighter to save even more weight.
 
 ## Power
 
@@ -212,8 +224,7 @@ P ≈ 60 W.
 
 Let's set aside a power target of 165W,
 so we can drive our motors while charging the batteries at the same time.
-Using commercially available solar cells
-224W/m2 is currently achievable,
+Using commercially available solar cells 224 W/m2 is currently achievable,
 with a weight of 384 g/m2 (cells only).
 We can reach our target of 165W with an area of 0,73 m2.
 Building a solar panel requires giving them some support, protection from the elements
