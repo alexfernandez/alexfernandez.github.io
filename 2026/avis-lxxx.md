@@ -369,15 +369,17 @@ We have to consider a few key points:
 
 ## Route
 
-We might think that the best path is to go in a straight line.
+We might think that the best path is to go in a straight line curved around the globe.
 The diameter of the equator is 40,000 km,
-which is reduced to 30,000 km on the 40°N parallel.
+and if we just stay on the 40°N parallel it is even shorter: 30,000 km.
 But this is not very efficient.
 
-Trade winds go from East to West,
-and can help us shorten flight time.
+As we saw before we need the help of trade winds, which usually blow from East to West.
+Thye can help us shorten flight time.
 The wonderful [nullschool earth project](https://earth.nullschool.net/)
-shows wind speed.
+will help us a lot in this imaginary flight plan.
+
+![This cool interface shows wind speed as lines, and temperature as colors. Source: Cameron Beccario and Nullschool Technologies Inc.](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
 
 Average trade wind speed is 5 m/s.
 Combined with our computed speeds:
@@ -391,6 +393,8 @@ we would be in the air for 60 days, or under 9 weeks.
 
 Head winds should not surpass 13 m/s if we want to be able to counteract them.
 49 km/h (30 mi/h) is not a lot, especially over sea.
+
+## The Journey
 
 ## Height
 
