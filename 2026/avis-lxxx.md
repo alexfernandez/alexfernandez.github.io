@@ -421,6 +421,26 @@ Lago Cociboica (also called Lake Nicaragua).
 
 ![Not a lot of mountains. Source: [OpenStreetMap, SRTM, Map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
 
+Now we are up for the Pacific journey,
+the longest leg of our trip.
+We have to cross a vast expanse of ocean 16000 km long.
+
+![Thankfully trade winds are again helping us.](pics/avis-lxxx-pacific-journey.jpg "The blue line is now crossing the vast Pacific ocean, near the equator.")
+
+Next we have to cross Southern Asia.
+There is no path completely over land which is practical against the wind,
+so we have to cross over at some point.
+Preliminary analysis shows that we could cross over Thailand,
+near the border with Malaysia.
+
+![Not a lot of mountains there, plus not a lot of geopolitical stress.](pics/avis-lxxx-asia-crossing.jpg "The blue line goes over Southern Asia, goes around a few islands, and crosses over the Thai peninsula.")
+
+Next we cross over the Indian Ocean, and move near Africa.
+The shortest path
+
+![Our friends the trade winds are again helping us.](pics/avis-lxxx-indian-journey.jpg "The blue line goes below India and Sri Lanka, and approaches Africa.")
+
+
 ## Height
 
 The problem of height is one of the most interesting aspects of the project.
