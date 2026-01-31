@@ -94,26 +94,25 @@ now run by its own company AALTO.
 In 2025 it endured [67 days of autonomous powered flight](https://en.wikipedia.org/wiki/List_of_flight_endurance_records#Airplane,_uncrewed),
 recharging during the day and hovering during the night.
 The efficiency obtained by their batteries and solar panels is awesome,
-and it has trickled down to consumer products.
+and there are now consumer products in the same range.
 
 ![Airbus record-setting solar drone. Source: [AALTO Zephyr](https://www.aaltohaps.com/).](pics/avis-lxxx-zephyr.webp "A very thin uncrewed plane with a 40-meter wing, flying in the air.")
 
 # 🛩️ The Craft
 
 Let's now review the details concerning airship design and construction.
-
-![Sketch of the design. Source: the author.](pics/avis-lxxx-model.svg "Four views of an airship. Top left: side view, showing the gondola and the propellers. Top right: view from the front with the nose cone. Bottom right: view from above, showing the solar panels and the wings. Bottom left: isometric view, showing a semi-realistic 3D view.")
-
 Keep in mind that everything we say here will be a bit handwavy,
 just intended for a very preliminary feasibility study.
 A large part of the project is proper engineering research into
 how to make the project work reliably,
-since it will have to fly autonomously for weeks.
+and how to fly autonomously for weeks.
+
+![Sketch of the design. Source: the author.](pics/avis-lxxx-model.svg "Four views of an airship. Top left: side view, showing the gondola and the propellers. Top right: view from the front with the nose cone. Bottom right: view from above, showing the solar panels and the wings. Bottom left: isometric view, showing a semi-realistic 3D view.")
 
 ## Size
 
 Thanks to the latest advances in miniaturization a drone can be quite small,
-while still being fully functioning.
+while still being fully functional.
 We will set a target size of 4 meters,
 which we have previously analyzed in
 [Aves Æternæ](http://pinchito.local/2024/aves-aeternae).
