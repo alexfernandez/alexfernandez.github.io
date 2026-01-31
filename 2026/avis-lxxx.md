@@ -52,19 +52,21 @@ and they can be supplemented with other layers that prevent ultraviolet damage a
 
 **How big does the airship need to be?**
 Ship size is a critical parameter.
-A small ship is easier and cheaper to build,
+A small drone is easier and cheaper to build,
 while bigger ships tends to have higher top speeds.
 Having enough instrumentation onboard also requires to carry a minimum payload.
 We will set a target length of 4 meters and check if it works.
 
 Finally, **what is the best route to take?**
 An airship can also helped by trade winds:
-air currents caused by the rotation of the Earth,
+air currents caused by the rotation of the Earth
 that move on average from East to West.
 The trajectory should therefore follow this orientation rather than West-East.
 A modestly sized airship cannot go against strong air currents,
 so the path should be carefully planned in advance and adjusted while in flight,
 to take advantage of the wind at every point.
+
+![Trade winds across the world. Source: [KVDP - Own work, Public Domain](https://commons.wikimedia.org/w/index.php?curid=8158719).](pics/avis-lxxx-trade-winds.png "A world map showing trade winds (northeasterly) in yellow, trade winds (southeasterly) in brown, and westerlies in blue. Prevailing winds near the equator move East to West, while further away North or South they tend to move West to East.")
 
 Most of the trajectory can pass over the oceans,
 but skipping land completely would take too much of a detour,
@@ -75,12 +77,12 @@ The challenge here is to find some convenient low-hostility routes for safe pass
 
 ## 💡 Concept
 
-The inspiration for safe, hydrogen airships is quite old.
+The inspiration for reliable hydrogen airships is quite old.
 More than a century ago the Spanish engineer Leonardo Torres Quevedo came up with the
 [Astra Torres designs](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs),
 autorigid dirigibles which were used successfully in the Great War.
-Unlike the competition from the German Zeppelins and others,
-these hydrogen crafts had no flammability issues at all during their long career,
+Unlike the competition from German Zeppelins and others,
+these hydrogen monsters had no flammability issues at all during their long career,
 due to careful design and construction.
 
 ![The “Torres Quevedo no 2” in 1908. Source: [Leonardo Torres Quevedo, 1902-1908](https://www.researchgate.net/publication/348018483_Leonardo_Torres_Quevedo_1902-1908_The_Foundations_for_100_years_of_Airship_designs).](pics/avis-lxxx-torres.jpg "A side view of a huge airship being hailed by many people in the ground, with the text: '1908 - Le Torres-Quevedo dirigeuble militaire espagnol, dans le Parc de Guadalajara. J.H.'. Article source is: González Redondo, Francisco, 2008: Leonardo Torres Quevedo, 1902-1908. The Foundations for 100 years of Airship designs.")
