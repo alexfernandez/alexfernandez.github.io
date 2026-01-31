@@ -152,11 +152,11 @@ These pieces can be joined together using ultrasonic plastic sealing,
 which is much more effective than traditional sewing techniques.
 
 I have found that it is a good compromise to use around half the weight of the airship
-for the outer and inner envelopes.
-It would be great if we can spare 3 kg for the outer shell;
+for the external envelopes.
+Preliminary numbers show that 3 kg should be enough for the outer shell;
 for our surface of 21.5 m3 we get an areal density of 140 g/m2.
 If you know your paper qualities,
-this would be equivalent to strong cardboard.
+this would be equivalent to thin cardboard.
 For light polymers that have a density around 1 g/cm3,
 this gives us a thickness of 0.185 mm.
 
@@ -172,7 +172,7 @@ that advertises 2% helium loss per week.
 
 Losing 1% per week for 11.5 weeks (80 days)
 would leave us with 11.5% less gas at the end of our little trip,
-which can compromise buoyancy by losing more than a kilogram of lift.
+which can compromise buoyancy by reducing lift by more than a kilogram.
 Smaller leakages or a shorter trip (see below) may be necessary.
 Keep in mind that hydrogen is a smaller _atom_ than helium,
 but a bigger _molecule_ as there are two atoms.
@@ -180,9 +180,9 @@ I have not seen a definitive answer on which gas is easier to contain,
 but there have been considerable efforts to contain hydrogen since it is used widely in industrial settings.
 It seems that polymers such as PVA or EVOH are best suited for containing it.
 
-We can spare 1 kg for the gas bag;
+We should be able to spare 1 kg for the gas bag;
 again for our surface of 21.5 m3 we get an areal density of 47 g/m2.
-This corresponds with very light wrapping paper.
+This corresponds with very light wrapping paper or thin supermarket bags.
 Since PVA is 1.19 g/cm3,
 this gives us a thickness of around 40 microns,
 which is common in the industry.
