@@ -375,26 +375,35 @@ and if we just stay on the 40°N parallel it is even shorter: 30,000 km.
 But this is not very efficient.
 
 As we saw before we need the help of trade winds, which usually blow from East to West.
-Thye can help us shorten flight time.
-The wonderful [nullschool earth project](https://earth.nullschool.net/)
-will help us a lot in this imaginary flight plan.
-
-![This cool interface shows wind speed as lines, and temperature as colors. Source: Cameron Beccario and Nullschool Technologies Inc.](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
-
-Average trade wind speed is 5 m/s.
-Combined with our computed speeds:
+They can help us shorten flight time:
+average trade wind speed is 5 m/s,
+which combined with our computed speeds:
 
 * Day: 15 m/s for 8 hours = 432 km.
 * Night: 11 m/s for 10 hours = 396 km.
-* Total: 432 + 396 = 828 km.
+* Total: 432 + 396 = 828 km per day.
 
+Much better than the 500 km per day we were getting before.
 If we assume that our route is 50,000 km long,
 we would be in the air for 60 days, or under 9 weeks.
 
 Head winds should not surpass 13 m/s if we want to be able to counteract them.
 49 km/h (30 mi/h) is not a lot, especially over sea.
+The wonderful [nullschool earth project](https://earth.nullschool.net/)
+will help us a lot in this imaginary flight plan.
+
+![This cool interface shows wind speed as lines, and temperature as colors. Source: Cameron Beccario and Nullschool Technologies Inc.](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
 
 ## The Journey
+
+Keep in mind that wind conditions change all the time;
+we are depicting the weather on a typical winter day,
+as cold helps us get denser air.
+
+We may as well start in Southern Spain, near Cádiz.
+The prevailing winds will usually help us get to the Canary Islands
+
+![Hi](pics/avis-lxxx-cadiz-start.jpg "The map shows a blue line starting in Cádiz, and moving to the South-West until it reaches the Canary Islands.")
 
 ## Height
 
