@@ -354,7 +354,9 @@ Lift at 500m and 30 °C is now down to 7.6 kg.
 In fact, according to this [handy density calculator](https://aerotoolbox.com/density-altitude/)
 our little airship would hardly be able to keep airborne!
 So one of the challenges is to reduce hydrogen losses,
-or make a faster trip.
+or make a faster trip,
+or save even a few grams here and there.
+At this point the weight obsession of airship designers starts to be understandable.
 
 # 🗺️ Navigation
 
