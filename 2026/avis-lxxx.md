@@ -146,9 +146,9 @@ Polyurethane seems to be a good choice.
 * Water resistance: endure rain for extended periods.
 
 To build the outer shell we need to join a number of pieces with funny shapes.
-I did some numerical integration for the [Avis Minima](/2024/avis-minima),
-and found the optimal shapes.
-The pieces can be joined together using ultrasonic plastic sealing,
+I did some numerical integration for the [Avis Minima](/2024/avis-minima) project,
+to find how to divide an airship into four planar segments.
+These pieces can be joined together using ultrasonic plastic sealing,
 which is much more effective than traditional sewing techniques.
 
 I have found that it is a good compromise to use around half the weight of the airship
