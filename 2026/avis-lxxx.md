@@ -245,15 +245,16 @@ P ≈ 0.06 × 15³ ≈ 202 W.
 ```
 
 This could be used for emergency situations or to counteract strong winds.
-Also, maximum power is only reached with full-on sun,
+Maximum power is only reached with full-on sun,
 which is a couple of hours per day max, so we need some margin.
+And 90% efficiency may be a bit optimistic.
 
 Storing all this energy can be costly.
 Energy density for LiPo batteries can reach 200 Wh/kg,
 so if we use a 1 kg battery we can store up to 200 Wh.
 This would take a couple of hours to recharge if we can spare 100 W.
 At night it would be able to give 20 W for ten hours,
-which would result in a speed of more than 6 m/s.
+which would result in a speed of around 6 m/s.
 
 ```
 P ≈ 0.06 × 6³ ≈ 13 W.
@@ -265,6 +266,8 @@ our little airship might be making around 500 km every day:
 * Day: 10 m/s for 8 hours = 288 km.
 * Night: 6 m/s for 10 hours = 216 km.
 * Total: 288 + 216 = 504 km.
+
+So even without wind we are almost at 80 days around the equator!
 
 ## Completing the Build
 
@@ -315,13 +318,14 @@ So our weight budget is at this point:
 | **Total** | -- | 8.1 kg |
 
 Remember that lift is due to the volume of air displaced by the hydrogen,
-so with 8.38 m3, lift will be:
+so with 8.38 m3 lift will be:
 
 ```
 L = 8.38 * (1.3 - 0.070) kg/m3 ~ 10.3 kg.
 ```
 
-But this is at 0 °C!
+So we still have more than 2 kg to go, right?
+But this is at sea level with at unrealistic temperatures of 0 °C!
 As temperature raises air becomes less dense, so
 we will get less and less lift:
 
