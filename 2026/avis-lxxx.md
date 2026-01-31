@@ -436,10 +436,24 @@ near the border with Malaysia.
 ![Not a lot of mountains there, plus not a lot of geopolitical stress.](pics/avis-lxxx-asia-crossing.jpg "The blue line goes over Southern Asia, goes around a few islands, and crosses over the Thai peninsula.")
 
 Next we cross over the Indian Ocean, and move near Africa.
-The shortest path
+The shortest path seems to be to go over the Red Sea.
 
-![Our friends the trade winds are again helping us.](pics/avis-lxxx-indian-journey.jpg "The blue line goes below India and Sri Lanka, and approaches Africa.")
+![Our friends the trade winds are again helping us, although not so much this time.](pics/avis-lxxx-indian-journey.jpg "The blue line goes below India and Sri Lanka, and approaches Africa.")
 
+Here we encounter one of the many difficulties.
+Not so much to cross Egypt over the Suez Canal,
+although that might prove challenging:
+the area is not far from the Gaza Strip.
+But when we enter the Mediterranean we most often find strong West-East winds.
+
+![On this day the winds in the Mediterranean are not particularly fierce.](pics/avis-lxxx-red-sea-mediterranean.jpg "The blue line crosses the Suez Canal, then goes over the Mediterranean and again to Cádiz.")
+
+This makes the faster path not always feasible.
+One alternative paths would go around Africa,
+although it would be hard again to reach Cádiz.
+Another interesting possibility goes through Africa.
+
+![Africa](pics/avis-lxxx-africa-crossing.jpg "There are ")
 
 ## Height
 
