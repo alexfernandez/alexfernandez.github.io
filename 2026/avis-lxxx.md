@@ -11,29 +11,30 @@ image: https://pinchito.es/2026/pics/avis-lxxx.jpg
 
 Is it possible to complete a trip around the world with an autonomous drone?
 And under 80 days?
-This is a crazy project that would make [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
-But the real fun is to figure out if it can be done with a relatively modest budget.
+Today we will explore this crazy project that would make
+[Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
+And we will figure out if it can be done with a relatively modest budget.
 Like, say, one million euros.
 
 ![An autonomous airship. Source: Nano Banana based on a sketch by the author.](pics/avis-lxxx-concept.jpg "A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches.")
 
 # The Project
 
-Before we go into the details, let's review how crazy the idea is
+For starters let's review how crazy the idea is
 by answering a few questions that may be popping into your head.
 
 **How fast does it need to go?**
 First, we want to build a flying device that can autonomously circumnavigate the world in less than 80 days.
 If it went on a straight line around the equator the trip would take 40,000 km, or 25,000 miles;
-average speed comes out as a little bit over 20 km/h (13 miles/hour).
-We will use meters per second here, so will take 5 m/s as the initial speed target.
+in 80 days average speed comes out as a little bit over 20 km/h (13 miles/hour).
+In what follows we will use meters per second; so 6 m/s will be our initial speed target.
 
 **Can we make flight more efficient?**
 The biggest energy expense for a drone is usually not moving about,
 but staying up in the air.
+For our little project the drone needs to keep running for many weeks.
 One solution I'm particularly fond of is making the aircraft buoyant on its own.
 An airship can remain afloat as long as it holds its lighter-than-air gas inside.
-For our little project it needs to keep running for many weeks.
 The obvious solution is to propel the drone using electric batteries,
 and replenish the power during the day using high efficiency solar panels.
 
@@ -99,6 +100,12 @@ Let's now review the details concerning airship design and construction.
 
 ![Sketch of the design. Source: the author.](pics/avis-lxxx-model.svg "Four views of an airship. Top left: side view, showing the gondola and the propellers. Top right: view from the front with the nose cone. Bottom right: view from above, showing the solar panels and the wings. Bottom left: isometric view, showing a semi-realistic 3D view.")
 
+Keep in mind that everything we say here will be a bit handwavy,
+just intended for a very preliminary feasibility study.
+A large part of the project is proper engineering research into
+how to make the project work reliably,
+since it will have to fly autonomously for weeks.
+
 ## Size
 
 Thanks to the latest advances in miniaturization a drone can be quite small,
@@ -142,8 +149,8 @@ Nowadays ultrasonic plastic sealing is much more effective than traditional sewi
 
 I have found that it is a good compromise to use around half the weight of the airship
 for the outer and inner envelopes.
-It would be great if we can spare 4 kg for the outer shell;
-for our surface of 21.5 m3 we get an areal density of 185 g/m2.
+It would be great if we can spare 3 kg for the outer shell;
+for our surface of 21.5 m3 we get an areal density of 140 g/m2.
 If you know your paper qualities,
 this would be equivalent to strong cardboard.
 For light polymers that have a density around 1 g/cm3,
@@ -244,25 +251,53 @@ our little airship might be making around 500 km every day:
 * Night: 6 m/s for 10 hours = 216 km.
 * Total: 288 + 216 = 504 km.
 
-## Weight
+## Completing the Build
 
-Navigation computer, communications equipment and 
+Some years ago it would have been hard to find lightweight motors and propellers
+for a smallish airship such as Avis Lxxx.
+Luckily for us, drones exist!
+Nowadays we can get awesome combinations of motor + propeller that weigh less than 50 grams,
+bringing the total weight to 100 grams.
+For instance this
+[brushless motor](https://amaxshop.com/index.php?route=product/product&product_id=1801)
+weighs 37g and can give as much as 270 Watts,
+while
+[these propellers](https://www.fpv24.com/en/hq-prop/hqprop-7x35x3-racing-prop-fpv-3-blade-propeller-7-inch-light-grey)
+are just 8.8g.
+
+Navigation computer and communications equipment can be similarly miniaturized,
+and again can be below 100 grams.
+Both can live inside the gondola where they are protected.
+What about the gondola itself?
+The bottom does not need to be particularly strong since it will just hold the weight of the battery and electronics.
+The sides will hold motors + propellers,
+with enough distance to avoid hitting the enclosure.
+I am envisioning a boat-like structure with a length of 30 ~ 50 cm,
+a width of 20 ~ 30 cm,
+and height of ~ 10 cm.
+Hopefully it can be lightened to around 100 grams.
+
+We also need a certain length of cable to connect the solar panel to the battery:
+around 6 meters, which is the perimeter of the enclosure at its equator.
+16 awg cable (< 100 grams) should be enough.
+
+## Weight Budget
 
 So our weight budget is at this point:
 
 |Component|Material|Weight|
 |---|---|---|
-| Enclosure | Composite polymer | 4 kg |
+| Enclosure | Composite polymer | 3 kg |
 | Gas bag | Polymer | 1 kg |
 | Structure | Carbon fiber | 1 kg |
 | Battery | LiPo | 1 kg |
 | Solar panel | Composite | 1 kg |
-| Gondola | Polymer | 0.2 kg |
-| Propellers | Polymer | 0.1 g |
-| Motors | Metal | 0.2 kg |
-| Electronics | Metal | 0.2 g |
+| Gondola | Polymer | 0.1 kg |
+| Motors + propellers | Polymer + metal | 0.1 g |
+| Electronics | Metal | 0.1 g |
+| Cable | Copper | 0.1 g |
 | Gas | Hydrogen | Metal | 0.7 g |
-| **Total** | -- | 9.4 kg |
+| **Total** | -- | 8.1 kg |
 
 Remember that lift is due to the volume of air displaced by the hydrogen,
 so with 8.38 m3, lift will be:
@@ -282,6 +317,19 @@ we will get less and less lift:
 | 20 |  1.2 | 9.5 |
 | 30 |  1.16 |  9.1 |
 | 40 |  1.13 |  8.9 |
+
+Plus, the airship will have to go over land at some point,
+and keep a certain height to have clearance.
+Air density goes down fast with altitude:
+the [international standard atmosphere](https://www.engineeringtoolbox.com/international-standard-atmosphere-d_985.html)
+dictates that at 500 m it will be down 5%,
+so we will have 0.95 of the lift:
+at 30 °C it's only 8.65 kg.
+
+The last factor is hydrogen loss:
+even at 1% per week, after 9 weeks there will be 9% less gas,
+and this space inside the enclosure will be occupied by air.
+Lift at 500m and 30 °C is now down to 7.9 kg.
 
 ## Previous Work
 
@@ -351,6 +399,9 @@ or to fly at a height above 120 m.
 # Trials
 
 A series of trials should establish if the Avis Lxxx is airworthy.
+It is not enough to find a few parts on AliExpress and say that it can be done:
+the actual airship will have to work reliably for weeks,
+and hardened parts will need to be sourced (or fabricated).
 
 ## Atlantic Trips
 
