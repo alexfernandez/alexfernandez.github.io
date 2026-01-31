@@ -119,7 +119,7 @@ which we have previously analyzed in
 Minor axes are 2 meters long;
 surface is 21.48 m2 while volume is 8.38 m3.
 This gives us a max weight of less than 10 kg.
-We have to review the specs for the trip around the world.
+We will review and update these specs for the trip around the world.
 
 How much gas do we need for this mission?
 A spheroid of 4x2x2 m3 will use around 560 grams of hydrogen,
@@ -130,8 +130,7 @@ This may seem like a lot, but it is almost exactly the contents of a
 ## Outer Shell
 
 The airship cover needs to keep its shape and endure the elements;
-and be light enough.
-
+while being light enough to stay within spec.
 I previously assumed that a carbon fiber skin was the best option.
 This was a bit misguided:
 the material is too rigid, too opaque and not resistant enough to withstand the elements.
