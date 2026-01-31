@@ -410,6 +410,17 @@ on this particular day at almost 10 m/s.
 
 ![The Atlantic journey will be done in a breeze! Pardon the pun.](pics/avis-lxxx-atlantic-journey.jpg "The blue line goes from the vicinity of the Canary Islands westward.")
 
+Now we need to cross the Americas.
+We also need to avoid hostile countries,
+or places with itchy triggers against airships.
+
+![Crossing the Americas never was this much fun.](pics/avis-lxxx-america-crossing.jpg "The blue line crosses over America near Nicaragua, where the wind pushes it over a lake.")
+
+By a lucky coincidence there is a very convenient place where the wind will help us make it through:
+Lago Cociboica (also called Lake Nicaragua).
+
+![Not a lot of mountains. Source: [OpenStreetMap, SRTM, Map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
+
 ## Height
 
 The problem of height is one of the most interesting aspects of the project.
