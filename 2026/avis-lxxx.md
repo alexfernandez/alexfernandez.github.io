@@ -472,7 +472,7 @@ Another interesting possibility goes through Africa,
 Although drones are severely limited or outright forbidden on many countries.
 And then we may just skip the worst of Mediterranean winds entering Northern Africa and the Maghreb.
 
-![The last part might be the most challenging.](pics/avis-lxxx-africa-crossing.jpg "The blue line divides into multiple paths following the options described above.")
+![The last leg of the journey might be the most challenging.](pics/avis-lxxx-africa-crossing.jpg "The blue line divides into multiple paths following the options described above.")
 
 Please find below the full suggested trajectory.
 It is quite straight: just above 41000 km,
