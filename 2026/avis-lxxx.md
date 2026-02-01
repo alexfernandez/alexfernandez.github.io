@@ -315,7 +315,7 @@ So our weight budget is at this point:
 | Motors + propellers | Polymer + metal | 0.1 g |
 | Electronics | Metal | 0.1 g |
 | Cable | Copper | 0.1 g |
-| Gas | Hydrogen | Metal | 0.7 g |
+| Gas | Hydrogen | 0.7 g |
 | **Total** | -- | 8.1 kg |
 
 An 8 kg airship will certainly be able to hover.
