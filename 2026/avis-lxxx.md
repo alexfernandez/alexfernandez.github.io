@@ -233,10 +233,10 @@ protection from the elements and electrical connections;
 let's suppose a total density of 1 kg/m².
 Just to be safe we will use a flexible panel of 1 m² weighing 1 kg,
 which should fit comfortably on top of the drone.
-This gives us the full 224 Watt.
+This gives us the full 224 Watts.
 
 And we may as well need this kind of power.
-Power requirements grow with the 3rd power of the speed,
+Power requirements grow with the cube of the speed,
 which is a lot.
 What happens if we use the full power to run the motors?
 224W with an efficiency of 90% would allow us to reach peak speeds of 15 m/s (54 km/h or 34 mi/h):
