@@ -520,7 +520,7 @@ and non-existent in Africa.
 The second is SigFox,
 which has [decent worldwide coverage](https://sigfox.com/coverage/).
 It requires paying a small amount and purchasing compatible hardware.
-The network was almost dismantled,
+At some point the network was almost dismantled,
 but the company was acquired by a third party which appears to be strengthening coverage.
 
 In any case we need a way for the drone to send us telemetry.
