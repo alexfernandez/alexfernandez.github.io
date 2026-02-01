@@ -456,7 +456,7 @@ The shortest path seems to be to go over the Red Sea.
 
 ![Our friends the trade winds are again helping us, although not so much this time.](pics/avis-lxxx-indian-journey.jpg "The blue line goes below India and Sri Lanka, and approaches Africa.")
 
-Here we encounter one of the many difficulties.
+Here we encounter a few of the many difficulties.
 To start with, we have to cross Egypt over the Suez Canal,
 which might prove challenging:
 the area is not far from the Gaza Strip.
