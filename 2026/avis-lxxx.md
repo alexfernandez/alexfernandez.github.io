@@ -349,9 +349,9 @@ dictates that at 500 m it will be down 5%,
 so we will have 0.95 of the lift:
 at 30 °C it's only 8.65 kg.
 But this is just the average!
-Poor weather also brings with itself low pressures,
+Poor weather also brings down atmospheric pressures,
 and therefore reduced air density.
-We don't have a lot of weight to spare now.
+We don't have a lot of weight to spare now, do we?
 
 The last factor is hydrogen loss:
 even at 1% per week, after 80 days there will be 12% less gas,
