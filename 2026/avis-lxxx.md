@@ -2,7 +2,7 @@
 title: '🌐 Flying Around the World in under 80 Days'
 subtitle: 'Avis LXXX: an Autonomous Airship Drone'
 footer: Published on 2026-02-01, last modified on 2026-02-01.
-  [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
+  [Comments, suggestions? Did I miss any obvious issues?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'A project to circumnavigate the globe using an autonomous airship.
   Design, trajectory and budget for maximum air endurance.
@@ -420,7 +420,7 @@ By a lucky coincidence there is a very convenient place where the wind will help
 Lago Cociboica (also called Lake Nicaragua).
 The almost constant winds always blow East to West and will help us push through.
 
-![Also, not a lot of mountains. Source: [OpenStreetMap, SRTM, Map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
+![Also, not a lot of mountains. Source: [OpenStreetMap, SRTM, map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
 
 Now we are up for the Pacific journey,
 the longest leg of our trip.
@@ -615,7 +615,7 @@ which was later refined to the
 [Aves Æternæ](/2024/aves-aeternae)
 airship drone.
 Later, the [Avis Minima](/2024/avis-minima) project
-studied how to build a 1-meter long airship.
+tried to figure out how to build a 1-meter long airship.
 
 ## 🙏 Acknowledgements
 
