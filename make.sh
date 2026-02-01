@@ -5,6 +5,7 @@ date=$(date +"%Y-%m-%dT%H:%M:%SZ")
 
 # Generate all
 pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.html"
+./generate.sh 2026/avis-lxxx
 ./generate.sh 2025/three-laws-humanics
 ./generate.sh 2025/modern-art
 ./generate.sh 2025/on-art
@@ -105,7 +106,7 @@ pandoc --template read-only.html --variable canonical= -s "index.md" -o "index.h
 ./generate.sh permanent/speaker
 pandoc -V urlcolor:Blue -V documentclass:scrartcl -V geometry:margin=1in -s permanent/cv.md -o permanent/cv-alex-fernandez.pdf
 
-./rss.sh > rss.xml
+# ./rss.sh > rss.xml
 
 git add -A
 git commit -am "Make on $date"
