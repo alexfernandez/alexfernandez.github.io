@@ -418,8 +418,9 @@ or places with itchy triggers against airships.
 
 By a lucky coincidence there is a very convenient place where the wind will help us make it through:
 Lago Cociboica (also called Lake Nicaragua).
+The almost constant winds always blow East to West and will help us push through.
 
-![Not a lot of mountains. Source: [OpenStreetMap, SRTM, Map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
+![Also, not a lot of mountains. Source: [OpenStreetMap, SRTM, Map style: OpenTopoMap](https://elevationmap.net/).](pics/avis-lxxx-lago-cociboica.jpg "An elevation map of the vicinity of Nicaragua.")
 
 Now we are up for the Pacific journey,
 the longest leg of our trip.
