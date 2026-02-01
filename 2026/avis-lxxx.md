@@ -15,7 +15,6 @@ And under 80 days?
 Today we will explore this crazy project that would make
 [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
 And we will try to figure out if it can be done with a relatively modest budget.
-Like, say, one million euros.
 
 ![An autonomous airship. Source: Nano Banana based on a sketch by the author.](pics/avis-lxxx-concept.jpg "A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches.")
 
@@ -460,14 +459,16 @@ And then we may just skip the worst of Mediterranean winds entering Northern Afr
 ![The last part might be the most challenging.](pics/avis-lxxx-africa-crossing.jpg "The blue line divides into multiple paths following the options described above.")
 
 Please find below the full suggested trajectory.
-It is quite straight: just above 41000 km.
-It is also quite optimistic as we have seen,
-and full of real-world challenges.
+It is quite straight: just above 41000 km,
+not a lot over the equatorial roundabout.
+Most of what we spend in detours is saved by going above the equator where the parallels are shorter.
 
 ![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows the blue line going around the world.")
 
 At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
+This path is also quite optimistic as we have seen,
+and full of real-world challenges.
 
 ## ⛰️ Height
 
@@ -507,6 +508,10 @@ but the company was acquired by a third party which appears to be strengthening 
 ## 🪧 Politics
 
 Finally, how will we avoid to be shot down while in transit?
+This very complex area clearly requires in-depth study and careful consideration,
+and it lies completely out of my depth.
+As this article is already long enough,
+allow me to just touch over the main issues.
 
 No matter what you have heard,
 it is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
@@ -527,12 +532,10 @@ presumably so planes can avoid them;
 and little else.
 Sending a flight plan in advance might be required for some countries.
 
-This area clearly requires in-depth study and careful consideration.
-
 # 💸 Budget
 
 Can we put a number on the necessary budget for the Avis Lxxx?
-Let's start with a million dollars.
+Hardly. Let me explain.
 
 ## ♺ Material Cost
 
@@ -571,7 +574,7 @@ for instance it is now legal to fly drones
 Most of our funds are needed to investigate possible alternatives for fabrication,
 and to ensure mission success.
 Putting together a team of clever people takes time and costs a lot of money.
-And it is hard to estimate just how much.
+It is hard to estimate just how much years of engineering are needed.
 
 But is this amount of money really necessary?
 We often find on social media like YouTube really bright people that create really complex projects on their own in a few months.
