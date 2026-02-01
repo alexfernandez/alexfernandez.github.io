@@ -14,12 +14,12 @@ Is it possible to complete a trip around the world with an autonomous drone?
 And under 80 days?
 Today we will explore this crazy project that would make
 [Jules Verne proud](https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days).
-And we will figure out if it can be done with a relatively modest budget.
+And we will try to figure out if it can be done with a relatively modest budget.
 Like, say, one million euros.
 
 ![An autonomous airship. Source: Nano Banana based on a sketch by the author.](pics/avis-lxxx-concept.jpg "A realistic airship with a sunset behind. It features a solar panel on top, and fins on the sides and on top. Lighting is not consistent at all. Apologies for the AI-generated image, but I think it conveys the essence of the project better than one of my sketches.")
 
-# The Project
+# 🚧 The Project
 
 For starters let's review how crazy the idea is
 by answering a few questions that may be popping into your head.
@@ -111,7 +111,7 @@ and how to fly autonomously for weeks.
 
 ![Sketch of the design. Source: the author.](pics/avis-lxxx-model.svg "Four views of an airship. Top left: side view, showing the gondola and the propellers. Top right: view from the front with the nose cone. Bottom right: view from above, showing the solar panels and the wings. Bottom left: isometric view, showing a semi-realistic 3D view.")
 
-## Size
+## 📐 Size
 
 Thanks to the latest advances in miniaturization a drone can be quite small,
 while still being fully functional.
@@ -129,7 +129,7 @@ which occupies 8 m³ of gas, or 8000 liters.
 This may seem like a lot, but it is almost exactly the contents of a
 [commercial hydrogen cylinder](https://shop.airproducts.com/emea/es/es-ES/products/62242/).
 
-## Outer Shell
+## 📍 Outer Shell
 
 The airship cover needs to keep its shape and endure the elements;
 while being light enough to stay within spec.
@@ -162,7 +162,7 @@ this would be equivalent to thin cardboard.
 For light polymers that have a density around 1 g/cm³,
 this gives us a thickness of 0.185 mm.
 
-## Hydrogen Gas
+## 🎈 Hydrogen Gas
 
 Additionally, a gas bag will be needed to hold the hydrogen for extended periods.
 Judging by the literature a target of 1% leakage per week is quite doable.
@@ -189,7 +189,7 @@ Since PVA is 1.19 g/cm³,
 this gives us a thickness of around 40 microns,
 which is common in the industry.
 
-## Structure
+## 🪽 Structure
 
 We also need a strong carbon fiber structure to keep everything in place.
 We will reserve 1 kg for a few strips of carbon fiber around the structure,
@@ -204,7 +204,7 @@ so an areal density of 500 g/m² seems appropriate.
 
 It remains to be seen if the structure can be made lighter to save even more weight.
 
-## Power
+## 🔋 Power
 
 Our target speed of 10 m/s requires some serious power.
 With the drag coefficient of 0.03 computed in
@@ -270,7 +270,7 @@ our little airship might be making around 500 km every day:
 
 So even without wind we are almost at 80 days around the equator!
 
-## Completing the Build
+## 💻 Completing the Build
 
 Some years ago it would have been hard to find lightweight motors and propellers
 for a smallish airship such as Avis Lxxx.
@@ -300,7 +300,7 @@ We also need a certain length of cable to connect the solar panel to the battery
 around 6 meters, which is the perimeter of the enclosure at its equator.
 16 awg cable (< 100 grams) should be enough.
 
-## Weight Budget
+## ⚖️ Weight Budget
 
 So our weight budget is at this point:
 
@@ -368,7 +368,7 @@ We have to consider a few key points:
 * Take advantage of winds.
 * Not get shot at.
 
-## Route
+## 👣 Route
 
 We might think that the best path is to go in a straight line curved around the globe.
 The diameter of the equator is 40,000 km,
@@ -395,7 +395,7 @@ will help us a lot in this imaginary flight plan.
 
 ![This cool interface shows wind speed as lines, and temperature as colors. Source: Cameron Beccario and Nullschool Technologies Inc.](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
 
-## The Journey
+## 🛄 The Journey
 
 Keep in mind that wind conditions change all the time;
 we are depicting the weather on a typical winter day,
@@ -469,7 +469,7 @@ and full of real-world challenges.
 At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
 
-## Height
+## ⛰️ Height
 
 The problem of height is one of the most interesting aspects of the project.
 Go too high and the payload is reduced greatly;
@@ -504,7 +504,7 @@ It requires paying a small amount and purchasing compatible hardware.
 The network was almost dismantled,
 but the company was acquired by a third party which appears to be strengthening coverage.
 
-## Politics
+## 🪧 Politics
 
 Finally, how will we avoid to be shot down while in transit?
 
@@ -529,12 +529,12 @@ Sending a flight plan in advance might be required for some countries.
 
 This area clearly requires in-depth study and careful consideration.
 
-# Budget
+# 💸 Budget
 
 Can we put a number on the necessary budget for the Avis Lxxx?
 Let's start with a million dollars.
 
-## Material Cost
+## ♺ Material Cost
 
 Most of the materials required should be pretty cheap,
 like PVA and other plastic coatings.
@@ -553,7 +553,7 @@ for a total of more than 8 m³,
 enough to fill one airship.
 So we may rethink the need to generate our own hydrogen.
 
-## Trials
+## 🥼 Trials
 
 A series of trials should establish if the Avis Lxxx is airworthy.
 It is not enough to find a few parts on AliExpress and say that the project can be done:
@@ -566,11 +566,12 @@ where legislation is more than in the EU:
 for instance it is now legal to fly drones
 [beyond visual line-of-sight](https://tc.canada.ca/en/aviation/drone-safety/2025-summary-changes-canada-drone-regulations).
 
-## Research
+## 🔬 Research
 
 Most of our funds are needed to investigate possible alternatives for fabrication,
 and to ensure mission success.
 Putting together a team of clever people takes time and costs a lot of money.
+And it is hard to estimate just how much.
 
 But is this amount of money really necessary?
 We often find on social media like YouTube really bright people that create really complex projects on their own in a few months.
