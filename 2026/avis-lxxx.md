@@ -619,6 +619,7 @@ tried to figure out how to build a 1-meter long airship.
 
 ## 🙏 Acknowledgements
 
+Thanks to Carlos Santisteban, Juan Searle and many others for their feedback.
 Thanks to my friends at [MakeSpace Madrid](https://makespacemadrid.org/)
 for the interesting discussions:
 in particular David, Pablo, José David, Sink, and Javi who have had to indulge my crazy ideas.
