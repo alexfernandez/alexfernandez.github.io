@@ -1,7 +1,7 @@
 ---
 title: '🌐 Flying Around the World in under 80 Days'
 subtitle: 'Avis LXXX: an Autonomous Airship Drone'
-footer: Published on 2026-02-01, last modified on 2026-02-01.
+footer: Published on 2026-02-01, last modified on 2026-02-02.
   [Comments, suggestions? Did I miss any obvious issues?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'A project to circumnavigate the globe using an autonomous airship.
@@ -609,6 +609,9 @@ and enough of a fool to embark in such a crazy enterprise.
 
 # 🤔 Conclusion
 
+Yes, it should be possible to fly an airship drone around the world in less than 80 days.
+There are many challenges that may require time and money to solve,
+but no fundamental issue that prevents a successful circumnavigation in principle.
 Personally it has been fun to study the feasibility of the Avis Lxxx project.
 I hope it was also entertaining to read about it.
 
