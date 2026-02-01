@@ -364,7 +364,7 @@ or make a faster trip,
 or save even a few grams here and there.
 At this point the weight obsession of airship designers starts to be understandable.
 
-Size works to our advantage.
+On the other hand, size works to our advantage.
 In particular, just elongating the structure will increase lift
 while keeping the rest of the project mostly intact.
 Another option is to just increase all the dimensions:
