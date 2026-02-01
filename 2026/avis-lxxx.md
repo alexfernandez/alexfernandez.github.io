@@ -358,6 +358,15 @@ or make a faster trip,
 or save even a few grams here and there.
 At this point the weight obsession of airship designers starts to be understandable.
 
+Size works to our advantage.
+In particular, just elongating the structure will increase lift
+while keeping the rest of the project mostly intact.
+Another option is to just increase all the dimensions:
+thanks to the [square-cube law](https://en.wikipedia.org/wiki/Square%E2%80%93cube_law),
+a 10% increase (to 4.4 meters long) will increase weight from 8.1 to 9.8 kg,
+while lift will go from 8.1 to 10.8 kg.
+Cost and complexity will likely also go up.
+
 # 🗺️ Navigation
 
 What scenic routes will we take across our beautiful planet?
