@@ -323,7 +323,7 @@ Remember that lift is due to the volume of air displaced by the hydrogen,
 so with our 8.38 m³ lift will be:
 
 ```
-L = 8.38 * (1.3 - 0.070) kg/m³ ~ 10.3 kg.
+L = 8.38 × (1.3 - 0.070) kg/m³ ≈ 10.3 kg.
 ```
 
 So we still have more than 2 kg to spare, right?
