@@ -193,7 +193,7 @@ which is common in the industry.
 
 We also need a strong carbon fiber structure to keep everything in place.
 We will reserve 1 kg for a few strips of carbon fiber around the structure,
-three little wings (one on top and two on the sides,
+three little wings (one on top and two on the sides),
 and a nose cone.
 The strips are aproximately 26.5 meters long, if maths serve me right;
 making them 0.5 kg would give a length density of 18 g/m,
