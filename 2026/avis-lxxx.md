@@ -342,8 +342,8 @@ we will get less and less lift:
 
 The budget is getting tighter, and we are still at sea level.
 The airship will have to go over land at some point,
-and keep a certain height to have clearance over any elevations.
-Air density goes down fast with altitude:
+and keep a certain height to have clearance over any terrain elevations.
+Air density decreases fast with altitude:
 the [international standard atmosphere](https://www.engineeringtoolbox.com/international-standard-atmosphere-d_985.html)
 dictates that at 500 m it will be down 5%,
 so we will have 0.95 of the lift:
