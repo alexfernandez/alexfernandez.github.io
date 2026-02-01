@@ -407,7 +407,7 @@ Head winds should not surpass 13 m/s if we want to be able to counteract them.
 The wonderful [nullschool earth project](https://earth.nullschool.net/)
 will help us a lot in this imaginary flight plan.
 
-![This cool interface shows wind speed as lines, and temperature as colors. Source: Cameron Beccario and Nullschool Technologies Inc.](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
+![This cool interface shows wind speed as lines, and temperature as colors. Source: [Cameron Beccario and Nullschool Technologies Inc](https://earth.nullschool.net/).](pics/avis-lxxx-nullschool-earth.jpg "A map of the world seen as a spherical projection, with white lines showing wind. Bluish colors denote cold, while reddish hues show heat.")
 
 ## 🛄 The Journey
 
