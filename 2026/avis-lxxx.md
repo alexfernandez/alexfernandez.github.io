@@ -358,7 +358,7 @@ even at 1% per week, after 80 days there will be 12% less gas,
 and this space inside the enclosure will be occupied by air.
 Lift at 500m and 30 °C is now down to 7.6 kg.
 In fact, according to this [handy density calculator](https://aerotoolbox.com/density-altitude/)
-our little airship would hardly be able to keep airborne!
+our little airship would hardly be able to keep airborne at all!
 So one of the challenges is to reduce hydrogen losses,
 or make a faster trip,
 or save even a few grams here and there.
