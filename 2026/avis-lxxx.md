@@ -274,8 +274,8 @@ So even without wind we are almost at 80 days around the equator!
 ## 💻 Completing the Build
 
 Some years ago it would have been hard to find lightweight motors and propellers
-for a smallish airship such as Avis Lxxx.
-Luckily for us, drones exist!
+for a smallish airship such as the Avis Lxxx.
+Luckily for us, recreational drones exist!
 Nowadays we can get awesome combinations of motor + propeller that weigh less than 50 grams,
 bringing the total weight to 100 grams.
 For instance this
