@@ -484,7 +484,7 @@ Most of what we spend in detours is saved by going above the equator where the p
 At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
 This path is also quite optimistic as we have seen,
-and full of real-world challenges.a
+and full of real-world challenges.
 We will go over a few of them next.
 
 ## ⛰️ Height
