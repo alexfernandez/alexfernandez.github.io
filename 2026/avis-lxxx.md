@@ -632,18 +632,9 @@ have been seduced by them.
 
 ![Miyazaki's Castle in the Sky shows many amazing airship designs. Source: [Ghibli fandom](https://ghibli.fandom.com/wiki/Air_Destroyer_Goliath?file=Goliath.png).](pics/avis-lxxx-castle-sky.webp "An animated airship firing its guns while flying in the sky.")
 
-## 💡 Previous Ideas
-
-The original [Avis Æterna](/2023/avis-aeterna) project called for an autonomous semi-buoyant flying wing plane,
-which was later refined to the
-[Aves Æternæ](/2024/aves-aeternae)
-airship drone.
-Later, the [Avis Minima](/2024/avis-minima) project
-tried to figure out how to build a 1-meter long airship.
-
 ## 🙏 Acknowledgements
 
-Thanks to Carlos Santisteban, Juan Searle and many others for their feedback.
+Thanks to Carlos Santisteban, Juan Searle and many others for their insightful feedback.
 Thanks to my friends at [MakeSpace Madrid](https://makespacemadrid.org/)
 for the interesting discussions:
 in particular David, Pablo, José David, Sink, and Javi who have had to indulge my crazy ideas.
