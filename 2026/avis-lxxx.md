@@ -523,6 +523,10 @@ It requires paying a small amount and purchasing compatible hardware.
 The network was almost dismantled,
 but the company was acquired by a third party which appears to be strengthening coverage.
 
+In any case we need a way for the drone to send us telemetry.
+My nascent [Avis Telemetry project](https://avistel.es/) may be quite useful to store remote data,
+and it can also be used to change configuration parameters whenever there is an internet connection.
+
 ## 🪧 Politics
 
 Finally, how will we avoid to be shot down while in transit?
