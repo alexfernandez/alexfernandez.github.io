@@ -427,7 +427,7 @@ on this particular day at almost 10 m/s.
 
 Now we need to cross the Americas.
 We also need to avoid hostile countries,
-or places with itchy triggers against airships.
+or places with itchy triggers against flying things.
 
 ![Crossing the Americas never was this much fun.](pics/avis-lxxx-america-crossing.jpg "The blue line crosses over America near Nicaragua, where the wind pushes it over a lake.")
 
@@ -479,12 +479,13 @@ It is quite straight: just above 41000 km,
 not a lot over the equatorial roundabout.
 Most of what we spend in detours is saved by going above the equator where the parallels are shorter.
 
-![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows the blue line going around the world.")
+![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows a blue line going around the world: from Southern Spain to Central America, over the Pacific and across Southern Asia. Then into the Red Sea through the Suez Canal into the Mediterranean, and back to the starting point.")
 
 At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
 This path is also quite optimistic as we have seen,
-and full of real-world challenges.
+and full of real-world challenges.a
+We will go over a few of them next.
 
 ## ⛰️ Height
 
@@ -547,6 +548,8 @@ a radar reflector is [usually required onboard](https://www.stratoballooning.org
 presumably so planes can avoid them;
 and little else.
 Sending a flight plan in advance might be required for some countries.
+And in any case it is important to mark the drone clearly as a civil craft,
+to avoid misunderstandings.
 
 # 💸 Budget
 
