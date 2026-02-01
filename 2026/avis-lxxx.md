@@ -118,13 +118,13 @@ We will set a target size of 4 meters,
 which we have previously analyzed in
 [Aves Æternæ](http://pinchito.local/2024/aves-aeternae).
 Minor axes are 2 meters long;
-surface is 21.48 m2 while volume is 8.38 m3.
+surface is 21.48 m² while volume is 8.38 m³.
 This gives us a max weight of less than 10 kg.
 We will review and update these specs for the trip around the world.
 
 How much gas do we need for this mission?
-A spheroid of 4x2x2 m3 will use around 560 grams of hydrogen,
-which occupies 8 m3 of gas, or 8000 liters.
+A spheroid of 4x2x2 m³ will use around 560 grams of hydrogen,
+which occupies 8 m³ of gas, or 8000 liters.
 This may seem like a lot, but it is almost exactly the contents of a
 [commercial hydrogen cylinder](https://shop.airproducts.com/emea/es/es-ES/products/62242/).
 
@@ -155,10 +155,10 @@ which is much more effective than traditional sewing techniques.
 I have found that it is a good compromise to use around half the weight of the airship
 for the external envelopes.
 Preliminary numbers show that 3 kg should be enough for the outer shell;
-for our surface of 21.5 m3 we get an areal density of 140 g/m2.
+for our surface of 21.5 m³ we get an areal density of 140 g/m².
 If you know your paper qualities,
 this would be equivalent to thin cardboard.
-For light polymers that have a density around 1 g/cm3,
+For light polymers that have a density around 1 g/cm³,
 this gives us a thickness of 0.185 mm.
 
 ## Hydrogen Gas
@@ -182,9 +182,9 @@ but there have been considerable efforts to contain hydrogen since it is used wi
 It seems that polymers such as PVA or EVOH are best suited for containing it.
 
 We should be able to spare 1 kg for the gas bag;
-again for our surface of 21.5 m3 we get an areal density of 47 g/m2.
+again for our surface of 21.5 m³ we get an areal density of 47 g/m².
 This corresponds with very light wrapping paper or thin supermarket bags.
-Since PVA is 1.19 g/cm3,
+Since PVA is 1.19 g/cm³,
 this gives us a thickness of around 40 microns,
 which is common in the industry.
 
@@ -199,7 +199,7 @@ making them 0.5 kg would give a length density of 18 g/m,
 although it is probably better to make the top strips lighter
 and the bottom strips sturdier.
 The wings and the nose cone are a bit over a square meter,
-so an areal density of 500 g/m2 seems appropriate.
+so an areal density of 500 g/m² seems appropriate.
 
 It remains to be seen if the structure can be made lighter to save even more weight.
 
@@ -224,13 +224,13 @@ P ≈ 60 W.
 
 Let's set aside a power target of 165W,
 so we can drive our motors while charging the batteries at the same time.
-Using commercially available solar cells 224 W/m2 is currently achievable,
-with a weight of 384 g/m2 (cells only).
-We can reach our target of 165W with an area of 0,73 m2.
+Using commercially available solar cells 224 W/m² is currently achievable,
+with a weight of 384 g/m² (cells only).
+We can reach our target of 165W with an area of 0,73 m².
 Building a solar panel requires giving them some support, protection from the elements
 and electric connections;
-let's suppose a total density of 1 kg/m2.
-Just to be safe we will use a flexible panel of 1 m2 weighing 1 kg,
+let's suppose a total density of 1 kg/m².
+Just to be safe we will use a flexible panel of 1 m² weighing 1 kg,
 which should fit comfortably on top of the drone.
 This gives us the full 224 Watt.
 
@@ -319,10 +319,10 @@ So our weight budget is at this point:
 
 An 8 kg airship will certainly be able to hover.
 Remember that lift is due to the volume of air displaced by the hydrogen,
-so with 8.38 m3 lift will be:
+so with 8.38 m³ lift will be:
 
 ```
-L = 8.38 * (1.3 - 0.070) kg/m3 ~ 10.3 kg.
+L = 8.38 * (1.3 - 0.070) kg/m³ ~ 10.3 kg.
 ```
 
 So we still have more than 2 kg to go, right?
@@ -330,7 +330,7 @@ But this is at sea level with at unrealistic temperatures of 0 °C!
 As temperature raises air becomes less dense, so
 we will get less and less lift:
 
-| Temperature (°C) | Density (kg/m3) | Weight (kg) |
+| Temperature (°C) | Density (kg/m³) | Weight (kg) |
 |---|---|---|
 | 0 | 1.3 | 10.3 |
 | 10 |  1.25    | 9.9 |
@@ -476,6 +476,14 @@ go too low and any sudden change of temperature will drop the drone to the groun
 At night the air is colder which may push the Avis to higher altitudes.
 Therefore the ship will be constantly moving up and down.
 
+At the beginning of the trip the gas bag will be full,
+and therefore the Avis will move at higher altitudes,
+possibly more than 1000 meters high.
+After several weeks the envelope will have leaked some of the hydrogen,
+potentially up to 10%,
+and therefore it will be harder to keep altitude;
+any hills will have to be surrounded.
+
 ## 📡 Communications
 
 How can we get news from our trusty friend as it flies around the globe?
@@ -533,7 +541,6 @@ Carbon fiber can also be sourced for a few tens of euros.
 
 Equipment on the other hand is not cheap:
 for instance ultrasonic sealing machines cost many thousands of euros.
-
 Industrial hydrogen generators are another expensive bit.
 Keep in mind that we need 8000 l of hydrogen;
 [this €10k hydrogen generator](https://www.sigmaaldrich.com/ES/en/product/supelco/27773u?utm_source=google&utm_medium=cpc&utm_campaign=20849931024&utm_content=171133062889&gad_source=1&gad_campaignid=20849931024&gbraid=0AAAAAD8kLQSooOxhaQNNTw7C1mk9pG1qo&gclid=CjwKCAiA3-3KBhBiEiwA2x7FdIdq83GrfkYWAHQMJX2Vec1M8LdAbA6zCFy8CjAScFXqzHvZeR3gUhoCDmMQAvD_BwE)
@@ -541,7 +548,7 @@ would take 5+ days to fill our enclosure.
 
 On the other hand a commercial cylinder with 50 l (200 bar)
 costs [around €130](https://shop.airproducts.com/emea/es/es-ES/products/62242/),
-for a total of more than 8 m3,
+for a total of more than 8 m³,
 enough to fill one airship.
 So we may rethink the need to generate our own hydrogen.
 
