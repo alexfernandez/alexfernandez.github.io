@@ -585,19 +585,22 @@ It has been fun to study the feasibility of the Avis Lxxx project.
 ## 🥺 Motivation
 
 Why pursue this project, at all?
-First, a kid can dream: thought experiments have moved forward what is considered possible.
-After all, the original story for "Around the World in 80 Days" is after all just that,
-a thought experiment.
-Jules Verne did not do thetripp but just imagined how it could be done.
+First, a kid can dream:
+thought experiments have often moved forward what is considered possible.
+After all, the original story for "Around the World in 80 Days" is just that,
+a thought experiment carefully laid out and very well narrated.
+Jules Verne did not travel but just imagined how it could be done.
 
 Then there are the famed world records:
-Airbus Zephyr, the work of a giant corporation, holds the current world record of air endurance with 67 days.
-Wouldn't it be great to snatch it from their cold corporate hands with an amateur project?
+Airbus Zephyr, the work of a giant corporation, holds the current record of air endurance with 67 days.
+Wouldn't it be great to snatch it from their cold corporate hands with an independent project?
 
-Plus, airships are super cool.
+Then there is the fact that airships are just super cool.
 Dreamers from Torres Quevedo to Hayao Miyazaki to
 Google Founder [Sergei Brin](https://www.bbc.com/future/article/20250214-pathfinder-1-the-airship-that-could-usher-in-a-new-age)
 have been seduced by them.
+
+![Miyazaki's Castle in the Sky shows many amazing airship designs. Source: [Ghibli fandom](https://ghibli.fandom.com/wiki/Air_Destroyer_Goliath?file=Goliath.png).](pics/avis-lxxx-castle-sky.webp "An animated airship firing its guns while flying in the sky.")
 
 ## 💡 Previous Ideas
 
