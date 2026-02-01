@@ -9,6 +9,10 @@ I am a developer (little) known as
 [\@pinchito\@mastodon.social](https://mastodon.social/@pinchito)
 and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez on GitHub">@alexfernandez on GitHub</a>.
 
+### 2026
+
+⚛️ 🇮 🇪  2026-02-01: [🌐 Flying Around the World in under 80 Days](2026/avis-lxxx)  
+
 ### 2025
 
 🗣️ 🇮🇪 2025-09-08: [🫂 The Three Laws of Humanics](2025/three-laws-humanics)  

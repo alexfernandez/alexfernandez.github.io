@@ -5,8 +5,13 @@
 	<description>RSS feed for pinchito's blog</description>
 	<link>https://pinchito.es/</link>
 	<copyright>2012-2024 Alex Fernández, all rights reserved</copyright>
-	<lastBuildDate>Sun, 01 Feb 2026 02:07:19 +0100</lastBuildDate>
-	<pubDate>Sun, 01 Feb 2026 02:07:19 +0100</pubDate>
+	<lastBuildDate>Sun, 01 Feb 2026 02:08:30 +0100</lastBuildDate>
+	<pubDate>Sun, 01 Feb 2026 02:08:30 +0100</pubDate>
+	<item>
+		<title>🌐 Flying Around the World in under 80 Days</title>
+		<link>https://pinchito.es/2026/avis-lxxx</link>
+		<pubDate>Sun, 01 Feb 2026 00:00:00 +0100</pubDate>
+	</item>
 	<item>
 		<title>🫂 The Three Laws of Humanics</title>
 		<link>https://pinchito.es/2025/three-laws-humanics</link>

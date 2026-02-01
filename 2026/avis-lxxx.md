@@ -1,5 +1,5 @@
 ---
-title: '🌐 Floating Around the World in under 80 Days'
+title: '🌐 Flying Around the World in under 80 Days'
 subtitle: 'Avis LXXX: an Autonomous Airship Drone'
 footer: Published on 2026-02-01, last modified on 2026-02-01.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
