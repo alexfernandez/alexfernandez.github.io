@@ -327,7 +327,7 @@ L = 8.38 * (1.3 - 0.070) kg/m³ ~ 10.3 kg.
 ```
 
 So we still have more than 2 kg to spare, right?
-But this is at sea level with at unrealistic temperatures of 0 °C!
+But this is at sea level at unrealistic temperatures of 0 °C!
 As temperature raises air becomes less dense, so
 we will get less and less lift:
 
