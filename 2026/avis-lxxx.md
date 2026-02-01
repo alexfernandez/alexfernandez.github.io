@@ -479,7 +479,7 @@ It is quite straight: just above 41000 km,
 not a lot over the equatorial roundabout.
 Most of what we spend in detours is saved by going above the equator where the parallels are shorter.
 
-![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows a blue line going around the world: from Southern Spain to Central America, over the Pacific and across Southern Asia. Then into the Red Sea through the Suez Canal into the Mediterranean, and back to the starting point.")
+![Journey on a Winkel-Tripel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows a blue line going around the world: from Southern Spain to Central America, over the Pacific and across Southern Asia. Then into the Red Sea through the Suez Canal into the Mediterranean, and back to the starting point.")
 
 At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
