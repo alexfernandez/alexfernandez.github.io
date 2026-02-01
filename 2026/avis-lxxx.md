@@ -340,7 +340,7 @@ we will get less and less lift:
 | 30 |  1.16 |  9.1 |
 | 40 |  1.13 |  8.9 |
 
-The budget is getting tighter, but we are still at sea level.
+The budget is getting tighter, and we are still at sea level.
 The airship will have to go over land at some point,
 and keep a certain height to have clearance over any elevations.
 Air density goes down fast with altitude:
