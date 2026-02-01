@@ -302,7 +302,7 @@ around 6 meters, which is the perimeter of the enclosure at its equator.
 
 ## ⚖️ Weight Budget
 
-So our weight budget is at this point:
+So our combined weight is at this point:
 
 |Component|Material|Weight|
 |---|---|---|
