@@ -589,7 +589,7 @@ and hardened parts will need to be sourced (or fabricated).
 
 A convenient destination from Spain is the Canary Islands.
 Another nice place to visit is Canada,
-where legislation is more than in the EU:
+where legislation is more lax than in the EU:
 for instance it is now legal to fly drones
 [beyond visual line-of-sight](https://tc.canada.ca/en/aviation/drone-safety/2025-summary-changes-canada-drone-regulations).
 
@@ -600,7 +600,7 @@ and to ensure mission success.
 Putting together a team of clever people takes time and costs a lot of money.
 It is hard to estimate just how much years of engineering are needed.
 
-But is this amount of money really necessary?
+But is a lot of money really necessary?
 We often find on social media like YouTube really bright people that create really complex projects on their own in a few months.
 So it is possible that one of these geniuses will replicate this project with a budget of a few thousand euros.
 Why not?
