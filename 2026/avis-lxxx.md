@@ -49,7 +49,7 @@ Any risk of conflagration can be mitigated by careful construction.
 **What kind of enclosure is needed to hold the gas inside for 11 weeks?**
 This was solved more than a century ago with clever construction,
 and modern materials make it even easier.
-Construction can be made strong and resilient while keeping it light.
+The enclosure can be made strong and resilient while keeping it light by using composite materials.
 There are readily-available polymers with low hydrogen permeability such as PVA or EVOH,
 and they can be supplemented with other layers that prevent ultraviolet damage and weather corrosion.
 
