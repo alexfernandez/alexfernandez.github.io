@@ -247,7 +247,8 @@ P ≈ 0.06 × 15³ ≈ 202 W.
 
 This could be used for emergency situations or to counteract strong winds.
 Maximum power is only reached with full-on sun,
-which is a couple of hours per day max, so we need some margin.
+which can be reached at most during a couple of hours per day,
+so we need some margin.
 And 90% efficiency may be a bit optimistic.
 
 Storing all this energy can be costly.
