@@ -609,7 +609,8 @@ and enough of a fool to embark in such a crazy enterprise.
 
 # 🤔 Conclusion
 
-It has been fun to study the feasibility of the Avis Lxxx project.
+Personally it has been fun to study the feasibility of the Avis Lxxx project.
+I hope it was also entertaining to read about it.
 
 ## 🥺 Motivation
 
