@@ -71,7 +71,7 @@ to take advantage of the wind at every point.
 
 ![Trade winds across the world. Source: [KVDP - Own work, Public Domain](https://commons.wikimedia.org/w/index.php?curid=8158719).](pics/avis-lxxx-trade-winds.png "A world map showing trade winds (northeasterly) in yellow, trade winds (southeasterly) in brown, and westerlies in blue. Prevailing winds near the equator move East to West, while further away North or South they tend to move West to East.")
 
-Finally, **can the drone be flown legally?**
+Finally, **can it be flown legally?**
 Most of the trajectory can pass over the oceans,
 but skipping land completely would take too much of a detour,
 and likely be incompatible with prevailing winds.
