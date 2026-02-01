@@ -463,7 +463,7 @@ the area is not far from the Gaza Strip.
 But next we have to cross the Mediterranean Sea,
 where we most often find strong West-East winds.
 
-![On this day the winds in the Mediterranean are not particularly fierce.](pics/avis-lxxx-red-sea-mediterranean.jpg "The blue line crosses the Suez Canal, then goes over the Mediterranean and again to Cádiz.")
+![On this day the winds in the Mediterranean are not particularly fierce, they can be a lot worse.](pics/avis-lxxx-red-sea-mediterranean.jpg "The blue line crosses the Suez Canal, then goes over the Mediterranean and again to Cádiz.")
 
 This makes the faster path not always feasible.
 One alternative path would go around Africa,
