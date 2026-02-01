@@ -350,7 +350,7 @@ at 30 °C it's only 8.65 kg.
 But this is just the average!
 Poor weather also brings with itself low pressures,
 and therefore reduced air density.
-Our weight does not seem so generous now.
+We don't have a lot of weight to spare now.
 
 The last factor is hydrogen loss:
 even at 1% per week, after 80 days there will be 12% less gas,
