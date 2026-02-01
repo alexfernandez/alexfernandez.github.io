@@ -441,25 +441,40 @@ The shortest path seems to be to go over the Red Sea.
 ![Our friends the trade winds are again helping us, although not so much this time.](pics/avis-lxxx-indian-journey.jpg "The blue line goes below India and Sri Lanka, and approaches Africa.")
 
 Here we encounter one of the many difficulties.
-Not so much to cross Egypt over the Suez Canal,
-although that might prove challenging:
+To start with, we have to cross Egypt over the Suez Canal,
+which might prove challenging:
 the area is not far from the Gaza Strip.
-But when we enter the Mediterranean we most often find strong West-East winds.
+But next we have to cross the Mediterranean Sea,
+where we most often find strong West-East winds.
 
 ![On this day the winds in the Mediterranean are not particularly fierce.](pics/avis-lxxx-red-sea-mediterranean.jpg "The blue line crosses the Suez Canal, then goes over the Mediterranean and again to Cádiz.")
 
 This makes the faster path not always feasible.
-One alternative paths would go around Africa,
-although it would be hard again to reach Cádiz.
-Another interesting possibility goes through Africa.
+One alternative path would go around Africa,
+although it would be hard to reach Cádiz from there.
+Another interesting possibility goes through Africa,
+Although drones are severely limited or outright forbidden on many countries.
+And then we may just skip the worst of Mediterranean winds entering Northern Africa and the Maghreb.
 
-![Africa](pics/avis-lxxx-africa-crossing.jpg "There are ")
+![The last part might be the most challenging.](pics/avis-lxxx-africa-crossing.jpg "The blue line divides into multiple paths following the options described above.")
+
+Please find below the full suggested trajectory.
+It is quite straight: just above 41000 km.
+It is also quite optimistic as we have seen,
+and full of real-world challenges.
+
+![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows the blue line going around the world.")
+
+At 800 km/day it would take 51 days,
+or just above 7 weeks.
 
 ## Height
 
 The problem of height is one of the most interesting aspects of the project.
 Go too high and the payload is reduced greatly;
 go too low and any sudden change of temperature will drop the drone to the ground.
+At night the air is colder which may push the Avis to higher altitudes.
+Therefore the ship will be constantly moving up and down.
 
 ## 📡 Communications
 
@@ -467,35 +482,43 @@ How can we get news from our trusty friend as it flies around the globe?
 There are several intriguing possibilities which I have learned about.
 
 The first is LoRa,
-a wide area protocol.
+a wide area protocol used by enthusiasts.
+Sadly coverage is quite irregular,
+patchy in Central America and Southern Asia,
+and non-existent in Africa.
+
+![Hard to get any nodes at all outside Europe. Source: OpenStreetMap contributors and [EA2RCF LoRa map](https://map.lora-aprs.es/?center=10.6927,-5.2758&zoom=3)](pics/avis-lxxx-lora-map.jpg "Map of Europe, Africa and the Americas showing a lot of nodes in Europe, but few in Central America and barely any in Africa.")
 
 The second is SigFox,
 which has [decent worldwide coverage](https://sigfox.com/coverage/).
+It requires paying a small amount and purchasing compatible hardware.
+The network was almost dismantled,
+but the company was acquired by a third party which appears to be strengthening coverage.
 
 ## Politics
 
-It is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
+Finally, how will we avoid to be shot down while in transit?
+
+No matter what you have heard,
+it is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
+But there are certain regulations that vary wildly between countries.
 In the EU you have to register drones over 8 kg,
 as is the case with the Avis Lxxx.
-It is however illegal to fly drones over visual line-of-sight (VLOS):
-not keeping them in sight;
-or to fly at a height above 120 m.
+It is however illegal to fly drones over visual line-of-sight (VLOS),
+i.e. not keep them in sight;
+and to fly at a height above 120 m.
+Since the plan is to launch from Spain
+it would not spend a lot of time within the EU.
 
-# Trials
+But is the Avis a drone,
+or can it be considered a balloon?
+Balloon regulations tend to be much laxer:
+a radar reflector is [usually required onboard](https://www.stratoballooning.org/part-101-rules),
+presumably so planes can avoid them;
+and little else.
+Sending a flight plan in advance might be required for some countries.
 
-A series of trials should establish if the Avis Lxxx is airworthy.
-It is not enough to find a few parts on AliExpress and say that it can be done:
-the actual airship will have to work reliably for weeks,
-and hardened parts will need to be sourced (or fabricated).
-
-## Atlantic Trips
-
-A convenient destination from Spain, where I'm located,
-is the Canary Islands.
-
-Another convenient destination is Canada.
-Canada has more lax legislation than the EU:
-it is now legal to fly [beyond visual line-of-sight](https://tc.canada.ca/en/aviation/drone-safety/2025-summary-changes-canada-drone-regulations).
+This area clearly requires in-depth study.
 
 # Budget
 
@@ -513,7 +536,7 @@ for instance ultrasonic sealing machines.
 Industrial hydrogen generators are another expensive bit.
 Keep in mind that we need 8000 l of hydrogen;
 [this €10k hydrogen generator](https://www.sigmaaldrich.com/ES/en/product/supelco/27773u?utm_source=google&utm_medium=cpc&utm_campaign=20849931024&utm_content=171133062889&gad_source=1&gad_campaignid=20849931024&gbraid=0AAAAAD8kLQSooOxhaQNNTw7C1mk9pG1qo&gclid=CjwKCAiA3-3KBhBiEiwA2x7FdIdq83GrfkYWAHQMJX2Vec1M8LdAbA6zCFy8CjAScFXqzHvZeR3gUhoCDmMQAvD_BwE)
-would take 5+ days hours to fill our enclosure.
+would take 5+ days to fill our enclosure.
 
 On the other hand a commercial cylinder with 50 l (200 bar)
 costs [around €130](https://shop.airproducts.com/emea/es/es-ES/products/62242/),
@@ -521,20 +544,35 @@ for a total of more than 8 m3,
 enough to fill one airship.
 So we may rethink the need to generate our own hydrogen.
 
+## Trials
+
+A series of trials should establish if the Avis Lxxx is airworthy.
+It is not enough to find a few parts on AliExpress and say that the project can be done:
+the actual airship will have to work reliably for weeks,
+and hardened parts will need to be sourced (or fabricated).
+
+A convenient destination from Spain is the Canary Islands.
+Another nice place to visit is Canada,
+where legislation is more than in the EU:
+for instance it is now legal to fly drones
+[beyond visual line-of-sight](https://tc.canada.ca/en/aviation/drone-safety/2025-summary-changes-canada-drone-regulations).
+
 ## Research
 
 Most of our funds are needed to investigate possible alternatives for fabrication,
 and to ensure mission success.
+Putting together a team of clever people takes time and costs a lot of money.
 
-## Amateur Project
-
+But is this amount of money really necessary?
 We often find on social media like YouTube really bright people that create really complex projects on their own in a few months.
-So it is possible that one of these geniuses will replicate this project on their own with a budget of a few thousand euros.
+So it is possible that one of these geniuses will replicate this project with a budget of a few thousand euros.
 Why not?
 After all there are no great obstacles to any clever maker who is sufficiently determined,
 and enough of a fool to embark in such a crazy enterprise.
 
 # 🤔 Conclusion
+
+It has been fun to study the feasibility of the Avis Lxxx project.
 
 ## 🥺 Motivation
 
@@ -566,5 +604,5 @@ studied how to build a 1-meter long airship.
 
 Thanks to my friends at [MakeSpace Madrid](https://makespacemadrid.org/)
 for the interesting discussions:
-in particular David, Pablo, José David and Javi who have had to indulge my crazy ideas.
+in particular David, Pablo, José David, Sink, and Javi who have had to indulge my crazy ideas.
 
