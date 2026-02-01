@@ -302,7 +302,7 @@ around 6 meters, which is the perimeter of the enclosure at its equator.
 
 ## ⚖️ Weight Budget
 
-So our combined weight is at this point:
+Our combined weight is at this point:
 
 |Component|Material|Weight|
 |---|---|---|
@@ -318,15 +318,15 @@ So our combined weight is at this point:
 | Gas | Hydrogen | 0.7 g |
 | **Total** | -- | 8.1 kg |
 
-An 8 kg airship will certainly be able to hover.
+An 8 kg airship will certainly be able to float.
 Remember that lift is due to the volume of air displaced by the hydrogen,
-so with 8.38 m³ lift will be:
+so with our 8.38 m³ lift will be:
 
 ```
 L = 8.38 * (1.3 - 0.070) kg/m³ ~ 10.3 kg.
 ```
 
-So we still have more than 2 kg to go, right?
+So we still have more than 2 kg to spare, right?
 But this is at sea level with at unrealistic temperatures of 0 °C!
 As temperature raises air becomes less dense, so
 we will get less and less lift:
