@@ -492,7 +492,8 @@ We will go over a few of them next.
 The problem of height is one of the most interesting aspects of the project.
 Go too high and the payload is reduced greatly;
 go too low and any sudden change of temperature will drop the drone to the ground.
-At night the air is colder which may push the Avis to higher altitudes.
+At night the air is colder which may push the Avis to higher altitudes,
+up to 1 km.
 Therefore the ship will be constantly moving up and down.
 
 At the beginning of the trip the gas bag will be full,
