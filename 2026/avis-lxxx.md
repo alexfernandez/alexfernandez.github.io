@@ -327,7 +327,7 @@ L = 8.38 * (1.3 - 0.070) kg/m³ ~ 10.3 kg.
 ```
 
 So we still have more than 2 kg to spare, right?
-But this is at sea level at unrealistic temperatures of 0 °C!
+But this is at unrealistic temperatures of 0 °C!
 As temperature raises air becomes less dense, so
 we will get less and less lift:
 
@@ -339,13 +339,17 @@ we will get less and less lift:
 | 30 |  1.16 |  9.1 |
 | 40 |  1.13 |  8.9 |
 
-Plus, the airship will have to go over land at some point,
-and keep a certain height to have clearance.
+The budget is getting tighter, but we are still at sea level.
+The airship will have to go over land at some point,
+and keep a certain height to have clearance over any elevations.
 Air density goes down fast with altitude:
 the [international standard atmosphere](https://www.engineeringtoolbox.com/international-standard-atmosphere-d_985.html)
 dictates that at 500 m it will be down 5%,
 so we will have 0.95 of the lift:
 at 30 °C it's only 8.65 kg.
+But this is just the average!
+Poor weather also brings with itself low pressures,
+and therefore reduced air density.
 Our weight budget is starting to get tight.
 
 The last factor is hydrogen loss:
