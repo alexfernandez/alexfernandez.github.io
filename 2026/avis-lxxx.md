@@ -1,12 +1,13 @@
 ---
 title: '🌐 Floating Around the World in under 80 Days'
-subtitle: 'With Avis LXXX: an Autonomous Airship Drone'
-footer: Published on 2026-01-03, last modified on 2026-01-03.
+subtitle: 'Avis LXXX: an Autonomous Airship Drone'
+footer: Published on 2026-02-01, last modified on 2026-02-01.
   [Comments, suggestions?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'A project to circumnavigate the globe using an autonomous airship.
-  Craft, routes and timings for maximum air endurance.'
-image: https://pinchito.es/2026/pics/avis-lxxx.jpg
+  Design, trajectory and budget for maximum air endurance.
+  Feasibility study, thought experiment and daydreaming all in one.'
+image: https://pinchito.es/2026/pics/avis-lxxx-concept.jpg
 ---
 
 Is it possible to complete a trip around the world with an autonomous drone?
