@@ -412,12 +412,11 @@ will help us a lot in this imaginary flight plan.
 
 ## 🛄 The Journey
 
+A convenient starting point is in Southern Spain, near Cádiz.
+The prevailing winds will usually help us get to the Canary Islands.
 Keep in mind that wind conditions change all the time;
 we are depicting the weather on a typical winter day,
 as cold helps us get denser air.
-
-We may as well start in Southern Spain, near Cádiz.
-The prevailing winds will usually help us get to the Canary Islands.
 
 ![The blue line shows the proposed flight path.](pics/avis-lxxx-cadiz-start.jpg "The map shows a blue line starting in Cádiz, and moving to the South-West until it reaches the Canary Islands.")
 
