@@ -621,7 +621,7 @@ a thought experiment carefully laid out and very well narrated.
 Jules Verne did not travel but just imagined how it could be done.
 
 Then there are the famed world records:
-Airbus Zephyr, the work of a giant corporation, holds the current record of air endurance with 67 days.
+Airbus Zephyr, the work of a giant corporation, holds the current record for air endurance with 67 days.
 Wouldn't it be great to snatch it from their cold corporate hands with an independent project?
 
 Then there is the fact that airships are just super cool.
