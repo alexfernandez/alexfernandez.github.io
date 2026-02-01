@@ -465,7 +465,7 @@ and full of real-world challenges.
 
 ![Journey on a Winkel-Trippel map, easily my favourite projection.](pics/avis-lxxx-proposed-trajectory.jpg "An eliptical map shows the blue line going around the world.")
 
-At 800 km/day it would take 51 days,
+At 800 km/day the full trip would take 51 days,
 or just above 7 weeks.
 
 ## Height
@@ -518,7 +518,7 @@ presumably so planes can avoid them;
 and little else.
 Sending a flight plan in advance might be required for some countries.
 
-This area clearly requires in-depth study.
+This area clearly requires in-depth study and careful consideration.
 
 # Budget
 
@@ -527,11 +527,12 @@ Let's start with a million dollars.
 
 ## Material Cost
 
-Most of the materials required should be pretty cheap:
-PVA and other plastic coatings,
+Most of the materials required should be pretty cheap,
+like PVA and other plastic coatings.
+Carbon fiber can also be sourced for a few tens of euros.
 
-Some equipment is not cheap:
-for instance ultrasonic sealing machines.
+Equipment on the other hand is not cheap:
+for instance ultrasonic sealing machines cost many thousands of euros.
 
 Industrial hydrogen generators are another expensive bit.
 Keep in mind that we need 8000 l of hydrogen;
