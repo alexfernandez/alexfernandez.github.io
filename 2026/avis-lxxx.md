@@ -117,7 +117,7 @@ Thanks to the latest advances in miniaturization a drone can be quite small,
 while still being fully functional.
 We will set a target size of 4 meters,
 which we have previously analyzed in
-[Aves Æternæ](http://pinchito.local/2024/aves-aeternae).
+[Aves Æternæ](/2024/aves-aeternae).
 Minor axes are 2 meters long;
 surface is 21.48 m² while volume is 8.38 m³.
 This gives us a max weight of less than 10 kg.
