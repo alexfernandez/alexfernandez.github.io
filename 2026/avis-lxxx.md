@@ -535,7 +535,7 @@ and it lies completely out of my depth.
 As this article is already long enough,
 allow me to just touch over the main issues.
 The primary objective is just to avoid being shot down
-as I'm not planning to visit any foreign countries in person,
+since I'm not planning to visit any foreign countries in person.
 
 No matter what you have heard,
 it is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
