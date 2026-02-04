@@ -1,7 +1,7 @@
 ---
 title: '🌐 Flying Around the World in under 80 Days'
 subtitle: 'Avis LXXX: an Autonomous Airship Drone'
-footer: Published on 2026-02-01, last modified on 2026-02-02.
+footer: Published on 2026-02-01, last modified on 2026-02-04.
   [Comments, suggestions? Did I miss any obvious issues?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'A project to circumnavigate the globe using an autonomous airship.
@@ -534,6 +534,8 @@ This very complex area clearly requires in-depth study and careful consideration
 and it lies completely out of my depth.
 As this article is already long enough,
 allow me to just touch over the main issues.
+The primary objective is just to avoid being shot down
+as I'm not planning to visit any foreign countries in person,
 
 No matter what you have heard,
 it is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
@@ -549,9 +551,8 @@ it would not spend a lot of time within the EU.
 But is the Avis a drone,
 or can it be considered a balloon?
 Balloon regulations tend to be much laxer:
-a radar reflector is [usually required onboard](https://www.stratoballooning.org/part-101-rules),
-presumably so planes can avoid them;
-and little else.
+in some countries a radar reflector is [usually required onboard](https://www.stratoballooning.org/part-101-rules),
+presumably so planes can avoid them, and little else.
 Sending a flight plan in advance might be required for some countries.
 And in any case it is important to mark the drone clearly as a civil craft,
 to avoid misunderstandings.
