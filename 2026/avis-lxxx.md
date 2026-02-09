@@ -529,13 +529,13 @@ and it can also be used to change configuration parameters whenever there is an 
 
 ## 🪧 Politics
 
-Finally, how will we avoid to be shot down while in transit?
+Finally, what are the legal implications of flying an airship drone over foreign air spaces?
 This very complex area clearly requires in-depth study and careful consideration,
 and it lies completely out of my depth.
-As this article is already long enough,
-allow me to just touch over the main issues.
 The primary objective is just to avoid being shot down
-since I'm not planning to visit any foreign countries in person.
+since I'm not planning to visit any foreign countries in person,
+and this article is already long enough;
+so allow me to just touch over the main issues.
 
 No matter what you have heard,
 it is [legal to fly civilian aircraft](https://www.ejiltalk.org/skies-spies-and-scientific-surveys-the-legal-aspects-of-chinese-unmanned-balloon-flight-over-american-territory/).
