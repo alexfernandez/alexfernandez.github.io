@@ -1,7 +1,7 @@
 ---
 title: '🌠 Bacterias (parte 5): ¿Venimos de las estrellas?'
 subtitle: 'Parte 5 de la serie «🦠 Bacterias: máquinas que dominan el universo'
-footer: Publicado el 2022-12-30, modificado el 2022-12-30.
+footer: Publicado el 2022-12-30, modificado el 2026-03-08.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'El origen de la vida es una de las cuestiones que más intrigan a la humanidad.
@@ -129,7 +129,7 @@ la dosis que mata al 90% de los ejemplares de una cepa.
 |Foto carné|Especie|D<sub>10</sub>|
 |---|---|---|
 |![](pics/bacterias-radiación-lady.png)|_Homo sapiens_|5 Gy|
-|![](pics/bacterias-radiación-cucaracha.png)|_Blatella germanica_|900 Gy|
+|![](pics/bacterias-radiación-cucaracha.png)|_Blatella germanica_|64 Gy|
 |![](pics/bacterias-radiación-e-coli.png)|_E. coli_ (+hardening)|2 kGy|
 |![](pics/bacterias-radiación-tardígrado.png)|_Milnesium tardigradum_|5 kGy|
 |![](pics/bacterias-radiación-deinococcus.png)|_Deinococcus radiodurans_|10 kGy|
