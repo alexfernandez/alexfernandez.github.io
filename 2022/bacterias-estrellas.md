@@ -270,7 +270,7 @@ atribuir la idea de panspermia a Arrhenius.
 En cualquier caso su visión es muy enriquecedora:
 
 > Es por tanto probable que gérmenes de los organismos más bajos que conocemos
-> se arrastren continuamente desdde la Tierra y de los otros planetas en los que existan.
+> se arrastren continuamente desde la Tierra y de los otros planetas en los que existan.
 > Como semillas que son, es seguro que la mayoría de estas esporas,
 > arrastradas de esta forma,
 > encuentrarán la muerte en el frío espacio infinito del Universo.
@@ -384,7 +384,7 @@ Siempre me ha llamado la atención que no se dedique más atención a estudiar
 cuáles son nuestros ancestros estelares.
 
 A 3000 años luz del sol se encuentra el
-[clúster abierto M67](https://freestarcharts.com/messier-67).
+[cúmulo abierto M67](https://freestarcharts.com/messier-67).
 Contiene unas 200 estrellas con edad y composición
 parecidas a nuestro Sol.
 Esto lo hace candidato número uno a haber sido la cuna de nuestro sistema solar.
@@ -402,23 +402,23 @@ lejos de nuestros hermanos.
 
 No todo el mundo está de acuerdo.
 En una simulación la astrofísica Bárbara Pichardo _et al_
-[descartaron este clúster como origen del sol](https://iopscience.iop.org/article/10.1088/0004-6256/143/3/73/pdf):
-no consiguieron simular la salida del Sol del cluster sin destruir el incipiente sistema solar.
+[descartaron este origen del sol](https://iopscience.iop.org/article/10.1088/0004-6256/143/3/73/pdf):
+no consiguieron simular la salida del Sol del cúmulo (o _cluster_) sin destruir el incipiente sistema solar.
 También reconocieron que una mejora en sus modelos podría cambiar la situación.
 Pero lo cierto es que no tenemos candidatos mejores.
-En un estudio más reciente se descubrió que las estrellas de este cluster
+En un estudio más reciente se descubrió que las estrellas de este cúmulo
 [rotan en unos 26 días](https://iopscience.iop.org/article/10.3847/0004-637X/823/1/16),
 casi igual que nuestro Sol,
 lo que para muchos volvió a confirmar la paternidad de M67.
 
 Combinando la teoría de la panspermia estelar con este descubrimiento,
-podríamos pensar que el origen de la vida debería de buscarse en este cluster.
+podríamos pensar que el origen de la vida debería de buscarse en este cúmulo.
 Incluso que serían buenos candidatos para buscar seres vivos,
 o incluso civilizaciones avanzadas.
 Lástima que a 3000 años luz estén un poco lejos para ir a visitarlos,
 y a ellos les quedan unos 2900 años para recibir nuestras primeras emisiones de radio.
 
-![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del clúster estelar M67.")
+![¿Tendremos primos en este pueblo? [Fuente](https://en.wikipedia.org/wiki/File:Messier_object_067.jpg).](pics/bacterias-m67.jpg "Fotografía en infrarrojo cercano del cúmulo estelar M67.")
 
 # ⏭️ Continuará…
 
