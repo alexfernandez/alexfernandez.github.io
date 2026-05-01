@@ -11,7 +11,7 @@ This repo can be accessed on
 
 Articles (including files ending in `.md`, `.html`, `.jpg`, `.png` and `.svg`)
 are published under a
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 license.
 
 Software (including files ending in `.css` and `.js`)
