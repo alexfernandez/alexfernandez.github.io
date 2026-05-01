@@ -10,7 +10,7 @@ echo '<channel>'
 echo "	<title>RSS feed for pinchito.es</title>"
 echo "	<description>RSS feed for pinchito's blog</description>"
 echo "	<link>https://pinchito.es/</link>"
-echo "	<copyright>2012-2024 Alex Fernández, all rights reserved</copyright>"
+echo "	<copyright>Alex Fernández, all rights reserved</copyright>"
 echo "	<lastBuildDate>$build_date</lastBuildDate>"
 echo "	<pubDate>$build_date</pubDate>"
 
