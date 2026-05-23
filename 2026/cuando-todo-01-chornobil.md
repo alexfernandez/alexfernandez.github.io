@@ -929,28 +929,27 @@ Música:
 * Manuel de Falla: [El amor brujo](https://archive.org/details/mm-633-falla-el-amor-brujo). Pittsburgh Symphony dir. Fritz Reiner (Columbia, 1946).
 * Richard Wagner: [Die Gotterdammerung (excerpts)](https://archive.org/details/lp_wagner-excerpts-die-gotterdammerung_richard-wagner-hans-knappertsbusch-wiener). Wiener Philharmoniker dir. Hans Knappertsbusch (London Records, 1955).
 * Selim Palmgren: [Tuhkimovalssi](https://www.youtube.com/watch?v=bnHeCBQnHmE). (Fazer, 1955).
-* Modest Músorgski: [Pictures at an Exhibition](https://www.classicals.de/mussorgsky-exhibition). Skidmore College Orchestra (Classicals.de).
+* Modest Músorgski: [Cuadros de una exposición](https://www.classicals.de/mussorgsky-exhibition). Skidmore College Orchestra (Classicals.de).
 * Nikita Bogoslovski: [Тёмная ночь (La noche es oscura)](https://www.youtube.com/watch?v=75P0QGi3RO0). Int.: Mark Bernes (1943).
 * Giovanni Battista Pergolesi: [Stabat Mater](https://archive.org/details/lp_stabat-mater_giovanni-battista-pergolesi-teresa-stich-r_0). Vienna State Opera Orchestra dir. Mario Rossi (Vanguard, 1955).
 * Pável Chesnokov: [Panihida](https://adp.library.ucsb.edu/index.php/matrix/detail/2000416588/WAX5810-Panihida). Don Cossack Choir dir. Serge Jaroff (Columbia, 1930).
-* Serguéi Prokófiev: [Symphony No. 6](https://archive.org/details/ml-4328-prokofiev-6-ii). Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1951).
-* Serguéi Prokófiev: [Waltz from Op.110 no.1](https://www.youtube.com/watch?v=lkRS8hPgn5k). Piano: Serguéi Prokófiev (1946).
-* Serguéi Prokófiev: [Scythian Suite](https://archive.org/details/lp_kodaly-prokofiev_dresdner-philharmonie-radio-symphonie-orch).  Dresdner Philharmonie, dir. Heinz Bongartz (Urania 1954).
-* Serguéi Prokófiev: [Alexander Nevsky V - The Battle On The Ice](https://archive.org/details/lp_alexander-nevsky-cantata-op-78_sergei-prokofiev-the-philadelphia-orchestr). The Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1949).
-* Béla Bartók: [Dance Suite](https://archive.org/details/lp_dance-suite-fantasia-k-608_bla-bartk-wolfgang-amadeus-mozart-the-new).  The New Symphony Orchestra Of London dir. Franco Autori (Bartok Records, 1953).
+* Serguéi Prokófiev: [Sinfonía no. 6](https://archive.org/details/ml-4328-prokofiev-6-ii). Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1951).
+* Serguéi Prokófiev: [Vals de Op.110 no.1](https://www.youtube.com/watch?v=lkRS8hPgn5k). Piano: Serguéi Prokófiev (1946).
+* Serguéi Prokófiev: [Suite escita](https://archive.org/details/lp_kodaly-prokofiev_dresdner-philharmonie-radio-symphonie-orch).  Dresdner Philharmonie, dir. Heinz Bongartz (Urania 1954).
+* Serguéi Prokófiev: [Alexander Nevsky V - Batalla sobre el hielo](https://archive.org/details/lp_alexander-nevsky-cantata-op-78_sergei-prokofiev-the-philadelphia-orchestr). The Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1949).
+* Béla Bartók: [Táncszvit (Suite de Danzas)](https://archive.org/details/lp_dance-suite-fantasia-k-608_bla-bartk-wolfgang-amadeus-mozart-the-new).  The New Symphony Orchestra Of London dir. Franco Autori (Bartok Records, 1953).
 * Alexander Alexandrov: [Gimn Sovetskogo Soyuza (himno soviético)](https://archive.org/details/GimnSovetskogoSoyuza1977Vocal.oga). (1944).
 * Isaac Albéniz: [España, Op.165 No. 1: Preludio](https://www.classicals.de/albeniz-espana). Gregor Quendel (Classicals.de, 2026), de hecho una interpretación a medida por la que estoy doblemente agradecido.
 * Serguéi Rajmáninov: [Concierto para piano no. 2](https://archive.org/details/03-cor-de-groot-w-v-otterloo-rachmaninoff-pi-c-2-op-18-mov-3). Residentie Orkest The Hague dir. Willem van Otterloo, piano Cor de Groot (Philips 1951).
 * Michio Miyagui: [さくら変奏曲 (variaciones cerezo)](https://archive.org/details/1956-michio-miyagi-masterpieces-of-koto). Koto: Michio Miyagui (Víctor, 1956).
-* Serguéi Rajmáninov: [Tebe poyem](https://adp.library.ucsb.edu/index.php/matrix/detail/1000016211/16079b-Tebe_poiem). Russian Church Chorus, dir. I. I. Yukhov (Victor, 1911).
+* Serguéi Rajmáninov: [Tebé poyem (te alabamos)](https://adp.library.ucsb.edu/index.php/matrix/detail/1000016211/16079b-Tebe_poiem). Russian Church Chorus, dir. I. I. Yukhov (Victor, 1911).
 * Piotr Chaikovsky: [Sinfonía no. 2](https://archive.org/details/lp_tchaikovsky-symphony-no-2-little-russia_nathan-rachlin-kiril-kondrashin). Youth Symphony Orchestra of the Moscow Philharmonic dir. Kiril Kondrashin (A 440, 1954).
 * I. Dunaevskiy: [Harvest song](http://www.sovmusic.ru/english/download.php?fname=urozhain). Khor i simfonicheskiy orkestr (VRK 1949).
 * Camille Saint-Saens: [Danse Macabre](https://archive.org/details/lp_french-orchestral-music_ernest-ansermet-lorchestre-de-la-suisse-ro). L'Orchestre De La Suisse Romande, dir. Ernest Ansermet (London Records, 1953).
 * Serguéi Rajmáninov: [Isle of the dead](https://archive.org/details/lp_the-bells-op-35-isle-of-the-dead-op-29_sergei-vasilyevich-rachmaninoff-the-phi). The Philadelphia Orchestra, dir. Eugene Ormandy (Columbia, 1955).
 * Serguéi Prokófiev: [Concierto para violín no. 2](https://archive.org/details/lp_prokofiev-concerto-no-2-in-g-minor-bach-c_zino-francescatti-dimitri-mitropoulos-the). The New York Philharmonic Orchestra, dir. Dimitri Mitropoulos (Columbia, 1953).
 * Serguéi Prokófiev: [Concierto para piano no. 2](https://archive.org/details/lp_hi-fi-demonstration-record_various-bach-beethoven-gliere-liszt-mah). Fragmento de disco demostración (Westminster, 1954).
-* Serguéi Prokófiev: [No 18 F Major,Op 32,No 7]
-[No. 10 Waltz In B Minor](https://archive.org/details/lp_twenty-four-preludes_sergei-vasilyevich-rachmaninoff-dame-mo). Piano: Moura Lympany (London Records, 1951).
+* Serguéi Prokófiev: [No 18 F Major,Op 32,No 7](https://archive.org/details/lp_twenty-four-preludes_sergei-vasilyevich-rachmaninoff-dame-mo). Piano: Moura Lympany (London Records, 1951).
 * Frédéric Chopin: [No. 10 Waltz In B Minor, Op. 69, No. 2](https://archive.org/details/lp_waltzes-complete_frederic-chopin-edward-kilenyi). Piano: Edward Kilenyi (Remington, 1952).
 
 Las piezas publicadas hace más de 70 años, cuyos autores fallecieron hace también más de 70 años,
