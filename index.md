@@ -12,7 +12,7 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 ### 2026
 
 🗣️ 🇮🇪 2026-05-23: [Cuando todo sale mal: Incidente en Chornóbil](2026/cuando-todo-01-chornobil)  
-⚛️ 🇮 🇪  2026-02-01: [🌐 Flying Around the World in under 80 Days](2026/avis-lxxx)  
+⚛️  🇮🇪 2026-02-01: [🌐 Flying Around the World in under 80 Days](2026/avis-lxxx)  
 
 ### 2025
 
