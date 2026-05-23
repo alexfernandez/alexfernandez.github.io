@@ -1,6 +1,6 @@
 ---
 title: 'Incidente en Chornóbil'
-subtitle: 'Cuando todo sale mal, capítulo 1'
+subtitle: 'Cuando todo sale mal, episodio 1'
 footer: Publicado el 2026-05-23, modificado el 2026-05-23.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
@@ -19,7 +19,7 @@ Este artículo es su compañero fiel:
 puedes encontrar aquí la transcripción completa,
 junto con fuentes, notas y música.
 
-# Episodio 01: Incidente en Chornóbil
+# Episodio 1: Incidente en Chornóbil
 
 Estamos en el año 1986.
 La pequeña ciudad ucraniana de Prípiet está pasando un viernes tranquilo.
