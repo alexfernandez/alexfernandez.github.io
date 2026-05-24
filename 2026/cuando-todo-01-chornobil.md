@@ -946,10 +946,10 @@ Música:
 * Piotr Chaikovsky: [Sinfonía no. 2](https://archive.org/details/lp_tchaikovsky-symphony-no-2-little-russia_nathan-rachlin-kiril-kondrashin). Youth Symphony Orchestra of the Moscow Philharmonic dir. Kiril Kondrashin (A 440, 1954).
 * I. Dunaevskiy: [Harvest song](http://www.sovmusic.ru/english/download.php?fname=urozhain). Khor i simfonicheskiy orkestr (VRK 1949).
 * Camille Saint-Saens: [Danse Macabre](https://archive.org/details/lp_french-orchestral-music_ernest-ansermet-lorchestre-de-la-suisse-ro). L'Orchestre De La Suisse Romande, dir. Ernest Ansermet (London Records, 1953).
-* Serguéi Rajmáninov: [Isle of the dead](https://archive.org/details/lp_the-bells-op-35-isle-of-the-dead-op-29_sergei-vasilyevich-rachmaninoff-the-phi). The Philadelphia Orchestra, dir. Eugene Ormandy (Columbia, 1955).
+* Serguéi Rajmáninov: [Isle of the dead](https://www.youtube.com/watch?v=Am1HlEO75wU). The Philadelphia Orchestra, dir. Serguéi Rajmáninov (Victrola, 1929).
 * Serguéi Prokófiev: [Concierto para violín no. 2](https://archive.org/details/lp_prokofiev-concerto-no-2-in-g-minor-bach-c_zino-francescatti-dimitri-mitropoulos-the). The New York Philharmonic Orchestra, dir. Dimitri Mitropoulos (Columbia, 1953).
 * Serguéi Prokófiev: [Concierto para piano no. 2](https://archive.org/details/lp_hi-fi-demonstration-record_various-bach-beethoven-gliere-liszt-mah). Fragmento de disco demostración (Westminster, 1954).
-* Serguéi Prokófiev: [Preludio No 18 F Major, Op 32, No 7](https://archive.org/details/lp_twenty-four-preludes_sergei-vasilyevich-rachmaninoff-dame-mo). Piano: Moura Lympany (London Records, 1951).
+* Maurice Ravel: [Pavane pour une infante défunte](https://archive.org/details/2-m-long-m-ravel-ravel-piano-conc-mov-2-col-lfx-257-9-1932/). Orquestre Symphonique dir. M. Freitas Branco, piano: Marguerite Long (Columbia, 1932).
 * Frédéric Chopin: [No. 10 Waltz In B Minor, Op. 69, No. 2](https://archive.org/details/lp_waltzes-complete_frederic-chopin-edward-kilenyi). Piano: Edward Kilenyi (Remington, 1952).
 
 Las piezas publicadas hace más de 70 años, cuyos autores fallecieron hace también más de 70 años,
