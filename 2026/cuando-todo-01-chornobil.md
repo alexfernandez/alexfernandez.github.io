@@ -884,8 +884,8 @@ Bueno, y llegamos al final.
 Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "Cuando todo sale mal",
 aunque probablemente se me olviden muchos.
 La sintonía es "Cuando todo sale mal", de Lucía Fernández.
-Con música de: Prokofiev, Mussorgsky, Wagner, Falla, Tuhkimovalssi,
-Chesnokov, Pergolesi, Rachmáninov, Bartók.
+Con música de: Prokofiev, Mussorgsky, Wagner, Falla, Albéniz,
+Palmgren, Chesnokov, Pergolesi, Rachmáninov, Bartók y otros.
 Las fuentes que he usado y la transcripción están en la web pinchito.es.
 ¡Muchas gracias por llegar hasta aquí, y hasta la próxima!
 
