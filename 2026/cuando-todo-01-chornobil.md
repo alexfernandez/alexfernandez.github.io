@@ -885,7 +885,7 @@ Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "
 aunque probablemente se me olviden muchos.
 La sintonía es "Cuando todo sale mal", de Lucía Fernández.
 Con música de: Prokofiev, Mussorgsky, Wagner, Falla, Tuhkimovalssi,
-Chesnokov, Pergolessi, Rachmáninov, Bartók.
+Chesnokov, Pergolesi, Rachmáninov, Bartók.
 Las fuentes que he usado y la transcripción están en la web pinchito.es.
 ¡Muchas gracias por llegar hasta aquí, y hasta la próxima!
 
@@ -931,9 +931,9 @@ Música:
 * Selim Palmgren: [Tuhkimovalssi](https://www.youtube.com/watch?v=bnHeCBQnHmE). (Fazer, 1955).
 * Modest Músorgski: [Cuadros de una exposición](https://www.classicals.de/mussorgsky-exhibition). Skidmore College Orchestra (Classicals.de).
 * Nikita Bogoslovski: [Тёмная ночь (La noche es oscura)](https://www.youtube.com/watch?v=75P0QGi3RO0). Int.: Mark Bernes (1943).
-* Giovanni Battista Pergolesi: [Stabat Mater](https://archive.org/details/lp_stabat-mater_giovanni-battista-pergolesi-teresa-stich-r_0). Vienna State Opera Orchestra dir. Mario Rossi (Vanguard, 1955).
+* Giovanni Battista Pergolesi: [Stabat Mater](https://www.youtube.com/watch?v=G30TZo8VHLw). Ton-Studio Orchestra of Stuttgart, Hans Grischkat (Period, 1951).
 * Pável Chesnokov: [Panihida](https://adp.library.ucsb.edu/index.php/matrix/detail/2000416588/WAX5810-Panihida). Don Cossack Choir dir. Serge Jaroff (Columbia, 1930).
-* Serguéi Prokófiev: [Sinfonía no. 6](https://archive.org/details/ml-4328-prokofiev-6-ii). Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1951).
+* Serguéi Prokófiev: [Sinfonía no. 6](https://www.youtube.com/watch?v=9zOwccaffwc). L'Orchestre de la Suisse Romande dir. Ernest Ansermet (Decca, 1952).
 * Serguéi Prokófiev: [Vals de Op.110 no.1](https://www.youtube.com/watch?v=lkRS8hPgn5k). Piano: Serguéi Prokófiev (1946).
 * Serguéi Prokófiev: [Suite escita](https://archive.org/details/lp_kodaly-prokofiev_dresdner-philharmonie-radio-symphonie-orch).  Dresdner Philharmonie, dir. Heinz Bongartz (Urania 1954).
 * Serguéi Prokófiev: [Alexander Nevsky V - Batalla sobre el hielo](https://archive.org/details/lp_alexander-nevsky-cantata-op-78_sergei-prokofiev-the-philadelphia-orchestr). The Philadelphia Orchestra dir. Eugene Ormandy (Columbia, 1949).
@@ -949,7 +949,7 @@ Música:
 * Serguéi Rajmáninov: [Isle of the dead](https://archive.org/details/lp_the-bells-op-35-isle-of-the-dead-op-29_sergei-vasilyevich-rachmaninoff-the-phi). The Philadelphia Orchestra, dir. Eugene Ormandy (Columbia, 1955).
 * Serguéi Prokófiev: [Concierto para violín no. 2](https://archive.org/details/lp_prokofiev-concerto-no-2-in-g-minor-bach-c_zino-francescatti-dimitri-mitropoulos-the). The New York Philharmonic Orchestra, dir. Dimitri Mitropoulos (Columbia, 1953).
 * Serguéi Prokófiev: [Concierto para piano no. 2](https://archive.org/details/lp_hi-fi-demonstration-record_various-bach-beethoven-gliere-liszt-mah). Fragmento de disco demostración (Westminster, 1954).
-* Serguéi Prokófiev: [No 18 F Major,Op 32,No 7](https://archive.org/details/lp_twenty-four-preludes_sergei-vasilyevich-rachmaninoff-dame-mo). Piano: Moura Lympany (London Records, 1951).
+* Serguéi Prokófiev: [Preludio No 18 F Major, Op 32, No 7](https://archive.org/details/lp_twenty-four-preludes_sergei-vasilyevich-rachmaninoff-dame-mo). Piano: Moura Lympany (London Records, 1951).
 * Frédéric Chopin: [No. 10 Waltz In B Minor, Op. 69, No. 2](https://archive.org/details/lp_waltzes-complete_frederic-chopin-edward-kilenyi). Piano: Edward Kilenyi (Remington, 1952).
 
 Las piezas publicadas hace más de 70 años, cuyos autores fallecieron hace también más de 70 años,
