@@ -29,7 +29,7 @@ y se encuentran con un espectáculo dantesco:
 un edificio colapsado,
 un incendio tremendo
 y decenas de heridos.
-La peor catástrofe nuclear de todos los tiempos acaba de empezar.
+El peor accidente nuclear de todos los tiempos acaba de empezar.
 
 ¿Qué salió mal en esa noche terrible de abril?
 En pocas palabras, todo.
@@ -880,13 +880,14 @@ para evitar tener una inundación después.
 
 ## Agradecimientos
 
-Bueno, y llegamos al final.
-Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "Cuando todo sale mal",
-aunque probablemente se me olviden muchos.
+Bueno, y llegamos al final de este viaje.
+Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "Cuando todo sale mal".
+Gracias a Carlos Santisteban y a Lucía Fernández,
+y a todos los beta testers que me han ayudado a mejorarlo.
 La sintonía es "Cuando todo sale mal", de Lucía Fernández.
-Con música de: Prokofiev, Mussorgsky, Wagner, Falla, Albéniz,
+Con música del dominio público de: Prokofiev, Mussorgsky, Wagner, Falla, Albéniz,
 Palmgren, Chesnokov, Pergolesi, Rachmáninov, Bartók y otros.
-Las fuentes que he usado y la transcripción están en la web pinchito.es.
+Las fuentes que he usado, la música y la transcripción están en la web pinchito.es.
 ¡Muchas gracias por llegar hasta aquí, y hasta la próxima!
 
 ### Fuentes
