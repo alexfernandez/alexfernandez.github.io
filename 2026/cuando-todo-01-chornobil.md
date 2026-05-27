@@ -880,12 +880,15 @@ para evitar tener una inundación después.
 
 ## Agradecimientos
 
-Bueno, y llegamos al final de este viaje.
-Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "Cuando todo sale mal".
-Gracias a Carlos Santisteban y a Lucía Fernández,
+Bueno, y por fin llegamos al final.
+Quiero agradecer a toda la gente que me ha ayudado a elaborar este episodio de "Cuando todo sale mal",
+aunque probablemente se me olviden muchos.
+Gracias a Gregor de Classicals.de por su interpretación del preludio de "España", de Albéniz.
+Gracias en especial a Carlos Santisteban y a Lucía Fernández,
 y a todos los beta testers que me han ayudado a mejorarlo.
+
 La sintonía es "Cuando todo sale mal", de Lucía Fernández.
-Con música del dominio público de: Prokofiev, Mussorgsky, Wagner, Falla, Albéniz,
+Con música del dominio público de: Prokofiev, Mússorgsky, Wagner, Falla, Albéniz,
 Palmgren, Chesnokov, Pergolesi, Rachmáninov, Bartók y otros.
 Las fuentes que he usado, la música y la transcripción están en la web pinchito.es.
 ¡Muchas gracias por llegar hasta aquí, y hasta la próxima!
