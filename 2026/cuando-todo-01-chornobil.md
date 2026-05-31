@@ -14,7 +14,10 @@ image: https://pinchito.es/2026/pics/cuando-todo-01-chornobil.jpg
 ![Vista aérea del sarcófago sobre la planta nuclear de Chornóbil. Fuente: [Vadim Mouchkin / IAEA](https://commons.wikimedia.org/wiki/File:Chernobyl_04710018_(8134364258).jpg).](pics/cuando-todo-01-chornobil.jpg "Un edificio grande envuelto en una superestructura de hormigón, el sarcófago sobre el núcleo cuatro del reactor nuclear de Chornóbil. Al fondo un lago y múltiples estructuras industriales.")
 
 Primer episodio del podcast "Cuando todo sale mal".
-Escúchalo en [Spotify](https://open.spotify.com/episode/6quzqfg7LHnud7P5Vb4YVm?si=3AAdVJ8DSMiEkdYakuvmxA).
+Escúchalo en [Spotify](https://open.spotify.com/episode/6quzqfg7LHnud7P5Vb4YVm?si=3AAdVJ8DSMiEkdYakuvmxA),
+[Amazon Music](https://music.amazon.com/podcasts/06feef17-8687-4861-9d32-ed762264df9f),
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/cuando-todo-sale-mal/id1896853464),
+
 Este artículo es su compañero fiel:
 puedes encontrar aquí la transcripción completa,
 junto con fuentes, notas y música.
