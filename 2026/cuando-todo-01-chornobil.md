@@ -17,6 +17,9 @@ Primer episodio del podcast "Cuando todo sale mal".
 Escúchalo en [Spotify](https://open.spotify.com/episode/6quzqfg7LHnud7P5Vb4YVm?si=3AAdVJ8DSMiEkdYakuvmxA),
 [Amazon Music](https://music.amazon.com/podcasts/06feef17-8687-4861-9d32-ed762264df9f),
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/cuando-todo-sale-mal/id1896853464),
+[Castbox](https://castbox.fm/ch/7250793),
+[Pocket Casts](https://pca.st/gv0d6s4v),
+o baja el [mp3](https://pinchito.es/audio/cuando-todo-01-chornobil.mp3).
 
 Este artículo es su compañero fiel:
 puedes encontrar aquí la transcripción completa,
