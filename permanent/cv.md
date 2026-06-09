@@ -21,6 +21,12 @@ leading high performance teams.
 Please find below my most relevant engagements,
 full history at [LinkedIn](https://www.linkedin.com/in/pinchito).
 
+### 2025-02 to present: VP of Engineering at Fullcircle
+
+Joined the [consulting firm Fullcircle](https://fullcircle.es/).
+* Lead the development team to improve internal practices and successfully deal with increasingly demanding projects.
+* Working with the founding partners to ensure customer satisfaction at all levels.
+
 ### 2023-10 to 2024-10: Backend Developer at Tinybird
 
 Worked in the ingestion team digesting many petabytes of data per month.
@@ -34,17 +40,16 @@ Co-founded [NTRDE](https://ntrde.io/) with two business partners,
 a decision intelligence solution for chemical trading.
 
 * Took an early prototype and converted it into an enterprise-ready solution.
-* Did product design for two pilots with customers.
+* Product design for two pilots with customers.
 
 ### 2021-01 to 2022-06: CTO at Hivency
 
 In 2021 I joined
 [Hivency](https://www.hivency.com/), a French influencer marketing company.
 
+* Secured a successful 20M€ acquisition process by a French group.
 * Led a team of French and Spanish professionals,
 helping them evolve the best solution in influencer marketing worldwide.
-* Reorganized the team to work in squads and improved internal practices.
-* Secured a successful multi-million acquisition process by a French group.
 
 ### 2020-02 to 2020-12: Freelancer
 
@@ -77,12 +82,11 @@ and which resulted in a 2x speedup in secure socket communications.
 
 Led the backend team at [mediasmart.io](http://mediasmart.io/),
 a mobile adtech company.
-During this period of hypergrowth the company went from 50k€ to 10M€ in revenue. 
+During this period of hypergrowth the company went from 50k€ to 5M€ in revenue.
 
 * Led the redesign that allowed us to go from processing two thousand requests per second
 to just under a million requests per second in little more than four years.
 * Successfully competed at an international level both in price and in features.
-* Designed the selection process used for all new recruits.
 * Built a SRE platform that fully automated deployments, server provisioning, monitoring and much more.
 
 ### 2007-07 to 2011-08: Project Manager at ING Direct Spain
