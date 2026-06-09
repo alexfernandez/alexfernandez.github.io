@@ -110,6 +110,12 @@ for the Fifth and Sixth Framework Programmes.
 
 I have also collaborated with a few initiatives as a volunteer.
 
+### Public Speaking
+
+I have
+[extensive experience as a public speaker](https://pinchito.es/permanent/speaker),
+including conferences in many European countries.
+
 ### Open Source Projects
 
 The most popular project at 2.5k stars is
@@ -117,12 +123,6 @@ The most popular project at 2.5k stars is
 a Node.js library widely used for load testing web applications.
 Other projects can be found in my
 [GitHub account](https://github.com/alexfernandez/).
-
-### Public Speaking
-
-I have
-[extensive experience as a public speaker](https://pinchito.es/permanent/speaker),
-including conferences in many European countries.
 
 ### Organizations
 
