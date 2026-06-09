@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae of Alex Fernández 
 subtitle: 'Email: alexfernandeznpm@gmail.com'
-footer: Last edited on 2023-08-08.
+footer: Last edited on 2026-06-09.
 ---
 
 Developer with 20+ years of experience specialized in scalability and DevOps,
