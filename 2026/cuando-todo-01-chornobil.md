@@ -19,6 +19,7 @@ Escúchalo en [Spotify](https://open.spotify.com/episode/6quzqfg7LHnud7P5Vb4YVm?
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/cuando-todo-sale-mal/id1896853464),
 [Castbox](https://castbox.fm/ch/7250793),
 [Pocket Casts](https://pca.st/gv0d6s4v),
+[YouTube](: https://youtu.be/viWqDHlO9n4),
 o baja el [mp3](https://pinchito.es/audio/cuando-todo-01-chornobil.mp3).
 
 Este artículo es su compañero fiel:
