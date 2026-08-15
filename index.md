@@ -11,6 +11,7 @@ and <a href="https://github.com/alexfernandez" aria-label="Follow @alexfernandez
 
 ### 2026
 
+🗣️ 🇮🇪 2026-08-15: [Cuando todo sale mal: Explosión del Challenger](2026/cuando-todo-02-challenger)  
 🗣️ 🇮🇪 2026-05-23: [Cuando todo sale mal: Incidente en Chornóbil](2026/cuando-todo-01-chornobil)  
 ⚛️  🇮🇪 2026-02-01: [🌐 Flying Around the World in under 80 Days](2026/avis-lxxx)  
 
