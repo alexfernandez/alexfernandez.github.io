@@ -1258,19 +1258,19 @@ afectado por la radiactividad.
 
 Fuentes documentales:
 
-[El País: "Archivo de portadas de 1986"](https://elpais.com/hemeroteca/elpais/portadas/1986/).
-[Rogers Commission: "Report of the Presidential Commission on the Space Shuttle Challenger Accident" (1986)](https://www.nasa.gov/history/rogersrep/genindex.htm), [PDF](https://ntrs.nasa.gov/citations/19860015255).
-[Joseph P. Kerwin: Challenger Crew Report (1986)](https://www.nasa.gov/missions/space-shuttle/sts-51l/challenger-crew-report/).
-[David E. Sanger (New York Times): ENGINEERS TELL OF PUNISHMENT FOR SHUTTLE TESTIMONY (1986)](https://www.nytimes.com/1986/05/11/us/engineers-tell-of-punishment-for-shuttle-testimony.html)
-[NASA: "Implementation of the Recommendations of the Presidential Commission on the Space Shuttle Challenger Accident" (1987)](https://www.nasa.gov/history/rogersrep/v6exsumm.htm).
-[Richard P. Feynman: "Mr. Feynman Goes to Washington" (1987)](https://calteches.library.caltech.edu/3570/1/Feynman.pdf).
-[Richard P. Feynman: "What do you care what other people think? (1988)](https://avalonlibrary.net/ebooks/Wilhelm%20Reich%20-%20What%20Do%20You%20Care.pdf).
-[Howard Berkes: "Remembering Roger Boisjoly" (2012)](https://www.npr.org/sections/thetwo-way/2012/02/06/146490064/remembering-roger-boisjoly-he-tried-to-stop-shuttle-challenger-launch).
-[Margaret Lazarus Dean (Popular Mechanics): The Oral History of the Space Shuttle Challenger Disaster" (2016)](https://www.popularmechanics.com/space/a18616/an-oral-history-of-the-space-shuttle-challenger-disaster/).
-[Tom Reinhardt: "Challenger investigation commission, 1986" (2021)](https://thedaysforward.com/challenger-investigation-commission-1986/)
-[José Manuel Bretones (Diario de Almería): "El transbordador espacial que nunca aterrizó en Almería" (2021)](https://www.diariodealmeria.es/almeria/trasbordador-espacial-aterrizo-Almeria_0_1632139016.html).
-[Thomas G Roberts (CSIS): "Space Launch to Low Earth Orbit: How Much Does It Cost?" (2022)](https://aerospace.csis.org/data/space-launch-to-low-earth-orbit-how-much-does-it-cost/).
-[The Global Statistics: "United States Veterans Statistics 2025" (2025)](https://www.theglobalstatistics.com/united-states-veterans-statistics/).
+* [El País: "Archivo de portadas de 1986"](https://elpais.com/hemeroteca/elpais/portadas/1986/).
+* [Rogers Commission: "Report of the Presidential Commission on the Space Shuttle Challenger Accident" (1986)](https://www.nasa.gov/history/rogersrep/genindex.htm), [PDF](https://ntrs.nasa.gov/citations/19860015255).
+* [Joseph P. Kerwin: Challenger Crew Report (1986)](https://www.nasa.gov/missions/space-shuttle/sts-51l/challenger-crew-report/).
+* [David E. Sanger (New York Times): ENGINEERS TELL OF PUNISHMENT FOR SHUTTLE TESTIMONY (1986)](https://www.nytimes.com/1986/05/11/us/engineers-tell-of-punishment-for-shuttle-testimony.html)
+* [NASA: "Implementation of the Recommendations of the Presidential Commission on the Space Shuttle Challenger Accident" (1987)](https://www.nasa.gov/history/rogersrep/v6exsumm.htm).
+* [Richard P. Feynman: "Mr. Feynman Goes to Washington" (1987)](https://calteches.library.caltech.edu/3570/1/Feynman.pdf).
+* [Richard P. Feynman: "What do you care what other people think? (1988)](https://avalonlibrary.net/ebooks/Wilhelm%20Reich%20-%20What%20Do%20You%20Care.pdf).
+* [Howard Berkes: "Remembering Roger Boisjoly" (2012)](https://www.npr.org/sections/thetwo-way/2012/02/06/146490064/remembering-roger-boisjoly-he-tried-to-stop-shuttle-challenger-launch).
+* [Margaret Lazarus Dean (Popular Mechanics): The Oral History of the Space Shuttle Challenger Disaster" (2016)](https://www.popularmechanics.com/space/a18616/an-oral-history-of-the-space-shuttle-challenger-disaster/).
+* [Tom Reinhardt: "Challenger investigation commission, 1986" (2021)](https://thedaysforward.com/challenger-investigation-commission-1986/)
+* [José Manuel Bretones (Diario de Almería): "El transbordador espacial que nunca aterrizó en Almería" (2021)](https://www.diariodealmeria.es/almeria/trasbordador-espacial-aterrizo-Almeria_0_1632139016.html).
+* [Thomas G Roberts (CSIS): "Space Launch to Low Earth Orbit: How Much Does It Cost?" (2022)](https://aerospace.csis.org/data/space-launch-to-low-earth-orbit-how-much-does-it-cost/).
+* [The Global Statistics: "United States Veterans Statistics 2025" (2025)](https://www.theglobalstatistics.com/united-states-veterans-statistics/).
 
 Fuentes sonoras:
 
