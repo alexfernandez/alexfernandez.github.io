@@ -1274,15 +1274,39 @@ Fuentes documentales:
 
 Fuentes sonoras:
 
+* [The Challenger Disaster: A Series of Mistakes](https://www.youtube.com/watch?v=TFRWj2Kcsbc).
 * [Richard Feynman debunks NASA](https://www.youtube.com/watch?v=raMmRKGkGD4).
+* [Space Shuttle ... Watched by Back Up Teacher](https://www.youtube.com/watch?v=2P1bR6hShJ4).
+* Mr Feynman Goes to Washington, Caltech archives (inédito).
+* [The Challenger Disaster, 30 Years Later](https://podcasts.apple.com/us/podcast/the-challenger-disaster-30-years-later/id1009072355?i=1000361455114).
+* [Challenger Disaster (Standard 4:3)](https://archive.org/details/ChallengerDisaster).
+* [Unethical Decisions - The Causes of the Space Shuttle Challenger Disaster](https://www.youtube.com/watch?v=DB8iYf_857U).
+* [CNN, Feynman and the Challenger disaster](https://www.youtube.com/watch?v=4kpDg7MjHps).
+* [Allan J McDonald - Demoted and Reinstated](https://www.youtube.com/watch?v=-bshxnitTxY).
+* [Challenger Disaster, Control Room Reaction, Real Footage!](https://www.youtube.com/watch?v=d3XfpVnPbOk).
+* [Feb. 1, 2003: Space shuttle Columbia disaster](https://www.youtube.com/watch?v=d3XfpVnPbOk).
+* [Announcement of the Commission on the Explosion](https://www.youtube.com/watch?v=tqPHbWdwAj4).
 
 Música:
 
-* Robert Johnson: [When You Got a Good Friend](https://archive.org/details/terraplane-blues-.-74/When+You+Got+A+Good+Friend+(.74%25).mp3). Guitarra: Robert Johnson (1936).
+* Scott Joplin: [The Entertainer](https://archive.org/details/1-scott-joplin/). Rollo de piano de 1904.
+* Amy Beach: [Je demande a l'oiseau](https://www.classicals.de/beach-amy-marcy). Classicals.de (2025).
+* Charles Ives: [In the Night (from "Washington's Birthday")](https://archive.org/details/RugglesIvesExcerpts/02Ives-BarnDanceInTheNight.mp3). New Musical Quarterly (1934).
+* Charles Ives: [A Set of 3 Short Pieces](https://imslp.org/wiki/A_Set_of_3_Short_Pieces%2C_S.84_%28Ives%2C_Charles%29). A Far Cry (2017).
+* Charles Ives: [Decoration Day](https://www.youtube.com/watch?v=0og6UZM_LEI).
+* Randall Wallace: [Mansions of the Lord](https://www.youtube.com/watch?v=RtBYooE-s44). The US Army Trumpet Ensemble (2020).
+* John Newton: [Amazing Grace](https://www.youtube.com/watch?v=GsBkwVCaRHI). The United States Army Band.
+* Daniel Butterfield: [Taps](https://www.youtube.com/watch?v=Bfe4TxvUOiw). The United States Army Band.
+* Rachmaninov: [All-night Vigil, Op. 37](https://www.youtube.com/watch?v=-CCGysyW3-U). Capilla de San Petersburgo (2023).
+* Saint-Saëns: [Sinfonía número 3 (Órgano)](https://archive.org/details/sonopresse-um-64-051/). Sonopresse.
+* Charles Gounod: [Marcha fúnebre de una marioneta](https://www.youtube.com/watch?v=vNMxnK8dM9U). Disney Silly Symphonies (1929).
+* Carl W. Stalling: [Springtime](https://www.youtube.com/watch?v=pJQJzsJvpIw). Disney Silly Symphonies (1929).
+* Charles Ives: [Central Park in the Dark](https://www.youtube.com/watch?v=RC6jSHYQURc). Symphony Orchestra of Bartók Conservatory (2017).
+* Robert Johnson: [When You Got a Good Friend](https://archive.org/details/terraplane-blues-.-74/When+You+Got+A+Good+Friend+(.74%25).mp3). Grabación de 1936.
+* Edith Wilson And Johnny Dunn's Original Jazz Hounds: [He may be your man (but he comes to see me sometimes)](https://adp.library.ucsb.edu/index.php/matrix/detail/2000028149/80382-He_may_be_your_man_but_he_comes_to_see_me_sometimes). Columbia (1922).
 
 Las piezas publicadas hace más de 70 años, cuyos autores fallecieron hace también más de 70 años,
 están en el dominio público en la Unión Europea.
 El resto se usan bajo licencia (Creative Commons o comercial).
 [Reclamaciones](mailto:alexfernandeznpm@gmail.com).
-
 
