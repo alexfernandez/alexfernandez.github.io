@@ -1298,7 +1298,7 @@ Música:
 * Daniel Butterfield: [Taps](https://www.youtube.com/watch?v=Bfe4TxvUOiw). The United States Army Band.
 * Rachmaninov: [All-night Vigil, Op. 37](https://www.youtube.com/watch?v=-CCGysyW3-U). Capilla de San Petersburgo (2023).
 * Saint-Saëns: [Sinfonía número 3 (Órgano)](https://archive.org/details/sonopresse-um-64-051/). Sonopresse.
-* Charles Gounod: [Marcha fúnebre de una marioneta](https://www.youtube.com/watch?v=vNMxnK8dM9U). Disney Silly Symphonies (1929).
+* Charles Gounod: [Marcha fúnebre de una marioneta](https://imslp.org/wiki/Marche_fun%C3%A8bre_d'une_marionnette,_CG_583_(Gounod,_Charles)). Masters Music Publications (2005).
 * Carl W. Stalling: [Springtime](https://www.youtube.com/watch?v=pJQJzsJvpIw). Disney Silly Symphonies (1929).
 * Charles Ives: [Central Park in the Dark](https://www.youtube.com/watch?v=RC6jSHYQURc). Symphony Orchestra of Bartók Conservatory (2017).
 * Robert Johnson: [When You Got a Good Friend](https://archive.org/details/terraplane-blues-.-74/When+You+Got+A+Good+Friend+(.74%25).mp3). Grabación de 1936.
