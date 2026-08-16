@@ -15,15 +15,13 @@ image: https://pinchito.es/2026/pics/cuando-todo-02-challenger.jpg
 ![Plano del transbordador espacial Challenger. Fuente: [NASA](https://www.loc.gov/resource/hhh.tx1106.sheet/?sp=2).](pics/cuando-todo-02-challenger.jpg "Diagrama ingenieril del Challenger en perspectiva isométrica, mostrando la nave, el tanque y los motores propulsores laterales. En blanco sobre azul.")
 
 Éste es el segundo episodio del podcast "Cuando todo sale mal".
-Escúchalo en [Spotify](https://open.spotify.com/episode/39TzMJk3fFIJFHDDFCca8D?si=7dCO6e6KQiKOgMOVJS7p5A).
-<!--
-[Amazon Music](https://music.amazon.com/podcasts/06feef17-8687-4861-9d32-ed762264df9f),
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/cuando-todo-sale-mal/id1896853464),
-[Castbox](https://castbox.fm/ch/7250793),
-[Pocket Casts](https://pca.st/gv0d6s4v),
-[YouTube](: https://youtu.be/viWqDHlO9n4),
-o baja el [mp3](https://pinchito.es/audio/cuando-todo-01-chornobil.mp3).
--->
+Escúchalo en [Spotify](https://open.spotify.com/episode/39TzMJk3fFIJFHDDFCca8D?si=7dCO6e6KQiKOgMOVJS7p5A),
+[Amazon Music](https://music.amazon.com/podcasts/06feef17-8687-4861-9d32-ed762264df9f/episodes/be9742f7-e269-4ebc-ae71-8b7c94915423/cuando-todo-sale-mal-explosi%C3%B3n-del-challenger),
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/explosi%C3%B3n-del-challenger/id1896853464?i=1000783491347),
+[Castbox](https://castbox.fm/episode/Explosi%C3%B3n-del-Challenger-id7250793-id983838396),
+[Pocket Casts](https://pca.st/t4maghtw),
+[YouTube](https://www.youtube.com/watch?v=OANMYxxBIaM),
+o baja el [mp3](https://pinchito.es/audio/cuando-todo-02-challenger.mp3).
 
 Este artículo es su compañero fiel:
 puedes encontrar aquí la transcripción completa,
