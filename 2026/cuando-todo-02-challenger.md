@@ -1,7 +1,7 @@
 ---
 title: 'Explosión del Challenger'
 subtitle: 'Cuando todo sale mal, episodio 2'
-footer: Publicado el 2026-08-15, modificado el 2026-08-15.
+footer: Publicado el 2026-08-15, modificado el 2026-08-16.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Florida, enero de 1986.
