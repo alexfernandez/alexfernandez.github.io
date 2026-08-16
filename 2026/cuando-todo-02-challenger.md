@@ -1294,6 +1294,7 @@ Música:
 * Charles Ives: [Decoration Day](https://www.youtube.com/watch?v=0og6UZM_LEI).
 * Randall Wallace: [Mansions of the Lord](https://www.youtube.com/watch?v=RtBYooE-s44). The US Army Trumpet Ensemble (2020).
 * John Newton: [Amazing Grace](https://www.youtube.com/watch?v=GsBkwVCaRHI). The United States Army Band.
+* Tennessee Ramblers: [Steel guitar blues](https://adp.library.ucsb.edu/index.php/matrix/detail/200039239/BS-041325-Steel_guitar_blues). Victor (1936).
 * Daniel Butterfield: [Taps](https://www.youtube.com/watch?v=Bfe4TxvUOiw). The United States Army Band.
 * Rachmaninov: [All-night Vigil, Op. 37](https://www.youtube.com/watch?v=-CCGysyW3-U). Capilla de San Petersburgo (2023).
 * Saint-Saëns: [Sinfonía número 3 (Órgano)](https://archive.org/details/sonopresse-um-64-051/). Sonopresse.
