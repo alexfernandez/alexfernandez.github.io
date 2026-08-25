@@ -20,7 +20,7 @@ Escúchalo en [Spotify](https://open.spotify.com/episode/39TzMJk3fFIJFHDDFCca8D?
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/explosi%C3%B3n-del-challenger/id1896853464?i=1000783491347),
 [Castbox](https://castbox.fm/episode/Explosi%C3%B3n-del-Challenger-id7250793-id983838396),
 [Pocket Casts](https://pca.st/t4maghtw),
-[YouTube](https://www.youtube.com/watch?v=OANMYxxBIaM),
+[YouTube](https://youtu.be/efxkoEMsHBU),
 o baja el [mp3](https://pinchito.es/audio/cuando-todo-02-challenger.mp3).
 
 Este artículo es su compañero fiel:
