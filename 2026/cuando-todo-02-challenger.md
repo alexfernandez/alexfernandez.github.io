@@ -211,7 +211,7 @@ incluyendo a expertos de primera línea:
 aunque sólo se dignó aparecer en la primera reunión.
 * El responsable de la comisión era el político de carrera William Rogers,
 ex-secretario de estado con Nixon
-(lo que aquí sería ministro de interior).
+(lo que aquí sería ministro <s>de interior</s> de asuntos exteriores.)
 
 Encontramos también en la comisión a un personaje peculiar:
 el premio Nobel de física Richard Feynman.
