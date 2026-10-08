@@ -1,7 +1,7 @@
 ---
 title: 'Explosión del Challenger'
 subtitle: 'Cuando todo sale mal, episodio 2'
-footer: Publicado el 2026-08-15, modificado el 2026-08-16.
+footer: Publicado el 2026-08-15, modificado el 2026-08-30.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Florida, enero de 1986.
@@ -211,7 +211,7 @@ incluyendo a expertos de primera línea:
 aunque sólo se dignó aparecer en la primera reunión.
 * El responsable de la comisión era el político de carrera William Rogers,
 ex-secretario de estado con Nixon
-(lo que aquí sería ministro de interior).
+(lo que aquí sería ministro <s>de interior</s> de asuntos exteriores.)
 
 Encontramos también en la comisión a un personaje peculiar:
 el premio Nobel de física Richard Feynman.
@@ -1275,7 +1275,7 @@ Fuentes sonoras:
 * [The Challenger Disaster: A Series of Mistakes](https://www.youtube.com/watch?v=TFRWj2Kcsbc).
 * [Richard Feynman debunks NASA](https://www.youtube.com/watch?v=raMmRKGkGD4).
 * [Space Shuttle ... Watched by Back Up Teacher](https://www.youtube.com/watch?v=2P1bR6hShJ4).
-* Mr Feynman Goes to Washington, Caltech archives (inédito).
+* [Mr Feynman Goes to Washington](https://www.youtube.com/watch?v=FZPz-C9kJOQ).
 * [The Challenger Disaster, 30 Years Later](https://podcasts.apple.com/us/podcast/the-challenger-disaster-30-years-later/id1009072355?i=1000361455114).
 * [Challenger Disaster (Standard 4:3)](https://archive.org/details/ChallengerDisaster).
 * [Unethical Decisions - The Causes of the Space Shuttle Challenger Disaster](https://www.youtube.com/watch?v=DB8iYf_857U).
