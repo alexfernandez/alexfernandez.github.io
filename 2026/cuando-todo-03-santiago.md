@@ -179,7 +179,7 @@ Lo ingresan en el hospital con heridas y tres costillas rotas.
 A los tres días el ministro del interior comparece ante los medios de comunicación:
 el conductor está en la cárcel, costillas rotas y todo.
 
-> el maquinista está en situación jurídica de detenido por la policía
+> El maquinista está en situación jurídica de detenido por la policía
 > con la imputación del presunto delito de homicidio por imprudencia.
 
 Más portadas de El País:
