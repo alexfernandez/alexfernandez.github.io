@@ -1321,8 +1321,27 @@ Fuentes sonoras:
 
 Música:
 
-- [Music Ceremony Hiroshima Lantern Floating August 6 Hiroshima](https://www.youtube.com/watch?v=KG2X9XwQZzM).
-- [Matsushiro Gagaku (2026)-09-19](https://www.youtube.com/watch?v=dvNlfcpg8Fg).
+- Xoan Montes: [Negra Sombra](https://www.youtube.com/watch?v=nt7HjmK0_-0). Jopfen Music (2014).
+- Francisco Tárrega: [Lágrima](https://www.youtube.com/watch?v=cdA4acBAYLs). Jonathan Moolman (2020).
+- Tradicional (intérprete: Victoria de los Ángeles): [El Cant des Ocells](https://archive.org/details/78_el-cant-des-ocells-song-of-the-birds_victoria-de-los-angeles-renata-tarrago-gra_gbia0076911a). His Master's Voice (1977).
+- Miguel de Ambiela: [Stabat Mater Dolorosa](https://www.youtube.com/watch?v=YqNSXdkB598). José Luis Rueda García (2018).
+- A. de Ribera: [Por unos puertos](https://archive.org/details/lp_spanish-music-from-the-court-of-ferdinand_pro-musica-antiqua-safford-cape-juan-del-e/). EMS Recordings (1952).
+- Tradicional: [Muiñeira de Folgoso do Courel](https://www.youtube.com/watch?v=3cBF3q8ftHM). Alalá TVG (2020).
+- Joaquín Turina: [Danzas gitanas](https://archive.org/details/recitalofspanish00regu/). Esoteric Records (1955).
+- Isaac Albéniz: [Cantos de España](https://archive.org/details/recitalofspanish00regu/). Esoteric Records (1955).
+- Fiorentino: [Fantasia](https://archive.org/details/lp_italian-songs-16th-and-17th-centuries-spa_hugues-cunod-hermann-leeb_0/). Westminster (1951).
+- Giovanni Battista Pergolesi: [Stabat mater](https://www.youtube.com/watch?v=QL4ih6f_6hc). mk671vlogs (2020).
+- Juan del Encina: [Triste España](https://archive.org/details/lp_spanish-music-from-the-court-of-ferdinand_pro-musica-antiqua-safford-cape-juan-del-e/). EMS Recordings (1952).
+- Joaquín Turina: [Poema fantástico](https://archive.org/details/lp_piano-music-from-spain_william-masselos/). MGM (1955).
+- Francisco Tárrega: [Preludio Sobre los Gruppetos](https://www.youtube.com/watch?v=zmWyQ_GhUME). Jean-François Delcamp (2015).
+- Francisco Tárrega: [Étude in E minor](https://www.youtube.com/watch?v=RwFnfy1ErW8). Jean-François Delcamp (2015).
+- Katy Adelson: [Ghost Ship (Round)](https://www.youtube.com/watch?v=ZcFLTefbMR8). Katy Adelson (2019).
+- Sabicas: [Seguiriya](https://archive.org/details/lp_queen-of-the-gypsies-the-rhythms-of-carmen_carmen-amaya-company-sabicas/). Decca (1955).
+- Varios: [Music Ceremony Hiroshima Lantern Floating August 6 Hiroshima](https://www.youtube.com/watch?v=KG2X9XwQZzM). Jack in the Beat (2026).
+- Varios: [Matsushiro Gagaku](https://www.youtube.com/watch?v=dvNlfcpg8Fg). Matsushiro TV&Wave Station (2026).
+- Ravel: [Pavane pour une infante défunte](https://archive.org/details/2-m-long-m-ravel-ravel-piano-conc-mov-2-col-lfx-257-9-1932/). Columbia (1932).
+- Albéniz: [España, Op.165 No. 1: Preludio](https://www.classicals.de/albeniz-espana). Classicals.de (2026).
+- Tomás Luis De Victoria: [Jesu Dulcis Memoria](https://archive.org/details/lp_spanish-choral-music_capilla-clasica-polifonica-del-fad-enri/). Angel Records (1955).
 
 Las piezas publicadas hace más de 70 años, cuyos autores fallecieron hace también más de 70 años,
 están en el dominio público en la Unión Europea.
