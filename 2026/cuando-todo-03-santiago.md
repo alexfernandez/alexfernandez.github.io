@@ -156,6 +156,7 @@ The Japan Times (el 28),
 básicamente todos los periódicos importantes que me he molestado en consultar.
 
 Portada de El País el 26 de julio de 2013, dos días tras el accidente:
+
 - El tren frenó demasiado tarde.
 Al menos 80 fallecidos y 32 heridos muy graves en la tragedia de Santiago.
 Nuevos detalles de la grabación del maquinista revelan el exceso de velocidad:
@@ -182,6 +183,7 @@ el conductor está en la cárcel, costillas rotas y todo.
 > con la imputación del presunto delito de homicidio por imprudencia.
 
 Más portadas de El País:
+
 - 29 de julio: El maquinista del tren asume el "despiste" que provocó la tragedia.
 El juez deja libre con cargos a Francisco Garzón,
 le imputa 79 delitos de homicidio y le retira durante seis meses el pasaporte y la licencia.
@@ -192,6 +194,7 @@ El maquinista se sinceró ante la policía y admitió su error.
 A continuación Garzón se encierra en su casa bajo tratamiento psicológico.
 
 Y todavía más portadas de El País:
+
 - 31 de julio: El maquinista hablaba por el teléfono móvil antes de descarrilar.
 Garzón empezó a frenar a 250 metros de la curva y a 184 por hora.
 - 1 de agosto: Así fue la tragedia del tren de Santiago.
@@ -253,7 +256,7 @@ así que tenemos acceso a un montón de documentación contemporánea,
 lo que se suele llamar en historia "fuentes primarias".
 
 Portada de El País el 27 de julio de 2013:
-- Los presidentes de Renfe y Adif culpan al maquinista del tren de Santiago.
+Los presidentes de Renfe y Adif culpan al maquinista del tren de Santiago.
 Los responsables ferroviarios dicen que debería haber reducido antes la velocidad.
 El conductor se niega a declarar ante la policía.
 
@@ -741,6 +744,7 @@ a quien ya conocemos bien gracias a sus frasecicas,
 estaba demasiado ocupado con otra investigación.
 
 Portada de El País, 31 de enero de 2013:
+
 - Los papeles secretos de Bárcenas.
 - Las cuentas manuscritas de los tesoreros del Partido Popular entre 1990 y 2008.
 - Las anotaciones reflejan entregas a Rajoy de 25.200 euros anuales durante 11 años.
@@ -768,6 +772,7 @@ se pongan las medidas para que no vuelva a ocurrir.
 ### Los arreglos
 
 Portadas de El País en las semanas tras el accidente.
+
 - 3 de agosto de 2013: Los trenes tendrán freno automático en zonas de riesgo.
 - 9 de agosto: Fomento revisará las velocidades máximas de los trenes en toda la red.
 - 10 de agosto: Fomento blinda la red de trenes con 20 mejoras en la seguridad.
@@ -796,6 +801,7 @@ No es lo que se dice una obra relámpago.
 
 Vamos a ver brevemente qué pasó en los tribunales, que es otro culebrón.
 En España, los juicios penales se desarrollan en varias fases principales:
+
 - fase de instrucción, que es la investigación previa;
 - fase oral, donde se exponen los argumentos, que es la que sale en las películas;
 - la sentencia, donde se deciden las penas;
@@ -831,7 +837,7 @@ o si hubiera instalado las balizas de ASFA cuatro semanas antes,
 tampoco habría estado allí delante del juez.
 
 Portada de El País, 27 de julio de 2024:
-- Condenados por la tragedia del Alvia el conductor y un cargo de Adif.
+Condenados por la tragedia del Alvia el conductor y un cargo de Adif.
 
 La sentencia se dicta el 26 de julio de 2024, once años después del accidente.
 Las primeras 8 páginas de las 120 se le van sólo en listar a los implicados,
@@ -1030,6 +1036,7 @@ Como dice el refrán, las desgracias nunca vienen solas.
 ¿Ha vuelto a repetirse un accidente parecido?
 
 Portada de El País, 19 de enero de 2026:
+
 - Tragedia en la alta velocidad.
 - Al menos 21 muertos y decenas de heridos por un descarrilamiento en Córdoba.
 - El ministro Puente califica el suceso de "tremendamente extraño" al ser en un tramo recto de una vía renovada.
@@ -1080,6 +1087,7 @@ tampoco parece muy inclinado a buscar responsabilidades.
 Y ojalá acabara ahí la cosa.
 
 Portada de El País, 29 de octubre de 2026:
+
 - Segunda catástrofe mortal en la alta velocidad en menos de un año.
 - Al menos 68 muertos al colisionar dos trenes en Toledo.
 
