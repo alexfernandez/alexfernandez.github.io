@@ -117,6 +117,7 @@ matando instantáneamente al menos a 60 personas.
 En total va a haber 80 víctimas mortales y 152 personas heridas.
 
 Portadas de El País los días tras el accidente:
+
 - 25 de julio: Caímos al suelo y nos vimos rodeados de muertos.
 - 27 de julio: "Ni sé si saldré. Me ahogo. Aplastada."
 El whatsapp de una superviviente ilustra el infierno del accidente.
