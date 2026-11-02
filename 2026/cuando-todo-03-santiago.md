@@ -1,7 +1,7 @@
 ---
 title: 'Alvia a Santiago'
 subtitle: 'Cuando todo sale mal, episodio 3'
-footer: Publicado el 2026-11-01, modificado el 2026-11-01.
+footer: Publicado el 2026-11-01, modificado el 2026-11-03.
   [¿Comentarios, sugerencias?](mailto:alexfernandeznpm@gmail.com)
 abstract:
   'Santiago de Compostela, julio de 2013.
