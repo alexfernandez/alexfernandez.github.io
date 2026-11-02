@@ -16,15 +16,13 @@ image: https://pinchito.es/2026/pics/cuando-todo-03-santiago.jpg
 ![Plano del tren Alvia. Fuente: Renfe.](pics/cuando-todo-03-santiago.jpg "Diagrama ingenieril del tren Alvia 730 en perspectiva isométrica, mostrando la locomotora y los vagones. En blanco sobre azul.")
 
 Éste es el tercer episodio del podcast "Cuando todo sale mal".
-Escúchalo en [Spotify](https://open.spotify.com/episode/20fUOsj24csh1s7poj3m6z?si=fKS2rR7XRvy6ZY7SKVZYCw).
-<!--
-[Amazon Music](https://music.amazon.com/podcasts/06feef17-8687-4861-9d32-ed762264df9f/episodes/be9742f7-e269-4ebc-ae71-8b7c94915423/cuando-todo-sale-mal-explosi%C3%B3n-del-challenger),
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/explosi%C3%B3n-del-challenger/id1896853464?i=1000783491347),
-[Castbox](https://castbox.fm/episode/Explosi%C3%B3n-del-Challenger-id7250793-id983838396),
-[Pocket Casts](https://pca.st/t4maghtw),
-[YouTube](https://youtu.be/efxkoEMsHBU),
+Escúchalo en [Spotify](https://open.spotify.com/episode/20fUOsj24csh1s7poj3m6z?si=fKS2rR7XRvy6ZY7SKVZYCw),
+[Amazon Music](https://music.amazon.es/podcasts/06feef17-8687-4861-9d32-ed762264df9f/episodes/590273bb-91db-40cb-aed4-d226647e0eb4/cuando-todo-sale-mal-alvia-a-santiago),
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/alvia-a-santiago/id1896853464?i=1000799268148),
+[Castbox](https://castbox.fm/episode/Alvia-a-Santiago-id7250793-id1019624107?country=us),
+[Pocket Casts](https://pca.st/7ml89xrg),
+[YouTube](https://www.youtube.com/watch?v=rpuon3zvgU8),
 o baja el [mp3](https://pinchito.es/audio/cuando-todo-03-santiago.mp3).
--->
 
 Este artículo es su compañero fiel:
 puedes encontrar aquí la transcripción completa,
